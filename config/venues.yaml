@@ -1,0 +1,26 @@
+# Venue priorities are a weak ranking signal, not a substitute for relevance.
+
+venue_config_version: 1
+
+default_score: 0.0
+
+venue_groups:
+  top_priority:
+    score: 1.0
+    venues: []
+
+  high_priority:
+    score: 0.7
+    venues: []
+
+  relevant:
+    score: 0.4
+    venues: []
+
+# Example entry:
+# - name: "Conference or Journal Name"
+#   aliases:
+#     - "Common abbreviation"
+#   identifiers:
+#     issn: []
+#     openalex_source_id: ""
