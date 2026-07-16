@@ -64,12 +64,86 @@ projects:
     # Add explicit false-positive topics after observing retrieval errors.
     excluded_topics: []
 
-    # The screenshots supplied so far contain truncated filenames. Add seed
-    # papers only after a DOI, complete title, or PDF has been verified.
     seed_papers:
-      positive: []
+      positive:
+        - title: "Deep physical neural networks trained with backpropagation"
+          doi: "10.1038/s41586-021-04223-6"
+          year: 2022
+          venue: "Nature"
+          seed_weight: 1.0
+          themes:
+            - "physics-aware training"
+            - "physical neural networks"
+            - "hybrid in-situ and in-silico backpropagation"
+
+        - title: "Single-chip photonic deep neural network with forward-only training"
+          doi: "10.1038/s41566-024-01567-z"
+          year: 2024
+          venue: "Nature Photonics"
+          seed_weight: 1.0
+          themes:
+            - "integrated photonic neural networks"
+            - "forward-only training"
+            - "coherent optical nonlinear processing"
+
+        - title: "Training of physical neural networks"
+          doi: "10.1038/s41586-025-09384-2"
+          year: 2025
+          venue: "Nature"
+          seed_weight: 1.0
+          themes:
+            - "physical neural network training review"
+            - "backpropagation-based training"
+            - "backpropagation-free training"
+
+        - title: "Model-free optical processors using in situ reinforcement learning with proximal policy optimization"
+          doi: "10.1038/s41377-025-02148-7"
+          year: 2026
+          venue: "Light: Science & Applications"
+          seed_weight: 1.0
+          themes:
+            - "model-free optical training"
+            - "in-situ reinforcement learning"
+            - "diffractive optical processors"
+
+        - title: "Training large-scale optoelectronic neural networks with dual-neuron optical-artificial learning"
+          doi: "10.1038/s41467-023-42984-y"
+          year: 2023
+          venue: "Nature Communications"
+          seed_weight: 1.0
+          themes:
+            - "large-scale optoelectronic neural networks"
+            - "dual-neuron optical-artificial learning"
+            - "diffractive network optimization"
+
+        - title: "Experimentally realized in situ backpropagation for deep learning in photonic neural networks"
+          doi: "10.1126/science.ade8450"
+          year: 2023
+          venue: "Science"
+          seed_weight: 1.0
+          themes:
+            - "in-situ optical backpropagation"
+            - "integrated photonic neural networks"
+            - "physical gradient measurement"
+
+        - title: "Physical neural networks using sharpness-aware training"
+          doi: "10.1038/s41467-026-68470-9"
+          year: 2026
+          venue: "Nature Communications"
+          seed_weight: 1.0
+          themes:
+            - "sharpness-aware training"
+            - "robust physical neural networks"
+            - "cross-device transfer and perturbation resilience"
+
       negative: []
 
     watched_authors: []
 
-    priority_venues: []
+    priority_venues:
+      - "Nature"
+      - "Science"
+      - "Nature Photonics"
+      - "Nature Communications"
+      - "Light: Science & Applications"
+      - "Advanced Photonics"
