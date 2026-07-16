@@ -1,0 +1,44 @@
+pipeline_version: 1
+
+timezone: Asia/Singapore
+
+sources:
+  google_scholar_email:
+    enabled: true
+    collection_frequency: daily
+
+  openalex:
+    enabled: true
+    collection_frequency_days: 2
+
+  semantic_scholar:
+    enabled: false
+    collection_frequency_days: 7
+
+  crossref:
+    enabled: true
+    role: metadata_enrichment
+
+limits:
+  max_raw_items_per_source: 100
+  max_normalized_candidates: 100
+  max_candidates_after_scoring: 10
+  max_candidates_to_llm: 5
+  max_daily_summaries: 3
+  max_abstract_characters_per_paper: 2500
+  max_output_characters: 1200
+
+thresholds:
+  archive_below: 0.55
+  retain_without_summary_from: 0.55
+  summarize_from: 0.72
+  urgent_from: 0.85
+
+llm:
+  enabled: false
+  allow_full_text: false
+  skip_when_no_high_score_candidates: true
+
+storage:
+  retain_raw_days: 30
+  retain_all_normalized_records: true
