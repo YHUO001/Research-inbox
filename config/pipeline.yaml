@@ -1,4 +1,4 @@
-pipeline_version: 1
+pipeline_version: 2
 
 timezone: Asia/Singapore
 
@@ -6,18 +6,41 @@ sources:
   google_scholar_email:
     enabled: true
     collection_frequency: daily
+    primary_daily_inbox_source: true
 
   openalex:
     enabled: true
     collection_frequency_days: 2
+    role: "semantic_discovery_and_metadata"
 
   semantic_scholar:
     enabled: false
     collection_frequency_days: 7
+    role: "recommendation_and_citation_graph"
 
   crossref:
     enabled: true
-    role: metadata_enrichment
+    role: "metadata_enrichment"
+
+routing:
+  venue_policy:
+    config_path: "config/venues.yaml"
+    mode: "post_retrieval_only"
+    applies_to_sources:
+      - "google_scholar_email"
+    use_venue_list_for_discovery_queries: false
+
+  mandatory_summary_queue:
+    enabled: true
+    priority: "highest"
+    process_before_standard_candidates: true
+    bypass_relevance_threshold: true
+    respect_daily_token_hard_stop: true
+    overflow_action: "carry_forward"
+    explanation: >
+      Tier-1 papers returned by Google Scholar alerts must be summarized. When
+      the daily budget is exhausted, unfinished items remain queued for the next
+      run and may not be archived, downgraded, or silently skipped.
 
 limits:
   max_raw_items_per_source: 100
