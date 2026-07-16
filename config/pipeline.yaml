@@ -1,4 +1,4 @@
-pipeline_version: 2
+pipeline_version: 3
 
 timezone: Asia/Singapore
 
@@ -30,17 +30,37 @@ routing:
       - "google_scholar_email"
     use_venue_list_for_discovery_queries: false
 
+  project_rule_overrides:
+    config_path: "config/research_profile.yaml"
+    rules:
+      - id: "optical-zo-must-summarize"
+        project_id: "zeroth-order-optimization"
+        source_scope:
+          - "google_scholar_email"
+        rule_path: "routing_rules.mandatory_full_summary"
+        action: "enqueue_mandatory_summary"
+        bypass_relevance_threshold: true
+        bypass_venue_threshold: true
+        overflow_action: "carry_forward"
+        explanation: >
+          Any Scholar-alert paper applying zeroth-order or black-box optimization
+          to optical neural networks, photonic processors, physical neural
+          networks, or analog neural hardware must receive a full summary.
+
   mandatory_summary_queue:
     enabled: true
     priority: "highest"
     process_before_standard_candidates: true
+    accepted_reasons:
+      - "tier_1_alert_venue"
+      - "project_rule_override"
     bypass_relevance_threshold: true
     respect_daily_token_hard_stop: true
     overflow_action: "carry_forward"
     explanation: >
-      Tier-1 papers returned by Google Scholar alerts must be summarized. When
-      the daily budget is exhausted, unfinished items remain queued for the next
-      run and may not be archived, downgraded, or silently skipped.
+      Mandatory items must be summarized. When the daily budget is exhausted,
+      unfinished items remain queued for the next run and may not be archived,
+      downgraded, or silently skipped.
 
 limits:
   max_raw_items_per_source: 100
