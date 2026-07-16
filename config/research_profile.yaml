@@ -6,44 +6,70 @@ profile_version: 1
 default_language: en
 
 projects:
-  - id: main-project
-    name: "Current main research project"
+  - id: optical-neural-networks
+    name: "Optical neural networks"
     enabled: true
 
-    # Write a 150–300 word description covering the research question,
-    # objects of study, methods, data, application setting, and exclusions.
+    # This statement is used for semantic retrieval. Keep it broad enough to
+    # capture vocabulary drift, while preserving the project's main emphasis.
     research_statement: >
-      TODO: Describe the current research project here.
+      This project studies optical neural networks and photonic machine-learning
+      systems, with primary emphasis on free-space and spatial optical computing.
+      The main research interest is how optical neural networks can be trained,
+      calibrated, and scaled in physical hardware, including in-situ and
+      hardware-aware learning, optical or approximate backpropagation,
+      backpropagation-free and forward-only training, model-free optimization,
+      transfer learning on analog hardware, and methods that remain robust to
+      misalignment, noise, nonlinearity, fabrication variation, and other
+      physical imperfections. The project also tracks architectural innovation
+      in diffractive neural networks, coherent optical processors, metasurface
+      and holographic systems, optical convolution and encoding, neuromorphic
+      photonics, spiking optoelectronic networks, and hybrid optical-electronic
+      systems. Although spatial optical implementations are the principal focus,
+      integrated and on-chip photonic neural networks remain within scope,
+      especially when they introduce transferable training methods, scalable
+      end-to-end architectures, nonlinear processing, or meaningful gains in
+      energy efficiency, latency, throughput, or physical deployability. Work on
+      new applications is relevant when it demonstrates a substantive optical
+      computing capability rather than merely applying a conventional model to
+      a new dataset.
 
     core_topics:
-      - "TODO: core topic 1"
-      - "TODO: core topic 2"
-      - "TODO: core topic 3"
+      - "free-space optical neural networks"
+      - "spatial optical neural networks"
+      - "training physical and optical neural networks"
+      - "in-situ optical training and calibration"
+      - "diffractive optical neural networks"
+      - "optical neural network architectures"
+      - "applications of optical neural networks"
 
     methods:
-      - "TODO: primary method 1"
-      - "TODO: primary method 2"
+      - "optical and physical backpropagation"
+      - "backpropagation-free and forward-only learning"
+      - "hardware-aware and model-free optimization"
+      - "transfer learning on analog photonic hardware"
+      - "robust training under misalignment, noise, and device variation"
+      - "diffractive, coherent, holographic, and metasurface optical computing"
+      - "optical convolution, encoding, and nonlinear processing"
+      - "photonic-electronic hardware-software co-design"
 
     adjacent_topics:
-      - "TODO: related topic worth monitoring"
+      - "integrated and on-chip photonic neural networks"
+      - "neuromorphic photonics and optoelectronic spiking networks"
+      - "physical neural networks and analog machine learning hardware"
+      - "silicon photonic accelerators"
+      - "optical computing for sensing, imaging, and signal processing"
+      - "photonic machine learning systems"
 
-    excluded_topics:
-      - "TODO: ambiguous or irrelevant topic to suppress"
+    # Add explicit false-positive topics after observing retrieval errors.
+    excluded_topics: []
 
+    # The screenshots supplied so far contain truncated filenames. Add seed
+    # papers only after a DOI, complete title, or PDF has been verified.
     seed_papers:
-      positive:
-        # Prefer DOI; title is allowed when DOI is unavailable.
-        - title: "TODO: highly relevant seed paper"
-          doi: ""
+      positive: []
+      negative: []
 
-      negative:
-        # Add papers that look similar lexically but are not relevant.
-        []
+    watched_authors: []
 
-    watched_authors:
-      # Use ORCID where available.
-      - name: ""
-        orcid: ""
-
-    priority_venues:
-      - "TODO: important journal or conference"
+    priority_venues: []
