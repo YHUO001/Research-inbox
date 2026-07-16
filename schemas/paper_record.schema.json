@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/YHUO001/Research-inbox/schemas/paper_record.schema.json",
+  "title": "Normalized Paper Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "canonical_id",
+    "title",
+    "normalized_title",
+    "authors",
+    "source_types",
+    "scores",
+    "matched_projects",
+    "status",
+    "first_seen_at",
+    "last_seen_at"
+  ],
+  "properties": {
+    "canonical_id": {"type": "string"},
+    "title": {"type": "string", "minLength": 1},
+    "normalized_title": {"type": "string", "minLength": 1},
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name"],
+        "properties": {
+          "name": {"type": "string"},
+          "orcid": {"type": "string"}
+        }
+      }
+    },
+    "publication_date": {"type": ["string", "null"], "format": "date"},
+    "year": {"type": ["integer", "null"]},
+    "venue": {"type": "string"},
+    "doi": {"type": "string"},
+    "arxiv_id": {"type": "string"},
+    "pmid": {"type": "string"},
+    "openalex_id": {"type": "string"},
+    "semantic_scholar_id": {"type": "string"},
+    "url": {"type": "string"},
+    "pdf_url": {"type": "string"},
+    "abstract": {"type": "string"},
+    "source_types": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "source_records": {
+      "type": "array",
+      "items": {"type": "object"}
+    },
+    "citation_count": {"type": ["integer", "null"], "minimum": 0},
+    "referenced_seed_papers": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["semantic", "lexical", "venue", "citation", "author", "novelty", "total"],
+      "properties": {
+        "semantic": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "lexical": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "venue": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "citation": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "author": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "novelty": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "total": {"type": ["number", "null"], "minimum": 0, "maximum": 1}
+      }
+    },
+    "matched_projects": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "status": {
+      "type": "string",
+      "enum": ["new", "retained", "queued_for_summary", "summarized", "archived", "rejected"]
+    },
+    "first_seen_at": {"type": "string", "format": "date-time"},
+    "last_seen_at": {"type": "string", "format": "date-time"}
+  }
+}
