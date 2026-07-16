@@ -1,26 +1,97 @@
-# Venue priorities are a weak ranking signal, not a substitute for relevance.
+# Venue policy for optical-neural-network paper triage.
+# Venue prestige affects routing, but never replaces a broad topical relevance gate.
 
 venue_config_version: 1
 
-default_score: 0.0
+# Unlisted and lower-tier venues receive little prior weight. Their papers are
+# retained only when semantic or citation-based relevance is exceptionally high.
+default_score: 0.1
 
 venue_groups:
-  top_priority:
+  tier_1_must_review:
     score: 1.0
+    policy:
+      action: "must_review"
+      within_project_domain_only: true
+      bypass_standard_shortlist_threshold: true
+      always_include_metadata: true
+      always_include_one_line_triage: true
+      full_summary_requires_relevance: true
+      rationale: >
+        Any paper from these venues that passes the broad optical-neural-network
+        domain gate must appear in the review queue. A detailed LLM summary is
+        still relevance-gated to control token consumption.
+    venues:
+      - name: "Nature"
+        aliases:
+          - "N"
+          - "Nature Journal"
+
+      - name: "Science"
+        aliases:
+          - "S"
+          - "Science Magazine"
+
+      - name: "Nature Photonics"
+        aliases:
+          - "Nat. Photonics"
+          - "Nat Photon"
+          - "NP"
+
+      - name: "Nature Communications"
+        aliases:
+          - "Nat. Commun."
+          - "Nat Commun"
+          - "NC"
+
+      - name: "Light: Science & Applications"
+        aliases:
+          - "Light Sci. Appl."
+          - "Light Sci Appl"
+          - "Light"
+          - "LSA"
+
+      - name: "Advanced Photonics"
+        aliases:
+          - "Adv. Photonics"
+          - "Adv Photonics"
+          - "AP"
+
+  tier_2_relevance_gated:
+    score: 0.65
+    policy:
+      action: "review_when_relevant"
+      within_project_domain_only: true
+      bypass_standard_shortlist_threshold: false
+      always_include_metadata: false
+      always_include_one_line_triage: false
+      full_summary_requires_relevance: true
+      rationale: >
+        Papers from these venues are routed according to semantic relevance,
+        citation proximity to seed papers, and method or architecture novelty.
+    venues:
+      - name: "Optica"
+        aliases:
+          - "Optica Journal"
+
+  tier_3_and_unlisted:
+    score: 0.1
+    policy:
+      action: "review_only_when_exceptionally_relevant"
+      within_project_domain_only: true
+      bypass_standard_shortlist_threshold: false
+      always_include_metadata: false
+      always_include_one_line_triage: false
+      full_summary_requires_relevance: true
+      rationale: >
+        Lower-tier and unlisted venues should enter the review queue only when
+        they are highly aligned with the current project, directly connected to
+        seed papers, or contain a clearly important training, architecture, or
+        application contribution.
     venues: []
 
-  high_priority:
-    score: 0.7
-    venues: []
-
-  relevant:
-    score: 0.4
-    venues: []
-
-# Example entry:
-# - name: "Conference or Journal Name"
-#   aliases:
-#     - "Common abbreviation"
-#   identifiers:
-#     issn: []
-#     openalex_source_id: ""
+# Later scoring code should enforce this routing order:
+# 1. Apply a broad project-domain gate.
+# 2. Apply the venue policy above.
+# 3. Use semantic, lexical, citation, author, and novelty scores for ranking.
+# 4. Never summarize full text automatically; use title and abstract first.
