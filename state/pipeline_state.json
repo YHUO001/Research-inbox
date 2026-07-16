@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "last_successful_run": null,
+  "source_checkpoints": {
+    "google_scholar_email": null,
+    "openalex": null,
+    "semantic_scholar": null
+  },
+  "statistics": {
+    "total_raw_items": 0,
+    "total_unique_papers": 0,
+    "total_summarized_papers": 0
+  }
+}
