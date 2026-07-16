@@ -1,0 +1,49 @@
+# Research profile for paper discovery and relevance scoring.
+# Keep this file free of API keys and other secrets.
+
+profile_version: 1
+
+default_language: en
+
+projects:
+  - id: main-project
+    name: "Current main research project"
+    enabled: true
+
+    # Write a 150–300 word description covering the research question,
+    # objects of study, methods, data, application setting, and exclusions.
+    research_statement: >
+      TODO: Describe the current research project here.
+
+    core_topics:
+      - "TODO: core topic 1"
+      - "TODO: core topic 2"
+      - "TODO: core topic 3"
+
+    methods:
+      - "TODO: primary method 1"
+      - "TODO: primary method 2"
+
+    adjacent_topics:
+      - "TODO: related topic worth monitoring"
+
+    excluded_topics:
+      - "TODO: ambiguous or irrelevant topic to suppress"
+
+    seed_papers:
+      positive:
+        # Prefer DOI; title is allowed when DOI is unavailable.
+        - title: "TODO: highly relevant seed paper"
+          doi: ""
+
+      negative:
+        # Add papers that look similar lexically but are not relevant.
+        []
+
+    watched_authors:
+      # Use ORCID where available.
+      - name: ""
+        orcid: ""
+
+    priority_venues:
+      - "TODO: important journal or conference"
