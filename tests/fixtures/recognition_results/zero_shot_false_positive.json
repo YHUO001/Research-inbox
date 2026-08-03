@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "candidate_id": "fixture-msg-002:0",
+  "classifier_version": 1,
+  "matched_projects": [],
+  "venue_policy": {
+    "matched_tier": "tier_3_and_unlisted",
+    "matched_venue": "Example Conference",
+    "policy_action": "summarize_only_when_exceptionally_relevant"
+  },
+  "routing": {
+    "route": "archive",
+    "priority": "low",
+    "mandatory": false,
+    "reasons": [
+      "negative_pattern_only",
+      "no_project_match"
+    ],
+    "requires_semantic_scoring": false,
+    "requires_manual_review": false,
+    "overflow_action": null
+  },
+  "classifier_warnings": [
+    "The alert query contains 'zero order optimization', but the paper content matches the excluded phrase 'zero-shot classification'."
+  ],
+  "classified_at": "2026-08-03T08:11:01Z"
+}
