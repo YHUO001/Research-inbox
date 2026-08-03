@@ -1,0 +1,1 @@
+"""Controlled outbound delivery adapters."""
