@@ -8,6 +8,8 @@ from pathlib import Path
 from google_auth_oauthlib.flow import InstalledAppFlow
 
 GMAIL_READONLY_SCOPE = "https://www.googleapis.com/auth/gmail.readonly"
+GMAIL_SEND_SCOPE = "https://www.googleapis.com/auth/gmail.send"
+GMAIL_SCOPES = (GMAIL_READONLY_SCOPE, GMAIL_SEND_SCOPE)
 
 
 def load_client_values(path: Path) -> tuple[str, str]:
@@ -29,8 +31,9 @@ def shell_value(value: str) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(
         description=(
-            "Run a one-time local OAuth consent flow and write Gmail credentials "
-            "to an ignored environment file."
+            "Run a one-time local OAuth consent flow for read-only Gmail access "
+            "and outbound email delivery, then write credentials to an ignored "
+            "environment file."
         )
     )
     parser.add_argument("client_secret_file", type=Path)
@@ -50,7 +53,7 @@ def main() -> int:
     client_id, client_secret = load_client_values(args.client_secret_file)
     flow = InstalledAppFlow.from_client_secrets_file(
         str(args.client_secret_file),
-        scopes=[GMAIL_READONLY_SCOPE],
+        scopes=list(GMAIL_SCOPES),
     )
     credentials = flow.run_local_server(
         port=0,
@@ -61,6 +64,14 @@ def main() -> int:
     if not credentials.refresh_token:
         raise RuntimeError(
             "Google did not return a refresh token; revoke the prior grant and retry"
+        )
+
+    granted_scopes = set(credentials.scopes or [])
+    missing_scopes = [scope for scope in GMAIL_SCOPES if scope not in granted_scopes]
+    if missing_scopes:
+        raise RuntimeError(
+            "Google authorization did not grant all required Gmail scopes: "
+            + ", ".join(missing_scopes)
         )
 
     content = "\n".join(
@@ -78,6 +89,7 @@ def main() -> int:
         pass
 
     print(f"Credential values were written to {args.output}.")
+    print("Granted Gmail permissions: read-only mailbox access and email sending.")
     print("Do not commit or upload this file. Add each value to GitHub Actions Secrets.")
     return 0
 
