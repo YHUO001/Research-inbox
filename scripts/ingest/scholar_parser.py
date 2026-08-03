@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup, Tag
 
 SCHOLAR_RESULT_URL = re.compile(r"https?://scholar\.google\.[^/]+/scholar_url\?", re.I)
 MARKDOWN_LINK = re.compile(
-    r"^\[(?P<title>.+?)\]\((?P<href>https?://scholar\.google\.[^/]+/scholar_url\?[^\n]+)\)\s*$",
+    r"^(?:\[HTML\]\s*)?\[(?P<title>.+?)\]\((?P<href>https?://scholar\.google\.[^/]+/scholar_url\?[^\n]+)\)\s*$",
     re.I | re.M,
 )
 YEAR_RE = re.compile(r"(?<!\d)((?:19|20)\d{2})(?!\d)")
@@ -56,15 +56,6 @@ def normalize_title(title: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def unwrap_scholar_url(href: str) -> str | None:
-    parsed = urlparse(href)
-    query = parse_qs(parsed.query)
-    target = query.get("url", [None])[0]
-    if target:
-        return sanitize_url(unquote(target))
-    return sanitize_url(href)
-
-
 def sanitize_url(url: str | None) -> str | None:
     if not url:
         return None
@@ -74,10 +65,14 @@ def sanitize_url(url: str | None) -> str | None:
     tracking = {"utm_source", "utm_medium", "utm_campaign", "ved", "usg"}
     kept = []
     for pair in parsed.query.split("&") if parsed.query else []:
-        key = pair.split("=", 1)[0]
-        if key not in tracking:
+        if pair.split("=", 1)[0] not in tracking:
             kept.append(pair)
     return urlunparse(parsed._replace(query="&".join(kept), fragment=""))
+
+
+def unwrap_scholar_url(href: str) -> str | None:
+    target = parse_qs(urlparse(href).query).get("url", [None])[0]
+    return sanitize_url(unquote(target)) if target else sanitize_url(href)
 
 
 def clean_doi(value: str) -> str:
@@ -103,54 +98,47 @@ def extract_identifiers(title: str, metadata: str | None, snippet: str | None, u
         ("snippet", snippet or ""),
         ("url", url or ""),
     ]
-
-    doi_value = doi_source = None
-    arxiv_value = arxiv_source = None
-    pmid_value = pmid_source = None
-
+    values: dict[str, tuple[str | None, str | None]] = {
+        "doi": (None, None),
+        "arxiv_id": (None, None),
+        "pmid": (None, None),
+    }
     for source, text in fields:
-        if not doi_value and (match := DOI_RE.search(text)):
-            doi_value, doi_source = clean_doi(match.group(0)), source
-        if not arxiv_value and (match := ARXIV_RE.search(text)):
-            arxiv_value, arxiv_source = match.group(1), source
-        if not pmid_value and (match := PMID_RE.search(text)):
-            pmid_value, pmid_source = match.group(1), source
-
+        if values["doi"][0] is None and (match := DOI_RE.search(text)):
+            values["doi"] = (clean_doi(match.group(0)), source)
+        if values["arxiv_id"][0] is None and (match := ARXIV_RE.search(text)):
+            values["arxiv_id"] = (match.group(1), source)
+        if values["pmid"][0] is None and (match := PMID_RE.search(text)):
+            values["pmid"] = (match.group(1), source)
     return {
-        "doi": identifier_evidence(doi_value, doi_source),
-        "arxiv_id": identifier_evidence(arxiv_value, arxiv_source),
-        "pmid": identifier_evidence(pmid_value, pmid_source),
+        key: identifier_evidence(value, source)
+        for key, (value, source) in values.items()
     }
 
 
 def parse_metadata_line(metadata: str | None) -> tuple[list[dict], str | None, int | None]:
     if not metadata:
         return [], None, None
-
     raw = re.sub(r"\s+", " ", metadata).strip()
     left, separator, right = raw.rpartition(" - ")
     if not separator:
         left, right = "", raw
-
-    year_matches = YEAR_RE.findall(right)
-    year = int(year_matches[-1]) if year_matches else None
+    years = YEAR_RE.findall(right)
+    year = int(years[-1]) if years else None
     venue = right
     if year:
         venue = re.sub(rf",?\s*{year}\s*.*$", "", venue).strip(" ,-…")
     venue = venue or None
-
-    authors: list[dict] = []
-    if left:
-        author_text = left.replace("…", "").strip()
-        for name in [part.strip() for part in author_text.split(",")]:
-            if name:
-                authors.append(
-                    {
-                        "name": name,
-                        "orcid": None,
-                        "verification_status": "raw_email",
-                    }
-                )
+    authors = []
+    for name in left.replace("…", "").split(",") if left else []:
+        if name := name.strip():
+            authors.append(
+                {
+                    "name": name,
+                    "orcid": None,
+                    "verification_status": "raw_email",
+                }
+            )
     return authors, venue, year
 
 
@@ -171,45 +159,37 @@ def compact_snippet(lines: Iterable[str]) -> str | None:
         if any(marker.lower() in text.lower() for marker in FOOTER_MARKERS):
             break
         cleaned.append(text)
-    if not cleaned:
-        return None
-    return re.sub(r"\s+", " ", " ".join(cleaned)).strip()
+    return re.sub(r"\s+", " ", " ".join(cleaned)).strip() or None
 
 
 def markdown_blocks(body: str) -> list[tuple[str, str, str | None, str | None]]:
     matches = list(MARKDOWN_LINK.finditer(body))
-    blocks: list[tuple[str, str, str | None, str | None]] = []
+    blocks = []
     for index, match in enumerate(matches):
         start = match.end()
         end = matches[index + 1].start() if index + 1 < len(matches) else len(body)
-        chunk_lines = [line.strip() for line in body[start:end].splitlines()]
-        useful = [line for line in chunk_lines if line]
-        if not useful:
-            metadata = snippet = None
-        else:
-            metadata = useful[0]
-            snippet = compact_snippet(useful[1:])
+        useful = [line.strip() for line in body[start:end].splitlines() if line.strip()]
+        metadata = useful[0] if useful else None
+        snippet = compact_snippet(useful[1:]) if len(useful) > 1 else None
         blocks.append((match.group("title").strip(), match.group("href"), metadata, snippet))
     return blocks
 
 
 def nearest_single_result_container(anchor: Tag) -> Tag:
-    current: Tag = anchor
-    best: Tag = anchor.parent if isinstance(anchor.parent, Tag) else anchor
+    current = anchor
+    best = anchor.parent if isinstance(anchor.parent, Tag) else anchor
     for _ in range(8):
         parent = current.parent
         if not isinstance(parent, Tag):
             break
-        candidate_count = sum(
+        count = sum(
             1
             for link in parent.find_all("a", href=True)
             if SCHOLAR_RESULT_URL.search(str(link.get("href", "")))
         )
-        if candidate_count == 1:
-            best = parent
-            current = parent
-            continue
-        break
+        if count != 1:
+            break
+        best, current = parent, parent
     return best
 
 
@@ -220,7 +200,7 @@ def html_blocks(body: str) -> list[tuple[str, str, str | None, str | None]]:
         for anchor in soup.find_all("a", href=True)
         if SCHOLAR_RESULT_URL.search(str(anchor.get("href", "")))
     ]
-    blocks: list[tuple[str, str, str | None, str | None]] = []
+    blocks = []
     for anchor in anchors:
         title = anchor.get_text(" ", strip=True)
         container = nearest_single_result_container(anchor)
@@ -230,16 +210,11 @@ def html_blocks(body: str) -> list[tuple[str, str, str | None, str | None]]:
         ]
         lines = [line for line in lines if line and line != title and line.lower() not in SHARE_TEXT]
         metadata_index = next(
-            (
-                i
-                for i, line in enumerate(lines)
-                if " - " in line and YEAR_RE.search(line)
-            ),
+            (i for i, line in enumerate(lines) if " - " in line and YEAR_RE.search(line)),
             None,
         )
         metadata = lines[metadata_index] if metadata_index is not None else None
-        snippet_lines = lines[metadata_index + 1 :] if metadata_index is not None else lines
-        snippet = compact_snippet(snippet_lines)
+        snippet = compact_snippet(lines[metadata_index + 1 :] if metadata_index is not None else lines)
         blocks.append((title, str(anchor["href"]), metadata, snippet))
     return blocks
 
@@ -260,19 +235,15 @@ def make_candidate(
     normalized = normalize_title(title)
     primary_url = unwrap_scholar_url(href)
     authors, venue, year = parse_metadata_line(metadata)
-    warnings: list[str] = []
+    warnings = []
     if not metadata:
         warnings.append("missing_metadata_line")
     if not venue:
         warnings.append("missing_venue")
     if not year:
         warnings.append("missing_year")
-    state = "complete" if not warnings else "partial"
-
     candidate_id = hashlib.sha256(f"{context.message_id}:{position}".encode()).hexdigest()[:24]
-    fingerprint_input = f"{normalized}|{year or ''}|{venue or ''}"
-    fingerprint = hashlib.sha256(fingerprint_input.encode()).hexdigest()
-
+    fingerprint = hashlib.sha256(f"{normalized}|{year or ''}|{venue or ''}".encode()).hexdigest()
     return {
         "schema_version": 1,
         "candidate_id": candidate_id,
@@ -301,7 +272,7 @@ def make_candidate(
         "identifiers": extract_identifiers(title, metadata, snippet, primary_url),
         "links": {"primary_url": primary_url, "auxiliary_urls": []},
         "parse_status": {
-            "state": state,
+            "state": "complete" if not warnings else "partial",
             "warnings": warnings,
             "errors": [],
             "parser_strategy": parser_strategy,
@@ -320,15 +291,11 @@ def parse_alert_body(
 ) -> list[dict]:
     extracted_at = extracted_at or utc_now()
     alert_name = extract_alert_name(context.subject, body)
-
     looks_html = bool(re.search(r"<(?:html|body|table|div|a)\b", body, re.I))
     if content_type == "html" or (content_type == "auto" and looks_html):
-        blocks = html_blocks(body)
-        strategy = "html_nearest_ancestor"
+        blocks, strategy = html_blocks(body), "html_nearest_ancestor"
     else:
-        blocks = markdown_blocks(body)
-        strategy = "plain_text_blocks"
-
+        blocks, strategy = markdown_blocks(body), "plain_text_blocks"
     return [
         make_candidate(
             context=context,
@@ -354,15 +321,17 @@ def main() -> int:
     parser.add_argument("--subject", required=True)
     parser.add_argument("--content-type", choices=["auto", "html", "text"], default="auto")
     args = parser.parse_args()
-
-    body = args.input.read_text(encoding="utf-8")
     context = SourceContext(
         message_id=args.message_id,
         received_at=args.received_at,
         sender=args.sender,
         subject=args.subject,
     )
-    records = parse_alert_body(body, context, content_type=args.content_type)
+    records = parse_alert_body(
+        args.input.read_text(encoding="utf-8"),
+        context,
+        content_type=args.content_type,
+    )
     print(json.dumps(records, ensure_ascii=False, indent=2))
     return 0
 
