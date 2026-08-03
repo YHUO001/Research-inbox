@@ -18,6 +18,12 @@ dist/
 venv/
 env/
 
+# OAuth credentials and local tokens
+client_secret*.json
+credentials*.json
+token*.json
+gmail_oauth*.json
+
 # IDE and operating system
 .vscode/
 .idea/
