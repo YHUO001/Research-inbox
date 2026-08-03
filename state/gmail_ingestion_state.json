@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "last_attempt_at": null,
+  "last_successful_run_at": null,
+  "consecutive_failures": 0,
+  "processed_message_ids": {},
+  "failed_message_ids": {}
+}
