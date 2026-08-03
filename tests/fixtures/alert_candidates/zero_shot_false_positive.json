@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "candidate_id": "fixture-msg-002:0",
+  "source": {
+    "source_type": "google_scholar_email",
+    "message_id": "fixture-msg-002",
+    "thread_id": null,
+    "received_at": "2026-08-03T08:10:00Z",
+    "sender": "scholaralerts-noreply@google.com",
+    "subject": "Google Scholar Alert - zero order optimization",
+    "alert_name": "zero order optimization",
+    "authentication": {
+      "spf": "pass",
+      "dkim": "pass"
+    }
+  },
+  "position_in_message": 0,
+  "title": "Zero-Shot Classification with Vision-Language Models",
+  "normalized_title": "zero shot classification with vision language models",
+  "authors": [],
+  "raw_metadata_line": "Example Authors - Example Conference, 2026",
+  "venue": {
+    "raw": "Example Conference",
+    "normalized": null,
+    "verification_status": "raw_email"
+  },
+  "year": 2026,
+  "snippet": "A study of zero-shot classification without zeroth-order optimization or black-box gradient estimation.",
+  "identifiers": {
+    "doi": {
+      "value": null,
+      "verification_status": "missing",
+      "source": null
+    },
+    "arxiv_id": {
+      "value": null,
+      "verification_status": "missing",
+      "source": null
+    },
+    "pmid": {
+      "value": null,
+      "verification_status": "missing",
+      "source": null
+    }
+  },
+  "links": {
+    "primary_url": "https://example.org/paper/zero-shot",
+    "auxiliary_urls": []
+  },
+  "parse_status": {
+    "state": "complete",
+    "warnings": [],
+    "errors": [],
+    "parser_strategy": "html_nearest_ancestor"
+  },
+  "content_fingerprint": "fixture-zero-shot-2026",
+  "extracted_at": "2026-08-03T08:11:00Z"
+}
