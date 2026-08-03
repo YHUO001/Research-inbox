@@ -1,0 +1,188 @@
+# Deterministic parsing rules for Google Scholar alert emails.
+# Parsing must not call an LLM or fetch paper full text.
+
+parser_version: 1
+source_id: "google_scholar_email"
+
+message_filter:
+  # This query is a starting point. It will be calibrated against a real alert
+  # message before Gmail automation is enabled.
+  gmail_query: >
+    newer_than:30d
+    (from:scholaralerts-noreply@google.com OR subject:"Google Scholar")
+
+  accepted_sender_addresses:
+    - "scholaralerts-noreply@google.com"
+
+  accepted_sender_domains:
+    - "google.com"
+
+  subject_patterns_any:
+    - "(?i)google scholar"
+    - "(?i)scholar alert"
+    - "(?i)new articles"
+    - "谷歌学术"
+    - "学术快讯"
+
+  # When available from Gmail headers, reject messages that fail both checks.
+  authentication:
+    require_at_least_one_pass:
+      - "spf"
+      - "dkim"
+
+  reject_if_subject_matches:
+    - "(?i)security alert"
+    - "(?i)account alert"
+
+message_handling:
+  preferred_body: "html"
+  fallback_body: "plain_text"
+  max_messages_per_run: 20
+  max_results_per_message: 100
+  ignore_attachments: true
+  preserve_raw_message: false
+  preserve_selected_headers:
+    - "Message-ID"
+    - "Date"
+    - "From"
+    - "Subject"
+    - "Authentication-Results"
+
+html_parser:
+  # Scholar email markup is not treated as a stable API. The parser should find
+  # paper-like links and then inspect their nearest containing block.
+  candidate_link_rules:
+    require_visible_text: true
+    min_title_characters: 8
+    max_title_characters: 500
+    accepted_href_patterns:
+      - "(?i)^https?://"
+      - "(?i)scholar_url\\?url="
+    rejected_href_patterns:
+      - "(?i)unsubscribe"
+      - "(?i)manage.*alert"
+      - "(?i)scholar_alerts"
+      - "(?i)settings"
+      - "(?i)accounts.google.com"
+      - "(?i)support.google.com"
+      - "(?i)preferences"
+
+  result_block:
+    strategy: "nearest_ancestor_with_metadata"
+    max_ancestor_levels: 6
+    require_title_link: true
+    preferred_fields_near_title:
+      - "metadata_line"
+      - "snippet"
+
+  field_order:
+    - "title"
+    - "metadata_line"
+    - "snippet"
+    - "auxiliary_links"
+
+plain_text_parser:
+  # Used only when HTML is unavailable.
+  split_on_blank_lines: true
+  title_candidate:
+    min_characters: 8
+    max_characters: 500
+    reject_if_matches:
+      - "(?i)^unsubscribe$"
+      - "(?i)^manage alerts$"
+      - "(?i)^google scholar$"
+  metadata_line_patterns:
+    - "^.+\\s-\\s.+(?:19|20)\\d{2}.*$"
+    - "^.+(?:19|20)\\d{2}.*$"
+
+field_extraction:
+  title:
+    unicode_normalization: "NFKC"
+    collapse_whitespace: true
+    strip_surrounding_punctuation: true
+
+  identifiers:
+    doi_patterns:
+      - "(?i)10\\.\\d{4,9}/[-._;()/:A-Z0-9]+"
+    arxiv_patterns:
+      - "(?i)(?:arxiv:)?(\\d{4}\\.\\d{4,5})(?:v\\d+)?"
+    pmid_patterns:
+      - "(?i)(?:PMID[:\\s]+)(\\d{6,9})"
+
+  year:
+    pattern: "(?<!\\d)(19|20)\\d{2}(?!\\d)"
+    choose: "latest_plausible_publication_year"
+    minimum: 1900
+    maximum_offset_from_current_year: 1
+
+  metadata_line:
+    preserve_raw: true
+    # Do not assume that every hyphen-separated token is an author or venue.
+    split_hint: "authors_then_venue_then_publisher"
+    delimiter_candidates:
+      - " - "
+      - " — "
+      - " · "
+
+  venue:
+    preserve_raw: true
+    exact_alias_config: "config/venues.yaml"
+    infer_from_unknown_abbreviation: false
+    unresolved_action: "metadata_enrichment_queue"
+
+  url:
+    unwrap_query_parameters:
+      - "url"
+      - "q"
+    remove_query_parameters:
+      - "utm_source"
+      - "utm_medium"
+      - "utm_campaign"
+      - "ved"
+      - "usg"
+    reject_schemes:
+      - "javascript"
+      - "data"
+
+normalization:
+  normalized_title:
+    unicode_normalization: "NFKC"
+    lowercase: true
+    remove_punctuation: true
+    collapse_whitespace: true
+    remove_leading_year: true
+
+  canonical_identifier_priority:
+    - "doi"
+    - "arxiv_id"
+    - "pmid"
+    - "normalized_title_and_year"
+    - "normalized_title_and_first_author"
+
+  duplicate_merge:
+    merge_source_evidence: true
+    keep_longest_snippet: true
+    prefer_verified_metadata: true
+    never_overwrite_verified_identifier_with_unverified_value: true
+
+validation:
+  required_fields:
+    - "source_message_id"
+    - "title"
+  accept_without_abstract: true
+  accept_without_venue: true
+  accept_without_year: true
+  reject_navigation_only_blocks: true
+  reject_empty_title: true
+
+failure_policy:
+  do_not_guess_missing_fields: true
+  malformed_message_action: "parse_review_queue"
+  malformed_item_action: "item_review_queue"
+  partial_item_action: "retain_for_metadata_enrichment"
+  continue_after_item_error: true
+
+output:
+  schema_path: "schemas/alert_candidate.schema.json"
+  raw_output_directory: "data/raw/google_scholar_email"
+  normalized_output_directory: "data/normalized/google_scholar_email"
