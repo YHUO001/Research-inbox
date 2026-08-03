@@ -30,6 +30,18 @@ message_filter:
     - "(?i)security alert"
     - "(?i)account alert"
 
+ingestion:
+  # The collector dynamically adds after:YYYY/MM/DD. A seven-day overlap makes
+  # scheduled delays and one missed run recoverable; Gmail message IDs guarantee
+  # idempotency across the overlap window.
+  overlap_days: 7
+  initial_lookback_days: 30
+  max_messages_per_run: 20
+  processed_id_retention_days: 120
+  raw_mime_persistence: false
+  log_message_content: false
+  checkpoint_policy: "advance_only_when_no_message_failed"
+
 message_handling:
   preferred_body: "html"
   accepted_fallback_bodies:
@@ -162,7 +174,10 @@ failure_policy:
   malformed_item_action: "item_review_queue"
   partial_item_action: "retain_for_metadata_enrichment"
   continue_after_item_error: true
+  failed_message_retry: true
+  advance_checkpoint_on_partial_failure: false
 
 output:
+  schema_path: "schemas/alert_candidate.schema.json"
   raw_output_directory: "data/raw/google_scholar_email"
   normalized_output_directory: "data/normalized/google_scholar_email"
