@@ -1,0 +1,21 @@
+[HTML] [Distillation-guided optical neural networks with reinforcement learning-assisted calibration](https://scholar.google.com/scholar_url?url=https://opg.optica.org/optica/fulltext.cfm%3Furi%3Doptica-13-8-1423&hl=zh-CN&oi=scholaralrt&pos=0)
+
+K Di, F Yu, S Chen, J Li, A Liu, S Shao, Z Shi, X Zhang… - Optica, 2026
+
+… Here, we propose an on-chip training distillation-guided optical neural network (DGONN)
+
+and introduce a forward distillation algorithm to address these challenges.
+
+[保存](https://scholar.google.com/citations?update_op=email_library_add) [Twitter](https://scholar.google.com/scholar_share?ss=tw)
+
+[Optical neural networks for ultrafast quantum state tomography](https://scholar.google.com/scholar_url?url=https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC14143/PC141430U/Optical-neural-networks-for-ultrafast-quantum-state-tomography/10.1117/12.3110867.short&hl=zh-CN&oi=scholaralrt&pos=1)
+
+L Rantz, A Maeder, R Grange, BJ Shastri, N Rotenberg - Photonics for Quantum 2026, 2026
+
+… Here, we present an optical neural network used to perform quantum state tomography in real time.
+
+[保存](https://scholar.google.com/citations?update_op=email_library_add)
+
+Google 学术搜索发送此邮件，是因为您关注了 [["optical neural network"]](https://scholar.google.com/scholar?q=%22optical+neural+network%22) 的新搜索结果。
+
+[列出快讯](https://scholar.google.com/scholar_alerts?view_op=list_alerts)
