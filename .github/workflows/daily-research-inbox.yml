@@ -1,0 +1,85 @@
+name: Daily Research Inbox
+
+on:
+  schedule:
+    # Singapore time: 08:17 and 20:47. Avoid the top of the hour.
+    - cron: "17 0 * * *"
+    - cron: "47 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-research-inbox-state-writer
+  cancel-in-progress: false
+
+jobs:
+  ingest-scholar-alerts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out pipeline code
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install project
+        run: |
+          python -m pip install --upgrade pip
+          pip install .
+
+      - name: Check out automation state
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: automation-state
+          path: runtime-state
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+
+      - name: Collect new Scholar alerts
+        id: collect
+        shell: bash
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+        run: |
+          set +e
+          python -m scripts.ingest.gmail_collector \
+            --config config/google_scholar_alerts.yaml \
+            --state-dir runtime-state/state \
+            --output-dir runtime-state/data
+          collector_exit_code=$?
+          echo "exit_code=${collector_exit_code}" >> "${GITHUB_OUTPUT}"
+          exit 0
+
+      - name: Persist sanitized state
+        if: always()
+        shell: bash
+        run: |
+          cd runtime-state
+          git config user.name "research-inbox-bot"
+          git config user.email "research-inbox-bot@users.noreply.github.com"
+          git add state data
+
+          if git diff --cached --quiet; then
+            echo "No state changes to persist."
+            exit 0
+          fi
+
+          git commit -m "Update research inbox state [skip ci]"
+          git pull --rebase origin automation-state
+          git push origin HEAD:automation-state
+
+      - name: Fail after persisting retry state
+        if: steps.collect.outputs.exit_code != '0'
+        shell: bash
+        run: exit "${{ steps.collect.outputs.exit_code }}"
