@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/YHUO001/Research-inbox/schemas/summary_request.schema.json",
+  "title": "Provider-Neutral Paper Summary Request",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "request_version",
+    "request_id",
+    "candidate_id",
+    "prepared_at",
+    "provider_status",
+    "selection_status",
+    "summary_schema",
+    "source",
+    "instructions",
+    "prompt"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "request_version": {"const": 1},
+    "request_id": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "candidate_id": {"type": "string", "minLength": 8},
+    "prepared_at": {"type": "string", "format": "date-time"},
+    "provider_status": {"const": "not_configured"},
+    "selection_status": {"const": "summary_slot"},
+    "summary_schema": {"type": "string", "minLength": 1},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "authors",
+        "venue",
+        "year",
+        "source_type",
+        "doi",
+        "openalex_id",
+        "landing_page",
+        "open_access_url",
+        "abstract",
+        "matched_projects",
+        "mandatory",
+        "score",
+        "decision",
+        "score_breakdown"
+      ],
+      "properties": {
+        "title": {"type": "string", "minLength": 1},
+        "authors": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "venue": {"type": ["string", "null"]},
+        "year": {"type": ["integer", "null"], "minimum": 1900, "maximum": 2100},
+        "source_type": {"type": "string", "enum": ["google_scholar_email", "openalex", "unknown"]},
+        "doi": {"type": ["string", "null"]},
+        "openalex_id": {"type": ["string", "null"]},
+        "landing_page": {"type": ["string", "null"]},
+        "open_access_url": {"type": ["string", "null"]},
+        "abstract": {"type": ["string", "null"], "maxLength": 10000},
+        "matched_projects": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "enum": ["optical-neural-networks", "zeroth-order-optimization"]}
+        },
+        "mandatory": {"type": "boolean"},
+        "score": {"type": "number", "minimum": 0, "maximum": 1},
+        "decision": {"type": "string", "enum": ["mandatory", "urgent", "summarize"]},
+        "score_breakdown": {"type": "array", "items": {"type": "object"}}
+      }
+    },
+    "instructions": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "prompt": {"type": "string", "minLength": 100, "maxLength": 20000}
+  }
+}
