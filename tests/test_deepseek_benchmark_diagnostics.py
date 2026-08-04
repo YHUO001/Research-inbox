@@ -132,6 +132,6 @@ def test_workflow_uses_candidate_isolation_and_restores_dry_run_files() -> None:
     workflow = (
         ROOT / ".github" / "workflows" / "benchmark-deepseek-models.yml"
     ).read_text(encoding="utf-8")
-    assert "benchmark_deepseek_models_v2" in workflow
+    assert "benchmark_deepseek_models_v3" in workflow
     assert "git restore --" in workflow
     assert "state/deepseek_benchmark_manifest.json" in workflow
