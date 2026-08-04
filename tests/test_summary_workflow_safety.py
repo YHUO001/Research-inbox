@@ -63,21 +63,25 @@ def test_review_finalization_is_manual_and_has_explicit_confirmation() -> None:
     assert "gmail_sender" not in text
 
 
-def test_summary_configuration_requires_manual_human_review() -> None:
+def test_summary_configuration_requires_chinese_open_fulltext_human_review() -> None:
     config = yaml.safe_load(
         (ROOT / "config" / "summary_generation.yaml").read_text(encoding="utf-8")
     )
     execution = config["execution"]
     provider = config["provider"]
     review = config["review"]
-    assert config["summary_generation_version"] == 4
+    output = config["output"]
+    full_text = config["full_text"]
+    assert config["summary_generation_version"] == 5
+    assert config["prompt_version"] == 2
     assert execution["mode"] == "manual_provider_validation"
     assert execution["provider"] == "deepseek"
     assert execution["llm_enabled"] is False
     assert execution["manual_provider_calls_allowed"] is True
     assert execution["email_enabled"] is False
     assert execution["update_summary_history"] is False
-    assert execution["use_full_text"] is False
+    assert execution["use_full_text"] is True
+    assert execution["full_text_open_access_only"] is True
     assert review["required"] is True
     assert review["approval_mode"] == "manual_all_or_nothing"
     assert review["confirmation_phrase"] == "REVIEWED"
@@ -88,5 +92,13 @@ def test_summary_configuration_requires_manual_human_review() -> None:
     assert provider["pricing"]["input_cache_hit_cny_per_million"] == 0.025
     assert provider["pricing"]["input_cache_miss_cny_per_million"] == 3.0
     assert provider["pricing"]["output_cny_per_million"] == 6.0
+    assert output["language"] == "zh-CN"
+    assert output["require_chinese_narrative"] is True
+    assert output["method_implementation_min_paragraphs"] == 2
+    assert full_text["enabled"] is True
+    assert full_text["open_access_only"] is True
+    assert full_text["persist_extracted_text"] is False
+    assert full_text["qualitative_methods_only"] is True
+    assert full_text["numeric_grounding_scope"] == "title_and_abstract_only"
     assert config["limits"]["maximum_summaries_per_run"] == 3
     assert config["grounding"]["enforce_onn_architecture_evidence"] is True
