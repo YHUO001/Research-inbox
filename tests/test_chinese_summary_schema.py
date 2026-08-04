@@ -34,8 +34,8 @@ def test_reader_facing_list_items_require_chinese_or_not_available() -> None:
 def test_method_implementation_requires_multiple_substantive_chinese_paragraphs() -> None:
     validator = field_validator("method_implementation")
     valid = [
-        "实施时首先将输入数据编码为光学系统能够接收的信号，并送入核心处理模块完成并行变换，从而形成包含任务信息的中间光场表示。",
-        "随后使用探测与电子读出模块获取计算结果，并将测量值用于任务判断；未在证据中说明的训练参数和校准过程必须明确标记为未提供。",
+        "实施时首先将输入数据编码为光学系统能够接收的信号，并送入核心处理模块完成并行变换，从而形成包含任务信息的中间光场表示，同时保留各输入通道与输出之间的对应关系。",
+        "随后使用探测与电子读出模块获取计算结果，并将测量值用于任务判断；未在证据中说明的训练参数和校准过程必须明确标记为未提供，也不能依据常识自行补全。",
     ]
     assert not list(validator.iter_errors(valid))
     assert list(validator.iter_errors([valid[0]]))
