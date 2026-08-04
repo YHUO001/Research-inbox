@@ -1,0 +1,66 @@
+discovery_version: 1
+
+enabled: true
+
+schedule:
+  minimum_interval_hours: 44
+  overlap_days: 3
+  initial_lookback_days: 14
+
+provider:
+  base_url: "https://api.openalex.org"
+  api_key_env: "OPENALEX_API_KEY"
+  user_agent: "ResearchInbox/0.4 (semantic discovery)"
+  timeout_seconds: 15
+  max_attempts: 3
+  min_interval_seconds: 0.25
+
+limits:
+  maximum_results_per_query: 10
+  maximum_raw_results_per_run: 90
+  maximum_accepted_candidates_per_run: 40
+  maximum_abstract_characters: 2500
+
+policy:
+  deterministic_project_filter: true
+  use_venue_list_for_discovery_queries: false
+  append_to_unified_registry: true
+  persist_raw_provider_responses: false
+  download_full_text: false
+  tier_1_mandatory_rule_applies: false
+  optical_zo_mandatory_rule_applies: false
+
+queries:
+  - id: optical-neural-network
+    project_id: optical-neural-networks
+    text: "optical neural network"
+  - id: photonic-neural-network
+    project_id: optical-neural-networks
+    text: "photonic neural network"
+  - id: diffractive-optical-neural-network
+    project_id: optical-neural-networks
+    text: "diffractive optical neural network"
+  - id: free-space-optical-computing
+    project_id: optical-neural-networks
+    text: "free-space optical computing neural network"
+  - id: optical-nonlinear-activation
+    project_id: optical-neural-networks
+    text: "optical nonlinear activation neural network"
+  - id: physical-neural-network-training
+    project_id: optical-neural-networks
+    text: "physical neural network training photonic"
+  - id: zeroth-order-neural-network
+    project_id: zeroth-order-optimization
+    text: "zeroth-order optimization neural network"
+  - id: zeroth-order-llm
+    project_id: zeroth-order-optimization
+    text: "zeroth-order optimization large language model"
+  - id: zeroth-order-optical
+    project_id: zeroth-order-optimization
+    text: "zeroth-order optical neural network"
+
+outputs:
+  registry: "data/paper_registry.jsonl"
+  state: "state/openalex_discovery_state.json"
+  manifest: "state/openalex_discovery_manifest.json"
+  schema: "schemas/openalex_candidate.schema.json"
