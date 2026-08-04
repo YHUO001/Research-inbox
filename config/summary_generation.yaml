@@ -1,0 +1,26 @@
+summary_generation_version: 1
+prompt_version: 1
+
+execution:
+  mode: "manual_dry_run"
+  provider: "not_configured"
+  llm_enabled: false
+  email_enabled: false
+  update_summary_history: false
+  use_full_text: false
+
+limits:
+  maximum_summaries_per_run: 3
+  maximum_abstract_characters: 2500
+  maximum_prompt_characters: 20000
+
+grounding:
+  information_basis: "title_metadata_and_abstract_only"
+  require_reported_by_authors_marker: true
+  reject_unsupported_numeric_claims: true
+  unavailable_value: "not_available"
+
+outputs:
+  request_directory: "data/summary_requests"
+  digest_directory: "data/digests"
+  manifest_path: "state/summary_generation_manifest.json"

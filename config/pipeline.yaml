@@ -1,4 +1,4 @@
-pipeline_version: 8
+pipeline_version: 9
 
 timezone: Asia/Singapore
 
@@ -149,6 +149,24 @@ scoring:
     - "Repair Scholar Registry"
     - "Rebuild Research Routes"
     - "Enrich Paper Registry"
+
+summary_generation:
+  enabled: false
+  execution_mode: "manual_dry_run"
+  provider: "not_configured"
+  config_path: "config/summary_generation.yaml"
+  request_schema_path: "schemas/summary_request.schema.json"
+  summary_schema_path: "schemas/paper_summary.schema.json"
+  source_queue: "data/queues/llm_candidate_queue.jsonl"
+  request_directory: "data/summary_requests"
+  digest_directory: "data/digests"
+  manifest_path: "state/summary_generation_manifest.json"
+  maximum_summaries_per_run: 3
+  use_full_text: false
+  update_summary_history: false
+  email_enabled: false
+  integrated_workflows:
+    - "Build Summary Dry Run"
 
 limits:
   max_raw_items_per_source: 100
