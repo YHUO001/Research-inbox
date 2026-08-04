@@ -1,0 +1,28 @@
+{
+  "digest_date": "2026-08-04",
+  "digest_json_file": "runtime-state/data/benchmarks/deepseek/2026-08-04/pro/candidates/766ea277f76b9bc9cd30be5d/output/digests/2026-08-04.generated.json",
+  "digest_markdown_file": "runtime-state/data/benchmarks/deepseek/2026-08-04/pro/candidates/766ea277f76b9bc9cd30be5d/output/digests/2026-08-04.generated.md",
+  "email_enabled": false,
+  "estimated_cost_cny": 0.0038942,
+  "failure_count": 0,
+  "failures": [],
+  "full_text_used": false,
+  "information_basis": "title_metadata_and_abstract_only",
+  "model": "deepseek-v4-pro",
+  "provider": "deepseek",
+  "request_count": 1,
+  "schema_version": 1,
+  "status": "completed",
+  "summary_count": 1,
+  "summary_file": "runtime-state/data/benchmarks/deepseek/2026-08-04/pro/candidates/766ea277f76b9bc9cd30be5d/output/summaries/2026-08-04.jsonl",
+  "summary_generation_version": 2,
+  "summary_history_updated": false,
+  "thinking_enabled": false,
+  "usage": {
+    "completion_tokens": 640,
+    "prompt_cache_hit_tokens": 2048,
+    "prompt_cache_miss_tokens": 1,
+    "prompt_tokens": 2049,
+    "total_tokens": 2689
+  }
+}

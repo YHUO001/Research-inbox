@@ -1,0 +1,146 @@
+{
+  "actual_total_cost_cny": 0.0335274,
+  "benchmark_version": 2,
+  "candidate_comparisons": [
+    {
+      "architecture_agreement": false,
+      "candidate_id": "766ea277f76b9bc9cd30be5d",
+      "hardware_validation_agreement": false,
+      "models": {
+        "flash": {
+          "architecture_type": null,
+          "hardware_validation": null,
+          "not_available_count": 0,
+          "present": false,
+          "reported_result_count": 0
+        },
+        "pro": {
+          "architecture_type": "free_space",
+          "hardware_validation": "physical_experiment",
+          "not_available_count": 3,
+          "present": true,
+          "reported_result_count": 4
+        }
+      }
+    },
+    {
+      "architecture_agreement": false,
+      "candidate_id": "b63d0c87752a364b3611148c",
+      "hardware_validation_agreement": false,
+      "models": {
+        "flash": {
+          "architecture_type": null,
+          "hardware_validation": null,
+          "not_available_count": 0,
+          "present": false,
+          "reported_result_count": 0
+        },
+        "pro": {
+          "architecture_type": "hybrid",
+          "hardware_validation": "physical_experiment",
+          "not_available_count": 2,
+          "present": true,
+          "reported_result_count": 4
+        }
+      }
+    }
+  ],
+  "candidate_level_isolation": true,
+  "comparison_report": "runtime-state/data/benchmarks/deepseek/2026-08-04/comparison.md",
+  "digest_date": "2026-08-04",
+  "email_enabled": false,
+  "full_text_used": false,
+  "information_basis": "title_metadata_and_abstract_only",
+  "json_mode": true,
+  "models": {
+    "flash": {
+      "digest_markdown_file": "runtime-state/data/benchmarks/deepseek/2026-08-04/flash/digests/2026-08-04.generated.md",
+      "elapsed_seconds": 43.2885,
+      "estimated_cost_cny": 0.0128354,
+      "failure_count": 3,
+      "failures": [
+        {
+          "candidate_id": "b63d0c87752a364b3611148c",
+          "reason": "candidate_id mismatch"
+        },
+        {
+          "candidate_id": "97f076ce54abbfc51b5b73e4",
+          "reason": "candidate_id mismatch"
+        },
+        {
+          "candidate_id": "766ea277f76b9bc9cd30be5d",
+          "reason": "unsupported numeric claims: 5ghz"
+        }
+      ],
+      "model": "deepseek-v4-flash",
+      "normalized_cache_miss_cost_cny": 0.024125,
+      "quality_metrics": {
+        "explicit_architecture_count": 0,
+        "explicit_hardware_validation_count": 0,
+        "limitation_count": 0,
+        "main_contribution_count": 0,
+        "missing_information_count": 0,
+        "narrative_characters": 0,
+        "not_available_count": 0,
+        "reported_result_count": 0,
+        "summary_count": 0
+      },
+      "request_count": 3,
+      "status": "partial_failure",
+      "summary_count": 0,
+      "summary_file": "runtime-state/data/benchmarks/deepseek/2026-08-04/flash/summaries/2026-08-04.jsonl",
+      "usage": {
+        "completion_tokens": 5650,
+        "prompt_cache_hit_tokens": 11520,
+        "prompt_cache_miss_tokens": 1305,
+        "prompt_tokens": 12825,
+        "total_tokens": 18475
+      }
+    },
+    "pro": {
+      "digest_markdown_file": "runtime-state/data/benchmarks/deepseek/2026-08-04/pro/digests/2026-08-04.generated.md",
+      "elapsed_seconds": 48.895,
+      "estimated_cost_cny": 0.020692,
+      "failure_count": 1,
+      "failures": [
+        {
+          "candidate_id": "97f076ce54abbfc51b5b73e4",
+          "reason": "unsupported numeric claims: 5.16tops/mm²"
+        }
+      ],
+      "model": "deepseek-v4-pro",
+      "normalized_cache_miss_cost_cny": 0.045444,
+      "quality_metrics": {
+        "explicit_architecture_count": 2,
+        "explicit_hardware_validation_count": 2,
+        "limitation_count": 6,
+        "main_contribution_count": 10,
+        "missing_information_count": 5,
+        "narrative_characters": 6358,
+        "not_available_count": 5,
+        "reported_result_count": 8,
+        "summary_count": 2
+      },
+      "request_count": 3,
+      "status": "partial_failure",
+      "summary_count": 2,
+      "summary_file": "runtime-state/data/benchmarks/deepseek/2026-08-04/pro/summaries/2026-08-04.jsonl",
+      "usage": {
+        "completion_tokens": 3304,
+        "prompt_cache_hit_tokens": 8320,
+        "prompt_cache_miss_tokens": 220,
+        "prompt_tokens": 8540,
+        "total_tokens": 11844
+      }
+    }
+  },
+  "normalized_total_cache_miss_cost_cny": 0.069569,
+  "request_count": 3,
+  "request_sha256": "c5fba022f68f3df3600afafc300311fda426ca383f114b6290eb8003b719d0a8",
+  "request_snapshot": "runtime-state/data/benchmarks/deepseek/2026-08-04/requests.jsonl",
+  "same_prompt_for_both_models": true,
+  "schema_version": 1,
+  "status": "partial_failure",
+  "summary_history_updated": false,
+  "thinking_enabled": false
+}

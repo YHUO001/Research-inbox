@@ -1,0 +1,30 @@
+{
+  "digest_date": "2026-08-04",
+  "email_enabled": false,
+  "estimated_cost_cny": 0.00502044,
+  "failure_count": 1,
+  "failures": [
+    {
+      "candidate_id": "766ea277f76b9bc9cd30be5d",
+      "reason": "unsupported numeric claims: 5ghz"
+    }
+  ],
+  "full_text_used": false,
+  "information_basis": "title_metadata_and_abstract_only",
+  "model": "deepseek-v4-flash",
+  "provider": "deepseek",
+  "request_count": 1,
+  "schema_version": 1,
+  "status": "failed_validation",
+  "summary_count": 0,
+  "summary_generation_version": 2,
+  "summary_history_updated": false,
+  "thinking_enabled": false,
+  "usage": {
+    "completion_tokens": 1956,
+    "prompt_cache_hit_tokens": 3072,
+    "prompt_cache_miss_tokens": 1047,
+    "prompt_tokens": 4119,
+    "total_tokens": 6075
+  }
+}

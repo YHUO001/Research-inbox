@@ -1,0 +1,36 @@
+{
+  "digest_markdown_file": "runtime-state/data/benchmarks/deepseek/2026-08-04/pro/digests/2026-08-04.generated.md",
+  "elapsed_seconds": 48.895,
+  "estimated_cost_cny": 0.020692,
+  "failure_count": 1,
+  "failures": [
+    {
+      "candidate_id": "97f076ce54abbfc51b5b73e4",
+      "reason": "unsupported numeric claims: 5.16tops/mm²"
+    }
+  ],
+  "model": "deepseek-v4-pro",
+  "normalized_cache_miss_cost_cny": 0.045444,
+  "quality_metrics": {
+    "explicit_architecture_count": 2,
+    "explicit_hardware_validation_count": 2,
+    "limitation_count": 6,
+    "main_contribution_count": 10,
+    "missing_information_count": 5,
+    "narrative_characters": 6358,
+    "not_available_count": 5,
+    "reported_result_count": 8,
+    "summary_count": 2
+  },
+  "request_count": 3,
+  "status": "partial_failure",
+  "summary_count": 2,
+  "summary_file": "runtime-state/data/benchmarks/deepseek/2026-08-04/pro/summaries/2026-08-04.jsonl",
+  "usage": {
+    "completion_tokens": 3304,
+    "prompt_cache_hit_tokens": 8320,
+    "prompt_cache_miss_tokens": 220,
+    "prompt_tokens": 8540,
+    "total_tokens": 11844
+  }
+}

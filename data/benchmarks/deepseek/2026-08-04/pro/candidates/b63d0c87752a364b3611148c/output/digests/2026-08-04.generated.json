@@ -1,0 +1,85 @@
+{
+  "digest_date": "2026-08-04",
+  "digest_version": 1,
+  "model": "deepseek-v4-pro",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "information_basis": "title_metadata_and_abstract_only",
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "status": "generated_pending_human_review",
+  "summaries": [
+    {
+      "candidate_id": "b63d0c87752a364b3611148c",
+      "core_problem": "Traditional optical neural networks rely on error backpropagation, which is incompatible with physical optical systems due to the lack of reciprocal error paths and high sensitivity to fabrication imperfections.",
+      "distinction_from_prior_work": "Unlike traditional ONNs that rely on error backpropagation (which is incompatible with optical hardware), B-ONN is fully backpropagation-free, using layer-wise target propagation with trainable error convolution kernels. This enables local learning without reciprocal error paths and provides inherent robustness to noise and misalignment without noise-augmented training.",
+      "limitations_and_open_questions": [
+        "The abstract does not specify the number of layers or network depth tested.",
+        "It is unclear whether the approach scales to larger datasets beyond MNIST and Fashion-MNIST.",
+        "The physical validation uses specific hardware (SLM, nano printing); generalizability to other optical platforms is not discussed.",
+        "Potential limitations in training speed or computational overhead of the target propagation mechanism are not addressed.",
+        "Performance under other noise types (e.g., detector noise) is not mentioned."
+      ],
+      "main_contributions": [
+        "Proposes a bio-inspired backpropagation-free optical neural network (B-ONN) that uses layer-wise target propagation and trainable error convolution kernels to enable local learning without gradients.",
+        "Demonstrates B-ONN achieves comparable accuracy to traditional ONNs on MNIST (93.25%) and Fashion-MNIST (82.28%).",
+        "Shows B-ONN has superior robustness against phase noise (75% accuracy at ~0.4π) and alignment errors (75% accuracy within ±3 pixels).",
+        "Physically validates B-ONN using a programmable SLM system (95% accuracy in handwritten digit recognition) and chip-scale nano printing (94% accuracy), confirming transferability from programmable setups to fixed devices.",
+        "Highlights that B-ONN learns smooth phase distributions for inherent structural robustness without noise-augmented training, and its local learning rules support asynchronous parallel updates in scalable deep architectures."
+      ],
+      "method_and_architecture": "The proposed bio-inspired backpropagation-free optical neural network (B-ONN) uses layer-wise target propagation with trainable error convolution kernels. Each layer locally learns from target signals instead of chain-ruled gradients, eliminating the need for precise optical conjugation between forward and backward paths. The architecture was physically validated using a programmable spatial light modulator (SLM) system and further implemented via chip-scale nano printing.",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "Handwritten digit recognition (MNIST)",
+          "Fashion-MNIST classification"
+        ],
+        "architecture_type": "hybrid",
+        "calibration_requirements": "not_available",
+        "hardware_validation": "physical_experiment",
+        "optical_nonlinearity": "not_available",
+        "training_method": "Backpropagation-free via layer-wise target propagation with trainable error convolution kernels."
+      },
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "B-ONN achieves 93.25% accuracy on MNIST and 82.28% on Fashion-MNIST, comparable to traditional ONNs.",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "B-ONN demonstrates superior robustness against phase noise (75% accuracy at σ ≈ 0.4π) and alignment errors (75% accuracy within ±3 pixels).",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "Physical validation using a programmable SLM system achieved 95% accuracy in handwritten digit recognition.",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "Chip-scale integration via nano printing maintained 94% accuracy.",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "This work opens a practical and feasible path for deploying optical computing systems in real-world applications by eliminating the need for backpropagation, demonstrating robustness to fabrication imperfections, and validating transferability from programmable to chip-scale integrated devices.",
+      "schema_version": 1,
+      "summary_version": 1,
+      "verification": {
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "Network depth and layer configurations",
+          "Optical nonlinearity type",
+          "Calibration methods",
+          "Training time or computational cost",
+          "Comparison with other backpropagation-free methods beyond traditional ONN"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    }
+  ],
+  "summary_count": 1
+}

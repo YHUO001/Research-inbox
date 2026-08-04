@@ -1,0 +1,44 @@
+{
+  "digest_markdown_file": "runtime-state/data/benchmarks/deepseek/2026-08-04/flash/digests/2026-08-04.generated.md",
+  "elapsed_seconds": 43.2885,
+  "estimated_cost_cny": 0.0128354,
+  "failure_count": 3,
+  "failures": [
+    {
+      "candidate_id": "b63d0c87752a364b3611148c",
+      "reason": "candidate_id mismatch"
+    },
+    {
+      "candidate_id": "97f076ce54abbfc51b5b73e4",
+      "reason": "candidate_id mismatch"
+    },
+    {
+      "candidate_id": "766ea277f76b9bc9cd30be5d",
+      "reason": "unsupported numeric claims: 5ghz"
+    }
+  ],
+  "model": "deepseek-v4-flash",
+  "normalized_cache_miss_cost_cny": 0.024125,
+  "quality_metrics": {
+    "explicit_architecture_count": 0,
+    "explicit_hardware_validation_count": 0,
+    "limitation_count": 0,
+    "main_contribution_count": 0,
+    "missing_information_count": 0,
+    "narrative_characters": 0,
+    "not_available_count": 0,
+    "reported_result_count": 0,
+    "summary_count": 0
+  },
+  "request_count": 3,
+  "status": "partial_failure",
+  "summary_count": 0,
+  "summary_file": "runtime-state/data/benchmarks/deepseek/2026-08-04/flash/summaries/2026-08-04.jsonl",
+  "usage": {
+    "completion_tokens": 5650,
+    "prompt_cache_hit_tokens": 11520,
+    "prompt_cache_miss_tokens": 1305,
+    "prompt_tokens": 12825,
+    "total_tokens": 18475
+  }
+}
