@@ -1,0 +1,64 @@
+name: Rebuild Research Routes
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-research-inbox-state-writer
+  cancel-in-progress: false
+
+jobs:
+  rebuild-routes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out pipeline code
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install project
+        run: |
+          python -m pip install --upgrade pip
+          pip install .
+
+      - name: Check out automation state
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: automation-state
+          path: runtime-state
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+
+      - name: Rebuild deterministic routes
+        run: |
+          python -m scripts.pipeline.route_registry \
+            --registry-path runtime-state/data/paper_registry.jsonl \
+            --recognition-path runtime-state/data/recognition_results.jsonl \
+            --queue-dir runtime-state/data/queues \
+            --manifest-path runtime-state/state/routing_manifest.json
+
+      - name: Persist routing state
+        shell: bash
+        run: |
+          cd runtime-state
+          git config user.name "research-inbox-bot"
+          git config user.email "research-inbox-bot@users.noreply.github.com"
+          git add state data
+          if git diff --cached --quiet; then
+            echo "No routing changes to persist."
+            exit 0
+          fi
+          git commit -m "Rebuild deterministic research routes [skip ci]"
+          git pull --rebase origin automation-state
+          git push origin HEAD:automation-state
