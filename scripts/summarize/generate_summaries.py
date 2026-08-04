@@ -17,9 +17,22 @@ from scripts.summarize.prepare_digest import (
     atomic_write,
     load_json,
     load_jsonl,
+    numeric_tokens,
     stable_json,
-    validate_numeric_grounding,
     validate_record,
+)
+
+
+NARRATIVE_FIELDS = (
+    "core_problem",
+    "method_and_architecture",
+    "main_contributions",
+    "reported_results",
+    "distinction_from_prior_work",
+    "research_value",
+    "limitations_and_open_questions",
+    "optical_neural_network_analysis",
+    "zeroth_order_analysis",
 )
 
 
@@ -44,9 +57,9 @@ def system_prompt(schema: dict[str, Any], candidate_id: str) -> str:
         },
     }
     return (
-        "Return JSON only. The output must match the supplied JSON Schema exactly, "
-        "with no markdown or commentary. Preserve the required candidate_id. Use "
-        "not_available when the source does not support a field. Do not invent numbers.\n"
+        "Return JSON only. Match the supplied JSON Schema exactly, with no markdown "
+        "or commentary. Preserve candidate_id. Use not_available when unsupported. "
+        "Do not invent numerical values.\n"
         f"JSON Schema:\n{json.dumps(schema, ensure_ascii=False, sort_keys=True)}\n"
         f"Example JSON shape:\n{json.dumps(example, ensure_ascii=False, sort_keys=True)}"
     )
@@ -57,6 +70,18 @@ def parse_model_json(content: str) -> dict[str, Any]:
     if not isinstance(value, dict):
         raise ValueError("Model output must be a JSON object")
     return value
+
+
+def narrative_text(summary: dict[str, Any]) -> str:
+    return stable_json({key: summary.get(key) for key in NARRATIVE_FIELDS})
+
+
+def validate_summary_numeric_grounding(
+    summary: dict[str, Any], *, title: str, abstract: str | None
+) -> list[str]:
+    source_tokens = numeric_tokens(f"{title}\n{abstract or ''}")
+    output_tokens = numeric_tokens(narrative_text(summary))
+    return sorted(token for token in output_tokens if token not in source_tokens)
 
 
 def usage_totals(responses: list[DeepSeekResponse]) -> dict[str, int]:
@@ -89,7 +114,6 @@ def estimate_cost_cny(usage: dict[str, int], pricing: dict[str, Any]) -> float:
 
 
 def render_markdown(
-    *,
     digest_date: str,
     requests: list[dict[str, Any]],
     summaries: list[dict[str, Any]],
@@ -129,13 +153,15 @@ def render_markdown(
         )
         lines.extend(f"- {item}" for item in summary["main_contributions"])
         lines.extend(["", "### Reported results", ""])
-        if summary["reported_results"]:
-            lines.extend(
+        results = summary["reported_results"]
+        lines.extend(
+            (
                 f"- {item['claim']} (`reported_by_authors`, basis: {item['basis']})"
-                for item in summary["reported_results"]
+                for item in results
             )
-        else:
-            lines.append("- not_available")
+            if results
+            else ["- not_available"]
+        )
         lines.extend(["", "### Research value", "", summary["research_value"], ""])
         lines.extend(["### Limitations and open questions", ""])
         lines.extend(f"- {item}" for item in summary["limitations_and_open_questions"])
@@ -160,19 +186,16 @@ def generate(
     execution = config["execution"]
     if execution.get("mode") != "manual_provider_validation":
         raise RuntimeError("DeepSeek generation is limited to manual provider validation")
-    if execution.get("email_enabled"):
-        raise RuntimeError("Email must remain disabled during provider validation")
-    if execution.get("update_summary_history"):
-        raise RuntimeError("Summary history updates are disabled during provider validation")
+    if execution.get("email_enabled") or execution.get("update_summary_history"):
+        raise RuntimeError("Email and summary-history updates must remain disabled")
 
     dry_run_manifest = load_json(dry_run_manifest_path, {})
     digest_date = str(dry_run_manifest.get("digest_date") or "")
     request_file = Path(str(dry_run_manifest.get("request_file") or ""))
     if not digest_date or not request_file.exists():
         raise RuntimeError("A successful summary dry run is required before generation")
-    requests = load_jsonl(request_file)
     maximum = int(config["limits"]["maximum_summaries_per_run"])
-    requests = requests[:maximum]
+    requests = load_jsonl(request_file)[:maximum]
     if not requests:
         raise RuntimeError("No summary requests are available")
 
@@ -194,8 +217,7 @@ def generate(
     for request in requests:
         candidate_id = str(request["candidate_id"])
         correction = ""
-        completed = False
-        for validation_attempt in range(validation_attempts):
+        for attempt in range(validation_attempts):
             try:
                 response = client.complete_json(
                     model=str(provider["model"]),
@@ -208,7 +230,7 @@ def generate(
                 summary = parse_model_json(response.content)
                 if summary.get("candidate_id") != candidate_id:
                     raise ValueError("candidate_id mismatch")
-                unsupported = validate_numeric_grounding(
+                unsupported = validate_summary_numeric_grounding(
                     summary,
                     title=str(request["source"]["title"]),
                     abstract=request["source"].get("abstract"),
@@ -219,23 +241,20 @@ def generate(
                     )
                 validate_record(summary, schema, f"summary {candidate_id}")
                 summaries.append(summary)
-                completed = True
                 break
             except (DeepSeekRequestError, json.JSONDecodeError, ValueError) as error:
-                if validation_attempt + 1 >= validation_attempts:
+                if attempt + 1 >= validation_attempts:
                     failures.append(
                         {"candidate_id": candidate_id, "reason": str(error)[:500]}
                     )
                     break
                 correction = (
-                    "\nYour previous JSON response failed local validation: "
-                    f"{str(error)[:300]}. Return a corrected JSON object only."
+                    "\nPrevious JSON failed local validation: "
+                    f"{str(error)[:300]}. Return corrected JSON only."
                 )
-        if not completed:
-            continue
 
     usage = usage_totals(responses)
-    state = {
+    state: dict[str, Any] = {
         "schema_version": 1,
         "summary_generation_version": int(config["summary_generation_version"]),
         "status": "completed" if not failures else "failed_validation",
@@ -254,7 +273,6 @@ def generate(
         "email_enabled": False,
         "summary_history_updated": False,
     }
-
     if failures:
         atomic_write(
             manifest_path,
@@ -265,10 +283,6 @@ def generate(
     summaries_path = output_root / "summaries" / f"{digest_date}.jsonl"
     digest_json_path = output_root / "digests" / f"{digest_date}.generated.json"
     digest_markdown_path = output_root / "digests" / f"{digest_date}.generated.md"
-    summaries_content = "".join(
-        json.dumps(item, ensure_ascii=False, sort_keys=True) + "\n"
-        for item in summaries
-    )
     digest = {
         "schema_version": 1,
         "digest_version": 1,
@@ -292,18 +306,20 @@ def generate(
             "digest_markdown_file": str(digest_markdown_path),
         }
     )
-    atomic_write(summaries_path, summaries_content)
+    atomic_write(
+        summaries_path,
+        "".join(
+            json.dumps(item, ensure_ascii=False, sort_keys=True) + "\n"
+            for item in summaries
+        ),
+    )
     atomic_write(
         digest_json_path,
         json.dumps(digest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
     )
     atomic_write(
         digest_markdown_path,
-        render_markdown(
-            digest_date=digest_date,
-            requests=requests,
-            summaries=summaries,
-        ),
+        render_markdown(digest_date, requests, summaries),
     )
     atomic_write(
         manifest_path,
@@ -332,9 +348,7 @@ def main() -> int:
         default=Path("config/summary_generation.yaml"),
     )
     parser.add_argument(
-        "--output-root",
-        type=Path,
-        default=Path("runtime-state/data"),
+        "--output-root", type=Path, default=Path("runtime-state/data")
     )
     parser.add_argument(
         "--manifest-path",
