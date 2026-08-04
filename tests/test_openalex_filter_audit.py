@@ -4,7 +4,10 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from scripts.discovery.audit_openalex_filters import audit_filters
+from scripts.discovery.audit_openalex_filters import (
+    audit_filters,
+    balanced_filtered_samples,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -121,8 +124,59 @@ queries:
     assert manifest["matched_count"] == 1
     assert manifest["filtered_count"] == 2
     assert manifest["sample_count"] == 1
+    assert manifest["sampling_strategy"] == "round_robin_unique_by_candidate"
     sample = manifest["filtered_samples"][0]
     assert sample["reason"] == "no_project_match"
     assert sample["title"] == "Marine Wireless Channel Survey"
     assert "abstract_inverted_index" not in output.read_text(encoding="utf-8")
     assert manifest["raw_provider_responses_persisted"] is False
+
+
+def test_balanced_samples_cover_queries_and_remove_duplicate_candidates() -> None:
+    duplicate = {
+        "candidate_id": "same-candidate",
+        "query_id": "query-a",
+        "title": "Repeated result",
+    }
+    samples = balanced_filtered_samples(
+        {
+            "query-a": [
+                duplicate,
+                {
+                    "candidate_id": "a-second",
+                    "query_id": "query-a",
+                    "title": "A second result",
+                },
+            ],
+            "query-b": [
+                {
+                    **duplicate,
+                    "query_id": "query-b",
+                },
+                {
+                    "candidate_id": "b-second",
+                    "query_id": "query-b",
+                    "title": "B second result",
+                },
+            ],
+            "query-c": [
+                {
+                    "candidate_id": "c-first",
+                    "query_id": "query-c",
+                    "title": "C first result",
+                }
+            ],
+        },
+        query_order=["query-a", "query-b", "query-c"],
+        sample_limit=3,
+    )
+    assert [sample["candidate_id"] for sample in samples] == [
+        "same-candidate",
+        "b-second",
+        "c-first",
+    ]
+    assert {sample["query_id"] for sample in samples} == {
+        "query-a",
+        "query-b",
+        "query-c",
+    }
