@@ -290,4 +290,4 @@ def test_openalex_optical_zo_is_not_mandatory(tmp_path: Path) -> None:
     assert rebuilt["route_counts"]["standard_scoring_queue"] == 1
     result = json.loads(recognition.read_text(encoding="utf-8"))
     assert result["routing"]["mandatory"] is False
-    assert "optical_zo_discovery" in result["routing"]["reasons"]
+    assert result["routing"]["reasons"] == ["project_match"]
