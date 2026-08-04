@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/YHUO001/Research-inbox/schemas/paper_summary.schema.json",
+  "title": "Grounded Paper Summary",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "summary_version",
+    "candidate_id",
+    "core_problem",
+    "method_and_architecture",
+    "main_contributions",
+    "reported_results",
+    "distinction_from_prior_work",
+    "research_value",
+    "limitations_and_open_questions",
+    "optical_neural_network_analysis",
+    "zeroth_order_analysis",
+    "verification"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "summary_version": {"const": 1},
+    "candidate_id": {"type": "string", "minLength": 8},
+    "core_problem": {"type": "string", "minLength": 1, "maxLength": 1200},
+    "method_and_architecture": {"type": "string", "minLength": 1, "maxLength": 1800},
+    "main_contributions": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 6,
+      "items": {"type": "string", "minLength": 1, "maxLength": 800}
+    },
+    "reported_results": {
+      "type": "array",
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim", "reported_by_authors", "basis"],
+        "properties": {
+          "claim": {"type": "string", "minLength": 1, "maxLength": 800},
+          "reported_by_authors": {"const": true},
+          "basis": {"type": "string", "enum": ["abstract", "title_and_metadata", "not_available"]}
+        }
+      }
+    },
+    "distinction_from_prior_work": {"type": "string", "minLength": 1, "maxLength": 1200},
+    "research_value": {"type": "string", "minLength": 1, "maxLength": 1200},
+    "limitations_and_open_questions": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 6,
+      "items": {"type": "string", "minLength": 1, "maxLength": 800}
+    },
+    "optical_neural_network_analysis": {
+      "oneOf": [
+        {"type": "null"},
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "architecture_type",
+            "training_method",
+            "optical_nonlinearity",
+            "calibration_requirements",
+            "application_tasks",
+            "hardware_validation"
+          ],
+          "properties": {
+            "architecture_type": {"type": "string", "enum": ["free_space", "integrated", "hybrid", "unclear", "not_available"]},
+            "training_method": {"type": "string", "maxLength": 800},
+            "optical_nonlinearity": {"type": "string", "maxLength": 800},
+            "calibration_requirements": {"type": "string", "maxLength": 800},
+            "application_tasks": {"type": "array", "items": {"type": "string", "maxLength": 300}},
+            "hardware_validation": {"type": "string", "enum": ["physical_experiment", "simulation_only", "mixed", "unclear", "not_available"]}
+          }
+        }
+      ]
+    },
+    "zeroth_order_analysis": {
+      "oneOf": [
+        {"type": "null"},
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "total_query_reduction_claim",
+            "per_step_vs_total_clarity",
+            "query_reuse",
+            "low_rank_or_subspace",
+            "structured_perturbation",
+            "forward_only"
+          ],
+          "properties": {
+            "total_query_reduction_claim": {"type": "string", "enum": ["yes", "no", "not_available"]},
+            "per_step_vs_total_clarity": {"type": "string", "maxLength": 800},
+            "query_reuse": {"type": "string", "maxLength": 800},
+            "low_rank_or_subspace": {"type": "string", "maxLength": 800},
+            "structured_perturbation": {"type": "string", "maxLength": 800},
+            "forward_only": {"type": "string", "maxLength": 800}
+          }
+        }
+      ]
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["information_basis", "unsupported_numbers_detected", "missing_information"],
+      "properties": {
+        "information_basis": {"const": "title_metadata_and_abstract_only"},
+        "unsupported_numbers_detected": {"const": false},
+        "missing_information": {"type": "array", "items": {"type": "string", "maxLength": 300}}
+      }
+    }
+  }
+}
