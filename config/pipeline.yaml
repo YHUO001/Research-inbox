@@ -1,4 +1,4 @@
-pipeline_version: 5
+pipeline_version: 6
 
 timezone: Asia/Singapore
 
@@ -12,7 +12,9 @@ sources:
     enabled: true
     collection_frequency_days: 2
     role: "semantic_discovery_and_metadata"
-    discovery_enabled: false
+    discovery_enabled: true
+    config_path: "config/openalex_discovery.yaml"
+    schema_path: "schemas/openalex_candidate.schema.json"
 
   semantic_scholar:
     enabled: false
@@ -44,9 +46,28 @@ recognition:
     routing_manifest: "state/routing_manifest.json"
     queue_directory: "data/queues"
 
+discovery:
+  openalex:
+    enabled: true
+    execution_mode: "scheduled_with_state_gate"
+    minimum_interval_hours: 44
+    config_path: "config/openalex_discovery.yaml"
+    source_registry: "data/paper_registry.jsonl"
+    state_path: "state/openalex_discovery_state.json"
+    manifest_path: "state/openalex_discovery_manifest.json"
+    deterministic_project_filter: true
+    cross_source_deduplication:
+      - "openalex_work_id"
+      - "doi"
+      - "normalized_title_year"
+      - "content_fingerprint"
+    use_venue_list_for_queries: false
+    persist_raw_provider_responses: false
+    download_full_text: false
+
 enrichment:
   enabled: true
-  execution_mode: "manual_backfill"
+  execution_mode: "manual_backfill_and_post_discovery"
   config_path: "config/metadata_enrichment.yaml"
   schema_path: "schemas/enriched_paper.schema.json"
   source_registry: "data/paper_registry.jsonl"
@@ -57,13 +78,14 @@ enrichment:
   persist_raw_provider_responses: false
   download_full_text: false
   openalex_api_key_required: true
-  active_discovery_enabled: false
+  active_discovery_enabled: true
 
 routing:
   order:
     - validate_parse
     - normalize_and_deduplicate
     - apply_parser_quality_gate
+    - apply_source_scoped_mandatory_rules
     - apply_tier_1_alert_venue_rule
     - apply_optical_zo_override
     - assign_projects
