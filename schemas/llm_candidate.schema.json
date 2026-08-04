@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/YHUO001/Research-inbox/schemas/llm_candidate.schema.json",
+  "title": "Budgeted LLM Candidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "candidate_id",
+    "title",
+    "authors",
+    "venue",
+    "year",
+    "source_type",
+    "doi",
+    "openalex_id",
+    "landing_page",
+    "open_access_url",
+    "abstract",
+    "matched_projects",
+    "mandatory",
+    "score",
+    "decision",
+    "selection_status",
+    "score_breakdown"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "candidate_id": {"type": "string", "minLength": 8},
+    "title": {"type": "string", "minLength": 1},
+    "authors": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
+    "venue": {"type": ["string", "null"]},
+    "year": {
+      "type": ["integer", "null"],
+      "minimum": 1900,
+      "maximum": 2100
+    },
+    "source_type": {
+      "type": "string",
+      "enum": ["google_scholar_email", "openalex", "unknown"]
+    },
+    "doi": {"type": ["string", "null"]},
+    "openalex_id": {"type": ["string", "null"]},
+    "landing_page": {"type": ["string", "null"]},
+    "open_access_url": {"type": ["string", "null"]},
+    "abstract": {"type": ["string", "null"], "maxLength": 10000},
+    "matched_projects": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["optical-neural-networks", "zeroth-order-optimization"]
+      },
+      "uniqueItems": true
+    },
+    "mandatory": {"type": "boolean"},
+    "score": {"type": "number", "minimum": 0, "maximum": 1},
+    "decision": {
+      "type": "string",
+      "enum": ["mandatory", "urgent", "summarize"]
+    },
+    "selection_status": {
+      "type": "string",
+      "enum": ["summary_slot", "llm_candidate_only"]
+    },
+    "score_breakdown": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["feature", "contribution", "evidence"],
+        "properties": {
+          "feature": {"type": "string"},
+          "contribution": {"type": "number", "minimum": -1, "maximum": 1},
+          "evidence": {
+            "type": "array",
+            "items": {"type": "string"},
+            "uniqueItems": true
+          }
+        }
+      }
+    }
+  }
+}
