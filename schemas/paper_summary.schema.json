@@ -27,20 +27,45 @@
     "summary_version": {"const": 2},
     "candidate_id": {"type": "string", "minLength": 8},
     "output_language": {"const": "zh-CN"},
-    "core_problem": {"type": "string", "minLength": 20, "maxLength": 1600},
-    "method_and_architecture": {"type": "string", "minLength": 40, "maxLength": 1800},
-    "method_principle": {"type": "string", "minLength": 160, "maxLength": 3200},
+    "core_problem": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 1600,
+      "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]"
+    },
+    "method_and_architecture": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 1800,
+      "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]"
+    },
+    "method_principle": {
+      "type": "string",
+      "minLength": 160,
+      "maxLength": 3200,
+      "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]"
+    },
     "method_implementation": {
       "type": "array",
       "minItems": 2,
       "maxItems": 6,
-      "items": {"type": "string", "minLength": 60, "maxLength": 1400}
+      "items": {
+        "type": "string",
+        "minLength": 60,
+        "maxLength": 1400,
+        "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]"
+      }
     },
     "main_contributions": {
       "type": "array",
       "minItems": 1,
       "maxItems": 8,
-      "items": {"type": "string", "minLength": 10, "maxLength": 900}
+      "items": {
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 900,
+        "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]|^not_available$"
+      }
     },
     "reported_results": {
       "type": "array",
@@ -50,19 +75,39 @@
         "additionalProperties": false,
         "required": ["claim", "reported_by_authors", "basis"],
         "properties": {
-          "claim": {"type": "string", "minLength": 10, "maxLength": 900},
+          "claim": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 900,
+            "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]|^not_available$"
+          },
           "reported_by_authors": {"const": true},
           "basis": {"type": "string", "enum": ["abstract", "title_and_metadata", "not_available"]}
         }
       }
     },
-    "distinction_from_prior_work": {"type": "string", "minLength": 10, "maxLength": 1600},
-    "research_value": {"type": "string", "minLength": 20, "maxLength": 1600},
+    "distinction_from_prior_work": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 1600,
+      "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]|^not_available$"
+    },
+    "research_value": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 1600,
+      "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]"
+    },
     "limitations_and_open_questions": {
       "type": "array",
       "minItems": 1,
       "maxItems": 8,
-      "items": {"type": "string", "minLength": 10, "maxLength": 900}
+      "items": {
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 900,
+        "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]|^not_available$"
+      }
     },
     "optical_neural_network_analysis": {
       "oneOf": [
@@ -80,10 +125,28 @@
           ],
           "properties": {
             "architecture_type": {"type": "string", "enum": ["free_space", "integrated", "hybrid", "unclear", "not_available"]},
-            "training_method": {"type": "string", "maxLength": 1200},
-            "optical_nonlinearity": {"type": "string", "maxLength": 1200},
-            "calibration_requirements": {"type": "string", "maxLength": 1200},
-            "application_tasks": {"type": "array", "items": {"type": "string", "maxLength": 400}},
+            "training_method": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1200,
+              "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]|^not_available$"
+            },
+            "optical_nonlinearity": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1200,
+              "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]|^not_available$"
+            },
+            "calibration_requirements": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1200,
+              "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]|^not_available$"
+            },
+            "application_tasks": {
+              "type": "array",
+              "items": {"type": "string", "minLength": 1, "maxLength": 400}
+            },
             "hardware_validation": {"type": "string", "enum": ["physical_experiment", "simulation_only", "mixed", "unclear", "not_available"]}
           }
         }
@@ -105,11 +168,36 @@
           ],
           "properties": {
             "total_query_reduction_claim": {"type": "string", "enum": ["yes", "no", "not_available"]},
-            "per_step_vs_total_clarity": {"type": "string", "maxLength": 1200},
-            "query_reuse": {"type": "string", "maxLength": 1200},
-            "low_rank_or_subspace": {"type": "string", "maxLength": 1200},
-            "structured_perturbation": {"type": "string", "maxLength": 1200},
-            "forward_only": {"type": "string", "maxLength": 1200}
+            "per_step_vs_total_clarity": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1200,
+              "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]|^not_available$"
+            },
+            "query_reuse": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1200,
+              "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]|^not_available$"
+            },
+            "low_rank_or_subspace": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1200,
+              "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]|^not_available$"
+            },
+            "structured_perturbation": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1200,
+              "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]|^not_available$"
+            },
+            "forward_only": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1200,
+              "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]|^not_available$"
+            }
           }
         }
       ]
