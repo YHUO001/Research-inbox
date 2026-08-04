@@ -71,7 +71,17 @@ jobs:
           echo "exit_code=${generate_exit_code}" >> "${GITHUB_OUTPUT}"
           exit 0
 
-      - name: Persist summary validation artifacts
+      - name: Build human review packet
+        if: steps.generate.outputs.exit_code == '0'
+        run: |
+          python -m scripts.summarize.build_review_packet \
+            --generation-manifest-path runtime-state/state/summary_generation_manifest.json \
+            --summary-schema schemas/paper_summary.schema.json \
+            --output-root runtime-state/data \
+            --review-manifest-path runtime-state/state/summary_review_manifest.json
+          cat runtime-state/state/summary_review_manifest.json
+
+      - name: Persist summary validation and review artifacts
         if: always()
         shell: bash
         run: |
@@ -79,19 +89,21 @@ jobs:
           git config user.name "research-inbox-bot"
           git config user.email "research-inbox-bot@users.noreply.github.com"
 
-          # A failed transactional generation may intentionally produce no summary
-          # or digest files. Keep the paths valid so the manifest is still saved.
-          mkdir -p data/summary_requests data/summaries data/digests
+          mkdir -p data/summary_requests data/summaries data/digests data/reviews
           git add -A -- \
             data/summary_requests \
             data/summaries \
             data/digests \
+            data/reviews \
             state/summary_generation_manifest.json
+          if [ -f state/summary_review_manifest.json ]; then
+            git add state/summary_review_manifest.json
+          fi
           if git diff --cached --quiet; then
-            echo "No DeepSeek summary changes to persist."
+            echo "No DeepSeek summary or review changes to persist."
             exit 0
           fi
-          git commit -m "Generate validated DeepSeek summary preview [skip ci]"
+          git commit -m "Generate validated summary review packet [skip ci]"
           git pull --rebase origin automation-state
           git push origin HEAD:automation-state
 
