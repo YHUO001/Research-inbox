@@ -16,5 +16,13 @@
     "19f32b7c80150a3e": "2026-08-04T05:25:16.234011Z",
     "19f2fe5bb8ccc15c": "2026-08-04T05:25:16.234011Z"
   },
-  "failed_message_ids": {}
+  "failed_message_ids": {},
+  "parser_version": 2,
+  "last_registry_repair_at": "2026-08-04T05:55:14.607228Z",
+  "last_registry_repair_summary": {
+    "messages": 11,
+    "repaired_candidates": 30,
+    "duplicates_removed": 1,
+    "registry_records": 29
+  }
 }
