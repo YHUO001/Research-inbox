@@ -70,6 +70,45 @@ def filtered_sample(
     }
 
 
+def balanced_filtered_samples(
+    samples_by_query: dict[str, list[dict[str, Any]]],
+    *,
+    query_order: list[str],
+    sample_limit: int,
+) -> list[dict[str, Any]]:
+    """Select unique filtered samples round-robin across configured queries."""
+    if sample_limit <= 0:
+        return []
+
+    offsets = {query_id: 0 for query_id in query_order}
+    selected: list[dict[str, Any]] = []
+    seen_candidate_ids: set[str] = set()
+
+    while len(selected) < sample_limit:
+        progressed = False
+        for query_id in query_order:
+            bucket = samples_by_query.get(query_id, [])
+            offset = offsets[query_id]
+            while offset < len(bucket):
+                sample = bucket[offset]
+                offset += 1
+                candidate_id = str(sample.get("candidate_id") or "")
+                if candidate_id and candidate_id in seen_candidate_ids:
+                    continue
+                selected.append(sample)
+                if candidate_id:
+                    seen_candidate_ids.add(candidate_id)
+                progressed = True
+                break
+            offsets[query_id] = offset
+            if len(selected) >= sample_limit:
+                break
+        if not progressed:
+            break
+
+    return selected
+
+
 def audit_filters(
     *,
     config_path: Path,
@@ -101,13 +140,14 @@ def audit_filters(
     venues = load_yaml(venues_path)
     queries = load_queries(config)
     limits = config["limits"]
-    sample_limit = int(
-        (config.get("observability") or {}).get("maximum_filtered_samples", 20)
-    )
+    observability = config.get("observability") or {}
+    sample_limit = int(observability.get("maximum_filtered_samples", 20))
     maximum_per_query = int(limits["maximum_results_per_query"])
     maximum_abstract = int(limits["maximum_abstract_characters"])
 
-    samples: list[dict[str, Any]] = []
+    samples_by_query: dict[str, list[dict[str, Any]]] = {
+        query.query_id: [] for query in queries
+    }
     raw_count = 0
     filtered_count = 0
     matched_count = 0
@@ -182,8 +222,8 @@ def audit_filters(
                 continue
             filtered_count += 1
             query_filtered += 1
-            if len(samples) < sample_limit:
-                samples.append(
+            if len(samples_by_query[query.query_id]) < sample_limit:
+                samples_by_query[query.query_id].append(
                     filtered_sample(
                         candidate,
                         query=query,
@@ -203,9 +243,15 @@ def audit_filters(
             }
         )
 
+    query_order = [query.query_id for query in queries]
+    samples = balanced_filtered_samples(
+        samples_by_query,
+        query_order=query_order,
+        sample_limit=sample_limit,
+    )
     manifest = {
         "schema_version": 1,
-        "audit_version": 1,
+        "audit_version": 2,
         "built_at": isoformat(now),
         "window_start": start_date,
         "window_end": end_date,
@@ -216,6 +262,7 @@ def audit_filters(
         "query_error_count": query_error_count,
         "sample_limit": sample_limit,
         "sample_count": len(samples),
+        "sampling_strategy": "round_robin_unique_by_candidate",
         "filtered_samples": samples,
         "query_summaries": query_summaries,
         "raw_provider_responses_persisted": False,
