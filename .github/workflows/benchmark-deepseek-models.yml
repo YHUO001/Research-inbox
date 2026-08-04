@@ -51,14 +51,14 @@ jobs:
             --output-root runtime-state/data \
             --manifest-path runtime-state/state/summary_generation_manifest.json
 
-      - name: Benchmark Flash and Pro with candidate-level isolation
+      - name: Benchmark Flash and Pro with fair transport normalization
         id: benchmark
         shell: bash
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           set +e
-          python -m scripts.summarize.benchmark_deepseek_models_v2 \
+          python -m scripts.summarize.benchmark_deepseek_models_v3 \
             --dry-run-manifest-path runtime-state/state/summary_generation_manifest.json \
             --summary-schema schemas/paper_summary.schema.json \
             --config config/summary_generation.yaml \
