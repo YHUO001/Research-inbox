@@ -5,6 +5,7 @@ from pathlib import Path
 
 from scripts.summarize.prepare_digest import (
     build_summary_request,
+    numeric_tokens,
     prepare_dry_run,
     validate_numeric_grounding,
 )
@@ -135,6 +136,8 @@ def test_project_specific_prompt_instructions() -> None:
     assert "method_principle" in prompt
     assert "method_implementation" in prompt
     assert "所有面向读者的自然语言内容必须使用简体中文" in prompt
+    assert "不得把约数改写为精确值" in prompt
+    assert "不得把正负范围改写为单点值" in prompt
 
 
 def test_numeric_grounding_rejects_invented_result() -> None:
@@ -154,6 +157,50 @@ def test_numeric_grounding_rejects_invented_result() -> None:
         abstract="The system achieved 95% accuracy.",
     )
     assert supported == []
+
+
+def test_numeric_grounding_accepts_equivalent_publisher_formats() -> None:
+    title = "All-optical computing towards 100-GHz clock rates"
+    abstract = (
+        "Processors remain near ~5 GHz. The optical system operates up to 80 GHz. "
+        "A second experiment reports 75% accuracy at sigma ≈ 0.4π and within ±3 pixels."
+    )
+    summary = {
+        "method_and_architecture": "系统面向 100 GHz 时钟率，并以约 5 GHz 电子处理器作为背景比较。",
+        "reported_results": [
+            {"claim": "作者报告系统可在最高 80 吉赫兹条件下运行。"},
+            {"claim": "相位噪声水平约为 0.4π，横向偏移范围为正负 3 个像素。"},
+        ],
+    }
+    assert validate_numeric_grounding(summary, title=title, abstract=abstract) == []
+    assert {"100ghz", "~5ghz", "80ghz", "~0.4", "±3pixel"}.issubset(
+        numeric_tokens(f"{title}\n{abstract}")
+    )
+
+
+def test_numeric_grounding_preserves_approximation_and_range_semantics() -> None:
+    approximate = validate_numeric_grounding(
+        {"reported_results": [{"claim": "作者报告处理器运行于 5 GHz。"}]},
+        title="Processor comparison",
+        abstract="Conventional processors remain at ~5 GHz.",
+    )
+    assert approximate == ["5ghz"]
+
+    signed_range = validate_numeric_grounding(
+        {"reported_results": [{"claim": "作者报告偏移为 3 个像素。"}]},
+        title="Alignment test",
+        abstract="The system maintains accuracy within ±3 pixels.",
+    )
+    assert signed_range == ["3"]
+
+
+def test_numeric_grounding_still_rejects_new_fulltext_number() -> None:
+    unsupported = validate_numeric_grounding(
+        {"method_implementation": ["正文设备使用 488 nm 光源。"]},
+        title="Optical neural network",
+        abstract="The abstract reports a 95% classification result.",
+    )
+    assert unsupported == ["488nm"]
 
 
 def test_preview_contains_no_generated_claims(tmp_path: Path) -> None:

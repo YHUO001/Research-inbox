@@ -122,6 +122,8 @@ def build_prompt(candidate: dict[str, Any], instructions: list[str]) -> str:
         "训练或参数配置如何进行，以及输出如何得到。不要只罗列名词。\n"
         "只能使用提供的证据，不得补写缺失的实验、比较、因果关系或实现细节。无法确认时明确写“未提供”。\n"
         "所有数字仍必须出现在标题或摘要中；即使正文上下文包含额外数字，也不要把这些数字写入摘要。\n"
+        "标题或摘要中的近似、约数和正负范围必须保留其语义，例如使用“约”“近似”或“正负”；"
+        "不得把约数改写为精确值，也不得把正负范围改写为单点值。\n"
         "实验结论必须表述为作者报告的结果，而不是独立验证结论。\n"
         f"项目专项检查：\n{instruction_text}\n"
         f"来源记录：\n{json.dumps(source, ensure_ascii=False, sort_keys=True)}"
@@ -169,19 +171,63 @@ def build_summary_request(
 
 
 _NUMERIC_TOKEN = re.compile(
-    r"(?<![A-Za-z0-9])(?:~|≈|±)?\s*\d+(?:\.\d+)?(?:\s*%|\s*[A-Za-z]+(?:/[A-Za-z0-9²^]+)?)?"
+    r"(?<![A-Za-z0-9])(?:~|≈|∼|±)?\s*\d+(?:\.\d+)?"
+    r"(?:\s*%|\s*[-‐‑‒–—]?\s*[A-Za-zµμ]+(?:\s*/\s*[A-Za-z0-9µμ²³^]+)?)?"
 )
+_NUMERIC_PARTS = re.compile(
+    r"^(?P<prefix>~|±)?(?P<number>\d+(?:\.\d+)?)(?P<unit>.*)$"
+)
+_UNIT_ALIASES = {
+    "pixels": "pixel",
+    "pixel": "pixel",
+    "µm": "um",
+    "μm": "um",
+    "mm²": "mm2",
+    "mm^2": "mm2",
+    "mm³": "mm3",
+    "mm^3": "mm3",
+}
+
+
+def prepare_numeric_text(value: str) -> str:
+    prepared = value or ""
+    prepared = re.sub(
+        r"(?:大约|约为|近似为|近似|约|近)\s*(?=\d)",
+        "~",
+        prepared,
+    )
+    prepared = re.sub(r"正负\s*(?=\d)", "±", prepared)
+    return prepared
 
 
 def normalize_numeric_token(value: str) -> str:
-    return re.sub(r"\s+", "", value.lower()).replace("≈", "~")
+    normalized = value.lower().replace("≈", "~").replace("∼", "~")
+    normalized = re.sub(r"\s+", "", normalized)
+    normalized = re.sub(r"(?<=\d)[-‐‑‒–—](?=[a-zµμ])", "", normalized)
+    normalized = normalized.replace("²", "2").replace("³", "3")
+    normalized = normalized.replace("^2", "2").replace("^3", "3")
+    match = _NUMERIC_PARTS.fullmatch(normalized)
+    if not match:
+        return normalized
+    prefix = match.group("prefix") or ""
+    number = match.group("number")
+    unit = _UNIT_ALIASES.get(match.group("unit"), match.group("unit"))
+    return f"{prefix}{number}{unit}"
 
 
 def numeric_tokens(value: str) -> set[str]:
+    prepared = prepare_numeric_text(value)
     return {
         normalize_numeric_token(match.group(0))
-        for match in _NUMERIC_TOKEN.finditer(value or "")
+        for match in _NUMERIC_TOKEN.finditer(prepared)
     }
+
+
+def numeric_semantic_scalar(token: str) -> str | None:
+    match = _NUMERIC_PARTS.fullmatch(token)
+    if not match:
+        return None
+    return f"{match.group('prefix') or ''}{match.group('number')}"
 
 
 def validate_numeric_grounding(
@@ -191,9 +237,23 @@ def validate_numeric_grounding(
     abstract: str | None,
 ) -> list[str]:
     source_tokens = numeric_tokens(f"{title}\n{abstract or ''}")
+    source_scalars = {
+        scalar
+        for token in source_tokens
+        if (scalar := numeric_semantic_scalar(token)) is not None
+    }
     summary_text = stable_json(summary_record)
     summary_tokens = numeric_tokens(summary_text)
-    return sorted(token for token in summary_tokens if token not in source_tokens)
+    unsupported: list[str] = []
+    for token in summary_tokens:
+        if token in source_tokens:
+            continue
+        scalar = numeric_semantic_scalar(token)
+        unit = token[len(scalar) :] if scalar is not None else token
+        if scalar in source_scalars and not unit:
+            continue
+        unsupported.append(token)
+    return sorted(unsupported)
 
 
 def render_digest_markdown(digest: dict[str, Any]) -> str:
