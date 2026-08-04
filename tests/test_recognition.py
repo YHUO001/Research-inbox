@@ -210,3 +210,19 @@ def test_meta_optical_encoder_for_segmentation_is_retained() -> None:
         "optical-neural-networks"
     )
     assert result["routing"]["route"] == "standard_scoring_queue"
+
+
+def test_light_driven_neuromorphic_hardware_is_retained() -> None:
+    result = classify(
+        candidate(
+            title=(
+                "Emerging light-driven neuromorphic hardware for "
+                "artificial intelligence"
+            ),
+            venue="NPG Asia Materials",
+        )
+    )
+    assert result["matched_projects"][0]["project_id"] == (
+        "optical-neural-networks"
+    )
+    assert result["routing"]["route"] == "standard_scoring_queue"
