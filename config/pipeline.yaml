@@ -1,4 +1,4 @@
-pipeline_version: 9
+pipeline_version: 10
 
 timezone: Asia/Singapore
 
@@ -152,21 +152,27 @@ scoring:
 
 summary_generation:
   enabled: false
-  execution_mode: "manual_dry_run"
-  provider: "not_configured"
+  execution_mode: "manual_provider_validation"
+  provider: "deepseek"
+  model: "deepseek-v4-flash"
+  thinking_enabled: false
   config_path: "config/summary_generation.yaml"
   request_schema_path: "schemas/summary_request.schema.json"
   summary_schema_path: "schemas/paper_summary.schema.json"
   source_queue: "data/queues/llm_candidate_queue.jsonl"
   request_directory: "data/summary_requests"
+  summary_directory: "data/summaries"
   digest_directory: "data/digests"
   manifest_path: "state/summary_generation_manifest.json"
   maximum_summaries_per_run: 3
+  information_basis: "title_metadata_and_abstract_only"
   use_full_text: false
   update_summary_history: false
   email_enabled: false
+  scheduled_generation_enabled: false
   integrated_workflows:
     - "Build Summary Dry Run"
+    - "Generate DeepSeek Summaries"
 
 limits:
   max_raw_items_per_source: 100
