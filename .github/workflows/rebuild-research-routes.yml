@@ -1,4 +1,4 @@
-name: Repair Scholar Registry
+name: Rebuild Research Routes
 
 on:
   workflow_dispatch:
@@ -11,9 +11,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  reparse-processed-alerts:
+  rebuild-routes:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
 
     steps:
       - name: Check out pipeline code
@@ -40,17 +40,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
-      - name: Reparse processed Scholar alerts
-        env:
-          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
-          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
-          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
-        run: |
-          python -m scripts.maintenance.reparse_scholar \
-            --config config/google_scholar_alerts.yaml \
-            --state-path runtime-state/state/gmail_ingestion_state.json \
-            --registry-path runtime-state/data/paper_registry.jsonl
-
       - name: Rebuild deterministic routes
         run: |
           python -m scripts.pipeline.route_registry \
@@ -59,7 +48,7 @@ jobs:
             --queue-dir runtime-state/data/queues \
             --manifest-path runtime-state/state/routing_manifest.json
 
-      - name: Persist repaired registry and routes
+      - name: Persist routing state
         shell: bash
         run: |
           cd runtime-state
@@ -67,9 +56,9 @@ jobs:
           git config user.email "research-inbox-bot@users.noreply.github.com"
           git add state data
           if git diff --cached --quiet; then
-            echo "No registry or routing changes to persist."
+            echo "No routing changes to persist."
             exit 0
           fi
-          git commit -m "Repair Scholar registry and rebuild routes [skip ci]"
+          git commit -m "Rebuild deterministic research routes [skip ci]"
           git pull --rebase origin automation-state
           git push origin HEAD:automation-state

@@ -61,6 +61,21 @@ jobs:
           echo "exit_code=${collector_exit_code}" >> "${GITHUB_OUTPUT}"
           exit 0
 
+      - name: Rebuild deterministic routes
+        id: route
+        if: steps.collect.outputs.exit_code == '0'
+        shell: bash
+        run: |
+          set +e
+          python -m scripts.pipeline.route_registry \
+            --registry-path runtime-state/data/paper_registry.jsonl \
+            --recognition-path runtime-state/data/recognition_results.jsonl \
+            --queue-dir runtime-state/data/queues \
+            --manifest-path runtime-state/state/routing_manifest.json
+          route_exit_code=$?
+          echo "exit_code=${route_exit_code}" >> "${GITHUB_OUTPUT}"
+          exit 0
+
       - name: Persist sanitized state
         if: always()
         shell: bash
@@ -79,7 +94,14 @@ jobs:
           git pull --rebase origin automation-state
           git push origin HEAD:automation-state
 
-      - name: Fail after persisting retry state
+      - name: Fail after persisting collector retry state
         if: steps.collect.outputs.exit_code != '0'
         shell: bash
         run: exit "${{ steps.collect.outputs.exit_code }}"
+
+      - name: Fail after persisting routing diagnostics
+        if: >-
+          steps.collect.outputs.exit_code == '0' &&
+          steps.route.outputs.exit_code != '0'
+        shell: bash
+        run: exit "${{ steps.route.outputs.exit_code }}"

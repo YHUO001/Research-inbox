@@ -1,7 +1,7 @@
-# Research recognition rules.
-# Deterministic first-pass classifier before optional semantic scoring.
+# Deterministic project recognition and routing rules.
+# These rules operate only on already retrieved candidates.
 
-version: 1
+version: 2
 
 common:
   case_sensitive: false
@@ -10,143 +10,183 @@ common:
     - title
     - snippet
     - venue
-    - authors
-    - abstract_if_available
     - metadata_line
-
   confidence_states:
     - confirmed
     - probable
     - uncertain
     - rejected
 
+quality:
+  manual_review_states:
+    - manual_review
+    - rejected
+  partial_state: partial
+
 projects:
   zeroth-order-optimization:
     priority: high
 
-    optical_zo:
-      mandatory_summary: true
-      match_any:
-        - "zeroth[- ]order"
-        - "zero[- ]order"
-        - "derivative[- ]free"
-        - "black[- ]box optimization"
-        - "finite difference"
-        - "function evaluation"
-      require_context_any:
-        - "optical neural network"
-        - "photonic processor"
-        - "photonic neural network"
-        - "physical neural network"
-        - "analog neural hardware"
-        - "optical processor"
-        - "silicon photonic"
-        - "Mach[- ]Zehnder interferometer"
-      action:
-        route: "mandatory_summary"
-        bypass_score: true
+    method_patterns:
+      - 'zeroth[- ]order(?: optimization)?'
+      - 'zero[- ]order optimization'
+      - 'gradient[- ]free optimization'
+      - 'derivative[- ]free optimization'
+      - 'black[- ]box (?:gradient|optimization|training)'
+      - 'finite[- ]difference gradient'
+      - 'function[- ]value optimization'
+      - '\bSPSA\b'
+      - 'evolution strateg(?:y|ies)'
 
-    llm_zo:
-      match_any:
-        - "large language model"
-        - "LLM"
-        - "foundation model"
-        - "transformer"
-        - "language model"
-        - "fine[- ]tuning"
-      require_method_any:
-        - "zeroth[- ]order"
-        - "ZO optimization"
-        - "MeZO"
-        - "PseuZO"
-        - "BSZO"
-        - "FEZO"
-        - "gradient estimation"
-        - "gradient-free"
-      priority_features:
-        query_efficiency:
-          weight: 1.0
-          patterns:
-            - "fewer queries"
-            - "query complexity"
-            - "two-query"
-            - "one-query"
-            - "few-shot queries"
-            - "function evaluations"
-        low_rank_or_subspace:
-          weight: 1.0
-          patterns:
-            - "low-rank"
-            - "low dimensional subspace"
-            - "subspace gradient"
-            - "Bayesian subspace"
-            - "projected gradient"
-        query_reuse:
-          weight: 1.0
-          patterns:
-            - "query reuse"
-            - "historical queries"
-            - "reuse function evaluations"
-            - "baseline"
-        structured_perturbation:
-          weight: 0.85
-          patterns:
-            - "layer-wise"
-            - "block-wise"
-            - "structured perturbation"
-            - "sparse perturbation"
-        general_zo:
-          weight: 0.4
+    method_aliases:
+      - '\bMeZO\b'
+      - '\bPseuZO\b'
+      - '\bBSZO\b'
+      - '\bFEZO\b'
+      - '\bZoAR\b'
+      - '\bZO-RL\b'
+
+    negative_patterns:
+      - 'zero[- ]shot learning'
+      - 'zero[- ]shot classification'
+      - 'zero[- ]order hold'
+      - 'zeroth law'
+
+    optimization_context_patterns:
+      - 'optim'
+      - 'train'
+      - 'fine[- ]tun'
+      - 'gradient'
+      - 'function evaluation'
+      - 'parameter perturbation'
+
+    optical_context_patterns:
+      - 'optical neural network'
+      - 'photonic neural network'
+      - 'diffractive neural network'
+      - 'physical neural network'
+      - 'optoelectronic neural network'
+      - 'photonic processor'
+      - 'optical processor'
+      - 'analog neural hardware'
+      - 'silicon photonic'
+      - 'Mach[- ]Zehnder'
+      - '\bMZI\b'
+
+    llm_context_patterns:
+      - 'large language model'
+      - '\bLLM(?:s)?\b'
+      - 'foundation model'
+      - 'transformer'
+      - 'language model'
+      - 'parameter[- ]efficient fine[- ]tuning'
+
+    ambiguous_aliases:
+      - '\bFEZO\b'
+
+    priority_features:
+      query_efficiency:
+        weight: 1.0
+        patterns:
+          - 'fewer queries'
+          - 'query efficient'
+          - 'query efficiency'
+          - 'query complexity'
+          - 'total function evaluations'
+          - 'function evaluation complexity'
+      per_step_query_count:
+        weight: 0.0
+        patterns:
+          - 'one[- ]query'
+          - 'two[- ]query'
+      query_reuse:
+        weight: 1.0
+        patterns:
+          - 'query reuse'
+          - 'reuse queries'
+          - 'reuse function evaluations'
+          - 'historical queries'
+      low_rank_or_subspace:
+        weight: 1.0
+        patterns:
+          - 'low[- ]rank'
+          - 'low[- ]dimensional subspace'
+          - 'subspace gradient'
+          - 'Bayesian subspace'
+          - 'projected gradient'
+          - 'intrinsic dimension'
+      structured_perturbation:
+        weight: 0.85
+        patterns:
+          - 'layer[- ]wise perturbation'
+          - 'layered[- ]parameter perturbation'
+          - 'block[- ]wise perturbation'
+          - 'structured perturbation'
+          - 'sparse perturbation'
+      forward_only_memory:
+        weight: 0.75
+        patterns:
+          - 'forward[- ]only'
+          - 'just forward passes'
+          - 'inference[- ]level memory'
+          - 'inference memory'
 
   optical-neural-networks:
     priority: high
-    match_any:
-      - "optical neural network"
-      - "diffractive neural network"
-      - "photonic neural network"
-      - "optical computing"
-      - "physical neural network"
-      - "analog machine learning"
-      - "metasurface neural network"
 
-    reject_if_only:
-      - "using optical flow"
-      - "optical image classification dataset"
-      - "camera-based recognition"
+    high_precision_patterns:
+      - 'optical neural network'
+      - 'photonic neural network'
+      - 'diffractive neural network'
+      - 'diffractive optical neural network'
+      - 'physical neural network'
+      - 'optoelectronic neural network'
+      - 'metasurface neural network'
+      - 'photonic deep neural network'
+      - '\bONN(?:s)?\b'
 
-cross_project_rules:
-  # Do not classify papers as ZO merely because they mention optimization.
-  require_method_evidence:
-    zeroth-order:
-      - "zeroth-order"
-      - "zero-order"
-      - "ZO"
-      - "finite difference"
-      - "black-box gradient"
-      - "derivative-free"
+    optical_hardware_patterns:
+      - 'free[- ]space optical'
+      - 'spatial optical'
+      - 'diffractive optical'
+      - 'coherent optical'
+      - 'holographic'
+      - 'metasurface'
+      - 'photonic processor'
+      - 'optical processor'
+      - 'silicon photonic'
+      - 'Mach[- ]Zehnder'
+      - '\bMZI\b'
+      - 'optomechanical'
+      - 'electroabsorption modulator'
 
-  negative_patterns:
-    - "zero-shot learning"
-    - "zero-shot classification"
-    - "zero order hold"
+    neural_context_patterns:
+      - 'neural network'
+      - 'deep learning'
+      - 'neuromorphic'
+      - 'spiking neural'
+      - 'convolution'
+      - 'inference'
+      - 'training'
+      - 'classifier'
+      - 'activation function'
+      - 'artificial intelligence'
 
-  ambiguous_method_names:
-    FEZO:
-      action: "manual_verification"
-      reason: "abbreviation collision risk"
+    negative_patterns:
+      - 'optical flow estimation'
+      - 'optical flow neural network'
+      - 'optical character recognition'
+      - 'neural radiance field'
+      - 'camera[- ]based recognition'
 
 routing:
-  confidence_policy:
-    confirmed:
-      action: "normal_pipeline"
-    probable:
-      action: "retain_and_score"
-    uncertain:
-      action: "review_queue"
-    rejected:
-      action: "archive"
-
-  no_guess_policy:
-    missing_method: "do_not_assign_project"
-    missing_venue: "allow"
-    missing_identifier: "allow"
+  source_scope:
+    - google_scholar_email
+  precedence:
+    - parser_quality
+    - tier_1_venue
+    - optical_zo_override
+    - project_assignment
+    - metadata_completeness
+    - standard_route
+  overflow_action: carry_forward
