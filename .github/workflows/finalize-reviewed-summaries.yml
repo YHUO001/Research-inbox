@@ -1,0 +1,95 @@
+name: Finalize Reviewed Summaries
+
+on:
+  workflow_dispatch:
+    inputs:
+      decision:
+        description: "Approve the full batch or hold it for revision"
+        required: true
+        type: choice
+        options:
+          - hold_for_revision
+          - approve_all
+      confirmation:
+        description: "Type REVIEWED exactly after checking every paper"
+        required: true
+        type: string
+      notes:
+        description: "Optional batch-level review notes"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-research-inbox-state-writer
+  cancel-in-progress: false
+
+jobs:
+  finalize-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out pipeline code
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install project
+        run: |
+          python -m pip install --upgrade pip
+          pip install .
+
+      - name: Check out automation state
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          ref: automation-state
+          path: runtime-state
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+
+      - name: Apply human review decision
+        env:
+          REVIEW_DECISION: ${{ inputs.decision }}
+          REVIEW_CONFIRMATION: ${{ inputs.confirmation }}
+          REVIEW_NOTES: ${{ inputs.notes }}
+          REVIEWER: ${{ github.actor }}
+        run: |
+          reviewed_at="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          python -m scripts.summarize.finalize_review \
+            --state-root runtime-state \
+            --review-manifest-path runtime-state/state/summary_review_manifest.json \
+            --history-path runtime-state/state/summary_history.json \
+            --decision "${REVIEW_DECISION}" \
+            --confirmation "${REVIEW_CONFIRMATION}" \
+            --reviewer "${REVIEWER}" \
+            --reviewed-at "${reviewed_at}" \
+            --notes "${REVIEW_NOTES}"
+          cat runtime-state/state/summary_review_manifest.json
+
+      - name: Persist review decision
+        shell: bash
+        run: |
+          cd runtime-state
+          git config user.name "research-inbox-bot"
+          git config user.email "research-inbox-bot@users.noreply.github.com"
+          git add -A -- \
+            data/reviews \
+            data/digests \
+            state/summary_review_manifest.json \
+            state/summary_history.json
+          if git diff --cached --quiet; then
+            echo "No review decision changes to persist."
+            exit 0
+          fi
+          git commit -m "Finalize human summary review [skip ci]"
+          git pull --rebase origin automation-state
+          git push origin HEAD:automation-state
