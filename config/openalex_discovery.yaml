@@ -23,6 +23,7 @@ limits:
 
 observability:
   maximum_filtered_samples: 20
+  filtered_sample_strategy: "round_robin_unique_by_candidate"
   persist_raw_provider_responses: false
 
 policy:
