@@ -1,4 +1,4 @@
-pipeline_version: 7
+pipeline_version: 8
 
 timezone: Asia/Singapore
 
@@ -36,7 +36,7 @@ recognition:
   enabled: true
   deterministic_first: true
   config_path: "config/recognition_rules.yaml"
-  rules_version: 3
+  rules_version: 4
   venue_config_path: "config/venues.yaml"
   result_schema_path: "schemas/recognition_result.schema.json"
   classifier_version: 2
@@ -68,7 +68,7 @@ discovery:
 
 enrichment:
   enabled: true
-  execution_mode: "manual_backfill_and_post_discovery"
+  execution_mode: "daily_post_collection_post_discovery_and_manual"
   config_path: "config/metadata_enrichment.yaml"
   schema_path: "schemas/enriched_paper.schema.json"
   source_registry: "data/paper_registry.jsonl"
@@ -129,7 +129,7 @@ routing:
 
 scoring:
   enabled: true
-  execution_mode: "manual_validation"
+  execution_mode: "automatic_after_registry_enrichment_or_routing_change"
   deterministic_only: true
   config_path: "config/scoring.yaml"
   result_schema_path: "schemas/scoring_result.schema.json"
@@ -143,6 +143,12 @@ scoring:
   selection_manifest: "state/selection_manifest.json"
   mandatory_candidates_sort_first: true
   completed_summary_ids_are_excluded: true
+  integrated_workflows:
+    - "Daily Research Inbox"
+    - "OpenAlex Research Discovery"
+    - "Repair Scholar Registry"
+    - "Rebuild Research Routes"
+    - "Enrich Paper Registry"
 
 limits:
   max_raw_items_per_source: 100

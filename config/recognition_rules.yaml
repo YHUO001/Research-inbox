@@ -1,7 +1,7 @@
 # Deterministic project recognition and routing rules.
 # These rules operate only on already retrieved candidates.
 
-version: 3
+version: 4
 
 common:
   case_sensitive: false
@@ -143,6 +143,10 @@ projects:
       - 'optoelectronic neural network'
       - 'metasurface neural network'
       - 'photonic deep neural network'
+      - 'photonic neuromorphic'
+      - 'neuromorphic photonic'
+      - 'light[- ]driven neuromorphic'
+      - 'optoelectronic neuromorphic'
       - '\bONN(?:s)?\b'
 
     optical_hardware_patterns:
@@ -165,6 +169,10 @@ projects:
       - 'photonic activation function'
       - 'thin[- ]film lithium niobate'
       - 'lithium niobate waveguide'
+      - 'photonic neuromorphic'
+      - 'neuromorphic photonic'
+      - 'light[- ]driven neuromorphic'
+      - 'optoelectronic neuromorphic'
 
     neural_context_patterns:
       - 'neural network'
