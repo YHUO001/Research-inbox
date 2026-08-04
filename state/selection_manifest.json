@@ -1,6 +1,6 @@
 {
   "after_scoring_candidate_count": 9,
-  "built_at": "2026-08-04T11:27:51.896684Z",
+  "built_at": "2026-08-04T13:23:52.173063Z",
   "completed_candidate_count": 0,
   "decision_counts": {
     "archive": 5,
@@ -11,7 +11,7 @@
   },
   "eligible_candidate_count": 9,
   "email_enabled": false,
-  "enriched_registry_sha256": "3d2d384e28108b2169f7e006a73d7e8030e98514fdb83d027467743f6bb17a43",
+  "enriched_registry_sha256": "2e8446dd68256620ed7b0677042696c8297c1981370fdac8479ec313d1aebf5f",
   "llm_candidate_count": 5,
   "llm_enabled": false,
   "mandatory_carry_forward_ids": [],
