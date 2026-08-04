@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "research-inbox"
-version = "0.1.0"
+version = "0.2.0"
 description = "Low-token academic paper discovery and triage pipeline"
 requires-python = ">=3.11"
 dependencies = [
@@ -25,7 +25,10 @@ dev = [
 packages = [
   "scripts",
   "scripts.auth",
+  "scripts.classify",
   "scripts.ingest",
+  "scripts.maintenance",
+  "scripts.pipeline",
 ]
 
 [tool.pytest.ini_options]
