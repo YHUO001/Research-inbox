@@ -1,0 +1,104 @@
+scoring_version: 1
+
+inputs:
+  source_registry: "data/paper_registry.jsonl"
+  enriched_registry: "data/enriched_paper_registry.jsonl"
+  recognition_results: "data/recognition_results.jsonl"
+  summary_history: "state/summary_history.json"
+
+outputs:
+  scoring_results: "data/scoring_results.jsonl"
+  llm_candidate_queue: "data/queues/llm_candidate_queue.jsonl"
+  selection_manifest: "state/selection_manifest.json"
+
+limits:
+  max_candidates_after_scoring: 10
+  max_candidates_to_llm: 5
+  max_daily_summaries: 3
+
+thresholds:
+  archive_below: 0.55
+  retain_without_summary_from: 0.55
+  summarize_from: 0.72
+  urgent_from: 0.85
+
+weights:
+  project_confidence:
+    confirmed: 0.32
+    probable: 0.22
+    uncertain: 0.10
+  multiple_project_bonus: 0.08
+  title_evidence: 0.10
+  contextual_evidence: 0.04
+  priority_features_cap: 0.15
+  venue:
+    tier_1_must_summarize: 0.12
+    tier_2_relevance_gated: 0.06
+    tier_3_and_unlisted: 0.02
+    unresolved: 0.0
+  metadata:
+    abstract: 0.08
+    doi: 0.03
+    openalex_id: 0.02
+    venue_and_year: 0.02
+  freshness:
+    within_30_days: 0.05
+    within_90_days: 0.03
+    within_365_days: 0.01
+  primary_source_bonus: 0.02
+  negative_evidence_penalty_each: 0.08
+  negative_evidence_penalty_cap: 0.16
+  review_or_perspective_penalty: 0.07
+
+signals:
+  architecture:
+    weight: 0.08
+    patterns:
+      - "\\barchitecture\\b"
+      - "\\bdiffractive\\b"
+      - "\\bmetasurface\\b"
+      - "\\bholographic\\b"
+      - "\\bmach[–-]zehnder\\b"
+      - "\\bphotonic processor\\b"
+      - "\\boptical encoder\\b"
+      - "\\bspiking\\b"
+  training:
+    weight: 0.08
+    patterns:
+      - "\\btraining\\b"
+      - "\\bbackpropagation\\b"
+      - "\\bforward[- ]only\\b"
+      - "\\bin situ\\b"
+      - "\\bcalibration\\b"
+      - "\\bmodel[- ]free\\b"
+      - "\\bzeroth[- ]order\\b"
+      - "\\bgradient[- ]free\\b"
+      - "\\bquery reuse\\b"
+      - "\\blow[- ]rank\\b"
+      - "\\bsubspace\\b"
+  application:
+    weight: 0.05
+    patterns:
+      - "\\bimage segmentation\\b"
+      - "\\bclassification\\b"
+      - "\\btomography\\b"
+      - "\\bsensing\\b"
+      - "\\bimaging\\b"
+      - "\\bsignal processing\\b"
+      - "\\bgenerative\\b"
+  review_or_perspective:
+    patterns:
+      - "\\breview\\b"
+      - "\\bsurvey\\b"
+      - "\\bperspective\\b"
+      - "\\boverview\\b"
+
+policy:
+  score_only_routes:
+    - "mandatory_summary_queue"
+    - "standard_scoring_queue"
+  mandatory_candidates_bypass_thresholds: true
+  mandatory_candidates_sort_first: true
+  completed_summary_ids_are_excluded_from_selection: true
+  llm_enabled: false
+  email_enabled: false
