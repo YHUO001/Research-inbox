@@ -1,0 +1,43 @@
+enrichment_version: 1
+
+providers:
+  crossref:
+    enabled: true
+    base_url: "https://api.crossref.org"
+    contact_email_env: "RESEARCH_INBOX_CONTACT_EMAIL"
+    user_agent: "ResearchInbox/0.3 (metadata enrichment)"
+    timeout_seconds: 15
+    max_attempts: 3
+    min_interval_seconds: 0.25
+  openalex:
+    enabled: true
+    base_url: "https://api.openalex.org"
+    api_key_env: "OPENALEX_API_KEY"
+    timeout_seconds: 15
+    max_attempts: 3
+    min_interval_seconds: 0.25
+
+matching:
+  title_similarity_minimum: 0.96
+  ambiguity_margin: 0.01
+  maximum_year_difference: 1
+  require_year_or_first_author_confirmation: true
+  maximum_search_results_per_provider: 3
+
+cache:
+  path: "state/enrichment_cache.json"
+  exact_identifier_ttl_days: 30
+  title_search_ttl_days: 7
+
+outputs:
+  enriched_registry: "data/enriched_paper_registry.jsonl"
+  manifest: "state/enrichment_manifest.json"
+
+limits:
+  maximum_candidates_per_run: 100
+  maximum_abstract_characters: 10000
+
+policy:
+  preserve_source_registry: true
+  persist_raw_provider_responses: false
+  download_full_text: false

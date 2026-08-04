@@ -1,4 +1,4 @@
-pipeline_version: 4
+pipeline_version: 5
 
 timezone: Asia/Singapore
 
@@ -12,6 +12,7 @@ sources:
     enabled: true
     collection_frequency_days: 2
     role: "semantic_discovery_and_metadata"
+    discovery_enabled: false
 
   semantic_scholar:
     enabled: false
@@ -42,6 +43,21 @@ recognition:
     recognition_results: "data/recognition_results.jsonl"
     routing_manifest: "state/routing_manifest.json"
     queue_directory: "data/queues"
+
+enrichment:
+  enabled: true
+  execution_mode: "manual_backfill"
+  config_path: "config/metadata_enrichment.yaml"
+  schema_path: "schemas/enriched_paper.schema.json"
+  source_registry: "data/paper_registry.jsonl"
+  enriched_registry: "data/enriched_paper_registry.jsonl"
+  cache_path: "state/enrichment_cache.json"
+  manifest_path: "state/enrichment_manifest.json"
+  preserve_source_registry: true
+  persist_raw_provider_responses: false
+  download_full_text: false
+  openalex_api_key_required: true
+  active_discovery_enabled: false
 
 routing:
   order:
