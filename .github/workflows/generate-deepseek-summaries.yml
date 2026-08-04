@@ -13,7 +13,7 @@ concurrency:
 jobs:
   generate-summaries:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
 
     steps:
       - name: Check out pipeline code
@@ -51,17 +51,31 @@ jobs:
             --output-root runtime-state/data \
             --manifest-path runtime-state/state/summary_generation_manifest.json
 
+      - name: Prepare open full-text method context
+        env:
+          PREPARED_ROOT: ${{ runner.temp }}/research-inbox-generation
+        run: |
+          rm -rf "${PREPARED_ROOT}"
+          mkdir -p "${PREPARED_ROOT}"
+          python -m scripts.summarize.staged_summary_pipeline prepare \
+            --dry-run-manifest-path runtime-state/state/summary_generation_manifest.json \
+            --config config/summary_generation.yaml \
+            --prepared-root "${PREPARED_ROOT}"
+          cat "${PREPARED_ROOT}/fulltext_preparation.json"
+
       - name: Generate and locally validate DeepSeek summaries
         id: generate
         shell: bash
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          PREPARED_ROOT: ${{ runner.temp }}/research-inbox-generation
         run: |
           set +e
-          python -m scripts.summarize.generate_summaries_production \
+          python -m scripts.summarize.staged_summary_pipeline generate \
             --dry-run-manifest-path runtime-state/state/summary_generation_manifest.json \
             --summary-schema schemas/paper_summary.schema.json \
             --config config/summary_generation.yaml \
+            --prepared-root "${PREPARED_ROOT}" \
             --output-root runtime-state/data \
             --manifest-path runtime-state/state/summary_generation_manifest.json
           generate_exit_code=$?
