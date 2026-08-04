@@ -27,6 +27,26 @@ provider:
     input_cache_miss_cny_per_million: 1.0
     output_cny_per_million: 2.0
 
+benchmark:
+  mode: "manual_flash_vs_pro"
+  same_prompt_for_all_models: true
+  thinking_enabled: false
+  models:
+    - label: "flash"
+      model: "deepseek-v4-flash"
+      pricing:
+        currency: "CNY"
+        input_cache_hit_cny_per_million: 0.02
+        input_cache_miss_cny_per_million: 1.0
+        output_cny_per_million: 2.0
+    - label: "pro"
+      model: "deepseek-v4-pro"
+      pricing:
+        currency: "CNY"
+        input_cache_hit_cny_per_million: 0.025
+        input_cache_miss_cny_per_million: 3.0
+        output_cny_per_million: 6.0
+
 limits:
   maximum_summaries_per_run: 3
   maximum_abstract_characters: 2500
@@ -43,3 +63,5 @@ outputs:
   summary_directory: "data/summaries"
   digest_directory: "data/digests"
   manifest_path: "state/summary_generation_manifest.json"
+  benchmark_directory: "data/benchmarks/deepseek"
+  benchmark_manifest_path: "state/deepseek_benchmark_manifest.json"
