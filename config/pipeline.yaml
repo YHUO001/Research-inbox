@@ -1,4 +1,4 @@
-pipeline_version: 6
+pipeline_version: 7
 
 timezone: Asia/Singapore
 
@@ -55,6 +55,7 @@ discovery:
     source_registry: "data/paper_registry.jsonl"
     state_path: "state/openalex_discovery_state.json"
     manifest_path: "state/openalex_discovery_manifest.json"
+    filter_audit_path: "state/openalex_filter_audit.json"
     deterministic_project_filter: true
     cross_source_deduplication:
       - "openalex_work_id"
@@ -125,6 +126,23 @@ routing:
     bypass_relevance_threshold: true
     respect_daily_token_hard_stop: true
     overflow_action: "carry_forward"
+
+scoring:
+  enabled: true
+  execution_mode: "manual_validation"
+  deterministic_only: true
+  config_path: "config/scoring.yaml"
+  result_schema_path: "schemas/scoring_result.schema.json"
+  llm_candidate_schema_path: "schemas/llm_candidate.schema.json"
+  source_registry: "data/paper_registry.jsonl"
+  enriched_registry: "data/enriched_paper_registry.jsonl"
+  recognition_results: "data/recognition_results.jsonl"
+  summary_history: "state/summary_history.json"
+  scoring_results: "data/scoring_results.jsonl"
+  llm_candidate_queue: "data/queues/llm_candidate_queue.jsonl"
+  selection_manifest: "state/selection_manifest.json"
+  mandatory_candidates_sort_first: true
+  completed_summary_ids_are_excluded: true
 
 limits:
   max_raw_items_per_source: 100
