@@ -165,9 +165,12 @@ def parse_metadata_line(
     year = int(years[-1]) if years else None
     venue = right
     if year:
-        # Remove only the terminal publication year. A venue may itself start
-        # with a year, for example "2026 49th MIPRO ..., 2026".
+        # Remove the terminal publication year. Then remove one duplicate event
+        # year at the end of the venue, while preserving venue names that begin
+        # with that year, e.g. "2026 49th MIPRO ...".
         venue = re.sub(rf",?\s*{year}\s*$", "", venue).strip(" ,-…")
+        if venue and not re.match(rf"^\s*{year}\b", venue):
+            venue = re.sub(rf"\s+{year}\s*$", "", venue).strip(" ,-…")
     venue = venue or None
 
     authors: list[dict] = []
