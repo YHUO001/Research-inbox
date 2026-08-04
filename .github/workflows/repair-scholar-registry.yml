@@ -51,7 +51,15 @@ jobs:
             --state-path runtime-state/state/gmail_ingestion_state.json \
             --registry-path runtime-state/data/paper_registry.jsonl
 
-      - name: Persist repaired registry
+      - name: Rebuild deterministic routes
+        run: |
+          python -m scripts.pipeline.route_registry \
+            --registry-path runtime-state/data/paper_registry.jsonl \
+            --recognition-path runtime-state/data/recognition_results.jsonl \
+            --queue-dir runtime-state/data/queues \
+            --manifest-path runtime-state/state/routing_manifest.json
+
+      - name: Persist repaired registry and routes
         shell: bash
         run: |
           cd runtime-state
@@ -59,9 +67,9 @@ jobs:
           git config user.email "research-inbox-bot@users.noreply.github.com"
           git add state data
           if git diff --cached --quiet; then
-            echo "No registry changes to persist."
+            echo "No registry or routing changes to persist."
             exit 0
           fi
-          git commit -m "Repair Scholar registry with parser v2 [skip ci]"
+          git commit -m "Repair Scholar registry and rebuild routes [skip ci]"
           git pull --rebase origin automation-state
           git push origin HEAD:automation-state
