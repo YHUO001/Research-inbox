@@ -58,13 +58,16 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           set +e
-          python -m scripts.summarize.generate_summaries \
+          python -m scripts.summarize.generate_summaries_production \
             --dry-run-manifest-path runtime-state/state/summary_generation_manifest.json \
             --summary-schema schemas/paper_summary.schema.json \
             --config config/summary_generation.yaml \
             --output-root runtime-state/data \
             --manifest-path runtime-state/state/summary_generation_manifest.json
           generate_exit_code=$?
+          if [ -f runtime-state/state/summary_generation_manifest.json ]; then
+            cat runtime-state/state/summary_generation_manifest.json
+          fi
           echo "exit_code=${generate_exit_code}" >> "${GITHUB_OUTPUT}"
           exit 0
 
@@ -75,7 +78,11 @@ jobs:
           cd runtime-state
           git config user.name "research-inbox-bot"
           git config user.email "research-inbox-bot@users.noreply.github.com"
-          git add \
+
+          # A failed transactional generation may intentionally produce no summary
+          # or digest files. Keep the paths valid so the manifest is still saved.
+          mkdir -p data/summary_requests data/summaries data/digests
+          git add -A -- \
             data/summary_requests \
             data/summaries \
             data/digests \

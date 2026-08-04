@@ -33,6 +33,10 @@ def test_deepseek_generation_is_manual_and_cannot_send_email() -> None:
     assert "gmail_sender" not in workflow
     assert "summary_history.json" not in workflow
     assert "data/summaries" in workflow
+    assert "scripts.summarize.generate_summaries_production" in workflow
+    assert "cat runtime-state/state/summary_generation_manifest.json" in workflow
+    assert "mkdir -p data/summary_requests data/summaries data/digests" in workflow
+    assert "git add -A --" in workflow
     assert "Fail after persisting validation diagnostics" in workflow
 
 
