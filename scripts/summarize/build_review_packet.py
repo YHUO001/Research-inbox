@@ -118,7 +118,8 @@ def render_review_markdown(packet: dict[str, Any]) -> str:
                 f"- JSON Schema valid: `{str(checks['schema_valid']).lower()}`",
                 f"- Unsupported numeric claims: `{checks['unsupported_numeric_claims'] or []}`",
                 f"- Architecture evidence result: `{checks['architecture_evidence']['resolved_type']}`",
-                f"- Architecture consistent: `{str(checks['architecture_consistent']).lower()}`",
+                f"- Architecture consistent after guard: `{str(checks['architecture_consistent']).lower()}`",
+                f"- Architecture repaired by guard: `{str(checks['architecture_repaired']).lower()}`",
                 "",
                 "Architecture evidence:",
                 "",
@@ -226,7 +227,7 @@ def build_review_packet(
                     "information_basis": "title_metadata_and_abstract_only",
                     "architecture_evidence": evidence.as_dict(),
                     "architecture_model_value_before_guard": previous,
-                    "architecture_consistent": not changed,
+                    "architecture_consistent": True,
                     "architecture_repaired": changed,
                 },
                 "review_template": {
