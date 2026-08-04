@@ -51,6 +51,51 @@ def registry_digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def enforce_source_scoped_overrides(
+    candidate: dict[str, Any],
+    result: dict[str, Any],
+) -> dict[str, Any]:
+    """Keep Scholar-only mandatory policies from leaking to discovery sources."""
+    source_type = str((candidate.get("source") or {}).get("source_type") or "")
+    reasons = set((result.get("routing") or {}).get("reasons") or [])
+    if source_type == "google_scholar_email" or "optical_zo_project_override" not in reasons:
+        return result
+
+    parse_state = str((candidate.get("parse_status") or {}).get("state") or "partial")
+    venue_missing = not (candidate.get("venue") or {}).get("normalized")
+    if parse_state == "partial" or venue_missing:
+        replacement_reasons = ["missing_metadata", "optical_zo_discovery"]
+        if parse_state == "partial":
+            replacement_reasons.append("parser_partial")
+        if venue_missing:
+            replacement_reasons.append("unresolved_venue")
+        result["routing"] = {
+            "route": "metadata_enrichment_queue",
+            "priority": "high",
+            "mandatory": False,
+            "reasons": sorted(set(replacement_reasons)),
+            "requires_semantic_scoring": False,
+            "requires_manual_review": False,
+            "overflow_action": None,
+        }
+        return result
+
+    confirmed = any(
+        project.get("confidence") == "confirmed"
+        for project in result.get("matched_projects") or []
+    )
+    result["routing"] = {
+        "route": "standard_scoring_queue",
+        "priority": "high" if confirmed else "normal",
+        "mandatory": False,
+        "reasons": ["optical_zo_discovery", "project_match"],
+        "requires_semantic_scoring": True,
+        "requires_manual_review": False,
+        "overflow_action": None,
+    }
+    return result
+
+
 def queue_entry(
     candidate: dict[str, Any],
     result: dict[str, Any],
@@ -103,6 +148,7 @@ def rebuild_routes(
             recognition_config=rules,
             venues_config=venues,
         )
+        result = enforce_source_scoped_overrides(candidate, result)
         validate_result(result, schema)
         results.append(result)
         queues[result["routing"]["route"]].append(queue_entry(candidate, result))
@@ -117,6 +163,10 @@ def rebuild_routes(
         for result in results
         for project in result["matched_projects"]
     )
+    source_counts = Counter(
+        str((candidate.get("source") or {}).get("source_type") or "unknown")
+        for candidate in candidates
+    )
     timestamps = [
         str(result["classified_at"])
         for result in results
@@ -130,6 +180,7 @@ def rebuild_routes(
         "candidate_count": len(candidates),
         "route_counts": {route: counts.get(route, 0) for route in ROUTES},
         "project_counts": dict(sorted(project_counts.items())),
+        "source_counts": dict(sorted(source_counts.items())),
     }
     atomic_write(
         manifest_path,
@@ -195,6 +246,7 @@ def main() -> int:
                 "candidate_count": manifest["candidate_count"],
                 "route_counts": manifest["route_counts"],
                 "project_counts": manifest["project_counts"],
+                "source_counts": manifest["source_counts"],
             },
             sort_keys=True,
         )
