@@ -177,3 +177,36 @@ def test_relevant_candidate_without_venue_goes_to_enrichment() -> None:
     )
     assert result["routing"]["route"] == "metadata_enrichment_queue"
     assert "unresolved_venue" in result["routing"]["reasons"]
+
+
+def test_optical_nonlinear_activation_component_is_retained() -> None:
+    result = classify(
+        candidate(
+            title=(
+                "High-efficient Optical Nonlinear Activation Function "
+                "Using Thin-film Lithium Niobate"
+            ),
+            snippet=(
+                "The device constructs a multilayer perceptron neural "
+                "network for optical computing."
+            ),
+            venue="CLEO: Fundamental Science",
+        )
+    )
+    assert result["matched_projects"][0]["project_id"] == (
+        "optical-neural-networks"
+    )
+    assert result["routing"]["route"] == "standard_scoring_queue"
+
+
+def test_meta_optical_encoder_for_segmentation_is_retained() -> None:
+    result = classify(
+        candidate(
+            title="Meta-Optical Encoder for Image Segmentation",
+            venue="Nano Letters",
+        )
+    )
+    assert result["matched_projects"][0]["project_id"] == (
+        "optical-neural-networks"
+    )
+    assert result["routing"]["route"] == "standard_scoring_queue"
