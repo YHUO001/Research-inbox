@@ -1,5 +1,5 @@
-summary_generation_version: 4
-prompt_version: 1
+summary_generation_version: 5
+prompt_version: 2
 
 execution:
   mode: "manual_provider_validation"
@@ -8,7 +8,8 @@ execution:
   manual_provider_calls_allowed: true
   email_enabled: false
   update_summary_history: false
-  use_full_text: false
+  use_full_text: true
+  full_text_open_access_only: true
 
 review:
   required: true
@@ -22,8 +23,8 @@ provider:
   api_key_env: "DEEPSEEK_API_KEY"
   model: "deepseek-v4-pro"
   thinking_enabled: false
-  max_output_tokens: 2200
-  timeout_seconds: 60
+  max_output_tokens: 3600
+  timeout_seconds: 90
   http_max_attempts: 3
   validation_attempts: 2
   response_format: "json_object"
@@ -32,6 +33,34 @@ provider:
     input_cache_hit_cny_per_million: 0.025
     input_cache_miss_cny_per_million: 3.0
     output_cny_per_million: 6.0
+
+output:
+  language: "zh-CN"
+  require_chinese_narrative: true
+  minimum_han_characters: 120
+  method_implementation_min_paragraphs: 2
+  method_implementation_max_paragraphs: 6
+
+full_text:
+  enabled: true
+  open_access_only: true
+  persist_extracted_text: false
+  qualitative_methods_only: true
+  numeric_grounding_scope: "title_and_abstract_only"
+  maximum_download_bytes: 15000000
+  maximum_method_characters: 12000
+  timeout_seconds: 30
+  candidate_url_limit: 3
+  preferred_sections:
+    - "methods"
+    - "materials and methods"
+    - "experimental setup"
+    - "implementation"
+    - "system architecture"
+    - "network architecture"
+    - "training"
+    - "fabrication"
+    - "device design"
 
 benchmark:
   mode: "manual_flash_vs_pro"
@@ -56,10 +85,10 @@ benchmark:
 limits:
   maximum_summaries_per_run: 3
   maximum_abstract_characters: 2500
-  maximum_prompt_characters: 20000
+  maximum_prompt_characters: 40000
 
 grounding:
-  information_basis: "title_metadata_and_abstract_only"
+  information_basis: "title_metadata_abstract_and_optional_open_full_text_methods"
   require_reported_by_authors_marker: true
   reject_unsupported_numeric_claims: true
   unavailable_value: "not_available"
