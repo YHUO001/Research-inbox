@@ -51,20 +51,23 @@ jobs:
             --output-root runtime-state/data \
             --manifest-path runtime-state/state/summary_generation_manifest.json
 
-      - name: Benchmark Flash and Pro with local validation
+      - name: Benchmark Flash and Pro with candidate-level isolation
         id: benchmark
         shell: bash
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           set +e
-          python -m scripts.summarize.benchmark_deepseek_models \
+          python -m scripts.summarize.benchmark_deepseek_models_v2 \
             --dry-run-manifest-path runtime-state/state/summary_generation_manifest.json \
             --summary-schema schemas/paper_summary.schema.json \
             --config config/summary_generation.yaml \
             --output-root runtime-state/data \
             --manifest-path runtime-state/state/deepseek_benchmark_manifest.json
           benchmark_exit_code=$?
+          if [ -f runtime-state/state/deepseek_benchmark_manifest.json ]; then
+            cat runtime-state/state/deepseek_benchmark_manifest.json
+          fi
           echo "exit_code=${benchmark_exit_code}" >> "${GITHUB_OUTPUT}"
           exit 0
 
@@ -75,6 +78,15 @@ jobs:
           cd runtime-state
           git config user.name "research-inbox-bot"
           git config user.email "research-inbox-bot@users.noreply.github.com"
+
+          # prepare_digest is used only to refresh identical requests. Restore its
+          # normal dry-run outputs so they cannot block rebase or enter this commit.
+          git restore -- \
+            data/summary_requests \
+            data/digests \
+            state/summary_generation_manifest.json || true
+          git clean -fd -- data/summary_requests data/digests
+
           git add \
             data/benchmarks/deepseek \
             state/deepseek_benchmark_manifest.json
@@ -86,7 +98,7 @@ jobs:
           git pull --rebase origin automation-state
           git push origin HEAD:automation-state
 
-      - name: Fail after persisting benchmark diagnostics
+      - name: Fail after persisting catastrophic benchmark diagnostics
         if: steps.benchmark.outputs.exit_code != '0'
         shell: bash
         run: exit "${{ steps.benchmark.outputs.exit_code }}"
