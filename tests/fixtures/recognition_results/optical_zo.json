@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "candidate_id": "fixture-msg-001:0",
+  "classifier_version": 1,
+  "matched_projects": [
+    {
+      "project_id": "zeroth-order-optimization",
+      "confidence": "confirmed",
+      "matched_rules": [
+        "projects.zeroth-order-optimization.optical_zo"
+      ],
+      "positive_evidence": [
+        {
+          "field": "title",
+          "pattern": "zeroth[- ]order",
+          "matched_text": "Zeroth-Order"
+        },
+        {
+          "field": "title",
+          "pattern": "optical neural network",
+          "matched_text": "Optical Neural Networks"
+        }
+      ],
+      "negative_evidence": [],
+      "priority_features": [
+        {
+          "feature": "structured_perturbation",
+          "weight": 0.85,
+          "evidence": [
+            {
+              "field": "title",
+              "pattern": "layer[- ]wise|layered",
+              "matched_text": "Layered-Parameter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project_id": "optical-neural-networks",
+      "confidence": "confirmed",
+      "matched_rules": [
+        "projects.optical-neural-networks.match_any"
+      ],
+      "positive_evidence": [
+        {
+          "field": "title",
+          "pattern": "optical neural network",
+          "matched_text": "Optical Neural Networks"
+        }
+      ],
+      "negative_evidence": [],
+      "priority_features": []
+    }
+  ],
+  "venue_policy": {
+    "matched_tier": "tier_3_and_unlisted",
+    "matched_venue": "AAAI",
+    "policy_action": "summarize_only_when_exceptionally_relevant"
+  },
+  "routing": {
+    "route": "mandatory_summary_queue",
+    "priority": "highest",
+    "mandatory": true,
+    "reasons": [
+      "optical_zo_project_override",
+      "project_match",
+      "priority_feature_match"
+    ],
+    "requires_semantic_scoring": false,
+    "requires_manual_review": false,
+    "overflow_action": "carry_forward"
+  },
+  "classifier_warnings": [],
+  "classified_at": "2026-08-03T08:01:01Z"
+}

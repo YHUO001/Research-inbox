@@ -1,0 +1,74 @@
+# Venue policy for post-retrieval triage of papers already returned by alerts.
+# This file must never be used to crawl, enumerate, or actively monitor journals.
+
+venue_config_version: 2
+
+scope:
+  mode: "post_retrieval_only"
+  applies_to_sources:
+    - "google_scholar_email"
+  use_for_discovery_queries: false
+  rationale: >
+    Venue prestige is evaluated only after Google Scholar alert emails have
+    returned candidate papers. The pipeline does not search these journals
+    directly and does not use the venue list to construct discovery queries.
+
+default_score: 0.1
+
+venue_groups:
+  tier_1_must_summarize:
+    score: 1.0
+    policy:
+      action: "full_summary"
+      bypass_relevance_threshold: true
+      bypass_standard_shortlist_threshold: true
+      never_archive_before_summary: true
+      overflow_action: "queue_next_run"
+      rationale: >
+        If a paper from one of these venues appears in a Google Scholar alert,
+        it must receive a full structured summary. If the daily token budget or
+        summary cap is reached, the paper remains in the highest-priority queue
+        for the next run rather than being skipped or downgraded.
+    venues:
+      - name: "Nature"
+        aliases: ["N", "Nature Journal"]
+      - name: "Science"
+        aliases: ["S", "Science Magazine"]
+      - name: "Nature Photonics"
+        aliases: ["Nat. Photonics", "Nat Photon", "NP"]
+      - name: "Nature Communications"
+        aliases: ["Nat. Commun.", "Nat Commun", "NC"]
+      - name: "Light: Science & Applications"
+        aliases: ["Light Sci. Appl.", "Light Sci Appl", "Light", "LSA"]
+      - name: "Advanced Photonics"
+        aliases: ["Adv. Photonics", "Adv Photonics", "AP"]
+
+  tier_2_relevance_gated:
+    score: 0.65
+    policy:
+      action: "summarize_when_relevant"
+      bypass_relevance_threshold: false
+      rationale: >
+        Alert-returned papers from these venues are summarized only when their
+        semantic relevance, seed-paper proximity, or methodological novelty is
+        sufficiently high.
+    venues:
+      - name: "Optica"
+        aliases: ["Optica Journal"]
+
+  tier_3_and_unlisted:
+    score: 0.1
+    policy:
+      action: "summarize_only_when_exceptionally_relevant"
+      bypass_relevance_threshold: false
+      rationale: >
+        Lower-tier and unlisted alert results are summarized only when they are
+        exceptionally aligned with the project or directly extend a seed paper.
+    venues: []
+
+# Routing order:
+# 1. Parse papers already present in Google Scholar alert emails.
+# 2. Normalize and deduplicate metadata.
+# 3. Apply this venue policy.
+# 4. Apply semantic, lexical, citation, author, and novelty scoring where required.
+# 5. Use title and abstract first; never request full text automatically.

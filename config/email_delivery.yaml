@@ -1,0 +1,40 @@
+delivery_version: 1
+
+provider: "gmail_api"
+enabled_by_default: false
+
+permissions:
+  required_oauth_scopes:
+    - "https://www.googleapis.com/auth/gmail.readonly"
+    - "https://www.googleapis.com/auth/gmail.send"
+  explicitly_not_requested:
+    - "https://www.googleapis.com/auth/gmail.modify"
+    - "https://mail.google.com/"
+
+recipient_policy:
+  source: "environment_allowlist"
+  environment_variable: "RESEARCH_INBOX_EMAIL_RECIPIENTS"
+  maximum_recipients_per_message: 1
+  allow_cc: false
+  allow_bcc: false
+
+activation:
+  environment_variable: "RESEARCH_INBOX_EMAIL_ENABLED"
+  enabled_value: "true"
+  default: false
+
+message_policy:
+  delivery_mode: "daily_digest_only"
+  maximum_messages_per_run: 1
+  require_nonempty_subject: true
+  require_nonempty_text_body: true
+  maximum_body_characters: 100000
+  attachments_allowed: false
+  subject_prefix_environment_variable: "RESEARCH_INBOX_EMAIL_SUBJECT_PREFIX"
+  default_subject_prefix: "[Research Inbox]"
+
+logging:
+  print_recipient: false
+  print_subject: false
+  print_body: false
+  print_gmail_message_id: false

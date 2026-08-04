@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "candidate_id": "fixture-msg-001:0",
+  "source": {
+    "source_type": "google_scholar_email",
+    "message_id": "fixture-msg-001",
+    "thread_id": null,
+    "received_at": "2026-08-03T08:00:00Z",
+    "sender": "scholaralerts-noreply@google.com",
+    "subject": "Google Scholar Alert - optical neural network",
+    "alert_name": "optical neural network",
+    "authentication": {
+      "spf": "pass",
+      "dkim": "pass"
+    }
+  },
+  "position_in_message": 0,
+  "title": "Layered-Parameter Perturbation for Zeroth-Order Optimization of Optical Neural Networks",
+  "normalized_title": "layered parameter perturbation for zeroth order optimization of optical neural networks",
+  "authors": [
+    {
+      "name": "Hiroshi Sawada",
+      "orcid": null,
+      "verification_status": "raw_email"
+    },
+    {
+      "name": "Kazuo Aoyama",
+      "orcid": null,
+      "verification_status": "raw_email"
+    },
+    {
+      "name": "Masaya Notomi",
+      "orcid": null,
+      "verification_status": "raw_email"
+    }
+  ],
+  "raw_metadata_line": "H Sawada, K Aoyama, M Notomi - AAAI, 2025",
+  "venue": {
+    "raw": "AAAI",
+    "normalized": "AAAI",
+    "verification_status": "raw_email"
+  },
+  "year": 2025,
+  "snippet": "A black-box zeroth-order method using layered parameter perturbations for optical neural networks.",
+  "identifiers": {
+    "doi": {
+      "value": null,
+      "verification_status": "missing",
+      "source": null
+    },
+    "arxiv_id": {
+      "value": null,
+      "verification_status": "missing",
+      "source": null
+    },
+    "pmid": {
+      "value": null,
+      "verification_status": "missing",
+      "source": null
+    }
+  },
+  "links": {
+    "primary_url": "https://example.org/paper/optical-zo",
+    "auxiliary_urls": []
+  },
+  "parse_status": {
+    "state": "complete",
+    "warnings": [],
+    "errors": [],
+    "parser_strategy": "html_nearest_ancestor"
+  },
+  "content_fingerprint": "fixture-optical-zo-2025",
+  "extracted_at": "2026-08-03T08:01:00Z"
+}

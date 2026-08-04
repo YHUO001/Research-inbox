@@ -1,0 +1,211 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/YHUO001/Research-inbox/schemas/recognition_result.schema.json",
+  "title": "Research Recognition and Routing Result",
+  "description": "Deterministic project classification and routing result for one parsed alert candidate.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "candidate_id",
+    "classifier_version",
+    "matched_projects",
+    "venue_policy",
+    "routing",
+    "classified_at"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "candidate_id": {
+      "type": "string",
+      "minLength": 8
+    },
+    "classifier_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "matched_projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "project_id",
+          "confidence",
+          "matched_rules",
+          "positive_evidence",
+          "negative_evidence",
+          "priority_features"
+        ],
+        "properties": {
+          "project_id": {
+            "type": "string",
+            "enum": [
+              "optical-neural-networks",
+              "zeroth-order-optimization"
+            ]
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["confirmed", "probable", "uncertain"]
+          },
+          "matched_rules": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "positive_evidence": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/evidence"
+            }
+          },
+          "negative_evidence": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/evidence"
+            }
+          },
+          "priority_features": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["feature", "weight", "evidence"],
+              "properties": {
+                "feature": {
+                  "type": "string"
+                },
+                "weight": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/evidence"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "venue_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["matched_tier", "matched_venue", "policy_action"],
+      "properties": {
+        "matched_tier": {
+          "type": ["string", "null"],
+          "enum": ["tier_1_must_summarize", "tier_2_relevance_gated", "tier_3_and_unlisted", null]
+        },
+        "matched_venue": {
+          "type": ["string", "null"]
+        },
+        "policy_action": {
+          "type": "string",
+          "enum": [
+            "full_summary",
+            "summarize_when_relevant",
+            "summarize_only_when_exceptionally_relevant",
+            "unresolved_venue"
+          ]
+        }
+      }
+    },
+    "routing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "route",
+        "priority",
+        "mandatory",
+        "reasons",
+        "requires_semantic_scoring",
+        "requires_manual_review"
+      ],
+      "properties": {
+        "route": {
+          "type": "string",
+          "enum": [
+            "mandatory_summary_queue",
+            "standard_scoring_queue",
+            "metadata_enrichment_queue",
+            "manual_review_queue",
+            "archive"
+          ]
+        },
+        "priority": {
+          "type": "string",
+          "enum": ["highest", "high", "normal", "low"]
+        },
+        "mandatory": {
+          "type": "boolean"
+        },
+        "reasons": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "tier_1_alert_venue",
+              "optical_zo_project_override",
+              "project_match",
+              "priority_feature_match",
+              "missing_metadata",
+              "ambiguous_method_alias",
+              "negative_pattern_only",
+              "no_project_match"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "requires_semantic_scoring": {
+          "type": "boolean"
+        },
+        "requires_manual_review": {
+          "type": "boolean"
+        },
+        "overflow_action": {
+          "type": ["string", "null"],
+          "enum": ["carry_forward", null]
+        }
+      }
+    },
+    "classifier_warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "classified_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field", "pattern", "matched_text"],
+      "properties": {
+        "field": {
+          "type": "string",
+          "enum": ["title", "snippet", "venue", "authors", "abstract", "metadata_line"]
+        },
+        "pattern": {
+          "type": "string"
+        },
+        "matched_text": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

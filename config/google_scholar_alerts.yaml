@@ -1,0 +1,183 @@
+# Deterministic parsing rules calibrated from a real Google Scholar alert.
+# Parsing must not call an LLM, fetch full text, or store the original email.
+
+parser_version: 2
+source_id: "google_scholar_email"
+
+message_filter:
+  gmail_query: >
+    newer_than:30d from:scholaralerts-noreply@google.com -in:spam -in:trash
+
+  accepted_sender_addresses:
+    - "scholaralerts-noreply@google.com"
+
+  accepted_display_names:
+    - "Google 学术搜索快讯"
+    - "Google Scholar Alerts"
+
+  subject_patterns_any:
+    - "新的结果"
+    - "(?i)new results"
+    - "(?i)new articles"
+    - "(?i)scholar alert"
+
+  authentication:
+    require_at_least_one_pass:
+      - "spf"
+      - "dkim"
+
+  reject_if_subject_matches:
+    - "(?i)security alert"
+    - "(?i)account alert"
+
+ingestion:
+  # The collector dynamically adds after:YYYY/MM/DD. A seven-day overlap makes
+  # scheduled delays and one missed run recoverable; Gmail message IDs guarantee
+  # idempotency across the overlap window.
+  overlap_days: 7
+  initial_lookback_days: 30
+  max_messages_per_run: 20
+  processed_id_retention_days: 120
+  raw_mime_persistence: false
+  log_message_content: false
+  checkpoint_policy: "advance_only_when_no_message_failed"
+
+message_handling:
+  preferred_body: "html"
+  accepted_fallback_bodies:
+    - "gmail_normalized_markdown"
+    - "plain_text"
+  max_messages_per_run: 20
+  max_results_per_message: 100
+  ignore_attachments: true
+  preserve_raw_message: false
+  preserve_selected_headers:
+    - "Message-ID"
+    - "Date"
+    - "From"
+    - "Subject"
+    - "Authentication-Results"
+
+result_detection:
+  # Every paper result title links through scholar_url?url=<publisher URL>.
+  title_link_pattern: "(?i)https?://scholar\\.google\\.[^/]+/scholar_url\\?"
+  minimum_title_characters: 8
+  maximum_title_characters: 1000
+  reject_link_patterns:
+    - "(?i)/citations\\?"
+    - "(?i)/scholar_share\\?"
+    - "(?i)/scholar_alerts\\?"
+    - "(?i)accounts.google.com"
+
+html_parser:
+  strategy: "nearest_single_result_ancestor"
+  max_ancestor_levels: 8
+  metadata_line_requires:
+    - "author_venue_separator"
+    - "four_digit_year"
+  author_venue_separator: " - "
+  stop_text_any:
+    - "保存"
+    - "Save"
+    - "Twitter"
+    - "LinkedIn"
+    - "Facebook"
+
+normalized_text_parser:
+  strategy: "scholar_title_link_blocks"
+  allow_first_line_prefix:
+    - "[HTML]"
+    - "[TXT]"
+  block_order:
+    - "title_link"
+    - "metadata_line"
+    - "snippet"
+    - "sharing_links"
+  stop_line_prefixes:
+    - "[保存]"
+    - "[Save]"
+    - "[Twitter]"
+    - "Google 学术搜索发送此邮件"
+    - "Google Scholar email alert"
+
+field_extraction:
+  title:
+    unicode_normalization: "NFKC"
+    collapse_whitespace: true
+
+  authors:
+    source: "metadata_line_before_last_separator"
+    separator: ","
+    trailing_ellipsis_means_incomplete_list: true
+    verification_status: "raw_email"
+
+  venue_and_year:
+    source: "metadata_line_after_last_separator"
+    year_pattern: "(?<!\\d)(19|20)\\d{2}(?!\\d)"
+    choose_year: "last_match"
+    infer_unknown_venue_abbreviation: false
+    unresolved_action: "metadata_enrichment_queue"
+
+  identifiers:
+    doi_patterns:
+      - "(?i)10\\.\\d{4,9}/[-._;()/:A-Z0-9]+"
+    doi_remove_terminal_suffixes:
+      - ".short"
+      - ".abstract"
+      - ".full"
+      - ".pdf"
+    arxiv_patterns:
+      - "(?i)(?:arxiv[:\\s]*)?(\\d{4}\\.\\d{4,5})(?:v\\d+)?"
+    pmid_patterns:
+      - "(?i)(?:PMID[:\\s]+)(\\d{6,9})"
+
+  url:
+    unwrap_scholar_query_parameter: "url"
+    allowed_schemes:
+      - "http"
+      - "https"
+    remove_tracking_parameters:
+      - "utm_source"
+      - "utm_medium"
+      - "utm_campaign"
+      - "ved"
+      - "usg"
+
+normalization:
+  normalized_title:
+    unicode_normalization: "NFKC"
+    lowercase: true
+    remove_punctuation: true
+    collapse_whitespace: true
+    remove_leading_year: true
+
+  parser_duplicate_key:
+    fields:
+      - "normalized_title"
+      - "year"
+      - "venue"
+    hash: "sha256"
+
+validation:
+  output_schema: "schemas/alert_candidate.schema.json"
+  required_candidate_fields:
+    - "source.message_id"
+    - "title"
+  accept_without_abstract: true
+  accept_without_venue: true
+  accept_without_year: true
+  reject_navigation_only_blocks: true
+
+failure_policy:
+  do_not_guess_missing_fields: true
+  malformed_message_action: "parse_review_queue"
+  malformed_item_action: "item_review_queue"
+  partial_item_action: "retain_for_metadata_enrichment"
+  continue_after_item_error: true
+  failed_message_retry: true
+  advance_checkpoint_on_partial_failure: false
+
+output:
+  schema_path: "schemas/alert_candidate.schema.json"
+  raw_output_directory: "data/raw/google_scholar_email"
+  normalized_output_directory: "data/normalized/google_scholar_email"

@@ -1,0 +1,331 @@
+# Research profile for paper discovery and relevance scoring.
+# Keep this file free of API keys and other secrets.
+
+profile_version: 2
+
+default_language: en
+
+projects:
+  - id: optical-neural-networks
+    name: "Optical neural networks"
+    enabled: true
+
+    # This statement is used for semantic retrieval. Keep it broad enough to
+    # capture vocabulary drift, while preserving the project's main emphasis.
+    research_statement: >
+      This project studies optical neural networks and photonic machine-learning
+      systems, with primary emphasis on free-space and spatial optical computing.
+      The main research interest is how optical neural networks can be trained,
+      calibrated, and scaled in physical hardware, including in-situ and
+      hardware-aware learning, optical or approximate backpropagation,
+      backpropagation-free and forward-only training, model-free optimization,
+      transfer learning on analog hardware, and methods that remain robust to
+      misalignment, noise, nonlinearity, fabrication variation, and other
+      physical imperfections. The project also tracks architectural innovation
+      in diffractive neural networks, coherent optical processors, metasurface
+      and holographic systems, optical convolution and encoding, neuromorphic
+      photonics, spiking optoelectronic networks, and hybrid optical-electronic
+      systems. Although spatial optical implementations are the principal focus,
+      integrated and on-chip photonic neural networks remain within scope,
+      especially when they introduce transferable training methods, scalable
+      end-to-end architectures, nonlinear processing, or meaningful gains in
+      energy efficiency, latency, throughput, or physical deployability. Work on
+      new applications is relevant when it demonstrates a substantive optical
+      computing capability rather than merely applying a conventional model to
+      a new dataset.
+
+    core_topics:
+      - "free-space optical neural networks"
+      - "spatial optical neural networks"
+      - "training physical and optical neural networks"
+      - "in-situ optical training and calibration"
+      - "diffractive optical neural networks"
+      - "optical neural network architectures"
+      - "applications of optical neural networks"
+
+    methods:
+      - "optical and physical backpropagation"
+      - "backpropagation-free and forward-only learning"
+      - "hardware-aware and model-free optimization"
+      - "transfer learning on analog photonic hardware"
+      - "robust training under misalignment, noise, and device variation"
+      - "diffractive, coherent, holographic, and metasurface optical computing"
+      - "optical convolution, encoding, and nonlinear processing"
+      - "photonic-electronic hardware-software co-design"
+
+    adjacent_topics:
+      - "integrated and on-chip photonic neural networks"
+      - "neuromorphic photonics and optoelectronic spiking networks"
+      - "physical neural networks and analog machine learning hardware"
+      - "silicon photonic accelerators"
+      - "optical computing for sensing, imaging, and signal processing"
+      - "photonic machine learning systems"
+
+    # Add explicit false-positive topics after observing retrieval errors.
+    excluded_topics: []
+
+    seed_papers:
+      positive:
+        - title: "Deep physical neural networks trained with backpropagation"
+          doi: "10.1038/s41586-021-04223-6"
+          year: 2022
+          venue: "Nature"
+          seed_weight: 1.0
+          themes:
+            - "physics-aware training"
+            - "physical neural networks"
+            - "hybrid in-situ and in-silico backpropagation"
+
+        - title: "Single-chip photonic deep neural network with forward-only training"
+          doi: "10.1038/s41566-024-01567-z"
+          year: 2024
+          venue: "Nature Photonics"
+          seed_weight: 1.0
+          themes:
+            - "integrated photonic neural networks"
+            - "forward-only training"
+            - "coherent optical nonlinear processing"
+
+        - title: "Training of physical neural networks"
+          doi: "10.1038/s41586-025-09384-2"
+          year: 2025
+          venue: "Nature"
+          seed_weight: 1.0
+          themes:
+            - "physical neural network training review"
+            - "backpropagation-based training"
+            - "backpropagation-free training"
+
+        - title: "Model-free optical processors using in situ reinforcement learning with proximal policy optimization"
+          doi: "10.1038/s41377-025-02148-7"
+          year: 2026
+          venue: "Light: Science & Applications"
+          seed_weight: 1.0
+          themes:
+            - "model-free optical training"
+            - "in-situ reinforcement learning"
+            - "diffractive optical processors"
+
+        - title: "Training large-scale optoelectronic neural networks with dual-neuron optical-artificial learning"
+          doi: "10.1038/s41467-023-42984-y"
+          year: 2023
+          venue: "Nature Communications"
+          seed_weight: 1.0
+          themes:
+            - "large-scale optoelectronic neural networks"
+            - "dual-neuron optical-artificial learning"
+            - "diffractive network optimization"
+
+        - title: "Experimentally realized in situ backpropagation for deep learning in photonic neural networks"
+          doi: "10.1126/science.ade8450"
+          year: 2023
+          venue: "Science"
+          seed_weight: 1.0
+          themes:
+            - "in-situ optical backpropagation"
+            - "integrated photonic neural networks"
+            - "physical gradient measurement"
+
+        - title: "Physical neural networks using sharpness-aware training"
+          doi: "10.1038/s41467-026-68470-9"
+          year: 2026
+          venue: "Nature Communications"
+          seed_weight: 1.0
+          themes:
+            - "sharpness-aware training"
+            - "robust physical neural networks"
+            - "cross-device transfer and perturbation resilience"
+
+      negative: []
+
+    watched_authors: []
+
+    priority_venues:
+      - "Nature"
+      - "Science"
+      - "Nature Photonics"
+      - "Nature Communications"
+      - "Light: Science & Applications"
+      - "Advanced Photonics"
+
+  - id: zeroth-order-optimization
+    name: "Zeroth-order optimization"
+    enabled: true
+
+    research_statement: >
+      This project studies zeroth-order optimization methods for training and
+      fine-tuning neural networks when gradients are unavailable, unreliable, or
+      too memory-intensive to compute. It has two principal application tracks.
+      The first is zeroth-order and black-box training of optical neural networks,
+      photonic processors, physical neural networks, and other analog hardware.
+      Because such work is rare and directly relevant to experimental systems,
+      any alert-returned paper that applies a genuine zeroth-order method to an
+      optical or physical neural network should be accepted for full summary,
+      independent of venue prestige and without applying the normal relevance
+      threshold. The second track is memory-efficient zeroth-order fine-tuning of
+      large language models and foundation models. Within this track, the highest
+      priority is given to methods that reduce the number of function queries,
+      reuse previous queries, improve perturbation or sampling efficiency, exploit
+      low-rank gradients or low-dimensional subspaces, use structured or
+      layer-wise perturbations, reduce estimator variance, or retain
+      inference-level memory. General advances in zeroth-order theory,
+      convergence, estimators, adaptive smoothing, sparsity, quantization,
+      Bayesian estimation, and black-box optimization remain relevant when they
+      can plausibly improve neural-network training or expensive physical
+      experiments.
+
+    core_topics:
+      - "zeroth-order optimization"
+      - "derivative-free optimization for neural networks"
+      - "black-box neural network training"
+      - "zeroth-order fine-tuning of large language models"
+      - "zeroth-order training of optical neural networks"
+      - "query-efficient zeroth-order optimization"
+      - "low-rank and subspace zeroth-order optimization"
+
+    methods:
+      - "randomized finite-difference gradient estimation"
+      - "two-point and one-point zeroth-order estimators"
+      - "low-query and two-query gradient estimation"
+      - "query reuse and historical function-evaluation reuse"
+      - "low-rank perturbations and low-dimensional search subspaces"
+      - "layer-wise, block-wise, sparse, and structured parameter perturbations"
+      - "learned perturbation distributions and sampling policies"
+      - "variance reduction, baselines, and Bayesian gradient estimation"
+      - "in-place and inference-memory zeroth-order fine-tuning"
+      - "hardware-aware black-box optimization"
+
+    adjacent_topics:
+      - "evolution strategies and natural evolution strategies"
+      - "simultaneous perturbation stochastic approximation"
+      - "policy-gradient interpretations of zeroth-order optimization"
+      - "gradient-free reinforcement learning"
+      - "parameter-efficient and sparse LLM fine-tuning"
+      - "non-differentiable objective optimization"
+      - "physical neural networks and analog computing hardware"
+
+    excluded_topics:
+      - "zero-order hold in control systems"
+      - "zeroth law of thermodynamics"
+      - "generic derivative-free engineering optimization without a neural-network or expensive black-box connection"
+
+    routing_rules:
+      mandatory_full_summary:
+        source_scope:
+          - "google_scholar_email"
+        any_of_topics:
+          - "zeroth-order optimization for optical neural networks"
+          - "zeroth-order optimization for photonic processors"
+          - "black-box training of physical neural networks"
+          - "gradient-free training of optical or analog neural hardware"
+        bypass_relevance_threshold: true
+        bypass_venue_threshold: true
+        overflow_action: "queue_next_run"
+        rationale: >
+          Optical and physical-hardware ZO papers are rare and directly relevant,
+          so every alert-returned match must be summarized.
+
+      llm_priority_signals:
+        - signal: "explicit reduction in query complexity"
+          weight: 1.0
+        - signal: "two-query, one-query, or few-query estimator"
+          weight: 1.0
+        - signal: "query reuse, replay, historical baseline, or sample reuse"
+          weight: 1.0
+        - signal: "low-rank gradient or perturbation structure"
+          weight: 1.0
+        - signal: "low-dimensional, random, learned, or Bayesian subspace"
+          weight: 1.0
+        - signal: "structured, sparse, block-wise, or layer-wise perturbation"
+          weight: 0.85
+        - signal: "inference-level memory or forward-only implementation"
+          weight: 0.75
+        - signal: "general ZO theory or benchmark without query or structure gains"
+          weight: 0.4
+
+    seed_papers:
+      positive:
+        - title: "Fine-Tuning Language Models with Just Forward Passes"
+          arxiv_id: "2305.17333"
+          year: 2023
+          venue: "NeurIPS"
+          method_name: "MeZO"
+          seed_weight: 1.0
+          themes:
+            - "inference-memory LLM fine-tuning"
+            - "two-forward-pass ZO gradient estimation"
+            - "in-place perturbation regeneration"
+
+        - title: "Learning Sampling Policy to Achieve Fewer Queries for Zeroth-Order Optimization"
+          year: 2024
+          venue: "AISTATS"
+          pmlr_volume: 238
+          method_name: "ZO-RL"
+          seed_weight: 1.0
+          themes:
+            - "learned sampling policy"
+            - "two-query gradient approximation"
+            - "query-complexity reduction"
+
+        - title: "Layered-Parameter Perturbation for Zeroth-Order Optimization of Optical Neural Networks"
+          year: 2025
+          venue: "AAAI"
+          seed_weight: 1.0
+          mandatory_optical_zo: true
+          themes:
+            - "optical neural network training"
+            - "layered and correlated parameter perturbations"
+            - "structured covariance for physical hardware"
+
+        - title: "Natural Perturbations for Black-box Training of Neural Networks by Zeroth-Order Optimization"
+          year: 2025
+          venue: "ICML"
+          pmlr_volume: 267
+          seed_weight: 1.0
+          mandatory_optical_zo: true
+          themes:
+            - "natural perturbations"
+            - "Fisher-informed black-box sampling"
+            - "block-coordinate perturbations for hardware networks"
+
+        - title: "Zeroth-Order Optimization is Secretly Single-Step Policy Optimization"
+          arxiv_id: "2506.14460"
+          year: 2025
+          venue: "ICML Workshop"
+          method_name: "ZoAR"
+          seed_weight: 1.0
+          themes:
+            - "query reuse"
+            - "averaged baseline variance reduction"
+            - "policy-optimization interpretation of ZO"
+
+        - title: "Pseudo-Zeroth-Order Algorithm for Training Deep Neural Networks"
+          year: 2025
+          venue: "NeurIPS"
+          method_name: "PseuZO"
+          bibliographic_status: "title and venue verified from author code repository; persistent paper identifier pending"
+          seed_weight: 0.9
+          themes:
+            - "pseudo-zeroth-order training"
+            - "use of last-layer gradient information"
+            - "LLM and deep-network ZO training"
+
+        - title: "Bayesian Subspace Gradient Estimation for Zeroth-Order Optimization of Large Language Models"
+          arxiv_id: "2601.01452"
+          year: 2026
+          venue: "arXiv"
+          method_name: "BSZO"
+          seed_weight: 1.0
+          themes:
+            - "Bayesian subspace gradient estimation"
+            - "multi-query information aggregation"
+            - "low-dimensional projected gradients"
+
+      negative: []
+
+    unverified_method_aliases:
+      - name: "FEZO"
+        status: "needs complete title, DOI, arXiv ID, or PDF before becoming a seed paper"
+
+    watched_authors: []
+    priority_venues: []
