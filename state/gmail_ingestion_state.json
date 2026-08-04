@@ -17,8 +17,8 @@
     "19f2fe5bb8ccc15c": "2026-08-04T05:25:16.234011Z"
   },
   "failed_message_ids": {},
-  "parser_version": 2,
-  "last_registry_repair_at": "2026-08-04T05:55:14.607228Z",
+  "parser_version": 3,
+  "last_registry_repair_at": "2026-08-04T07:02:21.009092Z",
   "last_registry_repair_summary": {
     "messages": 11,
     "repaired_candidates": 30,

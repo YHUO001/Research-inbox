@@ -1,0 +1,17 @@
+{
+  "candidate_count": 29,
+  "classified_at": "2026-08-04T07:02:21.009092Z",
+  "classifier_version": 2,
+  "project_counts": {
+    "optical-neural-networks": 24
+  },
+  "route_counts": {
+    "archive": 4,
+    "mandatory_summary_queue": 3,
+    "manual_review_queue": 3,
+    "metadata_enrichment_queue": 0,
+    "standard_scoring_queue": 19
+  },
+  "schema_version": 1,
+  "source_registry_sha256": "a3087778ebe9f361701cccc8861dcd738d330f4b84f88d5c3fbaba2e23b573c9"
+}
