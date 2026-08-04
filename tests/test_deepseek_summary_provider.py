@@ -78,7 +78,7 @@ def test_deepseek_client_uses_json_mode_and_disables_thinking() -> None:
         captured["timeout"] = timeout
         return FakeHttpResponse(
             {
-                "model": "deepseek-v4-flash",
+                "model": "deepseek-v4-pro",
                 "choices": [{"message": {"content": "{\"ok\": true}"}}],
                 "usage": {
                     "prompt_tokens": 10,
@@ -94,14 +94,14 @@ def test_deepseek_client_uses_json_mode_and_disables_thinking() -> None:
         sleeper=lambda _: None,
     )
     response = client.complete_json(
-        model="deepseek-v4-flash",
+        model="deepseek-v4-pro",
         system_prompt="Return JSON.",
         user_prompt="Summarize.",
         max_tokens=1200,
         thinking_enabled=False,
     )
     body = json.loads(captured["request"].data.decode("utf-8"))
-    assert body["model"] == "deepseek-v4-flash"
+    assert body["model"] == "deepseek-v4-pro"
     assert body["response_format"] == {"type": "json_object"}
     assert body["thinking"] == {"type": "disabled"}
     assert captured["request"].get_header("Authorization") == "Bearer secret-test-key"
@@ -125,7 +125,7 @@ class FakeSummaryClient:
                 "prompt_cache_hit_tokens": 0,
                 "prompt_cache_miss_tokens": 1000,
             },
-            model="deepseek-v4-flash",
+            model="deepseek-v4-pro",
         )
 
 
@@ -164,8 +164,9 @@ def test_generation_retries_unsupported_number_and_writes_valid_preview(
     )
     assert client.calls == 2
     assert state["status"] == "completed"
+    assert state["model"] == "deepseek-v4-pro"
     assert state["summary_count"] == 1
-    assert state["estimated_cost_cny"] == 0.004
+    assert state["estimated_cost_cny"] == 0.012
     assert state["email_enabled"] is False
     assert state["summary_history_updated"] is False
     assert (tmp_path / "runtime-state" / "data" / "summaries" / "2026-08-04.jsonl").exists()

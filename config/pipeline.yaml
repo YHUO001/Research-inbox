@@ -1,4 +1,4 @@
-pipeline_version: 10
+pipeline_version: 11
 
 timezone: Asia/Singapore
 
@@ -154,7 +154,7 @@ summary_generation:
   enabled: false
   execution_mode: "manual_provider_validation"
   provider: "deepseek"
-  model: "deepseek-v4-flash"
+  model: "deepseek-v4-pro"
   thinking_enabled: false
   config_path: "config/summary_generation.yaml"
   request_schema_path: "schemas/summary_request.schema.json"

@@ -36,7 +36,7 @@ def test_deepseek_generation_is_manual_and_cannot_send_email() -> None:
     assert "Fail after persisting validation diagnostics" in workflow
 
 
-def test_summary_configuration_uses_manual_low_cost_deepseek_validation() -> None:
+def test_summary_configuration_uses_manual_deepseek_pro_validation() -> None:
     config = yaml.safe_load(
         (ROOT / "config" / "summary_generation.yaml").read_text(encoding="utf-8")
     )
@@ -49,7 +49,10 @@ def test_summary_configuration_uses_manual_low_cost_deepseek_validation() -> Non
     assert execution["email_enabled"] is False
     assert execution["update_summary_history"] is False
     assert execution["use_full_text"] is False
-    assert provider["model"] == "deepseek-v4-flash"
+    assert provider["model"] == "deepseek-v4-pro"
     assert provider["thinking_enabled"] is False
     assert provider["response_format"] == "json_object"
+    assert provider["pricing"]["input_cache_hit_cny_per_million"] == 0.025
+    assert provider["pricing"]["input_cache_miss_cny_per_million"] == 3.0
+    assert provider["pricing"]["output_cny_per_million"] == 6.0
     assert config["limits"]["maximum_summaries_per_run"] == 3
