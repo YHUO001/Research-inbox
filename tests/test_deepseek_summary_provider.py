@@ -24,24 +24,41 @@ class FakeHttpResponse:
         return json.dumps(self.payload).encode("utf-8")
 
 
-def summary(candidate_id: str, *, research_value: str = "Relevant to optical hardware research.") -> dict:
+def summary(
+    candidate_id: str,
+    *,
+    research_value: str = "这项工作有助于评估光学神经硬件的研究价值和进一步工程化潜力。",
+) -> dict:
     return {
-        "schema_version": 1,
-        "summary_version": 1,
+        "schema_version": 2,
+        "summary_version": 2,
         "candidate_id": candidate_id,
-        "core_problem": "The work addresses efficient optical computation.",
-        "method_and_architecture": "The abstract describes an optical computing architecture.",
-        "main_contributions": ["It presents an optical hardware method."],
+        "output_language": "zh-CN",
+        "core_problem": "该工作关注如何利用真实光学硬件高效完成神经计算，并验证物理计算链路的可行性。",
+        "method_and_architecture": "摘要描述了一个由输入编码、并行光学变换、输出探测以及电子结果读出部分共同组成的完整光学计算架构。",
+        "method_principle": (
+            "该方法把神经网络中的核心线性变换映射到光学传播、干涉或器件响应，使多个输入通道能够在同一物理过程中并行完成计算。"
+            "输入数据首先被编码成光学系统能够处理的幅度或相位表示，随后经过核心光学模块形成中间输出。"
+            "探测器和电子读出模块再把光学结果转换为任务可用的信息。"
+            "这种分工把输入表示、并行物理变换和结果测量连接成完整的前向链路；摘要没有给出训练、校准和器件参数，因此不能补写这些细节。"
+        ),
+        "method_implementation": [
+            "实施时首先准备神经计算任务的输入，并将其转换为光学硬件能够接收的编码形式。编码后的信号进入核心光学处理模块，各通道按照预设关系并行完成变换，形成包含任务信息的输出光场。",
+            "完成光学处理后，系统通过探测和电子读出获得结果，并将读出值用于任务判断及硬件性能验证。摘要未说明训练超参数、误差补偿、校准频率和长期运行方式，因此这些内容应标为未提供。",
+        ],
+        "main_contributions": ["作者提出并展示了一个面向神经计算的光学硬件方法。"],
         "reported_results": [],
-        "distinction_from_prior_work": "not_available",
+        "distinction_from_prior_work": "该工作强调真实光学硬件执行，而不是只在软件中模拟计算过程。",
         "research_value": research_value,
-        "limitations_and_open_questions": ["Long-term stability is not available."],
+        "limitations_and_open_questions": ["摘要未提供长期稳定性、完整训练方法和校准流程。"],
         "optical_neural_network_analysis": None,
         "zeroth_order_analysis": None,
         "verification": {
             "information_basis": "title_metadata_and_abstract_only",
+            "full_text_method_context_used": False,
+            "full_text_method_source_url": None,
             "unsupported_numbers_detected": False,
-            "missing_information": ["full_text"],
+            "missing_information": ["公开正文方法上下文"],
         },
     }
 
@@ -49,7 +66,7 @@ def summary(candidate_id: str, *, research_value: str = "Relevant to optical har
 def request(candidate_id: str) -> dict:
     return {
         "candidate_id": candidate_id,
-        "prompt": "Return JSON using only the supplied abstract.",
+        "prompt": "请只依据提供的摘要返回中文 JSON。",
         "source": {
             "title": "Optical hardware for neural computation",
             "authors": ["Alice Researcher"],
@@ -117,7 +134,7 @@ class FakeSummaryClient:
         self.calls += 1
         value = self.responses.pop(0)
         return DeepSeekResponse(
-            content=json.dumps(value),
+            content=json.dumps(value, ensure_ascii=False),
             usage={
                 "prompt_tokens": 1000,
                 "completion_tokens": 500,
@@ -149,7 +166,7 @@ def test_generation_retries_unsupported_number_and_writes_valid_preview(
     )
     client = FakeSummaryClient(
         [
-            summary(candidate_id, research_value="The method reaches 99% accuracy."),
+            summary(candidate_id, research_value="作者报告该方法达到 99% 的准确率。"),
             summary(candidate_id),
         ]
     )
@@ -165,6 +182,7 @@ def test_generation_retries_unsupported_number_and_writes_valid_preview(
     assert client.calls == 2
     assert state["status"] == "completed"
     assert state["model"] == "deepseek-v4-pro"
+    assert state["output_language"] == "zh-CN"
     assert state["summary_count"] == 1
     assert state["estimated_cost_cny"] == 0.012
     assert state["email_enabled"] is False
@@ -173,7 +191,8 @@ def test_generation_retries_unsupported_number_and_writes_valid_preview(
     markdown = (
         tmp_path / "runtime-state" / "data" / "digests" / "2026-08-04.generated.md"
     ).read_text(encoding="utf-8")
-    assert "Generated from title, metadata, and abstract only" in markdown
+    assert "内容由标题、元数据、摘要" in markdown
+    assert "### 方法原理" in markdown
     assert "99%" not in markdown
 
 

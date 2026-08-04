@@ -34,14 +34,15 @@ def verify_artifacts(packet: dict[str, Any], state_root: Path) -> None:
 
 
 def approved_digest_markdown(content: str, *, reviewer: str, reviewed_at: str) -> str:
-    marker = "\n## Human review\n"
-    if marker in content:
-        content = content.split(marker, 1)[0].rstrip()
+    markers = ("\n## 人工评审\n", "\n## Human review\n")
+    for marker in markers:
+        if marker in content:
+            content = content.split(marker, 1)[0].rstrip()
     return (
         content.rstrip()
-        + marker
-        + f"\n- Decision: `approved`\n- Reviewer: `{reviewer}`\n"
-        + f"- Reviewed at: `{reviewed_at}`\n- Email sent: `false`\n"
+        + "\n## 人工评审\n"
+        + f"\n- 决定：`已批准`\n- 评审人：`{reviewer}`\n"
+        + f"- 评审时间：`{reviewed_at}`\n- 邮件发送：`false`\n"
     )
 
 
@@ -85,6 +86,8 @@ def finalize_review(
         checks = paper.get("automated_checks") or {}
         if not checks.get("schema_valid") or checks.get("unsupported_numeric_claims"):
             raise RuntimeError("Automated checks must pass before human finalization")
+        if checks.get("chinese_valid") is False or checks.get("method_depth_valid") is False:
+            raise RuntimeError("Chinese and method-depth checks must pass before finalization")
         if not checks.get("architecture_consistent"):
             raise RuntimeError("Architecture evidence must be canonicalized before review")
 
@@ -138,6 +141,7 @@ def finalize_review(
                 "digest_date": packet["digest_date"],
                 "model": packet["model"],
                 "provider": packet["provider"],
+                "output_language": packet.get("output_language") or "zh-CN",
                 "request_id": paper.get("request_id"),
                 "summary_sha256": paper["summary_sha256"],
                 "reviewer": reviewer,

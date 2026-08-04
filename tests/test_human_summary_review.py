@@ -44,42 +44,56 @@ def source_request(candidate_id: str) -> dict:
             "decision": "mandatory",
             "score_breakdown": [],
         },
-        "instructions": ["Classify architecture only from explicit evidence."],
-        "prompt": "Return one grounded JSON summary.",
+        "instructions": ["只依据明确证据判断架构类型。"],
+        "prompt": "返回一份中文、证据受限的 JSON 摘要。",
     }
 
 
 def generated_summary(candidate_id: str) -> dict:
     return {
-        "schema_version": 1,
-        "summary_version": 1,
+        "schema_version": 2,
+        "summary_version": 2,
         "candidate_id": candidate_id,
-        "core_problem": "The work addresses electronic clock-rate bottlenecks.",
-        "method_and_architecture": "An all-optical recurrent neural network is demonstrated.",
-        "main_contributions": ["The work reports all-optical recurrent processing up to 80 GHz."],
+        "output_language": "zh-CN",
+        "core_problem": "该工作针对传统电子处理器时钟频率难以继续提升的问题，探索面向超快信息处理的全光计算方案。",
+        "method_and_architecture": "作者实验展示了一个全光循环神经网络，使线性变换、非线性函数和记忆过程都在光域内完成。",
+        "method_principle": (
+            "该方法利用光学器件的高速传播和并行处理能力，把循环神经网络需要的线性变换、"
+            "非线性映射和状态记忆组织成连续的光学计算链路。输入波形进入系统后，光场先经历"
+            "线性组合，再经过非线性光学过程形成新的状态，同时保留与前一时刻相关的光学记忆。"
+            "这种反馈和状态更新使网络能够处理具有时间结构的输入，而不需要在每一步返回电子处理器。"
+            "摘要没有给出具体器件拓扑和训练细节，因此不能进一步判断其物理架构。"
+        ),
+        "method_implementation": [
+            "实施时先把待处理的时间波形输入全光循环网络，并利用光学线性运算形成中间表示。系统随后通过非线性光学功能对中间状态进行变换，同时将部分状态保留为后续时刻的记忆，从而构成循环更新过程。",
+            "网络输出用于波形分类、微腔孤子状态分析以及基于量子涨落的图像生成。摘要报告系统在不同任务上可工作到 80 GHz，但没有提供训练数据、参数调节、校准方式和器件连接细节。",
+        ],
+        "main_contributions": ["作者报告全光循环处理在不同任务上可工作到 80 GHz。"],
         "reported_results": [
             {
-                "claim": "The system operates up to 80 GHz.",
+                "claim": "作者报告该系统在不同任务上可工作到 80 GHz。",
                 "reported_by_authors": True,
                 "basis": "abstract",
             }
         ],
-        "distinction_from_prior_work": "It avoids an electronic processing bottleneck.",
-        "research_value": "It is relevant to ultrafast optical computing.",
-        "limitations_and_open_questions": ["Energy efficiency is not_available."],
+        "distinction_from_prior_work": "该方案避免在循环计算过程中依赖电子处理，从而降低电子时钟频率形成的瓶颈。",
+        "research_value": "该工作为超快时序信号处理和全光智能计算提供了实验依据。",
+        "limitations_and_open_questions": ["摘要未提供能效、训练方法、校准流程和完整器件架构。"],
         "optical_neural_network_analysis": {
             "architecture_type": "free_space",
-            "training_method": "not_available",
-            "optical_nonlinearity": "Nonlinear optical functions are reported without implementation detail.",
-            "calibration_requirements": "not_available",
-            "application_tasks": ["soliton-state analysis"],
+            "training_method": "未提供",
+            "optical_nonlinearity": "作者报告使用非线性光学功能，但摘要未说明具体实现机制。",
+            "calibration_requirements": "未提供",
+            "application_tasks": ["微腔孤子状态分析"],
             "hardware_validation": "physical_experiment",
         },
         "zeroth_order_analysis": None,
         "verification": {
             "information_basis": "title_metadata_and_abstract_only",
+            "full_text_method_context_used": False,
+            "full_text_method_source_url": None,
             "unsupported_numbers_detected": False,
-            "missing_information": ["full_text"],
+            "missing_information": ["公开正文方法上下文"],
         },
     }
 
@@ -102,6 +116,9 @@ def prepare(tmp_path: Path) -> tuple[Path, Path, Path]:
                 "digest_date": "2026-08-04",
                 "provider": "deepseek",
                 "model": "deepseek-v4-pro",
+                "output_language": "zh-CN",
+                "full_text_used": False,
+                "full_text_method_contexts": {},
                 "email_enabled": False,
                 "summary_history_updated": False,
             }
@@ -122,19 +139,24 @@ def build(tmp_path: Path) -> tuple[dict, Path, Path]:
     return state, review_manifest, history
 
 
-def test_review_packet_repairs_unsupported_architecture_and_exposes_rubric(tmp_path: Path) -> None:
+def test_review_packet_repairs_architecture_and_exposes_method_checklist(
+    tmp_path: Path,
+) -> None:
     state, review_manifest, _ = build(tmp_path)
     assert state["status"] == "pending_human_review"
     assert state["architecture_repairs"] == 1
+    assert state["output_language"] == "zh-CN"
     packet = json.loads((tmp_path / "data/reviews/2026-08-04.review.json").read_text())
     paper = packet["papers"][0]
     assert paper["summary"]["optical_neural_network_analysis"]["architecture_type"] == "unclear"
     assert paper["automated_checks"]["architecture_consistent"] is True
     assert paper["automated_checks"]["architecture_repaired"] is True
+    assert paper["automated_checks"]["chinese_valid"] is True
+    assert paper["automated_checks"]["method_depth_valid"] is True
     markdown = (tmp_path / "data/reviews/2026-08-04.review.md").read_text()
-    assert "Source abstract" in markdown
-    assert "Factual accuracy" in markdown
-    assert "No explicit architecture evidence" in markdown
+    assert "原始摘要" in markdown
+    assert "方法原理已经讲清楚" in markdown
+    assert "没有明确架构证据" in markdown
     assert json.loads(review_manifest.read_text())["summary_history_updated"] is False
 
 
@@ -148,7 +170,7 @@ def test_hold_for_revision_does_not_update_history(tmp_path: Path) -> None:
         confirmation="REVIEWED",
         reviewer="reviewer",
         reviewed_at="2026-08-04T15:30:00Z",
-        notes="Architecture wording needs revision.",
+        notes="方法说明需要修改。",
     )
     assert result["status"] == "revision_requested"
     assert result["summary_history_updated"] is False
@@ -165,17 +187,19 @@ def test_approve_all_updates_history_and_keeps_email_disabled(tmp_path: Path) ->
         confirmation="REVIEWED",
         reviewer="reviewer",
         reviewed_at="2026-08-04T15:30:00Z",
-        notes="Reviewed against abstract.",
+        notes="已核对方法原理和实施过程。",
     )
     assert result["status"] == "approved"
     assert result["summary_history_updated"] is True
     assert result["email_enabled"] is False
     completed = json.loads(history.read_text())["completed_candidate_ids"]
-    assert "candidate-review-123" in completed
+    assert completed["candidate-review-123"]["output_language"] == "zh-CN"
     digest = json.loads((tmp_path / "data/digests/2026-08-04.generated.json").read_text())
     assert digest["status"] == "approved_human_review"
     assert digest["safety"]["summary_history_updated"] is True
     assert digest["safety"]["email_enabled"] is False
+    markdown = (tmp_path / "data/digests/2026-08-04.generated.md").read_text()
+    assert "## 人工评审" in markdown
 
 
 def test_finalization_rejects_artifact_tampering(tmp_path: Path) -> None:

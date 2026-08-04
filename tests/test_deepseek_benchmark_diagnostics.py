@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def request(candidate_id: str) -> dict:
     return {
         "candidate_id": candidate_id,
-        "prompt": "Return JSON using only the supplied abstract.",
+        "prompt": "请只依据摘要返回中文 JSON。",
         "source": {
             "title": "Optical hardware for neural computation",
             "authors": ["Alice Researcher"],
@@ -37,35 +37,48 @@ def request(candidate_id: str) -> dict:
 
 def valid_summary(candidate_id: str) -> dict:
     return {
-        "schema_version": 1,
-        "summary_version": 1,
+        "schema_version": 2,
+        "summary_version": 2,
         "candidate_id": candidate_id,
-        "core_problem": "The work addresses optical neural computation.",
-        "method_and_architecture": "The abstract describes optical hardware.",
-        "main_contributions": ["The work reports optical hardware validation."],
+        "output_language": "zh-CN",
+        "core_problem": "这项工作关注如何在真实光学硬件上完成神经计算，并确认计算链路能够被实验验证。",
+        "method_and_architecture": "摘要描述了一个由输入编码、并行光学处理、输出探测和电子结果读出模块共同组成的完整硬件计算系统。",
+        "method_principle": (
+            "该方法把输入信息编码到光场中，并借助光学传播、干涉或器件响应完成神经网络需要的线性组合。"
+            "由于多个光学通道可以同时传播，系统能够并行处理输入的不同分量。"
+            "核心光学模块产生的输出随后由探测和电子读出模块转换为任务结果，从而构成从输入编码、物理计算到结果测量的完整链路。"
+            "摘要只说明进行了实验性硬件验证，没有提供训练策略、器件参数和校准流程，因此这些内容必须保留为未提供。"
+        ),
+        "method_implementation": [
+            "实施时先准备任务输入，并将其转换为光学硬件可以接收的编码形式。编码信号进入核心光学处理模块后，各通道按照预设连接关系并行完成变换，形成携带任务信息的输出光场。",
+            "系统随后使用探测器或电子读出模块获取光学输出，并将测量结果用于任务判断和硬件验证。摘要没有说明参数训练、误差补偿、校准频率或长期运行方式，因此不能进一步推断。",
+        ],
+        "main_contributions": ["作者报告了光学硬件计算方法及其实验验证。"],
         "reported_results": [
             {
-                "claim": "The authors report experimental optical hardware validation.",
+                "claim": "作者报告完成了实验性光学硬件验证。",
                 "reported_by_authors": True,
                 "basis": "abstract",
             }
         ],
-        "distinction_from_prior_work": "not_available",
-        "research_value": "The work is relevant to optical neural hardware.",
-        "limitations_and_open_questions": ["Long-term stability is not_available."],
+        "distinction_from_prior_work": "该工作强调在真实硬件中执行光学计算，而不是只进行软件模拟。",
+        "research_value": "该结果有助于评估光学神经硬件的工程可行性和后续研究价值。",
+        "limitations_and_open_questions": ["摘要未提供训练、校准和长期稳定性信息。"],
         "optical_neural_network_analysis": {
             "architecture_type": "unclear",
-            "training_method": "not_available",
-            "optical_nonlinearity": "not_available",
-            "calibration_requirements": "not_available",
+            "training_method": "未提供",
+            "optical_nonlinearity": "未提供",
+            "calibration_requirements": "未提供",
             "application_tasks": [],
             "hardware_validation": "physical_experiment",
         },
         "zeroth_order_analysis": None,
         "verification": {
             "information_basis": "title_metadata_and_abstract_only",
+            "full_text_method_context_used": False,
+            "full_text_method_source_url": None,
             "unsupported_numbers_detected": False,
-            "missing_information": ["full_text"],
+            "missing_information": ["公开正文方法上下文"],
         },
     }
 
@@ -79,7 +92,7 @@ class FakeClient:
         assert match
         candidate_id = match.group(1)
         content = (
-            json.dumps(valid_summary(candidate_id))
+            json.dumps(valid_summary(candidate_id), ensure_ascii=False)
             if self.model == "deepseek-v4-flash"
             else json.dumps({"candidate_id": "wrong-id"})
         )

@@ -1,4 +1,4 @@
-pipeline_version: 11
+pipeline_version: 12
 
 timezone: Asia/Singapore
 
@@ -156,6 +156,7 @@ summary_generation:
   provider: "deepseek"
   model: "deepseek-v4-pro"
   thinking_enabled: false
+  output_language: "zh-CN"
   config_path: "config/summary_generation.yaml"
   request_schema_path: "schemas/summary_request.schema.json"
   summary_schema_path: "schemas/paper_summary.schema.json"
@@ -163,16 +164,26 @@ summary_generation:
   request_directory: "data/summary_requests"
   summary_directory: "data/summaries"
   digest_directory: "data/digests"
+  review_directory: "data/reviews"
   manifest_path: "state/summary_generation_manifest.json"
   maximum_summaries_per_run: 3
-  information_basis: "title_metadata_and_abstract_only"
-  use_full_text: false
+  information_basis: "title_metadata_abstract_and_optional_open_full_text_methods"
+  use_full_text: true
+  full_text_open_access_only: true
+  full_text_persisted: false
+  full_text_scope: "qualitative_method_explanation_only"
+  numeric_grounding_scope: "title_and_abstract_only"
+  require_detailed_method_principle: true
+  minimum_method_implementation_paragraphs: 2
   update_summary_history: false
+  human_review_required: true
   email_enabled: false
   scheduled_generation_enabled: false
   integrated_workflows:
     - "Build Summary Dry Run"
     - "Generate DeepSeek Summaries"
+    - "Prepare Human Summary Review"
+    - "Finalize Reviewed Summaries"
 
 limits:
   max_raw_items_per_source: 100
@@ -181,7 +192,8 @@ limits:
   max_candidates_to_llm: 5
   max_daily_summaries: 3
   max_abstract_characters_per_paper: 2500
-  max_output_characters: 1200
+  max_method_context_characters_per_paper: 12000
+  max_output_characters: 8000
 
 thresholds:
   archive_below: 0.55
@@ -191,7 +203,8 @@ thresholds:
 
 llm:
   enabled: false
-  allow_full_text: false
+  allow_open_full_text_method_context: true
+  persist_full_text: false
   skip_when_no_high_score_candidates: true
 
 delivery:
@@ -204,3 +217,4 @@ storage:
   retain_raw_days: 30
   retain_all_normalized_records: true
   raw_email_mime_persisted: false
+  full_text_persisted: false

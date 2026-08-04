@@ -113,6 +113,7 @@ def test_prepare_dry_run_is_bounded_and_byte_stable(tmp_path: Path) -> None:
     assert first["llm_enabled"] is False
     assert first["email_enabled"] is False
     assert first["summary_history_updated"] is False
+    assert first["output_language"] == "zh-CN"
 
 
 def test_project_specific_prompt_instructions() -> None:
@@ -124,13 +125,16 @@ def test_project_specific_prompt_instructions() -> None:
             score=0.9,
         ),
         prepared_at="2026-08-04T11:27:51Z",
-        prompt_version=1,
+        prompt_version=2,
         summary_schema_name="paper_summary.schema.json",
     )
     prompt = request["prompt"]
-    assert "free-space, integrated, or hybrid" in prompt
-    assert "total query complexity from per-step query count" in prompt
-    assert "Do not infer" in prompt
+    assert "计算架构" in prompt
+    assert "总查询复杂度与每步查询数" in prompt
+    assert "不得补写缺失的实验" in prompt
+    assert "method_principle" in prompt
+    assert "method_implementation" in prompt
+    assert "所有面向读者的自然语言内容必须使用简体中文" in prompt
 
 
 def test_numeric_grounding_rejects_invented_result() -> None:
@@ -187,7 +191,8 @@ def test_preview_contains_no_generated_claims(tmp_path: Path) -> None:
             encoding="utf-8"
         )
     )
-    assert "No model was called" in markdown
+    assert "尚未调用模型" in markdown
+    assert "没有发送邮件" in markdown
     assert digest["summary_count"] == 0
     assert digest["safety"]["summary_history_updated"] is False
     assert digest["sections"]["must_read"][0]["status"] == "pending_model_summary"
