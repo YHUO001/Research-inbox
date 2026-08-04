@@ -1,4 +1,4 @@
-pipeline_version: 3
+pipeline_version: 4
 
 timezone: Asia/Singapore
 
@@ -22,7 +22,37 @@ sources:
     enabled: true
     role: "metadata_enrichment"
 
+parsing:
+  google_scholar_email:
+    config_path: "config/google_scholar_alerts.yaml"
+    schema_path: "schemas/alert_candidate.schema.json"
+    parser_version: 3
+    deterministic_only: true
+
+recognition:
+  enabled: true
+  deterministic_first: true
+  config_path: "config/recognition_rules.yaml"
+  venue_config_path: "config/venues.yaml"
+  result_schema_path: "schemas/recognition_result.schema.json"
+  classifier_version: 2
+  llm_fallback_enabled: false
+  outputs:
+    recognition_results: "data/recognition_results.jsonl"
+    routing_manifest: "state/routing_manifest.json"
+    queue_directory: "data/queues"
+
 routing:
+  order:
+    - validate_parse
+    - normalize_and_deduplicate
+    - apply_parser_quality_gate
+    - apply_tier_1_alert_venue_rule
+    - apply_optical_zo_override
+    - assign_projects
+    - route_missing_metadata
+    - rebuild_queues
+
   venue_policy:
     config_path: "config/venues.yaml"
     mode: "post_retrieval_only"
@@ -31,13 +61,12 @@ routing:
     use_venue_list_for_discovery_queries: false
 
   project_rule_overrides:
-    config_path: "config/research_profile.yaml"
+    config_path: "config/recognition_rules.yaml"
     rules:
       - id: "optical-zo-must-summarize"
         project_id: "zeroth-order-optimization"
         source_scope:
           - "google_scholar_email"
-        rule_path: "routing_rules.mandatory_full_summary"
         action: "enqueue_mandatory_summary"
         bypass_relevance_threshold: true
         bypass_venue_threshold: true
@@ -53,14 +82,10 @@ routing:
     process_before_standard_candidates: true
     accepted_reasons:
       - "tier_1_alert_venue"
-      - "project_rule_override"
+      - "optical_zo_project_override"
     bypass_relevance_threshold: true
     respect_daily_token_hard_stop: true
     overflow_action: "carry_forward"
-    explanation: >
-      Mandatory items must be summarized. When the daily budget is exhausted,
-      unfinished items remain queued for the next run and may not be archived,
-      downgraded, or silently skipped.
 
 limits:
   max_raw_items_per_source: 100
@@ -82,6 +107,13 @@ llm:
   allow_full_text: false
   skip_when_no_high_score_candidates: true
 
+delivery:
+  email:
+    enabled: false
+    require_recipient_allowlist: true
+    max_messages_per_run: 1
+
 storage:
   retain_raw_days: 30
   retain_all_normalized_records: true
+  raw_email_mime_persisted: false
