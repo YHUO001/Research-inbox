@@ -75,9 +75,11 @@ class FakeClient:
     def __init__(self, values: list[dict]) -> None:
         self.values = list(values)
         self.calls = 0
+        self.requests: list[dict] = []
 
     def complete_json(self, **kwargs) -> DeepSeekResponse:
         self.calls += 1
+        self.requests.append(dict(kwargs))
         value = self.values[min(self.calls - 1, len(self.values) - 1)]
         return DeepSeekResponse(
             content=json.dumps(value),
@@ -132,6 +134,7 @@ def test_production_injects_candidate_id_and_normalizes_equivalent_unit_glyphs(
     assert state["transport_repairs"] == {
         "candidate_id_repair_responses": 1,
         "unit_format_normalization_responses": 1,
+        "tops_alias_expansions": 0,
     }
     generated = json.loads(
         (tmp_path / "data" / "summaries" / "2026-08-04.jsonl").read_text(
@@ -140,6 +143,47 @@ def test_production_injects_candidate_id_and_normalizes_equivalent_unit_glyphs(
     )
     assert generated["candidate_id"] == candidate_id
     assert "5.16 TOPS/mm2" in generated["reported_results"][0]["claim"]
+
+
+def test_production_accepts_explicit_tops_long_form_alias_without_changing_prompt(
+    tmp_path: Path,
+) -> None:
+    candidate_id = "candidate-tops"
+    _, manifest_path = prepare(
+        tmp_path,
+        request(
+            candidate_id,
+            "The OPU achieves 65.04 trillion operations per second (TOPS).",
+        ),
+    )
+    client = FakeClient(
+        [summary(candidate_id, "The OPU achieves a computational speed of 65.04 TOPS.")]
+    )
+
+    state = generate(
+        dry_run_manifest_path=manifest_path,
+        summary_schema_path=ROOT / "schemas" / "paper_summary.schema.json",
+        config_path=ROOT / "config" / "summary_generation.yaml",
+        output_root=tmp_path / "data",
+        manifest_path=manifest_path,
+        api_key="test-key",
+        client=client,
+    )
+
+    assert state["status"] == "completed"
+    assert state["summary_count"] == 1
+    assert state["transport_repairs"] == {
+        "candidate_id_repair_responses": 0,
+        "unit_format_normalization_responses": 0,
+        "tops_alias_expansions": 1,
+    }
+    assert "Machine-only numeric grounding aliases" not in client.requests[0]["user_prompt"]
+    generated = json.loads(
+        (tmp_path / "data" / "summaries" / "2026-08-04.jsonl").read_text(
+            encoding="utf-8"
+        )
+    )
+    assert "65.04 TOPS" in generated["reported_results"][0]["claim"]
 
 
 def test_production_preserves_strict_approximation_semantics_and_diagnostics(
@@ -175,5 +219,6 @@ def test_production_preserves_strict_approximation_semantics_and_diagnostics(
     assert persisted["transport_repairs"] == {
         "candidate_id_repair_responses": 0,
         "unit_format_normalization_responses": 0,
+        "tops_alias_expansions": 0,
     }
     assert not (tmp_path / "data" / "summaries" / "2026-08-04.jsonl").exists()

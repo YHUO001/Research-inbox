@@ -3,6 +3,8 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
+import tempfile
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -11,13 +13,27 @@ import yaml
 
 from scripts.summarize.deepseek_provider import DeepSeekClient, DeepSeekResponse
 from scripts.summarize.generate_summaries import generate as strict_generate
-from scripts.summarize.prepare_digest import atomic_write, load_json, stable_json
+from scripts.summarize.prepare_digest import (
+    atomic_write,
+    load_json,
+    load_jsonl,
+    stable_json,
+)
+
+
+_TOPS_LONG_FORM = re.compile(
+    r"(?<![A-Za-z0-9])((?:~|≈|±)?\s*\d+(?:\.\d+)?)\s+"
+    r"trillion\s+operations\s+per\s+second"
+    r"(?:\s*\(\s*TOPS\s*\))?",
+    re.IGNORECASE,
+)
 
 
 @dataclass
 class TransportRepairDiagnostics:
     candidate_id_repair_responses: int = 0
     unit_format_normalization_responses: int = 0
+    tops_alias_expansions: int = 0
 
 
 def expected_candidate_id(system_prompt: str) -> str:
@@ -58,6 +74,74 @@ def normalize_unit_format(value: Any) -> tuple[Any, bool]:
     return value, False
 
 
+def tops_grounding_aliases(abstract: str) -> list[str]:
+    """Return explicit TOPS aliases already defined by the abstract.
+
+    This is deliberately limited to the exact long form "trillion operations per
+    second". It does not infer arbitrary abbreviations or change numerical values.
+    """
+    aliases: list[str] = []
+    seen: set[str] = set()
+    for match in _TOPS_LONG_FORM.finditer(abstract or ""):
+        number = re.sub(r"\s+", "", match.group(1)).replace("≈", "~")
+        alias = f"{number} TOPS"
+        key = alias.lower()
+        if key not in seen:
+            seen.add(key)
+            aliases.append(alias)
+    return aliases
+
+
+def grounding_manifest_copy(
+    dry_run_manifest_path: Path,
+    temporary_root: Path,
+) -> tuple[Path, int]:
+    """Create a temporary request snapshot with machine-only grounding aliases.
+
+    Prompts and persisted request packages remain unchanged. Only the source abstract
+    used by local numeric validation receives explicit aliases for unit notation that
+    the abstract itself defines.
+    """
+    dry_manifest = load_json(dry_run_manifest_path, {})
+    if not isinstance(dry_manifest, dict):
+        raise ValueError("Summary dry-run manifest must be a JSON object")
+    request_file = Path(str(dry_manifest.get("request_file") or ""))
+    requests = load_jsonl(request_file)
+    alias_count = 0
+
+    for request in requests:
+        source = request.get("source")
+        if not isinstance(source, dict):
+            continue
+        abstract = str(source.get("abstract") or "")
+        aliases = tops_grounding_aliases(abstract)
+        if not aliases:
+            continue
+        source["abstract"] = (
+            abstract
+            + "\nMachine-only numeric grounding aliases: "
+            + "; ".join(aliases)
+            + "."
+        )
+        alias_count += len(aliases)
+
+    temporary_request = temporary_root / "summary_requests.jsonl"
+    atomic_write(
+        temporary_request,
+        "".join(
+            json.dumps(item, ensure_ascii=False, sort_keys=True) + "\n"
+            for item in requests
+        ),
+    )
+    dry_manifest["request_file"] = str(temporary_request)
+    temporary_manifest = temporary_root / "summary_generation_manifest.json"
+    atomic_write(
+        temporary_manifest,
+        json.dumps(dry_manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+    )
+    return temporary_manifest, alias_count
+
+
 class ProductionNormalizingClient:
     """Canonicalize application-owned transport data before strict validation."""
 
@@ -88,6 +172,14 @@ class ProductionNormalizingClient:
             usage=response.usage,
             model=response.model,
         )
+
+
+def diagnostic_payload(diagnostics: TransportRepairDiagnostics) -> dict[str, int]:
+    return {
+        "candidate_id_repair_responses": diagnostics.candidate_id_repair_responses,
+        "unit_format_normalization_responses": diagnostics.unit_format_normalization_responses,
+        "tops_alias_expansions": diagnostics.tops_alias_expansions,
+    }
 
 
 def generate(
@@ -121,32 +213,32 @@ def generate(
     )
 
     try:
-        state = strict_generate(
-            dry_run_manifest_path=dry_run_manifest_path,
-            summary_schema_path=summary_schema_path,
-            config_path=config_path,
-            output_root=output_root,
-            manifest_path=manifest_path,
-            api_key=key,
-            client=wrapped_client,
-        )
+        with tempfile.TemporaryDirectory(prefix="research-inbox-grounding-") as directory:
+            grounding_manifest, alias_count = grounding_manifest_copy(
+                dry_run_manifest_path,
+                Path(directory),
+            )
+            diagnostics.tops_alias_expansions = alias_count
+            state = strict_generate(
+                dry_run_manifest_path=grounding_manifest,
+                summary_schema_path=summary_schema_path,
+                config_path=config_path,
+                output_root=output_root,
+                manifest_path=manifest_path,
+                api_key=key,
+                client=wrapped_client,
+            )
     finally:
         persisted = load_json(manifest_path, {})
         if not isinstance(persisted, dict):
             persisted = {}
-        persisted["transport_repairs"] = {
-            "candidate_id_repair_responses": diagnostics.candidate_id_repair_responses,
-            "unit_format_normalization_responses": diagnostics.unit_format_normalization_responses,
-        }
+        persisted["transport_repairs"] = diagnostic_payload(diagnostics)
         atomic_write(
             manifest_path,
             json.dumps(persisted, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         )
 
-    state["transport_repairs"] = {
-        "candidate_id_repair_responses": diagnostics.candidate_id_repair_responses,
-        "unit_format_normalization_responses": diagnostics.unit_format_normalization_responses,
-    }
+    state["transport_repairs"] = diagnostic_payload(diagnostics)
     atomic_write(
         manifest_path,
         json.dumps(state, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
