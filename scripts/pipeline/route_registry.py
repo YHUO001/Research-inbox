@@ -64,7 +64,7 @@ def enforce_source_scoped_overrides(
     parse_state = str((candidate.get("parse_status") or {}).get("state") or "partial")
     venue_missing = not (candidate.get("venue") or {}).get("normalized")
     if parse_state == "partial" or venue_missing:
-        replacement_reasons = ["missing_metadata", "optical_zo_discovery"]
+        replacement_reasons = ["missing_metadata"]
         if parse_state == "partial":
             replacement_reasons.append("parser_partial")
         if venue_missing:
@@ -88,7 +88,7 @@ def enforce_source_scoped_overrides(
         "route": "standard_scoring_queue",
         "priority": "high" if confirmed else "normal",
         "mandatory": False,
-        "reasons": ["optical_zo_discovery", "project_match"],
+        "reasons": ["project_match"],
         "requires_semantic_scoring": True,
         "requires_manual_review": False,
         "overflow_action": None,
