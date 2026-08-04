@@ -1,7 +1,7 @@
 # Deterministic project recognition and routing rules.
 # These rules operate only on already retrieved candidates.
 
-version: 2
+version: 3
 
 common:
   case_sensitive: false
@@ -152,6 +152,7 @@ projects:
       - 'coherent optical'
       - 'holographic'
       - 'metasurface'
+      - 'meta[- ]optical'
       - 'photonic processor'
       - 'optical processor'
       - 'silicon photonic'
@@ -159,6 +160,11 @@ projects:
       - '\bMZI\b'
       - 'optomechanical'
       - 'electroabsorption modulator'
+      - 'optical nonlinear activation'
+      - 'nonlinear optical activation'
+      - 'photonic activation function'
+      - 'thin[- ]film lithium niobate'
+      - 'lithium niobate waveguide'
 
     neural_context_patterns:
       - 'neural network'
@@ -171,6 +177,7 @@ projects:
       - 'classifier'
       - 'activation function'
       - 'artificial intelligence'
+      - 'image segmentation'
 
     negative_patterns:
       - 'optical flow estimation'
