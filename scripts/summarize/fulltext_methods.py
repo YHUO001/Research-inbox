@@ -5,7 +5,7 @@ import io
 import re
 from dataclasses import dataclass
 from typing import Any, Callable
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
 from bs4 import BeautifulSoup, Tag
@@ -19,9 +19,17 @@ METHOD_KEYWORDS = (
     "materials and methods",
     "experimental setup",
     "experimental methods",
+    "experimental implementation",
+    "experimental demonstration",
     "implementation",
+    "design principle",
+    "operating principle",
+    "computing principle",
+    "underlying physics",
     "system architecture",
     "network architecture",
+    "computer architecture",
+    "optical computer architecture",
     "optical setup",
     "hardware setup",
     "training",
@@ -106,6 +114,17 @@ def unique_paragraphs(values: list[str]) -> list[str]:
     return result
 
 
+def derived_nature_pdf_urls(base_url: str) -> list[str]:
+    parsed = urlsplit(base_url)
+    if not parsed.netloc.lower().endswith("nature.com"):
+        return []
+    article_path = parsed.path.rstrip("/")
+    if not re.fullmatch(r"/articles/[^/]+", article_path):
+        return []
+    article_url = urlunsplit((parsed.scheme or "https", parsed.netloc, article_path, "", ""))
+    return [f"{article_url}.pdf", f"{article_url}_reference.pdf"]
+
+
 def discover_pdf_urls(soup: BeautifulSoup, base_url: str) -> list[str]:
     values: list[str] = []
     for meta in soup.find_all("meta"):
@@ -117,9 +136,52 @@ def discover_pdf_urls(soup: BeautifulSoup, base_url: str) -> list[str]:
     for link in soup.find_all("a", href=True):
         href = str(link.get("href") or "")
         label = normalize_space(link.get_text(" ", strip=True)).lower()
-        if href.lower().endswith(".pdf") or label in {"pdf", "download pdf", "full text pdf"}:
+        if href.lower().endswith(".pdf") or "pdf" in label:
             values.append(urljoin(base_url, href))
+    values.extend(derived_nature_pdf_urls(base_url))
     return list(dict.fromkeys(value for value in values if value.startswith(("http://", "https://"))))
+
+
+def method_heading_windows(text: str, *, maximum_characters: int) -> tuple[str, list[str]]:
+    compact = re.sub(r"[ \t]+", " ", text or "")
+    heading_hits: list[tuple[int, str]] = []
+    offset = 0
+    for raw_line in compact.splitlines(keepends=True):
+        line = normalize_space(raw_line)
+        looks_like_heading = (
+            2 <= len(line) <= 180
+            and len(line.split()) <= 24
+            and not re.search(r"[.!?;:]$", line)
+            and is_method_heading(line)
+        )
+        if looks_like_heading:
+            heading_hits.append((offset, line))
+        offset += len(raw_line)
+    if not heading_hits:
+        return "", []
+
+    windows: list[tuple[int, int]] = []
+    headings: list[str] = []
+    for position, heading in heading_hits:
+        start = max(0, position)
+        end = min(len(compact), position + 3600)
+        if windows and start <= windows[-1][1]:
+            windows[-1] = (windows[-1][0], max(windows[-1][1], end))
+        else:
+            windows.append((start, end))
+        headings.append(heading)
+
+    output: list[str] = []
+    used = 0
+    for start, end in windows:
+        remaining = maximum_characters - used
+        if remaining <= 0:
+            break
+        value = normalize_space(compact[start:end])[:remaining]
+        if value:
+            output.append(value)
+            used += len(value) + 2
+    return "\n\n".join(output), list(dict.fromkeys(headings))
 
 
 def extract_html_method_context(
@@ -151,6 +213,14 @@ def extract_html_method_context(
                     section_values.append(item.get_text(" ", strip=True))
                 if sibling.name in {"p", "li"}:
                     section_values.append(sibling.get_text(" ", strip=True))
+
+        if not unique_paragraphs(section_values):
+            section = heading.find_parent("section")
+            if section is not None:
+                section_values.extend(
+                    item.get_text(" ", strip=True)
+                    for item in section.find_all(["p", "li"], recursive=True)
+                )
         paragraphs.extend(unique_paragraphs(section_values))
 
     if not paragraphs:
@@ -170,6 +240,7 @@ def extract_html_method_context(
                 )
             )
 
+    pdf_urls = discover_pdf_urls(soup, source_url)
     blocks: list[str] = []
     used = 0
     for paragraph in unique_paragraphs(paragraphs):
@@ -179,10 +250,25 @@ def extract_html_method_context(
         value = paragraph[:remaining]
         blocks.append(value)
         used += len(value) + 2
-    return "\n\n".join(blocks), list(dict.fromkeys(headings)), discover_pdf_urls(soup, source_url)
+    if blocks:
+        return "\n\n".join(blocks), list(dict.fromkeys(headings)), pdf_urls
+
+    article_root = soup.find("article") or soup.find("main") or soup
+    fallback_text, fallback_headings = method_heading_windows(
+        article_root.get_text("\n", strip=True),
+        maximum_characters=maximum_characters,
+    )
+    return fallback_text, list(dict.fromkeys(headings + fallback_headings)), pdf_urls
 
 
 def text_windows(text: str, *, maximum_characters: int) -> tuple[str, list[str]]:
+    heading_text, headings = method_heading_windows(
+        text,
+        maximum_characters=maximum_characters,
+    )
+    if heading_text:
+        return heading_text, headings
+
     compact = re.sub(r"[ \t]+", " ", text or "")
     lowered = compact.lower()
     hits: list[tuple[int, str]] = []
@@ -285,7 +371,7 @@ def collect_method_context(
                         headings,
                         text,
                     )
-                for pdf_url in pdf_urls[:1]:
+                for pdf_url in reversed(pdf_urls[:2]):
                     if pdf_url not in attempted:
                         queued.insert(0, pdf_url)
                 errors.append(f"{final_url}: no method-oriented HTML section found")
