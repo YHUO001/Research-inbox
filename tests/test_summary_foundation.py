@@ -136,6 +136,8 @@ def test_project_specific_prompt_instructions() -> None:
     assert "method_principle" in prompt
     assert "method_implementation" in prompt
     assert "所有面向读者的自然语言内容必须使用简体中文" in prompt
+    assert "不得把约数改写为精确值" in prompt
+    assert "不得把正负范围改写为单点值" in prompt
 
 
 def test_numeric_grounding_rejects_invented_result() -> None:
@@ -171,9 +173,25 @@ def test_numeric_grounding_accepts_equivalent_publisher_formats() -> None:
         ],
     }
     assert validate_numeric_grounding(summary, title=title, abstract=abstract) == []
-    assert {"100ghz", "5ghz", "80ghz", "0.4", "3pixel"}.issubset(
+    assert {"100ghz", "~5ghz", "80ghz", "~0.4", "±3pixel"}.issubset(
         numeric_tokens(f"{title}\n{abstract}")
     )
+
+
+def test_numeric_grounding_preserves_approximation_and_range_semantics() -> None:
+    approximate = validate_numeric_grounding(
+        {"reported_results": [{"claim": "作者报告处理器运行于 5 GHz。"}]},
+        title="Processor comparison",
+        abstract="Conventional processors remain at ~5 GHz.",
+    )
+    assert approximate == ["5ghz"]
+
+    signed_range = validate_numeric_grounding(
+        {"reported_results": [{"claim": "作者报告偏移为 3 个像素。"}]},
+        title="Alignment test",
+        abstract="The system maintains accuracy within ±3 pixels.",
+    )
+    assert signed_range == ["3"]
 
 
 def test_numeric_grounding_still_rejects_new_fulltext_number() -> None:
