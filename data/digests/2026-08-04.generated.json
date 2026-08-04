@@ -6,11 +6,12 @@
   "safety": {
     "email_enabled": false,
     "full_text_used": false,
+    "human_review_required": true,
     "information_basis": "title_metadata_and_abstract_only",
     "summary_history_updated": false
   },
   "schema_version": 1,
-  "status": "generated_pending_human_review",
+  "status": "pending_human_review",
   "summaries": [
     {
       "candidate_id": "b63d0c87752a364b3611148c",
@@ -181,7 +182,7 @@
           "in-situ analysis of soliton states from integrated optical microresonators",
           "generative AI based on quantum fluctuations for image generation without input signals"
         ],
-        "architecture_type": "free_space",
+        "architecture_type": "unclear",
         "calibration_requirements": "not_available",
         "hardware_validation": "physical_experiment",
         "optical_nonlinearity": "Uses nonlinear optical operations for recurrent neural network computing; specific mechanisms not detailed.",

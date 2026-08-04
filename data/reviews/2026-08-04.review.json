@@ -1,0 +1,640 @@
+{
+  "artifacts": {
+    "digest_json_file": "data/digests/2026-08-04.generated.json",
+    "digest_json_sha256": "c09ca9b588890e27b4ce04cd9bf3552912fb69b1047635d630d35e1b507e0b74",
+    "request_file": "data/summary_requests/2026-08-04.jsonl",
+    "request_sha256": "c5fba022f68f3df3600afafc300311fda426ca383f114b6290eb8003b719d0a8",
+    "summary_file": "data/summaries/2026-08-04.jsonl",
+    "summary_sha256": "13d1945ce1e5c4087c155a8b928a6ff720a63dcd0917e92438e8c72c0027a479"
+  },
+  "batch_review": {
+    "decision": "pending",
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null
+  },
+  "digest_date": "2026-08-04",
+  "information_basis": "title_metadata_and_abstract_only",
+  "model": "deepseek-v4-pro",
+  "paper_count": 3,
+  "papers": [
+    {
+      "automated_checks": {
+        "architecture_consistent": true,
+        "architecture_evidence": {
+          "free_space_evidence": [
+            "We physically validated B-ONN using a programmable spatial light modulator (SLM) system, achieving 95% accuracy in handwritten digit recognition."
+          ],
+          "integrated_evidence": [
+            "Furthermore, we successfully implemented chip-scale integration via nano printing, maintaining 94% accuracy, confirming B-ONN's effective transferability from programmable setups to fixed devices."
+          ],
+          "resolved_type": "hybrid"
+        },
+        "architecture_model_value_before_guard": "hybrid",
+        "architecture_repaired": false,
+        "information_basis": "title_metadata_and_abstract_only",
+        "schema_valid": true,
+        "unsupported_numeric_claims": []
+      },
+      "candidate_id": "b63d0c87752a364b3611148c",
+      "request_id": "60e44827599c181755cafb061396a1146d6607666bc3e967d345c57ef5619e4c",
+      "review_template": {
+        "completeness": null,
+        "decision": "pending",
+        "factual_accuracy": null,
+        "notes": "",
+        "technical_classification": null,
+        "triage_usefulness": null
+      },
+      "source": {
+        "abstract": "Optical Neural Networks (ONNs) can perform matrix operations at the speed of light and are expected to bring revolutionary advances in energy-efficient computing. However, traditional ONNs (T-ONNs) rely heavily on error backpropagation algorithms, which are fundamentally incompatible with physical optical systems due to the lack of reciprocal error paths and extreme sensitivity to fabrication imperfections. In this paper, we propose a bio-inspired backpropagation-free optical neural network (B-ONN) that circumvents gradient backpropagation through a layer-wise target propagation mechanism. By introducing trainable error convolution kernels, each layer can perform local learning based on target signals rather than chain-ruled gradients, eliminating the need for precise optical conjugation between forward and backward paths. Experimental results demonstrate that B-ONN achieves comparable accuracy to T-ONN on both the MNIST and Fashion-MNIST datasets, with 93.25% and 82.28% accuracy, respectively. Moreover, B-ONN demonstrates superior robustness against phase noise (75% accuracy at σ ≈ 0.4π) and alignment errors (75% accuracy within ±3 pixels). We physically validated B-ONN using a programmable spatial light modulator (SLM) system, achieving 95% accuracy in handwritten digit recognition. Furthermore, we successfully implemented chip-scale integration via nano printing, maintaining 94% accuracy, confirming B-ONN's effective transferability from programmable setups to fixed devices. Crucially, B-ONN learns smooth phase distributions that provide inherent structural robustness without requiring noise-augmented training. Its local learning rules also support asynchronous parallel updates in scalable deep architectures. This work opens a practical and feasible path for deploying optical computing systems in real-world applications.",
+        "authors": [
+          "Tingxuan Li",
+          "Yibo Dong",
+          "Kun Tu",
+          "Yuchao Zhang",
+          "S. Li",
+          "Yuyang Duan",
+          "Peng Sun",
+          "Miṅ Gu",
+          "Jing Wang"
+        ],
+        "decision": "mandatory",
+        "doi": "10.1038/s41377-026-02394-3",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02394-3",
+        "mandatory": true,
+        "matched_projects": [
+          "optical-neural-networks"
+        ],
+        "open_access_url": "https://doi.org/10.1038/s41377-026-02394-3",
+        "openalex_id": "https://openalex.org/W7167503550",
+        "score": 0.88,
+        "score_breakdown": [
+          {
+            "contribution": 0.32,
+            "evidence": [
+              "confirmed"
+            ],
+            "feature": "project_confidence"
+          },
+          {
+            "contribution": 0.1,
+            "evidence": [
+              "neural network",
+              "optical neural network",
+              "training"
+            ],
+            "feature": "title_evidence"
+          },
+          {
+            "contribution": 0.04,
+            "evidence": [
+              "ONN",
+              "convolution",
+              "optical neural network"
+            ],
+            "feature": "contextual_evidence"
+          },
+          {
+            "contribution": 0.08,
+            "evidence": [
+              "backpropagation",
+              "training"
+            ],
+            "feature": "training_signal"
+          },
+          {
+            "contribution": 0.12,
+            "evidence": [
+              "tier_1_must_summarize"
+            ],
+            "feature": "venue_policy"
+          },
+          {
+            "contribution": 0.08,
+            "evidence": [
+              "abstract"
+            ],
+            "feature": "metadata_abstract"
+          },
+          {
+            "contribution": 0.03,
+            "evidence": [
+              "10.1038/s41377-026-02394-3"
+            ],
+            "feature": "metadata_doi"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "https://openalex.org/W7167503550"
+            ],
+            "feature": "metadata_openalex_id"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "2026",
+              "Light Science & Applications"
+            ],
+            "feature": "metadata_venue_and_year"
+          },
+          {
+            "contribution": 0.05,
+            "evidence": [
+              "29_days"
+            ],
+            "feature": "freshness"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "google_scholar_email"
+            ],
+            "feature": "primary_source_bonus"
+          }
+        ],
+        "source_type": "google_scholar_email",
+        "title": "Bio-inspired backpropagation-free training for optical neural networks",
+        "venue": "Light Science & Applications",
+        "year": 2026
+      },
+      "summary": {
+        "candidate_id": "b63d0c87752a364b3611148c",
+        "core_problem": "Traditional optical neural networks (T-ONNs) rely on error backpropagation, which is incompatible with physical optical systems due to the lack of reciprocal error paths and extreme sensitivity to fabrication imperfections.",
+        "distinction_from_prior_work": "Unlike traditional ONNs that rely on backpropagation requiring reciprocal optical paths, this work introduces a backpropagation-free local learning mechanism based on target propagation, removing the need for precise forward-backward symmetry and improving noise robustness without augmentation.",
+        "limitations_and_open_questions": [
+          "The abstract does not discuss scalability to deeper architectures beyond those tested.",
+          "Performance on more complex datasets or tasks is not mentioned.",
+          "Comparison to other backpropagation-free optical training methods is not provided.",
+          "The impact of fabrication imperfections in chip-scale integration on long-term stability is not detailed."
+        ],
+        "main_contributions": [
+          "A backpropagation-free training method for optical neural networks using target propagation with trainable error convolution kernels.",
+          "Demonstrated comparable accuracy to traditional ONN on MNIST (93.25%) and Fashion-MNIST (82.28%).",
+          "Superior robustness against phase noise (75% accuracy at σ ≈ 0.4π) and alignment errors (75% accuracy within ±3 pixels).",
+          "Physical validation on a programmable SLM system achieving 95% handwritten digit recognition accuracy.",
+          "Chip-scale integration via nano printing with 94% accuracy, confirming transferability to fixed devices.",
+          "Inherent structural robustness from smooth learned phase distributions without noise-augmented training."
+        ],
+        "method_and_architecture": "The proposed bio-inspired backpropagation-free optical neural network (B-ONN) uses a layer-wise target propagation mechanism. Trainable error convolution kernels enable each layer to perform local learning based on target signals instead of chain-ruled gradients, eliminating the need for precise optical conjugation between forward and backward paths.",
+        "optical_neural_network_analysis": {
+          "application_tasks": [
+            "MNIST handwritten digit classification",
+            "Fashion-MNIST classification",
+            "Handwritten digit recognition (physical validation)"
+          ],
+          "architecture_type": "hybrid",
+          "calibration_requirements": "not_available",
+          "hardware_validation": "mixed",
+          "optical_nonlinearity": "not_available",
+          "training_method": "Backpropagation-free layer-wise target propagation with trainable error convolution kernels; local learning without chain-ruled gradients."
+        },
+        "reported_results": [
+          {
+            "basis": "abstract",
+            "claim": "B-ONN achieves 93.25% accuracy on MNIST.",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "B-ONN achieves 82.28% accuracy on Fashion-MNIST.",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "B-ONN achieves 75% accuracy under phase noise of σ ≈ 0.4π.",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "B-ONN achieves 75% accuracy within alignment errors of ±3 pixels.",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "Physical SLM validation achieved 95% accuracy in handwritten digit recognition.",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "Chip-scale integration via nano printing maintained 94% accuracy.",
+            "reported_by_authors": true
+          }
+        ],
+        "research_value": "The approach addresses a fundamental incompatibility in training physical ONNs, potentially enabling practical deployment of robust, energy-efficient optical computing in real-world applications.",
+        "schema_version": 1,
+        "summary_version": 1,
+        "verification": {
+          "information_basis": "title_metadata_and_abstract_only",
+          "missing_information": [
+            "Details on optical nonlinearity or activation functions",
+            "Calibration procedures for SLM or nano printed systems",
+            "Training dataset sizes, splits, and hyperparameters",
+            "Comparison results with other backpropagation-free methods",
+            "Quantitative baseline performance of T-ONN under same conditions"
+          ],
+          "unsupported_numbers_detected": false
+        },
+        "zeroth_order_analysis": null
+      },
+      "summary_sha256": "375049f92eda6992f30577749cfbf1eec63f75f5a8747ea7a10eb471331cb03e"
+    },
+    {
+      "automated_checks": {
+        "architecture_consistent": true,
+        "architecture_evidence": {
+          "free_space_evidence": [],
+          "integrated_evidence": [
+            "Integrating four optical analog cores on a monolithic chip, the OPU supports 124-channel parallel task processing, achieving 65.04 trillion operations per second (TOPS) computational speed and 5.16 TOPS/mm2 compute density."
+          ],
+          "resolved_type": "integrated"
+        },
+        "architecture_model_value_before_guard": "integrated",
+        "architecture_repaired": false,
+        "information_basis": "title_metadata_and_abstract_only",
+        "schema_valid": true,
+        "unsupported_numeric_claims": []
+      },
+      "candidate_id": "97f076ce54abbfc51b5b73e4",
+      "request_id": "ea8362a52d80602867b43c4960a675460b0658c1bcad1ef5a2abe754e377778b",
+      "review_template": {
+        "completeness": null,
+        "decision": "pending",
+        "factual_accuracy": null,
+        "notes": "",
+        "technical_classification": null,
+        "triage_usefulness": null
+      },
+      "source": {
+        "abstract": "The rapid progress of artificial intelligence demands scalable, energy-efficient hardware with massive parallelism and high throughput. Although optical computing offers a promising post-Moore solution, current implementations face speed limitations and multi-core integration challenges. Here, we propose a high-throughput optical processing unit (OPU) that simultaneously exploits coherent interference, wavelength-division multiplexing, and spatial parallelism to achieve revolutionary performance gains. Integrating four optical analog cores on a monolithic chip, the OPU supports 124-channel parallel task processing, achieving 65.04 trillion operations per second (TOPS) computational speed and 5.16 TOPS/mm2 compute density. Leveraging this OPU platform, an optoelectronic convolutional neural network (OE-CNN) is constructed that fuses the OPU’s parallel 4-kernel convolution and average pooling operations with electronic nonlinear activation and fully connection operations. This OE-CNN, empowered by multi-feature fusion through 4-kernel parallel convolution, achieves a 95.08% MNIST classification accuracy—representing a 9.20% improvement over its single-core counterpart. The OPU demonstration achieves multi-core parallel operation and accelerated computational speed, establishing a scalable hardware foundation for optoelectronic many-core intelligent computing. Integrating coherent interference and wavelength-division multiplexing, a four-core optical computing chip is demonstrated to support 124-channel parallel processing and achieve a computational speed of 65 TOPS.",
+        "authors": [
+          "Xiangyan Meng",
+          "Junshen Li",
+          "Menghan Yang",
+          "Kangwei Fei",
+          "Yanzhen Li",
+          "Wei Li",
+          "Jianping Yao",
+          "Ning Hua Zhu",
+          "Nuannuan Shi",
+          "Ming Li"
+        ],
+        "decision": "mandatory",
+        "doi": "10.1038/s41467-026-76128-9",
+        "landing_page": "https://doi.org/10.1038/s41467-026-76128-9",
+        "mandatory": true,
+        "matched_projects": [
+          "optical-neural-networks"
+        ],
+        "open_access_url": "https://doi.org/10.1038/s41467-026-76128-9",
+        "openalex_id": "https://openalex.org/W7171778849",
+        "score": 0.85,
+        "score_breakdown": [
+          {
+            "contribution": 0.22,
+            "evidence": [
+              "probable"
+            ],
+            "feature": "project_confidence"
+          },
+          {
+            "contribution": 0.04,
+            "evidence": [
+              "MZI",
+              "neural network",
+              "optical neural network"
+            ],
+            "feature": "contextual_evidence"
+          },
+          {
+            "contribution": 0.05,
+            "evidence": [
+              "classification"
+            ],
+            "feature": "application_signal"
+          },
+          {
+            "contribution": 0.12,
+            "evidence": [
+              "tier_1_must_summarize"
+            ],
+            "feature": "venue_policy"
+          },
+          {
+            "contribution": 0.08,
+            "evidence": [
+              "abstract"
+            ],
+            "feature": "metadata_abstract"
+          },
+          {
+            "contribution": 0.03,
+            "evidence": [
+              "10.1038/s41467-026-76128-9"
+            ],
+            "feature": "metadata_doi"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "https://openalex.org/W7171778849"
+            ],
+            "feature": "metadata_openalex_id"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "2026",
+              "Nature Communications"
+            ],
+            "feature": "metadata_venue_and_year"
+          },
+          {
+            "contribution": 0.05,
+            "evidence": [
+              "4_days"
+            ],
+            "feature": "freshness"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "google_scholar_email"
+            ],
+            "feature": "primary_source_bonus"
+          }
+        ],
+        "source_type": "google_scholar_email",
+        "title": "65 TOPS optoelectronic multi-core computing unlocking multi-feature fusion enhancement",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      "summary": {
+        "candidate_id": "97f076ce54abbfc51b5b73e4",
+        "core_problem": "Current optical computing implementations suffer from speed limitations and multi-core integration challenges, hindering scalable, energy-efficient AI hardware.",
+        "distinction_from_prior_work": "Unlike earlier optical computing platforms limited in speed and multi‑core integration, this work simultaneously harnesses coherent interference, wavelength‑division multiplexing, and spatial parallelism on a monolithic chip with four analog cores, enabling 124‑channel parallel processing and a computational speed of 65 TOPS. The resulting OE‑CNN exploits parallel 4‑kernel convolution for multi‑feature fusion, achieving a notable MNIST accuracy improvement over a single‑core version.",
+        "limitations_and_open_questions": [
+          "The evaluation is limited to the MNIST dataset; performance on more complex benchmarks is not reported.",
+          "Details on energy efficiency, latency, and comparison to state‑of‑the‑art electronic accelerators are absent.",
+          "The abstract does not discuss scalability limits, fabrication yield, or crosstalk in the multi‑core monolithic integration.",
+          "Long‑term stability, environmental sensitivity, and reconfigurability of the optical cores are not addressed.",
+          "The role and implementation of electronic nonlinear activation and fully connected layers are not described."
+        ],
+        "main_contributions": [
+          "Demonstration of a monolithic chip with four integrated optical analog cores that simultaneously exploit coherent interference, WDM, and spatial parallelism.",
+          "Achieving 65.04 TOPS computational speed and 5.16 TOPS/mm2 compute density through 124-channel parallel task processing.",
+          "Construction of an OE-CNN that combines optical 4‑kernel parallel convolution and average pooling with electronic nonlinear activation for multi‑feature fusion.",
+          "MNIST classification accuracy of 95.08%, a 9.20% improvement over the single‑core counterpart, attributed to multi‑feature fusion via parallel convolution."
+        ],
+        "method_and_architecture": "A high-throughput optical processing unit (OPU) exploiting coherent interference, wavelength-division multiplexing, and spatial parallelism. Four optical analog cores are integrated on a monolithic chip to support 124-channel parallel processing. An optoelectronic convolutional neural network (OE-CNN) is constructed, fusing the OPU's parallel 4-kernel convolution and average pooling operations with electronic nonlinear activation and fully connected operations.",
+        "optical_neural_network_analysis": {
+          "application_tasks": [
+            "MNIST handwritten digit classification"
+          ],
+          "architecture_type": "integrated",
+          "calibration_requirements": "not_available",
+          "hardware_validation": "physical_experiment",
+          "optical_nonlinearity": "Electronic nonlinear activation is used; optical nonlinearity is not reported.",
+          "training_method": "not_available"
+        },
+        "reported_results": [
+          {
+            "basis": "abstract",
+            "claim": "The OPU achieves 65.04 trillion operations per second (TOPS) computational speed.",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "The OPU achieves 5.16 TOPS/mm2 compute density.",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "The OPU supports 124‑channel parallel task processing.",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "The OE-CNN achieves 95.08% MNIST classification accuracy, a 9.20% improvement over a single‑core counterpart.",
+            "reported_by_authors": true
+          }
+        ],
+        "research_value": "The demonstration of a scalable multi‑core optical processing unit that achieves high throughput (65 TOPS) and high compute density (5.16 TOPS/mm2) addresses critical bottlenecks in optical AI accelerators. The multi‑feature fusion OE‑CNN illustrates a practical architecture for leveraging optical parallelism to enhance classification accuracy, potentially paving the way for many‑core optoelectronic intelligent computing systems.",
+        "schema_version": 1,
+        "summary_version": 1,
+        "verification": {
+          "information_basis": "title_metadata_and_abstract_only",
+          "missing_information": [
+            "Detailed methodology for combining optical convolution and electronic nonlinearity.",
+            "Energy efficiency or power consumption metrics.",
+            "Comparison with state-of-the-art electronic accelerators on identical tasks.",
+            "Training method, dataset split, and optimization procedure.",
+            "Calibration, compensation, or feedback for optical imperfections."
+          ],
+          "unsupported_numbers_detected": false
+        },
+        "zeroth_order_analysis": null
+      },
+      "summary_sha256": "8e70e28b36810975be8daf92613bc62b383035da2f2b67205a488c6cc54bd737"
+    },
+    {
+      "automated_checks": {
+        "architecture_consistent": true,
+        "architecture_evidence": {
+          "free_space_evidence": [],
+          "integrated_evidence": [],
+          "resolved_type": "unclear"
+        },
+        "architecture_model_value_before_guard": "free_space",
+        "architecture_repaired": true,
+        "information_basis": "title_metadata_and_abstract_only",
+        "schema_valid": true,
+        "unsupported_numeric_claims": []
+      },
+      "candidate_id": "766ea277f76b9bc9cd30be5d",
+      "request_id": "3447b0595565d3520fd0ffe44db5377d28c41eeabea602f20603c4ccb2781972",
+      "review_template": {
+        "completeness": null,
+        "decision": "pending",
+        "factual_accuracy": null,
+        "notes": "",
+        "technical_classification": null,
+        "triage_usefulness": null
+      },
+      "source": {
+        "abstract": "A computer's clock rate ultimately determines the minimum time between sequential operations or instructions. Despite exponential advances in electronic computer performance due to Moore's Law and increasingly parallel system architectures, clock rates of conventional processors have remained stagnant at ~5 GHz for nearly two decades. This creates a significant challenge for applications requiring real-time processing or control of ultrafast information systems. Here, we break this barrier by proposing and experimentally demonstrating computing based on an all-optical recurrent neural network leveraging the ultrafast characteristics of linear and nonlinear optical operations while circumventing electronic bottlenecks. The all-optical computer realizes linear operations, nonlinear functions, and memory entirely in the optical domain with accuracy surpassing a purely linear model up to 80 GHz clock rates depending on the task. We experimentally demonstrate a prototypical task of noisy waveform classification as well as perform ultrafast in-situ analysis of the soliton states from integrated optical microresonators. We further illustrate the application of the architecture for generative artificial intelligence based on quantum fluctuations to generate images even in the absence of input optical signals. Our results highlight the potential of all-optical computing beyond what can be achieved with digital electronics by utilizing ultrafast linear, nonlinear, and memory functions and quantum fluctuations.",
+        "authors": [
+          "Gordon H.Y. Li",
+          "Midya Parto",
+          "Jinhao Ge",
+          "Qing-Xin Ji",
+          "Maodong Gao",
+          "Yan Yu",
+          "James Williams",
+          "Robert M. Gray",
+          "Christian R. Leefmans",
+          "Nicolas Englebert",
+          "Kerry J. Vahala",
+          "Alireza Marandi"
+        ],
+        "decision": "mandatory",
+        "doi": "10.1038/s41377-026-02314-5",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02314-5",
+        "mandatory": true,
+        "matched_projects": [],
+        "open_access_url": "https://doi.org/10.1038/s41377-026-02314-5",
+        "openalex_id": "https://openalex.org/W7169589779",
+        "score": 0.85,
+        "score_breakdown": [
+          {
+            "contribution": 0.08,
+            "evidence": [
+              "architecture"
+            ],
+            "feature": "architecture_signal"
+          },
+          {
+            "contribution": 0.05,
+            "evidence": [
+              "classification",
+              "generative"
+            ],
+            "feature": "application_signal"
+          },
+          {
+            "contribution": 0.12,
+            "evidence": [
+              "tier_1_must_summarize"
+            ],
+            "feature": "venue_policy"
+          },
+          {
+            "contribution": 0.08,
+            "evidence": [
+              "abstract"
+            ],
+            "feature": "metadata_abstract"
+          },
+          {
+            "contribution": 0.03,
+            "evidence": [
+              "10.1038/s41377-026-02314-5"
+            ],
+            "feature": "metadata_doi"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "https://openalex.org/W7169589779"
+            ],
+            "feature": "metadata_openalex_id"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "2026",
+              "Light Science & Applications"
+            ],
+            "feature": "metadata_venue_and_year"
+          },
+          {
+            "contribution": 0.05,
+            "evidence": [
+              "18_days"
+            ],
+            "feature": "freshness"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "google_scholar_email"
+            ],
+            "feature": "primary_source_bonus"
+          }
+        ],
+        "source_type": "google_scholar_email",
+        "title": "All-optical computing towards 100-GHz clock rates",
+        "venue": "Light Science & Applications",
+        "year": 2026
+      },
+      "summary": {
+        "candidate_id": "766ea277f76b9bc9cd30be5d",
+        "core_problem": "Conventional electronic processors have stagnated at ~5 GHz clock rates for nearly two decades, limiting real-time processing and control of ultrafast information systems.",
+        "distinction_from_prior_work": "Breaks the ~5 GHz clock rate barrier of conventional electronic processors by using an all-optical recurrent neural network that performs computing entirely in the optical domain, unlike prior approaches limited by electronic bottlenecks.",
+        "limitations_and_open_questions": [
+          "Performance and accuracy only demonstrated up to 80 GHz; generalization to higher rates and other tasks not shown.",
+          "Scalability and practical implementation challenges of all-optical systems not addressed.",
+          "Comparison to state-of-the-art electronic or hybrid approaches not provided.",
+          "Long-term stability and robustness of all-optical memory and nonlinear functions not discussed.",
+          "Energy efficiency and footprint relative to electronic alternatives not analyzed."
+        ],
+        "main_contributions": [
+          "Proposes and experimentally demonstrates an all-optical recurrent neural network for computing beyond electronic clock rate limits.",
+          "Achieves accuracy surpassing a purely linear model up to 80 GHz clock rates depending on the task.",
+          "Demonstrates noisy waveform classification and ultrafast in-situ analysis of soliton states from integrated optical microresonators.",
+          "Illustrates application for generative AI using quantum fluctuations to generate images without input optical signals."
+        ],
+        "method_and_architecture": "All-optical recurrent neural network that performs linear operations, nonlinear functions, and memory entirely in the optical domain, leveraging ultrafast optical characteristics while circumventing electronic bottlenecks.",
+        "optical_neural_network_analysis": {
+          "application_tasks": [
+            "noisy waveform classification",
+            "in-situ analysis of soliton states from integrated optical microresonators",
+            "generative AI based on quantum fluctuations for image generation without input signals"
+          ],
+          "architecture_type": "unclear",
+          "calibration_requirements": "not_available",
+          "hardware_validation": "physical_experiment",
+          "optical_nonlinearity": "Uses nonlinear optical operations for recurrent neural network computing; specific mechanisms not detailed.",
+          "training_method": "not_available"
+        },
+        "reported_results": [
+          {
+            "basis": "abstract",
+            "claim": "All-optical computer realizes linear operations, nonlinear functions, and memory entirely in the optical domain with accuracy surpassing a purely linear model up to 80 GHz clock rates depending on the task.",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "Experimentally demonstrated a prototypical task of noisy waveform classification.",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "Performed ultrafast in-situ analysis of the soliton states from integrated optical microresonators.",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "Illustrated the application of the architecture for generative artificial intelligence based on quantum fluctuations to generate images even in the absence of input optical signals.",
+            "reported_by_authors": true
+          }
+        ],
+        "research_value": "Highlights the potential of all-optical computing to surpass digital electronics by utilizing ultrafast linear, nonlinear, and memory functions and quantum fluctuations, enabling applications requiring real-time processing of ultrafast information systems.",
+        "schema_version": 1,
+        "summary_version": 1,
+        "verification": {
+          "information_basis": "title_metadata_and_abstract_only",
+          "missing_information": [
+            "Detailed architecture and training method for the all-optical RNN.",
+            "Specific metrics and numerical results beyond clock rate and accuracy claim.",
+            "Details on optical nonlinearity realization and calibration.",
+            "Quantitative comparison with other computing paradigms."
+          ],
+          "unsupported_numbers_detected": false
+        },
+        "zeroth_order_analysis": null
+      },
+      "summary_sha256": "cfa491fd30c24ef1875b3db5bacb128b6542684ca4325f262345078597ee8ac3"
+    }
+  ],
+  "provider": "deepseek",
+  "review_version": 1,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "status": "pending_human_review"
+}

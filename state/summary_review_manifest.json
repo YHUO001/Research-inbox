@@ -1,0 +1,14 @@
+{
+  "architecture_repairs": 1,
+  "digest_date": "2026-08-04",
+  "email_enabled": false,
+  "model": "deepseek-v4-pro",
+  "paper_count": 3,
+  "review_json_file": "data/reviews/2026-08-04.review.json",
+  "review_json_sha256": "732c62dcf190aa2db13dfae3a210febd0be4335d79ddeb8c73764bb930670046",
+  "review_markdown_file": "data/reviews/2026-08-04.review.md",
+  "review_version": 1,
+  "schema_version": 1,
+  "status": "pending_human_review",
+  "summary_history_updated": false
+}
