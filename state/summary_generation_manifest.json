@@ -1,0 +1,22 @@
+{
+  "actual_summary_count": 0,
+  "built_at": "2026-08-04T11:27:51.896684Z",
+  "digest_date": "2026-08-04",
+  "digest_json_file": "runtime-state/data/digests/2026-08-04.preview.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-08-04.preview.md",
+  "email_enabled": false,
+  "full_text_used": false,
+  "llm_enabled": false,
+  "provider": "not_configured",
+  "queue_candidate_count": 5,
+  "queue_sha256": "f92a19a49dde25f3e3718c992820adba9ba5b7f6b1e400026e06588158a796eb",
+  "request_count": 3,
+  "request_file": "runtime-state/data/summary_requests/2026-08-04.jsonl",
+  "request_sha256": "911cb7eff9a31f26492be8957bcb3f942cf345dc164a633ac9ac3066649ed6f6",
+  "schema_version": 1,
+  "selection_manifest_sha256": "9c4a089b423d83355cbf0c603467709ebb6e7b0316638db53a0ba7ee3b8d6725",
+  "status": "dry_run_completed",
+  "summary_generation_version": 1,
+  "summary_history_updated": false,
+  "summary_slot_count": 3
+}
