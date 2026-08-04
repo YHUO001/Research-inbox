@@ -224,6 +224,64 @@
       "retrieved_at": "2026-08-04T09:38:42.073462Z",
       "status": "found"
     },
+    "crossref:doi:10.1038/s41427-026-00671-6": {
+      "expires_at": "2026-09-03T11:27:51.172062Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Panagiotis Bousoulas",
+            "orcid": "https://orcid.org/0000-0002-5395-0777"
+          },
+          {
+            "name": "Spyros Orfanoudakis",
+            "orcid": null
+          },
+          {
+            "name": "Charalampos Tsioustas",
+            "orcid": null
+          },
+          {
+            "name": "Chrysi Panagopoulou",
+            "orcid": null
+          },
+          {
+            "name": "Danai Spathi",
+            "orcid": null
+          },
+          {
+            "name": "Leonidas Tsetseris",
+            "orcid": null
+          },
+          {
+            "name": "Athanassios G. Kontos",
+            "orcid": null
+          },
+          {
+            "name": "Thomas Stergiopoulos",
+            "orcid": null
+          },
+          {
+            "name": "Dimitris Tsoukalas",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41427-026-00671-6",
+        "landing_page": "https://doi.org/10.1038/s41427-026-00671-6",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41427-026-00671-6",
+        "publication_date": "2026-08-01",
+        "title": "Emerging light-driven neuromorphic hardware for artificial intelligence",
+        "venue": "NPG Asia Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-04T11:27:51.172062Z",
+      "status": "found"
+    },
     "crossref:doi:10.1117/1.oe.65.7.073102": {
       "expires_at": "2026-09-03T09:38:17.735069Z",
       "record": {
@@ -1456,6 +1514,64 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:55.005571Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41427-026-00671-6": {
+      "expires_at": "2026-09-03T11:27:51.542591Z",
+      "record": {
+        "abstract": "Optoelectronic neuromorphic systems have emerged as a promising hardware paradigm for next-generation artificial intelligence, combining the high bandwidth, parallelism, and wavelength selectivity of photonics with the adaptive plasticity of electronic materials. This mini-review provides a focused and critical overview of recent advances in material platforms, device architectures, and system-level implementations enabling light-driven neuromorphic computation. We comparatively analyze key photoresponsive materials—including halide perovskites, low-dimensional semiconductors, phase-change and oxide systems, and organic–inorganic hybrids—highlighting their underlying physical mechanisms such as photocarrier generation, charge trapping, ion migration, and excitonic effects. Particular emphasis is placed on device concepts, including optoelectronic synapses, neurons, and crossbar arrays, as well as their integration into in-sensor and hybrid photonic–electronic architectures for machine vision and real-time perception. A benchmarking analysis is presented to evaluate trade-offs in speed, energy consumption, retention, scalability, and stability across different material systems. Finally, we discuss key technological bottlenecks—including device variability, lack of standardized metrics, and integration challenges—and outline future research directions toward scalable, energy-efficient, and application-specific optoelectronic neuromorphic processors. Optoelectronic neuromorphic systems have rapidly advanced, merging photonics’ speed with electronics’ adaptability to emulate neural functions. This mini-review highlights recent progress in these systems, focusing on material platforms, device physics, and system architectures for AI applications. Researchers have developed optoelectronic synapses using materials like halide perovskites and two-dimensional semiconductors, each offering unique benefits such as spectral tunability and high responsivity. These materials enable devices to perform complex tasks like vision processing directly within hardware, reducing the need for extensive electronic processing. Significant findings include the development of perovskite-based systems that balance speed and energy efficiency, though challenges in stability and scalability remain. The review suggests that future advancements will require coordinated efforts in materials science and device engineering to overcome these challenges, paving the way for next-generation intelligent computing platforms.\"This summary was initially drafted using artificial intelligence, then revised and fact-checked by the author.\" Optoelectronic neuromorphic systems integrate light-responsive materials with adaptive electronic functionalities to enable energy-efficient artificial intelligence. Diverse material platforms—including two-dimensional semiconductors, halide perovskites, oxide memristors, and hybrid architectures—exploit mechanisms such as photocarrier generation, charge trapping, ion migration, excitonic effects, and interfacial modulation to emulate synaptic plasticity and neuronal spiking. By combining sensing, memory, and computation within unified hardware, these devices enable in-sensor vision processing, real-time perception, and low-power neuromorphic computing, providing a promising route toward scalable next-generation intelligent optoelectronic systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Panagiotis Bousoulas",
+            "orcid": "https://orcid.org/0000-0002-5395-0777"
+          },
+          {
+            "name": "Spyros Orfanoudakis",
+            "orcid": null
+          },
+          {
+            "name": "Charalampos Tsioustas",
+            "orcid": null
+          },
+          {
+            "name": "Chrysi Panagopoulou",
+            "orcid": null
+          },
+          {
+            "name": "Danai Spathi",
+            "orcid": null
+          },
+          {
+            "name": "Leonidas Tsetseris",
+            "orcid": "https://orcid.org/0000-0002-0330-0813"
+          },
+          {
+            "name": "Athanassios G. Kontos",
+            "orcid": null
+          },
+          {
+            "name": "Thomas Stergiopoulos",
+            "orcid": null
+          },
+          {
+            "name": "Dimitris Tsoukalas",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41427-026-00671-6",
+        "landing_page": "https://doi.org/10.1038/s41427-026-00671-6",
+        "open_access_url": "https://doi.org/10.1038/s41427-026-00671-6",
+        "openalex_id": "https://openalex.org/W7172138543",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7172138543",
+        "publication_date": "2026-08-01",
+        "title": "Emerging light-driven neuromorphic hardware for artificial intelligence",
+        "venue": "NPG Asia Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-04T11:27:51.542591Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s41467-026-76128-9": {
