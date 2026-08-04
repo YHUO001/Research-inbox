@@ -21,6 +21,10 @@ limits:
   maximum_accepted_candidates_per_run: 40
   maximum_abstract_characters: 2500
 
+observability:
+  maximum_filtered_samples: 20
+  persist_raw_provider_responses: false
+
 policy:
   deterministic_project_filter: true
   use_venue_list_for_discovery_queries: false
