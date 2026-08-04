@@ -80,20 +80,17 @@ def domain_instructions(projects: list[str]) -> list[str]:
     instructions: list[str] = []
     if "optical-neural-networks" in projects:
         instructions.append(
-            "For optical neural networks, identify free-space, integrated, or hybrid "
-            "architecture; training method; optical nonlinearity; calibration needs; "
-            "application tasks; and whether physical hardware was demonstrated."
+            "对于光学神经网络，说明计算架构、信号在系统中的传播与变换过程、训练方式、"
+            "光学或电子非线性、校准需求、应用任务以及是否进行了真实硬件验证。"
         )
     if "zeroth-order-optimization" in projects:
         instructions.append(
-            "For zeroth-order optimization, distinguish total query complexity from "
-            "per-step query count and report query reuse, low-rank or subspace methods, "
-            "structured perturbations, and forward-only execution when available."
+            "对于零阶优化，区分总查询复杂度与每步查询数，并说明查询复用、低秩或子空间方法、"
+            "结构化扰动、仅前向执行以及算法每一步如何获得和使用函数值。"
         )
     if not instructions:
         instructions.append(
-            "Describe the method, evidence, limitations, and research relevance using "
-            "only the supplied title, metadata, and abstract."
+            "说明论文解决的问题、方法原理、实际实施流程、证据边界、局限性和研究价值。"
         )
     return instructions
 
@@ -108,6 +105,7 @@ def build_prompt(candidate: dict[str, Any], instructions: list[str]) -> str:
             "year",
             "doi",
             "landing_page",
+            "open_access_url",
             "abstract",
             "matched_projects",
             "score",
@@ -116,13 +114,17 @@ def build_prompt(candidate: dict[str, Any], instructions: list[str]) -> str:
     }
     instruction_text = "\n".join(f"- {item}" for item in instructions)
     return (
-        "Return one JSON object matching the supplied paper-summary schema.\n"
-        "Use only the supplied metadata and abstract. Do not infer missing experiments, "
-        "numbers, comparisons, or causal claims. Mark unavailable information explicitly. "
-        "Every numerical result must already appear in the supplied source text. "
-        "Treat experimental claims as reported by the authors, not independently verified.\n"
-        f"Project-specific checks:\n{instruction_text}\n"
-        f"Source record:\n{json.dumps(source, ensure_ascii=False, sort_keys=True)}"
+        "请返回一个严格符合 paper-summary JSON Schema 的 JSON 对象。\n"
+        "所有面向读者的自然语言内容必须使用简体中文；论文标题、模型名称、标准缩写和必要的英文术语可以保留。\n"
+        "当前基础证据为标题、元数据和摘要。执行阶段可能追加公开正文中的方法相关上下文。\n"
+        "方法说明是核心：method_principle 必须把方法为什么有效、各组成部分如何配合讲清楚；"
+        "method_implementation 必须使用 2 至 6 个完整段落，按照实际流程说明系统如何搭建、数据或光信号如何处理、"
+        "训练或参数配置如何进行，以及输出如何得到。不要只罗列名词。\n"
+        "只能使用提供的证据，不得补写缺失的实验、比较、因果关系或实现细节。无法确认时明确写“未提供”。\n"
+        "所有数字仍必须出现在标题或摘要中；即使正文上下文包含额外数字，也不要把这些数字写入摘要。\n"
+        "实验结论必须表述为作者报告的结果，而不是独立验证结论。\n"
+        f"项目专项检查：\n{instruction_text}\n"
+        f"来源记录：\n{json.dumps(source, ensure_ascii=False, sort_keys=True)}"
     )
 
 
@@ -196,16 +198,16 @@ def validate_numeric_grounding(
 
 def render_digest_markdown(digest: dict[str, Any]) -> str:
     lines = [
-        f"# Research Inbox Preview — {digest['digest_date']}",
+        f"# Research Inbox 预览 — {digest['digest_date']}",
         "",
-        "> Dry run only. No model was called and no email was sent.",
+        "> 仅准备请求：尚未调用模型，也没有发送邮件。",
         "",
-        "## Must read",
+        "## 本次摘要候选",
         "",
     ]
     must_read = digest["sections"]["must_read"]
     if not must_read:
-        lines.append("No summary-slot candidates.")
+        lines.append("没有进入摘要名额的候选论文。")
     for index, item in enumerate(must_read, start=1):
         venue_year = ", ".join(
             str(value) for value in (item.get("venue"), item.get("year")) if value
@@ -214,28 +216,29 @@ def render_digest_markdown(digest: dict[str, Any]) -> str:
             [
                 f"### {index}. {item['title']}",
                 "",
-                f"- Status: `{item['status']}`",
-                f"- Score: {item['score']:.2f}",
-                f"- Venue: {venue_year or 'not available'}",
-                f"- Source: {item['source_type']}",
-                f"- Link: {item.get('landing_page') or 'not available'}",
+                f"- 状态：`{item['status']}`",
+                f"- 分数：{item['score']:.2f}",
+                f"- 期刊/年份：{venue_year or '未提供'}",
+                f"- 来源：{item['source_type']}",
+                f"- 链接：{item.get('landing_page') or '未提供'}",
                 "",
             ]
         )
-    lines.extend(["## Next candidates", ""])
+    lines.extend(["## 后续候选", ""])
     next_items = digest["sections"]["next_candidates"]
     if not next_items:
-        lines.append("No additional budgeted candidates.")
+        lines.append("没有其他预算内候选。")
     for item in next_items:
-        lines.append(f"- {item['title']} — score {item['score']:.2f}")
+        lines.append(f"- {item['title']} — 分数 {item['score']:.2f}")
     lines.extend(
         [
             "",
-            "## Safety state",
+            "## 安全状态",
             "",
-            "- LLM generation: disabled",
-            "- Email delivery: disabled",
-            "- Summary history updated: no",
+            "- 模型生成：未启用自动调用",
+            "- 邮件发送：关闭",
+            "- 摘要历史：未更新",
+            "- 正文：仅在后续手动生成阶段尝试公开来源",
             "",
         ]
     )
@@ -313,12 +316,9 @@ def prepare_dry_run(
         "summary_count": 0,
         "pending_summary_count": len(summary_slots),
         "sections": {
-            "must_read": [
-                digest_item(item, "pending_model_summary") for item in summary_slots
-            ],
+            "must_read": [digest_item(item, "pending_model_summary") for item in summary_slots],
             "next_candidates": [
-                digest_item(item, "budgeted_not_in_summary_slot")
-                for item in next_candidates
+                digest_item(item, "budgeted_not_in_summary_slot") for item in next_candidates
             ],
         },
         "safety": {
@@ -351,6 +351,7 @@ def prepare_dry_run(
         "email_enabled": False,
         "summary_history_updated": False,
         "full_text_used": False,
+        "output_language": str((config.get("output") or {}).get("language") or "zh-CN"),
         "queue_sha256": file_digest(queue_path),
         "selection_manifest_sha256": file_digest(selection_manifest_path),
         "request_file": str(request_path),
