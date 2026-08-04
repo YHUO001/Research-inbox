@@ -1,0 +1,86 @@
+name: Score Research Candidates
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-research-inbox-state-writer
+  cancel-in-progress: false
+
+jobs:
+  audit-and-score:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out pipeline code
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install project
+        run: |
+          python -m pip install --upgrade pip
+          pip install .
+
+      - name: Check out automation state
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          ref: automation-state
+          path: runtime-state
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+
+      - name: Audit OpenAlex deterministic filtering
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: |
+          python -m scripts.discovery.audit_openalex_filters \
+            --config config/openalex_discovery.yaml \
+            --state-path runtime-state/state/openalex_discovery_state.json \
+            --output-path runtime-state/state/openalex_filter_audit.json \
+            --recognition config/recognition_rules.yaml \
+            --venues config/venues.yaml
+
+      - name: Build deterministic scores and budgeted queue
+        run: |
+          python -m scripts.pipeline.score_registry \
+            --registry-path runtime-state/data/paper_registry.jsonl \
+            --enriched-path runtime-state/data/enriched_paper_registry.jsonl \
+            --recognition-path runtime-state/data/recognition_results.jsonl \
+            --history-path runtime-state/state/summary_history.json \
+            --scoring-path runtime-state/data/scoring_results.jsonl \
+            --queue-path runtime-state/data/queues/llm_candidate_queue.jsonl \
+            --manifest-path runtime-state/state/selection_manifest.json \
+            --config config/scoring.yaml \
+            --scoring-schema schemas/scoring_result.schema.json \
+            --queue-schema schemas/llm_candidate.schema.json
+
+      - name: Persist audit and scoring state
+        shell: bash
+        run: |
+          cd runtime-state
+          git config user.name "research-inbox-bot"
+          git config user.email "research-inbox-bot@users.noreply.github.com"
+          git add \
+            state/openalex_filter_audit.json \
+            state/selection_manifest.json \
+            state/summary_history.json \
+            data/scoring_results.jsonl \
+            data/queues/llm_candidate_queue.jsonl
+          if git diff --cached --quiet; then
+            echo "No audit or scoring changes to persist."
+            exit 0
+          fi
+          git commit -m "Audit and score research candidates [skip ci]"
+          git pull --rebase origin automation-state
+          git push origin HEAD:automation-state
