@@ -4,7 +4,7 @@ The retrieval, parsing, recognition, routing, enrichment, and scoring stages rem
 
 ## Provider policy
 
-- Model: `deepseek-v4-flash`
+- Model: `deepseek-v4-pro`
 - API endpoint: `https://api.deepseek.com/chat/completions`
 - Thinking mode: disabled
 - Response format: JSON object
@@ -14,6 +14,8 @@ The retrieval, parsing, recognition, routing, enrichment, and scoring stages rem
 - Email delivery: disabled
 - Summary history update: disabled during provider validation
 - Scheduled model calls: disabled
+
+The production summary model is Pro because the repository benchmark showed materially better schema and technical-detail adherence than Flash at the current three-paper daily budget. The benchmark workflow retains both models for future comparisons; changing the production model does not make retrieval, recognition, routing, enrichment, or scoring dependent on an LLM.
 
 DeepSeek JSON mode guarantees parseable JSON, not conformance to the repository JSON Schema. Every response is therefore checked locally against `schemas/paper_summary.schema.json` and rejected when it contains unsupported numerical claims.
 
@@ -41,4 +43,4 @@ The workflow persists validation diagnostics before reporting a failure. It does
 
 ## Cost accounting
 
-The manifest records returned token usage and estimates cost in CNY using the prices declared in `config/summary_generation.yaml`. The estimate is auditable but the DeepSeek account billing page remains the billing source of truth.
+The manifest records returned token usage and estimates cost in CNY using the Pro prices declared in `config/summary_generation.yaml`. The estimate is auditable but the DeepSeek account billing page remains the billing source of truth.
