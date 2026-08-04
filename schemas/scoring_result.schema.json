@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/YHUO001/Research-inbox/schemas/scoring_result.schema.json",
+  "title": "Deterministic Research Candidate Score",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "candidate_id",
+    "scoring_version",
+    "route",
+    "mandatory",
+    "score",
+    "score_without_mandatory_override",
+    "decision",
+    "breakdown",
+    "matched_projects",
+    "metadata",
+    "selection_eligible",
+    "scored_at"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "candidate_id": {"type": "string", "minLength": 8},
+    "scoring_version": {"type": "integer", "minimum": 1},
+    "route": {
+      "type": "string",
+      "enum": ["mandatory_summary_queue", "standard_scoring_queue"]
+    },
+    "mandatory": {"type": "boolean"},
+    "score": {"type": "number", "minimum": 0, "maximum": 1},
+    "score_without_mandatory_override": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "mandatory",
+        "urgent",
+        "summarize",
+        "retain_without_summary",
+        "archive"
+      ]
+    },
+    "breakdown": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["feature", "contribution", "evidence"],
+        "properties": {
+          "feature": {"type": "string", "minLength": 1},
+          "contribution": {"type": "number", "minimum": -1, "maximum": 1},
+          "evidence": {
+            "type": "array",
+            "items": {"type": "string"},
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "matched_projects": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["optical-neural-networks", "zeroth-order-optimization"]
+      },
+      "uniqueItems": true
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "source_type",
+        "publication_date",
+        "year",
+        "venue",
+        "doi",
+        "openalex_id",
+        "abstract_available"
+      ],
+      "properties": {
+        "title": {"type": "string", "minLength": 1},
+        "source_type": {
+          "type": "string",
+          "enum": ["google_scholar_email", "openalex", "unknown"]
+        },
+        "publication_date": {"type": ["string", "null"]},
+        "year": {
+          "type": ["integer", "null"],
+          "minimum": 1900,
+          "maximum": 2100
+        },
+        "venue": {"type": ["string", "null"]},
+        "doi": {"type": ["string", "null"]},
+        "openalex_id": {"type": ["string", "null"]},
+        "abstract_available": {"type": "boolean"}
+      }
+    },
+    "selection_eligible": {"type": "boolean"},
+    "scored_at": {"type": "string", "format": "date-time"}
+  }
+}
