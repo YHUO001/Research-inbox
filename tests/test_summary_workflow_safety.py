@@ -26,12 +26,16 @@ def test_deepseek_generation_builds_review_packet_but_cannot_finalize() -> None:
     text = workflow("generate-deepseek-summaries.yml")
     assert "workflow_dispatch:" in text
     assert "schedule:" not in text
+    assert "timeout-minutes: 30" in text
     assert "DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}" in text
     assert "OPENAI_API_KEY" not in text
     assert "GMAIL_CLIENT_SECRET" not in text
     assert "gmail_sender" not in text
     assert "summary_history.json" not in text
-    assert "scripts.summarize.generate_summaries_production" in text
+    assert "Prepare open full-text method context" in text
+    assert "scripts.summarize.staged_summary_pipeline prepare" in text
+    assert "scripts.summarize.staged_summary_pipeline generate" in text
+    assert "scripts.summarize.generate_summaries_production" not in text
     assert "scripts.summarize.build_review_packet" in text
     assert "data/reviews" in text
     assert "state/summary_review_manifest.json" in text
