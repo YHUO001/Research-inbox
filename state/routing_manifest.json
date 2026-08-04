@@ -13,5 +13,8 @@
     "standard_scoring_queue": 21
   },
   "schema_version": 1,
+  "source_counts": {
+    "google_scholar_email": 29
+  },
   "source_registry_sha256": "a3087778ebe9f361701cccc8861dcd738d330f4b84f88d5c3fbaba2e23b573c9"
 }
