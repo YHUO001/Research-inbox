@@ -169,12 +169,36 @@ def build_summary_request(
 
 
 _NUMERIC_TOKEN = re.compile(
-    r"(?<![A-Za-z0-9])(?:~|≈|±)?\s*\d+(?:\.\d+)?(?:\s*%|\s*[A-Za-z]+(?:/[A-Za-z0-9²^]+)?)?"
+    r"(?<![A-Za-z0-9])(?:~|≈|∼|±)?\s*\d+(?:\.\d+)?"
+    r"(?:\s*%|\s*[-‐‑‒–—]?\s*[A-Za-zµμ]+(?:\s*/\s*[A-Za-z0-9µμ²³^]+)?)?"
 )
+_NUMERIC_PARTS = re.compile(r"^(?P<number>\d+(?:\.\d+)?)(?P<unit>.*)$")
+_UNIT_ALIASES = {
+    "pixels": "pixel",
+    "pixel": "pixel",
+    "µm": "um",
+    "μm": "um",
+    "mm²": "mm2",
+    "mm^2": "mm2",
+    "mm³": "mm3",
+    "mm^3": "mm3",
+}
 
 
 def normalize_numeric_token(value: str) -> str:
-    return re.sub(r"\s+", "", value.lower()).replace("≈", "~")
+    normalized = value.lower()
+    for marker in ("≈", "∼", "~", "±"):
+        normalized = normalized.replace(marker, "")
+    normalized = re.sub(r"\s+", "", normalized)
+    normalized = re.sub(r"(?<=\d)[-‐‑‒–—](?=[a-zµμ])", "", normalized)
+    normalized = normalized.replace("²", "2").replace("³", "3")
+    normalized = normalized.replace("^2", "2").replace("^3", "3")
+    match = _NUMERIC_PARTS.fullmatch(normalized)
+    if not match:
+        return normalized
+    number = match.group("number")
+    unit = _UNIT_ALIASES.get(match.group("unit"), match.group("unit"))
+    return f"{number}{unit}"
 
 
 def numeric_tokens(value: str) -> set[str]:
@@ -184,6 +208,11 @@ def numeric_tokens(value: str) -> set[str]:
     }
 
 
+def numeric_scalar(token: str) -> str | None:
+    match = _NUMERIC_PARTS.fullmatch(token)
+    return match.group("number") if match else None
+
+
 def validate_numeric_grounding(
     summary_record: dict[str, Any],
     *,
@@ -191,9 +220,23 @@ def validate_numeric_grounding(
     abstract: str | None,
 ) -> list[str]:
     source_tokens = numeric_tokens(f"{title}\n{abstract or ''}")
+    source_scalars = {
+        scalar
+        for token in source_tokens
+        if (scalar := numeric_scalar(token)) is not None
+    }
     summary_text = stable_json(summary_record)
     summary_tokens = numeric_tokens(summary_text)
-    return sorted(token for token in summary_tokens if token not in source_tokens)
+    unsupported: list[str] = []
+    for token in summary_tokens:
+        if token in source_tokens:
+            continue
+        scalar = numeric_scalar(token)
+        unit = token[len(scalar) :] if scalar is not None else token
+        if scalar in source_scalars and not unit:
+            continue
+        unsupported.append(token)
+    return sorted(unsupported)
 
 
 def render_digest_markdown(digest: dict[str, Any]) -> str:
