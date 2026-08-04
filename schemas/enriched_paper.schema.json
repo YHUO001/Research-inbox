@@ -1,0 +1,306 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/YHUO001/Research-inbox/schemas/enriched_paper.schema.json",
+  "title": "Enriched paper metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "candidate_id",
+    "source_content_fingerprint",
+    "match",
+    "fields",
+    "authors",
+    "provider_attempts",
+    "enriched_at"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "candidate_id": {
+      "type": "string",
+      "minLength": 8
+    },
+    "source_content_fingerprint": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "match": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "providers",
+        "methods"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "exact",
+            "high",
+            "unresolved"
+          ]
+        },
+        "providers": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "crossref",
+              "openalex"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "methods": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "doi",
+              "title_year_author"
+            ]
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "fields": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "doi",
+        "openalex_id",
+        "arxiv_id",
+        "venue",
+        "publication_date",
+        "year",
+        "abstract",
+        "landing_page",
+        "open_access_url",
+        "cited_by_count"
+      ],
+      "properties": {
+        "title": {
+          "$ref": "#/$defs/stringEvidence"
+        },
+        "doi": {
+          "$ref": "#/$defs/stringEvidence"
+        },
+        "openalex_id": {
+          "$ref": "#/$defs/stringEvidence"
+        },
+        "arxiv_id": {
+          "$ref": "#/$defs/stringEvidence"
+        },
+        "venue": {
+          "$ref": "#/$defs/stringEvidence"
+        },
+        "publication_date": {
+          "$ref": "#/$defs/stringEvidence"
+        },
+        "year": {
+          "$ref": "#/$defs/integerEvidence"
+        },
+        "abstract": {
+          "$ref": "#/$defs/stringEvidence"
+        },
+        "landing_page": {
+          "$ref": "#/$defs/stringEvidence"
+        },
+        "open_access_url": {
+          "$ref": "#/$defs/stringEvidence"
+        },
+        "cited_by_count": {
+          "$ref": "#/$defs/integerEvidence"
+        }
+      }
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "orcid",
+          "source",
+          "confidence",
+          "retrieved_at"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "orcid": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source": {
+            "$ref": "#/$defs/source"
+          },
+          "confidence": {
+            "$ref": "#/$defs/confidence"
+          },
+          "retrieved_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "provider_attempts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "provider",
+          "method",
+          "status",
+          "confidence",
+          "cache_hit",
+          "retrieved_at",
+          "reason"
+        ],
+        "properties": {
+          "provider": {
+            "enum": [
+              "crossref",
+              "openalex"
+            ]
+          },
+          "method": {
+            "enum": [
+              "doi",
+              "title_year_author"
+            ]
+          },
+          "status": {
+            "enum": [
+              "found",
+              "not_found",
+              "error",
+              "skipped"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "exact",
+              "high",
+              "unresolved"
+            ]
+          },
+          "cache_hit": {
+            "type": "boolean"
+          },
+          "retrieved_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "enriched_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "$defs": {
+    "source": {
+      "enum": [
+        "scholar_email",
+        "crossref",
+        "openalex",
+        "unavailable"
+      ]
+    },
+    "confidence": {
+      "enum": [
+        "exact",
+        "high",
+        "raw",
+        "unresolved"
+      ]
+    },
+    "stringEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "source",
+        "confidence",
+        "retrieved_at"
+      ],
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        },
+        "confidence": {
+          "$ref": "#/$defs/confidence"
+        },
+        "retrieved_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      }
+    },
+    "integerEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "source",
+        "confidence",
+        "retrieved_at"
+      ],
+      "properties": {
+        "value": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        },
+        "confidence": {
+          "$ref": "#/$defs/confidence"
+        },
+        "retrieved_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}

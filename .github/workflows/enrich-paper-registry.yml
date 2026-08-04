@@ -1,4 +1,4 @@
-name: Rebuild Research Routes
+name: Enrich Paper Registry
 
 on:
   workflow_dispatch:
@@ -11,9 +11,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  rebuild-routes:
+  enrich-registry:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
 
     steps:
       - name: Check out pipeline code
@@ -40,25 +40,30 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
-      - name: Rebuild deterministic routes
+      - name: Enrich immutable paper registry
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          RESEARCH_INBOX_CONTACT_EMAIL: ${{ vars.RESEARCH_INBOX_CONTACT_EMAIL }}
         run: |
-          python -m scripts.pipeline.route_registry \
+          python -m scripts.enrich.enrich_registry \
             --registry-path runtime-state/data/paper_registry.jsonl \
-            --recognition-path runtime-state/data/recognition_results.jsonl \
-            --queue-dir runtime-state/data/queues \
-            --manifest-path runtime-state/state/routing_manifest.json
+            --output-path runtime-state/data/enriched_paper_registry.jsonl \
+            --manifest-path runtime-state/state/enrichment_manifest.json \
+            --cache-path runtime-state/state/enrichment_cache.json \
+            --config config/metadata_enrichment.yaml \
+            --schema schemas/enriched_paper.schema.json
 
-      - name: Persist routing state
+      - name: Persist normalized enrichment state
         shell: bash
         run: |
           cd runtime-state
           git config user.name "research-inbox-bot"
           git config user.email "research-inbox-bot@users.noreply.github.com"
-          git add state data
+          git add data/enriched_paper_registry.jsonl state/enrichment_manifest.json state/enrichment_cache.json
           if git diff --cached --quiet; then
-            echo "No routing changes to persist."
+            echo "No enrichment changes to persist."
             exit 0
           fi
-          git commit -m "Rebuild deterministic research routes [skip ci]"
+          git commit -m "Enrich paper registry metadata [skip ci]"
           git pull --rebase origin automation-state
           git push origin HEAD:automation-state
