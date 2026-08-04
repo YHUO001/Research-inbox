@@ -42,7 +42,7 @@ def valid_summary(candidate_id: str) -> dict:
         "candidate_id": candidate_id,
         "output_language": "zh-CN",
         "core_problem": "这项工作关注如何在真实光学硬件上完成神经计算，并确认计算链路能够被实验验证。",
-        "method_and_architecture": "摘要描述了一个由光学处理模块和结果读出模块构成的硬件计算系统。",
+        "method_and_architecture": "摘要描述了一个由输入编码、并行光学处理、输出探测和电子结果读出模块共同组成的完整硬件计算系统。",
         "method_principle": (
             "该方法把输入信息编码到光场中，并借助光学传播、干涉或器件响应完成神经网络需要的线性组合。"
             "由于多个光学通道可以同时传播，系统能够并行处理输入的不同分量。"
