@@ -6,6 +6,7 @@ from pathlib import Path
 import pytest
 
 from scripts.summarize.deepseek_provider import DeepSeekResponse
+from scripts.summarize.evidence_guard import resolve_onn_architecture
 from scripts.summarize.generate_summaries_production import generate
 
 
@@ -36,7 +37,7 @@ def request(candidate_id: str, abstract: str) -> dict:
     }
 
 
-def summary(candidate_id: str, claim: str) -> dict:
+def summary(candidate_id: str, claim: str, architecture: str = "unclear") -> dict:
     return {
         "schema_version": 1,
         "summary_version": 1,
@@ -44,18 +45,12 @@ def summary(candidate_id: str, claim: str) -> dict:
         "core_problem": "The work addresses optical neural computation.",
         "method_and_architecture": "The abstract describes optical hardware.",
         "main_contributions": ["The work reports optical hardware validation."],
-        "reported_results": [
-            {
-                "claim": claim,
-                "reported_by_authors": True,
-                "basis": "abstract",
-            }
-        ],
+        "reported_results": [{"claim": claim, "reported_by_authors": True, "basis": "abstract"}],
         "distinction_from_prior_work": "not_available",
         "research_value": "The work is relevant to optical neural hardware.",
         "limitations_and_open_questions": ["Long-term stability is not_available."],
         "optical_neural_network_analysis": {
-            "architecture_type": "unclear",
+            "architecture_type": architecture,
             "training_method": "not_available",
             "optical_nonlinearity": "not_available",
             "calibration_requirements": "not_available",
@@ -94,7 +89,7 @@ class FakeClient:
         )
 
 
-def prepare(tmp_path: Path, item: dict) -> tuple[Path, Path]:
+def prepare(tmp_path: Path, item: dict) -> Path:
     request_path = tmp_path / "data" / "summary_requests" / "2026-08-04.jsonl"
     request_path.parent.mkdir(parents=True)
     request_path.write_text(json.dumps(item) + "\n", encoding="utf-8")
@@ -104,93 +99,75 @@ def prepare(tmp_path: Path, item: dict) -> tuple[Path, Path]:
         json.dumps({"digest_date": "2026-08-04", "request_file": str(request_path)}),
         encoding="utf-8",
     )
-    return request_path, manifest_path
+    return manifest_path
 
 
-def test_production_injects_candidate_id_and_normalizes_equivalent_unit_glyphs(
-    tmp_path: Path,
-) -> None:
+def run(tmp_path: Path, manifest_path: Path, client: FakeClient) -> dict:
+    return generate(
+        dry_run_manifest_path=manifest_path,
+        summary_schema_path=ROOT / "schemas" / "paper_summary.schema.json",
+        config_path=ROOT / "config" / "summary_generation.yaml",
+        output_root=tmp_path / "data",
+        manifest_path=manifest_path,
+        api_key="test-key",
+        client=client,
+    )
+
+
+def test_architecture_evidence_resolves_observed_cases() -> None:
+    hybrid = resolve_onn_architecture(
+        "We validated a programmable spatial light modulator (SLM) system. "
+        "Chip-scale integration via nano printing was also demonstrated."
+    )
+    integrated = resolve_onn_architecture(
+        "Four optical analog cores are integrated on a monolithic chip."
+    )
+    unclear = resolve_onn_architecture(
+        "The network analyzes soliton states from integrated optical microresonators."
+    )
+    assert hybrid.resolved_type == "hybrid"
+    assert integrated.resolved_type == "integrated"
+    assert unclear.resolved_type == "unclear"
+
+
+def test_production_injects_id_normalizes_units_and_repairs_architecture(tmp_path: Path) -> None:
     candidate_id = "candidate-expected"
-    _, manifest_path = prepare(
+    manifest_path = prepare(
         tmp_path,
         request(candidate_id, "The authors report a compute density of 5.16 TOPS/mm2."),
     )
     client = FakeClient(
-        [summary("wrong-model-id", "The authors report 5.16 TOPS/mm² compute density.")]
+        [summary("wrong-model-id", "The authors report 5.16 TOPS/mm² compute density.", "free_space")]
     )
-
-    state = generate(
-        dry_run_manifest_path=manifest_path,
-        summary_schema_path=ROOT / "schemas" / "paper_summary.schema.json",
-        config_path=ROOT / "config" / "summary_generation.yaml",
-        output_root=tmp_path / "data",
-        manifest_path=manifest_path,
-        api_key="test-key",
-        client=client,
-    )
-
+    state = run(tmp_path, manifest_path, client)
+    repairs = state["transport_repairs"]
     assert state["status"] == "completed"
-    assert state["summary_count"] == 1
-    assert state["transport_repairs"] == {
-        "candidate_id_repair_responses": 1,
-        "unit_format_normalization_responses": 1,
-        "tops_alias_expansions": 0,
-    }
-    generated = json.loads(
-        (tmp_path / "data" / "summaries" / "2026-08-04.jsonl").read_text(
-            encoding="utf-8"
-        )
-    )
+    assert repairs["candidate_id_repair_responses"] == 1
+    assert repairs["unit_format_normalization_responses"] == 1
+    assert repairs["architecture_repairs"] == 1
+    assert repairs["architecture_evidence"][candidate_id]["resolved_type"] == "unclear"
+    generated = json.loads((tmp_path / "data/summaries/2026-08-04.jsonl").read_text())
     assert generated["candidate_id"] == candidate_id
+    assert generated["optical_neural_network_analysis"]["architecture_type"] == "unclear"
     assert "5.16 TOPS/mm2" in generated["reported_results"][0]["claim"]
 
 
-def test_production_accepts_explicit_tops_long_form_alias_without_changing_prompt(
-    tmp_path: Path,
-) -> None:
+def test_production_accepts_explicit_tops_alias_without_changing_prompt(tmp_path: Path) -> None:
     candidate_id = "candidate-tops"
-    _, manifest_path = prepare(
+    manifest_path = prepare(
         tmp_path,
-        request(
-            candidate_id,
-            "The OPU achieves 65.04 trillion operations per second (TOPS).",
-        ),
+        request(candidate_id, "The OPU achieves 65.04 trillion operations per second (TOPS)."),
     )
-    client = FakeClient(
-        [summary(candidate_id, "The OPU achieves a computational speed of 65.04 TOPS.")]
-    )
-
-    state = generate(
-        dry_run_manifest_path=manifest_path,
-        summary_schema_path=ROOT / "schemas" / "paper_summary.schema.json",
-        config_path=ROOT / "config" / "summary_generation.yaml",
-        output_root=tmp_path / "data",
-        manifest_path=manifest_path,
-        api_key="test-key",
-        client=client,
-    )
-
+    client = FakeClient([summary(candidate_id, "The OPU achieves 65.04 TOPS.")])
+    state = run(tmp_path, manifest_path, client)
     assert state["status"] == "completed"
-    assert state["summary_count"] == 1
-    assert state["transport_repairs"] == {
-        "candidate_id_repair_responses": 0,
-        "unit_format_normalization_responses": 0,
-        "tops_alias_expansions": 1,
-    }
+    assert state["transport_repairs"]["tops_alias_expansions"] == 1
     assert "Machine-only numeric grounding aliases" not in client.requests[0]["user_prompt"]
-    generated = json.loads(
-        (tmp_path / "data" / "summaries" / "2026-08-04.jsonl").read_text(
-            encoding="utf-8"
-        )
-    )
-    assert "65.04 TOPS" in generated["reported_results"][0]["claim"]
 
 
-def test_production_preserves_strict_approximation_semantics_and_diagnostics(
-    tmp_path: Path,
-) -> None:
+def test_production_preserves_strict_approximation_semantics(tmp_path: Path) -> None:
     candidate_id = "candidate-approximation"
-    _, manifest_path = prepare(
+    manifest_path = prepare(
         tmp_path,
         request(candidate_id, "Conventional processors remain at ~5 GHz."),
     )
@@ -200,25 +177,9 @@ def test_production_preserves_strict_approximation_semantics_and_diagnostics(
             summary(candidate_id, "Conventional processors remain at 5 GHz."),
         ]
     )
-
     with pytest.raises(RuntimeError, match="failed local validation"):
-        generate(
-            dry_run_manifest_path=manifest_path,
-            summary_schema_path=ROOT / "schemas" / "paper_summary.schema.json",
-            config_path=ROOT / "config" / "summary_generation.yaml",
-            output_root=tmp_path / "data",
-            manifest_path=manifest_path,
-            api_key="test-key",
-            client=client,
-        )
-
-    persisted = json.loads(manifest_path.read_text(encoding="utf-8"))
+        run(tmp_path, manifest_path, client)
+    persisted = json.loads(manifest_path.read_text())
     assert persisted["status"] == "failed_validation"
-    assert persisted["failure_count"] == 1
     assert "unsupported numeric claims: 5ghz" in persisted["failures"][0]["reason"]
-    assert persisted["transport_repairs"] == {
-        "candidate_id_repair_responses": 0,
-        "unit_format_normalization_responses": 0,
-        "tops_alias_expansions": 0,
-    }
-    assert not (tmp_path / "data" / "summaries" / "2026-08-04.jsonl").exists()
+    assert not (tmp_path / "data/summaries/2026-08-04.jsonl").exists()

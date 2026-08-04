@@ -5,13 +5,14 @@ import json
 import os
 import re
 import tempfile
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
 import yaml
 
 from scripts.summarize.deepseek_provider import DeepSeekClient, DeepSeekResponse
+from scripts.summarize.evidence_guard import enforce_onn_architecture
 from scripts.summarize.generate_summaries import generate as strict_generate
 from scripts.summarize.prepare_digest import (
     atomic_write,
@@ -34,6 +35,8 @@ class TransportRepairDiagnostics:
     candidate_id_repair_responses: int = 0
     unit_format_normalization_responses: int = 0
     tops_alias_expansions: int = 0
+    architecture_repairs: int = 0
+    architecture_evidence: dict[str, dict[str, Any]] = field(default_factory=dict)
 
 
 def expected_candidate_id(system_prompt: str) -> str:
@@ -48,10 +51,7 @@ def expected_candidate_id(system_prompt: str) -> str:
 
 
 def normalize_unit_format(value: Any) -> tuple[Any, bool]:
-    """Normalize equivalent squared/cubed unit glyphs only.
-
-    Numerical values and approximation markers are deliberately untouched.
-    """
+    """Normalize equivalent squared/cubed unit glyphs only."""
     if isinstance(value, str):
         normalized = value.replace("²", "2").replace("³", "3")
         return normalized, normalized != value
@@ -75,11 +75,7 @@ def normalize_unit_format(value: Any) -> tuple[Any, bool]:
 
 
 def tops_grounding_aliases(abstract: str) -> list[str]:
-    """Return explicit TOPS aliases already defined by the abstract.
-
-    This is deliberately limited to the exact long form "trillion operations per
-    second". It does not infer arbitrary abbreviations or change numerical values.
-    """
+    """Return explicit TOPS aliases already defined by the abstract."""
     aliases: list[str] = []
     seen: set[str] = set()
     for match in _TOPS_LONG_FORM.finditer(abstract or ""):
@@ -92,16 +88,21 @@ def tops_grounding_aliases(abstract: str) -> list[str]:
     return aliases
 
 
+def request_abstracts(dry_run_manifest_path: Path) -> dict[str, str]:
+    manifest = load_json(dry_run_manifest_path, {})
+    request_file = Path(str(manifest.get("request_file") or ""))
+    records = load_jsonl(request_file)
+    return {
+        str(record["candidate_id"]): str((record.get("source") or {}).get("abstract") or "")
+        for record in records
+    }
+
+
 def grounding_manifest_copy(
     dry_run_manifest_path: Path,
     temporary_root: Path,
 ) -> tuple[Path, int]:
-    """Create a temporary request snapshot with machine-only grounding aliases.
-
-    Prompts and persisted request packages remain unchanged. Only the source abstract
-    used by local numeric validation receives explicit aliases for unit notation that
-    the abstract itself defines.
-    """
+    """Create a temporary request snapshot with machine-only grounding aliases."""
     dry_manifest = load_json(dry_run_manifest_path, {})
     if not isinstance(dry_manifest, dict):
         raise ValueError("Summary dry-run manifest must be a JSON object")
@@ -143,11 +144,18 @@ def grounding_manifest_copy(
 
 
 class ProductionNormalizingClient:
-    """Canonicalize application-owned transport data before strict validation."""
+    """Canonicalize transport fields and evidence-bound semantic labels."""
 
-    def __init__(self, *, base_client: Any, diagnostics: TransportRepairDiagnostics) -> None:
+    def __init__(
+        self,
+        *,
+        base_client: Any,
+        diagnostics: TransportRepairDiagnostics,
+        abstracts: dict[str, str],
+    ) -> None:
         self.base_client = base_client
         self.diagnostics = diagnostics
+        self.abstracts = abstracts
 
     def complete_json(self, **kwargs: Any) -> DeepSeekResponse:
         response = self.base_client.complete_json(**kwargs)
@@ -167,6 +175,21 @@ class ProductionNormalizingClient:
         if unit_changed:
             self.diagnostics.unit_format_normalization_responses += 1
 
+        normalized, evidence, changed, previous = enforce_onn_architecture(
+            normalized,
+            abstract=self.abstracts.get(candidate_id),
+        )
+        if changed:
+            self.diagnostics.architecture_repairs += 1
+        evidence_record = evidence.as_dict()
+        evidence_record.update(
+            {
+                "model_value": previous,
+                "repaired": changed,
+            }
+        )
+        self.diagnostics.architecture_evidence[candidate_id] = evidence_record
+
         return DeepSeekResponse(
             content=json.dumps(normalized, ensure_ascii=False, sort_keys=True),
             usage=response.usage,
@@ -174,11 +197,13 @@ class ProductionNormalizingClient:
         )
 
 
-def diagnostic_payload(diagnostics: TransportRepairDiagnostics) -> dict[str, int]:
+def diagnostic_payload(diagnostics: TransportRepairDiagnostics) -> dict[str, Any]:
     return {
         "candidate_id_repair_responses": diagnostics.candidate_id_repair_responses,
         "unit_format_normalization_responses": diagnostics.unit_format_normalization_responses,
         "tops_alias_expansions": diagnostics.tops_alias_expansions,
+        "architecture_repairs": diagnostics.architecture_repairs,
+        "architecture_evidence": diagnostics.architecture_evidence,
     }
 
 
@@ -210,6 +235,7 @@ def generate(
     wrapped_client = ProductionNormalizingClient(
         base_client=base_client,
         diagnostics=diagnostics,
+        abstracts=request_abstracts(dry_run_manifest_path),
     )
 
     try:
@@ -248,7 +274,7 @@ def generate(
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Generate production DeepSeek summaries with transport normalization"
+        description="Generate production DeepSeek summaries with evidence guards"
     )
     parser.add_argument(
         "--dry-run-manifest-path",

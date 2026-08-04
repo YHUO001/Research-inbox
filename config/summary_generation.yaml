@@ -1,4 +1,4 @@
-summary_generation_version: 3
+summary_generation_version: 4
 prompt_version: 1
 
 execution:
@@ -9,6 +9,12 @@ execution:
   email_enabled: false
   update_summary_history: false
   use_full_text: false
+
+review:
+  required: true
+  approval_mode: "manual_all_or_nothing"
+  confirmation_phrase: "REVIEWED"
+  email_after_approval: false
 
 provider:
   name: "deepseek"
@@ -57,11 +63,14 @@ grounding:
   require_reported_by_authors_marker: true
   reject_unsupported_numeric_claims: true
   unavailable_value: "not_available"
+  enforce_onn_architecture_evidence: true
 
 outputs:
   request_directory: "data/summary_requests"
   summary_directory: "data/summaries"
   digest_directory: "data/digests"
+  review_directory: "data/reviews"
   manifest_path: "state/summary_generation_manifest.json"
+  review_manifest_path: "state/summary_review_manifest.json"
   benchmark_directory: "data/benchmarks/deepseek"
   benchmark_manifest_path: "state/deepseek_benchmark_manifest.json"
