@@ -1,7 +1,7 @@
 {
-  "audit_version": 1,
-  "built_at": "2026-08-04T10:52:09.978240Z",
-  "filtered_count": 90,
+  "audit_version": 2,
+  "built_at": "2026-08-04T11:26:32.584402Z",
+  "filtered_count": 86,
   "filtered_samples": [
     {
       "candidate_id": "d4469564ef7952321b4fbcdd",
@@ -11,96 +11,6 @@
       "reason": "no_project_match",
       "title": "Dual Axis Solar Tracking with IoT-Based Load Monitoring System",
       "venue": "SciEn Conference Series Engineering",
-      "year": 2026
-    },
-    {
-      "candidate_id": "ed9e032d43a06edf544d9048",
-      "expected_project_id": "optical-neural-networks",
-      "matched_projects": [],
-      "query_id": "optical-neural-network",
-      "reason": "no_project_match",
-      "title": "Directional Selective Filters for Guiding Spiking Neural Networks in Event-Based Optical Flow Estimation",
-      "venue": "Lecture notes in computer science",
-      "year": 2026
-    },
-    {
-      "candidate_id": "c3b04322e5bbfb379b6ef451",
-      "expected_project_id": "optical-neural-networks",
-      "matched_projects": [],
-      "query_id": "optical-neural-network",
-      "reason": "no_project_match",
-      "title": "Physics-Guided Artificial Intelligence for Raman Spectroscopic Brain Cancer Diagnosis: Multi-Center Clinical Validation and Instrumentation Optimization",
-      "venue": "Razi Medical Journal",
-      "year": 2026
-    },
-    {
-      "candidate_id": "2f5c417d710b30584b60dfd5",
-      "expected_project_id": "optical-neural-networks",
-      "matched_projects": [],
-      "query_id": "optical-neural-network",
-      "reason": "no_project_match",
-      "title": "Visibility-driven compensation model for driver pupillary response in road tunnels: a GWO-XGBoost and SHAP-based interpretable framework",
-      "venue": "Scientific Reports",
-      "year": 2026
-    },
-    {
-      "candidate_id": "f31fb695c8f87ea153c29501",
-      "expected_project_id": "optical-neural-networks",
-      "matched_projects": [],
-      "query_id": "optical-neural-network",
-      "reason": "no_project_match",
-      "title": "Experimental analysis of high-pressure water jet velocity and kinetic energy using a high-speed camera",
-      "venue": "Advances in Science and Technology – Research Journal",
-      "year": 2026
-    },
-    {
-      "candidate_id": "85864d26b32a6f9d248c0be5",
-      "expected_project_id": "optical-neural-networks",
-      "matched_projects": [],
-      "query_id": "optical-neural-network",
-      "reason": "no_project_match",
-      "title": "Design and experimental validation of a real-time feedback control system for precision row seeding",
-      "venue": "Ecological Engineering & Environmental Technology",
-      "year": 2026
-    },
-    {
-      "candidate_id": "3ccb29a36156c0e7b71dd032",
-      "expected_project_id": "optical-neural-networks",
-      "matched_projects": [],
-      "query_id": "optical-neural-network",
-      "reason": "no_project_match",
-      "title": "Artificial intelligence in malignant risk assessment of oral lesions: an umbrella review",
-      "venue": "BMC Cancer",
-      "year": 2026
-    },
-    {
-      "candidate_id": "ab8fcf06e976bdaeccdde8d8",
-      "expected_project_id": "optical-neural-networks",
-      "matched_projects": [],
-      "query_id": "optical-neural-network",
-      "reason": "no_project_match",
-      "title": "Parameter unidentifiability in Hoek–Brown calibration under sparse triaxial datasets: a bootstrap-based diagnostic framework",
-      "venue": "Journal of Engineering and Applied Science",
-      "year": 2026
-    },
-    {
-      "candidate_id": "4bec88ff33f0cc0edb7813e2",
-      "expected_project_id": "optical-neural-networks",
-      "matched_projects": [],
-      "query_id": "optical-neural-network",
-      "reason": "no_project_match",
-      "title": "Phenotypic divergence in rotator cuff tear and volumetric muscle loss mouse models following fibroadipogenic progenitor depletion",
-      "venue": "Bone and Joint Research",
-      "year": 2026
-    },
-    {
-      "candidate_id": "9cf955c9ff12750ecd0249a9",
-      "expected_project_id": "optical-neural-networks",
-      "matched_projects": [],
-      "query_id": "optical-neural-network",
-      "reason": "no_project_match",
-      "title": "Targeting Post-Stroke Depression: Urine-derived Stem Cells Reverse Neuroinflammation by Macrophage Reprogramming",
-      "venue": "Research Square",
       "year": 2026
     },
     {
@@ -114,6 +24,86 @@
       "year": 2026
     },
     {
+      "candidate_id": "ab8fcf06e976bdaeccdde8d8",
+      "expected_project_id": "optical-neural-networks",
+      "matched_projects": [],
+      "query_id": "diffractive-optical-neural-network",
+      "reason": "no_project_match",
+      "title": "Parameter unidentifiability in Hoek–Brown calibration under sparse triaxial datasets: a bootstrap-based diagnostic framework",
+      "venue": "Journal of Engineering and Applied Science",
+      "year": 2026
+    },
+    {
+      "candidate_id": "a84b8982f147ad7182b75900",
+      "expected_project_id": "optical-neural-networks",
+      "matched_projects": [],
+      "query_id": "free-space-optical-computing",
+      "reason": "no_project_match",
+      "title": "Challenges and Strategic Drivers in 3D IC Failure Analysis: Closing the Critical Gaps using Designs for Analysis",
+      "venue": "Journal of Failure Analysis and Prevention",
+      "year": 2026
+    },
+    {
+      "candidate_id": "2f5c417d710b30584b60dfd5",
+      "expected_project_id": "optical-neural-networks",
+      "matched_projects": [],
+      "query_id": "optical-nonlinear-activation",
+      "reason": "no_project_match",
+      "title": "Visibility-driven compensation model for driver pupillary response in road tunnels: a GWO-XGBoost and SHAP-based interpretable framework",
+      "venue": "Scientific Reports",
+      "year": 2026
+    },
+    {
+      "candidate_id": "4b34029ccca8b9feac6be525",
+      "expected_project_id": "optical-neural-networks",
+      "matched_projects": [],
+      "query_id": "physical-neural-network-training",
+      "reason": "no_project_match",
+      "title": "Security of Wireless Sensor Networks in the Era of Artificial Intelligence and IoT: A Systematic Literature Review",
+      "venue": "International Journal For Multidisciplinary Research",
+      "year": 2026
+    },
+    {
+      "candidate_id": "2555546705d14d4da48d1f8e",
+      "expected_project_id": "zeroth-order-optimization",
+      "matched_projects": [],
+      "query_id": "zeroth-order-neural-network",
+      "reason": "no_project_match",
+      "title": "Deep learning algorithms for through-the-wall imaging",
+      "venue": "Balıkesir Üniversitesi Fen Bilimleri Enstitüsü Dergisi",
+      "year": 2026
+    },
+    {
+      "candidate_id": "ba9939504e7c5150427a3ece",
+      "expected_project_id": "zeroth-order-optimization",
+      "matched_projects": [],
+      "query_id": "zeroth-order-llm",
+      "reason": "no_project_match",
+      "title": "AI-Assisted Multiview Cartoon Character Modeling: Physics-Consistent Inverse Rendering for Dynamic-Backlight Light-Field 3D Display",
+      "venue": "Photonics",
+      "year": 2026
+    },
+    {
+      "candidate_id": "c36d35731228bdf59c787ff8",
+      "expected_project_id": "zeroth-order-optimization",
+      "matched_projects": [],
+      "query_id": "zeroth-order-optical",
+      "reason": "no_project_match",
+      "title": "Description and Demonstration of the Multilayer Emission Model \"2S L-MEM\" for Passive L-Band Satellite Observations on Land",
+      "venue": null,
+      "year": 2026
+    },
+    {
+      "candidate_id": "ed9e032d43a06edf544d9048",
+      "expected_project_id": "optical-neural-networks",
+      "matched_projects": [],
+      "query_id": "optical-neural-network",
+      "reason": "no_project_match",
+      "title": "Directional Selective Filters for Guiding Spiking Neural Networks in Event-Based Optical Flow Estimation",
+      "venue": "Lecture notes in computer science",
+      "year": 2026
+    },
+    {
       "candidate_id": "17d50cd80f5420768adc9272",
       "expected_project_id": "optical-neural-networks",
       "matched_projects": [],
@@ -124,10 +114,80 @@
       "year": 2026
     },
     {
+      "candidate_id": "7eec776c7f5d168cf374b5a5",
+      "expected_project_id": "optical-neural-networks",
+      "matched_projects": [],
+      "query_id": "diffractive-optical-neural-network",
+      "reason": "no_project_match",
+      "title": "Subregion-based maximum similarity search registration method for transverse chromatic aberration correction in ultra-widefield scanning laser ophthalmoscopy images",
+      "venue": "Journal of Biomedical Optics",
+      "year": 2026
+    },
+    {
+      "candidate_id": "c5eb0ab26ac3d26c32157797",
+      "expected_project_id": "optical-neural-networks",
+      "matched_projects": [],
+      "query_id": "free-space-optical-computing",
+      "reason": "no_project_match",
+      "title": "Autonomous Unmanned Aircraft Systems for Enhanced Search and Rescue of Drowning Swimmers: Location-Allocation Optimization and Flight Trajectory Planning",
+      "venue": "Optimization and Engineering",
+      "year": 2026
+    },
+    {
+      "candidate_id": "66ac3db7453f90fdadf81361",
+      "expected_project_id": "optical-neural-networks",
+      "matched_projects": [],
+      "query_id": "optical-nonlinear-activation",
+      "reason": "no_project_match",
+      "title": "Electrocortical activity across postural conditions during real-world sea navigation in mariners with motion sickness susceptibility",
+      "venue": "Sport Sciences for Health",
+      "year": 2026
+    },
+    {
+      "candidate_id": "d37e3906cef9b1a863042bb9",
+      "expected_project_id": "optical-neural-networks",
+      "matched_projects": [],
+      "query_id": "physical-neural-network-training",
+      "reason": "no_project_match",
+      "title": "Gradient usability in few-qubit quantum Neural Networks: A signal-to-noise ratio framework for evaluating mitigation strategies",
+      "venue": "Journal of High School Science",
+      "year": 2026
+    },
+    {
+      "candidate_id": "87ca0ca6738490274515c429",
+      "expected_project_id": "zeroth-order-optimization",
+      "matched_projects": [],
+      "query_id": "zeroth-order-neural-network",
+      "reason": "no_project_match",
+      "title": "Capturing Token Tendencies for Training-Free Token Pruning in Multimodal Large Language Models",
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
+      "candidate_id": "48d2b786e8203d4b006ca516",
+      "expected_project_id": "zeroth-order-optimization",
+      "matched_projects": [],
+      "query_id": "zeroth-order-llm",
+      "reason": "no_project_match",
+      "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
+      "candidate_id": "a346a5f02aab41bf67e69110",
+      "expected_project_id": "zeroth-order-optimization",
+      "matched_projects": [],
+      "query_id": "zeroth-order-optical",
+      "reason": "no_project_match",
+      "title": "Dark Matter Constraints from Small-Scale Cosmic Structure",
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
       "candidate_id": "c3b04322e5bbfb379b6ef451",
       "expected_project_id": "optical-neural-networks",
       "matched_projects": [],
-      "query_id": "photonic-neural-network",
+      "query_id": "optical-neural-network",
       "reason": "no_project_match",
       "title": "Physics-Guided Artificial Intelligence for Raman Spectroscopic Brain Cancer Diagnosis: Multi-Center Clinical Validation and Instrumentation Optimization",
       "venue": "Razi Medical Journal",
@@ -142,70 +202,10 @@
       "title": "Cosmic Energy Exchange Theory -- Also Termed as Causal Energy Equilibrium Theory (CEET): Complete 60 Core Repository with Advanced 3D Unified Visualization in this 1 PDF",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
       "year": 2026
-    },
-    {
-      "candidate_id": "a84b8982f147ad7182b75900",
-      "expected_project_id": "optical-neural-networks",
-      "matched_projects": [],
-      "query_id": "photonic-neural-network",
-      "reason": "no_project_match",
-      "title": "Challenges and Strategic Drivers in 3D IC Failure Analysis: Closing the Critical Gaps using Designs for Analysis",
-      "venue": "Journal of Failure Analysis and Prevention",
-      "year": 2026
-    },
-    {
-      "candidate_id": "4b34029ccca8b9feac6be525",
-      "expected_project_id": "optical-neural-networks",
-      "matched_projects": [],
-      "query_id": "photonic-neural-network",
-      "reason": "no_project_match",
-      "title": "Security of Wireless Sensor Networks in the Era of Artificial Intelligence and IoT: A Systematic Literature Review",
-      "venue": "International Journal For Multidisciplinary Research",
-      "year": 2026
-    },
-    {
-      "candidate_id": "7eec776c7f5d168cf374b5a5",
-      "expected_project_id": "optical-neural-networks",
-      "matched_projects": [],
-      "query_id": "photonic-neural-network",
-      "reason": "no_project_match",
-      "title": "Subregion-based maximum similarity search registration method for transverse chromatic aberration correction in ultra-widefield scanning laser ophthalmoscopy images",
-      "venue": "Journal of Biomedical Optics",
-      "year": 2026
-    },
-    {
-      "candidate_id": "83a830ace13b5158f346c392",
-      "expected_project_id": "optical-neural-networks",
-      "matched_projects": [],
-      "query_id": "photonic-neural-network",
-      "reason": "no_project_match",
-      "title": "Emerging light-driven neuromorphic hardware for artificial intelligence",
-      "venue": "NPG Asia Materials",
-      "year": 2026
-    },
-    {
-      "candidate_id": "d37e3906cef9b1a863042bb9",
-      "expected_project_id": "optical-neural-networks",
-      "matched_projects": [],
-      "query_id": "photonic-neural-network",
-      "reason": "no_project_match",
-      "title": "Gradient usability in few-qubit quantum Neural Networks: A signal-to-noise ratio framework for evaluating mitigation strategies",
-      "venue": "Journal of High School Science",
-      "year": 2026
-    },
-    {
-      "candidate_id": "4cfe486f2f65090768502aea",
-      "expected_project_id": "optical-neural-networks",
-      "matched_projects": [],
-      "query_id": "photonic-neural-network",
-      "reason": "no_project_match",
-      "title": "Graphene-based tunable terahertz metamaterial absorber with dual-band absorption and triple-band absorption",
-      "venue": "Physica Scripta",
-      "year": 2026
     }
   ],
   "invalid_count": 0,
-  "matched_count": 0,
+  "matched_count": 4,
   "query_error_count": 0,
   "query_summaries": [
     {
@@ -219,27 +219,27 @@
     },
     {
       "error": null,
-      "filtered": 10,
+      "filtered": 9,
       "invalid": 0,
-      "matched": 0,
+      "matched": 1,
       "project_id": "optical-neural-networks",
       "query_id": "photonic-neural-network",
       "raw_results": 10
     },
     {
       "error": null,
-      "filtered": 10,
+      "filtered": 9,
       "invalid": 0,
-      "matched": 0,
+      "matched": 1,
       "project_id": "optical-neural-networks",
       "query_id": "diffractive-optical-neural-network",
       "raw_results": 10
     },
     {
       "error": null,
-      "filtered": 10,
+      "filtered": 9,
       "invalid": 0,
-      "matched": 0,
+      "matched": 1,
       "project_id": "optical-neural-networks",
       "query_id": "free-space-optical-computing",
       "raw_results": 10
@@ -255,9 +255,9 @@
     },
     {
       "error": null,
-      "filtered": 10,
+      "filtered": 9,
       "invalid": 0,
-      "matched": 0,
+      "matched": 1,
       "project_id": "optical-neural-networks",
       "query_id": "physical-neural-network-training",
       "raw_results": 10
@@ -294,6 +294,7 @@
   "raw_result_count": 90,
   "sample_count": 20,
   "sample_limit": 20,
+  "sampling_strategy": "round_robin_unique_by_candidate",
   "schema_version": 1,
   "window_end": "2026-08-04",
   "window_start": "2026-07-21"
