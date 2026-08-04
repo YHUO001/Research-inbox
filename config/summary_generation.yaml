@@ -1,13 +1,31 @@
-summary_generation_version: 1
+summary_generation_version: 2
 prompt_version: 1
 
 execution:
-  mode: "manual_dry_run"
-  provider: "not_configured"
+  mode: "manual_provider_validation"
+  provider: "deepseek"
   llm_enabled: false
+  manual_provider_calls_allowed: true
   email_enabled: false
   update_summary_history: false
   use_full_text: false
+
+provider:
+  name: "deepseek"
+  base_url: "https://api.deepseek.com"
+  api_key_env: "DEEPSEEK_API_KEY"
+  model: "deepseek-v4-flash"
+  thinking_enabled: false
+  max_output_tokens: 2200
+  timeout_seconds: 60
+  http_max_attempts: 3
+  validation_attempts: 2
+  response_format: "json_object"
+  pricing:
+    currency: "CNY"
+    input_cache_hit_cny_per_million: 0.02
+    input_cache_miss_cny_per_million: 1.0
+    output_cny_per_million: 2.0
 
 limits:
   maximum_summaries_per_run: 3
@@ -22,5 +40,6 @@ grounding:
 
 outputs:
   request_directory: "data/summary_requests"
+  summary_directory: "data/summaries"
   digest_directory: "data/digests"
   manifest_path: "state/summary_generation_manifest.json"
