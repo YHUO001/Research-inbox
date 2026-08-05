@@ -4,13 +4,21 @@ import argparse
 import json
 import multiprocessing
 import re
+from dataclasses import dataclass
 from pathlib import Path
 from queue import Empty
 from typing import Any, Callable
 
 from scripts.summarize import staged_summary_pipeline as pipeline
+from scripts.summarize.abstract_fallback_policy import abstract_fallback_notice
 from scripts.summarize.fulltext_methods import MethodContext
-from scripts.summarize.prepare_digest import atomic_write, load_json, load_jsonl, stable_json
+from scripts.summarize.prepare_digest import (
+    atomic_write,
+    file_digest,
+    load_json,
+    load_jsonl,
+    stable_json,
+)
 from scripts.summarize.springer_openaccess import (
     api_audit_url,
     collect_official_or_open_context,
@@ -25,6 +33,33 @@ _NUMERIC_LITERAL = re.compile(
 _CONFIG_GROUNDING_SCOPE = "title_and_abstract_only"
 _AUDIT_GROUNDING_SCOPE = "title_abstract_and_open_full_text_loose"
 _ORIGINAL_GENERATION_MANIFEST_COPY = pipeline.generation_manifest_copy
+
+
+@dataclass(frozen=True)
+class RetriedMethodContext(MethodContext):
+    attempt_count: int = 1
+
+    def audit_record(self) -> dict[str, Any]:
+        record = super().audit_record()
+        record["attempt_count"] = max(1, int(self.attempt_count or 1))
+        return record
+
+
+def retried_context(context: MethodContext, attempt_count: int, *, final: bool = False) -> RetriedMethodContext:
+    error = context.error
+    if final and context.status != "used":
+        suffix = f"full-text retrieval failed after {attempt_count} attempts; fell back to abstract"
+        error = "; ".join(value for value in (error, suffix) if value)
+    return RetriedMethodContext(
+        candidate_id=context.candidate_id,
+        status=context.status,
+        source_url=context.source_url,
+        media_type=context.media_type,
+        section_headings=list(context.section_headings),
+        text=context.text,
+        error=error,
+        attempt_count=max(1, int(attempt_count or 1)),
+    )
 
 
 def full_text_numeric_aliases(text: str) -> list[str]:
@@ -71,7 +106,7 @@ def generation_manifest_copy_with_full_text_numbers(
     config: dict[str, Any],
     method_context_loader: Callable[..., MethodContext],
 ) -> tuple[Path, int, dict[str, dict[str, Any]]]:
-    """Add machine-only full-text numeric aliases to the temporary snapshot."""
+    """Create an effective temporary batch with retries, fallback, and skips."""
 
     captured_text: dict[str, str] = {}
 
@@ -91,31 +126,109 @@ def generation_manifest_copy_with_full_text_numbers(
     request_path = Path(str(manifest.get("request_file") or ""))
     requests = load_jsonl(request_path)
     full_text_alias_count = 0
+    effective_requests: list[dict[str, Any]] = []
+    skipped_no_abstract: list[str] = []
+    abstract_fallbacks: list[str] = []
+    full_text_config = config.get("full_text") or {}
+    configured_attempts = max(1, int(full_text_config.get("retrieval_attempts") or 3))
+    skip_without_abstract = bool(full_text_config.get("skip_when_abstract_missing", True))
 
     for request in requests:
         candidate_id = str(request.get("candidate_id") or "")
-        request["prompt"] = _replace_numeric_prompt_rules(str(request.get("prompt") or ""))
-        aliases = full_text_numeric_aliases(captured_text.get(candidate_id, ""))
-        if not aliases:
-            continue
         source = request.get("source")
         if not isinstance(source, dict):
             continue
-        abstract = str(source.get("abstract") or "")
-        source["abstract"] = (
-            abstract
-            + "\nMachine-only open-full-text numeric grounding aliases: "
-            + "; ".join(aliases)
-            + "."
-        )
-        full_text_alias_count += len(aliases)
+        record = contexts.setdefault(candidate_id, {"candidate_id": candidate_id})
+        status = str(record.get("status") or "not_available")
+        attempts = max(1, int(record.get("attempt_count") or configured_attempts))
+        abstract = str(source.get("abstract") or "").strip()
+
+        if status != "used" and not abstract and skip_without_abstract:
+            record["fallback_decision"] = "skipped_no_abstract"
+            record["abstract_available"] = False
+            skipped_no_abstract.append(candidate_id)
+            continue
+
+        request["prompt"] = _replace_numeric_prompt_rules(str(request.get("prompt") or ""))
+        if status != "used":
+            notice = abstract_fallback_notice(attempts)
+            request["full_text_fallback"] = True
+            request["full_text_retrieval_attempts"] = attempts
+            request["abstract_fallback_notice"] = notice
+            request["prompt"] = (
+                str(request.get("prompt") or "")
+                + "\n\n证据降级要求："
+                + notice
+                + " 不得为了满足篇幅要求补写摘要没有提供的实现或实验细节；"
+                "可以生成较短但结构完整的摘要级短讯，并明确列出缺失信息。"
+            )
+            record["fallback_decision"] = "generate_from_abstract"
+            record["abstract_available"] = True
+            abstract_fallbacks.append(candidate_id)
+        else:
+            request["full_text_fallback"] = False
+            request["full_text_retrieval_attempts"] = attempts
+            record["fallback_decision"] = "use_full_text"
+            record["abstract_available"] = bool(abstract)
+
+        aliases = full_text_numeric_aliases(captured_text.get(candidate_id, ""))
+        if aliases:
+            source["abstract"] = (
+                str(source.get("abstract") or "")
+                + "\nMachine-only open-full-text numeric grounding aliases: "
+                + "; ".join(aliases)
+                + "."
+            )
+            full_text_alias_count += len(aliases)
+        effective_requests.append(request)
 
     atomic_write(
         request_path,
         "".join(
             json.dumps(item, ensure_ascii=False, sort_keys=True) + "\n"
-            for item in requests
+            for item in effective_requests
         ),
+    )
+    manifest["request_count"] = len(effective_requests)
+    manifest["skipped_no_abstract_candidate_ids"] = skipped_no_abstract
+    manifest["skipped_no_abstract_count"] = len(skipped_no_abstract)
+    manifest["abstract_fallback_candidate_ids"] = abstract_fallbacks
+    manifest["abstract_fallback_count"] = len(abstract_fallbacks)
+    atomic_write(
+        manifest_path,
+        json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+    )
+
+    persistent_manifest = load_json(dry_run_manifest_path, {})
+    persistent_request_path = Path(str(persistent_manifest.get("request_file") or ""))
+    persistent_requests = load_jsonl(persistent_request_path)
+    retained_ids = {str(item.get("candidate_id") or "") for item in effective_requests}
+    retained_persistent = [
+        item
+        for item in persistent_requests
+        if str(item.get("candidate_id") or "") in retained_ids
+    ]
+    atomic_write(
+        persistent_request_path,
+        "".join(
+            json.dumps(item, ensure_ascii=False, sort_keys=True) + "\n"
+            for item in retained_persistent
+        ),
+    )
+    persistent_manifest["request_count"] = len(retained_persistent)
+    persistent_manifest["request_sha256"] = file_digest(persistent_request_path)
+    persistent_manifest["skipped_no_abstract_candidate_ids"] = skipped_no_abstract
+    persistent_manifest["skipped_no_abstract_count"] = len(skipped_no_abstract)
+    persistent_manifest["abstract_fallback_candidate_ids"] = abstract_fallbacks
+    persistent_manifest["abstract_fallback_count"] = len(abstract_fallbacks)
+    if not retained_persistent:
+        persistent_manifest["status"] = "no_eligible_evidence"
+        persistent_manifest["automatic_history_pending"] = False
+        persistent_manifest["knowledge_base_pending"] = False
+        persistent_manifest["daily_digest_pending"] = True
+    atomic_write(
+        dry_run_manifest_path,
+        json.dumps(persistent_manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
     )
     return manifest_path, alias_count + full_text_alias_count, contexts
 
@@ -132,6 +245,12 @@ def validate_full_text_safety(config: dict[str, Any]) -> None:
         raise RuntimeError("Core numeric grounding configuration must remain backward compatible")
     if grounding.get("numeric_matching_mode") != "loose_full_evidence":
         raise RuntimeError("The staged workflow must explicitly enable loose full-evidence matching")
+    if int(full_text.get("retrieval_attempts") or 0) != 3:
+        raise RuntimeError("Production full-text fallback must use exactly three attempts")
+    if full_text.get("fallback_to_abstract_after_attempts") is not True:
+        raise RuntimeError("Abstract fallback must be enabled")
+    if full_text.get("skip_when_abstract_missing") is not True:
+        raise RuntimeError("Candidates without full text or abstract must be skipped")
 
 
 def _loader_worker(
@@ -157,14 +276,12 @@ def _timeout_source_url(source: dict[str, Any], config: dict[str, Any]) -> str |
     return api_audit_url(endpoint, doi)
 
 
-def bounded_collect_method_context(
+def _bounded_collect_once(
     source: dict[str, Any],
     *,
     config: dict[str, Any],
-    loader: Callable[..., MethodContext] = collect_official_or_open_context,
+    loader: Callable[..., MethodContext],
 ) -> MethodContext:
-    """Run one optional full-text lookup in a killable child process."""
-
     candidate_id = str(source.get("candidate_id") or source.get("id") or "unknown")
     timeout_seconds = float(config.get("candidate_timeout_seconds") or 30)
     if timeout_seconds <= 0:
@@ -195,10 +312,7 @@ def bounded_collect_method_context(
             media_type="application/xml+jats",
             section_headings=[],
             text="",
-            error=(
-                f"full-text child process exceeded {timeout_seconds:g} seconds; "
-                "fell back to abstract"
-            ),
+            error=f"full-text child process exceeded {timeout_seconds:g} seconds",
         )
 
     try:
@@ -211,7 +325,7 @@ def bounded_collect_method_context(
             media_type="application/xml+jats",
             section_headings=[],
             text="",
-            error="full-text child process exited without a result; fell back to abstract",
+            error="full-text child process exited without a result",
         )
     finally:
         output.close()
@@ -225,8 +339,35 @@ def bounded_collect_method_context(
         media_type="application/xml+jats",
         section_headings=[],
         text="",
-        error=f"full-text child error {result[1]}; fell back to abstract",
+        error=f"full-text child error {result[1]}",
     )
+
+
+def bounded_collect_method_context(
+    source: dict[str, Any],
+    *,
+    config: dict[str, Any],
+    loader: Callable[..., MethodContext] = collect_official_or_open_context,
+) -> MethodContext:
+    """Retry optional full-text lookup three times, then return an auditable fallback."""
+
+    maximum_attempts = max(1, int(config.get("retrieval_attempts") or 3))
+    last: MethodContext | None = None
+    for attempt in range(1, maximum_attempts + 1):
+        last = _bounded_collect_once(source, config=config, loader=loader)
+        if last.status == "used" and last.text:
+            return retried_context(last, attempt)
+    if last is None:
+        last = MethodContext(
+            candidate_id=str(source.get("candidate_id") or source.get("id") or "unknown"),
+            status="not_available",
+            source_url=_timeout_source_url(source, config),
+            media_type=None,
+            section_headings=[],
+            text="",
+            error="full-text retrieval did not start",
+        )
+    return retried_context(last, maximum_attempts, final=True)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -258,6 +399,19 @@ def main() -> int:
         method_context_loader=bounded_collect_method_context,
     )
     result["numeric_grounding_scope"] = _AUDIT_GROUNDING_SCOPE
+    prepared_manifest = load_json(
+        Path(str(result.get("prepared_generation_manifest_path") or "")),
+        {},
+    )
+    result["prepared_request_count"] = int(prepared_manifest.get("request_count") or 0)
+    result["skipped_no_abstract_candidate_ids"] = list(
+        prepared_manifest.get("skipped_no_abstract_candidate_ids") or []
+    )
+    result["skipped_no_abstract_count"] = len(result["skipped_no_abstract_candidate_ids"])
+    result["abstract_fallback_candidate_ids"] = list(
+        prepared_manifest.get("abstract_fallback_candidate_ids") or []
+    )
+    result["abstract_fallback_count"] = len(result["abstract_fallback_candidate_ids"])
     audit_path = Path(str(result.get("preparation_audit_path") or ""))
     if audit_path:
         atomic_write(
