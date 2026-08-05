@@ -103,6 +103,69 @@ def resolve_digest_date(value: str | None) -> str:
     return datetime.now(timezone.utc).astimezone(LOCAL_TIMEZONE).date().isoformat()
 
 
+def empty_digest_body(state_root: Path, digest_date: str) -> str:
+    selection = load_json(state_root / "state" / "selection_manifest.json", {})
+    if not isinstance(selection, dict):
+        selection = {}
+    selected = int(selection.get("summary_slot_count") or 0)
+    if selected > 0:
+        raise RuntimeError(
+            "Selected summaries exist, but the completed digest artifact is missing"
+        )
+
+    unified = load_json(state_root / "state" / "unified_registry_manifest.json", {})
+    openalex = load_json(state_root / "state" / "openalex_discovery_manifest.json", {})
+    routing = load_json(state_root / "state" / "routing_manifest.json", {})
+    unified_count = int((unified or {}).get("unified_candidate_count") or 0)
+    merged_count = int((unified or {}).get("merged_group_count") or 0)
+    accepted_openalex = int((openalex or {}).get("accepted_count") or 0)
+    eligible = int(selection.get("eligible_candidate_count") or 0)
+    route_counts = (routing or {}).get("route_counts") or {}
+
+    lines = [
+        f"# 每日研究汇总 {digest_date}",
+        "",
+        "今天没有新的论文进入自动摘要名额。",
+        "",
+        "## 自动流程状态",
+        "",
+        "- Google Scholar 与 OpenAlex：已完成统一发现与处理",
+        f"- 统一候选库论文数：`{unified_count}`",
+        f"- 本次跨来源合并组数：`{merged_count}`",
+        f"- OpenAlex 本次新接收：`{accepted_openalex}`",
+        f"- 尚未完成且达到摘要阈值的候选：`{eligible}`",
+        f"- metadata enrichment 队列：`{int(route_counts.get('metadata_enrichment_queue') or 0)}`",
+        f"- manual review 队列：`{int(route_counts.get('manual_review_queue') or 0)}`",
+        "",
+        "系统没有调用 DeepSeek，因此本次没有产生模型 token 费用。",
+    ]
+    return "\n".join(lines)
+
+
+def resolve_digest_content(
+    *,
+    state_root: Path,
+    digest_date: str,
+    send_empty: bool,
+) -> tuple[str | None, int, str]:
+    digest_json_path = state_root / "data" / "digests" / f"{digest_date}.generated.json"
+    digest_markdown_path = state_root / "data" / "digests" / f"{digest_date}.generated.md"
+    if not digest_json_path.exists() or not digest_markdown_path.exists():
+        if not send_empty:
+            return None, 0, "skipped_no_completed_digest"
+        return empty_digest_body(state_root, digest_date), 0, "empty_daily_digest"
+
+    digest = load_json(digest_json_path, {})
+    if not isinstance(digest, dict):
+        raise RuntimeError("Generated digest JSON must be an object")
+    summary_count = int(digest.get("summary_count") or 0)
+    if digest.get("status") != "completed_automatic":
+        return None, summary_count, "skipped_digest_not_finalized"
+    if summary_count <= 0 and not send_empty:
+        return None, summary_count, "skipped_empty_digest"
+    return digest_markdown_path.read_text(encoding="utf-8").rstrip(), summary_count, "completed_digest"
+
+
 def send_daily_digest(
     *,
     config_path: Path,
@@ -114,42 +177,23 @@ def send_daily_digest(
     state_path = state_root / state_value
     state = load_delivery_state(state_path)
 
-    digest_json_path = state_root / "data" / "digests" / f"{digest_date}.generated.json"
-    digest_markdown_path = state_root / "data" / "digests" / f"{digest_date}.generated.md"
-    if not digest_json_path.exists() or not digest_markdown_path.exists():
+    body, summary_count, content_status = resolve_digest_content(
+        state_root=state_root,
+        digest_date=digest_date,
+        send_empty=send_empty,
+    )
+    if body is None:
         result = {
-            "status": "skipped_no_completed_digest",
+            "status": content_status,
             "digest_date": digest_date,
             "sent": False,
         }
         print(stable_json(result), flush=True)
         return result
 
-    digest = load_json(digest_json_path, {})
-    if not isinstance(digest, dict):
-        raise RuntimeError("Generated digest JSON must be an object")
-    summary_count = int(digest.get("summary_count") or 0)
-    if digest.get("status") != "completed_automatic":
-        result = {
-            "status": "skipped_digest_not_finalized",
-            "digest_date": digest_date,
-            "sent": False,
-        }
-        print(stable_json(result), flush=True)
-        return result
-    if summary_count <= 0 and not send_empty:
-        result = {
-            "status": "skipped_empty_digest",
-            "digest_date": digest_date,
-            "sent": False,
-        }
-        print(stable_json(result), flush=True)
-        return result
-
-    body = digest_markdown_path.read_text(encoding="utf-8").rstrip()
-    body += (
+    body = body.rstrip() + (
         "\n\n---\n"
-        "长期知识库索引已同步到 automation-state/data/knowledge_base/index.md。\n"
+        "长期知识库索引：automation-state/data/knowledge_base/index.md\n"
     )
     digest_sha256 = sha256_text(body)
     recipient_sha256 = sha256_text(recipient)
@@ -196,6 +240,7 @@ def send_daily_digest(
         "sent_at": utc_now(),
         "digest_sha256": digest_sha256,
         "summary_count": summary_count,
+        "content_status": content_status,
         "recipient_sha256": recipient_sha256,
         "message_id_header": message_id,
         "gmail_message_id_sha256": sha256_text(gmail_id) if gmail_id else None,
@@ -208,6 +253,7 @@ def send_daily_digest(
         "status": status,
         "digest_date": digest_date,
         "summary_count": summary_count,
+        "content_status": content_status,
         "sent": status == "sent",
         "idempotent_recovery": status == "already_sent",
         "digest_sha256": digest_sha256,

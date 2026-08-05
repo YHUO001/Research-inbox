@@ -33,20 +33,23 @@ def test_daily_workflow_unifies_discovery_and_refreshes_metadata_before_scoring(
     text = workflow_text("daily-research-inbox.yml")
     scholar_position = text.index("scripts.ingest.gmail_collector")
     openalex_position = text.index("scripts.discovery.openalex_discovery")
+    reconcile_position = text.index("scripts.pipeline.reconcile_registry")
     enrich_position = text.index("scripts.enrich.enrich_registry")
+    route_position = text.index("scripts.pipeline.route_registry")
     scoring_position = text.index("scripts.pipeline.score_registry")
 
-    assert scholar_position < enrich_position
-    assert openalex_position < enrich_position
-    assert enrich_position < scoring_position
+    assert scholar_position < reconcile_position
+    assert openalex_position < reconcile_position
+    assert reconcile_position < enrich_position
+    assert enrich_position < route_position < scoring_position
     assert "OPENALEX_API_KEY" in text
-    assert "steps.enrich.outputs.exit_code == '0'" in text
-    assert "state/unified_discovery_state.json" in text
-    assert "Mark unified discovery success" in text
+    assert "steps.readiness.outputs.ready == 'true'" in text
+    assert "state/unified_registry_manifest.json" in text
+    assert "data/unified_paper_registry.jsonl" in text
     assert not (WORKFLOW_DIR / "openalex-research-discovery.yml").exists()
 
 
-def test_llm_and_email_remain_disabled_in_pipeline_config() -> None:
+def test_llm_and_email_remain_disabled_in_base_pipeline_config() -> None:
     text = (ROOT / "config" / "pipeline.yaml").read_text(encoding="utf-8")
     assert "llm:\n  enabled: false" in text
     assert "email:\n    enabled: false" in text

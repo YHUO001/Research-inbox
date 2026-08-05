@@ -98,6 +98,8 @@ def test_workflow_wires_primary_and_retry_gate() -> None:
     ).read_text(encoding="utf-8")
     assert 'cron: "17 0 * * *"' in workflow
     assert 'cron: "47 12 * * *"' in workflow
-    assert "scripts.ingest.scholar_schedule_gate" in workflow
-    assert "steps.schedule_gate.outputs.should_run == 'true'" in workflow
-    assert "primary run at 08:17; 20:47 is retry-only" in workflow
+    assert "scripts.pipeline.daily_source_gate plan" in workflow
+    assert "scripts.pipeline.daily_source_gate verify" in workflow
+    assert "steps.source_plan.outputs.run_scholar == 'true'" in workflow
+    assert "steps.source_plan.outputs.run_openalex == 'true'" in workflow
+    assert "20:47 retries only missing sources" in workflow

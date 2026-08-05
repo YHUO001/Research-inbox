@@ -17,7 +17,8 @@ automation:
   enabled: true
   mode: "automatic_daily_batch"
   timezone: "Asia/Singapore"
-  local_time: "21:30"
+  local_time: "08:17"
+  retry_local_time: "20:47"
   filter_completed_before_provider: true
   update_summary_history_after_validation: true
   all_or_nothing_batch: true
@@ -39,10 +40,10 @@ knowledge_base:
 
 delivery:
   daily_digest_enabled: true
-  mode: "separate_scheduled_workflow"
+  mode: "end_of_unified_daily_pipeline"
   config_path: "config/email_delivery.yaml"
   send_only_completed_automatic: true
-  send_empty_digest: false
+  send_empty_digest: true
 
 provider:
   name: "deepseek"

@@ -22,33 +22,30 @@ def test_summary_dry_run_remains_manual_and_provider_free() -> None:
     assert "summary_history.json" not in text
 
 
-def test_daily_discovery_unifies_scholar_and_openalex() -> None:
+def test_daily_pipeline_unifies_discovery_and_cross_source_reconciliation() -> None:
     text = workflow("daily-research-inbox.yml")
     assert "scripts.ingest.gmail_collector" in text
     assert "scripts.discovery.openalex_discovery" in text
+    assert "scripts.pipeline.daily_source_gate" in text
+    assert "scripts.pipeline.reconcile_registry" in text
+    assert "data/unified_paper_registry.jsonl" in text
     assert "scripts.pipeline.route_registry" in text
     assert "scripts.enrich.enrich_registry" in text
     assert "scripts.pipeline.score_registry" in text
-    assert "state/unified_discovery_state.json" in text
-    assert "force_openalex" in text
-    assert "20:47 is retry-only" in text
+    assert "state/unified_registry_manifest.json" in text
+    assert "20:47 retries only missing sources" in text
     assert not (
         ROOT / ".github" / "workflows" / "openalex-research-discovery.yml"
     ).exists()
 
 
-def test_deepseek_generation_runs_one_daily_transactional_batch() -> None:
-    text = workflow("generate-deepseek-summaries.yml")
-    assert "workflow_dispatch:" in text
-    assert 'cron: "30 13 * * *"' in text
-    assert "workflow_run:" not in text
-    assert "timeout-minutes: 30" in text
+def test_deepseek_generation_is_in_the_one_daily_transaction() -> None:
+    text = workflow("daily-research-inbox.yml")
+    assert 'cron: "17 0 * * *"' in text
+    assert 'cron: "47 12 * * *"' in text
+    assert "timeout-minutes: 60" in text
     assert "DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}" in text
     assert "SPRINGER_NATURE_API_KEY: ${{ secrets.SPRINGER_NATURE_API_KEY }}" in text
-    assert "GMAIL_CLIENT_SECRET" not in text
-    assert "Bootstrap existing approved summaries" in text
-    assert "scripts.summarize.bootstrap_approved_batch" in text
-    assert "steps.bootstrap.outputs.bootstrapped != 'true'" in text
     assert "scripts.summarize.prepare_automatic_digest" in text
     assert "scripts.summarize.generate_automatic_summaries" in text
     assert "scripts.summarize.add_digest_doi_links" in text
@@ -60,23 +57,29 @@ def test_deepseek_generation_runs_one_daily_transactional_batch() -> None:
     assert "scripts.summarize.build_review_packet" not in text
     assert "data/reviews" not in text
     assert "state/summary_review_manifest.json" not in text
-    assert "Fail after persisting validation diagnostics" in text
+    assert "Fail after persisting summary validation diagnostics" in text
+
+    manual = workflow("generate-deepseek-summaries.yml")
+    assert "workflow_dispatch:" in manual
+    assert "schedule:" not in manual
 
 
-def test_daily_email_is_separate_idempotent_workflow() -> None:
-    text = workflow("send-daily-research-digest.yml")
-    assert "workflow_dispatch:" in text
-    assert 'cron: "15 14 * * *"' in text
-    assert "timeout-minutes: 15" in text
+def test_daily_email_is_idempotent_and_part_of_unified_transaction() -> None:
+    text = workflow("daily-research-inbox.yml")
     assert "scripts.delivery.send_daily_digest" in text
     assert "config/email_delivery.yaml" in text
     assert "GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}" in text
     assert "GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}" in text
     assert "GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}" in text
-    assert "state/email_delivery_state.json" in text
-    assert "Fail after persisting delivery diagnostics" in text
-    assert "DEEPSEEK_API_KEY" not in text
-    assert "SPRINGER_NATURE_API_KEY" not in text
+    assert "state/email_delivery_state.json" not in text
+    assert "Fail after persisting email delivery diagnostics" in text
+
+    manual = workflow("send-daily-research-digest.yml")
+    assert "workflow_dispatch:" in manual
+    assert "schedule:" not in manual
+    assert "state/email_delivery_state.json" in manual
+    assert "DEEPSEEK_API_KEY" not in manual
+    assert "SPRINGER_NATURE_API_KEY" not in manual
 
 
 def test_human_review_workflows_are_removed() -> None:
@@ -106,7 +109,8 @@ def test_summary_configuration_enables_daily_automation_and_indexing() -> None:
     assert automation["enabled"] is True
     assert automation["mode"] == "automatic_daily_batch"
     assert automation["timezone"] == "Asia/Singapore"
-    assert automation["local_time"] == "21:30"
+    assert automation["local_time"] == "08:17"
+    assert automation["retry_local_time"] == "20:47"
     assert automation["filter_completed_before_provider"] is True
     assert automation["update_summary_history_after_validation"] is True
     assert automation["all_or_nothing_batch"] is True
@@ -118,9 +122,9 @@ def test_summary_configuration_enables_daily_automation_and_indexing() -> None:
     assert knowledge["update_after_automatic_completion"] is True
     assert knowledge["persist_full_text"] is False
     assert delivery["daily_digest_enabled"] is True
-    assert delivery["mode"] == "separate_scheduled_workflow"
+    assert delivery["mode"] == "end_of_unified_daily_pipeline"
     assert delivery["send_only_completed_automatic"] is True
-    assert delivery["send_empty_digest"] is False
+    assert delivery["send_empty_digest"] is True
 
     assert provider["model"] == "deepseek-v4-pro"
     assert provider["thinking_enabled"] is False
