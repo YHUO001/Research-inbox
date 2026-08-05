@@ -6,6 +6,12 @@ on:
     - cron: "17 0 * * *"
     - cron: "47 12 * * *"
   workflow_dispatch:
+    inputs:
+      force_openalex:
+        description: "Ignore the OpenAlex interval gate during this manual run"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -15,9 +21,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  ingest-scholar-alerts:
+  unified-discovery:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
 
     steps:
       - name: Check out pipeline code
@@ -44,14 +50,14 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
-      - name: Decide whether Scholar collection should run
+      - name: Decide whether unified discovery should run
         id: schedule_gate
         env:
           EVENT_NAME: ${{ github.event_name }}
           EVENT_SCHEDULE: ${{ github.event.schedule }}
         run: |
           python -m scripts.ingest.scholar_schedule_gate \
-            --state-path runtime-state/state/gmail_ingestion_state.json \
+            --state-path runtime-state/state/unified_discovery_state.json \
             --event-name "${EVENT_NAME}" \
             --event-schedule "${EVENT_SCHEDULE}" \
             --github-output "${GITHUB_OUTPUT}"
@@ -74,9 +80,34 @@ jobs:
           echo "exit_code=${collector_exit_code}" >> "${GITHUB_OUTPUT}"
           exit 0
 
-      - name: Rebuild deterministic routes
+      - name: Discover recent OpenAlex candidates
+        id: openalex
+        if: steps.schedule_gate.outputs.should_run == 'true'
+        shell: bash
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: |
+          set +e
+          FORCE_ARG=""
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.force_openalex }}" == "true" ]]; then
+            FORCE_ARG="--force"
+          fi
+          python -m scripts.discovery.openalex_discovery \
+            --config config/openalex_discovery.yaml \
+            --registry-path runtime-state/data/paper_registry.jsonl \
+            --state-path runtime-state/state/openalex_discovery_state.json \
+            --manifest-path runtime-state/state/openalex_discovery_manifest.json \
+            --schema schemas/openalex_candidate.schema.json \
+            --recognition config/recognition_rules.yaml \
+            --venues config/venues.yaml \
+            ${FORCE_ARG}
+          openalex_exit_code=$?
+          echo "exit_code=${openalex_exit_code}" >> "${GITHUB_OUTPUT}"
+          exit 0
+
+      - name: Rebuild unified deterministic routes
         id: route
-        if: steps.collect.outputs.exit_code == '0'
+        if: steps.schedule_gate.outputs.should_run == 'true'
         shell: bash
         run: |
           set +e
@@ -92,7 +123,7 @@ jobs:
       - name: Refresh normalized metadata
         id: enrich
         if: >-
-          steps.collect.outputs.exit_code == '0' &&
+          steps.schedule_gate.outputs.should_run == 'true' &&
           steps.route.outputs.exit_code == '0'
         shell: bash
         env:
@@ -111,10 +142,10 @@ jobs:
           echo "exit_code=${enrich_exit_code}" >> "${GITHUB_OUTPUT}"
           exit 0
 
-      - name: Build deterministic scores and budgeted queue
+      - name: Build unified scores and budgeted queue
         id: score
         if: >-
-          steps.collect.outputs.exit_code == '0' &&
+          steps.schedule_gate.outputs.should_run == 'true' &&
           steps.route.outputs.exit_code == '0' &&
           steps.enrich.outputs.exit_code == '0'
         shell: bash
@@ -135,7 +166,47 @@ jobs:
           echo "exit_code=${score_exit_code}" >> "${GITHUB_OUTPUT}"
           exit 0
 
-      - name: Persist sanitized state
+      - name: Mark unified discovery success
+        if: >-
+          steps.schedule_gate.outputs.should_run == 'true' &&
+          steps.collect.outputs.exit_code == '0' &&
+          steps.openalex.outputs.exit_code == '0' &&
+          steps.route.outputs.exit_code == '0' &&
+          steps.enrich.outputs.exit_code == '0' &&
+          steps.score.outputs.exit_code == '0'
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          now = datetime.now(timezone.utc)
+          state = {
+              "schema_version": 1,
+              "last_successful_run_at": now.isoformat().replace("+00:00", "Z"),
+              "last_successful_local_date": now.astimezone(
+                  ZoneInfo("Asia/Singapore")
+              ).date().isoformat(),
+              "components": {
+                  "google_scholar": "success",
+                  "openalex": "success_or_interval_skip",
+                  "routing": "success",
+                  "enrichment": "success",
+                  "scoring": "success",
+              },
+          }
+          path = Path("runtime-state/state/unified_discovery_state.json")
+          path.parent.mkdir(parents=True, exist_ok=True)
+          temporary = path.with_suffix(".tmp")
+          temporary.write_text(
+              json.dumps(state, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+              encoding="utf-8",
+          )
+          temporary.replace(path)
+          PY
+
+      - name: Persist unified discovery state
         if: always()
         shell: bash
         run: |
@@ -145,44 +216,34 @@ jobs:
           git add state data
 
           if git diff --cached --quiet; then
-            echo "No state changes to persist."
+            echo "No unified discovery changes to persist."
             exit 0
           fi
 
-          git commit -m "Update research inbox state [skip ci]"
+          git commit -m "Update unified research discovery state [skip ci]"
           git pull --rebase origin automation-state
           git push origin HEAD:automation-state
 
-      - name: Fail after persisting collector retry state
-        if: >-
-          steps.schedule_gate.outputs.should_run == 'true' &&
-          steps.collect.outputs.exit_code != '0'
+      - name: Fail after persisting retry diagnostics
+        if: always() && steps.schedule_gate.outputs.should_run == 'true'
         shell: bash
-        run: exit "${{ steps.collect.outputs.exit_code }}"
-
-      - name: Fail after persisting routing diagnostics
-        if: >-
-          steps.schedule_gate.outputs.should_run == 'true' &&
-          steps.collect.outputs.exit_code == '0' &&
-          steps.route.outputs.exit_code != '0'
-        shell: bash
-        run: exit "${{ steps.route.outputs.exit_code }}"
-
-      - name: Fail after persisting enrichment diagnostics
-        if: >-
-          steps.schedule_gate.outputs.should_run == 'true' &&
-          steps.collect.outputs.exit_code == '0' &&
-          steps.route.outputs.exit_code == '0' &&
-          steps.enrich.outputs.exit_code != '0'
-        shell: bash
-        run: exit "${{ steps.enrich.outputs.exit_code }}"
-
-      - name: Fail after persisting scoring diagnostics
-        if: >-
-          steps.schedule_gate.outputs.should_run == 'true' &&
-          steps.collect.outputs.exit_code == '0' &&
-          steps.route.outputs.exit_code == '0' &&
-          steps.enrich.outputs.exit_code == '0' &&
-          steps.score.outputs.exit_code != '0'
-        shell: bash
-        run: exit "${{ steps.score.outputs.exit_code }}"
+        env:
+          SCHOLAR_EXIT: ${{ steps.collect.outputs.exit_code }}
+          OPENALEX_EXIT: ${{ steps.openalex.outputs.exit_code }}
+          ROUTE_EXIT: ${{ steps.route.outputs.exit_code }}
+          ENRICH_EXIT: ${{ steps.enrich.outputs.exit_code }}
+          SCORE_EXIT: ${{ steps.score.outputs.exit_code }}
+        run: |
+          for item in \
+            "Scholar:${SCHOLAR_EXIT:-1}" \
+            "OpenAlex:${OPENALEX_EXIT:-1}" \
+            "Routing:${ROUTE_EXIT:-1}" \
+            "Enrichment:${ENRICH_EXIT:-1}" \
+            "Scoring:${SCORE_EXIT:-1}"; do
+            name="${item%%:*}"
+            code="${item##*:}"
+            if [[ "${code}" != "0" ]]; then
+              echo "${name} failed with exit code ${code}."
+              exit "${code}"
+            fi
+          done
