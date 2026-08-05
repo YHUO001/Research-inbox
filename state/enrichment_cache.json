@@ -384,6 +384,86 @@
       "retrieved_at": "2026-08-04T09:38:55.106251Z",
       "status": "found"
     },
+    "crossref:doi:10.21203/rs.3.rs-10187577/v1": {
+      "expires_at": "2026-09-04T13:20:51.775599Z",
+      "record": {
+        "abstract": "Abstract Diffractive optical neural networks (DONNs) provide a promising route towards high-speed and energy-efficient computing. However, the absence of a general framework for nonlinear activation remains a fundamental limitation. Here we propose a high-order optical neural network (HONN) framework under partially coherent illumination, which enables effective nonlinearity through a unified system-level description. In this framework, the nonlinear response arises from the interplay of coherence-dependent detection and input-dependent pseudo-nonlinearity to a controllable order. We experimentally demonstrate this model in visible spectrum on Digit MNIST and Fashion MNIST, and results show that HONN can successfully capture the performance evolution across varying coherence conditions and nonlinear orders. Further validations on RAF and MedMNIST verify that our HONN surpasses conventional DONNs with competing performance to traditional electrical neural networks with <10% of their computational complexity only. Furthermore, our model possesses superior coherent robustness, laying a solid foundation for practical real-world deployment. These results establish a general framework for high-order optical inference beyond traditional diffractive models and provide a practical route towards optical computing in machine vision, computational imaging and sensing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Weiqiang Ding",
+            "orcid": "https://orcid.org/0000-0002-8225-2951"
+          },
+          {
+            "name": "Bojie DONG",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoxin Li",
+            "orcid": null
+          },
+          {
+            "name": "Zixuan Wang",
+            "orcid": null
+          },
+          {
+            "name": "Qi Jia",
+            "orcid": "https://orcid.org/0000-0001-8537-9328"
+          },
+          {
+            "name": "Bojian Shi",
+            "orcid": "https://orcid.org/0009-0007-4872-3821"
+          },
+          {
+            "name": "Shiyong Ren",
+            "orcid": null
+          },
+          {
+            "name": "Hanyi Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Zhengjun Wang",
+            "orcid": null
+          },
+          {
+            "name": "Rui Feng",
+            "orcid": null
+          },
+          {
+            "name": "Fangkui Sun",
+            "orcid": null
+          },
+          {
+            "name": "Yongyin Cao",
+            "orcid": "https://orcid.org/0000-0002-7377-1549"
+          },
+          {
+            "name": "Liangcai Cao",
+            "orcid": "https://orcid.org/0000-0002-8099-2948"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-10187577/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-10187577/v1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.21203/rs.3.rs-10187577/v1",
+        "publication_date": "2026-08-03",
+        "title": "Partially coherent high-order optical neural networks via pseudo-nonlinear encoding",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-05T13:20:51.775599Z",
+      "status": "found"
+    },
+    "crossref:doi:10.60893/figshare.app.c.8604716.v1": {
+      "expires_at": "2026-09-04T13:20:52.295864Z",
+      "record": null,
+      "retrieved_at": "2026-08-05T13:20:52.295864Z",
+      "status": "not_found"
+    },
     "crossref:title:1123620d5d5cb7d293ab7f67781a69c02946c54c47b3aeb28b88a1538c293468": {
       "expires_at": "2026-08-11T09:38:52.739145Z",
       "record": {
@@ -2296,6 +2376,126 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:30.948780Z",
+      "status": "found"
+    },
+    "openalex:doi:10.21203/rs.3.rs-10187577/v1": {
+      "expires_at": "2026-09-04T13:20:52.127904Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Weiqiang Ding",
+            "orcid": "https://orcid.org/0000-0002-8225-2951"
+          },
+          {
+            "name": "董博杰 Dong Bojie",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoxin Li",
+            "orcid": "https://orcid.org/0000-0001-5856-1634"
+          },
+          {
+            "name": "Zixuan Wang",
+            "orcid": null
+          },
+          {
+            "name": "Qi Jia",
+            "orcid": "https://orcid.org/0000-0001-8537-9328"
+          },
+          {
+            "name": "Bojian Shi",
+            "orcid": null
+          },
+          {
+            "name": "Shuihui Ren",
+            "orcid": null
+          },
+          {
+            "name": "Hanyi Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Zhengjun Wang",
+            "orcid": "https://orcid.org/0000-0002-7667-3012"
+          },
+          {
+            "name": "Rui Feng",
+            "orcid": null
+          },
+          {
+            "name": "Fangkui Sun",
+            "orcid": null
+          },
+          {
+            "name": "Yongyin Cao",
+            "orcid": "https://orcid.org/0000-0002-7377-1549"
+          },
+          {
+            "name": "Liangcai Cao",
+            "orcid": "https://orcid.org/0000-0002-8099-2948"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-10187577/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-10187577/v1",
+        "open_access_url": "https://doi.org/10.21203/rs.3.rs-10187577/v1",
+        "openalex_id": "https://openalex.org/W7172344899",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7172344899",
+        "publication_date": "2026-08-03",
+        "title": "Partially coherent high-order optical neural networks via pseudo-nonlinear encoding",
+        "venue": "Research Square",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-05T13:20:52.127904Z",
+      "status": "found"
+    },
+    "openalex:doi:10.60893/figshare.app.c.8604716.v1": {
+      "expires_at": "2026-09-04T13:20:52.644002Z",
+      "record": {
+        "abstract": "The implementation of reconfigurable nonlinear activation functions (NLAFs) is a key challenge in advancing photonic neural networks to model complex relationships. This work addresses this issue by introducing a device that exploits the phase-dependent optical properties of a Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub> superlattice (GST-SL) integrated on a silicon microring resonator. By manipulating the distinct absorption losses and refractive indices of the GST-SL across its crystallization states, we experimentally demonstrate five different types of nonlinear activation functions, including Half-Sigmoid, ELU, Softplus, ReLU and Radial basis. The characterized functions exhibit a low activation power threshold of 1.76 mW and a high operational speed of up to 1 MHz. In a system-level benchmark using a three-convolutional-block neural network for MNIST handwritten digit classification, our activation functions boost the classification accuracy from 95.35 % to 99.24 %. These results highlight the promising performance and application potential of our device for future on-chip photonic neural networks and advanced optical computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "WenTao Zhong",
+            "orcid": null
+          },
+          {
+            "name": "Lei Lei",
+            "orcid": null
+          },
+          {
+            "name": "Mei Shen",
+            "orcid": null
+          },
+          {
+            "name": "WenLu Zhong",
+            "orcid": null
+          },
+          {
+            "name": "YiDa Dong",
+            "orcid": null
+          },
+          {
+            "name": "HaoQiang Wang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.60893/figshare.app.c.8604716.v1",
+        "landing_page": "https://doi.org/10.60893/figshare.app.c.8604716.v1",
+        "open_access_url": "https://doi.org/10.60893/figshare.app.c.8604716.v1",
+        "openalex_id": "https://openalex.org/W7172259279",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7172259279",
+        "publication_date": "2026-08-03",
+        "title": "Reconfigurable Optical Nonlinear Activation Functions Using a Phase-Change Microring for Photonic Neural Networks",
+        "venue": "AIP Publishing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-05T13:20:52.644002Z",
       "status": "found"
     },
     "openalex:title:78587fbfd52d80d77d5892c55558b240292a8550fcf34daa280fbb6a87d9928d": {

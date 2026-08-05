@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05T03:34:08.084725Z",
+  "built_at": "2026-08-05T13:20:53.052233Z",
   "digest_date": "2026-08-05",
   "digest_version": 1,
   "pending_summary_count": 3,
@@ -13,47 +13,12 @@
   "sections": {
     "must_read": [
       {
-        "candidate_id": "b63d0c87752a364b3611148c",
-        "landing_page": "https://doi.org/10.1038/s41377-026-02394-3",
-        "mandatory": true,
-        "score": 0.88,
-        "source_type": "google_scholar_email",
-        "status": "pending_model_summary",
-        "title": "Bio-inspired backpropagation-free training for optical neural networks",
-        "venue": "Light Science & Applications",
-        "year": 2026
-      },
-      {
-        "candidate_id": "97f076ce54abbfc51b5b73e4",
-        "landing_page": "https://doi.org/10.1038/s41467-026-76128-9",
-        "mandatory": true,
-        "score": 0.85,
-        "source_type": "google_scholar_email",
-        "status": "pending_model_summary",
-        "title": "65 TOPS optoelectronic multi-core computing unlocking multi-feature fusion enhancement",
-        "venue": "Nature Communications",
-        "year": 2026
-      },
-      {
-        "candidate_id": "766ea277f76b9bc9cd30be5d",
-        "landing_page": "https://doi.org/10.1038/s41377-026-02314-5",
-        "mandatory": true,
-        "score": 0.85,
-        "source_type": "google_scholar_email",
-        "status": "pending_model_summary",
-        "title": "All-optical computing towards 100-GHz clock rates",
-        "venue": "Light Science & Applications",
-        "year": 2026
-      }
-    ],
-    "next_candidates": [
-      {
         "candidate_id": "1cf1fcd769c5ace951188b8c",
         "landing_page": "https://doi.org/10.1364/optica.591264",
         "mandatory": false,
         "score": 0.85,
         "source_type": "google_scholar_email",
-        "status": "budgeted_not_in_summary_slot",
+        "status": "pending_model_summary",
         "title": "Distillation-guided optical neural networks with reinforcement learning-assisted calibration",
         "venue": "Optica",
         "year": 2026
@@ -64,9 +29,44 @@
         "mandatory": false,
         "score": 0.83,
         "source_type": "google_scholar_email",
-        "status": "budgeted_not_in_summary_slot",
+        "status": "pending_model_summary",
         "title": "Enhancing the robustness of optical neural networks via joint Mach–Zehnder interferometer phase optimization",
         "venue": "Optical Engineering",
+        "year": 2026
+      },
+      {
+        "candidate_id": "5017adbd33e6ddd5c320a4c4",
+        "landing_page": "https://doi.org/10.1364/cleo_at.2026.jtu.84",
+        "mandatory": false,
+        "score": 0.82,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Integrated diffractive optical neural network with electroabsorption modulators",
+        "venue": "CLEO 2026",
+        "year": 2026
+      }
+    ],
+    "next_candidates": [
+      {
+        "candidate_id": "7d6c2a059923ebe445a1cdf7",
+        "landing_page": "https://doi.org/10.1117/12.3116253",
+        "mandatory": false,
+        "score": 0.76,
+        "source_type": "google_scholar_email",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Scalable photonic tensor core coupled with direct optimization strategy for optical neural networks",
+        "venue": "Third International Conference on Optoelectronic Information and Optical Engineering (OIOE 2026)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "1e35265ce8678ca96adb8b93",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-10187577/v1",
+        "mandatory": false,
+        "score": 0.75,
+        "source_type": "openalex",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Partially coherent high-order optical neural networks via pseudo-nonlinear encoding",
+        "venue": "Research Square",
         "year": 2026
       }
     ]

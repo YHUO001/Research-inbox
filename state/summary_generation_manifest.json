@@ -1,68 +1,59 @@
 {
+  "automatic_history_pending": false,
+  "daily_digest_pending": false,
   "digest_date": "2026-08-05",
-  "digest_json_file": "runtime-state/data/digests/2026-08-05.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-08-05.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.119834,
-  "failure_count": 0,
-  "failures": [],
+  "estimated_cost_cny": 0.057384,
+  "execution_mode": "automatic_daily_batch",
+  "failure_count": 1,
+  "failures": [
+    {
+      "candidate_id": "5017adbd33e6ddd5c320a4c4",
+      "reason": "summary 5017adbd33e6ddd5c320a4c4 failed schema validation: '系统由多个集成光子层组成，每层包含可调电吸收调制器。输入光信号进入第一层，经衍射传播至后续层，最终输出光强分布。' is too short; '训练时，在前向传播中对每个电吸收调制器施加根据温度分布采样的相位和幅度扰动，模拟实际温度变化，然后计算损失函数。' is too short; '使用反向传播算法更新网络参数，损失函数可能为交叉熵或均方误差，优化器采用随机梯度下降或其变体。' is too short; '训练完成后，固定调制器权重，在测试集上评估不同温度下的推理精度，验证热韧性的有效性。' is too short; {'application_tasks': '未明确说明，可能为图像分类或信号处理。', 'architecture_type': 'free_space', 'calibration_requirements': '需要对电吸收调制器的温度-振幅/相位响应进行校准，并在训练中模拟温度变化。', 'hardware_validation': 'unclear', 'optical_nonlinearity': '未提供', 'training_method': '采用热韧性训练策略，在训练时向调制器参数注入温度相关的扰动，具体算法未提供。'} is not valid under any of the given schemas"
+    }
+  ],
   "full_text_method_contexts": {
-    "766ea277f76b9bc9cd30be5d": {
-      "candidate_id": "766ea277f76b9bc9cd30be5d",
-      "character_count": 12000,
-      "content_sha256": "4b046a94f90a868806f2deb3d1716cd866968d865e9258d2cf3bb15cc4fcb537",
-      "elapsed_seconds": 1.183,
-      "error": null,
+    "1cf1fcd769c5ace951188b8c": {
+      "candidate_id": "1cf1fcd769c5ace951188b8c",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 0.664,
+      "error": "Springer Open Access HTTP 401; fell back to abstract",
       "media_type": "application/xml+jats",
-      "section_headings": [
-        "All-optical computer architecture",
-        "Materials and methods",
-        "Experimental setup",
-        "Training procedure"
-      ],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02314-5&p=1",
-      "status": "used",
+      "section_headings": [],
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1364%2Foptica.591264&p=1",
+      "status": "not_available",
       "text_persisted": false
     },
-    "97f076ce54abbfc51b5b73e4": {
-      "candidate_id": "97f076ce54abbfc51b5b73e4",
-      "character_count": 2020,
-      "content_sha256": "2a084d6dc263f24fc52a3181cb1ac1897771e86d646a50852fd2cee3078a5ed1",
-      "elapsed_seconds": 0.924,
-      "error": null,
+    "5017adbd33e6ddd5c320a4c4": {
+      "candidate_id": "5017adbd33e6ddd5c320a4c4",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 0.319,
+      "error": "Springer Open Access HTTP 401; fell back to abstract",
       "media_type": "application/xml+jats",
-      "section_headings": [
-        "implementation"
-      ],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-76128-9&p=1",
-      "status": "used",
+      "section_headings": [],
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1364%2Fcleo_at.2026.jtu.84&p=1",
+      "status": "not_available",
       "text_persisted": false
     },
-    "b63d0c87752a364b3611148c": {
-      "candidate_id": "b63d0c87752a364b3611148c",
-      "character_count": 12000,
-      "content_sha256": "1c5cd81c8399bb7c84df121b1071fc1803a50c0de98635a1d2ef23abf0f1dfca",
-      "elapsed_seconds": 1.276,
-      "error": null,
+    "541094f286db8902f2fe6077": {
+      "candidate_id": "541094f286db8902f2fe6077",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 0.384,
+      "error": "Springer Open Access HTTP 401; fell back to abstract",
       "media_type": "application/xml+jats",
-      "section_headings": [
-        "Design principle and underlying physics of B-ONN",
-        "All-optical in-situ training implementation",
-        "Experimental demonstration of B-ONN",
-        "Materials and methods",
-        "Network architecture and forward propagation",
-        "Backpropagation-free training algorithm",
-        "Training dataset processing",
-        "Optical experimental setup"
-      ],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02394-3&p=1",
-      "status": "used",
+      "section_headings": [],
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1117%2F1.oe.65.7.073102&p=1",
+      "status": "not_available",
       "text_persisted": false
     }
   },
   "full_text_persisted": false,
-  "full_text_used": true,
-  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+  "full_text_used": false,
+  "information_basis": "title_metadata_and_abstract_only",
+  "knowledge_base_pending": false,
   "model": "deepseek-v4-pro",
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
@@ -77,200 +68,165 @@
     "unit_format_ignored": true
   },
   "output_language": "zh-CN",
-  "post_generation_architecture_repairs": 0,
   "provider": "deepseek",
   "request_count": 3,
-  "review_manifest_file": "state/summary_review_manifest.json",
-  "review_numeric_validation": {
-    "absolute_tolerance": 0.02,
-    "approximation_markers_ignored": true,
-    "evidence_sources": [
-      "title",
-      "abstract",
-      "temporary_open_full_text_methods"
-    ],
-    "full_text_persisted": false,
-    "mode": "inherited_completed_loose_full_evidence",
-    "relative_tolerance": 0.02,
-    "scope": "title_abstract_and_open_full_text_loose",
-    "source": "completed_generation_manifest",
-    "unit_format_ignored": true
-  },
-  "review_status": "pending_human_review",
+  "review_required": false,
   "schema_version": 1,
   "stage_timings": {
-    "full_text_preparation_seconds": 3.389,
+    "full_text_preparation_seconds": 1.371,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "b63d0c87752a364b3611148c",
-        "elapsed_seconds": 109.397,
+        "candidate_id": "1cf1fcd769c5ace951188b8c",
+        "elapsed_seconds": 28.189,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2738,
-          "prompt_cache_hit_tokens": 0,
-          "prompt_cache_miss_tokens": 6802,
-          "prompt_tokens": 6802,
-          "total_tokens": 9540
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "b63d0c87752a364b3611148c",
-        "elapsed_seconds": 42.564,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 2163,
-          "prompt_cache_hit_tokens": 6784,
-          "prompt_cache_miss_tokens": 48,
-          "prompt_tokens": 6832,
-          "total_tokens": 8995
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "97f076ce54abbfc51b5b73e4",
-        "elapsed_seconds": 34.484,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1706,
-          "prompt_cache_hit_tokens": 0,
-          "prompt_cache_miss_tokens": 3770,
-          "prompt_tokens": 3770,
-          "total_tokens": 5476
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "766ea277f76b9bc9cd30be5d",
-        "elapsed_seconds": 106.903,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 3598,
+          "completion_tokens": 1483,
           "prompt_cache_hit_tokens": 1792,
-          "prompt_cache_miss_tokens": 4408,
-          "prompt_tokens": 6200,
-          "total_tokens": 9798
+          "prompt_cache_miss_tokens": 1526,
+          "prompt_tokens": 3318,
+          "total_tokens": 4801
         }
       },
       {
         "attempt": 2,
-        "candidate_id": "766ea277f76b9bc9cd30be5d",
-        "elapsed_seconds": 44.929,
+        "candidate_id": "1cf1fcd769c5ace951188b8c",
+        "elapsed_seconds": 32.376,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2146,
-          "prompt_cache_hit_tokens": 6144,
-          "prompt_cache_miss_tokens": 92,
-          "prompt_tokens": 6236,
-          "total_tokens": 8382
+          "completion_tokens": 1747,
+          "prompt_cache_hit_tokens": 3200,
+          "prompt_cache_miss_tokens": 143,
+          "prompt_tokens": 3343,
+          "total_tokens": 5090
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "541094f286db8902f2fe6077",
+        "elapsed_seconds": 32.634,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1839,
+          "prompt_cache_hit_tokens": 1792,
+          "prompt_cache_miss_tokens": 1487,
+          "prompt_tokens": 3279,
+          "total_tokens": 5118
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "5017adbd33e6ddd5c320a4c4",
+        "elapsed_seconds": 23.589,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1268,
+          "prompt_cache_hit_tokens": 1792,
+          "prompt_cache_miss_tokens": 1243,
+          "prompt_tokens": 3035,
+          "total_tokens": 4303
+        }
+      },
+      {
+        "attempt": 2,
+        "candidate_id": "5017adbd33e6ddd5c320a4c4",
+        "elapsed_seconds": 15.232,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 829,
+          "prompt_cache_hit_tokens": 2944,
+          "prompt_cache_miss_tokens": 301,
+          "prompt_tokens": 3245,
+          "total_tokens": 4074
         }
       }
     ],
-    "model_generation_and_validation_seconds": 338.306
+    "model_generation_and_validation_seconds": 132.042
   },
-  "status": "completed",
-  "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-08-05.jsonl",
-  "summary_file_sha256": "84755129ca860d38c72fffcad5500f35aa1507421a6c26fa2359dd930f414fb0",
-  "summary_generation_version": 6,
+  "status": "failed_validation",
+  "summary_count": 2,
+  "summary_generation_version": 8,
   "summary_history_updated": false,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "766ea277f76b9bc9cd30be5d": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "free_space",
-        "repaired": true,
-        "resolved_type": "unclear"
-      },
-      "97f076ce54abbfc51b5b73e4": {
+      "1cf1fcd769c5ace951188b8c": {
         "free_space_evidence": [],
         "integrated_evidence": [
-          "Integrating four optical analog cores on a monolithic chip, the OPU supports 124-channel parallel task processing, achieving 65.04 trillion operations per second (TOPS) computational speed and 5.16 TOPS/mm2 compute density."
+          "However, practical on-chip training of optical neural networks remains challenging because gradient estimation, hardware nonidealities, and device-compatible parameter updates are difficult to handle directly in optical systems.",
+          "Here, we propose an on-chip training distillation-guided optical neural network (DGONN) and introduce a forward distillation algorithm to address these challenges.",
+          "Additionally, deep reinforcement learning further enables the controllability and stability of the on-chip optical system."
         ],
         "model_value": "integrated",
         "repaired": false,
         "resolved_type": "integrated"
       },
-      "b63d0c87752a364b3611148c": {
+      "5017adbd33e6ddd5c320a4c4": {
         "free_space_evidence": [
-          "We physically validated B-ONN using a programmable spatial light modulator (SLM) system, achieving 95% accuracy in handwritten digit recognition."
+          "We demonstrate an integrated diffractive optical neural network using Franz-Keldysh-based electroabsorption modulators, analyze the impact of temperature variations on system performance, and develop a thermal-resilient training strategy."
         ],
-        "integrated_evidence": [
-          "Furthermore, we successfully implemented chip-scale integration via nano printing, maintaining 94% accuracy, confirming B-ONN's effective transferability from programmable setups to fixed devices."
-        ],
+        "integrated_evidence": [],
+        "model_value": "integrated",
+        "repaired": true,
+        "resolved_type": "free_space"
+      },
+      "541094f286db8902f2fe6077": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
         "model_value": "free_space",
         "repaired": true,
-        "resolved_type": "hybrid"
+        "resolved_type": "unclear"
       }
     },
     "architecture_repairs": 3,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "766ea277f76b9bc9cd30be5d": {
-        "candidate_id": "766ea277f76b9bc9cd30be5d",
-        "character_count": 12000,
-        "content_sha256": "4b046a94f90a868806f2deb3d1716cd866968d865e9258d2cf3bb15cc4fcb537",
-        "elapsed_seconds": 1.183,
-        "error": null,
+      "1cf1fcd769c5ace951188b8c": {
+        "candidate_id": "1cf1fcd769c5ace951188b8c",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 0.664,
+        "error": "Springer Open Access HTTP 401; fell back to abstract",
         "media_type": "application/xml+jats",
-        "section_headings": [
-          "All-optical computer architecture",
-          "Materials and methods",
-          "Experimental setup",
-          "Training procedure"
-        ],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02314-5&p=1",
-        "status": "used",
+        "section_headings": [],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1364%2Foptica.591264&p=1",
+        "status": "not_available",
         "text_persisted": false
       },
-      "97f076ce54abbfc51b5b73e4": {
-        "candidate_id": "97f076ce54abbfc51b5b73e4",
-        "character_count": 2020,
-        "content_sha256": "2a084d6dc263f24fc52a3181cb1ac1897771e86d646a50852fd2cee3078a5ed1",
-        "elapsed_seconds": 0.924,
-        "error": null,
+      "5017adbd33e6ddd5c320a4c4": {
+        "candidate_id": "5017adbd33e6ddd5c320a4c4",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 0.319,
+        "error": "Springer Open Access HTTP 401; fell back to abstract",
         "media_type": "application/xml+jats",
-        "section_headings": [
-          "implementation"
-        ],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-76128-9&p=1",
-        "status": "used",
+        "section_headings": [],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1364%2Fcleo_at.2026.jtu.84&p=1",
+        "status": "not_available",
         "text_persisted": false
       },
-      "b63d0c87752a364b3611148c": {
-        "candidate_id": "b63d0c87752a364b3611148c",
-        "character_count": 12000,
-        "content_sha256": "1c5cd81c8399bb7c84df121b1071fc1803a50c0de98635a1d2ef23abf0f1dfca",
-        "elapsed_seconds": 1.276,
-        "error": null,
+      "541094f286db8902f2fe6077": {
+        "candidate_id": "541094f286db8902f2fe6077",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 0.384,
+        "error": "Springer Open Access HTTP 401; fell back to abstract",
         "media_type": "application/xml+jats",
-        "section_headings": [
-          "Design principle and underlying physics of B-ONN",
-          "All-optical in-situ training implementation",
-          "Experimental demonstration of B-ONN",
-          "Materials and methods",
-          "Network architecture and forward propagation",
-          "Backpropagation-free training algorithm",
-          "Training dataset processing",
-          "Optical experimental setup"
-        ],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02394-3&p=1",
-        "status": "used",
+        "section_headings": [],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1117%2F1.oe.65.7.073102&p=1",
+        "status": "not_available",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 1,
-    "tops_alias_expansions": 53,
-    "unit_format_normalization_responses": 3
+    "generation_metadata_repair_responses": 0,
+    "tops_alias_expansions": 0,
+    "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 12351,
-    "prompt_cache_hit_tokens": 14720,
-    "prompt_cache_miss_tokens": 15120,
-    "prompt_tokens": 29840,
-    "total_tokens": 42191
+    "completion_tokens": 7166,
+    "prompt_cache_hit_tokens": 11520,
+    "prompt_cache_miss_tokens": 4700,
+    "prompt_tokens": 16220,
+    "total_tokens": 23386
   }
 }

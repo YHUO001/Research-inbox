@@ -1,9 +1,9 @@
 {
-  "built_at": "2026-08-04T11:27:51.542591Z",
-  "candidate_count": 30,
+  "built_at": "2026-08-05T13:20:52.644002Z",
+  "candidate_count": 32,
   "enrichment_version": 1,
   "match_counts": {
-    "exact": 25,
+    "exact": 27,
     "high": 0,
     "unresolved": 5
   },
@@ -11,17 +11,17 @@
   "provider_attempt_counts": {
     "crossref": {
       "error": 0,
-      "found": 25,
-      "not_found": 5,
+      "found": 26,
+      "not_found": 6,
       "skipped": 0
     },
     "openalex": {
       "error": 0,
-      "found": 25,
+      "found": 27,
       "not_found": 5,
       "skipped": 0
     }
   },
   "schema_version": 1,
-  "source_registry_sha256": "c87cb5f4d4232ec64b7edabaf61d7b7244d75b02c14ebef038019ff6d76edaae"
+  "source_registry_sha256": "23ac9ba97dd70b9d68cac42436a9f627c5735b0bc04d554e7c8e896deb37e57d"
 }
