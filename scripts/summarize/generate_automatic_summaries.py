@@ -19,16 +19,18 @@ def validate_automatic_config(config: dict[str, Any]) -> None:
     review = config.get("review") or {}
     if automation.get("enabled") is not True:
         raise RuntimeError("Automatic summary orchestration must be enabled")
-    if automation.get("mode") != "automatic_after_discovery":
-        raise RuntimeError("Automatic generation requires automatic_after_discovery")
+    if automation.get("mode") != "automatic_daily_batch":
+        raise RuntimeError("Automatic generation requires automatic_daily_batch")
     if automation.get("update_summary_history_after_validation") is not True:
         raise RuntimeError("Automatic generation must complete history after validation")
     if automation.get("all_or_nothing_batch") is not True:
         raise RuntimeError("Automatic generation requires all-or-nothing batches")
     if automation.get("review_required") or review.get("required"):
         raise RuntimeError("Human review must be disabled during automatic generation")
-    if automation.get("email_enabled") or execution.get("email_enabled"):
-        raise RuntimeError("Email delivery must remain disabled during generation")
+    if execution.get("email_enabled"):
+        raise RuntimeError("The generator must not send email directly")
+    if automation.get("delivery_mode") != "separate_daily_digest_workflow":
+        raise RuntimeError("Email delivery must remain in the daily digest workflow")
 
 
 def compatibility_config(config: dict[str, Any]) -> dict[str, Any]:
@@ -86,9 +88,11 @@ def generate_automatic(
 
     manifest = load_json(manifest_path, {})
     if isinstance(manifest, dict) and manifest:
-        manifest["execution_mode"] = "automatic_after_discovery"
+        manifest["execution_mode"] = "automatic_daily_batch"
         manifest["review_required"] = False
         manifest["automatic_history_pending"] = manifest.get("status") == "completed"
+        manifest["knowledge_base_pending"] = manifest.get("status") == "completed"
+        manifest["daily_digest_pending"] = manifest.get("status") == "completed"
         atomic_write(
             manifest_path,
             json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
