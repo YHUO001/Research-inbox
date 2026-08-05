@@ -1,0 +1,76 @@
+{
+  "built_at": "2026-08-05T00:50:44.814047Z",
+  "digest_date": "2026-08-05",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "b63d0c87752a364b3611148c",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02394-3",
+        "mandatory": true,
+        "score": 0.88,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Bio-inspired backpropagation-free training for optical neural networks",
+        "venue": "Light Science & Applications",
+        "year": 2026
+      },
+      {
+        "candidate_id": "97f076ce54abbfc51b5b73e4",
+        "landing_page": "https://doi.org/10.1038/s41467-026-76128-9",
+        "mandatory": true,
+        "score": 0.85,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "65 TOPS optoelectronic multi-core computing unlocking multi-feature fusion enhancement",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      {
+        "candidate_id": "766ea277f76b9bc9cd30be5d",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02314-5",
+        "mandatory": true,
+        "score": 0.85,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "All-optical computing towards 100-GHz clock rates",
+        "venue": "Light Science & Applications",
+        "year": 2026
+      }
+    ],
+    "next_candidates": [
+      {
+        "candidate_id": "1cf1fcd769c5ace951188b8c",
+        "landing_page": "https://doi.org/10.1364/optica.591264",
+        "mandatory": false,
+        "score": 0.85,
+        "source_type": "google_scholar_email",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Distillation-guided optical neural networks with reinforcement learning-assisted calibration",
+        "venue": "Optica",
+        "year": 2026
+      },
+      {
+        "candidate_id": "541094f286db8902f2fe6077",
+        "landing_page": "https://doi.org/10.1117/1.oe.65.7.073102",
+        "mandatory": false,
+        "score": 0.83,
+        "source_type": "google_scholar_email",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Enhancing the robustness of optical neural networks via joint Mach–Zehnder interferometer phase optimization",
+        "venue": "Optical Engineering",
+        "year": 2026
+      }
+    ]
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}
