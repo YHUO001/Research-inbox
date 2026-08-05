@@ -144,15 +144,54 @@ def test_recovers_idempotency_from_sent_mail_when_state_is_missing(tmp_path: Pat
     assert state["sent_digests"]["2026-08-05"]["status"] == "already_sent"
 
 
-def test_skips_when_no_completed_digest_exists(tmp_path: Path) -> None:
+def test_sends_an_empty_daily_digest_when_no_summary_slot_exists(tmp_path: Path) -> None:
+    write_json(
+        tmp_path / "state/selection_manifest.json",
+        {"summary_slot_count": 0, "eligible_candidate_count": 0},
+    )
+    write_json(
+        tmp_path / "state/unified_registry_manifest.json",
+        {"unified_candidate_count": 12, "merged_group_count": 2},
+    )
+    write_json(
+        tmp_path / "state/openalex_discovery_manifest.json",
+        {"accepted_count": 0},
+    )
+    write_json(
+        tmp_path / "state/routing_manifest.json",
+        {"route_counts": {"metadata_enrichment_queue": 1, "manual_review_queue": 0}},
+    )
     service = FakeService()
+
     result = send_daily_digest(
         config_path=ROOT / "config/email_delivery.yaml",
         state_root=tmp_path,
         digest_date="2026-08-05",
         service=service,
     )
-    assert result["status"] == "skipped_no_completed_digest"
-    assert service.message_api.list_calls == []
-    assert service.message_api.send_calls == []
-    assert not (tmp_path / "state/email_delivery_state.json").exists()
+
+    assert result["status"] == "sent"
+    assert result["summary_count"] == 0
+    assert result["content_status"] == "empty_daily_digest"
+    assert len(service.message_api.send_calls) == 1
+    raw = base64.urlsafe_b64decode(service.message_api.send_calls[0]["body"]["raw"])
+    parsed = BytesParser(policy=policy.default).parsebytes(raw)
+    assert "今天没有新的论文进入自动摘要名额" in parsed.get_content()
+    assert "没有产生模型 token 费用" in parsed.get_content()
+
+
+def test_missing_digest_is_an_error_when_summaries_were_selected(tmp_path: Path) -> None:
+    write_json(tmp_path / "state/selection_manifest.json", {"summary_slot_count": 1})
+    service = FakeService()
+
+    try:
+        send_daily_digest(
+            config_path=ROOT / "config/email_delivery.yaml",
+            state_root=tmp_path,
+            digest_date="2026-08-05",
+            service=service,
+        )
+    except RuntimeError as error:
+        assert "completed digest artifact is missing" in str(error)
+    else:
+        raise AssertionError("Expected missing selected digest to fail")

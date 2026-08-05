@@ -21,8 +21,9 @@ recipient_policy:
 
 schedule:
   timezone: "Asia/Singapore"
-  local_time: "22:15"
-  send_empty_digest: false
+  local_time: "after_unified_daily_pipeline"
+  delivery_trigger: "end_of_unified_daily_pipeline"
+  send_empty_digest: true
 
 message_policy:
   delivery_mode: "daily_digest_only"

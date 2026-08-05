@@ -1,17 +1,11 @@
-name: Daily Research Inbox
+name: Unified Daily Research Inbox
 
 on:
   schedule:
-    # Singapore time: primary run at 08:17; 20:47 is retry-only.
+    # Singapore time: primary run at 08:17; 20:47 retries only missing sources.
     - cron: "17 0 * * *"
     - cron: "47 12 * * *"
   workflow_dispatch:
-    inputs:
-      force_openalex:
-        description: "Ignore the OpenAlex interval gate during this manual run"
-        required: false
-        default: false
-        type: boolean
 
 permissions:
   contents: write
@@ -21,9 +15,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  unified-discovery:
+  unified-daily-pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
 
     steps:
       - name: Check out pipeline code
@@ -50,21 +44,22 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
-      - name: Decide whether unified discovery should run
-        id: schedule_gate
+      - name: Plan primary or retry source collection
+        id: source_plan
         env:
           EVENT_NAME: ${{ github.event_name }}
           EVENT_SCHEDULE: ${{ github.event.schedule }}
         run: |
-          python -m scripts.ingest.scholar_schedule_gate \
-            --state-path runtime-state/state/unified_discovery_state.json \
+          python -m scripts.pipeline.daily_source_gate plan \
+            --gmail-state-path runtime-state/state/gmail_ingestion_state.json \
+            --openalex-state-path runtime-state/state/openalex_discovery_state.json \
             --event-name "${EVENT_NAME}" \
             --event-schedule "${EVENT_SCHEDULE}" \
             --github-output "${GITHUB_OUTPUT}"
 
-      - name: Collect new Scholar alerts
-        id: collect
-        if: steps.schedule_gate.outputs.should_run == 'true'
+      - name: Collect Google Scholar alerts
+        id: scholar
+        if: steps.source_plan.outputs.run_scholar == 'true'
         shell: bash
         env:
           GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
@@ -76,22 +71,18 @@ jobs:
             --config config/google_scholar_alerts.yaml \
             --state-dir runtime-state/state \
             --output-dir runtime-state/data
-          collector_exit_code=$?
-          echo "exit_code=${collector_exit_code}" >> "${GITHUB_OUTPUT}"
+          exit_code=$?
+          echo "exit_code=${exit_code}" >> "${GITHUB_OUTPUT}"
           exit 0
 
-      - name: Discover recent OpenAlex candidates
+      - name: Discover OpenAlex papers
         id: openalex
-        if: steps.schedule_gate.outputs.should_run == 'true'
+        if: steps.source_plan.outputs.run_openalex == 'true'
         shell: bash
         env:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: |
           set +e
-          FORCE_ARG=""
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.force_openalex }}" == "true" ]]; then
-            FORCE_ARG="--force"
-          fi
           python -m scripts.discovery.openalex_discovery \
             --config config/openalex_discovery.yaml \
             --registry-path runtime-state/data/paper_registry.jsonl \
@@ -100,59 +91,58 @@ jobs:
             --schema schemas/openalex_candidate.schema.json \
             --recognition config/recognition_rules.yaml \
             --venues config/venues.yaml \
-            ${FORCE_ARG}
-          openalex_exit_code=$?
-          echo "exit_code=${openalex_exit_code}" >> "${GITHUB_OUTPUT}"
+            --force
+          exit_code=$?
+          echo "exit_code=${exit_code}" >> "${GITHUB_OUTPUT}"
           exit 0
 
-      - name: Rebuild unified deterministic routes
-        id: route
-        if: steps.schedule_gate.outputs.should_run == 'true'
-        shell: bash
+      - name: Verify both discovery sources completed today
+        id: readiness
+        if: steps.source_plan.outputs.should_run == 'true'
         run: |
-          set +e
-          python -m scripts.pipeline.route_registry \
-            --registry-path runtime-state/data/paper_registry.jsonl \
-            --recognition-path runtime-state/data/recognition_results.jsonl \
-            --queue-dir runtime-state/data/queues \
-            --manifest-path runtime-state/state/routing_manifest.json
-          route_exit_code=$?
-          echo "exit_code=${route_exit_code}" >> "${GITHUB_OUTPUT}"
-          exit 0
+          python -m scripts.pipeline.daily_source_gate verify \
+            --gmail-state-path runtime-state/state/gmail_ingestion_state.json \
+            --openalex-state-path runtime-state/state/openalex_discovery_state.json \
+            --github-output "${GITHUB_OUTPUT}"
 
-      - name: Refresh normalized metadata
-        id: enrich
-        if: >-
-          steps.schedule_gate.outputs.should_run == 'true' &&
-          steps.route.outputs.exit_code == '0'
-        shell: bash
+      - name: Reconcile Scholar and OpenAlex into one registry
+        if: steps.readiness.outputs.ready == 'true'
+        run: |
+          python -m scripts.pipeline.reconcile_registry \
+            --raw-registry-path runtime-state/data/paper_registry.jsonl \
+            --unified-registry-path runtime-state/data/unified_paper_registry.jsonl \
+            --alias-path runtime-state/state/unified_candidate_aliases.json \
+            --manifest-path runtime-state/state/unified_registry_manifest.json \
+            --history-path runtime-state/state/summary_history.json
+
+      - name: Refresh normalized metadata for unified registry
+        if: steps.readiness.outputs.ready == 'true'
         env:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           RESEARCH_INBOX_CONTACT_EMAIL: ${{ vars.RESEARCH_INBOX_CONTACT_EMAIL }}
         run: |
-          set +e
           python -m scripts.enrich.enrich_registry \
-            --registry-path runtime-state/data/paper_registry.jsonl \
+            --registry-path runtime-state/data/unified_paper_registry.jsonl \
             --output-path runtime-state/data/enriched_paper_registry.jsonl \
             --manifest-path runtime-state/state/enrichment_manifest.json \
             --cache-path runtime-state/state/enrichment_cache.json \
             --config config/metadata_enrichment.yaml \
             --schema schemas/enriched_paper.schema.json
-          enrich_exit_code=$?
-          echo "exit_code=${enrich_exit_code}" >> "${GITHUB_OUTPUT}"
-          exit 0
 
-      - name: Build unified scores and budgeted queue
-        id: score
-        if: >-
-          steps.schedule_gate.outputs.should_run == 'true' &&
-          steps.route.outputs.exit_code == '0' &&
-          steps.enrich.outputs.exit_code == '0'
-        shell: bash
+      - name: Rebuild deterministic routes from unified registry
+        if: steps.readiness.outputs.ready == 'true'
         run: |
-          set +e
+          python -m scripts.pipeline.route_registry \
+            --registry-path runtime-state/data/unified_paper_registry.jsonl \
+            --recognition-path runtime-state/data/recognition_results.jsonl \
+            --queue-dir runtime-state/data/queues \
+            --manifest-path runtime-state/state/routing_manifest.json
+
+      - name: Build deterministic scores and budgeted queue
+        if: steps.readiness.outputs.ready == 'true'
+        run: |
           python -m scripts.pipeline.score_registry \
-            --registry-path runtime-state/data/paper_registry.jsonl \
+            --registry-path runtime-state/data/unified_paper_registry.jsonl \
             --enriched-path runtime-state/data/enriched_paper_registry.jsonl \
             --recognition-path runtime-state/data/recognition_results.jsonl \
             --history-path runtime-state/state/summary_history.json \
@@ -162,88 +152,151 @@ jobs:
             --config config/scoring.yaml \
             --scoring-schema schemas/scoring_result.schema.json \
             --queue-schema schemas/llm_candidate.schema.json
-          score_exit_code=$?
-          echo "exit_code=${score_exit_code}" >> "${GITHUB_OUTPUT}"
-          exit 0
 
-      - name: Mark unified discovery success
-        if: >-
-          steps.schedule_gate.outputs.should_run == 'true' &&
-          steps.collect.outputs.exit_code == '0' &&
-          steps.openalex.outputs.exit_code == '0' &&
-          steps.route.outputs.exit_code == '0' &&
-          steps.enrich.outputs.exit_code == '0' &&
-          steps.score.outputs.exit_code == '0'
+      - name: Prepare automatic summary requests
+        id: prepare
+        if: steps.readiness.outputs.ready == 'true'
+        env:
+          FILTERED_QUEUE: ${{ runner.temp }}/automatic-summary-queue.jsonl
         run: |
+          python -m scripts.summarize.prepare_automatic_digest \
+            --queue-path runtime-state/data/queues/llm_candidate_queue.jsonl \
+            --history-path runtime-state/state/summary_history.json \
+            --selection-manifest-path runtime-state/state/selection_manifest.json \
+            --config config/summary_generation.yaml \
+            --request-schema schemas/summary_request.schema.json \
+            --summary-schema schemas/paper_summary.schema.json \
+            --output-root runtime-state/data \
+            --manifest-path runtime-state/state/summary_generation_manifest.json \
+            --filtered-queue-path "${FILTERED_QUEUE}"
           python - <<'PY'
           import json
-          from datetime import datetime, timezone
+          import os
           from pathlib import Path
-          from zoneinfo import ZoneInfo
 
-          now = datetime.now(timezone.utc)
-          state = {
-              "schema_version": 1,
-              "last_successful_run_at": now.isoformat().replace("+00:00", "Z"),
-              "last_successful_local_date": now.astimezone(
-                  ZoneInfo("Asia/Singapore")
-              ).date().isoformat(),
-              "components": {
-                  "google_scholar": "success",
-                  "openalex": "success_or_interval_skip",
-                  "routing": "success",
-                  "enrichment": "success",
-                  "scoring": "success",
-              },
-          }
-          path = Path("runtime-state/state/unified_discovery_state.json")
-          path.parent.mkdir(parents=True, exist_ok=True)
-          temporary = path.with_suffix(".tmp")
-          temporary.write_text(
-              json.dumps(state, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
-              encoding="utf-8",
+          manifest = json.loads(
+              Path("runtime-state/state/summary_generation_manifest.json").read_text(
+                  encoding="utf-8"
+              )
           )
-          temporary.replace(path)
+          with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as handle:
+              handle.write(f"request_count={int(manifest.get('request_count') or 0)}\n")
+              handle.write(f"status={manifest.get('status') or 'unknown'}\n")
           PY
 
-      - name: Persist unified discovery state
+      - name: Prepare open full-text method context
+        if: steps.prepare.outputs.request_count != '0'
+        env:
+          SPRINGER_NATURE_API_KEY: ${{ secrets.SPRINGER_NATURE_API_KEY }}
+          PREPARED_ROOT: ${{ runner.temp }}/research-inbox-generation
+        run: |
+          rm -rf "${PREPARED_ROOT}"
+          mkdir -p "${PREPARED_ROOT}"
+          python -m scripts.summarize.prepare_fulltext_bounded \
+            --dry-run-manifest-path runtime-state/state/summary_generation_manifest.json \
+            --config config/summary_generation.yaml \
+            --prepared-root "${PREPARED_ROOT}"
+          cat "${PREPARED_ROOT}/fulltext_preparation.json"
+
+      - name: Generate and locally validate DeepSeek summaries
+        id: generate
+        if: steps.prepare.outputs.request_count != '0'
+        shell: bash
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          PREPARED_ROOT: ${{ runner.temp }}/research-inbox-generation
+        run: |
+          set +e
+          python -m scripts.summarize.generate_automatic_summaries \
+            --dry-run-manifest-path runtime-state/state/summary_generation_manifest.json \
+            --summary-schema schemas/paper_summary.schema.json \
+            --config config/summary_generation.yaml \
+            --prepared-root "${PREPARED_ROOT}" \
+            --output-root runtime-state/data \
+            --manifest-path runtime-state/state/summary_generation_manifest.json
+          exit_code=$?
+          echo "exit_code=${exit_code}" >> "${GITHUB_OUTPUT}"
+          if [ -f runtime-state/state/summary_generation_manifest.json ]; then
+            cat runtime-state/state/summary_generation_manifest.json
+          fi
+          exit 0
+
+      - name: Add DOI links and finalize automatically
+        if: >-
+          steps.prepare.outputs.request_count != '0' &&
+          steps.generate.outputs.exit_code == '0'
+        run: |
+          python -m scripts.summarize.add_digest_doi_links \
+            --generation-manifest-path runtime-state/state/summary_generation_manifest.json \
+            --output-root runtime-state/data
+          python -m scripts.summarize.finalize_automatic \
+            --generation-manifest-path runtime-state/state/summary_generation_manifest.json \
+            --history-path runtime-state/state/summary_history.json \
+            --summary-schema schemas/paper_summary.schema.json \
+            --config config/summary_generation.yaml
+
+      - name: Update long-term knowledge index
+        if: >-
+          steps.prepare.outputs.request_count != '0' &&
+          steps.generate.outputs.exit_code == '0'
+        run: |
+          python -m scripts.knowledge.build_index \
+            --generation-manifest-path runtime-state/state/summary_generation_manifest.json \
+            --output-root runtime-state/data \
+            --manifest-path runtime-state/state/knowledge_base_manifest.json
+
+      - name: Send one daily Chinese digest
+        id: send
+        if: >-
+          steps.readiness.outputs.ready == 'true' &&
+          (steps.prepare.outputs.request_count == '0' || steps.generate.outputs.exit_code == '0')
+        shell: bash
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+        run: |
+          set +e
+          python -m scripts.delivery.send_daily_digest \
+            --config config/email_delivery.yaml \
+            --state-root runtime-state
+          exit_code=$?
+          echo "exit_code=${exit_code}" >> "${GITHUB_OUTPUT}"
+          exit 0
+
+      - name: Persist unified daily state
         if: always()
         shell: bash
         run: |
           cd runtime-state
           git config user.name "research-inbox-bot"
           git config user.email "research-inbox-bot@users.noreply.github.com"
-          git add state data
-
+          mkdir -p data/queues data/summary_requests data/summaries data/digests data/knowledge_base state
+          git add -A -- data state
           if git diff --cached --quiet; then
-            echo "No unified discovery changes to persist."
+            echo "No unified daily state changes to persist."
             exit 0
           fi
-
-          git commit -m "Update unified research discovery state [skip ci]"
+          git commit -m "Run unified daily research inbox [skip ci]"
           git pull --rebase origin automation-state
           git push origin HEAD:automation-state
 
-      - name: Fail after persisting retry diagnostics
-        if: always() && steps.schedule_gate.outputs.should_run == 'true'
-        shell: bash
-        env:
-          SCHOLAR_EXIT: ${{ steps.collect.outputs.exit_code }}
-          OPENALEX_EXIT: ${{ steps.openalex.outputs.exit_code }}
-          ROUTE_EXIT: ${{ steps.route.outputs.exit_code }}
-          ENRICH_EXIT: ${{ steps.enrich.outputs.exit_code }}
-          SCORE_EXIT: ${{ steps.score.outputs.exit_code }}
+      - name: Fail when one discovery source is still unavailable
+        if: >-
+          steps.source_plan.outputs.should_run == 'true' &&
+          steps.readiness.outputs.ready != 'true'
         run: |
-          for item in \
-            "Scholar:${SCHOLAR_EXIT:-1}" \
-            "OpenAlex:${OPENALEX_EXIT:-1}" \
-            "Routing:${ROUTE_EXIT:-1}" \
-            "Enrichment:${ENRICH_EXIT:-1}" \
-            "Scoring:${SCORE_EXIT:-1}"; do
-            name="${item%%:*}"
-            code="${item##*:}"
-            if [[ "${code}" != "0" ]]; then
-              echo "${name} failed with exit code ${code}."
-              exit "${code}"
-            fi
-          done
+          echo "Missing sources: ${{ steps.readiness.outputs.missing_sources }}"
+          exit 1
+
+      - name: Fail after persisting summary validation diagnostics
+        if: >-
+          steps.prepare.outputs.request_count != '0' &&
+          steps.generate.outputs.exit_code != '0'
+        run: exit "${{ steps.generate.outputs.exit_code }}"
+
+      - name: Fail after persisting email delivery diagnostics
+        if: >-
+          steps.send.outcome == 'success' &&
+          steps.send.outputs.exit_code != '0'
+        run: exit "${{ steps.send.outputs.exit_code }}"

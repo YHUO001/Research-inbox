@@ -1,9 +1,6 @@
-name: Generate DeepSeek Summaries
+name: Generate DeepSeek Summaries (Manual)
 
 on:
-  schedule:
-    # Singapore time 21:30, after Scholar retry and OpenAlex discovery.
-    - cron: "30 13 * * *"
   workflow_dispatch:
 
 permissions:
