@@ -32,12 +32,7 @@ def _numeric_occurrences(text: str) -> list[tuple[str, Decimal]]:
 
 
 def _close_enough(output: Decimal, source: Decimal) -> bool:
-    """Allow natural approximation and small rounding differences.
-
-    The tolerance is two percent of the source magnitude, with a small absolute
-    floor of 0.02 for values close to zero. Units and approximation markers are
-    intentionally ignored; only the numerical value must occur in the evidence.
-    """
+    """Allow natural approximation and small rounding differences."""
 
     tolerance = max(Decimal("0.02"), abs(source) * Decimal("0.02"))
     return abs(output - source) <= tolerance
@@ -58,17 +53,6 @@ def shared_numeric_grounding(
         if not any(_close_enough(output_value, source_value) for source_value in source_values):
             unsupported.add(raw)
     return sorted(unsupported)
-
-
-def validate_full_text_safety(config: dict[str, Any]) -> None:
-    execution = config.get("execution") or {}
-    full_text = config.get("full_text") or {}
-    if execution.get("use_full_text") and not full_text.get("open_access_only"):
-        raise RuntimeError("Full-text method context must remain open-access-only")
-    if full_text.get("persist_extracted_text"):
-        raise RuntimeError("Extracted full text must not be persisted")
-    if full_text.get("numeric_grounding_scope") != _GROUNDING_SCOPE:
-        raise RuntimeError("Numeric grounding must use loose title, abstract, and open-full-text evidence")
 
 
 def system_prompt(*args: Any, **kwargs: Any) -> str:
@@ -114,7 +98,6 @@ def _mark_manifest_scope(path: Path) -> None:
 
 def main() -> int:
     pipeline.shared_numeric_grounding = shared_numeric_grounding
-    pipeline.validate_full_text_safety = validate_full_text_safety
     pipeline.summary_core.system_prompt = system_prompt
     pipeline.summary_core.render_markdown = render_markdown
     manifest_path = _manifest_path(sys.argv[1:])
