@@ -1,5 +1,5 @@
-summary_generation_version: 7
-prompt_version: 3
+summary_generation_version: 6
+prompt_version: 2
 
 execution:
   mode: "manual_provider_validation"
@@ -50,10 +50,8 @@ full_text:
   allow_direct_nature_urls: false
   allow_non_springer_open_urls: true
   persist_extracted_text: false
-  qualitative_methods_only: false
-  numeric_grounding_scope: "title_abstract_and_open_full_text_loose"
-  numeric_relative_tolerance: 0.02
-  numeric_absolute_tolerance: 0.02
+  qualitative_methods_only: true
+  numeric_grounding_scope: "title_and_abstract_only"
   maximum_download_bytes: 15000000
   maximum_method_characters: 12000
   timeout_seconds: 10
@@ -99,6 +97,9 @@ grounding:
   information_basis: "title_metadata_abstract_and_optional_open_full_text_methods"
   require_reported_by_authors_marker: true
   reject_unsupported_numeric_claims: true
+  numeric_matching_mode: "loose_full_evidence"
+  numeric_relative_tolerance: 0.02
+  numeric_absolute_tolerance: 0.02
   unavailable_value: "not_available"
   enforce_onn_architecture_evidence: true
 
