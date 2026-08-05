@@ -141,7 +141,10 @@ def test_failed_full_text_without_abstract_skips_before_model(tmp_path: Path) ->
 
 def test_abstract_depth_is_shorter_but_full_text_depth_remains_strict() -> None:
     summary = {
-        "method_principle": "摘要说明训练阶段加入温度相关扰动，使模型学习对环境变化更稳定的参数，但没有给出更细的算法和硬件执行步骤。",
+        "method_principle": (
+            "摘要说明训练阶段加入温度相关扰动，使模型学习对环境变化更稳定的参数，"
+            "并通过在不同温度条件下比较输出表现来检验这种训练策略；更细的算法、器件控制和实验执行步骤没有在摘要中给出。"
+        ),
         "method_implementation": [
             "先建立摘要描述的光学网络，再在训练阶段加入温度扰动并评估输出稳定性，其他细节未提供。"
         ],
