@@ -207,12 +207,11 @@ def test_strict_runs_keep_local_numeric_validation(tmp_path: Path, monkeypatch) 
     assert state == {"status": "pending_human_review"}
 
 
-def test_workflows_use_compatible_review_builder() -> None:
+def test_legacy_review_builder_is_not_used_by_production_workflow() -> None:
     root = Path(__file__).resolve().parents[1]
-    for workflow in (
-        root / ".github/workflows/generate-deepseek-summaries.yml",
-        root / ".github/workflows/prepare-human-summary-review.yml",
-    ):
-        text = workflow.read_text(encoding="utf-8")
-        assert "scripts.summarize.build_review_packet_compatible" in text
-        assert "python -m scripts.summarize.build_review_packet \\" not in text
+    text = (root / ".github/workflows/generate-deepseek-summaries.yml").read_text(
+        encoding="utf-8"
+    )
+    assert "scripts.summarize.build_review_packet_compatible" not in text
+    assert "scripts.summarize.build_review_packet" not in text
+    assert not (root / ".github/workflows/prepare-human-summary-review.yml").exists()

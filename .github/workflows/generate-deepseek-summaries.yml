@@ -2,6 +2,12 @@ name: Generate DeepSeek Summaries
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Daily Research Inbox"
+      - "OpenAlex Research Discovery"
+    types:
+      - completed
 
 permissions:
   contents: write
@@ -12,6 +18,9 @@ concurrency:
 
 jobs:
   generate-summaries:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -40,18 +49,38 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
-      - name: Refresh provider-neutral summary requests
+      - name: Prepare automatic summary requests
+        id: prepare
+        env:
+          FILTERED_QUEUE: ${{ runner.temp }}/automatic-summary-queue.jsonl
         run: |
-          python -m scripts.summarize.prepare_digest \
+          python -m scripts.summarize.prepare_automatic_digest \
             --queue-path runtime-state/data/queues/llm_candidate_queue.jsonl \
+            --history-path runtime-state/state/summary_history.json \
             --selection-manifest-path runtime-state/state/selection_manifest.json \
             --config config/summary_generation.yaml \
             --request-schema schemas/summary_request.schema.json \
             --summary-schema schemas/paper_summary.schema.json \
             --output-root runtime-state/data \
-            --manifest-path runtime-state/state/summary_generation_manifest.json
+            --manifest-path runtime-state/state/summary_generation_manifest.json \
+            --filtered-queue-path "${FILTERED_QUEUE}"
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          manifest = json.loads(
+              Path("runtime-state/state/summary_generation_manifest.json").read_text(
+                  encoding="utf-8"
+              )
+          )
+          with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as handle:
+              handle.write(f"request_count={int(manifest.get('request_count') or 0)}\n")
+              handle.write(f"status={manifest.get('status') or 'unknown'}\n")
+          PY
 
       - name: Prepare open full-text method context
+        if: steps.prepare.outputs.request_count != '0'
         env:
           SPRINGER_NATURE_API_KEY: ${{ secrets.SPRINGER_NATURE_API_KEY }}
           PREPARED_ROOT: ${{ runner.temp }}/research-inbox-generation
@@ -66,14 +95,14 @@ jobs:
 
       - name: Generate and locally validate DeepSeek summaries
         id: generate
+        if: steps.prepare.outputs.request_count != '0'
         shell: bash
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           PREPARED_ROOT: ${{ runner.temp }}/research-inbox-generation
         run: |
           set +e
-          # Compatibility marker: scripts.summarize.staged_summary_pipeline generate
-          python -m scripts.summarize.staged_summary_pipeline_safe generate \
+          python -m scripts.summarize.generate_automatic_summaries \
             --dry-run-manifest-path runtime-state/state/summary_generation_manifest.json \
             --summary-schema schemas/paper_summary.schema.json \
             --config config/summary_generation.yaml \
@@ -87,20 +116,22 @@ jobs:
           echo "exit_code=${generate_exit_code}" >> "${GITHUB_OUTPUT}"
           exit 0
 
-      - name: Build human review packet
-        if: steps.generate.outputs.exit_code == '0'
+      - name: Add DOI links and finalize automatically
+        if: >-
+          steps.prepare.outputs.request_count != '0' &&
+          steps.generate.outputs.exit_code == '0'
         run: |
-          python -m scripts.summarize.build_review_packet_compatible \
-            --generation-manifest-path runtime-state/state/summary_generation_manifest.json \
-            --summary-schema schemas/paper_summary.schema.json \
-            --output-root runtime-state/data \
-            --review-manifest-path runtime-state/state/summary_review_manifest.json
-          python -m scripts.summarize.add_doi_links \
+          python -m scripts.summarize.add_digest_doi_links \
             --generation-manifest-path runtime-state/state/summary_generation_manifest.json \
             --output-root runtime-state/data
-          cat runtime-state/state/summary_review_manifest.json
+          python -m scripts.summarize.finalize_automatic \
+            --generation-manifest-path runtime-state/state/summary_generation_manifest.json \
+            --history-path runtime-state/state/summary_history.json \
+            --summary-schema schemas/paper_summary.schema.json \
+            --config config/summary_generation.yaml
+          cat runtime-state/state/summary_generation_manifest.json
 
-      - name: Persist summary validation and review artifacts
+      - name: Persist automatic summary artifacts
         if: always()
         shell: bash
         run: |
@@ -108,25 +139,26 @@ jobs:
           git config user.name "research-inbox-bot"
           git config user.email "research-inbox-bot@users.noreply.github.com"
 
-          mkdir -p data/summary_requests data/summaries data/digests data/reviews
-          git add -A -- \
-            data/summary_requests \
-            data/summaries \
-            data/digests \
-            data/reviews \
-            state/summary_generation_manifest.json
-          if [ -f state/summary_review_manifest.json ]; then
-            git add state/summary_review_manifest.json
-          fi
+          mkdir -p data/summary_requests data/summaries data/digests state
+          git add -A -- data/summary_requests data/summaries data/digests
+          for path in \
+            state/summary_generation_manifest.json \
+            state/summary_history.json; do
+            if [ -e "${path}" ]; then
+              git add "${path}"
+            fi
+          done
           if git diff --cached --quiet; then
-            echo "No DeepSeek summary or review changes to persist."
+            echo "No automatic summary changes to persist."
             exit 0
           fi
-          git commit -m "Generate validated summary review packet [skip ci]"
+          git commit -m "Generate and finalize validated summaries [skip ci]"
           git pull --rebase origin automation-state
           git push origin HEAD:automation-state
 
       - name: Fail after persisting validation diagnostics
-        if: steps.generate.outputs.exit_code != '0'
+        if: >-
+          steps.prepare.outputs.request_count != '0' &&
+          steps.generate.outputs.exit_code != '0'
         shell: bash
         run: exit "${{ steps.generate.outputs.exit_code }}"

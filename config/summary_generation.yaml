@@ -1,6 +1,8 @@
-summary_generation_version: 6
+summary_generation_version: 7
 prompt_version: 2
 
+# Core generator compatibility and isolation policy. The workflow-level
+# automation policy below controls automatic triggering and history completion.
 execution:
   mode: "manual_provider_validation"
   provider: "deepseek"
@@ -11,11 +13,21 @@ execution:
   use_full_text: true
   full_text_open_access_only: true
 
+automation:
+  enabled: true
+  mode: "automatic_after_discovery"
+  trigger_workflows:
+    - "Daily Research Inbox"
+    - "OpenAlex Research Discovery"
+  filter_completed_before_provider: true
+  update_summary_history_after_validation: true
+  all_or_nothing_batch: true
+  review_required: false
+  email_enabled: false
+
 review:
-  required: true
-  approval_mode: "manual_all_or_nothing"
-  confirmation_phrase: "REVIEWED"
-  email_after_approval: false
+  required: false
+  approval_mode: "disabled"
 
 provider:
   name: "deepseek"
