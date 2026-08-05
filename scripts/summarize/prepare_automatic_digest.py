@@ -29,10 +29,12 @@ def validate_automatic_config(config: dict[str, Any]) -> None:
     execution = config.get("execution") or {}
     automation = config.get("automation") or {}
     review = config.get("review") or {}
+    knowledge = config.get("knowledge_base") or {}
+    delivery = config.get("delivery") or {}
     if automation.get("enabled") is not True:
         raise RuntimeError("Automatic summary orchestration must be enabled")
-    if automation.get("mode") != "automatic_after_discovery":
-        raise RuntimeError("Automatic preparation requires automatic_after_discovery")
+    if automation.get("mode") != "automatic_daily_batch":
+        raise RuntimeError("Automatic preparation requires automatic_daily_batch")
     if automation.get("filter_completed_before_provider") is not True:
         raise RuntimeError("Completed candidates must be filtered before provider calls")
     if automation.get("update_summary_history_after_validation") is not True:
@@ -41,8 +43,14 @@ def validate_automatic_config(config: dict[str, Any]) -> None:
         raise RuntimeError("Automatic completion requires all-or-nothing batches")
     if automation.get("review_required") or review.get("required"):
         raise RuntimeError("Human review must be disabled for automatic preparation")
-    if automation.get("email_enabled") or execution.get("email_enabled"):
-        raise RuntimeError("Email delivery must remain disabled during automatic preparation")
+    if execution.get("email_enabled"):
+        raise RuntimeError("The generator must not send email directly")
+    if automation.get("delivery_mode") != "separate_daily_digest_workflow":
+        raise RuntimeError("Daily delivery must remain separate from generation")
+    if knowledge.get("enabled") is not True or knowledge.get("persist_full_text"):
+        raise RuntimeError("The long-term index must be enabled without persisted full text")
+    if delivery.get("daily_digest_enabled") is not True:
+        raise RuntimeError("Daily digest delivery must be enabled")
 
 
 def prepare_automatic(
@@ -96,7 +104,7 @@ def prepare_automatic(
     manifest.update(
         {
             "status": "no_candidates" if int(manifest.get("request_count") or 0) == 0 else "automatic_requests_prepared",
-            "execution_mode": "automatic_after_discovery",
+            "execution_mode": "automatic_daily_batch",
             "llm_enabled": True,
             "review_required": False,
             "summary_history_updated": False,
@@ -104,6 +112,8 @@ def prepare_automatic(
             "completed_candidate_filtered_count": filtered_out,
             "automatic_queue_candidate_count": len(filtered),
             "history_path": str(history_path),
+            "knowledge_base_pending": int(manifest.get("request_count") or 0) > 0,
+            "daily_digest_pending": int(manifest.get("request_count") or 0) > 0,
         }
     )
     atomic_write(
