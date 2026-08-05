@@ -4,11 +4,13 @@ import time
 
 from scripts.summarize.fulltext_methods import MethodContext
 from scripts.summarize.prepare_fulltext_bounded import bounded_collect_method_context
+from scripts.summarize.springer_openaccess import api_audit_url
 
 
 def source() -> dict:
     return {
         "candidate_id": "candidate-timeout",
+        "doi": "10.1000/slow",
         "open_access_url": "https://doi.org/10.1000/slow",
     }
 
@@ -29,7 +31,11 @@ def test_slow_candidate_is_interrupted_and_falls_back() -> None:
 
     assert elapsed < 0.5
     assert context.status == "timed_out"
-    assert context.source_url == "https://doi.org/10.1000/slow"
+    assert context.source_url == api_audit_url(
+        "https://api.springernature.com/openaccess/jats",
+        "10.1000/slow",
+    )
+    assert "api_key" not in context.source_url
     assert context.text == ""
     assert context.error and "fell back to abstract" in context.error
     assert context.audit_record()["text_persisted"] is False
