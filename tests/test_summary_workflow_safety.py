@@ -22,6 +22,21 @@ def test_summary_dry_run_remains_manual_and_provider_free() -> None:
     assert "summary_history.json" not in text
 
 
+def test_daily_discovery_unifies_scholar_and_openalex() -> None:
+    text = workflow("daily-research-inbox.yml")
+    assert "scripts.ingest.gmail_collector" in text
+    assert "scripts.discovery.openalex_discovery" in text
+    assert "scripts.pipeline.route_registry" in text
+    assert "scripts.enrich.enrich_registry" in text
+    assert "scripts.pipeline.score_registry" in text
+    assert "state/unified_discovery_state.json" in text
+    assert "force_openalex" in text
+    assert "20:47 is retry-only" in text
+    assert not (
+        ROOT / ".github" / "workflows" / "openalex-research-discovery.yml"
+    ).exists()
+
+
 def test_deepseek_generation_runs_one_daily_transactional_batch() -> None:
     text = workflow("generate-deepseek-summaries.yml")
     assert "workflow_dispatch:" in text
