@@ -31,6 +31,9 @@ def test_deepseek_generation_runs_one_daily_transactional_batch() -> None:
     assert "DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}" in text
     assert "SPRINGER_NATURE_API_KEY: ${{ secrets.SPRINGER_NATURE_API_KEY }}" in text
     assert "GMAIL_CLIENT_SECRET" not in text
+    assert "Bootstrap existing approved summaries" in text
+    assert "scripts.summarize.bootstrap_approved_batch" in text
+    assert "steps.bootstrap.outputs.bootstrapped != 'true'" in text
     assert "scripts.summarize.prepare_automatic_digest" in text
     assert "scripts.summarize.generate_automatic_summaries" in text
     assert "scripts.summarize.add_digest_doi_links" in text
