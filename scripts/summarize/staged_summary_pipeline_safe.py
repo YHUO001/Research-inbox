@@ -33,12 +33,10 @@ def shared_numeric_grounding(
     ]
 
 
-# generate_stage resolves this module global at runtime before installing the
-# validator into generate_summaries, so the compatibility wrapper remains small.
-pipeline.shared_numeric_grounding = shared_numeric_grounding
-
-
 def main() -> int:
+    # Install only for this CLI execution; importing the module in tests or
+    # other tools must not mutate the shared pipeline module.
+    pipeline.shared_numeric_grounding = shared_numeric_grounding
     return pipeline.main()
 
 
