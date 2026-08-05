@@ -9,7 +9,6 @@ WORKFLOW_DIR = ROOT / ".github" / "workflows"
 
 SCORING_WORKFLOWS = (
     "daily-research-inbox.yml",
-    "openalex-research-discovery.yml",
     "repair-scholar-registry.yml",
     "rebuild-research-routes.yml",
     "enrich-paper-registry.yml",
@@ -30,13 +29,21 @@ def test_all_upstream_mutation_workflows_rebuild_scoring_outputs() -> None:
         assert "state/summary_history.json" in text, name
 
 
-def test_daily_workflow_refreshes_metadata_before_scoring() -> None:
+def test_daily_workflow_unifies_discovery_and_refreshes_metadata_before_scoring() -> None:
     text = workflow_text("daily-research-inbox.yml")
+    scholar_position = text.index("scripts.ingest.gmail_collector")
+    openalex_position = text.index("scripts.discovery.openalex_discovery")
     enrich_position = text.index("scripts.enrich.enrich_registry")
     scoring_position = text.index("scripts.pipeline.score_registry")
+
+    assert scholar_position < enrich_position
+    assert openalex_position < enrich_position
     assert enrich_position < scoring_position
     assert "OPENALEX_API_KEY" in text
     assert "steps.enrich.outputs.exit_code == '0'" in text
+    assert "state/unified_discovery_state.json" in text
+    assert "Mark unified discovery success" in text
+    assert not (WORKFLOW_DIR / "openalex-research-discovery.yml").exists()
 
 
 def test_llm_and_email_remain_disabled_in_pipeline_config() -> None:
