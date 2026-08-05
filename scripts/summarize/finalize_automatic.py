@@ -35,7 +35,9 @@ def record_sha256(value: dict[str, Any]) -> str:
     return sha256_text(stable_json(value))
 
 
-def unique_by_candidate(records: list[dict[str, Any]], label: str) -> dict[str, dict[str, Any]]:
+def unique_by_candidate(
+    records: list[dict[str, Any]], label: str
+) -> dict[str, dict[str, Any]]:
     result: dict[str, dict[str, Any]] = {}
     for record in records:
         candidate_id = str(record.get("candidate_id") or "")
@@ -58,7 +60,8 @@ def automatic_markdown(content: str, *, completed_at: str, count: int) -> str:
         + f"- 自动完成论文数：`{count}`\n"
         + f"- 完成时间：`{completed_at}`\n"
         + "- 人工评审：`不需要`\n"
-        + "- 邮件发送：`false`\n"
+        + "- 长期知识库：`待本次 workflow 更新`\n"
+        + "- 每日汇总邮件：`待独立投递 workflow 发送`\n"
     )
 
 
@@ -66,18 +69,26 @@ def validate_automatic_config(config: dict[str, Any]) -> None:
     execution = config.get("execution") or {}
     automation = config.get("automation") or {}
     review = config.get("review") or {}
+    knowledge = config.get("knowledge_base") or {}
+    delivery = config.get("delivery") or {}
     if automation.get("enabled") is not True:
         raise RuntimeError("Automatic summary orchestration must be enabled")
-    if automation.get("mode") != "automatic_after_discovery":
-        raise RuntimeError("Automatic finalization requires automatic_after_discovery")
+    if automation.get("mode") != "automatic_daily_batch":
+        raise RuntimeError("Automatic finalization requires automatic_daily_batch")
     if automation.get("update_summary_history_after_validation") is not True:
         raise RuntimeError("Automatic finalization must update history after validation")
     if automation.get("all_or_nothing_batch") is not True:
         raise RuntimeError("Automatic finalization requires all-or-nothing batches")
     if automation.get("review_required") or review.get("required"):
         raise RuntimeError("Human review must be disabled during finalization")
-    if automation.get("email_enabled") or execution.get("email_enabled"):
-        raise RuntimeError("Email delivery must remain disabled during finalization")
+    if execution.get("email_enabled"):
+        raise RuntimeError("The generator must not send email directly")
+    if automation.get("delivery_mode") != "separate_daily_digest_workflow":
+        raise RuntimeError("Daily email delivery must remain separate")
+    if knowledge.get("enabled") is not True or knowledge.get("persist_full_text"):
+        raise RuntimeError("Knowledge indexing must be enabled without full-text persistence")
+    if delivery.get("daily_digest_enabled") is not True:
+        raise RuntimeError("Daily digest delivery must be enabled")
 
 
 def finalize_automatic(
@@ -97,7 +108,10 @@ def finalize_automatic(
     generation = load_json(generation_manifest_path, {})
     if not isinstance(generation, dict):
         raise RuntimeError("Summary generation manifest must be a JSON object")
-    if generation.get("status") == "completed_automatic" and generation.get("summary_history_updated") is True:
+    if (
+        generation.get("status") == "completed_automatic"
+        and generation.get("summary_history_updated") is True
+    ):
         return generation
     if generation.get("status") != "completed":
         raise RuntimeError("Only a completed generation batch can be finalized")
@@ -108,7 +122,9 @@ def finalize_automatic(
     if request_count <= 0 or summary_count != request_count or failure_count != 0:
         raise RuntimeError("Automatic finalization requires a complete all-or-nothing batch")
     if generation.get("numeric_grounding_scope") != "title_abstract_and_open_full_text_loose":
-        raise RuntimeError("Automatic finalization requires the approved loose full-evidence grounding mode")
+        raise RuntimeError(
+            "Automatic finalization requires the approved loose full-evidence grounding mode"
+        )
 
     request_path = Path(str(generation.get("request_file") or ""))
     summary_path = Path(str(generation.get("summary_file") or ""))
@@ -129,6 +145,10 @@ def finalize_automatic(
     summary_by_id = unique_by_candidate(summaries, "Summaries")
     if set(request_by_id) != set(summary_by_id) or len(requests) != request_count:
         raise RuntimeError("Request and summary candidate sets do not match")
+
+    digest_markdown = digest_markdown_path.read_text(encoding="utf-8")
+    if digest_markdown.count("- DOI：") != request_count:
+        raise RuntimeError("Every finalized summary must contain one deterministic DOI line")
 
     schema = load_json(summary_schema_path, {})
     output = config.get("output") or {}
@@ -155,8 +175,12 @@ def finalize_automatic(
         )
         method_errors = validate_method_depth(
             summary,
-            minimum_paragraphs=int(output.get("method_implementation_min_paragraphs") or 2),
-            maximum_paragraphs=int(output.get("method_implementation_max_paragraphs") or 6),
+            minimum_paragraphs=int(
+                output.get("method_implementation_min_paragraphs") or 2
+            ),
+            maximum_paragraphs=int(
+                output.get("method_implementation_max_paragraphs") or 6
+            ),
         )
         if language_errors or method_errors:
             raise RuntimeError(
@@ -178,7 +202,11 @@ def finalize_automatic(
 
     history = load_json(
         history_path,
-        {"schema_version": 1, "completed_candidate_ids": {}, "failed_candidate_ids": {}},
+        {
+            "schema_version": 1,
+            "completed_candidate_ids": {},
+            "failed_candidate_ids": {},
+        },
     )
     if not isinstance(history, dict):
         raise RuntimeError("Summary history must be a JSON object")
@@ -208,7 +236,7 @@ def finalize_automatic(
             "output_language": str(generation.get("output_language") or "zh-CN"),
             "request_id": request.get("request_id"),
             "summary_record_sha256": summary_hash,
-            "completion_mode": "automatic_after_local_validation",
+            "completion_mode": "automatic_daily_batch_after_local_validation",
             "review_required": False,
         }
 
@@ -216,8 +244,13 @@ def finalize_automatic(
     digest["summaries"] = repaired_summaries
     digest.setdefault("safety", {})["summary_history_updated"] = True
     digest["safety"]["review_required"] = False
+    digest["safety"]["full_text_persisted"] = False
+    digest["delivery"] = {
+        "mode": "separate_daily_digest_workflow",
+        "status": "pending",
+    }
     digest["completion"] = {
-        "mode": "automatic_after_local_validation",
+        "mode": "automatic_daily_batch_after_local_validation",
         "completed_at": completed_at,
         "architecture_repairs": architecture_repairs,
     }
@@ -228,12 +261,14 @@ def finalize_automatic(
             "summary_history_updated": True,
             "review_required": False,
             "automatic_history_pending": False,
+            "knowledge_base_pending": True,
+            "daily_digest_pending": True,
             "completed_at": completed_at,
             "completed_candidate_ids": sorted(request_by_id),
             "newly_completed_candidate_count": newly_completed,
             "architecture_repairs": architecture_repairs,
             "architecture_evidence": architecture_evidence,
-            "completion_mode": "automatic_after_local_validation",
+            "completion_mode": "automatic_daily_batch_after_local_validation",
         }
     )
 
@@ -251,7 +286,7 @@ def finalize_automatic(
     atomic_write(
         digest_markdown_path,
         automatic_markdown(
-            digest_markdown_path.read_text(encoding="utf-8"),
+            digest_markdown,
             completed_at=completed_at,
             count=len(repaired_summaries),
         ),
