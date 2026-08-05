@@ -58,20 +58,37 @@ def test_summary_configuration_enables_validated_automation() -> None:
         (ROOT / "config" / "summary_generation.yaml").read_text(encoding="utf-8")
     )
     execution = config["execution"]
+    automation = config["automation"]
     provider = config["provider"]
     review = config["review"]
     output = config["output"]
     full_text = config["full_text"]
     assert config["summary_generation_version"] == 7
     assert config["prompt_version"] == 2
-    assert execution["mode"] == "automatic_provider_generation"
+
+    # The reusable core remains isolated and cannot write history by itself.
+    assert execution["mode"] == "manual_provider_validation"
     assert execution["provider"] == "deepseek"
-    assert execution["llm_enabled"] is True
+    assert execution["llm_enabled"] is False
     assert execution["manual_provider_calls_allowed"] is True
     assert execution["email_enabled"] is False
-    assert execution["update_summary_history"] is True
+    assert execution["update_summary_history"] is False
     assert execution["use_full_text"] is True
     assert execution["full_text_open_access_only"] is True
+
+    # The production workflow orchestration is fully automatic.
+    assert automation["enabled"] is True
+    assert automation["mode"] == "automatic_after_discovery"
+    assert automation["trigger_workflows"] == [
+        "Daily Research Inbox",
+        "OpenAlex Research Discovery",
+    ]
+    assert automation["filter_completed_before_provider"] is True
+    assert automation["update_summary_history_after_validation"] is True
+    assert automation["all_or_nothing_batch"] is True
+    assert automation["review_required"] is False
+    assert automation["email_enabled"] is False
+
     assert review["required"] is False
     assert review["approval_mode"] == "disabled"
     assert provider["model"] == "deepseek-v4-pro"
