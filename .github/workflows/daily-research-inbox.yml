@@ -2,7 +2,7 @@ name: Daily Research Inbox
 
 on:
   schedule:
-    # Singapore time: 08:17 and 20:47. Avoid the top of the hour.
+    # Singapore time: primary run at 08:17; 20:47 is retry-only.
     - cron: "17 0 * * *"
     - cron: "47 12 * * *"
   workflow_dispatch:
@@ -44,8 +44,21 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
+      - name: Decide whether Scholar collection should run
+        id: schedule_gate
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          python -m scripts.ingest.scholar_schedule_gate \
+            --state-path runtime-state/state/gmail_ingestion_state.json \
+            --event-name "${EVENT_NAME}" \
+            --event-schedule "${EVENT_SCHEDULE}" \
+            --github-output "${GITHUB_OUTPUT}"
+
       - name: Collect new Scholar alerts
         id: collect
+        if: steps.schedule_gate.outputs.should_run == 'true'
         shell: bash
         env:
           GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
@@ -141,12 +154,15 @@ jobs:
           git push origin HEAD:automation-state
 
       - name: Fail after persisting collector retry state
-        if: steps.collect.outputs.exit_code != '0'
+        if: >-
+          steps.schedule_gate.outputs.should_run == 'true' &&
+          steps.collect.outputs.exit_code != '0'
         shell: bash
         run: exit "${{ steps.collect.outputs.exit_code }}"
 
       - name: Fail after persisting routing diagnostics
         if: >-
+          steps.schedule_gate.outputs.should_run == 'true' &&
           steps.collect.outputs.exit_code == '0' &&
           steps.route.outputs.exit_code != '0'
         shell: bash
@@ -154,6 +170,7 @@ jobs:
 
       - name: Fail after persisting enrichment diagnostics
         if: >-
+          steps.schedule_gate.outputs.should_run == 'true' &&
           steps.collect.outputs.exit_code == '0' &&
           steps.route.outputs.exit_code == '0' &&
           steps.enrich.outputs.exit_code != '0'
@@ -162,6 +179,7 @@ jobs:
 
       - name: Fail after persisting scoring diagnostics
         if: >-
+          steps.schedule_gate.outputs.should_run == 'true' &&
           steps.collect.outputs.exit_code == '0' &&
           steps.route.outputs.exit_code == '0' &&
           steps.enrich.outputs.exit_code == '0' &&
