@@ -97,6 +97,9 @@ grounding:
   information_basis: "title_metadata_abstract_and_optional_open_full_text_methods"
   require_reported_by_authors_marker: true
   reject_unsupported_numeric_claims: true
+  numeric_matching_mode: "loose_full_evidence"
+  numeric_relative_tolerance: 0.02
+  numeric_absolute_tolerance: 0.02
   unavailable_value: "not_available"
   enforce_onn_architecture_evidence: true
 
