@@ -15,17 +15,20 @@ from scripts.summarize.prepare_digest import atomic_write, load_json
 
 def validate_automatic_config(config: dict[str, Any]) -> None:
     execution = config.get("execution") or {}
+    automation = config.get("automation") or {}
     review = config.get("review") or {}
-    if execution.get("mode") != "automatic_provider_generation":
-        raise RuntimeError("Automatic generation requires automatic_provider_generation")
-    if execution.get("llm_enabled") is not True:
-        raise RuntimeError("Automatic generation requires llm_enabled=true")
-    if execution.get("update_summary_history") is not True:
-        raise RuntimeError("Automatic generation requires update_summary_history=true")
-    if execution.get("email_enabled"):
-        raise RuntimeError("Email delivery must remain disabled during generation")
-    if review.get("required"):
+    if automation.get("enabled") is not True:
+        raise RuntimeError("Automatic summary orchestration must be enabled")
+    if automation.get("mode") != "automatic_after_discovery":
+        raise RuntimeError("Automatic generation requires automatic_after_discovery")
+    if automation.get("update_summary_history_after_validation") is not True:
+        raise RuntimeError("Automatic generation must complete history after validation")
+    if automation.get("all_or_nothing_batch") is not True:
+        raise RuntimeError("Automatic generation requires all-or-nothing batches")
+    if automation.get("review_required") or review.get("required"):
         raise RuntimeError("Human review must be disabled during automatic generation")
+    if automation.get("email_enabled") or execution.get("email_enabled"):
+        raise RuntimeError("Email delivery must remain disabled during generation")
 
 
 def compatibility_config(config: dict[str, Any]) -> dict[str, Any]:
@@ -83,7 +86,7 @@ def generate_automatic(
 
     manifest = load_json(manifest_path, {})
     if isinstance(manifest, dict) and manifest:
-        manifest["execution_mode"] = "automatic_provider_generation"
+        manifest["execution_mode"] = "automatic_after_discovery"
         manifest["review_required"] = False
         manifest["automatic_history_pending"] = manifest.get("status") == "completed"
         atomic_write(
