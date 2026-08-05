@@ -1,0 +1,94 @@
+name: Send Daily Research Digest
+
+on:
+  schedule:
+    # Singapore time 22:15, after the 21:30 summary batch.
+    - cron: "15 14 * * *"
+  workflow_dispatch:
+    inputs:
+      digest_date:
+        description: "Optional digest date in YYYY-MM-DD; defaults to today in Singapore"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-research-inbox-state-writer
+  cancel-in-progress: false
+
+jobs:
+  send-daily-digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out pipeline code
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install project
+        run: |
+          python -m pip install --upgrade pip
+          pip install .
+
+      - name: Check out automation state
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          ref: automation-state
+          path: runtime-state
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+
+      - name: Send one idempotent daily digest
+        id: send
+        shell: bash
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+          DIGEST_DATE: ${{ inputs.digest_date }}
+        run: |
+          set +e
+          arguments=()
+          if [ -n "${DIGEST_DATE}" ]; then
+            arguments+=(--digest-date "${DIGEST_DATE}")
+          fi
+          python -m scripts.delivery.send_daily_digest \
+            --config config/email_delivery.yaml \
+            --state-root runtime-state \
+            "${arguments[@]}"
+          send_exit_code=$?
+          echo "exit_code=${send_exit_code}" >> "${GITHUB_OUTPUT}"
+          exit 0
+
+      - name: Persist delivery state
+        if: always()
+        shell: bash
+        run: |
+          cd runtime-state
+          git config user.name "research-inbox-bot"
+          git config user.email "research-inbox-bot@users.noreply.github.com"
+          if [ -f state/email_delivery_state.json ]; then
+            git add state/email_delivery_state.json
+          fi
+          if git diff --cached --quiet; then
+            echo "No email delivery state changes to persist."
+            exit 0
+          fi
+          git commit -m "Update daily digest delivery state [skip ci]"
+          git pull --rebase origin automation-state
+          git push origin HEAD:automation-state
+
+      - name: Fail after persisting delivery diagnostics
+        if: steps.send.outputs.exit_code != '0'
+        shell: bash
+        run: exit "${{ steps.send.outputs.exit_code }}"

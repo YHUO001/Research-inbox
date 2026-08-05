@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import base64
 import os
+import re
 from dataclasses import dataclass
 from email.message import EmailMessage
 from email.utils import parseaddr
@@ -22,6 +23,7 @@ RECIPIENTS_ENV = "RESEARCH_INBOX_EMAIL_RECIPIENTS"
 SUBJECT_PREFIX_ENV = "RESEARCH_INBOX_EMAIL_SUBJECT_PREFIX"
 DEFAULT_SUBJECT_PREFIX = "[Research Inbox]"
 MAX_BODY_CHARACTERS = 100_000
+_MESSAGE_ID_PATTERN = re.compile(r"^<[A-Za-z0-9._+@-]+>$")
 
 
 @dataclass(frozen=True)
@@ -44,6 +46,13 @@ def normalize_email_address(value: str) -> str:
     local_part, domain = normalized.rsplit("@", 1)
     if not local_part or "." not in domain or domain.startswith(".") or domain.endswith("."):
         raise ValueError("Invalid email address")
+    return normalized
+
+
+def normalize_message_id(value: str) -> str:
+    normalized = str(value or "").strip()
+    if not _MESSAGE_ID_PATTERN.fullmatch(normalized):
+        raise ValueError("Invalid deterministic Message-ID")
     return normalized
 
 
@@ -128,11 +137,14 @@ def compose_message(
     text_body: str,
     subject_prefix: str = DEFAULT_SUBJECT_PREFIX,
     html_body: str | None = None,
+    message_id: str | None = None,
 ) -> EmailMessage:
     message = EmailMessage()
     message["To"] = normalize_email_address(recipient)
     full_subject = f"{subject_prefix} {subject.strip()}".strip()
     message["Subject"] = full_subject
+    if message_id is not None:
+        message["Message-ID"] = normalize_message_id(message_id)
     message.set_content(text_body)
     if html_body is not None:
         message.add_alternative(html_body, subtype="html")
@@ -143,6 +155,28 @@ def encode_message(message: EmailMessage) -> str:
     return base64.urlsafe_b64encode(message.as_bytes()).decode("ascii")
 
 
+def find_sent_message(service: Any, *, message_id: str) -> dict[str, str] | None:
+    normalized = normalize_message_id(message_id)
+    response = (
+        service.users()
+        .messages()
+        .list(
+            userId="me",
+            q=f"in:sent rfc822msgid:{normalized}",
+            maxResults=1,
+        )
+        .execute()
+    )
+    messages = response.get("messages") or []
+    if not messages:
+        return None
+    first = messages[0]
+    return {
+        "message_id": str(first.get("id") or ""),
+        "thread_id": str(first.get("threadId") or "") or None,
+    }
+
+
 def send_digest(
     *,
     service: Any,
@@ -151,6 +185,7 @@ def send_digest(
     text_body: str,
     policy: EmailDeliveryPolicy,
     html_body: str | None = None,
+    message_id: str | None = None,
 ) -> dict[str, str | None]:
     normalized_recipient = validate_delivery(
         recipient=recipient,
@@ -166,6 +201,7 @@ def send_digest(
         text_body=text_body,
         html_body=html_body,
         subject_prefix=policy.subject_prefix,
+        message_id=message_id,
     )
     response = (
         service.users()
@@ -179,6 +215,43 @@ def send_digest(
     }
 
 
+def send_digest_idempotent(
+    *,
+    service: Any,
+    recipient: str,
+    subject: str,
+    text_body: str,
+    policy: EmailDeliveryPolicy,
+    message_id: str,
+    html_body: str | None = None,
+) -> dict[str, str | None]:
+    validate_delivery(
+        recipient=recipient,
+        subject=subject,
+        text_body=text_body,
+        html_body=html_body,
+        policy=policy,
+        require_enabled=True,
+    )
+    existing = find_sent_message(service, message_id=message_id)
+    if existing is not None:
+        return {
+            "status": "already_sent",
+            "message_id": existing.get("message_id"),
+            "thread_id": existing.get("thread_id"),
+        }
+    result = send_digest(
+        service=service,
+        recipient=recipient,
+        subject=subject,
+        text_body=text_body,
+        policy=policy,
+        html_body=html_body,
+        message_id=message_id,
+    )
+    return {"status": "sent", **result}
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Send one allowlisted Research Inbox digest through Gmail"
@@ -187,6 +260,7 @@ def main() -> int:
     parser.add_argument("--subject", required=True)
     parser.add_argument("--body-file", type=Path, required=True)
     parser.add_argument("--html-file", type=Path)
+    parser.add_argument("--message-id")
     parser.add_argument(
         "--dry-run",
         action="store_true",
@@ -213,14 +287,25 @@ def main() -> int:
         return 0
 
     service = build_gmail_service(credentials_from_environment())
-    send_digest(
-        service=service,
-        recipient=args.to,
-        subject=args.subject,
-        text_body=text_body,
-        html_body=html_body,
-        policy=delivery_policy,
-    )
+    if args.message_id:
+        send_digest_idempotent(
+            service=service,
+            recipient=args.to,
+            subject=args.subject,
+            text_body=text_body,
+            html_body=html_body,
+            policy=delivery_policy,
+            message_id=args.message_id,
+        )
+    else:
+        send_digest(
+            service=service,
+            recipient=args.to,
+            subject=args.subject,
+            text_body=text_body,
+            html_body=html_body,
+            policy=delivery_policy,
+        )
     print("Email delivery completed successfully.")
     return 0
 

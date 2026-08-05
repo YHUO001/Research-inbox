@@ -1,13 +1,10 @@
 name: Generate DeepSeek Summaries
 
 on:
+  schedule:
+    # Singapore time 21:30, after Scholar retry and OpenAlex discovery.
+    - cron: "30 13 * * *"
   workflow_dispatch:
-  workflow_run:
-    workflows:
-      - "Daily Research Inbox"
-      - "OpenAlex Research Discovery"
-    types:
-      - completed
 
 permissions:
   contents: write
@@ -18,9 +15,6 @@ concurrency:
 
 jobs:
   generate-summaries:
-    if: >-
-      github.event_name == 'workflow_dispatch' ||
-      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -131,7 +125,18 @@ jobs:
             --config config/summary_generation.yaml
           cat runtime-state/state/summary_generation_manifest.json
 
-      - name: Persist automatic summary artifacts
+      - name: Update long-term knowledge index
+        if: >-
+          steps.prepare.outputs.request_count != '0' &&
+          steps.generate.outputs.exit_code == '0'
+        run: |
+          python -m scripts.knowledge.build_index \
+            --generation-manifest-path runtime-state/state/summary_generation_manifest.json \
+            --output-root runtime-state/data \
+            --manifest-path runtime-state/state/knowledge_base_manifest.json
+          cat runtime-state/state/knowledge_base_manifest.json
+
+      - name: Persist automatic summary and knowledge artifacts
         if: always()
         shell: bash
         run: |
@@ -139,20 +144,30 @@ jobs:
           git config user.name "research-inbox-bot"
           git config user.email "research-inbox-bot@users.noreply.github.com"
 
-          mkdir -p data/summary_requests data/summaries data/digests state
-          git add -A -- data/summary_requests data/summaries data/digests
+          mkdir -p \
+            data/summary_requests \
+            data/summaries \
+            data/digests \
+            data/knowledge_base \
+            state
+          git add -A -- \
+            data/summary_requests \
+            data/summaries \
+            data/digests \
+            data/knowledge_base
           for path in \
             state/summary_generation_manifest.json \
-            state/summary_history.json; do
+            state/summary_history.json \
+            state/knowledge_base_manifest.json; do
             if [ -e "${path}" ]; then
               git add "${path}"
             fi
           done
           if git diff --cached --quiet; then
-            echo "No automatic summary changes to persist."
+            echo "No automatic summary or knowledge changes to persist."
             exit 0
           fi
-          git commit -m "Generate and finalize validated summaries [skip ci]"
+          git commit -m "Generate, index, and finalize validated summaries [skip ci]"
           git pull --rebase origin automation-state
           git push origin HEAD:automation-state
 

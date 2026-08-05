@@ -128,14 +128,11 @@ def test_automatic_preparation_filters_completed_candidates(tmp_path: Path) -> N
     )
 
     assert manifest["status"] == "automatic_requests_prepared"
+    assert manifest["execution_mode"] == "automatic_daily_batch"
     assert manifest["request_count"] == 1
     assert manifest["completed_candidate_filtered_count"] == 1
-    requests = [
-        json.loads(line)
-        for line in Path(manifest["request_file"]).read_text(encoding="utf-8").splitlines()
-        if line.strip()
-    ]
-    assert [item["candidate_id"] for item in requests] == ["candidate-new"]
+    assert manifest["knowledge_base_pending"] is True
+    assert manifest["daily_digest_pending"] is True
 
 
 def automatic_batch(tmp_path: Path) -> tuple[Path, Path]:
@@ -168,7 +165,10 @@ def automatic_batch(tmp_path: Path) -> tuple[Path, Path]:
         },
     )
     digest_markdown_path.parent.mkdir(parents=True, exist_ok=True)
-    digest_markdown_path.write_text("# Digest\n\n- DOI：[10.1000/test](https://doi.org/10.1000/test)\n", encoding="utf-8")
+    digest_markdown_path.write_text(
+        "# Digest\n\n- DOI：[10.1000/test](https://doi.org/10.1000/test)\n",
+        encoding="utf-8",
+    )
     write_json(
         manifest_path,
         {
@@ -185,7 +185,6 @@ def automatic_batch(tmp_path: Path) -> tuple[Path, Path]:
             "summary_file": str(summary_path),
             "digest_json_file": str(digest_json_path),
             "digest_markdown_file": str(digest_markdown_path),
-            "email_enabled": False,
             "summary_history_updated": False,
         },
     )
@@ -205,9 +204,12 @@ def test_automatic_finalization_updates_history_and_architecture(tmp_path: Path)
     assert result["status"] == "completed_automatic"
     assert result["summary_history_updated"] is True
     assert result["architecture_repairs"] == 1
+    assert result["knowledge_base_pending"] is True
+    assert result["daily_digest_pending"] is True
     history = json.loads(history_path.read_text(encoding="utf-8"))
     entry = history["completed_candidate_ids"]["candidate-automatic"]
-    assert entry["completion_mode"] == "automatic_after_local_validation"
+    assert entry["completion_mode"] == "automatic_daily_batch_after_local_validation"
+    assert entry["review_required"] is False
     summary = json.loads(
         Path(result["summary_file"]).read_text(encoding="utf-8").strip()
     )
@@ -215,6 +217,7 @@ def test_automatic_finalization_updates_history_and_architecture(tmp_path: Path)
     markdown = Path(result["digest_markdown_file"]).read_text(encoding="utf-8")
     assert "自动处理状态" in markdown
     assert "人工评审：`不需要`" in markdown
+    assert "每日汇总邮件：`待独立投递 workflow 发送`" in markdown
 
     repeated = finalize_automatic(
         generation_manifest_path=manifest_path,
