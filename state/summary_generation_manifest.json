@@ -77,8 +77,26 @@
     "unit_format_ignored": true
   },
   "output_language": "zh-CN",
+  "post_generation_architecture_repairs": 0,
   "provider": "deepseek",
   "request_count": 3,
+  "review_manifest_file": "state/summary_review_manifest.json",
+  "review_numeric_validation": {
+    "absolute_tolerance": 0.02,
+    "approximation_markers_ignored": true,
+    "evidence_sources": [
+      "title",
+      "abstract",
+      "temporary_open_full_text_methods"
+    ],
+    "full_text_persisted": false,
+    "mode": "inherited_completed_loose_full_evidence",
+    "relative_tolerance": 0.02,
+    "scope": "title_abstract_and_open_full_text_loose",
+    "source": "completed_generation_manifest",
+    "unit_format_ignored": true
+  },
+  "review_status": "pending_human_review",
   "schema_version": 1,
   "stage_timings": {
     "full_text_preparation_seconds": 3.389,
@@ -154,6 +172,7 @@
   "status": "completed",
   "summary_count": 3,
   "summary_file": "runtime-state/data/summaries/2026-08-05.jsonl",
+  "summary_file_sha256": "84755129ca860d38c72fffcad5500f35aa1507421a6c26fa2359dd930f414fb0",
   "summary_generation_version": 6,
   "summary_history_updated": false,
   "thinking_enabled": false,

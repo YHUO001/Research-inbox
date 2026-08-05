@@ -8,12 +8,28 @@
     "email_enabled": false,
     "full_text_persisted": false,
     "full_text_used": true,
+    "human_review_required": true,
     "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
-    "numeric_grounding_scope": "title_and_abstract_only",
+    "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+    "numeric_validation": {
+      "absolute_tolerance": 0.02,
+      "approximation_markers_ignored": true,
+      "evidence_sources": [
+        "title",
+        "abstract",
+        "temporary_open_full_text_methods"
+      ],
+      "full_text_persisted": false,
+      "mode": "inherited_completed_loose_full_evidence",
+      "relative_tolerance": 0.02,
+      "scope": "title_abstract_and_open_full_text_loose",
+      "source": "completed_generation_manifest",
+      "unit_format_ignored": true
+    },
     "summary_history_updated": false
   },
   "schema_version": 2,
-  "status": "generated_pending_human_review",
+  "status": "pending_human_review",
   "summaries": [
     {
       "candidate_id": "b63d0c87752a364b3611148c",

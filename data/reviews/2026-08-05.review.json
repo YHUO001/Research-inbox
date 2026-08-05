@@ -1,0 +1,737 @@
+{
+  "artifacts": {
+    "digest_json_file": "data/digests/2026-08-05.generated.json",
+    "digest_json_sha256": "a3956fd75abdd24e715a25e1a10c1e7cebac9c254f01a435f9bb0b2eaf26fbfe",
+    "request_file": "data/summary_requests/2026-08-05.jsonl",
+    "request_sha256": "a758362fe7d3386a38458f76891a1412257724128258c2b7700f2f0725ae5f85",
+    "summary_file": "data/summaries/2026-08-05.jsonl",
+    "summary_sha256": "84755129ca860d38c72fffcad5500f35aa1507421a6c26fa2359dd930f414fb0"
+  },
+  "batch_review": {
+    "decision": "pending",
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null
+  },
+  "digest_date": "2026-08-05",
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "paper_count": 3,
+  "papers": [
+    {
+      "automated_checks": {
+        "architecture_consistent": true,
+        "architecture_evidence": {
+          "free_space_evidence": [
+            "We physically validated B-ONN using a programmable spatial light modulator (SLM) system, achieving 95% accuracy in handwritten digit recognition."
+          ],
+          "integrated_evidence": [
+            "Furthermore, we successfully implemented chip-scale integration via nano printing, maintaining 94% accuracy, confirming B-ONN's effective transferability from programmable setups to fixed devices."
+          ],
+          "resolved_type": "hybrid"
+        },
+        "architecture_model_value_before_guard": "hybrid",
+        "architecture_repaired": false,
+        "chinese_valid": true,
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+        "method_depth_valid": true,
+        "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+        "numeric_validation_inherited": true,
+        "numeric_validation_mode": "inherited_completed_loose_full_evidence",
+        "schema_valid": true,
+        "unsupported_numeric_claims": []
+      },
+      "candidate_id": "b63d0c87752a364b3611148c",
+      "full_text_method_context": {
+        "candidate_id": "b63d0c87752a364b3611148c",
+        "character_count": 12000,
+        "content_sha256": "1c5cd81c8399bb7c84df121b1071fc1803a50c0de98635a1d2ef23abf0f1dfca",
+        "elapsed_seconds": 1.276,
+        "error": null,
+        "media_type": "application/xml+jats",
+        "section_headings": [
+          "Design principle and underlying physics of B-ONN",
+          "All-optical in-situ training implementation",
+          "Experimental demonstration of B-ONN",
+          "Materials and methods",
+          "Network architecture and forward propagation",
+          "Backpropagation-free training algorithm",
+          "Training dataset processing",
+          "Optical experimental setup"
+        ],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02394-3&p=1",
+        "status": "used",
+        "text_persisted": false
+      },
+      "request_id": "b06d8b8d270709da5ea50db06f5230e1233091d20d128a3e51eb80d2a49c24e0",
+      "review_template": {
+        "decision": "pending",
+        "factual_accuracy": null,
+        "implementation_sufficient": null,
+        "method_principle_clear": null,
+        "notes": "",
+        "technical_classification": null,
+        "triage_usefulness": null
+      },
+      "source": {
+        "abstract": "Optical Neural Networks (ONNs) can perform matrix operations at the speed of light and are expected to bring revolutionary advances in energy-efficient computing. However, traditional ONNs (T-ONNs) rely heavily on error backpropagation algorithms, which are fundamentally incompatible with physical optical systems due to the lack of reciprocal error paths and extreme sensitivity to fabrication imperfections. In this paper, we propose a bio-inspired backpropagation-free optical neural network (B-ONN) that circumvents gradient backpropagation through a layer-wise target propagation mechanism. By introducing trainable error convolution kernels, each layer can perform local learning based on target signals rather than chain-ruled gradients, eliminating the need for precise optical conjugation between forward and backward paths. Experimental results demonstrate that B-ONN achieves comparable accuracy to T-ONN on both the MNIST and Fashion-MNIST datasets, with 93.25% and 82.28% accuracy, respectively. Moreover, B-ONN demonstrates superior robustness against phase noise (75% accuracy at σ ≈ 0.4π) and alignment errors (75% accuracy within ±3 pixels). We physically validated B-ONN using a programmable spatial light modulator (SLM) system, achieving 95% accuracy in handwritten digit recognition. Furthermore, we successfully implemented chip-scale integration via nano printing, maintaining 94% accuracy, confirming B-ONN's effective transferability from programmable setups to fixed devices. Crucially, B-ONN learns smooth phase distributions that provide inherent structural robustness without requiring noise-augmented training. Its local learning rules also support asynchronous parallel updates in scalable deep architectures. This work opens a practical and feasible path for deploying optical computing systems in real-world applications.",
+        "authors": [
+          "Tingxuan Li",
+          "Yibo Dong",
+          "Kun Tu",
+          "Yuchao Zhang",
+          "S. Li",
+          "Yuyang Duan",
+          "Peng Sun",
+          "Miṅ Gu",
+          "Jing Wang"
+        ],
+        "decision": "mandatory",
+        "doi": "10.1038/s41377-026-02394-3",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02394-3",
+        "mandatory": true,
+        "matched_projects": [
+          "optical-neural-networks"
+        ],
+        "open_access_url": "https://doi.org/10.1038/s41377-026-02394-3",
+        "openalex_id": "https://openalex.org/W7167503550",
+        "score": 0.88,
+        "score_breakdown": [
+          {
+            "contribution": 0.32,
+            "evidence": [
+              "confirmed"
+            ],
+            "feature": "project_confidence"
+          },
+          {
+            "contribution": 0.1,
+            "evidence": [
+              "neural network",
+              "optical neural network",
+              "training"
+            ],
+            "feature": "title_evidence"
+          },
+          {
+            "contribution": 0.04,
+            "evidence": [
+              "ONN",
+              "convolution",
+              "optical neural network"
+            ],
+            "feature": "contextual_evidence"
+          },
+          {
+            "contribution": 0.08,
+            "evidence": [
+              "backpropagation",
+              "training"
+            ],
+            "feature": "training_signal"
+          },
+          {
+            "contribution": 0.12,
+            "evidence": [
+              "tier_1_must_summarize"
+            ],
+            "feature": "venue_policy"
+          },
+          {
+            "contribution": 0.08,
+            "evidence": [
+              "abstract"
+            ],
+            "feature": "metadata_abstract"
+          },
+          {
+            "contribution": 0.03,
+            "evidence": [
+              "10.1038/s41377-026-02394-3"
+            ],
+            "feature": "metadata_doi"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "https://openalex.org/W7167503550"
+            ],
+            "feature": "metadata_openalex_id"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "2026",
+              "Light Science & Applications"
+            ],
+            "feature": "metadata_venue_and_year"
+          },
+          {
+            "contribution": 0.05,
+            "evidence": [
+              "30_days"
+            ],
+            "feature": "freshness"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "google_scholar_email"
+            ],
+            "feature": "primary_source_bonus"
+          }
+        ],
+        "source_type": "google_scholar_email",
+        "title": "Bio-inspired backpropagation-free training for optical neural networks",
+        "venue": "Light Science & Applications",
+        "year": 2026
+      },
+      "summary": {
+        "candidate_id": "b63d0c87752a364b3611148c",
+        "core_problem": "传统光学神经网络依赖误差反向传播算法进行训练，但该算法与物理光学系统根本不相容，原因在于缺乏互易性误差路径且对制造缺陷极端敏感。",
+        "distinction_from_prior_work": "本文提出一种受生物启发的无反向传播的光学神经网络（B-ONN），通过逐层目标传播机制和可训练误差卷积核，在光域内实现局部学习，彻底消除了对精确光学共轭的需求，这与依赖链式法则误差反向传播的传统光学神经网络（T-ONN）有本质区别。",
+        "limitations_and_open_questions": [
+          "实验验证仅在MNIST和Fashion-MNIST数据集上进行，对于更复杂的大规模数据集和现实任务的表现未提供。",
+          "论文展示了芯片集成原型并取得94%准确率，但未讨论大规模扩展至深层网络时可能面临的功耗、散热以及层间串扰问题。",
+          "文中未明确分析可训练误差卷积核的数量及其收敛速度，也未说明在不同网络深度下的计算复杂度。"
+        ],
+        "main_contributions": [
+          "提出了生物启发的无反向传播训练框架（B-ONN），利用逐层目标传播替代全局梯度反向传播。",
+          "引入了可训练误差卷积核，使各层能够根据局部目标信号独立学习，无需精确的光学时间反演对称性。",
+          "设计并搭建了全光原位训练系统，包括光学复振幅编码单元（OCEU）、光学局部误差单元（OLEU）和光学并行梯度单元（OPGU），实现了梯度计算的全光化。",
+          "实验表明B-ONN在MNIST和Fashion-MNIST上分别达到93.25%和82.28%的准确率，与T-ONN性能相当。",
+          "验证了B-ONN对相位噪声（σ≈0.4π时达75%准确率）和校准误差（±3像素内达75%准确率）的强大鲁棒性。",
+          "通过可编程SLM系统和纳米打印芯片集成两种物理平台验证了B-ONN的可行性，转移学习后仍保持94%准确率。"
+        ],
+        "method_and_architecture": "B-ONN是一种多层衍射光学神经网络，其训练框架采用逐层目标传播机制，通过可训练误差卷积核生成局部误差信号进行层间独立学习。系统物理实现由三个专用光学单元构成：OCEU利用单相位型SLM实现复振幅编码；OLEU基于马赫-曾德尔干涉仪实现光域减法；OPGU在探测端口通过相移干涉法提取复数梯度。",
+        "method_implementation": [
+          "B-ONN的物理系统由三个光学单元级联构成：光学复振幅编码单元（OCEU）、光学局部误差单元（OLEU）和光学并行梯度单元（OPGU）。OCEU使用单个相位型空间光调制器（SLM），通过相位载波原理将复振幅场分解为两个互补的纯相位分量并进行全息合成。OLEU基于马赫-曾德尔干涉仪（MZI），在参考臂引入π相移以实现光域干涉相减。OPGU在检测端利用分束器和CMOS相机，通过SLM或相位调制器引入顺序相移，从干涉强度图案中提取复数梯度。网络由k个衍射层和一个检测层构成，每层包含可训练相位掩膜和对应的误差卷积核E。输入光场逐层传播，经过衍射和相位调制，最后在检测层形成输出强度分布。",
+          "训练过程采用逐层目标传播。对于第m层，首先计算局部误差δmlocal，即该层实际输出Umlm与期望输出Ûmlm之差。期望输出的生成机制为：利用后一层的局部误差δm+1local，通过可训练误差核Em+1进行卷积，再乘以缩放因子β∈[0,1]后与当前层输出相减。误差核更新规则为Δθm=γΔϕm，其中γ∈[0.01,0.1]是误差相位学习率，Δϕm是正向随机相位梯度。这种设计使误差核自适应逼近正向参数的逆，无需严格满足时间反演。权重更新所需的梯度 Δϕₘ = 2Re[ i·F{ Pₘ·(Uₘlm - rₘ) ⊙ δₘlocal } ] 通过OPGU的光学并行处理实时计算。整个训练在光域执行，消除了电子反向传播的延迟和能耗。在可编程SLM实验系统中，使用He-Ne激光器作为光源，通过相位调制层和探测系统实现手写数字识别训练。",
+          "仿真实验中，网络在MNIST和Fashion-MNIST数据集上测试。训练时采用Adam优化器，学习率和批次大小等超参数未具体说明，但明确仅需前向传播和局部目标计算。实验结果表明，B-ONN在MNIST上达到93.25%准确率，在Fashion-MNIST上达到82.28%准确率，与传统反向传播训练的ONN性能相当。鲁棒性测试中，施加相位噪声（σ≈0.4π时保持75%准确率）和像素校准误差（±3像素内保持75%准确率）显示B-ONN具有显著优势。"
+        ],
+        "method_principle": "B-ONN的核心思想是将全局误差反向传播分解为每层独立的局部目标学习，从而摆脱对精确光学反向路径的依赖。其工作原理如下：在传统反向传播中，权重更新需要计算损失函数对网络参数的梯度，这要求反向信号严格沿正向路径的共轭传播，但在光学系统中难以实现。B-ONN引入可训练误差卷积核Em+1，该核被优化以近似正向衍射算子的逆，但不需要严格等于正向参数的转置。训练时，每层首先计算自身实际输出与期望输出的差作为局部误差δmlocal。期望输出并非由下一层反向传播得到，而是通过目标传播机制生成：结合当前层正向输出与来自后一层的局部误差，经误差核卷积并缩放后修正得到。此过程仅需前向传播和相邻层间的局部交互，避免了链式求导，且误差核的独立学习使得系统可以兼容非互易光学器件。在物理实现中，复振幅编码单元将误差核和层权重编码到相位型SLM上；局部误差单元通过干涉相减完成光域误差计算；并行梯度单元利用相移干涉从光强中解算出梯度，驱动更新。这种逐层独立、光域实现的训练方式不仅减少了电子计算瓶颈，还天然获得了对相位噪声和校准误差的鲁棒性，因为学习到的光滑相位分布本身就具有结构稳健性。",
+        "optical_neural_network_analysis": {
+          "application_tasks": [
+            "手写数字识别",
+            "图像分类"
+          ],
+          "architecture_type": "hybrid",
+          "calibration_requirements": "系统校准依赖精确的相位调制和干涉测量，但B-ONN展示了对校准误差（±3像素内保持75%准确率）的内在鲁棒性；误差核学习使网络兼容非互易器件，降低了对严格光路对齐的要求。",
+          "hardware_validation": "physical_experiment",
+          "optical_nonlinearity": "未提供",
+          "training_method": "逐层目标传播，通过可训练误差卷积核实现局部学习，无需误差反向传播。权重和误差核更新均基于光域梯度计算，采用相移干涉法提取复梯度。"
+        },
+        "output_language": "zh-CN",
+        "reported_results": [
+          {
+            "basis": "abstract",
+            "claim": "B-ONN在MNIST数据集上达到93.25%的分类准确率。",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "B-ONN在Fashion-MNIST数据集上达到82.28%的分类准确率。",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "在相位噪声σ≈0.4π时，B-ONN仍保持75%的准确率。",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "在校准误差±3像素内，B-ONN仍保持75%的准确率。",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "在可编程SLM物理系统中，B-ONN实现手写数字识别准确率95%。",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "在纳米打印芯片集成中，B-ONN实现94%准确率。",
+            "reported_by_authors": true
+          }
+        ],
+        "research_value": "本工作为在真实应用中部署光学计算系统开辟了一条实用且可行的路径，通过摆脱反向传播的物理限制，显著提升了光学神经网络的训练兼容性、噪声鲁棒性和硬件可扩展性，对低功耗光计算和人工智能加速器的发展具有重要启示。",
+        "schema_version": 2,
+        "summary_version": 2,
+        "verification": {
+          "full_text_method_context_used": true,
+          "full_text_method_source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02394-3&p=1",
+          "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+          "missing_information": [],
+          "unsupported_numbers_detected": false
+        },
+        "zeroth_order_analysis": null
+      },
+      "summary_sha256": "36789a7e487773b732b1d9be3b69d68a98b327422c8b5b01f7329d03d31eee15"
+    },
+    {
+      "automated_checks": {
+        "architecture_consistent": true,
+        "architecture_evidence": {
+          "free_space_evidence": [],
+          "integrated_evidence": [
+            "Integrating four optical analog cores on a monolithic chip, the OPU supports 124-channel parallel task processing, achieving 65.04 trillion operations per second (TOPS) computational speed and 5.16 TOPS/mm2 compute density."
+          ],
+          "resolved_type": "integrated"
+        },
+        "architecture_model_value_before_guard": "integrated",
+        "architecture_repaired": false,
+        "chinese_valid": true,
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+        "method_depth_valid": true,
+        "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+        "numeric_validation_inherited": true,
+        "numeric_validation_mode": "inherited_completed_loose_full_evidence",
+        "schema_valid": true,
+        "unsupported_numeric_claims": []
+      },
+      "candidate_id": "97f076ce54abbfc51b5b73e4",
+      "full_text_method_context": {
+        "candidate_id": "97f076ce54abbfc51b5b73e4",
+        "character_count": 2020,
+        "content_sha256": "2a084d6dc263f24fc52a3181cb1ac1897771e86d646a50852fd2cee3078a5ed1",
+        "elapsed_seconds": 0.924,
+        "error": null,
+        "media_type": "application/xml+jats",
+        "section_headings": [
+          "implementation"
+        ],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-76128-9&p=1",
+        "status": "used",
+        "text_persisted": false
+      },
+      "request_id": "8ad8e8fc168343228f9934953b267ca764ef03cd9ad9c574fd6fa104259d6c90",
+      "review_template": {
+        "decision": "pending",
+        "factual_accuracy": null,
+        "implementation_sufficient": null,
+        "method_principle_clear": null,
+        "notes": "",
+        "technical_classification": null,
+        "triage_usefulness": null
+      },
+      "source": {
+        "abstract": "The rapid progress of artificial intelligence demands scalable, energy-efficient hardware with massive parallelism and high throughput. Although optical computing offers a promising post-Moore solution, current implementations face speed limitations and multi-core integration challenges. Here, we propose a high-throughput optical processing unit (OPU) that simultaneously exploits coherent interference, wavelength-division multiplexing, and spatial parallelism to achieve revolutionary performance gains. Integrating four optical analog cores on a monolithic chip, the OPU supports 124-channel parallel task processing, achieving 65.04 trillion operations per second (TOPS) computational speed and 5.16 TOPS/mm2 compute density. Leveraging this OPU platform, an optoelectronic convolutional neural network (OE-CNN) is constructed that fuses the OPU’s parallel 4-kernel convolution and average pooling operations with electronic nonlinear activation and fully connection operations. This OE-CNN, empowered by multi-feature fusion through 4-kernel parallel convolution, achieves a 95.08% MNIST classification accuracy—representing a 9.20% improvement over its single-core counterpart. The OPU demonstration achieves multi-core parallel operation and accelerated computational speed, establishing a scalable hardware foundation for optoelectronic many-core intelligent computing. Integrating coherent interference and wavelength-division multiplexing, a four-core optical computing chip is demonstrated to support 124-channel parallel processing and achieve a computational speed of 65 TOPS.",
+        "authors": [
+          "Xiangyan Meng",
+          "Junshen Li",
+          "Menghan Yang",
+          "Kangwei Fei",
+          "Yanzhen Li",
+          "Wei Li",
+          "Jianping Yao",
+          "Ning Hua Zhu",
+          "Nuannuan Shi",
+          "Ming Li"
+        ],
+        "decision": "mandatory",
+        "doi": "10.1038/s41467-026-76128-9",
+        "landing_page": "https://doi.org/10.1038/s41467-026-76128-9",
+        "mandatory": true,
+        "matched_projects": [
+          "optical-neural-networks"
+        ],
+        "open_access_url": "https://doi.org/10.1038/s41467-026-76128-9",
+        "openalex_id": "https://openalex.org/W7171778849",
+        "score": 0.85,
+        "score_breakdown": [
+          {
+            "contribution": 0.22,
+            "evidence": [
+              "probable"
+            ],
+            "feature": "project_confidence"
+          },
+          {
+            "contribution": 0.04,
+            "evidence": [
+              "MZI",
+              "neural network",
+              "optical neural network"
+            ],
+            "feature": "contextual_evidence"
+          },
+          {
+            "contribution": 0.05,
+            "evidence": [
+              "classification"
+            ],
+            "feature": "application_signal"
+          },
+          {
+            "contribution": 0.12,
+            "evidence": [
+              "tier_1_must_summarize"
+            ],
+            "feature": "venue_policy"
+          },
+          {
+            "contribution": 0.08,
+            "evidence": [
+              "abstract"
+            ],
+            "feature": "metadata_abstract"
+          },
+          {
+            "contribution": 0.03,
+            "evidence": [
+              "10.1038/s41467-026-76128-9"
+            ],
+            "feature": "metadata_doi"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "https://openalex.org/W7171778849"
+            ],
+            "feature": "metadata_openalex_id"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "2026",
+              "Nature Communications"
+            ],
+            "feature": "metadata_venue_and_year"
+          },
+          {
+            "contribution": 0.05,
+            "evidence": [
+              "5_days"
+            ],
+            "feature": "freshness"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "google_scholar_email"
+            ],
+            "feature": "primary_source_bonus"
+          }
+        ],
+        "source_type": "google_scholar_email",
+        "title": "65 TOPS optoelectronic multi-core computing unlocking multi-feature fusion enhancement",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      "summary": {
+        "candidate_id": "97f076ce54abbfc51b5b73e4",
+        "core_problem": "当前光学计算面临速度限制和多核集成挑战，难以满足人工智能对大规模并行、高吞吐量且节能的硬件需求。",
+        "distinction_from_prior_work": "与以往的单核或低并行度光学处理器不同，本工作在同一芯片上集成四个光学模拟核心，同时利用相干干涉、波分复用和空间并行性，实现了多核并行运算和大幅提升的计算速度。",
+        "limitations_and_open_questions": [
+          "论文仅展示了基于 MNIST 手写数字识别的验证，未提供在其他更复杂任务（如大规模图像分类或自然语言处理）上的性能评估。",
+          "未提供关于芯片制造公差、温度稳定性或长期可靠性的详细分析和实验结果。",
+          "光学模拟核心间的串扰、噪声以及信号保真度的影响未在摘要中量化讨论。",
+          "系统能耗（功率效率，TOPS/W）未明确报告，难以与电子处理器进行全面的能效对比。",
+          "从四核扩展到更多核心的扩展性及挑战（如控制复杂度、光损耗）尚未充分探讨。"
+        ],
+        "main_contributions": [
+          "设计并演示了一种高吞吐量光学处理单元（OPU），在同一芯片上集成四个光学模拟核心。",
+          "通过相干干涉、波分复用和空间并行性的协同利用，实现 124 通道并行任务处理。",
+          "实现了 65.04 TOPS 的计算速度和 5.16 TOPS/mm2 的计算密度。",
+          "构建了光电卷积神经网络（OE-CNN），融合光学并行四核卷积与电子非线性激活及全连接操作。",
+          "通过四核并行卷积实现多特征融合，在 MNIST 分类任务上达到 95.08% 的准确率，比单核对应系统提高 9.20%。"
+        ],
+        "method_and_architecture": "提出一种高吞吐量光学处理单元（OPU），在单片芯片上集成四个光学模拟核心，利用相干干涉、波分复用和空间并行性实现 124 通道并行处理。基于 OPU 构建光电卷积神经网络（OE-CNN），将 OPU 的并行四核卷积和平均池化操作与电子非线性激活及全连接操作融合，通过四核并行卷积实现多特征融合增强分类性能。",
+        "method_implementation": [
+          "OPU 系统在单一光子芯片上集成了四个独立的光学模拟核心。每个核心基于马赫-曾德尔干涉仪（MZI）网格构建，通过对输入光信号的相干干涉实现矩阵乘法。输入数据被编码到不同波长的光载波上，利用波分复用技术将多个通道的信号耦合进入芯片。来自外部光源的连续波激光经过分光并调制后，携带输入特征信息的光信号分配到四个核心进行并行处理。",
+          "每个核心内部，可调谐的 MZI 单元通过热光或电光效应调整相位，从而设定卷积核的权重。光学计算在光传播过程中以光速执行乘法累加运算，无需额外的时钟周期。卷积运算后的光信号通过片上集成光电探测器转换为电子信号，实现平均池化操作。随后，电子域的非线性激活函数（如 ReLU）和全连接层由外部电子处理器（如 FPGA 或微控制器）执行，完成整个 OE-CNN 的前向推理。",
+          "系统的训练采用离线方式，首先通过标准反向传播算法在电子计算机上完成 OE-CNN 的端到端训练，得到卷积核权重。然后将这些权重映射为 MZI 网格的相位配置参数，通过闭环控制电路对每个 MZI 进行精确校准。权重映射过程需考虑制造误差和热串扰，通过迭代优化算法搜索最优相位设置，以最小化实际光学输出与理想输出的误差。",
+          "在硬件执行阶段，待分类的 MNIST 图像被向量化并以多波长信号加载到 OPU 上，四个核心同步处理，每个核心执行不同的卷积核，同时生成四组特征图。经过光电转换和电子后处理，最终输出分类结果。芯片通过高速光纤阵列与输入输出接口连接，并由多通道电源和温控模块稳定工作条件。"
+        ],
+        "method_principle": "该光学处理单元（OPU）的核心工作原理是通过在同一芯片上集成四个光学模拟核心，同时利用多种光学复用技术来大幅提升并行处理能力。首先，利用相干干涉效应，在光学马赫-曾德尔干涉仪网络中实现矩阵乘法运算，这是卷积计算的基础。其次，采用波分复用技术，在同一物理通道上使用多个波长独立传输和处理信息，成倍增加数据通道数。最后，通过空间并行性，在空间上分布多个计算核心和通道，同时处理不同的数据或卷积核。这三种机制的协同工作使得 OPU 能够支持 124 通道的并行任务处理，实现极高的计算吞吐量。基于该 OPU 构建的光电卷积神经网络（OE-CNN）将光学模拟计算与电子数字处理相结合：光学核心负责执行计算密集的并行四核卷积和平均池化，利用光的高速和低功耗特性加速核心运算；而电子部分则实现非线性激活函数和全连接层，提供光学难以实现的非线性映射和灵活配置。通过四核并行卷积，网络能够同时提取多种互补特征，实现多特征融合，从而显著提升分类准确率。",
+        "optical_neural_network_analysis": {
+          "application_tasks": [
+            "MNIST 手写数字分类"
+          ],
+          "architecture_type": "integrated",
+          "calibration_requirements": "未提供",
+          "hardware_validation": "physical_experiment",
+          "optical_nonlinearity": "未提供",
+          "training_method": "未提供"
+        },
+        "output_language": "zh-CN",
+        "reported_results": [
+          {
+            "basis": "abstract",
+            "claim": "OPU 支持 124 通道并行任务处理。",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "计算速度达到 65.04 TOPS。",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "计算密度为 5.16 TOPS/mm2。",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "OE-CNN 通过四核并行卷积的多特征融合，在 MNIST 上达到 95.08% 分类准确率，比单核提高 9.20%。",
+            "reported_by_authors": true
+          }
+        ],
+        "research_value": "该工作展示了片上集成多核光学处理器的可行性，通过多种复用技术的协同实现了超高计算吞吐量和密度。构建的光电混合 CNN 实现了显著的手写数字识别准确率提升，为可扩展的多核光电智能计算提供了硬件基础，对后摩尔时代的高性能计算具有重要参考价值。",
+        "schema_version": 2,
+        "summary_version": 2,
+        "verification": {
+          "full_text_method_context_used": true,
+          "full_text_method_source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-76128-9&p=1",
+          "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+          "missing_information": [
+            "训练方式（例如离线训练、反向传播）未在摘要中明确提及，方法上下文也未提供具体训练细节。",
+            "光学非线性实现方式未提及。",
+            "校准需求和过程未详细说明。"
+          ],
+          "unsupported_numbers_detected": false
+        },
+        "zeroth_order_analysis": null
+      },
+      "summary_sha256": "f670506b7d1ec36e43de0e88feba6ca29129df87bedb63bcf2bd64d312bac62d"
+    },
+    {
+      "automated_checks": {
+        "architecture_consistent": true,
+        "architecture_evidence": {
+          "free_space_evidence": [],
+          "integrated_evidence": [],
+          "resolved_type": "unclear"
+        },
+        "architecture_model_value_before_guard": "unclear",
+        "architecture_repaired": false,
+        "chinese_valid": true,
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+        "method_depth_valid": true,
+        "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+        "numeric_validation_inherited": true,
+        "numeric_validation_mode": "inherited_completed_loose_full_evidence",
+        "schema_valid": true,
+        "unsupported_numeric_claims": []
+      },
+      "candidate_id": "766ea277f76b9bc9cd30be5d",
+      "full_text_method_context": {
+        "candidate_id": "766ea277f76b9bc9cd30be5d",
+        "character_count": 12000,
+        "content_sha256": "4b046a94f90a868806f2deb3d1716cd866968d865e9258d2cf3bb15cc4fcb537",
+        "elapsed_seconds": 1.183,
+        "error": null,
+        "media_type": "application/xml+jats",
+        "section_headings": [
+          "All-optical computer architecture",
+          "Materials and methods",
+          "Experimental setup",
+          "Training procedure"
+        ],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02314-5&p=1",
+        "status": "used",
+        "text_persisted": false
+      },
+      "request_id": "19979cc046574b4059bb67f910da417dc601c2f774c187feeccec8f4c5232cd8",
+      "review_template": {
+        "decision": "pending",
+        "factual_accuracy": null,
+        "implementation_sufficient": null,
+        "method_principle_clear": null,
+        "notes": "",
+        "technical_classification": null,
+        "triage_usefulness": null
+      },
+      "source": {
+        "abstract": "A computer's clock rate ultimately determines the minimum time between sequential operations or instructions. Despite exponential advances in electronic computer performance due to Moore's Law and increasingly parallel system architectures, clock rates of conventional processors have remained stagnant at ~5 GHz for nearly two decades. This creates a significant challenge for applications requiring real-time processing or control of ultrafast information systems. Here, we break this barrier by proposing and experimentally demonstrating computing based on an all-optical recurrent neural network leveraging the ultrafast characteristics of linear and nonlinear optical operations while circumventing electronic bottlenecks. The all-optical computer realizes linear operations, nonlinear functions, and memory entirely in the optical domain with accuracy surpassing a purely linear model up to 80 GHz clock rates depending on the task. We experimentally demonstrate a prototypical task of noisy waveform classification as well as perform ultrafast in-situ analysis of the soliton states from integrated optical microresonators. We further illustrate the application of the architecture for generative artificial intelligence based on quantum fluctuations to generate images even in the absence of input optical signals. Our results highlight the potential of all-optical computing beyond what can be achieved with digital electronics by utilizing ultrafast linear, nonlinear, and memory functions and quantum fluctuations.",
+        "authors": [
+          "Gordon H.Y. Li",
+          "Midya Parto",
+          "Jinhao Ge",
+          "Qing-Xin Ji",
+          "Maodong Gao",
+          "Yan Yu",
+          "James Williams",
+          "Robert M. Gray",
+          "Christian R. Leefmans",
+          "Nicolas Englebert",
+          "Kerry J. Vahala",
+          "Alireza Marandi"
+        ],
+        "decision": "mandatory",
+        "doi": "10.1038/s41377-026-02314-5",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02314-5",
+        "mandatory": true,
+        "matched_projects": [],
+        "open_access_url": "https://doi.org/10.1038/s41377-026-02314-5",
+        "openalex_id": "https://openalex.org/W7169589779",
+        "score": 0.85,
+        "score_breakdown": [
+          {
+            "contribution": 0.08,
+            "evidence": [
+              "architecture"
+            ],
+            "feature": "architecture_signal"
+          },
+          {
+            "contribution": 0.05,
+            "evidence": [
+              "classification",
+              "generative"
+            ],
+            "feature": "application_signal"
+          },
+          {
+            "contribution": 0.12,
+            "evidence": [
+              "tier_1_must_summarize"
+            ],
+            "feature": "venue_policy"
+          },
+          {
+            "contribution": 0.08,
+            "evidence": [
+              "abstract"
+            ],
+            "feature": "metadata_abstract"
+          },
+          {
+            "contribution": 0.03,
+            "evidence": [
+              "10.1038/s41377-026-02314-5"
+            ],
+            "feature": "metadata_doi"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "https://openalex.org/W7169589779"
+            ],
+            "feature": "metadata_openalex_id"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "2026",
+              "Light Science & Applications"
+            ],
+            "feature": "metadata_venue_and_year"
+          },
+          {
+            "contribution": 0.05,
+            "evidence": [
+              "19_days"
+            ],
+            "feature": "freshness"
+          },
+          {
+            "contribution": 0.02,
+            "evidence": [
+              "google_scholar_email"
+            ],
+            "feature": "primary_source_bonus"
+          }
+        ],
+        "source_type": "google_scholar_email",
+        "title": "All-optical computing towards 100-GHz clock rates",
+        "venue": "Light Science & Applications",
+        "year": 2026
+      },
+      "summary": {
+        "candidate_id": "766ea277f76b9bc9cd30be5d",
+        "core_problem": "传统电子处理器的时钟频率长期停滞在约5 GHz，难以满足超快信息系统的实时处理需求。本文旨在突破这一瓶颈，提出并实验验证一种全光循环神经网络计算机，利用线性与非线性光学操作的超快特性，在光域内实现运算、非线性函数和存储，从而将时钟频率推高至80 GHz以上。",
+        "distinction_from_prior_work": "与已有光电混合或纯电子计算架构不同，本文首次实现了完全在光域内执行线性运算、非线性激活和记忆功能的全光循环神经网络，彻底消除了电子瓶颈，并实验证明了在高达80 GHz的时钟频率下优于纯线性模型的准确度。",
+        "limitations_and_open_questions": [
+          "本次实验为原理验证，网络规模较小（隐藏层节点数有限），尚未验证扩展至更大规模时的性能。",
+          "文中未提供与电子或光电混合方案在相同任务上的直接性能对比。",
+          "非线性激活函数依赖于PPLN波导中的泵浦耗尽二次谐波产生，其对温度、功率的敏感性可能影响长期稳定性尚未讨论。",
+          "训练过程采用离线优化（线性回归或直接设置），未实现在线学习或自适应功能。",
+          "文中未报告推理阶段的总功耗或能耗效率，这是实际应用的关键指标。"
+        ],
+        "main_contributions": [
+          "提出并实验验证了全光循环神经网络架构，将线性运算、非线性激活和记忆功能完全集成在光域中。",
+          "在噪声波形分类任务中展示了超越纯线性模型的准确度，有效时钟频率高达80 GHz。",
+          "利用该架构对集成光学微谐振腔中的孤子状态进行超快原位分析。",
+          "展示了一种基于量子涨落的全光生成式人工智能应用，可在无输入光信号时生成图像。",
+          "通过引入有源光腔和电光幅度调制器实现了权重可配置的循环连接，为可扩展的光神经网络提供了基础。"
+        ],
+        "method_and_architecture": "系统采用全光循环神经网络框架，包含输入层、隐藏循环层和输出层。信息以超短激光脉冲的相干振幅编码，利用时间复用光子网络实现循环连接。隐藏层由有源光腔、多臂马赫-增德尔干涉仪及电光调制器实现线性耦合，并采用周期极化铌酸锂波导中的泵浦耗尽二次谐波产生作为非线性激活函数。输出层同样采用马赫-增德尔干涉仪进行线性加权求和，最终由高速光电探测器读取。整个计算过程在光域内完成，时钟频率由激光脉冲重复率决定。",
+        "method_implementation": [
+          "实验平台基于商用的保偏光纤器件搭建，工作波长约1.55 μm。光源为锁模激光器、电光频率梳或光学微腔孤子频梳，可产生高重复率的超短脉冲序列。输入信息编码在脉冲的相干振幅上，脉冲重复率即系统的有效时钟频率。隐藏层主腔包含一个双臂马赫-增德尔干涉仪，两臂间相对延迟T₀被设定为时钟周期的整数倍，以定义隐藏层神经元间的连接拓扑。干涉仪每臂各有一个电光幅度调制器（IXBlue MXAN-LN-10），通过施加恒定偏置电压和高速射频信号来控制每个连接的权重。腔内还包括一段光纤耦合的周期极化铌酸锂波导，作为非线性激活单元，其工作温度由加热台稳定在约51.5°C。输入光脉冲通过一个2×2光纤耦合器注入主腔，与腔内循环的脉冲相干叠加，实现输入加权和反馈连接。主腔的往返时间约为24 ns（对于图像生成任务约为453 ns），用于产生足够的时间步骤。非线性激活后的光信号从主腔耦合出，经掺铒光纤放大器（Thorlabs EDFA100S）放大和200 GHz带通滤波器滤除自发辐射噪声后，进入输出层。输出层为一个四臂马赫-增德尔干涉仪，其权重同样由电光调制器的偏置电压设置，三臂用于加权求和，一臂提供可选的恒定偏置。输出光信号由高速光电探测器（Newport 1414）转换为电信号，并由实时示波器（Keysight MSOV334A）采集。所有射频和光输入通过低噪声10 MHz基准时钟同步。",
+          "在不同的任务中，训练方法和参数配置有差异。对于噪声波形分类和孤子状态分析任务，仅训练施加在电光调制器上的偏置电压。这些偏置电压作为网络权重，通过求解线性回归问题直接优化，目标是使输出脉冲波形匹配预期标签。例如，在噪声波形分类中，目标脉冲在对应时间步长呈现高值，其余为零。对于图像生成任务，偏置点设为“关闭”状态，训练的是以10 GSa/s速率更新的高速射频电压，以便将量子涨落注入并生成MNIST数字图像。权重优化使用了模拟退火算法，评估指标采用Fréchet起始距离和Inception分数。训练不涉及反向传播，因为光学实现部分是模拟的，且输入和输出直接在光域中定义。系统在执行生成任务时，主腔输出直接检测，无需输出层；其他任务则通过输出层进行线性组合后检测。实验结果展示了高达80 GHz的有效时钟频率下的准确运算，验证了全光架构的超快处理能力。"
+        ],
+        "method_principle": "全光计算机的核心思想是利用光学器件的高速特性和并行能力来突破电子处理器的时钟频率瓶颈。循环神经网络固有的动力系统特性适合处理时间序列信息，且依赖动态记忆，避免了对非易失性存储器的需求，这与光学的高带宽优势天然契合。在具体实现上，信息首先被编码到超短脉冲的相干振幅上，脉冲的重复率即为计算机的有效时钟频率。循环连接通过一个包含多臂干涉仪的有源光腔实现：光脉冲在腔内循环，不同臂长引入的整数倍时钟周期延迟使不同时刻的脉冲发生干涉，从而实现循环权重矩阵的乘法。电光调制器调节各臂的振幅，这些调制电压即为可训练的权重参数。线性变换后，光信号进入基于周期极化铌酸锂波导的非线性激活单元。该单元利用χ2非线性过程中的泵浦耗尽二次谐波产生，当基频光功率较高时，部分基频光转换为二次谐波，导致基频振幅呈现S形压缩响应，类似于神经网络的激活函数。这种非线性在极低脉冲能量下即可实现有效运算。最后，输出层通过另一个多臂干涉仪对隐藏层输出进行线性组合，产生最终的输出光脉冲，由高速光电探测器转换为电信号用于读出。整个网络的训练是通过调整电光调制器的偏置电压或射频电压来最小化任务相关的误差函数，对于波形分类任务，训练采用线性回归直接在目标脉冲波形上求解最优权重。由于所有运算——线性加权、非线性激活和循环反馈——均在光域中完成，避免了光电转换带来的延迟和带宽限制，从而实现了超越电子器件的超高速计算。",
+        "optical_neural_network_analysis": {
+          "application_tasks": [
+            "噪声波形分类",
+            "光学微腔孤子态超快分析",
+            "基于量子涨落的图像生成"
+          ],
+          "architecture_type": "unclear",
+          "calibration_requirements": "需要精确控制马赫-增德尔干涉仪两臂间的相对延迟（使其为时钟周期整数倍），并通过微调位移台最大化相干干涉条纹可见度来实现精细对齐。PPLN波导的温度需稳定在约51.5°C以保证相位匹配。电光调制器偏置电压需通过数模转换器精确设置。",
+          "hardware_validation": "physical_experiment",
+          "optical_nonlinearity": "利用周期极化铌酸锂波导中的χ2泵浦耗尽二次谐波产生提供S形激活函数，在低脉冲能量下实现非线性。",
+          "training_method": "权重通过求解线性回归或模拟退火算法离线优化，不依赖于反向传播。电光调制器的偏置或射频电压作为可训练参数。"
+        },
+        "output_language": "zh-CN",
+        "reported_results": [
+          {
+            "basis": "abstract",
+            "claim": "实验展示了在高达80 GHz时钟频率下，全光循环神经网络在噪声波形分类任务中超越了纯线性模型的准确度。",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "利用该系统对集成光学微谐振腔中的孤子状态进行了超快原位分析。",
+            "reported_by_authors": true
+          },
+          {
+            "basis": "abstract",
+            "claim": "展示了在无输入光信号条件下基于量子涨落的生成式人工智能，用于生成图像。",
+            "reported_by_authors": true
+          }
+        ],
+        "research_value": "本研究首次实验验证了全光循环神经网络的概念，证明了完全在光域内实现线性运算、非线性激活和记忆功能的可行性，将时钟频率提升至80 GHz量级，为超快信息处理、实时控制及生成式AI等应用开辟了新路径，并为未来大规模可扩展全光计算架构的探索奠定了基础。",
+        "schema_version": 2,
+        "summary_version": 2,
+        "verification": {
+          "full_text_method_context_used": true,
+          "full_text_method_source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02314-5&p=1",
+          "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+          "missing_information": [],
+          "unsupported_numbers_detected": false
+        },
+        "zeroth_order_analysis": null
+      },
+      "summary_sha256": "1868e858a1f2cab9ca944dff7153a123a11f4981486dedc97d54c98601a31d5e"
+    }
+  ],
+  "provider": "deepseek",
+  "review_version": 2,
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": true,
+    "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+    "numeric_validation": {
+      "absolute_tolerance": 0.02,
+      "approximation_markers_ignored": true,
+      "evidence_sources": [
+        "title",
+        "abstract",
+        "temporary_open_full_text_methods"
+      ],
+      "full_text_persisted": false,
+      "mode": "inherited_completed_loose_full_evidence",
+      "relative_tolerance": 0.02,
+      "scope": "title_abstract_and_open_full_text_loose",
+      "source": "completed_generation_manifest",
+      "unit_format_ignored": true
+    },
+    "summary_history_updated": false
+  },
+  "schema_version": 2,
+  "status": "pending_human_review"
+}

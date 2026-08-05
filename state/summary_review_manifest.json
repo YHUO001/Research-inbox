@@ -1,14 +1,32 @@
 {
-  "architecture_repairs": 1,
-  "digest_date": "2026-08-04",
+  "architecture_repairs": 0,
+  "digest_date": "2026-08-05",
   "email_enabled": false,
+  "full_text_used": true,
   "model": "deepseek-v4-pro",
+  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+  "numeric_validation": {
+    "absolute_tolerance": 0.02,
+    "approximation_markers_ignored": true,
+    "evidence_sources": [
+      "title",
+      "abstract",
+      "temporary_open_full_text_methods"
+    ],
+    "full_text_persisted": false,
+    "mode": "inherited_completed_loose_full_evidence",
+    "relative_tolerance": 0.02,
+    "scope": "title_abstract_and_open_full_text_loose",
+    "source": "completed_generation_manifest",
+    "unit_format_ignored": true
+  },
+  "output_language": "zh-CN",
   "paper_count": 3,
-  "review_json_file": "data/reviews/2026-08-04.review.json",
-  "review_json_sha256": "732c62dcf190aa2db13dfae3a210febd0be4335d79ddeb8c73764bb930670046",
-  "review_markdown_file": "data/reviews/2026-08-04.review.md",
-  "review_version": 1,
-  "schema_version": 1,
+  "review_json_file": "data/reviews/2026-08-05.review.json",
+  "review_json_sha256": "015bd40344b5c47cf11cb91c68d507b0168ed40e16d99b9b90962264a071d3c8",
+  "review_markdown_file": "data/reviews/2026-08-05.review.md",
+  "review_version": 2,
+  "schema_version": 2,
   "status": "pending_human_review",
   "summary_history_updated": false
 }
