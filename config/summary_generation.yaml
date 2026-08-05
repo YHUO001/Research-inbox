@@ -68,6 +68,8 @@ output:
   minimum_han_characters: 120
   method_implementation_min_paragraphs: 2
   method_implementation_max_paragraphs: 6
+  abstract_only_method_principle_min_characters: 60
+  abstract_only_method_implementation_min_paragraphs: 1
 
 full_text:
   enabled: true
@@ -80,6 +82,9 @@ full_text:
   persist_extracted_text: false
   qualitative_methods_only: true
   numeric_grounding_scope: "title_and_abstract_only"
+  retrieval_attempts: 3
+  fallback_to_abstract_after_attempts: true
+  skip_when_abstract_missing: true
   maximum_download_bytes: 15000000
   maximum_method_characters: 12000
   timeout_seconds: 10
