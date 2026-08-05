@@ -1,24 +1,17 @@
 {
   "digest_date": "2026-08-05",
+  "digest_json_file": "runtime-state/data/digests/2026-08-05.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-08-05.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.111444,
-  "failure_count": 2,
-  "failures": [
-    {
-      "candidate_id": "b63d0c87752a364b3611148c",
-      "reason": "unsupported numeric claims: 1"
-    },
-    {
-      "candidate_id": "766ea277f76b9bc9cd30be5d",
-      "reason": "unsupported numeric claims: 10, 100mw, 10ghz, 10mhz, 1544b, 9260, ~100ns, ~120, ~1540nm, ~25ns, ~50ns, ~770nm"
-    }
-  ],
+  "estimated_cost_cny": 0.119834,
+  "failure_count": 0,
+  "failures": [],
   "full_text_method_contexts": {
     "766ea277f76b9bc9cd30be5d": {
       "candidate_id": "766ea277f76b9bc9cd30be5d",
-      "character_count": 12203,
-      "content_sha256": "d41c0ee18d1da1ee30dde9fdd78044ebad95c81cd163d238ac9803aa2afcf660",
-      "elapsed_seconds": 0.954,
+      "character_count": 12000,
+      "content_sha256": "4b046a94f90a868806f2deb3d1716cd866968d865e9258d2cf3bb15cc4fcb537",
+      "elapsed_seconds": 1.183,
       "error": null,
       "media_type": "application/xml+jats",
       "section_headings": [
@@ -33,9 +26,9 @@
     },
     "97f076ce54abbfc51b5b73e4": {
       "candidate_id": "97f076ce54abbfc51b5b73e4",
-      "character_count": 1983,
-      "content_sha256": "928d2307b88250cba9fd9e57a83e4f2e935671b3cc758a35f1d21e14941f5979",
-      "elapsed_seconds": 0.643,
+      "character_count": 2020,
+      "content_sha256": "2a084d6dc263f24fc52a3181cb1ac1897771e86d646a50852fd2cee3078a5ed1",
+      "elapsed_seconds": 0.924,
       "error": null,
       "media_type": "application/xml+jats",
       "section_headings": [
@@ -47,9 +40,9 @@
     },
     "b63d0c87752a364b3611148c": {
       "candidate_id": "b63d0c87752a364b3611148c",
-      "character_count": 12366,
-      "content_sha256": "e9dbbe6841c2717e344f533bc465cee1dd3ffd6c7436a1bbee2badb4d62aaf69",
-      "elapsed_seconds": 0.945,
+      "character_count": 12000,
+      "content_sha256": "1c5cd81c8399bb7c84df121b1071fc1803a50c0de98635a1d2ef23abf0f1dfca",
+      "elapsed_seconds": 1.276,
       "error": null,
       "media_type": "application/xml+jats",
       "section_headings": [
@@ -71,97 +64,96 @@
   "full_text_used": true,
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "model": "deepseek-v4-pro",
-  "numeric_grounding_scope": "title_and_abstract_only",
+  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+  "numeric_matching": {
+    "absolute_tolerance": 0.02,
+    "approximation_markers_ignored": true,
+    "evidence_sources": [
+      "title",
+      "abstract",
+      "temporary_open_full_text_methods"
+    ],
+    "relative_tolerance": 0.02,
+    "unit_format_ignored": true
+  },
   "output_language": "zh-CN",
   "provider": "deepseek",
   "request_count": 3,
   "schema_version": 1,
   "stage_timings": {
-    "full_text_preparation_seconds": 2.545,
+    "full_text_preparation_seconds": 3.389,
     "model_api_calls": [
       {
         "attempt": 1,
         "candidate_id": "b63d0c87752a364b3611148c",
-        "elapsed_seconds": 42.866,
+        "elapsed_seconds": 109.397,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2811,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 4926,
-          "prompt_tokens": 6974,
-          "total_tokens": 9785
+          "completion_tokens": 2738,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 6802,
+          "prompt_tokens": 6802,
+          "total_tokens": 9540
         }
       },
       {
         "attempt": 2,
         "candidate_id": "b63d0c87752a364b3611148c",
-        "elapsed_seconds": 33.349,
+        "elapsed_seconds": 42.564,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2111,
-          "prompt_cache_hit_tokens": 6912,
-          "prompt_cache_miss_tokens": 87,
-          "prompt_tokens": 6999,
-          "total_tokens": 9110
+          "completion_tokens": 2163,
+          "prompt_cache_hit_tokens": 6784,
+          "prompt_cache_miss_tokens": 48,
+          "prompt_tokens": 6832,
+          "total_tokens": 8995
         }
       },
       {
         "attempt": 1,
         "candidate_id": "97f076ce54abbfc51b5b73e4",
-        "elapsed_seconds": 35.324,
+        "elapsed_seconds": 34.484,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1913,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1705,
-          "prompt_tokens": 3753,
-          "total_tokens": 5666
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "97f076ce54abbfc51b5b73e4",
-        "elapsed_seconds": 76.132,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1862,
-          "prompt_cache_hit_tokens": 3712,
-          "prompt_cache_miss_tokens": 81,
-          "prompt_tokens": 3793,
-          "total_tokens": 5655
+          "completion_tokens": 1706,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 3770,
+          "prompt_tokens": 3770,
+          "total_tokens": 5476
         }
       },
       {
         "attempt": 1,
         "candidate_id": "766ea277f76b9bc9cd30be5d",
-        "elapsed_seconds": 36.666,
+        "elapsed_seconds": 106.903,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2144,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 4245,
-          "prompt_tokens": 6293,
-          "total_tokens": 8437
+          "completion_tokens": 3598,
+          "prompt_cache_hit_tokens": 1792,
+          "prompt_cache_miss_tokens": 4408,
+          "prompt_tokens": 6200,
+          "total_tokens": 9798
         }
       },
       {
         "attempt": 2,
         "candidate_id": "766ea277f76b9bc9cd30be5d",
-        "elapsed_seconds": 37.001,
+        "elapsed_seconds": 44.929,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2073,
-          "prompt_cache_hit_tokens": 6272,
-          "prompt_cache_miss_tokens": 84,
-          "prompt_tokens": 6356,
-          "total_tokens": 8429
+          "completion_tokens": 2146,
+          "prompt_cache_hit_tokens": 6144,
+          "prompt_cache_miss_tokens": 92,
+          "prompt_tokens": 6236,
+          "total_tokens": 8382
         }
       }
     ],
-    "model_generation_and_validation_seconds": 261.363
+    "model_generation_and_validation_seconds": 338.306
   },
-  "status": "failed_validation",
-  "summary_count": 1,
+  "status": "completed",
+  "summary_count": 3,
+  "summary_file": "runtime-state/data/summaries/2026-08-05.jsonl",
   "summary_generation_version": 6,
   "summary_history_updated": false,
   "thinking_enabled": false,
@@ -190,8 +182,8 @@
         "integrated_evidence": [
           "Furthermore, we successfully implemented chip-scale integration via nano printing, maintaining 94% accuracy, confirming B-ONN's effective transferability from programmable setups to fixed devices."
         ],
-        "model_value": "hybrid",
-        "repaired": false,
+        "model_value": "free_space",
+        "repaired": true,
         "resolved_type": "hybrid"
       }
     },
@@ -200,9 +192,9 @@
     "full_text_method_contexts": {
       "766ea277f76b9bc9cd30be5d": {
         "candidate_id": "766ea277f76b9bc9cd30be5d",
-        "character_count": 12203,
-        "content_sha256": "d41c0ee18d1da1ee30dde9fdd78044ebad95c81cd163d238ac9803aa2afcf660",
-        "elapsed_seconds": 0.954,
+        "character_count": 12000,
+        "content_sha256": "4b046a94f90a868806f2deb3d1716cd866968d865e9258d2cf3bb15cc4fcb537",
+        "elapsed_seconds": 1.183,
         "error": null,
         "media_type": "application/xml+jats",
         "section_headings": [
@@ -217,9 +209,9 @@
       },
       "97f076ce54abbfc51b5b73e4": {
         "candidate_id": "97f076ce54abbfc51b5b73e4",
-        "character_count": 1983,
-        "content_sha256": "928d2307b88250cba9fd9e57a83e4f2e935671b3cc758a35f1d21e14941f5979",
-        "elapsed_seconds": 0.643,
+        "character_count": 2020,
+        "content_sha256": "2a084d6dc263f24fc52a3181cb1ac1897771e86d646a50852fd2cee3078a5ed1",
+        "elapsed_seconds": 0.924,
         "error": null,
         "media_type": "application/xml+jats",
         "section_headings": [
@@ -231,9 +223,9 @@
       },
       "b63d0c87752a364b3611148c": {
         "candidate_id": "b63d0c87752a364b3611148c",
-        "character_count": 12366,
-        "content_sha256": "e9dbbe6841c2717e344f533bc465cee1dd3ffd6c7436a1bbee2badb4d62aaf69",
-        "elapsed_seconds": 0.945,
+        "character_count": 12000,
+        "content_sha256": "1c5cd81c8399bb7c84df121b1071fc1803a50c0de98635a1d2ef23abf0f1dfca",
+        "elapsed_seconds": 1.276,
         "error": null,
         "media_type": "application/xml+jats",
         "section_headings": [
@@ -252,14 +244,14 @@
       }
     },
     "generation_metadata_repair_responses": 1,
-    "tops_alias_expansions": 1,
-    "unit_format_normalization_responses": 2
+    "tops_alias_expansions": 53,
+    "unit_format_normalization_responses": 3
   },
   "usage": {
-    "completion_tokens": 12914,
-    "prompt_cache_hit_tokens": 23040,
-    "prompt_cache_miss_tokens": 11128,
-    "prompt_tokens": 34168,
-    "total_tokens": 47082
+    "completion_tokens": 12351,
+    "prompt_cache_hit_tokens": 14720,
+    "prompt_cache_miss_tokens": 15120,
+    "prompt_tokens": 29840,
+    "total_tokens": 42191
   }
 }
