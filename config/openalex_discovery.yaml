@@ -3,7 +3,10 @@ discovery_version: 1
 enabled: true
 
 schedule:
-  minimum_interval_hours: 44
+  # The unified morning workflow runs once daily.  Twenty hours tolerates
+  # GitHub schedule drift while preventing the retry window from repeating a
+  # successful morning OpenAlex scan.
+  minimum_interval_hours: 20
   overlap_days: 3
   initial_lookback_days: 14
 
