@@ -49,7 +49,8 @@ full_text:
   numeric_grounding_scope: "title_and_abstract_only"
   maximum_download_bytes: 15000000
   maximum_method_characters: 12000
-  timeout_seconds: 30
+  timeout_seconds: 10
+  candidate_timeout_seconds: 45
   candidate_url_limit: 3
   preferred_sections:
     - "methods"

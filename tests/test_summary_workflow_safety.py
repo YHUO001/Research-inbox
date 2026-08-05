@@ -33,7 +33,8 @@ def test_deepseek_generation_builds_review_packet_but_cannot_finalize() -> None:
     assert "gmail_sender" not in text
     assert "summary_history.json" not in text
     assert "Prepare open full-text method context" in text
-    assert "scripts.summarize.staged_summary_pipeline prepare" in text
+    assert "scripts.summarize.prepare_fulltext_bounded" in text
+    assert "scripts.summarize.staged_summary_pipeline prepare" not in text
     assert "scripts.summarize.staged_summary_pipeline generate" in text
     assert "scripts.summarize.generate_summaries_production" not in text
     assert "scripts.summarize.build_review_packet" in text
@@ -104,5 +105,7 @@ def test_summary_configuration_requires_chinese_open_fulltext_human_review() -> 
     assert full_text["persist_extracted_text"] is False
     assert full_text["qualitative_methods_only"] is True
     assert full_text["numeric_grounding_scope"] == "title_and_abstract_only"
+    assert full_text["timeout_seconds"] == 10
+    assert full_text["candidate_timeout_seconds"] == 45
     assert config["limits"]["maximum_summaries_per_run"] == 3
     assert config["grounding"]["enforce_onn_architecture_evidence"] is True
