@@ -2,11 +2,18 @@
 
 ## Schedule (Asia/Singapore)
 
-- 08:17 — primary Google Scholar alert ingestion.
-- 20:47 — recovery ingestion only when no successful Scholar run was recorded on the same local date.
+- 08:17 — one unified discovery run: Google Scholar alerts and OpenAlex feed the same registry, deduplication, enrichment, routing, scoring, and selection path.
+- 20:47 — recovery run only when the complete unified morning pipeline was not successful on the same local date.
 - 21:30 — one automatic summary batch, limited to three validated summaries.
 - 22:15 — one aggregate daily email, sent only when a completed non-empty digest exists.
-- OpenAlex discovery retains its independent 44-hour minimum interval.
+
+OpenAlex retains a 20-hour provider interval inside the unified workflow. Therefore, the recovery run does not repeat a successful morning OpenAlex scan, but it can retry OpenAlex when the provider step itself failed.
+
+## Unified discovery transaction
+
+Both discovery sources append normalized candidates to `data/paper_registry.jsonl`. Cross-source identity checks use OpenAlex ID, DOI, normalized title plus year, and content fingerprint. After both collectors finish, the whole registry is deterministically routed, enriched through Crossref/OpenAlex, rescored, and reduced to the common LLM candidate queue.
+
+`state/unified_discovery_state.json` advances only when Scholar ingestion, OpenAlex discovery, routing, enrichment, and scoring all succeed. Partial accepted records and diagnostics are persisted before a failed job exits, allowing the evening recovery run to continue without losing work or duplicating already accepted papers.
 
 ## Automatic summary transaction
 
