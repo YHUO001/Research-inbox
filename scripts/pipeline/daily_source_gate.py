@@ -140,7 +140,11 @@ def build_parser() -> argparse.ArgumentParser:
     plan_parser = subparsers.add_parser("plan")
     plan_parser.add_argument("--gmail-state-path", type=Path, required=True)
     plan_parser.add_argument("--openalex-state-path", type=Path, required=True)
-    plan_parser.add_argument("--delivery-state-path", type=Path, required=True)
+    plan_parser.add_argument(
+        "--delivery-state-path",
+        type=Path,
+        default=Path("runtime-state/state/email_delivery_state.json"),
+    )
     plan_parser.add_argument("--event-name", required=True)
     plan_parser.add_argument("--event-schedule", default="")
     plan_parser.add_argument("--github-output", type=Path)
