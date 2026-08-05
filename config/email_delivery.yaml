@@ -1,7 +1,7 @@
-delivery_version: 1
+delivery_version: 2
 
 provider: "gmail_api"
-enabled_by_default: false
+enabled_by_default: true
 
 permissions:
   required_oauth_scopes:
@@ -12,26 +12,31 @@ permissions:
     - "https://mail.google.com/"
 
 recipient_policy:
-  source: "environment_allowlist"
-  environment_variable: "RESEARCH_INBOX_EMAIL_RECIPIENTS"
+  source: "config_allowlist"
+  recipients:
+    - "a209072780@126.com"
   maximum_recipients_per_message: 1
   allow_cc: false
   allow_bcc: false
 
-activation:
-  environment_variable: "RESEARCH_INBOX_EMAIL_ENABLED"
-  enabled_value: "true"
-  default: false
+schedule:
+  timezone: "Asia/Singapore"
+  local_time: "22:15"
+  send_empty_digest: false
 
 message_policy:
   delivery_mode: "daily_digest_only"
-  maximum_messages_per_run: 1
+  maximum_messages_per_digest: 1
   require_nonempty_subject: true
   require_nonempty_text_body: true
   maximum_body_characters: 100000
   attachments_allowed: false
-  subject_prefix_environment_variable: "RESEARCH_INBOX_EMAIL_SUBJECT_PREFIX"
-  default_subject_prefix: "[Research Inbox]"
+  subject_prefix: "[Research Inbox]"
+
+idempotency:
+  deterministic_message_id: true
+  search_sent_mail_before_send: true
+  state_path: "state/email_delivery_state.json"
 
 logging:
   print_recipient: false
