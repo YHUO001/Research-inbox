@@ -185,6 +185,7 @@ jobs:
           PY
 
       - name: Prepare open full-text method context
+        id: fulltext
         if: steps.prepare.outputs.request_count != '0'
         env:
           SPRINGER_NATURE_API_KEY: ${{ secrets.SPRINGER_NATURE_API_KEY }}
@@ -197,10 +198,31 @@ jobs:
             --config config/summary_generation.yaml \
             --prepared-root "${PREPARED_ROOT}"
           cat "${PREPARED_ROOT}/fulltext_preparation.json"
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          audit = json.loads(
+              (Path(os.environ["PREPARED_ROOT"]) / "fulltext_preparation.json").read_text(
+                  encoding="utf-8"
+              )
+          )
+          with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as handle:
+              handle.write(
+                  f"prepared_request_count={int(audit.get('prepared_request_count') or 0)}\n"
+              )
+              handle.write(
+                  f"skipped_no_abstract_count={int(audit.get('skipped_no_abstract_count') or 0)}\n"
+              )
+              handle.write(
+                  f"abstract_fallback_count={int(audit.get('abstract_fallback_count') or 0)}\n"
+              )
+          PY
 
       - name: Generate and locally validate DeepSeek summaries
         id: generate
-        if: steps.prepare.outputs.request_count != '0'
+        if: steps.fulltext.outputs.prepared_request_count != '0'
         shell: bash
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -223,13 +245,13 @@ jobs:
 
       - name: Add DOI links and finalize automatically
         if: >-
-          steps.prepare.outputs.request_count != '0' &&
+          steps.fulltext.outputs.prepared_request_count != '0' &&
           steps.generate.outputs.exit_code == '0'
         run: |
           python -m scripts.summarize.add_digest_doi_links \
             --generation-manifest-path runtime-state/state/summary_generation_manifest.json \
             --output-root runtime-state/data
-          python -m scripts.summarize.finalize_automatic \
+          python -m scripts.summarize.finalize_automatic_safe \
             --generation-manifest-path runtime-state/state/summary_generation_manifest.json \
             --history-path runtime-state/state/summary_history.json \
             --summary-schema schemas/paper_summary.schema.json \
@@ -237,7 +259,7 @@ jobs:
 
       - name: Update long-term knowledge index
         if: >-
-          steps.prepare.outputs.request_count != '0' &&
+          steps.fulltext.outputs.prepared_request_count != '0' &&
           steps.generate.outputs.exit_code == '0'
         run: |
           python -m scripts.knowledge.build_index \
@@ -249,7 +271,11 @@ jobs:
         id: send
         if: >-
           steps.readiness.outputs.ready == 'true' &&
-          (steps.prepare.outputs.request_count == '0' || steps.generate.outputs.exit_code == '0')
+          (
+            steps.prepare.outputs.request_count == '0' ||
+            steps.fulltext.outputs.prepared_request_count == '0' ||
+            steps.generate.outputs.exit_code == '0'
+          )
         shell: bash
         env:
           GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
@@ -257,7 +283,7 @@ jobs:
           GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
         run: |
           set +e
-          python -m scripts.delivery.send_daily_digest \
+          python -m scripts.delivery.send_daily_digest_safe \
             --config config/email_delivery.yaml \
             --state-root runtime-state
           exit_code=$?
@@ -291,7 +317,7 @@ jobs:
 
       - name: Fail after persisting summary validation diagnostics
         if: >-
-          steps.prepare.outputs.request_count != '0' &&
+          steps.fulltext.outputs.prepared_request_count != '0' &&
           steps.generate.outputs.exit_code != '0'
         run: exit "${{ steps.generate.outputs.exit_code }}"
 
