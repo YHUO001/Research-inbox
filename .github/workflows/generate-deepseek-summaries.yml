@@ -43,8 +43,34 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
+      - name: Bootstrap existing approved summaries
+        id: bootstrap
+        shell: bash
+        run: |
+          python -m scripts.summarize.bootstrap_approved_batch \
+            --generation-manifest-path runtime-state/state/summary_generation_manifest.json \
+            --state-root runtime-state \
+            --history-path runtime-state/state/summary_history.json \
+            --summary-schema schemas/paper_summary.schema.json \
+            --config config/summary_generation.yaml
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          manifest = json.loads(
+              Path("runtime-state/state/summary_generation_manifest.json").read_text(
+                  encoding="utf-8"
+              )
+          )
+          bootstrapped = bool(manifest.get("bootstrapped"))
+          with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as handle:
+              handle.write(f"bootstrapped={'true' if bootstrapped else 'false'}\n")
+          PY
+
       - name: Prepare automatic summary requests
         id: prepare
+        if: steps.bootstrap.outputs.bootstrapped != 'true'
         env:
           FILTERED_QUEUE: ${{ runner.temp }}/automatic-summary-queue.jsonl
         run: |
@@ -74,7 +100,9 @@ jobs:
           PY
 
       - name: Prepare open full-text method context
-        if: steps.prepare.outputs.request_count != '0'
+        if: >-
+          steps.bootstrap.outputs.bootstrapped != 'true' &&
+          steps.prepare.outputs.request_count != '0'
         env:
           SPRINGER_NATURE_API_KEY: ${{ secrets.SPRINGER_NATURE_API_KEY }}
           PREPARED_ROOT: ${{ runner.temp }}/research-inbox-generation
@@ -89,7 +117,9 @@ jobs:
 
       - name: Generate and locally validate DeepSeek summaries
         id: generate
-        if: steps.prepare.outputs.request_count != '0'
+        if: >-
+          steps.bootstrap.outputs.bootstrapped != 'true' &&
+          steps.prepare.outputs.request_count != '0'
         shell: bash
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -112,6 +142,7 @@ jobs:
 
       - name: Add DOI links and finalize automatically
         if: >-
+          steps.bootstrap.outputs.bootstrapped != 'true' &&
           steps.prepare.outputs.request_count != '0' &&
           steps.generate.outputs.exit_code == '0'
         run: |
@@ -127,8 +158,9 @@ jobs:
 
       - name: Update long-term knowledge index
         if: >-
-          steps.prepare.outputs.request_count != '0' &&
-          steps.generate.outputs.exit_code == '0'
+          steps.bootstrap.outputs.bootstrapped == 'true' ||
+          (steps.prepare.outputs.request_count != '0' &&
+          steps.generate.outputs.exit_code == '0')
         run: |
           python -m scripts.knowledge.build_index \
             --generation-manifest-path runtime-state/state/summary_generation_manifest.json \
@@ -173,6 +205,7 @@ jobs:
 
       - name: Fail after persisting validation diagnostics
         if: >-
+          steps.bootstrap.outputs.bootstrapped != 'true' &&
           steps.prepare.outputs.request_count != '0' &&
           steps.generate.outputs.exit_code != '0'
         shell: bash
