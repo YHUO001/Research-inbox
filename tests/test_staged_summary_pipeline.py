@@ -110,8 +110,8 @@ def test_workflow_splits_full_text_and_model_stages_with_30_minute_limit() -> No
     assert "timeout-minutes: 30" in workflow
     assert "Prepare open full-text method context" in workflow
     assert "Generate and locally validate DeepSeek summaries" in workflow
-    assert "staged_summary_pipeline prepare" in workflow
+    assert "prepare_fulltext_bounded" in workflow
     assert "staged_summary_pipeline generate" in workflow
-    assert workflow.index("staged_summary_pipeline prepare") < workflow.index(
+    assert workflow.index("prepare_fulltext_bounded") < workflow.index(
         "staged_summary_pipeline generate"
     )
