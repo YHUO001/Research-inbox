@@ -22,7 +22,8 @@ _NUMERIC_LITERAL = re.compile(
     r"(?<![A-Za-z0-9])(?:~|≈|∼|±)?\s*"
     r"(?P<number>[+-]?(?:\d+(?:\.\d+)?|\.\d+)(?:[eE][+-]?\d+)?)"
 )
-_GROUNDING_SCOPE = "title_abstract_and_open_full_text_loose"
+_CONFIG_GROUNDING_SCOPE = "title_and_abstract_only"
+_AUDIT_GROUNDING_SCOPE = "title_abstract_and_open_full_text_loose"
 _ORIGINAL_GENERATION_MANIFEST_COPY = pipeline.generation_manifest_copy
 
 
@@ -122,12 +123,15 @@ def generation_manifest_copy_with_full_text_numbers(
 def validate_full_text_safety(config: dict[str, Any]) -> None:
     execution = config.get("execution") or {}
     full_text = config.get("full_text") or {}
+    grounding = config.get("grounding") or {}
     if execution.get("use_full_text") and not full_text.get("open_access_only"):
         raise RuntimeError("Full-text method context must remain open-access-only")
     if full_text.get("persist_extracted_text"):
         raise RuntimeError("Extracted full text must not be persisted")
-    if full_text.get("numeric_grounding_scope") != _GROUNDING_SCOPE:
-        raise RuntimeError("Numeric grounding must use loose title, abstract, and open-full-text evidence")
+    if full_text.get("numeric_grounding_scope") != _CONFIG_GROUNDING_SCOPE:
+        raise RuntimeError("Core numeric grounding configuration must remain backward compatible")
+    if grounding.get("numeric_matching_mode") != "loose_full_evidence":
+        raise RuntimeError("The staged workflow must explicitly enable loose full-evidence matching")
 
 
 def _loader_worker(
@@ -253,7 +257,7 @@ def main() -> int:
         prepared_root=args.prepared_root,
         method_context_loader=bounded_collect_method_context,
     )
-    result["numeric_grounding_scope"] = _GROUNDING_SCOPE
+    result["numeric_grounding_scope"] = _AUDIT_GROUNDING_SCOPE
     audit_path = Path(str(result.get("preparation_audit_path") or ""))
     if audit_path:
         atomic_write(
