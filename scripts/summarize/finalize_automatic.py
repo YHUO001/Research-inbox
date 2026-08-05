@@ -3,7 +3,6 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -65,15 +64,20 @@ def automatic_markdown(content: str, *, completed_at: str, count: int) -> str:
 
 def validate_automatic_config(config: dict[str, Any]) -> None:
     execution = config.get("execution") or {}
+    automation = config.get("automation") or {}
     review = config.get("review") or {}
-    if execution.get("mode") != "automatic_provider_generation":
-        raise RuntimeError("Automatic finalization requires automatic_provider_generation")
-    if execution.get("update_summary_history") is not True:
-        raise RuntimeError("Automatic finalization requires update_summary_history=true")
-    if execution.get("email_enabled"):
-        raise RuntimeError("Email delivery must remain disabled during finalization")
-    if review.get("required"):
+    if automation.get("enabled") is not True:
+        raise RuntimeError("Automatic summary orchestration must be enabled")
+    if automation.get("mode") != "automatic_after_discovery":
+        raise RuntimeError("Automatic finalization requires automatic_after_discovery")
+    if automation.get("update_summary_history_after_validation") is not True:
+        raise RuntimeError("Automatic finalization must update history after validation")
+    if automation.get("all_or_nothing_batch") is not True:
+        raise RuntimeError("Automatic finalization requires all-or-nothing batches")
+    if automation.get("review_required") or review.get("required"):
         raise RuntimeError("Human review must be disabled during finalization")
+    if automation.get("email_enabled") or execution.get("email_enabled"):
+        raise RuntimeError("Email delivery must remain disabled during finalization")
 
 
 def finalize_automatic(
