@@ -1,5 +1,39 @@
 {
-  "completed_candidate_ids": {},
+  "completed_candidate_ids": {
+    "766ea277f76b9bc9cd30be5d": {
+      "completed_at": "2026-08-05T09:24:54Z",
+      "completion_mode": "migrated_from_user_reviewed_batch",
+      "digest_date": "2026-08-05",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "review_required": false,
+      "source_generation_status": "completed",
+      "summary_file_sha256": "84755129ca860d38c72fffcad5500f35aa1507421a6c26fa2359dd930f414fb0"
+    },
+    "97f076ce54abbfc51b5b73e4": {
+      "completed_at": "2026-08-05T09:24:54Z",
+      "completion_mode": "migrated_from_user_reviewed_batch",
+      "digest_date": "2026-08-05",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "review_required": false,
+      "source_generation_status": "completed",
+      "summary_file_sha256": "84755129ca860d38c72fffcad5500f35aa1507421a6c26fa2359dd930f414fb0"
+    },
+    "b63d0c87752a364b3611148c": {
+      "completed_at": "2026-08-05T09:24:54Z",
+      "completion_mode": "migrated_from_user_reviewed_batch",
+      "digest_date": "2026-08-05",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "review_required": false,
+      "source_generation_status": "completed",
+      "summary_file_sha256": "84755129ca860d38c72fffcad5500f35aa1507421a6c26fa2359dd930f414fb0"
+    }
+  },
   "failed_candidate_ids": {},
   "schema_version": 1
 }
