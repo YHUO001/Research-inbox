@@ -1,21 +1,19 @@
-summary_generation_version: 6
+summary_generation_version: 7
 prompt_version: 2
 
 execution:
-  mode: "manual_provider_validation"
+  mode: "automatic_provider_generation"
   provider: "deepseek"
-  llm_enabled: false
+  llm_enabled: true
   manual_provider_calls_allowed: true
   email_enabled: false
-  update_summary_history: false
+  update_summary_history: true
   use_full_text: true
   full_text_open_access_only: true
 
 review:
-  required: true
-  approval_mode: "manual_all_or_nothing"
-  confirmation_phrase: "REVIEWED"
-  email_after_approval: false
+  required: false
+  approval_mode: "disabled"
 
 provider:
   name: "deepseek"
