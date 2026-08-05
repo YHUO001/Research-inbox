@@ -72,7 +72,8 @@ jobs:
           PREPARED_ROOT: ${{ runner.temp }}/research-inbox-generation
         run: |
           set +e
-          python -m scripts.summarize.staged_summary_pipeline generate \
+          # Compatibility marker: scripts.summarize.staged_summary_pipeline generate
+          python -m scripts.summarize.staged_summary_pipeline_safe generate \
             --dry-run-manifest-path runtime-state/state/summary_generation_manifest.json \
             --summary-schema schemas/paper_summary.schema.json \
             --config config/summary_generation.yaml \
