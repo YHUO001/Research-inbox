@@ -93,6 +93,9 @@ jobs:
             --summary-schema schemas/paper_summary.schema.json \
             --output-root runtime-state/data \
             --review-manifest-path runtime-state/state/summary_review_manifest.json
+          python -m scripts.summarize.add_doi_links \
+            --generation-manifest-path runtime-state/state/summary_generation_manifest.json \
+            --output-root runtime-state/data
           cat runtime-state/state/summary_review_manifest.json
 
       - name: Persist summary validation and review artifacts
