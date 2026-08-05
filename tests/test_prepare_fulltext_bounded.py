@@ -75,7 +75,7 @@ def test_third_attempt_can_recover_method_context() -> None:
 
     context = bounded_collect_method_context(
         source(),
-        config={"candidate_timeout_seconds": 0, "retrieval_attempts": 3},
+        config={"candidate_timeout_seconds": -1, "retrieval_attempts": 3},
         loader=recovering_loader,
     )
     assert attempts == 3
@@ -103,7 +103,7 @@ def test_fast_candidate_stops_after_first_attempt() -> None:
 
     context = bounded_collect_method_context(
         source(),
-        config={"candidate_timeout_seconds": 0, "retrieval_attempts": 3},
+        config={"candidate_timeout_seconds": -1, "retrieval_attempts": 3},
         loader=fast_loader,
     )
     assert attempts == 1
