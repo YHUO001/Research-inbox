@@ -41,6 +41,15 @@ def succeeded_today(state: dict[str, Any], now: datetime) -> bool:
     return previous.astimezone(LOCAL_TIMEZONE).date() == now.astimezone(LOCAL_TIMEZONE).date()
 
 
+def digest_delivered_today(state: dict[str, Any], now: datetime) -> bool:
+    sent = state.get("sent_digests") or {}
+    if not isinstance(sent, dict):
+        return False
+    local_date = now.astimezone(LOCAL_TIMEZONE).date().isoformat()
+    record = sent.get(local_date)
+    return isinstance(record, dict) and record.get("status") in {"sent", "already_sent"}
+
+
 def write_outputs(path: Path | None, values: dict[str, Any]) -> None:
     if path is None:
         return
@@ -59,37 +68,44 @@ def plan(
     *,
     gmail_state_path: Path,
     openalex_state_path: Path,
+    delivery_state_path: Path,
     event_name: str,
     event_schedule: str,
     now: datetime,
 ) -> dict[str, Any]:
     gmail_ok = succeeded_today(load_json(gmail_state_path), now)
     openalex_ok = succeeded_today(load_json(openalex_state_path), now)
+    delivery_ok = digest_delivered_today(load_json(delivery_state_path), now)
 
     if event_name == "workflow_dispatch":
         run_scholar = True
         run_openalex = True
+        should_run = True
         mode = "manual"
     elif event_schedule == PRIMARY_CRON:
         run_scholar = True
         run_openalex = True
+        should_run = True
         mode = "primary"
     elif event_schedule == RETRY_CRON:
         run_scholar = not gmail_ok
         run_openalex = not openalex_ok
+        should_run = run_scholar or run_openalex or not delivery_ok
         mode = "retry"
     else:
         run_scholar = True
         run_openalex = True
+        should_run = True
         mode = "safe_default"
 
     return {
         "mode": mode,
         "run_scholar": run_scholar,
         "run_openalex": run_openalex,
-        "should_run": run_scholar or run_openalex,
+        "should_run": should_run,
         "scholar_ready_before": gmail_ok,
         "openalex_ready_before": openalex_ok,
+        "daily_digest_delivered_before": delivery_ok,
     }
 
 
@@ -124,6 +140,11 @@ def build_parser() -> argparse.ArgumentParser:
     plan_parser = subparsers.add_parser("plan")
     plan_parser.add_argument("--gmail-state-path", type=Path, required=True)
     plan_parser.add_argument("--openalex-state-path", type=Path, required=True)
+    plan_parser.add_argument(
+        "--delivery-state-path",
+        type=Path,
+        default=Path("runtime-state/state/email_delivery_state.json"),
+    )
     plan_parser.add_argument("--event-name", required=True)
     plan_parser.add_argument("--event-schedule", default="")
     plan_parser.add_argument("--github-output", type=Path)
@@ -142,6 +163,7 @@ def main() -> int:
         result = plan(
             gmail_state_path=args.gmail_state_path,
             openalex_state_path=args.openalex_state_path,
+            delivery_state_path=args.delivery_state_path,
             event_name=args.event_name,
             event_schedule=args.event_schedule,
             now=now,
