@@ -22,6 +22,32 @@
     "zeroth_order_analysis",
     "verification"
   ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "verification": {
+            "properties": {
+              "information_basis": {
+                "const": "title_metadata_abstract_and_open_full_text_methods"
+              }
+            },
+            "required": ["information_basis"]
+          }
+        },
+        "required": ["verification"]
+      },
+      "then": {
+        "properties": {
+          "method_principle": {"minLength": 160},
+          "method_implementation": {
+            "minItems": 2,
+            "items": {"minLength": 60}
+          }
+        }
+      }
+    }
+  ],
   "properties": {
     "schema_version": {"const": 2},
     "summary_version": {"const": 2},
@@ -41,17 +67,17 @@
     },
     "method_principle": {
       "type": "string",
-      "minLength": 160,
+      "minLength": 60,
       "maxLength": 3200,
       "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]"
     },
     "method_implementation": {
       "type": "array",
-      "minItems": 2,
+      "minItems": 1,
       "maxItems": 6,
       "items": {
         "type": "string",
-        "minLength": 60,
+        "minLength": 20,
         "maxLength": 1400,
         "pattern": "[\u3400-\u4dbf\u4e00-\u9fff]"
       }
