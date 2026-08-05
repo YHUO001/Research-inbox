@@ -53,6 +53,7 @@ jobs:
 
       - name: Prepare open full-text method context
         env:
+          SPRINGER_NATURE_API_KEY: ${{ secrets.SPRINGER_NATURE_API_KEY }}
           PREPARED_ROOT: ${{ runner.temp }}/research-inbox-generation
         run: |
           rm -rf "${PREPARED_ROOT}"

@@ -17,6 +17,7 @@ def test_summary_dry_run_remains_manual_and_provider_free() -> None:
     assert "workflow_dispatch:" in text
     assert "schedule:" not in text
     assert "DEEPSEEK_API_KEY" not in text
+    assert "SPRINGER_NATURE_API_KEY" not in text
     assert "OPENAI_API_KEY" not in text
     assert "GMAIL_CLIENT_SECRET" not in text
     assert "summary_history.json" not in text
@@ -28,6 +29,7 @@ def test_deepseek_generation_builds_review_packet_but_cannot_finalize() -> None:
     assert "schedule:" not in text
     assert "timeout-minutes: 30" in text
     assert "DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}" in text
+    assert "SPRINGER_NATURE_API_KEY: ${{ secrets.SPRINGER_NATURE_API_KEY }}" in text
     assert "OPENAI_API_KEY" not in text
     assert "GMAIL_CLIENT_SECRET" not in text
     assert "gmail_sender" not in text
@@ -49,6 +51,7 @@ def test_offline_review_preparation_uses_no_provider_secret() -> None:
     assert "schedule:" not in text
     assert "scripts.summarize.build_review_packet" in text
     assert "DEEPSEEK_API_KEY" not in text
+    assert "SPRINGER_NATURE_API_KEY" not in text
     assert "OPENAI_API_KEY" not in text
     assert "GMAIL_CLIENT_SECRET" not in text
     assert "summary_history.json" not in text
@@ -64,6 +67,7 @@ def test_review_finalization_is_manual_and_has_explicit_confirmation() -> None:
     assert "scripts.summarize.finalize_review" in text
     assert "state/summary_history.json" in text
     assert "DEEPSEEK_API_KEY" not in text
+    assert "SPRINGER_NATURE_API_KEY" not in text
     assert "GMAIL_CLIENT_SECRET" not in text
     assert "gmail_sender" not in text
 
@@ -77,7 +81,7 @@ def test_summary_configuration_requires_chinese_open_fulltext_human_review() -> 
     review = config["review"]
     output = config["output"]
     full_text = config["full_text"]
-    assert config["summary_generation_version"] == 5
+    assert config["summary_generation_version"] == 6
     assert config["prompt_version"] == 2
     assert execution["mode"] == "manual_provider_validation"
     assert execution["provider"] == "deepseek"
@@ -102,10 +106,15 @@ def test_summary_configuration_requires_chinese_open_fulltext_human_review() -> 
     assert output["method_implementation_min_paragraphs"] == 2
     assert full_text["enabled"] is True
     assert full_text["open_access_only"] is True
+    assert full_text["source_strategy"] == "springer_openaccess_jats_then_non_springer_open_url"
+    assert full_text["springer_api_key_env"] == "SPRINGER_NATURE_API_KEY"
+    assert full_text["springer_openaccess_endpoint"] == "https://api.springernature.com/openaccess/jats"
+    assert full_text["allow_direct_nature_urls"] is False
+    assert full_text["allow_non_springer_open_urls"] is True
     assert full_text["persist_extracted_text"] is False
     assert full_text["qualitative_methods_only"] is True
     assert full_text["numeric_grounding_scope"] == "title_and_abstract_only"
     assert full_text["timeout_seconds"] == 10
-    assert full_text["candidate_timeout_seconds"] == 45
+    assert full_text["candidate_timeout_seconds"] == 30
     assert config["limits"]["maximum_summaries_per_run"] == 3
     assert config["grounding"]["enforce_onn_architecture_evidence"] is True
