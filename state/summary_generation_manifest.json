@@ -1,23 +1,269 @@
 {
-  "actual_summary_count": 0,
-  "built_at": "2026-08-05T00:50:44.814047Z",
   "digest_date": "2026-08-05",
-  "digest_json_file": "runtime-state/data/digests/2026-08-05.preview.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-08-05.preview.md",
   "email_enabled": false,
-  "full_text_used": false,
-  "llm_enabled": false,
+  "estimated_cost_cny": 0.1086492,
+  "failure_count": 3,
+  "failures": [
+    {
+      "candidate_id": "b63d0c87752a364b3611148c",
+      "reason": "unsupported numeric claims: 0.01, 0.1, 0.4, 1, 2, 3, 4, ~75%"
+    },
+    {
+      "candidate_id": "97f076ce54abbfc51b5b73e4",
+      "reason": "unsupported numeric claims: ~65tops"
+    },
+    {
+      "candidate_id": "766ea277f76b9bc9cd30be5d",
+      "reason": "unsupported numeric claims: 10, 10gsa/s, 12gsa/s, 1414, ~0.3ns, ~0.775, ~1.55, ~1.6ns, ~100ghz, ~24ns, ~453ns, ~51.5"
+    }
+  ],
+  "full_text_method_contexts": {
+    "766ea277f76b9bc9cd30be5d": {
+      "candidate_id": "766ea277f76b9bc9cd30be5d",
+      "character_count": 12000,
+      "content_sha256": "4b046a94f90a868806f2deb3d1716cd866968d865e9258d2cf3bb15cc4fcb537",
+      "elapsed_seconds": 1.342,
+      "error": null,
+      "media_type": "application/xml+jats",
+      "section_headings": [
+        "All-optical computer architecture",
+        "Materials and methods",
+        "Experimental setup",
+        "Training procedure"
+      ],
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02314-5&p=1",
+      "status": "used",
+      "text_persisted": false
+    },
+    "97f076ce54abbfc51b5b73e4": {
+      "candidate_id": "97f076ce54abbfc51b5b73e4",
+      "character_count": 2020,
+      "content_sha256": "2a084d6dc263f24fc52a3181cb1ac1897771e86d646a50852fd2cee3078a5ed1",
+      "elapsed_seconds": 0.934,
+      "error": null,
+      "media_type": "application/xml+jats",
+      "section_headings": [
+        "implementation"
+      ],
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-76128-9&p=1",
+      "status": "used",
+      "text_persisted": false
+    },
+    "b63d0c87752a364b3611148c": {
+      "candidate_id": "b63d0c87752a364b3611148c",
+      "character_count": 12000,
+      "content_sha256": "1c5cd81c8399bb7c84df121b1071fc1803a50c0de98635a1d2ef23abf0f1dfca",
+      "elapsed_seconds": 1.728,
+      "error": null,
+      "media_type": "application/xml+jats",
+      "section_headings": [
+        "Design principle and underlying physics of B-ONN",
+        "All-optical in-situ training implementation",
+        "Experimental demonstration of B-ONN",
+        "Materials and methods",
+        "Network architecture and forward propagation",
+        "Backpropagation-free training algorithm",
+        "Training dataset processing",
+        "Optical experimental setup"
+      ],
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02394-3&p=1",
+      "status": "used",
+      "text_persisted": false
+    }
+  },
+  "full_text_persisted": false,
+  "full_text_used": true,
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+  "model": "deepseek-v4-pro",
+  "numeric_grounding_scope": "title_and_abstract_only",
   "output_language": "zh-CN",
-  "provider": "not_configured",
-  "queue_candidate_count": 5,
-  "queue_sha256": "cfa4bf96b6c8d283e133add8a7ea1765c74c423ef31623508c19c4e9bb4e1350",
+  "provider": "deepseek",
   "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-08-05.jsonl",
-  "request_sha256": "379ad6dcf5283a491dedc3e3f0822a1441822e9b98c8de94356110dc60575362",
   "schema_version": 1,
-  "selection_manifest_sha256": "b3042b465ad60f202f8e7e2e40354c0c679dfbf7962b72a5913c65d543aa917f",
-  "status": "dry_run_completed",
-  "summary_generation_version": 5,
+  "stage_timings": {
+    "full_text_preparation_seconds": 4.007,
+    "model_api_calls": [
+      {
+        "attempt": 1,
+        "candidate_id": "b63d0c87752a364b3611148c",
+        "elapsed_seconds": 66.332,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 2340,
+          "prompt_cache_hit_tokens": 1792,
+          "prompt_cache_miss_tokens": 4988,
+          "prompt_tokens": 6780,
+          "total_tokens": 9120
+        }
+      },
+      {
+        "attempt": 2,
+        "candidate_id": "b63d0c87752a364b3611148c",
+        "elapsed_seconds": 74.932,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 2319,
+          "prompt_cache_hit_tokens": 6656,
+          "prompt_cache_miss_tokens": 165,
+          "prompt_tokens": 6821,
+          "total_tokens": 9140
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "97f076ce54abbfc51b5b73e4",
+        "elapsed_seconds": 57.624,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1760,
+          "prompt_cache_hit_tokens": 1792,
+          "prompt_cache_miss_tokens": 1956,
+          "prompt_tokens": 3748,
+          "total_tokens": 5508
+        }
+      },
+      {
+        "attempt": 2,
+        "candidate_id": "97f076ce54abbfc51b5b73e4",
+        "elapsed_seconds": 60.269,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1848,
+          "prompt_cache_hit_tokens": 3712,
+          "prompt_cache_miss_tokens": 65,
+          "prompt_tokens": 3777,
+          "total_tokens": 5625
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "766ea277f76b9bc9cd30be5d",
+        "elapsed_seconds": 66.066,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 2011,
+          "prompt_cache_hit_tokens": 1792,
+          "prompt_cache_miss_tokens": 4386,
+          "prompt_tokens": 6178,
+          "total_tokens": 8189
+        }
+      },
+      {
+        "attempt": 2,
+        "candidate_id": "766ea277f76b9bc9cd30be5d",
+        "elapsed_seconds": 63.447,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1907,
+          "prompt_cache_hit_tokens": 6144,
+          "prompt_cache_miss_tokens": 104,
+          "prompt_tokens": 6248,
+          "total_tokens": 8155
+        }
+      }
+    ],
+    "model_generation_and_validation_seconds": 388.692
+  },
+  "status": "failed_validation",
+  "summary_count": 0,
+  "summary_generation_version": 6,
   "summary_history_updated": false,
-  "summary_slot_count": 3
+  "thinking_enabled": false,
+  "transport_repairs": {
+    "architecture_evidence": {
+      "766ea277f76b9bc9cd30be5d": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "free_space",
+        "repaired": true,
+        "resolved_type": "unclear"
+      },
+      "97f076ce54abbfc51b5b73e4": {
+        "free_space_evidence": [],
+        "integrated_evidence": [
+          "Integrating four optical analog cores on a monolithic chip, the OPU supports 124-channel parallel task processing, achieving 65.04 trillion operations per second (TOPS) computational speed and 5.16 TOPS/mm2 compute density."
+        ],
+        "model_value": "integrated",
+        "repaired": false,
+        "resolved_type": "integrated"
+      },
+      "b63d0c87752a364b3611148c": {
+        "free_space_evidence": [
+          "We physically validated B-ONN using a programmable spatial light modulator (SLM) system, achieving 95% accuracy in handwritten digit recognition."
+        ],
+        "integrated_evidence": [
+          "Furthermore, we successfully implemented chip-scale integration via nano printing, maintaining 94% accuracy, confirming B-ONN's effective transferability from programmable setups to fixed devices."
+        ],
+        "model_value": "free_space",
+        "repaired": true,
+        "resolved_type": "hybrid"
+      }
+    },
+    "architecture_repairs": 4,
+    "candidate_id_repair_responses": 0,
+    "full_text_method_contexts": {
+      "766ea277f76b9bc9cd30be5d": {
+        "candidate_id": "766ea277f76b9bc9cd30be5d",
+        "character_count": 12000,
+        "content_sha256": "4b046a94f90a868806f2deb3d1716cd866968d865e9258d2cf3bb15cc4fcb537",
+        "elapsed_seconds": 1.342,
+        "error": null,
+        "media_type": "application/xml+jats",
+        "section_headings": [
+          "All-optical computer architecture",
+          "Materials and methods",
+          "Experimental setup",
+          "Training procedure"
+        ],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02314-5&p=1",
+        "status": "used",
+        "text_persisted": false
+      },
+      "97f076ce54abbfc51b5b73e4": {
+        "candidate_id": "97f076ce54abbfc51b5b73e4",
+        "character_count": 2020,
+        "content_sha256": "2a084d6dc263f24fc52a3181cb1ac1897771e86d646a50852fd2cee3078a5ed1",
+        "elapsed_seconds": 0.934,
+        "error": null,
+        "media_type": "application/xml+jats",
+        "section_headings": [
+          "implementation"
+        ],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-76128-9&p=1",
+        "status": "used",
+        "text_persisted": false
+      },
+      "b63d0c87752a364b3611148c": {
+        "candidate_id": "b63d0c87752a364b3611148c",
+        "character_count": 12000,
+        "content_sha256": "1c5cd81c8399bb7c84df121b1071fc1803a50c0de98635a1d2ef23abf0f1dfca",
+        "elapsed_seconds": 1.728,
+        "error": null,
+        "media_type": "application/xml+jats",
+        "section_headings": [
+          "Design principle and underlying physics of B-ONN",
+          "All-optical in-situ training implementation",
+          "Experimental demonstration of B-ONN",
+          "Materials and methods",
+          "Network architecture and forward propagation",
+          "Backpropagation-free training algorithm",
+          "Training dataset processing",
+          "Optical experimental setup"
+        ],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02394-3&p=1",
+        "status": "used",
+        "text_persisted": false
+      }
+    },
+    "generation_metadata_repair_responses": 1,
+    "tops_alias_expansions": 1,
+    "unit_format_normalization_responses": 3
+  },
+  "usage": {
+    "completion_tokens": 12185,
+    "prompt_cache_hit_tokens": 21888,
+    "prompt_cache_miss_tokens": 11664,
+    "prompt_tokens": 33552,
+    "total_tokens": 45737
+  }
 }
