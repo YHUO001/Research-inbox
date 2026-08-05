@@ -1,52 +1,133 @@
 from __future__ import annotations
 
 import argparse
+import json
 import multiprocessing
 import re
 from pathlib import Path
 from queue import Empty
 from typing import Any, Callable
 
+from scripts.summarize import staged_summary_pipeline as pipeline
 from scripts.summarize.fulltext_methods import MethodContext
-from scripts.summarize.prepare_digest import stable_json
+from scripts.summarize.prepare_digest import atomic_write, load_json, load_jsonl, stable_json
 from scripts.summarize.springer_openaccess import (
     api_audit_url,
     collect_official_or_open_context,
     normalize_doi,
 )
-from scripts.summarize.staged_summary_pipeline import prepare_stage
 
 
-_METHOD_NUMBER = re.compile(
-    r"(?<![A-Za-z0-9])(?:~|≈|∼|±)?\s*\d+(?:\.\d+)?"
-    r"(?:\s*%|\s*[-‐‑‒–—]?\s*[A-Za-zµμ]+(?:\s*/\s*[A-Za-z0-9µμ²³^]+)?)?"
+_NUMERIC_LITERAL = re.compile(
+    r"(?<![A-Za-z0-9])(?:~|≈|∼|±)?\s*"
+    r"(?P<number>[+-]?(?:\d+(?:\.\d+)?|\.\d+)(?:[eE][+-]?\d+)?)"
 )
+_GROUNDING_SCOPE = "title_abstract_and_open_full_text_loose"
+_ORIGINAL_GENERATION_MANIFEST_COPY = pipeline.generation_manifest_copy
 
 
-def redact_method_context_numbers(text: str) -> str:
-    """Remove full-text-only numeric claims before the model sees them.
+def full_text_numeric_aliases(text: str) -> list[str]:
+    """Return distinct decimal literals occurring in temporary full text.
 
-    Title and abstract remain unmodified elsewhere in the request. This keeps
-    the method context useful for qualitative mechanism and implementation
-    explanations while preserving the established title/abstract-only numeric
-    grounding boundary.
+    The aliases are written only to the runner's temporary request snapshot.
+    They are not included in the model prompt and are never persisted to the
+    automation-state branch.
     """
 
-    return _METHOD_NUMBER.sub("[数值见正文]", text or "")
+    aliases: list[str] = []
+    seen: set[str] = set()
+    for match in _NUMERIC_LITERAL.finditer(text or ""):
+        value = match.group("number").lstrip("+")
+        if value.startswith("."):
+            value = "0" + value
+        key = value.lower()
+        if key not in seen:
+            seen.add(key)
+            aliases.append(value)
+    return aliases
 
 
-def qualitative_method_context(context: MethodContext) -> MethodContext:
-    if context.status != "used" or not context.text:
-        return context
-    return MethodContext(
-        candidate_id=context.candidate_id,
-        status=context.status,
-        source_url=context.source_url,
-        media_type=context.media_type,
-        section_headings=context.section_headings,
-        text=redact_method_context_numbers(context.text),
-        error=context.error,
+def _replace_numeric_prompt_rules(prompt: str) -> str:
+    updated = prompt.replace(
+        "公开正文中的方法相关上下文（仅用于定性解释方法；不得据此新增标题或摘要中没有的数字）",
+        "公开正文中的方法相关上下文（可用于方法解释及其中明确出现的数值；不得新增全部证据中都没有的数字）",
     )
+    updated = updated.replace(
+        "所有数字仍必须出现在标题或摘要中；即使正文上下文包含额外数字，也不要把这些数字写入摘要。",
+        "数字可以来自标题、摘要或追加的公开正文方法上下文；允许约数、精确写法和轻微四舍五入之间的自然转换，但不得新增全部证据中都没有出现的数字。",
+    )
+    updated = updated.replace(
+        "标题或摘要中的近似、约数和正负范围必须保留其语义，例如使用“约”“近似”或“正负”；不得把约数改写为精确值，也不得把正负范围改写为单点值。",
+        "近似词、正负符号和单位排版可以按中文表达调整；不要改变数量级，也不要把一个数改成明显不同的数。",
+    )
+    return updated
+
+
+def generation_manifest_copy_with_full_text_numbers(
+    dry_run_manifest_path: Path,
+    temporary_root: Path,
+    *,
+    config: dict[str, Any],
+    method_context_loader: Callable[..., MethodContext],
+) -> tuple[Path, int, dict[str, dict[str, Any]]]:
+    """Add machine-only full-text numeric aliases to the temporary snapshot."""
+
+    captured_text: dict[str, str] = {}
+
+    def capturing_loader(source: dict[str, Any], *, config: dict[str, Any]) -> MethodContext:
+        context = method_context_loader(source, config=config)
+        if context.status == "used" and context.text:
+            captured_text[str(context.candidate_id)] = context.text
+        return context
+
+    manifest_path, alias_count, contexts = _ORIGINAL_GENERATION_MANIFEST_COPY(
+        dry_run_manifest_path,
+        temporary_root,
+        config=config,
+        method_context_loader=capturing_loader,
+    )
+    manifest = load_json(manifest_path, {})
+    request_path = Path(str(manifest.get("request_file") or ""))
+    requests = load_jsonl(request_path)
+    full_text_alias_count = 0
+
+    for request in requests:
+        candidate_id = str(request.get("candidate_id") or "")
+        request["prompt"] = _replace_numeric_prompt_rules(str(request.get("prompt") or ""))
+        aliases = full_text_numeric_aliases(captured_text.get(candidate_id, ""))
+        if not aliases:
+            continue
+        source = request.get("source")
+        if not isinstance(source, dict):
+            continue
+        abstract = str(source.get("abstract") or "")
+        source["abstract"] = (
+            abstract
+            + "\nMachine-only open-full-text numeric grounding aliases: "
+            + "; ".join(aliases)
+            + "."
+        )
+        full_text_alias_count += len(aliases)
+
+    atomic_write(
+        request_path,
+        "".join(
+            json.dumps(item, ensure_ascii=False, sort_keys=True) + "\n"
+            for item in requests
+        ),
+    )
+    return manifest_path, alias_count + full_text_alias_count, contexts
+
+
+def validate_full_text_safety(config: dict[str, Any]) -> None:
+    execution = config.get("execution") or {}
+    full_text = config.get("full_text") or {}
+    if execution.get("use_full_text") and not full_text.get("open_access_only"):
+        raise RuntimeError("Full-text method context must remain open-access-only")
+    if full_text.get("persist_extracted_text"):
+        raise RuntimeError("Extracted full text must not be persisted")
+    if full_text.get("numeric_grounding_scope") != _GROUNDING_SCOPE:
+        raise RuntimeError("Numeric grounding must use loose title, abstract, and open-full-text evidence")
 
 
 def _loader_worker(
@@ -78,22 +159,16 @@ def bounded_collect_method_context(
     config: dict[str, Any],
     loader: Callable[..., MethodContext] = collect_official_or_open_context,
 ) -> MethodContext:
-    """Run one optional full-text lookup in a killable child process.
-
-    Socket inactivity timeouts and Python signals do not reliably interrupt a
-    blocked TLS read. GitHub-hosted runners are Linux, so a forked child can be
-    terminated at a strict wall-clock deadline. Timeout remains a non-fatal
-    evidence fallback: generation continues with title, metadata, and abstract.
-    """
+    """Run one optional full-text lookup in a killable child process."""
 
     candidate_id = str(source.get("candidate_id") or source.get("id") or "unknown")
     timeout_seconds = float(config.get("candidate_timeout_seconds") or 30)
     if timeout_seconds <= 0:
-        return qualitative_method_context(loader(source, config=config))
+        return loader(source, config=config)
 
     available = multiprocessing.get_all_start_methods()
     if "fork" not in available:
-        return qualitative_method_context(loader(source, config=config))
+        return loader(source, config=config)
 
     context = multiprocessing.get_context("fork")
     output = context.Queue(maxsize=1)
@@ -138,7 +213,7 @@ def bounded_collect_method_context(
         output.close()
 
     if result[0] == "ok":
-        return qualitative_method_context(result[1])
+        return result[1]
     return MethodContext(
         candidate_id=candidate_id,
         status="not_available",
@@ -170,12 +245,21 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main() -> int:
     args = build_parser().parse_args()
-    result = prepare_stage(
+    pipeline.generation_manifest_copy = generation_manifest_copy_with_full_text_numbers
+    pipeline.validate_full_text_safety = validate_full_text_safety
+    result = pipeline.prepare_stage(
         dry_run_manifest_path=args.dry_run_manifest_path,
         config_path=args.config,
         prepared_root=args.prepared_root,
         method_context_loader=bounded_collect_method_context,
     )
+    result["numeric_grounding_scope"] = _GROUNDING_SCOPE
+    audit_path = Path(str(result.get("preparation_audit_path") or ""))
+    if audit_path:
+        atomic_write(
+            audit_path,
+            json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+        )
     print(stable_json(result), flush=True)
     return 0
 
