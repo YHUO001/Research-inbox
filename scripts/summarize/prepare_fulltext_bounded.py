@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import multiprocessing
+import re
 from pathlib import Path
 from queue import Empty
 from typing import Any, Callable
@@ -14,6 +15,38 @@ from scripts.summarize.springer_openaccess import (
     normalize_doi,
 )
 from scripts.summarize.staged_summary_pipeline import prepare_stage
+
+
+_METHOD_NUMBER = re.compile(
+    r"(?<![A-Za-z0-9])(?:~|≈|∼|±)?\s*\d+(?:\.\d+)?"
+    r"(?:\s*%|\s*[-‐‑‒–—]?\s*[A-Za-zµμ]+(?:\s*/\s*[A-Za-z0-9µμ²³^]+)?)?"
+)
+
+
+def redact_method_context_numbers(text: str) -> str:
+    """Remove full-text-only numeric claims before the model sees them.
+
+    Title and abstract remain unmodified elsewhere in the request. This keeps
+    the method context useful for qualitative mechanism and implementation
+    explanations while preserving the established title/abstract-only numeric
+    grounding boundary.
+    """
+
+    return _METHOD_NUMBER.sub("[数值见正文]", text or "")
+
+
+def qualitative_method_context(context: MethodContext) -> MethodContext:
+    if context.status != "used" or not context.text:
+        return context
+    return MethodContext(
+        candidate_id=context.candidate_id,
+        status=context.status,
+        source_url=context.source_url,
+        media_type=context.media_type,
+        section_headings=context.section_headings,
+        text=redact_method_context_numbers(context.text),
+        error=context.error,
+    )
 
 
 def _loader_worker(
@@ -56,11 +89,11 @@ def bounded_collect_method_context(
     candidate_id = str(source.get("candidate_id") or source.get("id") or "unknown")
     timeout_seconds = float(config.get("candidate_timeout_seconds") or 30)
     if timeout_seconds <= 0:
-        return loader(source, config=config)
+        return qualitative_method_context(loader(source, config=config))
 
     available = multiprocessing.get_all_start_methods()
     if "fork" not in available:
-        return loader(source, config=config)
+        return qualitative_method_context(loader(source, config=config))
 
     context = multiprocessing.get_context("fork")
     output = context.Queue(maxsize=1)
@@ -105,7 +138,7 @@ def bounded_collect_method_context(
         output.close()
 
     if result[0] == "ok":
-        return result[1]
+        return qualitative_method_context(result[1])
     return MethodContext(
         candidate_id=candidate_id,
         status="not_available",
