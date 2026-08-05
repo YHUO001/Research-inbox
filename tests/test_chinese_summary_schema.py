@@ -27,7 +27,10 @@ def valid_abstract_summary() -> dict:
         "candidate_id": "candidate-abstract",
         "output_language": "zh-CN",
         "core_problem": "论文研究光学神经网络在温度变化条件下保持稳定推理性能的问题。",
-        "method_and_architecture": "系统采用可调光学器件构成计算层，但摘要没有提供完整器件布局和实验连接细节。",
+        "method_and_architecture": (
+            "系统采用可调光学器件构成多层计算结构，并通过光场传播完成层间信息变换；"
+            "摘要没有提供各器件的完整布局、层间连接参数以及实验平台的详细搭建方式。"
+        ),
         "method_principle": (
             "作者在训练过程中加入与温度变化相关的参数扰动，使模型在摘要所描述的变化范围内学习更稳健的表示。"
             "由于没有取得公开全文，这里只能说明摘要明确给出的总体机制，具体损失函数、优化器和硬件控制流程均未提供。"
