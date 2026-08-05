@@ -27,17 +27,22 @@ def completed_candidate_ids(history: dict[str, Any]) -> set[str]:
 
 def validate_automatic_config(config: dict[str, Any]) -> None:
     execution = config.get("execution") or {}
+    automation = config.get("automation") or {}
     review = config.get("review") or {}
-    if execution.get("mode") != "automatic_provider_generation":
-        raise RuntimeError("Automatic preparation requires automatic_provider_generation")
-    if execution.get("llm_enabled") is not True:
-        raise RuntimeError("Automatic preparation requires llm_enabled=true")
-    if execution.get("update_summary_history") is not True:
-        raise RuntimeError("Automatic preparation requires update_summary_history=true")
-    if execution.get("email_enabled"):
-        raise RuntimeError("Email delivery must remain disabled during automatic preparation")
-    if review.get("required"):
+    if automation.get("enabled") is not True:
+        raise RuntimeError("Automatic summary orchestration must be enabled")
+    if automation.get("mode") != "automatic_after_discovery":
+        raise RuntimeError("Automatic preparation requires automatic_after_discovery")
+    if automation.get("filter_completed_before_provider") is not True:
+        raise RuntimeError("Completed candidates must be filtered before provider calls")
+    if automation.get("update_summary_history_after_validation") is not True:
+        raise RuntimeError("Automatic completion must update history after validation")
+    if automation.get("all_or_nothing_batch") is not True:
+        raise RuntimeError("Automatic completion requires all-or-nothing batches")
+    if automation.get("review_required") or review.get("required"):
         raise RuntimeError("Human review must be disabled for automatic preparation")
+    if automation.get("email_enabled") or execution.get("email_enabled"):
+        raise RuntimeError("Email delivery must remain disabled during automatic preparation")
 
 
 def prepare_automatic(
@@ -91,7 +96,7 @@ def prepare_automatic(
     manifest.update(
         {
             "status": "no_candidates" if int(manifest.get("request_count") or 0) == 0 else "automatic_requests_prepared",
-            "execution_mode": "automatic_provider_generation",
+            "execution_mode": "automatic_after_discovery",
             "llm_enabled": True,
             "review_required": False,
             "summary_history_updated": False,
