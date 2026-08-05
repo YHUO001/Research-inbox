@@ -23,9 +23,12 @@ def test_summary_dry_run_remains_manual_and_provider_free() -> None:
     assert "summary_history.json" not in text
 
 
-def test_deepseek_generation_builds_review_packet_but_cannot_finalize() -> None:
+def test_deepseek_generation_is_automatic_and_transactional() -> None:
     text = workflow("generate-deepseek-summaries.yml")
     assert "workflow_dispatch:" in text
+    assert "workflow_run:" in text
+    assert '"Daily Research Inbox"' in text
+    assert '"OpenAlex Research Discovery"' in text
     assert "schedule:" not in text
     assert "timeout-minutes: 30" in text
     assert "DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}" in text
@@ -33,46 +36,24 @@ def test_deepseek_generation_builds_review_packet_but_cannot_finalize() -> None:
     assert "OPENAI_API_KEY" not in text
     assert "GMAIL_CLIENT_SECRET" not in text
     assert "gmail_sender" not in text
-    assert "summary_history.json" not in text
-    assert "Prepare open full-text method context" in text
-    assert "scripts.summarize.prepare_fulltext_bounded" in text
-    assert "scripts.summarize.staged_summary_pipeline prepare" not in text
-    assert "scripts.summarize.staged_summary_pipeline generate" in text
-    assert "scripts.summarize.generate_summaries_production" not in text
-    assert "scripts.summarize.build_review_packet" in text
-    assert "data/reviews" in text
-    assert "state/summary_review_manifest.json" in text
+    assert "scripts.summarize.prepare_automatic_digest" in text
+    assert "scripts.summarize.generate_automatic_summaries" in text
+    assert "scripts.summarize.add_digest_doi_links" in text
+    assert "scripts.summarize.finalize_automatic" in text
+    assert "state/summary_history.json" in text
+    assert "scripts.summarize.build_review_packet" not in text
+    assert "data/reviews" not in text
+    assert "state/summary_review_manifest.json" not in text
     assert "Fail after persisting validation diagnostics" in text
 
 
-def test_offline_review_preparation_uses_no_provider_secret() -> None:
-    text = workflow("prepare-human-summary-review.yml")
-    assert "workflow_dispatch:" in text
-    assert "schedule:" not in text
-    assert "scripts.summarize.build_review_packet" in text
-    assert "DEEPSEEK_API_KEY" not in text
-    assert "SPRINGER_NATURE_API_KEY" not in text
-    assert "OPENAI_API_KEY" not in text
-    assert "GMAIL_CLIENT_SECRET" not in text
-    assert "summary_history.json" not in text
+def test_human_review_workflows_are_removed() -> None:
+    workflow_root = ROOT / ".github" / "workflows"
+    assert not (workflow_root / "prepare-human-summary-review.yml").exists()
+    assert not (workflow_root / "finalize-reviewed-summaries.yml").exists()
 
 
-def test_review_finalization_is_manual_and_has_explicit_confirmation() -> None:
-    text = workflow("finalize-reviewed-summaries.yml")
-    assert "workflow_dispatch:" in text
-    assert "schedule:" not in text
-    assert "approve_all" in text
-    assert "hold_for_revision" in text
-    assert "Type REVIEWED exactly" in text
-    assert "scripts.summarize.finalize_review" in text
-    assert "state/summary_history.json" in text
-    assert "DEEPSEEK_API_KEY" not in text
-    assert "SPRINGER_NATURE_API_KEY" not in text
-    assert "GMAIL_CLIENT_SECRET" not in text
-    assert "gmail_sender" not in text
-
-
-def test_summary_configuration_requires_chinese_open_fulltext_human_review() -> None:
+def test_summary_configuration_enables_validated_automation() -> None:
     config = yaml.safe_load(
         (ROOT / "config" / "summary_generation.yaml").read_text(encoding="utf-8")
     )
@@ -81,20 +62,18 @@ def test_summary_configuration_requires_chinese_open_fulltext_human_review() -> 
     review = config["review"]
     output = config["output"]
     full_text = config["full_text"]
-    assert config["summary_generation_version"] == 6
+    assert config["summary_generation_version"] == 7
     assert config["prompt_version"] == 2
-    assert execution["mode"] == "manual_provider_validation"
+    assert execution["mode"] == "automatic_provider_generation"
     assert execution["provider"] == "deepseek"
-    assert execution["llm_enabled"] is False
+    assert execution["llm_enabled"] is True
     assert execution["manual_provider_calls_allowed"] is True
     assert execution["email_enabled"] is False
-    assert execution["update_summary_history"] is False
+    assert execution["update_summary_history"] is True
     assert execution["use_full_text"] is True
     assert execution["full_text_open_access_only"] is True
-    assert review["required"] is True
-    assert review["approval_mode"] == "manual_all_or_nothing"
-    assert review["confirmation_phrase"] == "REVIEWED"
-    assert review["email_after_approval"] is False
+    assert review["required"] is False
+    assert review["approval_mode"] == "disabled"
     assert provider["model"] == "deepseek-v4-pro"
     assert provider["thinking_enabled"] is False
     assert provider["response_format"] == "json_object"
