@@ -94,15 +94,15 @@ def test_apply_doi_links_updates_both_user_facing_artifacts(tmp_path: Path) -> N
     assert expected in review_path.read_text(encoding="utf-8")
 
 
-def test_generation_and_offline_review_workflows_apply_doi_links() -> None:
+def test_automatic_generation_applies_digest_doi_links_without_review() -> None:
     generation = (
         ROOT / ".github/workflows/generate-deepseek-summaries.yml"
     ).read_text(encoding="utf-8")
-    offline = (
+    assert "scripts.summarize.add_digest_doi_links" in generation
+    assert generation.index("scripts.summarize.add_digest_doi_links") < generation.index(
+        "scripts.summarize.finalize_automatic"
+    )
+    assert "scripts.summarize.add_doi_links" not in generation
+    assert not (
         ROOT / ".github/workflows/prepare-human-summary-review.yml"
-    ).read_text(encoding="utf-8")
-    command = "scripts.summarize.add_doi_links"
-    assert command in generation
-    assert command in offline
-    assert generation.index("scripts.summarize.build_review_packet") < generation.index(command)
-    assert offline.index("scripts.summarize.build_review_packet") < offline.index(command)
+    ).exists()
