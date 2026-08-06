@@ -5,27 +5,16 @@
     "5017adbd33e6ddd5c320a4c4"
   ],
   "abstract_fallback_count": 3,
-  "automatic_history_pending": false,
-  "daily_digest_pending": false,
+  "automatic_history_pending": true,
+  "daily_digest_pending": true,
   "digest_date": "2026-08-06",
+  "digest_json_file": "runtime-state/data/digests/2026-08-06.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-08-06.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0,
+  "estimated_cost_cny": 0.047451,
   "execution_mode": "automatic_daily_batch",
-  "failure_count": 3,
-  "failures": [
-    {
-      "candidate_id": "1cf1fcd769c5ace951188b8c",
-      "reason": "Extra data: line 2 column 1 (char 841)"
-    },
-    {
-      "candidate_id": "541094f286db8902f2fe6077",
-      "reason": "Extra data: line 2 column 1 (char 841)"
-    },
-    {
-      "candidate_id": "5017adbd33e6ddd5c320a4c4",
-      "reason": "Extra data: line 2 column 1 (char 841)"
-    }
-  ],
+  "failure_count": 0,
+  "failures": [],
   "full_text_method_contexts": {
     "1cf1fcd769c5ace951188b8c": {
       "abstract_available": true,
@@ -33,7 +22,7 @@
       "candidate_id": "1cf1fcd769c5ace951188b8c",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 1.498,
+      "elapsed_seconds": 1.384,
       "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": "application/xml+jats",
@@ -48,7 +37,7 @@
       "candidate_id": "5017adbd33e6ddd5c320a4c4",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 1.385,
+      "elapsed_seconds": 0.819,
       "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": "application/xml+jats",
@@ -63,7 +52,7 @@
       "candidate_id": "541094f286db8902f2fe6077",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 1.022,
+      "elapsed_seconds": 1.056,
       "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": "application/xml+jats",
@@ -76,7 +65,7 @@
   "full_text_persisted": false,
   "full_text_used": false,
   "information_basis": "title_metadata_and_abstract_only",
-  "knowledge_base_pending": false,
+  "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
@@ -99,18 +88,87 @@
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
   "stage_timings": {
-    "full_text_preparation_seconds": 3.911,
-    "model_api_calls": [],
-    "model_generation_and_validation_seconds": 0.009
+    "full_text_preparation_seconds": 3.264,
+    "model_api_calls": [
+      {
+        "attempt": 1,
+        "candidate_id": "1cf1fcd769c5ace951188b8c",
+        "elapsed_seconds": 19.521,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1156,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 3531,
+          "prompt_tokens": 3531,
+          "total_tokens": 4687
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "541094f286db8902f2fe6077",
+        "elapsed_seconds": 22.663,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1369,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 3492,
+          "prompt_tokens": 3492,
+          "total_tokens": 4861
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "5017adbd33e6ddd5c320a4c4",
+        "elapsed_seconds": 20.81,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1200,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 1328,
+          "prompt_tokens": 3248,
+          "total_tokens": 4448
+        }
+      }
+    ],
+    "model_generation_and_validation_seconds": 63.013
   },
-  "status": "failed_validation",
-  "summary_count": 0,
+  "status": "completed",
+  "summary_count": 3,
+  "summary_file": "runtime-state/data/summaries/2026-08-06.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": false,
   "thinking_enabled": false,
   "transport_repairs": {
-    "architecture_evidence": {},
-    "architecture_repairs": 0,
+    "architecture_evidence": {
+      "1cf1fcd769c5ace951188b8c": {
+        "free_space_evidence": [],
+        "integrated_evidence": [
+          "However, practical on-chip training of optical neural networks remains challenging because gradient estimation, hardware nonidealities, and device-compatible parameter updates are difficult to handle directly in optical systems.",
+          "Here, we propose an on-chip training distillation-guided optical neural network (DGONN) and introduce a forward distillation algorithm to address these challenges.",
+          "Additionally, deep reinforcement learning further enables the controllability and stability of the on-chip optical system."
+        ],
+        "model_value": "integrated",
+        "repaired": false,
+        "resolved_type": "integrated"
+      },
+      "5017adbd33e6ddd5c320a4c4": {
+        "free_space_evidence": [
+          "We demonstrate an integrated diffractive optical neural network using Franz-Keldysh-based electroabsorption modulators, analyze the impact of temperature variations on system performance, and develop a thermal-resilient training strategy."
+        ],
+        "integrated_evidence": [],
+        "model_value": "integrated",
+        "repaired": true,
+        "resolved_type": "free_space"
+      },
+      "541094f286db8902f2fe6077": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "integrated",
+        "repaired": true,
+        "resolved_type": "unclear"
+      }
+    },
+    "architecture_repairs": 2,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
       "1cf1fcd769c5ace951188b8c": {
@@ -119,7 +177,7 @@
         "candidate_id": "1cf1fcd769c5ace951188b8c",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 1.498,
+        "elapsed_seconds": 1.384,
         "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": "application/xml+jats",
@@ -134,7 +192,7 @@
         "candidate_id": "5017adbd33e6ddd5c320a4c4",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 1.385,
+        "elapsed_seconds": 0.819,
         "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": "application/xml+jats",
@@ -149,7 +207,7 @@
         "candidate_id": "541094f286db8902f2fe6077",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 1.022,
+        "elapsed_seconds": 1.056,
         "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": "application/xml+jats",
@@ -159,15 +217,15 @@
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 0,
+    "generation_metadata_repair_responses": 3,
     "tops_alias_expansions": 0,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 0,
-    "prompt_cache_hit_tokens": 0,
-    "prompt_cache_miss_tokens": 0,
-    "prompt_tokens": 0,
-    "total_tokens": 0
+    "completion_tokens": 3725,
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 8351,
+    "prompt_tokens": 10271,
+    "total_tokens": 13996
   }
 }

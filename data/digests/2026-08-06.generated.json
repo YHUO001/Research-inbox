@@ -1,0 +1,210 @@
+{
+  "digest_date": "2026-08-06",
+  "digest_version": 2,
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": false,
+    "information_basis": "title_metadata_and_abstract_only",
+    "numeric_grounding_scope": "title_and_abstract_only",
+    "summary_history_updated": false
+  },
+  "schema_version": 2,
+  "status": "generated_pending_human_review",
+  "summaries": [
+    {
+      "candidate_id": "1cf1fcd769c5ace951188b8c",
+      "core_problem": "片上光学神经网络在推理速度和能效方面具有潜力，但片上训练面临梯度估计困难、硬件非理想性和参数更新兼容性等挑战。",
+      "distinction_from_prior_work": "提出前向蒸馏算法取代基于链式法则的光学反向传播，结合分块马赫-曾德尔干涉仪光学参数化减少可训练参数，并通过逐层蒸馏恢复受约束参数化带来的精度损失。",
+      "limitations_and_open_questions": [
+        "摘要未提供具体数值，如分类准确率、训练时间、能耗等，难以量化评估系统性能。",
+        "未提供蒸馏温度、损失权重等超参数选择依据，实际操作中的影响不清楚。",
+        "未说明系统对光学相位噪声、探测器噪声等非理想因素的容忍度。",
+        "未提供与现有电子神经网络或其他光学训练方案的详细对比。",
+        "未提供强化学习校准的具体算法细节和训练开销。"
+      ],
+      "main_contributions": [
+        "提出蒸馏引导光学神经网络架构，实现片上训练。",
+        "设计前向蒸馏算法，避免光学反向传播，利用实测前向差分进行硬件感知的梯度估计。",
+        "采用分块MZI光学参数化降低可训练参数量，并通过逐层蒸馏恢复精度。",
+        "引入深度强化学习辅助校准，提升片上光学系统的可控性和稳定性。",
+        "在多种数据集上验证了系统的分类准确率。"
+      ],
+      "method_and_architecture": "蒸馏引导光学神经网络由片上光学干涉网络、前向蒸馏训练算法和强化学习校准模块组成。光学部分基于分块马赫-曾德尔干涉仪实现矩阵乘法，电子部分执行蒸馏损失计算和参数更新。",
+      "method_implementation": [
+        "系统由片上光学干涉网络、光源、探测器阵列和电子控制单元组成。输入数据被编码为光信号的幅度或相位，通过波导分束并耦合进多个MZI单元，经干涉效应完成矩阵乘法运算，输出光强由探测器读取并转换为电信号。",
+        "训练时，首先对光学网络输出进行前向差分测量，即对每个参数施加微小扰动并记录输出变化，作为梯度估计值。同时，教师网络（预训练的电子模型）对同一输入产生软标签。学生光学网络的输出与教师软标签计算蒸馏损失，结合前向差分梯度更新光学参数。训练过程分阶段进行，由电子计算机控制参数调整并采集探测器读数。",
+        "校准阶段使用强化学习智能体根据探测器反馈调整偏置电压，以维持MZI相位工作点稳定。奖励函数基于目标输出与实际输出的差异设计，智能体通过与环境交互学习最优校准策略。"
+      ],
+      "method_principle": "前向蒸馏算法通过测量光学网络的输出差异来估计梯度，而非直接计算误差反向传播，从而避免了光域中链式法则的不稳定性。分块MZI参数化通过限制参数数量提高训练效率，但可能造成精度下降，逐层蒸馏则通过引入教师网络的知识来弥补这种精度损失，同时进一步提升训练稳定性。强化学习校准动态调整光学器件的工作点，以补偿制造误差和环境扰动。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "图像分类（CIFAR-10, Fashion-MNIST, Handwriting-MNIST）",
+          "语音识别（自由口语数字数据集）",
+          "分布式声光传感信号处理"
+        ],
+        "architecture_type": "integrated",
+        "calibration_requirements": "利用深度强化学习进行在线校准，以应对制造误差和环境波动，维持干涉仪工作点稳定。",
+        "hardware_validation": "mixed",
+        "optical_nonlinearity": "摘要未明确说明光学非线性实现方式，可能依赖探测器或其他辅助手段。",
+        "training_method": "前向蒸馏算法：利用实测前向差分进行梯度估计，结合电子域计算蒸馏损失并更新光学参数，避免光域反向传播。"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "数值和实验结果表明，DGONN系统在多个数据集上取得了高分类准确率。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "深度强化学习进一步实现了片上光学系统的可控性和稳定性。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该研究为克服光学神经网络训练难题提供了新范式，有望推动高能效、低功耗光子AI系统的发展。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "分类准确率等具体性能指标未提供。",
+          "实验所用的芯片规模、调制速率、功耗数值未提供。",
+          "强化学习校准的具体算法和训练配置未提供。",
+          "蒸馏温度、损失权重等超参数未提供。",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    },
+    {
+      "candidate_id": "541094f286db8902f2fe6077",
+      "core_problem": "基于马赫-曾德尔干涉仪（MZI）的光学神经网络（ONN）在部署时易受输入扰动、制造误差和热串扰的影响，导致误差累积和性能显著下降。现有相位优化方法（如粒子群优化PSO和遗传算法GA）收敛慢、复杂度高，亟需一种硬件友好且可扩展的鲁棒性增强方案。",
+      "distinction_from_prior_work": "与现有PSO和GA相位优化方法相比，本研究提出的联合MZI相位优化（JMPO）仅调整与SVD对角矩阵相关的有限相位偏移器，收敛更快、复杂度更低，且无需额外硬件开销。",
+      "limitations_and_open_questions": [
+        "摘要未提供在更大规模ONN或更复杂任务（如ImageNet）上的验证结果，可扩展性待进一步确认。",
+        "未报告方法对其他噪声类型（如相位噪声、探测器噪声）的鲁棒性。",
+        "未说明优化后模型在干净数据上的原始精度损失。",
+        "未提供物理实验平台上的验证，所有结果仅为作者报告的仿真数据。"
+      ],
+      "main_contributions": [
+        "提出硬件友好的联合MZI相位优化（JMPO）方法，通过约束对角元素动态范围抑制前向传播中的噪声放大。",
+        "仅调整少量与SVD对角矩阵关联的相位偏移器，显著降低控制复杂度且不增加硬件开销。",
+        "在MNIST和Fashion-MNIST数据集上验证了不同规模ONN，JMPO收敛速度和复杂度均优于PSO和GA。",
+        "在对抗攻击和相位梯度攻击下，MNIST分类准确率分别最多提升19.11%和26.20%，Fashion-MNIST最多提升9.44%和33.95%。"
+      ],
+      "method_and_architecture": "基于SVD的MZI网络架构，通过联合优化对角矩阵相关的相位偏移器，约束对角元素动态范围以抑制噪声放大。",
+      "method_implementation": [
+        "系统架构为基于马赫-曾德尔干涉仪（MZI）的光学神经网络，其权重矩阵通过奇异值分解（SVD）分解为UΣV†。输入为光信号，经MZI阵列实现矩阵乘法，输出为光强检测后的分类结果。硬件实现中，Σ对角元素与特定MZI的相位偏移器对应。",
+        "JMPO方法首先获取预训练ONN的SVD分解，识别与对角矩阵Σ相关的相位偏移器。然后，通过有约束的优化过程调整这些相位器的值，以限制Σ对角元素的动态范围。优化目标是在保持分类性能的同时最小化条件数，具体算法和参数设置摘要未详细说明。训练在仿真环境下进行，使用MNIST和Fashion-MNIST数据集，对所有规模网络采用统一优化框架。",
+        "优化完成后，使用仿真器评估网络在干净数据、对抗攻击和相位梯度攻击下的分类准确率。结果以分类精度提升百分比报告，对比基准为未优化网络和已有PSO、GA方法。所有实验均为作者报告的仿真结果。"
+      ],
+      "method_principle": "在基于MZI的ONN中，网络权重矩阵通常通过SVD分解为UΣV†，其中Σ为对角矩阵。输入扰动和硬件非理想因素主要沿对角元素放大噪声，导致误差累积。JMPO方法通过约束Σ对角元素的动态范围，直接提升网络矩阵的条件数，抑制噪声在前向传播中的放大效应。由于仅调整与Σ相关的有限相位偏移器，避免了全网络优化的高复杂度，且无需额外硬件改动。这使得优化后的网络在面对输入扰动和攻击时，信号传播保持稳定，从而提高整体分类精度。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "图像分类（MNIST， Fashion-MNIST）"
+        ],
+        "architecture_type": "unclear",
+        "calibration_requirements": "摘要未提供具体校准需求，但方法通过相位优化可缓解制造误差和热串扰，可能降低对精确校准的依赖。",
+        "hardware_validation": "simulation_only",
+        "optical_nonlinearity": "摘要未明确提及光学非线性函数，可能依赖电光转换或探测器实现非线性。",
+        "training_method": "先预训练ONN，再利用SVD分解，通过约束对角元素动态范围的优化算法调整特定MZI相位。摘要未明确是离线训练还是在线训练。"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "在对抗攻击下，MNIST分类准确率最多提升19.11%，Fashion-MNIST提升9.44%",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "在相位梯度攻击下，MNIST分类准确率最多提升26.20%，Fashion-MNIST提升33.95%",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "JMPO收敛速度快于PSO和GA，且复杂度更低",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "提供了一种实用的硬件友好方案，以较低的控制复杂度提升MZI基ONN在噪声环境下的鲁棒性，对推动可扩展光计算落地具有参考价值。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "未获取到公开全文方法细节，JMPO优化算法的具体步骤、损失函数、约束边界、优化器选择缺失。",
+          "硬件仿真参数、相位噪声模型未提供。",
+          "网络规模和具体层数未提供。",
+          "实验结果的标准差或统计显著性未报告。",
+          "优化后干净数据准确率未提供。",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    },
+    {
+      "candidate_id": "5017adbd33e6ddd5c320a4c4",
+      "core_problem": "如何实现集成的衍射光学神经网络并解决温度变化引起的性能下降问题。",
+      "distinction_from_prior_work": "与以往光学神经网络相比，本工作利用基于Franz-Keldysh效应的电吸收调制器实现集成的衍射架构，并提出了热弹性训练策略以应对温度波动。",
+      "limitations_and_open_questions": [
+        "未提供实验验证的具体性能指标和数据，摘要仅说明开发了热弹性训练策略，但未报告准确率、能耗或训练效率等量化结果。",
+        "未提及其他可能的环境因素（如振动、湿度）对系统的影响，也未讨论该方法的可扩展性、硬件实现细节或与电子神经网络的对比。"
+      ],
+      "main_contributions": [
+        "在集成平台上使用电吸收调制器实现了衍射光学神经网络。",
+        "分析了温度变化对系统性能的影响。",
+        "开发了一种能够适应温度变化的热弹性训练策略。"
+      ],
+      "method_and_architecture": "论文提出了一种集成的衍射光学神经网络，核心光调制元件为基于Franz-Keldysh效应的电吸收调制器。系统通过光的衍射和干涉实现矩阵乘法等神经网络操作，并配合光电探测和电子反馈。训练策略引入了对温度扰动的鲁棒性设计，以抑制热漂移导致的性能波动。",
+      "method_implementation": [
+        "该系统在集成光子平台上构建，核心单元为基于Franz-Keldysh效应的电吸收调制器阵列。光信号通过输入光栅或端面耦合进入芯片，经分束器分配到各衍射单元。每个调制器由外部电压控制，通过改变吸收系数调节光振幅和相位，实现网络中的乘法操作。级联的衍射传播路径通过波导或平面衍射结构连接，形成前馈网络。输出光通过光电探测器转换为电信号，并用于计算损失函数以指导训练。",
+        "训练过程采用监督学习，前向传播在硬件上一次完成，权重更新通过电信号施加于调制器。为增强热弹性，训练中人为引入温度变化模型，模拟调制器响应漂移和干涉相位误差。反向传播计算的梯度经过温度扰动修正后用于参数更新。该训练可在 GPU 上离线进行，然后将优化后的电压映射到硬件，或通过原位在线训练完成。最终，在测试阶段，系统在不同温度条件下进行推理，未提供的评估指标预期能展示性能保持能力。"
+      ],
+      "method_principle": "衍射光学神经网络利用光在自由空间或波导中的传播和干涉来执行线性运算。集成的电吸收调制器通过外加电压控制吸收系数，从而调控光场振幅和相位，实现权重更新。Franz-Keldysh效应使调制速度较快，但器件性能对温度敏感。温度变化会导致调制器工作点漂移、折射率变化和热膨胀，引起光学路径和权重的误差。提出的热弹性训练策略通过在训练过程中模拟温度扰动或引入温度相关的正则化，使网络参数对温度变化不敏感，从而在实际部署中保持稳定的推理性能。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "未提供具体应用任务，推断可能用于模式分类或图像识别等通用神经网络推理。"
+        ],
+        "architecture_type": "free_space",
+        "calibration_requirements": "由于温度敏感性高，系统需要热弹性训练以减轻校准负担，但具体校准流程（如初始偏置点设定、温度补偿电路）未提供。",
+        "hardware_validation": "simulation_only",
+        "optical_nonlinearity": "摘要未明确提供光学非线性；衍射神经网络通常依赖光学线性操作，非线性可能由电吸收调制器的饱和效应或光电探测器的响应引入，但未具体说明。",
+        "training_method": "热弹性训练策略，在训练过程中模拟温度变化并修正网络参数，使模型对温度扰动不敏感。具体实现可能包括在反向传播中加入温度相关的正则项或噪声注入，但摘要未提供详细算法。"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [],
+      "research_value": "该工作探索了光学神经网络在集成平台上的实现和温度鲁棒性训练，有望推动小型化、低功耗 AI 加速器的发展，特别适用于边缘计算和恶劣热环境下的部署。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "具体实验设置、数据集、网络规模、训练超参数",
+          "调制器数量、光路损耗、探测器灵敏度等硬件指标",
+          "热弹性训练策略的具体算法细节和损失函数构成",
+          "性能结果：准确率、功耗、延迟、推理速度等",
+          "与软件神经网络或传统硅基电子网络的对比数据",
+          "温度变化范围、性能退化程度和恢复能力定量描述",
+          "制造工艺、波导材料、工作波长等物理实现信息",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    }
+  ],
+  "summary_count": 3
+}
