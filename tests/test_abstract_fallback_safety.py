@@ -12,11 +12,13 @@ from scripts.summarize.abstract_fallback_policy import (
     validate_method_depth_by_evidence,
 )
 from scripts.summarize.fulltext_methods import MethodContext
+from scripts.summarize.generate_summaries_production import expected_example
 from scripts.summarize.prepare_digest import load_jsonl
 from scripts.summarize.prepare_fulltext_bounded import (
     generation_manifest_copy_with_full_text_numbers,
     retried_context,
 )
+from scripts.summarize.staged_summary_pipeline_safe import system_prompt
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -137,6 +139,22 @@ def test_failed_full_text_without_abstract_skips_before_model(tmp_path: Path) ->
     assert stored["status"] == "no_eligible_evidence"
     assert stored["skipped_no_abstract_candidate_ids"] == ["candidate-fallback"]
     assert contexts["candidate-fallback"]["fallback_decision"] == "skipped_no_abstract"
+
+
+def test_abstract_fallback_prompt_keeps_json_example_terminal() -> None:
+    prompt = system_prompt(
+        {"type": "object"},
+        "candidate-fallback",
+        information_basis="title_metadata_and_abstract_only",
+        full_text_method_source_url=None,
+    )
+    expected = expected_example(prompt)
+
+    assert expected["candidate_id"] == "candidate-fallback"
+    assert "摘要级短讯" in prompt.split("\nJSON Schema:\n", 1)[0]
+    assert prompt.rstrip().endswith(
+        json.dumps(expected, ensure_ascii=False, sort_keys=True)
+    )
 
 
 def test_abstract_depth_is_shorter_but_full_text_depth_remains_strict() -> None:
