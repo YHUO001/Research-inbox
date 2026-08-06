@@ -70,9 +70,17 @@ def system_prompt(*args: Any, **kwargs: Any) -> str:
         "数字可以来自标题、摘要或追加的公开正文方法上下文。约数、精确写法、单位排版和轻微四舍五入差异可以自然转换；不得新增全部证据中都没有出现的数字。",
     )
     if str(kwargs.get("information_basis") or "") == ABSTRACT_ONLY_BASIS:
-        prompt += (
+        fallback_instruction = (
             "\n当前没有可用的公开全文方法上下文。请生成摘要级短讯：保持结构完整，"
             "但不要为了达到全文级篇幅而扩写摘要未提供的实验、装置、训练或实现细节。"
+        )
+        contract_marker = "\nJSON Schema:\n"
+        if contract_marker not in prompt:
+            raise RuntimeError("Summary system prompt is missing its JSON contract marker")
+        prompt = prompt.replace(
+            contract_marker,
+            fallback_instruction + contract_marker,
+            1,
         )
     return prompt
 
