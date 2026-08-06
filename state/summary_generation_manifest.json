@@ -1,24 +1,41 @@
 {
+  "abstract_fallback_candidate_ids": [
+    "1cf1fcd769c5ace951188b8c",
+    "541094f286db8902f2fe6077",
+    "5017adbd33e6ddd5c320a4c4"
+  ],
+  "abstract_fallback_count": 3,
   "automatic_history_pending": false,
   "daily_digest_pending": false,
-  "digest_date": "2026-08-05",
+  "digest_date": "2026-08-06",
   "email_enabled": false,
-  "estimated_cost_cny": 0.057384,
+  "estimated_cost_cny": 0.0,
   "execution_mode": "automatic_daily_batch",
-  "failure_count": 1,
+  "failure_count": 3,
   "failures": [
     {
+      "candidate_id": "1cf1fcd769c5ace951188b8c",
+      "reason": "Extra data: line 2 column 1 (char 841)"
+    },
+    {
+      "candidate_id": "541094f286db8902f2fe6077",
+      "reason": "Extra data: line 2 column 1 (char 841)"
+    },
+    {
       "candidate_id": "5017adbd33e6ddd5c320a4c4",
-      "reason": "summary 5017adbd33e6ddd5c320a4c4 failed schema validation: '系统由多个集成光子层组成，每层包含可调电吸收调制器。输入光信号进入第一层，经衍射传播至后续层，最终输出光强分布。' is too short; '训练时，在前向传播中对每个电吸收调制器施加根据温度分布采样的相位和幅度扰动，模拟实际温度变化，然后计算损失函数。' is too short; '使用反向传播算法更新网络参数，损失函数可能为交叉熵或均方误差，优化器采用随机梯度下降或其变体。' is too short; '训练完成后，固定调制器权重，在测试集上评估不同温度下的推理精度，验证热韧性的有效性。' is too short; {'application_tasks': '未明确说明，可能为图像分类或信号处理。', 'architecture_type': 'free_space', 'calibration_requirements': '需要对电吸收调制器的温度-振幅/相位响应进行校准，并在训练中模拟温度变化。', 'hardware_validation': 'unclear', 'optical_nonlinearity': '未提供', 'training_method': '采用热韧性训练策略，在训练时向调制器参数注入温度相关的扰动，具体算法未提供。'} is not valid under any of the given schemas"
+      "reason": "Extra data: line 2 column 1 (char 841)"
     }
   ],
   "full_text_method_contexts": {
     "1cf1fcd769c5ace951188b8c": {
+      "abstract_available": true,
+      "attempt_count": 3,
       "candidate_id": "1cf1fcd769c5ace951188b8c",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 0.664,
-      "error": "Springer Open Access HTTP 401; fell back to abstract",
+      "elapsed_seconds": 1.498,
+      "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
       "media_type": "application/xml+jats",
       "section_headings": [],
       "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1364%2Foptica.591264&p=1",
@@ -26,11 +43,14 @@
       "text_persisted": false
     },
     "5017adbd33e6ddd5c320a4c4": {
+      "abstract_available": true,
+      "attempt_count": 3,
       "candidate_id": "5017adbd33e6ddd5c320a4c4",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 0.319,
-      "error": "Springer Open Access HTTP 401; fell back to abstract",
+      "elapsed_seconds": 1.385,
+      "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
       "media_type": "application/xml+jats",
       "section_headings": [],
       "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1364%2Fcleo_at.2026.jtu.84&p=1",
@@ -38,11 +58,14 @@
       "text_persisted": false
     },
     "541094f286db8902f2fe6077": {
+      "abstract_available": true,
+      "attempt_count": 3,
       "candidate_id": "541094f286db8902f2fe6077",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 0.384,
-      "error": "Springer Open Access HTTP 401; fell back to abstract",
+      "elapsed_seconds": 1.022,
+      "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
       "media_type": "application/xml+jats",
       "section_headings": [],
       "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1117%2F1.oe.65.7.073102&p=1",
@@ -68,125 +91,37 @@
     "unit_format_ignored": true
   },
   "output_language": "zh-CN",
+  "prepared_request_count": 3,
   "provider": "deepseek",
   "request_count": 3,
   "review_required": false,
   "schema_version": 1,
+  "skipped_no_abstract_candidate_ids": [],
+  "skipped_no_abstract_count": 0,
   "stage_timings": {
-    "full_text_preparation_seconds": 1.371,
-    "model_api_calls": [
-      {
-        "attempt": 1,
-        "candidate_id": "1cf1fcd769c5ace951188b8c",
-        "elapsed_seconds": 28.189,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1483,
-          "prompt_cache_hit_tokens": 1792,
-          "prompt_cache_miss_tokens": 1526,
-          "prompt_tokens": 3318,
-          "total_tokens": 4801
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "1cf1fcd769c5ace951188b8c",
-        "elapsed_seconds": 32.376,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1747,
-          "prompt_cache_hit_tokens": 3200,
-          "prompt_cache_miss_tokens": 143,
-          "prompt_tokens": 3343,
-          "total_tokens": 5090
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "541094f286db8902f2fe6077",
-        "elapsed_seconds": 32.634,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1839,
-          "prompt_cache_hit_tokens": 1792,
-          "prompt_cache_miss_tokens": 1487,
-          "prompt_tokens": 3279,
-          "total_tokens": 5118
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "5017adbd33e6ddd5c320a4c4",
-        "elapsed_seconds": 23.589,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1268,
-          "prompt_cache_hit_tokens": 1792,
-          "prompt_cache_miss_tokens": 1243,
-          "prompt_tokens": 3035,
-          "total_tokens": 4303
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "5017adbd33e6ddd5c320a4c4",
-        "elapsed_seconds": 15.232,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 829,
-          "prompt_cache_hit_tokens": 2944,
-          "prompt_cache_miss_tokens": 301,
-          "prompt_tokens": 3245,
-          "total_tokens": 4074
-        }
-      }
-    ],
-    "model_generation_and_validation_seconds": 132.042
+    "full_text_preparation_seconds": 3.911,
+    "model_api_calls": [],
+    "model_generation_and_validation_seconds": 0.009
   },
   "status": "failed_validation",
-  "summary_count": 2,
+  "summary_count": 0,
   "summary_generation_version": 8,
   "summary_history_updated": false,
   "thinking_enabled": false,
   "transport_repairs": {
-    "architecture_evidence": {
-      "1cf1fcd769c5ace951188b8c": {
-        "free_space_evidence": [],
-        "integrated_evidence": [
-          "However, practical on-chip training of optical neural networks remains challenging because gradient estimation, hardware nonidealities, and device-compatible parameter updates are difficult to handle directly in optical systems.",
-          "Here, we propose an on-chip training distillation-guided optical neural network (DGONN) and introduce a forward distillation algorithm to address these challenges.",
-          "Additionally, deep reinforcement learning further enables the controllability and stability of the on-chip optical system."
-        ],
-        "model_value": "integrated",
-        "repaired": false,
-        "resolved_type": "integrated"
-      },
-      "5017adbd33e6ddd5c320a4c4": {
-        "free_space_evidence": [
-          "We demonstrate an integrated diffractive optical neural network using Franz-Keldysh-based electroabsorption modulators, analyze the impact of temperature variations on system performance, and develop a thermal-resilient training strategy."
-        ],
-        "integrated_evidence": [],
-        "model_value": "integrated",
-        "repaired": true,
-        "resolved_type": "free_space"
-      },
-      "541094f286db8902f2fe6077": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "free_space",
-        "repaired": true,
-        "resolved_type": "unclear"
-      }
-    },
-    "architecture_repairs": 3,
+    "architecture_evidence": {},
+    "architecture_repairs": 0,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
       "1cf1fcd769c5ace951188b8c": {
+        "abstract_available": true,
+        "attempt_count": 3,
         "candidate_id": "1cf1fcd769c5ace951188b8c",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 0.664,
-        "error": "Springer Open Access HTTP 401; fell back to abstract",
+        "elapsed_seconds": 1.498,
+        "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
         "media_type": "application/xml+jats",
         "section_headings": [],
         "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1364%2Foptica.591264&p=1",
@@ -194,11 +129,14 @@
         "text_persisted": false
       },
       "5017adbd33e6ddd5c320a4c4": {
+        "abstract_available": true,
+        "attempt_count": 3,
         "candidate_id": "5017adbd33e6ddd5c320a4c4",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 0.319,
-        "error": "Springer Open Access HTTP 401; fell back to abstract",
+        "elapsed_seconds": 1.385,
+        "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
         "media_type": "application/xml+jats",
         "section_headings": [],
         "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1364%2Fcleo_at.2026.jtu.84&p=1",
@@ -206,11 +144,14 @@
         "text_persisted": false
       },
       "541094f286db8902f2fe6077": {
+        "abstract_available": true,
+        "attempt_count": 3,
         "candidate_id": "541094f286db8902f2fe6077",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 0.384,
-        "error": "Springer Open Access HTTP 401; fell back to abstract",
+        "elapsed_seconds": 1.022,
+        "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
         "media_type": "application/xml+jats",
         "section_headings": [],
         "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1117%2F1.oe.65.7.073102&p=1",
@@ -223,10 +164,10 @@
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 7166,
-    "prompt_cache_hit_tokens": 11520,
-    "prompt_cache_miss_tokens": 4700,
-    "prompt_tokens": 16220,
-    "total_tokens": 23386
+    "completion_tokens": 0,
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 0,
+    "prompt_tokens": 0,
+    "total_tokens": 0
   }
 }

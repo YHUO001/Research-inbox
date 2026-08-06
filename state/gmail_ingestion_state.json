@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-08-05T00:50:43.716939Z",
-  "last_successful_run_at": "2026-08-05T00:50:43.716939Z",
+  "last_attempt_at": "2026-08-06T00:48:44.528332Z",
+  "last_successful_run_at": "2026-08-06T00:48:44.528332Z",
   "consecutive_failures": 0,
   "processed_message_ids": {
     "19fc8eb41ccae7e2": "2026-08-04T05:25:16.234011Z",

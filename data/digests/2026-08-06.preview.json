@@ -1,0 +1,76 @@
+{
+  "built_at": "2026-08-06T00:48:52.697276Z",
+  "digest_date": "2026-08-06",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "1cf1fcd769c5ace951188b8c",
+        "landing_page": "https://doi.org/10.1364/optica.591264",
+        "mandatory": false,
+        "score": 0.85,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Distillation-guided optical neural networks with reinforcement learning-assisted calibration",
+        "venue": "Optica",
+        "year": 2026
+      },
+      {
+        "candidate_id": "541094f286db8902f2fe6077",
+        "landing_page": "https://doi.org/10.1117/1.oe.65.7.073102",
+        "mandatory": false,
+        "score": 0.83,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Enhancing the robustness of optical neural networks via joint Mach–Zehnder interferometer phase optimization",
+        "venue": "Optical Engineering",
+        "year": 2026
+      },
+      {
+        "candidate_id": "5017adbd33e6ddd5c320a4c4",
+        "landing_page": "https://doi.org/10.1364/cleo_at.2026.jtu.84",
+        "mandatory": false,
+        "score": 0.82,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Integrated diffractive optical neural network with electroabsorption modulators",
+        "venue": "CLEO 2026",
+        "year": 2026
+      }
+    ],
+    "next_candidates": [
+      {
+        "candidate_id": "7d6c2a059923ebe445a1cdf7",
+        "landing_page": "https://doi.org/10.1117/12.3116253",
+        "mandatory": false,
+        "score": 0.76,
+        "source_type": "google_scholar_email",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Scalable photonic tensor core coupled with direct optimization strategy for optical neural networks",
+        "venue": "Third International Conference on Optoelectronic Information and Optical Engineering (OIOE 2026)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "1e35265ce8678ca96adb8b93",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-10187577/v1",
+        "mandatory": false,
+        "score": 0.75,
+        "source_type": "openalex",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Partially coherent high-order optical neural networks via pseudo-nonlinear encoding",
+        "venue": "Research Square",
+        "year": 2026
+      }
+    ]
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}
