@@ -3,6 +3,7 @@ from __future__ import annotations
 import base64
 import json
 from email import policy
+from email.message import EmailMessage
 from email.parser import BytesParser
 from pathlib import Path
 
@@ -11,6 +12,12 @@ from scripts.delivery.send_daily_digest import send_daily_digest, sha256_text
 
 ROOT = Path(__file__).resolve().parents[1]
 RECIPIENT = "a209072780@126.com"
+EXISTING_BODY = (
+    "# Research Inbox — 2026-08-05\n\n"
+    "- DOI：[10.1000/a](https://doi.org/10.1000/a)\n\n"
+    "---\n"
+    "长期知识库索引：automation-state/data/knowledge_base/index.md\n"
+)
 
 
 class FakeRequest:
@@ -26,6 +33,7 @@ class FakeMessages:
         self.existing = existing
         self.fail_send = fail_send
         self.list_calls: list[dict] = []
+        self.get_calls: list[dict] = []
         self.send_calls: list[dict] = []
 
     def list(self, *, userId: str, q: str, maxResults: int) -> FakeRequest:
@@ -33,6 +41,16 @@ class FakeMessages:
         if self.existing:
             return FakeRequest({"messages": [{"id": "existing-id", "threadId": "thread-id"}]})
         return FakeRequest({"messages": []})
+
+    def get(self, *, userId: str, id: str, format: str) -> FakeRequest:
+        self.get_calls.append({"userId": userId, "id": id, "format": format})
+        message = EmailMessage()
+        message["To"] = RECIPIENT
+        message["Subject"] = "[Research Inbox] 每日研究汇总 2026-08-05（2 篇）"
+        message["Message-ID"] = "<research-inbox-existing@research-inbox.local>"
+        message.set_content(EXISTING_BODY)
+        raw = base64.urlsafe_b64encode(message.as_bytes()).decode("ascii")
+        return FakeRequest({"id": id, "raw": raw})
 
     def send(self, *, userId: str, body: dict[str, str]) -> FakeRequest:
         self.send_calls.append({"userId": userId, "body": body})
@@ -148,7 +166,7 @@ def test_sends_one_daily_message_and_archives_exact_body(tmp_path: Path) -> None
     assert len(service.message_api.send_calls) == 1
 
 
-def test_recovers_idempotency_from_sent_mail_and_creates_archive(tmp_path: Path) -> None:
+def test_recovers_exact_body_from_sent_mail_and_creates_archive(tmp_path: Path) -> None:
     prepare_digest(tmp_path)
     service = FakeService(existing=True)
 
@@ -163,16 +181,18 @@ def test_recovers_idempotency_from_sent_mail_and_creates_archive(tmp_path: Path)
     assert result["idempotent_recovery"] is True
     assert result["archive_status"] == "archived"
     assert len(service.message_api.list_calls) == 1
+    assert len(service.message_api.get_calls) == 1
     assert service.message_api.send_calls == []
     state = json.loads(
         (tmp_path / "state/email_delivery_state.json").read_text(encoding="utf-8")
     )
     assert state["sent_digests"]["2026-08-05"]["status"] == "already_sent"
     archive_body_path, archive_metadata_path = archive_paths(tmp_path)
-    assert archive_body_path.exists()
+    assert archive_body_path.read_text(encoding="utf-8") == EXISTING_BODY
     metadata = json.loads(archive_metadata_path.read_text(encoding="utf-8"))
     assert metadata["delivery_status"] == "already_sent"
     assert metadata["candidate_ids"] == ["one", "two"]
+    assert metadata["message_id_header"] == "<research-inbox-existing@research-inbox.local>"
 
 
 def test_sends_and_archives_an_empty_daily_digest(tmp_path: Path) -> None:
@@ -184,10 +204,7 @@ def test_sends_and_archives_an_empty_daily_digest(tmp_path: Path) -> None:
         tmp_path / "state/unified_registry_manifest.json",
         {"unified_candidate_count": 12, "merged_group_count": 2},
     )
-    write_json(
-        tmp_path / "state/openalex_discovery_manifest.json",
-        {"accepted_count": 0},
-    )
+    write_json(tmp_path / "state/openalex_discovery_manifest.json", {"accepted_count": 0})
     write_json(
         tmp_path / "state/routing_manifest.json",
         {"route_counts": {"metadata_enrichment_queue": 1, "manual_review_queue": 0}},
@@ -205,15 +222,12 @@ def test_sends_and_archives_an_empty_daily_digest(tmp_path: Path) -> None:
     assert result["summary_count"] == 0
     assert result["content_status"] == "empty_daily_digest"
     assert result["archive_status"] == "archived"
-    assert len(service.message_api.send_calls) == 1
     raw = base64.urlsafe_b64decode(service.message_api.send_calls[0]["body"]["raw"])
     parsed = BytesParser(policy=policy.default).parsebytes(raw)
     assert "今天没有新的论文进入自动摘要名额" in parsed.get_content()
     assert "没有产生模型 token 费用" in parsed.get_content()
     archive_body_path, archive_metadata_path = archive_paths(tmp_path)
-    assert "今天没有新的论文进入自动摘要名额" in archive_body_path.read_text(
-        encoding="utf-8"
-    )
+    assert "今天没有新的论文进入自动摘要名额" in archive_body_path.read_text(encoding="utf-8")
     metadata = json.loads(archive_metadata_path.read_text(encoding="utf-8"))
     assert metadata["candidate_ids"] == []
     assert metadata["source_digest_file"] is None
@@ -238,9 +252,7 @@ def test_failed_delivery_does_not_create_sent_archive(tmp_path: Path) -> None:
     archive_body_path, archive_metadata_path = archive_paths(tmp_path)
     assert not archive_body_path.exists()
     assert not archive_metadata_path.exists()
-    state = json.loads(
-        (tmp_path / "state/email_delivery_state.json").read_text(encoding="utf-8")
-    )
+    state = json.loads((tmp_path / "state/email_delivery_state.json").read_text(encoding="utf-8"))
     assert state["last_failure"]["digest_date"] == "2026-08-05"
 
 
