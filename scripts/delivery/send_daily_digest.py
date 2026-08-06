@@ -166,6 +166,114 @@ def resolve_digest_content(
     return digest_markdown_path.read_text(encoding="utf-8").rstrip(), summary_count, "completed_digest"
 
 
+def digest_candidate_ids(state_root: Path, digest_date: str) -> list[str]:
+    digest_path = state_root / "data" / "digests" / f"{digest_date}.generated.json"
+    digest = load_json(digest_path, {})
+    if not isinstance(digest, dict):
+        return []
+    values = digest.get("summaries") or []
+    if not isinstance(values, list):
+        return []
+    output: list[str] = []
+    seen: set[str] = set()
+    for value in values:
+        if not isinstance(value, dict):
+            continue
+        candidate_id = str(value.get("candidate_id") or "").strip()
+        if candidate_id and candidate_id not in seen:
+            seen.add(candidate_id)
+            output.append(candidate_id)
+    return output
+
+
+def archive_paths(state_root: Path, digest_date: str) -> tuple[Path, Path]:
+    year = digest_date[:4]
+    root = state_root / "data" / "digest_archive" / year
+    return root / f"{digest_date}.email.md", root / f"{digest_date}.delivery.json"
+
+
+def archive_delivered_digest(
+    *,
+    state_root: Path,
+    digest_date: str,
+    body: str,
+    subject: str,
+    summary_count: int,
+    content_status: str,
+    candidate_ids: list[str],
+    delivery_status: str,
+    sent_at: str,
+    recipient_sha256: str,
+    message_id_header: str,
+    gmail_message_id_sha256: str | None,
+) -> dict[str, Any]:
+    if delivery_status not in {"sent", "already_sent"}:
+        raise RuntimeError("Only confirmed sent digests may be archived")
+
+    body_path, metadata_path = archive_paths(state_root, digest_date)
+    body_sha256 = sha256_text(body)
+    source_path = state_root / "data" / "digests" / f"{digest_date}.generated.md"
+    source_file = (
+        f"data/digests/{digest_date}.generated.md"
+        if content_status == "completed_digest" and source_path.exists()
+        else None
+    )
+    source_sha256 = sha256_text(source_path.read_text(encoding="utf-8")) if source_file else None
+
+    if body_path.exists():
+        existing_body = body_path.read_text(encoding="utf-8")
+        if sha256_text(existing_body) != body_sha256:
+            raise RuntimeError(f"Archived digest body changed for {digest_date}")
+        existing_metadata = load_json(metadata_path, {})
+        if not isinstance(existing_metadata, dict):
+            raise RuntimeError(f"Archived delivery metadata is invalid for {digest_date}")
+        if existing_metadata.get("body_sha256") != body_sha256:
+            raise RuntimeError(f"Archived digest metadata hash changed for {digest_date}")
+        return {
+            "status": "already_archived",
+            "body_file": str(body_path.relative_to(state_root)),
+            "metadata_file": str(metadata_path.relative_to(state_root)),
+            "body_sha256": body_sha256,
+        }
+    if metadata_path.exists():
+        raise RuntimeError(f"Archived delivery metadata exists without its body for {digest_date}")
+
+    archived_at = utc_now()
+    body_file = str(body_path.relative_to(state_root))
+    metadata_file = str(metadata_path.relative_to(state_root))
+    metadata = {
+        "schema_version": 1,
+        "digest_date": digest_date,
+        "delivery_status": delivery_status,
+        "sent_at": sent_at,
+        "archived_at": archived_at,
+        "subject": subject,
+        "summary_count": summary_count,
+        "candidate_ids": candidate_ids,
+        "content_status": content_status,
+        "body_sha256": body_sha256,
+        "archive_body_file": body_file,
+        "source_digest_file": source_file,
+        "source_digest_sha256": source_sha256,
+        "knowledge_index_file": "data/knowledge_base/index.md",
+        "recipient_sha256": recipient_sha256,
+        "message_id_header": message_id_header,
+        "gmail_message_id_sha256": gmail_message_id_sha256,
+        "full_text_persisted": False,
+    }
+    atomic_write(body_path, body)
+    atomic_write(
+        metadata_path,
+        json.dumps(metadata, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+    )
+    return {
+        "status": "archived",
+        "body_file": body_file,
+        "metadata_file": metadata_file,
+        "body_sha256": body_sha256,
+    }
+
+
 def send_daily_digest(
     *,
     config_path: Path,
@@ -198,21 +306,48 @@ def send_daily_digest(
     digest_sha256 = sha256_text(body)
     recipient_sha256 = sha256_text(recipient)
     message_id = deterministic_message_id(digest_date, recipient)
+    subject = f"每日研究汇总 {digest_date}（{summary_count} 篇）"
+    candidate_ids = digest_candidate_ids(state_root, digest_date)
 
     sent_digests = state["sent_digests"]
     existing = sent_digests.get(digest_date)
     if isinstance(existing, dict) and existing.get("status") in {"sent", "already_sent"}:
+        archive_status = "skipped_digest_hash_mismatch"
+        archive: dict[str, Any] | None = None
+        if existing.get("digest_sha256") == digest_sha256:
+            archive = archive_delivered_digest(
+                state_root=state_root,
+                digest_date=digest_date,
+                body=body,
+                subject=subject,
+                summary_count=summary_count,
+                content_status=content_status,
+                candidate_ids=candidate_ids,
+                delivery_status=str(existing["status"]),
+                sent_at=str(existing.get("sent_at") or ""),
+                recipient_sha256=str(existing.get("recipient_sha256") or recipient_sha256),
+                message_id_header=str(existing.get("message_id_header") or message_id),
+                gmail_message_id_sha256=(
+                    str(existing.get("gmail_message_id_sha256"))
+                    if existing.get("gmail_message_id_sha256")
+                    else None
+                ),
+            )
+            archive_status = str(archive["status"])
         result = {
             "status": "skipped_already_recorded",
             "digest_date": digest_date,
             "sent": False,
             "digest_sha256": digest_sha256,
             "recorded_digest_sha256": existing.get("digest_sha256"),
+            "archive_status": archive_status,
         }
+        if archive:
+            result["archive_body_file"] = archive["body_file"]
+            result["archive_metadata_file"] = archive["metadata_file"]
         print(stable_json(result), flush=True)
         return result
 
-    subject = f"每日研究汇总 {digest_date}（{summary_count} 篇）"
     try:
         gmail = service or build_gmail_service(credentials_from_environment())
         delivery = send_digest_idempotent(
@@ -222,6 +357,24 @@ def send_daily_digest(
             text_body=body,
             policy=policy,
             message_id=message_id,
+        )
+        status = str(delivery.get("status") or "sent")
+        gmail_id = str(delivery.get("message_id") or "")
+        sent_at = utc_now()
+        gmail_message_id_sha256 = sha256_text(gmail_id) if gmail_id else None
+        archive = archive_delivered_digest(
+            state_root=state_root,
+            digest_date=digest_date,
+            body=body,
+            subject=subject,
+            summary_count=summary_count,
+            content_status=content_status,
+            candidate_ids=candidate_ids,
+            delivery_status=status,
+            sent_at=sent_at,
+            recipient_sha256=recipient_sha256,
+            message_id_header=message_id,
+            gmail_message_id_sha256=gmail_message_id_sha256,
         )
     except Exception as error:
         state["last_failure"] = {
@@ -233,17 +386,18 @@ def send_daily_digest(
         write_state(state_path, state)
         raise
 
-    status = str(delivery.get("status") or "sent")
-    gmail_id = str(delivery.get("message_id") or "")
     sent_digests[digest_date] = {
         "status": status,
-        "sent_at": utc_now(),
+        "sent_at": sent_at,
         "digest_sha256": digest_sha256,
         "summary_count": summary_count,
         "content_status": content_status,
         "recipient_sha256": recipient_sha256,
         "message_id_header": message_id,
-        "gmail_message_id_sha256": sha256_text(gmail_id) if gmail_id else None,
+        "gmail_message_id_sha256": gmail_message_id_sha256,
+        "archive_status": archive["status"],
+        "archive_body_file": archive["body_file"],
+        "archive_metadata_file": archive["metadata_file"],
     }
     state.pop("last_failure", None)
     state["last_successful_delivery_at"] = sent_digests[digest_date]["sent_at"]
@@ -257,6 +411,9 @@ def send_daily_digest(
         "sent": status == "sent",
         "idempotent_recovery": status == "already_sent",
         "digest_sha256": digest_sha256,
+        "archive_status": archive["status"],
+        "archive_body_file": archive["body_file"],
+        "archive_metadata_file": archive["metadata_file"],
     }
     print(stable_json(result), flush=True)
     return result
@@ -264,7 +421,7 @@ def send_daily_digest(
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Send one idempotent daily Research Inbox digest"
+        description="Send and archive one idempotent daily Research Inbox digest"
     )
     parser.add_argument("--config", type=Path, required=True)
     parser.add_argument("--state-root", type=Path, required=True)
