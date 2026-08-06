@@ -5,7 +5,9 @@ import base64
 import os
 import re
 from dataclasses import dataclass
+from email import policy
 from email.message import EmailMessage
+from email.parser import BytesParser
 from email.utils import parseaddr
 from pathlib import Path
 from typing import Any
@@ -69,16 +71,16 @@ def parse_recipient_allowlist(value: str | None) -> frozenset[str]:
 
 def policy_from_environment() -> EmailDeliveryPolicy:
     subject_prefix = os.environ.get(SUBJECT_PREFIX_ENV, DEFAULT_SUBJECT_PREFIX).strip()
-    policy = EmailDeliveryPolicy(
+    delivery_policy = EmailDeliveryPolicy(
         enabled=env_flag(os.environ.get(ENABLED_ENV)),
         allowed_recipients=parse_recipient_allowlist(os.environ.get(RECIPIENTS_ENV)),
         subject_prefix=subject_prefix,
     )
-    if policy.enabled and not policy.allowed_recipients:
+    if delivery_policy.enabled and not delivery_policy.allowed_recipients:
         raise RuntimeError(
             f"{ENABLED_ENV} is enabled but {RECIPIENTS_ENV} is empty"
         )
-    return policy
+    return delivery_policy
 
 
 def credentials_from_environment() -> Credentials:
@@ -155,7 +157,51 @@ def encode_message(message: EmailMessage) -> str:
     return base64.urlsafe_b64encode(message.as_bytes()).decode("ascii")
 
 
-def find_sent_message(service: Any, *, message_id: str) -> dict[str, str] | None:
+def decode_message(value: str) -> EmailMessage:
+    encoded = str(value or "").strip()
+    if not encoded:
+        raise RuntimeError("Gmail sent message is missing raw MIME content")
+    padded = encoded + "=" * (-len(encoded) % 4)
+    try:
+        raw = base64.urlsafe_b64decode(padded.encode("ascii"))
+    except (ValueError, UnicodeEncodeError) as error:
+        raise RuntimeError("Gmail sent message contains invalid raw MIME content") from error
+    return BytesParser(policy=policy.default).parsebytes(raw)
+
+
+def extract_plain_text(message: EmailMessage) -> str:
+    if message.is_multipart():
+        for part in message.walk():
+            if part.get_content_type() != "text/plain":
+                continue
+            if part.get_content_disposition() == "attachment":
+                continue
+            value = part.get_content()
+            if isinstance(value, str):
+                return value
+    elif message.get_content_type() == "text/plain":
+        value = message.get_content()
+        if isinstance(value, str):
+            return value
+    raise RuntimeError("Gmail sent message does not contain a text/plain body")
+
+
+def fetch_sent_message(service: Any, *, gmail_message_id: str) -> dict[str, str | None]:
+    response = (
+        service.users()
+        .messages()
+        .get(userId="me", id=gmail_message_id, format="raw")
+        .execute()
+    )
+    message = decode_message(str(response.get("raw") or ""))
+    return {
+        "text_body": extract_plain_text(message),
+        "subject": str(message.get("Subject") or "") or None,
+        "rfc822_message_id": str(message.get("Message-ID") or "") or None,
+    }
+
+
+def find_sent_message(service: Any, *, message_id: str) -> dict[str, str | None] | None:
     normalized = normalize_message_id(message_id)
     response = (
         service.users()
@@ -171,9 +217,14 @@ def find_sent_message(service: Any, *, message_id: str) -> dict[str, str] | None
     if not messages:
         return None
     first = messages[0]
+    gmail_message_id = str(first.get("id") or "")
+    if not gmail_message_id:
+        raise RuntimeError("Gmail sent-message search returned an empty message id")
+    fetched = fetch_sent_message(service, gmail_message_id=gmail_message_id)
     return {
-        "message_id": str(first.get("id") or ""),
+        "message_id": gmail_message_id,
         "thread_id": str(first.get("threadId") or "") or None,
+        **fetched,
     }
 
 
@@ -237,8 +288,7 @@ def send_digest_idempotent(
     if existing is not None:
         return {
             "status": "already_sent",
-            "message_id": existing.get("message_id"),
-            "thread_id": existing.get("thread_id"),
+            **existing,
         }
     result = send_digest(
         service=service,
