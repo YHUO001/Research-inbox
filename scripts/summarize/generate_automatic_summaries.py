@@ -13,6 +13,19 @@ import yaml
 from scripts.summarize.prepare_digest import atomic_write, load_json
 
 
+PREPARATION_ARTIFACT_FIELDS = (
+    "request_file",
+    "request_sha256",
+    "selection_manifest_sha256",
+    "queue_sha256",
+    "history_path",
+    "summary_slot_count",
+    "source_queue_candidate_count",
+    "automatic_queue_candidate_count",
+    "completed_candidate_filtered_count",
+)
+
+
 def validate_automatic_config(config: dict[str, Any]) -> None:
     execution = config.get("execution") or {}
     automation = config.get("automation") or {}
@@ -42,6 +55,27 @@ def compatibility_config(config: dict[str, Any]) -> dict[str, Any]:
     return compatible
 
 
+def preserve_preparation_artifacts(
+    generated: dict[str, Any], prepared: dict[str, Any]
+) -> dict[str, Any]:
+    generated_date = str(generated.get("digest_date") or "")
+    prepared_date = str(prepared.get("digest_date") or "")
+    if generated_date and prepared_date and generated_date != prepared_date:
+        raise RuntimeError(
+            f"Generated digest date {generated_date} does not match prepared date {prepared_date}"
+        )
+
+    for field in PREPARATION_ARTIFACT_FIELDS:
+        prepared_value = prepared.get(field)
+        if prepared_value in (None, ""):
+            continue
+        generated_value = generated.get(field)
+        if generated_value not in (None, "", prepared_value):
+            raise RuntimeError(f"Generated manifest changed immutable field: {field}")
+        generated[field] = prepared_value
+    return generated
+
+
 def generate_automatic(
     *,
     dry_run_manifest_path: Path,
@@ -55,6 +89,10 @@ def generate_automatic(
     if not isinstance(config, dict):
         raise ValueError("Summary generation config must be a YAML object")
     validate_automatic_config(config)
+
+    prepared_manifest = load_json(dry_run_manifest_path, {})
+    if not isinstance(prepared_manifest, dict) or not prepared_manifest:
+        raise RuntimeError("Automatic generation requires a prepared summary manifest")
 
     prepared_root.mkdir(parents=True, exist_ok=True)
     compatibility_path = prepared_root / "automatic_generation_compatibility.yaml"
@@ -88,6 +126,7 @@ def generate_automatic(
 
     manifest = load_json(manifest_path, {})
     if isinstance(manifest, dict) and manifest:
+        preserve_preparation_artifacts(manifest, prepared_manifest)
         manifest["execution_mode"] = "automatic_daily_batch"
         manifest["review_required"] = False
         manifest["automatic_history_pending"] = manifest.get("status") == "completed"
