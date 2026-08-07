@@ -1,5 +1,14 @@
 from __future__ import annotations
 
+import json
+from types import SimpleNamespace
+
+from scripts.summarize import staged_summary_pipeline_safe as safe_pipeline
+from scripts.summarize.abstract_fallback_policy import (
+    ABSTRACT_ONLY_BASIS,
+    FULL_TEXT_BASIS,
+)
+from scripts.summarize.deepseek_provider import DeepSeekResponse
 from scripts.summarize.numeric_grounding_repair import (
     repair_summary_numeric_grounding,
     source_evidence_from_user_prompt,
@@ -106,3 +115,87 @@ def test_source_evidence_parser_ignores_trailing_fallback_instruction() -> None:
         "Paper 4",
         "Uses 8 evaluations.",
     )
+
+
+def test_transport_repair_applies_to_abstract_fallback(monkeypatch) -> None:
+    response = DeepSeekResponse(
+        content=json.dumps(
+            {
+                "method_principle": "SAGE仅引入O(1)额外状态。",
+                "verification": {
+                    "information_basis": ABSTRACT_ONLY_BASIS,
+                    "missing_information": [],
+                },
+            },
+            ensure_ascii=False,
+        ),
+        usage={},
+        model="test-model",
+    )
+    monkeypatch.setattr(
+        safe_pipeline,
+        "_ORIGINAL_COMPLETE_JSON",
+        lambda self, **kwargs: response,
+    )
+    monkeypatch.setattr(
+        safe_pipeline.pipeline,
+        "expected_example",
+        lambda prompt: {"candidate_id": "candidate-1"},
+    )
+    client = SimpleNamespace(
+        diagnostics=SimpleNamespace(generation_metadata_repair_responses=0)
+    )
+
+    repaired = safe_pipeline.complete_json_with_fallback_normalization(
+        client,
+        system_prompt="test",
+        user_prompt=(
+            '来源记录：\n{"title":"SAGE","abstract":"constant additional state"}'
+            "\n公开全文已尝试获取 3 次"
+        ),
+    )
+    value = json.loads(repaired.content)
+
+    assert "O(1)" not in value["method_principle"]
+    assert "常数级" in value["method_principle"]
+    assert client.diagnostics.numeric_grounding_repair_responses == 1
+
+
+def test_transport_repair_does_not_redact_full_text_evidence(monkeypatch) -> None:
+    response = DeepSeekResponse(
+        content=json.dumps(
+            {
+                "method_principle": "公开全文报告系统使用488 nm光源。",
+                "verification": {
+                    "information_basis": FULL_TEXT_BASIS,
+                    "missing_information": [],
+                },
+            },
+            ensure_ascii=False,
+        ),
+        usage={},
+        model="test-model",
+    )
+    monkeypatch.setattr(
+        safe_pipeline,
+        "_ORIGINAL_COMPLETE_JSON",
+        lambda self, **kwargs: response,
+    )
+    monkeypatch.setattr(
+        safe_pipeline,
+        "repair_summary_numeric_grounding",
+        lambda *args, **kwargs: (_ for _ in ()).throw(
+            AssertionError("full-text summaries must not use abstract-only redaction")
+        ),
+    )
+    client = SimpleNamespace(
+        diagnostics=SimpleNamespace(generation_metadata_repair_responses=0)
+    )
+
+    preserved = safe_pipeline.complete_json_with_fallback_normalization(
+        client,
+        system_prompt="test",
+        user_prompt="test",
+    )
+
+    assert "488 nm" in json.loads(preserved.content)["method_principle"]
