@@ -26,7 +26,8 @@ _NUMBER_LITERAL = re.compile(
 )
 _SENTENCE_PART = re.compile(r"[^。！？!?；;\n]+[。！？!?；;\n]*")
 _ORDERED_PREFIX = re.compile(
-    r"^\s*(?:第\s*)?(?P<number>\d+)\s*(?:步(?:骤)?|[.)、:：])\s*"
+    r"^\s*(?:(?:第\s*)?\d+\s*步(?:骤)?|步骤?\s*\d+|"
+    r"\d+\s*[.)、:：])\s*[.)、:：]?\s*"
 )
 _BIG_O_ONE = re.compile(r"(?i)O\s*[（(]\s*1\s*[)）]")
 _BOUNDED_ZERO_ONE = re.compile(
