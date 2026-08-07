@@ -3,7 +3,6 @@ from __future__ import annotations
 import json
 import re
 import sys
-from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from typing import Any
 
@@ -20,37 +19,15 @@ from scripts.summarize.numeric_grounding_repair import (
     source_evidence_from_user_prompt,
     unsupported_numeric_diagnostics,
 )
-from scripts.summarize.prepare_digest import atomic_write, load_json, stable_json
+from scripts.summarize.prepare_digest import atomic_write, load_json
 
 
 _GROUNDING_SCOPE = "title_abstract_and_open_full_text_loose"
-_NUMBER_LITERAL = re.compile(
-    r"(?<![A-Za-z0-9])(?:~|≈|∼|±)?\s*"
-    r"(?P<number>[+-]?(?:\d+(?:\.\d+)?|\.\d+)(?:[eE][+-]?\d+)?)"
-)
 _FALLBACK_ATTEMPTS = re.compile(r"公开全文已尝试获取\s*(\d+)\s*次")
 _ORIGINAL_SYSTEM_PROMPT = pipeline.summary_core.system_prompt
 _ORIGINAL_RENDER_MARKDOWN = pipeline.summary_core.render_markdown
 _ORIGINAL_COMPLETE_JSON = pipeline.ProductionNormalizingClient.complete_json
 _ORIGINAL_DIAGNOSTIC_PAYLOAD = pipeline.diagnostic_payload
-
-
-def _numeric_occurrences(text: str) -> list[tuple[str, Decimal]]:
-    values: list[tuple[str, Decimal]] = []
-    for match in _NUMBER_LITERAL.finditer(text or ""):
-        raw = match.group("number")
-        try:
-            values.append((raw, Decimal(raw)))
-        except InvalidOperation:
-            continue
-    return values
-
-
-def _close_enough(output: Decimal, source: Decimal) -> bool:
-    """Allow natural approximation and small rounding differences."""
-
-    tolerance = max(Decimal("0.02"), abs(source) * Decimal("0.02"))
-    return abs(output - source) <= tolerance
 
 
 def shared_numeric_grounding(
@@ -131,10 +108,11 @@ def complete_json_with_fallback_normalization(
         verification = {}
         value["verification"] = verification
         changed = True
-    if str(verification.get("information_basis") or "") == ABSTRACT_ONLY_BASIS:
-        notice = abstract_fallback_notice(
-            _fallback_attempts(str(kwargs.get("user_prompt") or ""))
-        )
+
+    information_basis = str(verification.get("information_basis") or "")
+    if information_basis == ABSTRACT_ONLY_BASIS:
+        user_prompt = str(kwargs.get("user_prompt") or "")
+        notice = abstract_fallback_notice(_fallback_attempts(user_prompt))
         missing = verification.get("missing_information")
         if not isinstance(missing, list):
             missing = []
@@ -144,25 +122,23 @@ def complete_json_with_fallback_normalization(
             changed = True
         verification["missing_information"] = missing
 
-    expected = pipeline.expected_example(str(kwargs.get("system_prompt") or ""))
-    candidate_id = str(expected.get("candidate_id") or "unknown")
-    title, abstract = source_evidence_from_user_prompt(
-        str(kwargs.get("user_prompt") or "")
-    )
-    repaired, repairs = repair_summary_numeric_grounding(
-        value,
-        title=title,
-        abstract=abstract,
-    )
-    if repairs:
-        value = repaired
-        changed = True
-        if hasattr(self, "diagnostics"):
-            _record_numeric_repairs(
-                self.diagnostics,
-                candidate_id=candidate_id,
-                repairs=repairs,
-            )
+        expected = pipeline.expected_example(str(kwargs.get("system_prompt") or ""))
+        candidate_id = str(expected.get("candidate_id") or "unknown")
+        title, abstract = source_evidence_from_user_prompt(user_prompt)
+        repaired, repairs = repair_summary_numeric_grounding(
+            value,
+            title=title,
+            abstract=abstract,
+        )
+        if repairs:
+            value = repaired
+            changed = True
+            if hasattr(self, "diagnostics"):
+                _record_numeric_repairs(
+                    self.diagnostics,
+                    candidate_id=candidate_id,
+                    repairs=repairs,
+                )
 
     if changed and hasattr(self, "diagnostics"):
         self.diagnostics.generation_metadata_repair_responses += 1
@@ -233,7 +209,7 @@ def _mark_manifest_scope(path: Path, argv: list[str]) -> None:
         "relative_tolerance": 0.02,
         "absolute_tolerance": 0.02,
         "evidence_sources": ["title", "abstract", "temporary_open_full_text_methods"],
-        "unsupported_claim_policy": "deterministic_qualitative_redaction_then_reject",
+        "unsupported_claim_policy": "abstract_fallback_deterministic_qualitative_redaction_then_reject",
     }
 
     dry_run_value = _argument_value(argv, "--dry-run-manifest-path")
