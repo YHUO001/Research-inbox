@@ -10,9 +10,31 @@ from scripts.summarize.prepare_digest import atomic_write, load_json
 
 
 _ORIGINAL_FINALIZE = base.finalize_automatic
+_REQUIRED_ARTIFACTS = (
+    ("request_file", "request"),
+    ("summary_file", "summary"),
+    ("digest_json_file", "digest JSON"),
+    ("digest_markdown_file", "digest Markdown"),
+)
+
+
+def validate_required_artifacts(generation_manifest_path: Path) -> None:
+    generation = load_json(generation_manifest_path, {})
+    if not isinstance(generation, dict):
+        raise RuntimeError("Summary generation manifest must be a JSON object")
+    for field, label in _REQUIRED_ARTIFACTS:
+        raw = generation.get(field)
+        value = str(raw).strip() if raw is not None else ""
+        if not value:
+            raise RuntimeError(f"Summary generation manifest is missing {field}")
+        path = Path(value)
+        if not path.is_file():
+            raise RuntimeError(f"Missing {label} artifact file: {path}")
 
 
 def finalize_with_fallback(**kwargs: Any) -> dict[str, Any]:
+    generation_manifest_path = Path(str(kwargs.get("generation_manifest_path") or ""))
+    validate_required_artifacts(generation_manifest_path)
     result = _ORIGINAL_FINALIZE(**kwargs)
     skipped = [
         str(item)
