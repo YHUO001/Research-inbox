@@ -282,6 +282,68 @@
       "retrieved_at": "2026-08-04T11:27:51.172062Z",
       "status": "found"
     },
+    "crossref:doi:10.1088/2631-8695/ae95b1": {
+      "expires_at": "2026-09-06T01:30:20.766384Z",
+      "record": {
+        "abstract": "Abstract Inverse design of metamaterials is crucial for advancing nanophotonics, but traditional methods face challenges in pixel-by-pixel optimization and computational efficiency. This work introduces a novel inverse design framework that utilizes a progressively trained variational autoencoder (VAE) in conjunction with data augmentation. Our probabilistic generative model directly maps the desired optical spectrum (reflection, transmission, and absorption) to the optimized metamaterial structure, overcoming the limitation of deterministic methods in handling non-unique mappings. This method enables the rapid and efficient generation of structural design parameters for high-performance nanophotonic components, paving the way for next-generation silicon photonic component design and photonic convolutional neural networks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Senyan Chun",
+            "orcid": null
+          },
+          {
+            "name": "Guang Chen",
+            "orcid": "https://orcid.org/0000-0001-5611-6561"
+          },
+          {
+            "name": "Lidan Lu",
+            "orcid": null
+          },
+          {
+            "name": "Yulin Li",
+            "orcid": null
+          },
+          {
+            "name": "Yingjie Xu",
+            "orcid": null
+          },
+          {
+            "name": "Fengyu She",
+            "orcid": null
+          },
+          {
+            "name": "Guangping Zhong",
+            "orcid": null
+          },
+          {
+            "name": "Zhanbin Hou",
+            "orcid": null
+          },
+          {
+            "name": "Yirui Sun",
+            "orcid": null
+          },
+          {
+            "name": "Ruijiao Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1088/2631-8695/ae95b1",
+        "landing_page": "https://doi.org/10.1088/2631-8695/ae95b1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1088/2631-8695/ae95b1",
+        "publication_date": "2026-08-05",
+        "title": "Inverse Design of Metamaterials Using Progressively Trained Variational Autoencoders",
+        "venue": "Engineering Research Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-07T01:30:20.766384Z",
+      "status": "found"
+    },
     "crossref:doi:10.1117/1.oe.65.7.073102": {
       "expires_at": "2026-09-03T09:38:17.735069Z",
       "record": {
@@ -457,6 +519,12 @@
       },
       "retrieved_at": "2026-08-05T13:20:51.775599Z",
       "status": "found"
+    },
+    "crossref:doi:10.48550/arxiv.2608.03277": {
+      "expires_at": "2026-09-06T01:30:20.389987Z",
+      "record": null,
+      "retrieved_at": "2026-08-07T01:30:20.389987Z",
+      "status": "not_found"
     },
     "crossref:doi:10.60893/figshare.app.c.8604716.v1": {
       "expires_at": "2026-09-04T13:20:52.295864Z",
@@ -1750,6 +1818,68 @@
       "retrieved_at": "2026-08-04T09:38:22.171450Z",
       "status": "found"
     },
+    "openalex:doi:10.1088/2631-8695/ae95b1": {
+      "expires_at": "2026-09-06T01:30:21.116723Z",
+      "record": {
+        "abstract": "Abstract Inverse design of metamaterials is crucial for advancing nanophotonics, but traditional methods face challenges in pixel-by-pixel optimization and computational efficiency. This work introduces a novel inverse design framework that utilizes a progressively trained variational autoencoder (VAE) in conjunction with data augmentation. Our probabilistic generative model directly maps the desired optical spectrum (reflection, transmission, and absorption) to the optimized metamaterial structure, overcoming the limitation of deterministic methods in handling non-unique mappings. This method enables the rapid and efficient generation of structural design parameters for high-performance nanophotonic components, paving the way for next-generation silicon photonic component design and photonic convolutional neural networks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Senyan Chun",
+            "orcid": null
+          },
+          {
+            "name": "Guang Chen",
+            "orcid": "https://orcid.org/0000-0001-5611-6561"
+          },
+          {
+            "name": "Lidan Lu",
+            "orcid": null
+          },
+          {
+            "name": "Yulin Li",
+            "orcid": "https://orcid.org/0000-0003-3479-9909"
+          },
+          {
+            "name": "Yingjie Xu",
+            "orcid": "https://orcid.org/0000-0002-8557-7196"
+          },
+          {
+            "name": "F.H. She",
+            "orcid": null
+          },
+          {
+            "name": "仲光苹",
+            "orcid": null
+          },
+          {
+            "name": "Zhanbin Hou",
+            "orcid": null
+          },
+          {
+            "name": "Yirui Sun",
+            "orcid": null
+          },
+          {
+            "name": "Ruijiao Zhang",
+            "orcid": "https://orcid.org/0000-0003-3068-0388"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1088/2631-8695/ae95b1",
+        "landing_page": "https://doi.org/10.1088/2631-8695/ae95b1",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7172486056",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7172486056",
+        "publication_date": "2026-08-05",
+        "title": "Inverse Design of Metamaterials Using Progressively Trained Variational Autoencoders",
+        "venue": "Engineering Research Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-07T01:30:21.116723Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/icc59461.2026.11588032": {
       "expires_at": "2026-09-03T09:38:38.333024Z",
       "record": {
@@ -2450,6 +2580,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-05T13:20:52.127904Z",
+      "status": "found"
+    },
+    "openalex:doi:10.48550/arxiv.2608.03277": {
+      "expires_at": "2026-09-06T01:30:20.714775Z",
+      "record": {
+        "abstract": "Differentially private zeroth-order optimization (DP-ZO) enables memory-efficient private fine-tuning of large language models using only forward evaluations. Existing aggregation-based DP-ZO methods reconstruct model updates at a fixed scale, ignoring that the strength of useful signals varies throughout training. Consequently, noise-dominated updates may receive excessive weight and degrade model utility. To address this issue, we propose SAGE, a noise-aware shrinkage method that adaptively attenuates privatized estimates according to their estimated signal quality. SAGE subtracts the known Gaussian noise variance from the observed second moment to estimate the underlying signal energy, stabilizes this estimate through temporal tracking, and compares its current signal-to-noise level with a warm-up reference to derive a bounded shrinkage factor. As pure post-processing, SAGE requires neither additional privacy budget nor model queries and introduces only constant additional state. Our theoretical analysis shows that shrinkage reduces the quadratic update-risk term faster than the linear descent term, preserving useful descent while limiting the influence of noise-dominated updates. Experiments on RoBERTa-large, OPT-1.3B, and OPT-6.7B demonstrate that SAGE outperforms existing baselines in most settings under the same privacy budgets while preserving the forward-only memory efficiency of DP-ZO.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lele Zheng",
+            "orcid": null
+          },
+          {
+            "name": "Weifeng Kong",
+            "orcid": "https://orcid.org/0000-0003-0522-2430"
+          },
+          {
+            "name": "Xinyi Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Ke Cheng",
+            "orcid": null
+          },
+          {
+            "name": "Tao Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yulong Shen",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2608.03277",
+        "landing_page": "https://doi.org/10.48550/arxiv.2608.03277",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2608.03277",
+        "openalex_id": "https://openalex.org/W7172542006",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7172542006",
+        "publication_date": "2026-08-04",
+        "title": "Noise-Aware Shrinkage for Differentially Private Zeroth-Order Fine-Tuning of Large Language Models",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-07T01:30:20.714775Z",
       "status": "found"
     },
     "openalex:doi:10.60893/figshare.app.c.8604716.v1": {
