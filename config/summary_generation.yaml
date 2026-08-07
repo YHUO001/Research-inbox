@@ -74,11 +74,12 @@ output:
 full_text:
   enabled: true
   open_access_only: true
-  source_strategy: "springer_openaccess_jats_then_non_springer_open_url"
+  source_strategy: "publisher_routed_springer_jats_or_public_url"
   springer_api_key_env: "SPRINGER_NATURE_API_KEY"
   springer_openaccess_endpoint: "https://api.springernature.com/openaccess/jats"
   allow_direct_nature_urls: false
   allow_non_springer_open_urls: true
+  non_retryable_springer_http_statuses: [401, 403]
   persist_extracted_text: false
   qualitative_methods_only: true
   numeric_grounding_scope: "title_and_abstract_only"
@@ -133,6 +134,7 @@ grounding:
   numeric_matching_mode: "loose_full_evidence"
   numeric_relative_tolerance: 0.02
   numeric_absolute_tolerance: 0.02
+  unsupported_numeric_policy: "deterministic_qualitative_redaction_then_reject"
   unavailable_value: "not_available"
   enforce_onn_architecture_evidence: true
 

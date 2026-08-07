@@ -43,21 +43,25 @@ def test_units_do_not_need_to_match_when_numeric_value_exists() -> None:
     assert unsupported == []
 
 
-def test_clearly_different_numeric_claim_remains_rejected() -> None:
+def test_clearly_different_numeric_claim_remains_rejected_with_context() -> None:
     summary = {"method_principle": "系统包含约 120 个并行通道。"}
     unsupported = shared_numeric_grounding(
         summary,
         title="Optical computing",
         abstract="The system contains 100 parallel channels.",
     )
-    assert unsupported == ["120"]
+    assert unsupported == [
+        "120 at method_principle: 系统包含约 120 个并行通道。"
+    ]
 
 
-def test_unseen_numeric_claim_remains_rejected() -> None:
+def test_unseen_numeric_claim_remains_rejected_with_context() -> None:
     summary = {"method_principle": "系统使用 488 nm 光源。"}
     unsupported = shared_numeric_grounding(
         summary,
         title="Optical neural network",
         abstract="The system uses a programmable optical input.",
     )
-    assert unsupported == ["488"]
+    assert unsupported == [
+        "488 at method_principle: 系统使用 488 nm 光源。"
+    ]

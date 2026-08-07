@@ -193,7 +193,7 @@ jobs:
         run: |
           rm -rf "${PREPARED_ROOT}"
           mkdir -p "${PREPARED_ROOT}"
-          python -m scripts.summarize.prepare_fulltext_bounded \
+          python -m scripts.summarize.prepare_fulltext_routed \
             --dry-run-manifest-path runtime-state/state/summary_generation_manifest.json \
             --config config/summary_generation.yaml \
             --prepared-root "${PREPARED_ROOT}"
