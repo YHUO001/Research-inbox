@@ -5,16 +5,21 @@
     "541094f286db8902f2fe6077"
   ],
   "abstract_fallback_count": 3,
-  "automatic_history_pending": true,
-  "daily_digest_pending": true,
+  "automatic_history_pending": false,
+  "automatic_queue_candidate_count": 5,
+  "completed_candidate_filtered_count": 0,
+  "daily_digest_pending": false,
   "digest_date": "2026-08-07",
-  "digest_json_file": "runtime-state/data/digests/2026-08-07.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-08-07.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.037563,
+  "estimated_cost_cny": 0.0377222,
   "execution_mode": "automatic_daily_batch",
-  "failure_count": 0,
-  "failures": [],
+  "failure_count": 1,
+  "failures": [
+    {
+      "candidate_id": "142dc76f41fc25448b82c91e",
+      "reason": "unsupported numeric claims: 1, 2, 4, 8"
+    }
+  ],
   "full_text_method_contexts": {
     "142dc76f41fc25448b82c91e": {
       "abstract_available": true,
@@ -22,7 +27,7 @@
       "candidate_id": "142dc76f41fc25448b82c91e",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 1.203,
+      "elapsed_seconds": 1.219,
       "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": "application/xml+jats",
@@ -52,7 +57,7 @@
       "candidate_id": "541094f286db8902f2fe6077",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 0.961,
+      "elapsed_seconds": 0.98,
       "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": "application/xml+jats",
@@ -64,8 +69,9 @@
   },
   "full_text_persisted": false,
   "full_text_used": false,
+  "history_path": "runtime-state/state/summary_history.json",
   "information_basis": "title_metadata_and_abstract_only",
-  "knowledge_base_pending": true,
+  "knowledge_base_pending": false,
   "model": "deepseek-v4-pro",
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
@@ -82,61 +88,79 @@
   "output_language": "zh-CN",
   "prepared_request_count": 3,
   "provider": "deepseek",
+  "queue_sha256": "c3f3f46ab7318efa048616b574883eb4e66a2634650aaba5eafe66e853ef55c5",
   "request_count": 3,
+  "request_file": "runtime-state/data/summary_requests/2026-08-07.jsonl",
+  "request_sha256": "17292970a9436f1bc3be94bd2d228e8119fef10274b9766f3bf06d7217a46f9f",
   "review_required": false,
   "schema_version": 1,
+  "selection_manifest_sha256": "bda3fa2c1508f62239ac935f93a2147da214632478ba252de5b0fe4e696e7e74",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
+  "source_queue_candidate_count": 5,
   "stage_timings": {
-    "full_text_preparation_seconds": 3.117,
+    "full_text_preparation_seconds": 3.151,
     "model_api_calls": [
       {
         "attempt": 1,
         "candidate_id": "142dc76f41fc25448b82c91e",
-        "elapsed_seconds": 19.748,
+        "elapsed_seconds": 21.724,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1126,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 1516,
+          "completion_tokens": 1394,
+          "prompt_cache_hit_tokens": 3328,
+          "prompt_cache_miss_tokens": 108,
           "prompt_tokens": 3436,
-          "total_tokens": 4562
+          "total_tokens": 4830
+        }
+      },
+      {
+        "attempt": 2,
+        "candidate_id": "142dc76f41fc25448b82c91e",
+        "elapsed_seconds": 22.687,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1553,
+          "prompt_cache_hit_tokens": 3328,
+          "prompt_cache_miss_tokens": 136,
+          "prompt_tokens": 3464,
+          "total_tokens": 5017
         }
       },
       {
         "attempt": 1,
         "candidate_id": "1cf1fcd769c5ace951188b8c",
-        "elapsed_seconds": 29.366,
+        "elapsed_seconds": 29.13,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1595,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 1611,
+          "completion_tokens": 1804,
+          "prompt_cache_hit_tokens": 3456,
+          "prompt_cache_miss_tokens": 75,
           "prompt_tokens": 3531,
-          "total_tokens": 5126
+          "total_tokens": 5335
         }
       },
       {
         "attempt": 1,
         "candidate_id": "541094f286db8902f2fe6077",
-        "elapsed_seconds": 18.131,
+        "elapsed_seconds": 17.069,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1166,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 1572,
+          "completion_tokens": 1302,
+          "prompt_cache_hit_tokens": 3456,
+          "prompt_cache_miss_tokens": 36,
           "prompt_tokens": 3492,
-          "total_tokens": 4658
+          "total_tokens": 4794
         }
       }
     ],
-    "model_generation_and_validation_seconds": 67.265
+    "model_generation_and_validation_seconds": 90.63
   },
-  "status": "completed",
-  "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-08-07.jsonl",
+  "status": "failed_validation",
+  "summary_count": 2,
   "summary_generation_version": 8,
   "summary_history_updated": false,
+  "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
@@ -154,8 +178,8 @@
           "Here, we propose an on-chip training distillation-guided optical neural network (DGONN) and introduce a forward distillation algorithm to address these challenges.",
           "Additionally, deep reinforcement learning further enables the controllability and stability of the on-chip optical system."
         ],
-        "model_value": "integrated",
-        "repaired": false,
+        "model_value": "free_space",
+        "repaired": true,
         "resolved_type": "integrated"
       },
       "541094f286db8902f2fe6077": {
@@ -166,7 +190,7 @@
         "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 1,
+    "architecture_repairs": 2,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
       "142dc76f41fc25448b82c91e": {
@@ -175,7 +199,7 @@
         "candidate_id": "142dc76f41fc25448b82c91e",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 1.203,
+        "elapsed_seconds": 1.219,
         "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": "application/xml+jats",
@@ -205,7 +229,7 @@
         "candidate_id": "541094f286db8902f2fe6077",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 0.961,
+        "elapsed_seconds": 0.98,
         "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": "application/xml+jats",
@@ -215,15 +239,15 @@
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 3,
+    "generation_metadata_repair_responses": 4,
     "tops_alias_expansions": 0,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 3887,
-    "prompt_cache_hit_tokens": 5760,
-    "prompt_cache_miss_tokens": 4699,
-    "prompt_tokens": 10459,
-    "total_tokens": 14346
+    "completion_tokens": 6053,
+    "prompt_cache_hit_tokens": 13568,
+    "prompt_cache_miss_tokens": 355,
+    "prompt_tokens": 13923,
+    "total_tokens": 19976
   }
 }
