@@ -1,0 +1,14 @@
+{
+  "full_text_persisted": false,
+  "index_file": "runtime-state/data/knowledge_base/index.json",
+  "index_sha256": "cc69cc271623b74854af4fdfa50422164ea590ddc669dce6042266fee3ec7ec4",
+  "markdown_file": "runtime-state/data/knowledge_base/index.md",
+  "markdown_sha256": "6d8cd52a3f5121e5c7f7276ec701401d948f24d784b9adafbcb7e2e3974f1972",
+  "newly_indexed_count": 3,
+  "paper_count": 3,
+  "papers_file": "runtime-state/data/knowledge_base/papers.jsonl",
+  "papers_sha256": "d2b34fe60154de05a5b0a8a15ec1547a4a035f863f73f72ff6abebb2c4dd1db6",
+  "schema_version": 1,
+  "status": "completed",
+  "updated_at": "2026-08-07T06:07:19.722273Z"
+}

@@ -1,0 +1,19 @@
+{
+  "last_successful_delivery_at": "2026-08-07T06:07:21.043424Z",
+  "schema_version": 1,
+  "sent_digests": {
+    "2026-08-07": {
+      "archive_body_file": "data/digest_archive/2026/2026-08-07.email.md",
+      "archive_metadata_file": "data/digest_archive/2026/2026-08-07.delivery.json",
+      "archive_status": "archived",
+      "content_status": "completed_digest",
+      "digest_sha256": "84062b6ab7d9e228a28793adc98889c540b0926e7504fa65f874a869dc71a254",
+      "gmail_message_id_sha256": "5330cf48adc1d9d45b8297dcfdf412eab43b3bb2be6db1b667b74dbd217ea450",
+      "message_id_header": "<research-inbox-20260807-05bbb7a725825d85@research-inbox.local>",
+      "recipient_sha256": "05bbb7a725825d85078914a36b7fbb15a2c4781c25a2eb2832958cb229c38c4d",
+      "sent_at": "2026-08-07T06:07:21.043424Z",
+      "status": "sent",
+      "summary_count": 3
+    }
+  }
+}

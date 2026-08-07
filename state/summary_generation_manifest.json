@@ -1,39 +1,74 @@
 {
   "abstract_fallback_candidate_ids": [
+    "1cf1fcd769c5ace951188b8c",
+    "541094f286db8902f2fe6077"
+  ],
+  "abstract_fallback_count": 2,
+  "architecture_evidence": {
+    "142dc76f41fc25448b82c91e": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    },
+    "1cf1fcd769c5ace951188b8c": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [
+        "However, practical on-chip training of optical neural networks remains challenging because gradient estimation, hardware nonidealities, and device-compatible parameter updates are difficult to handle directly in optical systems.",
+        "Here, we propose an on-chip training distillation-guided optical neural network (DGONN) and introduce a forward distillation algorithm to address these challenges.",
+        "Additionally, deep reinforcement learning further enables the controllability and stability of the on-chip optical system."
+      ],
+      "previous_type": "integrated",
+      "resolved_type": "integrated"
+    },
+    "541094f286db8902f2fe6077": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    }
+  },
+  "architecture_repairs": 0,
+  "automatic_history_pending": false,
+  "automatic_queue_candidate_count": 5,
+  "completed_at": "2026-08-07T06:07:19.722273Z",
+  "completed_candidate_filtered_count": 0,
+  "completed_candidate_ids": [
     "142dc76f41fc25448b82c91e",
     "1cf1fcd769c5ace951188b8c",
     "541094f286db8902f2fe6077"
   ],
-  "abstract_fallback_count": 3,
-  "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 5,
-  "completed_candidate_filtered_count": 0,
-  "daily_digest_pending": false,
+  "completion_mode": "automatic_daily_batch_after_local_validation",
+  "daily_digest_pending": true,
   "digest_date": "2026-08-07",
+  "digest_json_file": "runtime-state/data/digests/2026-08-07.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-08-07.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0377222,
+  "estimated_cost_cny": 0.070434,
   "execution_mode": "automatic_daily_batch",
-  "failure_count": 1,
-  "failures": [
-    {
-      "candidate_id": "142dc76f41fc25448b82c91e",
-      "reason": "unsupported numeric claims: 1, 2, 4, 8"
-    }
-  ],
+  "failure_count": 0,
+  "failures": [],
   "full_text_method_contexts": {
     "142dc76f41fc25448b82c91e": {
       "abstract_available": true,
-      "attempt_count": 3,
+      "attempt_count": 1,
       "candidate_id": "142dc76f41fc25448b82c91e",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 1.219,
-      "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": "application/xml+jats",
-      "section_headings": [],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.48550%2Farxiv.2608.03277&p=1",
-      "status": "not_available",
+      "character_count": 8402,
+      "content_sha256": "242a2fba61b40bb8a449343f78ae6906407f34941a42cf6fbc3d1d8673243271",
+      "elapsed_seconds": 0.359,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        "Method",
+        "Experimental Setup",
+        "Training configurations."
+      ],
+      "source_url": "https://arxiv.org/html/2608.03277",
+      "status": "used",
       "text_persisted": false
     },
     "1cf1fcd769c5ace951188b8c": {
@@ -42,12 +77,12 @@
       "candidate_id": "1cf1fcd769c5ace951188b8c",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 0.947,
-      "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "elapsed_seconds": 3.633,
+      "error": "https://opg.optica.org/optica/viewmedia.cfm?uri=optica-13-8-1423&html=true: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
-      "media_type": "application/xml+jats",
+      "media_type": null,
       "section_headings": [],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1364%2Foptica.591264&p=1",
+      "source_url": "https://doi.org/10.1364/optica.591264",
       "status": "not_available",
       "text_persisted": false
     },
@@ -57,22 +92,23 @@
       "candidate_id": "541094f286db8902f2fe6077",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 0.98,
-      "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "elapsed_seconds": 6.715,
+      "error": "https://www.spiedigitallibrary.org/journals/optical-engineering/volume-65/issue-07/073102/Enhancing-the-robustness-of-optical-neural-networks-via-joint-MachZehnder/10.1117/1.OE.65.7.073102.full: no method-oriented HTML section found; https://www.spiedigitallibrary.org/journals/optical-engineering/volume-65/issue-7/073102/Enhancing-the-robustness-of-optical-neural-networks-via-joint-MachZehnder/10.1117/1.OE.65.7.073102.short: no method-oriented HTML section found; https://www.spiedigitallibrary.org/journals/optical-engineering/volume-65/issue-7/073102/Enhancing-the-robustness-of-optical-neural-networks-via-joint-MachZehnder/10.1117/1.OE.65.7.073102.short: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
-      "media_type": "application/xml+jats",
+      "media_type": null,
       "section_headings": [],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1117%2F1.oe.65.7.073102&p=1",
+      "source_url": "https://doi.org/10.1117/1.oe.65.7.073102",
       "status": "not_available",
       "text_persisted": false
     }
   },
   "full_text_persisted": false,
-  "full_text_used": false,
+  "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_and_abstract_only",
-  "knowledge_base_pending": false,
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+  "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
+  "newly_completed_candidate_count": 3,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -83,7 +119,8 @@
       "temporary_open_full_text_methods"
     ],
     "relative_tolerance": 0.02,
-    "unit_format_ignored": true
+    "unit_format_ignored": true,
+    "unsupported_claim_policy": "abstract_fallback_deterministic_qualitative_redaction_then_reject"
   },
   "output_language": "zh-CN",
   "prepared_request_count": 3,
@@ -91,75 +128,63 @@
   "queue_sha256": "c3f3f46ab7318efa048616b574883eb4e66a2634650aaba5eafe66e853ef55c5",
   "request_count": 3,
   "request_file": "runtime-state/data/summary_requests/2026-08-07.jsonl",
-  "request_sha256": "17292970a9436f1bc3be94bd2d228e8119fef10274b9766f3bf06d7217a46f9f",
+  "request_sha256": "a72ed28be642aff446331e75a93c442a9e5a241ea3c14bfbf4b664fef63f2710",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "bda3fa2c1508f62239ac935f93a2147da214632478ba252de5b0fe4e696e7e74",
+  "selection_manifest_sha256": "99be869123d7feb95aea8b9f4d7ba9bc008437b723882c8e0750fb3ed421a3c8",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
   "source_queue_candidate_count": 5,
   "stage_timings": {
-    "full_text_preparation_seconds": 3.151,
+    "full_text_preparation_seconds": 10.714,
     "model_api_calls": [
       {
         "attempt": 1,
         "candidate_id": "142dc76f41fc25448b82c91e",
-        "elapsed_seconds": 21.724,
+        "elapsed_seconds": 52.389,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1394,
-          "prompt_cache_hit_tokens": 3328,
-          "prompt_cache_miss_tokens": 108,
-          "prompt_tokens": 3436,
-          "total_tokens": 4830
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "142dc76f41fc25448b82c91e",
-        "elapsed_seconds": 22.687,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1553,
-          "prompt_cache_hit_tokens": 3328,
-          "prompt_cache_miss_tokens": 136,
-          "prompt_tokens": 3464,
-          "total_tokens": 5017
+          "completion_tokens": 2500,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 5239,
+          "prompt_tokens": 5239,
+          "total_tokens": 7739
         }
       },
       {
         "attempt": 1,
         "candidate_id": "1cf1fcd769c5ace951188b8c",
-        "elapsed_seconds": 29.13,
+        "elapsed_seconds": 34.855,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1804,
-          "prompt_cache_hit_tokens": 3456,
-          "prompt_cache_miss_tokens": 75,
-          "prompt_tokens": 3531,
-          "total_tokens": 5335
+          "completion_tokens": 1535,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 3574,
+          "prompt_tokens": 3574,
+          "total_tokens": 5109
         }
       },
       {
         "attempt": 1,
         "candidate_id": "541094f286db8902f2fe6077",
-        "elapsed_seconds": 17.069,
+        "elapsed_seconds": 34.579,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1302,
-          "prompt_cache_hit_tokens": 3456,
-          "prompt_cache_miss_tokens": 36,
-          "prompt_tokens": 3492,
-          "total_tokens": 4794
+          "completion_tokens": 1530,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 3535,
+          "prompt_tokens": 3535,
+          "total_tokens": 5065
         }
       }
     ],
-    "model_generation_and_validation_seconds": 90.63
+    "model_generation_and_validation_seconds": 121.846
   },
-  "status": "failed_validation",
-  "summary_count": 2,
+  "status": "completed_automatic",
+  "summary_count": 3,
+  "summary_file": "runtime-state/data/summaries/2026-08-07.jsonl",
   "summary_generation_version": 8,
-  "summary_history_updated": false,
+  "summary_history_updated": true,
   "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
@@ -178,8 +203,8 @@
           "Here, we propose an on-chip training distillation-guided optical neural network (DGONN) and introduce a forward distillation algorithm to address these challenges.",
           "Additionally, deep reinforcement learning further enables the controllability and stability of the on-chip optical system."
         ],
-        "model_value": "free_space",
-        "repaired": true,
+        "model_value": "integrated",
+        "repaired": false,
         "resolved_type": "integrated"
       },
       "541094f286db8902f2fe6077": {
@@ -190,22 +215,26 @@
         "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 2,
+    "architecture_repairs": 1,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
       "142dc76f41fc25448b82c91e": {
         "abstract_available": true,
-        "attempt_count": 3,
+        "attempt_count": 1,
         "candidate_id": "142dc76f41fc25448b82c91e",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 1.219,
-        "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": "application/xml+jats",
-        "section_headings": [],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.48550%2Farxiv.2608.03277&p=1",
-        "status": "not_available",
+        "character_count": 8402,
+        "content_sha256": "242a2fba61b40bb8a449343f78ae6906407f34941a42cf6fbc3d1d8673243271",
+        "elapsed_seconds": 0.359,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          "Method",
+          "Experimental Setup",
+          "Training configurations."
+        ],
+        "source_url": "https://arxiv.org/html/2608.03277",
+        "status": "used",
         "text_persisted": false
       },
       "1cf1fcd769c5ace951188b8c": {
@@ -214,12 +243,12 @@
         "candidate_id": "1cf1fcd769c5ace951188b8c",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 0.947,
-        "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "elapsed_seconds": 3.633,
+        "error": "https://opg.optica.org/optica/viewmedia.cfm?uri=optica-13-8-1423&html=true: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
-        "media_type": "application/xml+jats",
+        "media_type": null,
         "section_headings": [],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1364%2Foptica.591264&p=1",
+        "source_url": "https://doi.org/10.1364/optica.591264",
         "status": "not_available",
         "text_persisted": false
       },
@@ -229,25 +258,27 @@
         "candidate_id": "541094f286db8902f2fe6077",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 0.98,
-        "error": "Springer Open Access HTTP 401; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "elapsed_seconds": 6.715,
+        "error": "https://www.spiedigitallibrary.org/journals/optical-engineering/volume-65/issue-07/073102/Enhancing-the-robustness-of-optical-neural-networks-via-joint-MachZehnder/10.1117/1.OE.65.7.073102.full: no method-oriented HTML section found; https://www.spiedigitallibrary.org/journals/optical-engineering/volume-65/issue-7/073102/Enhancing-the-robustness-of-optical-neural-networks-via-joint-MachZehnder/10.1117/1.OE.65.7.073102.short: no method-oriented HTML section found; https://www.spiedigitallibrary.org/journals/optical-engineering/volume-65/issue-7/073102/Enhancing-the-robustness-of-optical-neural-networks-via-joint-MachZehnder/10.1117/1.OE.65.7.073102.short: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
-        "media_type": "application/xml+jats",
+        "media_type": null,
         "section_headings": [],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1117%2F1.oe.65.7.073102&p=1",
+        "source_url": "https://doi.org/10.1117/1.oe.65.7.073102",
         "status": "not_available",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 4,
-    "tops_alias_expansions": 0,
+    "generation_metadata_repair_responses": 2,
+    "numeric_grounding_repair_responses": 0,
+    "numeric_grounding_repairs": {},
+    "tops_alias_expansions": 34,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 6053,
-    "prompt_cache_hit_tokens": 13568,
-    "prompt_cache_miss_tokens": 355,
-    "prompt_tokens": 13923,
-    "total_tokens": 19976
+    "completion_tokens": 5565,
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 12348,
+    "prompt_tokens": 12348,
+    "total_tokens": 17913
   }
 }

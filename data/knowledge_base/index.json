@@ -1,0 +1,118 @@
+{
+  "by_candidate_id": {
+    "142dc76f41fc25448b82c91e": {
+      "digest_date": "2026-08-07",
+      "doi": "10.48550/arxiv.2608.03277",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "37253d9a87aa5ef705506ff5770ebde59077ed2baab84197e48a23180e27d747",
+      "title": "Noise-Aware Shrinkage for Differentially Private Zeroth-Order Fine-Tuning of Large Language Models"
+    },
+    "1cf1fcd769c5ace951188b8c": {
+      "digest_date": "2026-08-07",
+      "doi": "10.1364/optica.591264",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "d5d5eb029872768138671078a945077385c118883907cbfc65969569a817fab5",
+      "title": "Distillation-guided optical neural networks with reinforcement learning-assisted calibration"
+    },
+    "541094f286db8902f2fe6077": {
+      "digest_date": "2026-08-07",
+      "doi": "10.1117/1.oe.65.7.073102",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "49deef8c5dd819a048f0b75f9f51f1527d16379ce40f3d7f334cf489213e7460",
+      "title": "Enhancing the robustness of optical neural networks via joint Mach–Zehnder interferometer phase optimization"
+    }
+  },
+  "by_digest_date": {
+    "2026-08-07": [
+      "142dc76f41fc25448b82c91e",
+      "1cf1fcd769c5ace951188b8c",
+      "541094f286db8902f2fe6077"
+    ]
+  },
+  "by_doi": {
+    "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
+    "10.1364/optica.591264": "1cf1fcd769c5ace951188b8c",
+    "10.48550/arxiv.2608.03277": "142dc76f41fc25448b82c91e"
+  },
+  "by_project": {
+    "optical-neural-networks": [
+      "1cf1fcd769c5ace951188b8c",
+      "541094f286db8902f2fe6077"
+    ],
+    "zeroth-order-optimization": [
+      "142dc76f41fc25448b82c91e"
+    ]
+  },
+  "by_tag": {
+    "application:分布式声学传感（das）": [
+      "1cf1fcd769c5ace951188b8c"
+    ],
+    "application:图像分类（cifar-10、fashion-mnist、mnist）": [
+      "1cf1fcd769c5ace951188b8c"
+    ],
+    "application:图像分类（mnist、fashion-mnist）": [
+      "541094f286db8902f2fe6077"
+    ],
+    "application:语音识别（fsdd）": [
+      "1cf1fcd769c5ace951188b8c"
+    ],
+    "architecture:integrated": [
+      "1cf1fcd769c5ace951188b8c"
+    ],
+    "architecture:unclear": [
+      "541094f286db8902f2fe6077"
+    ],
+    "hardware_validation:mixed": [
+      "1cf1fcd769c5ace951188b8c"
+    ],
+    "hardware_validation:simulation_only": [
+      "541094f286db8902f2fe6077"
+    ],
+    "project:optical-neural-networks": [
+      "1cf1fcd769c5ace951188b8c",
+      "541094f286db8902f2fe6077"
+    ],
+    "project:zeroth-order-optimization": [
+      "142dc76f41fc25448b82c91e"
+    ],
+    "zo:forward_only": [
+      "142dc76f41fc25448b82c91e"
+    ],
+    "zo:low_rank_or_subspace": [
+      "142dc76f41fc25448b82c91e"
+    ],
+    "zo:query_reuse": [
+      "142dc76f41fc25448b82c91e"
+    ],
+    "zo:structured_perturbation": [
+      "142dc76f41fc25448b82c91e"
+    ]
+  },
+  "by_venue": {
+    "Optica": [
+      "1cf1fcd769c5ace951188b8c"
+    ],
+    "Optical Engineering": [
+      "541094f286db8902f2fe6077"
+    ],
+    "arXiv (Cornell University)": [
+      "142dc76f41fc25448b82c91e"
+    ]
+  },
+  "by_year": {
+    "2026": [
+      "142dc76f41fc25448b82c91e",
+      "1cf1fcd769c5ace951188b8c",
+      "541094f286db8902f2fe6077"
+    ]
+  },
+  "paper_count": 3,
+  "schema_version": 1,
+  "updated_at": "2026-08-07T06:07:19.722273Z"
+}
