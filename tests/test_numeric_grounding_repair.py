@@ -25,6 +25,7 @@ def test_safe_numeric_idioms_are_rewritten_without_losing_meaning() -> None:
         "method_implementation": [
             "第1步：估计信号能量。",
             "2) 根据估计结果调整更新。",
+            "步骤3：输出收缩后的更新。",
         ],
     }
 
@@ -38,8 +39,11 @@ def test_safe_numeric_idioms_are_rewritten_without_losing_meaning() -> None:
     assert "[0,1]" not in repaired["method_principle"]
     assert "常数级" in repaired["method_principle"]
     assert "有界范围" in repaired["method_principle"]
-    assert not repaired["method_implementation"][0].startswith("第1步")
-    assert not repaired["method_implementation"][1].startswith("2)")
+    assert repaired["method_implementation"] == [
+        "估计信号能量。",
+        "根据估计结果调整更新。",
+        "输出收缩后的更新。",
+    ]
     assert records
     assert unsupported_numeric_diagnostics(
         repaired,
