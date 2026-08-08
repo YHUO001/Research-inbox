@@ -1,103 +1,87 @@
 {
   "abstract_fallback_candidate_ids": [
-    "1cf1fcd769c5ace951188b8c",
-    "541094f286db8902f2fe6077"
+    "5017adbd33e6ddd5c320a4c4",
+    "7d6c2a059923ebe445a1cdf7"
   ],
   "abstract_fallback_count": 2,
-  "architecture_evidence": {
-    "142dc76f41fc25448b82c91e": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": null,
-      "resolved_type": "unclear"
-    },
-    "1cf1fcd769c5ace951188b8c": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [
-        "However, practical on-chip training of optical neural networks remains challenging because gradient estimation, hardware nonidealities, and device-compatible parameter updates are difficult to handle directly in optical systems.",
-        "Here, we propose an on-chip training distillation-guided optical neural network (DGONN) and introduce a forward distillation algorithm to address these challenges.",
-        "Additionally, deep reinforcement learning further enables the controllability and stability of the on-chip optical system."
-      ],
-      "previous_type": "integrated",
-      "resolved_type": "integrated"
-    },
-    "541094f286db8902f2fe6077": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
-    }
-  },
-  "architecture_repairs": 0,
   "automatic_history_pending": false,
   "automatic_queue_candidate_count": 5,
-  "completed_at": "2026-08-07T06:07:19.722273Z",
   "completed_candidate_filtered_count": 0,
-  "completed_candidate_ids": [
-    "142dc76f41fc25448b82c91e",
-    "1cf1fcd769c5ace951188b8c",
-    "541094f286db8902f2fe6077"
-  ],
-  "completion_mode": "automatic_daily_batch_after_local_validation",
-  "daily_digest_pending": true,
-  "digest_date": "2026-08-07",
-  "digest_json_file": "runtime-state/data/digests/2026-08-07.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-08-07.generated.md",
+  "daily_digest_pending": false,
+  "digest_date": "2026-08-08",
   "email_enabled": false,
-  "estimated_cost_cny": 0.070434,
+  "estimated_cost_cny": 0.0692656,
   "execution_mode": "automatic_daily_batch",
-  "failure_count": 0,
-  "failures": [],
+  "failure_count": 1,
+  "failures": [
+    {
+      "candidate_id": "1e35265ce8678ca96adb8b93",
+      "reason": "unsupported numeric claims: .4 at method_implementation[1]: 伪非线性调制在 SLM2 上实现。每一层的相位分布为 Φᵢ = aᵢX + Bᵢ，其中 i=1..4，X 为前向传播至该层的场振幅或强度，Bᵢ 为可训练参数，aᵢ 为常数。非线性阶次通过零化特定 aᵢ 值来设定：1 阶时"
+    }
+  ],
   "full_text_method_contexts": {
-    "142dc76f41fc25448b82c91e": {
+    "1e35265ce8678ca96adb8b93": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "142dc76f41fc25448b82c91e",
-      "character_count": 8402,
-      "content_sha256": "242a2fba61b40bb8a449343f78ae6906407f34941a42cf6fbc3d1d8673243271",
-      "elapsed_seconds": 0.359,
+      "candidate_id": "1e35265ce8678ca96adb8b93",
+      "character_count": 12000,
+      "content_sha256": "95c156b0e9df35a4c86183762c3b1b944a7d74864fb59ec413bf31397caaf43a",
+      "elapsed_seconds": 2.965,
       "error": null,
       "fallback_decision": "use_full_text",
-      "media_type": "text/html",
+      "media_type": "application/pdf",
       "section_headings": [
+        "Based on distinct implementation approaches 12, ONNs can be roughly categorized into on -chip",
+        "computationally prohibitive. A more efficient method, employing the superposition of coherent light",
+        "Experimental setup",
+        "conducting numerical simulations on the reconstruction performance of DONN (See the Methods),",
+        "(detailed in supplementary materials S5). Both datasets provide 60000 samples for training and",
+        "The specific experiment results are shown in Fig. 2k and 2l. Three independent training trials were",
+        "(lc-test) and training (lc-train) coherence lengths is critical for practical application. Fig. 4a illustrates",
+        "Coherent training and testing deliver the optimal network accuracy, which degrades rapidly as",
+        "the lc-test decreases. For low coherent training (lc-train = 8⋅Δx), test accuracy remains nearly unchanged",
+        "and 65% for Fashion MNIST. For partially coherent training (lc-train = 32⋅Δx, 64⋅Δx), however, the",
+        "smoother, demonstrating that partial -coherence training boosts model robustness in realistic",
+        "coherent illumination facilitates training of high -capacity networks and maximizes the",
+        "nonlinearity and pseudo -nonlinearity are interpreted as two alternative implementations of the",
+        "The present implementation is limited to pseudo -nonlinear encoding and relies on emulated",
         "Method",
-        "Experimental Setup",
-        "Training configurations."
+        "Training of HONN",
+        "simulations using the finite-difference time-domain method. In all simulations, the maximum scale",
+        "of HONN. e Schematic of the experimental setup and its performances . f The quantitative",
+        "under different test coherence lengths with a fixed training coherence length while varying pseudo-"
       ],
-      "source_url": "https://arxiv.org/html/2608.03277",
+      "source_url": "https://assets-eu.researchsquare.com/files/rs-10187577/v1_covered_7dfec01c-d136-487b-a50d-ecf3aa623608.pdf?c=1785739397",
       "status": "used",
       "text_persisted": false
     },
-    "1cf1fcd769c5ace951188b8c": {
+    "5017adbd33e6ddd5c320a4c4": {
       "abstract_available": true,
       "attempt_count": 3,
-      "candidate_id": "1cf1fcd769c5ace951188b8c",
+      "candidate_id": "5017adbd33e6ddd5c320a4c4",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 3.633,
-      "error": "https://opg.optica.org/optica/viewmedia.cfm?uri=optica-13-8-1423&html=true: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "elapsed_seconds": 4.009,
+      "error": "https://opg.optica.org/abstract.cfm?URI=CLEO_AT-2026-JTU.84: no method-oriented HTML section found; https://opg.optica.org/viewmedia.cfm?uri=CLEO_AT-2026-JTU.84&seq=0: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": null,
       "section_headings": [],
-      "source_url": "https://doi.org/10.1364/optica.591264",
+      "source_url": "https://doi.org/10.1364/cleo_at.2026.jtu.84",
       "status": "not_available",
       "text_persisted": false
     },
-    "541094f286db8902f2fe6077": {
+    "7d6c2a059923ebe445a1cdf7": {
       "abstract_available": true,
       "attempt_count": 3,
-      "candidate_id": "541094f286db8902f2fe6077",
+      "candidate_id": "7d6c2a059923ebe445a1cdf7",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 6.715,
-      "error": "https://www.spiedigitallibrary.org/journals/optical-engineering/volume-65/issue-07/073102/Enhancing-the-robustness-of-optical-neural-networks-via-joint-MachZehnder/10.1117/1.OE.65.7.073102.full: no method-oriented HTML section found; https://www.spiedigitallibrary.org/journals/optical-engineering/volume-65/issue-7/073102/Enhancing-the-robustness-of-optical-neural-networks-via-joint-MachZehnder/10.1117/1.OE.65.7.073102.short: no method-oriented HTML section found; https://www.spiedigitallibrary.org/journals/optical-engineering/volume-65/issue-7/073102/Enhancing-the-robustness-of-optical-neural-networks-via-joint-MachZehnder/10.1117/1.OE.65.7.073102.short: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "elapsed_seconds": 4.412,
+      "error": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14235/3116253/Scalable-photonic-tensor-core-coupled-with-direct-optimization-strategy-for/10.1117/12.3116253.full: no method-oriented HTML section found; https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14235/142351C/Scalable-photonic-tensor-core-coupled-with-direct-optimization-strategy-for/10.1117/12.3116253.short: no method-oriented HTML section found; https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14235/142351C/Scalable-photonic-tensor-core-coupled-with-direct-optimization-strategy-for/10.1117/12.3116253.short: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": null,
       "section_headings": [],
-      "source_url": "https://doi.org/10.1117/1.oe.65.7.073102",
+      "source_url": "https://doi.org/10.1117/12.3116253",
       "status": "not_available",
       "text_persisted": false
     }
@@ -106,9 +90,8 @@
   "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
-  "knowledge_base_pending": true,
+  "knowledge_base_pending": false,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 3,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -125,145 +108,171 @@
   "output_language": "zh-CN",
   "prepared_request_count": 3,
   "provider": "deepseek",
-  "queue_sha256": "c3f3f46ab7318efa048616b574883eb4e66a2634650aaba5eafe66e853ef55c5",
+  "queue_sha256": "10546ac67295a38786de5476f6a279f003fc446206e8eeb38a1f9c409fc8239a",
   "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-08-07.jsonl",
-  "request_sha256": "a72ed28be642aff446331e75a93c442a9e5a241ea3c14bfbf4b664fef63f2710",
+  "request_file": "runtime-state/data/summary_requests/2026-08-08.jsonl",
+  "request_sha256": "c2f8f74b32e876f31eab11e12db2bb5b2fdb917b26aec9daa0b50f1dbbb38ac1",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "99be869123d7feb95aea8b9f4d7ba9bc008437b723882c8e0750fb3ed421a3c8",
+  "selection_manifest_sha256": "05207587d84897e289b38b77661b9b8d1c14b6b5e8c1b7200f267a98991e4fe8",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
   "source_queue_candidate_count": 5,
   "stage_timings": {
-    "full_text_preparation_seconds": 10.714,
+    "full_text_preparation_seconds": 11.392,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "142dc76f41fc25448b82c91e",
-        "elapsed_seconds": 52.389,
+        "candidate_id": "5017adbd33e6ddd5c320a4c4",
+        "elapsed_seconds": 19.02,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2500,
-          "prompt_cache_hit_tokens": 0,
-          "prompt_cache_miss_tokens": 5239,
-          "prompt_tokens": 5239,
-          "total_tokens": 7739
+          "completion_tokens": 1332,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1243,
+          "prompt_tokens": 3291,
+          "total_tokens": 4623
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "1cf1fcd769c5ace951188b8c",
-        "elapsed_seconds": 34.855,
+        "candidate_id": "7d6c2a059923ebe445a1cdf7",
+        "elapsed_seconds": 19.372,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1535,
-          "prompt_cache_hit_tokens": 0,
-          "prompt_cache_miss_tokens": 3574,
-          "prompt_tokens": 3574,
-          "total_tokens": 5109
+          "completion_tokens": 1249,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1329,
+          "prompt_tokens": 3377,
+          "total_tokens": 4626
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "541094f286db8902f2fe6077",
-        "elapsed_seconds": 34.579,
+        "candidate_id": "1e35265ce8678ca96adb8b93",
+        "elapsed_seconds": 28.656,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1530,
-          "prompt_cache_hit_tokens": 0,
-          "prompt_cache_miss_tokens": 3535,
-          "prompt_tokens": 3535,
-          "total_tokens": 5065
+          "completion_tokens": 2238,
+          "prompt_cache_hit_tokens": 256,
+          "prompt_cache_miss_tokens": 6082,
+          "prompt_tokens": 6338,
+          "total_tokens": 8576
+        }
+      },
+      {
+        "attempt": 2,
+        "candidate_id": "1e35265ce8678ca96adb8b93",
+        "elapsed_seconds": 28.828,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 2254,
+          "prompt_cache_hit_tokens": 6272,
+          "prompt_cache_miss_tokens": 200,
+          "prompt_tokens": 6472,
+          "total_tokens": 8726
         }
       }
     ],
-    "model_generation_and_validation_seconds": 121.846
+    "model_generation_and_validation_seconds": 95.9
   },
-  "status": "completed_automatic",
-  "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-08-07.jsonl",
+  "status": "failed_validation",
+  "summary_count": 2,
   "summary_generation_version": 8,
-  "summary_history_updated": true,
+  "summary_history_updated": false,
   "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "142dc76f41fc25448b82c91e": {
+      "1e35265ce8678ca96adb8b93": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": null,
-        "repaired": false,
+        "model_value": "free_space",
+        "repaired": true,
         "resolved_type": "unclear"
       },
-      "1cf1fcd769c5ace951188b8c": {
-        "free_space_evidence": [],
-        "integrated_evidence": [
-          "However, practical on-chip training of optical neural networks remains challenging because gradient estimation, hardware nonidealities, and device-compatible parameter updates are difficult to handle directly in optical systems.",
-          "Here, we propose an on-chip training distillation-guided optical neural network (DGONN) and introduce a forward distillation algorithm to address these challenges.",
-          "Additionally, deep reinforcement learning further enables the controllability and stability of the on-chip optical system."
+      "5017adbd33e6ddd5c320a4c4": {
+        "free_space_evidence": [
+          "We demonstrate an integrated diffractive optical neural network using Franz-Keldysh-based electroabsorption modulators, analyze the impact of temperature variations on system performance, and develop a thermal-resilient training strategy."
         ],
-        "model_value": "integrated",
-        "repaired": false,
-        "resolved_type": "integrated"
-      },
-      "541094f286db8902f2fe6077": {
-        "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": "integrated",
         "repaired": true,
+        "resolved_type": "free_space"
+      },
+      "7d6c2a059923ebe445a1cdf7": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "unclear",
+        "repaired": false,
         "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 1,
+    "architecture_repairs": 3,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "142dc76f41fc25448b82c91e": {
+      "1e35265ce8678ca96adb8b93": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "142dc76f41fc25448b82c91e",
-        "character_count": 8402,
-        "content_sha256": "242a2fba61b40bb8a449343f78ae6906407f34941a42cf6fbc3d1d8673243271",
-        "elapsed_seconds": 0.359,
+        "candidate_id": "1e35265ce8678ca96adb8b93",
+        "character_count": 12000,
+        "content_sha256": "95c156b0e9df35a4c86183762c3b1b944a7d74864fb59ec413bf31397caaf43a",
+        "elapsed_seconds": 2.965,
         "error": null,
         "fallback_decision": "use_full_text",
-        "media_type": "text/html",
+        "media_type": "application/pdf",
         "section_headings": [
+          "Based on distinct implementation approaches 12, ONNs can be roughly categorized into on -chip",
+          "computationally prohibitive. A more efficient method, employing the superposition of coherent light",
+          "Experimental setup",
+          "conducting numerical simulations on the reconstruction performance of DONN (See the Methods),",
+          "(detailed in supplementary materials S5). Both datasets provide 60000 samples for training and",
+          "The specific experiment results are shown in Fig. 2k and 2l. Three independent training trials were",
+          "(lc-test) and training (lc-train) coherence lengths is critical for practical application. Fig. 4a illustrates",
+          "Coherent training and testing deliver the optimal network accuracy, which degrades rapidly as",
+          "the lc-test decreases. For low coherent training (lc-train = 8⋅Δx), test accuracy remains nearly unchanged",
+          "and 65% for Fashion MNIST. For partially coherent training (lc-train = 32⋅Δx, 64⋅Δx), however, the",
+          "smoother, demonstrating that partial -coherence training boosts model robustness in realistic",
+          "coherent illumination facilitates training of high -capacity networks and maximizes the",
+          "nonlinearity and pseudo -nonlinearity are interpreted as two alternative implementations of the",
+          "The present implementation is limited to pseudo -nonlinear encoding and relies on emulated",
           "Method",
-          "Experimental Setup",
-          "Training configurations."
+          "Training of HONN",
+          "simulations using the finite-difference time-domain method. In all simulations, the maximum scale",
+          "of HONN. e Schematic of the experimental setup and its performances . f The quantitative",
+          "under different test coherence lengths with a fixed training coherence length while varying pseudo-"
         ],
-        "source_url": "https://arxiv.org/html/2608.03277",
+        "source_url": "https://assets-eu.researchsquare.com/files/rs-10187577/v1_covered_7dfec01c-d136-487b-a50d-ecf3aa623608.pdf?c=1785739397",
         "status": "used",
         "text_persisted": false
       },
-      "1cf1fcd769c5ace951188b8c": {
+      "5017adbd33e6ddd5c320a4c4": {
         "abstract_available": true,
         "attempt_count": 3,
-        "candidate_id": "1cf1fcd769c5ace951188b8c",
+        "candidate_id": "5017adbd33e6ddd5c320a4c4",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 3.633,
-        "error": "https://opg.optica.org/optica/viewmedia.cfm?uri=optica-13-8-1423&html=true: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "elapsed_seconds": 4.009,
+        "error": "https://opg.optica.org/abstract.cfm?URI=CLEO_AT-2026-JTU.84: no method-oriented HTML section found; https://opg.optica.org/viewmedia.cfm?uri=CLEO_AT-2026-JTU.84&seq=0: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": null,
         "section_headings": [],
-        "source_url": "https://doi.org/10.1364/optica.591264",
+        "source_url": "https://doi.org/10.1364/cleo_at.2026.jtu.84",
         "status": "not_available",
         "text_persisted": false
       },
-      "541094f286db8902f2fe6077": {
+      "7d6c2a059923ebe445a1cdf7": {
         "abstract_available": true,
         "attempt_count": 3,
-        "candidate_id": "541094f286db8902f2fe6077",
+        "candidate_id": "7d6c2a059923ebe445a1cdf7",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 6.715,
-        "error": "https://www.spiedigitallibrary.org/journals/optical-engineering/volume-65/issue-07/073102/Enhancing-the-robustness-of-optical-neural-networks-via-joint-MachZehnder/10.1117/1.OE.65.7.073102.full: no method-oriented HTML section found; https://www.spiedigitallibrary.org/journals/optical-engineering/volume-65/issue-7/073102/Enhancing-the-robustness-of-optical-neural-networks-via-joint-MachZehnder/10.1117/1.OE.65.7.073102.short: no method-oriented HTML section found; https://www.spiedigitallibrary.org/journals/optical-engineering/volume-65/issue-7/073102/Enhancing-the-robustness-of-optical-neural-networks-via-joint-MachZehnder/10.1117/1.OE.65.7.073102.short: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "elapsed_seconds": 4.412,
+        "error": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14235/3116253/Scalable-photonic-tensor-core-coupled-with-direct-optimization-strategy-for/10.1117/12.3116253.full: no method-oriented HTML section found; https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14235/142351C/Scalable-photonic-tensor-core-coupled-with-direct-optimization-strategy-for/10.1117/12.3116253.short: no method-oriented HTML section found; https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14235/142351C/Scalable-photonic-tensor-core-coupled-with-direct-optimization-strategy-for/10.1117/12.3116253.short: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": null,
         "section_headings": [],
-        "source_url": "https://doi.org/10.1117/1.oe.65.7.073102",
+        "source_url": "https://doi.org/10.1117/12.3116253",
         "status": "not_available",
         "text_persisted": false
       }
@@ -271,14 +280,14 @@
     "generation_metadata_repair_responses": 2,
     "numeric_grounding_repair_responses": 0,
     "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 34,
-    "unit_format_normalization_responses": 0
+    "tops_alias_expansions": 47,
+    "unit_format_normalization_responses": 1
   },
   "usage": {
-    "completion_tokens": 5565,
-    "prompt_cache_hit_tokens": 0,
-    "prompt_cache_miss_tokens": 12348,
-    "prompt_tokens": 12348,
-    "total_tokens": 17913
+    "completion_tokens": 7073,
+    "prompt_cache_hit_tokens": 10624,
+    "prompt_cache_miss_tokens": 8854,
+    "prompt_tokens": 19478,
+    "total_tokens": 26551
   }
 }

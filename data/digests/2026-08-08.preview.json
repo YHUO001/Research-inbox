@@ -1,0 +1,76 @@
+{
+  "built_at": "2026-08-08T00:34:51.053759Z",
+  "digest_date": "2026-08-08",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "5017adbd33e6ddd5c320a4c4",
+        "landing_page": "https://doi.org/10.1364/cleo_at.2026.jtu.84",
+        "mandatory": false,
+        "score": 0.82,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Integrated diffractive optical neural network with electroabsorption modulators",
+        "venue": "CLEO 2026",
+        "year": 2026
+      },
+      {
+        "candidate_id": "7d6c2a059923ebe445a1cdf7",
+        "landing_page": "https://doi.org/10.1117/12.3116253",
+        "mandatory": false,
+        "score": 0.76,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Scalable photonic tensor core coupled with direct optimization strategy for optical neural networks",
+        "venue": "Third International Conference on Optoelectronic Information and Optical Engineering (OIOE 2026)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "1e35265ce8678ca96adb8b93",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-10187577/v1",
+        "mandatory": false,
+        "score": 0.75,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Partially coherent high-order optical neural networks via pseudo-nonlinear encoding",
+        "venue": "Research Square",
+        "year": 2026
+      }
+    ],
+    "next_candidates": [
+      {
+        "candidate_id": "2b5f9302fe96c2793d48540e",
+        "landing_page": "https://doi.org/10.1117/12.3110867",
+        "mandatory": false,
+        "score": 0.75,
+        "source_type": "google_scholar_email",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Optical neural networks for ultrafast quantum state tomography",
+        "venue": "Photonics for Quantum 2026",
+        "year": 2026
+      },
+      {
+        "candidate_id": "83a830ace13b5158f346c392",
+        "landing_page": "https://doi.org/10.1038/s41427-026-00671-6",
+        "mandatory": false,
+        "score": 0.72,
+        "source_type": "openalex",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Emerging light-driven neuromorphic hardware for artificial intelligence",
+        "venue": "NPG Asia Materials",
+        "year": 2026
+      }
+    ]
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

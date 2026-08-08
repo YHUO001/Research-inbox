@@ -1,7 +1,7 @@
 {
   "accepted_candidate_ids": [],
   "accepted_count": 0,
-  "built_at": "2026-08-07T06:04:58.523644Z",
+  "built_at": "2026-08-08T00:34:44.296203Z",
   "discovery_version": 1,
   "duplicate_count": 3,
   "duplicate_reasons": {
@@ -107,6 +107,6 @@
   "registry_sha256": "7a1b1cbd28b1b075795693557a856d3e5d8fd3c4c353f62cb838dcb99298e7a1",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-08-07",
+  "window_end": "2026-08-08",
   "window_start": "2026-08-04"
 }

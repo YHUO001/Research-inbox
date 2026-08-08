@@ -1,7 +1,7 @@
 {
-  "after_scoring_candidate_count": 8,
-  "built_at": "2026-08-07T06:05:05.662304Z",
-  "completed_candidate_count": 3,
+  "after_scoring_candidate_count": 5,
+  "built_at": "2026-08-08T00:34:51.053759Z",
+  "completed_candidate_count": 6,
   "decision_counts": {
     "archive": 6,
     "mandatory": 3,
@@ -9,7 +9,7 @@
     "summarize": 6,
     "urgent": 2
   },
-  "eligible_candidate_count": 8,
+  "eligible_candidate_count": 5,
   "email_enabled": false,
   "enriched_registry_sha256": "54ce7170dd2d12d4fc3373c2d369c0be8e8c836297427ee1a79bbcd141ad202a",
   "llm_candidate_count": 5,

@@ -1,8 +1,8 @@
 {
   "consecutive_failures": 0,
   "discovery_version": 1,
-  "last_attempt_at": "2026-08-07T06:04:58.523644Z",
-  "last_successful_run_at": "2026-08-07T06:04:58.523644Z",
+  "last_attempt_at": "2026-08-08T00:34:44.296203Z",
+  "last_successful_run_at": "2026-08-08T00:34:44.296203Z",
   "last_summary": {
     "accepted": 0,
     "duplicates": 3,
@@ -11,7 +11,7 @@
     "query_errors": 0,
     "raw_results": 66
   },
-  "last_window_end": "2026-08-07",
+  "last_window_end": "2026-08-08",
   "last_window_start": "2026-08-04",
   "schema_version": 1
 }
