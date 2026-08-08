@@ -22,6 +22,28 @@
       "review_required": false,
       "summary_record_sha256": "d5d5eb029872768138671078a945077385c118883907cbfc65969569a817fab5"
     },
+    "1e35265ce8678ca96adb8b93": {
+      "completed_at": "2026-08-08T13:09:14.487624Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-08-08",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "5c947c431241b93ab1e350d8fa32a9b92cb73c99a76b3f928bb7e1837d746d7d",
+      "review_required": false,
+      "summary_record_sha256": "0dbf386973dd8b744b81fb3e0ac1c6884d697824677248bc4d9f8b22e82379df"
+    },
+    "5017adbd33e6ddd5c320a4c4": {
+      "completed_at": "2026-08-08T13:09:14.487624Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-08-08",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "79abf75922e91fd3a74f97ca426d265899d108a6da988f049dda32e612874308",
+      "review_required": false,
+      "summary_record_sha256": "23b8ce7e41cb14aa676a9ced1224c0456fe5ab9481092f19297b6357959ef440"
+    },
     "541094f286db8902f2fe6077": {
       "completed_at": "2026-08-07T06:07:19.722273Z",
       "completion_mode": "automatic_daily_batch_after_local_validation",
@@ -43,6 +65,17 @@
       "review_required": false,
       "source_generation_status": "completed",
       "summary_file_sha256": "84755129ca860d38c72fffcad5500f35aa1507421a6c26fa2359dd930f414fb0"
+    },
+    "7d6c2a059923ebe445a1cdf7": {
+      "completed_at": "2026-08-08T13:09:14.487624Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-08-08",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "ad5f5597c7c664c2bd56faab8e21ec4baca555079aaa5e66326044c392714b6d",
+      "review_required": false,
+      "summary_record_sha256": "46be6ebe47db378bee8526f7d4afa137c5ca3903150be4b1a7de7b0436378e05"
     },
     "97f076ce54abbfc51b5b73e4": {
       "completed_at": "2026-08-05T09:24:54Z",

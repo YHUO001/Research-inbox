@@ -18,6 +18,24 @@
       "summary_record_sha256": "d5d5eb029872768138671078a945077385c118883907cbfc65969569a817fab5",
       "title": "Distillation-guided optical neural networks with reinforcement learning-assisted calibration"
     },
+    "1e35265ce8678ca96adb8b93": {
+      "digest_date": "2026-08-08",
+      "doi": "10.21203/rs.3.rs-10187577/v1",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "0dbf386973dd8b744b81fb3e0ac1c6884d697824677248bc4d9f8b22e82379df",
+      "title": "Partially coherent high-order optical neural networks via pseudo-nonlinear encoding"
+    },
+    "5017adbd33e6ddd5c320a4c4": {
+      "digest_date": "2026-08-08",
+      "doi": "10.1364/cleo_at.2026.jtu.84",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "23b8ce7e41cb14aa676a9ced1224c0456fe5ab9481092f19297b6357959ef440",
+      "title": "Integrated diffractive optical neural network with electroabsorption modulators"
+    },
     "541094f286db8902f2fe6077": {
       "digest_date": "2026-08-07",
       "doi": "10.1117/1.oe.65.7.073102",
@@ -26,6 +44,15 @@
       ],
       "summary_record_sha256": "49deef8c5dd819a048f0b75f9f51f1527d16379ce40f3d7f334cf489213e7460",
       "title": "Enhancing the robustness of optical neural networks via joint Mach–Zehnder interferometer phase optimization"
+    },
+    "7d6c2a059923ebe445a1cdf7": {
+      "digest_date": "2026-08-08",
+      "doi": "10.1117/12.3116253",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "46be6ebe47db378bee8526f7d4afa137c5ca3903150be4b1a7de7b0436378e05",
+      "title": "Scalable photonic tensor core coupled with direct optimization strategy for optical neural networks"
     }
   },
   "by_digest_date": {
@@ -33,17 +60,28 @@
       "142dc76f41fc25448b82c91e",
       "1cf1fcd769c5ace951188b8c",
       "541094f286db8902f2fe6077"
+    ],
+    "2026-08-08": [
+      "1e35265ce8678ca96adb8b93",
+      "5017adbd33e6ddd5c320a4c4",
+      "7d6c2a059923ebe445a1cdf7"
     ]
   },
   "by_doi": {
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
+    "10.1117/12.3116253": "7d6c2a059923ebe445a1cdf7",
+    "10.1364/cleo_at.2026.jtu.84": "5017adbd33e6ddd5c320a4c4",
     "10.1364/optica.591264": "1cf1fcd769c5ace951188b8c",
+    "10.21203/rs.3.rs-10187577/v1": "1e35265ce8678ca96adb8b93",
     "10.48550/arxiv.2608.03277": "142dc76f41fc25448b82c91e"
   },
   "by_project": {
     "optical-neural-networks": [
       "1cf1fcd769c5ace951188b8c",
-      "541094f286db8902f2fe6077"
+      "1e35265ce8678ca96adb8b93",
+      "5017adbd33e6ddd5c320a4c4",
+      "541094f286db8902f2fe6077",
+      "7d6c2a059923ebe445a1cdf7"
     ],
     "zeroth-order-optimization": [
       "142dc76f41fc25448b82c91e"
@@ -53,30 +91,57 @@
     "application:分布式声学传感（das）": [
       "1cf1fcd769c5ace951188b8c"
     ],
+    "application:加速人工智能计算": [
+      "7d6c2a059923ebe445a1cdf7"
+    ],
     "application:图像分类（cifar-10、fashion-mnist、mnist）": [
       "1cf1fcd769c5ace951188b8c"
+    ],
+    "application:图像分类（digit mnist、fashion mnist、raf面部表情、medmnist医学图像）": [
+      "1e35265ce8678ca96adb8b93"
     ],
     "application:图像分类（mnist、fashion-mnist）": [
       "541094f286db8902f2fe6077"
     ],
+    "application:大型模型部署": [
+      "7d6c2a059923ebe445a1cdf7"
+    ],
+    "application:未提供": [
+      "5017adbd33e6ddd5c320a4c4"
+    ],
     "application:语音识别（fsdd）": [
       "1cf1fcd769c5ace951188b8c"
+    ],
+    "architecture:free_space": [
+      "5017adbd33e6ddd5c320a4c4"
     ],
     "architecture:integrated": [
       "1cf1fcd769c5ace951188b8c"
     ],
     "architecture:unclear": [
-      "541094f286db8902f2fe6077"
+      "1e35265ce8678ca96adb8b93",
+      "541094f286db8902f2fe6077",
+      "7d6c2a059923ebe445a1cdf7"
     ],
     "hardware_validation:mixed": [
-      "1cf1fcd769c5ace951188b8c"
+      "1cf1fcd769c5ace951188b8c",
+      "1e35265ce8678ca96adb8b93"
+    ],
+    "hardware_validation:physical_experiment": [
+      "5017adbd33e6ddd5c320a4c4"
     ],
     "hardware_validation:simulation_only": [
       "541094f286db8902f2fe6077"
     ],
+    "hardware_validation:unclear": [
+      "7d6c2a059923ebe445a1cdf7"
+    ],
     "project:optical-neural-networks": [
       "1cf1fcd769c5ace951188b8c",
-      "541094f286db8902f2fe6077"
+      "1e35265ce8678ca96adb8b93",
+      "5017adbd33e6ddd5c320a4c4",
+      "541094f286db8902f2fe6077",
+      "7d6c2a059923ebe445a1cdf7"
     ],
     "project:zeroth-order-optimization": [
       "142dc76f41fc25448b82c91e"
@@ -95,11 +160,20 @@
     ]
   },
   "by_venue": {
+    "CLEO 2026": [
+      "5017adbd33e6ddd5c320a4c4"
+    ],
     "Optica": [
       "1cf1fcd769c5ace951188b8c"
     ],
     "Optical Engineering": [
       "541094f286db8902f2fe6077"
+    ],
+    "Research Square": [
+      "1e35265ce8678ca96adb8b93"
+    ],
+    "Third International Conference on Optoelectronic Information and Optical Engineering (OIOE 2026)": [
+      "7d6c2a059923ebe445a1cdf7"
     ],
     "arXiv (Cornell University)": [
       "142dc76f41fc25448b82c91e"
@@ -109,10 +183,13 @@
     "2026": [
       "142dc76f41fc25448b82c91e",
       "1cf1fcd769c5ace951188b8c",
-      "541094f286db8902f2fe6077"
+      "1e35265ce8678ca96adb8b93",
+      "5017adbd33e6ddd5c320a4c4",
+      "541094f286db8902f2fe6077",
+      "7d6c2a059923ebe445a1cdf7"
     ]
   },
-  "paper_count": 3,
+  "paper_count": 6,
   "schema_version": 1,
-  "updated_at": "2026-08-07T06:07:19.722273Z"
+  "updated_at": "2026-08-08T13:09:14.487624Z"
 }

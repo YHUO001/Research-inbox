@@ -4,21 +4,51 @@
     "7d6c2a059923ebe445a1cdf7"
   ],
   "abstract_fallback_count": 2,
+  "architecture_evidence": {
+    "1e35265ce8678ca96adb8b93": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    },
+    "5017adbd33e6ddd5c320a4c4": {
+      "changed": false,
+      "free_space_evidence": [
+        "We demonstrate an integrated diffractive optical neural network using Franz-Keldysh-based electroabsorption modulators, analyze the impact of temperature variations on system performance, and develop a thermal-resilient training strategy."
+      ],
+      "integrated_evidence": [],
+      "previous_type": "free_space",
+      "resolved_type": "free_space"
+    },
+    "7d6c2a059923ebe445a1cdf7": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    }
+  },
+  "architecture_repairs": 0,
   "automatic_history_pending": false,
   "automatic_queue_candidate_count": 5,
+  "completed_at": "2026-08-08T13:09:14.487624Z",
   "completed_candidate_filtered_count": 0,
-  "daily_digest_pending": false,
-  "digest_date": "2026-08-08",
-  "email_enabled": false,
-  "estimated_cost_cny": 0.0692656,
-  "execution_mode": "automatic_daily_batch",
-  "failure_count": 1,
-  "failures": [
-    {
-      "candidate_id": "1e35265ce8678ca96adb8b93",
-      "reason": "unsupported numeric claims: .4 at method_implementation[1]: 伪非线性调制在 SLM2 上实现。每一层的相位分布为 Φᵢ = aᵢX + Bᵢ，其中 i=1..4，X 为前向传播至该层的场振幅或强度，Bᵢ 为可训练参数，aᵢ 为常数。非线性阶次通过零化特定 aᵢ 值来设定：1 阶时"
-    }
+  "completed_candidate_ids": [
+    "1e35265ce8678ca96adb8b93",
+    "5017adbd33e6ddd5c320a4c4",
+    "7d6c2a059923ebe445a1cdf7"
   ],
+  "completion_mode": "automatic_daily_batch_after_local_validation",
+  "daily_digest_pending": true,
+  "digest_date": "2026-08-08",
+  "digest_json_file": "runtime-state/data/digests/2026-08-08.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-08-08.generated.md",
+  "email_enabled": false,
+  "estimated_cost_cny": 0.027146,
+  "execution_mode": "automatic_daily_batch",
+  "failure_count": 0,
+  "failures": [],
   "full_text_method_contexts": {
     "1e35265ce8678ca96adb8b93": {
       "abstract_available": true,
@@ -26,7 +56,7 @@
       "candidate_id": "1e35265ce8678ca96adb8b93",
       "character_count": 12000,
       "content_sha256": "95c156b0e9df35a4c86183762c3b1b944a7d74864fb59ec413bf31397caaf43a",
-      "elapsed_seconds": 2.965,
+      "elapsed_seconds": 3.506,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "application/pdf",
@@ -61,7 +91,7 @@
       "candidate_id": "5017adbd33e6ddd5c320a4c4",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 4.009,
+      "elapsed_seconds": 4.386,
       "error": "https://opg.optica.org/abstract.cfm?URI=CLEO_AT-2026-JTU.84: no method-oriented HTML section found; https://opg.optica.org/viewmedia.cfm?uri=CLEO_AT-2026-JTU.84&seq=0: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": null,
@@ -76,7 +106,7 @@
       "candidate_id": "7d6c2a059923ebe445a1cdf7",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 4.412,
+      "elapsed_seconds": 4.377,
       "error": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14235/3116253/Scalable-photonic-tensor-core-coupled-with-direct-optimization-strategy-for/10.1117/12.3116253.full: no method-oriented HTML section found; https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14235/142351C/Scalable-photonic-tensor-core-coupled-with-direct-optimization-strategy-for/10.1117/12.3116253.short: no method-oriented HTML section found; https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14235/142351C/Scalable-photonic-tensor-core-coupled-with-direct-optimization-strategy-for/10.1117/12.3116253.short: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": null,
@@ -90,8 +120,9 @@
   "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
-  "knowledge_base_pending": false,
+  "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
+  "newly_completed_candidate_count": 3,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -111,75 +142,63 @@
   "queue_sha256": "10546ac67295a38786de5476f6a279f003fc446206e8eeb38a1f9c409fc8239a",
   "request_count": 3,
   "request_file": "runtime-state/data/summary_requests/2026-08-08.jsonl",
-  "request_sha256": "c2f8f74b32e876f31eab11e12db2bb5b2fdb917b26aec9daa0b50f1dbbb38ac1",
+  "request_sha256": "2f622f518b471d6471cc28e2a301a47c0f9f16588e9c234649004290032794c1",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "05207587d84897e289b38b77661b9b8d1c14b6b5e8c1b7200f267a98991e4fe8",
+  "selection_manifest_sha256": "500ffb55db048ad3ccbb99f4f1be72435c9aba52f485f5e7f21ea6f8b2e4ff2f",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
   "source_queue_candidate_count": 5,
   "stage_timings": {
-    "full_text_preparation_seconds": 11.392,
+    "full_text_preparation_seconds": 12.277,
     "model_api_calls": [
       {
         "attempt": 1,
         "candidate_id": "5017adbd33e6ddd5c320a4c4",
-        "elapsed_seconds": 19.02,
+        "elapsed_seconds": 18.451,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1332,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1243,
+          "completion_tokens": 1198,
+          "prompt_cache_hit_tokens": 3200,
+          "prompt_cache_miss_tokens": 91,
           "prompt_tokens": 3291,
-          "total_tokens": 4623
+          "total_tokens": 4489
         }
       },
       {
         "attempt": 1,
         "candidate_id": "7d6c2a059923ebe445a1cdf7",
-        "elapsed_seconds": 19.372,
+        "elapsed_seconds": 20.825,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1249,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1329,
+          "completion_tokens": 1280,
+          "prompt_cache_hit_tokens": 3328,
+          "prompt_cache_miss_tokens": 49,
           "prompt_tokens": 3377,
-          "total_tokens": 4626
+          "total_tokens": 4657
         }
       },
       {
         "attempt": 1,
         "candidate_id": "1e35265ce8678ca96adb8b93",
-        "elapsed_seconds": 28.656,
+        "elapsed_seconds": 26.748,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2238,
-          "prompt_cache_hit_tokens": 256,
-          "prompt_cache_miss_tokens": 6082,
-          "prompt_tokens": 6338,
-          "total_tokens": 8576
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "1e35265ce8678ca96adb8b93",
-        "elapsed_seconds": 28.828,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 2254,
+          "completion_tokens": 1890,
           "prompt_cache_hit_tokens": 6272,
-          "prompt_cache_miss_tokens": 200,
-          "prompt_tokens": 6472,
-          "total_tokens": 8726
+          "prompt_cache_miss_tokens": 66,
+          "prompt_tokens": 6338,
+          "total_tokens": 8228
         }
       }
     ],
-    "model_generation_and_validation_seconds": 95.9
+    "model_generation_and_validation_seconds": 66.046
   },
-  "status": "failed_validation",
-  "summary_count": 2,
+  "status": "completed_automatic",
+  "summary_count": 3,
+  "summary_file": "runtime-state/data/summaries/2026-08-08.jsonl",
   "summary_generation_version": 8,
-  "summary_history_updated": false,
+  "summary_history_updated": true,
   "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
@@ -208,8 +227,8 @@
         "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 3,
-    "candidate_id_repair_responses": 0,
+    "architecture_repairs": 2,
+    "candidate_id_repair_responses": 1,
     "full_text_method_contexts": {
       "1e35265ce8678ca96adb8b93": {
         "abstract_available": true,
@@ -217,7 +236,7 @@
         "candidate_id": "1e35265ce8678ca96adb8b93",
         "character_count": 12000,
         "content_sha256": "95c156b0e9df35a4c86183762c3b1b944a7d74864fb59ec413bf31397caaf43a",
-        "elapsed_seconds": 2.965,
+        "elapsed_seconds": 3.506,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "application/pdf",
@@ -252,7 +271,7 @@
         "candidate_id": "5017adbd33e6ddd5c320a4c4",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 4.009,
+        "elapsed_seconds": 4.386,
         "error": "https://opg.optica.org/abstract.cfm?URI=CLEO_AT-2026-JTU.84: no method-oriented HTML section found; https://opg.optica.org/viewmedia.cfm?uri=CLEO_AT-2026-JTU.84&seq=0: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": null,
@@ -267,7 +286,7 @@
         "candidate_id": "7d6c2a059923ebe445a1cdf7",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 4.412,
+        "elapsed_seconds": 4.377,
         "error": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14235/3116253/Scalable-photonic-tensor-core-coupled-with-direct-optimization-strategy-for/10.1117/12.3116253.full: no method-oriented HTML section found; https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14235/142351C/Scalable-photonic-tensor-core-coupled-with-direct-optimization-strategy-for/10.1117/12.3116253.short: no method-oriented HTML section found; https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14235/142351C/Scalable-photonic-tensor-core-coupled-with-direct-optimization-strategy-for/10.1117/12.3116253.short: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": null,
@@ -281,13 +300,13 @@
     "numeric_grounding_repair_responses": 0,
     "numeric_grounding_repairs": {},
     "tops_alias_expansions": 47,
-    "unit_format_normalization_responses": 1
+    "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 7073,
-    "prompt_cache_hit_tokens": 10624,
-    "prompt_cache_miss_tokens": 8854,
-    "prompt_tokens": 19478,
-    "total_tokens": 26551
+    "completion_tokens": 4368,
+    "prompt_cache_hit_tokens": 12800,
+    "prompt_cache_miss_tokens": 206,
+    "prompt_tokens": 13006,
+    "total_tokens": 17374
   }
 }
