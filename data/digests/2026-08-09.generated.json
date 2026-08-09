@@ -1,0 +1,251 @@
+{
+  "completion": {
+    "architecture_repairs": 0,
+    "completed_at": "2026-08-09T00:37:29.798133Z",
+    "mode": "automatic_daily_batch_after_local_validation"
+  },
+  "delivery": {
+    "mode": "separate_daily_digest_workflow",
+    "status": "pending"
+  },
+  "digest_date": "2026-08-09",
+  "digest_version": 2,
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": false,
+    "information_basis": "title_metadata_and_abstract_only",
+    "numeric_grounding_scope": "title_and_abstract_only",
+    "review_required": false,
+    "summary_history_updated": true
+  },
+  "schema_version": 2,
+  "status": "completed_automatic",
+  "summaries": [
+    {
+      "candidate_id": "973790e22c46d30721660799",
+      "core_problem": "在光子神经网络中实现可重构的非线性激活函数以增强复杂关系建模能力，是该领域的关键挑战。",
+      "distinction_from_prior_work": "与已有工作相比，本文首次利用Ge₂Sb₂Te₅超晶格在硅基微环谐振器上的相变特性，实验演示了五种不同类型的非线性激活函数，并实现了低激活功率阈值和兆赫兹级工作速度。",
+      "limitations_and_open_questions": [
+        "未提供激活函数的动态可重构速度、循环耐久性和长期稳定性数据。",
+        "未提供系统级基准测试中光子神经网络的具体架构、权重实现和训练方案。",
+        "未提供器件制备工艺、尺寸、插入损耗和集成密度的详细说明。",
+        "未提供与其他相变材料或竞争性非线性激活方案的对比分析。",
+        "未提供器件在实际光计算环境中的噪声、串扰和温度敏感性评估。"
+      ],
+      "main_contributions": [
+        "提出并实验验证了基于Ge₂Sb₂Te₅超晶格相变微环的可重构光学非线性激活函数器件。",
+        "成功演示了五种不同类型的非线性激活函数：Half-Sigmoid、ELU、Softplus、ReLU和径向基函数。",
+        "实现的激活函数具有低至1.76毫瓦的激活功率阈值和高达1兆赫的工作速度。",
+        "在MNIST手写数字分类任务的三卷积块神经网络中，使用本激活函数将准确率从95.35%提升至99.24%。"
+      ],
+      "method_and_architecture": "方法基于集成在硅微环谐振器上的Ge₂Sb₂Te₅超晶格（GST-SL）的相变特性。通过控制GST-SL的晶化状态来调节其吸收损耗和折射率，从而在微环谐振器中实现不同的光谱响应，并以此映射到多种非线性激活函数。系统架构由激光输入、相变微环谐振器、光电探测和输出读出的光计算单元组成，通过电或光脉冲调控GST-SL的相态以实现函数的重新配置。",
+      "method_implementation": [
+        "器件由硅微环谐振器与顶部集成的Ge₂Sb₂Te₅超晶格（GST-SL）薄膜组成。激光光源通过波导耦合进入微环，在谐振波长附近，输出端口的光功率受到GST-SL相态决定的腔内损耗和相位条件的调制。输入数据以光信号的功率或波长编码方式馈入系统。",
+        "通过向GST-SL施加不同幅度和宽度的电脉冲或光脉冲，将其设定在不同的部分晶化状态，从而改变材料的复折射率。每种状态对应于一种特定的微环传输函数曲线。实验测量了不同状态下的输出光功率-输入光功率或输出-波长的关系，通过曲线拟合得到五种非线性激活函数的近似形状，其中包括Half-Sigmoid、ELU、Softplus、ReLU和径向基函数。",
+        "激活函数的性能表征中，使用光功率计或高速光电探测器记录输入输出关系，测得激活函数的功率阈值为1.76毫瓦，工作带宽达到1兆赫。系统级验证采用一个三卷积块神经网络，将微环激活函数的实验量化曲线映射到网络的激活层，在MNIST数据集上进行软件仿真推理，分类准确率由95.35%提升至99.24%。",
+        "未提供具体的训练方案、硬件编译器设计或光域反向传播等实现细节。整个激活函数的重构通过改变GST-SL的相态实现，操作流程包括脉冲参数设定、相态验证（例如通过反射率测量）和微环传输谱检验。"
+      ],
+      "method_principle": "该方法利用相变材料Ge₂Sb₂Te₅超晶格（GST-SL）在不同晶化状态下折射率和吸收系数的显著变化，将其集成在硅微环谐振器的谐振腔内。微环谐振器的传输谱对腔内材料的复折射率高度敏感，当输入光波长对准谐振峰时，输出光强随GST-SL相态的变化而产生非线性调制。通过预先精确设定GST-SL的局部或整体相态（例如通过电脉冲或光脉冲调整其晶化分数），可以使微环的光强传递函数逼近ReLU、Sigmoid、径向基等多种非线性激活函数。由于GST-SL的相态在室温下具有非易失性，且切换能量很低，因此该器件能够以低功耗实现可重构的多函数光学非线性激活，从而在光域直接完成神经网络中的非线性变换，避免了光电转换的带宽和能耗瓶颈。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "MNIST手写数字分类"
+        ],
+        "architecture_type": "integrated",
+        "calibration_requirements": "需要精确控制GST-SL的局部或全局相态，通过调节写入脉冲的能量和持续时间来设定目标晶化分数。每次重构后须测量传输谱以确认得到的非线性函数形状是否符合预期。仪器方面需要稳定激光源和高速光电探测器。",
+        "hardware_validation": "physical_experiment",
+        "optical_nonlinearity": "光学非线性由Ge₂Sb₂Te₅超晶格（GST-SL）的相变诱导吸收和折射率变化产生。不同晶化状态改变微环谐振条件，使输出光强与输入光强（或波长）之间呈现非线性传递函数，从而实现多种激活函数。非线性来源于相变材料的光学常数跳变，而非传统光克尔效应等瞬时非线性。",
+        "training_method": "未提供详细训练方法，仅提及在MNIST基准上利用本器件激活函数的特性进行仿真评估，网络训练可能采用标准电子反向传播，激活函数以查找表形式引入。"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "实验演示了五种非线性激活函数：Half-Sigmoid、ELU、Softplus、ReLU和径向基函数。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "激活功率阈值低至1.76毫瓦。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "工作速度高达1兆赫。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "在MNIST手写数字分类的三卷积块神经网络中，使用本激活函数将分类准确率从95.35%提升至99.24%。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "本研究为解决光子神经网络中可重构非线性激活函数这一关键瓶颈提供了一种基于成熟相变材料的集成光子器件方案。实验验证了多种实用激活函数，并展示了低功耗、高速的优良特性，为未来片上光计算和先进光学处理系统的发展提供了新的硬件基础。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "器件的具体结构、尺寸、材料沉积工艺、热/电调谐机制未描述。",
+          "相态编程的脉冲参数、重复次数、切换速度及耐久性数据未提供。",
+          "微环谐振器的Q值、自由光谱范围、消光比等关键参数未给出。",
+          "五种激活函数的定量拟合误差或精确度指标未报告。",
+          "系统级MNIST任务的网络具体架构、训练细节及光学硬件部署方案未说明。",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    },
+    {
+      "candidate_id": "2b5f9302fe96c2793d48540e",
+      "core_problem": "量子光子系统面临量子态层析的实时性挑战：传统最大似然估计方法难以满足未来大规模量子系统对超快、鲁棒态重构的需求。本文探索利用光学神经网络执行实时量子态层析。",
+      "distinction_from_prior_work": "区别于以往基于电子计算的量子态层析方案，本工作直接采用光学神经网络硬件进行推理，利用光子计算的速度优势实现超快处理，并在理想与含噪条件下进行了实验基准测试。",
+      "limitations_and_open_questions": [
+        "相关定量细节未在标题或摘要中提供。",
+        "对除最大似然估计外的其他传统量子态层析方法的基准比较未提供。",
+        "光学神经网络的训练细节（数据集构造、训练算法、损失函数等）未披露。",
+        "光学硬件平台的具体损耗、串扰和可重构性限制未讨论。",
+        "实验生成的2光子对态的重构保真度未给出量化结果。"
+      ],
+      "main_contributions": [
+        "提出使用光学神经网络进行实时量子态层析的方案。",
+        "在2量子比特理想情况和典型误差源条件下，以最大似然估计为基准，评估光学神经网络的性能。",
+        "在实验生成的2光子对上演示两种层析方法的结果。",
+        "展示光子计算在超快量子层析任务中的潜力。"
+      ],
+      "method_and_architecture": "采用光学神经网络（ONN）作为推理引擎，直接将量子态测量数据映射为密度矩阵或等价表示，实现实时量子态层析。系统架构以光子硬件为核心，未详细说明网络层数、激活方式或光学实现方案。",
+      "method_implementation": [
+        "搭建光学神经网络硬件系统，其输入为量子态的多次投影测量结果（例如符合计数或强度分布），经过光学调制、分束和干涉等线性操作，在输出端得到重构的量子态信息。具体光学结构未详细说明。",
+        "光学神经网络的训练过程未提供详细描述。通常需要制备大量已知量子态作为训练集，将对应的测量数据作为输入，目标输出为已知态或通过最大似然估计得到的参考态。训练算法和损失函数未知。",
+        "在2量子比特理想情况和含典型误差源的条件下进行数值或实验验证，对比光学神经网络输出与最大似然估计结果。性能指标可能包括保真度或范数差，但具体数值未给出。",
+        "进一步在实验产生的2光子对上采集数据，同时运行光学神经网络和最大似然估计，获得重构结果。光学推断耗时极短，实现实时层析。"
+      ],
+      "method_principle": "光学神经网络利用光子在传播过程中的干涉和调制完成矩阵乘法等核心运算，可在纳秒甚至皮秒级完成推理。将其应用于量子态层析，相当于训练一个从测量统计到量子态描述的映射函数。光学实现大幅降低延迟，有望满足未来量子系统对实时反馈的需求。本工作中，ONN被训练来复现或逼近最大似然估计的重构结果，从而在保持精度的同时获得速度优势。由于光计算可以在探测后直接处理，避免了电子模数转换和后处理瓶颈，因此能实现超快层析。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "量子态层析（2量子比特）"
+        ],
+        "architecture_type": "unclear",
+        "calibration_requirements": "未提供",
+        "hardware_validation": "mixed",
+        "optical_nonlinearity": "未提供",
+        "training_method": "未提供"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "作者报告光学神经网络在2量子比特理想情况和含误差源条件下与最大似然估计进行了基准对比，性能可行。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "在实验生成的2光子对上演示了两种层析方法的结果。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "结果展示了光子计算驱动的机器学习可用于未来量子系统的超快层析。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该工作将光学神经网络引入量子态层析，初步验证了光子计算在量子信息处理中的速度优势，为发展实时量子系统表征和反馈控制提供了新思路，对集成光子学与量子技术的交叉有启示意义。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "光学神经网络的具体结构（层数、神经元数、连接方式）未提供。",
+          "训练方法、数据集、优化器和损失函数未提供。",
+          "实验生成的2光子对态层析的量化结果（如保真度）未提供。",
+          "光学硬件平台细节（如调制器类型、探测器、光源）未提供。",
+          "光学神经网络的非线性实现方式未提供。",
+          "最大似然估计和光学神经网络的定量比较结果未提供。",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    },
+    {
+      "candidate_id": "0e5c75b6132afcfb1f7afb17",
+      "core_problem": "在资源受限的边缘场景中，物理信息神经网络求解偏微分方程的实时决策受限于数字硬件的训练延迟，而光子计算虽具超高运算速度，却因缺乏光子存储和器件尺寸过大，难以在光芯片上训练实际规模的PINN。",
+      "distinction_from_prior_work": "提出完全无反向传播、高度可扩展的框架，首次实现真实规模PINN在硅光平台上的训练，通过稀疏网格Stein导数估计器避免BP，利用张量列分解的降维零阶优化提升可扩展性和收敛性，并设计了基于光子张量核心的可扩展片上光训练加速器。",
+      "limitations_and_open_questions": [
+        "数值验证基于低维和高维PDE基准，真实物理实验部署的可行性和精度未提供。",
+        "光子加速器的性能数据来自基于真实器件参数的仿真，未提供实际芯片制造和测试结果。",
+        "稀疏网格估计器在高维问题中的逼近误差和适用范围未深入分析。"
+      ],
+      "main_contributions": [
+        "提出稀疏网格Stein导数估计器，在PINN损失评估中完全避免反向传播。",
+        "提出基于张量列分解的降维零阶优化，提升无BP训练的扩展性。",
+        "设计了基于光子张量核心的可扩展片上PINN训练加速器架构。",
+        "在高低维PDE基准上验证了数值方法，并通过仿真展示了光子加速器的实时训练和芯片面积大幅缩减的性能优势。"
+      ],
+      "method_and_architecture": "框架包含三个核心部分：用稀疏网格Stein导数估计器无反向传播评估PINN损失；通过张量列分解进行降维零阶优化，实现高效训练；设计基于光子张量核心的片上加速器，利用光子计算的高速度进行PINN训练。",
+      "method_implementation": [
+        "系统采用稀疏网格Stein导数估计器进行PINN的损失评估，该估计器通过稀疏网格采样和Stein恒等式避免自动微分，从而消除了反向传播的需求。估计器在函数空间生成随机方向或采样点，利用函数值近似导数，为PINN训练提供无BP的梯度估计。",
+        "训练过程采用降维零阶优化方法，通过张量列分解压缩高维参数空间，显著降低优化变量的维度。零阶优化器仅需函数值查询，无需显式计算梯度，结合张量列分解的低秩结构，实现更好的可扩展性和收敛性；具体配置包括步长、查询次数和张量列秩等参数，但摘要未提供细节。",
+        "光子加速器设计基于光子张量核心，该核心利用马赫-曾德尔干涉仪网络或微环谐振器阵列实现矩阵-向量乘法。在预硅仿真中，使用真实的器件参数（如插入损耗、相位误差）进行性能评估，报告了实时训练能力和显著芯片面积缩减。整体流程：片外输入PDE参数和数据，片上执行光子矩阵运算和零阶优化迭代，输出训练后的网络参数。"
+      ],
+      "method_principle": "核心思想结合无反向传播的损失评估与光子计算的高速并行能力。传统PINN训练依赖自动微分进行反向传播，计算图长且需频繁访问存储器，导致数字硬件的训练延迟极高。稀疏网格Stein估计器通过随机化函数值查询来估计损失梯度，将梯度计算转化为一系列函数评估，完全避免了反向传播图构建，从而适应缺乏光子存储的光子计算。进一步，降维零阶优化将高维参数空间投影到低秩张量形式，极大减少了需要直接优化的参数数量，同时零阶方法本身仅需函数值，天然适合光子计算中无法存储中间梯度的限制。光子张量核心通过光学干涉实现超高速矩阵乘法，与上述算法无缝整合：函数值查询可由光子核加速的PINN前向推理得到，优化迭代所需的数值操作由零阶优化器在电域处理，形成光-电协同的无BP训练范式。该框架解决了光子平台训练大规模网络的根本瓶颈。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "低维和高维偏微分方程求解"
+        ],
+        "architecture_type": "integrated",
+        "calibration_requirements": "预硅仿真使用真实器件参数，但摘要未明确说明实际芯片的校准方法；可能需相位和损耗校准以保证矩阵乘法精度。",
+        "hardware_validation": "simulation_only",
+        "optical_nonlinearity": "未提供具体实现方式；通常光子张量核心可集成半导体光放大器或可饱和吸收体实现光学非线性，或保留电域非线性。",
+        "training_method": "无反向传播的降维零阶优化，根据损失函数值更新网络参数；训练在光子芯片上执行，使用稀疏网格Stein导数估计器提供梯度近似，无需自动微分。"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "通过基于真实器件参数的预硅仿真，展示了光子加速器的性能优势，包括实时训练和显著的芯片面积缩减。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "数值方法在低维和高维偏微分方程基准上得到验证。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该工作在算法层面提出了无反向传播的高效PINN训练框架，在硬件层面设计了可扩展的光子加速器，突破了光子计算在训练大规模网络时的存储和器件尺寸瓶颈，为推动光子智能在实时物理仿真和数字孪生中的应用提供了可行路径。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "稀疏网格Stein估计器的具体采样机制和超参数",
+          "降维零阶优化的张量列秩选择与收敛分析",
+          "光子张量核心的详细结构、光学非线性实现方式",
+          "训练的超参数、损失函数形式、优化器配置",
+          "仿真中使用的具体PDE实例和网络规模",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": {
+        "forward_only": "是。框架完全无反向传播，仅需PINN前向函数值评估，符合仅前向执行的特征。",
+        "low_rank_or_subspace": "采用张量列分解进行降维，将高维参数空间表示为低秩张量列形式，从而在低秩子空间中进行优化。",
+        "per_step_vs_total_clarity": "摘要未明确区分每步查询数和总查询复杂度，但提及降维零阶优化通过张量列分解提升可扩展性，暗示总查询数可随参数维度增长而保持可接受，但未提供具体细节。",
+        "query_reuse": "未提供是否采用查询复用技术的信息。",
+        "structured_perturbation": "未提供是否采用结构化扰动设计的信息；零阶估计可能使用随机方向，但摘要未明确。",
+        "total_query_reduction_claim": "yes"
+      }
+    }
+  ],
+  "summary_count": 3
+}

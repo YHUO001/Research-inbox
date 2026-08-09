@@ -1,5 +1,15 @@
 {
   "by_candidate_id": {
+    "0e5c75b6132afcfb1f7afb17": {
+      "digest_date": "2026-08-09",
+      "doi": "10.1145/3837864",
+      "matched_projects": [
+        "optical-neural-networks",
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "5c7b68b8b46104f05f87edb4583e77cc99dcd7efc4d7fd1354ee75ed2270cedf",
+      "title": "Scalable Back-Propagation-Free Training of Optical Physics-Informed Neural Networks"
+    },
     "142dc76f41fc25448b82c91e": {
       "digest_date": "2026-08-07",
       "doi": "10.48550/arxiv.2608.03277",
@@ -27,6 +37,15 @@
       "summary_record_sha256": "0dbf386973dd8b744b81fb3e0ac1c6884d697824677248bc4d9f8b22e82379df",
       "title": "Partially coherent high-order optical neural networks via pseudo-nonlinear encoding"
     },
+    "2b5f9302fe96c2793d48540e": {
+      "digest_date": "2026-08-09",
+      "doi": "10.1117/12.3110867",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "18a9c0d613ce913ccc78135b56103608d7eb6151fd2f966abe295cceef86a60f",
+      "title": "Optical neural networks for ultrafast quantum state tomography"
+    },
     "5017adbd33e6ddd5c320a4c4": {
       "digest_date": "2026-08-08",
       "doi": "10.1364/cleo_at.2026.jtu.84",
@@ -53,6 +72,15 @@
       ],
       "summary_record_sha256": "46be6ebe47db378bee8526f7d4afa137c5ca3903150be4b1a7de7b0436378e05",
       "title": "Scalable photonic tensor core coupled with direct optimization strategy for optical neural networks"
+    },
+    "973790e22c46d30721660799": {
+      "digest_date": "2026-08-09",
+      "doi": "10.60893/figshare.app.c.8604716.v1",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "405da6f85e07c71a653f968f4a282526a3d0f9ac9a9c670dda6d83d4913e5e7d",
+      "title": "Reconfigurable Optical Nonlinear Activation Functions Using a Phase-Change Microring for Photonic Neural Networks"
     }
   },
   "by_digest_date": {
@@ -65,29 +93,47 @@
       "1e35265ce8678ca96adb8b93",
       "5017adbd33e6ddd5c320a4c4",
       "7d6c2a059923ebe445a1cdf7"
+    ],
+    "2026-08-09": [
+      "0e5c75b6132afcfb1f7afb17",
+      "2b5f9302fe96c2793d48540e",
+      "973790e22c46d30721660799"
     ]
   },
   "by_doi": {
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
+    "10.1117/12.3110867": "2b5f9302fe96c2793d48540e",
     "10.1117/12.3116253": "7d6c2a059923ebe445a1cdf7",
+    "10.1145/3837864": "0e5c75b6132afcfb1f7afb17",
     "10.1364/cleo_at.2026.jtu.84": "5017adbd33e6ddd5c320a4c4",
     "10.1364/optica.591264": "1cf1fcd769c5ace951188b8c",
     "10.21203/rs.3.rs-10187577/v1": "1e35265ce8678ca96adb8b93",
-    "10.48550/arxiv.2608.03277": "142dc76f41fc25448b82c91e"
+    "10.48550/arxiv.2608.03277": "142dc76f41fc25448b82c91e",
+    "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799"
   },
   "by_project": {
     "optical-neural-networks": [
+      "0e5c75b6132afcfb1f7afb17",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
+      "2b5f9302fe96c2793d48540e",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
-      "7d6c2a059923ebe445a1cdf7"
+      "7d6c2a059923ebe445a1cdf7",
+      "973790e22c46d30721660799"
     ],
     "zeroth-order-optimization": [
+      "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e"
     ]
   },
   "by_tag": {
+    "application:mnist手写数字分类": [
+      "973790e22c46d30721660799"
+    ],
+    "application:低维和高维偏微分方程求解": [
+      "0e5c75b6132afcfb1f7afb17"
+    ],
     "application:分布式声学传感（das）": [
       "1cf1fcd769c5ace951188b8c"
     ],
@@ -112,54 +158,80 @@
     "application:语音识别（fsdd）": [
       "1cf1fcd769c5ace951188b8c"
     ],
+    "application:量子态层析（2量子比特）": [
+      "2b5f9302fe96c2793d48540e"
+    ],
     "architecture:free_space": [
       "5017adbd33e6ddd5c320a4c4"
     ],
     "architecture:integrated": [
-      "1cf1fcd769c5ace951188b8c"
+      "0e5c75b6132afcfb1f7afb17",
+      "1cf1fcd769c5ace951188b8c",
+      "973790e22c46d30721660799"
     ],
     "architecture:unclear": [
       "1e35265ce8678ca96adb8b93",
+      "2b5f9302fe96c2793d48540e",
       "541094f286db8902f2fe6077",
       "7d6c2a059923ebe445a1cdf7"
     ],
     "hardware_validation:mixed": [
       "1cf1fcd769c5ace951188b8c",
-      "1e35265ce8678ca96adb8b93"
+      "1e35265ce8678ca96adb8b93",
+      "2b5f9302fe96c2793d48540e"
     ],
     "hardware_validation:physical_experiment": [
-      "5017adbd33e6ddd5c320a4c4"
+      "5017adbd33e6ddd5c320a4c4",
+      "973790e22c46d30721660799"
     ],
     "hardware_validation:simulation_only": [
+      "0e5c75b6132afcfb1f7afb17",
       "541094f286db8902f2fe6077"
     ],
     "hardware_validation:unclear": [
       "7d6c2a059923ebe445a1cdf7"
     ],
     "project:optical-neural-networks": [
+      "0e5c75b6132afcfb1f7afb17",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
+      "2b5f9302fe96c2793d48540e",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
-      "7d6c2a059923ebe445a1cdf7"
+      "7d6c2a059923ebe445a1cdf7",
+      "973790e22c46d30721660799"
     ],
     "project:zeroth-order-optimization": [
+      "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e"
     ],
     "zo:forward_only": [
+      "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e"
     ],
     "zo:low_rank_or_subspace": [
+      "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e"
     ],
     "zo:query_reuse": [
+      "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e"
     ],
     "zo:structured_perturbation": [
+      "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e"
+    ],
+    "zo:total_query_reduction": [
+      "0e5c75b6132afcfb1f7afb17"
     ]
   },
   "by_venue": {
+    "ACM Transactions on Design Automation of Electronic Systems": [
+      "0e5c75b6132afcfb1f7afb17"
+    ],
+    "AIP Publishing": [
+      "973790e22c46d30721660799"
+    ],
     "CLEO 2026": [
       "5017adbd33e6ddd5c320a4c4"
     ],
@@ -168,6 +240,9 @@
     ],
     "Optical Engineering": [
       "541094f286db8902f2fe6077"
+    ],
+    "Photonics for Quantum 2026": [
+      "2b5f9302fe96c2793d48540e"
     ],
     "Research Square": [
       "1e35265ce8678ca96adb8b93"
@@ -181,15 +256,18 @@
   },
   "by_year": {
     "2026": [
+      "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
+      "2b5f9302fe96c2793d48540e",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
-      "7d6c2a059923ebe445a1cdf7"
+      "7d6c2a059923ebe445a1cdf7",
+      "973790e22c46d30721660799"
     ]
   },
-  "paper_count": 6,
+  "paper_count": 9,
   "schema_version": 1,
-  "updated_at": "2026-08-08T13:09:14.487624Z"
+  "updated_at": "2026-08-09T00:37:29.798133Z"
 }

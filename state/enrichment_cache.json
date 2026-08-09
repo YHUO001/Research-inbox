@@ -1,5 +1,39 @@
 {
   "entries": {
+    "crossref:doi:10.1002/nap2.70245": {
+      "expires_at": "2026-09-08T00:36:08.846606Z",
+      "record": {
+        "abstract": "ABSTRACT There is a growing demand for ultra‐compact, low‐cost, and high‐fidelity snapshot hyperspectral imaging devices across various fields. However, conventional systems struggle to fulfill all these evolving requirements. Although a single diffractive optical element offers a compact solution, its degrees of freedom in light phase modulation are limited. Here, we exploit wavelength‐dependent characteristics of the point spread function (PSF) to design a dispersion‐engineered metalens that serves as a key element for hyperspectral imaging. The PSF of the metalens is tailored to undergo an extra lateral shift as a function of wavelength, thereby encoding richer spectral information. An efficient differentiable computational model is developed to simulate the hyperspectral imaging process, together with a downstream spectral reconstruction network. The metalens structure and the reconstruction network are subsequently optimized in an end‐to‐end deep learning joint optimization framework. We fabricated the optimal metalens using two‐photon grayscale lithography and built a prototype hyperspectral imaging camera. Both indoor and outdoor experimental results validated its outstanding spatial‐spectral reconstruction performance, highlighting the effectiveness in practical applications.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Peng Liu",
+            "orcid": null
+          },
+          {
+            "name": "Jiaru Chu",
+            "orcid": null
+          },
+          {
+            "name": "Yuhang Chen",
+            "orcid": "https://orcid.org/0000-0002-4275-5458"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/nap2.70245",
+        "landing_page": "https://doi.org/10.1002/nap2.70245",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/nap2.70245",
+        "publication_date": "2026-08-13",
+        "title": "Compact Snapshot Hyperspectral Imaging With Neural Dispersion‐Engineered Metalens",
+        "venue": "Nanophotonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-09T00:36:08.846606Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s11433-026-2995-7": {
       "expires_at": "2026-09-03T09:38:53.189831Z",
       "record": {
@@ -282,6 +316,60 @@
       "retrieved_at": "2026-08-04T11:27:51.172062Z",
       "status": "found"
     },
+    "crossref:doi:10.1080/19942060.2026.2682112": {
+      "expires_at": "2026-09-08T00:36:02.501150Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xi-Wei Tian",
+            "orcid": null
+          },
+          {
+            "name": "Zhuo-Lei Xue",
+            "orcid": null
+          },
+          {
+            "name": "Peng Li",
+            "orcid": null
+          },
+          {
+            "name": "Wei-Dong Wang",
+            "orcid": null
+          },
+          {
+            "name": "Si-Hao Qian",
+            "orcid": null
+          },
+          {
+            "name": "Chen Sun",
+            "orcid": null
+          },
+          {
+            "name": "Wen-Juan Suo",
+            "orcid": null
+          },
+          {
+            "name": "Wei Wang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1080/19942060.2026.2682112",
+        "landing_page": "https://doi.org/10.1080/19942060.2026.2682112",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1080/19942060.2026.2682112",
+        "publication_date": "2026-12-31",
+        "title": "Optimization of thermal-flow behavior in porous TPMS cold plates via structural and numerical modeling",
+        "venue": "Engineering Applications of Computational Fluid Mechanics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-09T00:36:02.501150Z",
+      "status": "found"
+    },
     "crossref:doi:10.1088/2631-8695/ae95b1": {
       "expires_at": "2026-09-06T01:30:20.766384Z",
       "record": {
@@ -446,6 +534,64 @@
       "retrieved_at": "2026-08-04T09:38:55.106251Z",
       "status": "found"
     },
+    "crossref:doi:10.1145/3837864": {
+      "expires_at": "2026-09-08T00:36:00.920049Z",
+      "record": {
+        "abstract": "Physics intelligence and digital twins often require rapid and repeated performance evaluation of various engineering systems (e.g. robots, autonomous vehicles, semiconductor chips) to enable (almost) real-time actions or decision making. This has motivated the development of accelerated partial differential equation (PDE) solvers, in resource-constrained scenarios if the PDE solvers are to be deployed on the edge. Physics-informed neural networks (PINNs) have shown promise in solving high-dimensional PDEs, but the training time on state-of-the-art digital hardware (e.g., GPUs) is still orders-of-magnitude longer than the latency required for enabling real-time decision making. Photonic computing offers a potential solution to address this huge latency gap because of its ultra-high operation speed. However, the lack of photonic memory and the large device sizes prevent training real-size PINNs on photonic chips. This paper proposes a completely back-propagation-free (BP-free) and highly scalable framework for training real-size PINNs on silicon photonic platforms. Our approach involves three key innovations: (1) a sparse-grid Stein derivative estimator to avoid the BP in the loss evaluation of a PINN, (2) a dimension-reduced zeroth-order optimization via tensor-train decomposition to achieve better scalability and convergence in BP-free training, and (3) a scalable on-chip photonic PINN training accelerator design using photonic tensor cores. We validate our numerical methods on both low- and high-dimensional PDE benchmarks. Through pre-silicon simulation based on real device parameters, we further demonstrate the significant performance benefit (e.g., real-time training, huge chip area reduction) of our photonic accelerator. Our code is available at https://github.com/olokevin/scalable_bpfree_onn_training.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yequan Zhao",
+            "orcid": "https://orcid.org/0009-0004-2785-6789"
+          },
+          {
+            "name": "Xinling Yu",
+            "orcid": "https://orcid.org/0000-0001-7913-0307"
+          },
+          {
+            "name": "Xian Xiao",
+            "orcid": "https://orcid.org/0000-0002-1415-839X"
+          },
+          {
+            "name": "Zhixiong Chen",
+            "orcid": "https://orcid.org/0009-0009-4819-4936"
+          },
+          {
+            "name": "Ziyue Liu",
+            "orcid": "https://orcid.org/0000-0001-9538-5350"
+          },
+          {
+            "name": "Geza Kurczveil",
+            "orcid": "https://orcid.org/0000-0003-1373-6087"
+          },
+          {
+            "name": "Raymond Beausoleil",
+            "orcid": "https://orcid.org/0000-0003-1139-1660"
+          },
+          {
+            "name": "Sijia Liu",
+            "orcid": "https://orcid.org/0000-0003-2817-6991"
+          },
+          {
+            "name": "Zheng Zhang",
+            "orcid": "https://orcid.org/0000-0002-2292-0030"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3837864",
+        "landing_page": "https://doi.org/10.1145/3837864",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1145/3837864",
+        "publication_date": "2026-08-05",
+        "title": "Scalable Back-Propagation-Free Training of Optical Physics-Informed Neural Networks",
+        "venue": "ACM Transactions on Design Automation of Electronic Systems",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-09T00:36:00.920049Z",
+      "status": "found"
+    },
     "crossref:doi:10.21203/rs.3.rs-10187577/v1": {
       "expires_at": "2026-09-04T13:20:51.775599Z",
       "record": {
@@ -520,16 +666,34 @@
       "retrieved_at": "2026-08-05T13:20:51.775599Z",
       "status": "found"
     },
+    "crossref:doi:10.3788/irla20250523": {
+      "expires_at": "2026-09-08T00:36:12.555790Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:12.555790Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.48550/arxiv.2608.03277": {
       "expires_at": "2026-09-06T01:30:20.389987Z",
       "record": null,
       "retrieved_at": "2026-08-07T01:30:20.389987Z",
       "status": "not_found"
     },
+    "crossref:doi:10.48550/arxiv.2608.05735": {
+      "expires_at": "2026-09-08T00:36:09.256881Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:09.256881Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.60893/figshare.app.c.8604716.v1": {
       "expires_at": "2026-09-04T13:20:52.295864Z",
       "record": null,
       "retrieved_at": "2026-08-05T13:20:52.295864Z",
+      "status": "not_found"
+    },
+    "crossref:title:10c4cd1898d187964946eca726f5dcaad079557a2605596d3ab1c979f0337692": {
+      "expires_at": "2026-08-16T00:36:04.812147Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:04.812147Z",
       "status": "not_found"
     },
     "crossref:title:1123620d5d5cb7d293ab7f67781a69c02946c54c47b3aeb28b88a1538c293468": {
@@ -758,6 +922,74 @@
       "retrieved_at": "2026-08-04T09:38:46.293348Z",
       "status": "found"
     },
+    "crossref:title:2c07bb7239f1c6739bb02047e88fa7613eaedc31c559b6d954bbdf73ecfbbe87": {
+      "expires_at": "2026-08-16T00:36:13.391892Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:13.391892Z",
+      "status": "not_found"
+    },
+    "crossref:title:396433acbcc3f91784f5268f64740577bf2596dcfa06755340cef71a7f90d310": {
+      "expires_at": "2026-08-16T00:35:59.056202Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:35:59.056202Z",
+      "status": "not_found"
+    },
+    "crossref:title:44cd5bfa9f21cda4013aab622c657016ae2639db19f541576c77d328402bd988": {
+      "expires_at": "2026-08-16T00:36:01.643836Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:01.643836Z",
+      "status": "not_found"
+    },
+    "crossref:title:58a4e8946f478ec97ae906eac840dcbedd335e53d76cd06cbd7c9cc445297568": {
+      "expires_at": "2026-08-16T00:36:12.068329Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:12.068329Z",
+      "status": "not_found"
+    },
+    "crossref:title:5e068699ee7c3a803d9a5024caade81ea5dfcd06e2533e7a1c9caa26e8b1c8e9": {
+      "expires_at": "2026-08-16T00:36:11.038479Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:11.038479Z",
+      "status": "not_found"
+    },
+    "crossref:title:692a520f82c9d20cd9c87a5e7bb96e0c70b47da8d71cf9f973c484caf4b25c9c": {
+      "expires_at": "2026-08-16T00:36:03.053032Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuxuan Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Yijian Wang",
+            "orcid": null
+          },
+          {
+            "name": "Junkai Wang",
+            "orcid": null
+          },
+          {
+            "name": "Fumin Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/icca69928.2026.11618303",
+        "landing_page": "https://doi.org/10.1109/icca69928.2026.11618303",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/icca69928.2026.11618303",
+        "publication_date": "2026-06",
+        "title": "Multi-Agent Coordination for Derivative-Free Optimization: A Two-Stage Hybrid Speeding-Up Slowing-Down Algorithm",
+        "venue": "2026 IEEE 20th International Conference on Control and Automation (ICCA)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-09T00:36:03.053032Z",
+      "status": "found"
+    },
     "crossref:title:7154f416d33e635ec62648b7399bdac5629bab1558b3480c4323821da605e9e8": {
       "expires_at": "2026-08-11T09:38:19.407006Z",
       "record": {
@@ -801,6 +1033,40 @@
       "record": null,
       "retrieved_at": "2026-08-04T09:38:25.759094Z",
       "status": "not_found"
+    },
+    "crossref:title:7a1d31740d92dd33874b2a6ff4fcbcce1ebfdf3724918e12655928b209f4384d": {
+      "expires_at": "2026-08-16T00:36:08.311312Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jie Hou",
+            "orcid": null
+          },
+          {
+            "name": "Xianlin Zeng",
+            "orcid": null
+          },
+          {
+            "name": "Jinming Xu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/icca69928.2026.11618170",
+        "landing_page": "https://doi.org/10.1109/icca69928.2026.11618170",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/icca69928.2026.11618170",
+        "publication_date": "2026-06",
+        "title": "Momentum-Based Gradient-Free Algorithm for Nonsmooth Nonconvex Compositional Optimization Without Large Outer Batches",
+        "venue": "2026 IEEE 20th International Conference on Control and Automation (ICCA)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-09T00:36:08.311312Z",
+      "status": "found"
     },
     "crossref:title:86599e5ae385dfcd91e3ebf2dee6160e6596b26621a6ea3b79ee1f7138ace847": {
       "expires_at": "2026-08-11T09:38:57.262698Z",
@@ -876,6 +1142,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:43.571237Z",
+      "status": "found"
+    },
+    "crossref:title:991b260897a58f17b92ae9b2be2cb129ba4ef9c16cde827811d3fd5c761634fe": {
+      "expires_at": "2026-08-16T00:36:05.845920Z",
+      "record": {
+        "abstract": "Abstract We ask whether the choice of reinforcement-learning optimizer matters for solving a CVaR-constrained reservoir-governance problem, and why. Training CEM (population-based), SAC, and PPO (gradient-based, with a Lagrangian expected-cost safety critic) on an identical simulator and evaluating all three on the full training objective, we find a sharp, reproducible pattern across three of four physical regimes: CEM achieves strictly lower realized tail risk than every SAC/PPO variant even its least conservative policy is safer than their most conservative ones – while SAC and PPO achieve strictly lower cost. A fourth regime, where management capacity saturates, is an instructive exception where CEM is both safest and cheapest. We explain this mechanistically: CEM evaluates the true, non-differentiable CVaR of the episode-maximum deficit directly, while gradient-based methods must substitute a differentiable expected-discounted-cost surrogate. We prove this substitution yields a discount-induced blindness result a per-step safety guarantee that decays geometrically with the time index and confirm it empirically via a discount-factor ablation and an extreme-budget stress test. An independent five-seed replication, using a scale-invariant dual-ascent correction, sharpens the risk ordering to statistical significance; a genuinely trained quantile/distributional safety critic, however, does not close the gap and in fact increases realized risk in every seed tested, pointing to Monte-Carlo quantile-estimation noise rather than La-grangian under-tuning as the remaining obstacle. Closed-loop existence, local-stability, and probabilistic practical-stability theorems complete the analysis, applicable regardless of optimizer.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Milad Tahavor",
+            "orcid": null
+          },
+          {
+            "name": "Soroush Amanna",
+            "orcid": null
+          },
+          {
+            "name": "Fatemeh Zabihi Jalali Zavareh",
+            "orcid": null
+          },
+          {
+            "name": "Milad Ghoroqi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-10560399/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-10560399/v1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.21203/rs.3.rs-10560399/v1",
+        "publication_date": "2026-08-04",
+        "title": "Gradient-Free versus Gradient-Based Risk Constraints in Reinforcement Learning: A Reservoir Governance Case Study",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-09T00:36:05.845920Z",
       "status": "found"
     },
     "crossref:title:a1e9df18ed0ab1290e5eac26eb0b1960b570f6578a6c2d826dafb6737712e21a": {
@@ -1058,6 +1362,18 @@
       "retrieved_at": "2026-08-04T09:38:51.008052Z",
       "status": "found"
     },
+    "crossref:title:b063211f9f74d0395e687813f2847579df6b8341dce8fa35f74dae65243b9c91": {
+      "expires_at": "2026-08-16T00:36:00.135704Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:00.135704Z",
+      "status": "not_found"
+    },
+    "crossref:title:b857736f74d4b6b8dd053691f8ebf5361af4a98b2c82f0ab5e97cf4484e5b711": {
+      "expires_at": "2026-08-16T00:36:09.827479Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:09.827479Z",
+      "status": "not_found"
+    },
     "crossref:title:bbf2eedc3e77d50fe6dcee68f46e579501d5b1d25d033d63d7e66458430ca8d6": {
       "expires_at": "2026-08-11T09:38:59.811568Z",
       "record": null,
@@ -1068,6 +1384,12 @@
       "expires_at": "2026-08-11T09:38:28.475680Z",
       "record": null,
       "retrieved_at": "2026-08-04T09:38:28.475680Z",
+      "status": "not_found"
+    },
+    "crossref:title:cbde4e7b874735126ef47edd5cebf95081723b500b74f59d1ec1de2538ee9151": {
+      "expires_at": "2026-08-16T00:36:06.532514Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:06.532514Z",
       "status": "not_found"
     },
     "crossref:title:d83f470288b8278c6c2595d43c0da3da5113b445c8a79e121a0b4c6c87d49e84": {
@@ -1268,6 +1590,32 @@
       "retrieved_at": "2026-08-04T09:38:36.452159Z",
       "status": "found"
     },
+    "crossref:title:e7c81b6e4d52cb81b68d03ca87f8256d3985c77578658938df20ed37c1546379": {
+      "expires_at": "2026-08-16T00:36:07.561917Z",
+      "record": {
+        "abstract": "Abstract Activation functions play a critical role in introducing non-linearity to Artificial Neural Networks (ANNs). However, conventional functions like ReLU and Sigmoid often suffer from limitations such as the ”dying ReLU” problem, gradient vanishing, or lack of adaptability to complex data distributions. Inspired by quantum electronics and optical computing, this paper introduces MSPPP-Act, a novel, physics-informed adaptive activation function modeled after the photophysical properties of the highly stable 1-(4-methylsulfonyl phenyl)-3-(4-N,N-dimethyl amino phenyl)-2-propen-1-one (MSPPP) chalcone laser dye. The mathematical formulation of MSPPP-Act abstracts the dye’s distinctive Amplified Spontaneous Emission (ASE) threshold and optical gain profile into a smooth, continuously differentiable function. To address the inherent chemical dependencies of the dye, the solvent effects and concentration dynamics are mapped onto trainable parameters, allowing the activation function to dynamically adapt its shape during backpropagation. Furthermore, leveraging the exceptional photostability of MSPPP, A stabilization mechanism was integrated to prevent gradient saturation and ensure a steady gradient flow under high-pressure training stages. Also, the performance of MSPPP-Act was evaluated across various standard metrics, including image classification and regression tasks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mohana Attia",
+            "orcid": "https://orcid.org/0000-0003-1881-1410"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-10562242/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-10562242/v1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.21203/rs.3.rs-10562242/v1",
+        "publication_date": "2026-08-04",
+        "title": "MSPPP-Act: A Photostable Laser Dye-Inspired Adaptive Activation Function for Deep Neural Networks",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-09T00:36:07.561917Z",
+      "status": "found"
+    },
     "crossref:title:f7840ff87d12d6e20459aea19b1a0a31d50f83f6996a55d434c4a1529f3be13e": {
       "expires_at": "2026-08-11T09:38:37.983990Z",
       "record": {
@@ -1311,6 +1659,40 @@
       "record": null,
       "retrieved_at": "2026-08-04T09:38:44.743778Z",
       "status": "not_found"
+    },
+    "openalex:doi:10.1002/nap2.70245": {
+      "expires_at": "2026-09-08T00:36:09.165601Z",
+      "record": {
+        "abstract": "ABSTRACT There is a growing demand for ultra‐compact, low‐cost, and high‐fidelity snapshot hyperspectral imaging devices across various fields. However, conventional systems struggle to fulfill all these evolving requirements. Although a single diffractive optical element offers a compact solution, its degrees of freedom in light phase modulation are limited. Here, we exploit wavelength‐dependent characteristics of the point spread function (PSF) to design a dispersion‐engineered metalens that serves as a key element for hyperspectral imaging. The PSF of the metalens is tailored to undergo an extra lateral shift as a function of wavelength, thereby encoding richer spectral information. An efficient differentiable computational model is developed to simulate the hyperspectral imaging process, together with a downstream spectral reconstruction network. The metalens structure and the reconstruction network are subsequently optimized in an end‐to‐end deep learning joint optimization framework. We fabricated the optimal metalens using two‐photon grayscale lithography and built a prototype hyperspectral imaging camera. Both indoor and outdoor experimental results validated its outstanding spatial‐spectral reconstruction performance, highlighting the effectiveness in practical applications.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Peng Liu",
+            "orcid": null
+          },
+          {
+            "name": "Jiaru Chu",
+            "orcid": "https://orcid.org/0000-0001-6472-8103"
+          },
+          {
+            "name": "Yuhang Chen",
+            "orcid": "https://orcid.org/0000-0002-4275-5458"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/nap2.70245",
+        "landing_page": "https://doi.org/10.1002/nap2.70245",
+        "open_access_url": "https://doi.org/10.1002/nap2.70245",
+        "openalex_id": "https://openalex.org/W7201874422",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7201874422",
+        "publication_date": "2026-08-07",
+        "title": "Compact Snapshot Hyperspectral Imaging With Neural Dispersion‐Engineered Metalens",
+        "venue": "Nanophotonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-09T00:36:09.165601Z",
+      "status": "found"
     },
     "openalex:doi:10.1007/s11433-026-2995-7": {
       "expires_at": "2026-09-03T09:38:53.549399Z",
@@ -1818,6 +2200,60 @@
       "retrieved_at": "2026-08-04T09:38:22.171450Z",
       "status": "found"
     },
+    "openalex:doi:10.1080/19942060.2026.2682112": {
+      "expires_at": "2026-09-08T00:36:02.811260Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xi-Wei Tian",
+            "orcid": "https://orcid.org/0000-0002-3708-6261"
+          },
+          {
+            "name": "Zhuo-Lei Xue",
+            "orcid": null
+          },
+          {
+            "name": "Peng Li",
+            "orcid": null
+          },
+          {
+            "name": "Wei-Dong Wang",
+            "orcid": null
+          },
+          {
+            "name": "Sihao Qian",
+            "orcid": "https://orcid.org/0000-0003-3566-8134"
+          },
+          {
+            "name": "Chen Sun",
+            "orcid": null
+          },
+          {
+            "name": "Wen-Juan Suo",
+            "orcid": null
+          },
+          {
+            "name": "Wei Wang",
+            "orcid": "https://orcid.org/0000-0002-8598-0831"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1080/19942060.2026.2682112",
+        "landing_page": "https://doi.org/10.1080/19942060.2026.2682112",
+        "open_access_url": "https://doi.org/10.1080/19942060.2026.2682112",
+        "openalex_id": "https://openalex.org/W7172273968",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7172273968",
+        "publication_date": "2026-08-03",
+        "title": "Optimization of thermal-flow behavior in porous TPMS cold plates via structural and numerical modeling",
+        "venue": "Engineering Applications of Computational Fluid Mechanics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-09T00:36:02.811260Z",
+      "status": "found"
+    },
     "openalex:doi:10.1088/2631-8695/ae95b1": {
       "expires_at": "2026-09-06T01:30:21.116723Z",
       "record": {
@@ -1916,6 +2352,78 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:38.333024Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/icca69928.2026.11618170": {
+      "expires_at": "2026-09-08T00:36:08.601879Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jie Hou",
+            "orcid": null
+          },
+          {
+            "name": "Xianlin Zeng",
+            "orcid": null
+          },
+          {
+            "name": "Jinming Xu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/icca69928.2026.11618170",
+        "landing_page": "https://doi.org/10.1109/icca69928.2026.11618170",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7172444701",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7172444701",
+        "publication_date": "2026-06-01",
+        "title": "Momentum-Based Gradient-Free Algorithm for Nonsmooth Nonconvex Compositional Optimization Without Large Outer Batches",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-09T00:36:08.601879Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/icca69928.2026.11618303": {
+      "expires_at": "2026-09-08T00:36:03.357971Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuxuan Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Yijian Wang",
+            "orcid": null
+          },
+          {
+            "name": "Junkai Wang",
+            "orcid": null
+          },
+          {
+            "name": "Fumin Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/icca69928.2026.11618303",
+        "landing_page": "https://doi.org/10.1109/icca69928.2026.11618303",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7172393181",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7172393181",
+        "publication_date": "2026-06-01",
+        "title": "Multi-Agent Coordination for Derivative-Free Optimization: A Two-Stage Hybrid Speeding-Up Slowing-Down Algorithm",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-09T00:36:03.357971Z",
       "status": "found"
     },
     "openalex:doi:10.1109/jlt.2026.3718277": {
@@ -2132,6 +2640,64 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:55.436916Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1145/3837864": {
+      "expires_at": "2026-09-08T00:36:01.261178Z",
+      "record": {
+        "abstract": "Physics intelligence and digital twins often require rapid and repeated performance evaluation of various engineering systems (e.g. robots, autonomous vehicles, semiconductor chips) to enable (almost) real-time actions or decision making. This has motivated the development of accelerated partial differential equation (PDE) solvers, in resource-constrained scenarios if the PDE solvers are to be deployed on the edge. Physics-informed neural networks (PINNs) have shown promise in solving high-dimensional PDEs, but the training time on state-of-the-art digital hardware (e.g., GPUs) is still orders-of-magnitude longer than the latency required for enabling real-time decision making. Photonic computing offers a potential solution to address this huge latency gap because of its ultra-high operation speed. However, the lack of photonic memory and the large device sizes prevent training real-size PINNs on photonic chips. This paper proposes a completely back-propagation-free (BP-free) and highly scalable framework for training real-size PINNs on silicon photonic platforms. Our approach involves three key innovations: (1) a sparse-grid Stein derivative estimator to avoid the BP in the loss evaluation of a PINN, (2) a dimension-reduced zeroth-order optimization via tensor-train decomposition to achieve better scalability and convergence in BP-free training, and (3) a scalable on-chip photonic PINN training accelerator design using photonic tensor cores. We validate our numerical methods on both low- and high-dimensional PDE benchmarks. Through pre-silicon simulation based on real device parameters, we further demonstrate the significant performance benefit (e.g., real-time training, huge chip area reduction) of our photonic accelerator. Our code is available at https://github.com/olokevin/scalable_bpfree_onn_training.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yequan Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Xinling Yu",
+            "orcid": null
+          },
+          {
+            "name": "Xian Xiao",
+            "orcid": "https://orcid.org/0000-0002-1415-839X"
+          },
+          {
+            "name": "Zhixiong Chen",
+            "orcid": "https://orcid.org/0000-0003-4228-0023"
+          },
+          {
+            "name": "Ziyue Liu",
+            "orcid": "https://orcid.org/0000-0001-9538-5350"
+          },
+          {
+            "name": "Géza Kurczveil",
+            "orcid": "https://orcid.org/0000-0003-1373-6087"
+          },
+          {
+            "name": "Raymond G. Beausoleil",
+            "orcid": null
+          },
+          {
+            "name": "Sijia Liu",
+            "orcid": "https://orcid.org/0000-0002-9675-3933"
+          },
+          {
+            "name": "Zheng Zhang",
+            "orcid": "https://orcid.org/0000-0003-1470-6998"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3837864",
+        "landing_page": "https://doi.org/10.1145/3837864",
+        "open_access_url": "https://doi.org/10.1145/3837864",
+        "openalex_id": "https://openalex.org/W4407759437",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W4407759437",
+        "publication_date": "2026-08-05",
+        "title": "Scalable Back-Propagation-Free Training of Optical Physics-Informed Neural Networks",
+        "venue": "ACM Transactions on Design Automation of Electronic Systems",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-09T00:36:01.261178Z",
       "status": "found"
     },
     "openalex:doi:10.1364/ao.597691": {
@@ -2582,6 +3148,76 @@
       "retrieved_at": "2026-08-05T13:20:52.127904Z",
       "status": "found"
     },
+    "openalex:doi:10.21203/rs.3.rs-10560399/v1": {
+      "expires_at": "2026-09-08T00:36:06.173345Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Milad Tahavor",
+            "orcid": "https://orcid.org/0000-0001-7303-6918"
+          },
+          {
+            "name": "Soroush Amanna",
+            "orcid": null
+          },
+          {
+            "name": "Fatemeh Zabihi Jalali Zavareh",
+            "orcid": null
+          },
+          {
+            "name": "Milad Ghoroqi",
+            "orcid": "https://orcid.org/0000-0002-6324-4745"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-10560399/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-10560399/v1",
+        "open_access_url": "https://doi.org/10.21203/rs.3.rs-10560399/v1",
+        "openalex_id": "https://openalex.org/W7172340911",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7172340911",
+        "publication_date": "2026-08-04",
+        "title": "Gradient-Free versus Gradient-Based Risk Constraints in Reinforcement Learning: A Reservoir Governance Case Study",
+        "venue": "Research Square",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-09T00:36:06.173345Z",
+      "status": "found"
+    },
+    "openalex:doi:10.21203/rs.3.rs-10562242/v1": {
+      "expires_at": "2026-09-08T00:36:07.855460Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mohana Faroug Attia",
+            "orcid": "https://orcid.org/0000-0003-1881-1410"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-10562242/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-10562242/v1",
+        "open_access_url": "https://doi.org/10.21203/rs.3.rs-10562242/v1",
+        "openalex_id": "https://openalex.org/W7172310150",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7172310150",
+        "publication_date": "2026-08-04",
+        "title": "MSPPP-Act: A Photostable Laser Dye-Inspired Adaptive Activation Function for Deep Neural Networks",
+        "venue": "Research Square",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-09T00:36:07.855460Z",
+      "status": "found"
+    },
+    "openalex:doi:10.3788/irla20250523": {
+      "expires_at": "2026-09-08T00:36:12.879300Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:12.879300Z",
+      "status": "not_found"
+    },
     "openalex:doi:10.48550/arxiv.2608.03277": {
       "expires_at": "2026-09-06T01:30:20.714775Z",
       "record": {
@@ -2626,6 +3262,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-07T01:30:20.714775Z",
+      "status": "found"
+    },
+    "openalex:doi:10.48550/arxiv.2608.05735": {
+      "expires_at": "2026-09-08T00:36:09.572536Z",
+      "record": {
+        "abstract": "Time-varying cloud workloads often cause resource under-utilization during off-peak periods and resource contention during peak periods. Existing prediction-then-optimization (PTO) frameworks suffer from two-stage decoupling, hindering the balance among violation rate, user satisfaction, and resource utilization. We formulate heterogeneous job scheduling as a multi-objective combinatorial optimization problem (MOCOP) under uncertain constraints and propose a closed-loop decision-focused learning (CL-DFL) framework for cloud orchestration. CL-DFL integrates a Multivariate Time-series Graph Neural Network (MTGNN)-based spatio-temporal predictor with a zeroth-order decision-focused learning (DFL) mechanism based on the tree-structured Parzen estimator (TPE). This integration establishes an end-to-end (E2E) feedback pathway between resource perception and scheduling decisions. Furthermore, we develop the GNeuro-PLS strategy by incorporating group relative policy optimization (GRPO) into cooperative local search to improve robustness under heterogeneous workloads. Extensive experiments on four real-world datasets demonstrate that CL-DFL achieves superior trade-offs among violation rate, user satisfaction, and resource utilization. It effectively controls overload risks under regular workloads and maintains resilience under highly saturated scenarios compared with state-of-the-art baselines.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dongbin Jiao",
+            "orcid": "https://orcid.org/0000-0003-0433-2259"
+          },
+          {
+            "name": "X Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Huakang Lin",
+            "orcid": null
+          },
+          {
+            "name": "Ke Shang",
+            "orcid": "https://orcid.org/0000-0003-2363-9504"
+          },
+          {
+            "name": "Shi Yan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2608.05735",
+        "landing_page": "https://doi.org/10.48550/arxiv.2608.05735",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2608.05735",
+        "openalex_id": "https://openalex.org/W7201885887",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7201885887",
+        "publication_date": "2026-08-06",
+        "title": "Closed-Loop Decision-Focused Learning for User-Aware Cloud Orchestration under Uncertainty",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-09T00:36:09.572536Z",
       "status": "found"
     },
     "openalex:doi:10.60893/figshare.app.c.8604716.v1": {
@@ -2674,10 +3352,58 @@
       "retrieved_at": "2026-08-05T13:20:52.644002Z",
       "status": "found"
     },
+    "openalex:title:10c4cd1898d187964946eca726f5dcaad079557a2605596d3ab1c979f0337692": {
+      "expires_at": "2026-08-16T00:36:05.489666Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:05.489666Z",
+      "status": "not_found"
+    },
+    "openalex:title:2c07bb7239f1c6739bb02047e88fa7613eaedc31c559b6d954bbdf73ecfbbe87": {
+      "expires_at": "2026-08-16T00:36:13.940109Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:13.940109Z",
+      "status": "not_found"
+    },
+    "openalex:title:396433acbcc3f91784f5268f64740577bf2596dcfa06755340cef71a7f90d310": {
+      "expires_at": "2026-08-16T00:35:59.656653Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:35:59.656653Z",
+      "status": "not_found"
+    },
+    "openalex:title:44cd5bfa9f21cda4013aab622c657016ae2639db19f541576c77d328402bd988": {
+      "expires_at": "2026-08-16T00:36:02.126264Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:02.126264Z",
+      "status": "not_found"
+    },
+    "openalex:title:58a4e8946f478ec97ae906eac840dcbedd335e53d76cd06cbd7c9cc445297568": {
+      "expires_at": "2026-08-16T00:36:12.468945Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:12.468945Z",
+      "status": "not_found"
+    },
+    "openalex:title:5e068699ee7c3a803d9a5024caade81ea5dfcd06e2533e7a1c9caa26e8b1c8e9": {
+      "expires_at": "2026-08-16T00:36:11.627946Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:11.627946Z",
+      "status": "not_found"
+    },
     "openalex:title:78587fbfd52d80d77d5892c55558b240292a8550fcf34daa280fbb6a87d9928d": {
       "expires_at": "2026-08-11T09:38:26.349123Z",
       "record": null,
       "retrieved_at": "2026-08-04T09:38:26.349123Z",
+      "status": "not_found"
+    },
+    "openalex:title:b063211f9f74d0395e687813f2847579df6b8341dce8fa35f74dae65243b9c91": {
+      "expires_at": "2026-08-16T00:36:00.776579Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:00.776579Z",
+      "status": "not_found"
+    },
+    "openalex:title:b857736f74d4b6b8dd053691f8ebf5361af4a98b2c82f0ab5e97cf4484e5b711": {
+      "expires_at": "2026-08-16T00:36:10.644719Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:10.644719Z",
       "status": "not_found"
     },
     "openalex:title:bbf2eedc3e77d50fe6dcee68f46e579501d5b1d25d033d63d7e66458430ca8d6": {
@@ -2690,6 +3416,12 @@
       "expires_at": "2026-08-11T09:38:29.008711Z",
       "record": null,
       "retrieved_at": "2026-08-04T09:38:29.008711Z",
+      "status": "not_found"
+    },
+    "openalex:title:cbde4e7b874735126ef47edd5cebf95081723b500b74f59d1ec1de2538ee9151": {
+      "expires_at": "2026-08-16T00:36:07.204631Z",
+      "record": null,
+      "retrieved_at": "2026-08-09T00:36:07.204631Z",
       "status": "not_found"
     },
     "openalex:title:e5891f67f719834bc00ca01dc15fbfa40dcacf96346e10b3b7547e108fc0537b": {

@@ -1,0 +1,65 @@
+{
+  "built_at": "2026-08-09T00:36:14.379998Z",
+  "digest_date": "2026-08-09",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "973790e22c46d30721660799",
+        "landing_page": "https://doi.org/10.60893/figshare.app.c.8604716.v1",
+        "mandatory": false,
+        "score": 0.75,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Reconfigurable Optical Nonlinear Activation Functions Using a Phase-Change Microring for Photonic Neural Networks",
+        "venue": "AIP Publishing",
+        "year": 2026
+      },
+      {
+        "candidate_id": "2b5f9302fe96c2793d48540e",
+        "landing_page": "https://doi.org/10.1117/12.3110867",
+        "mandatory": false,
+        "score": 0.75,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Optical neural networks for ultrafast quantum state tomography",
+        "venue": "Photonics for Quantum 2026",
+        "year": 2026
+      },
+      {
+        "candidate_id": "0e5c75b6132afcfb1f7afb17",
+        "landing_page": "https://doi.org/10.1145/3837864",
+        "mandatory": false,
+        "score": 0.72,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Scalable Back-Propagation-Free Training of Optical Physics-Informed Neural Networks",
+        "venue": "ACM Transactions on Design Automation of Electronic Systems",
+        "year": 2026
+      }
+    ],
+    "next_candidates": [
+      {
+        "candidate_id": "83a830ace13b5158f346c392",
+        "landing_page": "https://doi.org/10.1038/s41427-026-00671-6",
+        "mandatory": false,
+        "score": 0.72,
+        "source_type": "openalex",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Emerging light-driven neuromorphic hardware for artificial intelligence",
+        "venue": "NPG Asia Materials",
+        "year": 2026
+      }
+    ]
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}
