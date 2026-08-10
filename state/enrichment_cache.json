@@ -534,6 +534,90 @@
       "retrieved_at": "2026-08-04T09:38:55.106251Z",
       "status": "found"
     },
+    "crossref:doi:10.1145/3770855.3817661": {
+      "expires_at": "2026-09-09T00:36:49.742616Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "He Sun",
+            "orcid": "https://orcid.org/0009-0003-2518-7481"
+          },
+          {
+            "name": "Jinrui Zhou",
+            "orcid": "https://orcid.org/0009-0003-9326-889X"
+          },
+          {
+            "name": "Li Li",
+            "orcid": "https://orcid.org/0000-0002-2044-8289"
+          },
+          {
+            "name": "Yebo Wu",
+            "orcid": "https://orcid.org/0000-0002-2422-1356"
+          },
+          {
+            "name": "Mingjun Xiao",
+            "orcid": "https://orcid.org/0000-0001-7767-7763"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3770855.3817661",
+        "landing_page": "https://doi.org/10.1145/3770855.3817661",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1145/3770855.3817661",
+        "publication_date": "2026-08-09",
+        "title": "HeimdaLLM: Efficient Cloud-assisted Federated Fine-tuning with Zeroth-Order Rectification for LLMs",
+        "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-10T00:36:49.742616Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1145/3770855.3817738": {
+      "expires_at": "2026-09-09T00:36:44.555225Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xingchen Li",
+            "orcid": "https://orcid.org/0009-0009-8021-2815"
+          },
+          {
+            "name": "Jia Zhang",
+            "orcid": "https://orcid.org/0009-0006-5311-4871"
+          },
+          {
+            "name": "Tianxing Man",
+            "orcid": "https://orcid.org/0000-0003-2187-1641"
+          },
+          {
+            "name": "Wenkang Wang",
+            "orcid": "https://orcid.org/0009-0007-9990-6433"
+          },
+          {
+            "name": "Bin Gu",
+            "orcid": "https://orcid.org/0000-0001-6049-1815"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3770855.3817738",
+        "landing_page": "https://doi.org/10.1145/3770855.3817738",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1145/3770855.3817738",
+        "publication_date": "2026-08-09",
+        "title": "Modality-Agnostic Zeroth-Order LoRA Fine-Tuning for Black-Box Prompt Optimization",
+        "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-10T00:36:44.555225Z",
+      "status": "found"
+    },
     "crossref:doi:10.1145/3837864": {
       "expires_at": "2026-09-08T00:36:00.920049Z",
       "record": {
@@ -990,6 +1074,12 @@
       "retrieved_at": "2026-08-09T00:36:03.053032Z",
       "status": "found"
     },
+    "crossref:title:6d8613ddccf0a73c97872be57802b9cbab36cc984a2d1e9b479f60dada4f95ae": {
+      "expires_at": "2026-08-17T00:36:47.158828Z",
+      "record": null,
+      "retrieved_at": "2026-08-10T00:36:47.158828Z",
+      "status": "not_found"
+    },
     "crossref:title:7154f416d33e635ec62648b7399bdac5629bab1558b3480c4323821da605e9e8": {
       "expires_at": "2026-08-11T09:38:19.407006Z",
       "record": {
@@ -1101,6 +1191,18 @@
       },
       "retrieved_at": "2026-08-04T09:38:57.262698Z",
       "status": "found"
+    },
+    "crossref:title:868b33466991620b31a192ee87b8df510a3ef61fed6e187284bb2224d98cfda0": {
+      "expires_at": "2026-08-17T00:36:45.356180Z",
+      "record": null,
+      "retrieved_at": "2026-08-10T00:36:45.356180Z",
+      "status": "not_found"
+    },
+    "crossref:title:96c0231f25d36894ae4d4cc3d5dee0503439418726f910688ddc192f29cab7b6": {
+      "expires_at": "2026-08-17T00:36:46.415577Z",
+      "record": null,
+      "retrieved_at": "2026-08-10T00:36:46.415577Z",
+      "status": "not_found"
     },
     "crossref:title:96f0fbd1e5d542ca6b592a146ef78a97389b766e1c9c07a003784e5d9bf90956": {
       "expires_at": "2026-08-11T09:38:43.571237Z",
@@ -1294,6 +1396,44 @@
       "retrieved_at": "2026-08-04T09:38:23.793147Z",
       "status": "found"
     },
+    "crossref:title:ab8d443eed7b10d958066e3f946afaba65aad21de7e6f03c7460addac1cece9b": {
+      "expires_at": "2026-08-17T00:36:48.366187Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ashis Kumar Pati",
+            "orcid": null
+          },
+          {
+            "name": "Rajesh Vayyala",
+            "orcid": null
+          },
+          {
+            "name": "Kuldip Mohanty",
+            "orcid": "https://orcid.org/0009-0007-0065-5030"
+          },
+          {
+            "name": "Uttamita Das",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/access.2026.3720798",
+        "landing_page": "https://doi.org/10.1109/access.2026.3720798",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/access.2026.3720798",
+        "publication_date": "2026",
+        "title": "Quantum Machine Learning: Foundational Principles to Practical Applications",
+        "venue": "IEEE Access",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-10T00:36:48.366187Z",
+      "status": "found"
+    },
     "crossref:title:b015a3db8ae3989df6f7903232edb2cd1491fdcf78a23d74fe8f4da2ce3a57dd": {
       "expires_at": "2026-08-11T09:38:41.635244Z",
       "record": {
@@ -1392,6 +1532,48 @@
       "retrieved_at": "2026-08-09T00:36:06.532514Z",
       "status": "not_found"
     },
+    "crossref:title:d07b4db1154d6c958fe930020e7dc85f1789fae9f328d95fdfa6b887cdfafa9d": {
+      "expires_at": "2026-08-17T00:36:49.160804Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Amin Shafiee",
+            "orcid": null
+          },
+          {
+            "name": "Febin Sunny",
+            "orcid": null
+          },
+          {
+            "name": "Ebadollah Taheri",
+            "orcid": null
+          },
+          {
+            "name": "Mahdi Nikdast",
+            "orcid": null
+          },
+          {
+            "name": "Sudeep Pasricha",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-3-032-09253-3_6",
+        "landing_page": "https://doi.org/10.1007/978-3-032-09253-3_6",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/978-3-032-09253-3_6",
+        "publication_date": "2026",
+        "title": "Accelerating AI Applications with Silicon Photonics: Status and Perspective",
+        "venue": "Smart and Connected Health: Applications and Real-World Use Cases",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-10T00:36:49.160804Z",
+      "status": "found"
+    },
     "crossref:title:d83f470288b8278c6c2595d43c0da3da5113b445c8a79e121a0b4c6c87d49e84": {
       "expires_at": "2026-08-11T09:38:21.835495Z",
       "record": {
@@ -1466,6 +1648,64 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:49.500080Z",
+      "status": "found"
+    },
+    "crossref:title:db822be0c4fb9ec39b46cafbc7ddba35220ed79f7b9d4770d9b067f12173c050": {
+      "expires_at": "2026-08-17T00:36:44.025497Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yusuf O. Jimoh",
+            "orcid": null
+          },
+          {
+            "name": "Jiawei Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Eric C. Blow",
+            "orcid": null
+          },
+          {
+            "name": "Hyuma Umeda",
+            "orcid": null
+          },
+          {
+            "name": "Yuxin Wang",
+            "orcid": null
+          },
+          {
+            "name": "Lei Xu",
+            "orcid": null
+          },
+          {
+            "name": "Eli A. Doris",
+            "orcid": null
+          },
+          {
+            "name": "Bhavin J. Shastri",
+            "orcid": null
+          },
+          {
+            "name": "Paul R. Prucnal",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jlt.2026.3720248",
+        "landing_page": "https://doi.org/10.1109/jlt.2026.3720248",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/jlt.2026.3720248",
+        "publication_date": "2026",
+        "title": "Neuromorphic Photonic Processors Using Microring Resonators: Elements, Performance, Limits, and Applications",
+        "venue": "Journal of Lightwave Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-10T00:36:44.025497Z",
       "status": "found"
     },
     "crossref:title:e477316069b68854ffd08b1a94b73da0f813690d6298ed8c1c8c7b819be2e740": {
@@ -1692,6 +1932,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-09T00:36:09.165601Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/978-3-032-09253-3_6": {
+      "expires_at": "2026-09-09T00:36:49.495557Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Amin Shafiee",
+            "orcid": "https://orcid.org/0000-0002-7814-2370"
+          },
+          {
+            "name": "Febin Sunny",
+            "orcid": "https://orcid.org/0000-0002-3619-1465"
+          },
+          {
+            "name": "Ebadollah Taheri",
+            "orcid": "https://orcid.org/0000-0001-5099-5155"
+          },
+          {
+            "name": "Mahdi Nikdast",
+            "orcid": null
+          },
+          {
+            "name": "Sudeep Pasricha",
+            "orcid": "https://orcid.org/0000-0002-0846-0066"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-3-032-09253-3_6",
+        "landing_page": "https://doi.org/10.1007/978-3-032-09253-3_6",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7172416388",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7172416388",
+        "publication_date": "2026-01-01",
+        "title": "Accelerating AI Applications with Silicon Photonics: Status and Perspective",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-10T00:36:49.495557Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s11433-026-2995-7": {
@@ -2316,6 +2598,44 @@
       "retrieved_at": "2026-08-07T01:30:21.116723Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/access.2026.3720798": {
+      "expires_at": "2026-09-09T00:36:48.719744Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ashis Pati",
+            "orcid": "https://orcid.org/0000-0002-8353-6358"
+          },
+          {
+            "name": "Rajesh Vayyala",
+            "orcid": null
+          },
+          {
+            "name": "Kuldip Mohanty",
+            "orcid": null
+          },
+          {
+            "name": "Uttamita Das",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/access.2026.3720798",
+        "landing_page": "https://doi.org/10.1109/access.2026.3720798",
+        "open_access_url": "https://doi.org/10.1109/access.2026.3720798",
+        "openalex_id": "https://openalex.org/W7172518256",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7172518256",
+        "publication_date": "2026-01-01",
+        "title": "Quantum Machine Learning: Foundational Principles to Practical Applications",
+        "venue": "IEEE Access",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-10T00:36:48.719744Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/icc59461.2026.11588032": {
       "expires_at": "2026-09-03T09:38:38.333024Z",
       "record": {
@@ -2462,6 +2782,64 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:19.738151Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/jlt.2026.3720248": {
+      "expires_at": "2026-09-09T00:36:44.372773Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yusuf O. Jimoh",
+            "orcid": null
+          },
+          {
+            "name": "Jiawei Zhang",
+            "orcid": "https://orcid.org/0000-0003-0740-0851"
+          },
+          {
+            "name": "Eric C. Blow",
+            "orcid": "https://orcid.org/0000-0002-8190-1964"
+          },
+          {
+            "name": "Hideo Umeda",
+            "orcid": null
+          },
+          {
+            "name": "Yuxin Wang",
+            "orcid": null
+          },
+          {
+            "name": "Lei Xu",
+            "orcid": "https://orcid.org/0000-0002-2020-4268"
+          },
+          {
+            "name": "Eli A. Doris",
+            "orcid": "https://orcid.org/0000-0003-4015-3303"
+          },
+          {
+            "name": "Bhavin J. Shastri",
+            "orcid": "https://orcid.org/0000-0001-5040-8248"
+          },
+          {
+            "name": "Paul R. Prucnal",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jlt.2026.3720248",
+        "landing_page": "https://doi.org/10.1109/jlt.2026.3720248",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7172428442",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7172428442",
+        "publication_date": "2026-01-01",
+        "title": "Neuromorphic Photonic Processors Using Microring Resonators: Elements, Performance, Limits, and Applications",
+        "venue": "Journal of Lightwave Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-10T00:36:44.372773Z",
       "status": "found"
     },
     "openalex:doi:10.1109/mipro70003.2026.11591687": {
@@ -2640,6 +3018,90 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:55.436916Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1145/3770855.3817661": {
+      "expires_at": "2026-09-09T00:36:50.098665Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sun He",
+            "orcid": "https://orcid.org/0009-0003-2518-7481"
+          },
+          {
+            "name": "Jinrui Zhou",
+            "orcid": "https://orcid.org/0009-0003-9326-889X"
+          },
+          {
+            "name": "Li Li",
+            "orcid": "https://orcid.org/0000-0002-2044-8289"
+          },
+          {
+            "name": "Yebo Wu",
+            "orcid": "https://orcid.org/0000-0002-2422-1356"
+          },
+          {
+            "name": "Mingjun Xiao",
+            "orcid": "https://orcid.org/0000-0001-7767-7763"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3770855.3817661",
+        "landing_page": "https://doi.org/10.1145/3770855.3817661",
+        "open_access_url": "https://doi.org/10.1145/3770855.3817661",
+        "openalex_id": "https://openalex.org/W7196995510",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7196995510",
+        "publication_date": "2026-08-06",
+        "title": "HeimdaLLM: Efficient Cloud-assisted Federated Fine-tuning with Zeroth-Order Rectification for LLMs",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-10T00:36:50.098665Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1145/3770855.3817738": {
+      "expires_at": "2026-09-09T00:36:44.902810Z",
+      "record": {
+        "abstract": "Recent progress in large-scale models with generative task capabilities allows users to produce high-quality content directly from text prompts. These contents can be further improved through prompt optimization, which is usually treated as a black-box optimization problem since gradients are inaccessible in the Model-as-a-Service setting. Existing state-of-the-art prompt optimization methods in the white-box setting typically optimize soft-embedding prompts but require access to gradients and thus cannot be applied to black-box APIs. To address this limitation, we propose a novel modality-agnostic black-box prompt enhancement framework that optimizes additional parameters within the low-rank adaptation (LoRA) and can effectively collaborate with white-box prompt optimization methods to further improve the performance of prompt optimization. Specifically, a Zeroth-Order LoRA Optimization (ZOLO) method was proposed to fine-tune an open-source LLM, establishing an O (1/T) convergence rate with theoretical guarantees to achieve automatic optimization of hard prompts, which are then fed into a black-box target model to generate higher-quality content. Experimental results on Text-to-Image and Text-to-Text demonstrate that our method outperforms manually crafted prompts and baseline models in both automated evaluation metrics and human preference ratings while maintaining a smaller parameter size, showcasing its effectiveness across diverse generation tasks. Code is available at https://github.com/xcli23/ZOLO.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xingchen Li",
+            "orcid": "https://orcid.org/0009-0009-8021-2815"
+          },
+          {
+            "name": "JIA ZHANG",
+            "orcid": "https://orcid.org/0009-0006-5311-4871"
+          },
+          {
+            "name": "Man Tianxing",
+            "orcid": "https://orcid.org/0000-0003-2187-1641"
+          },
+          {
+            "name": "Wenkang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Bin Gu",
+            "orcid": "https://orcid.org/0000-0001-6049-1815"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3770855.3817738",
+        "landing_page": "https://doi.org/10.1145/3770855.3817738",
+        "open_access_url": "https://doi.org/10.1145/3770855.3817738",
+        "openalex_id": "https://openalex.org/W7197011546",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7197011546",
+        "publication_date": "2026-08-06",
+        "title": "Modality-Agnostic Zeroth-Order LoRA Fine-Tuning for Black-Box Prompt Optimization",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-10T00:36:44.902810Z",
       "status": "found"
     },
     "openalex:doi:10.1145/3837864": {
@@ -3388,10 +3850,28 @@
       "retrieved_at": "2026-08-09T00:36:11.627946Z",
       "status": "not_found"
     },
+    "openalex:title:6d8613ddccf0a73c97872be57802b9cbab36cc984a2d1e9b479f60dada4f95ae": {
+      "expires_at": "2026-08-17T00:36:48.038952Z",
+      "record": null,
+      "retrieved_at": "2026-08-10T00:36:48.038952Z",
+      "status": "not_found"
+    },
     "openalex:title:78587fbfd52d80d77d5892c55558b240292a8550fcf34daa280fbb6a87d9928d": {
       "expires_at": "2026-08-11T09:38:26.349123Z",
       "record": null,
       "retrieved_at": "2026-08-04T09:38:26.349123Z",
+      "status": "not_found"
+    },
+    "openalex:title:868b33466991620b31a192ee87b8df510a3ef61fed6e187284bb2224d98cfda0": {
+      "expires_at": "2026-08-17T00:36:45.916459Z",
+      "record": null,
+      "retrieved_at": "2026-08-10T00:36:45.916459Z",
+      "status": "not_found"
+    },
+    "openalex:title:96c0231f25d36894ae4d4cc3d5dee0503439418726f910688ddc192f29cab7b6": {
+      "expires_at": "2026-08-17T00:36:46.851872Z",
+      "record": null,
+      "retrieved_at": "2026-08-10T00:36:46.851872Z",
       "status": "not_found"
     },
     "openalex:title:b063211f9f74d0395e687813f2847579df6b8341dce8fa35f74dae65243b9c91": {

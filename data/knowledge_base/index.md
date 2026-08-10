@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`9`
-- 更新时间：`2026-08-09T00:37:29.798133Z`
+- 论文数：`12`
+- 更新时间：`2026-08-10T00:38:15.693698Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Emerging light-driven neuromorphic hardware for artificial intelligence
+
+- DOI/链接：[10.1038/s41427-026-00671-6](https://doi.org/10.1038/s41427-026-00671-6)
+- 期刊/年份：NPG Asia Materials，2026
+- 摘要日期：`2026-08-10`
+- 候选 ID：`83a830ace13b5158f346c392`
+- 标签：application:传感器内计算, application:实时感知, application:机器视觉, architecture:unclear, hardware_validation:unclear, project:optical-neural-networks
 
 ### Scalable Back-Propagation-Free Training of Optical Physics-Informed Neural Networks
 
@@ -71,6 +79,22 @@
 - 标签：application:分布式声学传感（das）, application:图像分类（cifar-10、fashion-mnist、mnist）, application:语音识别（fsdd）, architecture:integrated, hardware_validation:mixed, project:optical-neural-networks
 
 ## zeroth-order-optimization
+
+### Modality-Agnostic Zeroth-Order LoRA Fine-Tuning for Black-Box Prompt Optimization
+
+- DOI/链接：[10.1145/3770855.3817738](https://doi.org/10.1145/3770855.3817738)
+- 期刊/年份：Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2，2026
+- 摘要日期：`2026-08-10`
+- 候选 ID：`172a6e3e7b78c39c328487a6`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
+
+### HeimdaLLM: Efficient Cloud-assisted Federated Fine-tuning with Zeroth-Order Rectification for LLMs
+
+- DOI/链接：[10.1145/3770855.3817661](https://doi.org/10.1145/3770855.3817661)
+- 期刊/年份：Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2，2026
+- 摘要日期：`2026-08-10`
+- 候选 ID：`ead3d4ba8c5090acac05878a`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
 
 ### Scalable Back-Propagation-Free Training of Optical Physics-Informed Neural Networks
 

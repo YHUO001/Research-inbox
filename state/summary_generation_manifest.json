@@ -1,108 +1,106 @@
 {
   "abstract_fallback_candidate_ids": [
-    "973790e22c46d30721660799",
-    "2b5f9302fe96c2793d48540e",
-    "0e5c75b6132afcfb1f7afb17"
+    "172a6e3e7b78c39c328487a6",
+    "ead3d4ba8c5090acac05878a"
   ],
-  "abstract_fallback_count": 3,
+  "abstract_fallback_count": 2,
   "architecture_evidence": {
-    "0e5c75b6132afcfb1f7afb17": {
+    "172a6e3e7b78c39c328487a6": {
       "changed": false,
       "free_space_evidence": [],
-      "integrated_evidence": [
-        "Our approach involves three key innovations: (1) a sparse-grid Stein derivative estimator to avoid the BP in the loss evaluation of a PINN, (2) a dimension-reduced zeroth-order optimization via tensor-train decomposition to achieve better scalability and convergence in BP-free training, and (3) a scalable on-chip photonic PINN training accelerator design using photonic tensor cores."
-      ],
-      "previous_type": "integrated",
-      "resolved_type": "integrated"
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
     },
-    "2b5f9302fe96c2793d48540e": {
+    "83a830ace13b5158f346c392": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": "unclear",
       "resolved_type": "unclear"
     },
-    "973790e22c46d30721660799": {
+    "ead3d4ba8c5090acac05878a": {
       "changed": false,
       "free_space_evidence": [],
-      "integrated_evidence": [
-        "These results highlight the promising performance and application potential of our device for future on-chip photonic neural networks and advanced optical computing."
-      ],
-      "previous_type": "integrated",
-      "resolved_type": "integrated"
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 4,
-  "completed_at": "2026-08-09T00:37:29.798133Z",
+  "automatic_queue_candidate_count": 3,
+  "completed_at": "2026-08-10T00:38:15.693698Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "0e5c75b6132afcfb1f7afb17",
-    "2b5f9302fe96c2793d48540e",
-    "973790e22c46d30721660799"
+    "172a6e3e7b78c39c328487a6",
+    "83a830ace13b5158f346c392",
+    "ead3d4ba8c5090acac05878a"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-08-09",
-  "digest_json_file": "runtime-state/data/digests/2026-08-09.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-08-09.generated.md",
+  "digest_date": "2026-08-10",
+  "digest_json_file": "runtime-state/data/digests/2026-08-10.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-08-10.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0410736,
+  "estimated_cost_cny": 0.0513564,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "0e5c75b6132afcfb1f7afb17": {
+    "172a6e3e7b78c39c328487a6": {
       "abstract_available": true,
       "attempt_count": 3,
-      "candidate_id": "0e5c75b6132afcfb1f7afb17",
+      "candidate_id": "172a6e3e7b78c39c328487a6",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 0.645,
-      "error": "https://doi.org/10.1145/3837864: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "elapsed_seconds": 0.745,
+      "error": "https://doi.org/10.1145/3770855.3817738: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": null,
       "section_headings": [],
-      "source_url": "https://doi.org/10.1145/3837864",
+      "source_url": "https://doi.org/10.1145/3770855.3817738",
       "status": "not_available",
       "text_persisted": false
     },
-    "2b5f9302fe96c2793d48540e": {
+    "83a830ace13b5158f346c392": {
       "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "2b5f9302fe96c2793d48540e",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 6.5,
-      "error": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC14143/3110867/Optical-neural-networks-for-ultrafast-quantum-state-tomography/10.1117/12.3110867.full: no method-oriented HTML section found; https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC14143/PC141430U/Optical-neural-networks-for-ultrafast-quantum-state-tomography/10.1117/12.3110867.short: no method-oriented HTML section found; https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC14143/PC141430U/Optical-neural-networks-for-ultrafast-quantum-state-tomography/10.1117/12.3110867.short: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.1117/12.3110867",
-      "status": "not_available",
+      "attempt_count": 1,
+      "candidate_id": "83a830ace13b5158f346c392",
+      "character_count": 3606,
+      "content_sha256": "d6df47b446d750a76a305a5a55944237418922e5e85862f1d7a058db450a35a7",
+      "elapsed_seconds": 1.068,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "application/xml+jats",
+      "section_headings": [
+        "implementation",
+        "system architecture"
+      ],
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41427-026-00671-6&p=1",
+      "status": "used",
       "text_persisted": false
     },
-    "973790e22c46d30721660799": {
+    "ead3d4ba8c5090acac05878a": {
       "abstract_available": true,
       "attempt_count": 3,
-      "candidate_id": "973790e22c46d30721660799",
+      "candidate_id": "ead3d4ba8c5090acac05878a",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 3.13,
-      "error": "https://aip.figshare.com/collections/Reconfigurable_Optical_Nonlinear_Activation_Functions_Using_a_Phase-Change_Microring_for_Photonic_Neural_Networks/8604716/1: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "elapsed_seconds": 0.57,
+      "error": "https://doi.org/10.1145/3770855.3817661: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": null,
       "section_headings": [],
-      "source_url": "https://doi.org/10.60893/figshare.app.c.8604716.v1",
+      "source_url": "https://doi.org/10.1145/3770855.3817661",
       "status": "not_available",
       "text_persisted": false
     }
   },
   "full_text_persisted": false,
-  "full_text_used": false,
+  "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_and_abstract_only",
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
   "newly_completed_candidate_count": 3,
@@ -122,141 +120,153 @@
   "output_language": "zh-CN",
   "prepared_request_count": 3,
   "provider": "deepseek",
-  "queue_sha256": "c493094fe3adcedb0520838866d2fa84732e639a9b5b5ac8af938ff7df52d2bd",
+  "queue_sha256": "5ac3ed6759c29d7ba1cd80b43c50bdefec09b526d7a47446d5147d0db59bcf59",
   "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-08-09.jsonl",
-  "request_sha256": "7fdef604854a23ba5186d49463c06509b04191d969fb85d9b316727d75a0ba0f",
+  "request_file": "runtime-state/data/summary_requests/2026-08-10.jsonl",
+  "request_sha256": "4e13e770ca777f7104b7ce86742a71e1c9c144d3470e8bd5c46bcaca21e357c5",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "8d4f6c2843f583bb2fe929152e2bee4ecfc183f9aa041c2b41f016883d88a271",
+  "selection_manifest_sha256": "f4ff37bf0479b99226ae8355d991262740e553f7d4dd90217d5c1ec45633e086",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 4,
+  "source_queue_candidate_count": 3,
   "stage_timings": {
-    "full_text_preparation_seconds": 10.281,
+    "full_text_preparation_seconds": 2.389,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "973790e22c46d30721660799",
-        "elapsed_seconds": 23.901,
+        "candidate_id": "172a6e3e7b78c39c328487a6",
+        "elapsed_seconds": 21.05,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1738,
+          "completion_tokens": 1549,
           "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1438,
-          "prompt_tokens": 3486,
-          "total_tokens": 5224
+          "prompt_cache_miss_tokens": 1491,
+          "prompt_tokens": 3539,
+          "total_tokens": 5088
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "2b5f9302fe96c2793d48540e",
-        "elapsed_seconds": 16.639,
+        "candidate_id": "ead3d4ba8c5090acac05878a",
+        "elapsed_seconds": 16.626,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1222,
+          "completion_tokens": 1167,
           "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1298,
-          "prompt_tokens": 3346,
-          "total_tokens": 4568
+          "prompt_cache_miss_tokens": 1277,
+          "prompt_tokens": 3325,
+          "total_tokens": 4492
+        }
+      },
+      {
+        "attempt": 2,
+        "candidate_id": "ead3d4ba8c5090acac05878a",
+        "elapsed_seconds": 16.612,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1136,
+          "prompt_cache_hit_tokens": 3200,
+          "prompt_cache_miss_tokens": 342,
+          "prompt_tokens": 3542,
+          "total_tokens": 4678
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "0e5c75b6132afcfb1f7afb17",
-        "elapsed_seconds": 22.875,
+        "candidate_id": "83a830ace13b5158f346c392",
+        "elapsed_seconds": 26.387,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1695,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1594,
-          "prompt_tokens": 3642,
-          "total_tokens": 5337
+          "completion_tokens": 1882,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 2464,
+          "prompt_tokens": 4384,
+          "total_tokens": 6266
         }
       }
     ],
-    "model_generation_and_validation_seconds": 63.436
+    "model_generation_and_validation_seconds": 80.693
   },
   "status": "completed_automatic",
   "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-08-09.jsonl",
+  "summary_file": "runtime-state/data/summaries/2026-08-10.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
   "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "0e5c75b6132afcfb1f7afb17": {
-        "free_space_evidence": [],
-        "integrated_evidence": [
-          "Our approach involves three key innovations: (1) a sparse-grid Stein derivative estimator to avoid the BP in the loss evaluation of a PINN, (2) a dimension-reduced zeroth-order optimization via tensor-train decomposition to achieve better scalability and convergence in BP-free training, and (3) a scalable on-chip photonic PINN training accelerator design using photonic tensor cores."
-        ],
-        "model_value": "integrated",
-        "repaired": false,
-        "resolved_type": "integrated"
-      },
-      "2b5f9302fe96c2793d48540e": {
+      "172a6e3e7b78c39c328487a6": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": "free_space",
+        "model_value": null,
+        "repaired": false,
+        "resolved_type": "unclear"
+      },
+      "83a830ace13b5158f346c392": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "hybrid",
         "repaired": true,
         "resolved_type": "unclear"
       },
-      "973790e22c46d30721660799": {
+      "ead3d4ba8c5090acac05878a": {
         "free_space_evidence": [],
-        "integrated_evidence": [
-          "These results highlight the promising performance and application potential of our device for future on-chip photonic neural networks and advanced optical computing."
-        ],
-        "model_value": "integrated",
+        "integrated_evidence": [],
+        "model_value": null,
         "repaired": false,
-        "resolved_type": "integrated"
+        "resolved_type": "unclear"
       }
     },
     "architecture_repairs": 1,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "0e5c75b6132afcfb1f7afb17": {
+      "172a6e3e7b78c39c328487a6": {
         "abstract_available": true,
         "attempt_count": 3,
-        "candidate_id": "0e5c75b6132afcfb1f7afb17",
+        "candidate_id": "172a6e3e7b78c39c328487a6",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 0.645,
-        "error": "https://doi.org/10.1145/3837864: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "elapsed_seconds": 0.745,
+        "error": "https://doi.org/10.1145/3770855.3817738: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": null,
         "section_headings": [],
-        "source_url": "https://doi.org/10.1145/3837864",
+        "source_url": "https://doi.org/10.1145/3770855.3817738",
         "status": "not_available",
         "text_persisted": false
       },
-      "2b5f9302fe96c2793d48540e": {
+      "83a830ace13b5158f346c392": {
         "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "2b5f9302fe96c2793d48540e",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 6.5,
-        "error": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC14143/3110867/Optical-neural-networks-for-ultrafast-quantum-state-tomography/10.1117/12.3110867.full: no method-oriented HTML section found; https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC14143/PC141430U/Optical-neural-networks-for-ultrafast-quantum-state-tomography/10.1117/12.3110867.short: no method-oriented HTML section found; https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC14143/PC141430U/Optical-neural-networks-for-ultrafast-quantum-state-tomography/10.1117/12.3110867.short: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.1117/12.3110867",
-        "status": "not_available",
+        "attempt_count": 1,
+        "candidate_id": "83a830ace13b5158f346c392",
+        "character_count": 3606,
+        "content_sha256": "d6df47b446d750a76a305a5a55944237418922e5e85862f1d7a058db450a35a7",
+        "elapsed_seconds": 1.068,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "application/xml+jats",
+        "section_headings": [
+          "implementation",
+          "system architecture"
+        ],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41427-026-00671-6&p=1",
+        "status": "used",
         "text_persisted": false
       },
-      "973790e22c46d30721660799": {
+      "ead3d4ba8c5090acac05878a": {
         "abstract_available": true,
         "attempt_count": 3,
-        "candidate_id": "973790e22c46d30721660799",
+        "candidate_id": "ead3d4ba8c5090acac05878a",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 3.13,
-        "error": "https://aip.figshare.com/collections/Reconfigurable_Optical_Nonlinear_Activation_Functions_Using_a_Phase-Change_Microring_for_Photonic_Neural_Networks/8604716/1: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "elapsed_seconds": 0.57,
+        "error": "https://doi.org/10.1145/3770855.3817661: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": null,
         "section_headings": [],
-        "source_url": "https://doi.org/10.60893/figshare.app.c.8604716.v1",
+        "source_url": "https://doi.org/10.1145/3770855.3817661",
         "status": "not_available",
         "text_persisted": false
       }
@@ -264,14 +274,14 @@
     "generation_metadata_repair_responses": 3,
     "numeric_grounding_repair_responses": 1,
     "numeric_grounding_repairs": {
-      "2b5f9302fe96c2793d48540e": [
+      "172a6e3e7b78c39c328487a6": [
         {
           "action": "redacted_unsupported_sentence",
-          "original_excerpt": "光学神经网络的规模是否可扩展到更高量子比特数（如4或更高）尚未验证。",
-          "path": "limitations_and_open_questions[0]",
+          "original_excerpt": "零阶优化步骤：在第t次迭代，对当前LoRA参数向量θ_t施加随机扰动δ，构造θ_t+μδ和θ_t-μδ（μ为扰动尺度），将对应的LLM生成的硬提示输入黑盒目标模型，得到函数值F(θ_t+μδ)和F(θ_t-μδ)，利用有限差分近似梯度∇F(θ_t)≈ (F(θ_t+μδ)-F(θ_t-μδ))/(2μ) δ。",
+          "path": "method_implementation[1]",
           "replacement": "相关定量细节未在标题或摘要中提供。",
           "tokens": [
-            "4"
+            "2"
           ]
         }
       ]
@@ -280,10 +290,10 @@
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 4655,
-    "prompt_cache_hit_tokens": 6144,
-    "prompt_cache_miss_tokens": 4330,
-    "prompt_tokens": 10474,
-    "total_tokens": 15129
+    "completion_tokens": 5734,
+    "prompt_cache_hit_tokens": 9216,
+    "prompt_cache_miss_tokens": 5574,
+    "prompt_tokens": 14790,
+    "total_tokens": 20524
   }
 }

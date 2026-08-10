@@ -19,6 +19,15 @@
       "summary_record_sha256": "37253d9a87aa5ef705506ff5770ebde59077ed2baab84197e48a23180e27d747",
       "title": "Noise-Aware Shrinkage for Differentially Private Zeroth-Order Fine-Tuning of Large Language Models"
     },
+    "172a6e3e7b78c39c328487a6": {
+      "digest_date": "2026-08-10",
+      "doi": "10.1145/3770855.3817738",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "44b6432693342a865346461b60eb744c14b9f2a0c1d12c77e24080dc8b433a36",
+      "title": "Modality-Agnostic Zeroth-Order LoRA Fine-Tuning for Black-Box Prompt Optimization"
+    },
     "1cf1fcd769c5ace951188b8c": {
       "digest_date": "2026-08-07",
       "doi": "10.1364/optica.591264",
@@ -73,6 +82,15 @@
       "summary_record_sha256": "46be6ebe47db378bee8526f7d4afa137c5ca3903150be4b1a7de7b0436378e05",
       "title": "Scalable photonic tensor core coupled with direct optimization strategy for optical neural networks"
     },
+    "83a830ace13b5158f346c392": {
+      "digest_date": "2026-08-10",
+      "doi": "10.1038/s41427-026-00671-6",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "5e759c382b39f5b054a3122e808b02c19cab0877935f13a3c2bb4359b4d2af3f",
+      "title": "Emerging light-driven neuromorphic hardware for artificial intelligence"
+    },
     "973790e22c46d30721660799": {
       "digest_date": "2026-08-09",
       "doi": "10.60893/figshare.app.c.8604716.v1",
@@ -81,6 +99,15 @@
       ],
       "summary_record_sha256": "405da6f85e07c71a653f968f4a282526a3d0f9ac9a9c670dda6d83d4913e5e7d",
       "title": "Reconfigurable Optical Nonlinear Activation Functions Using a Phase-Change Microring for Photonic Neural Networks"
+    },
+    "ead3d4ba8c5090acac05878a": {
+      "digest_date": "2026-08-10",
+      "doi": "10.1145/3770855.3817661",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "627216976e9ee7adb98960d57af37a9c1275d46231f11eadc4d879f3f7ba5031",
+      "title": "HeimdaLLM: Efficient Cloud-assisted Federated Fine-tuning with Zeroth-Order Rectification for LLMs"
     }
   },
   "by_digest_date": {
@@ -98,12 +125,20 @@
       "0e5c75b6132afcfb1f7afb17",
       "2b5f9302fe96c2793d48540e",
       "973790e22c46d30721660799"
+    ],
+    "2026-08-10": [
+      "172a6e3e7b78c39c328487a6",
+      "83a830ace13b5158f346c392",
+      "ead3d4ba8c5090acac05878a"
     ]
   },
   "by_doi": {
+    "10.1038/s41427-026-00671-6": "83a830ace13b5158f346c392",
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
     "10.1117/12.3110867": "2b5f9302fe96c2793d48540e",
     "10.1117/12.3116253": "7d6c2a059923ebe445a1cdf7",
+    "10.1145/3770855.3817661": "ead3d4ba8c5090acac05878a",
+    "10.1145/3770855.3817738": "172a6e3e7b78c39c328487a6",
     "10.1145/3837864": "0e5c75b6132afcfb1f7afb17",
     "10.1364/cleo_at.2026.jtu.84": "5017adbd33e6ddd5c320a4c4",
     "10.1364/optica.591264": "1cf1fcd769c5ace951188b8c",
@@ -120,16 +155,22 @@
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
       "7d6c2a059923ebe445a1cdf7",
+      "83a830ace13b5158f346c392",
       "973790e22c46d30721660799"
     ],
     "zeroth-order-optimization": [
       "0e5c75b6132afcfb1f7afb17",
-      "142dc76f41fc25448b82c91e"
+      "142dc76f41fc25448b82c91e",
+      "172a6e3e7b78c39c328487a6",
+      "ead3d4ba8c5090acac05878a"
     ]
   },
   "by_tag": {
     "application:mnist手写数字分类": [
       "973790e22c46d30721660799"
+    ],
+    "application:传感器内计算": [
+      "83a830ace13b5158f346c392"
     ],
     "application:低维和高维偏微分方程求解": [
       "0e5c75b6132afcfb1f7afb17"
@@ -152,8 +193,14 @@
     "application:大型模型部署": [
       "7d6c2a059923ebe445a1cdf7"
     ],
+    "application:实时感知": [
+      "83a830ace13b5158f346c392"
+    ],
     "application:未提供": [
       "5017adbd33e6ddd5c320a4c4"
+    ],
+    "application:机器视觉": [
+      "83a830ace13b5158f346c392"
     ],
     "application:语音识别（fsdd）": [
       "1cf1fcd769c5ace951188b8c"
@@ -173,7 +220,8 @@
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
       "541094f286db8902f2fe6077",
-      "7d6c2a059923ebe445a1cdf7"
+      "7d6c2a059923ebe445a1cdf7",
+      "83a830ace13b5158f346c392"
     ],
     "hardware_validation:mixed": [
       "1cf1fcd769c5ace951188b8c",
@@ -189,7 +237,8 @@
       "541094f286db8902f2fe6077"
     ],
     "hardware_validation:unclear": [
-      "7d6c2a059923ebe445a1cdf7"
+      "7d6c2a059923ebe445a1cdf7",
+      "83a830ace13b5158f346c392"
     ],
     "project:optical-neural-networks": [
       "0e5c75b6132afcfb1f7afb17",
@@ -199,27 +248,38 @@
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
       "7d6c2a059923ebe445a1cdf7",
+      "83a830ace13b5158f346c392",
       "973790e22c46d30721660799"
     ],
     "project:zeroth-order-optimization": [
       "0e5c75b6132afcfb1f7afb17",
-      "142dc76f41fc25448b82c91e"
+      "142dc76f41fc25448b82c91e",
+      "172a6e3e7b78c39c328487a6",
+      "ead3d4ba8c5090acac05878a"
     ],
     "zo:forward_only": [
       "0e5c75b6132afcfb1f7afb17",
-      "142dc76f41fc25448b82c91e"
+      "142dc76f41fc25448b82c91e",
+      "172a6e3e7b78c39c328487a6",
+      "ead3d4ba8c5090acac05878a"
     ],
     "zo:low_rank_or_subspace": [
       "0e5c75b6132afcfb1f7afb17",
-      "142dc76f41fc25448b82c91e"
+      "142dc76f41fc25448b82c91e",
+      "172a6e3e7b78c39c328487a6",
+      "ead3d4ba8c5090acac05878a"
     ],
     "zo:query_reuse": [
       "0e5c75b6132afcfb1f7afb17",
-      "142dc76f41fc25448b82c91e"
+      "142dc76f41fc25448b82c91e",
+      "172a6e3e7b78c39c328487a6",
+      "ead3d4ba8c5090acac05878a"
     ],
     "zo:structured_perturbation": [
       "0e5c75b6132afcfb1f7afb17",
-      "142dc76f41fc25448b82c91e"
+      "142dc76f41fc25448b82c91e",
+      "172a6e3e7b78c39c328487a6",
+      "ead3d4ba8c5090acac05878a"
     ],
     "zo:total_query_reduction": [
       "0e5c75b6132afcfb1f7afb17"
@@ -235,6 +295,9 @@
     "CLEO 2026": [
       "5017adbd33e6ddd5c320a4c4"
     ],
+    "NPG Asia Materials": [
+      "83a830ace13b5158f346c392"
+    ],
     "Optica": [
       "1cf1fcd769c5ace951188b8c"
     ],
@@ -243,6 +306,10 @@
     ],
     "Photonics for Quantum 2026": [
       "2b5f9302fe96c2793d48540e"
+    ],
+    "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2": [
+      "172a6e3e7b78c39c328487a6",
+      "ead3d4ba8c5090acac05878a"
     ],
     "Research Square": [
       "1e35265ce8678ca96adb8b93"
@@ -258,16 +325,19 @@
     "2026": [
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
+      "172a6e3e7b78c39c328487a6",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
       "7d6c2a059923ebe445a1cdf7",
-      "973790e22c46d30721660799"
+      "83a830ace13b5158f346c392",
+      "973790e22c46d30721660799",
+      "ead3d4ba8c5090acac05878a"
     ]
   },
-  "paper_count": 9,
+  "paper_count": 12,
   "schema_version": 1,
-  "updated_at": "2026-08-09T00:37:29.798133Z"
+  "updated_at": "2026-08-10T00:38:15.693698Z"
 }
