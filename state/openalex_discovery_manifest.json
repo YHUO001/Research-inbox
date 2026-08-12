@@ -1,15 +1,17 @@
 {
   "accepted_candidate_ids": [
-    "2df5e226772b5a4bb44d64a1"
+    "6792ffd96e7c582f31b058a1",
+    "ba6cd5441cc9c6491cb75d49",
+    "c151f668b03c8772abed5099"
   ],
-  "accepted_count": 1,
-  "built_at": "2026-08-11T00:35:52.218130Z",
+  "accepted_count": 3,
+  "built_at": "2026-08-12T00:40:24.450946Z",
   "discovery_version": 1,
-  "duplicate_count": 3,
+  "duplicate_count": 5,
   "duplicate_reasons": {
-    "openalex_work_id": 3
+    "openalex_work_id": 5
   },
-  "filtered_count": 55,
+  "filtered_count": 48,
   "invalid_count": 0,
   "query_error_count": 0,
   "query_summaries": [
@@ -24,10 +26,10 @@
       "raw_results": 10
     },
     {
-      "accepted": 0,
-      "duplicates": 1,
+      "accepted": 2,
+      "duplicates": 0,
       "error": null,
-      "filtered": 9,
+      "filtered": 8,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "photonic-neural-network",
@@ -37,11 +39,11 @@
       "accepted": 0,
       "duplicates": 1,
       "error": null,
-      "filtered": 9,
+      "filtered": 4,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "diffractive-optical-neural-network",
-      "raw_results": 10
+      "raw_results": 5
     },
     {
       "accepted": 0,
@@ -55,9 +57,9 @@
     },
     {
       "accepted": 0,
-      "duplicates": 0,
+      "duplicates": 2,
       "error": null,
-      "filtered": 10,
+      "filtered": 8,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "optical-nonlinear-activation",
@@ -65,13 +67,13 @@
     },
     {
       "accepted": 0,
-      "duplicates": 0,
+      "duplicates": 1,
       "error": null,
-      "filtered": 8,
+      "filtered": 9,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "physical-neural-network-training",
-      "raw_results": 8
+      "raw_results": 10
     },
     {
       "accepted": 0,
@@ -104,11 +106,11 @@
       "raw_results": 0
     }
   ],
-  "raw_result_count": 59,
-  "registry_candidate_count": 64,
-  "registry_sha256": "6cccc00169a003a897e8ebab5a211478600471e699ec35654f764c8534f8efe9",
+  "raw_result_count": 56,
+  "registry_candidate_count": 67,
+  "registry_sha256": "3bf9898f4abcb12272455d832cd8e3dc19e24c7ee16223ded104dd4cf7034dc1",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-08-11",
-  "window_start": "2026-08-07"
+  "window_end": "2026-08-12",
+  "window_start": "2026-08-08"
 }
