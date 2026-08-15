@@ -1,10 +1,10 @@
 {
   "accepted_candidate_ids": [
-    "43278fd4200eda386d7cd376",
-    "c1774faa8eeedb4400958b5b"
+    "0cbf41592278a3ad1b89e219",
+    "3166369bf57d52d7da6644a9"
   ],
   "accepted_count": 2,
-  "built_at": "2026-08-14T00:41:13.945106Z",
+  "built_at": "2026-08-15T00:32:36.669887Z",
   "discovery_version": 1,
   "duplicate_count": 2,
   "duplicate_reasons": {
@@ -26,9 +26,9 @@
     },
     {
       "accepted": 0,
-      "duplicates": 1,
+      "duplicates": 0,
       "error": null,
-      "filtered": 9,
+      "filtered": 10,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "photonic-neural-network",
@@ -36,9 +36,9 @@
     },
     {
       "accepted": 1,
-      "duplicates": 1,
+      "duplicates": 2,
       "error": null,
-      "filtered": 8,
+      "filtered": 7,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "diffractive-optical-neural-network",
@@ -106,10 +106,10 @@
     }
   ],
   "raw_result_count": 63,
-  "registry_candidate_count": 70,
-  "registry_sha256": "a87f29c220c1af53cd5d37082db274d9fef80ae170ea834044e779fed1f7292e",
+  "registry_candidate_count": 72,
+  "registry_sha256": "16cc443be964a4bd7a72a544d530a5ae0f8daa3165f663cc4ea9a81a5d1873ae",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-08-14",
-  "window_start": "2026-08-10"
+  "window_end": "2026-08-15",
+  "window_start": "2026-08-11"
 }
