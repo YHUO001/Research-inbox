@@ -1,4 +1,4 @@
-enrichment_version: 1
+enrichment_version: 2
 
 providers:
   crossref:
@@ -34,6 +34,11 @@ outputs:
   manifest: "state/enrichment_manifest.json"
 
 limits:
+  # This is a per-run work budget, not a lifetime registry-size limit.
+  # Candidates with an existing enrichment whose source fingerprint is unchanged
+  # are reused without consuming the budget. New or source-changed candidates are
+  # enriched deterministically in registry order; any excess remains pending for
+  # a later run and downstream scoring safely falls back to source metadata.
   maximum_candidates_per_run: 100
   maximum_abstract_characters: 10000
 
