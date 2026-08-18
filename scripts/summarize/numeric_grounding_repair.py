@@ -22,7 +22,7 @@ NARRATIVE_FIELDS = (
 
 _NUMBER_LITERAL = re.compile(
     r"(?<![A-Za-z0-9])(?:~|≈|∼|±)?\s*"
-    r"(?P<number>[+-]?(?:\d+(?:\.\d+)?|\.\d+)(?:[eE][+-]?\d+)?)"
+    r"(?P<number>[+\-−]?(?:\d+(?:\.\d+)?|\.\d+)(?:[eE][+\-−]?\d+)?)"
 )
 _SENTENCE_PART = re.compile(r"[^。！？!?；;\n]+[。！？!?；;\n]*")
 _ORDERED_PREFIX = re.compile(
@@ -39,12 +39,14 @@ _BOUNDED_CONTEXT = re.compile(
     re.IGNORECASE,
 )
 _SOURCE_MARKER = "来源记录：\n"
+_FULL_TEXT_START_MARKER = "- 方法上下文开始：\n"
+_FULL_TEXT_END_MARKER = "\n- 方法上下文结束。"
 
 
 def _numeric_occurrences(text: str) -> list[tuple[str, Decimal, int, int]]:
     values: list[tuple[str, Decimal, int, int]] = []
     for match in _NUMBER_LITERAL.finditer(text or ""):
-        raw = match.group("number")
+        raw = match.group("number").replace("−", "-")
         try:
             values.append((raw, Decimal(raw), match.start(), match.end()))
         except InvalidOperation:
@@ -57,10 +59,16 @@ def _close_enough(output: Decimal, source: Decimal) -> bool:
     return abs(output - source) <= tolerance
 
 
-def _source_values(title: str, abstract: str | None) -> list[Decimal]:
+def _source_values(
+    title: str,
+    abstract: str | None,
+    extra_evidence: str | None = None,
+) -> list[Decimal]:
     return [
         value
-        for _, value, _, _ in _numeric_occurrences(f"{title}\n{abstract or ''}")
+        for _, value, _, _ in _numeric_occurrences(
+            f"{title}\n{abstract or ''}\n{extra_evidence or ''}"
+        )
     ]
 
 
@@ -104,9 +112,13 @@ def _walk_strings(value: Any, path: str) -> list[tuple[str, str]]:
 
 
 def unsupported_numeric_diagnostics(
-    summary: dict[str, Any], *, title: str, abstract: str | None
+    summary: dict[str, Any],
+    *,
+    title: str,
+    abstract: str | None,
+    extra_evidence: str | None = None,
 ) -> list[dict[str, Any]]:
-    source_values = _source_values(title, abstract)
+    source_values = _source_values(title, abstract, extra_evidence)
     diagnostics: list[dict[str, Any]] = []
     for field in NARRATIVE_FIELDS:
         for path, text in _walk_strings(summary.get(field), field):
@@ -156,6 +168,7 @@ def _redact_unsupported_sentences(
     *,
     source_values: list[Decimal],
     result_field: bool,
+    evidence_scope: str,
 ) -> tuple[str, list[dict[str, Any]]]:
     repairs: list[dict[str, Any]] = []
     pieces = _SENTENCE_PART.findall(text)
@@ -163,9 +176,9 @@ def _redact_unsupported_sentences(
         pieces = [text]
     output: list[str] = []
     placeholder = (
-        "相关定量结果未在标题或摘要中提供。"
+        f"相关定量结果未在{evidence_scope}中提供。"
         if result_field
-        else "相关定量细节未在标题或摘要中提供。"
+        else f"相关定量细节未在{evidence_scope}中提供。"
     )
     for piece in pieces:
         unsupported = _unsupported_in_text(piece, source_values)
@@ -190,6 +203,7 @@ def _repair_value(
     *,
     path: str,
     source_values: list[Decimal],
+    evidence_scope: str,
 ) -> tuple[Any, list[dict[str, Any]]]:
     if isinstance(value, str):
         updated, actions = _safe_idiom_rewrites(value)
@@ -207,6 +221,7 @@ def _repair_value(
             updated,
             source_values=source_values,
             result_field=path.startswith("reported_results"),
+            evidence_scope=evidence_scope,
         )
         for record in redactions:
             record["path"] = path
@@ -221,6 +236,7 @@ def _repair_value(
                 item,
                 path=f"{path}[{index}]",
                 source_values=source_values,
+                evidence_scope=evidence_scope,
             )
             output.append(repaired)
             repairs.extend(child_repairs)
@@ -234,6 +250,7 @@ def _repair_value(
                 item,
                 path=f"{path}.{key}" if path else str(key),
                 source_values=source_values,
+                evidence_scope=evidence_scope,
             )
             output[str(key)] = repaired
             repairs.extend(child_repairs)
@@ -243,9 +260,14 @@ def _repair_value(
 
 
 def repair_summary_numeric_grounding(
-    summary: dict[str, Any], *, title: str, abstract: str | None
+    summary: dict[str, Any],
+    *,
+    title: str,
+    abstract: str | None,
+    extra_evidence: str | None = None,
+    evidence_scope: str = "标题或摘要",
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
-    source_values = _source_values(title, abstract)
+    source_values = _source_values(title, abstract, extra_evidence)
     output = dict(summary)
     repairs: list[dict[str, Any]] = []
     for field in NARRATIVE_FIELDS:
@@ -255,6 +277,7 @@ def repair_summary_numeric_grounding(
             output[field],
             path=field,
             source_values=source_values,
+            evidence_scope=evidence_scope,
         )
         output[field] = repaired
         repairs.extend(field_repairs)
@@ -274,3 +297,13 @@ def source_evidence_from_user_prompt(user_prompt: str) -> tuple[str, str | None]
     return str(value.get("title") or ""), (
         str(value.get("abstract")) if value.get("abstract") is not None else None
     )
+
+
+def full_text_evidence_from_user_prompt(user_prompt: str) -> str | None:
+    if _FULL_TEXT_START_MARKER not in user_prompt:
+        return None
+    tail = user_prompt.split(_FULL_TEXT_START_MARKER, 1)[1]
+    if _FULL_TEXT_END_MARKER in tail:
+        tail = tail.split(_FULL_TEXT_END_MARKER, 1)[0]
+    value = tail.strip()
+    return value or None
