@@ -1,10 +1,26 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`12`
-- 更新时间：`2026-08-10T00:38:15.693698Z`
+- 论文数：`15`
+- 更新时间：`2026-08-18T13:07:52.039850Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Quantum-limited imaging using diffractive optical neural networks
+
+- DOI/链接：[10.48550/arxiv.2608.12300](https://doi.org/10.48550/arxiv.2608.12300)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-08-18`
+- 候选 ID：`0cbf41592278a3ad1b89e219`
+- 标签：application:望远镜成像, application:超分辨显微, application:遥感, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
+
+### Hardware implementation of photonic neuromorphic autonomous navigation
+
+- DOI/链接：[10.1038/s44335-026-00086-0](https://doi.org/10.1038/s44335-026-00086-0)
+- 期刊/年份：npj Unconventional Computing，2026
+- 摘要日期：`2026-08-18`
+- 候选 ID：`328b1572ba0e31f8f8a6dac1`
+- 标签：application:动态避障, application:自主导航, application:连续动作控制, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Emerging light-driven neuromorphic hardware for artificial intelligence
 
@@ -79,6 +95,14 @@
 - 标签：application:分布式声学传感（das）, application:图像分类（cifar-10、fashion-mnist、mnist）, application:语音识别（fsdd）, architecture:integrated, hardware_validation:mixed, project:optical-neural-networks
 
 ## zeroth-order-optimization
+
+### ZOMP: Zeroth-Order Multi-Modal Prompt Tuning for Vision-Language Models
+
+- DOI/链接：[10.48550/arxiv.2608.08060](https://doi.org/10.48550/arxiv.2608.08060)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-08-18`
+- 候选 ID：`2f9953028e4e0e3b934222c8`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
 
 ### Modality-Agnostic Zeroth-Order LoRA Fine-Tuning for Black-Box Prompt Optimization
 

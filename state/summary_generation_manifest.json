@@ -1,21 +1,49 @@
 {
   "abstract_fallback_candidate_ids": [],
   "abstract_fallback_count": 0,
+  "architecture_evidence": {
+    "0cbf41592278a3ad1b89e219": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    },
+    "2f9953028e4e0e3b934222c8": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    },
+    "328b1572ba0e31f8f8a6dac1": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    }
+  },
+  "architecture_repairs": 0,
   "automatic_history_pending": false,
   "automatic_queue_candidate_count": 5,
+  "completed_at": "2026-08-18T13:07:52.039850Z",
   "completed_candidate_filtered_count": 0,
-  "daily_digest_pending": false,
-  "digest_date": "2026-08-18",
-  "email_enabled": false,
-  "estimated_cost_cny": 0.0946608,
-  "execution_mode": "automatic_daily_batch",
-  "failure_count": 1,
-  "failures": [
-    {
-      "candidate_id": "328b1572ba0e31f8f8a6dac1",
-      "reason": "unsupported numeric claims: -1 at method_implementation[0]: 共 4 维，最终构成 24 维状态向量。动作空间为二维连续向量：归一化线速度（范围 [0, 1] m/s）和角速度（范围 -1 到 1 rad/s，正值表示逆时针旋转）。训练中，机器人从随机起点出发，仅依赖局部传感器信息导航至随机目标，同时避免碰"
-    }
+  "completed_candidate_ids": [
+    "0cbf41592278a3ad1b89e219",
+    "2f9953028e4e0e3b934222c8",
+    "328b1572ba0e31f8f8a6dac1"
   ],
+  "completion_mode": "automatic_daily_batch_after_local_validation",
+  "daily_digest_pending": true,
+  "digest_date": "2026-08-18",
+  "digest_json_file": "runtime-state/data/digests/2026-08-18.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-08-18.generated.md",
+  "email_enabled": false,
+  "estimated_cost_cny": 0.0383558,
+  "execution_mode": "automatic_daily_batch",
+  "failure_count": 0,
+  "failures": [],
   "full_text_method_contexts": {
     "0cbf41592278a3ad1b89e219": {
       "abstract_available": true,
@@ -23,7 +51,7 @@
       "candidate_id": "0cbf41592278a3ad1b89e219",
       "character_count": 5730,
       "content_sha256": "c69f3637ab8af4948016b515bce454e04bb3460f06e4617a9e777a4b4fdbc5bb",
-      "elapsed_seconds": 0.486,
+      "elapsed_seconds": 0.371,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
@@ -40,7 +68,7 @@
       "candidate_id": "2f9953028e4e0e3b934222c8",
       "character_count": 2788,
       "content_sha256": "e0d4e5f30fad22c61541edd8e1ca3b19ee9e440e6209b7d27ee47d61f8b82b24",
-      "elapsed_seconds": 0.365,
+      "elapsed_seconds": 0.404,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
@@ -57,7 +85,7 @@
       "candidate_id": "328b1572ba0e31f8f8a6dac1",
       "character_count": 12000,
       "content_sha256": "9853668bca354197b26fd69c5f513d8c99203f0343c915030784a9d648ab6e3d",
-      "elapsed_seconds": 1.013,
+      "elapsed_seconds": 1.323,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "application/xml+jats",
@@ -75,8 +103,9 @@
   "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
-  "knowledge_base_pending": false,
+  "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
+  "newly_completed_candidate_count": 3,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -86,9 +115,10 @@
       "abstract",
       "temporary_open_full_text_methods"
     ],
+    "full_text_unsupported_sentence_action": "deterministic_redaction",
     "relative_tolerance": 0.02,
     "unit_format_ignored": true,
-    "unsupported_claim_policy": "abstract_fallback_deterministic_qualitative_redaction_then_reject"
+    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
   "prepared_request_count": 3,
@@ -96,75 +126,63 @@
   "queue_sha256": "f0b582b2497f48340dadab2fd913256a5a7e38a9d2d315897a148090e81688ae",
   "request_count": 3,
   "request_file": "runtime-state/data/summary_requests/2026-08-18.jsonl",
-  "request_sha256": "4a18bfa77380582ae531b52ea7032d09159971ec45309e68190c29adda410532",
+  "request_sha256": "d134daa1ba7b9968e6026809912fb2fd8cf818e6a3f6db51190c481b682f283b",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "db2e7b1b3da619b9a69cfb98836b122abba8b459963f045e8e95d140a6fc28f8",
+  "selection_manifest_sha256": "249f83cced7f93c3919ac51d19a3adfe2e0ed7e6e8d8b542110ef126abf806e5",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
   "source_queue_candidate_count": 5,
   "stage_timings": {
-    "full_text_preparation_seconds": 1.872,
+    "full_text_preparation_seconds": 2.105,
     "model_api_calls": [
       {
         "attempt": 1,
         "candidate_id": "0cbf41592278a3ad1b89e219",
-        "elapsed_seconds": 31.062,
+        "elapsed_seconds": 40.078,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2201,
-          "prompt_cache_hit_tokens": 0,
-          "prompt_cache_miss_tokens": 4814,
+          "completion_tokens": 1927,
+          "prompt_cache_hit_tokens": 4736,
+          "prompt_cache_miss_tokens": 78,
           "prompt_tokens": 4814,
-          "total_tokens": 7015
+          "total_tokens": 6741
         }
       },
       {
         "attempt": 1,
         "candidate_id": "2f9953028e4e0e3b934222c8",
-        "elapsed_seconds": 29.953,
+        "elapsed_seconds": 39.002,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2018,
-          "prompt_cache_hit_tokens": 0,
-          "prompt_cache_miss_tokens": 4228,
+          "completion_tokens": 2186,
+          "prompt_cache_hit_tokens": 4224,
+          "prompt_cache_miss_tokens": 4,
           "prompt_tokens": 4228,
-          "total_tokens": 6246
+          "total_tokens": 6414
         }
       },
       {
         "attempt": 1,
         "candidate_id": "328b1572ba0e31f8f8a6dac1",
-        "elapsed_seconds": 31.438,
+        "elapsed_seconds": 39.473,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2363,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 5117,
-          "prompt_tokens": 7037,
-          "total_tokens": 9400
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "328b1572ba0e31f8f8a6dac1",
-        "elapsed_seconds": 27.18,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1961,
+          "completion_tokens": 2110,
           "prompt_cache_hit_tokens": 6912,
-          "prompt_cache_miss_tokens": 235,
-          "prompt_tokens": 7147,
-          "total_tokens": 9108
+          "prompt_cache_miss_tokens": 125,
+          "prompt_tokens": 7037,
+          "total_tokens": 9147
         }
       }
     ],
-    "model_generation_and_validation_seconds": 119.657
+    "model_generation_and_validation_seconds": 118.577
   },
-  "status": "failed_validation",
-  "summary_count": 2,
+  "status": "completed_automatic",
+  "summary_count": 3,
+  "summary_file": "runtime-state/data/summaries/2026-08-18.jsonl",
   "summary_generation_version": 8,
-  "summary_history_updated": false,
+  "summary_history_updated": true,
   "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
@@ -191,7 +209,7 @@
         "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 3,
+    "architecture_repairs": 2,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
       "0cbf41592278a3ad1b89e219": {
@@ -200,7 +218,7 @@
         "candidate_id": "0cbf41592278a3ad1b89e219",
         "character_count": 5730,
         "content_sha256": "c69f3637ab8af4948016b515bce454e04bb3460f06e4617a9e777a4b4fdbc5bb",
-        "elapsed_seconds": 0.486,
+        "elapsed_seconds": 0.371,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
@@ -217,7 +235,7 @@
         "candidate_id": "2f9953028e4e0e3b934222c8",
         "character_count": 2788,
         "content_sha256": "e0d4e5f30fad22c61541edd8e1ca3b19ee9e440e6209b7d27ee47d61f8b82b24",
-        "elapsed_seconds": 0.365,
+        "elapsed_seconds": 0.404,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
@@ -234,7 +252,7 @@
         "candidate_id": "328b1572ba0e31f8f8a6dac1",
         "character_count": 12000,
         "content_sha256": "9853668bca354197b26fd69c5f513d8c99203f0343c915030784a9d648ab6e3d",
-        "elapsed_seconds": 1.013,
+        "elapsed_seconds": 1.323,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "application/xml+jats",
@@ -248,17 +266,83 @@
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 0,
-    "numeric_grounding_repair_responses": 0,
-    "numeric_grounding_repairs": {},
+    "generation_metadata_repair_responses": 1,
+    "numeric_grounding_repair_responses": 1,
+    "numeric_grounding_repairs": {
+      "2f9953028e4e0e3b934222c8": [
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "三者协同使得 ZOMP 在严格的 5000 次查询预算下，依然能够优于以往的无反向传播提示微调方法，并在少样本、基类到新类、跨数据集迁移和分布外泛化等场景中表现出更好的查询效率和精度。",
+          "path": "method_principle",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "5000"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "每个数据集分配总计 5000 次查询预算。",
+          "path": "method_implementation[4]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "5000"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "在 13 个视觉语言基准上，以匹配的 5000 次查询预算，在少样本精度和查询效率上均优于先前的无反向传播提示微调方法，并展现出更好的基类到新类、跨数据集迁移和分布外泛化能力。",
+          "path": "main_contributions[4]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "5000"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "在 13 个视觉语言基准上，以匹配的 5000 次查询预算，ZOMP 在少样本精度和查询效率方面均持续优于先前的无反向传播提示微调方法。",
+          "path": "reported_results[0].claim",
+          "replacement": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "5000"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "ZOMP 在 16-shot 划分下使用总数为 5000 次查询的预算进行训练，并在 13 个数据集上报告均值和标准差（基于三个随机种子）。",
+          "path": "reported_results[3].claim",
+          "replacement": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "5000"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "总查询预算为 5000 次前向传递；",
+          "path": "zeroth_order_analysis.per_step_vs_total_clarity",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "5000"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "每一步 SPSA 使用 N=5 个扰动样本，每个扰动样本需要两次前向计算（正、负扰动），因此每一步约消耗 10 次查询。",
+          "path": "zeroth_order_analysis.per_step_vs_total_clarity",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "10"
+          ]
+        }
+      ]
+    },
     "tops_alias_expansions": 80,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 8543,
-    "prompt_cache_hit_tokens": 8832,
-    "prompt_cache_miss_tokens": 14394,
-    "prompt_tokens": 23226,
-    "total_tokens": 31769
+    "completion_tokens": 6223,
+    "prompt_cache_hit_tokens": 15872,
+    "prompt_cache_miss_tokens": 207,
+    "prompt_tokens": 16079,
+    "total_tokens": 22302
   }
 }

@@ -1,5 +1,14 @@
 {
   "by_candidate_id": {
+    "0cbf41592278a3ad1b89e219": {
+      "digest_date": "2026-08-18",
+      "doi": "10.48550/arxiv.2608.12300",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "72de678c7f19fb47152aa7abaa573c88b7cf0df11e1fbd68631ac8944a2adf50",
+      "title": "Quantum-limited imaging using diffractive optical neural networks"
+    },
     "0e5c75b6132afcfb1f7afb17": {
       "digest_date": "2026-08-09",
       "doi": "10.1145/3837864",
@@ -54,6 +63,24 @@
       ],
       "summary_record_sha256": "18a9c0d613ce913ccc78135b56103608d7eb6151fd2f966abe295cceef86a60f",
       "title": "Optical neural networks for ultrafast quantum state tomography"
+    },
+    "2f9953028e4e0e3b934222c8": {
+      "digest_date": "2026-08-18",
+      "doi": "10.48550/arxiv.2608.08060",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "d5c687b47aea4f27d0c98bf932dd266e5a941b9ab7c8b404f464c290f35658d6",
+      "title": "ZOMP: Zeroth-Order Multi-Modal Prompt Tuning for Vision-Language Models"
+    },
+    "328b1572ba0e31f8f8a6dac1": {
+      "digest_date": "2026-08-18",
+      "doi": "10.1038/s44335-026-00086-0",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "5f1f161699f62499df8d7b588e5def0ed74fbaaa01e663d98ce09b28ec9105c0",
+      "title": "Hardware implementation of photonic neuromorphic autonomous navigation"
     },
     "5017adbd33e6ddd5c320a4c4": {
       "digest_date": "2026-08-08",
@@ -130,10 +157,16 @@
       "172a6e3e7b78c39c328487a6",
       "83a830ace13b5158f346c392",
       "ead3d4ba8c5090acac05878a"
+    ],
+    "2026-08-18": [
+      "0cbf41592278a3ad1b89e219",
+      "2f9953028e4e0e3b934222c8",
+      "328b1572ba0e31f8f8a6dac1"
     ]
   },
   "by_doi": {
     "10.1038/s41427-026-00671-6": "83a830ace13b5158f346c392",
+    "10.1038/s44335-026-00086-0": "328b1572ba0e31f8f8a6dac1",
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
     "10.1117/12.3110867": "2b5f9302fe96c2793d48540e",
     "10.1117/12.3116253": "7d6c2a059923ebe445a1cdf7",
@@ -144,14 +177,18 @@
     "10.1364/optica.591264": "1cf1fcd769c5ace951188b8c",
     "10.21203/rs.3.rs-10187577/v1": "1e35265ce8678ca96adb8b93",
     "10.48550/arxiv.2608.03277": "142dc76f41fc25448b82c91e",
+    "10.48550/arxiv.2608.08060": "2f9953028e4e0e3b934222c8",
+    "10.48550/arxiv.2608.12300": "0cbf41592278a3ad1b89e219",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799"
   },
   "by_project": {
     "optical-neural-networks": [
+      "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
+      "328b1572ba0e31f8f8a6dac1",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
       "7d6c2a059923ebe445a1cdf7",
@@ -162,6 +199,7 @@
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
+      "2f9953028e4e0e3b934222c8",
       "ead3d4ba8c5090acac05878a"
     ]
   },
@@ -181,6 +219,9 @@
     "application:加速人工智能计算": [
       "7d6c2a059923ebe445a1cdf7"
     ],
+    "application:动态避障": [
+      "328b1572ba0e31f8f8a6dac1"
+    ],
     "application:图像分类（cifar-10、fashion-mnist、mnist）": [
       "1cf1fcd769c5ace951188b8c"
     ],
@@ -196,14 +237,29 @@
     "application:实时感知": [
       "83a830ace13b5158f346c392"
     ],
+    "application:望远镜成像": [
+      "0cbf41592278a3ad1b89e219"
+    ],
     "application:未提供": [
       "5017adbd33e6ddd5c320a4c4"
     ],
     "application:机器视觉": [
       "83a830ace13b5158f346c392"
     ],
+    "application:自主导航": [
+      "328b1572ba0e31f8f8a6dac1"
+    ],
     "application:语音识别（fsdd）": [
       "1cf1fcd769c5ace951188b8c"
+    ],
+    "application:超分辨显微": [
+      "0cbf41592278a3ad1b89e219"
+    ],
+    "application:连续动作控制": [
+      "328b1572ba0e31f8f8a6dac1"
+    ],
+    "application:遥感": [
+      "0cbf41592278a3ad1b89e219"
     ],
     "application:量子态层析（2量子比特）": [
       "2b5f9302fe96c2793d48540e"
@@ -217,8 +273,10 @@
       "973790e22c46d30721660799"
     ],
     "architecture:unclear": [
+      "0cbf41592278a3ad1b89e219",
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
+      "328b1572ba0e31f8f8a6dac1",
       "541094f286db8902f2fe6077",
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392"
@@ -229,10 +287,12 @@
       "2b5f9302fe96c2793d48540e"
     ],
     "hardware_validation:physical_experiment": [
+      "328b1572ba0e31f8f8a6dac1",
       "5017adbd33e6ddd5c320a4c4",
       "973790e22c46d30721660799"
     ],
     "hardware_validation:simulation_only": [
+      "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "541094f286db8902f2fe6077"
     ],
@@ -241,10 +301,12 @@
       "83a830ace13b5158f346c392"
     ],
     "project:optical-neural-networks": [
+      "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
+      "328b1572ba0e31f8f8a6dac1",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
       "7d6c2a059923ebe445a1cdf7",
@@ -255,34 +317,40 @@
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
+      "2f9953028e4e0e3b934222c8",
       "ead3d4ba8c5090acac05878a"
     ],
     "zo:forward_only": [
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
+      "2f9953028e4e0e3b934222c8",
       "ead3d4ba8c5090acac05878a"
     ],
     "zo:low_rank_or_subspace": [
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
+      "2f9953028e4e0e3b934222c8",
       "ead3d4ba8c5090acac05878a"
     ],
     "zo:query_reuse": [
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
+      "2f9953028e4e0e3b934222c8",
       "ead3d4ba8c5090acac05878a"
     ],
     "zo:structured_perturbation": [
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
+      "2f9953028e4e0e3b934222c8",
       "ead3d4ba8c5090acac05878a"
     ],
     "zo:total_query_reduction": [
-      "0e5c75b6132afcfb1f7afb17"
+      "0e5c75b6132afcfb1f7afb17",
+      "2f9953028e4e0e3b934222c8"
     ]
   },
   "by_venue": {
@@ -318,17 +386,25 @@
       "7d6c2a059923ebe445a1cdf7"
     ],
     "arXiv (Cornell University)": [
-      "142dc76f41fc25448b82c91e"
+      "0cbf41592278a3ad1b89e219",
+      "142dc76f41fc25448b82c91e",
+      "2f9953028e4e0e3b934222c8"
+    ],
+    "npj Unconventional Computing": [
+      "328b1572ba0e31f8f8a6dac1"
     ]
   },
   "by_year": {
     "2026": [
+      "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
+      "2f9953028e4e0e3b934222c8",
+      "328b1572ba0e31f8f8a6dac1",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
       "7d6c2a059923ebe445a1cdf7",
@@ -337,7 +413,7 @@
       "ead3d4ba8c5090acac05878a"
     ]
   },
-  "paper_count": 12,
+  "paper_count": 15,
   "schema_version": 1,
-  "updated_at": "2026-08-10T00:38:15.693698Z"
+  "updated_at": "2026-08-18T13:07:52.039850Z"
 }

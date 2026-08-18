@@ -1,5 +1,16 @@
 {
   "completed_candidate_ids": {
+    "0cbf41592278a3ad1b89e219": {
+      "completed_at": "2026-08-18T13:07:52.039850Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-08-18",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "9930a1da8c1889c5ea0058469db0f84f1b6f089a87a22d61d10ef8e90a031ea3",
+      "review_required": false,
+      "summary_record_sha256": "72de678c7f19fb47152aa7abaa573c88b7cf0df11e1fbd68631ac8944a2adf50"
+    },
     "0e5c75b6132afcfb1f7afb17": {
       "completed_at": "2026-08-09T00:37:29.798133Z",
       "completion_mode": "automatic_daily_batch_after_local_validation",
@@ -65,6 +76,28 @@
       "request_id": "393bce47439f0ce83273bfed91b00f452094022811ddef93ce7ce20d4a961b1f",
       "review_required": false,
       "summary_record_sha256": "18a9c0d613ce913ccc78135b56103608d7eb6151fd2f966abe295cceef86a60f"
+    },
+    "2f9953028e4e0e3b934222c8": {
+      "completed_at": "2026-08-18T13:07:52.039850Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-08-18",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "26f5619845812a1d1189ee40fd3082d4668a9447e45778f09cee4098ca1db1ad",
+      "review_required": false,
+      "summary_record_sha256": "d5c687b47aea4f27d0c98bf932dd266e5a941b9ab7c8b404f464c290f35658d6"
+    },
+    "328b1572ba0e31f8f8a6dac1": {
+      "completed_at": "2026-08-18T13:07:52.039850Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-08-18",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "b26341b76bafbc9f035c15280c2af804fd220ab651d6490415e047598aad49ae",
+      "review_required": false,
+      "summary_record_sha256": "5f1f161699f62499df8d7b588e5def0ed74fbaaa01e663d98ce09b28ec9105c0"
     },
     "5017adbd33e6ddd5c320a4c4": {
       "completed_at": "2026-08-08T13:09:14.487624Z",
