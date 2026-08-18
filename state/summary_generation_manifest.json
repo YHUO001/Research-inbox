@@ -1,99 +1,73 @@
 {
-  "abstract_fallback_candidate_ids": [
-    "172a6e3e7b78c39c328487a6",
-    "ead3d4ba8c5090acac05878a"
-  ],
-  "abstract_fallback_count": 2,
-  "architecture_evidence": {
-    "172a6e3e7b78c39c328487a6": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": null,
-      "resolved_type": "unclear"
-    },
-    "83a830ace13b5158f346c392": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
-    },
-    "ead3d4ba8c5090acac05878a": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": null,
-      "resolved_type": "unclear"
-    }
-  },
-  "architecture_repairs": 0,
+  "abstract_fallback_candidate_ids": [],
+  "abstract_fallback_count": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 3,
-  "completed_at": "2026-08-10T00:38:15.693698Z",
+  "automatic_queue_candidate_count": 5,
   "completed_candidate_filtered_count": 0,
-  "completed_candidate_ids": [
-    "172a6e3e7b78c39c328487a6",
-    "83a830ace13b5158f346c392",
-    "ead3d4ba8c5090acac05878a"
-  ],
-  "completion_mode": "automatic_daily_batch_after_local_validation",
-  "daily_digest_pending": true,
-  "digest_date": "2026-08-10",
-  "digest_json_file": "runtime-state/data/digests/2026-08-10.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-08-10.generated.md",
+  "daily_digest_pending": false,
+  "digest_date": "2026-08-18",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0513564,
+  "estimated_cost_cny": 0.0946608,
   "execution_mode": "automatic_daily_batch",
-  "failure_count": 0,
-  "failures": [],
+  "failure_count": 1,
+  "failures": [
+    {
+      "candidate_id": "328b1572ba0e31f8f8a6dac1",
+      "reason": "unsupported numeric claims: -1 at method_implementation[0]: 共 4 维，最终构成 24 维状态向量。动作空间为二维连续向量：归一化线速度（范围 [0, 1] m/s）和角速度（范围 -1 到 1 rad/s，正值表示逆时针旋转）。训练中，机器人从随机起点出发，仅依赖局部传感器信息导航至随机目标，同时避免碰"
+    }
+  ],
   "full_text_method_contexts": {
-    "172a6e3e7b78c39c328487a6": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "172a6e3e7b78c39c328487a6",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 0.745,
-      "error": "https://doi.org/10.1145/3770855.3817738: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.1145/3770855.3817738",
-      "status": "not_available",
-      "text_persisted": false
-    },
-    "83a830ace13b5158f346c392": {
+    "0cbf41592278a3ad1b89e219": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "83a830ace13b5158f346c392",
-      "character_count": 3606,
-      "content_sha256": "d6df47b446d750a76a305a5a55944237418922e5e85862f1d7a058db450a35a7",
-      "elapsed_seconds": 1.068,
+      "candidate_id": "0cbf41592278a3ad1b89e219",
+      "character_count": 5730,
+      "content_sha256": "c69f3637ab8af4948016b515bce454e04bb3460f06e4617a9e777a4b4fdbc5bb",
+      "elapsed_seconds": 0.486,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        "S5. DONN ARCHITECTURE AND TRAINING"
+      ],
+      "source_url": "https://arxiv.org/html/2608.12300",
+      "status": "used",
+      "text_persisted": false
+    },
+    "2f9953028e4e0e3b934222c8": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "2f9953028e4e0e3b934222c8",
+      "character_count": 2788,
+      "content_sha256": "e0d4e5f30fad22c61541edd8e1ca3b19ee9e440e6209b7d27ee47d61f8b82b24",
+      "elapsed_seconds": 0.365,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        "Experimental Setup"
+      ],
+      "source_url": "https://arxiv.org/html/2608.08060",
+      "status": "used",
+      "text_persisted": false
+    },
+    "328b1572ba0e31f8f8a6dac1": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "328b1572ba0e31f8f8a6dac1",
+      "character_count": 12000,
+      "content_sha256": "9853668bca354197b26fd69c5f513d8c99203f0343c915030784a9d648ab6e3d",
+      "elapsed_seconds": 1.013,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "application/xml+jats",
       "section_headings": [
-        "implementation",
-        "system architecture"
+        "Methods",
+        "Training procedure",
+        "Training parameters"
       ],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41427-026-00671-6&p=1",
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs44335-026-00086-0&p=1",
       "status": "used",
-      "text_persisted": false
-    },
-    "ead3d4ba8c5090acac05878a": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "ead3d4ba8c5090acac05878a",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 0.57,
-      "error": "https://doi.org/10.1145/3770855.3817661: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.1145/3770855.3817661",
-      "status": "not_available",
       "text_persisted": false
     }
   },
@@ -101,9 +75,8 @@
   "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
-  "knowledge_base_pending": true,
+  "knowledge_base_pending": false,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 3,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -120,180 +93,172 @@
   "output_language": "zh-CN",
   "prepared_request_count": 3,
   "provider": "deepseek",
-  "queue_sha256": "5ac3ed6759c29d7ba1cd80b43c50bdefec09b526d7a47446d5147d0db59bcf59",
+  "queue_sha256": "f0b582b2497f48340dadab2fd913256a5a7e38a9d2d315897a148090e81688ae",
   "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-08-10.jsonl",
-  "request_sha256": "4e13e770ca777f7104b7ce86742a71e1c9c144d3470e8bd5c46bcaca21e357c5",
+  "request_file": "runtime-state/data/summary_requests/2026-08-18.jsonl",
+  "request_sha256": "4a18bfa77380582ae531b52ea7032d09159971ec45309e68190c29adda410532",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "f4ff37bf0479b99226ae8355d991262740e553f7d4dd90217d5c1ec45633e086",
+  "selection_manifest_sha256": "db2e7b1b3da619b9a69cfb98836b122abba8b459963f045e8e95d140a6fc28f8",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 3,
+  "source_queue_candidate_count": 5,
   "stage_timings": {
-    "full_text_preparation_seconds": 2.389,
+    "full_text_preparation_seconds": 1.872,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "172a6e3e7b78c39c328487a6",
-        "elapsed_seconds": 21.05,
+        "candidate_id": "0cbf41592278a3ad1b89e219",
+        "elapsed_seconds": 31.062,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1549,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1491,
-          "prompt_tokens": 3539,
-          "total_tokens": 5088
+          "completion_tokens": 2201,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 4814,
+          "prompt_tokens": 4814,
+          "total_tokens": 7015
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "ead3d4ba8c5090acac05878a",
-        "elapsed_seconds": 16.626,
+        "candidate_id": "2f9953028e4e0e3b934222c8",
+        "elapsed_seconds": 29.953,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1167,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1277,
-          "prompt_tokens": 3325,
-          "total_tokens": 4492
+          "completion_tokens": 2018,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 4228,
+          "prompt_tokens": 4228,
+          "total_tokens": 6246
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "328b1572ba0e31f8f8a6dac1",
+        "elapsed_seconds": 31.438,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 2363,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 5117,
+          "prompt_tokens": 7037,
+          "total_tokens": 9400
         }
       },
       {
         "attempt": 2,
-        "candidate_id": "ead3d4ba8c5090acac05878a",
-        "elapsed_seconds": 16.612,
+        "candidate_id": "328b1572ba0e31f8f8a6dac1",
+        "elapsed_seconds": 27.18,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1136,
-          "prompt_cache_hit_tokens": 3200,
-          "prompt_cache_miss_tokens": 342,
-          "prompt_tokens": 3542,
-          "total_tokens": 4678
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "83a830ace13b5158f346c392",
-        "elapsed_seconds": 26.387,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1882,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 2464,
-          "prompt_tokens": 4384,
-          "total_tokens": 6266
+          "completion_tokens": 1961,
+          "prompt_cache_hit_tokens": 6912,
+          "prompt_cache_miss_tokens": 235,
+          "prompt_tokens": 7147,
+          "total_tokens": 9108
         }
       }
     ],
-    "model_generation_and_validation_seconds": 80.693
+    "model_generation_and_validation_seconds": 119.657
   },
-  "status": "completed_automatic",
-  "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-08-10.jsonl",
+  "status": "failed_validation",
+  "summary_count": 2,
   "summary_generation_version": 8,
-  "summary_history_updated": true,
+  "summary_history_updated": false,
   "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "172a6e3e7b78c39c328487a6": {
+      "0cbf41592278a3ad1b89e219": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "free_space",
+        "repaired": true,
+        "resolved_type": "unclear"
+      },
+      "2f9953028e4e0e3b934222c8": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": null,
         "repaired": false,
         "resolved_type": "unclear"
       },
-      "83a830ace13b5158f346c392": {
+      "328b1572ba0e31f8f8a6dac1": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": "hybrid",
         "repaired": true,
         "resolved_type": "unclear"
-      },
-      "ead3d4ba8c5090acac05878a": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": null,
-        "repaired": false,
-        "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 1,
+    "architecture_repairs": 3,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "172a6e3e7b78c39c328487a6": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "172a6e3e7b78c39c328487a6",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 0.745,
-        "error": "https://doi.org/10.1145/3770855.3817738: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.1145/3770855.3817738",
-        "status": "not_available",
-        "text_persisted": false
-      },
-      "83a830ace13b5158f346c392": {
+      "0cbf41592278a3ad1b89e219": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "83a830ace13b5158f346c392",
-        "character_count": 3606,
-        "content_sha256": "d6df47b446d750a76a305a5a55944237418922e5e85862f1d7a058db450a35a7",
-        "elapsed_seconds": 1.068,
+        "candidate_id": "0cbf41592278a3ad1b89e219",
+        "character_count": 5730,
+        "content_sha256": "c69f3637ab8af4948016b515bce454e04bb3460f06e4617a9e777a4b4fdbc5bb",
+        "elapsed_seconds": 0.486,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          "S5. DONN ARCHITECTURE AND TRAINING"
+        ],
+        "source_url": "https://arxiv.org/html/2608.12300",
+        "status": "used",
+        "text_persisted": false
+      },
+      "2f9953028e4e0e3b934222c8": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "2f9953028e4e0e3b934222c8",
+        "character_count": 2788,
+        "content_sha256": "e0d4e5f30fad22c61541edd8e1ca3b19ee9e440e6209b7d27ee47d61f8b82b24",
+        "elapsed_seconds": 0.365,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          "Experimental Setup"
+        ],
+        "source_url": "https://arxiv.org/html/2608.08060",
+        "status": "used",
+        "text_persisted": false
+      },
+      "328b1572ba0e31f8f8a6dac1": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "328b1572ba0e31f8f8a6dac1",
+        "character_count": 12000,
+        "content_sha256": "9853668bca354197b26fd69c5f513d8c99203f0343c915030784a9d648ab6e3d",
+        "elapsed_seconds": 1.013,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "application/xml+jats",
         "section_headings": [
-          "implementation",
-          "system architecture"
+          "Methods",
+          "Training procedure",
+          "Training parameters"
         ],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41427-026-00671-6&p=1",
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs44335-026-00086-0&p=1",
         "status": "used",
-        "text_persisted": false
-      },
-      "ead3d4ba8c5090acac05878a": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "ead3d4ba8c5090acac05878a",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 0.57,
-        "error": "https://doi.org/10.1145/3770855.3817661: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.1145/3770855.3817661",
-        "status": "not_available",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 3,
-    "numeric_grounding_repair_responses": 1,
-    "numeric_grounding_repairs": {
-      "172a6e3e7b78c39c328487a6": [
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "零阶优化步骤：在第t次迭代，对当前LoRA参数向量θ_t施加随机扰动δ，构造θ_t+μδ和θ_t-μδ（μ为扰动尺度），将对应的LLM生成的硬提示输入黑盒目标模型，得到函数值F(θ_t+μδ)和F(θ_t-μδ)，利用有限差分近似梯度∇F(θ_t)≈ (F(θ_t+μδ)-F(θ_t-μδ))/(2μ) δ。",
-          "path": "method_implementation[1]",
-          "replacement": "相关定量细节未在标题或摘要中提供。",
-          "tokens": [
-            "2"
-          ]
-        }
-      ]
-    },
-    "tops_alias_expansions": 0,
+    "generation_metadata_repair_responses": 0,
+    "numeric_grounding_repair_responses": 0,
+    "numeric_grounding_repairs": {},
+    "tops_alias_expansions": 80,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 5734,
-    "prompt_cache_hit_tokens": 9216,
-    "prompt_cache_miss_tokens": 5574,
-    "prompt_tokens": 14790,
-    "total_tokens": 20524
+    "completion_tokens": 8543,
+    "prompt_cache_hit_tokens": 8832,
+    "prompt_cache_miss_tokens": 14394,
+    "prompt_tokens": 23226,
+    "total_tokens": 31769
   }
 }

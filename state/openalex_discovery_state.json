@@ -1,8 +1,8 @@
 {
   "consecutive_failures": 0,
   "discovery_version": 1,
-  "last_attempt_at": "2026-08-18T04:11:54.206518Z",
-  "last_successful_run_at": "2026-08-18T04:11:54.206518Z",
+  "last_attempt_at": "2026-08-18T04:25:00.665316Z",
+  "last_successful_run_at": "2026-08-18T04:25:00.665316Z",
   "last_summary": {
     "accepted": 0,
     "duplicates": 5,
