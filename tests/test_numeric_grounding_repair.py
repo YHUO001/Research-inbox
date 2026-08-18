@@ -10,6 +10,7 @@ from scripts.summarize.abstract_fallback_policy import (
 )
 from scripts.summarize.deepseek_provider import DeepSeekResponse
 from scripts.summarize.numeric_grounding_repair import (
+    full_text_evidence_from_user_prompt,
     repair_summary_numeric_grounding,
     source_evidence_from_user_prompt,
     unsupported_numeric_diagnostics,
@@ -109,6 +110,18 @@ def test_unrepairable_diagnostic_includes_field_path_and_context() -> None:
     ]
 
 
+def test_full_text_numeric_evidence_supports_signed_ranges_and_unicode_minus() -> None:
+    summary = {
+        "method_principle": "角速度范围为−1到1 rad/s。",
+    }
+    assert unsupported_numeric_diagnostics(
+        summary,
+        title="Autonomous navigation",
+        abstract="The actor outputs continuous velocity commands.",
+        extra_evidence="The angular velocity is normalized to the range [-1, 1] rad/s.",
+    ) == []
+
+
 def test_source_evidence_parser_ignores_trailing_fallback_instruction() -> None:
     prompt = (
         "其他说明\n来源记录：\n"
@@ -118,6 +131,20 @@ def test_source_evidence_parser_ignores_trailing_fallback_instruction() -> None:
     assert source_evidence_from_user_prompt(prompt) == (
         "Paper 4",
         "Uses 8 evaluations.",
+    )
+
+
+def test_full_text_evidence_parser_extracts_only_ephemeral_method_context() -> None:
+    prompt = (
+        '来源记录：\n{"title":"Paper","abstract":"Abstract."}'
+        "\n\n公开正文中的方法相关上下文：\n"
+        "- 来源：https://example.test/paper\n"
+        "- 方法上下文开始：\n"
+        "Action range is [-1, 1] rad/s.\n"
+        "- 方法上下文结束。"
+    )
+    assert full_text_evidence_from_user_prompt(prompt) == (
+        "Action range is [-1, 1] rad/s."
     )
 
 
@@ -165,13 +192,20 @@ def test_transport_repair_applies_to_abstract_fallback(monkeypatch) -> None:
     assert client.diagnostics.numeric_grounding_repair_responses == 1
 
 
-def test_transport_repair_does_not_redact_full_text_evidence(monkeypatch) -> None:
+def test_transport_repair_preserves_grounded_full_text_numbers_and_redacts_only_unsupported(
+    monkeypatch,
+) -> None:
     response = DeepSeekResponse(
         content=json.dumps(
             {
-                "method_principle": "公开全文报告系统使用488 nm光源。",
+                "candidate_id": "candidate-2",
+                "method_principle": (
+                    "公开全文给出的角速度范围为-1到1 rad/s。"
+                    "模型另外声称系统使用777个并行通道。"
+                ),
                 "verification": {
                     "information_basis": FULL_TEXT_BASIS,
+                    "full_text_method_context_used": True,
                     "missing_information": [],
                 },
             },
@@ -180,26 +214,40 @@ def test_transport_repair_does_not_redact_full_text_evidence(monkeypatch) -> Non
         usage={},
         model="test-model",
     )
-    monkeypatch.setattr(
-        safe_pipeline,
-        "_ORIGINAL_COMPLETE_JSON",
-        lambda self, **kwargs: response,
-    )
-    monkeypatch.setattr(
-        safe_pipeline,
-        "repair_summary_numeric_grounding",
-        lambda *args, **kwargs: (_ for _ in ()).throw(
-            AssertionError("full-text summaries must not use abstract-only redaction")
-        ),
-    )
+    captured: dict[str, str] = {}
+
+    def fake_complete(self, **kwargs):
+        captured["user_prompt"] = str(kwargs.get("user_prompt") or "")
+        return response
+
+    monkeypatch.setattr(safe_pipeline, "_ORIGINAL_COMPLETE_JSON", fake_complete)
     client = SimpleNamespace(
         diagnostics=SimpleNamespace(generation_metadata_repair_responses=0)
     )
-
-    preserved = safe_pipeline.complete_json_with_fallback_normalization(
-        client,
-        system_prompt="test",
-        user_prompt="test",
+    user_prompt = (
+        "所有数字仍必须出现在标题或摘要中；即使正文上下文包含额外数字，也不要把这些数字写入摘要。\n"
+        '来源记录：\n{"title":"Navigation","abstract":"Continuous control is used."}'
+        "\n\n公开正文中的方法相关上下文（临时证据）：\n"
+        "- 方法上下文开始：\n"
+        "The angular velocity range is [-1, 1] rad/s.\n"
+        "- 方法上下文结束。"
     )
 
-    assert "488 nm" in json.loads(preserved.content)["method_principle"]
+    repaired = safe_pipeline.complete_json_with_fallback_normalization(
+        client,
+        system_prompt="test",
+        user_prompt=user_prompt,
+    )
+    value = json.loads(repaired.content)
+
+    assert "-1到1 rad/s" in value["method_principle"]
+    assert "777" not in value["method_principle"]
+    assert "标题、摘要或公开正文方法上下文" in value["method_principle"]
+    assert "若追加了公开正文方法上下文" in captured["user_prompt"]
+    assert "所有数字仍必须出现在标题或摘要中" not in captured["user_prompt"]
+    assert client.diagnostics.numeric_grounding_repair_responses == 1
+    assert shared_numeric_grounding(
+        value,
+        title="Navigation",
+        abstract="Continuous control is used.",
+    ) == []
