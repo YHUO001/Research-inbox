@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import sys
@@ -9,12 +10,14 @@ from typing import Any
 from scripts.summarize import staged_summary_pipeline as pipeline
 from scripts.summarize.abstract_fallback_policy import (
     ABSTRACT_ONLY_BASIS,
+    FULL_TEXT_BASIS,
     abstract_fallback_notice,
     normalize_abstract_fallback_summary,
     validate_method_depth_by_evidence,
 )
 from scripts.summarize.numeric_grounding_repair import (
     format_numeric_diagnostics,
+    full_text_evidence_from_user_prompt,
     repair_summary_numeric_grounding,
     source_evidence_from_user_prompt,
     unsupported_numeric_diagnostics,
@@ -28,11 +31,37 @@ _ORIGINAL_SYSTEM_PROMPT = pipeline.summary_core.system_prompt
 _ORIGINAL_RENDER_MARKDOWN = pipeline.summary_core.render_markdown
 _ORIGINAL_COMPLETE_JSON = pipeline.ProductionNormalizingClient.complete_json
 _ORIGINAL_DIAGNOSTIC_PAYLOAD = pipeline.diagnostic_payload
+_FULL_TEXT_VALIDATED_HASHES: dict[str, str] = {}
+
+
+def _numeric_fingerprint(summary: dict[str, Any]) -> str:
+    narrative = {
+        field: summary.get(field)
+        for field in pipeline.summary_core.NARRATIVE_FIELDS
+    }
+    payload = json.dumps(
+        narrative,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    ).encode("utf-8")
+    return hashlib.sha256(payload).hexdigest()
 
 
 def shared_numeric_grounding(
     summary: dict[str, Any], *, title: str, abstract: str | None
 ) -> list[str]:
+    verification = summary.get("verification")
+    candidate_id = str(summary.get("candidate_id") or "")
+    if (
+        isinstance(verification, dict)
+        and verification.get("full_text_method_context_used") is True
+        and candidate_id
+        and _FULL_TEXT_VALIDATED_HASHES.get(candidate_id)
+        == _numeric_fingerprint(summary)
+    ):
+        return []
+
     records = unsupported_numeric_diagnostics(
         summary,
         title=title,
@@ -91,10 +120,37 @@ def _record_numeric_repairs(
     setattr(diagnostics, "numeric_grounding_repairs", records)
 
 
+def _candidate_id(value: dict[str, Any], system_prompt_value: str) -> str:
+    candidate_id = str(value.get("candidate_id") or "")
+    if candidate_id:
+        return candidate_id
+    try:
+        expected = pipeline.expected_example(system_prompt_value)
+    except (RuntimeError, ValueError, json.JSONDecodeError):
+        return "unknown"
+    return str(expected.get("candidate_id") or "unknown")
+
+
+def _relax_numeric_user_instruction(user_prompt: str) -> str:
+    strict = (
+        "所有数字仍必须出现在标题或摘要中；即使正文上下文包含额外数字，"
+        "也不要把这些数字写入摘要。"
+    )
+    relaxed = (
+        "数字必须有证据支撑：没有公开全文时只能来自标题或摘要；若追加了公开正文方法上下文，"
+        "方法说明中的参数数字也可以来自该上下文。近似值、单位排版和轻微四舍五入差异可以自然转换；"
+        "不得新增全部证据中都没有出现的数字。"
+    )
+    return (user_prompt or "").replace(strict, relaxed)
+
+
 def complete_json_with_fallback_normalization(
     self: Any, **kwargs: Any
 ) -> pipeline.DeepSeekResponse:
-    response = _ORIGINAL_COMPLETE_JSON(self, **kwargs)
+    call_kwargs = dict(kwargs)
+    user_prompt = _relax_numeric_user_instruction(str(call_kwargs.get("user_prompt") or ""))
+    call_kwargs["user_prompt"] = user_prompt
+    response = _ORIGINAL_COMPLETE_JSON(self, **call_kwargs)
     try:
         value = json.loads(response.content)
     except json.JSONDecodeError:
@@ -110,8 +166,10 @@ def complete_json_with_fallback_normalization(
         changed = True
 
     information_basis = str(verification.get("information_basis") or "")
+    candidate_id = _candidate_id(value, str(call_kwargs.get("system_prompt") or ""))
+    title, abstract = source_evidence_from_user_prompt(user_prompt)
+
     if information_basis == ABSTRACT_ONLY_BASIS:
-        user_prompt = str(kwargs.get("user_prompt") or "")
         notice = abstract_fallback_notice(_fallback_attempts(user_prompt))
         missing = verification.get("missing_information")
         if not isinstance(missing, list):
@@ -122,9 +180,6 @@ def complete_json_with_fallback_normalization(
             changed = True
         verification["missing_information"] = missing
 
-        expected = pipeline.expected_example(str(kwargs.get("system_prompt") or ""))
-        candidate_id = str(expected.get("candidate_id") or "unknown")
-        title, abstract = source_evidence_from_user_prompt(user_prompt)
         repaired, repairs = repair_summary_numeric_grounding(
             value,
             title=title,
@@ -139,6 +194,34 @@ def complete_json_with_fallback_normalization(
                     candidate_id=candidate_id,
                     repairs=repairs,
                 )
+
+    elif information_basis == FULL_TEXT_BASIS:
+        full_text_evidence = full_text_evidence_from_user_prompt(user_prompt)
+        if full_text_evidence:
+            repaired, repairs = repair_summary_numeric_grounding(
+                value,
+                title=title,
+                abstract=abstract,
+                extra_evidence=full_text_evidence,
+                evidence_scope="标题、摘要或公开正文方法上下文",
+            )
+            if repairs:
+                value = repaired
+                changed = True
+                if hasattr(self, "diagnostics"):
+                    _record_numeric_repairs(
+                        self.diagnostics,
+                        candidate_id=candidate_id,
+                        repairs=repairs,
+                    )
+            remaining = unsupported_numeric_diagnostics(
+                value,
+                title=title,
+                abstract=abstract,
+                extra_evidence=full_text_evidence,
+            )
+            if not remaining and candidate_id != "unknown":
+                _FULL_TEXT_VALIDATED_HASHES[candidate_id] = _numeric_fingerprint(value)
 
     if changed and hasattr(self, "diagnostics"):
         self.diagnostics.generation_metadata_repair_responses += 1
@@ -209,7 +292,8 @@ def _mark_manifest_scope(path: Path, argv: list[str]) -> None:
         "relative_tolerance": 0.02,
         "absolute_tolerance": 0.02,
         "evidence_sources": ["title", "abstract", "temporary_open_full_text_methods"],
-        "unsupported_claim_policy": "abstract_fallback_deterministic_qualitative_redaction_then_reject",
+        "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject",
+        "full_text_unsupported_sentence_action": "deterministic_redaction",
     }
 
     dry_run_value = _argument_value(argv, "--dry-run-manifest-path")
@@ -247,6 +331,7 @@ def _mark_manifest_scope(path: Path, argv: list[str]) -> None:
 
 
 def main() -> int:
+    _FULL_TEXT_VALIDATED_HASHES.clear()
     pipeline.shared_numeric_grounding = shared_numeric_grounding
     pipeline.summary_core.system_prompt = system_prompt
     pipeline.summary_core.render_markdown = render_markdown
