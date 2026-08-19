@@ -1,10 +1,29 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`15`
-- 更新时间：`2026-08-18T13:07:52.039850Z`
+- 论文数：`18`
+- 更新时间：`2026-08-19T00:34:52.163773Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### On‐Chip Photonic Neural Network Architectures
+
+- DOI/链接：[10.1002/adom.71567](https://doi.org/10.1002/adom.71567)
+- 期刊/年份：Advanced Optical Materials，2026
+- 摘要日期：`2026-08-19`
+- 候选 ID：`ccd82d84305d463a6c33398d`
+- 标签：application:光信号处理, application:量子计算, architecture:unclear, project:optical-neural-networks
+
+### Compact Nonlinear
+Optical Neural Networks Enabled
+by Air-Stable 2D/3D Composite Perovskite Films for Scalable Visual
+Perception
+
+- DOI/链接：[10.1021/acsphotonics.6c00831](https://doi.org/10.1021/acsphotonics.6c00831)
+- 期刊/年份：ACS Photonics，2026
+- 摘要日期：`2026-08-19`
+- 候选 ID：`2eb28d7201afb356d747693a`
+- 标签：application:图像分类, application:图像去噪, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Quantum-limited imaging using diffractive optical neural networks
 
@@ -95,6 +114,14 @@
 - 标签：application:分布式声学传感（das）, application:图像分类（cifar-10、fashion-mnist、mnist）, application:语音识别（fsdd）, architecture:integrated, hardware_validation:mixed, project:optical-neural-networks
 
 ## zeroth-order-optimization
+
+### Beyond the Best Guess: Improving LLM Solution Coverage with Evolution Strategies
+
+- DOI/链接：[10.48550/arxiv.2608.12679](https://doi.org/10.48550/arxiv.2608.12679)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-08-19`
+- 候选 ID：`ca00b2160d3deb8b79b61e6e`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
 
 ### ZOMP: Zeroth-Order Multi-Modal Prompt Tuning for Vision-Language Models
 

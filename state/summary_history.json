@@ -77,6 +77,17 @@
       "review_required": false,
       "summary_record_sha256": "18a9c0d613ce913ccc78135b56103608d7eb6151fd2f966abe295cceef86a60f"
     },
+    "2eb28d7201afb356d747693a": {
+      "completed_at": "2026-08-19T00:34:52.163773Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-08-19",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "896a8b617003d28c7a5d7f86f065c31cb1055fb9dd47f0756b5c330a19a087cc",
+      "review_required": false,
+      "summary_record_sha256": "7b9820e829217de6fe344dd57142d8718f74fc8dbcfe7ba71776da6dfb257cd2"
+    },
     "2f9953028e4e0e3b934222c8": {
       "completed_at": "2026-08-18T13:07:52.039850Z",
       "completion_mode": "automatic_daily_batch_after_local_validation",
@@ -186,6 +197,28 @@
       "review_required": false,
       "source_generation_status": "completed",
       "summary_file_sha256": "84755129ca860d38c72fffcad5500f35aa1507421a6c26fa2359dd930f414fb0"
+    },
+    "ca00b2160d3deb8b79b61e6e": {
+      "completed_at": "2026-08-19T00:34:52.163773Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-08-19",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "c7d623a9f76c7e950ac0d966afba744dcb203a7c27621e1025bb5f5c1135538d",
+      "review_required": false,
+      "summary_record_sha256": "f2ab0e20ddbec5a2519972346e8083c8ce406a7d6fe7fb95a326f5eb8de48d88"
+    },
+    "ccd82d84305d463a6c33398d": {
+      "completed_at": "2026-08-19T00:34:52.163773Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-08-19",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "de35f4a91acf3993040ac518769e124a9833fcf97536eafe65aa48c921fb6843",
+      "review_required": false,
+      "summary_record_sha256": "23f9d8c3c7e0801cc4b73be358c1f83de1dbee2d33e5c279c1fc1dc737a28798"
     },
     "ead3d4ba8c5090acac05878a": {
       "completed_at": "2026-08-10T00:38:15.693698Z",

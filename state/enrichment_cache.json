@@ -536,6 +536,72 @@
       "retrieved_at": "2026-08-18T04:25:07.045792Z",
       "status": "not_found"
     },
+    "crossref:doi:10.1021/acsphotonics.6c00831": {
+      "expires_at": "2026-09-18T00:32:49.652416Z",
+      "record": {
+        "abstract": "Abstract Optical neural networks (ONNs) provide a promising alternative by shifting electrical computation to optics, offering low-power consumption, low latency, and high parallelism. Nonlinear operations are crucial for neural network performance, and optical implementations have attracted a significant amount of interest. However, existing approaches struggle to simultaneously achieve a fast response, low activation threshold, long-term stability, and facile integrability. Perovskite materials offer efficient photoluminescence and have been widely used in optoelectronic devices. Nevertheless, their application to nonlinear activation in ONNs remains limited due to poor uniformity caused by large grain sizes along with limited emission coverage and low intensity. To overcome these limitations, we report, to the best of our knowledge, the first all-optical nonlinear activation based on a 2D/3D composite perovskite (CP) film and experimentally validated its performance. The 2D/3D CP films exhibit a nanosecond-scale response, a low activation threshold ranging from 0.13 to 0.48 mW/cm2, high stability under ambient conditions, good uniformity, and high integrability with optical systems, without requiring external power for nonlinear activation. Based on 2D/3D CP films, we propose a perovskite-based nonlinear optical neural network (PVK-NONN), which serves as a universal optical front end and supports scalable multitask image processing. We experimentally validate the proposed hybrid optoelectronic computing architecture on image denoising and classification tasks, where it outperforms linear single-layer ONNs, achieving improvements of up to 5.91 dB in PSNR, 0.152 in SSIM, and 6.5% in classification accuracy. The proposed architecture, with an optical path length of 3 mm, is compatible with a compact optical integration. This scheme provides a practical approach for passive, incoherent all-optical nonlinearities, paving the way for compact, low-power vision, and edge computing systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Wen Lyu",
+            "orcid": "https://orcid.org/0009-0006-3384-325X"
+          },
+          {
+            "name": "Xinyang Chen",
+            "orcid": null
+          },
+          {
+            "name": "Pingyuan Yan",
+            "orcid": "https://orcid.org/0000-0003-0704-1692"
+          },
+          {
+            "name": "Jialin Li",
+            "orcid": null
+          },
+          {
+            "name": "Haotian Chang",
+            "orcid": null
+          },
+          {
+            "name": "Kun Kang",
+            "orcid": null
+          },
+          {
+            "name": "Yiwen Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Sunyuan Cai",
+            "orcid": null
+          },
+          {
+            "name": "Jiayong Peng",
+            "orcid": null
+          },
+          {
+            "name": "Xukang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Wenhua Gu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1021/acsphotonics.6c00831",
+        "landing_page": "https://doi.org/10.1021/acsphotonics.6c00831",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1021/acsphotonics.6c00831",
+        "publication_date": "2026-08-17",
+        "title": "Compact Nonlinear\nOptical Neural Networks Enabled\nby Air-Stable 2D/3D Composite Perovskite Films for Scalable Visual\nPerception",
+        "venue": "ACS Photonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-19T00:32:49.652416Z",
+      "status": "found"
+    },
     "crossref:doi:10.1021/acsphotonics.6c00985": {
       "expires_at": "2026-09-17T04:25:27.528652Z",
       "record": {
@@ -2290,6 +2356,12 @@
       "retrieved_at": "2026-08-04T09:38:25.759094Z",
       "status": "not_found"
     },
+    "crossref:title:78a4f5ff8bafd7a52353ec31127c8ab21eea64976315745ce3469aae7444ba73": {
+      "expires_at": "2026-08-26T00:32:50.290553Z",
+      "record": null,
+      "retrieved_at": "2026-08-19T00:32:50.290553Z",
+      "status": "not_found"
+    },
     "crossref:title:7a1d31740d92dd33874b2a6ff4fcbcce1ebfdf3724918e12655928b209f4384d": {
       "expires_at": "2026-08-16T00:36:08.311312Z",
       "record": {
@@ -3971,6 +4043,72 @@
       "record": null,
       "retrieved_at": "2026-08-18T04:25:07.362028Z",
       "status": "not_found"
+    },
+    "openalex:doi:10.1021/acsphotonics.6c00831": {
+      "expires_at": "2026-09-18T00:32:49.967329Z",
+      "record": {
+        "abstract": "Abstract Optical neural networks (ONNs) provide a promising alternative by shifting electrical computation to optics, offering low-power consumption, low latency, and high parallelism. Nonlinear operations are crucial for neural network performance, and optical implementations have attracted a significant amount of interest. However, existing approaches struggle to simultaneously achieve a fast response, low activation threshold, long-term stability, and facile integrability. Perovskite materials offer efficient photoluminescence and have been widely used in optoelectronic devices. Nevertheless, their application to nonlinear activation in ONNs remains limited due to poor uniformity caused by large grain sizes along with limited emission coverage and low intensity. To overcome these limitations, we report, to the best of our knowledge, the first all-optical nonlinear activation based on a 2D/3D composite perovskite (CP) film and experimentally validated its performance. The 2D/3D CP films exhibit a nanosecond-scale response, a low activation threshold ranging from 0.13 to 0.48 mW/cm2, high stability under ambient conditions, good uniformity, and high integrability with optical systems, without requiring external power for nonlinear activation. Based on 2D/3D CP films, we propose a perovskite-based nonlinear optical neural network (PVK-NONN), which serves as a universal optical front end and supports scalable multitask image processing. We experimentally validate the proposed hybrid optoelectronic computing architecture on image denoising and classification tasks, where it outperforms linear single-layer ONNs, achieving improvements of up to 5.91 dB in PSNR, 0.152 in SSIM, and 6.5% in classification accuracy. The proposed architecture, with an optical path length of 3 mm, is compatible with a compact optical integration. This scheme provides a practical approach for passive, incoherent all-optical nonlinearities, paving the way for compact, low-power vision, and edge computing systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Wen Lyu",
+            "orcid": null
+          },
+          {
+            "name": "Xinyang Chen",
+            "orcid": "https://orcid.org/0000-0003-1145-510X"
+          },
+          {
+            "name": "Pingyuan Yan",
+            "orcid": "https://orcid.org/0000-0003-0704-1692"
+          },
+          {
+            "name": "Jialin Li",
+            "orcid": "https://orcid.org/0000-0003-4972-3480"
+          },
+          {
+            "name": "Haotian Chang",
+            "orcid": null
+          },
+          {
+            "name": "Kun Kang",
+            "orcid": null
+          },
+          {
+            "name": "Yiwen Zhang",
+            "orcid": "https://orcid.org/0000-0002-1649-5082"
+          },
+          {
+            "name": "Sunyuan Cai",
+            "orcid": null
+          },
+          {
+            "name": "Jiayong Peng",
+            "orcid": "https://orcid.org/0000-0002-7812-0585"
+          },
+          {
+            "name": "Xukang Wang",
+            "orcid": "https://orcid.org/0000-0002-1077-5219"
+          },
+          {
+            "name": "Wenhua Gu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1021/acsphotonics.6c00831",
+        "landing_page": "https://doi.org/10.1021/acsphotonics.6c00831",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7203655342",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203655342",
+        "publication_date": "2026-08-17",
+        "title": "Compact NonlinearOptical Neural Networks Enabledby Air-Stable 2D/3D Composite Perovskite Films for Scalable VisualPerception",
+        "venue": "ACS Photonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-19T00:32:49.967329Z",
+      "status": "found"
     },
     "openalex:doi:10.1021/acsphotonics.6c00985": {
       "expires_at": "2026-09-17T04:25:27.912979Z",
@@ -6796,6 +6934,12 @@
       "expires_at": "2026-08-11T09:38:26.349123Z",
       "record": null,
       "retrieved_at": "2026-08-04T09:38:26.349123Z",
+      "status": "not_found"
+    },
+    "openalex:title:78a4f5ff8bafd7a52353ec31127c8ab21eea64976315745ce3469aae7444ba73": {
+      "expires_at": "2026-08-26T00:32:50.873682Z",
+      "record": null,
+      "retrieved_at": "2026-08-19T00:32:50.873682Z",
       "status": "not_found"
     },
     "openalex:title:868b33466991620b31a192ee87b8df510a3ef61fed6e187284bb2224d98cfda0": {

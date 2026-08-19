@@ -1,0 +1,219 @@
+{
+  "completion": {
+    "architecture_repairs": 0,
+    "completed_at": "2026-08-19T00:34:52.163773Z",
+    "mode": "automatic_daily_batch_after_local_validation"
+  },
+  "delivery": {
+    "mode": "separate_daily_digest_workflow",
+    "status": "pending"
+  },
+  "digest_date": "2026-08-19",
+  "digest_version": 2,
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": true,
+    "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+    "numeric_grounding_scope": "title_and_abstract_only",
+    "review_required": false,
+    "summary_history_updated": true
+  },
+  "schema_version": 2,
+  "status": "completed_automatic",
+  "summaries": [
+    {
+      "candidate_id": "2eb28d7201afb356d747693a",
+      "core_problem": "光学神经网络（ONN）需要非线性激活以匹配电子神经网络的性能，但现有光学非线性方案难以同时实现快速响应、低激活阈值、长期稳定性和易集成性。钙钛矿材料虽具有高效光致发光，但其大晶粒导致的均匀性差、发射覆盖有限和强度低，限制了其在ONN非线性激活中的应用。论文旨在利用二维/三维复合钙钛矿薄膜解决上述矛盾，实现无源、非相干的全光非线性激活，并构建紧凑、可扩展的视觉感知光学神经网络。",
+      "distinction_from_prior_work": "与现有光学非线性激活方案相比，该工作首次采用二维/三维复合钙钛矿薄膜实现全光非线性激活，同时满足快速响应、低激活阈值、长期稳定性、良好均匀性和易集成性。此前钙钛矿材料在ONN中的应用受限于大晶粒导致的均匀性差、发射覆盖有限和强度低，而二维/三维复合结构克服了这些限制。所提出的PVK-NONN作为通用光学前端，无需外部电源，光路仅3毫米，支持可扩展多任务图像处理。",
+      "limitations_and_open_questions": [
+        "摘要未提供2D/3D CP薄膜的具体制备工艺、材料组成和形态表征细节。",
+        "摘要未描述PVK-NONN的光学线性层实现方式、输入编码方案、训练算法及系统级能耗分析。",
+        "实验验证限于图像去噪和分类任务，对其他视觉任务或更大规模网络的适用性未在摘要中说明。",
+        "摘要未报告与电子神经网络或其他光学非线性方案的直接性能对比、可扩展性指标或长期运行稳定性数据。"
+      ],
+      "main_contributions": [
+        "报告了首个基于二维/三维复合钙钛矿薄膜的全光非线性激活，并进行了实验验证。",
+        "所制备的2D/3D CP薄膜具有纳秒级响应、低激活阈值（0.13至0.48 mW/cm2）、高环境稳定性、良好均匀性和高集成性，且无需外部电源。",
+        "提出了钙钛矿非线性光学神经网络（PVK-NONN），作为通用光学前端，光路长度3毫米，兼容紧凑光学集成。",
+        "在图像去噪和分类任务上实验验证了混合光电计算架构，性能优于线性单层ONN，PSNR提升最高5.91 dB，SSIM提升0.152，分类准确率提升6.5%。"
+      ],
+      "method_and_architecture": "论文提出基于二维/三维复合钙钛矿（2D/3D CP）薄膜的全光非线性激活，并以此构建钙钛矿非线性光学神经网络（PVK-NONN）。该架构作为通用光学前端，光路长度为3毫米，兼容紧凑光学集成。系统中，输入图像经光学线性层处理后，通过2D/3D CP薄膜实现无源非线性变换，再经光电探测和电子后端完成输出。",
+      "method_implementation": [
+        "论文制备了二维/三维复合钙钛矿薄膜作为非线性激活介质。根据摘要，该薄膜具有纳秒级响应、低激活阈值（0.13至0.48 mW/cm2）、高环境稳定性、良好均匀性，并且无需外部电源即可实现非线性激活。然而，具体的薄膜制备工艺、二维与三维组分的比例、沉积方法及后处理步骤在摘要中未提供。",
+        "论文构建了基于该薄膜的钙钛矿非线性光学神经网络（PVK-NONN）。该网络作为通用光学前端，光路长度为3毫米，支持可扩展的多任务图像处理。摘要未提供光学线性层的具体实现方式（如空间光调制器、衍射光学元件或其它器件）、输入图像的编码方式、光路布局细节、探测器类型以及训练算法。"
+      ],
+      "method_principle": "二维/三维复合钙钛矿薄膜通过其光致发光特性将输入光强非线性地转换为输出光强，从而在光域直接实现非线性激活函数。二维组分和三维组分的协同作用改善了薄膜的均匀性、发射覆盖范围和发射强度，克服了纯三维钙钛矿大晶粒导致的性能限制。该非线性激活无需外部电源，依靠材料自身的被动光学响应，因此具有纳秒级响应速度、低激活阈值（0.13至0.48 mW/cm2）和高环境稳定性。在PVK-NONN中，光学线性层完成矩阵乘法，2D/3D CP薄膜作为非线性前端，二者结合形成完整的混合光电计算架构。由于光路长度仅为3毫米，该方案适合紧凑集成，且薄膜的高均匀性使得大规模阵列集成成为可能，从而支持可扩展的多任务图像处理。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "图像去噪",
+          "图像分类"
+        ],
+        "architecture_type": "unclear",
+        "calibration_requirements": "未提供。摘要未说明系统标定流程、温度或环境稳定性补偿、探测器校准或制造公差控制。",
+        "hardware_validation": "physical_experiment",
+        "optical_nonlinearity": "二维/三维复合钙钛矿薄膜的光致发光提供无源全光非线性；该非线性不需要外部电源，具有纳秒级响应和低激活阈值。",
+        "training_method": "未提供。摘要仅说明所提出的PVK-NONN作为通用光学前端并验证了性能，但未描述光学线性层和电子后端的训练算法、损失函数或梯度传播方式。"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "2D/3D CP薄膜具有纳秒级响应，低激活阈值范围为0.13至0.48 mW/cm2，高环境稳定性、良好均匀性和高集成性。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "PVK-NONN在图像去噪和分类任务上优于线性单层ONN，PSNR提升最高5.91 dB，SSIM提升0.152，分类准确率提升6.5%。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "所提出的架构光路长度为3毫米，兼容紧凑光学集成。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该工作提供了一种实用的无源、非相干全光非线性实现方法，为紧凑、低功耗的视觉和边缘计算系统铺平了道路。通过二维/三维复合钙钛矿薄膜解决了光学非线性激活中长期存在的响应速度、阈值、稳定性和集成性之间的折衷，有望推动光学神经网络在可扩展多任务处理中的实际应用。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "薄膜制备工艺与材料参数",
+          "PVK-NONN的光学线性层实现细节",
+          "训练算法与参数配置",
+          "实验系统光路布局与探测器类型",
+          "能耗、计算密度和可扩展性分析",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    },
+    {
+      "candidate_id": "ca00b2160d3deb8b79b61e6e",
+      "core_problem": "论文致力于解决大型语言模型在数学与科学等发现型任务中解决方案覆盖率不足的问题。常规的强化学习后训练会围绕高奖励输出收窄模型分布，导致 pass@k 指标下的候选解多样性下降。作者提出用进化策略等群体式、无梯度方法直接在权重空间进行后训练，以保持更广的输出分布，提高多样解决方案的覆盖率。",
+      "distinction_from_prior_work": "与以往依赖强化学习进行后训练的工作不同，本文采用进化策略在权重空间进行无梯度优化。进化策略通过随机扰动维持解的多样性，避免强化学习导致的高奖励输出分布坍缩，从而在 pass@k 指标上持续优于强化学习，获得更广的解决方案覆盖。",
+      "limitations_and_open_questions": [
+        "未提供进化策略在不同领域任务上的泛化性分析，尤其是非数学推理场景。",
+        "未提供进化策略与强化学习在训练稳定性、超参数敏感性方面的系统对比。",
+        "未提供模型的校准误差与随机扰动规模之间的量化关系。",
+        "未提供在更大规模模型或更大批量设置下的扩展性验证。"
+      ],
+      "main_contributions": [
+        "提出将进化策略用作大型语言模型的后训练方法，以解决强化学习造成的输出分布收窄问题。",
+        "在多个基准和模型规模上展示了进化策略在 pass@k 指标上持续优于强化学习。",
+        "证明进化策略能产生更广的输出分布和更高的解决方案覆盖率，为发现型任务提供更合适的后训练基础。"
+      ],
+      "method_and_architecture": "论文采用进化策略作为群体式、无梯度的后训练方法，直接在模型权重空间进行优化。与强化学习相比，进化策略通过随机扰动生成候选权重，并根据奖励信号更新种群，从而保留更多样化的解决方案。实验涵盖 GSM8K 和 MATH 等数学推理基准，模型规模从 1.5B 到 32B 参数，使用 ES-at-Scale 库实现进化策略，并与 VERL 库实现的强化学习基线进行对比。",
+      "method_implementation": [
+        "实验使用 ES-at-Scale 库实施进化策略，并与 VERL 库实施的强化学习基线进行对比。训练数据采用 GSM8K 和 MATH（难度级别 3-5）数据集。对于 GSM8K 实验，微调模型包括 Qwen2.5 1.5B-Instruct、3B-Instruct、7B-Instruct，以及 Qwen3 1.7B、4B、8B。对于 MATH 实验，使用 ES-at-Scale 微调 Qwen2.5-Math-7B、Qwen2.5-14B 和 Qwen2.5-32B，并与 SimpleRL-Zoo 和 OatZero 的公开强化学习检查点比较。",
+        "测试时每个响应限制为 16,384 个 token，采样温度设为 0.6，top-p 设为 0.95。在 MATH 训练中，Qwen2.5-Math-7B 使用批量大小 512，最大响应长度 3,000 token；Qwen2.5-14B 和 Qwen2.5-32B 使用批量大小 1,024，最大响应长度 8,192 token。训练硬件方面，GSM8K 实验（全部六个模型）的进化策略和强化学习均使用 8 个 NVIDIA H200 GPU 进行训练，每个训练后模型使用单个 NVIDIA H200 GPU 进行评估。MATH 实验的进化策略训练使用 8 个 NVIDIA B200 GPU，每个模型使用单个 NVIDIA B200 GPU 进行评估。",
+        "进化策略的训练过程利用随机扰动生成候选模型，并由奖励函数评估这些模型在训练问题上的表现。与强化学习需要显式奖励信号进行策略梯度更新不同，进化策略通过种群内的相对性能进行选择，并在权重空间上进行更新。训练后的模型在测试集上通过 pass@k 估计器进行评估，该估计器在数据集上使用无偏低方差公式计算：pass@k=1−(n−ck)/(nk)，其中 n 是每个问题采样的响应总数，c 是正确的响应数。对于每个基准，n 的取值与先前工作保持一致。",
+        "最终输出包括模型在 GSM8K 测试集、MATH500、Olympiad Bench 和 Minerva 等基准上的 pass@k 结果。通过比较进化策略和强化学习训练的模型，可以展示进化策略在保持解空间覆盖方面的优势。"
+      ],
+      "method_principle": "进化策略之所以有效，是因为它们直接在权重空间进行无梯度搜索，通过随机扰动产生多样化的模型变体，并根据任务奖励进行选择。这样的机制不会像强化学习那样迫使模型输出分布向单一高奖励模式收窄。在发现型任务中，单个最佳答案往往不够，需要模型能够生成多个多样且可能正确的候选解。进化策略通过维持种群多样性，使得模型的后训练过程能够保留更广的输出分布，从而在 pass@k 评估中表现出更高的解决方案覆盖率。此外，由于进化策略不依赖梯度信号，它避免了强化学习中的价值函数估计和策略梯度方差，可以直接利用稀疏或非可微的奖励信号。这种特性使进化策略特别适合采样式推理任务，能够在增加测试时计算的同时保持解的多样性。",
+      "optical_neural_network_analysis": null,
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "进化策略在 pass@k 上实现了比强化学习持续更高的性能，并产生更广的输出分布和更高的解决方案覆盖率。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "这种覆盖率使得在标准数学基准等任务上可以获得更好的结果。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "进化策略为发现型问题和其他需要多样解决方案覆盖的领域提供了更好的后训练基础。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "论文的价值在于揭示了强化学习在发现型任务中可能限制解空间覆盖的弊端，并提出进化策略作为一种可行的后训练替代方案。通过系统实验证明进化策略能显著提升 pass@k 和输出多样性，为需要在测试时探索多个候选解的场景提供了新的训练范式。该方法可应用于数学推理、科学发现等领域，有助于提高模型生成多样且正确解决方案的能力。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": true,
+        "full_text_method_source_url": "https://arxiv.org/html/2608.12679",
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+        "missing_information": [
+          "未提供进化策略在具体任务上的详细奖励函数设计。",
+          "未提供随机扰动的具体分布类型和参数设置。",
+          "未提供强化学习基线使用的具体算法变体。",
+          "未提供各模型在 GSM8K 和 MATH 上的具体训练轮数或步数。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": {
+        "forward_only": "未提供。公开正文方法上下文未明确说明是否仅前向执行。",
+        "low_rank_or_subspace": "未提供。公开正文方法上下文未提及低秩或子空间方法。",
+        "per_step_vs_total_clarity": "未提供。摘要和公开正文方法上下文未明确区分总查询复杂度与每步查询数。",
+        "query_reuse": "未提供。公开正文方法上下文未描述查询复用机制。",
+        "structured_perturbation": "未提供。公开正文方法上下文仅提及随机扰动，未描述结构化扰动。",
+        "total_query_reduction_claim": "not_available"
+      }
+    },
+    {
+      "candidate_id": "ccd82d84305d463a6c33398d",
+      "core_problem": "论文关注人工智能对计算硬件的需求，提出利用光子神经网络作为替代方案，并系统梳理片上光子神经网络从器件、架构到应用的发展现状与瓶颈。",
+      "distinction_from_prior_work": "该工作区别于单项实验或单项器件研究，以综述形式将器件技术、系统架构和应用领域整合在统一框架下；不过摘要未提供与既有综述文献在范围、分类方式或结论上的具体差异。",
+      "limitations_and_open_questions": [
+        "摘要没有提供文献筛选标准、比较基准或量化指标，因此综述的系统性和可重复性无法评估。",
+        "摘要未说明各器件平台在可扩展性、非线性实现和集成复杂度方面的具体定量证据。",
+        "摘要未明确应用场景中的性能数据，因此无法判断不同网络架构在具体任务上的相对优劣。",
+        "综述本身的结论属于作者归纳，不构成对光子神经网络性能或发展可行性的独立验证。"
+      ],
+      "main_contributions": [
+        "对片上光子神经网络进行全面且批判性的综述，覆盖器件技术、系统架构和新兴应用。",
+        "建立统一视角，将器件级创新与系统级功能联系起来。",
+        "比较多种光子神经网络实现，分析精度、能效和集成复杂度之间的权衡。",
+        "识别可扩展性、非线性实现和大规模集成等关键瓶颈，并展望未来方向。"
+      ],
+      "method_and_architecture": "这是一篇综述性工作，没有提出新的单一方法或架构，而是在器件层面和系统层面分别归纳现有方案：器件层面包括马赫-曾德尔干涉仪网格、微环谐振器阵列、超构结构和相变材料单元；系统层面包括全连接、卷积、循环、储备池、Transformer和脉冲神经网络等实现。",
+      "method_implementation": [
+        "本文采取综述分析路线，未提供具体实验系统或训练流程。摘要显示作者围绕片上光子神经网络展开，分别考察马赫-曾德尔干涉仪网格、微环谐振器阵列、超构结构和相变材料单元等光子构建模块，并讨论这些模块的强度、局限和可扩展性挑战。",
+        "在上述器件平台基础上，作者比较了全连接、卷积、循环、储备池、Transformer和脉冲神经网络等主要神经网络实现，关注精度、能效和集成复杂度之间的权衡；随后涉及从光信号处理到量子计算的应用领域，最后指出可扩展性、非线性实现和大规模集成等关键瓶颈。"
+      ],
+      "method_principle": "综述通过建立“器件层—系统层”统一视角来解释片上光子神经网络的工作原理：不同光子器件承担加权、干涉和可调耦合等线性运算，结合材料或结构带来的非线性响应，在光域中实现神经网络的前向传播；不同网络类型通过不同的拓扑连接这些器件，从而在带宽、并行度和延迟等指标上交换精度、能耗与集成复杂度。这一视角能够把底层器件创新与上层网络功能联系起来，并据此总结可扩展性、片上非线性实现和大规模集成之间的因果关系。由于当前没有公开全文方法上下文，综述作者如何选取文献、按何种标准进行比较和分类，以及是否使用统一指标进行量化评估，均无法从摘要确认。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "光信号处理",
+          "量子计算"
+        ],
+        "architecture_type": "unclear",
+        "calibration_requirements": "not_available",
+        "hardware_validation": "not_available",
+        "optical_nonlinearity": "未提供；摘要仅提及非线性实现是当前关键瓶颈之一。",
+        "training_method": "not_available"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [],
+      "research_value": "在人工智能计算需求快速增长的背景下，光子神经网络被视为突破传统电子架构限制的候选方向。本文通过连接器件级创新与系统级功能，有助于厘清片上光子计算的发展脉络和主要取舍，可为下一代光子计算技术的设计路线和研究优先级提供参考。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "综述的方法学细节，例如文献筛选标准、数据库和纳入排除规则。",
+          "器件平台和网络架构的量化性能对比数据。",
+          "应用场景中的具体实验结果或指标。",
+          "作者提出未来方向时依据的证据强度。",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    }
+  ],
+  "summary_count": 3
+}

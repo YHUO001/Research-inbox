@@ -64,6 +64,15 @@
       "summary_record_sha256": "18a9c0d613ce913ccc78135b56103608d7eb6151fd2f966abe295cceef86a60f",
       "title": "Optical neural networks for ultrafast quantum state tomography"
     },
+    "2eb28d7201afb356d747693a": {
+      "digest_date": "2026-08-19",
+      "doi": "10.1021/acsphotonics.6c00831",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "7b9820e829217de6fe344dd57142d8718f74fc8dbcfe7ba71776da6dfb257cd2",
+      "title": "Compact Nonlinear\nOptical Neural Networks Enabled\nby Air-Stable 2D/3D Composite Perovskite Films for Scalable Visual\nPerception"
+    },
     "2f9953028e4e0e3b934222c8": {
       "digest_date": "2026-08-18",
       "doi": "10.48550/arxiv.2608.08060",
@@ -127,6 +136,24 @@
       "summary_record_sha256": "405da6f85e07c71a653f968f4a282526a3d0f9ac9a9c670dda6d83d4913e5e7d",
       "title": "Reconfigurable Optical Nonlinear Activation Functions Using a Phase-Change Microring for Photonic Neural Networks"
     },
+    "ca00b2160d3deb8b79b61e6e": {
+      "digest_date": "2026-08-19",
+      "doi": "10.48550/arxiv.2608.12679",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "f2ab0e20ddbec5a2519972346e8083c8ce406a7d6fe7fb95a326f5eb8de48d88",
+      "title": "Beyond the Best Guess: Improving LLM Solution Coverage with Evolution Strategies"
+    },
+    "ccd82d84305d463a6c33398d": {
+      "digest_date": "2026-08-19",
+      "doi": "10.1002/adom.71567",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "23f9d8c3c7e0801cc4b73be358c1f83de1dbee2d33e5c279c1fc1dc737a28798",
+      "title": "On‐Chip Photonic Neural Network Architectures"
+    },
     "ead3d4ba8c5090acac05878a": {
       "digest_date": "2026-08-10",
       "doi": "10.1145/3770855.3817661",
@@ -162,9 +189,16 @@
       "0cbf41592278a3ad1b89e219",
       "2f9953028e4e0e3b934222c8",
       "328b1572ba0e31f8f8a6dac1"
+    ],
+    "2026-08-19": [
+      "2eb28d7201afb356d747693a",
+      "ca00b2160d3deb8b79b61e6e",
+      "ccd82d84305d463a6c33398d"
     ]
   },
   "by_doi": {
+    "10.1002/adom.71567": "ccd82d84305d463a6c33398d",
+    "10.1021/acsphotonics.6c00831": "2eb28d7201afb356d747693a",
     "10.1038/s41427-026-00671-6": "83a830ace13b5158f346c392",
     "10.1038/s44335-026-00086-0": "328b1572ba0e31f8f8a6dac1",
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
@@ -179,6 +213,7 @@
     "10.48550/arxiv.2608.03277": "142dc76f41fc25448b82c91e",
     "10.48550/arxiv.2608.08060": "2f9953028e4e0e3b934222c8",
     "10.48550/arxiv.2608.12300": "0cbf41592278a3ad1b89e219",
+    "10.48550/arxiv.2608.12679": "ca00b2160d3deb8b79b61e6e",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799"
   },
   "by_project": {
@@ -188,18 +223,21 @@
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
+      "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
-      "973790e22c46d30721660799"
+      "973790e22c46d30721660799",
+      "ccd82d84305d463a6c33398d"
     ],
     "zeroth-order-optimization": [
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "ca00b2160d3deb8b79b61e6e",
       "ead3d4ba8c5090acac05878a"
     ]
   },
@@ -213,6 +251,9 @@
     "application:低维和高维偏微分方程求解": [
       "0e5c75b6132afcfb1f7afb17"
     ],
+    "application:光信号处理": [
+      "ccd82d84305d463a6c33398d"
+    ],
     "application:分布式声学传感（das）": [
       "1cf1fcd769c5ace951188b8c"
     ],
@@ -222,6 +263,9 @@
     "application:动态避障": [
       "328b1572ba0e31f8f8a6dac1"
     ],
+    "application:图像分类": [
+      "2eb28d7201afb356d747693a"
+    ],
     "application:图像分类（cifar-10、fashion-mnist、mnist）": [
       "1cf1fcd769c5ace951188b8c"
     ],
@@ -230,6 +274,9 @@
     ],
     "application:图像分类（mnist、fashion-mnist）": [
       "541094f286db8902f2fe6077"
+    ],
+    "application:图像去噪": [
+      "2eb28d7201afb356d747693a"
     ],
     "application:大型模型部署": [
       "7d6c2a059923ebe445a1cdf7"
@@ -264,6 +311,9 @@
     "application:量子态层析（2量子比特）": [
       "2b5f9302fe96c2793d48540e"
     ],
+    "application:量子计算": [
+      "ccd82d84305d463a6c33398d"
+    ],
     "architecture:free_space": [
       "5017adbd33e6ddd5c320a4c4"
     ],
@@ -276,10 +326,12 @@
       "0cbf41592278a3ad1b89e219",
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
+      "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "541094f286db8902f2fe6077",
       "7d6c2a059923ebe445a1cdf7",
-      "83a830ace13b5158f346c392"
+      "83a830ace13b5158f346c392",
+      "ccd82d84305d463a6c33398d"
     ],
     "hardware_validation:mixed": [
       "1cf1fcd769c5ace951188b8c",
@@ -287,6 +339,7 @@
       "2b5f9302fe96c2793d48540e"
     ],
     "hardware_validation:physical_experiment": [
+      "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "5017adbd33e6ddd5c320a4c4",
       "973790e22c46d30721660799"
@@ -306,18 +359,21 @@
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
+      "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
-      "973790e22c46d30721660799"
+      "973790e22c46d30721660799",
+      "ccd82d84305d463a6c33398d"
     ],
     "project:zeroth-order-optimization": [
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "ca00b2160d3deb8b79b61e6e",
       "ead3d4ba8c5090acac05878a"
     ],
     "zo:forward_only": [
@@ -325,6 +381,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "ca00b2160d3deb8b79b61e6e",
       "ead3d4ba8c5090acac05878a"
     ],
     "zo:low_rank_or_subspace": [
@@ -332,6 +389,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "ca00b2160d3deb8b79b61e6e",
       "ead3d4ba8c5090acac05878a"
     ],
     "zo:query_reuse": [
@@ -339,6 +397,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "ca00b2160d3deb8b79b61e6e",
       "ead3d4ba8c5090acac05878a"
     ],
     "zo:structured_perturbation": [
@@ -346,6 +405,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "ca00b2160d3deb8b79b61e6e",
       "ead3d4ba8c5090acac05878a"
     ],
     "zo:total_query_reduction": [
@@ -357,8 +417,14 @@
     "ACM Transactions on Design Automation of Electronic Systems": [
       "0e5c75b6132afcfb1f7afb17"
     ],
+    "ACS Photonics": [
+      "2eb28d7201afb356d747693a"
+    ],
     "AIP Publishing": [
       "973790e22c46d30721660799"
+    ],
+    "Advanced Optical Materials": [
+      "ccd82d84305d463a6c33398d"
     ],
     "CLEO 2026": [
       "5017adbd33e6ddd5c320a4c4"
@@ -388,7 +454,8 @@
     "arXiv (Cornell University)": [
       "0cbf41592278a3ad1b89e219",
       "142dc76f41fc25448b82c91e",
-      "2f9953028e4e0e3b934222c8"
+      "2f9953028e4e0e3b934222c8",
+      "ca00b2160d3deb8b79b61e6e"
     ],
     "npj Unconventional Computing": [
       "328b1572ba0e31f8f8a6dac1"
@@ -403,6 +470,7 @@
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
+      "2eb28d7201afb356d747693a",
       "2f9953028e4e0e3b934222c8",
       "328b1572ba0e31f8f8a6dac1",
       "5017adbd33e6ddd5c320a4c4",
@@ -410,10 +478,12 @@
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
       "973790e22c46d30721660799",
+      "ca00b2160d3deb8b79b61e6e",
+      "ccd82d84305d463a6c33398d",
       "ead3d4ba8c5090acac05878a"
     ]
   },
-  "paper_count": 15,
+  "paper_count": 18,
   "schema_version": 1,
-  "updated_at": "2026-08-18T13:07:52.039850Z"
+  "updated_at": "2026-08-19T00:34:52.163773Z"
 }

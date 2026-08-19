@@ -1,0 +1,53 @@
+{
+  "built_at": "2026-08-19T00:32:51.461868Z",
+  "digest_date": "2026-08-19",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "2eb28d7201afb356d747693a",
+        "landing_page": "https://doi.org/10.1021/acsphotonics.6c00831",
+        "mandatory": false,
+        "score": 0.79,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Compact Nonlinear\nOptical Neural Networks Enabled\nby Air-Stable 2D/3D Composite Perovskite Films for Scalable Visual\nPerception",
+        "venue": "ACS Photonics",
+        "year": 2026
+      },
+      {
+        "candidate_id": "ca00b2160d3deb8b79b61e6e",
+        "landing_page": "https://arxiv.org/abs/2608.12679",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Beyond the Best Guess: Improving LLM Solution Coverage with Evolution Strategies",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "ccd82d84305d463a6c33398d",
+        "landing_page": "https://doi.org/10.1002/adom.71567",
+        "mandatory": false,
+        "score": 0.72,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "On‐Chip Photonic Neural Network Architectures",
+        "venue": "Advanced Optical Materials",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}
