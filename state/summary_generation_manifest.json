@@ -1,101 +1,51 @@
 {
-  "abstract_fallback_candidate_ids": [
-    "2eb28d7201afb356d747693a",
-    "ccd82d84305d463a6c33398d"
-  ],
-  "abstract_fallback_count": 2,
+  "abstract_fallback_candidate_ids": [],
+  "abstract_fallback_count": 0,
   "architecture_evidence": {
-    "2eb28d7201afb356d747693a": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
-    },
-    "ca00b2160d3deb8b79b61e6e": {
+    "dd2f544b89860edf2c2a51ae": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": null,
       "resolved_type": "unclear"
-    },
-    "ccd82d84305d463a6c33398d": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 3,
-  "completed_at": "2026-08-19T00:34:52.163773Z",
+  "automatic_queue_candidate_count": 1,
+  "completed_at": "2026-08-20T00:33:21.307398Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "2eb28d7201afb356d747693a",
-    "ca00b2160d3deb8b79b61e6e",
-    "ccd82d84305d463a6c33398d"
+    "dd2f544b89860edf2c2a51ae"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-08-19",
-  "digest_json_file": "runtime-state/data/digests/2026-08-19.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-08-19.generated.md",
+  "digest_date": "2026-08-20",
+  "digest_json_file": "runtime-state/data/digests/2026-08-20.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-08-20.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0642396,
+  "estimated_cost_cny": 0.02322,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "2eb28d7201afb356d747693a": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "2eb28d7201afb356d747693a",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 0.673,
-      "error": "https://doi.org/10.1021/acsphotonics.6c00831: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.1021/acsphotonics.6c00831",
-      "status": "not_available",
-      "text_persisted": false
-    },
-    "ca00b2160d3deb8b79b61e6e": {
+    "dd2f544b89860edf2c2a51ae": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "ca00b2160d3deb8b79b61e6e",
-      "character_count": 3160,
-      "content_sha256": "d32276b5968e51a0ac89f613794b2e48de9288be75dedcd16664fd3c248a4dbf",
-      "elapsed_seconds": 0.39,
+      "candidate_id": "dd2f544b89860edf2c2a51ae",
+      "character_count": 4989,
+      "content_sha256": "252ef19d5183e2871f376e0b3860569cd277e31d1798575c441041cb8eb67533",
+      "elapsed_seconds": 0.606,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
       "section_headings": [
-        "3 Experimental Setup",
-        "Training.",
-        "Training hyperparameters.",
-        "Training & evaluation GPU infrastructure."
+        "4.3 Implementation and Algorithm",
+        "5.1 Experimental Setup",
+        "A.1 Implementation Details"
       ],
-      "source_url": "https://arxiv.org/html/2608.12679",
+      "source_url": "https://arxiv.org/html/2608.15665",
       "status": "used",
-      "text_persisted": false
-    },
-    "ccd82d84305d463a6c33398d": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "ccd82d84305d463a6c33398d",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 0.359,
-      "error": "https://doi.org/10.1002/adom.71567: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.1002/adom.71567",
-      "status": "not_available",
       "text_persisted": false
     }
   },
@@ -105,7 +55,7 @@
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 3,
+  "newly_completed_candidate_count": 1,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -121,203 +71,88 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 3,
+  "prepared_request_count": 1,
   "provider": "deepseek",
-  "queue_sha256": "6b59e9f3ee6db447bbe6d3bbae453566ae1c90632de863134ed607b0f9e47e23",
-  "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-08-19.jsonl",
-  "request_sha256": "80f75197d95a9f01fe437ef15ecaf70cfe2b8d9123f62031faac8da7ee695ab6",
+  "queue_sha256": "bae9d5b0a637b220b6d976a32cbda45b296d5b10561b070d7e8cf20af8bad139",
+  "request_count": 1,
+  "request_file": "runtime-state/data/summary_requests/2026-08-20.jsonl",
+  "request_sha256": "1eb9c67e7d0b8d95cf04cbb074a197405774a1c3ee52a0916f13b4d40319b355",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "8c9404c3c18e9cddac3983224d8da76a7467af98ccf81ab9c5db3647ce61205a",
+  "selection_manifest_sha256": "ff2ee62ae0a1937d98650a37e7aa9ceb5501a12d2386ceb48d927954d49d4bcb",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 3,
+  "source_queue_candidate_count": 1,
   "stage_timings": {
-    "full_text_preparation_seconds": 1.427,
+    "full_text_preparation_seconds": 0.609,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "2eb28d7201afb356d747693a",
-        "elapsed_seconds": 32.753,
+        "candidate_id": "dd2f544b89860edf2c2a51ae",
+        "elapsed_seconds": 47.421,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1628,
-          "prompt_cache_hit_tokens": 0,
-          "prompt_cache_miss_tokens": 3621,
-          "prompt_tokens": 3621,
-          "total_tokens": 5249
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "ca00b2160d3deb8b79b61e6e",
-        "elapsed_seconds": 26.234,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1291,
+          "completion_tokens": 2446,
           "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 2323,
-          "prompt_tokens": 4243,
-          "total_tokens": 5534
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "ca00b2160d3deb8b79b61e6e",
-        "elapsed_seconds": 35.375,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1938,
-          "prompt_cache_hit_tokens": 4224,
-          "prompt_cache_miss_tokens": 171,
-          "prompt_tokens": 4395,
-          "total_tokens": 6333
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "ccd82d84305d463a6c33398d",
-        "elapsed_seconds": 23.326,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1015,
-          "prompt_cache_hit_tokens": 0,
-          "prompt_cache_miss_tokens": 3503,
-          "prompt_tokens": 3503,
-          "total_tokens": 4518
+          "prompt_cache_miss_tokens": 2832,
+          "prompt_tokens": 4752,
+          "total_tokens": 7198
         }
       }
     ],
-    "model_generation_and_validation_seconds": 117.717
+    "model_generation_and_validation_seconds": 47.432
   },
   "status": "completed_automatic",
-  "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-08-19.jsonl",
+  "summary_count": 1,
+  "summary_file": "runtime-state/data/summaries/2026-08-20.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 3,
+  "summary_slot_count": 1,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "2eb28d7201afb356d747693a": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "hybrid",
-        "repaired": true,
-        "resolved_type": "unclear"
-      },
-      "ca00b2160d3deb8b79b61e6e": {
+      "dd2f544b89860edf2c2a51ae": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": null,
         "repaired": false,
         "resolved_type": "unclear"
-      },
-      "ccd82d84305d463a6c33398d": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "integrated",
-        "repaired": true,
-        "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 2,
+    "architecture_repairs": 0,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "2eb28d7201afb356d747693a": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "2eb28d7201afb356d747693a",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 0.673,
-        "error": "https://doi.org/10.1021/acsphotonics.6c00831: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.1021/acsphotonics.6c00831",
-        "status": "not_available",
-        "text_persisted": false
-      },
-      "ca00b2160d3deb8b79b61e6e": {
+      "dd2f544b89860edf2c2a51ae": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "ca00b2160d3deb8b79b61e6e",
-        "character_count": 3160,
-        "content_sha256": "d32276b5968e51a0ac89f613794b2e48de9288be75dedcd16664fd3c248a4dbf",
-        "elapsed_seconds": 0.39,
+        "candidate_id": "dd2f544b89860edf2c2a51ae",
+        "character_count": 4989,
+        "content_sha256": "252ef19d5183e2871f376e0b3860569cd277e31d1798575c441041cb8eb67533",
+        "elapsed_seconds": 0.606,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
         "section_headings": [
-          "3 Experimental Setup",
-          "Training.",
-          "Training hyperparameters.",
-          "Training & evaluation GPU infrastructure."
+          "4.3 Implementation and Algorithm",
+          "5.1 Experimental Setup",
+          "A.1 Implementation Details"
         ],
-        "source_url": "https://arxiv.org/html/2608.12679",
+        "source_url": "https://arxiv.org/html/2608.15665",
         "status": "used",
-        "text_persisted": false
-      },
-      "ccd82d84305d463a6c33398d": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "ccd82d84305d463a6c33398d",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 0.359,
-        "error": "https://doi.org/10.1002/adom.71567: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.1002/adom.71567",
-        "status": "not_available",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 4,
-    "numeric_grounding_repair_responses": 1,
-    "numeric_grounding_repairs": {
-      "ca00b2160d3deb8b79b61e6e": [
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "超参数设置包括：Qwen2.5-Math-7B使用批量大小512和最大生成长度3000 tokens；",
-          "path": "method_implementation[3]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "3000"
-          ]
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "Qwen2.5-14B和Qwen2.5-32B使用批量大小1024和最大生成长度8192 tokens；",
-          "path": "method_implementation[3]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "1024",
-            "8192"
-          ]
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "测试时温度为0.6，top-p为0.95，最大响应长度16384 tokens。",
-          "path": "method_implementation[3]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "16384"
-          ]
-        }
-      ]
-    },
-    "tops_alias_expansions": 35,
-    "unit_format_normalization_responses": 1
+    "generation_metadata_repair_responses": 0,
+    "numeric_grounding_repair_responses": 0,
+    "numeric_grounding_repairs": {},
+    "tops_alias_expansions": 29,
+    "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 5872,
-    "prompt_cache_hit_tokens": 6144,
-    "prompt_cache_miss_tokens": 9618,
-    "prompt_tokens": 15762,
-    "total_tokens": 21634
+    "completion_tokens": 2446,
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 2832,
+    "prompt_tokens": 4752,
+    "total_tokens": 7198
   }
 }

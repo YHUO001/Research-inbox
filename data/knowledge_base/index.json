@@ -154,6 +154,15 @@
       "summary_record_sha256": "23f9d8c3c7e0801cc4b73be358c1f83de1dbee2d33e5c279c1fc1dc737a28798",
       "title": "On‐Chip Photonic Neural Network Architectures"
     },
+    "dd2f544b89860edf2c2a51ae": {
+      "digest_date": "2026-08-20",
+      "doi": "10.48550/arxiv.2608.15665",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "8d60a373011ea4985f6abcd81ab5e053f1b3ed310aca0235c8402c17d885d6b9",
+      "title": "SubZero+: Efficient Zeroth-Order LLM Fine-Tuning via Large Learning Rates"
+    },
     "ead3d4ba8c5090acac05878a": {
       "digest_date": "2026-08-10",
       "doi": "10.1145/3770855.3817661",
@@ -194,6 +203,9 @@
       "2eb28d7201afb356d747693a",
       "ca00b2160d3deb8b79b61e6e",
       "ccd82d84305d463a6c33398d"
+    ],
+    "2026-08-20": [
+      "dd2f544b89860edf2c2a51ae"
     ]
   },
   "by_doi": {
@@ -214,6 +226,7 @@
     "10.48550/arxiv.2608.08060": "2f9953028e4e0e3b934222c8",
     "10.48550/arxiv.2608.12300": "0cbf41592278a3ad1b89e219",
     "10.48550/arxiv.2608.12679": "ca00b2160d3deb8b79b61e6e",
+    "10.48550/arxiv.2608.15665": "dd2f544b89860edf2c2a51ae",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799"
   },
   "by_project": {
@@ -238,6 +251,7 @@
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
       "ca00b2160d3deb8b79b61e6e",
+      "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a"
     ]
   },
@@ -374,6 +388,7 @@
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
       "ca00b2160d3deb8b79b61e6e",
+      "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a"
     ],
     "zo:forward_only": [
@@ -382,6 +397,7 @@
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
       "ca00b2160d3deb8b79b61e6e",
+      "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a"
     ],
     "zo:low_rank_or_subspace": [
@@ -390,6 +406,7 @@
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
       "ca00b2160d3deb8b79b61e6e",
+      "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a"
     ],
     "zo:query_reuse": [
@@ -398,6 +415,7 @@
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
       "ca00b2160d3deb8b79b61e6e",
+      "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a"
     ],
     "zo:structured_perturbation": [
@@ -406,11 +424,13 @@
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
       "ca00b2160d3deb8b79b61e6e",
+      "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a"
     ],
     "zo:total_query_reduction": [
       "0e5c75b6132afcfb1f7afb17",
-      "2f9953028e4e0e3b934222c8"
+      "2f9953028e4e0e3b934222c8",
+      "dd2f544b89860edf2c2a51ae"
     ]
   },
   "by_venue": {
@@ -455,7 +475,8 @@
       "0cbf41592278a3ad1b89e219",
       "142dc76f41fc25448b82c91e",
       "2f9953028e4e0e3b934222c8",
-      "ca00b2160d3deb8b79b61e6e"
+      "ca00b2160d3deb8b79b61e6e",
+      "dd2f544b89860edf2c2a51ae"
     ],
     "npj Unconventional Computing": [
       "328b1572ba0e31f8f8a6dac1"
@@ -480,10 +501,11 @@
       "973790e22c46d30721660799",
       "ca00b2160d3deb8b79b61e6e",
       "ccd82d84305d463a6c33398d",
+      "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a"
     ]
   },
-  "paper_count": 18,
+  "paper_count": 19,
   "schema_version": 1,
-  "updated_at": "2026-08-19T00:34:52.163773Z"
+  "updated_at": "2026-08-20T00:33:21.307398Z"
 }

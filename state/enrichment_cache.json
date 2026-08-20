@@ -686,6 +686,12 @@
       "retrieved_at": "2026-08-18T04:25:28.598142Z",
       "status": "found"
     },
+    "crossref:doi:10.1021/acsphotonics.6c01125/5251426": {
+      "expires_at": "2026-09-19T00:32:28.377988Z",
+      "record": null,
+      "retrieved_at": "2026-08-20T00:32:28.377988Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.1038/s41427-026-00671-6": {
       "expires_at": "2026-09-03T11:27:51.172062Z",
       "record": {
@@ -742,6 +748,64 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T11:27:51.172062Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1038/s41467-026-76872-y": {
+      "expires_at": "2026-09-19T00:32:27.718877Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ruiqi Zheng",
+            "orcid": null
+          },
+          {
+            "name": "Sheng Dong",
+            "orcid": null
+          },
+          {
+            "name": "Huan Rao",
+            "orcid": null
+          },
+          {
+            "name": "Junyi Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Jingxu Chen",
+            "orcid": null
+          },
+          {
+            "name": "Chencheng Zeng",
+            "orcid": null
+          },
+          {
+            "name": "Yu Huang",
+            "orcid": null
+          },
+          {
+            "name": "Jiejun Zhang",
+            "orcid": "https://orcid.org/0000-0002-4137-870X"
+          },
+          {
+            "name": "Jianping Yao",
+            "orcid": "https://orcid.org/0000-0002-6877-7057"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41467-026-76872-y",
+        "landing_page": "https://doi.org/10.1038/s41467-026-76872-y",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41467-026-76872-y",
+        "publication_date": "2026-08-18",
+        "title": "Photonic integrated computing engine for concurrent optical computing",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-20T00:32:27.718877Z",
       "status": "found"
     },
     "crossref:doi:10.1038/s41586-026-10891-z": {
@@ -1580,6 +1644,40 @@
       "retrieved_at": "2026-08-18T04:25:28.954331Z",
       "status": "found"
     },
+    "crossref:doi:10.1364/opticaq.603710": {
+      "expires_at": "2026-09-19T00:32:31.197134Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ivanna Boras",
+            "orcid": null
+          },
+          {
+            "name": "Jacob Ewaniuk",
+            "orcid": null
+          },
+          {
+            "name": "Nir Rotenberg",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/opticaq.603710",
+        "landing_page": "https://doi.org/10.1364/opticaq.603710",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/opticaq.603710",
+        "publication_date": "2026-08-18",
+        "title": "Quantum photonic neural networks in time",
+        "venue": "Optica Quantum",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-20T00:32:31.197134Z",
+      "status": "found"
+    },
     "crossref:doi:10.21203/rs.3.rs-10187577/v1": {
       "expires_at": "2026-09-04T13:20:51.775599Z",
       "record": {
@@ -1706,6 +1804,12 @@
       "expires_at": "2026-09-17T04:25:05.409312Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:05.409312Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.48550/arxiv.2608.15665": {
+      "expires_at": "2026-09-19T00:32:30.663767Z",
+      "record": null,
+      "retrieved_at": "2026-08-20T00:32:30.663767Z",
       "status": "not_found"
     },
     "crossref:doi:10.5281/zenodo.21885998": {
@@ -2024,6 +2128,12 @@
       "retrieved_at": "2026-08-18T04:25:16.791069Z",
       "status": "found"
     },
+    "crossref:title:249de29380f61cbfa04e045bb6ff4ca3e6b09932fa43c62ead34e26d394beb77": {
+      "expires_at": "2026-08-27T00:32:29.038187Z",
+      "record": null,
+      "retrieved_at": "2026-08-20T00:32:29.038187Z",
+      "status": "not_found"
+    },
     "crossref:title:27e820562a0ac8c59a578198308b2780850a66249ec2045713988240cf7f6179": {
       "expires_at": "2026-08-11T09:38:46.293348Z",
       "record": {
@@ -2254,6 +2364,12 @@
       "expires_at": "2026-08-25T04:25:29.998451Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:29.998451Z",
+      "status": "not_found"
+    },
+    "crossref:title:68c7f373df5dda2ec156480414652821d724642dc444651f33df7b44061a9455": {
+      "expires_at": "2026-08-27T00:32:29.845954Z",
+      "record": null,
+      "retrieved_at": "2026-08-20T00:32:29.845954Z",
       "status": "not_found"
     },
     "crossref:title:692a520f82c9d20cd9c87a5e7bb96e0c70b47da8d71cf9f973c484caf4b25c9c": {
@@ -2508,6 +2624,12 @@
       "retrieved_at": "2026-08-10T00:36:46.415577Z",
       "status": "not_found"
     },
+    "crossref:title:96e06e51c74cceee73caba3da5785c158c4e264a83dfea4c29c9f1f9f5ec6aaf": {
+      "expires_at": "2026-08-27T00:32:26.130047Z",
+      "record": null,
+      "retrieved_at": "2026-08-20T00:32:26.130047Z",
+      "status": "not_found"
+    },
     "crossref:title:96f0fbd1e5d542ca6b592a146ef78a97389b766e1c9c07a003784e5d9bf90956": {
       "expires_at": "2026-08-11T09:38:43.571237Z",
       "record": {
@@ -2549,6 +2671,12 @@
       },
       "retrieved_at": "2026-08-04T09:38:43.571237Z",
       "status": "found"
+    },
+    "crossref:title:9863cf7ff493a2b7c37ba196cf968dc6f4ea005c3ac654a177628ba993caebce": {
+      "expires_at": "2026-08-27T00:32:26.843676Z",
+      "record": null,
+      "retrieved_at": "2026-08-20T00:32:26.843676Z",
+      "status": "not_found"
     },
     "crossref:title:991b260897a58f17b92ae9b2be2cb129ba4ef9c16cde827811d3fd5c761634fe": {
       "expires_at": "2026-08-16T00:36:05.845920Z",
@@ -3306,6 +3434,12 @@
       "expires_at": "2026-08-25T04:25:06.087066Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:06.087066Z",
+      "status": "not_found"
+    },
+    "crossref:title:ef63a7f91c3b5ef8a19ee9368e136e4954362b505b62725abd03830c35937e1b": {
+      "expires_at": "2026-08-27T00:32:23.976550Z",
+      "record": null,
+      "retrieved_at": "2026-08-20T00:32:23.976550Z",
       "status": "not_found"
     },
     "crossref:title:f7840ff87d12d6e20459aea19b1a0a31d50f83f6996a55d434c4a1529f3be13e": {
@@ -4194,6 +4328,12 @@
       "retrieved_at": "2026-08-18T04:25:28.911834Z",
       "status": "found"
     },
+    "openalex:doi:10.1021/acsphotonics.6c01125/5251426": {
+      "expires_at": "2026-09-19T00:32:28.732347Z",
+      "record": null,
+      "retrieved_at": "2026-08-20T00:32:28.732347Z",
+      "status": "not_found"
+    },
     "openalex:doi:10.1038/s41377-026-02314-5": {
       "expires_at": "2026-09-03T09:38:36.810331Z",
       "record": {
@@ -4440,6 +4580,72 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:24.128551Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41467-026-76872-y": {
+      "expires_at": "2026-09-19T00:32:28.089180Z",
+      "record": {
+        "abstract": "Optical networks with parallel processing capabilities advance high-speed computing and large-scale data processing by providing ultrawide computational bandwidth. In this paper, we present a photonic integrated processor that can be segmented into multiple functional blocks, enabling compact and reconfigurable matrix operations for parallel computational tasks. Fabricated on a silicon-on-insulator platform, the processor supports reconfigurable optical matrix operations of various sizes, offering flexibility and scalability. Specifically, it performs optical convolution operations with three-channel 1×1 and 2×2 real-valued convolution kernels implemented in distinct blocks. The multichannel 1×1 convolution is experimentally validated using a deep residual U-Net for precise segmentation of pneumonia lesions in lung computed tomography images. The 2×2 convolution is validated through an optical convolution layer integrated with an electrical fully connected layer for ten-class classification of handwritten digits. The processor features high scalability and robust parallel computing capability, positioning it as a promising candidate for optical neural networks. Photonic processors can accelerate large-scale data processing but often target a single fixed task. Here, the authors demonstrate a reconfigurable photonic processor that can be partitioned into functional blocks to perform three optical convolution tasks concurrently.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ruiqi Zheng",
+            "orcid": "https://orcid.org/0000-0001-7448-6566"
+          },
+          {
+            "name": "Sheng Dong",
+            "orcid": "https://orcid.org/0000-0002-0452-5221"
+          },
+          {
+            "name": "Huan Rao",
+            "orcid": null
+          },
+          {
+            "name": "Junyi Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Junyi Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Jingxu Chen",
+            "orcid": "https://orcid.org/0000-0002-0085-9742"
+          },
+          {
+            "name": "Chencheng Zeng",
+            "orcid": null
+          },
+          {
+            "name": "Yu Huang",
+            "orcid": null
+          },
+          {
+            "name": "Jiejun Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Jiejun Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Jianping Yao",
+            "orcid": "https://orcid.org/0000-0002-6877-7057"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41467-026-76872-y",
+        "landing_page": "https://doi.org/10.1038/s41467-026-76872-y",
+        "open_access_url": "https://doi.org/10.1038/s41467-026-76872-y",
+        "openalex_id": "https://openalex.org/W7203689432",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203689432",
+        "publication_date": "2026-08-18",
+        "title": "Photonic integrated computing engine for concurrent optical computing",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-20T00:32:28.089180Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s41586-026-10891-z": {
@@ -6306,6 +6512,40 @@
       "retrieved_at": "2026-08-04T09:38:30.948780Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/opticaq.603710": {
+      "expires_at": "2026-09-19T00:32:31.551627Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ivanna Boras",
+            "orcid": null
+          },
+          {
+            "name": "Jacob Ewaniuk",
+            "orcid": "https://orcid.org/0000-0001-8349-2810"
+          },
+          {
+            "name": "Nir Rotenberg",
+            "orcid": "https://orcid.org/0000-0002-8172-7222"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/opticaq.603710",
+        "landing_page": "https://doi.org/10.1364/opticaq.603710",
+        "open_access_url": "https://doi.org/10.1364/opticaq.603710",
+        "openalex_id": "https://openalex.org/W7203679444",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203679444",
+        "publication_date": "2026-08-18",
+        "title": "Quantum photonic neural networks in time",
+        "venue": "Optica Quantum",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-20T00:32:31.551627Z",
+      "status": "found"
+    },
     "openalex:doi:10.21203/rs.3.rs-10187577/v1": {
       "expires_at": "2026-09-04T13:20:52.127904Z",
       "record": {
@@ -6640,6 +6880,64 @@
       "retrieved_at": "2026-08-18T04:25:05.762075Z",
       "status": "found"
     },
+    "openalex:doi:10.48550/arxiv.2608.15665": {
+      "expires_at": "2026-09-19T00:32:31.064828Z",
+      "record": {
+        "abstract": "Zeroth-order (ZO) optimization enables backpropagation-free fine-tuning of large language models, but existing ZO methods suffer from high-variance gradient estimators, making convergence unstable and highly sensitive to learning rates. We propose SubZero+, an improved SubZero framework that improves stability in three complementary ways: (i) multi-query gradient estimation within layer-specific low-rank subspaces to reduce variance without exhibiting the multi-query paradox; (ii) a subspace Adam optimizer that performs adaptive updates using in-subspace multi-query gradient statistics; and (iii) a sign correction for QR-based subspace construction to ensure Haar-distributed projection matrices, eliminating implementation-dependent orientation ambiguity. Experiments on models from 1.3B to 32B across SuperGLUE, under both full-parameter tuning and LoRA, show that SubZero+ consistently outperforms prior ZO baselines, enlarges the stable learning-rate range, and narrows the gap to first-order methods with minimal extra memory overhead.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ziming Yu",
+            "orcid": null
+          },
+          {
+            "name": "Shuyao Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Xingyu Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Sike Wang",
+            "orcid": null
+          },
+          {
+            "name": "Pan Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Peiyu Zang",
+            "orcid": null
+          },
+          {
+            "name": "Xiangda Yan",
+            "orcid": "https://orcid.org/0000-0003-1025-8948"
+          },
+          {
+            "name": "Yongjie Yang",
+            "orcid": "https://orcid.org/0000-0001-9537-3923"
+          },
+          {
+            "name": "Jia Li",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2608.15665",
+        "landing_page": "https://doi.org/10.48550/arxiv.2608.15665",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2608.15665",
+        "openalex_id": "https://openalex.org/W7203705598",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203705598",
+        "publication_date": "2026-08-16",
+        "title": "SubZero+: Efficient Zeroth-Order LLM Fine-Tuning via Large Learning Rates",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-20T00:32:31.064828Z",
+      "status": "found"
+    },
     "openalex:doi:10.5281/zenodo.21885998": {
       "expires_at": "2026-09-17T04:25:17.487937Z",
       "record": {
@@ -6752,6 +7050,12 @@
       "retrieved_at": "2026-08-09T00:36:05.489666Z",
       "status": "not_found"
     },
+    "openalex:title:249de29380f61cbfa04e045bb6ff4ca3e6b09932fa43c62ead34e26d394beb77": {
+      "expires_at": "2026-08-27T00:32:29.598699Z",
+      "record": null,
+      "retrieved_at": "2026-08-20T00:32:29.598699Z",
+      "status": "not_found"
+    },
     "openalex:title:27e89ce590cc2c5da8a0f7da965f3349e53f7607c35584f784cc897d4b656362": {
       "expires_at": "2026-08-25T04:25:18.566103Z",
       "record": null,
@@ -6834,6 +7138,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:33.944063Z",
+      "status": "found"
+    },
+    "openalex:title:68c7f373df5dda2ec156480414652821d724642dc444651f33df7b44061a9455": {
+      "expires_at": "2026-08-27T00:32:30.372870Z",
+      "record": {
+        "abstract": "Modern text-to-image models can generate highly realistic images from natural-language prompts, while recent advances in prompt inversion have made it increasingly feasible to recover those prompts from generated outputs, raising new concerns for copyright protection and content ownership. As prompt marketplaces emerge, recovered prompts can enable both the unauthorized reproduction and redistribution of copyrighted creative works, and the exposure of the prompts that encode an artist's creative recipe in AI-generated content. Existing prompt inversion methods rely on gradient-based optimization, autoregressive captioning, or reinforcement learning. However, optimization-based methods often produce unreadable prompts, captioning methods hallucinate unverified details, and RL-based approaches frequently overfit to specific generators while introducing evaluation circularity. We introduce PROVE (Prompt Recovery with Verified Evidence), a training-free, black-box prompt inversion attack that reconstructs prompts by composing verifiable scene descriptions rather than optimizing token sequences, targeting both original copyrighted works and AI-generated content. The resulting prompts are fully auditable, with every recovered claim grounded in explicit image evidence, and are formalized through a precision-constrained recall maximization objective. Across MS-COCO, Flickr30K, and Lexica, using state-of-the-art text-to-image generators, PROVE consistently outperforms optimization, captioning, and RL-based baselines on image similarity (DINO, LPIPS) and text-image alignment (CLIP), without any training, generator access, or fine-tuning, demonstrating a stronger and more practical prompt inversion attack.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Rupayan Mallick",
+            "orcid": "https://orcid.org/0000-0002-3335-2753"
+          },
+          {
+            "name": "Mahsa Khoshnoodi",
+            "orcid": null
+          },
+          {
+            "name": "Sarah Adel Bargal",
+            "orcid": "https://orcid.org/0000-0003-3157-0412"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2608.13671",
+        "landing_page": "https://arxiv.org/abs/2608.13671",
+        "open_access_url": "https://arxiv.org/abs/2608.13671",
+        "openalex_id": "https://openalex.org/W7203627489",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203627489",
+        "publication_date": "2026-08-13",
+        "title": "PROVE: Training-Free Prompt Recovery using Verifiable Evidence",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-20T00:32:30.372870Z",
       "status": "found"
     },
     "openalex:title:6b0115533826a064ee0bb7aa6182c508efe8a7595937efe4b349e391caa7cfe7": {
@@ -7008,6 +7346,18 @@
       "expires_at": "2026-08-17T00:36:46.851872Z",
       "record": null,
       "retrieved_at": "2026-08-10T00:36:46.851872Z",
+      "status": "not_found"
+    },
+    "openalex:title:96e06e51c74cceee73caba3da5785c158c4e264a83dfea4c29c9f1f9f5ec6aaf": {
+      "expires_at": "2026-08-27T00:32:26.657565Z",
+      "record": null,
+      "retrieved_at": "2026-08-20T00:32:26.657565Z",
+      "status": "not_found"
+    },
+    "openalex:title:9863cf7ff493a2b7c37ba196cf968dc6f4ea005c3ac654a177628ba993caebce": {
+      "expires_at": "2026-08-27T00:32:27.549813Z",
+      "record": null,
+      "retrieved_at": "2026-08-20T00:32:27.549813Z",
       "status": "not_found"
     },
     "openalex:title:9db74335bc487590184a65058a762fbe1c4c1a1f1e63d7599e22083b270f2a3e": {
@@ -7186,6 +7536,80 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:06.522679Z",
+      "status": "found"
+    },
+    "openalex:title:ef63a7f91c3b5ef8a19ee9368e136e4954362b505b62725abd03830c35937e1b": {
+      "expires_at": "2026-08-27T00:32:24.473759Z",
+      "record": {
+        "abstract": "Understanding tens-of-minutes surgical videos requires long-horizon temporal reasoning, answering what happens before, after, or across stages of a procedure by grounding the question in visual evidence spread across time. Existing approaches handle this poorly: a one-shot vision-language model (VLM) compresses the whole procedure to fit its context window and loses the detail a \"before\" or \"after\" question depends on, while video agents that train the model where to look are data-hungry and transfer poorly to out-of-domain surgery. We build an agent harness that separates reasoning from perception and improves by evolving context rather than optimizing weights. A text-only orchestrator plans which evidence to gather and issues an auditable sequence of tool calls, while frozen vision-language sub-agents execute each call over the pixels, viewing, cropping, inspecting frames, and retrieving external knowledge. We further propose a gradient-free, reward-gated Heuristic Skill Distillation loop that mines the agent's own low-scoring traces and keeps a candidate skill only when it raises a validation reward, yielding reusable retrieval skills, notably directed re-look. Growing an external skill library rather than tuning weights, the loop adapts from only about 100 labeled examples, far fewer than supervised or reinforcement fine-tuning requires. To evaluate this agent, we introduce MedClawBench, a de-leaked, doctor-grounded benchmark of 1,123 questions over self-built long neurosurgery recordings and a held-out public lecture-video test split. Across both datasets and all four evaluation dimensions, our agent consistently outperforms one-shot VLMs and general video-agent frameworks, with the largest gains on the long, out-of-domain neurosurgery videos. Project page: https://fyycs.github.io/medclaw/.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yingying Fan",
+            "orcid": null
+          },
+          {
+            "name": "Penghui Du",
+            "orcid": null
+          },
+          {
+            "name": "Leyan Zhu",
+            "orcid": "https://orcid.org/0000-0002-3273-5269"
+          },
+          {
+            "name": "Runze He",
+            "orcid": null
+          },
+          {
+            "name": "Zimeng Wu",
+            "orcid": null
+          },
+          {
+            "name": "Yuxuan Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Liang Chen",
+            "orcid": null
+          },
+          {
+            "name": "Jiahao Xie",
+            "orcid": null
+          },
+          {
+            "name": "王江堂",
+            "orcid": null
+          },
+          {
+            "name": "Shuai Shao",
+            "orcid": null
+          },
+          {
+            "name": "Anchao Yang",
+            "orcid": null
+          },
+          {
+            "name": "Yutong Bai",
+            "orcid": null
+          },
+          {
+            "name": "Yan Wang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2608.14015",
+        "landing_page": "https://arxiv.org/abs/2608.14015",
+        "open_access_url": "https://arxiv.org/abs/2608.14015",
+        "openalex_id": "https://openalex.org/W7203603198",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203603198",
+        "publication_date": "2026-08-14",
+        "title": "MedClaw: Heuristic Agent Harness for Long-Horizon Surgical Video Reasoning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-20T00:32:24.473759Z",
       "status": "found"
     },
     "openalex:title:f836d744c76cbb243964b574b5f484d0085db7956128aa2d48e058340296b367": {

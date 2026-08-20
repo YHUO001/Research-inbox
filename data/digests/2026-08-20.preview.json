@@ -1,0 +1,31 @@
+{
+  "built_at": "2026-08-20T00:32:31.985531Z",
+  "digest_date": "2026-08-20",
+  "digest_version": 1,
+  "pending_summary_count": 1,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "dd2f544b89860edf2c2a51ae",
+        "landing_page": "https://doi.org/10.48550/arxiv.2608.15665",
+        "mandatory": false,
+        "score": 0.89,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "SubZero+: Efficient Zeroth-Order LLM Fine-Tuning via Large Learning Rates",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

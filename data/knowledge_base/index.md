@@ -1,7 +1,7 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`18`
-- 更新时间：`2026-08-19T00:34:52.163773Z`
+- 论文数：`19`
+- 更新时间：`2026-08-20T00:33:21.307398Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
@@ -114,6 +114,14 @@ Perception
 - 标签：application:分布式声学传感（das）, application:图像分类（cifar-10、fashion-mnist、mnist）, application:语音识别（fsdd）, architecture:integrated, hardware_validation:mixed, project:optical-neural-networks
 
 ## zeroth-order-optimization
+
+### SubZero+: Efficient Zeroth-Order LLM Fine-Tuning via Large Learning Rates
+
+- DOI/链接：[10.48550/arxiv.2608.15665](https://doi.org/10.48550/arxiv.2608.15665)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-08-20`
+- 候选 ID：`dd2f544b89860edf2c2a51ae`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
 
 ### Beyond the Best Guess: Improving LLM Solution Coverage with Evolution Strategies
 
