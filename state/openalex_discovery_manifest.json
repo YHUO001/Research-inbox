@@ -1,15 +1,13 @@
 {
-  "accepted_candidate_ids": [
-    "7edb19b24759fe609707ba01",
-    "dd2f544b89860edf2c2a51ae",
-    "fc8925d8fa5ce0896275d5ec"
-  ],
-  "accepted_count": 3,
-  "built_at": "2026-08-20T00:32:16.672990Z",
+  "accepted_candidate_ids": [],
+  "accepted_count": 0,
+  "built_at": "2026-08-21T00:32:36.006929Z",
   "discovery_version": 1,
-  "duplicate_count": 0,
-  "duplicate_reasons": {},
-  "filtered_count": 52,
+  "duplicate_count": 2,
+  "duplicate_reasons": {
+    "openalex_work_id": 2
+  },
+  "filtered_count": 51,
   "invalid_count": 0,
   "query_error_count": 0,
   "query_summaries": [
@@ -24,8 +22,8 @@
       "raw_results": 10
     },
     {
-      "accepted": 2,
-      "duplicates": 0,
+      "accepted": 0,
+      "duplicates": 2,
       "error": null,
       "filtered": 8,
       "invalid": 0,
@@ -67,11 +65,11 @@
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 8,
+      "filtered": 7,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "physical-neural-network-training",
-      "raw_results": 8
+      "raw_results": 7
     },
     {
       "accepted": 0,
@@ -84,14 +82,14 @@
       "raw_results": 1
     },
     {
-      "accepted": 1,
+      "accepted": 0,
       "duplicates": 0,
       "error": null,
       "filtered": 0,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-llm",
-      "raw_results": 1
+      "raw_results": 0
     },
     {
       "accepted": 0,
@@ -104,11 +102,11 @@
       "raw_results": 0
     }
   ],
-  "raw_result_count": 55,
+  "raw_result_count": 53,
   "registry_candidate_count": 124,
   "registry_sha256": "4f6369089501da0fbee319cb9d2e2c24d1ea806bdb98f8a058c5d6dde600c459",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-08-20",
-  "window_start": "2026-08-16"
+  "window_end": "2026-08-21",
+  "window_start": "2026-08-17"
 }
