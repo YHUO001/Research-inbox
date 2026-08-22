@@ -126,6 +126,36 @@
       "retrieved_at": "2026-08-09T00:36:08.846606Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/s10825-026-02624-2": {
+      "expires_at": "2026-09-21T00:32:10.733048Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sweety Julia",
+            "orcid": null
+          },
+          {
+            "name": "Jayam Pradeep Kumar",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10825-026-02624-2",
+        "landing_page": "https://doi.org/10.1007/s10825-026-02624-2",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s10825-026-02624-2",
+        "publication_date": "2026-10",
+        "title": "Advanced photonic crystal-based design for NAND and NOR optical logic gates using spectral domain reconstruction graph neural network",
+        "venue": "Journal of Computational Electronics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-22T00:32:10.733048Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s11433-026-2995-7": {
       "expires_at": "2026-09-03T09:38:53.189831Z",
       "record": {
@@ -692,6 +722,56 @@
       "retrieved_at": "2026-08-20T00:32:28.377988Z",
       "status": "not_found"
     },
+    "crossref:doi:10.1038/s41377-026-02325-2": {
+      "expires_at": "2026-09-21T00:32:15.151100Z",
+      "record": {
+        "abstract": "Abstract Optical neural networks (ONNs) hold substantial potential in artificial intelligence, promising faster processing speed and reduced energy consumption compared to traditional electronic neural networks, by implementing matrix operations with optical computations. Current ONN architectures predominantly rely on single- or multi-channel convolutions to accelerate computing operations. However, high-performance neural networks, such as ResNet-50, SSD, and Transformer, employ residual convolutions for deep feature extraction instead of single- or multi-channel convolutions. To make ONNs widely functioned in deep neural networks, we propose the Non-Volatile All-Optical Residual Convolution Accelerator (NARCA), based on phase change material (PCM), which weight update energy consumption is only 9.8 μW, much smaller than that of thermal-optical unit with about 10 mW. The NARCA remain high convolution precision, and the experimental results show that the NARCA-based architecture outperforms the conventional optical convolution architecture across different neural-network tasks. Moreover, we demonstrate 128 GHz high-speed optical residual convolution, which greatly improves the residual convolution operation speed compared with the electrical architecture, with a relative root mean square error (RMSE) of less than 0.125.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhiqiang Quan",
+            "orcid": "https://orcid.org/0000-0002-0953-9948"
+          },
+          {
+            "name": "Bing Han",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoxiao Ma",
+            "orcid": null
+          },
+          {
+            "name": "Jingyuan Qu",
+            "orcid": null
+          },
+          {
+            "name": "Xiangshui Miao",
+            "orcid": "https://orcid.org/0000-0002-3999-7421"
+          },
+          {
+            "name": "Qiang He",
+            "orcid": null
+          },
+          {
+            "name": "Jian Wang",
+            "orcid": "https://orcid.org/0000-0002-0579-3041"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41377-026-02325-2",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02325-2",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41377-026-02325-2",
+        "publication_date": "2026-08-19",
+        "title": "On-chip non-volatile all-optical residual neural network accelerator",
+        "venue": "Light: Science &amp; Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-22T00:32:15.151100Z",
+      "status": "found"
+    },
     "crossref:doi:10.1038/s41427-026-00671-6": {
       "expires_at": "2026-09-03T11:27:51.172062Z",
       "record": {
@@ -748,6 +828,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T11:27:51.172062Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1038/s41467-026-76714-x": {
+      "expires_at": "2026-09-21T00:32:16.289479Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sergei Rodionov",
+            "orcid": "https://orcid.org/0000-0002-8660-2162"
+          },
+          {
+            "name": "Arturo Burguete-Lopez",
+            "orcid": "https://orcid.org/0000-0002-2318-1727"
+          },
+          {
+            "name": "Maksim Makarenko",
+            "orcid": null
+          },
+          {
+            "name": "Qizhou Wang",
+            "orcid": null
+          },
+          {
+            "name": "Fedor Getman",
+            "orcid": null
+          },
+          {
+            "name": "Andrea Fratalocchi",
+            "orcid": "https://orcid.org/0000-0001-6769-4439"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41467-026-76714-x",
+        "landing_page": "https://doi.org/10.1038/s41467-026-76714-x",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41467-026-76714-x",
+        "publication_date": "2026-08-19",
+        "title": "MOCLIP: a foundation model for large-scale nanophotonic inverse design",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-22T00:32:16.289479Z",
       "status": "found"
     },
     "crossref:doi:10.1038/s41467-026-76872-y": {
@@ -1230,6 +1356,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:29.386593Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1126/sciadv.aee9649": {
+      "expires_at": "2026-09-21T00:32:14.709412Z",
+      "record": {
+        "abstract": "The rapid advancement of artificial neural networks (ANNs) demands computational platforms with higher speed, energy efficiency, and scalability. Optical computing offers an appealing solution owing to the high-speed processing, inherent parallelism, and low energy consumption. However, existing optical neural network architectures face fundamental trade-offs between scalability, reconfigurability, and processing latency, constrained by the need to rely on electronic nonlinearities or fixed optical interconnections. Here, we report an end-to-end photonic neuromorphic engine that integrates all-optical nonlinearity into a loop-based, time-multiplexed photonic architecture. This approach enables all optical neurons to share common hardware, supporting enhanced connectivity and full reconfigurability with reduced latency. Implementations of four distinct network topologies, with a maximum of 40,000 optical connections for the single-layer perceptron, achieve digital-level inference accuracy and computational latency over two orders of magnitude shorter than state-of-the-art electronic processors, potentially paving the way for scalable, reconfigurable, and ultrafast optical artificial intelligence systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hao Sun",
+            "orcid": "https://orcid.org/0009-0008-6083-4126"
+          },
+          {
+            "name": "Xinyi Zhu",
+            "orcid": null
+          },
+          {
+            "name": "José Azaña",
+            "orcid": "https://orcid.org/0000-0003-0080-7181"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1126/sciadv.aee9649",
+        "landing_page": "https://doi.org/10.1126/sciadv.aee9649",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1126/sciadv.aee9649",
+        "publication_date": "2026-08-21",
+        "title": "Programmable photonic neural engine with all-optical nonlinear activation and 40,000 connections",
+        "venue": "Science Advances",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-22T00:32:14.709412Z",
       "status": "found"
     },
     "crossref:doi:10.1145/3770855.3817661": {
@@ -2182,6 +2342,68 @@
       "retrieved_at": "2026-08-09T00:35:59.056202Z",
       "status": "not_found"
     },
+    "crossref:title:3a27ba996338fb35956c1e9dd60ddf07fce4131ffda938ef0b1f8500be2dec9c": {
+      "expires_at": "2026-08-29T00:32:17.951645Z",
+      "record": {
+        "abstract": "Visible light communication (VLC) has emerged as a transformative optical wireless technology for sixth-generation (6G) networks, offering license-free spectrum access, inherent electromagnetic-interference immunity, high spatial confinement, and the unique ability to combine high-speed wireless connectivity with solid-state lighting infrastructure. However, the transition from conventional VLC links to practical 6G optical wireless systems requires far more than advanced modulation and signal processing. Future VLC performance will be strongly determined by the co-design of photonic front-ends, including high-speed transmitters, spectrally engineered emitters, reconfigurable optical interfaces, intelligent receivers, and energy-autonomous detection units. This article provides a comprehensive, device-centered review of photonic hardware and artificial intelligence (AI) enablers for next-generation 6G VLC systems. Particular attention is given to micro-LEDs, laser diodes, color-conversion materials, including perovskite quantum dots, advanced photodetectors, imaging receivers, wavelength-shifting fiber receivers, solar-cell-based receivers, optical reconfigurable intelligent surfaces (RISs), metasurfaces, beam-steering components, and optical wireless power transfer. This review discusses how AI can support inverse photonic design, transmitter and receiver calibration, nonlinear impairment mitigation, channel-aware beam control, and energy-aware resource management. Unlike broader VLC surveys that mainly emphasize network architecture, this article provides a device-centered perspective on AI-enabled photonic integration for 6G VLC, supported by a comprehensive survey of recent experimental demonstrations. Key challenges related to bandwidth, optical efficiency, receiver field of view, mobility, safety, standardization, and practical deployment are summarized, followed by a research roadmap for 2025–2032.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Amjad Ali",
+            "orcid": null
+          },
+          {
+            "name": "Syed Raza Mehdi",
+            "orcid": "https://orcid.org/0000-0002-7727-1859"
+          },
+          {
+            "name": "Shulan Lin",
+            "orcid": "https://orcid.org/0009-0008-6453-6150"
+          },
+          {
+            "name": "Ying Xu",
+            "orcid": null
+          },
+          {
+            "name": "Pablo Palacios Jativa",
+            "orcid": null
+          },
+          {
+            "name": "Waseem Ur Rahman",
+            "orcid": null
+          },
+          {
+            "name": "Baseerat Bibi",
+            "orcid": null
+          },
+          {
+            "name": "Ameen Alkasem",
+            "orcid": "https://orcid.org/0000-0001-8887-0569"
+          },
+          {
+            "name": "Mehboob Hussain",
+            "orcid": null
+          },
+          {
+            "name": "Zeeshan Shafiq",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/photonics13080779",
+        "landing_page": "https://doi.org/10.3390/photonics13080779",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/photonics13080779",
+        "publication_date": "2026-08-17",
+        "title": "AI-Driven Photonic Front-Ends for 6G Visible Light Communication: From Micro-LEDs and Reconfigurable Optics to Energy-Autonomous Receivers",
+        "venue": "Photonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-22T00:32:17.951645Z",
+      "status": "found"
+    },
     "crossref:title:41dd4005a10029c0f49469f52ab7ddece38af9225fd5443f022cc31593690964": {
       "expires_at": "2026-08-25T04:25:19.093723Z",
       "record": null,
@@ -2272,6 +2494,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:34.646895Z",
+      "status": "found"
+    },
+    "crossref:title:47403b44d2be4bdd7731057bb202e860754053470a476d03abdb7d058e64dd9d": {
+      "expires_at": "2026-08-29T00:32:17.388728Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sebastian F. Henzler",
+            "orcid": "https://orcid.org/0000-0003-1055-8676"
+          },
+          {
+            "name": "Daniel Rezo",
+            "orcid": "https://orcid.org/0009-0005-8581-404X"
+          },
+          {
+            "name": "Patrik Postweiler",
+            "orcid": "https://orcid.org/0000-0003-2889-2023"
+          },
+          {
+            "name": "Niklas von der Assen",
+            "orcid": "https://orcid.org/0000-0001-8855-9420"
+          },
+          {
+            "name": "Alexander Mitsos",
+            "orcid": "https://orcid.org/0000-0003-0335-6566"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.ijggc.2026.104756",
+        "landing_page": "https://doi.org/10.1016/j.ijggc.2026.104756",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.ijggc.2026.104756",
+        "publication_date": "2026-09",
+        "title": "Gradient-based nonlinear model predictive control enabling demand-side management for adsorption-based direct air carbon capture",
+        "venue": "International Journal of Greenhouse Gas Control",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-22T00:32:17.388728Z",
       "status": "found"
     },
     "crossref:title:569bfc22d25d91d53c0cae46ed9c5efb021edc864023af252ff96d2957870e1e": {
@@ -3282,6 +3546,48 @@
       "retrieved_at": "2026-08-18T04:25:32.712407Z",
       "status": "not_found"
     },
+    "crossref:title:e3d30e93a810dcb91394f004ca83af5538e36c402ecc66569eda4d498aa93d53": {
+      "expires_at": "2026-08-29T00:32:15.721716Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yujin Park",
+            "orcid": null
+          },
+          {
+            "name": "Yewon Han",
+            "orcid": null
+          },
+          {
+            "name": "Seokwoo Kim",
+            "orcid": null
+          },
+          {
+            "name": "Joohoon Kim",
+            "orcid": null
+          },
+          {
+            "name": "Junsuk Rho",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s44310-026-00146-0",
+        "landing_page": "https://doi.org/10.1038/s44310-026-00146-0",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s44310-026-00146-0",
+        "publication_date": "2026-08-18",
+        "title": "Free-space and on-chip diffractive deep neural network for next-generation optical computing",
+        "venue": "npj Nanophotonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-22T00:32:15.721716Z",
+      "status": "found"
+    },
     "crossref:title:e477316069b68854ffd08b1a94b73da0f813690d6298ed8c1c8c7b819be2e740": {
       "expires_at": "2026-08-11T09:38:39.461936Z",
       "record": {
@@ -3688,6 +3994,36 @@
       "retrieved_at": "2026-08-10T00:36:49.495557Z",
       "status": "found"
     },
+    "openalex:doi:10.1007/s10825-026-02624-2": {
+      "expires_at": "2026-09-21T00:32:11.095169Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sweety Julia",
+            "orcid": null
+          },
+          {
+            "name": "Jayam Pradeep Kumar",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10825-026-02624-2",
+        "landing_page": "https://doi.org/10.1007/s10825-026-02624-2",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7203665954",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203665954",
+        "publication_date": "2026-08-18",
+        "title": "Advanced photonic crystal-based design for NAND and NOR optical logic gates using spectral domain reconstruction graph neural network",
+        "venue": "Journal of Computational Electronics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-22T00:32:11.095169Z",
+      "status": "found"
+    },
     "openalex:doi:10.1007/s11433-026-2995-7": {
       "expires_at": "2026-09-03T09:38:53.549399Z",
       "record": {
@@ -4010,6 +4346,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:40.464180Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.ijggc.2026.104756": {
+      "expires_at": "2026-09-21T00:32:17.755198Z",
+      "record": {
+        "abstract": "Adsorption-based Direct Air Carbon Capture and Storage (DACCS) is a promising carbon dioxide removal technology, albeit with high electricity demand. Demand-side management (DSM), i.e., shifting electricity demand to times of low electricity prices, can reduce electricity costs. In Postweiler et al. (2025), we demonstrated the efficacy of DSM for DACCS by solving a dynamic optimization problem via the gradient-free optimization method particle-swarm optimization (PSO). However, PSO is computationally very demanding and thus not real-time capable, severely limiting the resolution of time-continuous controls like flow rates. Herein, we implement real-time capable economic nonlinear model predictive control (eNMPC). We first modify the process model to obtain nonsmooth differential–algebraic equations enabling direct single shooting using a smoothing approach. We demonstrate our method in an eNMPC case study, showing real-time applicability on a single core of a standard CPU. We study the impact of the resolution and the choice of the controls, the foresight in the eNMPC setup, and the optimality tolerance on the computational performance. We choose a trade-off to compare the optimal profit achieved with the literature. We conclude that gradient-based dynamic optimization enables real-time applicability as well as more profitable operation, paving the way for large-scale DACCS employment.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sebastian F. Henzler",
+            "orcid": "https://orcid.org/0000-0003-1055-8676"
+          },
+          {
+            "name": "Daniel Rezo",
+            "orcid": "https://orcid.org/0009-0005-8581-404X"
+          },
+          {
+            "name": "Patrik Postweiler",
+            "orcid": "https://orcid.org/0000-0003-2889-2023"
+          },
+          {
+            "name": "Niklas von der Aßen",
+            "orcid": "https://orcid.org/0000-0001-8855-9420"
+          },
+          {
+            "name": "Alexander Mitsos",
+            "orcid": "https://orcid.org/0000-0003-0335-6566"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.ijggc.2026.104756",
+        "landing_page": "https://doi.org/10.1016/j.ijggc.2026.104756",
+        "open_access_url": "https://doi.org/10.1016/j.ijggc.2026.104756",
+        "openalex_id": "https://openalex.org/W7203620604",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203620604",
+        "publication_date": "2026-08-17",
+        "title": "Gradient-based nonlinear model predictive control enabling demand-side management for adsorption-based direct air carbon capture",
+        "venue": "International journal of greenhouse gas control",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-22T00:32:17.755198Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.nxener.2026.100879": {
@@ -4404,6 +4782,56 @@
       "retrieved_at": "2026-08-04T09:38:36.810331Z",
       "status": "found"
     },
+    "openalex:doi:10.1038/s41377-026-02325-2": {
+      "expires_at": "2026-09-21T00:32:15.505137Z",
+      "record": {
+        "abstract": "Optical neural networks (ONNs) hold substantial potential in artificial intelligence, promising faster processing speed and reduced energy consumption compared to traditional electronic neural networks, by implementing matrix operations with optical computations. Current ONN architectures predominantly rely on single- or multi-channel convolutions to accelerate computing operations. However, high-performance neural networks, such as ResNet-50, SSD, and Transformer, employ residual convolutions for deep feature extraction instead of single- or multi-channel convolutions. To make ONNs widely functioned in deep neural networks, we propose the Non-Volatile All-Optical Residual Convolution Accelerator (NARCA), based on phase change material (PCM), which weight update energy consumption is only 9.8 μW, much smaller than that of thermal-optical unit with about 10 mW. The NARCA remain high convolution precision, and the experimental results show that the NARCA-based architecture outperforms the conventional optical convolution architecture across different neural-network tasks. Moreover, we demonstrate 128 GHz high-speed optical residual convolution, which greatly improves the residual convolution operation speed compared with the electrical architecture, with a relative root mean square error (RMSE) of less than 0.125.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhiqiang Quan",
+            "orcid": "https://orcid.org/0000-0002-0953-9948"
+          },
+          {
+            "name": "Bing Han",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoxiao Ma",
+            "orcid": null
+          },
+          {
+            "name": "Jingyuan Qu",
+            "orcid": "https://orcid.org/0000-0003-2076-9557"
+          },
+          {
+            "name": "Xiangshui Miao",
+            "orcid": "https://orcid.org/0000-0002-3999-7421"
+          },
+          {
+            "name": "Qiang He",
+            "orcid": null
+          },
+          {
+            "name": "Jian Wang",
+            "orcid": "https://orcid.org/0000-0002-0579-3041"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41377-026-02325-2",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02325-2",
+        "open_access_url": "https://doi.org/10.1038/s41377-026-02325-2",
+        "openalex_id": "https://openalex.org/W7203767488",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203767488",
+        "publication_date": "2026-08-19",
+        "title": "On-chip non-volatile all-optical residual neural network accelerator",
+        "venue": "Light Science & Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-22T00:32:15.505137Z",
+      "status": "found"
+    },
     "openalex:doi:10.1038/s41377-026-02394-3": {
       "expires_at": "2026-09-03T09:38:55.005571Z",
       "record": {
@@ -4582,6 +5010,52 @@
       "retrieved_at": "2026-08-04T09:38:24.128551Z",
       "status": "found"
     },
+    "openalex:doi:10.1038/s41467-026-76714-x": {
+      "expires_at": "2026-09-21T00:32:16.706632Z",
+      "record": {
+        "abstract": "Foundation models (FM) are transforming artificial intelligence by enabling generalizable, data-efficient solutions across different domains for a broad range of applications. However, the lack of large and diverse datasets limits the development of FM in nanophotonics. This work presents MOCLIP (Metasurface Optics Contrastive Learning Pretrained), a nanophotonic foundation model that integrates metasurface geometry and spectra within a shared latent space. MOCLIP employs contrastive learning to align geometry and spectral representations using an experimentally acquired dataset with a sample density comparable to ImageNet-1K. The study demonstrates MOCLIP inverse design capabilities for high-throughput zero-shot prediction at a rate of 0.2 million samples per second, enabling the design of a full 4-inch wafer populated with high-density metasurfaces in minutes. It also shows generative latent-space optimization reaching 97 percent accuracy. Finally, we introduce an optical information storage concept that uses MOCLIP to achieve a density of 0.1 Gbit per square millimeter at the resolution limit, exceeding commercial optical media by a factor of six. These results position MOCLIP as a scalable and versatile platform for next-generation photonic design and data-driven applications.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Rodionov, S.",
+            "orcid": null
+          },
+          {
+            "name": "Burguete-Lopez, A.",
+            "orcid": null
+          },
+          {
+            "name": "Makarenko, M.",
+            "orcid": null
+          },
+          {
+            "name": "Wang, Q.",
+            "orcid": null
+          },
+          {
+            "name": "Getman, F.",
+            "orcid": null
+          },
+          {
+            "name": "Fratalocchi, A.",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2511.18980",
+        "landing_page": "https://figshare.com/articles/preprint/MOCLIP_A_Foundation_Model_for_Large-Scale_Nanophotonic_Inverse_Design/30735380",
+        "open_access_url": "https://figshare.com/articles/preprint/MOCLIP_A_Foundation_Model_for_Large-Scale_Nanophotonic_Inverse_Design/30735380",
+        "openalex_id": "https://openalex.org/W7106667951",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7106667951",
+        "publication_date": "2025-11-24",
+        "title": "MOCLIP: A Foundation Model for Large-Scale Nanophotonic Inverse Design",
+        "venue": "Figshare",
+        "year": 2025
+      },
+      "retrieved_at": "2026-08-22T00:32:16.706632Z",
+      "status": "found"
+    },
     "openalex:doi:10.1038/s41467-026-76872-y": {
       "expires_at": "2026-09-19T00:32:28.089180Z",
       "record": {
@@ -4710,6 +5184,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:06.982361Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s44310-026-00146-0": {
+      "expires_at": "2026-09-21T00:32:16.045075Z",
+      "record": {
+        "abstract": "Diffractive deep neural networks (D 2 NNs), composed of multiple layers of trainable diffractive neurons, perform deep network operations entirely through the diffraction and interference of light. This approach has been widely studied in classification, 3D perception, and edge learning due to its zero-power consumption, ultrafast processing, and intrinsic parallelism of light. This review presents fundamental principles, design methodologies, and recent advances in D 2 NNs for next generation optical computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yujin Park",
+            "orcid": "https://orcid.org/0000-0001-8150-4523"
+          },
+          {
+            "name": "Yewon Han",
+            "orcid": null
+          },
+          {
+            "name": "Seokwoo Kim",
+            "orcid": "https://orcid.org/0000-0001-5076-148X"
+          },
+          {
+            "name": "Joohoon Kim",
+            "orcid": null
+          },
+          {
+            "name": "Junsuk Rho",
+            "orcid": "https://orcid.org/0000-0002-2179-2890"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s44310-026-00146-0",
+        "landing_page": "https://doi.org/10.1038/s44310-026-00146-0",
+        "open_access_url": "https://doi.org/10.1038/s44310-026-00146-0",
+        "openalex_id": "https://openalex.org/W7203723645",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203723645",
+        "publication_date": "2026-08-18",
+        "title": "Free-space and on-chip diffractive deep neural network for next-generation optical computing",
+        "venue": "npj Nanophotonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-22T00:32:16.045075Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s44335-026-00086-0": {
@@ -5726,6 +6242,40 @@
       "retrieved_at": "2026-08-18T04:25:29.716556Z",
       "status": "found"
     },
+    "openalex:doi:10.1126/sciadv.aee9649": {
+      "expires_at": "2026-09-21T00:32:15.093525Z",
+      "record": {
+        "abstract": "The rapid advancement of artificial neural networks (ANNs) demands computational platforms with higher speed, energy efficiency, and scalability. Optical computing offers an appealing solution owing to the high-speed processing, inherent parallelism, and low energy consumption. However, existing optical neural network architectures face fundamental trade-offs between scalability, reconfigurability, and processing latency, constrained by the need to rely on electronic nonlinearities or fixed optical interconnections. Here, we report an end-to-end photonic neuromorphic engine that integrates all-optical nonlinearity into a loop-based, time-multiplexed photonic architecture. This approach enables all optical neurons to share common hardware, supporting enhanced connectivity and full reconfigurability with reduced latency. Implementations of four distinct network topologies, with a maximum of 40,000 optical connections for the single-layer perceptron, achieve digital-level inference accuracy and computational latency over two orders of magnitude shorter than state-of-the-art electronic processors, potentially paving the way for scalable, reconfigurable, and ultrafast optical artificial intelligence systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hao Sun",
+            "orcid": "https://orcid.org/0000-0001-6400-7365"
+          },
+          {
+            "name": "Xinyi Zhu",
+            "orcid": null
+          },
+          {
+            "name": "José Azaña",
+            "orcid": "https://orcid.org/0000-0003-0080-7181"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1126/sciadv.aee9649",
+        "landing_page": "https://doi.org/10.1126/sciadv.aee9649",
+        "open_access_url": "https://doi.org/10.1126/sciadv.aee9649",
+        "openalex_id": "https://openalex.org/W7203782432",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203782432",
+        "publication_date": "2026-08-19",
+        "title": "Programmable photonic neural engine with all-optical nonlinear activation and 40,000 connections",
+        "venue": "Science Advances",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-22T00:32:15.093525Z",
+      "status": "found"
+    },
     "openalex:doi:10.1145/3770855.3817661": {
       "expires_at": "2026-09-09T00:36:50.098665Z",
       "record": {
@@ -6712,6 +7262,68 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:34.320477Z",
+      "status": "found"
+    },
+    "openalex:doi:10.3390/photonics13080779": {
+      "expires_at": "2026-09-21T00:32:18.324551Z",
+      "record": {
+        "abstract": "Visible light communication (VLC) has emerged as a transformative optical wireless technology for sixth-generation (6G) networks, offering license-free spectrum access, inherent electromagnetic-interference immunity, high spatial confinement, and the unique ability to combine high-speed wireless connectivity with solid-state lighting infrastructure. However, the transition from conventional VLC links to practical 6G optical wireless systems requires far more than advanced modulation and signal processing. Future VLC performance will be strongly determined by the co-design of photonic front-ends, including high-speed transmitters, spectrally engineered emitters, reconfigurable optical interfaces, intelligent receivers, and energy-autonomous detection units. This article provides a comprehensive, device-centered review of photonic hardware and artificial intelligence (AI) enablers for next-generation 6G VLC systems. Particular attention is given to micro-LEDs, laser diodes, color-conversion materials, including perovskite quantum dots, advanced photodetectors, imaging receivers, wavelength-shifting fiber receivers, solar-cell-based receivers, optical reconfigurable intelligent surfaces (RISs), metasurfaces, beam-steering components, and optical wireless power transfer. This review discusses how AI can support inverse photonic design, transmitter and receiver calibration, nonlinear impairment mitigation, channel-aware beam control, and energy-aware resource management. Unlike broader VLC surveys that mainly emphasize network architecture, this article provides a device-centered perspective on AI-enabled photonic integration for 6G VLC, supported by a comprehensive survey of recent experimental demonstrations. Key challenges related to bandwidth, optical efficiency, receiver field of view, mobility, safety, standardization, and practical deployment are summarized, followed by a research roadmap for 2025–2032.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Amjad Ali",
+            "orcid": null
+          },
+          {
+            "name": "Syed Raza Mehdi",
+            "orcid": "https://orcid.org/0000-0002-7727-1859"
+          },
+          {
+            "name": "S.-Y. Lin",
+            "orcid": "https://orcid.org/0009-0008-6453-6150"
+          },
+          {
+            "name": "Ying Xu",
+            "orcid": null
+          },
+          {
+            "name": "Pablo Palacios Játiva",
+            "orcid": "https://orcid.org/0000-0002-3958-503X"
+          },
+          {
+            "name": "Waseem Ur Rahman",
+            "orcid": null
+          },
+          {
+            "name": "Baseerat Bibi",
+            "orcid": null
+          },
+          {
+            "name": "Ameen Alkasem",
+            "orcid": "https://orcid.org/0000-0001-8887-0569"
+          },
+          {
+            "name": "Mehboob Hussain",
+            "orcid": null
+          },
+          {
+            "name": "Zeeshan Shafiq",
+            "orcid": "https://orcid.org/0000-0002-6888-5111"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/photonics13080779",
+        "landing_page": "https://doi.org/10.3390/photonics13080779",
+        "open_access_url": "https://doi.org/10.3390/photonics13080779",
+        "openalex_id": "https://openalex.org/W7203654475",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203654475",
+        "publication_date": "2026-08-17",
+        "title": "AI-Driven Photonic Front-Ends for 6G Visible Light Communication: From Micro-LEDs and Reconfigurable Optics to Energy-Autonomous Receivers",
+        "venue": "Photonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-22T00:32:18.324551Z",
       "status": "found"
     },
     "openalex:doi:10.3788/irla20250523": {
