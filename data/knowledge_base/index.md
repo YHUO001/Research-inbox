@@ -1,10 +1,26 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`19`
-- 更新时间：`2026-08-20T00:33:21.307398Z`
+- 论文数：`22`
+- 更新时间：`2026-08-23T00:34:04.729517Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### On-chip non-volatile all-optical residual neural network accelerator
+
+- DOI/链接：[10.1038/s41377-026-02325-2](https://doi.org/10.1038/s41377-026-02325-2)
+- 期刊/年份：Light: Science &amp; Applications，2026
+- 摘要日期：`2026-08-23`
+- 候选 ID：`1e619f1b739f1893eae64f28`
+- 标签：application:图像特征提取, application:深度残差神经网络中的残差卷积加速, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
+
+### A Noise-Resilient Calibration framework for Quantum and Optical Neural Network Inference
+
+- DOI/链接：https://opg.optica.org/abstract.cfm?uri=QUANTUM-2026-QW3A.65
+- 期刊/年份：Quantum 2.0，2026
+- 摘要日期：`2026-08-23`
+- 候选 ID：`028de8014a2b67fd147a28e7`
+- 标签：application:分类任务, architecture:unclear, hardware_validation:unclear, project:optical-neural-networks
 
 ### On‐Chip Photonic Neural Network Architectures
 
@@ -114,6 +130,14 @@ Perception
 - 标签：application:分布式声学传感（das）, application:图像分类（cifar-10、fashion-mnist、mnist）, application:语音识别（fsdd）, architecture:integrated, hardware_validation:mixed, project:optical-neural-networks
 
 ## zeroth-order-optimization
+
+### A Proximal Newton-Type Algorithm for Zeroth-Order Stochastic Composite Optimization with a New Norm Test for Sample Size Selection
+
+- DOI/链接：[10.1007/s10915-026-03433-2](https://doi.org/10.1007/s10915-026-03433-2)
+- 期刊/年份：Journal of Scientific Computing，2026
+- 摘要日期：`2026-08-23`
+- 候选 ID：`7719ae17086cb97168bebbc5`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:structured_perturbation
 
 ### SubZero+: Efficient Zeroth-Order LLM Fine-Tuning via Large Learning Rates
 

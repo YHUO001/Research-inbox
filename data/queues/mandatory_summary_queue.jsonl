@@ -1,3 +1,4 @@
+{"candidate_id": "1e619f1b739f1893eae64f28", "mandatory": true, "matched_projects": [{"confidence": "probable", "project_id": "optical-neural-networks"}], "priority": "highest", "reasons": ["tier_1_alert_venue"], "route": "mandatory_summary_queue"}
 {"candidate_id": "766ea277f76b9bc9cd30be5d", "mandatory": true, "matched_projects": [], "priority": "highest", "reasons": ["tier_1_alert_venue"], "route": "mandatory_summary_queue"}
 {"candidate_id": "97f076ce54abbfc51b5b73e4", "mandatory": true, "matched_projects": [{"confidence": "probable", "project_id": "optical-neural-networks"}], "priority": "highest", "reasons": ["tier_1_alert_venue"], "route": "mandatory_summary_queue"}
 {"candidate_id": "b63d0c87752a364b3611148c", "mandatory": true, "matched_projects": [{"confidence": "confirmed", "project_id": "optical-neural-networks"}], "priority": "highest", "reasons": ["tier_1_alert_venue"], "route": "mandatory_summary_queue"}

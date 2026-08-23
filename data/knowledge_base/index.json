@@ -1,5 +1,14 @@
 {
   "by_candidate_id": {
+    "028de8014a2b67fd147a28e7": {
+      "digest_date": "2026-08-23",
+      "doi": null,
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "e528dde6eae4acf21af476455f24a738b4ce501de599ef14fc565ef0a7c48318",
+      "title": "A Noise-Resilient Calibration framework for Quantum and Optical Neural Network Inference"
+    },
     "0cbf41592278a3ad1b89e219": {
       "digest_date": "2026-08-18",
       "doi": "10.48550/arxiv.2608.12300",
@@ -55,6 +64,15 @@
       "summary_record_sha256": "0dbf386973dd8b744b81fb3e0ac1c6884d697824677248bc4d9f8b22e82379df",
       "title": "Partially coherent high-order optical neural networks via pseudo-nonlinear encoding"
     },
+    "1e619f1b739f1893eae64f28": {
+      "digest_date": "2026-08-23",
+      "doi": "10.1038/s41377-026-02325-2",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "92dc41e70091f9a883e668fe8553c405ef05d4436fca6a824ef5d9361830ac9c",
+      "title": "On-chip non-volatile all-optical residual neural network accelerator"
+    },
     "2b5f9302fe96c2793d48540e": {
       "digest_date": "2026-08-09",
       "doi": "10.1117/12.3110867",
@@ -108,6 +126,15 @@
       ],
       "summary_record_sha256": "49deef8c5dd819a048f0b75f9f51f1527d16379ce40f3d7f334cf489213e7460",
       "title": "Enhancing the robustness of optical neural networks via joint Mach–Zehnder interferometer phase optimization"
+    },
+    "7719ae17086cb97168bebbc5": {
+      "digest_date": "2026-08-23",
+      "doi": "10.1007/s10915-026-03433-2",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "13b40fca4cc645841a37d14b44ac0aed0895807bd6b74b4ed53fd0f5401fe388",
+      "title": "A Proximal Newton-Type Algorithm for Zeroth-Order Stochastic Composite Optimization with a New Norm Test for Sample Size Selection"
     },
     "7d6c2a059923ebe445a1cdf7": {
       "digest_date": "2026-08-08",
@@ -206,11 +233,18 @@
     ],
     "2026-08-20": [
       "dd2f544b89860edf2c2a51ae"
+    ],
+    "2026-08-23": [
+      "028de8014a2b67fd147a28e7",
+      "1e619f1b739f1893eae64f28",
+      "7719ae17086cb97168bebbc5"
     ]
   },
   "by_doi": {
     "10.1002/adom.71567": "ccd82d84305d463a6c33398d",
+    "10.1007/s10915-026-03433-2": "7719ae17086cb97168bebbc5",
     "10.1021/acsphotonics.6c00831": "2eb28d7201afb356d747693a",
+    "10.1038/s41377-026-02325-2": "1e619f1b739f1893eae64f28",
     "10.1038/s41427-026-00671-6": "83a830ace13b5158f346c392",
     "10.1038/s44335-026-00086-0": "328b1572ba0e31f8f8a6dac1",
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
@@ -231,10 +265,12 @@
   },
   "by_project": {
     "optical-neural-networks": [
+      "028de8014a2b67fd147a28e7",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
+      "1e619f1b739f1893eae64f28",
       "2b5f9302fe96c2793d48540e",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
@@ -250,6 +286,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "7719ae17086cb97168bebbc5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a"
@@ -270,6 +307,9 @@
     ],
     "application:分布式声学传感（das）": [
       "1cf1fcd769c5ace951188b8c"
+    ],
+    "application:分类任务": [
+      "028de8014a2b67fd147a28e7"
     ],
     "application:加速人工智能计算": [
       "7d6c2a059923ebe445a1cdf7"
@@ -292,6 +332,9 @@
     "application:图像去噪": [
       "2eb28d7201afb356d747693a"
     ],
+    "application:图像特征提取": [
+      "1e619f1b739f1893eae64f28"
+    ],
     "application:大型模型部署": [
       "7d6c2a059923ebe445a1cdf7"
     ],
@@ -306,6 +349,9 @@
     ],
     "application:机器视觉": [
       "83a830ace13b5158f346c392"
+    ],
+    "application:深度残差神经网络中的残差卷积加速": [
+      "1e619f1b739f1893eae64f28"
     ],
     "application:自主导航": [
       "328b1572ba0e31f8f8a6dac1"
@@ -337,8 +383,10 @@
       "973790e22c46d30721660799"
     ],
     "architecture:unclear": [
+      "028de8014a2b67fd147a28e7",
       "0cbf41592278a3ad1b89e219",
       "1e35265ce8678ca96adb8b93",
+      "1e619f1b739f1893eae64f28",
       "2b5f9302fe96c2793d48540e",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
@@ -353,6 +401,7 @@
       "2b5f9302fe96c2793d48540e"
     ],
     "hardware_validation:physical_experiment": [
+      "1e619f1b739f1893eae64f28",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "5017adbd33e6ddd5c320a4c4",
@@ -364,14 +413,17 @@
       "541094f286db8902f2fe6077"
     ],
     "hardware_validation:unclear": [
+      "028de8014a2b67fd147a28e7",
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392"
     ],
     "project:optical-neural-networks": [
+      "028de8014a2b67fd147a28e7",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
+      "1e619f1b739f1893eae64f28",
       "2b5f9302fe96c2793d48540e",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
@@ -387,6 +439,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "7719ae17086cb97168bebbc5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a"
@@ -396,6 +449,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "7719ae17086cb97168bebbc5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a"
@@ -405,6 +459,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "7719ae17086cb97168bebbc5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a"
@@ -423,6 +478,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "7719ae17086cb97168bebbc5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a"
@@ -449,6 +505,12 @@
     "CLEO 2026": [
       "5017adbd33e6ddd5c320a4c4"
     ],
+    "Journal of Scientific Computing": [
+      "7719ae17086cb97168bebbc5"
+    ],
+    "Light: Science &amp; Applications": [
+      "1e619f1b739f1893eae64f28"
+    ],
     "NPG Asia Materials": [
       "83a830ace13b5158f346c392"
     ],
@@ -464,6 +526,9 @@
     "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2": [
       "172a6e3e7b78c39c328487a6",
       "ead3d4ba8c5090acac05878a"
+    ],
+    "Quantum 2.0": [
+      "028de8014a2b67fd147a28e7"
     ],
     "Research Square": [
       "1e35265ce8678ca96adb8b93"
@@ -484,18 +549,21 @@
   },
   "by_year": {
     "2026": [
+      "028de8014a2b67fd147a28e7",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
+      "1e619f1b739f1893eae64f28",
       "2b5f9302fe96c2793d48540e",
       "2eb28d7201afb356d747693a",
       "2f9953028e4e0e3b934222c8",
       "328b1572ba0e31f8f8a6dac1",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
+      "7719ae17086cb97168bebbc5",
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
       "973790e22c46d30721660799",
@@ -505,7 +573,7 @@
       "ead3d4ba8c5090acac05878a"
     ]
   },
-  "paper_count": 19,
+  "paper_count": 22,
   "schema_version": 1,
-  "updated_at": "2026-08-20T00:33:21.307398Z"
+  "updated_at": "2026-08-23T00:34:04.729517Z"
 }

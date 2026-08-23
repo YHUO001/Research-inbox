@@ -54,6 +54,88 @@
       "retrieved_at": "2026-08-18T04:25:31.075985Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/lpor.71796": {
+      "expires_at": "2026-09-22T00:32:29.913718Z",
+      "record": {
+        "abstract": "ABSTRACT The exponential growth of multimodal sensor data demands computing architectures capable of massively parallel tensor operations with ultralow latency and high energy efficiency. Optical computing offers a promising route to overcome the von Neumann bottleneck and inherent limits on parallelism in electronic systems. Here, we report a hyper‐parallel distributed multi‐core photonic processor (DMPP) that orchestrates the intrinsic orthogonality of light across spectral and spatial domains to enable multiple‐instruction, multiple‐data processing. Our approach integrates wavelength‐division multiplexing (WDM) with spatially distributed photonic tensor cores, allowing a single processor to process multiple independent data streams and computational tasks concurrently. The system supports multitask workflows by dynamically sharing photonic cores across tasks. This work establishes a scalable photonic computing paradigm for high‐throughput processing of heterogeneous sensor data, enabling efficient, parallel neural network accelerators for edge intelligence and multimodal analytics.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xiao Yu",
+            "orcid": null
+          },
+          {
+            "name": "Yuanjian Wan",
+            "orcid": null
+          },
+          {
+            "name": "Feng Liu",
+            "orcid": null
+          },
+          {
+            "name": "Yuhu Cheng",
+            "orcid": null
+          },
+          {
+            "name": "Daibing Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Xinyu Wang",
+            "orcid": null
+          },
+          {
+            "name": "Mengmeng Li",
+            "orcid": null
+          },
+          {
+            "name": "Weiqiang Wang",
+            "orcid": "https://orcid.org/0000-0002-1157-0370"
+          },
+          {
+            "name": "Yanqi Chu",
+            "orcid": null
+          },
+          {
+            "name": "Ziqi Wei",
+            "orcid": null
+          },
+          {
+            "name": "Xilin Han",
+            "orcid": null
+          },
+          {
+            "name": "Shulan Yi",
+            "orcid": null
+          },
+          {
+            "name": "Xuke Qiu",
+            "orcid": null
+          },
+          {
+            "name": "Zhen Wang",
+            "orcid": null
+          },
+          {
+            "name": "Peng Xie",
+            "orcid": "https://orcid.org/0009-0004-9859-6531"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71796",
+        "landing_page": "https://doi.org/10.1002/lpor.71796",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.71796",
+        "publication_date": "2026-08-20",
+        "title": "Hyper‐Parallel Optical Tensor Processors Toward Multitask Neural Networks",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-23T00:32:29.913718Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/nap2.70242": {
       "expires_at": "2026-09-17T04:25:18.637501Z",
       "record": {
@@ -154,6 +236,82 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-22T00:32:10.733048Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/s10915-026-03433-2": {
+      "expires_at": "2026-09-22T00:32:32.946551Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zekun Liu",
+            "orcid": null
+          },
+          {
+            "name": "Jinyan Fan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10915-026-03433-2",
+        "landing_page": "https://doi.org/10.1007/s10915-026-03433-2",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s10915-026-03433-2",
+        "publication_date": "2026-10",
+        "title": "A Proximal Newton-Type Algorithm for Zeroth-Order Stochastic Composite Optimization with a New Norm Test for Sample Size Selection",
+        "venue": "Journal of Scientific Computing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-23T00:32:32.946551Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/s10946-026-10322-4": {
+      "expires_at": "2026-09-22T00:32:34.700410Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ye Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Lei Yu",
+            "orcid": null
+          },
+          {
+            "name": "Xuyang Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Kaiwen Wu",
+            "orcid": null
+          },
+          {
+            "name": "Yejin Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Jiaoqing Pan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10946-026-10322-4",
+        "landing_page": "https://doi.org/10.1007/s10946-026-10322-4",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s10946-026-10322-4",
+        "publication_date": "2026-08-19",
+        "title": "Minimalist photonic chip architecture based on the micro-ring resonator for matrix-matrix multiplication",
+        "venue": "Journal of Russian Laser Research",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-23T00:32:34.700410Z",
       "status": "found"
     },
     "crossref:doi:10.1007/s11433-026-2995-7": {
@@ -632,6 +790,12 @@
       "retrieved_at": "2026-08-19T00:32:49.652416Z",
       "status": "found"
     },
+    "crossref:doi:10.1021/acsphotonics.6c00831/5259562": {
+      "expires_at": "2026-09-22T00:32:30.509733Z",
+      "record": null,
+      "retrieved_at": "2026-08-23T00:32:30.509733Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.1021/acsphotonics.6c00985": {
       "expires_at": "2026-09-17T04:25:27.528652Z",
       "record": {
@@ -770,6 +934,68 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-22T00:32:15.151100Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1038/s41377-026-02419-x": {
+      "expires_at": "2026-09-22T00:32:33.635208Z",
+      "record": {
+        "abstract": "Abstract Trivial-nontrivial topological switching provides a distinctive physical pathway for multifunctional electromagnetic systems, yet has never been exploited for integrated sensing and communication (ISAC). Existing ISAC architectures rely almost exclusively on trivial spatial-wave beamforming, constraining near-field sensing robustness and limiting hardware scalability in 6 G scenarios. Here, we propose an intelligent ISAC platform enabled by a programmable topological metasurface (PTM) that dynamically switches between trivial radiation states and non-trivial valley-Hall states, which is achieved through FPGA-controlled symmetry modulation of the PTM’s unit cells. In its non-trivial state, the PTM forms multiple topologically protected domain-wall channels, guiding surface waves with robustness and enabling the extraction of electromagnetic signatures for human localization. A convolutional neural network trained on these signatures achieves a localization accuracy of 99.54%. Upon position recognition, the PTM transitions to its trivial radiation phase, generating spatial phase-gradient beams for directional wireless communication without requiring additional hardware. Experimental results are consistent with theoretical predictions, validating an implementation of topological state switching for dual-mode ISAC functionality. It suggests that topological state programmability could be a potential mechanism for building compact, robust, and intelligent electromagnetic platforms for next-generation wireless systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Qiang Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Long Chen",
+            "orcid": "https://orcid.org/0009-0007-1533-0319"
+          },
+          {
+            "name": "Qian Ma",
+            "orcid": "https://orcid.org/0000-0002-4662-8667"
+          },
+          {
+            "name": "Yu Ming Ning",
+            "orcid": null
+          },
+          {
+            "name": "Zi Xuan Cai",
+            "orcid": null
+          },
+          {
+            "name": "Yi Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Ze Gu",
+            "orcid": "https://orcid.org/0000-0002-5459-1008"
+          },
+          {
+            "name": "Jian Wei You",
+            "orcid": "https://orcid.org/0000-0001-5761-9507"
+          },
+          {
+            "name": "Din Ping Tsai",
+            "orcid": "https://orcid.org/0000-0002-0883-9906"
+          },
+          {
+            "name": "Tie Jun Cui",
+            "orcid": "https://orcid.org/0000-0002-5862-1497"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41377-026-02419-x",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02419-x",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41377-026-02419-x",
+        "publication_date": "2026-08-20",
+        "title": "Trivial-nontrivial programmable topological metasurfaces for sensing and communication",
+        "venue": "Light: Science &amp; Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-23T00:32:33.635208Z",
       "status": "found"
     },
     "crossref:doi:10.1038/s41427-026-00671-6": {
@@ -1276,6 +1502,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:55.106251Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1117/12.3118799": {
+      "expires_at": "2026-09-22T00:32:34.138513Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Min Wang",
+            "orcid": null
+          },
+          {
+            "name": "Hangwei Li Li",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3118799",
+        "landing_page": "https://doi.org/10.1117/12.3118799",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/12.3118799",
+        "publication_date": "2026-08-21",
+        "title": "Single-photon OAM Bell-state recognition via diffractive optical neural networks",
+        "venue": "Sixth Optics Frontier Conference (OFS 2026)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-23T00:32:34.138513Z",
       "status": "found"
     },
     "crossref:doi:10.1117/12.3122678": {
@@ -1802,6 +2058,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:28.954331Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1364/oe.607560": {
+      "expires_at": "2026-09-22T00:32:29.190843Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Leonid Pascar",
+            "orcid": null
+          },
+          {
+            "name": "Charles Lapierre",
+            "orcid": null
+          },
+          {
+            "name": "Dan-Xia Xu",
+            "orcid": null
+          },
+          {
+            "name": "Yuri Grinberg",
+            "orcid": null
+          },
+          {
+            "name": "Odile Liboiron-Ladouceur",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.607560",
+        "landing_page": "https://doi.org/10.1364/oe.607560",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/oe.607560",
+        "publication_date": "2026-08-21",
+        "title": "Photonic dimensionality reduction front-end for integrated optical neural networks",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-23T00:32:29.190843Z",
       "status": "found"
     },
     "crossref:doi:10.1364/opticaq.603710": {
@@ -2538,6 +2836,12 @@
       "retrieved_at": "2026-08-22T00:32:17.388728Z",
       "status": "found"
     },
+    "crossref:title:4ada79c33eec9e9d66efbf9174a42ddb24cbe5870b509479f8473929c252afa8": {
+      "expires_at": "2026-08-30T00:32:32.205536Z",
+      "record": null,
+      "retrieved_at": "2026-08-23T00:32:32.205536Z",
+      "status": "not_found"
+    },
     "crossref:title:569bfc22d25d91d53c0cae46ed9c5efb021edc864023af252ff96d2957870e1e": {
       "expires_at": "2026-08-25T04:25:22.619748Z",
       "record": {
@@ -2678,6 +2982,12 @@
       "expires_at": "2026-08-25T04:25:14.459167Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:14.459167Z",
+      "status": "not_found"
+    },
+    "crossref:title:6c3ce8df9a71a6267107f84899ddd34bd8b0930d58bea2d35008ad2700d3aeda": {
+      "expires_at": "2026-08-30T00:32:28.480267Z",
+      "record": null,
+      "retrieved_at": "2026-08-23T00:32:28.480267Z",
       "status": "not_found"
     },
     "crossref:title:6d8613ddccf0a73c97872be57802b9cbab36cc984a2d1e9b479f60dada4f95ae": {
@@ -3546,6 +3856,12 @@
       "retrieved_at": "2026-08-18T04:25:32.712407Z",
       "status": "not_found"
     },
+    "crossref:title:dc832493991ba038edbe987fb5fc940802a1354177edaa0c0b5bc0ccb93bcf85": {
+      "expires_at": "2026-08-30T00:32:31.188781Z",
+      "record": null,
+      "retrieved_at": "2026-08-23T00:32:31.188781Z",
+      "status": "not_found"
+    },
     "crossref:title:e3d30e93a810dcb91394f004ca83af5538e36c402ecc66569eda4d498aa93d53": {
       "expires_at": "2026-08-29T00:32:15.721716Z",
       "record": {
@@ -3880,6 +4196,88 @@
       "retrieved_at": "2026-08-18T04:25:31.408910Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/lpor.71796": {
+      "expires_at": "2026-09-22T00:32:30.309751Z",
+      "record": {
+        "abstract": "ABSTRACT The exponential growth of multimodal sensor data demands computing architectures capable of massively parallel tensor operations with ultralow latency and high energy efficiency. Optical computing offers a promising route to overcome the von Neumann bottleneck and inherent limits on parallelism in electronic systems. Here, we report a hyper‐parallel distributed multi‐core photonic processor (DMPP) that orchestrates the intrinsic orthogonality of light across spectral and spatial domains to enable multiple‐instruction, multiple‐data processing. Our approach integrates wavelength‐division multiplexing (WDM) with spatially distributed photonic tensor cores, allowing a single processor to process multiple independent data streams and computational tasks concurrently. The system supports multitask workflows by dynamically sharing photonic cores across tasks. This work establishes a scalable photonic computing paradigm for high‐throughput processing of heterogeneous sensor data, enabling efficient, parallel neural network accelerators for edge intelligence and multimodal analytics.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yu Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Yuanjian Wan",
+            "orcid": "https://orcid.org/0000-0002-8511-8563"
+          },
+          {
+            "name": "Feng Liu",
+            "orcid": null
+          },
+          {
+            "name": "Yuhu Cheng",
+            "orcid": "https://orcid.org/0000-0003-2022-9999"
+          },
+          {
+            "name": "Daibing Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Xinyu Wang",
+            "orcid": "https://orcid.org/0000-0003-0418-6503"
+          },
+          {
+            "name": "Mengmeng Li",
+            "orcid": "https://orcid.org/0000-0002-6317-875X"
+          },
+          {
+            "name": "Weiqiang Wang",
+            "orcid": "https://orcid.org/0000-0002-1157-0370"
+          },
+          {
+            "name": "Yanqi Chu",
+            "orcid": null
+          },
+          {
+            "name": "Ziqi Wei",
+            "orcid": "https://orcid.org/0000-0001-9402-8386"
+          },
+          {
+            "name": "Xilin Han",
+            "orcid": null
+          },
+          {
+            "name": "Shulan Yi",
+            "orcid": "https://orcid.org/0000-0002-9879-0949"
+          },
+          {
+            "name": "Xuke Qiu",
+            "orcid": null
+          },
+          {
+            "name": "Zhen Wang",
+            "orcid": null
+          },
+          {
+            "name": "Peng Xie",
+            "orcid": "https://orcid.org/0009-0004-9859-6531"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71796",
+        "landing_page": "https://doi.org/10.1002/lpor.71796",
+        "open_access_url": "https://doi.org/10.1002/lpor.71796",
+        "openalex_id": "https://openalex.org/W7203834444",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203834444",
+        "publication_date": "2026-08-20",
+        "title": "Hyper‐Parallel Optical Tensor Processors Toward Multitask Neural Networks",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-23T00:32:30.309751Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/nap2.70242": {
       "expires_at": "2026-09-17T04:25:18.954571Z",
       "record": {
@@ -4022,6 +4420,90 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-22T00:32:11.095169Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s10915-026-03433-2": {
+      "expires_at": "2026-09-22T00:32:33.344432Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zekun Liu",
+            "orcid": "https://orcid.org/0000-0003-1016-6752"
+          },
+          {
+            "name": "Jinyan Fan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10915-026-03433-2",
+        "landing_page": "https://doi.org/10.1007/s10915-026-03433-2",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7203767783",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203767783",
+        "publication_date": "2026-08-19",
+        "title": "A Proximal Newton-Type Algorithm for Zeroth-Order Stochastic Composite Optimization with a New Norm Test for Sample Size Selection",
+        "venue": "Journal of Scientific Computing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-23T00:32:33.344432Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s10946-026-10322-4": {
+      "expires_at": "2026-09-22T00:32:35.089989Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ye Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Ye Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Lei Yu",
+            "orcid": null
+          },
+          {
+            "name": "Xuyang Zhu",
+            "orcid": "https://orcid.org/0000-0002-3905-938X"
+          },
+          {
+            "name": "Kaiwen Wu",
+            "orcid": null
+          },
+          {
+            "name": "Yejin Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yejin Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Jiaoqing Pan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10946-026-10322-4",
+        "landing_page": "https://doi.org/10.1007/s10946-026-10322-4",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7203787160",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203787160",
+        "publication_date": "2026-08-19",
+        "title": "Minimalist photonic chip architecture based on the micro-ring resonator for matrix-matrix multiplication",
+        "venue": "Journal of Russian Laser Research",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-23T00:32:35.089989Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s11433-026-2995-7": {
@@ -4622,6 +5104,12 @@
       "retrieved_at": "2026-08-19T00:32:49.967329Z",
       "status": "found"
     },
+    "openalex:doi:10.1021/acsphotonics.6c00831/5259562": {
+      "expires_at": "2026-09-22T00:32:30.911798Z",
+      "record": null,
+      "retrieved_at": "2026-08-23T00:32:30.911798Z",
+      "status": "not_found"
+    },
     "openalex:doi:10.1021/acsphotonics.6c00985": {
       "expires_at": "2026-09-17T04:25:27.912979Z",
       "record": {
@@ -4888,6 +5376,68 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:55.005571Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41377-026-02419-x": {
+      "expires_at": "2026-09-22T00:32:34.031968Z",
+      "record": {
+        "abstract": "Trivial-nontrivial topological switching provides a distinctive physical pathway for multifunctional electromagnetic systems, yet has never been exploited for integrated sensing and communication (ISAC). Existing ISAC architectures rely almost exclusively on trivial spatial-wave beamforming, constraining near-field sensing robustness and limiting hardware scalability in 6 G scenarios. Here, we propose an intelligent ISAC platform enabled by a programmable topological metasurface (PTM) that dynamically switches between trivial radiation states and non-trivial valley-Hall states, which is achieved through FPGA-controlled symmetry modulation of the PTM's unit cells. In its non-trivial state, the PTM forms multiple topologically protected domain-wall channels, guiding surface waves with robustness and enabling the extraction of electromagnetic signatures for human localization. A convolutional neural network trained on these signatures achieves a localization accuracy of 99.54%. Upon position recognition, the PTM transitions to its trivial radiation phase, generating spatial phase-gradient beams for directional wireless communication without requiring additional hardware. Experimental results are consistent with theoretical predictions, validating an implementation of topological state switching for dual-mode ISAC functionality. It suggests that topological state programmability could be a potential mechanism for building compact, robust, and intelligent electromagnetic platforms for next-generation wireless systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Qiang Xiao",
+            "orcid": "https://orcid.org/0000-0001-6968-105X"
+          },
+          {
+            "name": "Long Chen",
+            "orcid": "https://orcid.org/0009-0007-1533-0319"
+          },
+          {
+            "name": "Qian Ma",
+            "orcid": "https://orcid.org/0000-0002-4662-8667"
+          },
+          {
+            "name": "Yu Ming Ning",
+            "orcid": null
+          },
+          {
+            "name": "Zi Xuan Cai",
+            "orcid": null
+          },
+          {
+            "name": "Yi Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Ze Gu",
+            "orcid": "https://orcid.org/0000-0002-5459-1008"
+          },
+          {
+            "name": "Jian Wei You",
+            "orcid": "https://orcid.org/0000-0001-5761-9507"
+          },
+          {
+            "name": "Din Ping Tsai",
+            "orcid": "https://orcid.org/0000-0002-0883-9906"
+          },
+          {
+            "name": "Tie Jun Cui",
+            "orcid": "https://orcid.org/0000-0002-5862-1497"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41377-026-02419-x",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02419-x",
+        "open_access_url": "https://doi.org/10.1038/s41377-026-02419-x",
+        "openalex_id": "https://openalex.org/W7203747498",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203747498",
+        "publication_date": "2026-08-20",
+        "title": "Trivial-nontrivial programmable topological metasurfaces for sensing and communication",
+        "venue": "Light Science & Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-23T00:32:34.031968Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s41427-026-00671-6": {
@@ -6162,6 +6712,36 @@
       "retrieved_at": "2026-08-04T09:38:55.436916Z",
       "status": "found"
     },
+    "openalex:doi:10.1117/12.3118799": {
+      "expires_at": "2026-09-22T00:32:34.492360Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Min Wang",
+            "orcid": null
+          },
+          {
+            "name": "Hangwei Li Li",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3118799",
+        "landing_page": "https://doi.org/10.1117/12.3118799",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7203863080",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203863080",
+        "publication_date": "2026-08-21",
+        "title": "Single-photon OAM Bell-state recognition via diffractive optical neural networks",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-23T00:32:34.492360Z",
+      "status": "found"
+    },
     "openalex:doi:10.1117/12.3122678": {
       "expires_at": "2026-09-17T04:25:20.765980Z",
       "record": {
@@ -6996,6 +7576,48 @@
       "retrieved_at": "2026-08-18T04:25:29.279228Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/oe.607560": {
+      "expires_at": "2026-09-22T00:32:29.691885Z",
+      "record": {
+        "abstract": "We present a photonic dimensionality-reduction front-end for silicon photonic integrated optical neural networks (ONNs) that addresses the mismatch between full-resolution images, which contain hundreds to thousands of pixels, and current integrated ONNs, which typically support only tens of input channels. The front-end combines a Fourier lens with an on-chip two-dimensional grating-coupler array: the lens maps the input image to the spatial-frequency domain, and the grating couplers coherently sample the resulting Fourier-plane field. This enables ONNs to process optically compressed input directly, without electronic preprocessing or on-chip optical-signal generation. We experimentally implement the front-end and acquire dimensionality-reduced representations from MNIST and grayscale CIFAR-10. When these measured representations are used as inputs to representative simulated ONN classifiers, they retain near-baseline performance for binary tasks, achieving F1 scores of at least ≥ 90 % for MNIST and ≥ 74 % for CIFAR-10 while using only 2–5 % and 2–6 % of the original image pixels, respectively. This establishes optical Fourier domain dimensionality reduction as a practical front-end strategy for bridging full-resolution visual inputs with limited input dimensionality of integrated ONNs.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Leonid Pascar",
+            "orcid": null
+          },
+          {
+            "name": "Charles Lapierre",
+            "orcid": null
+          },
+          {
+            "name": "Dan-Xia Xu",
+            "orcid": null
+          },
+          {
+            "name": "Yuri Grinberg",
+            "orcid": null
+          },
+          {
+            "name": "Odile Liboiron-Ladouceur",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.607560",
+        "landing_page": "https://doi.org/10.1364/oe.607560",
+        "open_access_url": "https://doi.org/10.1364/oe.607560",
+        "openalex_id": "https://openalex.org/W7163357849",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7163357849",
+        "publication_date": "2026-08-21",
+        "title": "Photonic dimensionality reduction front-end for integrated optical neural networks",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-23T00:32:29.691885Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/optica.591264": {
       "expires_at": "2026-09-03T09:38:30.948780Z",
       "record": {
@@ -7698,6 +8320,12 @@
       "retrieved_at": "2026-08-09T00:36:02.126264Z",
       "status": "not_found"
     },
+    "openalex:title:4ada79c33eec9e9d66efbf9174a42ddb24cbe5870b509479f8473929c252afa8": {
+      "expires_at": "2026-08-30T00:32:32.784526Z",
+      "record": null,
+      "retrieved_at": "2026-08-23T00:32:32.784526Z",
+      "status": "not_found"
+    },
     "openalex:title:58a4e8946f478ec97ae906eac840dcbedd335e53d76cd06cbd7c9cc445297568": {
       "expires_at": "2026-08-16T00:36:12.468945Z",
       "record": null,
@@ -7835,6 +8463,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:14.917858Z",
       "status": "found"
+    },
+    "openalex:title:6c3ce8df9a71a6267107f84899ddd34bd8b0930d58bea2d35008ad2700d3aeda": {
+      "expires_at": "2026-08-30T00:32:29.001299Z",
+      "record": null,
+      "retrieved_at": "2026-08-23T00:32:29.001299Z",
+      "status": "not_found"
     },
     "openalex:title:6d8613ddccf0a73c97872be57802b9cbab36cc984a2d1e9b479f60dada4f95ae": {
       "expires_at": "2026-08-17T00:36:48.038952Z",
@@ -8096,6 +8730,12 @@
       "expires_at": "2026-08-25T04:25:33.119801Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:33.119801Z",
+      "status": "not_found"
+    },
+    "openalex:title:dc832493991ba038edbe987fb5fc940802a1354177edaa0c0b5bc0ccb93bcf85": {
+      "expires_at": "2026-08-30T00:32:31.838146Z",
+      "record": null,
+      "retrieved_at": "2026-08-23T00:32:31.838146Z",
       "status": "not_found"
     },
     "openalex:title:e5891f67f719834bc00ca01dc15fbfa40dcacf96346e10b3b7547e108fc0537b": {

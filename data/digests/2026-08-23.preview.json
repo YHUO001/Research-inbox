@@ -1,0 +1,53 @@
+{
+  "built_at": "2026-08-23T00:32:35.686460Z",
+  "digest_date": "2026-08-23",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "1e619f1b739f1893eae64f28",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02325-2",
+        "mandatory": true,
+        "score": 0.85,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "On-chip non-volatile all-optical residual neural network accelerator",
+        "venue": "Light: Science &amp; Applications",
+        "year": 2026
+      },
+      {
+        "candidate_id": "7719ae17086cb97168bebbc5",
+        "landing_page": "https://doi.org/10.1007/s10915-026-03433-2",
+        "mandatory": false,
+        "score": 0.89,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "A Proximal Newton-Type Algorithm for Zeroth-Order Stochastic Composite Optimization with a New Norm Test for Sample Size Selection",
+        "venue": "Journal of Scientific Computing",
+        "year": 2026
+      },
+      {
+        "candidate_id": "028de8014a2b67fd147a28e7",
+        "landing_page": "https://opg.optica.org/abstract.cfm?uri=QUANTUM-2026-QW3A.65",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "A Noise-Resilient Calibration framework for Quantum and Optical Neural Network Inference",
+        "venue": "Quantum 2.0",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}
