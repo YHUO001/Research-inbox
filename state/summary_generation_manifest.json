@@ -1,279 +1,31 @@
 {
-  "abstract_fallback_candidate_ids": [
-    "7719ae17086cb97168bebbc5",
-    "028de8014a2b67fd147a28e7"
-  ],
-  "abstract_fallback_count": 2,
-  "architecture_evidence": {
-    "028de8014a2b67fd147a28e7": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
-    },
-    "1e619f1b739f1893eae64f28": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
-    },
-    "7719ae17086cb97168bebbc5": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": null,
-      "resolved_type": "unclear"
-    }
-  },
-  "architecture_repairs": 0,
-  "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 3,
-  "completed_at": "2026-08-23T00:34:04.729517Z",
+  "actual_summary_count": 0,
+  "automatic_queue_candidate_count": 0,
+  "built_at": "2026-08-24T00:32:22.349059Z",
   "completed_candidate_filtered_count": 0,
-  "completed_candidate_ids": [
-    "028de8014a2b67fd147a28e7",
-    "1e619f1b739f1893eae64f28",
-    "7719ae17086cb97168bebbc5"
-  ],
-  "completion_mode": "automatic_daily_batch_after_local_validation",
-  "daily_digest_pending": true,
-  "digest_date": "2026-08-23",
-  "digest_json_file": "runtime-state/data/digests/2026-08-23.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-08-23.generated.md",
+  "daily_digest_pending": false,
+  "digest_date": "2026-08-24",
+  "digest_json_file": "runtime-state/data/digests/2026-08-24.preview.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-08-24.preview.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.055335,
   "execution_mode": "automatic_daily_batch",
-  "failure_count": 0,
-  "failures": [],
-  "full_text_method_contexts": {
-    "028de8014a2b67fd147a28e7": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "028de8014a2b67fd147a28e7",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 2.716,
-      "error": "https://opg.optica.org/abstract.cfm?uri=QUANTUM-2026-QW3A.65: no method-oriented HTML section found; https://opg.optica.org/viewmedia.cfm?uri=QUANTUM-2026-QW3A.65&seq=0: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://opg.optica.org/abstract.cfm?uri=QUANTUM-2026-QW3A.65",
-      "status": "not_available",
-      "text_persisted": false
-    },
-    "1e619f1b739f1893eae64f28": {
-      "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "1e619f1b739f1893eae64f28",
-      "character_count": 12000,
-      "content_sha256": "0f34e450ee390b5a52e90ed5f3db03f66ddb15977524977b7d24f63ec7b4bb7d",
-      "elapsed_seconds": 1.433,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "application/xml+jats",
-      "section_headings": [
-        "Design and fabrication of the NARCA",
-        "Materials and methods",
-        "NARCA fabrication",
-        "Experimental setup"
-      ],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02325-2&p=1",
-      "status": "used",
-      "text_persisted": false
-    },
-    "7719ae17086cb97168bebbc5": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "7719ae17086cb97168bebbc5",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 1.635,
-      "error": "Springer Open Access HTTP 404; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": "application/xml+jats",
-      "section_headings": [],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1007%2Fs10915-026-03433-2&p=1",
-      "status": "not_available",
-      "text_persisted": false
-    }
-  },
-  "full_text_persisted": false,
-  "full_text_used": true,
+  "full_text_used": false,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
-  "knowledge_base_pending": true,
-  "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 3,
-  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
-  "numeric_matching": {
-    "absolute_tolerance": 0.02,
-    "approximation_markers_ignored": true,
-    "evidence_sources": [
-      "title",
-      "abstract",
-      "temporary_open_full_text_methods"
-    ],
-    "full_text_unsupported_sentence_action": "deterministic_redaction",
-    "relative_tolerance": 0.02,
-    "unit_format_ignored": true,
-    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
-  },
+  "knowledge_base_pending": false,
+  "llm_enabled": true,
   "output_language": "zh-CN",
-  "prepared_request_count": 3,
-  "provider": "deepseek",
-  "queue_sha256": "823ab740a8f1a45c72641cf77f27d3384707f0bf292f102df924195d84632a07",
-  "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-08-23.jsonl",
-  "request_sha256": "f1dae9de787378be8e0390064a9512c48b37e96ac554b64b3c087c49ed813777",
+  "provider": "not_configured",
+  "queue_candidate_count": 0,
+  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "request_count": 0,
+  "request_file": "runtime-state/data/summary_requests/2026-08-24.jsonl",
+  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "56ecbbf7ddac3d4f78ef45fb72dea11cf54468b38819d2940bc2881308e3745c",
-  "skipped_no_abstract_candidate_ids": [],
-  "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 3,
-  "stage_timings": {
-    "full_text_preparation_seconds": 5.789,
-    "model_api_calls": [
-      {
-        "attempt": 1,
-        "candidate_id": "1e619f1b739f1893eae64f28",
-        "elapsed_seconds": 38.205,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1910,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 4078,
-          "prompt_tokens": 5998,
-          "total_tokens": 7908
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "7719ae17086cb97168bebbc5",
-        "elapsed_seconds": 21.36,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 960,
-          "prompt_cache_hit_tokens": 0,
-          "prompt_cache_miss_tokens": 3284,
-          "prompt_tokens": 3284,
-          "total_tokens": 4244
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "028de8014a2b67fd147a28e7",
-        "elapsed_seconds": 22.505,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1059,
-          "prompt_cache_hit_tokens": 0,
-          "prompt_cache_miss_tokens": 3209,
-          "prompt_tokens": 3209,
-          "total_tokens": 4268
-        }
-      }
-    ],
-    "model_generation_and_validation_seconds": 82.084
-  },
-  "status": "completed_automatic",
-  "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-08-23.jsonl",
+  "selection_manifest_sha256": "48c142c7c51204c34995683d4388ce214d13b1204ea53faae8c91290ff7fc4c5",
+  "source_queue_candidate_count": 0,
+  "status": "no_candidates",
   "summary_generation_version": 8,
-  "summary_history_updated": true,
-  "summary_slot_count": 3,
-  "thinking_enabled": false,
-  "transport_repairs": {
-    "architecture_evidence": {
-      "028de8014a2b67fd147a28e7": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "hybrid",
-        "repaired": true,
-        "resolved_type": "unclear"
-      },
-      "1e619f1b739f1893eae64f28": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "integrated",
-        "repaired": true,
-        "resolved_type": "unclear"
-      },
-      "7719ae17086cb97168bebbc5": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": null,
-        "repaired": false,
-        "resolved_type": "unclear"
-      }
-    },
-    "architecture_repairs": 2,
-    "candidate_id_repair_responses": 0,
-    "full_text_method_contexts": {
-      "028de8014a2b67fd147a28e7": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "028de8014a2b67fd147a28e7",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 2.716,
-        "error": "https://opg.optica.org/abstract.cfm?uri=QUANTUM-2026-QW3A.65: no method-oriented HTML section found; https://opg.optica.org/viewmedia.cfm?uri=QUANTUM-2026-QW3A.65&seq=0: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://opg.optica.org/abstract.cfm?uri=QUANTUM-2026-QW3A.65",
-        "status": "not_available",
-        "text_persisted": false
-      },
-      "1e619f1b739f1893eae64f28": {
-        "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "1e619f1b739f1893eae64f28",
-        "character_count": 12000,
-        "content_sha256": "0f34e450ee390b5a52e90ed5f3db03f66ddb15977524977b7d24f63ec7b4bb7d",
-        "elapsed_seconds": 1.433,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "application/xml+jats",
-        "section_headings": [
-          "Design and fabrication of the NARCA",
-          "Materials and methods",
-          "NARCA fabrication",
-          "Experimental setup"
-        ],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02325-2&p=1",
-        "status": "used",
-        "text_persisted": false
-      },
-      "7719ae17086cb97168bebbc5": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "7719ae17086cb97168bebbc5",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 1.635,
-        "error": "Springer Open Access HTTP 404; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": "application/xml+jats",
-        "section_headings": [],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1007%2Fs10915-026-03433-2&p=1",
-        "status": "not_available",
-        "text_persisted": false
-      }
-    },
-    "generation_metadata_repair_responses": 2,
-    "numeric_grounding_repair_responses": 0,
-    "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 13,
-    "unit_format_normalization_responses": 0
-  },
-  "usage": {
-    "completion_tokens": 3929,
-    "prompt_cache_hit_tokens": 1920,
-    "prompt_cache_miss_tokens": 10571,
-    "prompt_tokens": 12491,
-    "total_tokens": 16420
-  }
+  "summary_history_updated": false,
+  "summary_slot_count": 0
 }

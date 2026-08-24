@@ -406,6 +406,52 @@
       "retrieved_at": "2026-08-18T04:25:24.816912Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/s11831-026-10681-w": {
+      "expires_at": "2026-09-23T00:32:21.323852Z",
+      "record": {
+        "abstract": "Abstract Symbolic regression autonomously discovers interpretable mathematical expressions from data by optimizing functional structure and associated parameters. Unlike traditional regression approaches that rely on predefined model forms, symbolic regression generates explicit models that maintain high predictive accuracy while providing valuable scientific insights. This survey comprehensively analyzes contemporary symbolic regression methodologies by systematically integrating four paradigmatic approaches: deterministic methods, metaheuristic algorithms, neural-symbolic frameworks, and emerging hybrid strategies. We establish a unified taxonomic framework that bridges evolutionary computation, mathematical programming, and deep learning paradigms. Our analysis reveals convergence patterns toward physics-informed discovery, multi-objective optimization, and human-collaborative frameworks. WWe examine hybrid integration strategies, semantic-aware operators, and constraint-handling mechanisms, and we critically assess evaluation methodologies, benchmarking practices, applications across scientific and engineering domains, and fundamental limitations, including search complexity, overfitting, and high-dimensional scaling challenges. This work makes four key contributions. First, we provide a unified framework analyzing over 300 methods across four paradigms. Second, we offer comprehensive coverage of developments from 2020 to 2025, including transformer-based and large language model approaches. Third, we present a systematic analysis of hybrid strategies and convergence patterns. Fourth, we provide actionable guidance for method selection. This survey establishes a comprehensive contemporary reference for symbolic regression research, highlighting pathways toward robust, interpretable, and scalable automated scientific discovery systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Vikas Palakonda",
+            "orcid": null
+          },
+          {
+            "name": "Samira Ghorbanpour",
+            "orcid": null
+          },
+          {
+            "name": "Sangseok Yun",
+            "orcid": null
+          },
+          {
+            "name": "Il-Min Kim",
+            "orcid": null
+          },
+          {
+            "name": "Jae-Mo Kang",
+            "orcid": null
+          },
+          {
+            "name": "Sunghwan Moon",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s11831-026-10681-w",
+        "landing_page": "https://doi.org/10.1007/s11831-026-10681-w",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s11831-026-10681-w",
+        "publication_date": "2026-08-20",
+        "title": "A Comprehensive Survey on Symbolic Regression: State-of-the-Art Approaches, Key Applications, Benchmark Evaluations, and Future Research Directions",
+        "venue": "Archives of Computational Methods in Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-24T00:32:21.323852Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s44519-026-00003-9": {
       "expires_at": "2026-09-17T04:25:31.463766Z",
       "record": {
@@ -2308,6 +2354,12 @@
       "retrieved_at": "2026-08-18T04:25:14.957375Z",
       "status": "found"
     },
+    "crossref:title:0f8c4e0a9f7dbce7dfea5017263591b2cbf2d3204d9a790cff62b5e4c9f44859": {
+      "expires_at": "2026-08-31T00:32:20.567904Z",
+      "record": null,
+      "retrieved_at": "2026-08-24T00:32:20.567904Z",
+      "status": "not_found"
+    },
     "crossref:title:10c4cd1898d187964946eca726f5dcaad079557a2605596d3ab1c979f0337692": {
       "expires_at": "2026-08-16T00:36:04.812147Z",
       "record": null,
@@ -3538,6 +3590,12 @@
       "retrieved_at": "2026-08-09T00:36:00.135704Z",
       "status": "not_found"
     },
+    "crossref:title:b583510df12ba484618776d7a38cfd3045ad2f0b46e70072c4bc7298d524c6f8": {
+      "expires_at": "2026-08-31T00:32:18.540205Z",
+      "record": null,
+      "retrieved_at": "2026-08-24T00:32:18.540205Z",
+      "status": "not_found"
+    },
     "crossref:title:b857736f74d4b6b8dd053691f8ebf5361af4a98b2c82f0ab5e97cf4484e5b711": {
       "expires_at": "2026-08-16T00:36:09.827479Z",
       "record": null,
@@ -4596,6 +4654,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:25.149424Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s11831-026-10681-w": {
+      "expires_at": "2026-09-23T00:32:21.700436Z",
+      "record": {
+        "abstract": "Abstract Symbolic regression autonomously discovers interpretable mathematical expressions from data by optimizing functional structure and associated parameters. Unlike traditional regression approaches that rely on predefined model forms, symbolic regression generates explicit models that maintain high predictive accuracy while providing valuable scientific insights. This survey comprehensively analyzes contemporary symbolic regression methodologies by systematically integrating four paradigmatic approaches: deterministic methods, metaheuristic algorithms, neural-symbolic frameworks, and emerging hybrid strategies. We establish a unified taxonomic framework that bridges evolutionary computation, mathematical programming, and deep learning paradigms. Our analysis reveals convergence patterns toward physics-informed discovery, multi-objective optimization, and human-collaborative frameworks. WWe examine hybrid integration strategies, semantic-aware operators, and constraint-handling mechanisms, and we critically assess evaluation methodologies, benchmarking practices, applications across scientific and engineering domains, and fundamental limitations, including search complexity, overfitting, and high-dimensional scaling challenges. This work makes four key contributions. First, we provide a unified framework analyzing over 300 methods across four paradigms. Second, we offer comprehensive coverage of developments from 2020 to 2025, including transformer-based and large language model approaches. Third, we present a systematic analysis of hybrid strategies and convergence patterns. Fourth, we provide actionable guidance for method selection. This survey establishes a comprehensive contemporary reference for symbolic regression research, highlighting pathways toward robust, interpretable, and scalable automated scientific discovery systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Vikas Palakonda",
+            "orcid": "https://orcid.org/0009-0001-6390-2373"
+          },
+          {
+            "name": "Samira Ghorbanpour",
+            "orcid": null
+          },
+          {
+            "name": "Sangseok Yun",
+            "orcid": null
+          },
+          {
+            "name": "Il‐Min Kim",
+            "orcid": "https://orcid.org/0000-0003-1339-8057"
+          },
+          {
+            "name": "Jae‐Mo Kang",
+            "orcid": "https://orcid.org/0000-0002-8181-5994"
+          },
+          {
+            "name": "Sunghwan Moon",
+            "orcid": "https://orcid.org/0000-0003-3384-0391"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s11831-026-10681-w",
+        "landing_page": "https://doi.org/10.1007/s11831-026-10681-w",
+        "open_access_url": "https://doi.org/10.1007/s11831-026-10681-w",
+        "openalex_id": "https://openalex.org/W7203823106",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203823106",
+        "publication_date": "2026-08-20",
+        "title": "A Comprehensive Survey on Symbolic Regression: State-of-the-Art Approaches, Key Applications, Benchmark Evaluations, and Future Research Directions",
+        "venue": "Archives of Computational Methods in Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-24T00:32:21.700436Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s44519-026-00003-9": {
@@ -8278,6 +8382,12 @@
       "retrieved_at": "2026-08-18T04:25:15.288051Z",
       "status": "found"
     },
+    "openalex:title:0f8c4e0a9f7dbce7dfea5017263591b2cbf2d3204d9a790cff62b5e4c9f44859": {
+      "expires_at": "2026-08-31T00:32:21.079217Z",
+      "record": null,
+      "retrieved_at": "2026-08-24T00:32:21.079217Z",
+      "status": "not_found"
+    },
     "openalex:title:10c4cd1898d187964946eca726f5dcaad079557a2605596d3ab1c979f0337692": {
       "expires_at": "2026-08-16T00:36:05.489666Z",
       "record": null,
@@ -8670,6 +8780,12 @@
       "expires_at": "2026-08-16T00:36:00.776579Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:36:00.776579Z",
+      "status": "not_found"
+    },
+    "openalex:title:b583510df12ba484618776d7a38cfd3045ad2f0b46e70072c4bc7298d524c6f8": {
+      "expires_at": "2026-08-31T00:32:19.217108Z",
+      "record": null,
+      "retrieved_at": "2026-08-24T00:32:19.217108Z",
       "status": "not_found"
     },
     "openalex:title:b857736f74d4b6b8dd053691f8ebf5361af4a98b2c82f0ab5e97cf4484e5b711": {

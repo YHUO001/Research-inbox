@@ -1,0 +1,19 @@
+{
+  "built_at": "2026-08-24T00:32:22.349059Z",
+  "digest_date": "2026-08-24",
+  "digest_version": 1,
+  "pending_summary_count": 0,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}
