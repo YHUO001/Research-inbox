@@ -54,6 +54,60 @@
       "retrieved_at": "2026-08-18T04:25:31.075985Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/lpor.71741": {
+      "expires_at": "2026-09-24T00:32:21.002535Z",
+      "record": {
+        "abstract": "ABSTRACT Metasurfaces offer a compact and scalable platform for multidimensional optical field manipulation and engineering. By judiciously designing subwavelength scatterers to tailor the complex transmitted field, a single metasurface can encode a prescribed near‐field distribution at its exit plane while simultaneously generating a desired far‐field response after propagation, thereby significantly increasing the degrees of freedom for high‐dimensional information encoding. However, achieving these near‐/far‐field functional responses across wavelength‐ and polarization‐multiplexed channels in a single device remains challenging. Here, we present an end‐to‐end data‐driven framework for multiwavelength and multipolarization metasurface design. A deep neural network is embedded in a gradient‐based optimization loop to design coherent superpixels, enabling simultaneous nanoprinting and holography across multiple channels. Using this framework, we experimentally demonstrate a single‐layer metasurface that supports nanoprinting and holography at three wavelengths and in three polarization channels, with multiplane holographic reconstruction. This strategy provides a versatile platform for high‐dimensional optical‐field manipulation, multifunctional optical displays, and integrated nanophotonic systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shanshan Ge",
+            "orcid": null
+          },
+          {
+            "name": "Haiyang Ren",
+            "orcid": null
+          },
+          {
+            "name": "Huifu Qiu",
+            "orcid": null
+          },
+          {
+            "name": "Guanyue Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Yaqi Jin",
+            "orcid": null
+          },
+          {
+            "name": "Haocun Qi",
+            "orcid": null
+          },
+          {
+            "name": "Pengcheng Huo",
+            "orcid": null
+          },
+          {
+            "name": "Ting Xu",
+            "orcid": "https://orcid.org/0000-0002-0704-1089"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71741",
+        "landing_page": "https://doi.org/10.1002/lpor.71741",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.71741",
+        "publication_date": "2026-08-23",
+        "title": "Deep Neural Network Enabled Complex‐Amplitude Metasurfaces for Simultaneous Nanoprinting and Holography",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-25T00:32:21.002535Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/lpor.71796": {
       "expires_at": "2026-09-22T00:32:29.913718Z",
       "record": {
@@ -206,6 +260,84 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-09T00:36:08.846606Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1002/smll.75213": {
+      "expires_at": "2026-09-24T00:32:20.466121Z",
+      "record": {
+        "abstract": "ABSTRACT Inverse design of terahertz (THz) metasurfaces via algorithmic models has become a mainstream trend and finds wide application in THz biosensing devices. However, traditional inverse design methods without optimization often rely solely on mathematical correlations, lacking physical interpretability and resulting in outcomes that deviate from practical requirements. This work proposes a Physics‐Guided Transformer (PGT) model tailored for the inverse design of THz biosensing metasurfaces. By incorporating an additional physics‐guided spectral attention (PGS‐Attention) module, the proposed model effectively captures global electromagnetic coupling effects and long‐range dependencies between THz spectral sequences and metasurface units, significantly enhancing physical interpretability. As a result, the computation time of the PGT model is 6.38 × 10 6 times faster than that of full‐wave simulations. Furthermore, label‐free biosensing experiments are conducted on the inversely designed metasurface using glucose solutions with 0.1‐0.5 g/mL. Experimental results demonstrate that the electromagnetically induced transparency (EIT) window generated at 0.96 THz achieves a sensitivity of 280 GHz/RIU. This study provides a comprehensive technical route for physically interpretable inverse design models of THz metasurfaces and offers a solution to the black‐box dilemma in artificial intelligence (AI)‐driven micro/nano‐optics design.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yafeng Hao",
+            "orcid": null
+          },
+          {
+            "name": "Lizhi Dang",
+            "orcid": null
+          },
+          {
+            "name": "Yujie Huang",
+            "orcid": null
+          },
+          {
+            "name": "Shuaishuai Yao",
+            "orcid": null
+          },
+          {
+            "name": "Wenyu Niu",
+            "orcid": null
+          },
+          {
+            "name": "Yukun Ji",
+            "orcid": null
+          },
+          {
+            "name": "Yaning Chang",
+            "orcid": null
+          },
+          {
+            "name": "Huiyou Tian",
+            "orcid": null
+          },
+          {
+            "name": "Cheng Lei",
+            "orcid": null
+          },
+          {
+            "name": "Lei Zhong",
+            "orcid": null
+          },
+          {
+            "name": "Yupeng Xu",
+            "orcid": null
+          },
+          {
+            "name": "Ting Liang",
+            "orcid": null
+          },
+          {
+            "name": "Bing Han",
+            "orcid": "https://orcid.org/0000-0001-8143-3964"
+          },
+          {
+            "name": "Tengteng Li",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/smll.75213",
+        "landing_page": "https://doi.org/10.1002/smll.75213",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/smll.75213",
+        "publication_date": "2026-08-22",
+        "title": "Physics‐Guided Transformer Enables Efficient Inverse Design of Terahertz Metasurfaces for Glucose Sensing",
+        "venue": "Small",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-25T00:32:20.466121Z",
       "status": "found"
     },
     "crossref:doi:10.1007/s10825-026-02624-2": {
@@ -4254,6 +4386,60 @@
       "retrieved_at": "2026-08-18T04:25:31.408910Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/lpor.71741": {
+      "expires_at": "2026-09-24T00:32:21.376498Z",
+      "record": {
+        "abstract": "ABSTRACT Metasurfaces offer a compact and scalable platform for multidimensional optical field manipulation and engineering. By judiciously designing subwavelength scatterers to tailor the complex transmitted field, a single metasurface can encode a prescribed near‐field distribution at its exit plane while simultaneously generating a desired far‐field response after propagation, thereby significantly increasing the degrees of freedom for high‐dimensional information encoding. However, achieving these near‐/far‐field functional responses across wavelength‐ and polarization‐multiplexed channels in a single device remains challenging. Here, we present an end‐to‐end data‐driven framework for multiwavelength and multipolarization metasurface design. A deep neural network is embedded in a gradient‐based optimization loop to design coherent superpixels, enabling simultaneous nanoprinting and holography across multiple channels. Using this framework, we experimentally demonstrate a single‐layer metasurface that supports nanoprinting and holography at three wavelengths and in three polarization channels, with multiplane holographic reconstruction. This strategy provides a versatile platform for high‐dimensional optical‐field manipulation, multifunctional optical displays, and integrated nanophotonic systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shanshan Ge",
+            "orcid": null
+          },
+          {
+            "name": "Haiyang Ren",
+            "orcid": null
+          },
+          {
+            "name": "Huifu Qiu",
+            "orcid": null
+          },
+          {
+            "name": "Guanyue Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Yaqi Jin",
+            "orcid": null
+          },
+          {
+            "name": "Haocun Qi",
+            "orcid": "https://orcid.org/0000-0002-2058-5830"
+          },
+          {
+            "name": "Pengcheng Huo",
+            "orcid": null
+          },
+          {
+            "name": "Ting Xu",
+            "orcid": "https://orcid.org/0000-0002-0704-1089"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71741",
+        "landing_page": "https://doi.org/10.1002/lpor.71741",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7204040059",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204040059",
+        "publication_date": "2026-08-23",
+        "title": "Deep Neural Network Enabled Complex‐Amplitude Metasurfaces for Simultaneous Nanoprinting and Holography",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-25T00:32:21.376498Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/lpor.71796": {
       "expires_at": "2026-09-22T00:32:30.309751Z",
       "record": {
@@ -4406,6 +4592,84 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-09T00:36:09.165601Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/smll.75213": {
+      "expires_at": "2026-09-24T00:32:20.811992Z",
+      "record": {
+        "abstract": "ABSTRACT Inverse design of terahertz (THz) metasurfaces via algorithmic models has become a mainstream trend and finds wide application in THz biosensing devices. However, traditional inverse design methods without optimization often rely solely on mathematical correlations, lacking physical interpretability and resulting in outcomes that deviate from practical requirements. This work proposes a Physics‐Guided Transformer (PGT) model tailored for the inverse design of THz biosensing metasurfaces. By incorporating an additional physics‐guided spectral attention (PGS‐Attention) module, the proposed model effectively captures global electromagnetic coupling effects and long‐range dependencies between THz spectral sequences and metasurface units, significantly enhancing physical interpretability. As a result, the computation time of the PGT model is 6.38 × 10 6 times faster than that of full‐wave simulations. Furthermore, label‐free biosensing experiments are conducted on the inversely designed metasurface using glucose solutions with 0.1‐0.5 g/mL. Experimental results demonstrate that the electromagnetically induced transparency (EIT) window generated at 0.96 THz achieves a sensitivity of 280 GHz/RIU. This study provides a comprehensive technical route for physically interpretable inverse design models of THz metasurfaces and offers a solution to the black‐box dilemma in artificial intelligence (AI)‐driven micro/nano‐optics design.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yafeng Hao",
+            "orcid": "https://orcid.org/0009-0008-5868-4069"
+          },
+          {
+            "name": "Lizhi Dang",
+            "orcid": null
+          },
+          {
+            "name": "Yujie Huang",
+            "orcid": null
+          },
+          {
+            "name": "Shuaishuai Yao",
+            "orcid": null
+          },
+          {
+            "name": "Wenyu Niu",
+            "orcid": null
+          },
+          {
+            "name": "Yukun Ji",
+            "orcid": null
+          },
+          {
+            "name": "Yaning Chang",
+            "orcid": null
+          },
+          {
+            "name": "田会友",
+            "orcid": null
+          },
+          {
+            "name": "Cheng Lei",
+            "orcid": "https://orcid.org/0000-0002-5592-3887"
+          },
+          {
+            "name": "Lei Zhong",
+            "orcid": null
+          },
+          {
+            "name": "Yupeng Xu",
+            "orcid": null
+          },
+          {
+            "name": "Ting Liang",
+            "orcid": "https://orcid.org/0000-0002-3827-5101"
+          },
+          {
+            "name": "Bing Han",
+            "orcid": "https://orcid.org/0000-0001-8143-3964"
+          },
+          {
+            "name": "Tengteng Li",
+            "orcid": "https://orcid.org/0000-0001-5129-7455"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/smll.75213",
+        "landing_page": "https://doi.org/10.1002/smll.75213",
+        "open_access_url": "https://doi.org/10.1002/smll.75213",
+        "openalex_id": "https://openalex.org/W7203977953",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203977953",
+        "publication_date": "2026-08-22",
+        "title": "Physics‐Guided Transformer Enables Efficient Inverse Design of Terahertz Metasurfaces for Glucose Sensing",
+        "venue": "Small",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-25T00:32:20.811992Z",
       "status": "found"
     },
     "openalex:doi:10.1007/978-3-032-09253-3_6": {
