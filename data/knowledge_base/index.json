@@ -163,6 +163,15 @@
       "summary_record_sha256": "405da6f85e07c71a653f968f4a282526a3d0f9ac9a9c670dda6d83d4913e5e7d",
       "title": "Reconfigurable Optical Nonlinear Activation Functions Using a Phase-Change Microring for Photonic Neural Networks"
     },
+    "c3474ba19a69c715eb87d391": {
+      "digest_date": "2026-08-26",
+      "doi": "10.1109/icocn70692.2026.11656217",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "3eb413cc59d181394645e7b9388029e96bcec47cfa45ea13b08ce55cc257d5e6",
+      "title": "A Reconfigurable Kerr-Nonlinear Mach–Zehnder Activation Cell for Wavelength-Division Multiplexing Optical Neural Networks"
+    },
     "ca00b2160d3deb8b79b61e6e": {
       "digest_date": "2026-08-19",
       "doi": "10.48550/arxiv.2608.12679",
@@ -238,6 +247,9 @@
       "028de8014a2b67fd147a28e7",
       "1e619f1b739f1893eae64f28",
       "7719ae17086cb97168bebbc5"
+    ],
+    "2026-08-26": [
+      "c3474ba19a69c715eb87d391"
     ]
   },
   "by_doi": {
@@ -247,6 +259,7 @@
     "10.1038/s41377-026-02325-2": "1e619f1b739f1893eae64f28",
     "10.1038/s41427-026-00671-6": "83a830ace13b5158f346c392",
     "10.1038/s44335-026-00086-0": "328b1572ba0e31f8f8a6dac1",
+    "10.1109/icocn70692.2026.11656217": "c3474ba19a69c715eb87d391",
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
     "10.1117/12.3110867": "2b5f9302fe96c2793d48540e",
     "10.1117/12.3116253": "7d6c2a059923ebe445a1cdf7",
@@ -279,6 +292,7 @@
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
       "973790e22c46d30721660799",
+      "c3474ba19a69c715eb87d391",
       "ccd82d84305d463a6c33398d"
     ],
     "zeroth-order-optimization": [
@@ -316,6 +330,9 @@
     ],
     "application:动态避障": [
       "328b1572ba0e31f8f8a6dac1"
+    ],
+    "application:四通道波分复用光神经网络中的非线性激活": [
+      "c3474ba19a69c715eb87d391"
     ],
     "application:图像分类": [
       "2eb28d7201afb356d747693a"
@@ -393,6 +410,7 @@
       "541094f286db8902f2fe6077",
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
+      "c3474ba19a69c715eb87d391",
       "ccd82d84305d463a6c33398d"
     ],
     "hardware_validation:mixed": [
@@ -415,7 +433,8 @@
     "hardware_validation:unclear": [
       "028de8014a2b67fd147a28e7",
       "7d6c2a059923ebe445a1cdf7",
-      "83a830ace13b5158f346c392"
+      "83a830ace13b5158f346c392",
+      "c3474ba19a69c715eb87d391"
     ],
     "project:optical-neural-networks": [
       "028de8014a2b67fd147a28e7",
@@ -432,6 +451,7 @@
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
       "973790e22c46d30721660799",
+      "c3474ba19a69c715eb87d391",
       "ccd82d84305d463a6c33398d"
     ],
     "project:zeroth-order-optimization": [
@@ -490,6 +510,9 @@
     ]
   },
   "by_venue": {
+    "2026 24th International Conference on Optical Communications and Networks (ICOCN)": [
+      "c3474ba19a69c715eb87d391"
+    ],
     "ACM Transactions on Design Automation of Electronic Systems": [
       "0e5c75b6132afcfb1f7afb17"
     ],
@@ -567,13 +590,14 @@
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
       "973790e22c46d30721660799",
+      "c3474ba19a69c715eb87d391",
       "ca00b2160d3deb8b79b61e6e",
       "ccd82d84305d463a6c33398d",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a"
     ]
   },
-  "paper_count": 22,
+  "paper_count": 23,
   "schema_version": 1,
-  "updated_at": "2026-08-23T00:34:04.729517Z"
+  "updated_at": "2026-08-26T00:33:08.253818Z"
 }

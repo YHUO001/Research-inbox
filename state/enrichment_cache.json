@@ -1826,6 +1826,56 @@
       "retrieved_at": "2026-08-22T00:32:14.709412Z",
       "status": "found"
     },
+    "crossref:doi:10.1126/sciadv.aef8657": {
+      "expires_at": "2026-09-25T00:32:42.036998Z",
+      "record": {
+        "abstract": "Photonic sensors play an increasingly important role in chemical analysis, but conventional systems rely on sequential wavelength scanning and extensive electronic post-processing, leading to large data redundancy, high latency, and excessive energy consumption. Here, we introduce an end-to-end all-optical in-sensor computing system based on photonic integrated circuits that merges sensing and computing in the optical domain. The system integrates a photonic waveguide sensor and a microring weight bank on a single chip for linear processing, while nonlinear activation is implemented using an erbium-doped fiber amplifier. By performing spectral compression, this system enables real-time optical-domain computing with up to 6-bit precision. The system achieves a classification accuracy of 94.2% across 27 liquid-mixture classes and concentration prediction for mixture chemicals. Compared with conventional photonic sensing systems, the proposed architecture reduces inference latency by a factor of 4.48 and energy consumption by a factor of 11.47. These results establish a compact, low-redundancy, and energy-efficient paradigm for intelligent photonic sensing at the edge.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zian Xiao",
+            "orcid": "https://orcid.org/0000-0002-1659-5921"
+          },
+          {
+            "name": "Zhihao Ren",
+            "orcid": "https://orcid.org/0000-0002-2520-0784"
+          },
+          {
+            "name": "Yangyang Zhuge",
+            "orcid": "https://orcid.org/0009-0003-4000-3986"
+          },
+          {
+            "name": "Zixuan Zhang",
+            "orcid": "https://orcid.org/0000-0001-5020-7606"
+          },
+          {
+            "name": "Yan Yang",
+            "orcid": "https://orcid.org/0000-0002-0940-7013"
+          },
+          {
+            "name": "Bowei Dong",
+            "orcid": "https://orcid.org/0000-0002-4122-0953"
+          },
+          {
+            "name": "Chengkuo Lee",
+            "orcid": "https://orcid.org/0000-0002-8886-3649"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1126/sciadv.aef8657",
+        "landing_page": "https://doi.org/10.1126/sciadv.aef8657",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1126/sciadv.aef8657",
+        "publication_date": "2026-08-21",
+        "title": "End-to-end all-optical in-sensor computing system using photonic integrated circuits",
+        "venue": "Science Advances",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-26T00:32:42.036998Z",
+      "status": "found"
+    },
     "crossref:doi:10.1145/3770855.3817661": {
       "expires_at": "2026-09-09T00:36:49.742616Z",
       "record": {
@@ -2644,6 +2694,12 @@
       "retrieved_at": "2026-08-04T09:38:30.607658Z",
       "status": "found"
     },
+    "crossref:title:1d5451a6cae49ac385007093dac0fe736251c2dd8c460617ece08dbc65ff6841": {
+      "expires_at": "2026-09-02T00:32:37.383677Z",
+      "record": null,
+      "retrieved_at": "2026-08-26T00:32:37.383677Z",
+      "status": "not_found"
+    },
     "crossref:title:1fc2a0a939542c3fc9c4403883e530525ddccd1adc2da4976237532884443f11": {
       "expires_at": "2026-08-11T09:38:48.118744Z",
       "record": {
@@ -2886,6 +2942,12 @@
       "retrieved_at": "2026-08-22T00:32:17.951645Z",
       "status": "found"
     },
+    "crossref:title:4114fbae9b962f3a411545fc2497676637fc049a1bd9ba04ff31061fd75a8483": {
+      "expires_at": "2026-09-02T00:32:42.903232Z",
+      "record": null,
+      "retrieved_at": "2026-08-26T00:32:42.903232Z",
+      "status": "not_found"
+    },
     "crossref:title:41dd4005a10029c0f49469f52ab7ddece38af9225fd5443f022cc31593690964": {
       "expires_at": "2026-08-25T04:25:19.093723Z",
       "record": null,
@@ -2920,6 +2982,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:06.662035Z",
+      "status": "found"
+    },
+    "crossref:title:43f973ccc4e72947ad8a380738740efeefe0e3d0363db67427bc26e03a5b7bcf": {
+      "expires_at": "2026-09-02T00:32:36.596066Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Baobao Song",
+            "orcid": "https://orcid.org/0000-0001-5630-5661"
+          },
+          {
+            "name": "Shiva Raj Pokhrel",
+            "orcid": "https://orcid.org/0000-0001-5819-765X"
+          },
+          {
+            "name": "Athanasios V. Vasilakos",
+            "orcid": "https://orcid.org/0000-0003-1902-9877"
+          },
+          {
+            "name": "Tianqing Zhu",
+            "orcid": "https://orcid.org/0000-0003-3411-7947"
+          },
+          {
+            "name": "Gang Li",
+            "orcid": "https://orcid.org/0000-0003-1583-641X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tifs.2026.3725557",
+        "landing_page": "https://doi.org/10.1109/tifs.2026.3725557",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/tifs.2026.3725557",
+        "publication_date": "2026",
+        "title": "Quantum-KIP: Kernel Inducing Points for Quantum Privacy",
+        "venue": "IEEE Transactions on Information Forensics and Security",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-26T00:32:36.596066Z",
       "status": "found"
     },
     "crossref:title:44cd5bfa9f21cda4013aab622c657016ae2639db19f541576c77d328402bd988": {
@@ -3069,6 +3173,48 @@
       "record": null,
       "retrieved_at": "2026-08-09T00:36:12.068329Z",
       "status": "not_found"
+    },
+    "crossref:title:5c1ba4b310ee00973da5eaa4f0ed408af3581a2539974b6418f2f2c538b8fa80": {
+      "expires_at": "2026-09-02T00:32:40.533505Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Rupeng Li",
+            "orcid": null
+          },
+          {
+            "name": "Jian Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Yinxin Yu",
+            "orcid": null
+          },
+          {
+            "name": "Hang Liu",
+            "orcid": null
+          },
+          {
+            "name": "Tianhua Xu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/icocn70692.2026.11656197",
+        "landing_page": "https://doi.org/10.1109/icocn70692.2026.11656197",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/icocn70692.2026.11656197",
+        "publication_date": "2026-07",
+        "title": "A Reconfigurable Integrated Optical BiLSTM Architecture Based on Cascaded MZI Arrays",
+        "venue": "2026 24th International Conference on Optical Communications and Networks (ICOCN)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-26T00:32:40.533505Z",
+      "status": "found"
     },
     "crossref:title:5c796ad891ab156809d56b574c5ba84f00eb3ec08b9de488b08e5504413b7ecd": {
       "expires_at": "2026-08-25T04:25:17.684612Z",
@@ -3269,6 +3415,50 @@
       },
       "retrieved_at": "2026-08-09T00:36:08.311312Z",
       "status": "found"
+    },
+    "crossref:title:7d4ac24d04e0b22cfb9f98a3ec9da4cb37fc213c8632c2867a02ef3fcc5841e3": {
+      "expires_at": "2026-09-02T00:32:41.276094Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dingmin Cheng",
+            "orcid": null
+          },
+          {
+            "name": "Ling Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Hang Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Duan Huang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/icocn70692.2026.11656217",
+        "landing_page": "https://doi.org/10.1109/icocn70692.2026.11656217",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/icocn70692.2026.11656217",
+        "publication_date": "2026-07",
+        "title": "A Reconfigurable Kerr-Nonlinear Mach–Zehnder Activation Cell for Wavelength-Division Multiplexing Optical Neural Networks",
+        "venue": "2026 24th International Conference on Optical Communications and Networks (ICOCN)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-26T00:32:41.276094Z",
+      "status": "found"
+    },
+    "crossref:title:8321bfce8eab0857839c0cf6b470b6020c4a40b8af8d91bcbb3371416187ca8c": {
+      "expires_at": "2026-09-02T00:32:39.356861Z",
+      "record": null,
+      "retrieved_at": "2026-08-26T00:32:39.356861Z",
+      "status": "not_found"
     },
     "crossref:title:86599e5ae385dfcd91e3ebf2dee6160e6596b26621a6ea3b79ee1f7138ace847": {
       "expires_at": "2026-08-11T09:38:57.262698Z",
@@ -3770,6 +3960,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:36.931885Z",
+      "status": "found"
+    },
+    "crossref:title:bb8209da87f83cccf23278545a23fbad06e524b1187316b7dedebcb1751588ba": {
+      "expires_at": "2026-09-02T00:32:38.607605Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lin Yang",
+            "orcid": null
+          },
+          {
+            "name": "Xinyue Liu",
+            "orcid": null
+          },
+          {
+            "name": "Jiayi Zhu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.conbuildmat.2026.147869",
+        "landing_page": "https://doi.org/10.1016/j.conbuildmat.2026.147869",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.conbuildmat.2026.147869",
+        "publication_date": "2026-09",
+        "title": "Shrinkage development characteristics of moso bamboo with respect to dimensional scale and structural gradient",
+        "venue": "Construction and Building Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-26T00:32:38.607605Z",
       "status": "found"
     },
     "crossref:title:bbf2eedc3e77d50fe6dcee68f46e579501d5b1d25d033d63d7e66458430ca8d6": {
@@ -5196,6 +5420,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:40.464180Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.conbuildmat.2026.147869": {
+      "expires_at": "2026-09-25T00:32:39.023529Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lin Yang",
+            "orcid": "https://orcid.org/0000-0002-2767-0026"
+          },
+          {
+            "name": "Xinyue Liu",
+            "orcid": "https://orcid.org/0000-0002-6352-6304"
+          },
+          {
+            "name": "Jiayi Zhu",
+            "orcid": "https://orcid.org/0000-0003-3837-7631"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.conbuildmat.2026.147869",
+        "landing_page": "https://doi.org/10.1016/j.conbuildmat.2026.147869",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7203976700",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203976700",
+        "publication_date": "2026-08-22",
+        "title": "Shrinkage development characteristics of moso bamboo with respect to dimensional scale and structural gradient",
+        "venue": "Construction and Building Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-26T00:32:39.023529Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.ijggc.2026.104756": {
@@ -6650,6 +6908,86 @@
       "retrieved_at": "2026-08-18T04:25:08.707373Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/icocn70692.2026.11656197": {
+      "expires_at": "2026-09-25T00:32:40.960855Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Rupeng Li",
+            "orcid": null
+          },
+          {
+            "name": "Jian Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Yinxin Yu",
+            "orcid": null
+          },
+          {
+            "name": "Hang Liu",
+            "orcid": null
+          },
+          {
+            "name": "Tianhua Xu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/icocn70692.2026.11656197",
+        "landing_page": "https://doi.org/10.1109/icocn70692.2026.11656197",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7203841216",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203841216",
+        "publication_date": "2026-07-01",
+        "title": "A Reconfigurable Integrated Optical BiLSTM Architecture Based on Cascaded MZI Arrays",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-26T00:32:40.960855Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/icocn70692.2026.11656217": {
+      "expires_at": "2026-09-25T00:32:41.766989Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dingmin Cheng",
+            "orcid": "https://orcid.org/0009-0008-3717-2363"
+          },
+          {
+            "name": "Ling Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Hang Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Duan Huang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/icocn70692.2026.11656217",
+        "landing_page": "https://doi.org/10.1109/icocn70692.2026.11656217",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7203820095",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203820095",
+        "publication_date": "2026-07-01",
+        "title": "A Reconfigurable Kerr-Nonlinear Mach–Zehnder Activation Cell for Wavelength-Division Multiplexing Optical Neural Networks",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-26T00:32:41.766989Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/jlt.2026.3718277": {
       "expires_at": "2026-09-03T09:38:19.738151Z",
       "record": {
@@ -6904,6 +7242,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:17.108010Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/tifs.2026.3725557": {
+      "expires_at": "2026-09-25T00:32:36.960619Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Baobao Song",
+            "orcid": "https://orcid.org/0000-0001-5630-5661"
+          },
+          {
+            "name": "Shiva Raj Pokhrel",
+            "orcid": "https://orcid.org/0000-0001-5819-765X"
+          },
+          {
+            "name": "Athanasios V. Vasilakos",
+            "orcid": "https://orcid.org/0000-0003-1902-9877"
+          },
+          {
+            "name": "Tianqing Zhu",
+            "orcid": "https://orcid.org/0000-0003-3411-7947"
+          },
+          {
+            "name": "Gang Li",
+            "orcid": "https://orcid.org/0000-0003-1583-641X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tifs.2026.3725557",
+        "landing_page": "https://doi.org/10.1109/tifs.2026.3725557",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7203833412",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203833412",
+        "publication_date": "2026-01-01",
+        "title": "Quantum-KIP: Kernel Inducing Points for Quantum Privacy",
+        "venue": "IEEE Transactions on Information Forensics and Security",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-26T00:32:36.960619Z",
       "status": "found"
     },
     "openalex:doi:10.1109/tmc.2026.3711443": {
@@ -7222,6 +7602,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-22T00:32:15.093525Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1126/sciadv.aef8657": {
+      "expires_at": "2026-09-25T00:32:42.469414Z",
+      "record": {
+        "abstract": "Photonic sensors play an increasingly important role in chemical analysis, but conventional systems rely on sequential wavelength scanning and extensive electronic post-processing, leading to large data redundancy, high latency, and excessive energy consumption. Here, we introduce an end-to-end all-optical in-sensor computing system based on photonic integrated circuits that merges sensing and computing in the optical domain. The system integrates a photonic waveguide sensor and a microring weight bank on a single chip for linear processing, while nonlinear activation is implemented using an erbium-doped fiber amplifier. By performing spectral compression, this system enables real-time optical-domain computing with up to 6-bit precision. The system achieves a classification accuracy of 94.2% across 27 liquid-mixture classes and concentration prediction for mixture chemicals. Compared with conventional photonic sensing systems, the proposed architecture reduces inference latency by a factor of 4.48 and energy consumption by a factor of 11.47. These results establish a compact, low-redundancy, and energy-efficient paradigm for intelligent photonic sensing at the edge.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zian Xiao",
+            "orcid": "https://orcid.org/0000-0002-1659-5921"
+          },
+          {
+            "name": "Zhihao Ren",
+            "orcid": "https://orcid.org/0000-0002-2520-0784"
+          },
+          {
+            "name": "Yangyang Zhuge",
+            "orcid": "https://orcid.org/0009-0003-4000-3986"
+          },
+          {
+            "name": "Zixuan Zhang",
+            "orcid": "https://orcid.org/0000-0001-5020-7606"
+          },
+          {
+            "name": "Yan Yang",
+            "orcid": "https://orcid.org/0000-0002-0940-7013"
+          },
+          {
+            "name": "Bowei Dong",
+            "orcid": "https://orcid.org/0000-0002-4122-0953"
+          },
+          {
+            "name": "Chengkuo Lee",
+            "orcid": "https://orcid.org/0000-0002-8886-3649"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1126/sciadv.aef8657",
+        "landing_page": "https://doi.org/10.1126/sciadv.aef8657",
+        "open_access_url": "https://doi.org/10.1126/sciadv.aef8657",
+        "openalex_id": "https://openalex.org/W7203903045",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203903045",
+        "publication_date": "2026-08-21",
+        "title": "End-to-end all-optical in-sensor computing system using photonic integrated circuits",
+        "venue": "Science Advances",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-26T00:32:42.469414Z",
       "status": "found"
     },
     "openalex:doi:10.1145/3770855.3817661": {
@@ -8658,6 +9088,12 @@
       "retrieved_at": "2026-08-09T00:36:05.489666Z",
       "status": "not_found"
     },
+    "openalex:title:1d5451a6cae49ac385007093dac0fe736251c2dd8c460617ece08dbc65ff6841": {
+      "expires_at": "2026-09-02T00:32:38.251477Z",
+      "record": null,
+      "retrieved_at": "2026-08-26T00:32:38.251477Z",
+      "status": "not_found"
+    },
     "openalex:title:249de29380f61cbfa04e045bb6ff4ca3e6b09932fa43c62ead34e26d394beb77": {
       "expires_at": "2026-08-27T00:32:29.598699Z",
       "record": null,
@@ -8680,6 +9116,12 @@
       "expires_at": "2026-08-16T00:35:59.656653Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:35:59.656653Z",
+      "status": "not_found"
+    },
+    "openalex:title:4114fbae9b962f3a411545fc2497676637fc049a1bd9ba04ff31061fd75a8483": {
+      "expires_at": "2026-09-02T00:32:43.679530Z",
+      "record": null,
+      "retrieved_at": "2026-08-26T00:32:43.679530Z",
       "status": "not_found"
     },
     "openalex:title:41dd4005a10029c0f49469f52ab7ddece38af9225fd5443f022cc31593690964": {
@@ -8898,6 +9340,12 @@
       "expires_at": "2026-08-26T00:32:50.873682Z",
       "record": null,
       "retrieved_at": "2026-08-19T00:32:50.873682Z",
+      "status": "not_found"
+    },
+    "openalex:title:8321bfce8eab0857839c0cf6b470b6020c4a40b8af8d91bcbb3371416187ca8c": {
+      "expires_at": "2026-09-02T00:32:40.232960Z",
+      "record": null,
+      "retrieved_at": "2026-08-26T00:32:40.232960Z",
       "status": "not_found"
     },
     "openalex:title:868b33466991620b31a192ee87b8df510a3ef61fed6e187284bb2224d98cfda0": {

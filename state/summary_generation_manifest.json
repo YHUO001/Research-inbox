@@ -1,31 +1,152 @@
 {
-  "actual_summary_count": 0,
-  "automatic_queue_candidate_count": 0,
-  "built_at": "2026-08-25T00:32:22.002130Z",
+  "abstract_fallback_candidate_ids": [
+    "c3474ba19a69c715eb87d391"
+  ],
+  "abstract_fallback_count": 1,
+  "architecture_evidence": {
+    "c3474ba19a69c715eb87d391": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    }
+  },
+  "architecture_repairs": 0,
+  "automatic_history_pending": false,
+  "automatic_queue_candidate_count": 1,
+  "completed_at": "2026-08-26T00:33:08.253818Z",
   "completed_candidate_filtered_count": 0,
-  "daily_digest_pending": false,
-  "digest_date": "2026-08-25",
-  "digest_json_file": "runtime-state/data/digests/2026-08-25.preview.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-08-25.preview.md",
+  "completed_candidate_ids": [
+    "c3474ba19a69c715eb87d391"
+  ],
+  "completion_mode": "automatic_daily_batch_after_local_validation",
+  "daily_digest_pending": true,
+  "digest_date": "2026-08-26",
+  "digest_json_file": "runtime-state/data/digests/2026-08-26.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-08-26.generated.md",
   "email_enabled": false,
+  "estimated_cost_cny": 0.017103,
   "execution_mode": "automatic_daily_batch",
+  "failure_count": 0,
+  "failures": [],
+  "full_text_method_contexts": {
+    "c3474ba19a69c715eb87d391": {
+      "abstract_available": true,
+      "attempt_count": 3,
+      "candidate_id": "c3474ba19a69c715eb87d391",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 0.773,
+      "error": "https://ieeexplore.ieee.org/document/11656217/: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1109/icocn70692.2026.11656217",
+      "status": "not_available",
+      "text_persisted": false
+    }
+  },
+  "full_text_persisted": false,
   "full_text_used": false,
   "history_path": "runtime-state/state/summary_history.json",
-  "knowledge_base_pending": false,
-  "llm_enabled": true,
+  "information_basis": "title_metadata_and_abstract_only",
+  "knowledge_base_pending": true,
+  "model": "deepseek-v4-pro",
+  "newly_completed_candidate_count": 1,
+  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+  "numeric_matching": {
+    "absolute_tolerance": 0.02,
+    "approximation_markers_ignored": true,
+    "evidence_sources": [
+      "title",
+      "abstract",
+      "temporary_open_full_text_methods"
+    ],
+    "full_text_unsupported_sentence_action": "deterministic_redaction",
+    "relative_tolerance": 0.02,
+    "unit_format_ignored": true,
+    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
+  },
   "output_language": "zh-CN",
-  "provider": "not_configured",
-  "queue_candidate_count": 0,
-  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "request_count": 0,
-  "request_file": "runtime-state/data/summary_requests/2026-08-25.jsonl",
-  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "prepared_request_count": 1,
+  "provider": "deepseek",
+  "queue_sha256": "f4e64e2568915c41256275b6e4981a1cb3a5756a9aeb279a091942f686947fe4",
+  "request_count": 1,
+  "request_file": "runtime-state/data/summary_requests/2026-08-26.jsonl",
+  "request_sha256": "a11d583b126295512bb7fef891a28767ddeb4513c607202f50e3f97451b0a61e",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "5a4f04627457c84ce7b055361ce1d29654e2bb6d90b86151ff6bab4b8b07ff27",
-  "source_queue_candidate_count": 0,
-  "status": "no_candidates",
+  "selection_manifest_sha256": "c74c497d089da20c5e6cacc0886563ea16108ebf923ca80dbd0f3dbc5cd4e714",
+  "skipped_no_abstract_candidate_ids": [],
+  "skipped_no_abstract_count": 0,
+  "source_queue_candidate_count": 1,
+  "stage_timings": {
+    "full_text_preparation_seconds": 0.776,
+    "model_api_calls": [
+      {
+        "attempt": 1,
+        "candidate_id": "c3474ba19a69c715eb87d391",
+        "elapsed_seconds": 21.711,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1196,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 3309,
+          "prompt_tokens": 3309,
+          "total_tokens": 4505
+        }
+      }
+    ],
+    "model_generation_and_validation_seconds": 21.727
+  },
+  "status": "completed_automatic",
+  "summary_count": 1,
+  "summary_file": "runtime-state/data/summaries/2026-08-26.jsonl",
   "summary_generation_version": 8,
-  "summary_history_updated": false,
-  "summary_slot_count": 0
+  "summary_history_updated": true,
+  "summary_slot_count": 1,
+  "thinking_enabled": false,
+  "transport_repairs": {
+    "architecture_evidence": {
+      "c3474ba19a69c715eb87d391": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "hybrid",
+        "repaired": true,
+        "resolved_type": "unclear"
+      }
+    },
+    "architecture_repairs": 1,
+    "candidate_id_repair_responses": 0,
+    "full_text_method_contexts": {
+      "c3474ba19a69c715eb87d391": {
+        "abstract_available": true,
+        "attempt_count": 3,
+        "candidate_id": "c3474ba19a69c715eb87d391",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 0.773,
+        "error": "https://ieeexplore.ieee.org/document/11656217/: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1109/icocn70692.2026.11656217",
+        "status": "not_available",
+        "text_persisted": false
+      }
+    },
+    "generation_metadata_repair_responses": 2,
+    "numeric_grounding_repair_responses": 0,
+    "numeric_grounding_repairs": {},
+    "tops_alias_expansions": 0,
+    "unit_format_normalization_responses": 0
+  },
+  "usage": {
+    "completion_tokens": 1196,
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 3309,
+    "prompt_tokens": 3309,
+    "total_tokens": 4505
+  }
 }

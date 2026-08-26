@@ -1,0 +1,31 @@
+{
+  "built_at": "2026-08-26T00:32:44.359698Z",
+  "digest_date": "2026-08-26",
+  "digest_version": 1,
+  "pending_summary_count": 1,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "c3474ba19a69c715eb87d391",
+        "landing_page": "https://doi.org/10.1109/icocn70692.2026.11656217",
+        "mandatory": false,
+        "score": 0.76,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "A Reconfigurable Kerr-Nonlinear Mach–Zehnder Activation Cell for Wavelength-Division Multiplexing Optical Neural Networks",
+        "venue": "2026 24th International Conference on Optical Communications and Networks (ICOCN)",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

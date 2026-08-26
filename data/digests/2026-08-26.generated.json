@@ -1,0 +1,81 @@
+{
+  "completion": {
+    "architecture_repairs": 0,
+    "completed_at": "2026-08-26T00:33:08.253818Z",
+    "mode": "automatic_daily_batch_after_local_validation"
+  },
+  "delivery": {
+    "mode": "separate_daily_digest_workflow",
+    "status": "pending"
+  },
+  "digest_date": "2026-08-26",
+  "digest_version": 2,
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": false,
+    "information_basis": "title_metadata_and_abstract_only",
+    "numeric_grounding_scope": "title_and_abstract_only",
+    "review_required": false,
+    "summary_history_updated": true
+  },
+  "schema_version": 2,
+  "status": "completed_automatic",
+  "summaries": [
+    {
+      "candidate_id": "c3474ba19a69c715eb87d391",
+      "core_problem": "波分复用光神经网络需要大带宽、低能耗的非线性激活单元，但现有方案面临可重构性不足、非线性来源受限或与波分复用架构兼容性差的问题。论文试图提出一种可重构的克尔非线性马赫-曾德尔干涉仪激活单元，以支持四通道波分复用光神经网络。",
+      "distinction_from_prior_work": "论文将克尔非线性效应集成到可重构马赫-曾德尔干涉仪中形成激活单元，并与四通道波分复用光神经网络配合。其他实现细节、对比基线及相对优势未在摘要中提供。",
+      "limitations_and_open_questions": [
+        "摘要未提供实验平台、训练数据、功耗、调制速率等数值结果，无法评估该激活单元的定量性能。",
+        "未说明可重构性的具体实现方式、控制精度及切换速度。",
+        "未提供与电激活或其他光激活方案的实验对比。",
+        "实际硬件验证是在仿真还是物理实验上完成，未在摘要中明确。"
+      ],
+      "main_contributions": [
+        "提出一种可重构克尔非线性马赫-曾德尔干涉仪激活单元。",
+        "将该激活单元用于四通道波分复用光神经网络。",
+        "为波分复用光神经网络提供了一种兼容宽带光信号的非线性激活方法。"
+      ],
+      "method_and_architecture": "系统由可重构的克尔非线性马赫-曾德尔干涉仪激活单元和四通道波分复用光神经网络组成。激活单元利用马赫-曾德尔干涉仪结构承载克尔非线性效应，并通过可重构机制调整激活响应；波分复用网络以多个波长通道并行传输和计算。",
+      "method_implementation": [
+        "输入光信号来自四通道波分复用光神经网络，每个波长通道承载一路神经信号。这些通道合成或分别进入基于马赫-曾德尔干涉仪的激活单元。",
+        "干涉仪内部包含克尔非线性介质，光信号在其中经历与光强相关的相位或幅度变化。通过可重构的相位或耦合设置，激活单元可以在不同非线性响应之间切换，对四通道信号产生所需的非线性变换，输出继续在光域传输到下一层网络。"
+      ],
+      "method_principle": "光神经网络的线性运算部分可以通过干涉、波分复用等光域手段实现，但激活函数需要非线性。马赫-曾德尔干涉仪将输入光分成两路，其中一路或两路经过克尔非线性介质，使其相位或强度随光功率发生非线性变化，再在输出端重新合束，从而将干涉结果转化为非线性激活响应。可重构性意味着干涉仪臂长差、相位偏置或耦合比可以被调谐，因而同一硬件可以在不同激活函数形状之间切换。在波分复用场景下，不同波长携带不同通道的信号，克尔效应和干涉结构对波长敏感或可通过设计保持近均匀响应，使得四通道信号能够共享同一激活单元，从而减少波分复用光神经网络对光电转换和电子非线性器件的依赖。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "四通道波分复用光神经网络中的非线性激活"
+        ],
+        "architecture_type": "unclear",
+        "calibration_requirements": "not_available",
+        "hardware_validation": "unclear",
+        "optical_nonlinearity": "克尔非线性效应集成在马赫-曾德尔干涉仪中，提供光域非线性激活。",
+        "training_method": "not_available"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [],
+      "research_value": "该工作探索了面向波分复用光神经网络的可重构光域非线性激活，有助于减少光电转换开销、提高集成度和并行性，为高速光计算中的激活函数实现提供候选技术路线。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "摘要未给出可重构马赫-曾德尔干涉仪的具体调控参数、控制电路或算法。",
+          "未提供波分复用通道间隔、波长、光功率、调制格式等硬件参数。",
+          "未提供训练方法、数据集、准确率、能耗或对比实验。",
+          "未说明实验是仿真还是物理验证。",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    }
+  ],
+  "summary_count": 1
+}

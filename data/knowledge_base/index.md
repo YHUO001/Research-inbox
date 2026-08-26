@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`22`
-- 更新时间：`2026-08-23T00:34:04.729517Z`
+- 论文数：`23`
+- 更新时间：`2026-08-26T00:33:08.253818Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### A Reconfigurable Kerr-Nonlinear Mach–Zehnder Activation Cell for Wavelength-Division Multiplexing Optical Neural Networks
+
+- DOI/链接：[10.1109/icocn70692.2026.11656217](https://doi.org/10.1109/icocn70692.2026.11656217)
+- 期刊/年份：2026 24th International Conference on Optical Communications and Networks (ICOCN)，2026
+- 摘要日期：`2026-08-26`
+- 候选 ID：`c3474ba19a69c715eb87d391`
+- 标签：application:四通道波分复用光神经网络中的非线性激活, architecture:unclear, hardware_validation:unclear, project:optical-neural-networks
 
 ### On-chip non-volatile all-optical residual neural network accelerator
 
