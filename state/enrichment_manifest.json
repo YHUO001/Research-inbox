@@ -1,35 +1,35 @@
 {
   "budget_policy": "new_or_source_changed_candidates_only",
-  "built_at": "2026-08-26T00:32:43.679530Z",
-  "candidate_count": 148,
+  "built_at": "2026-08-27T02:02:17.928943Z",
+  "candidate_count": 151,
   "deferred_candidate_count": 0,
   "deferred_candidate_ids": [],
-  "enriched_this_run_count": 8,
-  "enrichment_due_count": 8,
+  "enriched_this_run_count": 4,
+  "enrichment_due_count": 4,
   "enrichment_version": 2,
   "match_counts": {
-    "exact": 102,
+    "exact": 105,
     "high": 9,
     "unresolved": 37
   },
   "maximum_candidates_per_run": 100,
   "openalex_configured": true,
-  "output_candidate_count": 148,
+  "output_candidate_count": 151,
   "provider_attempt_counts": {
     "crossref": {
       "error": 0,
-      "found": 5,
-      "not_found": 3,
+      "found": 4,
+      "not_found": 0,
       "skipped": 0
     },
     "openalex": {
       "error": 0,
-      "found": 5,
-      "not_found": 3,
+      "found": 4,
+      "not_found": 0,
       "skipped": 0
     }
   },
-  "reused_candidate_count": 140,
+  "reused_candidate_count": 147,
   "schema_version": 1,
-  "source_registry_sha256": "8e7f4bf66e176d58a502b212671779c587c79e2a00ac176458a423a3f2675ff8"
+  "source_registry_sha256": "ef8f795eb6be6ae0103b9c76b920fb8ae7ba25f5a3de1ba989eb5f4f773afd72"
 }

@@ -1,0 +1,31 @@
+{
+  "built_at": "2026-08-27T02:02:18.438591Z",
+  "digest_date": "2026-08-27",
+  "digest_version": 1,
+  "pending_summary_count": 1,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "9351be654a20f4a2f7121847",
+        "landing_page": "https://doi.org/10.1117/12.3118799",
+        "mandatory": false,
+        "score": 0.78,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Single-photon OAM Bell-state recognition via diffractive optical neural networks",
+        "venue": "Sixth Optics Frontier Conference (OFS 2026)",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

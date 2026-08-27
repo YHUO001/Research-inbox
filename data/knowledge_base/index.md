@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`23`
-- 更新时间：`2026-08-26T00:33:08.253818Z`
+- 论文数：`24`
+- 更新时间：`2026-08-27T02:02:45.067830Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Single-photon OAM Bell-state recognition via diffractive optical neural networks
+
+- DOI/链接：[10.1117/12.3118799](https://doi.org/10.1117/12.3118799)
+- 期刊/年份：Sixth Optics Frontier Conference (OFS 2026)，2026
+- 摘要日期：`2026-08-27`
+- 候选 ID：`9351be654a20f4a2f7121847`
+- 标签：application:轨道角动量贝尔态识别, architecture:free_space, project:optical-neural-networks
 
 ### A Reconfigurable Kerr-Nonlinear Mach–Zehnder Activation Cell for Wavelength-Division Multiplexing Optical Neural Networks
 

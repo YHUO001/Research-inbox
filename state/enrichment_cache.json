@@ -54,6 +54,64 @@
       "retrieved_at": "2026-08-18T04:25:31.075985Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/lpor.71596": {
+      "expires_at": "2026-09-26T02:02:16.863743Z",
+      "record": {
+        "abstract": "ABSTRACT Polarization and phase constitute the complete vector‐wavefront information of structured light, which is essential in optical metrology and communication. However, single‐shot acquisition of vector wavefront remains constrained by complex algorithmic iterations and demanding device fabrication. Here, we propose a versatile isotropic deep diffractive neural network (D 2 NN) framework to transcend these limitations. By leveraging the D 2 NN, we demonstrate the ability to decode a longitudinally polarized field related to spin–orbit coupling for full‐Stokes parameters, while simultaneously reconstructing the longitudinal wavefront vortex phase. Our results show that, using a single phase‐only mask, the D 2 NN‐based detection geometry achieves an ultrahigh accuracy (> 99%) in full‐Stokes retrieval and an extremely low error (< 0.5%) in orbital angular momentum (OAM) spectrum reconstruction, coupled with remarkable noise robustness. More impressively, preliminary experimental diffraction field patterns mediated by longitudinal fields are in agreement with D 2 NN‐enabled theoretical results, enabling unified full‐Stokes polarimetry and OAM metrology. Compared with prior vector wavefront reconstruction approaches, the isotropic D 2 NN eliminates iterative computation and explicit polarization control by exploiting light‐speed forward inference. The proposed D 2 NN offers a promising pathway for industrial snapshot joint metrology requiring simultaneous polarization and phase information.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shuaijie Yuan",
+            "orcid": null
+          },
+          {
+            "name": "Yinlong Luo",
+            "orcid": null
+          },
+          {
+            "name": "Jinhai Zou",
+            "orcid": null
+          },
+          {
+            "name": "Xu Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Jin Yang",
+            "orcid": null
+          },
+          {
+            "name": "Yu Liu",
+            "orcid": null
+          },
+          {
+            "name": "Min Cheng",
+            "orcid": null
+          },
+          {
+            "name": "Zhongquan Nie",
+            "orcid": "https://orcid.org/0000-0003-1576-6378"
+          },
+          {
+            "name": "Bing Lei",
+            "orcid": "https://orcid.org/0000-0002-2384-771X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71596",
+        "landing_page": "https://doi.org/10.1002/lpor.71596",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.71596",
+        "publication_date": "2026-08-25",
+        "title": "Unified Full‐Stokes Polarimetry and Orbital Angular Momentum Metrology Leveraging Isotropic D\n                    <sup>2</sup>\n                    NN",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-27T02:02:16.863743Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/lpor.71741": {
       "expires_at": "2026-09-24T00:32:21.002535Z",
       "record": {
@@ -814,6 +872,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:40.119247Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1016/j.swevo.2026.102514": {
+      "expires_at": "2026-09-26T02:02:17.493221Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yonglin He",
+            "orcid": null
+          },
+          {
+            "name": "Cheng He",
+            "orcid": "https://orcid.org/0000-0003-4218-8454"
+          },
+          {
+            "name": "Zhichao Lu",
+            "orcid": null
+          },
+          {
+            "name": "Ye Tian",
+            "orcid": null
+          },
+          {
+            "name": "Handing Wang",
+            "orcid": "https://orcid.org/0000-0002-4805-3780"
+          },
+          {
+            "name": "Yinglan Feng",
+            "orcid": null
+          },
+          {
+            "name": "Hongbin Li",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.swevo.2026.102514",
+        "landing_page": "https://doi.org/10.1016/j.swevo.2026.102514",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.swevo.2026.102514",
+        "publication_date": "2026-09",
+        "title": "Reinforcement learning enhanced zeroth-order optimization for large-scale multiobjective optimization problems",
+        "venue": "Swarm and Evolutionary Computation",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-27T02:02:17.493221Z",
       "status": "found"
     },
     "crossref:doi:10.1021/acs.nanolett.6c02292": {
@@ -2436,6 +2544,32 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-05T13:20:51.775599Z",
+      "status": "found"
+    },
+    "crossref:doi:10.21203/rs.3.rs-10794538/v1": {
+      "expires_at": "2026-09-26T02:02:16.276091Z",
+      "record": {
+        "abstract": "Abstract Physical neural networks (PNNs) are commonly optimized as input--output maps, yet when a PNN is embedded in feedback control, small approximation errors can alter action ordering and redirect subsequent trajectories. We study this effect using physics-constrained value estimators in homeostatic regulation and Cart--Pole stabilization. A uniform approximation error ε bounds one-step greedy decision regret by 2ε; a finite-horizon extension links trajectory divergence to accumulated action-gap risk. This motivates control-aware objectives that protect candidate-action rankings. In homeostatic tests, perturbation-augmented control-aware training reduced viability cost by 17.9%, with an 11.9% reduction retained at equal workload; an independent oscillator robustness test reduced cost by 28.6%, although a nominal oscillator replication missed the 5% practical-effect criterion. On common reference-state pools, exact one-step decision regret fell by 49.2% and 18.6% across the two substrates. In Cart--Pole, two interferometric estimators had nearly identical global static accuracy, while the control-aware model had worse candidate pointwise RMSE but reduced failure-padded stabilization loss by 54.6% under moderate-to-strong perturbations. These results identify decision-consequence structure, rather than static regression accuracy alone, as a relevant training target for closed-loop physical computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuzhan Zhang",
+            "orcid": "https://orcid.org/0009-0000-3121-7972"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-10794538/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-10794538/v1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.21203/rs.3.rs-10794538/v1",
+        "publication_date": "2026-08-25",
+        "title": "Control-aware training of physical neural networks for closed-loop regulation",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-27T02:02:16.276091Z",
       "status": "found"
     },
     "crossref:doi:10.2514/1.t7438": {
@@ -4610,6 +4744,64 @@
       "retrieved_at": "2026-08-18T04:25:31.408910Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/lpor.71596": {
+      "expires_at": "2026-09-26T02:02:17.250100Z",
+      "record": {
+        "abstract": "ABSTRACT Polarization and phase constitute the complete vector‐wavefront information of structured light, which is essential in optical metrology and communication. However, single‐shot acquisition of vector wavefront remains constrained by complex algorithmic iterations and demanding device fabrication. Here, we propose a versatile isotropic deep diffractive neural network (D 2 NN) framework to transcend these limitations. By leveraging the D 2 NN, we demonstrate the ability to decode a longitudinally polarized field related to spin–orbit coupling for full‐Stokes parameters, while simultaneously reconstructing the longitudinal wavefront vortex phase. Our results show that, using a single phase‐only mask, the D 2 NN‐based detection geometry achieves an ultrahigh accuracy (> 99%) in full‐Stokes retrieval and an extremely low error (< 0.5%) in orbital angular momentum (OAM) spectrum reconstruction, coupled with remarkable noise robustness. More impressively, preliminary experimental diffraction field patterns mediated by longitudinal fields are in agreement with D 2 NN‐enabled theoretical results, enabling unified full‐Stokes polarimetry and OAM metrology. Compared with prior vector wavefront reconstruction approaches, the isotropic D 2 NN eliminates iterative computation and explicit polarization control by exploiting light‐speed forward inference. The proposed D 2 NN offers a promising pathway for industrial snapshot joint metrology requiring simultaneous polarization and phase information.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shuaijie Yuan",
+            "orcid": null
+          },
+          {
+            "name": "Yinlong Luo",
+            "orcid": null
+          },
+          {
+            "name": "Jinhai Zou",
+            "orcid": null
+          },
+          {
+            "name": "Xu Zhu",
+            "orcid": "https://orcid.org/0009-0004-4747-1165"
+          },
+          {
+            "name": "jin yang",
+            "orcid": null
+          },
+          {
+            "name": "Yu Liu",
+            "orcid": "https://orcid.org/0000-0002-6752-957X"
+          },
+          {
+            "name": "Min Cheng",
+            "orcid": null
+          },
+          {
+            "name": "Zhongquan Nie",
+            "orcid": "https://orcid.org/0000-0003-1576-6378"
+          },
+          {
+            "name": "Bing Lei",
+            "orcid": "https://orcid.org/0000-0002-2384-771X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71596",
+        "landing_page": "https://doi.org/10.1002/lpor.71596",
+        "open_access_url": "https://doi.org/10.1002/lpor.71596",
+        "openalex_id": "https://openalex.org/W7204168504",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204168504",
+        "publication_date": "2026-08-25",
+        "title": "Unified Full‐Stokes Polarimetry and Orbital Angular Momentum Metrology Leveraging Isotropic D 2 NN",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-27T02:02:17.250100Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/lpor.71741": {
       "expires_at": "2026-09-24T00:32:21.376498Z",
       "record": {
@@ -5576,6 +5768,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:34.997756Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.swevo.2026.102514": {
+      "expires_at": "2026-09-26T02:02:17.928943Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yonglin He",
+            "orcid": null
+          },
+          {
+            "name": "Cheng He",
+            "orcid": "https://orcid.org/0000-0003-4218-8454"
+          },
+          {
+            "name": "Zhichao Lu",
+            "orcid": null
+          },
+          {
+            "name": "Ye Tian",
+            "orcid": null
+          },
+          {
+            "name": "Handing Wang",
+            "orcid": "https://orcid.org/0000-0002-4805-3780"
+          },
+          {
+            "name": "Yinglan Feng",
+            "orcid": null
+          },
+          {
+            "name": "Hongbin Li",
+            "orcid": "https://orcid.org/0000-0003-3483-1307"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.swevo.2026.102514",
+        "landing_page": "https://doi.org/10.1016/j.swevo.2026.102514",
+        "open_access_url": "https://doi.org/10.2139/ssrn.6508380",
+        "openalex_id": "https://openalex.org/W7147118635",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7147118635",
+        "publication_date": "2026-08-25",
+        "title": "Reinforcement learning enhanced zeroth-order optimization for large-scale multiobjective optimization problems",
+        "venue": "Swarm and Evolutionary Computation",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-27T02:02:17.928943Z",
       "status": "found"
     },
     "openalex:doi:10.1021/acs.nanolett.6c02292": {
@@ -8652,6 +8894,32 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-09T00:36:07.855460Z",
+      "status": "found"
+    },
+    "openalex:doi:10.21203/rs.3.rs-10794538/v1": {
+      "expires_at": "2026-09-26T02:02:16.694588Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuzhan Zhang",
+            "orcid": "https://orcid.org/0009-0000-3121-7972"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-10794538/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-10794538/v1",
+        "open_access_url": "https://doi.org/10.21203/rs.3.rs-10794538/v1",
+        "openalex_id": "https://openalex.org/W7204200176",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204200176",
+        "publication_date": "2026-08-25",
+        "title": "Control-aware training of physical neural networks for closed-loop regulation",
+        "venue": "Research Square",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-27T02:02:16.694588Z",
       "status": "found"
     },
     "openalex:doi:10.2514/1.t7438": {
