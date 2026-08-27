@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-27T02:02:18.438591Z",
+  "built_at": "2026-08-27T16:32:41.353190Z",
   "digest_date": "2026-08-27",
   "digest_version": 1,
   "pending_summary_count": 1,
@@ -13,14 +13,14 @@
   "sections": {
     "must_read": [
       {
-        "candidate_id": "9351be654a20f4a2f7121847",
-        "landing_page": "https://doi.org/10.1117/12.3118799",
+        "candidate_id": "4bb38e8bcc3a3d164bd28700",
+        "landing_page": "https://doi.org/10.1088/1361-6633/ae9e8c",
         "mandatory": false,
-        "score": 0.78,
-        "source_type": "google_scholar_email",
+        "score": 0.77,
+        "source_type": "openalex",
         "status": "pending_model_summary",
-        "title": "Single-photon OAM Bell-state recognition via diffractive optical neural networks",
-        "venue": "Sixth Optics Frontier Conference (OFS 2026)",
+        "title": "Metasurface color routers inverse-designed with a deep-learning accelerated genetic algorithm for high efficiency imaging",
+        "venue": "Reports on Progress in Physics",
         "year": 2026
       }
     ],

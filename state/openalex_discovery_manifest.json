@@ -1,17 +1,15 @@
 {
   "accepted_candidate_ids": [
-    "79855d774b83ef6c7c8a8a47",
-    "7e154c516280ec13c6df0661",
-    "ba81b4fb300d19a6e45c76b2"
+    "4bb38e8bcc3a3d164bd28700"
   ],
-  "accepted_count": 3,
-  "built_at": "2026-08-27T02:02:10.189062Z",
+  "accepted_count": 1,
+  "built_at": "2026-08-27T16:32:29.938777Z",
   "discovery_version": 1,
-  "duplicate_count": 2,
+  "duplicate_count": 8,
   "duplicate_reasons": {
-    "openalex_work_id": 2
+    "openalex_work_id": 8
   },
-  "filtered_count": 60,
+  "filtered_count": 58,
   "invalid_count": 0,
   "query_error_count": 0,
   "query_summaries": [
@@ -27,19 +25,19 @@
     },
     {
       "accepted": 1,
-      "duplicates": 0,
+      "duplicates": 1,
       "error": null,
-      "filtered": 9,
+      "filtered": 8,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "photonic-neural-network",
       "raw_results": 10
     },
     {
-      "accepted": 1,
-      "duplicates": 0,
+      "accepted": 0,
+      "duplicates": 2,
       "error": null,
-      "filtered": 9,
+      "filtered": 8,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "diffractive-optical-neural-network",
@@ -67,9 +65,9 @@
     },
     {
       "accepted": 0,
-      "duplicates": 1,
+      "duplicates": 3,
       "error": null,
-      "filtered": 9,
+      "filtered": 7,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "physical-neural-network-training",
@@ -79,15 +77,15 @@
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 3,
+      "filtered": 4,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-neural-network",
-      "raw_results": 3
+      "raw_results": 4
     },
     {
-      "accepted": 1,
-      "duplicates": 0,
+      "accepted": 0,
+      "duplicates": 1,
       "error": null,
       "filtered": 0,
       "invalid": 0,
@@ -99,18 +97,18 @@
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 1,
+      "filtered": 2,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-optical",
-      "raw_results": 1
+      "raw_results": 2
     }
   ],
-  "raw_result_count": 65,
-  "registry_candidate_count": 159,
-  "registry_sha256": "24837083fae40540e48eae19c8177cc78214870f2e9d87647b0d372640a3a8e3",
+  "raw_result_count": 67,
+  "registry_candidate_count": 167,
+  "registry_sha256": "77d1b03adb7bbc69347b9d01d7f85d792447080b0299748e96e7bca78e5ad53a",
   "schema_version": 1,
   "status": "completed",
   "window_end": "2026-08-27",
-  "window_start": "2026-08-23"
+  "window_start": "2026-08-24"
 }

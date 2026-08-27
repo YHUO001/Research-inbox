@@ -1,7 +1,7 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`24`
-- 更新时间：`2026-08-27T02:02:45.067830Z`
+- 论文数：`25`
+- 更新时间：`2026-08-27T16:33:11.335258Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
@@ -13,6 +13,14 @@
 - 摘要日期：`2026-08-27`
 - 候选 ID：`9351be654a20f4a2f7121847`
 - 标签：application:轨道角动量贝尔态识别, architecture:free_space, project:optical-neural-networks
+
+### Metasurface color routers inverse-designed with a deep-learning accelerated genetic algorithm for high efficiency imaging
+
+- DOI/链接：[10.1088/1361-6633/ae9e8c](https://doi.org/10.1088/1361-6633/ae9e8c)
+- 期刊/年份：Reports on Progress in Physics，2026
+- 摘要日期：`2026-08-27`
+- 候选 ID：`4bb38e8bcc3a3d164bd28700`
+- 标签：application:超表面彩色路由器设计，将rgb光引导到指定子像素区域, architecture:unclear, hardware_validation:unclear, project:optical-neural-networks
 
 ### A Reconfigurable Kerr-Nonlinear Mach–Zehnder Activation Cell for Wavelength-Division Multiplexing Optical Neural Networks
 

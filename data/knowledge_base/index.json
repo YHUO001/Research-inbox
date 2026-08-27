@@ -109,6 +109,15 @@
       "summary_record_sha256": "5f1f161699f62499df8d7b588e5def0ed74fbaaa01e663d98ce09b28ec9105c0",
       "title": "Hardware implementation of photonic neuromorphic autonomous navigation"
     },
+    "4bb38e8bcc3a3d164bd28700": {
+      "digest_date": "2026-08-27",
+      "doi": "10.1088/1361-6633/ae9e8c",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "0b613efb52046b3b0b967093117b166d4280f39704d854d8ce3ce5c353810453",
+      "title": "Metasurface color routers inverse-designed with a deep-learning accelerated genetic algorithm for high efficiency imaging"
+    },
     "5017adbd33e6ddd5c320a4c4": {
       "digest_date": "2026-08-08",
       "doi": "10.1364/cleo_at.2026.jtu.84",
@@ -261,6 +270,7 @@
       "c3474ba19a69c715eb87d391"
     ],
     "2026-08-27": [
+      "4bb38e8bcc3a3d164bd28700",
       "9351be654a20f4a2f7121847"
     ]
   },
@@ -271,6 +281,7 @@
     "10.1038/s41377-026-02325-2": "1e619f1b739f1893eae64f28",
     "10.1038/s41427-026-00671-6": "83a830ace13b5158f346c392",
     "10.1038/s44335-026-00086-0": "328b1572ba0e31f8f8a6dac1",
+    "10.1088/1361-6633/ae9e8c": "4bb38e8bcc3a3d164bd28700",
     "10.1109/icocn70692.2026.11656217": "c3474ba19a69c715eb87d391",
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
     "10.1117/12.3110867": "2b5f9302fe96c2793d48540e",
@@ -300,6 +311,7 @@
       "2b5f9302fe96c2793d48540e",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
+      "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
       "7d6c2a059923ebe445a1cdf7",
@@ -393,6 +405,9 @@
     "application:超分辨显微": [
       "0cbf41592278a3ad1b89e219"
     ],
+    "application:超表面彩色路由器设计，将rgb光引导到指定子像素区域": [
+      "4bb38e8bcc3a3d164bd28700"
+    ],
     "application:轨道角动量贝尔态识别": [
       "9351be654a20f4a2f7121847"
     ],
@@ -425,6 +440,7 @@
       "2b5f9302fe96c2793d48540e",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
+      "4bb38e8bcc3a3d164bd28700",
       "541094f286db8902f2fe6077",
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
@@ -450,6 +466,7 @@
     ],
     "hardware_validation:unclear": [
       "028de8014a2b67fd147a28e7",
+      "4bb38e8bcc3a3d164bd28700",
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
       "c3474ba19a69c715eb87d391"
@@ -464,6 +481,7 @@
       "2b5f9302fe96c2793d48540e",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
+      "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
       "7d6c2a059923ebe445a1cdf7",
@@ -572,6 +590,9 @@
     "Quantum 2.0": [
       "028de8014a2b67fd147a28e7"
     ],
+    "Reports on Progress in Physics": [
+      "4bb38e8bcc3a3d164bd28700"
+    ],
     "Research Square": [
       "1e35265ce8678ca96adb8b93"
     ],
@@ -606,6 +627,7 @@
       "2eb28d7201afb356d747693a",
       "2f9953028e4e0e3b934222c8",
       "328b1572ba0e31f8f8a6dac1",
+      "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
       "7719ae17086cb97168bebbc5",
@@ -620,7 +642,7 @@
       "ead3d4ba8c5090acac05878a"
     ]
   },
-  "paper_count": 24,
+  "paper_count": 25,
   "schema_version": 1,
-  "updated_at": "2026-08-27T02:02:45.067830Z"
+  "updated_at": "2026-08-27T16:33:11.335258Z"
 }

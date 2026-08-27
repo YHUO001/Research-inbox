@@ -1,7 +1,7 @@
 {
   "completion": {
     "architecture_repairs": 0,
-    "completed_at": "2026-08-27T02:02:45.067830Z",
+    "completed_at": "2026-08-27T16:33:11.335258Z",
     "mode": "automatic_daily_batch_after_local_validation"
   },
   "delivery": {
@@ -16,8 +16,8 @@
   "safety": {
     "email_enabled": false,
     "full_text_persisted": false,
-    "full_text_used": false,
-    "information_basis": "title_metadata_and_abstract_only",
+    "full_text_used": true,
+    "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
     "numeric_grounding_scope": "title_and_abstract_only",
     "review_required": false,
     "summary_history_updated": true
@@ -26,64 +26,69 @@
   "status": "completed_automatic",
   "summaries": [
     {
-      "candidate_id": "9351be654a20f4a2f7121847",
-      "core_problem": "论文要解决的核心问题是：在基于萨格纳克干涉仪的贝尔态演化装置中，由单光子源产生的干涉图样，如何利用衍射光学神经网络实现对轨道角动量贝尔态的有效识别。",
-      "distinction_from_prior_work": "摘要未提供与既有工作的显式比较，无法确认与其他轨道角动量贝尔态识别方法的具体差异。",
+      "candidate_id": "4bb38e8bcc3a3d164bd28700",
+      "core_problem": "全波电磁仿真为纳米光子结构提供精确场分布，但计算成本高，难以直接用于大规模逆向设计。本文提出用深度学习加速遗传算法，在优化过程中用神经网络估算候选结构的透射场分布，以降低评估成本，并将其应用于超表面彩色路由器设计。",
+      "distinction_from_prior_work": "与直接使用全波仿真的逆向设计不同，本研究用FDTD计算的场图训练神经网络，在遗传算法迭代中替代耗时的仿真评估；模型可重复用于不同光电二极管孔径布局，无需重新生成训练数据或重新训练网络。",
       "limitations_and_open_questions": [
-        "由于仅能获取摘要，实验装置的具体参数、衍射面数量、训练方法及识别精度未提供。",
-        "未提供与其他识别方法的性能对比，无法判断其优越性或普适性。",
-        "摘要未明确是否存在物理硬件实验，还是仅基于仿真或模拟结果。",
-        "缺少关于系统对噪声、损耗和实验误差容忍度的讨论。"
+        "文中只报告了仿真预测性能，缺乏完整实验验证的对比细节。",
+        "神经网络估算的精度对最终设计的影响未给出定量误差分析。",
+        "模型的泛化能力仅在彩色路由器这一种结构上得到展示，对其他复杂纳米光子器件的适用性未验证。"
       ],
       "main_contributions": [
-        "演示了一种基于萨格纳克干涉仪贝尔态演化装置和单光子源产生的干涉图样，利用衍射光学神经网络进行轨道角动量贝尔态识别的系统。",
-        "报告该方法实现了确定性的轨道角动量贝尔态识别。"
+        "提出用神经网络加速遗传算法的逆向设计框架，减少全波仿真计算负担。",
+        "设计出高效率超表面彩色路由器，仿真预测总透射效率95.4%。",
+        "证明训练模型可跨不同光电二极管孔径布局复用，无需重训。"
       ],
-      "method_and_architecture": "采用衍射光学神经网络架构，对单光子源在萨格纳克干涉仪中产生的干涉图样进行处理，实现轨道角动量贝尔态的确定性一一识别。",
+      "method_and_architecture": "系统由FDTD仿真生成训练数据、神经网络场预测器和遗传算法优化器组成。遗传算法生成候选结构并编码为16×16网格，神经网络根据结构输入预测透射场分布，用于计算设计目标；优化目标是RGB路由效率和串扰。超表面为单层Si3N4，置于2 μm×2 μm Bayer单元内，网格间距125 nm。",
       "method_implementation": [
-        "系统由单光子源、基于萨格纳克干涉仪的贝尔态演化装置以及衍射光学神经网络构成。纠缠光子对在萨格纳克干涉仪中被制备成不同轨道角动量贝尔态，其干涉图样作为衍射光学神经网络的输入光场。",
-        "衍射光学神经网络由若干级联的衍射面组成，输入光场依次经过各衍射面的幅度或相位调制，并在层间自由空间传播。网络参数通过预先设计或训练确定，使得不同贝尔态的干涉图样在输出平面对应于不同的空间位置或强度模式。",
-        "作者在摘要中报告，该方法能够从单光子源产生的干涉图样中识别轨道角动量贝尔态，并给出了确定性的结果。由于当前仅能获取标题、元数据和摘要，具体的训练方式、衍射面数量、光路尺寸及实验校准等实现细节未提供。"
+        "首先，使用FDTD仿真计算大量随机或采样超表面结构的透射场分布，生成训练数据集。超表面为单层Si3N4，单元尺寸2 μm×2 μm，离散化为16×16网格，间距125 nm。每个结构的几何参数（如柱体尺寸或位置）作为网络输入，对应的透射场图作为输出标签。",
+        "神经网络架构在文中未详细说明，但推断为卷积神经网络，以结构参数或二值图像为输入，输出预测的电场分布。网络训练采用监督学习，损失函数通常为预测场与FDTD仿真场之间的均方误差。训练完成后，网络仅通过前向传播即可估计新结构的场。",
+        "遗传算法初始化结构种群，对每个个体用训练好的神经网络预测透射场，根据RGB路由效率和串扰计算适应度。选择适应度高的个体进行交叉和变异，产生新一代种群。重复迭代直到满足设计指标或达到指定代数。",
+        "优化得到的结构再使用FDTD进行验证仿真，确认网络预测的准确性。最终设计结果预测总透射效率95.4%，RGB路由效率72.9%、68.6%、45.1%，串扰37.1%、53.4%、39.5%。",
+        "为展示模型可复用性，研究者将同一网络用于不同光电二极管孔径布局，仅修改优化目标中目标区域定义，无需重新训练网络或生成新FDTD数据。",
+        "实验验证部分在文中提及“for experimental validation”，但未详细描述实验设置和测量结果，可能后续补充。"
       ],
-      "method_principle": "衍射光学神经网络由多层衍射面组成，光信号在层间传播时被逐层调制，相当于在物理光路上执行神经网络的前向计算。当携带轨道角动量信息的单光子贝尔态干涉图样输入网络后，衍射层将输入光场逐步变换为便于分类的特征图样，最终在输出面形成与不同贝尔态一一对应的空间强度分布。该方法利用光传播本身的并行性和无源衍射元件的特点，把识别计算嵌入到光路中，因此能够以确定性映射的方式完成态识别。",
+      "method_principle": "该方法利用FDTD仿真获得精确的场图作为训练数据，训练神经网络学习从结构几何到透射场分布的映射。在遗传算法迭代中，神经网络替代昂贵的FDTD仿真来评估每个候选结构，从而大幅减少计算时间，同时保留空间场信息。遗传算法通过选择、交叉和变异搜索结构空间，逐步优化设计目标。该方法的关键在于神经网络的泛化能力：训练后的网络能迅速预测不同结构参数下的场分布，从而支持大规模种群评估。模型的可复用性源于其学习到的是结构到场的通用映射，而非特定孔径布局，因此只需改变目标区域定义即可适配新的孔径设计。",
       "optical_neural_network_analysis": {
         "application_tasks": [
-          "轨道角动量贝尔态识别"
+          "超表面彩色路由器设计，将RGB光引导到指定子像素区域"
         ],
-        "architecture_type": "free_space",
-        "calibration_requirements": "not_available",
-        "hardware_validation": "not_available",
-        "optical_nonlinearity": "not_available",
-        "training_method": "not_available"
+        "architecture_type": "unclear",
+        "calibration_requirements": "未提供",
+        "hardware_validation": "unclear",
+        "optical_nonlinearity": "未提供",
+        "training_method": "神经网络使用FDTD计算的场图进行监督学习训练"
       },
       "output_language": "zh-CN",
       "reported_results": [
         {
           "basis": "abstract",
-          "claim": "作者报告所提出的衍射光学神经网络能够从单光子源在萨格纳克干涉仪中产生的干涉图样中识别轨道角动量贝尔态。",
+          "claim": "仿真预测总透射效率为95.4%。",
           "reported_by_authors": true
         },
         {
           "basis": "abstract",
-          "claim": "作者声称实现了确定性的轨道角动量贝尔态识别。",
+          "claim": "RGB路由效率分别为72.9%、68.6%和45.1%。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "串扰值分别为37.1%、53.4%和39.5%。",
           "reported_by_authors": true
         }
       ],
-      "research_value": "该工作将衍射光学神经网络用于量子信息中的轨道角动量贝尔态识别，延续了光学神经网络在自由空间光学计算和量子态分析上的应用探索，为高速、非电子后处理的量子态分类提供了一种可能方案。",
+      "research_value": "该工作为纳米光子器件的逆向设计提供了一种可扩展的加速方案，大幅降低计算成本，同时保持较高的设计精度。模型的可复用性进一步提高了实际设计效率，尤其适用于需要多次设计变更的应用场景。",
       "schema_version": 2,
       "summary_version": 2,
       "verification": {
-        "full_text_method_context_used": false,
-        "full_text_method_source_url": null,
-        "information_basis": "title_metadata_and_abstract_only",
+        "full_text_method_context_used": true,
+        "full_text_method_source_url": "https://iopscience.iop.org/article/10.1088/1361-6633/ae9e8c",
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
         "missing_information": [
-          "网络层数、衍射单元数量及相位调制方式",
-          "训练算法、损失函数及数据集规模",
-          "物理装置几何尺寸、光源波长与干涉仪具体布局",
-          "实验校准步骤、系统对准要求和误差来源",
-          "识别准确率、误码率或与现有方法的定量比较",
-          "是否涉及实际光子计数或仅为仿真验证",
-          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+          "神经网络的具体架构细节未提供",
+          "训练超参数（如学习率、批量大小、优化器）未提供",
+          "遗传算法的具体参数（种群大小、交叉率、变异率）未提供",
+          "实验验证结果未提供"
         ],
         "unsupported_numbers_detected": false
       },
