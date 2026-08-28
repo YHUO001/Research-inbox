@@ -1,15 +1,17 @@
 {
   "accepted_candidate_ids": [
-    "4bb38e8bcc3a3d164bd28700"
+    "2cd2a242815c163c75a22088",
+    "8a690a0f6287f41b49c4ea32"
   ],
-  "accepted_count": 1,
-  "built_at": "2026-08-27T16:32:29.938777Z",
+  "accepted_count": 2,
+  "built_at": "2026-08-28T03:25:28.741639Z",
   "discovery_version": 1,
-  "duplicate_count": 8,
+  "duplicate_count": 11,
   "duplicate_reasons": {
-    "openalex_work_id": 8
+    "normalized_title_year": 5,
+    "openalex_work_id": 6
   },
-  "filtered_count": 58,
+  "filtered_count": 55,
   "invalid_count": 0,
   "query_error_count": 0,
   "query_summaries": [
@@ -24,10 +26,10 @@
       "raw_results": 10
     },
     {
-      "accepted": 1,
-      "duplicates": 1,
+      "accepted": 2,
+      "duplicates": 4,
       "error": null,
-      "filtered": 8,
+      "filtered": 4,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "photonic-neural-network",
@@ -45,9 +47,9 @@
     },
     {
       "accepted": 0,
-      "duplicates": 1,
+      "duplicates": 0,
       "error": null,
-      "filtered": 9,
+      "filtered": 10,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "free-space-optical-computing",
@@ -55,9 +57,9 @@
     },
     {
       "accepted": 0,
-      "duplicates": 0,
+      "duplicates": 2,
       "error": null,
-      "filtered": 10,
+      "filtered": 8,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "optical-nonlinear-activation",
@@ -65,9 +67,9 @@
     },
     {
       "accepted": 0,
-      "duplicates": 3,
+      "duplicates": 2,
       "error": null,
-      "filtered": 7,
+      "filtered": 8,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "physical-neural-network-training",
@@ -87,11 +89,11 @@
       "accepted": 0,
       "duplicates": 1,
       "error": null,
-      "filtered": 0,
+      "filtered": 1,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-llm",
-      "raw_results": 1
+      "raw_results": 2
     },
     {
       "accepted": 0,
@@ -104,11 +106,11 @@
       "raw_results": 2
     }
   ],
-  "raw_result_count": 67,
-  "registry_candidate_count": 167,
-  "registry_sha256": "77d1b03adb7bbc69347b9d01d7f85d792447080b0299748e96e7bca78e5ad53a",
+  "raw_result_count": 68,
+  "registry_candidate_count": 169,
+  "registry_sha256": "aa12f474d2b739b853f773efae14f6685e2e140b268188887f26fdb27b960ef2",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-08-27",
+  "window_end": "2026-08-28",
   "window_start": "2026-08-24"
 }

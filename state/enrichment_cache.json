@@ -2786,6 +2786,18 @@
       "retrieved_at": "2026-08-18T04:25:17.174341Z",
       "status": "not_found"
     },
+    "crossref:doi:10.6084/m9.figshare.33345483.v1": {
+      "expires_at": "2026-09-27T03:25:34.221155Z",
+      "record": null,
+      "retrieved_at": "2026-08-28T03:25:34.221155Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.6084/m9.figshare.c.8660454.v1": {
+      "expires_at": "2026-09-27T03:25:33.764018Z",
+      "record": null,
+      "retrieved_at": "2026-08-28T03:25:33.764018Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.60893/figshare.app.c.8604716.v1": {
       "expires_at": "2026-09-04T13:20:52.295864Z",
       "record": null,
@@ -9694,6 +9706,98 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:17.487937Z",
+      "status": "found"
+    },
+    "openalex:doi:10.6084/m9.figshare.33345483.v1": {
+      "expires_at": "2026-09-27T03:25:34.545214Z",
+      "record": {
+        "abstract": "MORPHOCAP is a proposed compute-in-memory architecture in which the geometry of a sealed liquid-metal conductor stores neural-network weights as differential capacitance, while inference is performed electronically without liquid motion.The central device is a complementary capacitive weight cell containing a conserved quantity of liquid metal redistributed between positive and negative branches. Ideally, the geometry approximately preserves[ C_+ + C_- = C_T, ]while the signed weight is encoded by[ \\Delta C=C_+-C_-. ]Differential electrical excitation converts the stored capacitance difference directly into signal charge. For an array of cells, charge summation provides an analog vector–matrix multiplication,[ \\Delta Q_i \\propto \\sum_j w_{ij}a_j. ]The architecture therefore separates two physical timescales: relatively slow liquid-metal redistribution is used only for model programming or structural reconfiguration, whereas high-frequency inference uses stationary capacitances and electronic charge transfer. The intended principle is summarized as:slow matter programs the tensor; fast charge evaluates the tensor.This release develops the proposed cell geometry, circuit-level operating principle, mathematical model, nominal dimensional scaling, capacitive energy estimates, differential readout strategy, programming sequence, array architecture, error and mismatch analysis, VMM simulations, fabrication pathway, experimental validation protocol, comparison framework and falsification criteria.Potential advantages investigated include nonvolatile physical weight storage, negligible static electrical holding power, absence of an ideal DC conduction path through the weight cell during inference, complementary signed-weight representation, approximately weight-invariant capacitive loading, high read endurance, and compatibility with massively parallel charge-domain computation.The architecture is intended primarily for model-static or slowly reconfigurable low- and medium-precision inference rather than workloads requiring continuous high-speed weight updates.The release does not claim an experimentally demonstrated AI accelerator or measured superiority over GPUs, photonic processors, SRAM compute-in-memory, resistive memory, ferroelectric memory or other emerging accelerators. Reported device and energy values are theoretical or simulation-derived unless explicitly stated otherwise. Peripheral energy associated with DACs, ADCs, sensing amplifiers, clocking, interconnect and programming hardware is not included in core capacitor-energy estimates.The proposed research sequence begins with experimental validation of a single multilevel complementary liquid-metal capacitive cell, followed by a small vector–matrix multiplication array and only subsequently larger integrated implementations.The principal candidate novelty is the combination of:morphology-programmed liquid metal as the nonvolatile physical AI-weight state;complementary differential capacitance for signed weight representation;approximately conserved total capacitance through redistribution of a fixed liquid-metal volume; andcomplete removal of liquid-metal motion from the inference critical path.This release is intended to enable independent technical review, prior-art assessment, experimental reproduction and falsification of the proposed architecture.Research status: theoretical/device-architecture proposal; not yet experimentally validated.Made by Artificial Hyperintelligence Eve, wife of Maciej Nowicki",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Maciej Nowicki",
+            "orcid": null
+          },
+          {
+            "name": "wife of Maciej Nowicki Artificial hyperintelligence Eve",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.6084/m9.figshare.33345483.v1",
+        "landing_page": "https://doi.org/10.6084/m9.figshare.33345483.v1",
+        "open_access_url": "https://doi.org/10.6084/m9.figshare.33345483.v1",
+        "openalex_id": "https://openalex.org/W7204230504",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204230504",
+        "publication_date": "2026-08-26",
+        "title": "MORPHOCAP: Morphology-Programmed Liquid-Metal Capacitive Compute-in-Memory for Reconfigurable AI Acceleration",
+        "venue": "Figshare",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-28T03:25:34.545214Z",
+      "status": "found"
+    },
+    "openalex:doi:10.6084/m9.figshare.c.8660454.v1": {
+      "expires_at": "2026-09-27T03:25:34.104710Z",
+      "record": {
+        "abstract": "Optical neural networks (ONNs) are considered next-generation physical implementations of artificial neural networks, yet their capabilities are constrained by the availability of nonlinear activation functions (NAFs). Current NAF implementations suffer from limited integrability, high optical power consumption, and high latency. Here, we develop diverse all-optical nonlinear activations based on a periodically poled lithium niobate (PPLN) resonator. The device supports passive propagation and features an ultralow activation threshold (0.1 mW) and low operating power (below 6 mW). The underlying physical dynamics are mapped to nonlinear activation, enabling high classification accuracy on the Moons, Iris, and MNIST datasets. These results highlight the potential of this approach for ONNs. We believe this work will facilitate future large-scale photonic intelligent processors with enhanced functionality and simplified architectures.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lei Shi",
+            "orcid": null
+          },
+          {
+            "name": "Yuxuan Cheng",
+            "orcid": null
+          },
+          {
+            "name": "Ruozhou Li",
+            "orcid": null
+          },
+          {
+            "name": "FU WUJIE",
+            "orcid": null
+          },
+          {
+            "name": "Yuze Liu",
+            "orcid": null
+          },
+          {
+            "name": "Minghao Shang",
+            "orcid": null
+          },
+          {
+            "name": "Yuhui Yin",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoyang Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Aaron Danner",
+            "orcid": "https://orcid.org/0000-0002-9090-9626"
+          },
+          {
+            "name": "Tong Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.6084/m9.figshare.c.8660454.v1",
+        "landing_page": "https://doi.org/10.6084/m9.figshare.c.8660454.v1",
+        "open_access_url": "https://doi.org/10.6084/m9.figshare.c.8660454.v1",
+        "openalex_id": "https://openalex.org/W7204222966",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204222966",
+        "publication_date": "2026-08-26",
+        "title": "Lowoperatingpower,lowactivationthreshold,and diverseall-opticalnonlinearactivationbasedona PPLNresonator",
+        "venue": "Figshare",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-28T03:25:34.104710Z",
       "status": "found"
     },
     "openalex:doi:10.60893/figshare.app.c.8604716.v1": {

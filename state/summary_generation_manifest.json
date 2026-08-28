@@ -1,154 +1,31 @@
 {
-  "abstract_fallback_candidate_ids": [],
-  "abstract_fallback_count": 0,
-  "architecture_evidence": {
-    "4bb38e8bcc3a3d164bd28700": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
-    }
-  },
-  "architecture_repairs": 0,
-  "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 1,
-  "completed_at": "2026-08-27T16:33:11.335258Z",
+  "actual_summary_count": 0,
+  "automatic_queue_candidate_count": 0,
+  "built_at": "2026-08-28T03:25:35.226499Z",
   "completed_candidate_filtered_count": 0,
-  "completed_candidate_ids": [
-    "4bb38e8bcc3a3d164bd28700"
-  ],
-  "completion_mode": "automatic_daily_batch_after_local_validation",
-  "daily_digest_pending": true,
-  "digest_date": "2026-08-27",
-  "digest_json_file": "runtime-state/data/digests/2026-08-27.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-08-27.generated.md",
+  "daily_digest_pending": false,
+  "digest_date": "2026-08-28",
+  "digest_json_file": "runtime-state/data/digests/2026-08-28.preview.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-08-28.preview.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.021216,
   "execution_mode": "automatic_daily_batch",
-  "failure_count": 0,
-  "failures": [],
-  "full_text_method_contexts": {
-    "4bb38e8bcc3a3d164bd28700": {
-      "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "4bb38e8bcc3a3d164bd28700",
-      "character_count": 3405,
-      "content_sha256": "a1966a316bcffbf535883086f73f5be726038e2b6de458c505046cd935a3f9f8",
-      "elapsed_seconds": 1.332,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "text/html",
-      "section_headings": [
-        "Method"
-      ],
-      "source_url": "https://iopscience.iop.org/article/10.1088/1361-6633/ae9e8c",
-      "status": "used",
-      "text_persisted": false
-    }
-  },
-  "full_text_persisted": false,
-  "full_text_used": true,
+  "full_text_used": false,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
-  "knowledge_base_pending": true,
-  "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 1,
-  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
-  "numeric_matching": {
-    "absolute_tolerance": 0.02,
-    "approximation_markers_ignored": true,
-    "evidence_sources": [
-      "title",
-      "abstract",
-      "temporary_open_full_text_methods"
-    ],
-    "full_text_unsupported_sentence_action": "deterministic_redaction",
-    "relative_tolerance": 0.02,
-    "unit_format_ignored": true,
-    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
-  },
+  "knowledge_base_pending": false,
+  "llm_enabled": true,
   "output_language": "zh-CN",
-  "prepared_request_count": 1,
-  "provider": "deepseek",
-  "queue_sha256": "663a3c9aa912ae668c9de9c28dabb254ab897f4e92aed1582a0271d505df728e",
-  "request_count": 1,
-  "request_file": "runtime-state/data/summary_requests/2026-08-27.jsonl",
-  "request_sha256": "dcdb660f2a5bfd74915f64c410fd43dd15a2b26be7d045c995404d4c926dcf31",
+  "provider": "not_configured",
+  "queue_candidate_count": 0,
+  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "request_count": 0,
+  "request_file": "runtime-state/data/summary_requests/2026-08-28.jsonl",
+  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "920f10cb4c5c528e7e480a66710610683ed31994a9560e94a2d9082e48689dc2",
-  "skipped_no_abstract_candidate_ids": [],
-  "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 1,
-  "stage_timings": {
-    "full_text_preparation_seconds": 1.337,
-    "model_api_calls": [
-      {
-        "attempt": 1,
-        "candidate_id": "4bb38e8bcc3a3d164bd28700",
-        "elapsed_seconds": 26.841,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1452,
-          "prompt_cache_hit_tokens": 0,
-          "prompt_cache_miss_tokens": 4168,
-          "prompt_tokens": 4168,
-          "total_tokens": 5620
-        }
-      }
-    ],
-    "model_generation_and_validation_seconds": 26.859
-  },
-  "status": "completed_automatic",
-  "summary_count": 1,
-  "summary_file": "runtime-state/data/summaries/2026-08-27.jsonl",
+  "selection_manifest_sha256": "e20ab244c4bf379ec0f90c5865aeb1ce6dade14c40aa5ffa55454206be589a73",
+  "source_queue_candidate_count": 0,
+  "status": "no_candidates",
   "summary_generation_version": 8,
-  "summary_history_updated": true,
-  "summary_slot_count": 1,
-  "thinking_enabled": false,
-  "transport_repairs": {
-    "architecture_evidence": {
-      "4bb38e8bcc3a3d164bd28700": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "unclear",
-        "repaired": false,
-        "resolved_type": "unclear"
-      }
-    },
-    "architecture_repairs": 0,
-    "candidate_id_repair_responses": 0,
-    "full_text_method_contexts": {
-      "4bb38e8bcc3a3d164bd28700": {
-        "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "4bb38e8bcc3a3d164bd28700",
-        "character_count": 3405,
-        "content_sha256": "a1966a316bcffbf535883086f73f5be726038e2b6de458c505046cd935a3f9f8",
-        "elapsed_seconds": 1.332,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "text/html",
-        "section_headings": [
-          "Method"
-        ],
-        "source_url": "https://iopscience.iop.org/article/10.1088/1361-6633/ae9e8c",
-        "status": "used",
-        "text_persisted": false
-      }
-    },
-    "generation_metadata_repair_responses": 1,
-    "numeric_grounding_repair_responses": 0,
-    "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 14,
-    "unit_format_normalization_responses": 0
-  },
-  "usage": {
-    "completion_tokens": 1452,
-    "prompt_cache_hit_tokens": 0,
-    "prompt_cache_miss_tokens": 4168,
-    "prompt_tokens": 4168,
-    "total_tokens": 5620
-  }
+  "summary_history_updated": false,
+  "summary_slot_count": 0
 }
