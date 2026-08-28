@@ -1,7 +1,7 @@
 {
   "actual_summary_count": 0,
   "automatic_queue_candidate_count": 0,
-  "built_at": "2026-08-28T03:25:35.226499Z",
+  "built_at": "2026-08-28T16:53:26.644108Z",
   "completed_candidate_filtered_count": 0,
   "daily_digest_pending": false,
   "digest_date": "2026-08-28",
@@ -22,7 +22,7 @@
   "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "e20ab244c4bf379ec0f90c5865aeb1ce6dade14c40aa5ffa55454206be589a73",
+  "selection_manifest_sha256": "17740373a4e2967a32a6321e337faff06b918f750fc26d2e8e07fafe30d96147",
   "source_queue_candidate_count": 0,
   "status": "no_candidates",
   "summary_generation_version": 8,

@@ -1552,6 +1552,56 @@
       "retrieved_at": "2026-08-20T00:32:27.718877Z",
       "status": "found"
     },
+    "crossref:doi:10.1038/s41467-026-77202-y": {
+      "expires_at": "2026-09-27T16:53:25.605839Z",
+      "record": {
+        "abstract": "Abstract The rapid scaling of deep neural networks comes at the cost of unsustainable power consumption. While optical neural networks offer an alternative, their capabilities remain constrained by the lack of efficient optical nonlinearities. To address this, we propose an optical neural computing architecture by embedding quantum emitters in inverse-designed nanophotonic structures. Due to their saturability, quantum emitters exhibit exceptionally strong nonlinearity compared with conventional materials. Using physics-aware training, we numerically demonstrate that the proposed architecture can solve complex tasks, including nonlinear classification and reinforcement learning, within all-optical neural networks. To enable fair comparison across different platforms, we introduce a framework that quantitatively links nonlinearity to a network’s expressive power. Analysis shows that our quantum activation operates at nW/ μ m 2 intensity, which is seven orders of magnitude below the nonlinearity threshold of conventional optical materials. Looking ahead to large language models, we estimate the nonlinearity-limited optical power, which scales sublinearly with model size. Our results indicate that quantum nanophotonics may provide a route toward sustainable AI inference.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Qingyi Zhou",
+            "orcid": "https://orcid.org/0000-0001-7261-1060"
+          },
+          {
+            "name": "Jungmin Kim",
+            "orcid": "https://orcid.org/0000-0001-8567-5338"
+          },
+          {
+            "name": "Yutian Tao",
+            "orcid": "https://orcid.org/0009-0009-1664-5886"
+          },
+          {
+            "name": "Guoming Huang",
+            "orcid": null
+          },
+          {
+            "name": "Ming Zhou",
+            "orcid": "https://orcid.org/0000-0003-2368-8883"
+          },
+          {
+            "name": "Zewei Shao",
+            "orcid": "https://orcid.org/0000-0002-8748-0638"
+          },
+          {
+            "name": "Zongfu Yu",
+            "orcid": "https://orcid.org/0000-0002-4536-1526"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41467-026-77202-y",
+        "landing_page": "https://doi.org/10.1038/s41467-026-77202-y",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41467-026-77202-y",
+        "publication_date": "2026-08-27",
+        "title": "Quantum nonlinearity for optical neural computing",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-28T16:53:25.605839Z",
+      "status": "found"
+    },
     "crossref:doi:10.1038/s41586-026-10891-z": {
       "expires_at": "2026-09-17T04:25:13.547391Z",
       "record": {
@@ -6874,6 +6924,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-20T00:32:28.089180Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41467-026-77202-y": {
+      "expires_at": "2026-09-27T16:53:25.962827Z",
+      "record": {
+        "abstract": "Abstract The rapid scaling of deep neural networks comes at the cost of unsustainable power consumption. While optical neural networks offer an alternative, their capabilities remain constrained by the lack of efficient optical nonlinearities. To address this, we propose an optical neural computing architecture by embedding quantum emitters in inverse-designed nanophotonic structures. Due to their saturability, quantum emitters exhibit exceptionally strong nonlinearity compared with conventional materials. Using physics-aware training, we numerically demonstrate that the proposed architecture can solve complex tasks, including nonlinear classification and reinforcement learning, within all-optical neural networks. To enable fair comparison across different platforms, we introduce a framework that quantitatively links nonlinearity to a network’s expressive power. Analysis shows that our quantum activation operates at nW/ μ m 2 intensity, which is seven orders of magnitude below the nonlinearity threshold of conventional optical materials. Looking ahead to large language models, we estimate the nonlinearity-limited optical power, which scales sublinearly with model size. Our results indicate that quantum nanophotonics may provide a route toward sustainable AI inference.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Qingyi Zhou",
+            "orcid": "https://orcid.org/0000-0001-7261-1060"
+          },
+          {
+            "name": "Jungmin Kim",
+            "orcid": "https://orcid.org/0000-0001-8567-5338"
+          },
+          {
+            "name": "Yutian Tao",
+            "orcid": "https://orcid.org/0009-0009-1664-5886"
+          },
+          {
+            "name": "Guoming Huang",
+            "orcid": "https://orcid.org/0000-0002-8075-5205"
+          },
+          {
+            "name": "Ming Zhou",
+            "orcid": "https://orcid.org/0000-0003-2368-8883"
+          },
+          {
+            "name": "Zewei Shao",
+            "orcid": "https://orcid.org/0000-0002-8748-0638"
+          },
+          {
+            "name": "Zongfu Yu",
+            "orcid": "https://orcid.org/0000-0002-4536-1526"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41467-026-77202-y",
+        "landing_page": "https://doi.org/10.1038/s41467-026-77202-y",
+        "open_access_url": "https://doi.org/10.1038/s41467-026-77202-y",
+        "openalex_id": "https://openalex.org/W7204487361",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204487361",
+        "publication_date": "2026-08-27",
+        "title": "Quantum nonlinearity for optical neural computing",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-28T16:53:25.962827Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s41586-026-10891-z": {
