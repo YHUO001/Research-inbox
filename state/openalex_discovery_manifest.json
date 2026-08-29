@@ -1,13 +1,11 @@
 {
-  "accepted_candidate_ids": [
-    "d33b2e7c6586f37945facb32"
-  ],
-  "accepted_count": 1,
-  "built_at": "2026-08-28T16:53:18.770959Z",
+  "accepted_candidate_ids": [],
+  "accepted_count": 0,
+  "built_at": "2026-08-29T00:54:00.264211Z",
   "discovery_version": 1,
-  "duplicate_count": 6,
+  "duplicate_count": 7,
   "duplicate_reasons": {
-    "openalex_work_id": 6
+    "openalex_work_id": 7
   },
   "filtered_count": 62,
   "invalid_count": 0,
@@ -24,8 +22,8 @@
       "raw_results": 10
     },
     {
-      "accepted": 1,
-      "duplicates": 1,
+      "accepted": 0,
+      "duplicates": 2,
       "error": null,
       "filtered": 8,
       "invalid": 0,
@@ -105,10 +103,10 @@
     }
   ],
   "raw_result_count": 69,
-  "registry_candidate_count": 170,
-  "registry_sha256": "1da225a3aa9bdd09f6caafbdbf589856b6104a0936913eca2cafd5704aed1816",
+  "registry_candidate_count": 176,
+  "registry_sha256": "2b9c17f478391d0810484c9c4acf0c16a8e16add177d83afb7512b4b61af6775",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-08-28",
+  "window_end": "2026-08-29",
   "window_start": "2026-08-25"
 }

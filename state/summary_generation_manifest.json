@@ -1,31 +1,156 @@
 {
-  "actual_summary_count": 0,
-  "automatic_queue_candidate_count": 0,
-  "built_at": "2026-08-28T16:53:26.644108Z",
+  "abstract_fallback_candidate_ids": [
+    "b832199d8494cc67a559fec5"
+  ],
+  "abstract_fallback_count": 1,
+  "architecture_evidence": {
+    "b832199d8494cc67a559fec5": {
+      "changed": false,
+      "free_space_evidence": [
+        "Diffractive deep neural networks (D 2 NNs) enable ultrafast and energy-efficient inference through free-space propagation."
+      ],
+      "integrated_evidence": [],
+      "previous_type": "free_space",
+      "resolved_type": "free_space"
+    }
+  },
+  "architecture_repairs": 0,
+  "automatic_history_pending": false,
+  "automatic_queue_candidate_count": 1,
+  "completed_at": "2026-08-29T00:54:44.597692Z",
   "completed_candidate_filtered_count": 0,
-  "daily_digest_pending": false,
-  "digest_date": "2026-08-28",
-  "digest_json_file": "runtime-state/data/digests/2026-08-28.preview.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-08-28.preview.md",
+  "completed_candidate_ids": [
+    "b832199d8494cc67a559fec5"
+  ],
+  "completion_mode": "automatic_daily_batch_after_local_validation",
+  "daily_digest_pending": true,
+  "digest_date": "2026-08-29",
+  "digest_json_file": "runtime-state/data/digests/2026-08-29.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-08-29.generated.md",
   "email_enabled": false,
+  "estimated_cost_cny": 0.0138662,
   "execution_mode": "automatic_daily_batch",
+  "failure_count": 0,
+  "failures": [],
+  "full_text_method_contexts": {
+    "b832199d8494cc67a559fec5": {
+      "abstract_available": true,
+      "attempt_count": 3,
+      "candidate_id": "b832199d8494cc67a559fec5",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 4.498,
+      "error": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-34-18-33357&html=true: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1364/oe.605087",
+      "status": "not_available",
+      "text_persisted": false
+    }
+  },
+  "full_text_persisted": false,
   "full_text_used": false,
   "history_path": "runtime-state/state/summary_history.json",
-  "knowledge_base_pending": false,
-  "llm_enabled": true,
+  "information_basis": "title_metadata_and_abstract_only",
+  "knowledge_base_pending": true,
+  "model": "deepseek-v4-pro",
+  "newly_completed_candidate_count": 1,
+  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+  "numeric_matching": {
+    "absolute_tolerance": 0.02,
+    "approximation_markers_ignored": true,
+    "evidence_sources": [
+      "title",
+      "abstract",
+      "temporary_open_full_text_methods"
+    ],
+    "full_text_unsupported_sentence_action": "deterministic_redaction",
+    "relative_tolerance": 0.02,
+    "unit_format_ignored": true,
+    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
+  },
   "output_language": "zh-CN",
-  "provider": "not_configured",
-  "queue_candidate_count": 0,
-  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "request_count": 0,
-  "request_file": "runtime-state/data/summary_requests/2026-08-28.jsonl",
-  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "prepared_request_count": 1,
+  "provider": "deepseek",
+  "queue_sha256": "e551bc571c2ed6b96fa7c521d454f3633154462866c45c9a5895d0ffb3a558cd",
+  "request_count": 1,
+  "request_file": "runtime-state/data/summary_requests/2026-08-29.jsonl",
+  "request_sha256": "06daca0bc87380501d8ec6f2e4cc551734cba1c10899f291812e73cc75e384d8",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "17740373a4e2967a32a6321e337faff06b918f750fc26d2e8e07fafe30d96147",
-  "source_queue_candidate_count": 0,
-  "status": "no_candidates",
+  "selection_manifest_sha256": "3c14a25352246d1def52a00c64ff1d1e6b569958e08a233147cd6927972cb101",
+  "skipped_no_abstract_candidate_ids": [],
+  "skipped_no_abstract_count": 0,
+  "source_queue_candidate_count": 1,
+  "stage_timings": {
+    "full_text_preparation_seconds": 4.502,
+    "model_api_calls": [
+      {
+        "attempt": 1,
+        "candidate_id": "b832199d8494cc67a559fec5",
+        "elapsed_seconds": 25.296,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1572,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1461,
+          "prompt_tokens": 3509,
+          "total_tokens": 5081
+        }
+      }
+    ],
+    "model_generation_and_validation_seconds": 25.315
+  },
+  "status": "completed_automatic",
+  "summary_count": 1,
+  "summary_file": "runtime-state/data/summaries/2026-08-29.jsonl",
   "summary_generation_version": 8,
-  "summary_history_updated": false,
-  "summary_slot_count": 0
+  "summary_history_updated": true,
+  "summary_slot_count": 1,
+  "thinking_enabled": false,
+  "transport_repairs": {
+    "architecture_evidence": {
+      "b832199d8494cc67a559fec5": {
+        "free_space_evidence": [
+          "Diffractive deep neural networks (D 2 NNs) enable ultrafast and energy-efficient inference through free-space propagation."
+        ],
+        "integrated_evidence": [],
+        "model_value": "free_space",
+        "repaired": false,
+        "resolved_type": "free_space"
+      }
+    },
+    "architecture_repairs": 0,
+    "candidate_id_repair_responses": 0,
+    "full_text_method_contexts": {
+      "b832199d8494cc67a559fec5": {
+        "abstract_available": true,
+        "attempt_count": 3,
+        "candidate_id": "b832199d8494cc67a559fec5",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 4.498,
+        "error": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-34-18-33357&html=true: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1364/oe.605087",
+        "status": "not_available",
+        "text_persisted": false
+      }
+    },
+    "generation_metadata_repair_responses": 1,
+    "numeric_grounding_repair_responses": 0,
+    "numeric_grounding_repairs": {},
+    "tops_alias_expansions": 0,
+    "unit_format_normalization_responses": 0
+  },
+  "usage": {
+    "completion_tokens": 1572,
+    "prompt_cache_hit_tokens": 2048,
+    "prompt_cache_miss_tokens": 1461,
+    "prompt_tokens": 3509,
+    "total_tokens": 5081
+  }
 }

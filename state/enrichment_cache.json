@@ -3474,6 +3474,68 @@
       "retrieved_at": "2026-08-23T00:32:32.205536Z",
       "status": "not_found"
     },
+    "crossref:title:4c87c29f04006d253bc4d9e6699f9333cd9d3f40ab4e99e4693eaf75d863e602": {
+      "expires_at": "2026-09-05T00:54:11.976936Z",
+      "record": {
+        "abstract": "Optical neural networks (ONNs) are considered next-generation physical implementations of artificial neural networks, yet their capabilities are constrained by the availability of nonlinear activation functions (NAFs). Current NAF implementations suffer from limited integrability, complex device architectures, and high latency. Here, we theoretically explore diverse all-optical nonlinear activations based on a periodically poled lithium niobate (PPLN) resonator. The device supports passive propagation and features an ultralow activation threshold (0.1 mW) and low operating power (below 6 mW). The underlying physical dynamics are mapped to nonlinear activation, enabling high classification accuracy on the Moons, Iris, and MNIST datasets. These results highlight the potential of this approach for ONNs. We believe this work will facilitate future large-scale photonic intelligent processors with enhanced functionality and simplified architectures.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lei Shi",
+            "orcid": null
+          },
+          {
+            "name": "Yuxuan Cheng",
+            "orcid": null
+          },
+          {
+            "name": "Ruozhou Li",
+            "orcid": "https://orcid.org/0000-0002-2615-9349"
+          },
+          {
+            "name": "Wujie Fu",
+            "orcid": "https://orcid.org/0000-0003-1208-4259"
+          },
+          {
+            "name": "Yuze Liu",
+            "orcid": null
+          },
+          {
+            "name": "Minghao Shang",
+            "orcid": "https://orcid.org/0009-0006-0884-9596"
+          },
+          {
+            "name": "Yuhui Yin",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoyang Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Aaron J. Danner",
+            "orcid": "https://orcid.org/0000-0002-9090-9626"
+          },
+          {
+            "name": "Tong Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/ol.611332",
+        "landing_page": "https://doi.org/10.1364/ol.611332",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/ol.611332",
+        "publication_date": "2026-09-01",
+        "title": "Low operating power, low activation threshold, and diverse all-optical nonlinear activation based on a PPLN resonator",
+        "venue": "Optics Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-29T00:54:11.976936Z",
+      "status": "found"
+    },
     "crossref:title:569bfc22d25d91d53c0cae46ed9c5efb021edc864023af252ff96d2957870e1e": {
       "expires_at": "2026-08-25T04:25:22.619748Z",
       "record": {
@@ -3804,6 +3866,12 @@
       "retrieved_at": "2026-08-26T00:32:39.356861Z",
       "status": "not_found"
     },
+    "crossref:title:849250f9042d4d1b1371df2dcf6d39f99be3ebe04fa2724789d7bbcde523a6ea": {
+      "expires_at": "2026-09-05T00:54:08.565887Z",
+      "record": null,
+      "retrieved_at": "2026-08-29T00:54:08.565887Z",
+      "status": "not_found"
+    },
     "crossref:title:84c5ea46a5a22917f02db94b9d66ef6072762c665436b6e0e53fdfb60324146e": {
       "expires_at": "2026-09-03T16:32:36.511687Z",
       "record": null,
@@ -4025,6 +4093,48 @@
       "record": null,
       "retrieved_at": "2026-08-18T04:25:27.026523Z",
       "status": "not_found"
+    },
+    "crossref:title:9e85725a3c69ddbae04caeb7b9b3706173bb27e502ff03c83d42603bd1cf4c9f": {
+      "expires_at": "2026-09-05T00:54:11.524325Z",
+      "record": {
+        "abstract": "Diffractive deep neural networks (D 2 NNs) enable ultrafast and energy-efficient inference through free-space propagation. However, their performance on multi-class problems can be limited by shallow network depth, coupled decision boundaries, and sensitivity to detection noise. We propose a task-decomposition optical neural network (T-ONN), a multi-channel architecture that divides a complex K-class task into cooperative low-complexity subtasks based on inter-class similarity. Each subtask is implemented by a shallow diffractive network with a dedicated detector readout, and the final label is determined by combining the subtask outputs. Numerical simulations show that a two-layer T-ONN achieves 96.2% accuracy on MNIST, approaching the 96.8% accuracy of a three-layer conventional single-channel D 2 NN. On a hybrid MNIST + Fashion-MNIST 20-class task, the three-layer T-ONN reaches 94.0% accuracy and degrades more gradually under the evaluated detector-noise models than the baseline. The 10-class implementation resolves the complete task with only three shallow channels—one coarse router and two conditional five-class classifiers—demonstrating the modular advantage of task decomposition at fixed per-channel depth. The present results are simulation-based and do not constitute a claim of reduced total optical resources.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Wei Hong",
+            "orcid": "https://orcid.org/0009-0003-1593-1895"
+          },
+          {
+            "name": "Lingfeng Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Ying Tang",
+            "orcid": null
+          },
+          {
+            "name": "Derong Hu",
+            "orcid": null
+          },
+          {
+            "name": "Ziliang Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.605087",
+        "landing_page": "https://doi.org/10.1364/oe.605087",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/oe.605087",
+        "publication_date": "2026-09-07",
+        "title": "Simulated task-decomposed multi-channel diffractive neural networks for scalable and robust shallow-layer optical multi-class classification",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-29T00:54:11.524325Z",
+      "status": "found"
     },
     "crossref:title:a1e9df18ed0ab1290e5eac26eb0b1960b570f6578a6c2d826dafb6737712e21a": {
       "expires_at": "2026-08-11T09:38:58.953960Z",
@@ -4446,6 +4556,12 @@
       "retrieved_at": "2026-08-18T04:25:08.969019Z",
       "status": "found"
     },
+    "crossref:title:c2a0888b262e22ec5a3d1eb42f0170419f1f3350784d8ee24ba8599f016f3f00": {
+      "expires_at": "2026-09-05T00:54:09.556340Z",
+      "record": null,
+      "retrieved_at": "2026-08-29T00:54:09.556340Z",
+      "status": "not_found"
+    },
     "crossref:title:c2cd4bcf9be92e871b30c70b3d1a26139905b3d56117f1c48db3a10c73b516be": {
       "expires_at": "2026-08-11T09:38:28.475680Z",
       "record": null,
@@ -4456,6 +4572,12 @@
       "expires_at": "2026-08-25T04:25:25.323474Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:25.323474Z",
+      "status": "not_found"
+    },
+    "crossref:title:c589e2ff55ba9c6453a6907721a353a7da7cf9fae6c154ecaab45f20a0ac16ef": {
+      "expires_at": "2026-09-05T00:54:07.437285Z",
+      "record": null,
+      "retrieved_at": "2026-08-29T00:54:07.437285Z",
       "status": "not_found"
     },
     "crossref:title:cbde4e7b874735126ef47edd5cebf95081723b500b74f59d1ec1de2538ee9151": {
@@ -4777,6 +4899,12 @@
       },
       "retrieved_at": "2026-08-04T09:38:39.461936Z",
       "status": "found"
+    },
+    "crossref:title:e52f743553d7ab85547eee0293aae0315b336cf34824f5091b79b72534897095": {
+      "expires_at": "2026-09-05T00:54:10.542424Z",
+      "record": null,
+      "retrieved_at": "2026-08-29T00:54:10.542424Z",
+      "status": "not_found"
     },
     "crossref:title:e5891f67f719834bc00ca01dc15fbfa40dcacf96346e10b3b7547e108fc0537b": {
       "expires_at": "2026-08-11T09:38:34.322789Z",
@@ -9194,6 +9322,68 @@
       "retrieved_at": "2026-08-23T00:32:29.691885Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/ol.611332": {
+      "expires_at": "2026-09-28T00:54:12.385748Z",
+      "record": {
+        "abstract": "Optical neural networks (ONNs) are considered next-generation physical implementations of artificial neural networks, yet their capabilities are constrained by the availability of nonlinear activation functions (NAFs). Current NAF implementations suffer from limited integrability, complex device architectures, and high latency. Here, we theoretically explore diverse all-optical nonlinear activations based on a periodically poled lithium niobate (PPLN) resonator. The device supports passive propagation and features an ultralow activation threshold (0.1 mW) and low operating power (below 6 mW). The underlying physical dynamics are mapped to nonlinear activation, enabling high classification accuracy on the Moons, Iris, and MNIST datasets. These results highlight the potential of this approach for ONNs. We believe this work will facilitate future large-scale photonic intelligent processors with enhanced functionality and simplified architectures.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lei Shi",
+            "orcid": null
+          },
+          {
+            "name": "Yuxuan Cheng",
+            "orcid": "https://orcid.org/0000-0003-1200-727X"
+          },
+          {
+            "name": "Ruozhou Li",
+            "orcid": null
+          },
+          {
+            "name": "FU WUJIE",
+            "orcid": null
+          },
+          {
+            "name": "Yuze Liu",
+            "orcid": null
+          },
+          {
+            "name": "Minghao Shang",
+            "orcid": null
+          },
+          {
+            "name": "Yuhui Yin",
+            "orcid": "https://orcid.org/0000-0002-2151-4583"
+          },
+          {
+            "name": "Xiaoyang Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Aaron Danner",
+            "orcid": "https://orcid.org/0000-0002-9090-9626"
+          },
+          {
+            "name": "Tong Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/ol.611332",
+        "landing_page": "https://doi.org/10.1364/ol.611332",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7203671660",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203671660",
+        "publication_date": "2026-08-18",
+        "title": "Low operating power, low activation threshold, and diverse all-optical nonlinear activation based on a PPLN resonator",
+        "venue": "Optics Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-29T00:54:12.385748Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/optica.591264": {
       "expires_at": "2026-09-03T09:38:30.948780Z",
       "record": {
@@ -10244,6 +10434,12 @@
       "retrieved_at": "2026-08-26T00:32:40.232960Z",
       "status": "not_found"
     },
+    "openalex:title:849250f9042d4d1b1371df2dcf6d39f99be3ebe04fa2724789d7bbcde523a6ea": {
+      "expires_at": "2026-09-05T00:54:09.070238Z",
+      "record": null,
+      "retrieved_at": "2026-08-29T00:54:09.070238Z",
+      "status": "not_found"
+    },
     "openalex:title:84c5ea46a5a22917f02db94b9d66ef6072762c665436b6e0e53fdfb60324146e": {
       "expires_at": "2026-09-03T16:32:37.119995Z",
       "record": null,
@@ -10420,6 +10616,12 @@
       "retrieved_at": "2026-08-27T16:32:38.565419Z",
       "status": "not_found"
     },
+    "openalex:title:c2a0888b262e22ec5a3d1eb42f0170419f1f3350784d8ee24ba8599f016f3f00": {
+      "expires_at": "2026-09-05T00:54:10.076190Z",
+      "record": null,
+      "retrieved_at": "2026-08-29T00:54:10.076190Z",
+      "status": "not_found"
+    },
     "openalex:title:c2cd4bcf9be92e871b30c70b3d1a26139905b3d56117f1c48db3a10c73b516be": {
       "expires_at": "2026-08-11T09:38:29.008711Z",
       "record": null,
@@ -10456,6 +10658,12 @@
       "retrieved_at": "2026-08-18T04:25:25.823067Z",
       "status": "found"
     },
+    "openalex:title:c589e2ff55ba9c6453a6907721a353a7da7cf9fae6c154ecaab45f20a0ac16ef": {
+      "expires_at": "2026-09-05T00:54:08.012700Z",
+      "record": null,
+      "retrieved_at": "2026-08-29T00:54:08.012700Z",
+      "status": "not_found"
+    },
     "openalex:title:cbde4e7b874735126ef47edd5cebf95081723b500b74f59d1ec1de2538ee9151": {
       "expires_at": "2026-08-16T00:36:07.204631Z",
       "record": null,
@@ -10472,6 +10680,12 @@
       "expires_at": "2026-08-30T00:32:31.838146Z",
       "record": null,
       "retrieved_at": "2026-08-23T00:32:31.838146Z",
+      "status": "not_found"
+    },
+    "openalex:title:e52f743553d7ab85547eee0293aae0315b336cf34824f5091b79b72534897095": {
+      "expires_at": "2026-09-05T00:54:11.114854Z",
+      "record": null,
+      "retrieved_at": "2026-08-29T00:54:11.114854Z",
       "status": "not_found"
     },
     "openalex:title:e5891f67f719834bc00ca01dc15fbfa40dcacf96346e10b3b7547e108fc0537b": {

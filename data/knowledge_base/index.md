@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`25`
-- 更新时间：`2026-08-27T16:33:11.335258Z`
+- 论文数：`26`
+- 更新时间：`2026-08-29T00:54:44.597692Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Simulated task-decomposed multi-channel diffractive neural networks for scalable and robust shallow-layer optical multiclass classification
+
+- DOI/链接：[10.1364/oe.605087](https://doi.org/10.1364/oe.605087)
+- 期刊/年份：Optics Express，2026
+- 摘要日期：`2026-08-29`
+- 候选 ID：`b832199d8494cc67a559fec5`
+- 标签：application:mnist 手写数字分类, application:十类分类任务, application:混合 mnist 与 fashion-mnist 的 20 类分类, architecture:free_space, hardware_validation:simulation_only, project:optical-neural-networks
 
 ### Single-photon OAM Bell-state recognition via diffractive optical neural networks
 

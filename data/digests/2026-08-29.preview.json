@@ -1,0 +1,31 @@
+{
+  "built_at": "2026-08-29T00:54:13.146091Z",
+  "digest_date": "2026-08-29",
+  "digest_version": 1,
+  "pending_summary_count": 1,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "b832199d8494cc67a559fec5",
+        "landing_page": "https://doi.org/10.1364/oe.605087",
+        "mandatory": false,
+        "score": 0.83,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Simulated task-decomposed multi-channel diffractive neural networks for scalable and robust shallow-layer optical multiclass classification",
+        "venue": "Optics Express",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

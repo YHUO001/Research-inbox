@@ -181,6 +181,15 @@
       "summary_record_sha256": "405da6f85e07c71a653f968f4a282526a3d0f9ac9a9c670dda6d83d4913e5e7d",
       "title": "Reconfigurable Optical Nonlinear Activation Functions Using a Phase-Change Microring for Photonic Neural Networks"
     },
+    "b832199d8494cc67a559fec5": {
+      "digest_date": "2026-08-29",
+      "doi": "10.1364/oe.605087",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "ce35d6bf8a87355cc7003834abba0827a993da8ad747e243e4a6840b44ccb003",
+      "title": "Simulated task-decomposed multi-channel diffractive neural networks for scalable and robust shallow-layer optical multiclass classification"
+    },
     "c3474ba19a69c715eb87d391": {
       "digest_date": "2026-08-26",
       "doi": "10.1109/icocn70692.2026.11656217",
@@ -272,6 +281,9 @@
     "2026-08-27": [
       "4bb38e8bcc3a3d164bd28700",
       "9351be654a20f4a2f7121847"
+    ],
+    "2026-08-29": [
+      "b832199d8494cc67a559fec5"
     ]
   },
   "by_doi": {
@@ -291,6 +303,7 @@
     "10.1145/3770855.3817738": "172a6e3e7b78c39c328487a6",
     "10.1145/3837864": "0e5c75b6132afcfb1f7afb17",
     "10.1364/cleo_at.2026.jtu.84": "5017adbd33e6ddd5c320a4c4",
+    "10.1364/oe.605087": "b832199d8494cc67a559fec5",
     "10.1364/optica.591264": "1cf1fcd769c5ace951188b8c",
     "10.21203/rs.3.rs-10187577/v1": "1e35265ce8678ca96adb8b93",
     "10.48550/arxiv.2608.03277": "142dc76f41fc25448b82c91e",
@@ -318,6 +331,7 @@
       "83a830ace13b5158f346c392",
       "9351be654a20f4a2f7121847",
       "973790e22c46d30721660799",
+      "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
       "ccd82d84305d463a6c33398d"
     ],
@@ -333,6 +347,9 @@
     ]
   },
   "by_tag": {
+    "application:mnist 手写数字分类": [
+      "b832199d8494cc67a559fec5"
+    ],
     "application:mnist手写数字分类": [
       "973790e22c46d30721660799"
     ],
@@ -356,6 +373,9 @@
     ],
     "application:动态避障": [
       "328b1572ba0e31f8f8a6dac1"
+    ],
+    "application:十类分类任务": [
+      "b832199d8494cc67a559fec5"
     ],
     "application:四通道波分复用光神经网络中的非线性激活": [
       "c3474ba19a69c715eb87d391"
@@ -396,6 +416,9 @@
     "application:深度残差神经网络中的残差卷积加速": [
       "1e619f1b739f1893eae64f28"
     ],
+    "application:混合 mnist 与 fashion-mnist 的 20 类分类": [
+      "b832199d8494cc67a559fec5"
+    ],
     "application:自主导航": [
       "328b1572ba0e31f8f8a6dac1"
     ],
@@ -425,7 +448,8 @@
     ],
     "architecture:free_space": [
       "5017adbd33e6ddd5c320a4c4",
-      "9351be654a20f4a2f7121847"
+      "9351be654a20f4a2f7121847",
+      "b832199d8494cc67a559fec5"
     ],
     "architecture:integrated": [
       "0e5c75b6132afcfb1f7afb17",
@@ -462,7 +486,8 @@
     "hardware_validation:simulation_only": [
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
-      "541094f286db8902f2fe6077"
+      "541094f286db8902f2fe6077",
+      "b832199d8494cc67a559fec5"
     ],
     "hardware_validation:unclear": [
       "028de8014a2b67fd147a28e7",
@@ -488,6 +513,7 @@
       "83a830ace13b5158f346c392",
       "9351be654a20f4a2f7121847",
       "973790e22c46d30721660799",
+      "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
       "ccd82d84305d463a6c33398d"
     ],
@@ -580,6 +606,9 @@
     "Optical Engineering": [
       "541094f286db8902f2fe6077"
     ],
+    "Optics Express": [
+      "b832199d8494cc67a559fec5"
+    ],
     "Photonics for Quantum 2026": [
       "2b5f9302fe96c2793d48540e"
     ],
@@ -635,6 +664,7 @@
       "83a830ace13b5158f346c392",
       "9351be654a20f4a2f7121847",
       "973790e22c46d30721660799",
+      "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
       "ca00b2160d3deb8b79b61e6e",
       "ccd82d84305d463a6c33398d",
@@ -642,7 +672,7 @@
       "ead3d4ba8c5090acac05878a"
     ]
   },
-  "paper_count": 25,
+  "paper_count": 26,
   "schema_version": 1,
-  "updated_at": "2026-08-27T16:33:11.335258Z"
+  "updated_at": "2026-08-29T00:54:44.597692Z"
 }
