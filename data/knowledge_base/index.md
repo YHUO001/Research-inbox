@@ -1,10 +1,26 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`26`
-- 更新时间：`2026-08-29T00:54:44.597692Z`
+- 论文数：`28`
+- 更新时间：`2026-08-30T01:06:42.696505Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Silicon microring resonator for photonic neural networks
+
+- DOI/链接：[10.14288/1.0455632](https://doi.org/10.14288/1.0455632)
+- 期刊/年份：Open Collections，2026
+- 摘要日期：`2026-08-30`
+- 候选 ID：`9322fad036b3d7fc8e3dd47b`
+- 标签：application:传感内成像分类, application:光子张量核心计算, application:图像分类, architecture:unclear, hardware_validation:mixed, project:optical-neural-networks
+
+### Photonic Neuromorphic Quantum Intelligence for Real-Time Multimodal Fusion across 6G, Robotics, Biomedicine, Earth Observation and Industry 5.0
+
+- DOI/链接：[10.62311/nesx/rp2ag-30082026](https://doi.org/10.62311/nesx/rp2ag-30082026)
+- 期刊/年份：International Journal of Academic and Industrial Research Innovations(IJAIRI)，2026
+- 摘要日期：`2026-08-30`
+- 候选 ID：`7bc9d4230ed283852c3248a7`
+- 标签：application:6g 通信, application:工业 5.0, application:机器人, application:生物医学信号处理, application:高光谱地球观测, architecture:unclear, project:optical-neural-networks
 
 ### Simulated task-decomposed multi-channel diffractive neural networks for scalable and robust shallow-layer optical multiclass classification
 

@@ -354,6 +354,64 @@
       "retrieved_at": "2026-08-09T00:36:08.846606Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/nap2.70276": {
+      "expires_at": "2026-09-29T01:05:16.367033Z",
+      "record": {
+        "abstract": "ABSTRACT The synthesis of complex vectorial light fields with nontrivial topological polarization textures requires the coordinated control of spatial amplitude, phase, and polarization. A central challenge is to realize such multidimensional control in a compact physical architecture while retaining multiplexing capability. Here, we propose a vectorial diffractive neural network (VDNN) based on three cascaded metasurfaces for compact passive synthesis of topological vector light fields. By jointly encoding phase and polarization responses across the cascaded layers, the VDNN enables spatially multiplexed generation of multiple skyrmionic and bimeronic states. In a representative design, we demonstrate up to 16 topological textures with numerically evaluated average skyrmion numbers of , and an average orbital angular momentum (OAM) mode purity exceeding . Full‐wave simulations and tolerance analysis further show that this functionality can be preserved under realistic meta‐atom responses and inter‐layer perturbations. This work provides an inverse‐design approach for compact and multiplexed synthesis of complex topological vector light fields for potential applications in free‐space optical communications, particle manipulation, and polarization imaging.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tianqu Chen",
+            "orcid": null
+          },
+          {
+            "name": "Xu Xing",
+            "orcid": null
+          },
+          {
+            "name": "Mingfeng Xu",
+            "orcid": null
+          },
+          {
+            "name": "Yong Yu",
+            "orcid": null
+          },
+          {
+            "name": "Xi Tang",
+            "orcid": "https://orcid.org/0000-0002-5354-0794"
+          },
+          {
+            "name": "Yinghui Guo",
+            "orcid": null
+          },
+          {
+            "name": "Fei Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Mingbo Pu",
+            "orcid": null
+          },
+          {
+            "name": "Xiangang Luo",
+            "orcid": "https://orcid.org/0000-0002-1401-1670"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/nap2.70276",
+        "landing_page": "https://doi.org/10.1002/nap2.70276",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/nap2.70276",
+        "publication_date": "2026-09-11",
+        "title": "Vectorial Diffractive Neural Metasurfaces for Multiplexed Synthesis of Optical Skyrmions",
+        "venue": "Nanophotonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-30T01:05:16.367033Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/smll.75213": {
       "expires_at": "2026-09-24T00:32:20.466121Z",
       "record": {
@@ -2552,6 +2610,64 @@
       "retrieved_at": "2026-08-18T04:25:11.622324Z",
       "status": "found"
     },
+    "crossref:doi:10.1186/s43074-026-00278-8": {
+      "expires_at": "2026-09-29T01:05:17.375686Z",
+      "record": {
+        "abstract": "Abstract Inspired by the key elements and principles in the brain, photonic neuromorphic computing shows great potential for building next-generation intelligent processing systems with high parallelism, low latency, low power consumption, and self-learning capabilities. While summarizing significant advances in this field, this review offers insights into how photonic neuromorphic computing systems support next-generation intelligent information processing. Specifically, we discuss emerging materials and devices, which support more compact integration of efficient physical architectures. Architectures such as photonic spiking neural networks and reservoir computing, together with associated learning paradigms, show a trend of collaborative development. Then we present promising applications, where neuromorphic computing systems provide broadband and multi-domain perception and processing. Finally, we discuss key challenges and future directions. This review aims to offer a clear and comprehensive overview for researchers across a broad community. We hope to present these insights in a “neuromorphic” manner, to reveal why learning from the brain has become increasingly important, especially for overcoming the efficiency bottleneck in traditional von Neumann architecture and data-intensive artificial neural networks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dun Lan",
+            "orcid": null
+          },
+          {
+            "name": "Bowen Ma",
+            "orcid": null
+          },
+          {
+            "name": "Yuxiang Ji",
+            "orcid": null
+          },
+          {
+            "name": "Yichen Zeng",
+            "orcid": null
+          },
+          {
+            "name": "Zhihong Zou",
+            "orcid": null
+          },
+          {
+            "name": "Zongsheng Li",
+            "orcid": null
+          },
+          {
+            "name": "Yiyang Xu",
+            "orcid": null
+          },
+          {
+            "name": "Mengmeng Chai",
+            "orcid": null
+          },
+          {
+            "name": "Weiwen Zou",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1186/s43074-026-00278-8",
+        "landing_page": "https://doi.org/10.1186/s43074-026-00278-8",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1186/s43074-026-00278-8",
+        "publication_date": "2026-08-28",
+        "title": "Toward brain-inspired intelligence: a review of photonic neuromorphic computing systems",
+        "venue": "PhotoniX",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-30T01:05:17.375686Z",
+      "status": "found"
+    },
     "crossref:doi:10.1364/oe.605087": {
       "expires_at": "2026-09-17T04:25:28.954331Z",
       "record": {
@@ -2669,6 +2785,12 @@
       },
       "retrieved_at": "2026-08-20T00:32:31.197134Z",
       "status": "found"
+    },
+    "crossref:doi:10.14288/1.0455632": {
+      "expires_at": "2026-09-29T01:05:15.940425Z",
+      "record": null,
+      "retrieved_at": "2026-08-30T01:05:15.940425Z",
+      "status": "not_found"
     },
     "crossref:doi:10.21203/rs.3.rs-10187577/v1": {
       "expires_at": "2026-09-04T13:20:51.775599Z",
@@ -2836,6 +2958,12 @@
       "retrieved_at": "2026-08-18T04:25:17.174341Z",
       "status": "not_found"
     },
+    "crossref:doi:10.5281/zenodo.22136521": {
+      "expires_at": "2026-09-29T01:05:16.758744Z",
+      "record": null,
+      "retrieved_at": "2026-08-30T01:05:16.758744Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.6084/m9.figshare.33345483.v1": {
       "expires_at": "2026-09-27T03:25:34.221155Z",
       "record": null,
@@ -2853,6 +2981,32 @@
       "record": null,
       "retrieved_at": "2026-08-05T13:20:52.295864Z",
       "status": "not_found"
+    },
+    "crossref:doi:10.62311/nesx/rp2ag-30082026": {
+      "expires_at": "2026-09-29T01:05:15.478190Z",
+      "record": {
+        "abstract": "Abstract: Real-time intelligence increasingly depends on the simultaneous interpretation of heterogeneous signals generated by wireless networks, autonomous machines, biomedical instruments, Earth-observation platforms and cyber-physical industrial assets. Yet contemporary architectures typically optimise communication, sensing, inference and decision-making in separate computational stacks, creating latency, energy and interoperability bottlenecks. This paper proposes the Photonic–Neuromorphic Quantum Real-Time Fusion (PNQ-RTF) framework, a model-based architecture that integrates ultrabroadband photonic signal transformation, event-driven neuromorphic dynamics, multimodal representation learning and quantum-assisted optimisation for cross-domain signal, sensor and decision fusion. The methodology combines matrix fusion, spiking differential dynamics, photonic linear transforms, variational quantum representations, Bayesian uncertainty aggregation and constrained multi-objective optimisation. Five application layers—6G communications, robotics, biomedicine, Earth observation and Industry 5.0—are represented within a common latent state and decision space. An illustrative 0–10 numerical model produces a weighted conventional fusion score of 6.80 and a PNQ-RTF score of 8.30, corresponding to a demonstrative improvement of 22.1%. A second composite index incorporating latency, energy efficiency, uncertainty control and reliability yields a Real-Time Fusion Readiness score of 8.17. These values are illustrative rather than empirical. The study’s principal contribution is an interdisciplinary mathematical framework showing how photonic speed, neuromorphic sparsity and quantum-assisted search can be organised as complementary computational layers while preserving domain-specific safety, explainability and validation requirements. The framework provides a testable basis for future hardware–software co-design and cross-sector benchmarking of next-generation real-time intelligent systems. Keywords: photonic computing; neuromorphic intelligence; quantum artificial intelligence; real-time signal fusion; multimodal sensor fusion; 6G; autonomous robotics; biomedical signal processing; hyperspectral Earth observation; Industry 5.0; spiking neural networks; quantum optimisation; edge intelligence; digital twins; uncertainty-aware decision fusion",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Murali Krishna Pasupuleti",
+            "orcid": "https://orcid.org/0009-0007-1023-7035"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.62311/nesx/rp2ag-30082026",
+        "landing_page": "https://doi.org/10.62311/nesx/rp2ag-30082026",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.62311/nesx/rp2ag-30082026",
+        "publication_date": "2026-08-30",
+        "title": "Photonic Neuromorphic Quantum Intelligence for Real-Time Multimodal Fusion across 6G, Robotics, Biomedicine, Earth Observation and Industry 5.0",
+        "venue": "International Journal of Academic and Industrial Research Innovations(IJAIRI)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-30T01:05:15.478190Z",
+      "status": "found"
     },
     "crossref:doi:10.64388/irev10i2-1722321": {
       "expires_at": "2026-09-17T04:25:14.957375Z",
@@ -5450,6 +5604,64 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-09T00:36:09.165601Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/nap2.70276": {
+      "expires_at": "2026-09-29T01:05:16.699795Z",
+      "record": {
+        "abstract": "ABSTRACT The synthesis of complex vectorial light fields with nontrivial topological polarization textures requires the coordinated control of spatial amplitude, phase, and polarization. A central challenge is to realize such multidimensional control in a compact physical architecture while retaining multiplexing capability. Here, we propose a vectorial diffractive neural network (VDNN) based on three cascaded metasurfaces for compact passive synthesis of topological vector light fields. By jointly encoding phase and polarization responses across the cascaded layers, the VDNN enables spatially multiplexed generation of multiple skyrmionic and bimeronic states. In a representative design, we demonstrate up to 16 topological textures with numerically evaluated average skyrmion numbers of , and an average orbital angular momentum (OAM) mode purity exceeding . Full‐wave simulations and tolerance analysis further show that this functionality can be preserved under realistic meta‐atom responses and inter‐layer perturbations. This work provides an inverse‐design approach for compact and multiplexed synthesis of complex topological vector light fields for potential applications in free‐space optical communications, particle manipulation, and polarization imaging.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tianqu Chen",
+            "orcid": null
+          },
+          {
+            "name": "Xu Xing",
+            "orcid": null
+          },
+          {
+            "name": "Mingfeng Xu",
+            "orcid": "https://orcid.org/0000-0003-2067-4312"
+          },
+          {
+            "name": "Yong Yu",
+            "orcid": null
+          },
+          {
+            "name": "Xi Tang",
+            "orcid": "https://orcid.org/0000-0002-5354-0794"
+          },
+          {
+            "name": "Yinghui Guo",
+            "orcid": "https://orcid.org/0000-0003-4143-1600"
+          },
+          {
+            "name": "Fei Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Mingbo Pu",
+            "orcid": null
+          },
+          {
+            "name": "Xiangang Luo",
+            "orcid": "https://orcid.org/0000-0002-1401-1670"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/nap2.70276",
+        "landing_page": "https://doi.org/10.1002/nap2.70276",
+        "open_access_url": "https://doi.org/10.1002/nap2.70276",
+        "openalex_id": "https://openalex.org/W7204567760",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204567760",
+        "publication_date": "2026-08-28",
+        "title": "Vectorial Diffractive Neural Metasurfaces for Multiplexed Synthesis of Optical Skyrmions",
+        "venue": "Nanophotonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-30T01:05:16.699795Z",
       "status": "found"
     },
     "openalex:doi:10.1002/smll.75213": {
@@ -8930,6 +9142,64 @@
       "retrieved_at": "2026-08-18T04:25:11.946500Z",
       "status": "found"
     },
+    "openalex:doi:10.1186/s43074-026-00278-8": {
+      "expires_at": "2026-09-29T01:05:17.699553Z",
+      "record": {
+        "abstract": "Abstract Inspired by the key elements and principles in the brain, photonic neuromorphic computing shows great potential for building next-generation intelligent processing systems with high parallelism, low latency, low power consumption, and self-learning capabilities. While summarizing significant advances in this field, this review offers insights into how photonic neuromorphic computing systems support next-generation intelligent information processing. Specifically, we discuss emerging materials and devices, which support more compact integration of efficient physical architectures. Architectures such as photonic spiking neural networks and reservoir computing, together with associated learning paradigms, show a trend of collaborative development. Then we present promising applications, where neuromorphic computing systems provide broadband and multi-domain perception and processing. Finally, we discuss key challenges and future directions. This review aims to offer a clear and comprehensive overview for researchers across a broad community. We hope to present these insights in a “neuromorphic” manner, to reveal why learning from the brain has become increasingly important, especially for overcoming the efficiency bottleneck in traditional von Neumann architecture and data-intensive artificial neural networks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dun Lan",
+            "orcid": null
+          },
+          {
+            "name": "Bowen Ma",
+            "orcid": null
+          },
+          {
+            "name": "Yuxiang Ji",
+            "orcid": null
+          },
+          {
+            "name": "Yichen Zeng",
+            "orcid": null
+          },
+          {
+            "name": "Zhihong Zou",
+            "orcid": null
+          },
+          {
+            "name": "Zongsheng Li",
+            "orcid": null
+          },
+          {
+            "name": "Yiyang Xu",
+            "orcid": null
+          },
+          {
+            "name": "Mengmeng Chai",
+            "orcid": "https://orcid.org/0009-0008-3302-5884"
+          },
+          {
+            "name": "Weiwen Zou",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1186/s43074-026-00278-8",
+        "landing_page": "https://doi.org/10.1186/s43074-026-00278-8",
+        "open_access_url": "https://doi.org/10.1186/s43074-026-00278-8",
+        "openalex_id": "https://openalex.org/W7204499627",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204499627",
+        "publication_date": "2026-08-28",
+        "title": "Toward brain-inspired intelligence: a review of photonic neuromorphic computing systems",
+        "venue": "PhotoniX",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-30T01:05:17.699553Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/ao.597691": {
       "expires_at": "2026-09-03T09:38:57.606662Z",
       "record": {
@@ -9484,6 +9754,32 @@
       "retrieved_at": "2026-08-20T00:32:31.551627Z",
       "status": "found"
     },
+    "openalex:doi:10.14288/1.0455632": {
+      "expires_at": "2026-09-29T01:05:16.268118Z",
+      "record": {
+        "abstract": "Photonic neural networks (PNNs) have emerged as a promising hardware platform for artificial intelligence by exploiting the high bandwidth, inherent parallelism, and low latency of optical computing. Among integrated photonic devices, silicon microring resonators, with their compact footprint and compatibility with complementary metal–oxide–semiconductor (CMOS) fabrication, have been widely investigated for implementing modulation and weighting. However, previous practical PNN systems for a specific task, such as image classification, have separated sensing and computing units, which limits the system performance. Furthermore, a practical PNN requires more than modulation and weighting. A nonlinear activation function is a necessary module for implementing multilayer neural networks, while reliable chip packaging is required to achieve a standalone integrated system. Motivated by these challenges, this thesis investigates the use of silicon microring resonators in photonic neural networks, with a focus on all-optical modulation for in-sensor imaging classification, nonlinear activation, and chip packaging implementation. First, all-optical modulation in silicon microring resonators is experimentally demonstrated and analyzed. The modulation mechanism is explained through the free carrier dispersion effect and the thermo-optic effect. A dynamic model is developed to describe the device response. Experimental measurements under different operating conditions are used to evaluate modulation performance, and an optimized operating method is proposed to enhance the modulation depth. Next, an in-sensor image classification architecture that combines all-optical modulation with PNNs is proposed, in which optical signals generated by the sensor are processed directly by a microring-based weighting network, thereby reducing unnecessary optical-electrical-optical signal conversions. Experimental dot product measurements using a microring array achieve an effective resolution of 8.1 bits. System-level evaluation based on the measured device characteristics demonstrates the feasibility of image classification using the proposed architecture. Furthermore, the investigation of microring resonators is extended to nonlinear activation functions, including both optical–electrical–optical and all-optical approaches. Finally, the chip packaging process is presented and demonstrated through a successfully packaged photonic tensor core. Overall, this thesis demonstrates the potential of silicon microring resonators as versatile building blocks for integrated PNNs. These results contribute to the development of practical, fully integrated photonic computing systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jingxiang Song",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.14288/1.0455632",
+        "landing_page": "https://doi.org/10.14288/1.0455632",
+        "open_access_url": "https://doi.org/10.14288/1.0455632",
+        "openalex_id": "https://openalex.org/W7204532596",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204532596",
+        "publication_date": "2026-08-28",
+        "title": "Silicon microring resonator for photonic neural networks",
+        "venue": "Open Collections",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-30T01:05:16.268118Z",
+      "status": "found"
+    },
     "openalex:doi:10.21203/rs.3.rs-10187577/v1": {
       "expires_at": "2026-09-04T13:20:52.127904Z",
       "record": {
@@ -9998,6 +10294,32 @@
       "retrieved_at": "2026-08-18T04:25:17.487937Z",
       "status": "found"
     },
+    "openalex:doi:10.5281/zenodo.22136521": {
+      "expires_at": "2026-09-29T01:05:17.093113Z",
+      "record": {
+        "abstract": "This paper explores the potential of utilizing multi-mode optical fields to create self-organizing photonic neural networks, mimicking and ultimately enabling computational functionalities observed in biological neuronal networks. The core principle relies on employing non-linear optical effects induced by precisely controlled laser beams within a multi-mode optical field, leading to the spontaneous generation of photons and their subsequent self-organization. This process is designed to emulate synaptic connections between neurons through photon-photon or photon-matter interactions. The dynamic changes within the multi-mode optical field, driven by the self-organization of photons, are hypothesized to facilitate learning and computation within the photonic neural network. This approach offers a fundamentally different paradigm for neural network modeling and computation, shifting from electronic circuits to direct photon association simulation. The research proposes a novel method for creating complex neural networks by harnessing the inherent properties of light, offering possibilities for future advancements in computing and neuromorphic technology.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jincheng Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.22136521",
+        "landing_page": "https://doi.org/10.5281/zenodo.22136521",
+        "open_access_url": "https://doi.org/10.5281/zenodo.22136521",
+        "openalex_id": "https://openalex.org/W7204560959",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204560959",
+        "publication_date": "2026-08-28",
+        "title": "##基于多模光场自组织神经元网络",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-30T01:05:17.093113Z",
+      "status": "found"
+    },
     "openalex:doi:10.6084/m9.figshare.33345483.v1": {
       "expires_at": "2026-09-27T03:25:34.545214Z",
       "record": {
@@ -10134,6 +10456,32 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-05T13:20:52.644002Z",
+      "status": "found"
+    },
+    "openalex:doi:10.62311/nesx/rp2ag-30082026": {
+      "expires_at": "2026-09-29T01:05:15.787831Z",
+      "record": {
+        "abstract": "Abstract: Real-time intelligence increasingly depends on the simultaneous interpretation of heterogeneous signals generated by wireless networks, autonomous machines, biomedical instruments, Earth-observation platforms and cyber-physical industrial assets. Yet contemporary architectures typically optimise communication, sensing, inference and decision-making in separate computational stacks, creating latency, energy and interoperability bottlenecks. This paper proposes the Photonic–Neuromorphic Quantum Real-Time Fusion (PNQ-RTF) framework, a model-based architecture that integrates ultrabroadband photonic signal transformation, event-driven neuromorphic dynamics, multimodal representation learning and quantum-assisted optimisation for cross-domain signal, sensor and decision fusion. The methodology combines matrix fusion, spiking differential dynamics, photonic linear transforms, variational quantum representations, Bayesian uncertainty aggregation and constrained multi-objective optimisation. Five application layers—6G communications, robotics, biomedicine, Earth observation and Industry 5.0—are represented within a common latent state and decision space. An illustrative 0–10 numerical model produces a weighted conventional fusion score of 6.80 and a PNQ-RTF score of 8.30, corresponding to a demonstrative improvement of 22.1%. A second composite index incorporating latency, energy efficiency, uncertainty control and reliability yields a Real-Time Fusion Readiness score of 8.17. These values are illustrative rather than empirical. The study’s principal contribution is an interdisciplinary mathematical framework showing how photonic speed, neuromorphic sparsity and quantum-assisted search can be organised as complementary computational layers while preserving domain-specific safety, explainability and validation requirements. The framework provides a testable basis for future hardware–software co-design and cross-sector benchmarking of next-generation real-time intelligent systems. Keywords: photonic computing; neuromorphic intelligence; quantum artificial intelligence; real-time signal fusion; multimodal sensor fusion; 6G; autonomous robotics; biomedical signal processing; hyperspectral Earth observation; Industry 5.0; spiking neural networks; quantum optimisation; edge intelligence; digital twins; uncertainty-aware decision fusion",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Murali Krishna Pasupuleti",
+            "orcid": "https://orcid.org/0009-0007-1023-7035"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.62311/nesx/rp2ag-30082026",
+        "landing_page": "https://doi.org/10.62311/nesx/rp2ag-30082026",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7204547376",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204547376",
+        "publication_date": "2026-08-28",
+        "title": "Photonic Neuromorphic Quantum Intelligence for Real-Time Multimodal Fusion across 6G, Robotics, Biomedicine, Earth Observation and Industry 5.0",
+        "venue": "International Journal of Academic and Industrial Research Innovations(IJAIRI)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-30T01:05:15.787831Z",
       "status": "found"
     },
     "openalex:doi:10.64388/irev10i2-1722321": {

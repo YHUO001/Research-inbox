@@ -1,50 +1,72 @@
 {
   "abstract_fallback_candidate_ids": [
-    "b832199d8494cc67a559fec5"
+    "7bc9d4230ed283852c3248a7",
+    "9322fad036b3d7fc8e3dd47b"
   ],
-  "abstract_fallback_count": 1,
+  "abstract_fallback_count": 2,
   "architecture_evidence": {
-    "b832199d8494cc67a559fec5": {
+    "7bc9d4230ed283852c3248a7": {
       "changed": false,
-      "free_space_evidence": [
-        "Diffractive deep neural networks (D 2 NNs) enable ultrafast and energy-efficient inference through free-space propagation."
-      ],
+      "free_space_evidence": [],
       "integrated_evidence": [],
-      "previous_type": "free_space",
-      "resolved_type": "free_space"
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    },
+    "9322fad036b3d7fc8e3dd47b": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 1,
-  "completed_at": "2026-08-29T00:54:44.597692Z",
+  "automatic_queue_candidate_count": 2,
+  "completed_at": "2026-08-30T01:06:42.696505Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "b832199d8494cc67a559fec5"
+    "7bc9d4230ed283852c3248a7",
+    "9322fad036b3d7fc8e3dd47b"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-08-29",
-  "digest_json_file": "runtime-state/data/digests/2026-08-29.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-08-29.generated.md",
+  "digest_date": "2026-08-30",
+  "digest_json_file": "runtime-state/data/digests/2026-08-30.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-08-30.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0138662,
+  "estimated_cost_cny": 0.0268894,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "b832199d8494cc67a559fec5": {
+    "7bc9d4230ed283852c3248a7": {
       "abstract_available": true,
       "attempt_count": 3,
-      "candidate_id": "b832199d8494cc67a559fec5",
+      "candidate_id": "7bc9d4230ed283852c3248a7",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 4.498,
-      "error": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-34-18-33357&html=true: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "elapsed_seconds": 30.871,
+      "error": "https://doi.org/10.62311/nesx/rp2ag-30082026: URLError: <urlopen error timed out>; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": null,
       "section_headings": [],
-      "source_url": "https://doi.org/10.1364/oe.605087",
+      "source_url": "https://doi.org/10.62311/nesx/rp2ag-30082026",
+      "status": "not_available",
+      "text_persisted": false
+    },
+    "9322fad036b3d7fc8e3dd47b": {
+      "abstract_available": true,
+      "attempt_count": 3,
+      "candidate_id": "9322fad036b3d7fc8e3dd47b",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 2.364,
+      "error": "https://open.library.ubc.ca/collections/24/items/1.0455632: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.14288/1.0455632",
       "status": "not_available",
       "text_persisted": false
     }
@@ -55,7 +77,7 @@
   "information_basis": "title_metadata_and_abstract_only",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 1,
+  "newly_completed_candidate_count": 2,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -71,86 +93,119 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 1,
+  "prepared_request_count": 2,
   "provider": "deepseek",
-  "queue_sha256": "e551bc571c2ed6b96fa7c521d454f3633154462866c45c9a5895d0ffb3a558cd",
-  "request_count": 1,
-  "request_file": "runtime-state/data/summary_requests/2026-08-29.jsonl",
-  "request_sha256": "06daca0bc87380501d8ec6f2e4cc551734cba1c10899f291812e73cc75e384d8",
+  "queue_sha256": "2dbb65b3b190e7a9ad56f0ebb7d38f623308685c8083020b99ea8204519c0c8d",
+  "request_count": 2,
+  "request_file": "runtime-state/data/summary_requests/2026-08-30.jsonl",
+  "request_sha256": "77c23811a2eb7a590f77dd8f34f06eff345680f488c75dd08d0b4070d50b26ec",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "3c14a25352246d1def52a00c64ff1d1e6b569958e08a233147cd6927972cb101",
+  "selection_manifest_sha256": "e4c439846b9a3ac67fdd1d81011af3fddd239e043aa4118e1c08805ddd2e5bf8",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 1,
+  "source_queue_candidate_count": 2,
   "stage_timings": {
-    "full_text_preparation_seconds": 4.502,
+    "full_text_preparation_seconds": 33.24,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "b832199d8494cc67a559fec5",
-        "elapsed_seconds": 25.296,
+        "candidate_id": "7bc9d4230ed283852c3248a7",
+        "elapsed_seconds": 23.93,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1572,
+          "completion_tokens": 1468,
           "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1461,
-          "prompt_tokens": 3509,
-          "total_tokens": 5081
+          "prompt_cache_miss_tokens": 1572,
+          "prompt_tokens": 3620,
+          "total_tokens": 5088
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "9322fad036b3d7fc8e3dd47b",
+        "elapsed_seconds": 25.644,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1424,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1573,
+          "prompt_tokens": 3621,
+          "total_tokens": 5045
         }
       }
     ],
-    "model_generation_and_validation_seconds": 25.315
+    "model_generation_and_validation_seconds": 49.592
   },
   "status": "completed_automatic",
-  "summary_count": 1,
-  "summary_file": "runtime-state/data/summaries/2026-08-29.jsonl",
+  "summary_count": 2,
+  "summary_file": "runtime-state/data/summaries/2026-08-30.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 1,
+  "summary_slot_count": 2,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "b832199d8494cc67a559fec5": {
-        "free_space_evidence": [
-          "Diffractive deep neural networks (D 2 NNs) enable ultrafast and energy-efficient inference through free-space propagation."
-        ],
+      "7bc9d4230ed283852c3248a7": {
+        "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": "free_space",
-        "repaired": false,
-        "resolved_type": "free_space"
+        "model_value": "hybrid",
+        "repaired": true,
+        "resolved_type": "unclear"
+      },
+      "9322fad036b3d7fc8e3dd47b": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "integrated",
+        "repaired": true,
+        "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 0,
+    "architecture_repairs": 2,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "b832199d8494cc67a559fec5": {
+      "7bc9d4230ed283852c3248a7": {
         "abstract_available": true,
         "attempt_count": 3,
-        "candidate_id": "b832199d8494cc67a559fec5",
+        "candidate_id": "7bc9d4230ed283852c3248a7",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 4.498,
-        "error": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-34-18-33357&html=true: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "elapsed_seconds": 30.871,
+        "error": "https://doi.org/10.62311/nesx/rp2ag-30082026: URLError: <urlopen error timed out>; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": null,
         "section_headings": [],
-        "source_url": "https://doi.org/10.1364/oe.605087",
+        "source_url": "https://doi.org/10.62311/nesx/rp2ag-30082026",
+        "status": "not_available",
+        "text_persisted": false
+      },
+      "9322fad036b3d7fc8e3dd47b": {
+        "abstract_available": true,
+        "attempt_count": 3,
+        "candidate_id": "9322fad036b3d7fc8e3dd47b",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 2.364,
+        "error": "https://open.library.ubc.ca/collections/24/items/1.0455632: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.14288/1.0455632",
         "status": "not_available",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 1,
+    "generation_metadata_repair_responses": 2,
     "numeric_grounding_repair_responses": 0,
     "numeric_grounding_repairs": {},
     "tops_alias_expansions": 0,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 1572,
-    "prompt_cache_hit_tokens": 2048,
-    "prompt_cache_miss_tokens": 1461,
-    "prompt_tokens": 3509,
-    "total_tokens": 5081
+    "completion_tokens": 2892,
+    "prompt_cache_hit_tokens": 4096,
+    "prompt_cache_miss_tokens": 3145,
+    "prompt_tokens": 7241,
+    "total_tokens": 10133
   }
 }

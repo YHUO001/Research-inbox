@@ -1,0 +1,42 @@
+{
+  "built_at": "2026-08-30T01:05:18.398429Z",
+  "digest_date": "2026-08-30",
+  "digest_version": 1,
+  "pending_summary_count": 2,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "7bc9d4230ed283852c3248a7",
+        "landing_page": "https://doi.org/10.62311/nesx/rp2ag-30082026",
+        "mandatory": false,
+        "score": 0.79,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Photonic Neuromorphic Quantum Intelligence for Real-Time Multimodal Fusion across 6G, Robotics, Biomedicine, Earth Observation and Industry 5.0",
+        "venue": "International Journal of Academic and Industrial Research Innovations(IJAIRI)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "9322fad036b3d7fc8e3dd47b",
+        "landing_page": "https://doi.org/10.14288/1.0455632",
+        "mandatory": false,
+        "score": 0.79,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Silicon microring resonator for photonic neural networks",
+        "venue": "Open Collections",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

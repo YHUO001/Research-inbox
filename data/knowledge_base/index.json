@@ -145,6 +145,15 @@
       "summary_record_sha256": "13b40fca4cc645841a37d14b44ac0aed0895807bd6b74b4ed53fd0f5401fe388",
       "title": "A Proximal Newton-Type Algorithm for Zeroth-Order Stochastic Composite Optimization with a New Norm Test for Sample Size Selection"
     },
+    "7bc9d4230ed283852c3248a7": {
+      "digest_date": "2026-08-30",
+      "doi": "10.62311/nesx/rp2ag-30082026",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "d3a475b9ed0cf8917d7cbfe6051b50ecb56ff46e3e612c5ed1edc1862176f48e",
+      "title": "Photonic Neuromorphic Quantum Intelligence for Real-Time Multimodal Fusion across 6G, Robotics, Biomedicine, Earth Observation and Industry 5.0"
+    },
     "7d6c2a059923ebe445a1cdf7": {
       "digest_date": "2026-08-08",
       "doi": "10.1117/12.3116253",
@@ -162,6 +171,15 @@
       ],
       "summary_record_sha256": "5e759c382b39f5b054a3122e808b02c19cab0877935f13a3c2bb4359b4d2af3f",
       "title": "Emerging light-driven neuromorphic hardware for artificial intelligence"
+    },
+    "9322fad036b3d7fc8e3dd47b": {
+      "digest_date": "2026-08-30",
+      "doi": "10.14288/1.0455632",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "a62e51a768d90d65d3b9b59edb71f72c0ae1b5859e91e9798465bf971ed1e9b8",
+      "title": "Silicon microring resonator for photonic neural networks"
     },
     "9351be654a20f4a2f7121847": {
       "digest_date": "2026-08-27",
@@ -284,6 +302,10 @@
     ],
     "2026-08-29": [
       "b832199d8494cc67a559fec5"
+    ],
+    "2026-08-30": [
+      "7bc9d4230ed283852c3248a7",
+      "9322fad036b3d7fc8e3dd47b"
     ]
   },
   "by_doi": {
@@ -305,13 +327,15 @@
     "10.1364/cleo_at.2026.jtu.84": "5017adbd33e6ddd5c320a4c4",
     "10.1364/oe.605087": "b832199d8494cc67a559fec5",
     "10.1364/optica.591264": "1cf1fcd769c5ace951188b8c",
+    "10.14288/1.0455632": "9322fad036b3d7fc8e3dd47b",
     "10.21203/rs.3.rs-10187577/v1": "1e35265ce8678ca96adb8b93",
     "10.48550/arxiv.2608.03277": "142dc76f41fc25448b82c91e",
     "10.48550/arxiv.2608.08060": "2f9953028e4e0e3b934222c8",
     "10.48550/arxiv.2608.12300": "0cbf41592278a3ad1b89e219",
     "10.48550/arxiv.2608.12679": "ca00b2160d3deb8b79b61e6e",
     "10.48550/arxiv.2608.15665": "dd2f544b89860edf2c2a51ae",
-    "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799"
+    "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799",
+    "10.62311/nesx/rp2ag-30082026": "7bc9d4230ed283852c3248a7"
   },
   "by_project": {
     "optical-neural-networks": [
@@ -327,8 +351,10 @@
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
+      "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
+      "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "973790e22c46d30721660799",
       "b832199d8494cc67a559fec5",
@@ -347,11 +373,17 @@
     ]
   },
   "by_tag": {
+    "application:6g 通信": [
+      "7bc9d4230ed283852c3248a7"
+    ],
     "application:mnist 手写数字分类": [
       "b832199d8494cc67a559fec5"
     ],
     "application:mnist手写数字分类": [
       "973790e22c46d30721660799"
+    ],
+    "application:传感内成像分类": [
+      "9322fad036b3d7fc8e3dd47b"
     ],
     "application:传感器内计算": [
       "83a830ace13b5158f346c392"
@@ -361,6 +393,9 @@
     ],
     "application:光信号处理": [
       "ccd82d84305d463a6c33398d"
+    ],
+    "application:光子张量核心计算": [
+      "9322fad036b3d7fc8e3dd47b"
     ],
     "application:分布式声学传感（das）": [
       "1cf1fcd769c5ace951188b8c"
@@ -381,7 +416,8 @@
       "c3474ba19a69c715eb87d391"
     ],
     "application:图像分类": [
-      "2eb28d7201afb356d747693a"
+      "2eb28d7201afb356d747693a",
+      "9322fad036b3d7fc8e3dd47b"
     ],
     "application:图像分类（cifar-10、fashion-mnist、mnist）": [
       "1cf1fcd769c5ace951188b8c"
@@ -404,11 +440,17 @@
     "application:实时感知": [
       "83a830ace13b5158f346c392"
     ],
+    "application:工业 5.0": [
+      "7bc9d4230ed283852c3248a7"
+    ],
     "application:望远镜成像": [
       "0cbf41592278a3ad1b89e219"
     ],
     "application:未提供": [
       "5017adbd33e6ddd5c320a4c4"
+    ],
+    "application:机器人": [
+      "7bc9d4230ed283852c3248a7"
     ],
     "application:机器视觉": [
       "83a830ace13b5158f346c392"
@@ -418,6 +460,9 @@
     ],
     "application:混合 mnist 与 fashion-mnist 的 20 类分类": [
       "b832199d8494cc67a559fec5"
+    ],
+    "application:生物医学信号处理": [
+      "7bc9d4230ed283852c3248a7"
     ],
     "application:自主导航": [
       "328b1572ba0e31f8f8a6dac1"
@@ -446,6 +491,9 @@
     "application:量子计算": [
       "ccd82d84305d463a6c33398d"
     ],
+    "application:高光谱地球观测": [
+      "7bc9d4230ed283852c3248a7"
+    ],
     "architecture:free_space": [
       "5017adbd33e6ddd5c320a4c4",
       "9351be654a20f4a2f7121847",
@@ -466,15 +514,18 @@
       "328b1572ba0e31f8f8a6dac1",
       "4bb38e8bcc3a3d164bd28700",
       "541094f286db8902f2fe6077",
+      "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
+      "9322fad036b3d7fc8e3dd47b",
       "c3474ba19a69c715eb87d391",
       "ccd82d84305d463a6c33398d"
     ],
     "hardware_validation:mixed": [
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
-      "2b5f9302fe96c2793d48540e"
+      "2b5f9302fe96c2793d48540e",
+      "9322fad036b3d7fc8e3dd47b"
     ],
     "hardware_validation:physical_experiment": [
       "1e619f1b739f1893eae64f28",
@@ -509,8 +560,10 @@
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
+      "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
+      "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "973790e22c46d30721660799",
       "b832199d8494cc67a559fec5",
@@ -591,6 +644,9 @@
     "CLEO 2026": [
       "5017adbd33e6ddd5c320a4c4"
     ],
+    "International Journal of Academic and Industrial Research Innovations(IJAIRI)": [
+      "7bc9d4230ed283852c3248a7"
+    ],
     "Journal of Scientific Computing": [
       "7719ae17086cb97168bebbc5"
     ],
@@ -599,6 +655,9 @@
     ],
     "NPG Asia Materials": [
       "83a830ace13b5158f346c392"
+    ],
+    "Open Collections": [
+      "9322fad036b3d7fc8e3dd47b"
     ],
     "Optica": [
       "1cf1fcd769c5ace951188b8c"
@@ -660,8 +719,10 @@
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
       "7719ae17086cb97168bebbc5",
+      "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
+      "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "973790e22c46d30721660799",
       "b832199d8494cc67a559fec5",
@@ -672,7 +733,7 @@
       "ead3d4ba8c5090acac05878a"
     ]
   },
-  "paper_count": 26,
+  "paper_count": 28,
   "schema_version": 1,
-  "updated_at": "2026-08-29T00:54:44.597692Z"
+  "updated_at": "2026-08-30T01:06:42.696505Z"
 }
