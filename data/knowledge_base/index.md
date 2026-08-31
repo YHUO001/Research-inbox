@@ -1,7 +1,7 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`28`
-- 更新时间：`2026-08-30T01:06:42.696505Z`
+- 论文数：`30`
+- 更新时间：`2026-08-31T01:08:28.520884Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
@@ -178,6 +178,22 @@ Perception
 - 标签：application:分布式声学传感（das）, application:图像分类（cifar-10、fashion-mnist、mnist）, application:语音识别（fsdd）, architecture:integrated, hardware_validation:mixed, project:optical-neural-networks
 
 ## zeroth-order-optimization
+
+### Zeroth-Order Nonsmooth Nonconvex Optimization with Convex Liftings and Its Application to State-Feedback $H_\infty$ Policy Optimization
+
+- DOI/链接：[10.48550/arxiv.2608.23178](https://doi.org/10.48550/arxiv.2608.23178)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-08-31`
+- 候选 ID：`b03b6320be57edd77b3ad7e5`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
+
+### Event-triggered Implicit Perturbation for Zeroth-Order Fine-Tuning of Spiking Transformers
+
+- DOI/链接：[10.48550/arxiv.2608.21223](https://doi.org/10.48550/arxiv.2608.21223)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-08-31`
+- 候选 ID：`f0cf0b80e6f1f53ea347c136`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
 
 ### A Proximal Newton-Type Algorithm for Zeroth-Order Stochastic Composite Optimization with a New Norm Test for Sample Size Selection
 

@@ -1,80 +1,111 @@
 {
-  "abstract_fallback_candidate_ids": [
-    "7bc9d4230ed283852c3248a7",
-    "9322fad036b3d7fc8e3dd47b"
-  ],
-  "abstract_fallback_count": 2,
+  "abstract_fallback_candidate_ids": [],
+  "abstract_fallback_count": 0,
   "architecture_evidence": {
-    "7bc9d4230ed283852c3248a7": {
+    "b03b6320be57edd77b3ad7e5": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
-      "previous_type": "unclear",
+      "previous_type": null,
       "resolved_type": "unclear"
     },
-    "9322fad036b3d7fc8e3dd47b": {
+    "f0cf0b80e6f1f53ea347c136": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
-      "previous_type": "unclear",
+      "previous_type": null,
       "resolved_type": "unclear"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
   "automatic_queue_candidate_count": 2,
-  "completed_at": "2026-08-30T01:06:42.696505Z",
+  "completed_at": "2026-08-31T01:08:28.520884Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "7bc9d4230ed283852c3248a7",
-    "9322fad036b3d7fc8e3dd47b"
+    "b03b6320be57edd77b3ad7e5",
+    "f0cf0b80e6f1f53ea347c136"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-08-30",
-  "digest_json_file": "runtime-state/data/digests/2026-08-30.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-08-30.generated.md",
+  "digest_date": "2026-08-31",
+  "digest_json_file": "runtime-state/data/digests/2026-08-31.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-08-31.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0268894,
+  "estimated_cost_cny": 0.057471,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "7bc9d4230ed283852c3248a7": {
+    "b03b6320be57edd77b3ad7e5": {
       "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "7bc9d4230ed283852c3248a7",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 30.871,
-      "error": "https://doi.org/10.62311/nesx/rp2ag-30082026: URLError: <urlopen error timed out>; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.62311/nesx/rp2ag-30082026",
-      "status": "not_available",
+      "attempt_count": 1,
+      "candidate_id": "b03b6320be57edd77b3ad7e5",
+      "character_count": 12000,
+      "content_sha256": "3d7bad8cdab81ef044e7f6e533a45124b1f3d2bdc5e544835d756cdbdf52ed3a",
+      "elapsed_seconds": 1.171,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        ", and large language model training",
+        "policy optimization methods lies in the fact that the",
+        "We propose the Zeroth-Order Proximal Point Algorithm for nonconvex nonsmooth problems with convex liftings, following the structure of the inexact proximal point method",
+        "analyzed convergence and sample complexity for model-free policy gradient methods for continuous-time LQR. For other types of control problems,",
+        "established global convergence of Goldstein’s subgradient method and its variants for state-feedback",
+        "investigated the vanilla subgradient method for state-feedback",
+        "proposed the mirror stochastic gradient method that operates only in the original decision variable space for certain hidden convex problems; they established",
+        ", even though policy optimization methods for",
+        "are globally optimal, suggesting that first-order or zeroth-order optimization methods should be able to find globally optimal points despite the non-convexity of",
+        "have investigated first-order and zeroth-order methods applied to the minimization of",
+        "has proposed a sample-based method for",
+        "into, say, the stochastic gradient descent method, one will obtain a zeroth-order optimization algorithm that tries to minimize",
+        "convergence rate for the subgradient descent method; see, e.g.,",
+        "factor seems prevalent for derivative-free methods based on zeroth-order gradient estimators",
+        "studied Goldstein’s subgradient method for the state-feedback",
+        "cost estimation method in",
+        "(including weak convexity, weak PL property, etc.), and investigated the subgradient descent method for state-feedback",
+        "will be specified later. We remark that, in practical implementations, it is not necessary to know",
+        "policy optimization. ii) Our algorithm assumes access to an exact zeroth-order oracle; how to develop a purely sample-based method that combines",
+        "LQR through the lens of first order methods: discrete-time case",
+        "Global convergence of policy gradient methods for the linear quadratic regulator",
+        "Search-R1: training LLMs to reason and leverage search engines with reinforcement learning",
+        "convergence rate for the projected stochastic subgradient method",
+        "Subgradient regularization: a descent-oriented subgradient method for nonsmooth optimization",
+        "A proximal descent method for minimizing weakly convex optimization",
+        "Derivative-free methods for policy optimization: guarantees for linear quadratic systems",
+        "Convergence and sample complexity of gradient methods for the model-free linear–quadratic regulator problem",
+        "Problem complexity and method efficiency in optimization",
+        "Training language models to follow instructions with human feedback",
+        "Policy optimization in robust control: weak convexity and subgradient methods",
+        "On stochastic gradient and subgradient methods with adaptive steplength sequences"
+      ],
+      "source_url": "https://arxiv.org/html/2608.23178",
+      "status": "used",
       "text_persisted": false
     },
-    "9322fad036b3d7fc8e3dd47b": {
+    "f0cf0b80e6f1f53ea347c136": {
       "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "9322fad036b3d7fc8e3dd47b",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 2.364,
-      "error": "https://open.library.ubc.ca/collections/24/items/1.0455632: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.14288/1.0455632",
-      "status": "not_available",
+      "attempt_count": 1,
+      "candidate_id": "f0cf0b80e6f1f53ea347c136",
+      "character_count": 9476,
+      "content_sha256": "1f7e994917b57575a960e22e524bc996aaef33d5b9d977cd3e29d3eb9e619716",
+      "elapsed_seconds": 0.288,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        "V-D Hardware Implementation"
+      ],
+      "source_url": "https://arxiv.org/html/2608.21223",
+      "status": "used",
       "text_persisted": false
     }
   },
   "full_text_persisted": false,
-  "full_text_used": false,
+  "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_and_abstract_only",
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
   "newly_completed_candidate_count": 2,
@@ -95,117 +126,164 @@
   "output_language": "zh-CN",
   "prepared_request_count": 2,
   "provider": "deepseek",
-  "queue_sha256": "2dbb65b3b190e7a9ad56f0ebb7d38f623308685c8083020b99ea8204519c0c8d",
+  "queue_sha256": "18ff5dcbaa0bbe04d873330b9220800cc90c62bb852e654eb64998a3216299ae",
   "request_count": 2,
-  "request_file": "runtime-state/data/summary_requests/2026-08-30.jsonl",
-  "request_sha256": "77c23811a2eb7a590f77dd8f34f06eff345680f488c75dd08d0b4070d50b26ec",
+  "request_file": "runtime-state/data/summary_requests/2026-08-31.jsonl",
+  "request_sha256": "cac761c56db56abce79edccef3d07bda09a8200f95366fbc59662628cfea9554",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "e4c439846b9a3ac67fdd1d81011af3fddd239e043aa4118e1c08805ddd2e5bf8",
+  "selection_manifest_sha256": "c6fa7f44b11062b8c9e917eb22055db75eadb88bd3b8811378ea792da80d0c0d",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
   "source_queue_candidate_count": 2,
   "stage_timings": {
-    "full_text_preparation_seconds": 33.24,
+    "full_text_preparation_seconds": 1.464,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "7bc9d4230ed283852c3248a7",
-        "elapsed_seconds": 23.93,
+        "candidate_id": "f0cf0b80e6f1f53ea347c136",
+        "elapsed_seconds": 33.129,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1468,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1572,
-          "prompt_tokens": 3620,
-          "total_tokens": 5088
+          "completion_tokens": 2228,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 6172,
+          "prompt_tokens": 6172,
+          "total_tokens": 8400
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "9322fad036b3d7fc8e3dd47b",
-        "elapsed_seconds": 25.644,
+        "candidate_id": "b03b6320be57edd77b3ad7e5",
+        "elapsed_seconds": 37.364,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1424,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1573,
-          "prompt_tokens": 3621,
-          "total_tokens": 5045
+          "completion_tokens": 2022,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 4469,
+          "prompt_tokens": 6389,
+          "total_tokens": 8411
         }
       }
     ],
-    "model_generation_and_validation_seconds": 49.592
+    "model_generation_and_validation_seconds": 70.513
   },
   "status": "completed_automatic",
   "summary_count": 2,
-  "summary_file": "runtime-state/data/summaries/2026-08-30.jsonl",
+  "summary_file": "runtime-state/data/summaries/2026-08-31.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
   "summary_slot_count": 2,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "7bc9d4230ed283852c3248a7": {
+      "b03b6320be57edd77b3ad7e5": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": "hybrid",
-        "repaired": true,
+        "model_value": null,
+        "repaired": false,
         "resolved_type": "unclear"
       },
-      "9322fad036b3d7fc8e3dd47b": {
+      "f0cf0b80e6f1f53ea347c136": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": "integrated",
-        "repaired": true,
+        "model_value": null,
+        "repaired": false,
         "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 2,
+    "architecture_repairs": 0,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "7bc9d4230ed283852c3248a7": {
+      "b03b6320be57edd77b3ad7e5": {
         "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "7bc9d4230ed283852c3248a7",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 30.871,
-        "error": "https://doi.org/10.62311/nesx/rp2ag-30082026: URLError: <urlopen error timed out>; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.62311/nesx/rp2ag-30082026",
-        "status": "not_available",
+        "attempt_count": 1,
+        "candidate_id": "b03b6320be57edd77b3ad7e5",
+        "character_count": 12000,
+        "content_sha256": "3d7bad8cdab81ef044e7f6e533a45124b1f3d2bdc5e544835d756cdbdf52ed3a",
+        "elapsed_seconds": 1.171,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          ", and large language model training",
+          "policy optimization methods lies in the fact that the",
+          "We propose the Zeroth-Order Proximal Point Algorithm for nonconvex nonsmooth problems with convex liftings, following the structure of the inexact proximal point method",
+          "analyzed convergence and sample complexity for model-free policy gradient methods for continuous-time LQR. For other types of control problems,",
+          "established global convergence of Goldstein’s subgradient method and its variants for state-feedback",
+          "investigated the vanilla subgradient method for state-feedback",
+          "proposed the mirror stochastic gradient method that operates only in the original decision variable space for certain hidden convex problems; they established",
+          ", even though policy optimization methods for",
+          "are globally optimal, suggesting that first-order or zeroth-order optimization methods should be able to find globally optimal points despite the non-convexity of",
+          "have investigated first-order and zeroth-order methods applied to the minimization of",
+          "has proposed a sample-based method for",
+          "into, say, the stochastic gradient descent method, one will obtain a zeroth-order optimization algorithm that tries to minimize",
+          "convergence rate for the subgradient descent method; see, e.g.,",
+          "factor seems prevalent for derivative-free methods based on zeroth-order gradient estimators",
+          "studied Goldstein’s subgradient method for the state-feedback",
+          "cost estimation method in",
+          "(including weak convexity, weak PL property, etc.), and investigated the subgradient descent method for state-feedback",
+          "will be specified later. We remark that, in practical implementations, it is not necessary to know",
+          "policy optimization. ii) Our algorithm assumes access to an exact zeroth-order oracle; how to develop a purely sample-based method that combines",
+          "LQR through the lens of first order methods: discrete-time case",
+          "Global convergence of policy gradient methods for the linear quadratic regulator",
+          "Search-R1: training LLMs to reason and leverage search engines with reinforcement learning",
+          "convergence rate for the projected stochastic subgradient method",
+          "Subgradient regularization: a descent-oriented subgradient method for nonsmooth optimization",
+          "A proximal descent method for minimizing weakly convex optimization",
+          "Derivative-free methods for policy optimization: guarantees for linear quadratic systems",
+          "Convergence and sample complexity of gradient methods for the model-free linear–quadratic regulator problem",
+          "Problem complexity and method efficiency in optimization",
+          "Training language models to follow instructions with human feedback",
+          "Policy optimization in robust control: weak convexity and subgradient methods",
+          "On stochastic gradient and subgradient methods with adaptive steplength sequences"
+        ],
+        "source_url": "https://arxiv.org/html/2608.23178",
+        "status": "used",
         "text_persisted": false
       },
-      "9322fad036b3d7fc8e3dd47b": {
+      "f0cf0b80e6f1f53ea347c136": {
         "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "9322fad036b3d7fc8e3dd47b",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 2.364,
-        "error": "https://open.library.ubc.ca/collections/24/items/1.0455632: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.14288/1.0455632",
-        "status": "not_available",
+        "attempt_count": 1,
+        "candidate_id": "f0cf0b80e6f1f53ea347c136",
+        "character_count": 9476,
+        "content_sha256": "1f7e994917b57575a960e22e524bc996aaef33d5b9d977cd3e29d3eb9e619716",
+        "elapsed_seconds": 0.288,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          "V-D Hardware Implementation"
+        ],
+        "source_url": "https://arxiv.org/html/2608.21223",
+        "status": "used",
         "text_persisted": false
       }
     },
     "generation_metadata_repair_responses": 2,
-    "numeric_grounding_repair_responses": 0,
-    "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 0,
-    "unit_format_normalization_responses": 0
+    "numeric_grounding_repair_responses": 1,
+    "numeric_grounding_repairs": {
+      "f0cf0b80e6f1f53ea347c136": [
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "面积比较显示，在单元利用率约 66% 时，PGU-Reuse 占用 50 μm×102 μm（约 5100 μm2），PGU-XOR 占用 73 μm×102 μm（约 7446 μm2），面积开销 46.0%；",
+          "path": "method_implementation[1]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "5100",
+            "7446"
+          ]
+        }
+      ]
+    },
+    "tops_alias_expansions": 112,
+    "unit_format_normalization_responses": 2
   },
   "usage": {
-    "completion_tokens": 2892,
-    "prompt_cache_hit_tokens": 4096,
-    "prompt_cache_miss_tokens": 3145,
-    "prompt_tokens": 7241,
-    "total_tokens": 10133
+    "completion_tokens": 4250,
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 10641,
+    "prompt_tokens": 12561,
+    "total_tokens": 16811
   }
 }

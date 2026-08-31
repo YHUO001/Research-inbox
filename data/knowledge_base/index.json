@@ -199,6 +199,15 @@
       "summary_record_sha256": "405da6f85e07c71a653f968f4a282526a3d0f9ac9a9c670dda6d83d4913e5e7d",
       "title": "Reconfigurable Optical Nonlinear Activation Functions Using a Phase-Change Microring for Photonic Neural Networks"
     },
+    "b03b6320be57edd77b3ad7e5": {
+      "digest_date": "2026-08-31",
+      "doi": "10.48550/arxiv.2608.23178",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "a4f7428fa08f979f053ff0934996f274c15cf4b30a80e08893715c64c15900b6",
+      "title": "Zeroth-Order Nonsmooth Nonconvex Optimization with Convex Liftings and Its Application to State-Feedback $H_\\infty$ Policy Optimization"
+    },
     "b832199d8494cc67a559fec5": {
       "digest_date": "2026-08-29",
       "doi": "10.1364/oe.605087",
@@ -252,6 +261,15 @@
       ],
       "summary_record_sha256": "627216976e9ee7adb98960d57af37a9c1275d46231f11eadc4d879f3f7ba5031",
       "title": "HeimdaLLM: Efficient Cloud-assisted Federated Fine-tuning with Zeroth-Order Rectification for LLMs"
+    },
+    "f0cf0b80e6f1f53ea347c136": {
+      "digest_date": "2026-08-31",
+      "doi": "10.48550/arxiv.2608.21223",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "d9bf0c037574dc3a8955781ae60856fe04b1b9e134399aea4a333bc3a6695a92",
+      "title": "Event-triggered Implicit Perturbation for Zeroth-Order Fine-Tuning of Spiking Transformers"
     }
   },
   "by_digest_date": {
@@ -306,6 +324,10 @@
     "2026-08-30": [
       "7bc9d4230ed283852c3248a7",
       "9322fad036b3d7fc8e3dd47b"
+    ],
+    "2026-08-31": [
+      "b03b6320be57edd77b3ad7e5",
+      "f0cf0b80e6f1f53ea347c136"
     ]
   },
   "by_doi": {
@@ -334,6 +356,8 @@
     "10.48550/arxiv.2608.12300": "0cbf41592278a3ad1b89e219",
     "10.48550/arxiv.2608.12679": "ca00b2160d3deb8b79b61e6e",
     "10.48550/arxiv.2608.15665": "dd2f544b89860edf2c2a51ae",
+    "10.48550/arxiv.2608.21223": "f0cf0b80e6f1f53ea347c136",
+    "10.48550/arxiv.2608.23178": "b03b6320be57edd77b3ad7e5",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799",
     "10.62311/nesx/rp2ag-30082026": "7bc9d4230ed283852c3248a7"
   },
@@ -367,9 +391,11 @@
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
       "7719ae17086cb97168bebbc5",
+      "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
-      "ead3d4ba8c5090acac05878a"
+      "ead3d4ba8c5090acac05878a",
+      "f0cf0b80e6f1f53ea347c136"
     ]
   },
   "by_tag": {
@@ -576,9 +602,11 @@
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
       "7719ae17086cb97168bebbc5",
+      "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
-      "ead3d4ba8c5090acac05878a"
+      "ead3d4ba8c5090acac05878a",
+      "f0cf0b80e6f1f53ea347c136"
     ],
     "zo:forward_only": [
       "0e5c75b6132afcfb1f7afb17",
@@ -586,9 +614,11 @@
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
       "7719ae17086cb97168bebbc5",
+      "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
-      "ead3d4ba8c5090acac05878a"
+      "ead3d4ba8c5090acac05878a",
+      "f0cf0b80e6f1f53ea347c136"
     ],
     "zo:low_rank_or_subspace": [
       "0e5c75b6132afcfb1f7afb17",
@@ -596,18 +626,22 @@
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
       "7719ae17086cb97168bebbc5",
+      "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
-      "ead3d4ba8c5090acac05878a"
+      "ead3d4ba8c5090acac05878a",
+      "f0cf0b80e6f1f53ea347c136"
     ],
     "zo:query_reuse": [
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
-      "ead3d4ba8c5090acac05878a"
+      "ead3d4ba8c5090acac05878a",
+      "f0cf0b80e6f1f53ea347c136"
     ],
     "zo:structured_perturbation": [
       "0e5c75b6132afcfb1f7afb17",
@@ -615,13 +649,16 @@
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
       "7719ae17086cb97168bebbc5",
+      "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
-      "ead3d4ba8c5090acac05878a"
+      "ead3d4ba8c5090acac05878a",
+      "f0cf0b80e6f1f53ea347c136"
     ],
     "zo:total_query_reduction": [
       "0e5c75b6132afcfb1f7afb17",
       "2f9953028e4e0e3b934222c8",
+      "b03b6320be57edd77b3ad7e5",
       "dd2f544b89860edf2c2a51ae"
     ]
   },
@@ -694,8 +731,10 @@
       "0cbf41592278a3ad1b89e219",
       "142dc76f41fc25448b82c91e",
       "2f9953028e4e0e3b934222c8",
+      "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
-      "dd2f544b89860edf2c2a51ae"
+      "dd2f544b89860edf2c2a51ae",
+      "f0cf0b80e6f1f53ea347c136"
     ],
     "npj Unconventional Computing": [
       "328b1572ba0e31f8f8a6dac1"
@@ -725,15 +764,17 @@
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "973790e22c46d30721660799",
+      "b03b6320be57edd77b3ad7e5",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
       "ca00b2160d3deb8b79b61e6e",
       "ccd82d84305d463a6c33398d",
       "dd2f544b89860edf2c2a51ae",
-      "ead3d4ba8c5090acac05878a"
+      "ead3d4ba8c5090acac05878a",
+      "f0cf0b80e6f1f53ea347c136"
     ]
   },
-  "paper_count": 28,
+  "paper_count": 30,
   "schema_version": 1,
-  "updated_at": "2026-08-30T01:06:42.696505Z"
+  "updated_at": "2026-08-31T01:08:28.520884Z"
 }

@@ -806,6 +806,52 @@
       "retrieved_at": "2026-08-27T16:32:38.612022Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/s44443-026-00957-3": {
+      "expires_at": "2026-09-30T01:07:07.392381Z",
+      "record": {
+        "abstract": "Abstract Cooperative unmanned aerial vehicle (UAV) path planning is one of the core challenges in the field of autonomous systems, requiring the simultaneous guarantee of safety, efficiency, and multi-agent collaborative consistency in continuously dynamic obstacle environments. Existing methods either rely on hand-crafted heuristic rules and thus lack adaptability, or employ deep reinforcement learning (DRL) but suffer from low sample efficiency and sparse reward problems, making it difficult to achieve high task success rates in complex dynamic scenarios. This paper proposes SkyAgent—a lightweight large language model (LLM)-driven hierarchical reinforcement learning framework specifically designed for adaptive cooperative path planning of two UAVs. SkyAgent adopts Qwen2.5-1.5B (Q4_K_M quantization, approximately 1 GB VRAM) as the high-level semantic planner, performing fully offline inference at approximately 1,900 ms model forward-pass per call on a local GPU via the Ollama framework without any external API; employs Proximal Policy Optimization (PPO) as the low-level continuous action controller; and achieves efficient decoupled coordination of the two-tier policy through an asynchronous sub-goal injection mechanism (replanning every $$K=20$$ K = 20 steps). In a continuous two-dimensional simulation environment of $$100 \\times 100$$ 100 × 100 m $$^2$$ 2 containing 8 static and 3 dynamic obstacles, SkyAgent is systematically evaluated against 7 baseline methods (Random, Greedy, APF, A*, PPO, SAC, OraclePID) over 30 random seeds. Experimental results demonstrate that SkyAgent achieves a mission success rate of 96.7%, comprehensively outperforming all baseline methods, improving by 16.7 percentage points over the vanilla PPO baseline, reducing collisions by 83%, shortening path length by 27 m, and improving sample efficiency approximately 3.3 $$\\times $$ × (requiring only 55k training steps to reach the 80% success rate threshold). In the Dynamic-heavy scenario (30 obstacles), the success rate still reaches 90.9%, demonstrating significant generalization robustness. Six ablation experiments quantitatively validate the indispensability of the LLM planner, sub-goal guidance, sensor observations, cooperative reward, and reward shaping components. This work provides a feasible technical pathway and a reproducible evaluation benchmark for the collaborative deployment of lightweight LLMs and RL on GPU-equipped resource-constrained edge devices; we note that the present evaluation is confined to a two-dimensional, idealized simulation and that on-board deployment presupposes a GPU-class accelerator rather than an MCU-class micro-UAV.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuting Cao",
+            "orcid": "https://orcid.org/0009-0006-7660-1779"
+          },
+          {
+            "name": "Zheng Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Jiekai Wu",
+            "orcid": null
+          },
+          {
+            "name": "Chia Hau Lee",
+            "orcid": null
+          },
+          {
+            "name": "Qi Wei Oung",
+            "orcid": "https://orcid.org/0000-0001-8486-3513"
+          },
+          {
+            "name": "Hoi Leong Lee",
+            "orcid": "https://orcid.org/0000-0002-4984-2183"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s44443-026-00957-3",
+        "landing_page": "https://doi.org/10.1007/s44443-026-00957-3",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s44443-026-00957-3",
+        "publication_date": "2026-09",
+        "title": "SkyAgent: A lightweight LLM-driven reinforcement learning framework for adaptive cooperative path planning of two UAVs",
+        "venue": "Journal of King Saud University Computer and Information Sciences",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-31T01:07:07.392381Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s44519-026-00003-9": {
       "expires_at": "2026-09-17T04:25:31.463766Z",
       "record": {
@@ -3034,6 +3080,12 @@
       "retrieved_at": "2026-08-18T04:25:14.957375Z",
       "status": "found"
     },
+    "crossref:title:06c1573614d7cec8aafdeabdbf04c206c9e42daeec19bd7a0690045235f26758": {
+      "expires_at": "2026-09-07T01:07:10.369066Z",
+      "record": null,
+      "retrieved_at": "2026-08-31T01:07:10.369066Z",
+      "status": "not_found"
+    },
     "crossref:title:0f8c4e0a9f7dbce7dfea5017263591b2cbf2d3204d9a790cff62b5e4c9f44859": {
       "expires_at": "2026-08-31T00:32:20.567904Z",
       "record": null,
@@ -3191,6 +3243,18 @@
       },
       "retrieved_at": "2026-08-04T09:38:30.607658Z",
       "status": "found"
+    },
+    "crossref:title:194b18c310f1c95fa7b57f32bf8eac8d8d12cca5a8f0adbc26cb774d869457a4": {
+      "expires_at": "2026-09-07T01:07:01.749398Z",
+      "record": null,
+      "retrieved_at": "2026-08-31T01:07:01.749398Z",
+      "status": "not_found"
+    },
+    "crossref:title:1d03a31c480cfb0da2e0e91ffd1d2b010abe87f28bab51e4b85693bfb34159e5": {
+      "expires_at": "2026-09-07T01:07:04.161417Z",
+      "record": null,
+      "retrieved_at": "2026-08-31T01:07:04.161417Z",
+      "status": "not_found"
     },
     "crossref:title:1d5451a6cae49ac385007093dac0fe736251c2dd8c460617ece08dbc65ff6841": {
       "expires_at": "2026-09-02T00:32:37.383677Z",
@@ -3622,6 +3686,12 @@
       "retrieved_at": "2026-08-22T00:32:17.388728Z",
       "status": "found"
     },
+    "crossref:title:49d034dc3ade2acf4fa4fe1892dc603b642f4d920ef8a790d7a190832712311a": {
+      "expires_at": "2026-09-07T01:07:06.492421Z",
+      "record": null,
+      "retrieved_at": "2026-08-31T01:07:06.492421Z",
+      "status": "not_found"
+    },
     "crossref:title:4ada79c33eec9e9d66efbf9174a42ddb24cbe5870b509479f8473929c252afa8": {
       "expires_at": "2026-08-30T00:32:32.205536Z",
       "record": null,
@@ -3689,6 +3759,12 @@
       },
       "retrieved_at": "2026-08-29T00:54:11.976936Z",
       "status": "found"
+    },
+    "crossref:title:515316e23ebc42e941cd8b6423767ee9dacba9cc10cb175c2ece28292649cbd1": {
+      "expires_at": "2026-09-07T01:07:05.264641Z",
+      "record": null,
+      "retrieved_at": "2026-08-31T01:07:05.264641Z",
+      "status": "not_found"
     },
     "crossref:title:569bfc22d25d91d53c0cae46ed9c5efb021edc864023af252ff96d2957870e1e": {
       "expires_at": "2026-08-25T04:25:22.619748Z",
@@ -3812,6 +3888,12 @@
       "retrieved_at": "2026-08-09T00:36:11.038479Z",
       "status": "not_found"
     },
+    "crossref:title:61861a8f926210b95769bf30b7ad9c9a24ee8673ffb8f7b1d95aa46e8d2e10f7": {
+      "expires_at": "2026-09-07T01:07:13.917199Z",
+      "record": null,
+      "retrieved_at": "2026-08-31T01:07:13.917199Z",
+      "status": "not_found"
+    },
     "crossref:title:61877b078510877fba8c5f0cd4fdd939f7bf9f6d390ea9659328847f137a6852": {
       "expires_at": "2026-08-25T04:25:33.514280Z",
       "record": null,
@@ -3924,6 +4006,12 @@
       "retrieved_at": "2026-08-04T09:38:19.407006Z",
       "status": "found"
     },
+    "crossref:title:775047231877a44a503e74e00b4c35bf0db5a2a4930ffcf9c949b135b27af7cc": {
+      "expires_at": "2026-09-07T01:07:00.638335Z",
+      "record": null,
+      "retrieved_at": "2026-08-31T01:07:00.638335Z",
+      "status": "not_found"
+    },
     "crossref:title:785390aaf2cabaf47e95632a7b2943a44410b380e2e883c956ec40d58c38b928": {
       "expires_at": "2026-08-25T04:25:10.808544Z",
       "record": null,
@@ -4013,6 +4101,12 @@
       },
       "retrieved_at": "2026-08-26T00:32:41.276094Z",
       "status": "found"
+    },
+    "crossref:title:80359ee21bfbc95eeccd05a5e9edba365a161deeeb01f8772baf018348abe140": {
+      "expires_at": "2026-09-07T01:07:12.908935Z",
+      "record": null,
+      "retrieved_at": "2026-08-31T01:07:12.908935Z",
+      "status": "not_found"
     },
     "crossref:title:8321bfce8eab0857839c0cf6b470b6020c4a40b8af8d91bcbb3371416187ca8c": {
       "expires_at": "2026-09-02T00:32:39.356861Z",
@@ -4138,6 +4232,12 @@
       "retrieved_at": "2026-08-18T04:25:19.729058Z",
       "status": "found"
     },
+    "crossref:title:9516831af358386c3b41e5eb5eb9d06c5f4af115830305bc7c47cc06d832318e": {
+      "expires_at": "2026-09-07T01:07:11.608339Z",
+      "record": null,
+      "retrieved_at": "2026-08-31T01:07:11.608339Z",
+      "status": "not_found"
+    },
     "crossref:title:96c0231f25d36894ae4d4cc3d5dee0503439418726f910688ddc192f29cab7b6": {
       "expires_at": "2026-08-17T00:36:46.415577Z",
       "record": null,
@@ -4234,6 +4334,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-09T00:36:05.845920Z",
+      "status": "found"
+    },
+    "crossref:title:99dd1517418f7398420b3e7298adb742dcac663847fd65a1583b8de20c8fd40d": {
+      "expires_at": "2026-09-07T01:07:03.210046Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tiankuang Zhou",
+            "orcid": "https://orcid.org/0000-0001-8850-6839"
+          },
+          {
+            "name": "Wei Wu",
+            "orcid": "https://orcid.org/0000-0002-3878-7190"
+          },
+          {
+            "name": "Lu Fang",
+            "orcid": "https://orcid.org/0000-0003-3552-0367"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s44460-026-00123-2",
+        "landing_page": "https://doi.org/10.1038/s44460-026-00123-2",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s44460-026-00123-2",
+        "publication_date": "2026-08-27",
+        "title": "Fully in-memory photonic computing",
+        "venue": "Nature Sensors",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-31T01:07:03.210046Z",
       "status": "found"
     },
     "crossref:title:9db74335bc487590184a65058a762fbe1c4c1a1f1e63d7599e22083b270f2a3e": {
@@ -4537,6 +4671,36 @@
       "record": null,
       "retrieved_at": "2026-08-09T00:36:09.827479Z",
       "status": "not_found"
+    },
+    "crossref:title:b9c4e2f76d42e94b02b9971c6de545ec5db814dc32eaab8a4230fcd1b53da7f9": {
+      "expires_at": "2026-09-07T01:07:08.199185Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Stalyn Chancay",
+            "orcid": null
+          },
+          {
+            "name": "Israel Pineda",
+            "orcid": "https://orcid.org/0000-0002-3950-2169"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/access.2026.3727406",
+        "landing_page": "https://doi.org/10.1109/access.2026.3727406",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/access.2026.3727406",
+        "publication_date": "2026",
+        "title": "Vectorized Quantum-Behaved Delta PSO for Gradient-Free MLP Training",
+        "venue": "IEEE Access",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-31T01:07:08.199185Z",
+      "status": "found"
     },
     "crossref:title:ba94cca16e64e04bafe919a40c4704a5b86d61d54dc7c1b74c857c46b2f5cbc6": {
       "expires_at": "2026-08-25T04:25:36.931885Z",
@@ -6108,6 +6272,52 @@
       "retrieved_at": "2026-08-27T16:32:39.020162Z",
       "status": "found"
     },
+    "openalex:doi:10.1007/s44443-026-00957-3": {
+      "expires_at": "2026-09-30T01:07:07.841607Z",
+      "record": {
+        "abstract": "Abstract Cooperative unmanned aerial vehicle (UAV) path planning is one of the core challenges in the field of autonomous systems, requiring the simultaneous guarantee of safety, efficiency, and multi-agent collaborative consistency in continuously dynamic obstacle environments. Existing methods either rely on hand-crafted heuristic rules and thus lack adaptability, or employ deep reinforcement learning (DRL) but suffer from low sample efficiency and sparse reward problems, making it difficult to achieve high task success rates in complex dynamic scenarios. This paper proposes SkyAgent—a lightweight large language model (LLM)-driven hierarchical reinforcement learning framework specifically designed for adaptive cooperative path planning of two UAVs. SkyAgent adopts Qwen2.5-1.5B (Q4_K_M quantization, approximately 1 GB VRAM) as the high-level semantic planner, performing fully offline inference at approximately 1,900 ms model forward-pass per call on a local GPU via the Ollama framework without any external API; employs Proximal Policy Optimization (PPO) as the low-level continuous action controller; and achieves efficient decoupled coordination of the two-tier policy through an asynchronous sub-goal injection mechanism (replanning every $$K=20$$ K = 20 steps). In a continuous two-dimensional simulation environment of $$100 \\times 100$$ 100 × 100 m $$^2$$ 2 containing 8 static and 3 dynamic obstacles, SkyAgent is systematically evaluated against 7 baseline methods (Random, Greedy, APF, A*, PPO, SAC, OraclePID) over 30 random seeds. Experimental results demonstrate that SkyAgent achieves a mission success rate of 96.7%, comprehensively outperforming all baseline methods, improving by 16.7 percentage points over the vanilla PPO baseline, reducing collisions by 83%, shortening path length by 27 m, and improving sample efficiency approximately 3.3 $$\\times $$ × (requiring only 55k training steps to reach the 80% success rate threshold). In the Dynamic-heavy scenario (30 obstacles), the success rate still reaches 90.9%, demonstrating significant generalization robustness. Six ablation experiments quantitatively validate the indispensability of the LLM planner, sub-goal guidance, sensor observations, cooperative reward, and reward shaping components. This work provides a feasible technical pathway and a reproducible evaluation benchmark for the collaborative deployment of lightweight LLMs and RL on GPU-equipped resource-constrained edge devices; we note that the present evaluation is confined to a two-dimensional, idealized simulation and that on-board deployment presupposes a GPU-class accelerator rather than an MCU-class micro-UAV.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuting Cao",
+            "orcid": "https://orcid.org/0009-0006-7660-1779"
+          },
+          {
+            "name": "Zheng Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Jiekai Wu",
+            "orcid": "https://orcid.org/0009-0008-1046-995X"
+          },
+          {
+            "name": "Chia Hau Lee",
+            "orcid": "https://orcid.org/0000-0002-5987-2263"
+          },
+          {
+            "name": "Qi Wei Oung",
+            "orcid": "https://orcid.org/0000-0001-8486-3513"
+          },
+          {
+            "name": "Hoi Leong Lee",
+            "orcid": "https://orcid.org/0000-0002-4984-2183"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s44443-026-00957-3",
+        "landing_page": "https://doi.org/10.1007/s44443-026-00957-3",
+        "open_access_url": "https://doi.org/10.1007/s44443-026-00957-3",
+        "openalex_id": "https://openalex.org/W7203860589",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203860589",
+        "publication_date": "2026-08-21",
+        "title": "SkyAgent: A lightweight LLM-driven reinforcement learning framework for adaptive cooperative path planning of two UAVs",
+        "venue": "Journal of King Saud University - Computer and Information Sciences",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-31T01:07:07.841607Z",
+      "status": "found"
+    },
     "openalex:doi:10.1007/s44519-026-00003-9": {
       "expires_at": "2026-09-17T04:25:31.794618Z",
       "record": {
@@ -7484,6 +7694,40 @@
       "retrieved_at": "2026-08-18T04:25:12.315524Z",
       "status": "found"
     },
+    "openalex:doi:10.1038/s44460-026-00123-2": {
+      "expires_at": "2026-09-30T01:07:03.633527Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tiankuang Zhou",
+            "orcid": "https://orcid.org/0000-0001-8850-6839"
+          },
+          {
+            "name": "Wei Wu",
+            "orcid": "https://orcid.org/0000-0002-3878-7190"
+          },
+          {
+            "name": "Lu Fang",
+            "orcid": "https://orcid.org/0000-0003-3552-0367"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s44460-026-00123-2",
+        "landing_page": "https://doi.org/10.1038/s44460-026-00123-2",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7204476473",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204476473",
+        "publication_date": "2026-08-27",
+        "title": "Fully in-memory photonic computing",
+        "venue": "Nature Sensors",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-31T01:07:03.633527Z",
+      "status": "found"
+    },
     "openalex:doi:10.1063/5.0339283": {
       "expires_at": "2026-09-03T09:38:22.171450Z",
       "record": {
@@ -7776,6 +8020,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:24.773014Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/access.2026.3727406": {
+      "expires_at": "2026-09-30T01:07:08.644211Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Stalyn Chancay",
+            "orcid": "https://orcid.org/0000-0002-9382-7685"
+          },
+          {
+            "name": "Israel Pineda",
+            "orcid": "https://orcid.org/0000-0002-3950-2169"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/access.2026.3727406",
+        "landing_page": "https://doi.org/10.1109/access.2026.3727406",
+        "open_access_url": "https://doi.org/10.1109/access.2026.3727406",
+        "openalex_id": "https://openalex.org/W7204196081",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204196081",
+        "publication_date": "2026-01-01",
+        "title": "Vectorized Quantum-Behaved Delta PSO for Gradient-Free MLP Training",
+        "venue": "IEEE Access",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-31T01:07:08.644211Z",
       "status": "found"
     },
     "openalex:doi:10.1109/codit70676.2026.11631225": {
@@ -10510,6 +10784,36 @@
       "retrieved_at": "2026-08-18T04:25:15.288051Z",
       "status": "found"
     },
+    "openalex:title:06c1573614d7cec8aafdeabdbf04c206c9e42daeec19bd7a0690045235f26758": {
+      "expires_at": "2026-09-07T01:07:11.006421Z",
+      "record": {
+        "abstract": "Direct policy optimization is widely used in reinforcement learning and control, but generally leads to nonconvex optimization problems. For state-feedback $H_\\infty$ control, the policy objective is also nonsmooth, despite possessing a benign landscape whose hidden convexity can be revealed by the recently developed extended convex lifting framework. Motivated by recent advances in hidden convex optimization, we study zeroth-order optimization of nonsmooth, nonconvex problems admitting a convex lifting. We propose a zeroth-order proximal point algorithm: An inexact proximal-point outer loop constructs strongly convex subproblems, while an inner loop approximately solves each subproblem using only function evaluations. With probability at least $1-δ$, our proposed algorithm returns an $ε$-optimal solution using $\\widetilde{O}\\left(dε^{-3}\\right)$ function evaluations, while all iterates remain feasible without explicit projection. Finally, we verify that the assumptions underlying our analysis hold for discrete-time state-feedback $H_\\infty$ policy optimization, yielding an oracle complexity of $\\widetilde{O}\\left(n_u n_xε^{-3}\\right)$ for attaining a prescribed objective value gap, where $n_u\\times n_x$ is the dimension of the feedback gain to be optimized over.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xuhao Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yujie Tang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2608.23178",
+        "landing_page": "https://arxiv.org/abs/2608.23178",
+        "open_access_url": "https://arxiv.org/abs/2608.23178",
+        "openalex_id": "https://openalex.org/W7204215435",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204215435",
+        "publication_date": "2026-08-24",
+        "title": "Zeroth-Order Nonsmooth Nonconvex Optimization with Convex Liftings and Its Application to State-Feedback $H_\\infty$ Policy Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-31T01:07:11.006421Z",
+      "status": "found"
+    },
     "openalex:title:0f8c4e0a9f7dbce7dfea5017263591b2cbf2d3204d9a790cff62b5e4c9f44859": {
       "expires_at": "2026-08-31T00:32:21.079217Z",
       "record": null,
@@ -10520,6 +10824,46 @@
       "expires_at": "2026-08-16T00:36:05.489666Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:36:05.489666Z",
+      "status": "not_found"
+    },
+    "openalex:title:194b18c310f1c95fa7b57f32bf8eac8d8d12cca5a8f0adbc26cb774d869457a4": {
+      "expires_at": "2026-09-07T01:07:02.675473Z",
+      "record": {
+        "abstract": "Virtual sensing enables digital twins and safety-critical systems to reconstruct and forecast spatial-temporal physics in real time. However, conventional computational and data-driven methods often face challenges in generalization, latency, and energy efficiency for edge deployment. Neural operators offer a promising alternative but remain reliant on power-intensive hardware. Spiking neurons and neuromorphic computing can improve efficiency, yet surrogate-gradient training and multi-step spiking introduce convergence and latency challenges. We propose the Sparse-Activation-ReLU (SAR) layer, a single-step alternative that promotes activation sparsity without surrogate-gradient training while remaining compatible with event-based computing. Within a trunk-based NOMAD architecture, SAR achieves over a fivefold improvement in the combined Latency-Error-Energy (LEE) metric compared with Variable Spiking Neuron (VSN) and Leaky Integrate-and-Fire (LIF) implementations. We further analyze spiking entropy and feature usage and introduce synthetic knowledge distillation, reducing the LEE score by more than twofold. Finally, we improve VSN through a ReLU-based spiking loss and graph-neighbor thresholding. On the Heat Exchanger dataset, these approaches reduce L2 error by more than twofold and nearly sevenfold, respectively, while reducing spiking and spatial aggregation. Overall, the work presented is a step towards energy-efficient virtual sensing by providing an alternative framework that can be positioned towards neuromorphic or other edge device integration that can be a gold standard to compare latency, energy, and error performance for future efficient designs that are sparsity or brain-inspired spiking based.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "William Howes",
+            "orcid": null
+          },
+          {
+            "name": "Farid Ahmed",
+            "orcid": null
+          },
+          {
+            "name": "Syed Bahauddin Alam",
+            "orcid": "https://orcid.org/0000-0001-5506-6953"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2608.23987",
+        "landing_page": "https://arxiv.org/abs/2608.23987",
+        "open_access_url": "https://arxiv.org/abs/2608.23987",
+        "openalex_id": "https://openalex.org/W7204280266",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204280266",
+        "publication_date": "2026-08-25",
+        "title": "Low-Latency Activation-Regularized Sparse Neural Operators with Distillation Assistance Towards Real-Time Edge-Deployable Virtual Sensing",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-31T01:07:02.675473Z",
+      "status": "found"
+    },
+    "openalex:title:1d03a31c480cfb0da2e0e91ffd1d2b010abe87f28bab51e4b85693bfb34159e5": {
+      "expires_at": "2026-09-07T01:07:04.854075Z",
+      "record": null,
+      "retrieved_at": "2026-08-31T01:07:04.854075Z",
       "status": "not_found"
     },
     "openalex:title:1d5451a6cae49ac385007093dac0fe736251c2dd8c460617ece08dbc65ff6841": {
@@ -10570,10 +10914,22 @@
       "retrieved_at": "2026-08-09T00:36:02.126264Z",
       "status": "not_found"
     },
+    "openalex:title:49d034dc3ade2acf4fa4fe1892dc603b642f4d920ef8a790d7a190832712311a": {
+      "expires_at": "2026-09-07T01:07:07.143026Z",
+      "record": null,
+      "retrieved_at": "2026-08-31T01:07:07.143026Z",
+      "status": "not_found"
+    },
     "openalex:title:4ada79c33eec9e9d66efbf9174a42ddb24cbe5870b509479f8473929c252afa8": {
       "expires_at": "2026-08-30T00:32:32.784526Z",
       "record": null,
       "retrieved_at": "2026-08-23T00:32:32.784526Z",
+      "status": "not_found"
+    },
+    "openalex:title:515316e23ebc42e941cd8b6423767ee9dacba9cc10cb175c2ece28292649cbd1": {
+      "expires_at": "2026-09-07T01:07:06.053965Z",
+      "record": null,
+      "retrieved_at": "2026-08-31T01:07:06.053965Z",
       "status": "not_found"
     },
     "openalex:title:58a4e8946f478ec97ae906eac840dcbedd335e53d76cd06cbd7c9cc445297568": {
@@ -10587,6 +10943,60 @@
       "record": null,
       "retrieved_at": "2026-08-09T00:36:11.627946Z",
       "status": "not_found"
+    },
+    "openalex:title:61861a8f926210b95769bf30b7ad9c9a24ee8673ffb8f7b1d95aa46e8d2e10f7": {
+      "expires_at": "2026-09-07T01:07:14.577565Z",
+      "record": {
+        "abstract": "Zeroth-order (ZO) optimization estimates gradients using only forward-pass evaluations, making it suitable for fine-tuning non-differentiable, event-driven spiking neural networks (SNNs). However, its deployment on in-memory computing (IMC) accelerators is constrained by the repeated read-modify-write (RMW) operations arising from explicit weight perturbation and the prohibitive hardware footprint of random number generators (RNGs) for statistically independent per-weight perturbations. To address these challenges, we propose an implicit-perturbation ZO (IPZO) architecture in which perturbation sums computed by an event-triggered perturbation generation unit (PGU) are combined with the weighted sums produced by the IMC array, eliminating perturbation-induced RMW operations while preserving weight-stationary execution of IMC. By exploiting spike sparsity, the PGU generates and accumulates perturbation contributions only for spike-activated weight rows, reducing the required row dimension of the RNG array. An address-driven XOR recombination scheme (PGU-XOR) is further introduced to mitigate the spatial correlations caused by direct RNG reuse (PGU-Reuse). The results show that (1) PGU-XOR matches software RNGs in accuracy on Spikingformer/CIFAR-10 (76.41% vs. 76.53%) and perplexity (PPL) on SpikeGPT/WikiText-2 (54.20 vs. 53.23), whereas PGU-Reuse degrades accuracy by 9.56 percentage points and increases PPL by 11.8; (2) implemented in a TSMC 16-nm CMOS technology, PGU-XOR incurs 40.3%-46.0% area and 15.2%-48.9% energy overhead per matrix-vector multiplication relative to PGU-Reuse, yet its faster convergence reduces the total perturbation energy to 0.51x that of PGU-Reuse at iso-accuracy; (3) IPZO reduces the perturbation energy to 0.46x-0.83x that of conventional explicit weight perturbation for a batch size of B=64 and T=4 time steps, with the advantage growing as BT decreases.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tengteng Lei",
+            "orcid": "https://orcid.org/0000-0002-3780-0058"
+          },
+          {
+            "name": "Prabodh Katti",
+            "orcid": "https://orcid.org/0000-0003-1919-9593"
+          },
+          {
+            "name": "Rashi Dutt",
+            "orcid": "https://orcid.org/0000-0001-7552-3269"
+          },
+          {
+            "name": "Houssem Sifaou",
+            "orcid": "https://orcid.org/0000-0003-0630-7073"
+          },
+          {
+            "name": "Tan Peng",
+            "orcid": null
+          },
+          {
+            "name": "Osvaldo Simeone",
+            "orcid": null
+          },
+          {
+            "name": "Kai Xu",
+            "orcid": null
+          },
+          {
+            "name": "Bipin Rajendran",
+            "orcid": "https://orcid.org/0000-0002-2960-6909"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2608.21223",
+        "landing_page": "https://arxiv.org/abs/2608.21223",
+        "open_access_url": "https://arxiv.org/abs/2608.21223",
+        "openalex_id": "https://openalex.org/W7204111839",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204111839",
+        "publication_date": "2026-08-21",
+        "title": "Event-triggered Implicit Perturbation for Zeroth-Order Fine-Tuning of Spiking Transformers",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-31T01:07:14.577565Z",
+      "status": "found"
     },
     "openalex:title:61877b078510877fba8c5f0cd4fdd939f7bf9f6d390ea9659328847f137a6852": {
       "expires_at": "2026-08-25T04:25:33.944063Z",
@@ -10726,6 +11136,56 @@
       "retrieved_at": "2026-08-10T00:36:48.038952Z",
       "status": "not_found"
     },
+    "openalex:title:775047231877a44a503e74e00b4c35bf0db5a2a4930ffcf9c949b135b27af7cc": {
+      "expires_at": "2026-09-07T01:07:01.321486Z",
+      "record": {
+        "abstract": "Learning dissipation rates in large-scale open quantum systems is a major obstacle for near-term quantum technologies, as existing Lindblad estimation methods are typically limited to small system sizes due to the computational complexity of repeatedly solving the Lindblad equation during optimization. Here, we propose a scalable noise-learning framework for Lindblad dissipation rates that combines a stochastic simulation method, the Tensor Jump Method (TJM), with gradient-free optimization of a least-squares cost-function defined on time series of local-observable expectation values. We demonstrate the approach on two noise models in the Ising model: a site-resolved (local) model, in which independent dissipation rates are learned for each site up to $N_{\\mathrm{site}}=16$, and a spatially homogeneous (global) model with only seven parameters, scaled to $N_{\\mathrm{site}}=160$ sites.We complement these numerical results with a series of exact, provable guarantees: the Frobenius variance of the TJM density-matrix estimator is shown to equal $(1-\\mathrm{Tr}[ρ^2])/N_{\\mathrm{traj}}$, an exact purity-based characterization of the stochastic estimation error; the corresponding purity evolution is proven to be monotonically non-increasing for Hermitian jump operators; and, under a finite covariance distance assumption, the standard deviation of the cost-function is shown to decrease with system size, so that fewer trajectories are needed to reach a fixed target accuracy as the system grows. Together, this combination of scalable numerics and rigorous theoretical guarantees positions TJM-based noise learning as a practical foundation for characterizing dissipation in large quantum devices and for guiding future work on error mitigation and quantum error correction.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Alejandro R. Ramos Ramos",
+            "orcid": "https://orcid.org/0009-0002-0922-1996"
+          },
+          {
+            "name": "Maximilian Fröhlich",
+            "orcid": null
+          },
+          {
+            "name": "Aaron Sander",
+            "orcid": "https://orcid.org/0000-0002-2090-9751"
+          },
+          {
+            "name": "Robert Wille",
+            "orcid": null
+          },
+          {
+            "name": "Martin Eigel",
+            "orcid": null
+          },
+          {
+            "name": "Patrick Gelß",
+            "orcid": null
+          },
+          {
+            "name": "Sebastian Pokutta",
+            "orcid": "https://orcid.org/0000-0001-7365-3000"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2608.24668",
+        "landing_page": "https://arxiv.org/abs/2608.24668",
+        "open_access_url": "https://arxiv.org/abs/2608.24668",
+        "openalex_id": "https://openalex.org/W7204248740",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204248740",
+        "publication_date": "2026-08-25",
+        "title": "Scalable Lindblad Noise Learning via Stochastic Tensor-Network Simulation",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-31T01:07:01.321486Z",
+      "status": "found"
+    },
     "openalex:title:785390aaf2cabaf47e95632a7b2943a44410b380e2e883c956ec40d58c38b928": {
       "expires_at": "2026-08-25T04:25:11.208231Z",
       "record": {
@@ -10775,6 +11235,40 @@
       "record": null,
       "retrieved_at": "2026-08-19T00:32:50.873682Z",
       "status": "not_found"
+    },
+    "openalex:title:80359ee21bfbc95eeccd05a5e9edba365a161deeeb01f8772baf018348abe140": {
+      "expires_at": "2026-09-07T01:07:13.500228Z",
+      "record": {
+        "abstract": "Zero-cost proxies enable neural architecture search (NAS) to rank candidate networks from statistics computed at initialization, avoiding repeated training. However, different proxies capture different properties and often produce inconsistent rankings across search spaces. Ensemble proxies can combine complementary signals, but automated discovery must optimize both discrete aggregation structures and their continuous coefficients, making structural quality difficult to separate from parameter calibration. We propose Bi-EZP, a bilevel framework that decouples these decisions. At the upper level, a large language model generates executable aggregation programs over four complementary base proxies with program-specific parameter bounds. At the lower level, covariance matrix adaptation evolution strategy (CMA-ES) optimizes the continuous parameters of each fixed program on an inner training split. The calibrated programs are then evaluated using Kendall's rank correlation on a disjoint validation split, enabling evolutionary selection to favor structures that generalize beyond their calibration data. Experiments on NATS-Bench and Network Design Spaces evaluate ranking performance across heterogeneous search spaces, and DARTS experiments assess downstream architecture search. Results show that separating program discovery from numerical calibration provides an effective approach to automated ensemble zero-cost proxy construction. The source code is available at: https://anonymous.4open.science/r/Bi-EZP-318D",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yutao Lai",
+            "orcid": "https://orcid.org/0009-0000-3433-6934"
+          },
+          {
+            "name": "Kezhao Lai",
+            "orcid": null
+          },
+          {
+            "name": "Hai-Lin Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2608.21927",
+        "landing_page": "https://arxiv.org/abs/2608.21927",
+        "open_access_url": "https://arxiv.org/abs/2608.21927",
+        "openalex_id": "https://openalex.org/W7204155867",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204155867",
+        "publication_date": "2026-08-22",
+        "title": "Bi-EZP: LLM-Guided Bilevel Program Evolution for Ensemble Zero-Cost Proxy Discovery",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-08-31T01:07:13.500228Z",
+      "status": "found"
     },
     "openalex:title:8321bfce8eab0857839c0cf6b470b6020c4a40b8af8d91bcbb3371416187ca8c": {
       "expires_at": "2026-09-02T00:32:40.232960Z",
@@ -10855,6 +11349,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:31.032934Z",
       "status": "found"
+    },
+    "openalex:title:9516831af358386c3b41e5eb5eb9d06c5f4af115830305bc7c47cc06d832318e": {
+      "expires_at": "2026-09-07T01:07:12.337805Z",
+      "record": null,
+      "retrieved_at": "2026-08-31T01:07:12.337805Z",
+      "status": "not_found"
     },
     "openalex:title:96c0231f25d36894ae4d4cc3d5dee0503439418726f910688ddc192f29cab7b6": {
       "expires_at": "2026-08-17T00:36:46.851872Z",
