@@ -282,6 +282,68 @@
       "retrieved_at": "2026-08-23T00:32:29.913718Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/lpor.71816": {
+      "expires_at": "2026-10-01T01:13:13.725087Z",
+      "record": {
+        "abstract": "ABSTRACT Real‐time ranging of thermal targets holds critical importance for defense, surveillance, and autonomous navigation, yet remains fundamentally constrained by the inherently low texture of thermal imagery. A metasurface‐Transformer architecture is presented to enable monocular four‐dimensional (4D) thermal light‐field imaging and subsequent ranging. The optical front end uses an all‐silicon metasurface microlens array directly integrated into a commercial thermal camera module, forming a compact light‐field imager. The computational back end, a thermal disparity transformer (TDiT), resolves sub‐pixel disparities from the texture‐scarce thermal light‐field through dedicated pre‐processing and Transformer‐based inference. The system achieves centimeter‐scale accuracy, with a mean ranging error of 1.87% at 25 ms per frame, enabling real‐time dynamic ranging of moving thermal targets. By combining metasurface‐enabled light‐field capture with high‐precision disparity estimation, this work provides a promising approach for effective, real‐time perception in texture‐scarce thermal environments.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dingke Wan",
+            "orcid": "https://orcid.org/0009-0003-6704-1990"
+          },
+          {
+            "name": "Junjie Zhan",
+            "orcid": null
+          },
+          {
+            "name": "Jiaqi Yu",
+            "orcid": null
+          },
+          {
+            "name": "Rui Chen",
+            "orcid": null
+          },
+          {
+            "name": "Shuhan Guo",
+            "orcid": null
+          },
+          {
+            "name": "Jun Hu",
+            "orcid": "https://orcid.org/0000-0002-9748-0471"
+          },
+          {
+            "name": "Yi Jin",
+            "orcid": "https://orcid.org/0000-0002-1956-8419"
+          },
+          {
+            "name": "Xiang Shen",
+            "orcid": null
+          },
+          {
+            "name": "Pankaj K. Choudhury",
+            "orcid": "https://orcid.org/0000-0002-1681-9753"
+          },
+          {
+            "name": "Yungui Ma",
+            "orcid": "https://orcid.org/0000-0002-1859-1211"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71816",
+        "landing_page": "https://doi.org/10.1002/lpor.71816",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.71816",
+        "publication_date": "2026-08-30",
+        "title": "Real‐Time LWIR Imaging and Ranging via 4D Light‐Field Metasurface‐Transformer Integrated Framework",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-01T01:13:13.725087Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/nap2.70242": {
       "expires_at": "2026-09-17T04:25:18.637501Z",
       "record": {
@@ -2122,6 +2184,58 @@
       "retrieved_at": "2026-08-23T00:32:34.138513Z",
       "status": "found"
     },
+    "crossref:doi:10.1117/12.3119898": {
+      "expires_at": "2026-10-01T01:13:14.392363Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Serguei P. Murzin",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3119898",
+        "landing_page": "https://doi.org/10.1117/12.3119898",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/12.3119898",
+        "publication_date": "2026-08-30",
+        "title": "Intelligent diffractive photonics: from precision laser synthesis to adaptive infocommunication systems and optical computing",
+        "venue": "Optical Technologies for Telecommunications 2025",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-01T01:13:14.392363Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1117/12.3119902": {
+      "expires_at": "2026-10-01T01:13:16.331129Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Christian F. Stiglbrunner",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3119902",
+        "landing_page": "https://doi.org/10.1117/12.3119902",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/12.3119902",
+        "publication_date": "2026-08-30",
+        "title": "AI-driven beam shaping and laser synthesis of functional nanostructures for adaptive telecommunication systems",
+        "venue": "Optical Technologies for Telecommunications 2025",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-01T01:13:16.331129Z",
+      "status": "found"
+    },
     "crossref:doi:10.1117/12.3122678": {
       "expires_at": "2026-09-17T04:25:20.445764Z",
       "record": {
@@ -2968,6 +3082,56 @@
       "retrieved_at": "2026-08-18T04:25:33.986502Z",
       "status": "found"
     },
+    "crossref:doi:10.29026/oes.2026.260038": {
+      "expires_at": "2026-10-01T01:13:13.074384Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Stefano Biasi",
+            "orcid": null
+          },
+          {
+            "name": "Bülent Aslan",
+            "orcid": null
+          },
+          {
+            "name": "Stefano Gretter",
+            "orcid": null
+          },
+          {
+            "name": "Davide Olivieri",
+            "orcid": null
+          },
+          {
+            "name": "Alessandro Foradori",
+            "orcid": null
+          },
+          {
+            "name": "Riccardo Franchi",
+            "orcid": null
+          },
+          {
+            "name": "Lorenzo Pavesi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.29026/oes.2026.260038",
+        "landing_page": "https://doi.org/10.29026/oes.2026.260038",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.29026/oes.2026.260038",
+        "publication_date": "2026",
+        "title": "Programmable directional photonic spiking neuron based on a non-Hermitian silicon microresonator",
+        "venue": "Opto-Electronic Science",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-01T01:13:13.074384Z",
+      "status": "found"
+    },
     "crossref:doi:10.3788/irla20250523": {
       "expires_at": "2026-09-08T00:36:12.555790Z",
       "record": null,
@@ -3435,6 +3599,48 @@
       "record": null,
       "retrieved_at": "2026-08-09T00:36:13.391892Z",
       "status": "not_found"
+    },
+    "crossref:title:2ede4074cd9c60b8c654c9d060707d687ba958b3f636a82a17ba0ea115dae63b": {
+      "expires_at": "2026-09-08T01:13:11.183771Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mahmood Ghanbari",
+            "orcid": null
+          },
+          {
+            "name": "Abbas Mirzaei",
+            "orcid": "https://orcid.org/0000-0002-4476-2512"
+          },
+          {
+            "name": "Behnam Barzegar",
+            "orcid": null
+          },
+          {
+            "name": "Nasser Mikaeilvand",
+            "orcid": null
+          },
+          {
+            "name": "Babak Nouri-Moghaddam",
+            "orcid": "https://orcid.org/0000-0001-5363-9949"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.ibmed.2026.100460",
+        "landing_page": "https://doi.org/10.1016/j.ibmed.2026.100460",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.ibmed.2026.100460",
+        "publication_date": "2026-08",
+        "title": "Resolving Accuracy-Fairness Trade-offs in Clinical Decision Support: A Heterogeneous Neural Energy-Based Framework for Diabetes Management",
+        "venue": "Intelligence-Based Medicine",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-01T01:13:11.183771Z",
+      "status": "found"
     },
     "crossref:title:396433acbcc3f91784f5268f64740577bf2596dcfa06755340cef71a7f90d310": {
       "expires_at": "2026-08-16T00:35:59.056202Z",
@@ -3906,6 +4112,12 @@
       "retrieved_at": "2026-08-18T04:25:29.998451Z",
       "status": "not_found"
     },
+    "crossref:title:62cead5d64694deb1e6b51dfe4a48042b73a6d7a7e22db6c1912f441d25b8225": {
+      "expires_at": "2026-09-08T01:13:17.558795Z",
+      "record": null,
+      "retrieved_at": "2026-09-01T01:13:17.558795Z",
+      "status": "not_found"
+    },
     "crossref:title:68c7f373df5dda2ec156480414652821d724642dc444651f33df7b44061a9455": {
       "expires_at": "2026-08-27T00:32:29.845954Z",
       "record": null,
@@ -4232,6 +4444,12 @@
       "retrieved_at": "2026-08-18T04:25:19.729058Z",
       "status": "found"
     },
+    "crossref:title:929f7f41a524e231d5b9648a6d50bf54725da5a7741153f019e519531d57830a": {
+      "expires_at": "2026-09-08T01:13:09.900120Z",
+      "record": null,
+      "retrieved_at": "2026-09-01T01:13:09.900120Z",
+      "status": "not_found"
+    },
     "crossref:title:9516831af358386c3b41e5eb5eb9d06c5f4af115830305bc7c47cc06d832318e": {
       "expires_at": "2026-09-07T01:07:11.608339Z",
       "record": null,
@@ -4291,6 +4509,12 @@
       },
       "retrieved_at": "2026-08-04T09:38:43.571237Z",
       "status": "found"
+    },
+    "crossref:title:97accf0e71451350d4e7f9f9acd43ba7a9fb6f5d6ae3158d0268f874beeb30be": {
+      "expires_at": "2026-09-08T01:13:18.842340Z",
+      "record": null,
+      "retrieved_at": "2026-09-01T01:13:18.842340Z",
+      "status": "not_found"
     },
     "crossref:title:9863cf7ff493a2b7c37ba196cf968dc6f4ea005c3ac654a177628ba993caebce": {
       "expires_at": "2026-08-27T00:32:26.843676Z",
@@ -4844,6 +5068,12 @@
       "retrieved_at": "2026-08-27T16:32:38.006835Z",
       "status": "not_found"
     },
+    "crossref:title:c0f4376068a1b45b51b2779cb7d8516c45dcbb564afcb38e6fb86891d290453e": {
+      "expires_at": "2026-09-08T01:13:15.230369Z",
+      "record": null,
+      "retrieved_at": "2026-09-01T01:13:15.230369Z",
+      "status": "not_found"
+    },
     "crossref:title:c20284588650f9fee6b16d061159a7d7bc07ff01c7090e0f0b531b46431ba513": {
       "expires_at": "2026-08-25T04:25:08.969019Z",
       "record": {
@@ -4896,6 +5126,12 @@
       "expires_at": "2026-09-05T00:54:07.437285Z",
       "record": null,
       "retrieved_at": "2026-08-29T00:54:07.437285Z",
+      "status": "not_found"
+    },
+    "crossref:title:c5ea4bad8e5a6e637121fa6484d86f43625a3fa36cb543b1a007f3817fa3c5ec": {
+      "expires_at": "2026-09-08T01:13:11.971306Z",
+      "record": null,
+      "retrieved_at": "2026-09-01T01:13:11.971306Z",
       "status": "not_found"
     },
     "crossref:title:cbde4e7b874735126ef47edd5cebf95081723b500b74f59d1ec1de2538ee9151": {
@@ -5696,6 +5932,68 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-23T00:32:30.309751Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/lpor.71816": {
+      "expires_at": "2026-10-01T01:13:14.128969Z",
+      "record": {
+        "abstract": "ABSTRACT Real‐time ranging of thermal targets holds critical importance for defense, surveillance, and autonomous navigation, yet remains fundamentally constrained by the inherently low texture of thermal imagery. A metasurface‐Transformer architecture is presented to enable monocular four‐dimensional (4D) thermal light‐field imaging and subsequent ranging. The optical front end uses an all‐silicon metasurface microlens array directly integrated into a commercial thermal camera module, forming a compact light‐field imager. The computational back end, a thermal disparity transformer (TDiT), resolves sub‐pixel disparities from the texture‐scarce thermal light‐field through dedicated pre‐processing and Transformer‐based inference. The system achieves centimeter‐scale accuracy, with a mean ranging error of 1.87% at 25 ms per frame, enabling real‐time dynamic ranging of moving thermal targets. By combining metasurface‐enabled light‐field capture with high‐precision disparity estimation, this work provides a promising approach for effective, real‐time perception in texture‐scarce thermal environments.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dingke Wan",
+            "orcid": null
+          },
+          {
+            "name": "Junjie Zhan",
+            "orcid": null
+          },
+          {
+            "name": "Jiaqi Yu",
+            "orcid": "https://orcid.org/0000-0002-9953-7873"
+          },
+          {
+            "name": "Rui Chen",
+            "orcid": null
+          },
+          {
+            "name": "Shuhan Guo",
+            "orcid": null
+          },
+          {
+            "name": "Jun Hu",
+            "orcid": "https://orcid.org/0000-0002-9748-0471"
+          },
+          {
+            "name": "Yi Jin",
+            "orcid": "https://orcid.org/0000-0003-4446-3819"
+          },
+          {
+            "name": "Xiang Shen",
+            "orcid": "https://orcid.org/0000-0002-8966-0325"
+          },
+          {
+            "name": "P. K. Choudhury",
+            "orcid": "https://orcid.org/0000-0002-1681-9753"
+          },
+          {
+            "name": "Yungui Ma",
+            "orcid": "https://orcid.org/0000-0002-1859-1211"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71816",
+        "landing_page": "https://doi.org/10.1002/lpor.71816",
+        "open_access_url": "https://doi.org/10.1002/lpor.71816",
+        "openalex_id": "https://openalex.org/W7204691181",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204691181",
+        "publication_date": "2026-08-30",
+        "title": "Real‐Time LWIR Imaging and Ranging via 4D Light‐Field Metasurface‐Transformer Integrated Framework",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-01T01:13:14.128969Z",
       "status": "found"
     },
     "openalex:doi:10.1002/nap2.70242": {
@@ -6582,6 +6880,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-26T00:32:39.023529Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.ibmed.2026.100460": {
+      "expires_at": "2026-10-01T01:13:11.503801Z",
+      "record": {
+        "abstract": "Background Clinical AI models frequently exhibit degraded performance and systemic bias when applied to highly imbalanced healthcare datasets. Navigating the inherent trade-off between predictive fidelity and demographic equity remains a critical challenge for translational medicine. To address this, we propose the Heterogeneous Neural Energy-Based Classifier ( ), a novel dual-paradigm framework. Methods The proposed architecture integrates a Dynamic Class Matrix ( ) for adaptive under-sampling with Simulated Annealing ( ) for robust hyperparameter optimization across non-convex loss landscapes. Additionally, an Adaptive Fairness Regulation ( ) module is incorporated to explicitly penalize demographic parity deviations during gradient-based optimization, ensuring equitable model convergence. Results Empirical evaluations on the Diabetes 130-US Hospitals dataset demonstrate that the deep gradient-based configuration ( ) achieves highly robust predictive performance in medication prescription, yielding an Area Under the Receiver Operating Characteristic ( ) of , an accuracy of , and a Matthews Correlation Coefficient ( ) of . Crucially, the AFR module curtails the Predicted Positive Rate ( ) disparity to , effectively mitigating algorithmic bias. Conversely, for 30-day readmission prediction, the gradient-free heuristic configuration ( ) prioritizes rapid optimization (completing evaluation in ) and strict demographic equity ( ), accepting an anticipated trade-off in global discriminative power ( , ). Conclusions The framework offers a mathematically rigorous and adaptable methodology for trustworthy clinical decision support. By balancing highly discriminative capabilities with demonstrable algorithmic fairness, it establishes a reliable paradigm for deploying equitable AI interventions in endocrinology and broader healthcare networks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mahmood Ghanbari",
+            "orcid": "https://orcid.org/0000-0003-3286-5474"
+          },
+          {
+            "name": "Abbas Mirzaei",
+            "orcid": "https://orcid.org/0000-0002-4476-2512"
+          },
+          {
+            "name": "Behnam Barzegar",
+            "orcid": null
+          },
+          {
+            "name": "Nasser Mikaeilvand",
+            "orcid": null
+          },
+          {
+            "name": "Babak Nouri-Moghaddam",
+            "orcid": "https://orcid.org/0000-0001-5363-9949"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.ibmed.2026.100460",
+        "landing_page": "https://doi.org/10.1016/j.ibmed.2026.100460",
+        "open_access_url": "https://doi.org/10.1016/j.ibmed.2026.100460",
+        "openalex_id": "https://openalex.org/W7204561421",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204561421",
+        "publication_date": "2026-08-01",
+        "title": "Resolving Accuracy-Fairness Trade-offs in Clinical Decision Support: A Heterogeneous Neural Energy-Based Framework for Diabetes Management",
+        "venue": "Intelligence-Based Medicine",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-01T01:13:11.503801Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.ijggc.2026.104756": {
@@ -8882,6 +9222,58 @@
       "retrieved_at": "2026-08-23T00:32:34.492360Z",
       "status": "found"
     },
+    "openalex:doi:10.1117/12.3119898": {
+      "expires_at": "2026-10-01T01:13:14.758928Z",
+      "record": {
+        "abstract": "This paper presents an overview of the current state and future prospects of diffractive photonics for next-generation optical communication and photonic computing technologies. Theoretical and practical aspects of designing diffractive optical elements (DOEs) using methods of computational optics, digital engineering, and digital twin technologies are considered. Particular attention is paid to the physicochemical mechanisms of laser synthesis of functional nanostructures and thermochemical recording of subwavelength reliefs, ensuring high stability and spectral selectivity of optical interfaces. For the first time within a unified review, the transition from passive diffractive components to active intelligent media—photonic deep neural networks (DNNs) and analog computing platforms demonstrating orders-of-magnitude higher energy efficiency compared with conventional electronic architectures—is analyzed. Approaches to the development of robust optical systems resistant to destabilizing factors and methods of adaptive control of light fields in free-space optical (FSO) networks and fiber-optic communication lines are described. The results confirm that the synergy between diffractive optics and artificial intelligence is a defining factor in the development of smart-city architectures and high-performance photonic computing systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Serguei P. Murzin",
+            "orcid": "https://orcid.org/0000-0002-8150-1848"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3119898",
+        "landing_page": "https://doi.org/10.1117/12.3119898",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7204692926",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204692926",
+        "publication_date": "2026-08-30",
+        "title": "Intelligent diffractive photonics: from precision laser synthesis to adaptive infocommunication systems and optical computing",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-01T01:13:14.758928Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1117/12.3119902": {
+      "expires_at": "2026-10-01T01:13:16.651992Z",
+      "record": {
+        "abstract": "This paper considers modern methods for controlling the spatial distribution of optical energy using diffractive optical elements (DOEs) for the development of infocommunication technologies. The efficiency of programmable phase beam shapers for generating precision intensity profiles that ensure controlled modification of photonic materials and synthesis of semiconductor nanostructures is demonstrated. The possibility of controlling the phase composition and microstructural state of functional substrates, as well as forming hermetic metal–polymer joints for protective housings of telecommunication equipment, is shown. Particular attention is paid to the integration of physical laser nanostructuring processes with digital engineering and artificial intelligence algorithms. Mechanisms of autonomous synthesis of one-dimensional nano-objects and electrically controlled diffraction gratings are described. It is shown that the synergy of diffractive optics, machine vision systems, and neural network models enables adaptive wavefront correction and real-time distortion compensation. The obtained results form a technological basis for the creation of intelligent components and reliable interfaces in next-generation fiber-optic communication systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Christian Stiglbrunner",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3119902",
+        "landing_page": "https://doi.org/10.1117/12.3119902",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7204691930",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204691930",
+        "publication_date": "2026-08-30",
+        "title": "AI-driven beam shaping and laser synthesis of functional nanostructures for adaptive telecommunication systems",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-01T01:13:16.651992Z",
+      "status": "found"
+    },
     "openalex:doi:10.1117/12.3122678": {
       "expires_at": "2026-09-17T04:25:20.765980Z",
       "record": {
@@ -10248,6 +10640,56 @@
       "retrieved_at": "2026-08-18T04:25:34.320477Z",
       "status": "found"
     },
+    "openalex:doi:10.29026/oes.2026.260038": {
+      "expires_at": "2026-10-01T01:13:13.394348Z",
+      "record": {
+        "abstract": "Traditional computing architectures are increasingly constrained by the “Von Neumann bottleneck”, motivating energy-efficient, brain-inspired neuromorphic systems. Silicon photonic microresonators can emulate key neuronal dynamics such as spiking and excitability. However, in reciprocal microresonators, forward spike emission and backward signals are intrinsically linked, limiting independent control of directionality, feedback and inter-node back-action. Here, we overcome this limitation by exploiting engineered intermodal coupling in non-Hermitian photonic resonators to realize directional excitability in all-optical neurons. First, we show that Taiji microresonators exhibit direction-dependent self-pulsing thresholds, enabling a single device to act as a spiking neuron in one direction while remaining quiescent in the opposite. Then, we introduce the dynamically reconfigurable unified microresonator (DRUM), which enables electrical control of intermodal coupling amplitude and phase. This allows independent control of forward spike emission and backward signals, suppression or enhancement of back-propagation, and active tuning of neuronal properties. We experimentally demonstrate directional spiking asymmetry alongside tunability of temporal integration and refractory period, establishing DRUM as a programmable photonic spiking neuron. Finally, network-level simulations show that controlled back-action can mediate synaptic-like behavior, including inhibition and synchronization. These results identify reconfigurable non-Hermitian silicon microresonators as promising building blocks for photonic spiking nodes with programmable directionality, back-action, and temporal response.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Stefano Biasi",
+            "orcid": "https://orcid.org/0000-0002-3361-133X"
+          },
+          {
+            "name": "B. Aslan",
+            "orcid": "https://orcid.org/0009-0009-7125-7202"
+          },
+          {
+            "name": "Stefano Gretter",
+            "orcid": null
+          },
+          {
+            "name": "Davide Olivieri",
+            "orcid": null
+          },
+          {
+            "name": "Alessandro Foradori",
+            "orcid": "https://orcid.org/0009-0001-3195-8620"
+          },
+          {
+            "name": "Riccardo Franchi",
+            "orcid": null
+          },
+          {
+            "name": "Lorenzo Pavesi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.29026/oes.2026.260038",
+        "landing_page": "https://doi.org/10.29026/oes.2026.260038",
+        "open_access_url": "https://doi.org/10.29026/oes.2026.260038",
+        "openalex_id": "https://openalex.org/W7204278568",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204278568",
+        "publication_date": "2026-01-01",
+        "title": "Programmable directional photonic spiking neuron based on a non-Hermitian silicon microresonator",
+        "venue": "Opto-Electronic Science",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-01T01:13:13.394348Z",
+      "status": "found"
+    },
     "openalex:doi:10.3390/photonics13080779": {
       "expires_at": "2026-09-21T00:32:18.324551Z",
       "record": {
@@ -11040,6 +11482,40 @@
       "retrieved_at": "2026-08-18T04:25:33.944063Z",
       "status": "found"
     },
+    "openalex:title:62cead5d64694deb1e6b51dfe4a48042b73a6d7a7e22db6c1912f441d25b8225": {
+      "expires_at": "2026-09-08T01:13:18.205309Z",
+      "record": {
+        "abstract": "Real-time optimization (RTO) relies on process models to locate economically optimal operating conditions. Because developing first-principles models requires significant process knowledge, data-driven alternatives are increasingly attractive. Modern machine-learning models can fit historical plant data accurately and often pass standard validation tests. Whether such models can be trusted for economic optimization, however, remains unclear. We investigate this question using a vinyl acetate monomer benchmark process with a unique, well-conditioned economic optimum. We train a structured hybrid model that combines known mass balances and thermodynamics with a neural-network closure for unknown kinetics, and a fully data-driven neural ordinary differential equation (ODE) model. Both models reproduce plant measurements accurately and exhibit little variation in predictions across random initializations. Yet their economic optima differ substantially from that of the plant. Where the plant returns a single optimum on multistart search, the trained models return many phantom optima. We further show that the training optimizer alone can be yet another source of error. Even with noise-free data and initialization at weights that recover the plant optimum, stochastic gradient training can drift to weights that yield substantially worse RTO solutions. The identified model is thus an artifact of the training optimizer as well as the data. These results demonstrate that a good predictive fit of all available measurements does not guarantee reliable economic performance. A data-driven model for RTO should at least be required to recover the optimum on a decision-oriented benchmark like the one developed here before being considered for plant testing and application.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Prithvi Dake",
+            "orcid": null
+          },
+          {
+            "name": "Rahul Bindlish",
+            "orcid": "https://orcid.org/0000-0002-1840-4965"
+          },
+          {
+            "name": "James B. Rawlings",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2608.23885",
+        "landing_page": "https://arxiv.org/abs/2608.23885",
+        "open_access_url": "https://arxiv.org/abs/2608.23885",
+        "openalex_id": "https://openalex.org/W7204230449",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204230449",
+        "publication_date": "2026-08-24",
+        "title": "A tale of perfect fit and phantom optima: how data-driven models can fail in real-time optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-01T01:13:18.205309Z",
+      "status": "found"
+    },
     "openalex:title:68c7f373df5dda2ec156480414652821d724642dc444651f33df7b44061a9455": {
       "expires_at": "2026-08-27T00:32:30.372870Z",
       "record": {
@@ -11350,6 +11826,12 @@
       "retrieved_at": "2026-08-18T04:25:31.032934Z",
       "status": "found"
     },
+    "openalex:title:929f7f41a524e231d5b9648a6d50bf54725da5a7741153f019e519531d57830a": {
+      "expires_at": "2026-09-08T01:13:10.578763Z",
+      "record": null,
+      "retrieved_at": "2026-09-01T01:13:10.578763Z",
+      "status": "not_found"
+    },
     "openalex:title:9516831af358386c3b41e5eb5eb9d06c5f4af115830305bc7c47cc06d832318e": {
       "expires_at": "2026-09-07T01:07:12.337805Z",
       "record": null,
@@ -11366,6 +11848,12 @@
       "expires_at": "2026-08-27T00:32:26.657565Z",
       "record": null,
       "retrieved_at": "2026-08-20T00:32:26.657565Z",
+      "status": "not_found"
+    },
+    "openalex:title:97accf0e71451350d4e7f9f9acd43ba7a9fb6f5d6ae3158d0268f874beeb30be": {
+      "expires_at": "2026-09-08T01:13:19.360131Z",
+      "record": null,
+      "retrieved_at": "2026-09-01T01:13:19.360131Z",
       "status": "not_found"
     },
     "openalex:title:9863cf7ff493a2b7c37ba196cf968dc6f4ea005c3ac654a177628ba993caebce": {
@@ -11464,6 +11952,64 @@
       "retrieved_at": "2026-08-27T16:32:38.565419Z",
       "status": "not_found"
     },
+    "openalex:title:c0f4376068a1b45b51b2779cb7d8516c45dcbb564afcb38e6fb86891d290453e": {
+      "expires_at": "2026-09-08T01:13:15.935666Z",
+      "record": {
+        "abstract": "This paper proposes a fully differentiable jitter correction method for X-ray phase-contrast micro computed tomography using a deep learning-based image quality metric that estimates and compensates per-projection rigid jitter directly from the acquired projection data, without a pre-scan motion-free reference. The approach builds on a gradient-based auto-focus strategy adapted to parallel-beam geometry. A set of candidate objective functions is benchmarked in a controlled study, and the sensitivity of the visual information fidelity (VIF) metric to the jitter artifact is verified with the target phase-contrast data. To operate without a clean reference, a compact 3D convolutional neural network is trained to predict the VIF score from a single corrupted volume. A spatially selective total variation penalty applied exclusively to the image background is introduced to penalize spurious high-frequency structures that otherwise emerge during optimization. Experiments on biological specimens acquired at different synchrotron beamlines are conducted. Evaluation uses jitter motion applied to simulated and experimentally acquired projection data. The result confirms that the integrated pipeline reliably recovers fine structural detail lost due to jitter, with generalization demonstrated across morphologically distinct samples.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Junan Chen",
+            "orcid": "https://orcid.org/0000-0002-3274-240X"
+          },
+          {
+            "name": "Yiting Jia",
+            "orcid": null
+          },
+          {
+            "name": "Joscha Maier",
+            "orcid": "https://orcid.org/0000-0001-5042-0511"
+          },
+          {
+            "name": "Dominik John",
+            "orcid": "https://orcid.org/0009-0008-0856-9628"
+          },
+          {
+            "name": "Sami Wirtensohn",
+            "orcid": "https://orcid.org/0009-0008-9334-6700"
+          },
+          {
+            "name": "Imke Greving",
+            "orcid": null
+          },
+          {
+            "name": "Silja Flenner",
+            "orcid": "https://orcid.org/0000-0002-2951-2304"
+          },
+          {
+            "name": "Matthias Wieczorek",
+            "orcid": null
+          },
+          {
+            "name": "Julia Herzen",
+            "orcid": "https://orcid.org/0000-0002-9456-1591"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2608.27034",
+        "landing_page": "https://arxiv.org/abs/2608.27034",
+        "open_access_url": "https://arxiv.org/abs/2608.27034",
+        "openalex_id": "https://openalex.org/W7204569492",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204569492",
+        "publication_date": "2026-08-27",
+        "title": "Differentiable Jitter Correction using Deep Learning-based Image Quality Metric for Phase-Contrast Micro-CT",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-01T01:13:15.935666Z",
+      "status": "found"
+    },
     "openalex:title:c2a0888b262e22ec5a3d1eb42f0170419f1f3350784d8ee24ba8599f016f3f00": {
       "expires_at": "2026-09-05T00:54:10.076190Z",
       "record": null,
@@ -11510,6 +12056,12 @@
       "expires_at": "2026-09-05T00:54:08.012700Z",
       "record": null,
       "retrieved_at": "2026-08-29T00:54:08.012700Z",
+      "status": "not_found"
+    },
+    "openalex:title:c5ea4bad8e5a6e637121fa6484d86f43625a3fa36cb543b1a007f3817fa3c5ec": {
+      "expires_at": "2026-09-08T01:13:12.743268Z",
+      "record": null,
+      "retrieved_at": "2026-09-01T01:13:12.743268Z",
       "status": "not_found"
     },
     "openalex:title:cbde4e7b874735126ef47edd5cebf95081723b500b74f59d1ec1de2538ee9151": {
