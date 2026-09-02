@@ -1,4 +1,4 @@
-scoring_version: 1
+scoring_version: 2
 
 inputs:
   source_registry: "data/paper_registry.jsonl"
@@ -22,6 +22,45 @@ thresholds:
   summarize_from: 0.72
   urgent_from: 0.85
 
+# Venue prestige is intentionally independent from mandatory routing in
+# config/venues.yaml. A high-impact venue can receive a strong quality prior
+# without bypassing the relevance threshold or becoming mandatory.
+venue_prestige:
+  fallback_tier: general_unlisted
+  unresolved_tier: unresolved
+  tiers:
+    flagship:
+      weight: 0.14
+      venues:
+        - name: "Nature"
+          aliases: ["Nature Journal"]
+        - name: "Science"
+          aliases: ["Science Magazine"]
+        - name: "Nature Photonics"
+          aliases: ["Nat. Photonics", "Nat Photon"]
+        - name: "Nature Communications"
+          aliases: ["Nat. Commun.", "Nat Commun"]
+        - name: "Light: Science & Applications"
+          aliases: ["Light Science & Applications", "Light Sci. Appl.", "Light Sci Appl"]
+        - name: "Advanced Photonics"
+          aliases: ["Adv. Photonics", "Adv Photonics"]
+    high_impact:
+      weight: 0.13
+      venues:
+        - name: "Science Advances"
+          aliases: ["Sci. Adv.", "Sci Adv"]
+    strong_field:
+      weight: 0.07
+      venues:
+        - name: "Optica"
+          aliases: ["Optica Journal"]
+    general_unlisted:
+      weight: 0.02
+      venues: []
+    unresolved:
+      weight: 0.0
+      venues: []
+
 weights:
   project_confidence:
     confirmed: 0.32
@@ -31,11 +70,6 @@ weights:
   title_evidence: 0.10
   contextual_evidence: 0.04
   priority_features_cap: 0.15
-  venue:
-    tier_1_must_summarize: 0.12
-    tier_2_relevance_gated: 0.06
-    tier_3_and_unlisted: 0.02
-    unresolved: 0.0
   metadata:
     abstract: 0.08
     doi: 0.03

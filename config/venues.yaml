@@ -1,5 +1,6 @@
-# Venue policy for post-retrieval triage of papers already returned by alerts.
+# Venue routing policy for post-retrieval triage of papers already returned by alerts.
 # This file must never be used to crawl, enumerate, or actively monitor journals.
+# Independent venue-prestige scoring lives in config/scoring.yaml.
 
 venue_config_version: 2
 
@@ -9,9 +10,11 @@ scope:
     - "google_scholar_email"
   use_for_discovery_queries: false
   rationale: >
-    Venue prestige is evaluated only after Google Scholar alert emails have
-    returned candidate papers. The pipeline does not search these journals
-    directly and does not use the venue list to construct discovery queries.
+    Mandatory and relevance-gated venue routing is evaluated only after Google
+    Scholar alert emails have returned candidate papers. The pipeline does not
+    search these journals directly and does not use the venue list to construct
+    discovery queries. Venue prestige is scored independently from resolved
+    metadata in config/scoring.yaml and does not itself make a paper mandatory.
 
 default_score: 0.1
 
@@ -69,6 +72,6 @@ venue_groups:
 # Routing order:
 # 1. Parse papers already present in Google Scholar alert emails.
 # 2. Normalize and deduplicate metadata.
-# 3. Apply this venue policy.
-# 4. Apply semantic, lexical, citation, author, and novelty scoring where required.
+# 3. Apply this mandatory/relevance routing policy.
+# 4. Apply semantic, lexical, citation, author, novelty, and independent venue-prestige scoring.
 # 5. Use title and abstract first; never request full text automatically.
