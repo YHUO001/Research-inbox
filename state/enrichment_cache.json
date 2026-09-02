@@ -54,6 +54,56 @@
       "retrieved_at": "2026-08-18T04:25:31.075985Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/adom.71712": {
+      "expires_at": "2026-10-02T01:02:18.462027Z",
+      "record": {
+        "abstract": "ABSTRACT Artificial intelligence has revolutionized optical device design, overcoming the efficiency bottlenecks of traditional methods. For holographic metasurfaces, conventional iterative algorithms suffer from time‐consuming iterations and convergence stagnation, especially as the complexity of 3D target fields increases. While deep learning‐based algorithms have improved the trade‐off between speed and image quality, most existing models remain constrained by predefined physical scenarios. To address these challenges, we develop LM‐PINN, a physics‐informed neural network that integrates local polynomial fitting with multi‐plane wave propagation, for the rapid design of terahertz 3D holographic metasurfaces. Through self‐supervised training, LM‐PINN enables direct end‐to‐end mapping from target holographic patterns to metasurface structures within a predefined holographic configuration, without labeled datasets. Both simulated and experimental results from LM‐PINN demonstrate higher imaging quality than traditional iterative algorithms. We further incorporate distance encoding into LM‐PINN, yielding Dist‐LM‐PINN. Dist‐LM‐PINN enables a single trained model to generalize across varying diffraction distances and demonstrate 2D/3D holographic scenarios without retraining by utilizing the precomputed electric‐field distributions at the metasurface plane as inputs. The proposed framework typically completes inference in less than 1 second, providing a multifold speed advantage over traditional algorithms and offering a fast and flexible framework for high‐quality, real‐time, and large‐scale 3D holographic technologies.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jingzhu Shao",
+            "orcid": "https://orcid.org/0000-0001-8780-7015"
+          },
+          {
+            "name": "Ping Tang",
+            "orcid": null
+          },
+          {
+            "name": "Borui Xu",
+            "orcid": "https://orcid.org/0000-0003-1212-1646"
+          },
+          {
+            "name": "Xiangyu Zhao",
+            "orcid": "https://orcid.org/0000-0002-2056-0254"
+          },
+          {
+            "name": "Yudong Tian",
+            "orcid": null
+          },
+          {
+            "name": "Yuqing Liu",
+            "orcid": null
+          },
+          {
+            "name": "Chongzhao Wu",
+            "orcid": "https://orcid.org/0000-0002-5515-3325"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adom.71712",
+        "landing_page": "https://doi.org/10.1002/adom.71712",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/adom.71712",
+        "publication_date": "2026-08-31",
+        "title": "Metasurface‐Based Terahertz Three‐Dimensional Holography Enabled by Physics‐Informed Neural Network",
+        "venue": "Advanced Optical Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-02T01:02:18.462027Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/lpor.71596": {
       "expires_at": "2026-09-26T02:02:16.863743Z",
       "record": {
@@ -472,6 +522,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-30T01:05:16.367033Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1002/pssa.70508": {
+      "expires_at": "2026-10-02T01:02:20.681988Z",
+      "record": {
+        "abstract": "High‐performance terahertz metasurface biosensor is numerically developed for label‐free brain tumor detection. The sensor employs six multilayer elliptical resonators integrating WS 2 , borophene, Au, MXene, and Cu on a graphene‐coated SiO 2 substrate. Three material configurations are compared, with the hybrid WS 2 /borophene/MXene/Cu structure (Case 3) enabling plasmon–exciton (plexcitonic) coupling and delivering the best performance. Full‐wave FEM simulations in COMSOL incorporate dispersive material models, graphene conductivity based on the Kubo formalism, and Floquet–Bloch periodic boundaries. Parametric optimization covers graphene chemical potential, incidence angle, resonator size, and elliptical radii. The optimized Case 3 reaches 99.756% absorption at μ c = 0.3 eV, 0.995 THz/RIU sensitivity, 36.538 RIU −1 FOM, Q = 67.833, a 0.009 RIU detection limit, and R 2 = 99.361% linearity across refractive indices from 1.3333 to 1.4833 RIU. Near‐field analysis shows field enhancement approaching ×59. A 1D convolutional neural network surrogate accurately predicts THz absorption spectra with R 2 > 0.9999 and MAPE < 0.052%, substantially reducing computational cost. Overall, the proposed platform combines high sensitivity, strong electromagnetic confinement, and machine‐learning‐assisted prediction for efficient label‐free brain tumor diagnostics. Across eleven biological tissue conditions, the sensing range spans normal cerebrospinal fluid to high‐grade glioblastoma, supporting reliable discrimination of healthy and malignant brain tissue samples.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hassan Nasiri",
+            "orcid": "https://orcid.org/0000-0003-1089-491X"
+          },
+          {
+            "name": "Amuthakkannan Rajakannu",
+            "orcid": "https://orcid.org/0000-0002-9657-4556"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/pssa.70508",
+        "landing_page": "https://doi.org/10.1002/pssa.70508",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/pssa.70508",
+        "publication_date": "2026-09-09",
+        "title": "Multilayer WS\n                    <sub>2</sub>\n                    /Borophene/Au/MXene/Cu Metasurface Terahertz Biosensor With Machine Learning‐Augmented Prediction for Label‐Free Brain Tumor Detection",
+        "venue": "physica status solidi (a)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-02T01:02:20.681988Z",
       "status": "found"
     },
     "crossref:doi:10.1002/smll.75213": {
@@ -1554,6 +1634,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-23T00:32:33.635208Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1038/s41378-026-01424-9": {
+      "expires_at": "2026-10-02T01:02:17.928158Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Seonghwan Park",
+            "orcid": "https://orcid.org/0000-0002-6622-8484"
+          },
+          {
+            "name": "Jaeseong Lee",
+            "orcid": "https://orcid.org/0009-0005-3055-0630"
+          },
+          {
+            "name": "Jaewoo Park",
+            "orcid": "https://orcid.org/0009-0001-2954-3805"
+          },
+          {
+            "name": "Inkyu Moon",
+            "orcid": "https://orcid.org/0000-0003-0882-8585"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41378-026-01424-9",
+        "landing_page": "https://doi.org/10.1038/s41378-026-01424-9",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41378-026-01424-9",
+        "publication_date": "2026-08-31",
+        "title": "AI-driven dual-mode phase and label-free fluorescence imaging platform using a single-shot gabor hologram",
+        "venue": "Microsystems &amp; Nanoengineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-02T01:02:17.928158Z",
       "status": "found"
     },
     "crossref:doi:10.1038/s41427-026-00671-6": {
@@ -2828,6 +2946,88 @@
       "retrieved_at": "2026-08-30T01:05:17.375686Z",
       "status": "found"
     },
+    "crossref:doi:10.1186/s43593-026-00141-0": {
+      "expires_at": "2026-10-02T01:02:19.025917Z",
+      "record": {
+        "abstract": "Abstract Photonics has the potential to transform high-speed and energy-efficient artificial intelligence. However, most photonic computing platforms still rely on costly electro-optic conversions for data input, weight loading and storage, resulting in substantial overhead during large-scale computation. Here, we present a large-scale photonic in-memory computing platform based on liquid crystal (LC)-enabled Poincaré-sphere-connected neural networks. Megabyte-level nonvolatile photonic memory is introduced through light-driven reorientation of sulfonic azo-dye and LC molecules, which also functions as the reconfigurable optical neurons. This architecture uniquely integrates optical sensing, memory, and computing in situ, allowing minimal data-movement overheads in various switchable machine vision tasks. Ultrahigh scalability is demonstrated by a 9.44-million-neuron photonic processor array that supports massively parallel optical computing, recording and retrieval, providing a memory capacity 100,000 times larger than state-of-the-art photonic in-memory computing. This work offers a novel pathway toward scalable submicrometer-precision photonic memory, thus establishing a new paradigm for physical neural networks and brain-like artificial intelligence.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sijia Liu",
+            "orcid": null
+          },
+          {
+            "name": "Xiaonan Hu",
+            "orcid": null
+          },
+          {
+            "name": "Peng Chen",
+            "orcid": null
+          },
+          {
+            "name": "Xinyuan Fang",
+            "orcid": null
+          },
+          {
+            "name": "Fangtianyu Chen",
+            "orcid": null
+          },
+          {
+            "name": "Kenong Li",
+            "orcid": null
+          },
+          {
+            "name": "Rui Sun",
+            "orcid": null
+          },
+          {
+            "name": "Shihui Ding",
+            "orcid": null
+          },
+          {
+            "name": "Yiheng Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Keyao Li",
+            "orcid": null
+          },
+          {
+            "name": "Baoli Li",
+            "orcid": null
+          },
+          {
+            "name": "Shi-Jun Ge",
+            "orcid": null
+          },
+          {
+            "name": "Feng Wang",
+            "orcid": null
+          },
+          {
+            "name": "Min Gu",
+            "orcid": null
+          },
+          {
+            "name": "Yan-Qing Lu",
+            "orcid": "https://orcid.org/0000-0001-6151-8557"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1186/s43593-026-00141-0",
+        "landing_page": "https://doi.org/10.1186/s43593-026-00141-0",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1186/s43593-026-00141-0",
+        "publication_date": "2026-12",
+        "title": "Light-driven molecular reorientation for large-scale photonic in-memory computing",
+        "venue": "eLight",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-02T01:02:19.025917Z",
+      "status": "found"
+    },
     "crossref:doi:10.1364/oe.605087": {
       "expires_at": "2026-09-17T04:25:28.954331Z",
       "record": {
@@ -4094,6 +4294,12 @@
       "retrieved_at": "2026-08-09T00:36:11.038479Z",
       "status": "not_found"
     },
+    "crossref:title:5fc44aa91eebfc5b48e0c5db8f2d1572302ad27e1be5cad19a32db3811253f1a": {
+      "expires_at": "2026-09-09T01:02:17.114101Z",
+      "record": null,
+      "retrieved_at": "2026-09-02T01:02:17.114101Z",
+      "status": "not_found"
+    },
     "crossref:title:61861a8f926210b95769bf30b7ad9c9a24ee8673ffb8f7b1d95aa46e8d2e10f7": {
       "expires_at": "2026-09-07T01:07:13.917199Z",
       "record": null,
@@ -4882,6 +5088,12 @@
       "expires_at": "2026-08-16T00:36:00.135704Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:36:00.135704Z",
+      "status": "not_found"
+    },
+    "crossref:title:b5509c9d2891b597e8f1fe98a6d574ceb88b225d99aa4fce30ccc86f4f68b86c": {
+      "expires_at": "2026-09-09T01:02:19.667839Z",
+      "record": null,
+      "retrieved_at": "2026-09-02T01:02:19.667839Z",
       "status": "not_found"
     },
     "crossref:title:b583510df12ba484618776d7a38cfd3045ad2f0b46e70072c4bc7298d524c6f8": {
@@ -5706,6 +5918,56 @@
       "retrieved_at": "2026-08-18T04:25:31.408910Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/adom.71712": {
+      "expires_at": "2026-10-02T01:02:18.801449Z",
+      "record": {
+        "abstract": "ABSTRACT Artificial intelligence has revolutionized optical device design, overcoming the efficiency bottlenecks of traditional methods. For holographic metasurfaces, conventional iterative algorithms suffer from time‐consuming iterations and convergence stagnation, especially as the complexity of 3D target fields increases. While deep learning‐based algorithms have improved the trade‐off between speed and image quality, most existing models remain constrained by predefined physical scenarios. To address these challenges, we develop LM‐PINN, a physics‐informed neural network that integrates local polynomial fitting with multi‐plane wave propagation, for the rapid design of terahertz 3D holographic metasurfaces. Through self‐supervised training, LM‐PINN enables direct end‐to‐end mapping from target holographic patterns to metasurface structures within a predefined holographic configuration, without labeled datasets. Both simulated and experimental results from LM‐PINN demonstrate higher imaging quality than traditional iterative algorithms. We further incorporate distance encoding into LM‐PINN, yielding Dist‐LM‐PINN. Dist‐LM‐PINN enables a single trained model to generalize across varying diffraction distances and demonstrate 2D/3D holographic scenarios without retraining by utilizing the precomputed electric‐field distributions at the metasurface plane as inputs. The proposed framework typically completes inference in less than 1 second, providing a multifold speed advantage over traditional algorithms and offering a fast and flexible framework for high‐quality, real‐time, and large‐scale 3D holographic technologies.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jingzhu Shao",
+            "orcid": null
+          },
+          {
+            "name": "Ping Tang",
+            "orcid": null
+          },
+          {
+            "name": "Borui Xu",
+            "orcid": "https://orcid.org/0000-0001-5357-0400"
+          },
+          {
+            "name": "Xiangyu Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Yudong Tian",
+            "orcid": null
+          },
+          {
+            "name": "Yuqing Liu",
+            "orcid": null
+          },
+          {
+            "name": "Chongzhao Wu",
+            "orcid": "https://orcid.org/0000-0002-5515-3325"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adom.71712",
+        "landing_page": "https://doi.org/10.1002/adom.71712",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2601.01221",
+        "openalex_id": "https://openalex.org/W7119025267",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7119025267",
+        "publication_date": "2026-08-31",
+        "title": "Metasurface‐Based Terahertz Three‐Dimensional Holography Enabled by Physics‐Informed Neural Network",
+        "venue": "Advanced Optical Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-02T01:02:18.801449Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/lpor.71596": {
       "expires_at": "2026-09-26T02:02:17.250100Z",
       "record": {
@@ -6124,6 +6386,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-30T01:05:16.699795Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/pssa.70508": {
+      "expires_at": "2026-10-02T01:02:21.046831Z",
+      "record": {
+        "abstract": "High‐performance terahertz metasurface biosensor is numerically developed for label‐free brain tumor detection. The sensor employs six multilayer elliptical resonators integrating WS 2 , borophene, Au, MXene, and Cu on a graphene‐coated SiO 2 substrate. Three material configurations are compared, with the hybrid WS 2 /borophene/MXene/Cu structure (Case 3) enabling plasmon–exciton (plexcitonic) coupling and delivering the best performance. Full‐wave FEM simulations in COMSOL incorporate dispersive material models, graphene conductivity based on the Kubo formalism, and Floquet–Bloch periodic boundaries. Parametric optimization covers graphene chemical potential, incidence angle, resonator size, and elliptical radii. The optimized Case 3 reaches 99.756% absorption at μ c = 0.3 eV, 0.995 THz/RIU sensitivity, 36.538 RIU −1 FOM, Q = 67.833, a 0.009 RIU detection limit, and R 2 = 99.361% linearity across refractive indices from 1.3333 to 1.4833 RIU. Near‐field analysis shows field enhancement approaching ×59. A 1D convolutional neural network surrogate accurately predicts THz absorption spectra with R 2 > 0.9999 and MAPE < 0.052%, substantially reducing computational cost. Overall, the proposed platform combines high sensitivity, strong electromagnetic confinement, and machine‐learning‐assisted prediction for efficient label‐free brain tumor diagnostics. Across eleven biological tissue conditions, the sensing range spans normal cerebrospinal fluid to high‐grade glioblastoma, supporting reliable discrimination of healthy and malignant brain tissue samples.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hassan Nasiri",
+            "orcid": "https://orcid.org/0000-0003-1089-491X"
+          },
+          {
+            "name": "Amuthakkannan Rajakannu",
+            "orcid": "https://orcid.org/0000-0002-9657-4556"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/pssa.70508",
+        "landing_page": "https://doi.org/10.1002/pssa.70508",
+        "open_access_url": "https://doi.org/10.1002/pssa.70508",
+        "openalex_id": "https://openalex.org/W7204690941",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204690941",
+        "publication_date": "2026-08-30",
+        "title": "Multilayer WS 2 /Borophene/Au/MXene/Cu Metasurface Terahertz Biosensor With Machine Learning‐Augmented Prediction for Label‐Free Brain Tumor Detection",
+        "venue": "physica status solidi (a)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-02T01:02:21.046831Z",
       "status": "found"
     },
     "openalex:doi:10.1002/smll.75213": {
@@ -7582,6 +7874,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-23T00:32:34.031968Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41378-026-01424-9": {
+      "expires_at": "2026-10-02T01:02:18.300417Z",
+      "record": {
+        "abstract": "Simultaneous acquisition of quantitative phase and fluorescence information is essential for comprehensive cellular analysis, as these complementary modalities provide structural and biochemical insights, respectively. However, conventional dual-mode imaging systems require fluorescent labeling, complex optical architectures, and multiple acquisition channels, which limit scalability, increase cost, and hinder deployment in low-resource or high-throughput settings. Here, we present an AI-driven dual-mode phase and label-free fluorescence imaging platform using a single-shot Gabor hologram. The proposed framework enables simultaneous reconstruction of quantitative phase images and virtual fluorescence channels from a single low-cost holographic measurement, eliminating the need for fluorescent staining, multi-shot acquisition, or multimodal optical hardware. To achieve this, we introduce a one-sided unsupervised diffusion model that learns a unidirectional mapping from Gabor holograms to dual-mode outputs without requiring paired training data or cycle-consistency constraints. The model integrates contrastive learning–based hologram synthesis with hologram-conditioned denoising diffusion to ensure high structural fidelity and robust cross-modal reconstruction. Ground-truth phase and fluorescence images acquired from a conventional dual-mode optical system are used only during training, while inference relies exclusively on a single-shot Gabor hologram captured with a minimal optical configuration. Experimental validation across multiple cancer cell lines and organelle-specific fluorescence channels demonstrates that the proposed platform accurately recovers cellular morphology and subcellular distributions, achieving an FID of 57.74, SSIM of 0.76, PSNR of 26.89 dB, and LPIPS of 0.12, and further generalizes to unseen conditions including higher magnification, different cell type, low-illumination, and defocused acquisitions. These results support quantitative analysis, cell-type discrimination, and drug-response assessment, establishing a scalable and cost-effective platform that paves the way toward compact, high-content label-free imaging solutions.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Seonghwan Park",
+            "orcid": "https://orcid.org/0000-0002-6622-8484"
+          },
+          {
+            "name": "Jeongahn Lee",
+            "orcid": null
+          },
+          {
+            "name": "Jaewoo Park",
+            "orcid": "https://orcid.org/0009-0001-2954-3805"
+          },
+          {
+            "name": "Inkyu Moon",
+            "orcid": "https://orcid.org/0000-0003-0882-8585"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41378-026-01424-9",
+        "landing_page": "https://doi.org/10.1038/s41378-026-01424-9",
+        "open_access_url": "https://doi.org/10.1038/s41378-026-01424-9",
+        "openalex_id": "https://openalex.org/W7204829971",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204829971",
+        "publication_date": "2026-08-31",
+        "title": "AI-driven dual-mode phase and label-free fluorescence imaging platform using a single-shot gabor hologram",
+        "venue": "Microsystems & Nanoengineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-02T01:02:18.300417Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s41427-026-00671-6": {
@@ -9866,6 +10196,88 @@
       "retrieved_at": "2026-08-30T01:05:17.699553Z",
       "status": "found"
     },
+    "openalex:doi:10.1186/s43593-026-00141-0": {
+      "expires_at": "2026-10-02T01:02:19.403844Z",
+      "record": {
+        "abstract": "Abstract Photonics has the potential to transform high-speed and energy-efficient artificial intelligence. However, most photonic computing platforms still rely on costly electro-optic conversions for data input, weight loading and storage, resulting in substantial overhead during large-scale computation. Here, we present a large-scale photonic in-memory computing platform based on liquid crystal (LC)-enabled Poincaré-sphere-connected neural networks. Megabyte-level nonvolatile photonic memory is introduced through light-driven reorientation of sulfonic azo-dye and LC molecules, which also functions as the reconfigurable optical neurons. This architecture uniquely integrates optical sensing, memory, and computing in situ, allowing minimal data-movement overheads in various switchable machine vision tasks. Ultrahigh scalability is demonstrated by a 9.44-million-neuron photonic processor array that supports massively parallel optical computing, recording and retrieval, providing a memory capacity 100,000 times larger than state-of-the-art photonic in-memory computing. This work offers a novel pathway toward scalable submicrometer-precision photonic memory, thus establishing a new paradigm for physical neural networks and brain-like artificial intelligence.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sijia Liu",
+            "orcid": null
+          },
+          {
+            "name": "Xiaonan Hu",
+            "orcid": null
+          },
+          {
+            "name": "Peng Chen",
+            "orcid": null
+          },
+          {
+            "name": "Xinyuan Fang",
+            "orcid": "https://orcid.org/0000-0001-5904-2502"
+          },
+          {
+            "name": "Fangtianyu Chen",
+            "orcid": null
+          },
+          {
+            "name": "Kenong Li",
+            "orcid": null
+          },
+          {
+            "name": "Rui Sun",
+            "orcid": null
+          },
+          {
+            "name": "Shihui Ding",
+            "orcid": null
+          },
+          {
+            "name": "Yiheng Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Keyao Li",
+            "orcid": "https://orcid.org/0000-0003-3970-5596"
+          },
+          {
+            "name": "Baoli Li",
+            "orcid": null
+          },
+          {
+            "name": "Shi‐Jun Ge",
+            "orcid": null
+          },
+          {
+            "name": "Feng Wang",
+            "orcid": null
+          },
+          {
+            "name": "Min Gu",
+            "orcid": null
+          },
+          {
+            "name": "Yanqing Lu",
+            "orcid": "https://orcid.org/0000-0001-6151-8557"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1186/s43593-026-00141-0",
+        "landing_page": "https://doi.org/10.1186/s43593-026-00141-0",
+        "open_access_url": "https://doi.org/10.1186/s43593-026-00141-0",
+        "openalex_id": "https://openalex.org/W7204805235",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204805235",
+        "publication_date": "2026-08-31",
+        "title": "Light-driven molecular reorientation for large-scale photonic in-memory computing",
+        "venue": "eLight",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-02T01:02:19.403844Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/ao.597691": {
       "expires_at": "2026-09-03T09:38:57.606662Z",
       "record": {
@@ -11386,6 +11798,12 @@
       "retrieved_at": "2026-08-09T00:36:11.627946Z",
       "status": "not_found"
     },
+    "openalex:title:5fc44aa91eebfc5b48e0c5db8f2d1572302ad27e1be5cad19a32db3811253f1a": {
+      "expires_at": "2026-09-09T01:02:17.716449Z",
+      "record": null,
+      "retrieved_at": "2026-09-02T01:02:17.716449Z",
+      "status": "not_found"
+    },
     "openalex:title:61861a8f926210b95769bf30b7ad9c9a24ee8673ffb8f7b1d95aa46e8d2e10f7": {
       "expires_at": "2026-09-07T01:07:14.577565Z",
       "record": {
@@ -11927,6 +12345,32 @@
       "record": null,
       "retrieved_at": "2026-08-09T00:36:00.776579Z",
       "status": "not_found"
+    },
+    "openalex:title:b5509c9d2891b597e8f1fe98a6d574ceb88b225d99aa4fce30ccc86f4f68b86c": {
+      "expires_at": "2026-09-09T01:02:20.542879Z",
+      "record": {
+        "abstract": "Many core problems in computer vision and Earth observation are ill-posed and require additional guidance for reliable solutions. This cumulative thesis develops guided reconstruction methods across three domains: population mapping, depth estimation, and stereo video conversion. First, we address population mapping from aggregated census counts. In POMELO and POPCORN, we formulate disaggregation as a guided super-resolution problem, fusing coarse census data with satellite imagery to generate high-resolution maps. Second, we investigate depth estimation under sensor limitations. DADA introduces guided anisotropic diffusion for depth super-resolution, using RGB guidance to sharpen discontinuities, while Marigold-DC leverages generative diffusion priors for zero-shot depth completion, combining global structural plausibility with precise geometric guidance. Third, we present a latent diffusion model for controllable stereo video conversion. By reinterpreting the diffusion decoder as a guided super-resolution module, we enable fine-grained appearance transfer from the input view. Moreover, we propose a disparity control mechanism that allows us to explicitly control the 3D strength. Together, these contributions demonstrate that reframing ill-posed inverse problems as guided inference yields methods that are accurate, data-efficient, and controllable.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Nando Metzger",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3929/ethz-c-000802163",
+        "landing_page": "http://hdl.handle.net/20.500.11850/802163",
+        "open_access_url": "http://hdl.handle.net/20.500.11850/802163",
+        "openalex_id": "https://openalex.org/W7166519280",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7166519280",
+        "publication_date": "2026-01-01",
+        "title": "Solving Ill-posed Inference Problems with Image Guidance: Population Mapping, Depth Refinement, and Stereo Conversion",
+        "venue": "Open MIND",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-02T01:02:20.542879Z",
+      "status": "found"
     },
     "openalex:title:b583510df12ba484618776d7a38cfd3045ad2f0b46e70072c4bc7298d524c6f8": {
       "expires_at": "2026-08-31T00:32:19.217108Z",

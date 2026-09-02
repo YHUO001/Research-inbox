@@ -226,6 +226,15 @@
       "summary_record_sha256": "3eb413cc59d181394645e7b9388029e96bcec47cfa45ea13b08ce55cc257d5e6",
       "title": "A Reconfigurable Kerr-Nonlinear Mach–Zehnder Activation Cell for Wavelength-Division Multiplexing Optical Neural Networks"
     },
+    "c82f6c2f7b8ae52a84e4eb29": {
+      "digest_date": "2026-09-02",
+      "doi": "10.1002/adom.71712",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "4670ec077c07b58b0d96a4c3c6a73d22e111cdc2581e7ddddd399eaf23e08f48",
+      "title": "Metasurface‐Based Terahertz Three‐Dimensional Holography Enabled by Physics‐Informed Neural Network"
+    },
     "ca00b2160d3deb8b79b61e6e": {
       "digest_date": "2026-08-19",
       "doi": "10.48550/arxiv.2608.12679",
@@ -328,10 +337,14 @@
     "2026-08-31": [
       "b03b6320be57edd77b3ad7e5",
       "f0cf0b80e6f1f53ea347c136"
+    ],
+    "2026-09-02": [
+      "c82f6c2f7b8ae52a84e4eb29"
     ]
   },
   "by_doi": {
     "10.1002/adom.71567": "ccd82d84305d463a6c33398d",
+    "10.1002/adom.71712": "c82f6c2f7b8ae52a84e4eb29",
     "10.1007/s10915-026-03433-2": "7719ae17086cb97168bebbc5",
     "10.1021/acsphotonics.6c00831": "2eb28d7201afb356d747693a",
     "10.1038/s41377-026-02325-2": "1e619f1b739f1893eae64f28",
@@ -383,6 +396,7 @@
       "973790e22c46d30721660799",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
+      "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d"
     ],
     "zeroth-order-optimization": [
@@ -407,6 +421,9 @@
     ],
     "application:mnist手写数字分类": [
       "973790e22c46d30721660799"
+    ],
+    "application:二维/三维全息重建": [
+      "c82f6c2f7b8ae52a84e4eb29"
     ],
     "application:传感内成像分类": [
       "9322fad036b3d7fc8e3dd47b"
@@ -463,6 +480,9 @@
     "application:大型模型部署": [
       "7d6c2a059923ebe445a1cdf7"
     ],
+    "application:太赫兹三维全息超表面设计": [
+      "c82f6c2f7b8ae52a84e4eb29"
+    ],
     "application:实时感知": [
       "83a830ace13b5158f346c392"
     ],
@@ -501,6 +521,9 @@
     ],
     "application:超表面彩色路由器设计，将rgb光引导到指定子像素区域": [
       "4bb38e8bcc3a3d164bd28700"
+    ],
+    "application:跨衍射距离泛化": [
+      "c82f6c2f7b8ae52a84e4eb29"
     ],
     "application:轨道角动量贝尔态识别": [
       "9351be654a20f4a2f7121847"
@@ -545,13 +568,15 @@
       "83a830ace13b5158f346c392",
       "9322fad036b3d7fc8e3dd47b",
       "c3474ba19a69c715eb87d391",
+      "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d"
     ],
     "hardware_validation:mixed": [
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
-      "9322fad036b3d7fc8e3dd47b"
+      "9322fad036b3d7fc8e3dd47b",
+      "c82f6c2f7b8ae52a84e4eb29"
     ],
     "hardware_validation:physical_experiment": [
       "1e619f1b739f1893eae64f28",
@@ -594,6 +619,7 @@
       "973790e22c46d30721660799",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
+      "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d"
     ],
     "project:zeroth-order-optimization": [
@@ -676,6 +702,7 @@
       "973790e22c46d30721660799"
     ],
     "Advanced Optical Materials": [
+      "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d"
     ],
     "CLEO 2026": [
@@ -767,6 +794,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
+      "c82f6c2f7b8ae52a84e4eb29",
       "ca00b2160d3deb8b79b61e6e",
       "ccd82d84305d463a6c33398d",
       "dd2f544b89860edf2c2a51ae",
@@ -774,7 +802,7 @@
       "f0cf0b80e6f1f53ea347c136"
     ]
   },
-  "paper_count": 30,
+  "paper_count": 31,
   "schema_version": 1,
-  "updated_at": "2026-08-31T01:08:28.520884Z"
+  "updated_at": "2026-09-02T01:03:27.063705Z"
 }

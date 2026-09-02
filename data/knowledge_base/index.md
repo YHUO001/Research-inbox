@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`30`
-- 更新时间：`2026-08-31T01:08:28.520884Z`
+- 论文数：`31`
+- 更新时间：`2026-09-02T01:03:27.063705Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Metasurface‐Based Terahertz Three‐Dimensional Holography Enabled by Physics‐Informed Neural Network
+
+- DOI/链接：[10.1002/adom.71712](https://doi.org/10.1002/adom.71712)
+- 期刊/年份：Advanced Optical Materials，2026
+- 摘要日期：`2026-09-02`
+- 候选 ID：`c82f6c2f7b8ae52a84e4eb29`
+- 标签：application:二维/三维全息重建, application:太赫兹三维全息超表面设计, application:跨衍射距离泛化, architecture:unclear, hardware_validation:mixed, project:optical-neural-networks
 
 ### Silicon microring resonator for photonic neural networks
 
