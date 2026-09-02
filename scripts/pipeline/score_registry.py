@@ -2,10 +2,12 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import html
 import json
 import os
 import re
 import tempfile
+import unicodedata
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -15,7 +17,7 @@ import yaml
 from jsonschema import Draft202012Validator, FormatChecker
 
 
-SCORING_VERSION = 1
+SCORING_VERSION = 2
 DECISION_ORDER = {
     "mandatory": 0,
     "urgent": 1,
@@ -121,6 +123,59 @@ def candidate_venue(candidate: dict[str, Any]) -> str | None:
     venue = candidate.get("venue") or {}
     value = venue.get("normalized") or venue.get("raw")
     return str(value) if value else None
+
+
+def normalize_venue_name(value: str | None) -> str:
+    text = html.unescape(value or "")
+    text = unicodedata.normalize("NFKC", text).lower()
+    text = text.replace("–", "-").replace("—", "-").replace("−", "-")
+    text = text.replace("…", " ").replace("...", " ")
+    text = text.replace("&", " ")
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def venue_prestige(
+    venue: str | None,
+    config: dict[str, Any],
+) -> tuple[str, str | None, float]:
+    prestige = config.get("venue_prestige") or {}
+    tiers = prestige.get("tiers") or {}
+    unresolved_tier = str(prestige.get("unresolved_tier") or "unresolved")
+    if not venue:
+        unresolved = tiers.get(unresolved_tier) or {}
+        return unresolved_tier, None, float(unresolved.get("weight") or 0.0)
+
+    raw = str(venue)
+    value = normalize_venue_name(raw)
+    for tier_name, tier in tiers.items():
+        if not isinstance(tier, dict):
+            continue
+        for item in tier.get("venues") or []:
+            if not isinstance(item, dict):
+                continue
+            canonical = str(item.get("name") or "")
+            alternatives = [canonical, *(item.get("aliases") or [])]
+            for alternative in alternatives:
+                target = normalize_venue_name(str(alternative))
+                exact = bool(value and target and value == target)
+                truncated = bool(
+                    value
+                    and target
+                    and len(value) >= 7
+                    and (
+                        "…" in raw
+                        or "..." in raw
+                        or raw.rstrip().endswith("&")
+                    )
+                    and target.startswith(value)
+                )
+                if exact or truncated:
+                    return str(tier_name), canonical, float(tier.get("weight") or 0.0)
+
+    fallback_tier = str(prestige.get("fallback_tier") or "general_unlisted")
+    fallback = tiers.get(fallback_tier) or {}
+    return fallback_tier, raw, float(fallback.get("weight") or 0.0)
 
 
 def candidate_authors(
@@ -314,13 +369,14 @@ def score_candidate(
                 hits,
             )
 
-    venue_tier = (recognition.get("venue_policy") or {}).get("matched_tier")
-    venue_key = str(venue_tier) if venue_tier else "unresolved"
+    prestige_tier, prestige_venue, prestige_weight = venue_prestige(
+        metadata["venue"], config
+    )
     add_breakdown(
         breakdown,
-        "venue_policy",
-        float((weights.get("venue") or {}).get(venue_key, 0.0)),
-        [venue_key],
+        "venue_prestige",
+        prestige_weight,
+        [value for value in (prestige_tier, prestige_venue) if value],
     )
 
     metadata_weights = weights["metadata"]
