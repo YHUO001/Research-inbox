@@ -30,7 +30,7 @@ venue_prestige:
   unresolved_tier: unresolved
   tiers:
     flagship:
-      weight: 0.12
+      weight: 0.14
       venues:
         - name: "Nature"
           aliases: ["Nature Journal"]
@@ -45,12 +45,12 @@ venue_prestige:
         - name: "Advanced Photonics"
           aliases: ["Adv. Photonics", "Adv Photonics"]
     high_impact:
-      weight: 0.12
+      weight: 0.13
       venues:
         - name: "Science Advances"
           aliases: ["Sci. Adv.", "Sci Adv"]
     strong_field:
-      weight: 0.06
+      weight: 0.07
       venues:
         - name: "Optica"
           aliases: ["Optica Journal"]
