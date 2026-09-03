@@ -1,0 +1,76 @@
+{
+  "built_at": "2026-09-03T01:03:41.870733Z",
+  "digest_date": "2026-09-03",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "973507e35175bb05fcf25e79",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02419-x",
+        "mandatory": false,
+        "score": 0.83,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Trivial-nontrivial programmable topological metasurfaces for sensing and communication",
+        "venue": "Light: Science &amp; Applications",
+        "year": 2026
+      },
+      {
+        "candidate_id": "35ff63ef9d3333099ee28868",
+        "landing_page": "https://doi.org/10.1038/s44335-026-00096-y",
+        "mandatory": false,
+        "score": 0.81,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Full-colour imaging behind a glass diffuser through a diffractive neural network with multi-wavelength channels",
+        "venue": "npj Unconventional Computing",
+        "year": 2026
+      },
+      {
+        "candidate_id": "d33b2e7c6586f37945facb32",
+        "landing_page": "https://doi.org/10.1038/s41467-026-77202-y",
+        "mandatory": false,
+        "score": 0.81,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Quantum nonlinearity for optical neural computing",
+        "venue": "Nature Communications",
+        "year": 2026
+      }
+    ],
+    "next_candidates": [
+      {
+        "candidate_id": "44fa3bd6f72c84820ce42dab",
+        "landing_page": "https://doi.org/10.1126/sciadv.aee9649",
+        "mandatory": false,
+        "score": 0.77,
+        "source_type": "openalex",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Programmable photonic neural engine with all-optical nonlinear activation and 40,000 connections",
+        "venue": "Science Advances",
+        "year": 2026
+      },
+      {
+        "candidate_id": "c7b91f881a121b7e1651e2f2",
+        "landing_page": "https://doi.org/10.1126/sciadv.aef8657",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "End-to-end all-optical in-sensor computing system using photonic integrated circuits",
+        "venue": "Science Advances",
+        "year": 2026
+      }
+    ]
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

@@ -1982,6 +1982,44 @@
       "retrieved_at": "2026-08-18T04:25:11.992281Z",
       "status": "found"
     },
+    "crossref:doi:10.1038/s44335-026-00096-y": {
+      "expires_at": "2026-10-03T01:03:40.352439Z",
+      "record": {
+        "abstract": "Abstract It is difficult for general imaging systems to see an object hidden by scattering media such as fog and biotissues. A diffractive neural network (DNN) has been demonstrated to reconstruct an object behind an unknown scattering medium at the speed of light through repeated light modulation. However, the architectures of most conventional DNNs have been designed for specific wavelengths. Such architectures are insufficient for the reconstruction of an object behind a scattering medium across multiple wavelengths. Here, we introduce a wavelength-multiplexed DNN composed of volume holographic optical elements for the multi-spectral imaging of an object behind a scattering medium. Our DNN, which was completely independent and parallel for multiple wavelengths, reconstructs spectral images of a hidden object with performance superior to that of a conventional DNN. Our proposed DNN can be expanded to broader and more numerous wavelengths creating opportunities for various applications including machine vision in autonomous systems, underwater imaging and bioimaging.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ikuo Hoshi",
+            "orcid": null
+          },
+          {
+            "name": "Koki Wakunami",
+            "orcid": null
+          },
+          {
+            "name": "Yasuyuki Ichihashi",
+            "orcid": null
+          },
+          {
+            "name": "Ryutaro Oi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s44335-026-00096-y",
+        "landing_page": "https://doi.org/10.1038/s44335-026-00096-y",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s44335-026-00096-y",
+        "publication_date": "2026-09-02",
+        "title": "Full-colour imaging behind a glass diffuser through a diffractive neural network with multi-wavelength channels",
+        "venue": "npj Unconventional Computing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-03T01:03:40.352439Z",
+      "status": "found"
+    },
     "crossref:doi:10.1080/19942060.2026.2682112": {
       "expires_at": "2026-09-08T00:36:02.501150Z",
       "record": {
@@ -2516,6 +2554,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-26T00:32:42.036998Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1142/s2047684126500259": {
+      "expires_at": "2026-10-03T01:03:40.757952Z",
+      "record": {
+        "abstract": "Lightweight, high-temperature-capable turbine blades are essential for increasing both efficiency and reliability in gas turbine engines. The purpose of this research is to test the thermal behavior, mechanical characteristics, and corrosion resistance of Ti-Al-Nb hybrid alloys for use in turbine blades. A reverse-engineering strategy was used to identify critical thermal and stress points and determine performance requirements through 3D scans, Computer-Aided Design (CAD) drawings, and finite element analysis (FEA). The various compositions of Titanium-Aluminum-Niobium (Ti-Al-Nb) samples were cured in separate heat-treatment processes with different aluminum and niobium contents and cooling rates. Process optimization used Response Surface Methodology (RSM), while a Physics-Informed Neural Network (PINN) with BiLSTM, SHAP, and Zeroth-Order Optimization (PNBM-SHAP-ZOA) was created to predict material properties. Optimum conditions were determined to be 26.3% Al, 11.9% Nb, 850 ℃ curing temperature, and 9.93 ℃/s cooling rate, resulting in a tensile strength of 1098.39 MPa, fracture toughness of 24.13 MPa√m, hardness of 380.52 HV, and weight gain due to oxidation of 0.16 mg/cm 2 . The proposed prediction framework yielded lower prediction errors than those achieved with ANN-GA, CNN-PSO, or traditional RSM, thus proving to be an effective model for designing Ti-Al-Nb turbine blade materials with exceptional performance.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Anitha Bheemavarapu",
+            "orcid": null
+          },
+          {
+            "name": "Yuvaraj Gopal",
+            "orcid": null
+          },
+          {
+            "name": "K. Manikandan",
+            "orcid": null
+          },
+          {
+            "name": "Naser Alsaleh",
+            "orcid": "https://orcid.org/0009-0003-7044-9524"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1142/s2047684126500259",
+        "landing_page": "https://doi.org/10.1142/s2047684126500259",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1142/s2047684126500259",
+        "publication_date": "2026-09-01",
+        "title": "Smart Reverse Engineering and Predictive Process Optimization of Titanium Intermetallic Composites For Turbine Blades using Artificial Intelligence and RSM",
+        "venue": "International Journal of Computational Materials Science and Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-03T01:03:40.757952Z",
       "status": "found"
     },
     "crossref:doi:10.1145/3770855.3817661": {
@@ -8364,6 +8440,44 @@
       "retrieved_at": "2026-08-18T04:25:12.315524Z",
       "status": "found"
     },
+    "openalex:doi:10.1038/s44335-026-00096-y": {
+      "expires_at": "2026-10-03T01:03:40.670265Z",
+      "record": {
+        "abstract": "Abstract It is difficult for general imaging systems to see an object hidden by scattering media such as fog and biotissues. A diffractive neural network (DNN) has been demonstrated to reconstruct an object behind an unknown scattering medium at the speed of light through repeated light modulation. However, the architectures of most conventional DNNs have been designed for specific wavelengths. Such architectures are insufficient for the reconstruction of an object behind a scattering medium across multiple wavelengths. Here, we introduce a wavelength-multiplexed DNN composed of volume holographic optical elements for the multi-spectral imaging of an object behind a scattering medium. Our DNN, which was completely independent and parallel for multiple wavelengths, reconstructs spectral images of a hidden object with performance superior to that of a conventional DNN. Our proposed DNN can be expanded to broader and more numerous wavelengths creating opportunities for various applications including machine vision in autonomous systems, underwater imaging and bioimaging.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ikuo Hoshi",
+            "orcid": "https://orcid.org/0000-0003-4783-3491"
+          },
+          {
+            "name": "Koki Wakunami",
+            "orcid": null
+          },
+          {
+            "name": "Yasuyuki Ichihashi",
+            "orcid": null
+          },
+          {
+            "name": "Ryutaro Oi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s44335-026-00096-y",
+        "landing_page": "https://doi.org/10.1038/s44335-026-00096-y",
+        "open_access_url": "https://doi.org/10.1038/s44335-026-00096-y",
+        "openalex_id": "https://openalex.org/W7204992914",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204992914",
+        "publication_date": "2026-09-02",
+        "title": "Full-colour imaging behind a glass diffuser through a diffractive neural network with multi-wavelength channels",
+        "venue": "npj Unconventional Computing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-03T01:03:40.670265Z",
+      "status": "found"
+    },
     "openalex:doi:10.1038/s44460-026-00123-2": {
       "expires_at": "2026-09-30T01:07:03.633527Z",
       "record": {
@@ -9766,6 +9880,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-26T00:32:42.469414Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1142/s2047684126500259": {
+      "expires_at": "2026-10-03T01:03:41.098833Z",
+      "record": {
+        "abstract": "Lightweight, high-temperature-capable turbine blades are essential for increasing both efficiency and reliability in gas turbine engines. The purpose of this research is to test the thermal behavior, mechanical characteristics, and corrosion resistance of Ti-Al-Nb hybrid alloys for use in turbine blades. A reverse-engineering strategy was used to identify critical thermal and stress points and determine performance requirements through 3D scans, Computer-Aided Design (CAD) drawings, and finite element analysis (FEA). The various compositions of Titanium-Aluminum-Niobium (Ti-Al-Nb) samples were cured in separate heat-treatment processes with different aluminum and niobium contents and cooling rates. Process optimization used Response Surface Methodology (RSM), while a Physics-Informed Neural Network (PINN) with BiLSTM, SHAP, and Zeroth-Order Optimization (PNBM-SHAP-ZOA) was created to predict material properties. Optimum conditions were determined to be 26.3% Al, 11.9% Nb, 850 ℃ curing temperature, and 9.93 ℃/s cooling rate, resulting in a tensile strength of 1098.39 MPa, fracture toughness of 24.13 MPa√m, hardness of 380.52 HV, and weight gain due to oxidation of 0.16 mg/cm 2 . The proposed prediction framework yielded lower prediction errors than those achieved with ANN-GA, CNN-PSO, or traditional RSM, thus proving to be an effective model for designing Ti-Al-Nb turbine blade materials with exceptional performance.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Anitha Bheemavarapu",
+            "orcid": null
+          },
+          {
+            "name": "Yuvaraj Gopal",
+            "orcid": null
+          },
+          {
+            "name": "K. Manikandan",
+            "orcid": null
+          },
+          {
+            "name": "Naser Alsaleh",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1142/s2047684126500259",
+        "landing_page": "https://doi.org/10.1142/s2047684126500259",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7204877247",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204877247",
+        "publication_date": "2026-09-01",
+        "title": "Smart Reverse Engineering and Predictive Process Optimization of Titanium Intermetallic Composites For Turbine Blades using Artificial Intelligence and RSM",
+        "venue": "International Journal of Computational Materials Science and Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-03T01:03:41.098833Z",
       "status": "found"
     },
     "openalex:doi:10.1145/3770855.3817661": {

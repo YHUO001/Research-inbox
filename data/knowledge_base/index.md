@@ -1,10 +1,34 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`31`
-- 更新时间：`2026-09-02T01:03:27.063705Z`
+- 论文数：`34`
+- 更新时间：`2026-09-03T01:06:07.920823Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Trivial-nontrivial programmable topological metasurfaces for sensing and communication
+
+- DOI/链接：[10.1038/s41377-026-02419-x](https://doi.org/10.1038/s41377-026-02419-x)
+- 期刊/年份：Light: Science &amp; Applications，2026
+- 摘要日期：`2026-09-03`
+- 候选 ID：`973507e35175bb05fcf25e79`
+- 标签：project:optical-neural-networks
+
+### Quantum nonlinearity for optical neural computing
+
+- DOI/链接：[10.1038/s41467-026-77202-y](https://doi.org/10.1038/s41467-026-77202-y)
+- 期刊/年份：Nature Communications，2026
+- 摘要日期：`2026-09-03`
+- 候选 ID：`d33b2e7c6586f37945facb32`
+- 标签：application:大语言模型推理的功率估算, application:强化学习, application:非线性分类, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
+
+### Full-colour imaging behind a glass diffuser through a diffractive neural network with multi-wavelength channels
+
+- DOI/链接：[10.1038/s44335-026-00096-y](https://doi.org/10.1038/s44335-026-00096-y)
+- 期刊/年份：npj Unconventional Computing，2026
+- 摘要日期：`2026-09-03`
+- 候选 ID：`35ff63ef9d3333099ee28868`
+- 标签：application:水下成像, application:生物成像, application:自动驾驶系统的机器视觉, application:透过散射介质（玻璃扩散器）的多光谱全彩成像, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Metasurface‐Based Terahertz Three‐Dimensional Holography Enabled by Physics‐Informed Neural Network
 

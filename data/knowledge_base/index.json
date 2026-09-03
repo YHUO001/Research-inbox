@@ -109,6 +109,15 @@
       "summary_record_sha256": "5f1f161699f62499df8d7b588e5def0ed74fbaaa01e663d98ce09b28ec9105c0",
       "title": "Hardware implementation of photonic neuromorphic autonomous navigation"
     },
+    "35ff63ef9d3333099ee28868": {
+      "digest_date": "2026-09-03",
+      "doi": "10.1038/s44335-026-00096-y",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "70695cb6138c395e3e84b556c9ad5739bd4e9be089118c763ba8d36c3808550a",
+      "title": "Full-colour imaging behind a glass diffuser through a diffractive neural network with multi-wavelength channels"
+    },
     "4bb38e8bcc3a3d164bd28700": {
       "digest_date": "2026-08-27",
       "doi": "10.1088/1361-6633/ae9e8c",
@@ -190,6 +199,15 @@
       "summary_record_sha256": "e701c352354a4f61df84f6eb773d0ea5a2791e3b23caf90027d9a1bdc0fd4034",
       "title": "Single-photon OAM Bell-state recognition via diffractive optical neural networks"
     },
+    "973507e35175bb05fcf25e79": {
+      "digest_date": "2026-09-03",
+      "doi": "10.1038/s41377-026-02419-x",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "723c14e78fc803eb8d94ac138c96072107207f49e741fefaceeb802b17c0a8e7",
+      "title": "Trivial-nontrivial programmable topological metasurfaces for sensing and communication"
+    },
     "973790e22c46d30721660799": {
       "digest_date": "2026-08-09",
       "doi": "10.60893/figshare.app.c.8604716.v1",
@@ -252,6 +270,15 @@
       ],
       "summary_record_sha256": "23f9d8c3c7e0801cc4b73be358c1f83de1dbee2d33e5c279c1fc1dc737a28798",
       "title": "On‐Chip Photonic Neural Network Architectures"
+    },
+    "d33b2e7c6586f37945facb32": {
+      "digest_date": "2026-09-03",
+      "doi": "10.1038/s41467-026-77202-y",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "bd22628805136421342fba5b380f87a460a25c0d45296e75b9e7fad871ce132e",
+      "title": "Quantum nonlinearity for optical neural computing"
     },
     "dd2f544b89860edf2c2a51ae": {
       "digest_date": "2026-08-20",
@@ -340,6 +367,11 @@
     ],
     "2026-09-02": [
       "c82f6c2f7b8ae52a84e4eb29"
+    ],
+    "2026-09-03": [
+      "35ff63ef9d3333099ee28868",
+      "973507e35175bb05fcf25e79",
+      "d33b2e7c6586f37945facb32"
     ]
   },
   "by_doi": {
@@ -348,8 +380,11 @@
     "10.1007/s10915-026-03433-2": "7719ae17086cb97168bebbc5",
     "10.1021/acsphotonics.6c00831": "2eb28d7201afb356d747693a",
     "10.1038/s41377-026-02325-2": "1e619f1b739f1893eae64f28",
+    "10.1038/s41377-026-02419-x": "973507e35175bb05fcf25e79",
     "10.1038/s41427-026-00671-6": "83a830ace13b5158f346c392",
+    "10.1038/s41467-026-77202-y": "d33b2e7c6586f37945facb32",
     "10.1038/s44335-026-00086-0": "328b1572ba0e31f8f8a6dac1",
+    "10.1038/s44335-026-00096-y": "35ff63ef9d3333099ee28868",
     "10.1088/1361-6633/ae9e8c": "4bb38e8bcc3a3d164bd28700",
     "10.1109/icocn70692.2026.11656217": "c3474ba19a69c715eb87d391",
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
@@ -385,6 +420,7 @@
       "2b5f9302fe96c2793d48540e",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
+      "35ff63ef9d3333099ee28868",
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
@@ -393,11 +429,13 @@
       "83a830ace13b5158f346c392",
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
+      "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
       "c82f6c2f7b8ae52a84e4eb29",
-      "ccd82d84305d463a6c33398d"
+      "ccd82d84305d463a6c33398d",
+      "d33b2e7c6586f37945facb32"
     ],
     "zeroth-order-optimization": [
       "0e5c75b6132afcfb1f7afb17",
@@ -480,6 +518,9 @@
     "application:大型模型部署": [
       "7d6c2a059923ebe445a1cdf7"
     ],
+    "application:大语言模型推理的功率估算": [
+      "d33b2e7c6586f37945facb32"
+    ],
     "application:太赫兹三维全息超表面设计": [
       "c82f6c2f7b8ae52a84e4eb29"
     ],
@@ -488,6 +529,9 @@
     ],
     "application:工业 5.0": [
       "7bc9d4230ed283852c3248a7"
+    ],
+    "application:强化学习": [
+      "d33b2e7c6586f37945facb32"
     ],
     "application:望远镜成像": [
       "0cbf41592278a3ad1b89e219"
@@ -501,6 +545,9 @@
     "application:机器视觉": [
       "83a830ace13b5158f346c392"
     ],
+    "application:水下成像": [
+      "35ff63ef9d3333099ee28868"
+    ],
     "application:深度残差神经网络中的残差卷积加速": [
       "1e619f1b739f1893eae64f28"
     ],
@@ -510,8 +557,14 @@
     "application:生物医学信号处理": [
       "7bc9d4230ed283852c3248a7"
     ],
+    "application:生物成像": [
+      "35ff63ef9d3333099ee28868"
+    ],
     "application:自主导航": [
       "328b1572ba0e31f8f8a6dac1"
+    ],
+    "application:自动驾驶系统的机器视觉": [
+      "35ff63ef9d3333099ee28868"
     ],
     "application:语音识别（fsdd）": [
       "1cf1fcd769c5ace951188b8c"
@@ -531,6 +584,9 @@
     "application:连续动作控制": [
       "328b1572ba0e31f8f8a6dac1"
     ],
+    "application:透过散射介质（玻璃扩散器）的多光谱全彩成像": [
+      "35ff63ef9d3333099ee28868"
+    ],
     "application:遥感": [
       "0cbf41592278a3ad1b89e219"
     ],
@@ -539,6 +595,9 @@
     ],
     "application:量子计算": [
       "ccd82d84305d463a6c33398d"
+    ],
+    "application:非线性分类": [
+      "d33b2e7c6586f37945facb32"
     ],
     "application:高光谱地球观测": [
       "7bc9d4230ed283852c3248a7"
@@ -561,6 +620,7 @@
       "2b5f9302fe96c2793d48540e",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
+      "35ff63ef9d3333099ee28868",
       "4bb38e8bcc3a3d164bd28700",
       "541094f286db8902f2fe6077",
       "7bc9d4230ed283852c3248a7",
@@ -569,7 +629,8 @@
       "9322fad036b3d7fc8e3dd47b",
       "c3474ba19a69c715eb87d391",
       "c82f6c2f7b8ae52a84e4eb29",
-      "ccd82d84305d463a6c33398d"
+      "ccd82d84305d463a6c33398d",
+      "d33b2e7c6586f37945facb32"
     ],
     "hardware_validation:mixed": [
       "1cf1fcd769c5ace951188b8c",
@@ -582,6 +643,7 @@
       "1e619f1b739f1893eae64f28",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
+      "35ff63ef9d3333099ee28868",
       "5017adbd33e6ddd5c320a4c4",
       "973790e22c46d30721660799"
     ],
@@ -589,7 +651,8 @@
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "541094f286db8902f2fe6077",
-      "b832199d8494cc67a559fec5"
+      "b832199d8494cc67a559fec5",
+      "d33b2e7c6586f37945facb32"
     ],
     "hardware_validation:unclear": [
       "028de8014a2b67fd147a28e7",
@@ -608,6 +671,7 @@
       "2b5f9302fe96c2793d48540e",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
+      "35ff63ef9d3333099ee28868",
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
@@ -616,11 +680,13 @@
       "83a830ace13b5158f346c392",
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
+      "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
       "c82f6c2f7b8ae52a84e4eb29",
-      "ccd82d84305d463a6c33398d"
+      "ccd82d84305d463a6c33398d",
+      "d33b2e7c6586f37945facb32"
     ],
     "project:zeroth-order-optimization": [
       "0e5c75b6132afcfb1f7afb17",
@@ -715,10 +781,14 @@
       "7719ae17086cb97168bebbc5"
     ],
     "Light: Science &amp; Applications": [
-      "1e619f1b739f1893eae64f28"
+      "1e619f1b739f1893eae64f28",
+      "973507e35175bb05fcf25e79"
     ],
     "NPG Asia Materials": [
       "83a830ace13b5158f346c392"
+    ],
+    "Nature Communications": [
+      "d33b2e7c6586f37945facb32"
     ],
     "Open Collections": [
       "9322fad036b3d7fc8e3dd47b"
@@ -764,7 +834,8 @@
       "f0cf0b80e6f1f53ea347c136"
     ],
     "npj Unconventional Computing": [
-      "328b1572ba0e31f8f8a6dac1"
+      "328b1572ba0e31f8f8a6dac1",
+      "35ff63ef9d3333099ee28868"
     ]
   },
   "by_year": {
@@ -781,6 +852,7 @@
       "2eb28d7201afb356d747693a",
       "2f9953028e4e0e3b934222c8",
       "328b1572ba0e31f8f8a6dac1",
+      "35ff63ef9d3333099ee28868",
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
@@ -790,6 +862,7 @@
       "83a830ace13b5158f346c392",
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
+      "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
       "b03b6320be57edd77b3ad7e5",
       "b832199d8494cc67a559fec5",
@@ -797,12 +870,13 @@
       "c82f6c2f7b8ae52a84e4eb29",
       "ca00b2160d3deb8b79b61e6e",
       "ccd82d84305d463a6c33398d",
+      "d33b2e7c6586f37945facb32",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136"
     ]
   },
-  "paper_count": 31,
+  "paper_count": 34,
   "schema_version": 1,
-  "updated_at": "2026-09-02T01:03:27.063705Z"
+  "updated_at": "2026-09-03T01:06:07.920823Z"
 }

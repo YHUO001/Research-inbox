@@ -1,10 +1,22 @@
 {
-  "abstract_fallback_candidate_ids": [
-    "c82f6c2f7b8ae52a84e4eb29"
-  ],
-  "abstract_fallback_count": 1,
+  "abstract_fallback_candidate_ids": [],
+  "abstract_fallback_count": 0,
   "architecture_evidence": {
-    "c82f6c2f7b8ae52a84e4eb29": {
+    "35ff63ef9d3333099ee28868": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    },
+    "973507e35175bb05fcf25e79": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    },
+    "d33b2e7c6586f37945facb32": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
@@ -14,46 +26,87 @@
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 1,
-  "completed_at": "2026-09-02T01:03:27.063705Z",
+  "automatic_queue_candidate_count": 5,
+  "completed_at": "2026-09-03T01:06:07.920823Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "c82f6c2f7b8ae52a84e4eb29"
+    "35ff63ef9d3333099ee28868",
+    "973507e35175bb05fcf25e79",
+    "d33b2e7c6586f37945facb32"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-09-02",
-  "digest_json_file": "runtime-state/data/digests/2026-09-02.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-09-02.generated.md",
+  "digest_date": "2026-09-03",
+  "digest_json_file": "runtime-state/data/digests/2026-09-03.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-09-03.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0147422,
+  "estimated_cost_cny": 0.072315,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "c82f6c2f7b8ae52a84e4eb29": {
+    "35ff63ef9d3333099ee28868": {
       "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "c82f6c2f7b8ae52a84e4eb29",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 0.912,
-      "error": "https://doi.org/10.1002/adom.71712: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.1002/adom.71712",
-      "status": "not_available",
+      "attempt_count": 1,
+      "candidate_id": "35ff63ef9d3333099ee28868",
+      "character_count": 12000,
+      "content_sha256": "42c9369edb009d62269467d2b6038b1d3944e92c7e7eb33a7a732eb177e1c434",
+      "elapsed_seconds": 0.862,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "application/xml+jats",
+      "section_headings": [
+        "Experimental setup",
+        "Comparison with conventional method",
+        "Methods",
+        "Model training"
+      ],
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs44335-026-00096-y&p=1",
+      "status": "used",
+      "text_persisted": false
+    },
+    "973507e35175bb05fcf25e79": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "973507e35175bb05fcf25e79",
+      "character_count": 6877,
+      "content_sha256": "e94e9b418af0d8e4c3e179ad359769bee44ecc3299acb4cc5f630303a5379fce",
+      "elapsed_seconds": 1.105,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "application/xml+jats",
+      "section_headings": [
+        "Materials and methods"
+      ],
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02419-x&p=1",
+      "status": "used",
+      "text_persisted": false
+    },
+    "d33b2e7c6586f37945facb32": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "d33b2e7c6586f37945facb32",
+      "character_count": 2404,
+      "content_sha256": "cf034ef15e32807651254179333df3c52947e147850b6fc8007891c7968971bb",
+      "elapsed_seconds": 0.713,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "application/xml+jats",
+      "section_headings": [
+        "training"
+      ],
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-77202-y&p=1",
+      "status": "used",
       "text_persisted": false
     }
   },
   "full_text_persisted": false,
-  "full_text_used": false,
+  "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_and_abstract_only",
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 1,
+  "newly_completed_candidate_count": 3,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -69,84 +122,176 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 1,
+  "prepared_request_count": 3,
   "provider": "deepseek",
-  "queue_sha256": "362ac28cb3ff551bd267d4cd8ea8772de969b3564743fdaae8ab59b17ec9a9f8",
-  "request_count": 1,
-  "request_file": "runtime-state/data/summary_requests/2026-09-02.jsonl",
-  "request_sha256": "fbd86429e304314dc8bb3ad1072077713c5fdb6afa65e493be4d1641574f3493",
+  "queue_sha256": "f7834fd0a118fd088e2f95446908e7a96d625d9f1be7b8a0e7df54573b7901f4",
+  "request_count": 3,
+  "request_file": "runtime-state/data/summary_requests/2026-09-03.jsonl",
+  "request_sha256": "83deba302cb96a8bd7ee735ffe9a97adca671ace3ffe7394ba14de071958956d",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "ae565718932f9a942e2df70f206cd95c8d0bb97dd26390201a61a96e8079e37c",
+  "selection_manifest_sha256": "98e54418b7ad88469dd0ebe8e24afa68f4d459c46b8a581d90b6b9a0129d59d0",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 1,
+  "source_queue_candidate_count": 5,
   "stage_timings": {
-    "full_text_preparation_seconds": 0.916,
+    "full_text_preparation_seconds": 2.686,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "c82f6c2f7b8ae52a84e4eb29",
-        "elapsed_seconds": 62.799,
+        "candidate_id": "973507e35175bb05fcf25e79",
+        "elapsed_seconds": 29.52,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1698,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1501,
-          "prompt_tokens": 3549,
-          "total_tokens": 5247
+          "completion_tokens": 1696,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 2903,
+          "prompt_tokens": 4823,
+          "total_tokens": 6519
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "35ff63ef9d3333099ee28868",
+        "elapsed_seconds": 50.559,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 2485,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 4241,
+          "prompt_tokens": 6161,
+          "total_tokens": 8646
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "d33b2e7c6586f37945facb32",
+        "elapsed_seconds": 27.301,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1531,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 1926,
+          "prompt_tokens": 3846,
+          "total_tokens": 5377
+        }
+      },
+      {
+        "attempt": 2,
+        "candidate_id": "d33b2e7c6586f37945facb32",
+        "elapsed_seconds": 34.342,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1726,
+          "prompt_cache_hit_tokens": 3840,
+          "prompt_cache_miss_tokens": 79,
+          "prompt_tokens": 3919,
+          "total_tokens": 5645
         }
       }
     ],
-    "model_generation_and_validation_seconds": 62.813
+    "model_generation_and_validation_seconds": 141.749
   },
   "status": "completed_automatic",
-  "summary_count": 1,
-  "summary_file": "runtime-state/data/summaries/2026-09-02.jsonl",
+  "summary_count": 3,
+  "summary_file": "runtime-state/data/summaries/2026-09-03.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 1,
+  "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "c82f6c2f7b8ae52a84e4eb29": {
+      "35ff63ef9d3333099ee28868": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": "free_space",
         "repaired": true,
         "resolved_type": "unclear"
+      },
+      "973507e35175bb05fcf25e79": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": null,
+        "repaired": false,
+        "resolved_type": "unclear"
+      },
+      "d33b2e7c6586f37945facb32": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "hybrid",
+        "repaired": true,
+        "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 1,
+    "architecture_repairs": 3,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "c82f6c2f7b8ae52a84e4eb29": {
+      "35ff63ef9d3333099ee28868": {
         "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "c82f6c2f7b8ae52a84e4eb29",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 0.912,
-        "error": "https://doi.org/10.1002/adom.71712: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.1002/adom.71712",
-        "status": "not_available",
+        "attempt_count": 1,
+        "candidate_id": "35ff63ef9d3333099ee28868",
+        "character_count": 12000,
+        "content_sha256": "42c9369edb009d62269467d2b6038b1d3944e92c7e7eb33a7a732eb177e1c434",
+        "elapsed_seconds": 0.862,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "application/xml+jats",
+        "section_headings": [
+          "Experimental setup",
+          "Comparison with conventional method",
+          "Methods",
+          "Model training"
+        ],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs44335-026-00096-y&p=1",
+        "status": "used",
+        "text_persisted": false
+      },
+      "973507e35175bb05fcf25e79": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "973507e35175bb05fcf25e79",
+        "character_count": 6877,
+        "content_sha256": "e94e9b418af0d8e4c3e179ad359769bee44ecc3299acb4cc5f630303a5379fce",
+        "elapsed_seconds": 1.105,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "application/xml+jats",
+        "section_headings": [
+          "Materials and methods"
+        ],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02419-x&p=1",
+        "status": "used",
+        "text_persisted": false
+      },
+      "d33b2e7c6586f37945facb32": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "d33b2e7c6586f37945facb32",
+        "character_count": 2404,
+        "content_sha256": "cf034ef15e32807651254179333df3c52947e147850b6fc8007891c7968971bb",
+        "elapsed_seconds": 0.713,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "application/xml+jats",
+        "section_headings": [
+          "training"
+        ],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-77202-y&p=1",
+        "status": "used",
         "text_persisted": false
       }
     },
     "generation_metadata_repair_responses": 1,
     "numeric_grounding_repair_responses": 0,
     "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 0,
-    "unit_format_normalization_responses": 0
+    "tops_alias_expansions": 55,
+    "unit_format_normalization_responses": 3
   },
   "usage": {
-    "completion_tokens": 1698,
-    "prompt_cache_hit_tokens": 2048,
-    "prompt_cache_miss_tokens": 1501,
-    "prompt_tokens": 3549,
-    "total_tokens": 5247
+    "completion_tokens": 7438,
+    "prompt_cache_hit_tokens": 9600,
+    "prompt_cache_miss_tokens": 9149,
+    "prompt_tokens": 18749,
+    "total_tokens": 26187
   }
 }
