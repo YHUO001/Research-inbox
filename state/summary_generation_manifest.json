@@ -1,22 +1,25 @@
 {
-  "abstract_fallback_candidate_ids": [],
-  "abstract_fallback_count": 0,
+  "abstract_fallback_candidate_ids": [
+    "44fa3bd6f72c84820ce42dab",
+    "c7b91f881a121b7e1651e2f2"
+  ],
+  "abstract_fallback_count": 2,
   "architecture_evidence": {
-    "35ff63ef9d3333099ee28868": {
+    "44fa3bd6f72c84820ce42dab": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": "unclear",
       "resolved_type": "unclear"
     },
-    "973507e35175bb05fcf25e79": {
+    "5e49047e7ce2004f7954debb": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": null,
       "resolved_type": "unclear"
     },
-    "d33b2e7c6586f37945facb32": {
+    "c7b91f881a121b7e1651e2f2": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
@@ -27,76 +30,88 @@
   "architecture_repairs": 0,
   "automatic_history_pending": false,
   "automatic_queue_candidate_count": 5,
-  "completed_at": "2026-09-03T01:06:07.920823Z",
+  "completed_at": "2026-09-04T01:02:46.417807Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "35ff63ef9d3333099ee28868",
-    "973507e35175bb05fcf25e79",
-    "d33b2e7c6586f37945facb32"
+    "44fa3bd6f72c84820ce42dab",
+    "5e49047e7ce2004f7954debb",
+    "c7b91f881a121b7e1651e2f2"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-09-03",
-  "digest_json_file": "runtime-state/data/digests/2026-09-03.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-09-03.generated.md",
+  "digest_date": "2026-09-04",
+  "digest_json_file": "runtime-state/data/digests/2026-09-04.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-09-04.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.072315,
+  "estimated_cost_cny": 0.0644906,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "35ff63ef9d3333099ee28868": {
+    "44fa3bd6f72c84820ce42dab": {
+      "abstract_available": true,
+      "attempt_count": 3,
+      "candidate_id": "44fa3bd6f72c84820ce42dab",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 1.838,
+      "error": "https://doi.org/10.1126/sciadv.aee9649: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1126/sciadv.aee9649",
+      "status": "not_available",
+      "text_persisted": false
+    },
+    "5e49047e7ce2004f7954debb": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "35ff63ef9d3333099ee28868",
+      "candidate_id": "5e49047e7ce2004f7954debb",
       "character_count": 12000,
-      "content_sha256": "42c9369edb009d62269467d2b6038b1d3944e92c7e7eb33a7a732eb177e1c434",
-      "elapsed_seconds": 0.862,
+      "content_sha256": "128030a6629fb9bd141b267f5b220454407c5979d30b4a00bd404c988820c468",
+      "elapsed_seconds": 0.536,
       "error": null,
       "fallback_decision": "use_full_text",
-      "media_type": "application/xml+jats",
+      "media_type": "text/html",
       "section_headings": [
-        "Experimental setup",
-        "Comparison with conventional method",
-        "Methods",
-        "Model training"
+        "Zeroth-order (ZO) and evolutionary methods are increasingly used to",
+        "We also contribute a methodological record. Two intermediate conclusions",
+        ". For these methods the headline gains are",
+        "all of these methods select among tens to millions of units with a",
+        "bought no sample efficiency, and the compute benefit those methods",
+        "by adaptive-ZO methods over uniform baselines, so our certificates",
+        "success on the training pool; the arm gaps are carried by the",
+        "; end-to-end success on the training",
+        "saved coefficients and evaluated them—no further training—on 96",
+        "are disjoint from the 48 training tasks (distractors drawn within the",
+        "families and naming conventions with the training set, so this tests",
+        "), the deficit grows over training",
+        "trust region does not bind late in training (0 of 274 module updates",
+        "generations) extends the picture to early training: at clip",
+        "this is an isomorphic debiasing rather than a re-implementation; this",
+        "uniform, which is why the floor tests use 6. Adaptive-ZO methods route",
+        "). Compact training-result files store each",
+        "Efficiency of coordinate descent methods on huge-scale optimization problems",
+        "Iteration complexity of randomized block-coordinate descent methods for minimizing a composite function",
+        "Cooperative coevolution for resource-constrained agentic LLM post-training"
       ],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs44335-026-00096-y&p=1",
+      "source_url": "https://arxiv.org/html/2608.28011",
       "status": "used",
       "text_persisted": false
     },
-    "973507e35175bb05fcf25e79": {
+    "c7b91f881a121b7e1651e2f2": {
       "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "973507e35175bb05fcf25e79",
-      "character_count": 6877,
-      "content_sha256": "e94e9b418af0d8e4c3e179ad359769bee44ecc3299acb4cc5f630303a5379fce",
-      "elapsed_seconds": 1.105,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "application/xml+jats",
-      "section_headings": [
-        "Materials and methods"
-      ],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02419-x&p=1",
-      "status": "used",
-      "text_persisted": false
-    },
-    "d33b2e7c6586f37945facb32": {
-      "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "d33b2e7c6586f37945facb32",
-      "character_count": 2404,
-      "content_sha256": "cf034ef15e32807651254179333df3c52947e147850b6fc8007891c7968971bb",
-      "elapsed_seconds": 0.713,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "application/xml+jats",
-      "section_headings": [
-        "training"
-      ],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-77202-y&p=1",
-      "status": "used",
+      "attempt_count": 3,
+      "candidate_id": "c7b91f881a121b7e1651e2f2",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 1.17,
+      "error": "https://doi.org/10.1126/sciadv.aef8657: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1126/sciadv.aef8657",
+      "status": "not_available",
       "text_persisted": false
     }
   },
@@ -124,101 +139,101 @@
   "output_language": "zh-CN",
   "prepared_request_count": 3,
   "provider": "deepseek",
-  "queue_sha256": "f7834fd0a118fd088e2f95446908e7a96d625d9f1be7b8a0e7df54573b7901f4",
+  "queue_sha256": "22a4cc3e45f10c354afb2241fdf9d1273726ebe1fbc62017aadc6283087d3fdc",
   "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-09-03.jsonl",
-  "request_sha256": "83deba302cb96a8bd7ee735ffe9a97adca671ace3ffe7394ba14de071958956d",
+  "request_file": "runtime-state/data/summary_requests/2026-09-04.jsonl",
+  "request_sha256": "2248d34d2cfd109dc866620bc70257d11b077366b14b3a28cebbec0acd1e5358",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "98e54418b7ad88469dd0ebe8e24afa68f4d459c46b8a581d90b6b9a0129d59d0",
+  "selection_manifest_sha256": "50f0970ba07c969ee82a87a6e219e93c5e59911b76108766fb8175f7689ed25e",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
   "source_queue_candidate_count": 5,
   "stage_timings": {
-    "full_text_preparation_seconds": 2.686,
+    "full_text_preparation_seconds": 3.551,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "973507e35175bb05fcf25e79",
-        "elapsed_seconds": 29.52,
+        "candidate_id": "5e49047e7ce2004f7954debb",
+        "elapsed_seconds": 49.137,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1696,
+          "completion_tokens": 2358,
           "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 2903,
-          "prompt_tokens": 4823,
-          "total_tokens": 6519
+          "prompt_cache_miss_tokens": 4860,
+          "prompt_tokens": 6780,
+          "total_tokens": 9138
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "35ff63ef9d3333099ee28868",
-        "elapsed_seconds": 50.559,
+        "candidate_id": "44fa3bd6f72c84820ce42dab",
+        "elapsed_seconds": 30.689,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2485,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 4241,
-          "prompt_tokens": 6161,
-          "total_tokens": 8646
+          "completion_tokens": 1591,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1360,
+          "prompt_tokens": 3408,
+          "total_tokens": 4999
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "d33b2e7c6586f37945facb32",
-        "elapsed_seconds": 27.301,
+        "candidate_id": "c7b91f881a121b7e1651e2f2",
+        "elapsed_seconds": 22.339,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1531,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 1926,
-          "prompt_tokens": 3846,
-          "total_tokens": 5377
+          "completion_tokens": 1257,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1406,
+          "prompt_tokens": 3454,
+          "total_tokens": 4711
         }
       },
       {
         "attempt": 2,
-        "candidate_id": "d33b2e7c6586f37945facb32",
-        "elapsed_seconds": 34.342,
+        "candidate_id": "c7b91f881a121b7e1651e2f2",
+        "elapsed_seconds": 32.725,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1726,
-          "prompt_cache_hit_tokens": 3840,
-          "prompt_cache_miss_tokens": 79,
-          "prompt_tokens": 3919,
-          "total_tokens": 5645
+          "completion_tokens": 1600,
+          "prompt_cache_hit_tokens": 3328,
+          "prompt_cache_miss_tokens": 181,
+          "prompt_tokens": 3509,
+          "total_tokens": 5109
         }
       }
     ],
-    "model_generation_and_validation_seconds": 141.749
+    "model_generation_and_validation_seconds": 134.918
   },
   "status": "completed_automatic",
   "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-09-03.jsonl",
+  "summary_file": "runtime-state/data/summaries/2026-09-04.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
   "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "35ff63ef9d3333099ee28868": {
+      "44fa3bd6f72c84820ce42dab": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": "free_space",
+        "model_value": "hybrid",
         "repaired": true,
         "resolved_type": "unclear"
       },
-      "973507e35175bb05fcf25e79": {
+      "5e49047e7ce2004f7954debb": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": null,
         "repaired": false,
         "resolved_type": "unclear"
       },
-      "d33b2e7c6586f37945facb32": {
+      "c7b91f881a121b7e1651e2f2": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": "hybrid",
+        "model_value": "integrated",
         "repaired": true,
         "resolved_type": "unclear"
       }
@@ -226,72 +241,84 @@
     "architecture_repairs": 3,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "35ff63ef9d3333099ee28868": {
+      "44fa3bd6f72c84820ce42dab": {
+        "abstract_available": true,
+        "attempt_count": 3,
+        "candidate_id": "44fa3bd6f72c84820ce42dab",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 1.838,
+        "error": "https://doi.org/10.1126/sciadv.aee9649: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1126/sciadv.aee9649",
+        "status": "not_available",
+        "text_persisted": false
+      },
+      "5e49047e7ce2004f7954debb": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "35ff63ef9d3333099ee28868",
+        "candidate_id": "5e49047e7ce2004f7954debb",
         "character_count": 12000,
-        "content_sha256": "42c9369edb009d62269467d2b6038b1d3944e92c7e7eb33a7a732eb177e1c434",
-        "elapsed_seconds": 0.862,
+        "content_sha256": "128030a6629fb9bd141b267f5b220454407c5979d30b4a00bd404c988820c468",
+        "elapsed_seconds": 0.536,
         "error": null,
         "fallback_decision": "use_full_text",
-        "media_type": "application/xml+jats",
+        "media_type": "text/html",
         "section_headings": [
-          "Experimental setup",
-          "Comparison with conventional method",
-          "Methods",
-          "Model training"
+          "Zeroth-order (ZO) and evolutionary methods are increasingly used to",
+          "We also contribute a methodological record. Two intermediate conclusions",
+          ". For these methods the headline gains are",
+          "all of these methods select among tens to millions of units with a",
+          "bought no sample efficiency, and the compute benefit those methods",
+          "by adaptive-ZO methods over uniform baselines, so our certificates",
+          "success on the training pool; the arm gaps are carried by the",
+          "; end-to-end success on the training",
+          "saved coefficients and evaluated them—no further training—on 96",
+          "are disjoint from the 48 training tasks (distractors drawn within the",
+          "families and naming conventions with the training set, so this tests",
+          "), the deficit grows over training",
+          "trust region does not bind late in training (0 of 274 module updates",
+          "generations) extends the picture to early training: at clip",
+          "this is an isomorphic debiasing rather than a re-implementation; this",
+          "uniform, which is why the floor tests use 6. Adaptive-ZO methods route",
+          "). Compact training-result files store each",
+          "Efficiency of coordinate descent methods on huge-scale optimization problems",
+          "Iteration complexity of randomized block-coordinate descent methods for minimizing a composite function",
+          "Cooperative coevolution for resource-constrained agentic LLM post-training"
         ],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs44335-026-00096-y&p=1",
+        "source_url": "https://arxiv.org/html/2608.28011",
         "status": "used",
         "text_persisted": false
       },
-      "973507e35175bb05fcf25e79": {
+      "c7b91f881a121b7e1651e2f2": {
         "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "973507e35175bb05fcf25e79",
-        "character_count": 6877,
-        "content_sha256": "e94e9b418af0d8e4c3e179ad359769bee44ecc3299acb4cc5f630303a5379fce",
-        "elapsed_seconds": 1.105,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "application/xml+jats",
-        "section_headings": [
-          "Materials and methods"
-        ],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02419-x&p=1",
-        "status": "used",
-        "text_persisted": false
-      },
-      "d33b2e7c6586f37945facb32": {
-        "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "d33b2e7c6586f37945facb32",
-        "character_count": 2404,
-        "content_sha256": "cf034ef15e32807651254179333df3c52947e147850b6fc8007891c7968971bb",
-        "elapsed_seconds": 0.713,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "application/xml+jats",
-        "section_headings": [
-          "training"
-        ],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-77202-y&p=1",
-        "status": "used",
+        "attempt_count": 3,
+        "candidate_id": "c7b91f881a121b7e1651e2f2",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 1.17,
+        "error": "https://doi.org/10.1126/sciadv.aef8657: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1126/sciadv.aef8657",
+        "status": "not_available",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 1,
+    "generation_metadata_repair_responses": 4,
     "numeric_grounding_repair_responses": 0,
     "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 55,
-    "unit_format_normalization_responses": 3
+    "tops_alias_expansions": 76,
+    "unit_format_normalization_responses": 1
   },
   "usage": {
-    "completion_tokens": 7438,
-    "prompt_cache_hit_tokens": 9600,
-    "prompt_cache_miss_tokens": 9149,
-    "prompt_tokens": 18749,
-    "total_tokens": 26187
+    "completion_tokens": 6806,
+    "prompt_cache_hit_tokens": 9344,
+    "prompt_cache_miss_tokens": 7807,
+    "prompt_tokens": 17151,
+    "total_tokens": 23957
   }
 }

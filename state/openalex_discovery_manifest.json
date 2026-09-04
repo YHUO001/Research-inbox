@@ -1,24 +1,21 @@
 {
-  "accepted_candidate_ids": [
-    "35ff63ef9d3333099ee28868",
-    "6aa880c99f2df9aded93952b"
-  ],
-  "accepted_count": 2,
-  "built_at": "2026-09-03T01:03:34.776825Z",
+  "accepted_candidate_ids": [],
+  "accepted_count": 0,
+  "built_at": "2026-09-04T01:00:06.435362Z",
   "discovery_version": 1,
-  "duplicate_count": 2,
+  "duplicate_count": 3,
   "duplicate_reasons": {
-    "openalex_work_id": 2
+    "openalex_work_id": 3
   },
-  "filtered_count": 62,
+  "filtered_count": 63,
   "invalid_count": 0,
   "query_error_count": 0,
   "query_summaries": [
     {
-      "accepted": 1,
+      "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 9,
+      "filtered": 10,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "optical-neural-network",
@@ -75,8 +72,8 @@
       "raw_results": 10
     },
     {
-      "accepted": 1,
-      "duplicates": 0,
+      "accepted": 0,
+      "duplicates": 1,
       "error": null,
       "filtered": 2,
       "invalid": 0,
@@ -106,10 +103,10 @@
     }
   ],
   "raw_result_count": 66,
-  "registry_candidate_count": 211,
-  "registry_sha256": "f6ad4c70b661a22c33b2e7647fd71a678e1ade20de9d3959ab47c66dc68e101f",
+  "registry_candidate_count": 221,
+  "registry_sha256": "6402d968e80ca7e7ced818fcb2920d518dad3f4e773887a32521055bb3dfad6d",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-09-03",
-  "window_start": "2026-08-30"
+  "window_end": "2026-09-04",
+  "window_start": "2026-08-31"
 }

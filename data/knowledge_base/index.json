@@ -118,6 +118,15 @@
       "summary_record_sha256": "70695cb6138c395e3e84b556c9ad5739bd4e9be089118c763ba8d36c3808550a",
       "title": "Full-colour imaging behind a glass diffuser through a diffractive neural network with multi-wavelength channels"
     },
+    "44fa3bd6f72c84820ce42dab": {
+      "digest_date": "2026-09-04",
+      "doi": "10.1126/sciadv.aee9649",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "9a3a248c905fc151ef7938facb5fefffeca54ba503e666bfe19f06094c2522d7",
+      "title": "Programmable photonic neural engine with all-optical nonlinear activation and 40,000 connections"
+    },
     "4bb38e8bcc3a3d164bd28700": {
       "digest_date": "2026-08-27",
       "doi": "10.1088/1361-6633/ae9e8c",
@@ -144,6 +153,15 @@
       ],
       "summary_record_sha256": "49deef8c5dd819a048f0b75f9f51f1527d16379ce40f3d7f334cf489213e7460",
       "title": "Enhancing the robustness of optical neural networks via joint Mach–Zehnder interferometer phase optimization"
+    },
+    "5e49047e7ce2004f7954debb": {
+      "digest_date": "2026-09-04",
+      "doi": "10.48550/arxiv.2608.28011",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "132be0d775bcf4ebd6fb353441239c6cd15e26bd80ecaebf61429617154fb15e",
+      "title": "Coverage, Not Credit: Failure-Credit Routing of Zeroth-Order Perturbation Budgets Does Not Improve On-Pool Sample Efficiency for LLM Agents"
     },
     "7719ae17086cb97168bebbc5": {
       "digest_date": "2026-08-23",
@@ -243,6 +261,15 @@
       ],
       "summary_record_sha256": "3eb413cc59d181394645e7b9388029e96bcec47cfa45ea13b08ce55cc257d5e6",
       "title": "A Reconfigurable Kerr-Nonlinear Mach–Zehnder Activation Cell for Wavelength-Division Multiplexing Optical Neural Networks"
+    },
+    "c7b91f881a121b7e1651e2f2": {
+      "digest_date": "2026-09-04",
+      "doi": "10.1126/sciadv.aef8657",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "921e6e4e1ecba8ec3ed7bdf5354ad5eec208627f3dcec710be812bffa7076184",
+      "title": "End-to-end all-optical in-sensor computing system using photonic integrated circuits"
     },
     "c82f6c2f7b8ae52a84e4eb29": {
       "digest_date": "2026-09-02",
@@ -372,6 +399,11 @@
       "35ff63ef9d3333099ee28868",
       "973507e35175bb05fcf25e79",
       "d33b2e7c6586f37945facb32"
+    ],
+    "2026-09-04": [
+      "44fa3bd6f72c84820ce42dab",
+      "5e49047e7ce2004f7954debb",
+      "c7b91f881a121b7e1651e2f2"
     ]
   },
   "by_doi": {
@@ -391,6 +423,8 @@
     "10.1117/12.3110867": "2b5f9302fe96c2793d48540e",
     "10.1117/12.3116253": "7d6c2a059923ebe445a1cdf7",
     "10.1117/12.3118799": "9351be654a20f4a2f7121847",
+    "10.1126/sciadv.aee9649": "44fa3bd6f72c84820ce42dab",
+    "10.1126/sciadv.aef8657": "c7b91f881a121b7e1651e2f2",
     "10.1145/3770855.3817661": "ead3d4ba8c5090acac05878a",
     "10.1145/3770855.3817738": "172a6e3e7b78c39c328487a6",
     "10.1145/3837864": "0e5c75b6132afcfb1f7afb17",
@@ -406,6 +440,7 @@
     "10.48550/arxiv.2608.15665": "dd2f544b89860edf2c2a51ae",
     "10.48550/arxiv.2608.21223": "f0cf0b80e6f1f53ea347c136",
     "10.48550/arxiv.2608.23178": "b03b6320be57edd77b3ad7e5",
+    "10.48550/arxiv.2608.28011": "5e49047e7ce2004f7954debb",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799",
     "10.62311/nesx/rp2ag-30082026": "7bc9d4230ed283852c3248a7"
   },
@@ -421,6 +456,7 @@
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
+      "44fa3bd6f72c84820ce42dab",
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
@@ -433,6 +469,7 @@
       "973790e22c46d30721660799",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
+      "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d",
       "d33b2e7c6586f37945facb32"
@@ -442,6 +479,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
@@ -459,6 +497,9 @@
     ],
     "application:mnist手写数字分类": [
       "973790e22c46d30721660799"
+    ],
+    "application:not_available": [
+      "44fa3bd6f72c84820ce42dab"
     ],
     "application:二维/三维全息重建": [
       "c82f6c2f7b8ae52a84e4eb29"
@@ -489,6 +530,9 @@
     ],
     "application:动态避障": [
       "328b1572ba0e31f8f8a6dac1"
+    ],
+    "application:化学物质浓度预测": [
+      "c7b91f881a121b7e1651e2f2"
     ],
     "application:十类分类任务": [
       "b832199d8494cc67a559fec5"
@@ -547,6 +591,9 @@
     ],
     "application:水下成像": [
       "35ff63ef9d3333099ee28868"
+    ],
+    "application:液体混合物分类": [
+      "c7b91f881a121b7e1651e2f2"
     ],
     "application:深度残差神经网络中的残差卷积加速": [
       "1e619f1b739f1893eae64f28"
@@ -621,6 +668,7 @@
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
+      "44fa3bd6f72c84820ce42dab",
       "4bb38e8bcc3a3d164bd28700",
       "541094f286db8902f2fe6077",
       "7bc9d4230ed283852c3248a7",
@@ -628,6 +676,7 @@
       "83a830ace13b5158f346c392",
       "9322fad036b3d7fc8e3dd47b",
       "c3474ba19a69c715eb87d391",
+      "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d",
       "d33b2e7c6586f37945facb32"
@@ -645,7 +694,8 @@
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
       "5017adbd33e6ddd5c320a4c4",
-      "973790e22c46d30721660799"
+      "973790e22c46d30721660799",
+      "c7b91f881a121b7e1651e2f2"
     ],
     "hardware_validation:simulation_only": [
       "0cbf41592278a3ad1b89e219",
@@ -656,6 +706,7 @@
     ],
     "hardware_validation:unclear": [
       "028de8014a2b67fd147a28e7",
+      "44fa3bd6f72c84820ce42dab",
       "4bb38e8bcc3a3d164bd28700",
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
@@ -672,6 +723,7 @@
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
+      "44fa3bd6f72c84820ce42dab",
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
@@ -684,6 +736,7 @@
       "973790e22c46d30721660799",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
+      "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d",
       "d33b2e7c6586f37945facb32"
@@ -693,6 +746,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
@@ -705,6 +759,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
@@ -717,6 +772,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
@@ -729,6 +785,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "5e49047e7ce2004f7954debb",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
@@ -740,6 +797,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
@@ -818,6 +876,10 @@
     "Research Square": [
       "1e35265ce8678ca96adb8b93"
     ],
+    "Science Advances": [
+      "44fa3bd6f72c84820ce42dab",
+      "c7b91f881a121b7e1651e2f2"
+    ],
     "Sixth Optics Frontier Conference (OFS 2026)": [
       "9351be654a20f4a2f7121847"
     ],
@@ -828,6 +890,7 @@
       "0cbf41592278a3ad1b89e219",
       "142dc76f41fc25448b82c91e",
       "2f9953028e4e0e3b934222c8",
+      "5e49047e7ce2004f7954debb",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
@@ -853,9 +916,11 @@
       "2f9953028e4e0e3b934222c8",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
+      "44fa3bd6f72c84820ce42dab",
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
+      "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
       "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
@@ -867,6 +932,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
+      "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
       "ca00b2160d3deb8b79b61e6e",
       "ccd82d84305d463a6c33398d",
@@ -876,7 +942,7 @@
       "f0cf0b80e6f1f53ea347c136"
     ]
   },
-  "paper_count": 34,
+  "paper_count": 37,
   "schema_version": 1,
-  "updated_at": "2026-09-03T01:06:07.920823Z"
+  "updated_at": "2026-09-04T01:02:46.417807Z"
 }

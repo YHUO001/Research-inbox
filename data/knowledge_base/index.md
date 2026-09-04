@@ -1,10 +1,26 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`34`
-- 更新时间：`2026-09-03T01:06:07.920823Z`
+- 论文数：`37`
+- 更新时间：`2026-09-04T01:02:46.417807Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Programmable photonic neural engine with all-optical nonlinear activation and 40,000 connections
+
+- DOI/链接：[10.1126/sciadv.aee9649](https://doi.org/10.1126/sciadv.aee9649)
+- 期刊/年份：Science Advances，2026
+- 摘要日期：`2026-09-04`
+- 候选 ID：`44fa3bd6f72c84820ce42dab`
+- 标签：application:not_available, architecture:unclear, hardware_validation:unclear, project:optical-neural-networks
+
+### End-to-end all-optical in-sensor computing system using photonic integrated circuits
+
+- DOI/链接：[10.1126/sciadv.aef8657](https://doi.org/10.1126/sciadv.aef8657)
+- 期刊/年份：Science Advances，2026
+- 摘要日期：`2026-09-04`
+- 候选 ID：`c7b91f881a121b7e1651e2f2`
+- 标签：application:化学物质浓度预测, application:液体混合物分类, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Trivial-nontrivial programmable topological metasurfaces for sensing and communication
 
@@ -210,6 +226,14 @@ Perception
 - 标签：application:分布式声学传感（das）, application:图像分类（cifar-10、fashion-mnist、mnist）, application:语音识别（fsdd）, architecture:integrated, hardware_validation:mixed, project:optical-neural-networks
 
 ## zeroth-order-optimization
+
+### Coverage, Not Credit: Failure-Credit Routing of Zeroth-Order Perturbation Budgets Does Not Improve On-Pool Sample Efficiency for LLM Agents
+
+- DOI/链接：[10.48550/arxiv.2608.28011](https://doi.org/10.48550/arxiv.2608.28011)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-09-04`
+- 候选 ID：`5e49047e7ce2004f7954debb`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
 
 ### Zeroth-Order Nonsmooth Nonconvex Optimization with Convex Liftings and Its Application to State-Feedback $H_\infty$ Policy Optimization
 

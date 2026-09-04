@@ -1,5 +1,55 @@
 {
   "entries": {
+    "crossref:doi:10.1002/adfm.77732": {
+      "expires_at": "2026-10-04T01:00:16.072769Z",
+      "record": {
+        "abstract": "ABSTRACT Next‐generation pulsed power electronics demand miniaturized dielectric capacitors with exceptional energy density. However, achieving this remains challenged by the intrinsic trade‐off between polarization capability and dielectric breakdown strength in lead‐free perovskites. Here, we overcome this fundamental limit via a “gradient defect architecture” strategy that constructs a heterogeneous architecture comprising a highly polarization disordered surface layer and a relatively ordered polarization interior within a 0.88Bi 0.48 Na 0.48 Ba 0.04 TiO 3– 0.12Sm 1/3 NbO 3 ceramic. Crucially, by geometrically modulating the volume fraction of these functional layers, the optimized ceramic achieves an ultrahigh recoverable energy density of 22.3 J cm −3 under an ultrahigh electric field of 1840 kV cm −1 . The disordered surface layer acts as a robust charge‐blocking barrier to elevate breakdown strength, while the highly polarizable relaxor interior layer sustains a strong polarization response to secure high energy capacity. These findings establish a generic design paradigm for utilizing intrinsic manufacturing gradients to transcend geometric scaling limits, offering a viable pathway for developing high‐performance energy storage materials.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Weisan Fang",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoming Shi",
+            "orcid": null
+          },
+          {
+            "name": "Junlin Wu",
+            "orcid": null
+          },
+          {
+            "name": "Jiecheng Liu",
+            "orcid": null
+          },
+          {
+            "name": "Qin Feng",
+            "orcid": "https://orcid.org/0000-0002-2183-2960"
+          },
+          {
+            "name": "Changlai Yuan",
+            "orcid": null
+          },
+          {
+            "name": "He Qi",
+            "orcid": "https://orcid.org/0000-0002-3094-3574"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adfm.77732",
+        "landing_page": "https://doi.org/10.1002/adfm.77732",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/adfm.77732",
+        "publication_date": "2026-08-27",
+        "title": "Gradient Defect Architecture for Ultrahigh Energy Storage in Lead‐Free Relaxor Ferroelectrics",
+        "venue": "Advanced Functional Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-04T01:00:16.072769Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/adom.71567": {
       "expires_at": "2026-09-17T04:25:31.075985Z",
       "record": {
@@ -330,6 +380,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-23T00:32:29.913718Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1002/lpor.71813": {
+      "expires_at": "2026-10-04T01:00:25.342603Z",
+      "record": {
+        "abstract": "ABSTRACT Orbital angular momentum (OAM) based Free‐space optical (FSO) communication has gained considerable research interest due to its potential for increasing spectral efficiency and channel capacity. Nevertheless, recognition of OAM modes in realistic FSO communication systems suffers greatly from atmospheric turbulence (AT) effects, beam spreading, and even mode crosstalk. Resulting difficulties for conventional approaches to perform well under these kinds of distortions, leading to a turn toward the most advanced techniques such as machine learning (ML) and deep learning (DL). In this article, we provide a systematic review of recent progress in the ML‐based recognition methods for OAM modes and examine widely used modern neural networks such as feedforward neural network (FNN), convolutional neural network (CNN), vision transformers (ViT), and diffractive deep neural network (DDNN). We consider the architectures, training procedures, and parameters used for those models to provide evidence for their improved accuracy and robustness in simulations and experiments. We also present the critical difficulties, such as the real‐world long‐distance test and recognition of fractional OAM (F‐OAM) based on computational efficiency. Based on the state of the art and future perspectives, this work is intended to provide a good reference for promoting some practical, intelligent, reliable, and high‐capacity OAM‐FSO communication systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ahmad Bilal",
+            "orcid": null
+          },
+          {
+            "name": "Badreddine Merabet",
+            "orcid": "https://orcid.org/0009-0006-6944-6651"
+          },
+          {
+            "name": "Aleksandr Kireev",
+            "orcid": null
+          },
+          {
+            "name": "Renbin Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Sergey S. Stafeev",
+            "orcid": null
+          },
+          {
+            "name": "Victor V. Kotlyar",
+            "orcid": null
+          },
+          {
+            "name": "Zhongyi Guo",
+            "orcid": "https://orcid.org/0000-0001-7282-2503"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71813",
+        "landing_page": "https://doi.org/10.1002/lpor.71813",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.71813",
+        "publication_date": "2026-08-29",
+        "title": "Artificial Intelligence Empowering High‐Efficiency Recognition of Orbital Angular Momentum Modes for Optical Communication: A Review",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-04T01:00:25.342603Z",
       "status": "found"
     },
     "crossref:doi:10.1002/lpor.71816": {
@@ -774,6 +874,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-23T00:32:34.700410Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/s10994-026-07142-7": {
+      "expires_at": "2026-10-04T01:00:20.610467Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Fatiha Ait Baali",
+            "orcid": null
+          },
+          {
+            "name": "Chaima Lhasnaoui",
+            "orcid": null
+          },
+          {
+            "name": "Addi Ait-Mlouk",
+            "orcid": null
+          },
+          {
+            "name": "Tarik Agouti",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10994-026-07142-7",
+        "landing_page": "https://doi.org/10.1007/s10994-026-07142-7",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s10994-026-07142-7",
+        "publication_date": "2026-09",
+        "title": "Federated Learning for Large Language Models: Opportunities, Challenges, and Open Research Directions",
+        "venue": "Machine Learning",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-04T01:00:20.610467Z",
       "status": "found"
     },
     "crossref:doi:10.1007/s11433-026-2995-7": {
@@ -3690,6 +3828,12 @@
       "retrieved_at": "2026-08-31T01:07:01.749398Z",
       "status": "not_found"
     },
+    "crossref:title:1adc88c76d469186b074be45146ed1c6905b0e273dd119266784192a9811d410": {
+      "expires_at": "2026-09-11T01:00:14.804416Z",
+      "record": null,
+      "retrieved_at": "2026-09-04T01:00:14.804416Z",
+      "status": "not_found"
+    },
     "crossref:title:1d03a31c480cfb0da2e0e91ffd1d2b010abe87f28bab51e4b85693bfb34159e5": {
       "expires_at": "2026-09-07T01:07:04.161417Z",
       "record": null,
@@ -3996,6 +4140,12 @@
       "expires_at": "2026-08-25T04:25:19.093723Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:19.093723Z",
+      "status": "not_found"
+    },
+    "crossref:title:42ad52bc1c9ead80bfada3309304bd6f44db88b3aff41f57a57578ad7f04b76d": {
+      "expires_at": "2026-09-11T01:00:19.527254Z",
+      "record": null,
+      "retrieved_at": "2026-09-04T01:00:19.527254Z",
       "status": "not_found"
     },
     "crossref:title:435981725c504fd6e616b7ae1273c6ea38d0db06264521cfae3d2e0037582b87": {
@@ -4394,6 +4544,12 @@
       "retrieved_at": "2026-08-18T04:25:29.998451Z",
       "status": "not_found"
     },
+    "crossref:title:620ae32f383f853dfd91537cafe8b058e5faa0ac43b18a30d1873d383c382dc3": {
+      "expires_at": "2026-09-11T01:00:18.125827Z",
+      "record": null,
+      "retrieved_at": "2026-09-04T01:00:18.125827Z",
+      "status": "not_found"
+    },
     "crossref:title:62cead5d64694deb1e6b51dfe4a48042b73a6d7a7e22db6c1912f441d25b8225": {
       "expires_at": "2026-09-08T01:13:17.558795Z",
       "record": null,
@@ -4449,6 +4605,64 @@
       "record": null,
       "retrieved_at": "2026-08-18T04:25:14.459167Z",
       "status": "not_found"
+    },
+    "crossref:title:6b465b2418167440d0c8cabceabcd199ffd783d993595f5b55b78e529a86275a": {
+      "expires_at": "2026-09-11T01:00:23.653154Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bo Zhang",
+            "orcid": "https://orcid.org/0000-0003-1998-2377"
+          },
+          {
+            "name": "Danyu Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Xinqing Chen",
+            "orcid": null
+          },
+          {
+            "name": "Jiawei Li",
+            "orcid": null
+          },
+          {
+            "name": "Xixiang Yang",
+            "orcid": null
+          },
+          {
+            "name": "Xiaolong Deng",
+            "orcid": "https://orcid.org/0009-0009-9209-3841"
+          },
+          {
+            "name": "Chenxi Deng",
+            "orcid": null
+          },
+          {
+            "name": "Ruocheng Li",
+            "orcid": "https://orcid.org/0000-0002-2960-3628"
+          },
+          {
+            "name": "Bin Xin",
+            "orcid": "https://orcid.org/0000-0001-9989-0418"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tase.2026.3728249",
+        "landing_page": "https://doi.org/10.1109/tase.2026.3728249",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/tase.2026.3728249",
+        "publication_date": "2026",
+        "title": "DSPH: Distributed Swarm Navigation in Dynamic Complex Environments via Smoothed Particle Hydrodynamics",
+        "venue": "IEEE Transactions on Automation Science and Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-04T01:00:23.653154Z",
+      "status": "found"
     },
     "crossref:title:6c3ce8df9a71a6267107f84899ddd34bd8b0930d58bea2d35008ad2700d3aeda": {
       "expires_at": "2026-08-30T00:32:28.480267Z",
@@ -5048,6 +5262,12 @@
       "retrieved_at": "2026-08-18T04:25:07.751201Z",
       "status": "not_found"
     },
+    "crossref:title:a557f45f91f453523d599a0ec9eec441f9dfcb5026fa88cb396152f40e618dc9": {
+      "expires_at": "2026-09-11T01:00:16.748871Z",
+      "record": null,
+      "retrieved_at": "2026-09-04T01:00:16.748871Z",
+      "status": "not_found"
+    },
     "crossref:title:ab8d443eed7b10d958066e3f946afaba65aad21de7e6f03c7460addac1cece9b": {
       "expires_at": "2026-08-17T00:36:48.366187Z",
       "record": {
@@ -5164,6 +5384,12 @@
       "expires_at": "2026-08-16T00:36:00.135704Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:36:00.135704Z",
+      "status": "not_found"
+    },
+    "crossref:title:b2b283344da0a1f3bd69064acb8d5c6a06aadc0124e1ed0f4eeaa1fadde99930": {
+      "expires_at": "2026-09-11T01:00:21.428757Z",
+      "record": null,
+      "retrieved_at": "2026-09-04T01:00:21.428757Z",
       "status": "not_found"
     },
     "crossref:title:b5509c9d2891b597e8f1fe98a6d574ceb88b225d99aa4fce30ccc86f4f68b86c": {
@@ -5507,6 +5733,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:13.165141Z",
       "status": "found"
+    },
+    "crossref:title:d773d6fbb26d1f4b4f09a95171e36c31e1e0fa7a575dae0c8ebc68392daf9952": {
+      "expires_at": "2026-09-11T01:00:24.274409Z",
+      "record": null,
+      "retrieved_at": "2026-09-04T01:00:24.274409Z",
+      "status": "not_found"
     },
     "crossref:title:d83f470288b8278c6c2595d43c0da3da5113b445c8a79e121a0b4c6c87d49e84": {
       "expires_at": "2026-08-11T09:38:21.835495Z",
@@ -5940,6 +6172,56 @@
       "retrieved_at": "2026-08-18T04:25:24.453947Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/adfm.77732": {
+      "expires_at": "2026-10-04T01:00:16.458324Z",
+      "record": {
+        "abstract": "ABSTRACT Next‐generation pulsed power electronics demand miniaturized dielectric capacitors with exceptional energy density. However, achieving this remains challenged by the intrinsic trade‐off between polarization capability and dielectric breakdown strength in lead‐free perovskites. Here, we overcome this fundamental limit via a “gradient defect architecture” strategy that constructs a heterogeneous architecture comprising a highly polarization disordered surface layer and a relatively ordered polarization interior within a 0.88Bi 0.48 Na 0.48 Ba 0.04 TiO 3– 0.12Sm 1/3 NbO 3 ceramic. Crucially, by geometrically modulating the volume fraction of these functional layers, the optimized ceramic achieves an ultrahigh recoverable energy density of 22.3 J cm −3 under an ultrahigh electric field of 1840 kV cm −1 . The disordered surface layer acts as a robust charge‐blocking barrier to elevate breakdown strength, while the highly polarizable relaxor interior layer sustains a strong polarization response to secure high energy capacity. These findings establish a generic design paradigm for utilizing intrinsic manufacturing gradients to transcend geometric scaling limits, offering a viable pathway for developing high‐performance energy storage materials.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Weisan Fang",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoming Shi",
+            "orcid": null
+          },
+          {
+            "name": "Junlin Wu",
+            "orcid": "https://orcid.org/0000-0003-0083-135X"
+          },
+          {
+            "name": "J. Liu",
+            "orcid": "https://orcid.org/0000-0002-2791-4297"
+          },
+          {
+            "name": "Qin Feng",
+            "orcid": "https://orcid.org/0000-0002-2183-2960"
+          },
+          {
+            "name": "Changlai Yuan",
+            "orcid": null
+          },
+          {
+            "name": "He Qi",
+            "orcid": "https://orcid.org/0000-0002-3094-3574"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adfm.77732",
+        "landing_page": "https://doi.org/10.1002/adfm.77732",
+        "open_access_url": "https://doi.org/10.1002/adfm.77732",
+        "openalex_id": "https://openalex.org/W7204479501",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204479501",
+        "publication_date": "2026-08-27",
+        "title": "Gradient Defect Architecture for Ultrahigh Energy Storage in Lead‐Free Relaxor Ferroelectrics",
+        "venue": "Advanced Functional Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-04T01:00:16.458324Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/adom.71567": {
       "expires_at": "2026-09-17T04:25:31.408910Z",
       "record": {
@@ -6270,6 +6552,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-23T00:32:30.309751Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/lpor.71813": {
+      "expires_at": "2026-10-04T01:00:25.745086Z",
+      "record": {
+        "abstract": "ABSTRACT Orbital angular momentum (OAM) based Free‐space optical (FSO) communication has gained considerable research interest due to its potential for increasing spectral efficiency and channel capacity. Nevertheless, recognition of OAM modes in realistic FSO communication systems suffers greatly from atmospheric turbulence (AT) effects, beam spreading, and even mode crosstalk. Resulting difficulties for conventional approaches to perform well under these kinds of distortions, leading to a turn toward the most advanced techniques such as machine learning (ML) and deep learning (DL). In this article, we provide a systematic review of recent progress in the ML‐based recognition methods for OAM modes and examine widely used modern neural networks such as feedforward neural network (FNN), convolutional neural network (CNN), vision transformers (ViT), and diffractive deep neural network (DDNN). We consider the architectures, training procedures, and parameters used for those models to provide evidence for their improved accuracy and robustness in simulations and experiments. We also present the critical difficulties, such as the real‐world long‐distance test and recognition of fractional OAM (F‐OAM) based on computational efficiency. Based on the state of the art and future perspectives, this work is intended to provide a good reference for promoting some practical, intelligent, reliable, and high‐capacity OAM‐FSO communication systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ahmad Bilal",
+            "orcid": null
+          },
+          {
+            "name": "Badreddine Merabet",
+            "orcid": null
+          },
+          {
+            "name": "Aleksandr Kireev",
+            "orcid": null
+          },
+          {
+            "name": "Renbin Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Sergey S. Stafeev",
+            "orcid": null
+          },
+          {
+            "name": "Victor Kotlyar",
+            "orcid": null
+          },
+          {
+            "name": "Zhongyi Guo",
+            "orcid": "https://orcid.org/0000-0001-7282-2503"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71813",
+        "landing_page": "https://doi.org/10.1002/lpor.71813",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7204623512",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204623512",
+        "publication_date": "2026-08-29",
+        "title": "Artificial Intelligence Empowering High‐Efficiency Recognition of Orbital Angular Momentum Modes for Optical Communication: A Review",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-04T01:00:25.745086Z",
       "status": "found"
     },
     "openalex:doi:10.1002/lpor.71816": {
@@ -6764,6 +7096,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-23T00:32:35.089989Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s10994-026-07142-7": {
+      "expires_at": "2026-10-04T01:00:21.006235Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Fatiha Ait Baali",
+            "orcid": null
+          },
+          {
+            "name": "Chaima Lhasnaoui",
+            "orcid": null
+          },
+          {
+            "name": "Addi Ait‐Mlouk",
+            "orcid": "https://orcid.org/0000-0003-0385-9390"
+          },
+          {
+            "name": "Tarik Agouti",
+            "orcid": "https://orcid.org/0000-0002-6901-1897"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10994-026-07142-7",
+        "landing_page": "https://doi.org/10.1007/s10994-026-07142-7",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7204242265",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204242265",
+        "publication_date": "2026-08-04",
+        "title": "Federated Learning for Large Language Models: Opportunities, Challenges, and Open Research Directions",
+        "venue": "Machine Learning",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-04T01:00:21.006235Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s11433-026-2995-7": {
@@ -9362,6 +9732,64 @@
       "retrieved_at": "2026-08-18T04:25:17.108010Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/tase.2026.3728249": {
+      "expires_at": "2026-10-04T01:00:24.056205Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bo Zhang",
+            "orcid": "https://orcid.org/0000-0003-1998-2377"
+          },
+          {
+            "name": "Danyu Zhang",
+            "orcid": "https://orcid.org/0000-0002-0694-0306"
+          },
+          {
+            "name": "Xinqing Chen",
+            "orcid": null
+          },
+          {
+            "name": "Jiawei Li",
+            "orcid": null
+          },
+          {
+            "name": "Xixiang Yang",
+            "orcid": null
+          },
+          {
+            "name": "Xiaolong Deng",
+            "orcid": "https://orcid.org/0009-0009-9209-3841"
+          },
+          {
+            "name": "Chenxi Deng",
+            "orcid": null
+          },
+          {
+            "name": "Ruocheng Li",
+            "orcid": null
+          },
+          {
+            "name": "Bin Xin",
+            "orcid": "https://orcid.org/0000-0001-9989-0418"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tase.2026.3728249",
+        "landing_page": "https://doi.org/10.1109/tase.2026.3728249",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7204600858",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204600858",
+        "publication_date": "2026-01-01",
+        "title": "DSPH: Distributed Swarm Navigation in Dynamic Complex Environments via Smoothed Particle Hydrodynamics",
+        "venue": "IEEE Transactions on Automation Science and Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-04T01:00:24.056205Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/tgrs.2026.3725659": {
       "expires_at": "2026-09-26T16:32:40.567202Z",
       "record": {
@@ -11866,6 +12294,12 @@
       "retrieved_at": "2026-08-31T01:07:02.675473Z",
       "status": "found"
     },
+    "openalex:title:1adc88c76d469186b074be45146ed1c6905b0e273dd119266784192a9811d410": {
+      "expires_at": "2026-09-11T01:00:15.900713Z",
+      "record": null,
+      "retrieved_at": "2026-09-04T01:00:15.900713Z",
+      "status": "not_found"
+    },
     "openalex:title:1d03a31c480cfb0da2e0e91ffd1d2b010abe87f28bab51e4b85693bfb34159e5": {
       "expires_at": "2026-09-07T01:07:04.854075Z",
       "record": null,
@@ -11913,6 +12347,32 @@
       "record": null,
       "retrieved_at": "2026-08-18T04:25:19.567453Z",
       "status": "not_found"
+    },
+    "openalex:title:42ad52bc1c9ead80bfada3309304bd6f44db88b3aff41f57a57578ad7f04b76d": {
+      "expires_at": "2026-09-11T01:00:20.164892Z",
+      "record": {
+        "abstract": "Trajectory-level credit assignment can localize which module of a tool-using LLM agent causes failures using only verifiable signals. We ask whether such failure credit should route a fixed zeroth-order/evolution-strategies (ZO/ES) perturbation budget. Across a synthetic environment and frozen Qwen2.5-1.5B/3B and SmolLM2-1.7B agents, three task families, six allocation schemes, a credit-noise sweep, paired seeds, and exact sign-flip tests, we find no statistically detectable improvement over uniform allocation in any on-pool comparison (no gain of at least 2 percentage points). The joint soft-plus-sigma scheme is equivalent to uniform within a +/- 0.02 AUC margin on 1.5B and 3B; concentrating the full budget on the credit argmax is marginally equivalent on 1.5B, where that module is the verified bottleneck, and significantly worse on 3B. Inverse-propensity debiasing does not rescue routing, and misrouting costs up to -0.074 AUC in-house and -0.118 end-to-end on the BFCL-derived family. Across six fixed-step schedules, loss is linear in bottleneck starvation rate (R^2 = 0.94, descriptive), and a preregistered credit-free coverage floor removes detected harm. Matched-budget burst and step-compensating catch-up schedules are consistent with harm arising from insufficient cumulative parameter movement rather than update frequency. Our primary estimand is optimization efficiency on a fixed task pool. On unseen BFCL functions, the study's one exception is that soft routing exceeds uniform on held-out endpoints (+0.047, p = 0.031, n = 6). A plausible but untested reading is that routing-favored caller improvements transfer while uniform's on-pool gains reflect a synthesizer behavior specific to our harness. We report this exception explicitly and document three failure modes that can silently invalidate ZO/ES experiments on frozen LLMs.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuxu Ge",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2608.28011",
+        "landing_page": "https://arxiv.org/abs/2608.28011",
+        "open_access_url": "https://arxiv.org/abs/2608.28011",
+        "openalex_id": "https://openalex.org/W7204752422",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204752422",
+        "publication_date": "2026-08-28",
+        "title": "Coverage, Not Credit: Failure-Credit Routing of Zeroth-Order Perturbation Budgets Does Not Improve On-Pool Sample Efficiency for LLM Agents",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-04T01:00:20.164892Z",
+      "status": "found"
     },
     "openalex:title:44cd5bfa9f21cda4013aab622c657016ae2639db19f541576c77d328402bd988": {
       "expires_at": "2026-08-16T00:36:02.126264Z",
@@ -12051,6 +12511,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:33.944063Z",
       "status": "found"
+    },
+    "openalex:title:620ae32f383f853dfd91537cafe8b058e5faa0ac43b18a30d1873d383c382dc3": {
+      "expires_at": "2026-09-11T01:00:19.227276Z",
+      "record": null,
+      "retrieved_at": "2026-09-04T01:00:19.227276Z",
+      "status": "not_found"
     },
     "openalex:title:62cead5d64694deb1e6b51dfe4a48042b73a6d7a7e22db6c1912f441d25b8225": {
       "expires_at": "2026-09-08T01:13:18.205309Z",
@@ -12450,6 +12916,32 @@
       "retrieved_at": "2026-08-18T04:25:08.194699Z",
       "status": "not_found"
     },
+    "openalex:title:a557f45f91f453523d599a0ec9eec441f9dfcb5026fa88cb396152f40e618dc9": {
+      "expires_at": "2026-09-11T01:00:17.680869Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Kalliopi Batsi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.26240/heal.ntua.33332",
+        "landing_page": "https://doi.org/10.26240/heal.ntua.33332",
+        "open_access_url": "https://doi.org/10.26240/heal.ntua.33332",
+        "openalex_id": "https://openalex.org/W7204553027",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204553027",
+        "publication_date": "2026-08-28",
+        "title": "Symbolic Regression in Turbulence and Transition Modeling. Applications in Aerodynamic Shape Optimization",
+        "venue": "National Technical University of Athens (NTUA)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-04T01:00:17.680869Z",
+      "status": "found"
+    },
     "openalex:title:abe3f6857f066ae2c21a956a5e740239a323d097dcc68241cf1f7c3fd60a87c3": {
       "expires_at": "2026-08-25T04:25:16.456778Z",
       "record": {
@@ -12497,6 +12989,32 @@
       "record": null,
       "retrieved_at": "2026-08-09T00:36:00.776579Z",
       "status": "not_found"
+    },
+    "openalex:title:b2b283344da0a1f3bd69064acb8d5c6a06aadc0124e1ed0f4eeaa1fadde99930": {
+      "expires_at": "2026-09-11T01:00:22.102567Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Andrew Kiruluta",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.13140/rg.2.2.32584.89601",
+        "landing_page": "https://doi.org/10.13140/rg.2.2.32584.89601",
+        "open_access_url": "https://doi.org/10.13140/rg.2.2.32584.89601",
+        "openalex_id": "https://openalex.org/W7204557032",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204557032",
+        "publication_date": "2026-08-28",
+        "title": "Semimartingale Bracket Descent: Generator-Normalized Learning Beyond Differentiable Parameter Spaces",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-04T01:00:22.102567Z",
+      "status": "found"
     },
     "openalex:title:b5509c9d2891b597e8f1fe98a6d574ceb88b225d99aa4fce30ccc86f4f68b86c": {
       "expires_at": "2026-09-09T01:02:20.542879Z",
@@ -12664,6 +13182,12 @@
       "expires_at": "2026-08-16T00:36:07.204631Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:36:07.204631Z",
+      "status": "not_found"
+    },
+    "openalex:title:d773d6fbb26d1f4b4f09a95171e36c31e1e0fa7a575dae0c8ebc68392daf9952": {
+      "expires_at": "2026-09-11T01:00:25.102264Z",
+      "record": null,
+      "retrieved_at": "2026-09-04T01:00:25.102264Z",
       "status": "not_found"
     },
     "openalex:title:dbb7b2f0b602dda6bb264b5f39eeec51cebde5c6996ecc615c306031c46867a6": {
