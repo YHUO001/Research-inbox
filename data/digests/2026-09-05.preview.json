@@ -1,0 +1,53 @@
+{
+  "built_at": "2026-09-05T00:59:52.370040Z",
+  "digest_date": "2026-09-05",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "8ce6ad350a786420a01c4dd8",
+        "landing_page": "https://doi.org/10.1038/s41467-026-76714-x",
+        "mandatory": false,
+        "score": 0.73,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "MOCLIP: a foundation model for large-scale nanophotonic inverse design",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      {
+        "candidate_id": "7edb19b24759fe609707ba01",
+        "landing_page": "https://doi.org/10.1038/s41467-026-76872-y",
+        "mandatory": false,
+        "score": 0.73,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Photonic integrated computing engine for concurrent optical computing",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      {
+        "candidate_id": "79855d774b83ef6c7c8a8a47",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-10794538/v1",
+        "mandatory": false,
+        "score": 0.72,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Control-aware training of physical neural networks for closed-loop regulation",
+        "venue": "Research Square",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

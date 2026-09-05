@@ -1,21 +1,23 @@
 {
-  "accepted_candidate_ids": [],
-  "accepted_count": 0,
-  "built_at": "2026-09-04T01:00:06.435362Z",
+  "accepted_candidate_ids": [
+    "2dd0129c3ddca79ff2819992"
+  ],
+  "accepted_count": 1,
+  "built_at": "2026-09-05T00:59:38.133398Z",
   "discovery_version": 1,
-  "duplicate_count": 3,
+  "duplicate_count": 2,
   "duplicate_reasons": {
-    "openalex_work_id": 3
+    "openalex_work_id": 2
   },
-  "filtered_count": 63,
+  "filtered_count": 69,
   "invalid_count": 0,
   "query_error_count": 0,
   "query_summaries": [
     {
-      "accepted": 0,
+      "accepted": 1,
       "duplicates": 0,
       "error": null,
-      "filtered": 10,
+      "filtered": 9,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "optical-neural-network",
@@ -33,9 +35,9 @@
     },
     {
       "accepted": 0,
-      "duplicates": 2,
+      "duplicates": 1,
       "error": null,
-      "filtered": 8,
+      "filtered": 9,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "diffractive-optical-neural-network",
@@ -75,21 +77,21 @@
       "accepted": 0,
       "duplicates": 1,
       "error": null,
-      "filtered": 2,
+      "filtered": 6,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-neural-network",
-      "raw_results": 3
+      "raw_results": 7
     },
     {
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 2,
+      "filtered": 4,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-llm",
-      "raw_results": 2
+      "raw_results": 4
     },
     {
       "accepted": 0,
@@ -102,11 +104,11 @@
       "raw_results": 1
     }
   ],
-  "raw_result_count": 66,
-  "registry_candidate_count": 221,
-  "registry_sha256": "6402d968e80ca7e7ced818fcb2920d518dad3f4e773887a32521055bb3dfad6d",
+  "raw_result_count": 72,
+  "registry_candidate_count": 230,
+  "registry_sha256": "288d9313309ae5ba55fa42a2ab59b661fe0156fe9f114b38ae1f52b2d260d58b",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-09-04",
-  "window_start": "2026-08-31"
+  "window_end": "2026-09-05",
+  "window_start": "2026-09-01"
 }

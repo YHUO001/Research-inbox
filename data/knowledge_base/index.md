@@ -1,10 +1,34 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`37`
-- 更新时间：`2026-09-04T01:02:46.417807Z`
+- 论文数：`40`
+- 更新时间：`2026-09-05T01:01:12.895873Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Photonic integrated computing engine for concurrent optical computing
+
+- DOI/链接：[10.1038/s41467-026-76872-y](https://doi.org/10.1038/s41467-026-76872-y)
+- 期刊/年份：Nature Communications，2026
+- 摘要日期：`2026-09-05`
+- 候选 ID：`7edb19b24759fe609707ba01`
+- 标签：application:手写数字分类, application:肺炎病灶分割, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
+
+### MOCLIP: a foundation model for large-scale nanophotonic inverse design
+
+- DOI/链接：[10.1038/s41467-026-76714-x](https://doi.org/10.1038/s41467-026-76714-x)
+- 期刊/年份：Nature Communications，2026
+- 摘要日期：`2026-09-05`
+- 候选 ID：`8ce6ad350a786420a01c4dd8`
+- 标签：application:光学信息存储, application:超表面逆设计, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
+
+### Control-aware training of physical neural networks for closed-loop regulation
+
+- DOI/链接：[10.21203/rs.3.rs-10794538/v1](https://doi.org/10.21203/rs.3.rs-10794538/v1)
+- 期刊/年份：Research Square，2026
+- 摘要日期：`2026-09-05`
+- 候选 ID：`79855d774b83ef6c7c8a8a47`
+- 标签：application:cart–pole 稳定控制, application:稳态调节（homeostatic regulation）, architecture:unclear, hardware_validation:unclear, project:optical-neural-networks
 
 ### Programmable photonic neural engine with all-optical nonlinear activation and 40,000 connections
 

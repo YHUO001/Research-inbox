@@ -172,6 +172,15 @@
       "summary_record_sha256": "13b40fca4cc645841a37d14b44ac0aed0895807bd6b74b4ed53fd0f5401fe388",
       "title": "A Proximal Newton-Type Algorithm for Zeroth-Order Stochastic Composite Optimization with a New Norm Test for Sample Size Selection"
     },
+    "79855d774b83ef6c7c8a8a47": {
+      "digest_date": "2026-09-05",
+      "doi": "10.21203/rs.3.rs-10794538/v1",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "8a49be9285d794f0ce8cb2e8937efdbb5b4b1b4b5eeb5262b5794d97e2452811",
+      "title": "Control-aware training of physical neural networks for closed-loop regulation"
+    },
     "7bc9d4230ed283852c3248a7": {
       "digest_date": "2026-08-30",
       "doi": "10.62311/nesx/rp2ag-30082026",
@@ -190,6 +199,15 @@
       "summary_record_sha256": "46be6ebe47db378bee8526f7d4afa137c5ca3903150be4b1a7de7b0436378e05",
       "title": "Scalable photonic tensor core coupled with direct optimization strategy for optical neural networks"
     },
+    "7edb19b24759fe609707ba01": {
+      "digest_date": "2026-09-05",
+      "doi": "10.1038/s41467-026-76872-y",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "2b4559f0ae7505b6f84762adb03a88a9b0ceaf2704c14f1282cad4ebdddb59e5",
+      "title": "Photonic integrated computing engine for concurrent optical computing"
+    },
     "83a830ace13b5158f346c392": {
       "digest_date": "2026-08-10",
       "doi": "10.1038/s41427-026-00671-6",
@@ -198,6 +216,15 @@
       ],
       "summary_record_sha256": "5e759c382b39f5b054a3122e808b02c19cab0877935f13a3c2bb4359b4d2af3f",
       "title": "Emerging light-driven neuromorphic hardware for artificial intelligence"
+    },
+    "8ce6ad350a786420a01c4dd8": {
+      "digest_date": "2026-09-05",
+      "doi": "10.1038/s41467-026-76714-x",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "02732accaf611879c61a3ff23e579c130cca18b0ec9df52e89b91484b48eca4e",
+      "title": "MOCLIP: a foundation model for large-scale nanophotonic inverse design"
     },
     "9322fad036b3d7fc8e3dd47b": {
       "digest_date": "2026-08-30",
@@ -404,6 +431,11 @@
       "44fa3bd6f72c84820ce42dab",
       "5e49047e7ce2004f7954debb",
       "c7b91f881a121b7e1651e2f2"
+    ],
+    "2026-09-05": [
+      "79855d774b83ef6c7c8a8a47",
+      "7edb19b24759fe609707ba01",
+      "8ce6ad350a786420a01c4dd8"
     ]
   },
   "by_doi": {
@@ -414,6 +446,8 @@
     "10.1038/s41377-026-02325-2": "1e619f1b739f1893eae64f28",
     "10.1038/s41377-026-02419-x": "973507e35175bb05fcf25e79",
     "10.1038/s41427-026-00671-6": "83a830ace13b5158f346c392",
+    "10.1038/s41467-026-76714-x": "8ce6ad350a786420a01c4dd8",
+    "10.1038/s41467-026-76872-y": "7edb19b24759fe609707ba01",
     "10.1038/s41467-026-77202-y": "d33b2e7c6586f37945facb32",
     "10.1038/s44335-026-00086-0": "328b1572ba0e31f8f8a6dac1",
     "10.1038/s44335-026-00096-y": "35ff63ef9d3333099ee28868",
@@ -433,6 +467,7 @@
     "10.1364/optica.591264": "1cf1fcd769c5ace951188b8c",
     "10.14288/1.0455632": "9322fad036b3d7fc8e3dd47b",
     "10.21203/rs.3.rs-10187577/v1": "1e35265ce8678ca96adb8b93",
+    "10.21203/rs.3.rs-10794538/v1": "79855d774b83ef6c7c8a8a47",
     "10.48550/arxiv.2608.03277": "142dc76f41fc25448b82c91e",
     "10.48550/arxiv.2608.08060": "2f9953028e4e0e3b934222c8",
     "10.48550/arxiv.2608.12300": "0cbf41592278a3ad1b89e219",
@@ -460,9 +495,12 @@
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
+      "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
+      "7edb19b24759fe609707ba01",
       "83a830ace13b5158f346c392",
+      "8ce6ad350a786420a01c4dd8",
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "973507e35175bb05fcf25e79",
@@ -492,6 +530,9 @@
     "application:6g 通信": [
       "7bc9d4230ed283852c3248a7"
     ],
+    "application:cart–pole 稳定控制": [
+      "79855d774b83ef6c7c8a8a47"
+    ],
     "application:mnist 手写数字分类": [
       "b832199d8494cc67a559fec5"
     ],
@@ -518,6 +559,9 @@
     ],
     "application:光子张量核心计算": [
       "9322fad036b3d7fc8e3dd47b"
+    ],
+    "application:光学信息存储": [
+      "8ce6ad350a786420a01c4dd8"
     ],
     "application:分布式声学传感（das）": [
       "1cf1fcd769c5ace951188b8c"
@@ -577,6 +621,9 @@
     "application:强化学习": [
       "d33b2e7c6586f37945facb32"
     ],
+    "application:手写数字分类": [
+      "7edb19b24759fe609707ba01"
+    ],
     "application:望远镜成像": [
       "0cbf41592278a3ad1b89e219"
     ],
@@ -607,6 +654,12 @@
     "application:生物成像": [
       "35ff63ef9d3333099ee28868"
     ],
+    "application:稳态调节（homeostatic regulation）": [
+      "79855d774b83ef6c7c8a8a47"
+    ],
+    "application:肺炎病灶分割": [
+      "7edb19b24759fe609707ba01"
+    ],
     "application:自主导航": [
       "328b1572ba0e31f8f8a6dac1"
     ],
@@ -621,6 +674,9 @@
     ],
     "application:超表面彩色路由器设计，将rgb光引导到指定子像素区域": [
       "4bb38e8bcc3a3d164bd28700"
+    ],
+    "application:超表面逆设计": [
+      "8ce6ad350a786420a01c4dd8"
     ],
     "application:跨衍射距离泛化": [
       "c82f6c2f7b8ae52a84e4eb29"
@@ -671,9 +727,12 @@
       "44fa3bd6f72c84820ce42dab",
       "4bb38e8bcc3a3d164bd28700",
       "541094f286db8902f2fe6077",
+      "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
+      "7edb19b24759fe609707ba01",
       "83a830ace13b5158f346c392",
+      "8ce6ad350a786420a01c4dd8",
       "9322fad036b3d7fc8e3dd47b",
       "c3474ba19a69c715eb87d391",
       "c7b91f881a121b7e1651e2f2",
@@ -694,6 +753,7 @@
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
       "5017adbd33e6ddd5c320a4c4",
+      "7edb19b24759fe609707ba01",
       "973790e22c46d30721660799",
       "c7b91f881a121b7e1651e2f2"
     ],
@@ -701,6 +761,7 @@
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "541094f286db8902f2fe6077",
+      "8ce6ad350a786420a01c4dd8",
       "b832199d8494cc67a559fec5",
       "d33b2e7c6586f37945facb32"
     ],
@@ -708,6 +769,7 @@
       "028de8014a2b67fd147a28e7",
       "44fa3bd6f72c84820ce42dab",
       "4bb38e8bcc3a3d164bd28700",
+      "79855d774b83ef6c7c8a8a47",
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
       "c3474ba19a69c715eb87d391"
@@ -727,9 +789,12 @@
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
+      "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
+      "7edb19b24759fe609707ba01",
       "83a830ace13b5158f346c392",
+      "8ce6ad350a786420a01c4dd8",
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "973507e35175bb05fcf25e79",
@@ -846,6 +911,8 @@
       "83a830ace13b5158f346c392"
     ],
     "Nature Communications": [
+      "7edb19b24759fe609707ba01",
+      "8ce6ad350a786420a01c4dd8",
       "d33b2e7c6586f37945facb32"
     ],
     "Open Collections": [
@@ -874,7 +941,8 @@
       "4bb38e8bcc3a3d164bd28700"
     ],
     "Research Square": [
-      "1e35265ce8678ca96adb8b93"
+      "1e35265ce8678ca96adb8b93",
+      "79855d774b83ef6c7c8a8a47"
     ],
     "Science Advances": [
       "44fa3bd6f72c84820ce42dab",
@@ -922,9 +990,12 @@
       "541094f286db8902f2fe6077",
       "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
+      "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
+      "7edb19b24759fe609707ba01",
       "83a830ace13b5158f346c392",
+      "8ce6ad350a786420a01c4dd8",
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "973507e35175bb05fcf25e79",
@@ -942,7 +1013,7 @@
       "f0cf0b80e6f1f53ea347c136"
     ]
   },
-  "paper_count": 37,
+  "paper_count": 40,
   "schema_version": 1,
-  "updated_at": "2026-09-04T01:02:46.417807Z"
+  "updated_at": "2026-09-05T01:01:12.895873Z"
 }

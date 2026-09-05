@@ -2058,6 +2058,44 @@
       "retrieved_at": "2026-08-18T04:25:13.547391Z",
       "status": "found"
     },
+    "crossref:doi:10.1038/s42005-026-02823-0": {
+      "expires_at": "2026-10-05T00:59:46.615608Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dilem Eşlik",
+            "orcid": null
+          },
+          {
+            "name": "Bahadır Utku Kesgin",
+            "orcid": null
+          },
+          {
+            "name": "Fatma Nur Kılınç",
+            "orcid": null
+          },
+          {
+            "name": "Uğur Teğin",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s42005-026-02823-0",
+        "landing_page": "https://doi.org/10.1038/s42005-026-02823-0",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s42005-026-02823-0",
+        "publication_date": "2026-09-03",
+        "title": "Multimode fiber laser cavities as nonlinear optical processors",
+        "venue": "Communications Physics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-05T00:59:46.615608Z",
+      "status": "found"
+    },
     "crossref:doi:10.1038/s44335-026-00086-0": {
       "expires_at": "2026-09-17T04:25:11.992281Z",
       "record": {
@@ -3714,6 +3752,12 @@
       "retrieved_at": "2026-08-04T09:38:52.739145Z",
       "status": "found"
     },
+    "crossref:title:141a8841dc5bc51fbfd2e870ca1d2b69ffde28d0612acd4250b29c2c16938ee7": {
+      "expires_at": "2026-09-12T00:59:51.415911Z",
+      "record": null,
+      "retrieved_at": "2026-09-05T00:59:51.415911Z",
+      "status": "not_found"
+    },
     "crossref:title:162e79b8034d15e0d018d25c22458bb6a70db891208b379c51b0b58a2ff57d76": {
       "expires_at": "2026-08-25T04:25:08.388855Z",
       "record": {
@@ -4061,6 +4105,12 @@
       },
       "retrieved_at": "2026-09-01T01:13:11.183771Z",
       "status": "found"
+    },
+    "crossref:title:33a45e5cd73326adf0ab633eda1af5255e00d2d4b19bcf135911375e505af8e2": {
+      "expires_at": "2026-09-12T00:59:50.332909Z",
+      "record": null,
+      "retrieved_at": "2026-09-05T00:59:50.332909Z",
+      "status": "not_found"
     },
     "crossref:title:396433acbcc3f91784f5268f64740577bf2596dcfa06755340cef71a7f90d310": {
       "expires_at": "2026-08-16T00:35:59.056202Z",
@@ -5262,6 +5312,12 @@
       "retrieved_at": "2026-08-18T04:25:07.751201Z",
       "status": "not_found"
     },
+    "crossref:title:a4d60fc193a9c170af67e7284eb656840f515bee60120abef56eb3c9e7d311ed": {
+      "expires_at": "2026-09-12T00:59:47.500485Z",
+      "record": null,
+      "retrieved_at": "2026-09-05T00:59:47.500485Z",
+      "status": "not_found"
+    },
     "crossref:title:a557f45f91f453523d599a0ec9eec441f9dfcb5026fa88cb396152f40e618dc9": {
       "expires_at": "2026-09-11T01:00:16.748871Z",
       "record": null,
@@ -5974,10 +6030,22 @@
       "retrieved_at": "2026-08-04T09:38:39.461936Z",
       "status": "found"
     },
+    "crossref:title:e52562c68c7743def3c56d139b546749ca9c6a30d4c4fb7fa4d65bebf9940805": {
+      "expires_at": "2026-09-12T00:59:48.641716Z",
+      "record": null,
+      "retrieved_at": "2026-09-05T00:59:48.641716Z",
+      "status": "not_found"
+    },
     "crossref:title:e52f743553d7ab85547eee0293aae0315b336cf34824f5091b79b72534897095": {
       "expires_at": "2026-09-05T00:54:10.542424Z",
       "record": null,
       "retrieved_at": "2026-08-29T00:54:10.542424Z",
+      "status": "not_found"
+    },
+    "crossref:title:e564e5e419bcbf82f79001e4d49c311bcfb63c4275173355e4f9c475a05d40e1": {
+      "expires_at": "2026-09-12T00:59:49.567567Z",
+      "record": null,
+      "retrieved_at": "2026-09-05T00:59:49.567567Z",
       "status": "not_found"
     },
     "crossref:title:e5891f67f719834bc00ca01dc15fbfa40dcacf96346e10b3b7547e108fc0537b": {
@@ -6132,6 +6200,12 @@
       "retrieved_at": "2026-08-04T09:38:37.983990Z",
       "status": "found"
     },
+    "crossref:title:f7ff005a639554bb23bbd49c5a703663447cfbd95aba3ff8543f8daad5267f0c": {
+      "expires_at": "2026-09-12T00:59:44.558159Z",
+      "record": null,
+      "retrieved_at": "2026-09-05T00:59:44.558159Z",
+      "status": "not_found"
+    },
     "crossref:title:f836d744c76cbb243964b574b5f484d0085db7956128aa2d48e058340296b367": {
       "expires_at": "2026-08-11T09:38:44.743778Z",
       "record": null,
@@ -6171,6 +6245,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:24.453947Z",
       "status": "found"
+    },
+    "crossref:title:fa60f02d09bca15be6c9a356913a55051cb0ebb4425af85d164abb26d908b601": {
+      "expires_at": "2026-09-12T00:59:45.758737Z",
+      "record": null,
+      "retrieved_at": "2026-09-05T00:59:45.758737Z",
+      "status": "not_found"
     },
     "openalex:doi:10.1002/adfm.77732": {
       "expires_at": "2026-10-04T01:00:16.458324Z",
@@ -8704,6 +8784,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:06.982361Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s42005-026-02823-0": {
+      "expires_at": "2026-10-05T00:59:46.957674Z",
+      "record": {
+        "abstract": "Optical computing provides a promising path toward energy-efficient machine learning, yet implementing nonlinear transformations without complex electronics or high-power sources remains challenging. Here, we demonstrate that continuous-wave multimode fiber laser cavities can function as nonlinear optical processors. Input images encoded as phase patterns on a spatial light modulator undergo high-dimensional transformation through the interplay of multimode interference and gain saturation dynamics. The cavity maps input data into spatially stable, class-separable intensity distributions, enabling a simple linear classifier to achieve accuracies of 85–99% across diverse benchmarks—including medical imaging and remote sensing—with orders of magnitude fewer trainable parameters than deep neural networks. Our results establish multimode fiber lasers as compact, low-power physical processors for scalable optical machine learning. Optical computing offers an energy-efficient alternative for AI, but generating the nonlinearities for machine learning usually demands high power or digital assist. This work demonstrates that a multimode fiber laser natively performs these operations through gain saturation, enabling high accuracy medical and geospatial classification tasks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dilem Eşlik",
+            "orcid": null
+          },
+          {
+            "name": "Bahadır Utku Kesgin",
+            "orcid": "https://orcid.org/0009-0002-7262-3656"
+          },
+          {
+            "name": "Fatma Nur Kılınç",
+            "orcid": null
+          },
+          {
+            "name": "Uğur Teğin",
+            "orcid": "https://orcid.org/0000-0002-4690-588X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s42005-026-02823-0",
+        "landing_page": "https://doi.org/10.1038/s42005-026-02823-0",
+        "open_access_url": "https://doi.org/10.1038/s42005-026-02823-0",
+        "openalex_id": "https://openalex.org/W7128614401",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7128614401",
+        "publication_date": "2026-09-03",
+        "title": "Multimode fiber laser cavities as nonlinear optical processors",
+        "venue": "Communications Physics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-05T00:59:46.957674Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s44310-026-00146-0": {
@@ -12260,6 +12378,12 @@
       "retrieved_at": "2026-08-09T00:36:05.489666Z",
       "status": "not_found"
     },
+    "openalex:title:141a8841dc5bc51fbfd2e870ca1d2b69ffde28d0612acd4250b29c2c16938ee7": {
+      "expires_at": "2026-09-12T00:59:51.907015Z",
+      "record": null,
+      "retrieved_at": "2026-09-05T00:59:51.907015Z",
+      "status": "not_found"
+    },
     "openalex:title:194b18c310f1c95fa7b57f32bf8eac8d8d12cca5a8f0adbc26cb774d869457a4": {
       "expires_at": "2026-09-07T01:07:02.675473Z",
       "record": {
@@ -12329,6 +12453,72 @@
       "record": null,
       "retrieved_at": "2026-08-09T00:36:13.940109Z",
       "status": "not_found"
+    },
+    "openalex:title:33a45e5cd73326adf0ab633eda1af5255e00d2d4b19bcf135911375e505af8e2": {
+      "expires_at": "2026-09-12T00:59:51.041429Z",
+      "record": {
+        "abstract": "Click-through rate (CTR) models vary in feature-interaction design, yet their top networks usually remain a single multilayer perceptron shared by all examples. Heterogeneous user, item, and context subgroups therefore update the same parameters; weakly aligned learning signals make the aggregate gradient a compromise among competing directions. We study the competition on Avazu with 4 models and 4 semantic fields. Across all architectures, semantic subgroups show lower Top-NN gradient cosine similarity than random groups matched by sample size and label ratio, with reductions of 0.23-0.37. This competition motivates input-conditioned experts, but directly replacing an established Dense mapping changes its initial function, sharing pattern, and capacity, obscuring the source of gains. We introduce PRIME (Plug-in Residual Input-conditioned Mixture of Experts), a Dense-anchored mixture of low-rank residual experts. PRIME anchors the original prediction and uses zero-residual initialization to match the Dense baseline exactly at training onset. Input-dependent routing weights low-rank experts for example-specific logit corrections; multi-bag aggregation and EMA load biases stabilize conditional estimation. We evaluate PRIME on held-out Avazu and Criteo test sets across 13 CTR architectures and five paired seeds. Median paired AUC gains are +0.0022 and +0.0066, with LogLoss reductions of 0.0011 and 0.0081, respectively. On FiBiNET and DCNv2, PRIME outperforms APG in all ten seed-level AUC comparisons while using fewer parameters and lower inference latency on both backbones. These results show that function-preserving conditional residuals add input-dependent capacity while preserving the Dense path and its optimization stability. Code is available at https://github.com/YH-learning/PRIME.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Heng Yao",
+            "orcid": null
+          },
+          {
+            "name": "Siyun Hou",
+            "orcid": "https://orcid.org/0000-0002-2331-1333"
+          },
+          {
+            "name": "Tianying Liu",
+            "orcid": null
+          },
+          {
+            "name": "Yulou Shu",
+            "orcid": "https://orcid.org/0009-0005-1150-1569"
+          },
+          {
+            "name": "Yong He",
+            "orcid": null
+          },
+          {
+            "name": "Chuan Yuan",
+            "orcid": null
+          },
+          {
+            "name": "Kaibin Qiu",
+            "orcid": null
+          },
+          {
+            "name": "Guowei Chen",
+            "orcid": null
+          },
+          {
+            "name": "Jiayu Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Chao Yu",
+            "orcid": null
+          },
+          {
+            "name": "Ke Ding",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2608.30449",
+        "landing_page": "https://arxiv.org/abs/2608.30449",
+        "open_access_url": "https://arxiv.org/abs/2608.30449",
+        "openalex_id": "https://openalex.org/W7204891245",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204891245",
+        "publication_date": "2026-08-31",
+        "title": "PRIME: Mitigating Subgroup Optimization Competition in Shared CTR Top Networks with Plug-in Residual Input-Conditioned Mixture of Expert",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-05T00:59:51.041429Z",
+      "status": "found"
     },
     "openalex:title:396433acbcc3f91784f5268f64740577bf2596dcfa06755340cef71a7f90d310": {
       "expires_at": "2026-08-16T00:35:59.656653Z",
@@ -12916,6 +13106,12 @@
       "retrieved_at": "2026-08-18T04:25:08.194699Z",
       "status": "not_found"
     },
+    "openalex:title:a4d60fc193a9c170af67e7284eb656840f515bee60120abef56eb3c9e7d311ed": {
+      "expires_at": "2026-09-12T00:59:48.299346Z",
+      "record": null,
+      "retrieved_at": "2026-09-05T00:59:48.299346Z",
+      "status": "not_found"
+    },
     "openalex:title:a557f45f91f453523d599a0ec9eec441f9dfcb5026fa88cb396152f40e618dc9": {
       "expires_at": "2026-09-11T01:00:17.680869Z",
       "record": {
@@ -13202,10 +13398,22 @@
       "retrieved_at": "2026-08-23T00:32:31.838146Z",
       "status": "not_found"
     },
+    "openalex:title:e52562c68c7743def3c56d139b546749ca9c6a30d4c4fb7fa4d65bebf9940805": {
+      "expires_at": "2026-09-12T00:59:49.141088Z",
+      "record": null,
+      "retrieved_at": "2026-09-05T00:59:49.141088Z",
+      "status": "not_found"
+    },
     "openalex:title:e52f743553d7ab85547eee0293aae0315b336cf34824f5091b79b72534897095": {
       "expires_at": "2026-09-05T00:54:11.114854Z",
       "record": null,
       "retrieved_at": "2026-08-29T00:54:11.114854Z",
+      "status": "not_found"
+    },
+    "openalex:title:e564e5e419bcbf82f79001e4d49c311bcfb63c4275173355e4f9c475a05d40e1": {
+      "expires_at": "2026-09-12T00:59:50.051577Z",
+      "record": null,
+      "retrieved_at": "2026-09-05T00:59:50.051577Z",
       "status": "not_found"
     },
     "openalex:title:e5891f67f719834bc00ca01dc15fbfa40dcacf96346e10b3b7547e108fc0537b": {
@@ -13334,10 +13542,50 @@
       "retrieved_at": "2026-08-20T00:32:24.473759Z",
       "status": "found"
     },
+    "openalex:title:f7ff005a639554bb23bbd49c5a703663447cfbd95aba3ff8543f8daad5267f0c": {
+      "expires_at": "2026-09-12T00:59:45.269851Z",
+      "record": {
+        "abstract": "This paper investigates distributed online optimization for multi-agent dynamical systems with constrained inputs and time-varying cost functions. While online convex optimization offers a principal framework for sequential decision-making, existing online learning and optimization algorithms typically require accurate system models, limiting their applicability in practical settings. To overcome this challenge, we propose a distributed bandit online feedback optimization algorithm that relies solely on real-time input-output data. The algorithm employs a smoothing zeroth-order one-point estimator to construct local gradient approximations directly from cost evaluations. Additionally, to enforce input constraints effectively, we integrate a projection-free conditional gradient update, making the algorithm well-suited for online and large-scale settings. Furthermore, we establish a sublinear dynamic regret bound that depends on a temporal variation measure of system non-stationarity. Finally, numerical simulations demonstrate the effectiveness of the proposed algorithm.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xia Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Lu Liu",
+            "orcid": null
+          },
+          {
+            "name": "Gang Feng",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2608.30159",
+        "landing_page": "https://arxiv.org/abs/2608.30159",
+        "open_access_url": "https://arxiv.org/abs/2608.30159",
+        "openalex_id": "https://openalex.org/W7204887822",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204887822",
+        "publication_date": "2026-08-31",
+        "title": "Projection-Free Bandit Online Optimization for Multi-Agent Systems with Dynamic Regret",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-05T00:59:45.269851Z",
+      "status": "found"
+    },
     "openalex:title:f836d744c76cbb243964b574b5f484d0085db7956128aa2d48e058340296b367": {
       "expires_at": "2026-08-11T09:38:45.339839Z",
       "record": null,
       "retrieved_at": "2026-08-04T09:38:45.339839Z",
+      "status": "not_found"
+    },
+    "openalex:title:fa60f02d09bca15be6c9a356913a55051cb0ebb4425af85d164abb26d908b601": {
+      "expires_at": "2026-09-12T00:59:46.431467Z",
+      "record": null,
+      "retrieved_at": "2026-09-05T00:59:46.431467Z",
       "status": "not_found"
     }
   },
