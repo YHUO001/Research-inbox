@@ -11,6 +11,17 @@
       "review_required": false,
       "summary_record_sha256": "e528dde6eae4acf21af476455f24a738b4ce501de599ef14fc565ef0a7c48318"
     },
+    "09e1a0ed403ef22abbd9b189": {
+      "completed_at": "2026-09-06T01:09:02.211639Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-09-06",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "4c0437cd825c54971d4885dd0221a3e406729402f3c5bf87d66d985ebc429d58",
+      "review_required": false,
+      "summary_record_sha256": "a9103ec0aed518d0d4385e6d4c297854035041fcfc4f2b9d40406ddfd8c53340"
+    },
     "0cbf41592278a3ad1b89e219": {
       "completed_at": "2026-08-18T13:07:52.039850Z",
       "completion_mode": "automatic_daily_batch_after_local_validation",
@@ -439,6 +450,17 @@
       "request_id": "1b063773aa436693f32e04ff5460cd5146208a02a5bda6fddb85c8107d858cbb",
       "review_required": false,
       "summary_record_sha256": "bd22628805136421342fba5b380f87a460a25c0d45296e75b9e7fad871ce132e"
+    },
+    "d69a4f93ca6340969e1077a8": {
+      "completed_at": "2026-09-06T01:09:02.211639Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-09-06",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "9e7b2206f988867bb65d3c6e9b17801270930464e4edb60d421f74c9237a5aca",
+      "review_required": false,
+      "summary_record_sha256": "52959cb5fd5b523322a1c40829cf8ebe21d1b518a016c26ddc57329815fa8aea"
     },
     "dd2f544b89860edf2c2a51ae": {
       "completed_at": "2026-08-20T00:33:21.307398Z",

@@ -1,0 +1,42 @@
+{
+  "built_at": "2026-09-06T01:07:53.492001Z",
+  "digest_date": "2026-09-06",
+  "digest_version": 1,
+  "pending_summary_count": 2,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "d69a4f93ca6340969e1077a8",
+        "landing_page": "https://doi.org/10.1021/acsphotonics.6c01155",
+        "mandatory": false,
+        "score": 0.81,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Monolithically Integrated IGZO Synaptic Transistors\non a Silicon Nitride Waveguide for Optoelectronic Neuromorphic Computing",
+        "venue": "ACS Photonics",
+        "year": 2026
+      },
+      {
+        "candidate_id": "09e1a0ed403ef22abbd9b189",
+        "landing_page": "https://doi.org/10.6084/m9.figshare.33342183.v2",
+        "mandatory": false,
+        "score": 0.72,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Supplementary document for Robust Training of MZI-Based Optical Neural Networks through Phase Discretization - 8023552.pdf",
+        "venue": "Figshare",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

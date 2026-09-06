@@ -1,10 +1,27 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`40`
-- 更新时间：`2026-09-05T01:01:12.895873Z`
+- 论文数：`42`
+- 更新时间：`2026-09-06T01:09:02.211639Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Supplementary document for Robust Training of MZI-Based Optical Neural Networks through Phase Discretization - 8023552.pdf
+
+- DOI/链接：[10.6084/m9.figshare.33342183.v2](https://doi.org/10.6084/m9.figshare.33342183.v2)
+- 期刊/年份：Figshare，2026
+- 摘要日期：`2026-09-06`
+- 候选 ID：`09e1a0ed403ef22abbd9b189`
+- 标签：application:光学神经网络推理, architecture:unclear, project:optical-neural-networks
+
+### Monolithically Integrated IGZO Synaptic Transistors
+on a Silicon Nitride Waveguide for Optoelectronic Neuromorphic Computing
+
+- DOI/链接：[10.1021/acsphotonics.6c01155](https://doi.org/10.1021/acsphotonics.6c01155)
+- 期刊/年份：ACS Photonics，2026
+- 摘要日期：`2026-09-06`
+- 候选 ID：`d69a4f93ca6340969e1077a8`
+- 标签：application:基于实测电导更新特性的手写数字识别仿真，分类准确率98.02%, architecture:hybrid, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Photonic integrated computing engine for concurrent optical computing
 

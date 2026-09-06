@@ -1,100 +1,79 @@
 {
-  "abstract_fallback_candidate_ids": [],
-  "abstract_fallback_count": 0,
+  "abstract_fallback_candidate_ids": [
+    "d69a4f93ca6340969e1077a8"
+  ],
+  "abstract_fallback_count": 1,
   "architecture_evidence": {
-    "79855d774b83ef6c7c8a8a47": {
+    "09e1a0ed403ef22abbd9b189": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": "unclear",
       "resolved_type": "unclear"
     },
-    "7edb19b24759fe609707ba01": {
+    "d69a4f93ca6340969e1077a8": {
       "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
-    },
-    "8ce6ad350a786420a01c4dd8": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
+      "free_space_evidence": [
+        "Unlike previously reported IGZO optoelectronic synapses that rely on externally aligned free-space illumination, the waveguide serves as a lithographically defined optical programming path through which a single guided optical signal interacts with multiple synaptic transistors distributed along the same waveguide.",
+        "The IGZO TFT additionally exhibited photoresponse under free-space illumination from 405 to 635 nm, confirming the visible range photosensitivity of the active layer."
+      ],
+      "integrated_evidence": [
+        "Abstract We report the first demonstration of monolithically integrated amorphous indium–gallium–zinc oxide (IGZO) synaptic transistors on a silicon nitride (Si3N4) waveguide, enabling direct on-chip optical programming by using guided 532 nm light."
+      ],
+      "previous_type": "hybrid",
+      "resolved_type": "hybrid"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 3,
-  "completed_at": "2026-09-05T01:01:12.895873Z",
+  "automatic_queue_candidate_count": 2,
+  "completed_at": "2026-09-06T01:09:02.211639Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "79855d774b83ef6c7c8a8a47",
-    "7edb19b24759fe609707ba01",
-    "8ce6ad350a786420a01c4dd8"
+    "09e1a0ed403ef22abbd9b189",
+    "d69a4f93ca6340969e1077a8"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-09-05",
-  "digest_json_file": "runtime-state/data/digests/2026-09-05.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-09-05.generated.md",
+  "digest_date": "2026-09-06",
+  "digest_json_file": "runtime-state/data/digests/2026-09-06.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-09-06.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.045546,
+  "estimated_cost_cny": 0.0298742,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "79855d774b83ef6c7c8a8a47": {
+    "09e1a0ed403ef22abbd9b189": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "79855d774b83ef6c7c8a8a47",
-      "character_count": 2286,
-      "content_sha256": "8288c8d73b8cf090a9f26dd0e86b5bd59543eb34c363219c9ce4a7f0475268c8",
-      "elapsed_seconds": 0.598,
+      "candidate_id": "09e1a0ed403ef22abbd9b189",
+      "character_count": 746,
+      "content_sha256": "f04d4d8abb504c70c4dd562a30e709fce3a268f47da9aebf29f8b43583ea9412",
+      "elapsed_seconds": 1.19,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
       "section_headings": [
-        "Control-aware training of physical neural networks for closed-loop regulation",
-        "Control-aware training of physical neural networks for closed-loop regulation | Research Square"
+        "Supplementary document for Robust Training of MZI-Based Optical Neural Networks through Phase Discretization - 8023552.pdf"
       ],
-      "source_url": "https://www.researchsquare.com/article/rs-10794538/v1",
+      "source_url": "https://opticapublishing.figshare.com/articles/journal_contribution/Supplementary_document_for_Robust_Training_of_MZI-Based_Optical_Neural_Networks_through_Phase_Discretization_-_8023552_pdf/33342183/2",
       "status": "used",
       "text_persisted": false
     },
-    "7edb19b24759fe609707ba01": {
+    "d69a4f93ca6340969e1077a8": {
       "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "7edb19b24759fe609707ba01",
-      "character_count": 2376,
-      "content_sha256": "47c87caafed363df696f45e1259e5a1cd08d28d081cf0dce7b328fdc6bd49516",
-      "elapsed_seconds": 0.785,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "application/xml+jats",
-      "section_headings": [
-        "fabrication"
-      ],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-76872-y&p=1",
-      "status": "used",
-      "text_persisted": false
-    },
-    "8ce6ad350a786420a01c4dd8": {
-      "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "8ce6ad350a786420a01c4dd8",
-      "character_count": 2579,
-      "content_sha256": "dbdf19280938f35c3a9a22fbce26fec33dd30bc3170a295791c706c85f08d41d",
-      "elapsed_seconds": 1.467,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "application/xml+jats",
-      "section_headings": [
-        "fabrication"
-      ],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-76714-x&p=1",
-      "status": "used",
+      "attempt_count": 3,
+      "candidate_id": "d69a4f93ca6340969e1077a8",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 3.296,
+      "error": "https://doi.org/10.1021/acsphotonics.6c01155: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1021/acsphotonics.6c01155",
+      "status": "not_available",
       "text_persisted": false
     }
   },
@@ -104,7 +83,7 @@
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 3,
+  "newly_completed_candidate_count": 2,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -120,161 +99,138 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 3,
+  "prepared_request_count": 2,
   "provider": "deepseek",
-  "queue_sha256": "6a7d00fe4773c0797903e7f1979aa5ed57a514ab6ea8a69126a36b749bbfd208",
-  "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-09-05.jsonl",
-  "request_sha256": "b703f2f6fa77fdb57c89a960e7038603d5d77495d00d81c46e5e98a82ea6388e",
+  "queue_sha256": "9172d4c7d68f9879d412d01f42b8d4962f026d52ccd41a0de62a2c0c914963e4",
+  "request_count": 2,
+  "request_file": "runtime-state/data/summary_requests/2026-09-06.jsonl",
+  "request_sha256": "2a77db2afdae1bb23a6a419523b327053eea64172cf002a62ae054f0ca04f677",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "fa46a24d16a4110bde3ab1c392117b50d2028cb81aaff44f2e462686123a4fbc",
+  "selection_manifest_sha256": "0a79c18847c0edb86b8119b3f913215e8a7794d3c3e41421cafa86acbbc45429",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 3,
+  "source_queue_candidate_count": 2,
   "stage_timings": {
-    "full_text_preparation_seconds": 2.853,
+    "full_text_preparation_seconds": 4.491,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "8ce6ad350a786420a01c4dd8",
-        "elapsed_seconds": 24.765,
+        "candidate_id": "d69a4f93ca6340969e1077a8",
+        "elapsed_seconds": 41.965,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1606,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 2018,
-          "prompt_tokens": 3938,
-          "total_tokens": 5544
+          "completion_tokens": 2385,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1540,
+          "prompt_tokens": 3588,
+          "total_tokens": 5973
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "7edb19b24759fe609707ba01",
-        "elapsed_seconds": 21.18,
+        "candidate_id": "09e1a0ed403ef22abbd9b189",
+        "elapsed_seconds": 20.547,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1296,
+          "completion_tokens": 1047,
           "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 1905,
-          "prompt_tokens": 3825,
-          "total_tokens": 5121
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "79855d774b83ef6c7c8a8a47",
-        "elapsed_seconds": 30.674,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1761,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 1885,
-          "prompt_tokens": 3805,
-          "total_tokens": 5566
+          "prompt_cache_miss_tokens": 1521,
+          "prompt_tokens": 3441,
+          "total_tokens": 4488
         }
       }
     ],
-    "model_generation_and_validation_seconds": 76.631
+    "model_generation_and_validation_seconds": 62.53
   },
   "status": "completed_automatic",
-  "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-09-05.jsonl",
+  "summary_count": 2,
+  "summary_file": "runtime-state/data/summaries/2026-09-06.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 3,
+  "summary_slot_count": 2,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "79855d774b83ef6c7c8a8a47": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "not_available",
-        "repaired": true,
-        "resolved_type": "unclear"
-      },
-      "7edb19b24759fe609707ba01": {
+      "09e1a0ed403ef22abbd9b189": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": "integrated",
         "repaired": true,
         "resolved_type": "unclear"
       },
-      "8ce6ad350a786420a01c4dd8": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "not_available",
+      "d69a4f93ca6340969e1077a8": {
+        "free_space_evidence": [
+          "Unlike previously reported IGZO optoelectronic synapses that rely on externally aligned free-space illumination, the waveguide serves as a lithographically defined optical programming path through which a single guided optical signal interacts with multiple synaptic transistors distributed along the same waveguide.",
+          "The IGZO TFT additionally exhibited photoresponse under free-space illumination from 405 to 635 nm, confirming the visible range photosensitivity of the active layer."
+        ],
+        "integrated_evidence": [
+          "Abstract We report the first demonstration of monolithically integrated amorphous indium–gallium–zinc oxide (IGZO) synaptic transistors on a silicon nitride (Si3N4) waveguide, enabling direct on-chip optical programming by using guided 532 nm light."
+        ],
+        "model_value": "integrated",
         "repaired": true,
-        "resolved_type": "unclear"
+        "resolved_type": "hybrid"
       }
     },
-    "architecture_repairs": 3,
+    "architecture_repairs": 2,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "79855d774b83ef6c7c8a8a47": {
+      "09e1a0ed403ef22abbd9b189": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "79855d774b83ef6c7c8a8a47",
-        "character_count": 2286,
-        "content_sha256": "8288c8d73b8cf090a9f26dd0e86b5bd59543eb34c363219c9ce4a7f0475268c8",
-        "elapsed_seconds": 0.598,
+        "candidate_id": "09e1a0ed403ef22abbd9b189",
+        "character_count": 746,
+        "content_sha256": "f04d4d8abb504c70c4dd562a30e709fce3a268f47da9aebf29f8b43583ea9412",
+        "elapsed_seconds": 1.19,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
         "section_headings": [
-          "Control-aware training of physical neural networks for closed-loop regulation",
-          "Control-aware training of physical neural networks for closed-loop regulation | Research Square"
+          "Supplementary document for Robust Training of MZI-Based Optical Neural Networks through Phase Discretization - 8023552.pdf"
         ],
-        "source_url": "https://www.researchsquare.com/article/rs-10794538/v1",
+        "source_url": "https://opticapublishing.figshare.com/articles/journal_contribution/Supplementary_document_for_Robust_Training_of_MZI-Based_Optical_Neural_Networks_through_Phase_Discretization_-_8023552_pdf/33342183/2",
         "status": "used",
         "text_persisted": false
       },
-      "7edb19b24759fe609707ba01": {
+      "d69a4f93ca6340969e1077a8": {
         "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "7edb19b24759fe609707ba01",
-        "character_count": 2376,
-        "content_sha256": "47c87caafed363df696f45e1259e5a1cd08d28d081cf0dce7b328fdc6bd49516",
-        "elapsed_seconds": 0.785,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "application/xml+jats",
-        "section_headings": [
-          "fabrication"
-        ],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-76872-y&p=1",
-        "status": "used",
-        "text_persisted": false
-      },
-      "8ce6ad350a786420a01c4dd8": {
-        "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "8ce6ad350a786420a01c4dd8",
-        "character_count": 2579,
-        "content_sha256": "dbdf19280938f35c3a9a22fbce26fec33dd30bc3170a295791c706c85f08d41d",
-        "elapsed_seconds": 1.467,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "application/xml+jats",
-        "section_headings": [
-          "fabrication"
-        ],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-76714-x&p=1",
-        "status": "used",
+        "attempt_count": 3,
+        "candidate_id": "d69a4f93ca6340969e1077a8",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 3.296,
+        "error": "https://doi.org/10.1021/acsphotonics.6c01155: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1021/acsphotonics.6c01155",
+        "status": "not_available",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 0,
-    "numeric_grounding_repair_responses": 0,
-    "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 33,
-    "unit_format_normalization_responses": 1
+    "generation_metadata_repair_responses": 2,
+    "numeric_grounding_repair_responses": 1,
+    "numeric_grounding_repairs": {
+      "09e1a0ed403ef22abbd9b189": [
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "系统以马赫-曾德尔干涉仪（MZI）阵列为基本计算单元，每个MZI由两个3dB耦合器和两个可调移相器构成。",
+          "path": "method_implementation[0]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "3"
+          ]
+        }
+      ]
+    },
+    "tops_alias_expansions": 12,
+    "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 4663,
-    "prompt_cache_hit_tokens": 5760,
-    "prompt_cache_miss_tokens": 5808,
-    "prompt_tokens": 11568,
-    "total_tokens": 16231
+    "completion_tokens": 3432,
+    "prompt_cache_hit_tokens": 3968,
+    "prompt_cache_miss_tokens": 3061,
+    "prompt_tokens": 7029,
+    "total_tokens": 10461
   }
 }

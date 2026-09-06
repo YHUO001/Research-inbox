@@ -9,6 +9,15 @@
       "summary_record_sha256": "e528dde6eae4acf21af476455f24a738b4ce501de599ef14fc565ef0a7c48318",
       "title": "A Noise-Resilient Calibration framework for Quantum and Optical Neural Network Inference"
     },
+    "09e1a0ed403ef22abbd9b189": {
+      "digest_date": "2026-09-06",
+      "doi": "10.6084/m9.figshare.33342183.v2",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "a9103ec0aed518d0d4385e6d4c297854035041fcfc4f2b9d40406ddfd8c53340",
+      "title": "Supplementary document for Robust Training of MZI-Based Optical Neural Networks through Phase Discretization - 8023552.pdf"
+    },
     "0cbf41592278a3ad1b89e219": {
       "digest_date": "2026-08-18",
       "doi": "10.48550/arxiv.2608.12300",
@@ -334,6 +343,15 @@
       "summary_record_sha256": "bd22628805136421342fba5b380f87a460a25c0d45296e75b9e7fad871ce132e",
       "title": "Quantum nonlinearity for optical neural computing"
     },
+    "d69a4f93ca6340969e1077a8": {
+      "digest_date": "2026-09-06",
+      "doi": "10.1021/acsphotonics.6c01155",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "52959cb5fd5b523322a1c40829cf8ebe21d1b518a016c26ddc57329815fa8aea",
+      "title": "Monolithically Integrated IGZO Synaptic Transistors\non a Silicon Nitride Waveguide for Optoelectronic Neuromorphic Computing"
+    },
     "dd2f544b89860edf2c2a51ae": {
       "digest_date": "2026-08-20",
       "doi": "10.48550/arxiv.2608.15665",
@@ -436,6 +454,10 @@
       "79855d774b83ef6c7c8a8a47",
       "7edb19b24759fe609707ba01",
       "8ce6ad350a786420a01c4dd8"
+    ],
+    "2026-09-06": [
+      "09e1a0ed403ef22abbd9b189",
+      "d69a4f93ca6340969e1077a8"
     ]
   },
   "by_doi": {
@@ -443,6 +465,7 @@
     "10.1002/adom.71712": "c82f6c2f7b8ae52a84e4eb29",
     "10.1007/s10915-026-03433-2": "7719ae17086cb97168bebbc5",
     "10.1021/acsphotonics.6c00831": "2eb28d7201afb356d747693a",
+    "10.1021/acsphotonics.6c01155": "d69a4f93ca6340969e1077a8",
     "10.1038/s41377-026-02325-2": "1e619f1b739f1893eae64f28",
     "10.1038/s41377-026-02419-x": "973507e35175bb05fcf25e79",
     "10.1038/s41427-026-00671-6": "83a830ace13b5158f346c392",
@@ -476,12 +499,14 @@
     "10.48550/arxiv.2608.21223": "f0cf0b80e6f1f53ea347c136",
     "10.48550/arxiv.2608.23178": "b03b6320be57edd77b3ad7e5",
     "10.48550/arxiv.2608.28011": "5e49047e7ce2004f7954debb",
+    "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799",
     "10.62311/nesx/rp2ag-30082026": "7bc9d4230ed283852c3248a7"
   },
   "by_project": {
     "optical-neural-networks": [
       "028de8014a2b67fd147a28e7",
+      "09e1a0ed403ef22abbd9b189",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "1cf1fcd769c5ace951188b8c",
@@ -510,7 +535,8 @@
       "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d",
-      "d33b2e7c6586f37945facb32"
+      "d33b2e7c6586f37945facb32",
+      "d69a4f93ca6340969e1077a8"
     ],
     "zeroth-order-optimization": [
       "0e5c75b6132afcfb1f7afb17",
@@ -563,6 +589,9 @@
     "application:光学信息存储": [
       "8ce6ad350a786420a01c4dd8"
     ],
+    "application:光学神经网络推理": [
+      "09e1a0ed403ef22abbd9b189"
+    ],
     "application:分布式声学传感（das）": [
       "1cf1fcd769c5ace951188b8c"
     ],
@@ -602,6 +631,9 @@
     ],
     "application:图像特征提取": [
       "1e619f1b739f1893eae64f28"
+    ],
+    "application:基于实测电导更新特性的手写数字识别仿真，分类准确率98.02%": [
+      "d69a4f93ca6340969e1077a8"
     ],
     "application:大型模型部署": [
       "7d6c2a059923ebe445a1cdf7"
@@ -710,6 +742,9 @@
       "9351be654a20f4a2f7121847",
       "b832199d8494cc67a559fec5"
     ],
+    "architecture:hybrid": [
+      "d69a4f93ca6340969e1077a8"
+    ],
     "architecture:integrated": [
       "0e5c75b6132afcfb1f7afb17",
       "1cf1fcd769c5ace951188b8c",
@@ -717,6 +752,7 @@
     ],
     "architecture:unclear": [
       "028de8014a2b67fd147a28e7",
+      "09e1a0ed403ef22abbd9b189",
       "0cbf41592278a3ad1b89e219",
       "1e35265ce8678ca96adb8b93",
       "1e619f1b739f1893eae64f28",
@@ -755,7 +791,8 @@
       "5017adbd33e6ddd5c320a4c4",
       "7edb19b24759fe609707ba01",
       "973790e22c46d30721660799",
-      "c7b91f881a121b7e1651e2f2"
+      "c7b91f881a121b7e1651e2f2",
+      "d69a4f93ca6340969e1077a8"
     ],
     "hardware_validation:simulation_only": [
       "0cbf41592278a3ad1b89e219",
@@ -776,6 +813,7 @@
     ],
     "project:optical-neural-networks": [
       "028de8014a2b67fd147a28e7",
+      "09e1a0ed403ef22abbd9b189",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "1cf1fcd769c5ace951188b8c",
@@ -804,7 +842,8 @@
       "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d",
-      "d33b2e7c6586f37945facb32"
+      "d33b2e7c6586f37945facb32",
+      "d69a4f93ca6340969e1077a8"
     ],
     "project:zeroth-order-optimization": [
       "0e5c75b6132afcfb1f7afb17",
@@ -885,7 +924,8 @@
       "0e5c75b6132afcfb1f7afb17"
     ],
     "ACS Photonics": [
-      "2eb28d7201afb356d747693a"
+      "2eb28d7201afb356d747693a",
+      "d69a4f93ca6340969e1077a8"
     ],
     "AIP Publishing": [
       "973790e22c46d30721660799"
@@ -896,6 +936,9 @@
     ],
     "CLEO 2026": [
       "5017adbd33e6ddd5c320a4c4"
+    ],
+    "Figshare": [
+      "09e1a0ed403ef22abbd9b189"
     ],
     "International Journal of Academic and Industrial Research Innovations(IJAIRI)": [
       "7bc9d4230ed283852c3248a7"
@@ -972,6 +1015,7 @@
   "by_year": {
     "2026": [
       "028de8014a2b67fd147a28e7",
+      "09e1a0ed403ef22abbd9b189",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
@@ -1008,12 +1052,13 @@
       "ca00b2160d3deb8b79b61e6e",
       "ccd82d84305d463a6c33398d",
       "d33b2e7c6586f37945facb32",
+      "d69a4f93ca6340969e1077a8",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136"
     ]
   },
-  "paper_count": 40,
+  "paper_count": 42,
   "schema_version": 1,
-  "updated_at": "2026-09-05T01:01:12.895873Z"
+  "updated_at": "2026-09-06T01:09:02.211639Z"
 }

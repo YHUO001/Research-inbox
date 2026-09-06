@@ -1460,6 +1460,52 @@
       "retrieved_at": "2026-08-04T09:38:42.073462Z",
       "status": "found"
     },
+    "crossref:doi:10.1021/acs.nanolett.6c03323": {
+      "expires_at": "2026-10-06T01:07:51.194407Z",
+      "record": {
+        "abstract": "Abstract Metasurface design increasingly requires fast models that can operate across structurally distinct device families rather than retraining a separate surrogate for every geometry class. Conventional neural network surrogates often depend on fixed-dimensional descriptors, family-specific output formats, and repeated architecture tuning, which limit their scalability across heterogeneous meta-atoms. Here, we present a unified large language model (LLM) workflow for multifamily metasurface modeling and inverse design. Geometries, design parameters, and optical response channels were converted into a shared instruction-following text format and used to fine-tune Gemma-2-9B across 8 metasurface families. Compared with single-family baselines, the joint model simultaneously predicted the optical responses of all metasurface families while reducing the MSE for each family by an average of 56.5%. The same representation was also used for the inverse design. These results show that a shared sequence-based LLM interface can provide a practical route to cross-family metasurface design while reducing the need for task-specific surrogate architectures.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Huanshu Zhang",
+            "orcid": "https://orcid.org/0009-0009-8332-7298"
+          },
+          {
+            "name": "Lei Kang",
+            "orcid": "https://orcid.org/0000-0001-7718-7756"
+          },
+          {
+            "name": "Yuyan Chen",
+            "orcid": null
+          },
+          {
+            "name": "Luxiang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Zhaolong Cao",
+            "orcid": "https://orcid.org/0009-0000-1969-8689"
+          },
+          {
+            "name": "Douglas H. Werner",
+            "orcid": "https://orcid.org/0000-0001-5629-6478"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1021/acs.nanolett.6c03323",
+        "landing_page": "https://doi.org/10.1021/acs.nanolett.6c03323",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1021/acs.nanolett.6c03323",
+        "publication_date": "2026-09-04",
+        "title": "Toward a Universal\nMeta-Optics Solver via Large Language\nModels",
+        "venue": "Nano Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-06T01:07:51.194407Z",
+      "status": "found"
+    },
     "crossref:doi:10.1021/acsami.6c08360": {
       "expires_at": "2026-09-17T04:25:09.324748Z",
       "record": {
@@ -1661,6 +1707,52 @@
       "record": null,
       "retrieved_at": "2026-08-20T00:32:28.377988Z",
       "status": "not_found"
+    },
+    "crossref:doi:10.1021/acsphotonics.6c01155": {
+      "expires_at": "2026-10-06T01:07:52.261874Z",
+      "record": {
+        "abstract": "Abstract We report the first demonstration of monolithically integrated amorphous indium–gallium–zinc oxide (IGZO) synaptic transistors on a silicon nitride (Si3N4) waveguide, enabling direct on-chip optical programming by using guided 532 nm light. In this architecture, the evanescent field of the guided mode modulates the IGZO channel conductance, while the three-terminal transistor configuration enables selective electrical access and readout of the programmed synaptic states. Unlike previously reported IGZO optoelectronic synapses that rely on externally aligned free-space illumination, the waveguide serves as a lithographically defined optical programming path through which a single guided optical signal interacts with multiple synaptic transistors distributed along the same waveguide. The monolithically integrated guided optical input and electrical output configuration therefore provides a hybrid interface between integrated photonic signal delivery and transistor-based neuromorphic hardware. The waveguide geometry was designed to maintain evanescent coupling to the transistor channel while limiting propagation loss, and guided-light-induced modulation was experimentally observed in five transistors integrated along one waveguide. The IGZO TFT additionally exhibited photoresponse under free-space illumination from 405 to 635 nm, confirming the visible range photosensitivity of the active layer. Under pulsed guided-light excitation, the devices exhibited persistent photoconductivity, paired-pulse facilitation, and tunable short- and long-term synaptic plasticity. An ANN simulation using experimentally extracted conductance update characteristics achieved a handwritten digit classification accuracy of 98.02%, demonstrating the applicability of the measured synaptic response to neuromorphic learning tasks. These results establish a monolithically integrated waveguide–IGZO synaptic platform that combines guided optical programming, persistent electronic weight storage, and device-selective electrical readout for optoelectronic neuromorphic computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Minsik Kong",
+            "orcid": null
+          },
+          {
+            "name": "Seong Eun Kim",
+            "orcid": null
+          },
+          {
+            "name": "Kyuho Kim",
+            "orcid": null
+          },
+          {
+            "name": "Sunkyu Yu",
+            "orcid": "https://orcid.org/0000-0001-8667-6404"
+          },
+          {
+            "name": "Namkyoo Park",
+            "orcid": "https://orcid.org/0000-0003-0197-7633"
+          },
+          {
+            "name": "Soo-Yeon Lee",
+            "orcid": "https://orcid.org/0000-0002-9822-2570"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1021/acsphotonics.6c01155",
+        "landing_page": "https://doi.org/10.1021/acsphotonics.6c01155",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1021/acsphotonics.6c01155",
+        "publication_date": "2026-09-04",
+        "title": "Monolithically Integrated IGZO Synaptic Transistors\non a Silicon Nitride Waveguide for Optoelectronic Neuromorphic Computing",
+        "venue": "ACS Photonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-06T01:07:52.261874Z",
+      "status": "found"
     },
     "crossref:doi:10.1038/s41377-026-02325-2": {
       "expires_at": "2026-09-21T00:32:15.151100Z",
@@ -2732,6 +2824,36 @@
       "retrieved_at": "2026-08-26T00:32:42.036998Z",
       "status": "found"
     },
+    "crossref:doi:10.1142/s0218863526400163": {
+      "expires_at": "2026-10-06T01:07:51.685521Z",
+      "record": {
+        "abstract": "The operation of an optical neural network via feed-forward (FF) configuration is experimentally simulated in the laboratory. The FF setup is tested using optical injection (OI), and the behavior of follower laser diodes (FLDs) subjected to chaotic modulation is examined. The last two laser diodes (LDs) are exposed to different weights of chaotic modulated signals through optical filtration and current modulation. Observations of the emissions from these two FLDs during FF operation are verified by frequency spectra calculated from time series data. Signal broadening is assessed by measuring the full width at half maximum (FWHM), and chaotic signal spikes are analyzed by counting the number of peaks associated with signal amplitudes for the FLDs. Additionally, LD control parameters, including the bias voltage of the influencer laser diodes FLD and two additional FLDs, are examined. A maximum FWHM of 1.8 GHz for FLD is observed with a bias voltage of 3.9V (B) and a modulated signal attenuation of -12dB. To determine the synchronization state, the correlation between the ILDs and FLDs is calculated. Results indicate fluctuations between negative and positive values, with the best correlation value ILD1-FLD4 -0.8. These results confirm anti-synchronized ILD-FLDs, which represents a promising feature for potential secure communication architectures based on chaotic optical neural networks, subject to further experimental verification.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mustafa Jaber",
+            "orcid": "https://orcid.org/0000-0001-5974-8193"
+          },
+          {
+            "name": "Ayser A. Hemed",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1142/s0218863526400163",
+        "landing_page": "https://doi.org/10.1142/s0218863526400163",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1142/s0218863526400163",
+        "publication_date": "2026-09-04",
+        "title": "Broadband Chaos Generation and Anti-Synchronization in a Feed-Forward Optical Neural Network via Optical Injection",
+        "venue": "Journal of Nonlinear Optical Physics &amp; Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-06T01:07:51.685521Z",
+      "status": "found"
+    },
     "crossref:doi:10.1142/s2047684126500259": {
       "expires_at": "2026-10-03T01:03:40.757952Z",
       "record": {
@@ -3624,6 +3746,12 @@
       "expires_at": "2026-09-29T01:05:16.758744Z",
       "record": null,
       "retrieved_at": "2026-08-30T01:05:16.758744Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.6084/m9.figshare.33342183.v2": {
+      "expires_at": "2026-10-06T01:07:50.603933Z",
+      "record": null,
+      "retrieved_at": "2026-09-06T01:07:50.603933Z",
       "status": "not_found"
     },
     "crossref:doi:10.6084/m9.figshare.33345483.v1": {
@@ -7960,6 +8088,52 @@
       "retrieved_at": "2026-08-04T09:38:42.538033Z",
       "status": "found"
     },
+    "openalex:doi:10.1021/acs.nanolett.6c03323": {
+      "expires_at": "2026-10-06T01:07:51.547307Z",
+      "record": {
+        "abstract": "Abstract Metasurface design increasingly requires fast models that can operate across structurally distinct device families rather than retraining a separate surrogate for every geometry class. Conventional neural network surrogates often depend on fixed-dimensional descriptors, family-specific output formats, and repeated architecture tuning, which limit their scalability across heterogeneous meta-atoms. Here, we present a unified large language model (LLM) workflow for multifamily metasurface modeling and inverse design. Geometries, design parameters, and optical response channels were converted into a shared instruction-following text format and used to fine-tune Gemma-2-9B across 8 metasurface families. Compared with single-family baselines, the joint model simultaneously predicted the optical responses of all metasurface families while reducing the MSE for each family by an average of 56.5%. The same representation was also used for the inverse design. These results show that a shared sequence-based LLM interface can provide a practical route to cross-family metasurface design while reducing the need for task-specific surrogate architectures.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Huanshu Zhang",
+            "orcid": "https://orcid.org/0009-0009-8332-7298"
+          },
+          {
+            "name": "Lei Kang",
+            "orcid": "https://orcid.org/0000-0002-9993-6399"
+          },
+          {
+            "name": "Yuyan Chen",
+            "orcid": "https://orcid.org/0000-0003-1771-0837"
+          },
+          {
+            "name": "Luxiang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Zhaolong Cao",
+            "orcid": null
+          },
+          {
+            "name": "Douglas H. Werner",
+            "orcid": "https://orcid.org/0000-0001-5629-6478"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1021/acs.nanolett.6c03323",
+        "landing_page": "https://doi.org/10.1021/acs.nanolett.6c03323",
+        "open_access_url": "https://doi.org/10.1021/acs.nanolett.6c03323",
+        "openalex_id": "https://openalex.org/W7208730354",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7208730354",
+        "publication_date": "2026-09-04",
+        "title": "Toward a Universal Meta-Optics Solver via Large Language Models",
+        "venue": "Nano Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-06T01:07:51.547307Z",
+      "status": "found"
+    },
     "openalex:doi:10.1021/acsami.6c08360": {
       "expires_at": "2026-09-17T04:25:09.622383Z",
       "record": {
@@ -8161,6 +8335,52 @@
       "record": null,
       "retrieved_at": "2026-08-20T00:32:28.732347Z",
       "status": "not_found"
+    },
+    "openalex:doi:10.1021/acsphotonics.6c01155": {
+      "expires_at": "2026-10-06T01:07:52.623465Z",
+      "record": {
+        "abstract": "Abstract We report the first demonstration of monolithically integrated amorphous indium–gallium–zinc oxide (IGZO) synaptic transistors on a silicon nitride (Si3N4) waveguide, enabling direct on-chip optical programming by using guided 532 nm light. In this architecture, the evanescent field of the guided mode modulates the IGZO channel conductance, while the three-terminal transistor configuration enables selective electrical access and readout of the programmed synaptic states. Unlike previously reported IGZO optoelectronic synapses that rely on externally aligned free-space illumination, the waveguide serves as a lithographically defined optical programming path through which a single guided optical signal interacts with multiple synaptic transistors distributed along the same waveguide. The monolithically integrated guided optical input and electrical output configuration therefore provides a hybrid interface between integrated photonic signal delivery and transistor-based neuromorphic hardware. The waveguide geometry was designed to maintain evanescent coupling to the transistor channel while limiting propagation loss, and guided-light-induced modulation was experimentally observed in five transistors integrated along one waveguide. The IGZO TFT additionally exhibited photoresponse under free-space illumination from 405 to 635 nm, confirming the visible range photosensitivity of the active layer. Under pulsed guided-light excitation, the devices exhibited persistent photoconductivity, paired-pulse facilitation, and tunable short- and long-term synaptic plasticity. An ANN simulation using experimentally extracted conductance update characteristics achieved a handwritten digit classification accuracy of 98.02%, demonstrating the applicability of the measured synaptic response to neuromorphic learning tasks. These results establish a monolithically integrated waveguide–IGZO synaptic platform that combines guided optical programming, persistent electronic weight storage, and device-selective electrical readout for optoelectronic neuromorphic computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Minsik Kong",
+            "orcid": "https://orcid.org/0000-0002-0865-7635"
+          },
+          {
+            "name": "Seong Eun Kim",
+            "orcid": "https://orcid.org/0000-0003-0813-9456"
+          },
+          {
+            "name": "Kyuho Kim",
+            "orcid": null
+          },
+          {
+            "name": "Sunkyu Yu",
+            "orcid": "https://orcid.org/0000-0001-8667-6404"
+          },
+          {
+            "name": "Namkyoo Park",
+            "orcid": "https://orcid.org/0000-0003-0197-7633"
+          },
+          {
+            "name": "Soo‐Yeon Lee",
+            "orcid": "https://orcid.org/0000-0002-9822-2570"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1021/acsphotonics.6c01155",
+        "landing_page": "https://doi.org/10.1021/acsphotonics.6c01155",
+        "open_access_url": "https://doi.org/10.1021/acsphotonics.6c01155",
+        "openalex_id": "https://openalex.org/W7207582228",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7207582228",
+        "publication_date": "2026-09-04",
+        "title": "Monolithically Integrated IGZO Synaptic Transistors on a Silicon Nitride Waveguide for Optoelectronic Neuromorphic Computing",
+        "venue": "ACS Photonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-06T01:07:52.623465Z",
+      "status": "found"
     },
     "openalex:doi:10.1038/s41377-026-02314-5": {
       "expires_at": "2026-09-03T09:38:36.810331Z",
@@ -10428,6 +10648,36 @@
       "retrieved_at": "2026-08-26T00:32:42.469414Z",
       "status": "found"
     },
+    "openalex:doi:10.1142/s0218863526400163": {
+      "expires_at": "2026-10-06T01:07:52.078758Z",
+      "record": {
+        "abstract": "The operation of an optical neural network via feed-forward (FF) configuration is experimentally simulated in the laboratory. The FF setup is tested using optical injection (OI), and the behavior of follower laser diodes (FLDs) subjected to chaotic modulation is examined. The last two laser diodes (LDs) are exposed to different weights of chaotic modulated signals through optical filtration and current modulation. Observations of the emissions from these two FLDs during FF operation are verified by frequency spectra calculated from time series data. Signal broadening is assessed by measuring the full width at half maximum (FWHM), and chaotic signal spikes are analyzed by counting the number of peaks associated with signal amplitudes for the FLDs. Additionally, LD control parameters, including the bias voltage of the influencer laser diodes FLD and two additional FLDs, are examined. A maximum FWHM of 1.8 GHz for FLD is observed with a bias voltage of 3.9V (B) and a modulated signal attenuation of -12dB. To determine the synchronization state, the correlation between the ILDs and FLDs is calculated. Results indicate fluctuations between negative and positive values, with the best correlation value ILD1-FLD4 -0.8. These results confirm anti-synchronized ILD-FLDs, which represents a promising feature for potential secure communication architectures based on chaotic optical neural networks, subject to further experimental verification.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mustafa Jaber",
+            "orcid": "https://orcid.org/0000-0001-5974-8193"
+          },
+          {
+            "name": "Ayser A. Hemed",
+            "orcid": "https://orcid.org/0000-0003-0319-1650"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1142/s0218863526400163",
+        "landing_page": "https://doi.org/10.1142/s0218863526400163",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7208709857",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7208709857",
+        "publication_date": "2026-09-04",
+        "title": "Broadband Chaos Generation and Anti-Synchronization in a Feed-Forward Optical Neural Network via Optical Injection",
+        "venue": "Journal of Nonlinear Optical Physics & Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-06T01:07:52.078758Z",
+      "status": "found"
+    },
     "openalex:doi:10.1142/s2047684126500259": {
       "expires_at": "2026-10-03T01:03:41.098833Z",
       "record": {
@@ -12144,6 +12394,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-30T01:05:17.093113Z",
+      "status": "found"
+    },
+    "openalex:doi:10.6084/m9.figshare.33342183.v2": {
+      "expires_at": "2026-10-06T01:07:51.010839Z",
+      "record": {
+        "abstract": "Supplemental Document",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yunlong Yu",
+            "orcid": null
+          },
+          {
+            "name": "Jinzhe Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Chen Li",
+            "orcid": null
+          },
+          {
+            "name": "Hai-Ling Liu",
+            "orcid": null
+          },
+          {
+            "name": "Ji-Qian Qin",
+            "orcid": "https://orcid.org/0000-0002-9201-3233"
+          },
+          {
+            "name": "Xin Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yaqian Zhao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.6084/m9.figshare.33342183.v2",
+        "landing_page": "https://doi.org/10.6084/m9.figshare.33342183.v2",
+        "open_access_url": "https://doi.org/10.6084/m9.figshare.33342183.v2",
+        "openalex_id": "https://openalex.org/W7208712921",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7208712921",
+        "publication_date": "2026-09-04",
+        "title": "Supplementary document for Robust Training of MZI-Based Optical Neural Networks through Phase Discretization - 8023552.pdf",
+        "venue": "Figshare",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-06T01:07:51.010839Z",
       "status": "found"
     },
     "openalex:doi:10.6084/m9.figshare.33345483.v1": {

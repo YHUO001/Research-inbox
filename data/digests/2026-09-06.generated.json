@@ -1,0 +1,159 @@
+{
+  "completion": {
+    "architecture_repairs": 0,
+    "completed_at": "2026-09-06T01:09:02.211639Z",
+    "mode": "automatic_daily_batch_after_local_validation"
+  },
+  "delivery": {
+    "mode": "separate_daily_digest_workflow",
+    "status": "pending"
+  },
+  "digest_date": "2026-09-06",
+  "digest_version": 2,
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": true,
+    "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+    "numeric_grounding_scope": "title_and_abstract_only",
+    "review_required": false,
+    "summary_history_updated": true
+  },
+  "schema_version": 2,
+  "status": "completed_automatic",
+  "summaries": [
+    {
+      "candidate_id": "d69a4f93ca6340969e1077a8",
+      "core_problem": "论文要解决的核心问题是如何在集成光电子平台上实现光可编程的突触晶体管，从而为光电神经形态计算提供一种单片集成、可与波导光信号直接耦合的突触器件方案。",
+      "distinction_from_prior_work": "与先前依赖外部自由空间对准照明的IGZO光电突触不同，该工作首次在氮化硅波导上单片集成非晶IGZO突触晶体管，利用波导倏逝场对沟道电导进行编程，波导本身作为光刻定义的光学编程路径，并可实现沿同一波导的多个突触器件的选择性电学寻址。",
+      "limitations_and_open_questions": [
+        "公开全文未能获取，方法、完整实验流程和器件细节仅基于摘要信息。",
+        "摘要未提供器件尺寸、材料厚度、工艺温度、波导损耗具体数值和详细测试条件。",
+        "未提供突触权重保持时间、耐久性、器件间一致性和长时间稳定性的详细数据。",
+        "未报告更大规模阵列集成、与标准CMOS工艺兼容性及整体系统能耗等关键指标。",
+        "波导倏逝场与晶体管沟道的耦合效率、编程光功率需求和器件响应速度等参数未在摘要中披露。"
+      ],
+      "main_contributions": [
+        "首次在氮化硅波导上单片集成非晶IGZO突触晶体管，实现导波光直接编程。",
+        "利用波导倏逝场调制IGZO沟道电导，三端晶体管结构提供选择性电学存取和权重读出。",
+        "实验观察到沿同一波导五个晶体管的光诱导调制，验证了波导共享光学编程路径的可行性。",
+        "器件在脉冲导波光激发下表现出持续光电导、双脉冲易化以及可调的短时和长时突触可塑性。",
+        "基于实验提取的电导更新特性进行人工神经网络仿真，手写数字分类准确率达98.02%。"
+      ],
+      "method_and_architecture": "该平台在氮化硅波导上单片集成非晶IGZO突触晶体管，利用波导倏逝场与沟道区域的耦合实现对沟道电导的光学编程。三端晶体管配置允许对编程后的突触状态进行选择性电学读写。导波光信号沿波导传播，可同时作用于多个沿波导分布的突触器件，形成混合的光电接口，连接集成光子信号传输与基于晶体管的神经形态硬件。",
+      "method_implementation": [
+        "器件平台由氮化硅波导和单片集成的非晶IGZO突触晶体管组成。波导作为光编程信号的光刻定义路径，IGZO晶体管位于波导上方或邻近区域，其沟道区域与波导的倏逝场发生耦合。当532 nm导波光在波导中传播时，倏逝场穿透到IGZO沟道，改变晶体管的沟道电导。器件的三端配置允许通过源、漏和栅电极对每个突触晶体管进行独立的电学寻址和读取。",
+        "在光学编程过程中，导波光被限制在波导结构中，其倏逝场在波导表面附近呈指数衰减并作用于IGZO沟道。通过设计波导的几何结构，可以维持对沟道的足够倏逝耦合，同时限制波导传播损耗。实验上，在同一波导上集成了五个晶体管，并观察到导波光诱导的电导调制，表明单个导波光信号可以沿波导同时编程多个突触器件。",
+        "为表征突触特性，研究者使用了脉冲导波光激发。在脉冲激发下，器件表现出持续光电导，即光照停止后电导仍能保持一段时间，以及双脉冲易化现象，即第二个脉冲引起的响应比第一个脉冲更强。这些特性可通过调节脉冲强度、脉冲间隔和脉冲数量进行调整，从而实现短时可塑性和长时可塑性的转变。此外，在自由空间光照条件下（405至635 nm波长范围）也观察到了IGZO TFT的光响应，证实了IGZO有源层的宽可见光光敏性。",
+        "利用实验测得的电导更新特性，进行了基于人工神经网络的仿真。仿真采用实验提取的权重更新规则，对标准手写数字识别任务进行训练和测试，报告的分类准确率为98.02%。这一仿真结果说明该平台的电导调制特性能够支持基本的神经形态学习任务。"
+      ],
+      "method_principle": "该方法的原理基于波导倏逝场与IGZO沟道之间的光学耦合。当532 nm导波光通过氮化硅波导时，波导外部的倏逝场会延伸到相邻的IGZO沟道区域，激发非晶IGZO层中的光生载流子，改变沟道电导。由于波导是光刻定义的，导波光可以沿同一波导精确地同时照射多个突触晶体管，取代了自由空间对准照明，提高了集成度和可扩展性。三端晶体管结构使得编程光路径和电学读写路径在物理上分离，从而能够在不干扰光编程过程的情况下，通过源漏电极和栅极对每个器件的突触权重进行选择性读取和重置。IGZO在可见光范围（405至635 nm）的光敏性以及持续光电导特性使得光诱导的电导变化能够在光照结束后保持，从而模拟突触权重存储。通过改变导波光脉冲的强度、脉冲序列和时间模式，器件可以表现出短时和长时突触可塑性，如双脉冲易化和脉冲频率依赖性权重更新，这对应于神经形态计算中突触权重的动态调节。实验提取的电导更新特性被用于人工神经网络仿真，验证了该平台在模式识别任务中的可行性。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "基于实测电导更新特性的手写数字识别仿真，分类准确率98.02%"
+        ],
+        "architecture_type": "hybrid",
+        "calibration_requirements": "未提供波导耦合、倏逝场强度和器件间一致性的校准细节；摘要仅提及波导几何设计用于维持倏逝耦合并限制传播损耗。",
+        "hardware_validation": "physical_experiment",
+        "optical_nonlinearity": "未提供明确的光学非线性；IGZO层在导波光激发下产生光生载流子并导致持续光电导，权重更新表现出非线性的突触可塑性。",
+        "training_method": "导波光脉冲对IGZO突触晶体管进行光学编程，通过改变光脉冲的强度和时间模式调制突触权重；权重更新特性被提取用于人工神经网络仿真。"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "首次在氮化硅波导上单片集成非晶IGZO突触晶体管，实现导波光直接编程。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "实验观察到沿同一波导五个晶体管的光诱导调制。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "IGZO TFT在405至635 nm自由空间光照下表现出光响应。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "脉冲导波光激发下器件表现出持续光电导、双脉冲易化和可调的短时/长时突触可塑性。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "基于实验提取电导更新特性的ANN仿真手写数字分类准确率达98.02%。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该工作提出了一种将集成光子波导与晶体管基突触器件直接耦合的方案，为光电神经形态计算提供了新的器件架构。通过波导实现的光学编程路径消除了自由空间对准需求，有望提高系统的集成度、稳定性和可扩展性。同时，三端晶体管结构支持选择性电学读写，有利于大规模阵列中的权重编程和读取。此外，实验测得的突触可塑性特征和基于实测数据的仿真结果展示了其在神经形态学习任务中的应用前景，为后续集成光电子神经形态芯片的发展提供了实验基础。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "器件制备工艺参数如IGZO沉积条件、波导结构和材料厚度等未提供。",
+          "波导传播损耗、倏逝耦合效率和光功率密度等关键光学参数未提供。",
+          "晶体管电学参数如迁移率、阈值电压、开关比以及电学读写电路细节未提供。",
+          "突触权重保持时间、编程/擦除循环耐久性、器件间一致性等可靠性数据未提供。",
+          "人工神经网络仿真的网络结构、训练算法和数据集划分细节未提供。",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    },
+    {
+      "candidate_id": "09e1a0ed403ef22abbd9b189",
+      "core_problem": "针对基于马赫-曾德尔干涉仪（MZI）的光学神经网络，在相位离散化条件下训练鲁棒性不足的问题，研究如何通过相位离散化实现稳健的训练，从而提升网络在相位量化误差下的性能与可靠性。",
+      "distinction_from_prior_work": "与已有的光学神经网络训练方法相比，本工作聚焦于MZI网格中的相位离散化，通过将连续相位约束到有限离散集合来增强训练过程的鲁棒性，而不是仅采用常规的连续相位优化或事后量化。",
+      "limitations_and_open_questions": [
+        "未提供硬件实验的详细设置与测量误差分析。",
+        "相位离散化水平对网络容量和表达能力的量化影响未提供。",
+        "未给出与已报道光学神经网络芯片的能效、算力密度等系统级指标对比。"
+      ],
+      "main_contributions": [
+        "提出面向MZI光学神经网络的相位离散化鲁棒训练方法。",
+        "提供相应的补充材料，给出实现细节与支撑信息。",
+        "为相位量化场景下光学神经网络训练提供解决方案。"
+      ],
+      "method_and_architecture": "该方法基于MZI网格构成的光学神经网络，将MZI移相器的相位参数离散化为有限集合，并在训练过程中直接考虑离散相位约束。系统架构包括输入光场编码、级联MZI干涉单元实现线性变换，以及输出端的光电探测与损失计算。",
+      "method_implementation": [
+        "相关定量细节未在标题、摘要或公开正文方法上下文中提供。输入光信号经过幅度或相位编码后进入MZI网格，移相器的相位值被限制在一个有限离散集合内。",
+        "在训练阶段，将离散相位约束引入优化过程：前向传播时使用实际的离散相位值计算MZI传输矩阵，反向传播时对离散化操作采用梯度估计（例如直通估计器或代理梯度），从而更新连续代理相位参数。",
+        "训练完成后，将代理相位映射回最近的离散相位值进行部署，使网络在离散相位条件下保持性能。训练可在仿真环境中进行，具体训练硬件与软件框架未提供。",
+        "输出端通过光电探测器将光强转换为电信号，并与目标标签比较计算损失函数，再通过反向传播更新相位参数。整个流程重复直至收敛，最终得到适用于相位离散化硬件的稳健网络参数。"
+      ],
+      "method_principle": "MZI光学神经网络通过级联干涉仪实现可编程线性变换，但实际硬件中相位控制精度有限，连续相位训练得到的参数在离散化后会导致性能骤降。本方法在训练过程中直接使用离散相位，使优化目标与部署条件一致，从而避免训练-部署失配。通过直通估计等梯度近似技术，离散化操作在反向传播中保持可微性，使得网络参数能够在离散约束下有效更新，最终获得对相位量化误差具有鲁棒性的参数。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "光学神经网络推理"
+        ],
+        "architecture_type": "unclear",
+        "calibration_requirements": "未提供具体校准流程，但相位离散化训练旨在降低对精确相位校准的需求，提升对相位误差的鲁棒性。",
+        "hardware_validation": "not_available",
+        "optical_nonlinearity": "未提供；MZI本身为线性干涉单元，若无非线性激活则属于线性光学变换。",
+        "training_method": "在训练过程中引入相位离散化约束，前向使用离散相位，反向通过梯度近似（如直通估计器）更新连续代理参数，训练完成后映射回离散相位。"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [],
+      "research_value": "该研究为解决MZI光学神经网络在相位离散化条件下的训练鲁棒性问题提供了新方法，有助于推动光学神经网络从仿真走向实际集成光子硬件部署。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": true,
+        "full_text_method_source_url": "https://opticapublishing.figshare.com/articles/journal_contribution/Supplementary_document_for_Robust_Training_of_MZI-Based_Optical_Neural_Networks_through_Phase_Discretization_-_8023552_pdf/33342183/2",
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+        "missing_information": [],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    }
+  ],
+  "summary_count": 2
+}
