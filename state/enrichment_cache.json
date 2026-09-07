@@ -770,6 +770,48 @@
       "retrieved_at": "2026-08-27T16:32:39.127994Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/s10043-026-01085-z": {
+      "expires_at": "2026-10-07T01:06:51.649949Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Weizhao Gu",
+            "orcid": null
+          },
+          {
+            "name": "Binbin Yu",
+            "orcid": null
+          },
+          {
+            "name": "Xu Chen",
+            "orcid": null
+          },
+          {
+            "name": "Min Gu",
+            "orcid": null
+          },
+          {
+            "name": "Jing Wen",
+            "orcid": "https://orcid.org/0000-0003-3558-2322"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10043-026-01085-z",
+        "landing_page": "https://doi.org/10.1007/s10043-026-01085-z",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s10043-026-01085-z",
+        "publication_date": "2026-09-02",
+        "title": "Petabit-era optical data storage and beyond: from storage capacity to intelligent functionality",
+        "venue": "Optical Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-07T01:06:51.649949Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s10825-026-02624-2": {
       "expires_at": "2026-09-21T00:32:10.733048Z",
       "record": {
@@ -4150,6 +4192,12 @@
       "retrieved_at": "2026-08-20T00:32:29.038187Z",
       "status": "not_found"
     },
+    "crossref:title:26dea586d5bd8dcdb9216738efab381980483260809f8bcd1fd6a7fe4b9d5395": {
+      "expires_at": "2026-09-14T01:06:38.804642Z",
+      "record": null,
+      "retrieved_at": "2026-09-07T01:06:38.804642Z",
+      "status": "not_found"
+    },
     "crossref:title:27e820562a0ac8c59a578198308b2780850a66249ec2045713988240cf7f6179": {
       "expires_at": "2026-08-11T09:38:46.293348Z",
       "record": {
@@ -4185,6 +4233,44 @@
       "record": null,
       "retrieved_at": "2026-08-18T04:25:18.155930Z",
       "status": "not_found"
+    },
+    "crossref:title:2a5895fd274266d0fe610b653429937a7341ed6e14e03daf0cbe7258acf39847": {
+      "expires_at": "2026-09-14T01:06:51.029914Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Meh Jabeen",
+            "orcid": null
+          },
+          {
+            "name": "Qing-Hao Meng",
+            "orcid": null
+          },
+          {
+            "name": "Tianjun Ma",
+            "orcid": null
+          },
+          {
+            "name": "Ahmad Din",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-68897-6",
+        "landing_page": "https://doi.org/10.1038/s41598-026-68897-6",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41598-026-68897-6",
+        "publication_date": "2026-09-02",
+        "title": "Hybrid particle swarm unbiased extremum seeking control for cooperative drone fleet for gas leak localization in obstructed outdoor environments",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-07T01:06:51.029914Z",
+      "status": "found"
     },
     "crossref:title:2c07bb7239f1c6739bb02047e88fa7613eaedc31c559b6d954bbdf73ecfbbe87": {
       "expires_at": "2026-08-16T00:36:13.391892Z",
@@ -4404,6 +4490,12 @@
       "retrieved_at": "2026-08-09T00:36:01.643836Z",
       "status": "not_found"
     },
+    "crossref:title:44dc5b13e0a4fbcd3268e4cea269691b992426813c156c35fc9096220b02c37a": {
+      "expires_at": "2026-09-14T01:06:47.953450Z",
+      "record": null,
+      "retrieved_at": "2026-09-07T01:06:47.953450Z",
+      "status": "not_found"
+    },
     "crossref:title:44f1121f0c105884892ca93003d482e08657effcaaea3e18e3da44907ddf8ee6": {
       "expires_at": "2026-08-25T04:25:34.646895Z",
       "record": {
@@ -4614,11 +4706,87 @@
       "retrieved_at": "2026-08-18T04:25:22.619748Z",
       "status": "found"
     },
+    "crossref:title:56a0b1289affcdba3eef08f164503b294ad7d609f0c92288669b209e91cd9217": {
+      "expires_at": "2026-09-14T01:06:46.498809Z",
+      "record": null,
+      "retrieved_at": "2026-09-07T01:06:46.498809Z",
+      "status": "not_found"
+    },
     "crossref:title:58a4e8946f478ec97ae906eac840dcbedd335e53d76cd06cbd7c9cc445297568": {
       "expires_at": "2026-08-16T00:36:12.068329Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:36:12.068329Z",
       "status": "not_found"
+    },
+    "crossref:title:59468a2a3f8e7f1a9c6119a58425edf57e4ae288eaec228aec3894edadb01679": {
+      "expires_at": "2026-09-14T01:06:43.487737Z",
+      "record": {
+        "abstract": "Abstract The rapid growth of artificial intelligence is intensifying demands for high-throughput, energy-efficient, and low-latency tensor processing. Photonic computing offers intrinsic bandwidth and parallelism, but it’s scaling often depends on adding optical channels or replicating physical processing elements. Here, we demonstrate reconfigurable silicon photonic computing through the tensorization of independently addressable wavelength, optical-mode, spatial, and temporal degrees of freedom. Wavelength, mode, and space serve as concurrent tensor axes, whereas temporal multiplexing applies successive weight sequences and convolution kernels to the same microring elements, thereby instantiating multiple effective logical nodes and reconfiguring the implemented operator. The proposed and fabricated circuit implements distinct fully connected and convolutional operations and supports single-node classification and convolution, four-directional edge extraction using nine microring modulators, and fingerprint recognition with a photonic-electronic Siamese network. At the single-node level, the system achieves a computing density of approximately 32.1 TOPS mm⁻² at 5-bit precision and an energy efficiency of approximately 2.3 fJ OP⁻¹. This work establishes a CMOS-compatible route from channel-level parallelism to dimension-aware tensor architectures whose logical capacity need not scale proportionally with physical device count.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yonghui Tian",
+            "orcid": "https://orcid.org/0009-0005-0332-6254"
+          },
+          {
+            "name": "Huifu Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Haorong Peng",
+            "orcid": null
+          },
+          {
+            "name": "Shuai Meng",
+            "orcid": null
+          },
+          {
+            "name": "Yongheng Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Xudong Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Pu Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yingjie Hong",
+            "orcid": null
+          },
+          {
+            "name": "Mingyang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Zhiqi Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Jiajun He",
+            "orcid": null
+          },
+          {
+            "name": "Jianhong Yang",
+            "orcid": "https://orcid.org/0000-0003-0865-9830"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-10656180/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-10656180/v1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.21203/rs.3.rs-10656180/v1",
+        "publication_date": "2026-09-01",
+        "title": "High speed time-multiplexing enabled multi-dimensional silicon photonic parallel computing",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-07T01:06:43.487737Z",
+      "status": "found"
     },
     "crossref:title:5c1ba4b310ee00973da5eaa4f0ed408af3581a2539974b6418f2f2c538b8fa80": {
       "expires_at": "2026-09-02T00:32:40.533505Z",
@@ -4988,6 +5156,12 @@
       "retrieved_at": "2026-08-26T00:32:41.276094Z",
       "status": "found"
     },
+    "crossref:title:7d6cb9b4d395b4a4a783b153ff09925de006d897efafc8be293f03e4c950d6af": {
+      "expires_at": "2026-09-14T01:06:49.427171Z",
+      "record": null,
+      "retrieved_at": "2026-09-07T01:06:49.427171Z",
+      "status": "not_found"
+    },
     "crossref:title:80359ee21bfbc95eeccd05a5e9edba365a161deeeb01f8772baf018348abe140": {
       "expires_at": "2026-09-07T01:07:12.908935Z",
       "record": null,
@@ -5122,6 +5296,18 @@
       "expires_at": "2026-09-08T01:13:09.900120Z",
       "record": null,
       "retrieved_at": "2026-09-01T01:13:09.900120Z",
+      "status": "not_found"
+    },
+    "crossref:title:93e777466af732e22c4504882d1d9928a0bcb6f6a01f48a093e469c054ff2b40": {
+      "expires_at": "2026-09-14T01:06:40.796980Z",
+      "record": null,
+      "retrieved_at": "2026-09-07T01:06:40.796980Z",
+      "status": "not_found"
+    },
+    "crossref:title:9457f9a62a9cc67ae43a3406a08c7fea78015add55f2786d1e5d1d276b30a0c4": {
+      "expires_at": "2026-09-14T01:06:34.750270Z",
+      "record": null,
+      "retrieved_at": "2026-09-07T01:06:34.750270Z",
       "status": "not_found"
     },
     "crossref:title:9516831af358386c3b41e5eb5eb9d06c5f4af115830305bc7c47cc06d832318e": {
@@ -5450,6 +5636,18 @@
       "expires_at": "2026-09-11T01:00:16.748871Z",
       "record": null,
       "retrieved_at": "2026-09-04T01:00:16.748871Z",
+      "status": "not_found"
+    },
+    "crossref:title:a6c3f371dc2cf9bcbbc7c639b864b43aefb6dcd8524e1276f6846d6b8008d619": {
+      "expires_at": "2026-09-14T01:06:44.729386Z",
+      "record": null,
+      "retrieved_at": "2026-09-07T01:06:44.729386Z",
+      "status": "not_found"
+    },
+    "crossref:title:a7c92d53b927d831d8e34de5d97460fe06283501581cf9a53ac01b51930e5e71": {
+      "expires_at": "2026-09-14T01:06:37.165596Z",
+      "record": null,
+      "retrieved_at": "2026-09-07T01:06:37.165596Z",
       "status": "not_found"
     },
     "crossref:title:ab8d443eed7b10d958066e3f946afaba65aad21de7e6f03c7460addac1cece9b": {
@@ -6290,6 +6488,32 @@
       "retrieved_at": "2026-08-20T00:32:23.976550Z",
       "status": "not_found"
     },
+    "crossref:title:f630768b0bad8d03283e0d7bf4f1d209f47728f2eebe201393016ddcf6bb6d44": {
+      "expires_at": "2026-09-14T01:06:42.138745Z",
+      "record": {
+        "abstract": "Contribution à l’optimisation topologique multi-matériaux d’actionneurs piézoélectriques intégrés : application en microrobotique Le développement de microrobots suscite un intérêt croissant en raison de leur capacité à réaliser des tâches de micro-manipulation et de micro-assemblage précises. La concetion reposant sur la réduction homothétique des structures robotiques classiques trouve vite ces limites en raison de frottements et de jeux mécaniques. Dans les années 1990, un changement de paradigme en matière d’actionnement et de conception structurelle a été introduit afin de promouvoir l'approche par miniaturisation.Celui-ci reposait, d’une part, sur l’utilisation de principes physiques d’actionnement et de mesure mieux adaptés aux petites échelles, tels que la piézoélectricité, et, d’autre part, sur l’emploi de structures compliantes permettant de transmettre des efforts et des mouvements. Cependant, à mesure de miniaturiser les robots, ils présentent une forte densité d’intégration fonctionnelle qui rend les frontières entre la structure et les mécanismes d'actionnement et de mesure de plus en plus floues.Ainsi, l'intuition du concepteur ne suffit plus à garantir les performances des microrobots en termes de compacité et de précision. Afin de répondre à ces enjeux, cette thèse s'est intéressée au développement d’un outil de conception à base d’optimisation topologique multi-matériaux. Les contributions de cette thèse portent sur le développement d'un algorithme d'optimisation topologique intégrant un matériau piézoélectrique et un matériau passif, sa première implémentation numérique sous MATLAB, la conception d’un actionneur piézoélectrique multi-matériaux, ainsi que sa première validation expérimentale.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Peter Kipkemoi Rono",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.70675/198af397zfcf4z415fzb167z38252bd330ce",
+        "landing_page": "https://doi.org/10.70675/198af397zfcf4z415fzb167z38252bd330ce",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.70675/198af397zfcf4z415fzb167z38252bd330ce",
+        "publication_date": null,
+        "title": "Contributions to Multi-material Topology Optimization of Integrated Piezoelectric Actuators : Applications in Microrobotics application en microrobotique",
+        "venue": null,
+        "year": null
+      },
+      "retrieved_at": "2026-09-07T01:06:42.138745Z",
+      "status": "found"
+    },
     "crossref:title:f7840ff87d12d6e20459aea19b1a0a31d50f83f6996a55d434c4a1529f3be13e": {
       "expires_at": "2026-08-11T09:38:37.983990Z",
       "record": {
@@ -6378,6 +6602,12 @@
       "expires_at": "2026-09-12T00:59:45.758737Z",
       "record": null,
       "retrieved_at": "2026-09-05T00:59:45.758737Z",
+      "status": "not_found"
+    },
+    "crossref:title:ff884e77a73b8e9052fc7be889b495e7b766686c6a1d2488ea43b5c9c3515028": {
+      "expires_at": "2026-09-14T01:06:53.072604Z",
+      "record": null,
+      "retrieved_at": "2026-09-07T01:06:53.072604Z",
       "status": "not_found"
     },
     "openalex:doi:10.1002/adfm.77732": {
@@ -7190,6 +7420,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-27T16:32:39.463795Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s10043-026-01085-z": {
+      "expires_at": "2026-10-07T01:06:52.013328Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Weizhao Gu",
+            "orcid": null
+          },
+          {
+            "name": "Binbin Yu",
+            "orcid": null
+          },
+          {
+            "name": "Xu Chen",
+            "orcid": null
+          },
+          {
+            "name": "Min Gu",
+            "orcid": null
+          },
+          {
+            "name": "Jing Wen",
+            "orcid": "https://orcid.org/0000-0003-3558-2322"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10043-026-01085-z",
+        "landing_page": "https://doi.org/10.1007/s10043-026-01085-z",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7204999298",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204999298",
+        "publication_date": "2026-09-02",
+        "title": "Petabit-era optical data storage and beyond: from storage capacity to intelligent functionality",
+        "venue": "Optical Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-07T01:06:52.013328Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s10825-026-02624-2": {
@@ -9004,6 +9276,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:06.982361Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41598-026-68897-6": {
+      "expires_at": "2026-10-07T01:06:51.370789Z",
+      "record": {
+        "abstract": "The study employs a fleet of drones to address gas source localization (GSL) in a dynamic outdoor environment. A hybrid control framework integrating particle swarm optimization (PSO) with unbiased extremum seeking (uES) is proposed to improve GSL performance under turbulent plume conditions. The proposed framework combines the global exploration capability of PSO with the smooth, unbiased gradient refinement of uES to address the limitations of existing algorithms. Comprehensive assessments conducted in two simulated plume environments, along with high-fidelity Gazebo– GADEN simulations, indicate that PSO–uES reliably achieves fast convergence, high success rates, and notably stable trajectories. Unlike classical ESC, which exhibits star-shaped dithering and does not reliably settle near the source, and standard PSO, which may wander within areas of weak gradients, the proposed approach sustains directed movement, minimizes plume-loss occurrences, and converges close to the source location in simulation environments. These findings demonstrate that PSO–uES is a promising approach for simulation-based GSL with complex and turbulent plume characteristics.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Meh Jabeen",
+            "orcid": "https://orcid.org/0000-0001-7241-9300"
+          },
+          {
+            "name": "Qing‐Hao Meng",
+            "orcid": "https://orcid.org/0000-0002-9915-7088"
+          },
+          {
+            "name": "Tianjun Ma",
+            "orcid": "https://orcid.org/0000-0001-5422-4753"
+          },
+          {
+            "name": "Ahmad Din",
+            "orcid": "https://orcid.org/0000-0002-4135-0221"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-68897-6",
+        "landing_page": "https://doi.org/10.1038/s41598-026-68897-6",
+        "open_access_url": "https://doi.org/10.1038/s41598-026-68897-6",
+        "openalex_id": "https://openalex.org/W7206184266",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7206184266",
+        "publication_date": "2026-09-02",
+        "title": "Hybrid particle swarm unbiased extremum seeking control for cooperative drone fleet for gas leak localization in obstructed outdoor environments",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-07T01:06:51.370789Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s42005-026-02823-0": {
@@ -11944,6 +12254,76 @@
       "retrieved_at": "2026-08-09T00:36:07.855460Z",
       "status": "found"
     },
+    "openalex:doi:10.21203/rs.3.rs-10656180/v1": {
+      "expires_at": "2026-10-07T01:06:43.840716Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mingrui Yuan",
+            "orcid": "https://orcid.org/0009-0005-0332-6254"
+          },
+          {
+            "name": "Huifu Xiao",
+            "orcid": "https://orcid.org/0000-0002-5017-4653"
+          },
+          {
+            "name": "Haorong Peng",
+            "orcid": null
+          },
+          {
+            "name": "Shuai Meng",
+            "orcid": "https://orcid.org/0009-0001-0052-6008"
+          },
+          {
+            "name": "Yongheng Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Xudong Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Pu Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yingjie Hong",
+            "orcid": null
+          },
+          {
+            "name": "Mingyang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Zhiqi Zhu",
+            "orcid": "https://orcid.org/0009-0001-6258-2507"
+          },
+          {
+            "name": "Jiajun He",
+            "orcid": null
+          },
+          {
+            "name": "Jianhong Yang",
+            "orcid": "https://orcid.org/0000-0003-0865-9830"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-10656180/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-10656180/v1",
+        "open_access_url": "https://doi.org/10.21203/rs.3.rs-10656180/v1",
+        "openalex_id": "https://openalex.org/W7204904042",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204904042",
+        "publication_date": "2026-09-01",
+        "title": "High speed time-multiplexing enabled multi-dimensional silicon photonic parallel computing",
+        "venue": "Research Square",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-07T01:06:43.840716Z",
+      "status": "found"
+    },
     "openalex:doi:10.21203/rs.3.rs-10794538/v1": {
       "expires_at": "2026-09-26T02:02:16.694588Z",
       "record": {
@@ -12636,6 +13016,32 @@
       "retrieved_at": "2026-08-18T04:25:15.288051Z",
       "status": "found"
     },
+    "openalex:doi:10.70675/198af397zfcf4z415fzb167z38252bd330ce": {
+      "expires_at": "2026-10-07T01:06:42.496403Z",
+      "record": {
+        "abstract": "Contribution à l’optimisation topologique multi-matériaux d’actionneurs piézoélectriques intégrés : application en microrobotique Le développement de microrobots suscite un intérêt croissant en raison de leur capacité à réaliser des tâches de micro-manipulation et de micro-assemblage précises. La concetion reposant sur la réduction homothétique des structures robotiques classiques trouve vite ces limites en raison de frottements et de jeux mécaniques. Dans les années 1990, un changement de paradigme en matière d’actionnement et de conception structurelle a été introduit afin de promouvoir l'approche par miniaturisation.Celui-ci reposait, d’une part, sur l’utilisation de principes physiques d’actionnement et de mesure mieux adaptés aux petites échelles, tels que la piézoélectricité, et, d’autre part, sur l’emploi de structures compliantes permettant de transmettre des efforts et des mouvements. Cependant, à mesure de miniaturiser les robots, ils présentent une forte densité d’intégration fonctionnelle qui rend les frontières entre la structure et les mécanismes d'actionnement et de mesure de plus en plus floues.Ainsi, l'intuition du concepteur ne suffit plus à garantir les performances des microrobots en termes de compacité et de précision. Afin de répondre à ces enjeux, cette thèse s'est intéressée au développement d’un outil de conception à base d’optimisation topologique multi-matériaux. Les contributions de cette thèse portent sur le développement d'un algorithme d'optimisation topologique intégrant un matériau piézoélectrique et un matériau passif, sa première implémentation numérique sous MATLAB, la conception d’un actionneur piézoélectrique multi-matériaux, ainsi que sa première validation expérimentale.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Peter Kipkemoi Rono",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.70675/198af397zfcf4z415fzb167z38252bd330ce",
+        "landing_page": "https://doi.org/10.70675/198af397zfcf4z415fzb167z38252bd330ce",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7205002441",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7205002441",
+        "publication_date": "2026-06-24",
+        "title": "Contributions to Multi-material Topology Optimization of Integrated Piezoelectric Actuators : Applications in Microrobotics application en microrobotique",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-07T01:06:42.496403Z",
+      "status": "found"
+    },
     "openalex:title:06c1573614d7cec8aafdeabdbf04c206c9e42daeec19bd7a0690045235f26758": {
       "expires_at": "2026-09-07T01:07:11.006421Z",
       "record": {
@@ -12740,6 +13146,12 @@
       "expires_at": "2026-08-27T00:32:29.598699Z",
       "record": null,
       "retrieved_at": "2026-08-20T00:32:29.598699Z",
+      "status": "not_found"
+    },
+    "openalex:title:26dea586d5bd8dcdb9216738efab381980483260809f8bcd1fd6a7fe4b9d5395": {
+      "expires_at": "2026-09-14T01:06:39.932436Z",
+      "record": null,
+      "retrieved_at": "2026-09-07T01:06:39.932436Z",
       "status": "not_found"
     },
     "openalex:title:27e89ce590cc2c5da8a0f7da965f3349e53f7607c35584f784cc897d4b656362": {
@@ -12870,6 +13282,52 @@
       "retrieved_at": "2026-08-09T00:36:02.126264Z",
       "status": "not_found"
     },
+    "openalex:title:44dc5b13e0a4fbcd3268e4cea269691b992426813c156c35fc9096220b02c37a": {
+      "expires_at": "2026-09-14T01:06:48.777396Z",
+      "record": {
+        "abstract": "Classical and current quantum approaches to protein structure prediction (QPSP) face limitations, notably massive qubit requirements restricting near-term models to simplistic on-lattice simulations. We propose a logarithmic-scale variational quantum eigensolver (VQE) that reduces qubit requirements for N torsional degrees of freedom to O(log2N), enabling off-lattice, all-atom simulations. Our architecture extracts molecular torsions from relative phases in statevector simulations. On quantum hardware, a decoder maps the empirical cumulative distribution function (CDF) from basis-state probabilities to bounded torsional variables. These feed a classical algorithm to build heavy-atom coordinates. We use an EfficientSU2 ansatz and multi-stage relaxation to mitigate barren plateaus. Structures are evaluated via a custom hybrid quantum-classical Hamiltonian, alongside Rosetta and OpenMM benchmarks. Evaluation on chignolin and Trp-cage yielded native-like conformations. Chignolin reached a 0.623 Å Cα RMSD in retained snapshots and 1.199 Å in final models; Trp-cage achieved a 2.501 Å RMSD among snapshots (3.512 Å in final models). Execution on IBM processors (ibm_cleveland, ibm_miami) successfully recovered native-like structures with a best RMSD of 1.758 Å. The custom energy function performed best overall, though energy-ranking imbalances persisted across sampled landscapes for all functions. This introduces the first all-atom, continuous-space quantum algorithm for QPSP. By converting physical qubit constraints into circuit depth constraints, it proves high-resolution prediction is feasible with exponentially fewer qubits. Despite current limits like computational overhead and energy function sensitivity, it establishes a scalable foundation for hybrid quantum biophysics.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Fabio Cumbo",
+            "orcid": "https://orcid.org/0000-0003-2920-5838"
+          },
+          {
+            "name": "Bryan Raubenolt",
+            "orcid": null
+          },
+          {
+            "name": "Varun Puram",
+            "orcid": null
+          },
+          {
+            "name": "Natalie Katzenmeyer",
+            "orcid": null
+          },
+          {
+            "name": "Jayadev Joshi",
+            "orcid": null
+          },
+          {
+            "name": "Daniel Blankenberg",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.02113",
+        "landing_page": "https://arxiv.org/abs/2609.02113",
+        "open_access_url": "https://arxiv.org/abs/2609.02113",
+        "openalex_id": "https://openalex.org/W7207564717",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7207564717",
+        "publication_date": "2026-09-02",
+        "title": "Logarithmic-scale variational quantum eigensolver for off-lattice protein structure prediction in continuous torsional angle space",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-07T01:06:48.777396Z",
+      "status": "found"
+    },
     "openalex:title:49d034dc3ade2acf4fa4fe1892dc603b642f4d920ef8a790d7a190832712311a": {
       "expires_at": "2026-09-07T01:07:07.143026Z",
       "record": null,
@@ -12886,6 +13344,12 @@
       "expires_at": "2026-09-07T01:07:06.053965Z",
       "record": null,
       "retrieved_at": "2026-08-31T01:07:06.053965Z",
+      "status": "not_found"
+    },
+    "openalex:title:56a0b1289affcdba3eef08f164503b294ad7d609f0c92288669b209e91cd9217": {
+      "expires_at": "2026-09-14T01:06:47.512628Z",
+      "record": null,
+      "retrieved_at": "2026-09-07T01:06:47.512628Z",
       "status": "not_found"
     },
     "openalex:title:58a4e8946f478ec97ae906eac840dcbedd335e53d76cd06cbd7c9cc445297568": {
@@ -13238,6 +13702,12 @@
       "retrieved_at": "2026-08-19T00:32:50.873682Z",
       "status": "not_found"
     },
+    "openalex:title:7d6cb9b4d395b4a4a783b153ff09925de006d897efafc8be293f03e4c950d6af": {
+      "expires_at": "2026-09-14T01:06:50.214132Z",
+      "record": null,
+      "retrieved_at": "2026-09-07T01:06:50.214132Z",
+      "status": "not_found"
+    },
     "openalex:title:80359ee21bfbc95eeccd05a5e9edba365a161deeeb01f8772baf018348abe140": {
       "expires_at": "2026-09-07T01:07:13.500228Z",
       "record": {
@@ -13358,6 +13828,50 @@
       "retrieved_at": "2026-09-01T01:13:10.578763Z",
       "status": "not_found"
     },
+    "openalex:title:93e777466af732e22c4504882d1d9928a0bcb6f6a01f48a093e469c054ff2b40": {
+      "expires_at": "2026-09-14T01:06:41.588948Z",
+      "record": {
+        "abstract": "Vision models deployed on microcontrollers (MCUs) are quantized to integer-only arithmetic and run in inference-only runtimes that do not carry the machinery backpropagation needs: the standard tool for adapting a model to the distribution shift (sensor noise, blur, lighting) it meets in the field. Existing forward-only test-time adaptation (TTA) methods either run only on server- or edge-GPU-class models (not true microcontroller integer execution), or require the batch-normalization (BN) layers that integer deployment fuses away. We present a forward-only TTA method that operates on deployed, BN-folded, integer-only convolutional networks. The key observation is that fusing BN into the preceding convolution, a mandatory step for integer inference, destroys the statistics that normalization-based adaptation relies on. We restore adaptation by re-normalizing each folded convolution's per-channel output to its clean training statistics, using only forward-pass estimates. The method (i) recovers most of gradient-based TENT's accuracy gain (+20.9 vs. +24.9 points) and matches forward-only BN adaptation, while being the only method that runs on a folded integer-only model; (ii) needs to adapt only 3 of 21 layers (selected without seeing the test corruptions) to recover 93% of the benefit; (iii) survives single-sample streaming with a batch-size-scaled momentum; and (iv) generalizes across three datasets (up to 200 classes) and two architectures. We validate bit-exact int8 convolution execution and deploy on an ESP32-S3, where, measured with a Nordic PPK2 power profiler, the forward-only adaptation (a lightweight fp32 recalibration around the int8 convolutions) costs only 8.3 mJ (6.8% of inference energy) and 21.9 ms on the deployed SIMD-optimized model: forward-only adaptation is cheap on a real microcontroller.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Muhammad Rehan",
+            "orcid": "https://orcid.org/0000-0001-5056-5307"
+          },
+          {
+            "name": "Haider Ali",
+            "orcid": null
+          },
+          {
+            "name": "Muhammad Ali Munir",
+            "orcid": null
+          },
+          {
+            "name": "Moaz Amjad",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.01683",
+        "landing_page": "https://arxiv.org/abs/2609.01683",
+        "open_access_url": "https://arxiv.org/abs/2609.01683",
+        "openalex_id": "https://openalex.org/W7207591527",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7207591527",
+        "publication_date": "2026-09-01",
+        "title": "FORGE: Forward-Only Test-Time Adaptation for Integer-Only Vision Models on Microcontrollers",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-07T01:06:41.588948Z",
+      "status": "found"
+    },
+    "openalex:title:9457f9a62a9cc67ae43a3406a08c7fea78015add55f2786d1e5d1d276b30a0c4": {
+      "expires_at": "2026-09-14T01:06:36.381576Z",
+      "record": null,
+      "retrieved_at": "2026-09-07T01:06:36.381576Z",
+      "status": "not_found"
+    },
     "openalex:title:9516831af358386c3b41e5eb5eb9d06c5f4af115830305bc7c47cc06d832318e": {
       "expires_at": "2026-09-07T01:07:12.337805Z",
       "record": null,
@@ -13436,6 +13950,46 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-04T01:00:17.680869Z",
+      "status": "found"
+    },
+    "openalex:title:a6c3f371dc2cf9bcbbc7c639b864b43aefb6dcd8524e1276f6846d6b8008d619": {
+      "expires_at": "2026-09-14T01:06:45.654731Z",
+      "record": null,
+      "retrieved_at": "2026-09-07T01:06:45.654731Z",
+      "status": "not_found"
+    },
+    "openalex:title:a7c92d53b927d831d8e34de5d97460fe06283501581cf9a53ac01b51930e5e71": {
+      "expires_at": "2026-09-14T01:06:37.884651Z",
+      "record": {
+        "abstract": "Process-based forest models are widely used to simulate forest growth and responses to environmental change, but their calibration and application often require many computationally expensive model evaluations. We present an implementation of the Physiological Processes Predicting Growth (3-PG) model in JAX that uses just-in-time compilation, vectorization, and GPU acceleration to reduce execution time. The implementation also supports automatic differentiation, providing gradients of model outputs and calibration objectives with respect to model parameters. This enables efficient gradient-based optimization and gradient-informed Bayesian calibration, extending 3-PG beyond conventional gradient-free approaches. The implementation produced results numerically consistent with r3PG for the evaluated configuration. Overall, the JAX implementation provides a faster and differentiable framework for calibrating and applying the 3-PG model.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Glory Mary Givi",
+            "orcid": "https://orcid.org/0000-0002-9344-8095"
+          },
+          {
+            "name": "Cédric Travelletti",
+            "orcid": null
+          },
+          {
+            "name": "Grégory Mermoud",
+            "orcid": "https://orcid.org/0000-0002-6027-7939"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.02557",
+        "landing_page": "https://arxiv.org/abs/2609.02557",
+        "open_access_url": "https://arxiv.org/abs/2609.02557",
+        "openalex_id": "https://openalex.org/W7207686852",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7207686852",
+        "publication_date": "2026-09-02",
+        "title": "TrunX: A massively parallel, differentiable implementation of the 3-PG forest growth model in JAX",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-07T01:06:37.884651Z",
       "status": "found"
     },
     "openalex:title:abe3f6857f066ae2c21a956a5e740239a323d097dcc68241cf1f7c3fd60a87c3": {
@@ -13886,6 +14440,12 @@
       "expires_at": "2026-09-12T00:59:46.431467Z",
       "record": null,
       "retrieved_at": "2026-09-05T00:59:46.431467Z",
+      "status": "not_found"
+    },
+    "openalex:title:ff884e77a73b8e9052fc7be889b495e7b766686c6a1d2488ea43b5c9c3515028": {
+      "expires_at": "2026-09-14T01:06:53.575220Z",
+      "record": null,
+      "retrieved_at": "2026-09-07T01:06:53.575220Z",
       "status": "not_found"
     }
   },
