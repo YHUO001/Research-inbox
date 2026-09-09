@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`42`
-- 更新时间：`2026-09-06T01:09:02.211639Z`
+- 论文数：`43`
+- 更新时间：`2026-09-09T01:02:37.650157Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Robust training of MZI-based optical neural networks through phase discretization
+
+- DOI/链接：[10.1364/oe.607573](https://doi.org/10.1364/oe.607573)
+- 期刊/年份：Optics Express，2026
+- 摘要日期：`2026-09-09`
+- 候选 ID：`8a0187dc3ef13553d43f5bef`
+- 标签：application:图像分类（mnist、fashion-mnist、kmnist）, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
 
 ### Supplementary document for Robust Training of MZI-Based Optical Neural Networks through Phase Discretization - 8023552.pdf
 

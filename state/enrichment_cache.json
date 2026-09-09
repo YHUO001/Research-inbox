@@ -494,6 +494,64 @@
       "retrieved_at": "2026-09-01T01:13:13.725087Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/lpor.71833": {
+      "expires_at": "2026-10-09T01:02:03.450337Z",
+      "record": {
+        "abstract": "ABSTRACT Polarization‐sensitive photodetection provides a critical degree of freedom for multidimensional optical information processing; however, achieving both high polarization selectivity and direct extraction of the angle of linear polarization (AoLP) within a single compact device remains a significant challenge. Here, we report a photodetector based on twisted Ta 2 NiSe 5 /MoSe 2 /Ta 2 NiSe 5 van‐der‐Waals heterostructure with dual junctions and oppositely oriented built‐in fields. The bias‐driven carrier competition mechanism enables enhanced polarization selectivity, yielding high polarization ratios of 23.1, 21.0, and 12.5 at 405, 638, and 808 nm, respectively, with an 11 µs response time. Furthermore, distinct from conventional intensity‐based detection, the dual‐channel photocurrents establish an intrinsic mapping between polarization states and electrical‐phase space, enabling direct extraction and imaging of AoLP within a single device, without external optics. The device also shows wavelength‐dependent dichroic inversion from visible (405 nm) to near‐infrared (808 nm), enabling orthogonal polarization responses. Leveraging this mechanism, we further demonstrate polarization–spectral multiplexed imaging, multi‐channel optical communication, and ∼99% accurate information decoding via a dual‐channel neural network, as well as a “two‐shot” polarization imaging strategy for low‐contrast enhancement. This work provides a filter‐free approach to polarization‐resolved photodetection, and opens a new avenue toward reconfigurable and multifunctional polarization optoelectronic devices.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hong Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Xuanbo Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Jiao Qi",
+            "orcid": "https://orcid.org/0000-0001-7908-9439"
+          },
+          {
+            "name": "Yuxiang Zheng",
+            "orcid": null
+          },
+          {
+            "name": "Weibo Duan",
+            "orcid": "https://orcid.org/0009-0003-3904-1061"
+          },
+          {
+            "name": "Yang Bu",
+            "orcid": "https://orcid.org/0000-0003-1194-7788"
+          },
+          {
+            "name": "Zhancheng Li",
+            "orcid": "https://orcid.org/0000-0002-6053-1159"
+          },
+          {
+            "name": "Haofei Shi",
+            "orcid": "https://orcid.org/0000-0002-6083-2752"
+          },
+          {
+            "name": "Rongjun Zhang",
+            "orcid": "https://orcid.org/0000-0002-1798-9922"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71833",
+        "landing_page": "https://doi.org/10.1002/lpor.71833",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.71833",
+        "publication_date": "2026-09-03",
+        "title": "Ultrahigh Polarization Sensitivity via Bias‐Modulable Twisted Heterojunction Photodetectors With AoLP Detection and Polarity Reversal",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-09T01:02:03.450337Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/nap2.70242": {
       "expires_at": "2026-09-17T04:25:18.637501Z",
       "record": {
@@ -3528,6 +3586,36 @@
       "retrieved_at": "2026-08-23T00:32:29.190843Z",
       "status": "found"
     },
+    "crossref:doi:10.1364/opticaopen.33425656": {
+      "expires_at": "2026-10-09T01:02:00.538994Z",
+      "record": {
+        "abstract": "Quasi-bound states in the continuum (quasi-BIC) dielectric metasurfaces provide exceptional control over subwavelength light–matter interactions. Although deep learning based inverse design alleviates the high computational costs of conventional optimization, its practical reliability is often hindered by the black-box nature of neural networks. Here, we propose an interpretable deep-learning inverse-design framework for a multifunctional all-dielectric silicon nitride eccentric-hole cylinder metasurface. By laterally displacing the inner hole, the unit cell in-plan symmetry is broken, exciting dual quasi-BIC resonances. We also demonstrate a CNN-based inverse-design that retrieves the geometric parameters directly from target reflectance spectra within 63 ms, achieving an R² of 0.998. Furthermore, Integrated Gradients analysis overcomes the black-box limitation by identifying the physical spectral features driving the network's predictions. The designed metasurface demonstrates passive polarization-controlled optical switching and label-free refractive index sensing, achieving a high sensitivity of 432 nm/RIU and a figure of merit of 4888 RIU⁻¹. This explainable AI framework provides a rapid, accurate, and transparent approach for developing advanced high-Q nanophotonic devices.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jahid Hasan",
+            "orcid": null
+          },
+          {
+            "name": "Md. Abu Ismail Siddique",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/opticaopen.33425656",
+        "landing_page": "https://doi.org/10.1364/opticaopen.33425656",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/opticaopen.33425656",
+        "publication_date": "2026-09-07",
+        "title": "Explainable deep learning for inverse design of multifunctional quasi-BIC metasurfaces",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-09T01:02:00.538994Z",
+      "status": "found"
+    },
     "crossref:doi:10.1364/opticaq.603710": {
       "expires_at": "2026-09-19T00:32:31.197134Z",
       "record": {
@@ -4788,6 +4876,60 @@
       "retrieved_at": "2026-09-07T01:06:43.487737Z",
       "status": "found"
     },
+    "crossref:title:59eeca1af798a437089e0bd870858820e639b8179c07f7f3fdd9ad1ec3b6f7d2": {
+      "expires_at": "2026-09-16T01:01:59.024949Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dex Doksoo Lee",
+            "orcid": null
+          },
+          {
+            "name": "Liwei Wang",
+            "orcid": null
+          },
+          {
+            "name": "Bolin Chen",
+            "orcid": null
+          },
+          {
+            "name": "Ying-Kuan Tsai",
+            "orcid": null
+          },
+          {
+            "name": "Jay Sim",
+            "orcid": null
+          },
+          {
+            "name": "Ruike Renee Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Xiaojia Shelly Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Wei Chen",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s44455-026-00039-4",
+        "landing_page": "https://doi.org/10.1038/s44455-026-00039-4",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s44455-026-00039-4",
+        "publication_date": "2026-09-04",
+        "title": "Co-design of programmable material systems",
+        "venue": "npj Metamaterials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-09T01:01:59.024949Z",
+      "status": "found"
+    },
     "crossref:title:5c1ba4b310ee00973da5eaa4f0ed408af3581a2539974b6418f2f2c538b8fa80": {
       "expires_at": "2026-09-02T00:32:40.533505Z",
       "record": {
@@ -5466,6 +5608,56 @@
       "retrieved_at": "2026-08-18T04:25:27.026523Z",
       "status": "not_found"
     },
+    "crossref:title:9e03d586ab959c31b0d22011fb18c3f7666fed40265f5460a79e95be8ce03ba7": {
+      "expires_at": "2026-09-16T01:02:04.850323Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Han Liu",
+            "orcid": null
+          },
+          {
+            "name": "Fengbin Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Sizhe Huang",
+            "orcid": null
+          },
+          {
+            "name": "Minghao Gu",
+            "orcid": null
+          },
+          {
+            "name": "Runze Li",
+            "orcid": null
+          },
+          {
+            "name": "Liang Xi",
+            "orcid": null
+          },
+          {
+            "name": "Ruidong Wang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tkde.2026.3730166",
+        "landing_page": "https://doi.org/10.1109/tkde.2026.3730166",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/tkde.2026.3730166",
+        "publication_date": "2026",
+        "title": "HADA: Heteroscedastic-Aware Analytical Dynamic Adaptation for Time Series Class-Incremental Learning",
+        "venue": "IEEE Transactions on Knowledge and Data Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-09T01:02:04.850323Z",
+      "status": "found"
+    },
     "crossref:title:9e85725a3c69ddbae04caeb7b9b3706173bb27e502ff03c83d42603bd1cf4c9f": {
       "expires_at": "2026-09-05T00:54:11.524325Z",
       "record": {
@@ -5692,6 +5884,12 @@
       "expires_at": "2026-08-25T04:25:16.005752Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:16.005752Z",
+      "status": "not_found"
+    },
+    "crossref:title:ae3bbafc4664c7dae8bdbdbf106cd750e8a2eede853712e94b2d13cdb905bd47": {
+      "expires_at": "2026-09-16T01:01:59.815113Z",
+      "record": null,
+      "retrieved_at": "2026-09-09T01:01:59.815113Z",
       "status": "not_found"
     },
     "crossref:title:b015a3db8ae3989df6f7903232edb2cd1491fdcf78a23d74fe8f4da2ce3a57dd": {
@@ -6030,11 +6228,75 @@
       "retrieved_at": "2026-09-01T01:13:11.971306Z",
       "status": "not_found"
     },
+    "crossref:title:c790b3a89feba3ef3222707de42e252fb1e112497909f19e700c7080da6421b2": {
+      "expires_at": "2026-09-16T01:02:04.231175Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yinpu Ma",
+            "orcid": null
+          },
+          {
+            "name": "Cunlin Li",
+            "orcid": null
+          },
+          {
+            "name": "Shiyu Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s44443-026-01272-7",
+        "landing_page": "https://doi.org/10.1007/s44443-026-01272-7",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s44443-026-01272-7",
+        "publication_date": "2026-09",
+        "title": "Projection-robust zeroth-order optimization on manifolds under heavy-tailed oracle noise",
+        "venue": "Journal of King Saud University Computer and Information Sciences",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-09T01:02:04.231175Z",
+      "status": "found"
+    },
     "crossref:title:cbde4e7b874735126ef47edd5cebf95081723b500b74f59d1ec1de2538ee9151": {
       "expires_at": "2026-08-16T00:36:06.532514Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:36:06.532514Z",
       "status": "not_found"
+    },
+    "crossref:title:cf60d9526b6a712182eab4e7921d86b4273e914482f2010b75e8c126259c24f7": {
+      "expires_at": "2026-09-16T01:02:01.909031Z",
+      "record": {
+        "abstract": "Drawbacks of continuous flexible manipulators, such as insufficient trajectory tracking accuracy and obvious flexible vibration, were targeted, and an integrated hierarchical strategy of trajectory replanning and disturbance rejection control was proposed for cable-driven flexible manipulators. A STO-MPC (Stochastic Trajectory Optimization Model Predictive Control) framework was constructed. Probabilistic obstacle avoidance constraints and gradient-independent solving mechanisms were introduced to tackle the high computational delay and poor dynamic adaptability of traditional planning approaches, while stiffness constraints and residual vibration suppression requirements of flexible structures were fully satisfied. A cooperative control framework of ADO-RITSMC (Adaptive Disturbance Observer-Rapid Integral Terminal Sliding Mode Control) was established. Model-free real-time compensation for multi-source disturbances was realized, finite-time convergence of tracking errors was achieved by the improved terminal sliding mode, and residual vibration of flexible links was effectively suppressed accordingly. Comprehensive comparative tests were conducted on standard O-shaped trajectories and high-curvature V-shaped trajectories, with GO-MPC (Gaussian Observer-based Model Predictive Control), APF-MPC (Artificial Potential Field-based Model Predictive Control) sliding mode algorithms. Experimental results demonstrated that STO-MPC can achieve the lowest peak computation time, completes the convergence of obstacle state estimation within 0.5 s, and yields a steady-state velocity estimation error of 0.0015 m/s. Its trajectory tracking RMSE (Root Mean Square Error) is 18.7 % and 36.8 % lower than that of GO-MPC and APF-MPC respectively, delivering superior real-time performance, estimation stability and tracking accuracy. The proposed ADO-RITSMC reduces vibration amplitude by 16.7 % with a peak vibration acceleration of –1.0 g, and exhibits faster vibration attenuation and slighter trajectory oscillation during dynamic obstacle avoidance, which fully verifies the hierarchical collaborative advantages of STO-MPC trajectory replanning and ADO-RITSMC vibration suppression.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Haiyan Sun",
+            "orcid": null
+          },
+          {
+            "name": "Yuanyuan Li",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21595/jve.2026.26644",
+        "landing_page": "https://doi.org/10.21595/jve.2026.26644",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.21595/jve.2026.26644",
+        "publication_date": "2026-08-27",
+        "title": "Optimization of trajectory tracking accuracy and vibration suppression for continuum flexible robotic arm",
+        "venue": "Journal of Vibroengineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-09T01:02:01.909031Z",
+      "status": "found"
     },
     "crossref:title:d07b4db1154d6c958fe930020e7dc85f1789fae9f328d95fdfa6b887cdfafa9d": {
       "expires_at": "2026-08-17T00:36:49.160804Z",
@@ -6267,6 +6529,56 @@
       "record": null,
       "retrieved_at": "2026-08-23T00:32:31.188781Z",
       "status": "not_found"
+    },
+    "crossref:title:ddc315880fbeedf25d920c89fb82f7dc1efe079149f2bbaa6ba9b0e632402bd9": {
+      "expires_at": "2026-09-16T01:02:03.064819Z",
+      "record": {
+        "abstract": "Mach–Zehnder interferometer (MZI)-based optical neural networks (ONNs) offer high-speed and highly parallel optical computing, but their physical training is affected by finite-resolution phase control, thermal crosstalk, and stochastic phase fluctuations. While phase discretization induced by finite-resolution control is conventionally regarded as a source of quantization error, we reveal an overlooked beneficial effect: the finite spacing between accessible phases provides a sufficiently large probing distance for gradient estimation, thereby improving the robustness of ONN training against stochastic phase noise. To exploit this effect, we construct 2 Q quasi-uniform physical phases from D = Q + 1-bit digital-to-analog converter (DAC) control and develop an index-domain simultaneous perturbation stochastic approximation (SPSA) algorithm with latent continuous-variable updates. Numerical simulations under experimentally representative thermal crosstalk with μ th = 0.02 show that, on MNIST, the Q = 7 discrete-phase ONN maintains its training accuracy within 0.02 of the result without stochastic phase noise at the representative level σ st = 0.02, while exhibiting only an approximately 20% relative reduction even at the strong-noise level σ st = 0.06. Similar robustness trends are observed across different network configurations and on the more challenging Fashion-MNIST and KMNIST datasets. These results demonstrate the potential of phase-discretized training for robust physical optimization of MZI-based ONNs under realistic phase imperfections.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yunlong Yu",
+            "orcid": null
+          },
+          {
+            "name": "Jinzhe Jiang",
+            "orcid": "https://orcid.org/0000-0002-8950-1295"
+          },
+          {
+            "name": "Chen Li",
+            "orcid": null
+          },
+          {
+            "name": "Hai-Ling Liu",
+            "orcid": null
+          },
+          {
+            "name": "Ji-Qian Qin",
+            "orcid": null
+          },
+          {
+            "name": "Xin Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yaqian Zhao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.607573",
+        "landing_page": "https://doi.org/10.1364/oe.607573",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/oe.607573",
+        "publication_date": "2026-09-07",
+        "title": "Robust training of MZI-based optical neural networks through phase discretization",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-09T01:02:03.064819Z",
+      "status": "found"
     },
     "crossref:title:e3d30e93a810dcb91394f004ca83af5538e36c402ecc66569eda4d498aa93d53": {
       "expires_at": "2026-08-29T00:32:15.721716Z",
@@ -7104,6 +7416,64 @@
       "retrieved_at": "2026-09-01T01:13:14.128969Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/lpor.71833": {
+      "expires_at": "2026-10-09T01:02:03.784892Z",
+      "record": {
+        "abstract": "ABSTRACT Polarization‐sensitive photodetection provides a critical degree of freedom for multidimensional optical information processing; however, achieving both high polarization selectivity and direct extraction of the angle of linear polarization (AoLP) within a single compact device remains a significant challenge. Here, we report a photodetector based on twisted Ta 2 NiSe 5 /MoSe 2 /Ta 2 NiSe 5 van‐der‐Waals heterostructure with dual junctions and oppositely oriented built‐in fields. The bias‐driven carrier competition mechanism enables enhanced polarization selectivity, yielding high polarization ratios of 23.1, 21.0, and 12.5 at 405, 638, and 808 nm, respectively, with an 11 µs response time. Furthermore, distinct from conventional intensity‐based detection, the dual‐channel photocurrents establish an intrinsic mapping between polarization states and electrical‐phase space, enabling direct extraction and imaging of AoLP within a single device, without external optics. The device also shows wavelength‐dependent dichroic inversion from visible (405 nm) to near‐infrared (808 nm), enabling orthogonal polarization responses. Leveraging this mechanism, we further demonstrate polarization–spectral multiplexed imaging, multi‐channel optical communication, and ∼99% accurate information decoding via a dual‐channel neural network, as well as a “two‐shot” polarization imaging strategy for low‐contrast enhancement. This work provides a filter‐free approach to polarization‐resolved photodetection, and opens a new avenue toward reconfigurable and multifunctional polarization optoelectronic devices.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hong Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Xuanbo Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Jiao Qi",
+            "orcid": "https://orcid.org/0000-0001-7908-9439"
+          },
+          {
+            "name": "Yuxiang Zheng",
+            "orcid": "https://orcid.org/0000-0003-3116-0229"
+          },
+          {
+            "name": "Weibo Duan",
+            "orcid": "https://orcid.org/0009-0003-3904-1061"
+          },
+          {
+            "name": "Yang Bu",
+            "orcid": "https://orcid.org/0000-0003-1194-7788"
+          },
+          {
+            "name": "Zhancheng Li",
+            "orcid": "https://orcid.org/0000-0002-6053-1159"
+          },
+          {
+            "name": "Haofei Shi",
+            "orcid": "https://orcid.org/0000-0002-6083-2752"
+          },
+          {
+            "name": "Rongjun Zhang",
+            "orcid": "https://orcid.org/0000-0002-1798-9922"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71833",
+        "landing_page": "https://doi.org/10.1002/lpor.71833",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7207528981",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7207528981",
+        "publication_date": "2026-09-03",
+        "title": "Ultrahigh Polarization Sensitivity via Bias‐Modulable Twisted Heterojunction Photodetectors With AoLP Detection and Polarity Reversal",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-09T01:02:03.784892Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/nap2.70242": {
       "expires_at": "2026-09-17T04:25:18.954571Z",
       "record": {
@@ -7832,6 +8202,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-31T01:07:07.841607Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s44443-026-01272-7": {
+      "expires_at": "2026-10-09T01:02:04.574436Z",
+      "record": {
+        "abstract": "Zeroth-order optimization on Riemannian manifolds is relevant when objectives are available only through function evaluations, but conventional tangent estimators can be unstable under non-Gaussian oracle errors. We propose PRISM-ZO, a projection-robust framework that samples low-dimensional random tangent subspaces and combines symmetric finite differences with median-of-means or Huber aggregation. We establish the unbiasedness of the correctly rescaled projected direction in expectation over the random subspace, quantify its conditional projection error, prove an explicit expected bound for convergence to an approximate first-order stationary point under a stated estimator-error model, and give a verifiable condition for detecting projected negative curvature. In sparse PCA experiments with 10 random seeds, PRISM-ZO variants are compared with full-dimensional zeroth-order and first-order power baselines under Gaussian, Student-t and Cauchy perturbations; the results report means, standard deviations and 95% confidence intervals and identify both beneficial and failure regimes. The hard-thresholded sparse update is treated as an empirical proxy rather than a smooth retraction.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yinpu Ma",
+            "orcid": null
+          },
+          {
+            "name": "Cunlin Li",
+            "orcid": "https://orcid.org/0000-0002-0272-1210"
+          },
+          {
+            "name": "Shiyu Zhang",
+            "orcid": "https://orcid.org/0000-0001-5181-5128"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s44443-026-01272-7",
+        "landing_page": "https://doi.org/10.1007/s44443-026-01272-7",
+        "open_access_url": "https://doi.org/10.1007/s44443-026-01272-7",
+        "openalex_id": "https://openalex.org/W7204450461",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204450461",
+        "publication_date": "2026-08-27",
+        "title": "Projection-robust zeroth-order optimization on manifolds under heavy-tailed oracle noise",
+        "venue": "Journal of King Saud University - Computer and Information Sciences",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-09T01:02:04.574436Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s44519-026-00003-9": {
@@ -9496,6 +9900,60 @@
       "retrieved_at": "2026-09-03T01:03:40.670265Z",
       "status": "found"
     },
+    "openalex:doi:10.1038/s44455-026-00039-4": {
+      "expires_at": "2026-10-09T01:01:59.426274Z",
+      "record": {
+        "abstract": "Advances in manufacturing, stimuli-responsive materials, and actuation technologies have fueled the development of programmable material systems (PMS) that can change their functional states in response to external stimuli. This functional switch is instrumental for applications that demand adaptability and robustness under dynamic environments such as wearable electronics, haptic interfaces, and soft robots. In principle, achieving an interesting degree of programmability in material systems is a challenging design problem as it requires careful consideration of geometry, material, stimulus, and process amidst dynamic environments. This task becomes even more challenging when compounded by multifunctionality requirements, multiphysics modeling, coupling among the design entities, and resource-intensive performance evaluation. In practice, prevailing approaches often heuristically fix some entities or decouple their interactions, which significantly limits achievable performance and generalizability of the design approach. Motivated by this gap between promise and practice, we present a co-design formalism that highlights shared design considerations across prior works and categorizes design strategies for managing complexity. With the proposed lens, we reveal common threads in existing design approaches, identify opportunities and open research questions for co-design to achieve better performance and generalization. Through this perspective article, we aim to lay a design foundation for boosting progress in this emerging interdisciplinary field.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dex  Doksoo Lee",
+            "orcid": null
+          },
+          {
+            "name": "Liwei Wang",
+            "orcid": null
+          },
+          {
+            "name": "Bolin Chen",
+            "orcid": "https://orcid.org/0000-0002-7230-7197"
+          },
+          {
+            "name": "Ying-Kuan Tsai",
+            "orcid": "https://orcid.org/0009-0005-8853-2216"
+          },
+          {
+            "name": "Jay Sim",
+            "orcid": null
+          },
+          {
+            "name": "Ruike Renee Zhao",
+            "orcid": "https://orcid.org/0000-0002-9292-5267"
+          },
+          {
+            "name": "Xiaojia Shelly Zhang",
+            "orcid": "https://orcid.org/0000-0003-4878-8637"
+          },
+          {
+            "name": "Wei Chen",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s44455-026-00039-4",
+        "landing_page": "https://doi.org/10.1038/s44455-026-00039-4",
+        "open_access_url": "https://doi.org/10.1038/s44455-026-00039-4",
+        "openalex_id": "https://openalex.org/W7208762551",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7208762551",
+        "publication_date": "2026-09-04",
+        "title": "Co-design of programmable material systems",
+        "venue": "npj Metamaterials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-09T01:01:59.426274Z",
+      "status": "found"
+    },
     "openalex:doi:10.1038/s44460-026-00123-2": {
       "expires_at": "2026-09-30T01:07:03.633527Z",
       "record": {
@@ -10536,6 +10994,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-26T00:32:36.960619Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/tkde.2026.3730166": {
+      "expires_at": "2026-10-09T01:02:05.190108Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Han Liu",
+            "orcid": null
+          },
+          {
+            "name": "Fengbin Zhang",
+            "orcid": "https://orcid.org/0000-0002-8609-5340"
+          },
+          {
+            "name": "Sizhe Huang",
+            "orcid": null
+          },
+          {
+            "name": "M. H. Gu",
+            "orcid": "https://orcid.org/0000-0002-6206-8401"
+          },
+          {
+            "name": "Runze Li",
+            "orcid": "https://orcid.org/0000-0002-1422-3120"
+          },
+          {
+            "name": "Liang Xi",
+            "orcid": null
+          },
+          {
+            "name": "Ruidong Wang",
+            "orcid": "https://orcid.org/0000-0001-5178-2960"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tkde.2026.3730166",
+        "landing_page": "https://doi.org/10.1109/tkde.2026.3730166",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7206182692",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7206182692",
+        "publication_date": "2026-01-01",
+        "title": "HADA: Heteroscedastic-Aware Analytical Dynamic Adaptation for Time Series Class-Incremental Learning",
+        "venue": "IEEE Transactions on Knowledge and Data Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-09T01:02:05.190108Z",
       "status": "found"
     },
     "openalex:doi:10.1109/tmc.2026.3711443": {
@@ -11928,6 +12436,56 @@
       "retrieved_at": "2026-08-23T00:32:29.691885Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/oe.607573": {
+      "expires_at": "2026-10-09T01:02:03.399972Z",
+      "record": {
+        "abstract": "Mach–Zehnder interferometer (MZI)-based optical neural networks (ONNs) offer high-speed and highly parallel optical computing, but their physical training is affected by finite-resolution phase control, thermal crosstalk, and stochastic phase fluctuations. While phase discretization induced by finite-resolution control is conventionally regarded as a source of quantization error, we reveal an overlooked beneficial effect: the finite spacing between accessible phases provides a sufficiently large probing distance for gradient estimation, thereby improving the robustness of ONN training against stochastic phase noise. To exploit this effect, we construct 2 Q quasi-uniform physical phases from D = Q + 1-bit digital-to-analog converter (DAC) control and develop an index-domain simultaneous perturbation stochastic approximation (SPSA) algorithm with latent continuous-variable updates. Numerical simulations under experimentally representative thermal crosstalk with μ th = 0.02 show that, on MNIST, the Q = 7 discrete-phase ONN maintains its training accuracy within 0.02 of the result without stochastic phase noise at the representative level σ st = 0.02, while exhibiting only an approximately 20% relative reduction even at the strong-noise level σ st = 0.06. Similar robustness trends are observed across different network configurations and on the more challenging Fashion-MNIST and KMNIST datasets. These results demonstrate the potential of phase-discretized training for robust physical optimization of MZI-based ONNs under realistic phase imperfections.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yunlong Yu",
+            "orcid": null
+          },
+          {
+            "name": "Jinzhe Jiang",
+            "orcid": "https://orcid.org/0000-0002-8950-1295"
+          },
+          {
+            "name": "Chen Li",
+            "orcid": null
+          },
+          {
+            "name": "Hai-Ling Liu",
+            "orcid": null
+          },
+          {
+            "name": "Ji-Qian Qin",
+            "orcid": "https://orcid.org/0000-0002-9201-3233"
+          },
+          {
+            "name": "Xin Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yaqian Zhao",
+            "orcid": "https://orcid.org/0000-0002-9170-0090"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.607573",
+        "landing_page": "https://doi.org/10.1364/oe.607573",
+        "open_access_url": "https://doi.org/10.1364/oe.607573",
+        "openalex_id": "https://openalex.org/W7204258166",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204258166",
+        "publication_date": "2026-08-26",
+        "title": "Robust training of MZI-based optical neural networks through phase discretization",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-09T01:02:03.399972Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/ol.611332": {
       "expires_at": "2026-09-28T00:54:12.385748Z",
       "record": {
@@ -12054,6 +12612,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:30.948780Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1364/opticaopen.33425656": {
+      "expires_at": "2026-10-09T01:02:00.859346Z",
+      "record": {
+        "abstract": "Quasi-bound states in the continuum (quasi-BIC) dielectric metasurfaces provide exceptional control over subwavelength light–matter interactions. Although deep learning based inverse design alleviates the high computational costs of conventional optimization, its practical reliability is often hindered by the black-box nature of neural networks. Here, we propose an interpretable deep-learning inverse-design framework for a multifunctional all-dielectric silicon nitride eccentric-hole cylinder metasurface. By laterally displacing the inner hole, the unit cell in-plan symmetry is broken, exciting dual quasi-BIC resonances. We also demonstrate a CNN-based inverse-design that retrieves the geometric parameters directly from target reflectance spectra within 63 ms, achieving an R² of 0.998. Furthermore, Integrated Gradients analysis overcomes the black-box limitation by identifying the physical spectral features driving the network's predictions. The designed metasurface demonstrates passive polarization-controlled optical switching and label-free refractive index sensing, achieving a high sensitivity of 432 nm/RIU and a figure of merit of 4888 RIU⁻¹. This explainable AI framework provides a rapid, accurate, and transparent approach for developing advanced high-Q nanophotonic devices.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jahid Hasan",
+            "orcid": null
+          },
+          {
+            "name": "Md. Abu Ismail Siddique",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/opticaopen.33425656",
+        "landing_page": "https://doi.org/10.1364/opticaopen.33425656",
+        "open_access_url": "https://doi.org/10.1364/opticaopen.33425656",
+        "openalex_id": "https://openalex.org/W7211868278",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7211868278",
+        "publication_date": "2026-09-07",
+        "title": "Explainable deep learning for inverse design of multifunctional quasi-BIC metasurfaces",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-09T01:02:00.859346Z",
       "status": "found"
     },
     "openalex:doi:10.1364/opticaq.603710": {
@@ -12348,6 +12936,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-27T02:02:16.694588Z",
+      "status": "found"
+    },
+    "openalex:doi:10.21595/jve.2026.26644": {
+      "expires_at": "2026-10-09T01:02:02.258249Z",
+      "record": {
+        "abstract": "Drawbacks of continuous flexible manipulators, such as insufficient trajectory tracking accuracy and obvious flexible vibration, were targeted, and an integrated hierarchical strategy of trajectory replanning and disturbance rejection control was proposed for cable-driven flexible manipulators. A STO-MPC (Stochastic Trajectory Optimization Model Predictive Control) framework was constructed. Probabilistic obstacle avoidance constraints and gradient-independent solving mechanisms were introduced to tackle the high computational delay and poor dynamic adaptability of traditional planning approaches, while stiffness constraints and residual vibration suppression requirements of flexible structures were fully satisfied. A cooperative control framework of ADO-RITSMC (Adaptive Disturbance Observer-Rapid Integral Terminal Sliding Mode Control) was established. Model-free real-time compensation for multi-source disturbances was realized, finite-time convergence of tracking errors was achieved by the improved terminal sliding mode, and residual vibration of flexible links was effectively suppressed accordingly. Comprehensive comparative tests were conducted on standard O-shaped trajectories and high-curvature V-shaped trajectories, with GO-MPC (Gaussian Observer-based Model Predictive Control), APF-MPC (Artificial Potential Field-based Model Predictive Control) sliding mode algorithms. Experimental results demonstrated that STO-MPC can achieve the lowest peak computation time, completes the convergence of obstacle state estimation within 0.5 s, and yields a steady-state velocity estimation error of 0.0015 m/s. Its trajectory tracking RMSE (Root Mean Square Error) is 18.7 % and 36.8 % lower than that of GO-MPC and APF-MPC respectively, delivering superior real-time performance, estimation stability and tracking accuracy. The proposed ADO-RITSMC reduces vibration amplitude by 16.7 % with a peak vibration acceleration of –1.0 g, and exhibits faster vibration attenuation and slighter trajectory oscillation during dynamic obstacle avoidance, which fully verifies the hierarchical collaborative advantages of STO-MPC trajectory replanning and ADO-RITSMC vibration suppression.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Haiyan Sun",
+            "orcid": "https://orcid.org/0000-0002-9114-9446"
+          },
+          {
+            "name": "Yuanyuan Li",
+            "orcid": "https://orcid.org/0000-0002-9484-3783"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21595/jve.2026.26644",
+        "landing_page": "https://doi.org/10.21595/jve.2026.26644",
+        "open_access_url": "https://doi.org/10.21595/jve.2026.26644",
+        "openalex_id": "https://openalex.org/W7204491333",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204491333",
+        "publication_date": "2026-08-27",
+        "title": "Optimization of trajectory tracking accuracy and vibration suppression for continuum flexible robotic arm",
+        "venue": "Journal of Vibroengineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-09T01:02:02.258249Z",
       "status": "found"
     },
     "openalex:doi:10.2514/1.t7438": {
@@ -14033,6 +14651,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:16.456778Z",
       "status": "found"
+    },
+    "openalex:title:ae3bbafc4664c7dae8bdbdbf106cd750e8a2eede853712e94b2d13cdb905bd47": {
+      "expires_at": "2026-09-16T01:02:00.472984Z",
+      "record": null,
+      "retrieved_at": "2026-09-09T01:02:00.472984Z",
+      "status": "not_found"
     },
     "openalex:title:b063211f9f74d0395e687813f2847579df6b8341dce8fa35f74dae65243b9c91": {
       "expires_at": "2026-08-16T00:36:00.776579Z",
