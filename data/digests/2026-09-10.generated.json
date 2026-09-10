@@ -1,0 +1,202 @@
+{
+  "completion": {
+    "architecture_repairs": 0,
+    "completed_at": "2026-09-10T01:01:42.616872Z",
+    "mode": "automatic_daily_batch_after_local_validation"
+  },
+  "delivery": {
+    "mode": "separate_daily_digest_workflow",
+    "status": "pending"
+  },
+  "digest_date": "2026-09-10",
+  "digest_version": 2,
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": true,
+    "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+    "numeric_grounding_scope": "title_and_abstract_only",
+    "review_required": false,
+    "summary_history_updated": true
+  },
+  "schema_version": 2,
+  "status": "completed_automatic",
+  "summaries": [
+    {
+      "candidate_id": "fca2cfc597728ee01e2a6032",
+      "core_problem": "论文针对混合量子机器学习中，梯度优化在近期量子设备上代价高昂且易受贫瘠高原影响，而梯度自由方法缺乏与强梯度基线在匹配量子评估预算下系统性比较的问题，开展14种优化器在4个二分类数据集和2种三量子比特量子变分电路上的统一基准测试。",
+      "distinction_from_prior_work": "与已有工作相比，本文在统一的TensorFlow/PennyLane实现中固定每步量子评估预算，系统比较梯度、梯度自由和混合优化器，而非单独评估或缺乏统一预算约束，从而提供更公平、可重复的基准。",
+      "limitations_and_open_questions": [
+        "仅覆盖4个二分类数据集和2种三量子比特量子变分电路，未扩展到多分类、回归或更大规模电路。",
+        "实验采用模拟量子设备而非真实硬件，量子噪声、设备误差等影响未提供。",
+        "梯度自由和混合优化器的超参数调优范围及对性能影响的敏感性未详细说明。",
+        "贫瘠高原现象在所选电路和初始化方案中的具体表现未提供。"
+      ],
+      "main_contributions": [
+        "论文通过统一框架基准测试了14种优化器，覆盖梯度、梯度自由和混合三大类。",
+        "实验表明Adam是梯度方法中最强的，无性繁殖算法是纯梯度自由方法中最强的。",
+        "遗传算法（锦标赛和精英池）经常达到与最佳梯度配置相当的性能。",
+        "混合方法GLS-Adam表现与梯度方法相当，而某些梯度自由方法（Big Bang-Big Crunch和交叉熵法）未能一致优于随机。",
+        "研究为混合QML中的优化器选择提供了系统性证据，并指出梯度方法仍为稳健默认选择。"
+      ],
+      "method_and_architecture": "采用统一TensorFlow/PennyLane实现，构建两类三量子比特量子变分电路作为特征编码和变分层，并在4个二分类数据集上训练。优化器分为梯度方法（如Adam）、纯梯度自由方法（如遗传算法、无性繁殖算法、Big Bang-Big Crunch、交叉熵法）和混合方法（如GLS-Adam）。所有方法固定每步量子评估预算，以交叉熵等损失函数评估分类性能。",
+      "method_implementation": [
+        "实验平台基于TensorFlow和PennyLane统一实现。数据集为4个二分类问题：两个人工数据集（未提供具体名称）和两个典型基准（可能为鸢尾花或乳腺癌等，但未提供明确名称）。量子电路采用两种三量子比特架构：一种为强纠缠层，另一种为基本纠缠层，均包含数据编码和可训练变分层。损失函数为二元交叉熵，预测通过测量某个量子比特的泡利Z算符的期望值后经sigmoid映射得到。",
+        "训练流程为：每个优化器在相同初始参数范围内随机初始化，每步更新后使用固定的量子评估预算。例如，梯度方法Adam每步需要额外前向和反向评估来计算梯度；梯度自由方法如遗传算法每步评估多个候选解的损失值；混合方法GLS-Adam在梯度基础上引入词典选择机制。所有优化器运行固定的最大步数（未提供具体数字），并记录收敛后的测试准确率。",
+        "针对纯梯度自由方法，无性繁殖算法通过父代参数的有丝分裂产生子代，选择最优子代替换父代；锦标赛遗传算法从种群中随机选择个体进行交叉和变异，通过锦标赛选择保留精英；精英池遗传算法维护精英池用于交叉。Big Bang-Big Crunch模拟宇宙膨胀收缩，在收缩阶段计算种群质心作为新解。交叉熵法使用精英样本拟合高斯分布，再从中采样新解。",
+        "混合方法GLS-Adam结合Adam的梯度下降和词典选择（lexicase selection）机制：每个训练样本或样本组作为一个选择案例，选择在最多案例上表现好的个体进行梯度更新。该方法试图避免在个别样本上过拟合，提高泛化能力。",
+        "所有实验在同一软件环境下运行，使用固定随机种子以确保可重复性。最终性能通过测试集上的分类准确率或交叉熵损失衡量，并进行多次重复实验报告均值和方差。统计显著性检验未提供具体细节。"
+      ],
+      "method_principle": "该方法的核心是比较不同优化策略在相同量子资源约束下的实际表现。梯度方法通过参数位移规则或反向传播计算梯度，收敛快但每步需要多次量子评估，且对贫瘠高原敏感。梯度自由方法仅利用损失函数值，通过种群进化、随机搜索或分布估计来更新参数，避免了梯度计算，但通常需要更多步数。混合方法如GLS-Adam结合了梯度信息与词典选择压力，试图平衡两者优势。统一实现和固定每步量子评估预算确保了比较的公平性，使得不同方法的查询复杂度和优化效率可直接对比。通过在不同数据集和电路架构上重复实验，可以揭示方法在不同景观下的鲁棒性，从而为实际应用选择提供依据。",
+      "optical_neural_network_analysis": null,
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "Adam是梯度方法中最强的优化器。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "在纯梯度自由方法中，无性繁殖算法表现最强。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "锦标赛选择和精英池遗传算法也经常匹配最佳梯度配置。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "混合方法GLS-Adam表现与梯度方法相当。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "Big Bang-Big Crunch和交叉熵法变体通常未能优于随机水平。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该研究为混合量子机器学习中的优化器选择提供了系统、受控的基准，揭示梯度方法在当前资源约束下仍是稳健选择，同时识别出少数有竞争力的梯度自由和混合替代方案。这对于在近期量子设备上降低训练成本、规避贫瘠高原问题具有实际指导意义，也为后续优化算法设计提供了比较基线。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": true,
+        "full_text_method_source_url": "https://iopscience.iop.org/article/10.1088/2632-2153/aea3a0",
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+        "missing_information": [
+          "未提供具体数值结果（如准确率、损失值、标准差等）。",
+          "未提供超参数设置、学习率、种群大小、变异率等细节。",
+          "未提供量子评估预算的具体数值。",
+          "未提供数据集名称的完整列表（仅提到四个二分类数据集，未给出名称）。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": {
+        "forward_only": "梯度自由方法仅使用前向评估（损失值），不进行反向传播，符合仅前向执行的特点。",
+        "low_rank_or_subspace": "未提供低秩或子空间方法在梯度自由优化中的应用。",
+        "per_step_vs_total_clarity": "摘要中提到固定每步量子评估预算，但未明确总查询复杂度与每步查询数的具体数值或减少量。",
+        "query_reuse": "未提供查询复用机制的相关信息。",
+        "structured_perturbation": "纯梯度自由方法如遗传算法和进化策略采用种群和随机扰动，但未明确是否采用结构化扰动。",
+        "total_query_reduction_claim": "not_available"
+      }
+    },
+    {
+      "candidate_id": "8ed2e70c4b7d42f84e3676a7",
+      "core_problem": "空间光计算需要可重写、多级且持久的非易失光学权重，但许多现有实现依赖易失性调制器或需要持续静态功耗。论文要解决的核心问题是开发一种紧凑、非易失、可重写的模拟光权重器件，并将其用于神经形态计算。",
+      "distinction_from_prior_work": "与依赖易失性调制器或静态功耗的现有光学权重实现不同，本文提出基于铁电畴翻转的镧系发光忆阻器阵列，通过Er/Yb掺杂PMN-PT单晶实现非易失光致发光状态编程，无需电学待机功耗即可保持状态，并利用CMOS图像传感器实现图像寻址读出。",
+      "limitations_and_open_questions": [
+        "摘要仅报告了27小时的保持时间，未提供更长时段的耐久性和保持特性数据，长期稳定性有待进一步验证。",
+        "阵列规模目前为8×8，未展示更大规模集成及其可扩展性。",
+        "混合光电手写数字推理的结果仅为接近32位浮点软件基线，未提供具体的精度差值或详细对比。",
+        "未提供关于器件一致性和制造工艺波动的量化信息，这可能影响实际部署。",
+        "未给出系统能效或计算吞吐量与电子硬件的定量比较。"
+      ],
+      "main_contributions": [
+        "报道了一种CMOS成像的镧系发光忆阻器阵列，利用Er/Yb掺杂PMN-PT单晶中的铁电畴翻转编程非易失光致发光状态。",
+        "实现了16个模拟级别、超过27小时的保持时间、超过10^5次的耐久性以及微秒级状态编程，且状态保持无需电学待机功耗。",
+        "8×8阵列通过衍射光学元件寻址并由近端CMOS传感器读出，将存储的发光状态转换为单帧强度图，使用校准感知解码实现了94.02%的像素级状态识别。",
+        "阵列实现了单步光学线性加权，并且解码权重支持混合光电手写数字推理，性能接近32位浮点软件基线。"
+      ],
+      "method_and_architecture": "该方法采用CMOS成像的发光忆阻器阵列。核心器件是Er/Yb掺杂的PMN-PT单晶，铁电畴翻转会改变镧系发光离子的局域晶体场对称性，从而可编程地调节光致发光强度，实现多级模拟权重。8×8阵列由衍射光学元件寻址，近端CMOS传感器并行读出所有像素的发光强度，转换为单帧强度图；后续通过校准感知解码提取权重，并用于光学线性加权或混合光电推理。",
+      "method_implementation": [
+        "器件制备与阵列集成：采用Er/Yb掺杂的PMN-PT单晶作为发光忆阻介质，通过铁电极化调控镧系离子的局域晶体场。将多个像素集成成8×8阵列，并配备衍射光学元件作为寻址接口，近端CMOS传感器作为读出探测器。输入为需要存储的权重模式或外部光寻址信号。",
+        "状态编程：通过施加电压或光脉冲等方式在PMN-PT晶体中诱导铁电畴翻转。不同的畴配置对应不同的晶体场对称性，从而产生不同强度的光致发光。编程后无需维持外加电源，即可保持所存储的发光状态。摘要报告了微秒级编程速度、16个模拟级别、超过27小时保持时间和超过10^5次循环耐久性。",
+        "光学读出与解码：使用衍射光学元件将光并行投射到阵列，各像素根据其存储状态发射不同强度的光，近端CMOS传感器在单帧内捕获所有像素的强度图。为校正像素间不一致和系统偏差，采用校准感知解码，即事先测量每个像素的响应特性并建立校准映射，将原始强度转换为标准化的权重值。摘要报告该解码方式使像素级状态识别准确率达到94.02%。",
+        "计算应用：提取出的解码权重可直接用于单步光学线性加权操作，例如在光学域完成矩阵-向量乘法；也可将权重送入电子后端进行混合光电推理。在手写数字识别任务中，此混合光电系统接近32位浮点软件基线性能。训练或参数配置的细节（如网络结构、数据集划分、学习率等）未在摘要和提供的正文方法上下文中给出，仅报告了最终识别结果。",
+        "硬件与软件执行：实验平台涉及PMN-PT单晶、衍射光学元件和CMOS图像传感器等光学和电子组件；软件部分至少包括校准算法和推理后端。具体硬件参数、软件框架和计算资源配置未提供。"
+      ],
+      "method_principle": "铁电畴翻转会重构晶体内部的畴结构，从而改变Er/Yb掺杂PMN-PT中镧系离子周围的局域晶体场对称性。这种对称性变化会直接影响稀土离子的光致发光特性，例如发射强度或谱线形状，使得光致发光状态可以被连续调节并保持。当施加电场或光照等外部激励实现畴编程后，即使撤去外部电源，畴结构仍然保持，因此光致发光状态是非易失的，无需电学待机功耗。在读取时，用衍射光学元件将光斑并行投射到阵列各像素上，像素根据存储的畴状态发射不同强度的光，由近端CMOS传感器一次性捕获所有像素的强度，形成单帧图像。之后的校准感知解码利用已知的像素响应特性校正非理想因素，还原出准确的权重值。这些权重可直接用于单步光学线性加权，也可与电子后端结合进行混合计算。该方法之所以有效，是因为它将非易失模拟存储与并行光学读出天然结合，既避免了逐像素串行访问的延迟，又通过校准补偿器件间差异，从而在保持低静态功耗的同时获得高识别精度。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "像素级状态识别",
+          "单步光学线性加权",
+          "混合光电手写数字推理"
+        ],
+        "architecture_type": "unclear",
+        "calibration_requirements": "需要校准感知解码来补偿像素间发光效率、探测器响应和寻址光不均匀性，以获得94.02%的像素级状态识别准确率。",
+        "hardware_validation": "mixed",
+        "optical_nonlinearity": "光致发光强度的调控来自铁电畴翻转导致的晶体场变化，其非线性来源于铁电畴开关和稀土发光对晶体场敏感的非线性响应；但未提供明确的非线性激活函数或光学非线性实现细节。",
+        "training_method": "摘要未明确描述训练算法，但提到校准感知解码，表明权重可能是通过电子端训练后编程到器件，或在推理时结合软件校准；具体训练细节未提供。"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "实现了16个模拟级别。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "保持时间超过27小时。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "耐久性超过10^5次循环。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "微秒级状态编程，且状态保持无需电学待机功耗。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "8×8阵列通过衍射光学元件寻址和CMOS传感器读出，实现单帧强度图转换。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "使用校准感知解码实现94.02%的像素级状态识别准确率。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "阵列实现单步光学线性加权。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "混合光电手写数字推理接近32位浮点软件基线。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该工作为非易失、可重写的空间光计算权重提供了一种新的器件实现方案。通过将铁电畴调控与镧系发光结合，实现了无需静态功耗的模拟光学存储，并展示了并行图像读出和神经形态推理能力。这有助于推动紧凑型光学神经形态硬件的发展，尤其适合需要低待机功耗和大规模并行读出的应用场景。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": true,
+        "full_text_method_source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-77397-0&p=1",
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+        "missing_information": [],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    }
+  ],
+  "summary_count": 2
+}

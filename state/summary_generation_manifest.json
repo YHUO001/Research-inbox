@@ -1,59 +1,84 @@
 {
-  "abstract_fallback_candidate_ids": [
-    "8a0187dc3ef13553d43f5bef"
-  ],
-  "abstract_fallback_count": 1,
+  "abstract_fallback_candidate_ids": [],
+  "abstract_fallback_count": 0,
   "architecture_evidence": {
-    "8a0187dc3ef13553d43f5bef": {
+    "8ed2e70c4b7d42f84e3676a7": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": "unclear",
       "resolved_type": "unclear"
+    },
+    "fca2cfc597728ee01e2a6032": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 1,
-  "completed_at": "2026-09-09T01:02:37.650157Z",
+  "automatic_queue_candidate_count": 2,
+  "completed_at": "2026-09-10T01:01:42.616872Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "8a0187dc3ef13553d43f5bef"
+    "8ed2e70c4b7d42f84e3676a7",
+    "fca2cfc597728ee01e2a6032"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-09-09",
-  "digest_json_file": "runtime-state/data/digests/2026-09-09.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-09-09.generated.md",
+  "digest_date": "2026-09-10",
+  "digest_json_file": "runtime-state/data/digests/2026-09-10.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-09-10.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0131462,
+  "estimated_cost_cny": 0.047472,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "8a0187dc3ef13553d43f5bef": {
+    "8ed2e70c4b7d42f84e3676a7": {
       "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "8a0187dc3ef13553d43f5bef",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 2.971,
-      "error": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-34-18-34927&html=true: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.1364/oe.607573",
-      "status": "not_available",
+      "attempt_count": 1,
+      "candidate_id": "8ed2e70c4b7d42f84e3676a7",
+      "character_count": 1965,
+      "content_sha256": "12571b08ea1e459cab7e9de5e0abc93f86f72401bf56bf4c989fe7f96bef4a89",
+      "elapsed_seconds": 1.332,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "application/xml+jats",
+      "section_headings": [
+        "implementation"
+      ],
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-77397-0&p=1",
+      "status": "used",
+      "text_persisted": false
+    },
+    "fca2cfc597728ee01e2a6032": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "fca2cfc597728ee01e2a6032",
+      "character_count": 3092,
+      "content_sha256": "80deaa394a323c3d1040c5651d5bf1a1d32cfd43073aaccde98492fd1d41d208",
+      "elapsed_seconds": 1.725,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        "Method"
+      ],
+      "source_url": "https://iopscience.iop.org/article/10.1088/2632-2153/aea3a0",
+      "status": "used",
       "text_persisted": false
     }
   },
   "full_text_persisted": false,
-  "full_text_used": false,
+  "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_and_abstract_only",
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 1,
+  "newly_completed_candidate_count": 2,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -69,84 +94,123 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 1,
+  "prepared_request_count": 2,
   "provider": "deepseek",
-  "queue_sha256": "071df54e114e252875759ed52de87554b8ce71ac7529af4d6ccdcad77a610669",
-  "request_count": 1,
-  "request_file": "runtime-state/data/summary_requests/2026-09-09.jsonl",
-  "request_sha256": "a39c1bf8c3a3a62a9a5e30bdd47f7a77529d99e8039a8bd9db9b7f8be787d8bc",
+  "queue_sha256": "ad02cd8acd672bf8d83f54bd327443982c2fe0c8825e762e460171065f6b8f41",
+  "request_count": 2,
+  "request_file": "runtime-state/data/summary_requests/2026-09-10.jsonl",
+  "request_sha256": "b1bb1c8e39dbdabba1eed65247afc957926ce3b9bf60e9f32ab3293f0795932f",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "2694c56229ee00e37fd7f8c19ab2f510c0ce6a634a23ef4cd080eeb08d340872",
+  "selection_manifest_sha256": "37d724fee2049fe9d0221993c11d3f237399c75ee94245c593108e5474127ca9",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 1,
+  "source_queue_candidate_count": 2,
   "stage_timings": {
-    "full_text_preparation_seconds": 2.975,
+    "full_text_preparation_seconds": 3.06,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "8a0187dc3ef13553d43f5bef",
-        "elapsed_seconds": 26.906,
+        "candidate_id": "fca2cfc597728ee01e2a6032",
+        "elapsed_seconds": 28.933,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1431,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1503,
-          "prompt_tokens": 3551,
-          "total_tokens": 4982
+          "completion_tokens": 1918,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 4004,
+          "prompt_tokens": 4004,
+          "total_tokens": 5922
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "8ed2e70c4b7d42f84e3676a7",
+        "elapsed_seconds": 32.326,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 2042,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 3900,
+          "prompt_tokens": 3900,
+          "total_tokens": 5942
         }
       }
     ],
-    "model_generation_and_validation_seconds": 26.923
+    "model_generation_and_validation_seconds": 61.27
   },
   "status": "completed_automatic",
-  "summary_count": 1,
-  "summary_file": "runtime-state/data/summaries/2026-09-09.jsonl",
+  "summary_count": 2,
+  "summary_file": "runtime-state/data/summaries/2026-09-10.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 1,
+  "summary_slot_count": 2,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "8a0187dc3ef13553d43f5bef": {
+      "8ed2e70c4b7d42f84e3676a7": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": "integrated",
+        "model_value": "hybrid",
         "repaired": true,
+        "resolved_type": "unclear"
+      },
+      "fca2cfc597728ee01e2a6032": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": null,
+        "repaired": false,
         "resolved_type": "unclear"
       }
     },
     "architecture_repairs": 1,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "8a0187dc3ef13553d43f5bef": {
+      "8ed2e70c4b7d42f84e3676a7": {
         "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "8a0187dc3ef13553d43f5bef",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 2.971,
-        "error": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-34-18-34927&html=true: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.1364/oe.607573",
-        "status": "not_available",
+        "attempt_count": 1,
+        "candidate_id": "8ed2e70c4b7d42f84e3676a7",
+        "character_count": 1965,
+        "content_sha256": "12571b08ea1e459cab7e9de5e0abc93f86f72401bf56bf4c989fe7f96bef4a89",
+        "elapsed_seconds": 1.332,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "application/xml+jats",
+        "section_headings": [
+          "implementation"
+        ],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-77397-0&p=1",
+        "status": "used",
+        "text_persisted": false
+      },
+      "fca2cfc597728ee01e2a6032": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "fca2cfc597728ee01e2a6032",
+        "character_count": 3092,
+        "content_sha256": "80deaa394a323c3d1040c5651d5bf1a1d32cfd43073aaccde98492fd1d41d208",
+        "elapsed_seconds": 1.725,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          "Method"
+        ],
+        "source_url": "https://iopscience.iop.org/article/10.1088/2632-2153/aea3a0",
+        "status": "used",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 2,
+    "generation_metadata_repair_responses": 0,
     "numeric_grounding_repair_responses": 0,
     "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 0,
+    "tops_alias_expansions": 16,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 1431,
-    "prompt_cache_hit_tokens": 2048,
-    "prompt_cache_miss_tokens": 1503,
-    "prompt_tokens": 3551,
-    "total_tokens": 4982
+    "completion_tokens": 3960,
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 7904,
+    "prompt_tokens": 7904,
+    "total_tokens": 11864
   }
 }

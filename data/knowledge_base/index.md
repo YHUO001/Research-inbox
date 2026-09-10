@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`43`
-- 更新时间：`2026-09-09T01:02:37.650157Z`
+- 论文数：`45`
+- 更新时间：`2026-09-10T01:01:42.616872Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Ferroelectrically programmable lanthanide luminescent memristor
+
+- DOI/链接：[10.1038/s41467-026-77397-0](https://doi.org/10.1038/s41467-026-77397-0)
+- 期刊/年份：Nature Communications，2026
+- 摘要日期：`2026-09-10`
+- 候选 ID：`8ed2e70c4b7d42f84e3676a7`
+- 标签：application:像素级状态识别, application:单步光学线性加权, application:混合光电手写数字推理, architecture:unclear, hardware_validation:mixed, project:optical-neural-networks
 
 ### Robust training of MZI-based optical neural networks through phase discretization
 
@@ -275,6 +283,14 @@ Perception
 - 标签：application:分布式声学传感（das）, application:图像分类（cifar-10、fashion-mnist、mnist）, application:语音识别（fsdd）, architecture:integrated, hardware_validation:mixed, project:optical-neural-networks
 
 ## zeroth-order-optimization
+
+### Gradient-based versus gradient-free optimization in hybrid quantum machine learning: a systematic benchmark
+
+- DOI/链接：[10.1088/2632-2153/aea3a0](https://doi.org/10.1088/2632-2153/aea3a0)
+- 期刊/年份：Machine Learning: Science and Technology，2026
+- 摘要日期：`2026-09-10`
+- 候选 ID：`fca2cfc597728ee01e2a6032`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
 
 ### Coverage, Not Credit: Failure-Credit Routing of Zeroth-Order Perturbation Budgets Does Not Improve On-Pool Sample Efficiency for LLM Agents
 

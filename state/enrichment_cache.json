@@ -2216,6 +2216,84 @@
       "retrieved_at": "2026-08-28T16:53:25.605839Z",
       "status": "found"
     },
+    "crossref:doi:10.1038/s41467-026-77397-0": {
+      "expires_at": "2026-10-10T01:00:34.764376Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yiyang Wen",
+            "orcid": null
+          },
+          {
+            "name": "Ziyun Chen",
+            "orcid": null
+          },
+          {
+            "name": "Yilin Cao",
+            "orcid": null
+          },
+          {
+            "name": "Wenzheng Ma",
+            "orcid": null
+          },
+          {
+            "name": "Hongda Ren",
+            "orcid": null
+          },
+          {
+            "name": "Xiaona Du",
+            "orcid": null
+          },
+          {
+            "name": "Minghao Hu",
+            "orcid": null
+          },
+          {
+            "name": "Yuhao Feng",
+            "orcid": null
+          },
+          {
+            "name": "Fan Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Xu Li",
+            "orcid": null
+          },
+          {
+            "name": "Zhenping Wu",
+            "orcid": "https://orcid.org/0000-0003-2986-8068"
+          },
+          {
+            "name": "Weiwei Liu",
+            "orcid": "https://orcid.org/0000-0001-6036-9641"
+          },
+          {
+            "name": "Jianhua Hao",
+            "orcid": "https://orcid.org/0000-0002-6186-5169"
+          },
+          {
+            "name": "Yang Zhang",
+            "orcid": "https://orcid.org/0000-0002-9840-1755"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41467-026-77397-0",
+        "landing_page": "https://doi.org/10.1038/s41467-026-77397-0",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41467-026-77397-0",
+        "publication_date": "2026-09-08",
+        "title": "Ferroelectrically programmable lanthanide luminescent memristor",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-10T01:00:34.764376Z",
+      "status": "found"
+    },
     "crossref:doi:10.1038/s41586-026-10891-z": {
       "expires_at": "2026-09-17T04:25:13.547391Z",
       "record": {
@@ -2546,6 +2624,36 @@
       "retrieved_at": "2026-08-07T01:30:20.766384Z",
       "status": "found"
     },
+    "crossref:doi:10.1088/2632-2153/aea3a0": {
+      "expires_at": "2026-10-10T01:00:36.393088Z",
+      "record": {
+        "abstract": "Abstract Hybrid Quantum Machine Learning (QML) relies on Quantum Variational Circuits (QVCs) trained together with classical components. While gradient-based training is standard, it is costly on near-term hardware and vulnerable to barren plateaus, motivating gradient-free alternatives. However, there is limited systematic evidence comparing gradient-free methods to strong gradient baselines under matched quantum-evaluation budgets. A benchmark of 14 gradient-based, gradient-free, and hybrid optimizers is conducted on four binary classification datasets and two three-qubit QVC architectures using a unified TensorFlow/PennyLane implementation with a fixed per-step quantum-evaluation budget. Across tasks, Adam is the strongest gradient-based method. Among the purely gradient-free schemes, the Asexual Reproductive Algorithm is the strongest optimizer; tournament-selection and elite-pool genetic algorithms (GA-Tourn, GA-Elite) also frequently match the best gradient-based configurations. Among the hybrid schemes, Gradient Lexicase Selection Adam (GLS-Adam) performs comparably. In contrast, the two gradient-free methods Big Bang-Big Crunch and a Cross-Entropy Method variant often fail to improve beyond chance. Overall, gradient-based methods remain robust defaults for hybrid QML, while a small subset of gradient-free and hybrid approaches provides viable alternatives under realistic quantum-evaluation constraints.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Stefan Klug",
+            "orcid": "https://orcid.org/0009-0008-5806-0790"
+          },
+          {
+            "name": "Maximilian Moll",
+            "orcid": "https://orcid.org/0000-0002-0270-3039"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1088/2632-2153/aea3a0",
+        "landing_page": "https://doi.org/10.1088/2632-2153/aea3a0",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1088/2632-2153/aea3a0",
+        "publication_date": "2026-09-07",
+        "title": "Gradient-based versus gradient-free optimization in hybrid quantum machine learning: a systematic benchmark",
+        "venue": "Machine Learning: Science and Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-10T01:00:36.393088Z",
+      "status": "found"
+    },
     "crossref:doi:10.1103/93x9-y3y9": {
       "expires_at": "2026-09-17T04:25:21.555387Z",
       "record": {
@@ -2758,6 +2866,90 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-01T01:13:16.331129Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1117/12.3121864": {
+      "expires_at": "2026-10-10T01:00:35.497210Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hangyu He",
+            "orcid": null
+          },
+          {
+            "name": "Jialong Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Haodong Yang",
+            "orcid": null
+          },
+          {
+            "name": "Jianji Dong",
+            "orcid": null
+          },
+          {
+            "name": "Jing Xu",
+            "orcid": null
+          },
+          {
+            "name": "Wenchan Dong",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3121864",
+        "landing_page": "https://doi.org/10.1117/12.3121864",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/12.3121864",
+        "publication_date": "2026-09-08",
+        "title": "All-optical speech recognition based on nonlinear diffractive neural network with picosecond latency",
+        "venue": "17th International Photonics and Optoelectronic Meetings (POEM 2026)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-10T01:00:35.497210Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1117/12.3122162": {
+      "expires_at": "2026-10-10T01:00:33.349523Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Weilu Wu",
+            "orcid": null
+          },
+          {
+            "name": "Jinlong Xiang",
+            "orcid": null
+          },
+          {
+            "name": "Yikai Su",
+            "orcid": null
+          },
+          {
+            "name": "Xuhan Guo",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3122162",
+        "landing_page": "https://doi.org/10.1117/12.3122162",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/12.3122162",
+        "publication_date": "2026-09-08",
+        "title": "A circuit-level modeling and training framework for microring-based photonic neural networks",
+        "venue": "17th International Photonics and Optoelectronic Meetings (POEM 2026)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-10T01:00:33.349523Z",
       "status": "found"
     },
     "crossref:doi:10.1117/12.3122678": {
@@ -3584,6 +3776,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-23T00:32:29.190843Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1364/oe.612295": {
+      "expires_at": "2026-10-10T01:00:33.961864Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hao Fang",
+            "orcid": null
+          },
+          {
+            "name": "Yujing Zhang",
+            "orcid": null
+          },
+          {
+            "name": "jiajun feng",
+            "orcid": null
+          },
+          {
+            "name": "shouchang liu",
+            "orcid": null
+          },
+          {
+            "name": "Xiao Xu",
+            "orcid": null
+          },
+          {
+            "name": "Liuge Du",
+            "orcid": null
+          },
+          {
+            "name": "Jia Zhao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.612295",
+        "landing_page": "https://doi.org/10.1364/oe.612295",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/oe.612295",
+        "publication_date": "2026-09-08",
+        "title": "Spatially efficient photonic neural networks using polarization-controlled MZI cores",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-10T01:00:33.961864Z",
       "status": "found"
     },
     "crossref:doi:10.1364/opticaopen.33425656": {
@@ -9618,6 +9860,84 @@
       "retrieved_at": "2026-08-28T16:53:25.962827Z",
       "status": "found"
     },
+    "openalex:doi:10.1038/s41467-026-77397-0": {
+      "expires_at": "2026-10-10T01:00:35.213775Z",
+      "record": {
+        "abstract": "Spatial-light computing requires rewritable, multilevel and persistent optical weights, but many implementations rely on volatile modulators or static power. Here we report a CMOS-imaged luminescent memristor array in which ferroelectric domain switching in Er/Yb-doped PMN-PT single crystals programs non-volatile photoluminescence (PL) states. Domain reconfiguration tunes the local crystal-field symmetry of lanthanide emitters, enabling 16 analogue levels, retention over 27 h, endurance beyond 105 cycles and microsecond-scale state programming with zero electrical standby power for state retention. An 8 × 8 array, addressed by a diffractive optical element and read by a proximal CMOS sensor, converts stored emissive states into a single-frame intensity map and achieves 94.02% pixel-wise state recognition using calibration-aware decoding. The array implements single-step optical linear weighting, while the same decoded weights support hybrid optical-electrical handwritten-digit inference approaching a 32-bit floating-point software baseline. These results establish a non-volatile, image-addressable emissive weight element for photonic computing. Spatial-light computing is limited by the lack of compact, non-volatile, rewritable analog devices. Wen et al. report a ferroelectric crystal that converts lanthanide emission into a rewritable, multilevel memory, allowing stored optical states to be read and used as persistent weights for neuromorphic computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yiyang Wen",
+            "orcid": "https://orcid.org/0009-0006-6433-1679"
+          },
+          {
+            "name": "Ziyun Chen",
+            "orcid": "https://orcid.org/0000-0001-7294-5722"
+          },
+          {
+            "name": "Yilin Cao",
+            "orcid": null
+          },
+          {
+            "name": "Wenzheng Ma",
+            "orcid": null
+          },
+          {
+            "name": "Hongda Ren",
+            "orcid": null
+          },
+          {
+            "name": "Xiaona Du",
+            "orcid": "https://orcid.org/0009-0005-2622-7435"
+          },
+          {
+            "name": "Minghao Hu",
+            "orcid": "https://orcid.org/0000-0002-2222-6823"
+          },
+          {
+            "name": "Yuhao Feng",
+            "orcid": "https://orcid.org/0000-0002-1720-9084"
+          },
+          {
+            "name": "Fan Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Xu Li",
+            "orcid": "https://orcid.org/0000-0001-5221-0817"
+          },
+          {
+            "name": "Zhenping Wu",
+            "orcid": "https://orcid.org/0000-0003-2986-8068"
+          },
+          {
+            "name": "Weiwei Liu",
+            "orcid": "https://orcid.org/0000-0001-6036-9641"
+          },
+          {
+            "name": "Jianhua Hao",
+            "orcid": "https://orcid.org/0000-0002-6186-5169"
+          },
+          {
+            "name": "Yang Zhang",
+            "orcid": "https://orcid.org/0000-0002-9840-1755"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41467-026-77397-0",
+        "landing_page": "https://doi.org/10.1038/s41467-026-77397-0",
+        "open_access_url": "https://doi.org/10.1038/s41467-026-77397-0",
+        "openalex_id": "https://openalex.org/W7211976603",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7211976603",
+        "publication_date": "2026-09-08",
+        "title": "Ferroelectrically programmable lanthanide luminescent memristor",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-10T01:00:35.213775Z",
+      "status": "found"
+    },
     "openalex:doi:10.1038/s41586-026-10891-z": {
       "expires_at": "2026-09-17T04:25:13.860712Z",
       "record": {
@@ -10178,6 +10498,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-07T01:30:21.116723Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1088/2632-2153/aea3a0": {
+      "expires_at": "2026-10-10T01:00:36.786942Z",
+      "record": {
+        "abstract": "Abstract Hybrid Quantum Machine Learning (QML) relies on Quantum Variational Circuits (QVCs) trained together with classical components. While gradient-based training is standard, it is costly on near-term hardware and vulnerable to barren plateaus, motivating gradient-free alternatives. However, there is limited systematic evidence comparing gradient-free methods to strong gradient baselines under matched quantum-evaluation budgets. A benchmark of 14 gradient-based, gradient-free, and hybrid optimizers is conducted on four binary classification datasets and two three-qubit QVC architectures using a unified TensorFlow/PennyLane implementation with a fixed per-step quantum-evaluation budget. Across tasks, Adam is the strongest gradient-based method. Among the purely gradient-free schemes, the Asexual Reproductive Algorithm is the strongest optimizer; tournament-selection and elite-pool genetic algorithms (GA-Tourn, GA-Elite) also frequently match the best gradient-based configurations. Among the hybrid schemes, Gradient Lexicase Selection Adam (GLS-Adam) performs comparably. In contrast, the two gradient-free methods Big Bang-Big Crunch and a Cross-Entropy Method variant often fail to improve beyond chance. Overall, gradient-based methods remain robust defaults for hybrid QML, while a small subset of gradient-free and hybrid approaches provides viable alternatives under realistic quantum-evaluation constraints.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Stefan Klug",
+            "orcid": null
+          },
+          {
+            "name": "Maximilian Moll",
+            "orcid": "https://orcid.org/0000-0002-0270-3039"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1088/2632-2153/aea3a0",
+        "landing_page": "https://doi.org/10.1088/2632-2153/aea3a0",
+        "open_access_url": "https://doi.org/10.1088/2632-2153/aea3a0",
+        "openalex_id": "https://openalex.org/W7211892802",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7211892802",
+        "publication_date": "2026-09-07",
+        "title": "Gradient-based versus gradient-free optimization in hybrid quantum machine learning: a systematic benchmark",
+        "venue": "Machine Learning Science and Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-10T01:00:36.786942Z",
       "status": "found"
     },
     "openalex:doi:10.1103/93x9-y3y9": {
@@ -11300,6 +11650,90 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-01T01:13:16.651992Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1117/12.3121864": {
+      "expires_at": "2026-10-10T01:00:35.871164Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hangyu He",
+            "orcid": null
+          },
+          {
+            "name": "Jialong Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Haodong Yang",
+            "orcid": null
+          },
+          {
+            "name": "Jianji Dong",
+            "orcid": null
+          },
+          {
+            "name": "Jing Xu",
+            "orcid": null
+          },
+          {
+            "name": "Wenchan Dong",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3121864",
+        "landing_page": "https://doi.org/10.1117/12.3121864",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7211940275",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7211940275",
+        "publication_date": "2026-09-08",
+        "title": "All-optical speech recognition based on nonlinear diffractive neural network with picosecond latency",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-10T01:00:35.871164Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1117/12.3122162": {
+      "expires_at": "2026-10-10T01:00:33.681537Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Weilu Wu",
+            "orcid": null
+          },
+          {
+            "name": "Jinlong Xiang",
+            "orcid": "https://orcid.org/0000-0002-3047-3461"
+          },
+          {
+            "name": "Yikai Su",
+            "orcid": null
+          },
+          {
+            "name": "Xuhan Guo",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3122162",
+        "landing_page": "https://doi.org/10.1117/12.3122162",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7211923899",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7211923899",
+        "publication_date": "2026-09-08",
+        "title": "A circuit-level modeling and training framework for microring-based photonic neural networks",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-10T01:00:33.681537Z",
       "status": "found"
     },
     "openalex:doi:10.1117/12.3122678": {
@@ -12484,6 +12918,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-09T01:02:03.399972Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1364/oe.612295": {
+      "expires_at": "2026-10-10T01:00:34.337191Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hao Fang",
+            "orcid": null
+          },
+          {
+            "name": "Yujing Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Jiajun Feng",
+            "orcid": null
+          },
+          {
+            "name": "shouchang liu",
+            "orcid": null
+          },
+          {
+            "name": "Xiao Xu",
+            "orcid": null
+          },
+          {
+            "name": "Liuge Du",
+            "orcid": null
+          },
+          {
+            "name": "Jia Zhao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.612295",
+        "landing_page": "https://doi.org/10.1364/oe.612295",
+        "open_access_url": "https://doi.org/10.1364/oe.612295",
+        "openalex_id": "https://openalex.org/W7211950512",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7211950512",
+        "publication_date": "2026-09-08",
+        "title": "Spatially efficient photonic neural networks using polarization-controlled MZI cores",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-10T01:00:34.337191Z",
       "status": "found"
     },
     "openalex:doi:10.1364/ol.611332": {

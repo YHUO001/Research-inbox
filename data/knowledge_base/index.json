@@ -244,6 +244,15 @@
       "summary_record_sha256": "02732accaf611879c61a3ff23e579c130cca18b0ec9df52e89b91484b48eca4e",
       "title": "MOCLIP: a foundation model for large-scale nanophotonic inverse design"
     },
+    "8ed2e70c4b7d42f84e3676a7": {
+      "digest_date": "2026-09-10",
+      "doi": "10.1038/s41467-026-77397-0",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "3bdc55a64a58d8bf894d986e310983ab76c0c1060c092231aa80fa8960f3d1bd",
+      "title": "Ferroelectrically programmable lanthanide luminescent memristor"
+    },
     "9322fad036b3d7fc8e3dd47b": {
       "digest_date": "2026-08-30",
       "doi": "10.14288/1.0455632",
@@ -387,6 +396,15 @@
       ],
       "summary_record_sha256": "d9bf0c037574dc3a8955781ae60856fe04b1b9e134399aea4a333bc3a6695a92",
       "title": "Event-triggered Implicit Perturbation for Zeroth-Order Fine-Tuning of Spiking Transformers"
+    },
+    "fca2cfc597728ee01e2a6032": {
+      "digest_date": "2026-09-10",
+      "doi": "10.1088/2632-2153/aea3a0",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "390b022c38319eca8e41d80f69127f0c8a18b868f35607b4ff976a3deae0f674",
+      "title": "Gradient-based versus gradient-free optimization in hybrid quantum machine learning: a systematic benchmark"
     }
   },
   "by_digest_date": {
@@ -470,6 +488,10 @@
     ],
     "2026-09-09": [
       "8a0187dc3ef13553d43f5bef"
+    ],
+    "2026-09-10": [
+      "8ed2e70c4b7d42f84e3676a7",
+      "fca2cfc597728ee01e2a6032"
     ]
   },
   "by_doi": {
@@ -484,9 +506,11 @@
     "10.1038/s41467-026-76714-x": "8ce6ad350a786420a01c4dd8",
     "10.1038/s41467-026-76872-y": "7edb19b24759fe609707ba01",
     "10.1038/s41467-026-77202-y": "d33b2e7c6586f37945facb32",
+    "10.1038/s41467-026-77397-0": "8ed2e70c4b7d42f84e3676a7",
     "10.1038/s44335-026-00086-0": "328b1572ba0e31f8f8a6dac1",
     "10.1038/s44335-026-00096-y": "35ff63ef9d3333099ee28868",
     "10.1088/1361-6633/ae9e8c": "4bb38e8bcc3a3d164bd28700",
+    "10.1088/2632-2153/aea3a0": "fca2cfc597728ee01e2a6032",
     "10.1109/icocn70692.2026.11656217": "c3474ba19a69c715eb87d391",
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
     "10.1117/12.3110867": "2b5f9302fe96c2793d48540e",
@@ -540,6 +564,7 @@
       "83a830ace13b5158f346c392",
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
+      "8ed2e70c4b7d42f84e3676a7",
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "973507e35175bb05fcf25e79",
@@ -563,7 +588,8 @@
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a",
-      "f0cf0b80e6f1f53ea347c136"
+      "f0cf0b80e6f1f53ea347c136",
+      "fca2cfc597728ee01e2a6032"
     ]
   },
   "by_tag": {
@@ -594,6 +620,9 @@
     "application:低维和高维偏微分方程求解": [
       "0e5c75b6132afcfb1f7afb17"
     ],
+    "application:像素级状态识别": [
+      "8ed2e70c4b7d42f84e3676a7"
+    ],
     "application:光信号处理": [
       "ccd82d84305d463a6c33398d"
     ],
@@ -623,6 +652,9 @@
     ],
     "application:十类分类任务": [
       "b832199d8494cc67a559fec5"
+    ],
+    "application:单步光学线性加权": [
+      "8ed2e70c4b7d42f84e3676a7"
     ],
     "application:四通道波分复用光神经网络中的非线性激活": [
       "c3474ba19a69c715eb87d391"
@@ -696,6 +728,9 @@
     ],
     "application:混合 mnist 与 fashion-mnist 的 20 类分类": [
       "b832199d8494cc67a559fec5"
+    ],
+    "application:混合光电手写数字推理": [
+      "8ed2e70c4b7d42f84e3676a7"
     ],
     "application:生物医学信号处理": [
       "7bc9d4230ed283852c3248a7"
@@ -787,6 +822,7 @@
       "83a830ace13b5158f346c392",
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
+      "8ed2e70c4b7d42f84e3676a7",
       "9322fad036b3d7fc8e3dd47b",
       "c3474ba19a69c715eb87d391",
       "c7b91f881a121b7e1651e2f2",
@@ -798,6 +834,7 @@
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
+      "8ed2e70c4b7d42f84e3676a7",
       "9322fad036b3d7fc8e3dd47b",
       "c82f6c2f7b8ae52a84e4eb29"
     ],
@@ -853,6 +890,7 @@
       "83a830ace13b5158f346c392",
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
+      "8ed2e70c4b7d42f84e3676a7",
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "973507e35175bb05fcf25e79",
@@ -876,7 +914,8 @@
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a",
-      "f0cf0b80e6f1f53ea347c136"
+      "f0cf0b80e6f1f53ea347c136",
+      "fca2cfc597728ee01e2a6032"
     ],
     "zo:forward_only": [
       "0e5c75b6132afcfb1f7afb17",
@@ -889,7 +928,8 @@
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a",
-      "f0cf0b80e6f1f53ea347c136"
+      "f0cf0b80e6f1f53ea347c136",
+      "fca2cfc597728ee01e2a6032"
     ],
     "zo:low_rank_or_subspace": [
       "0e5c75b6132afcfb1f7afb17",
@@ -902,7 +942,8 @@
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a",
-      "f0cf0b80e6f1f53ea347c136"
+      "f0cf0b80e6f1f53ea347c136",
+      "fca2cfc597728ee01e2a6032"
     ],
     "zo:query_reuse": [
       "0e5c75b6132afcfb1f7afb17",
@@ -914,7 +955,8 @@
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a",
-      "f0cf0b80e6f1f53ea347c136"
+      "f0cf0b80e6f1f53ea347c136",
+      "fca2cfc597728ee01e2a6032"
     ],
     "zo:structured_perturbation": [
       "0e5c75b6132afcfb1f7afb17",
@@ -927,7 +969,8 @@
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a",
-      "f0cf0b80e6f1f53ea347c136"
+      "f0cf0b80e6f1f53ea347c136",
+      "fca2cfc597728ee01e2a6032"
     ],
     "zo:total_query_reduction": [
       "0e5c75b6132afcfb1f7afb17",
@@ -970,12 +1013,16 @@
       "1e619f1b739f1893eae64f28",
       "973507e35175bb05fcf25e79"
     ],
+    "Machine Learning: Science and Technology": [
+      "fca2cfc597728ee01e2a6032"
+    ],
     "NPG Asia Materials": [
       "83a830ace13b5158f346c392"
     ],
     "Nature Communications": [
       "7edb19b24759fe609707ba01",
       "8ce6ad350a786420a01c4dd8",
+      "8ed2e70c4b7d42f84e3676a7",
       "d33b2e7c6586f37945facb32"
     ],
     "Open Collections": [
@@ -1062,6 +1109,7 @@
       "83a830ace13b5158f346c392",
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
+      "8ed2e70c4b7d42f84e3676a7",
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "973507e35175bb05fcf25e79",
@@ -1077,10 +1125,11 @@
       "d69a4f93ca6340969e1077a8",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a",
-      "f0cf0b80e6f1f53ea347c136"
+      "f0cf0b80e6f1f53ea347c136",
+      "fca2cfc597728ee01e2a6032"
     ]
   },
-  "paper_count": 43,
+  "paper_count": 45,
   "schema_version": 1,
-  "updated_at": "2026-09-09T01:02:37.650157Z"
+  "updated_at": "2026-09-10T01:01:42.616872Z"
 }
