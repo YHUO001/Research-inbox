@@ -127,6 +127,15 @@
       "summary_record_sha256": "70695cb6138c395e3e84b556c9ad5739bd4e9be089118c763ba8d36c3808550a",
       "title": "Full-colour imaging behind a glass diffuser through a diffractive neural network with multi-wavelength channels"
     },
+    "3c46ab2b3d315aef47db028e": {
+      "digest_date": "2026-09-11",
+      "doi": "10.48550/arxiv.2609.07666",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "a2b4d24b4f8b1735e5f0f3a6a46d29dbe7b84e4b033fa92adcabe3f5063010b4",
+      "title": "MpSub: A Momentum $p$-Dimensional Subspace Trust-Region Method for Derivative-Free Fine-Tuning of Large Language Models"
+    },
     "44fa3bd6f72c84820ce42dab": {
       "digest_date": "2026-09-04",
       "doi": "10.1126/sciadv.aee9649",
@@ -492,6 +501,9 @@
     "2026-09-10": [
       "8ed2e70c4b7d42f84e3676a7",
       "fca2cfc597728ee01e2a6032"
+    ],
+    "2026-09-11": [
+      "3c46ab2b3d315aef47db028e"
     ]
   },
   "by_doi": {
@@ -536,6 +548,7 @@
     "10.48550/arxiv.2608.21223": "f0cf0b80e6f1f53ea347c136",
     "10.48550/arxiv.2608.23178": "b03b6320be57edd77b3ad7e5",
     "10.48550/arxiv.2608.28011": "5e49047e7ce2004f7954debb",
+    "10.48550/arxiv.2609.07666": "3c46ab2b3d315aef47db028e",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799",
     "10.62311/nesx/rp2ag-30082026": "7bc9d4230ed283852c3248a7"
@@ -582,6 +595,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
       "b03b6320be57edd77b3ad7e5",
@@ -908,6 +922,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
       "b03b6320be57edd77b3ad7e5",
@@ -922,6 +937,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
       "b03b6320be57edd77b3ad7e5",
@@ -936,6 +952,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
       "b03b6320be57edd77b3ad7e5",
@@ -950,6 +967,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
@@ -963,6 +981,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "2f9953028e4e0e3b934222c8",
+      "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
       "b03b6320be57edd77b3ad7e5",
@@ -1069,6 +1088,7 @@
       "0cbf41592278a3ad1b89e219",
       "142dc76f41fc25448b82c91e",
       "2f9953028e4e0e3b934222c8",
+      "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
@@ -1096,6 +1116,7 @@
       "2f9953028e4e0e3b934222c8",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
+      "3c46ab2b3d315aef47db028e",
       "44fa3bd6f72c84820ce42dab",
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
@@ -1129,7 +1150,7 @@
       "fca2cfc597728ee01e2a6032"
     ]
   },
-  "paper_count": 45,
+  "paper_count": 46,
   "schema_version": 1,
-  "updated_at": "2026-09-10T01:01:42.616872Z"
+  "updated_at": "2026-09-11T01:00:59.624767Z"
 }

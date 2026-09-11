@@ -154,6 +154,17 @@
       "review_required": false,
       "summary_record_sha256": "70695cb6138c395e3e84b556c9ad5739bd4e9be089118c763ba8d36c3808550a"
     },
+    "3c46ab2b3d315aef47db028e": {
+      "completed_at": "2026-09-11T01:00:59.624767Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-09-11",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "97209bb1fed4b519f1ec7b5a647b48bd31697f127607d5057c1c213a158de07b",
+      "review_required": false,
+      "summary_record_sha256": "a2b4d24b4f8b1735e5f0f3a6a46d29dbe7b84e4b033fa92adcabe3f5063010b4"
+    },
     "44fa3bd6f72c84820ce42dab": {
       "completed_at": "2026-09-04T01:02:46.417807Z",
       "completion_mode": "automatic_daily_batch_after_local_validation",

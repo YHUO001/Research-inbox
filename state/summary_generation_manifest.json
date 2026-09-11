@@ -2,14 +2,7 @@
   "abstract_fallback_candidate_ids": [],
   "abstract_fallback_count": 0,
   "architecture_evidence": {
-    "8ed2e70c4b7d42f84e3676a7": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
-    },
-    "fca2cfc597728ee01e2a6032": {
+    "3c46ab2b3d315aef47db028e": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
@@ -19,55 +12,38 @@
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 2,
-  "completed_at": "2026-09-10T01:01:42.616872Z",
+  "automatic_queue_candidate_count": 1,
+  "completed_at": "2026-09-11T01:00:59.624767Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "8ed2e70c4b7d42f84e3676a7",
-    "fca2cfc597728ee01e2a6032"
+    "3c46ab2b3d315aef47db028e"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-09-10",
-  "digest_json_file": "runtime-state/data/digests/2026-09-10.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-09-10.generated.md",
+  "digest_date": "2026-09-11",
+  "digest_json_file": "runtime-state/data/digests/2026-09-11.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-09-11.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.047472,
+  "estimated_cost_cny": 0.0303,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "8ed2e70c4b7d42f84e3676a7": {
+    "3c46ab2b3d315aef47db028e": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "8ed2e70c4b7d42f84e3676a7",
-      "character_count": 1965,
-      "content_sha256": "12571b08ea1e459cab7e9de5e0abc93f86f72401bf56bf4c989fe7f96bef4a89",
-      "elapsed_seconds": 1.332,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "application/xml+jats",
-      "section_headings": [
-        "implementation"
-      ],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-77397-0&p=1",
-      "status": "used",
-      "text_persisted": false
-    },
-    "fca2cfc597728ee01e2a6032": {
-      "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "fca2cfc597728ee01e2a6032",
-      "character_count": 3092,
-      "content_sha256": "80deaa394a323c3d1040c5651d5bf1a1d32cfd43073aaccde98492fd1d41d208",
-      "elapsed_seconds": 1.725,
+      "candidate_id": "3c46ab2b3d315aef47db028e",
+      "character_count": 12000,
+      "content_sha256": "d8183c2fc553d512d8d756358e79e97d9d9c0e488ae5c5effd130bb32d03e273",
+      "elapsed_seconds": 0.782,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
       "section_headings": [
-        "Method"
+        "MpSub: A Momentum p p -Dimensional Subspace Trust-Region Method for Derivative-Free Fine-Tuning of Large Language Models Thanks: Preprint.",
+        "4.1 Experimental setup"
       ],
-      "source_url": "https://iopscience.iop.org/article/10.1088/2632-2153/aea3a0",
+      "source_url": "https://arxiv.org/html/2609.07666",
       "status": "used",
       "text_persisted": false
     }
@@ -78,7 +54,7 @@
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 2,
+  "newly_completed_candidate_count": 1,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -94,67 +70,47 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 2,
+  "prepared_request_count": 1,
   "provider": "deepseek",
-  "queue_sha256": "ad02cd8acd672bf8d83f54bd327443982c2fe0c8825e762e460171065f6b8f41",
-  "request_count": 2,
-  "request_file": "runtime-state/data/summary_requests/2026-09-10.jsonl",
-  "request_sha256": "b1bb1c8e39dbdabba1eed65247afc957926ce3b9bf60e9f32ab3293f0795932f",
+  "queue_sha256": "b7a5670932e022445ebf1d44287dd7a4d997fd53e72e320299c68d30fcd79fe9",
+  "request_count": 1,
+  "request_file": "runtime-state/data/summary_requests/2026-09-11.jsonl",
+  "request_sha256": "8b2c5e7a13669d345761ec8810295a1f306ab74ce6f5903c01e3ed2dc5475b4d",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "37d724fee2049fe9d0221993c11d3f237399c75ee94245c593108e5474127ca9",
+  "selection_manifest_sha256": "5517812a4556720a6d532bb49254737289c8874a5b2f0b0bdced9f2e7124c2af",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 2,
+  "source_queue_candidate_count": 1,
   "stage_timings": {
-    "full_text_preparation_seconds": 3.06,
+    "full_text_preparation_seconds": 0.787,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "fca2cfc597728ee01e2a6032",
-        "elapsed_seconds": 28.933,
+        "candidate_id": "3c46ab2b3d315aef47db028e",
+        "elapsed_seconds": 38.763,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1918,
-          "prompt_cache_hit_tokens": 0,
-          "prompt_cache_miss_tokens": 4004,
-          "prompt_tokens": 4004,
-          "total_tokens": 5922
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "8ed2e70c4b7d42f84e3676a7",
-        "elapsed_seconds": 32.326,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 2042,
-          "prompt_cache_hit_tokens": 0,
-          "prompt_cache_miss_tokens": 3900,
-          "prompt_tokens": 3900,
-          "total_tokens": 5942
+          "completion_tokens": 2868,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 4348,
+          "prompt_tokens": 6268,
+          "total_tokens": 9136
         }
       }
     ],
-    "model_generation_and_validation_seconds": 61.27
+    "model_generation_and_validation_seconds": 38.781
   },
   "status": "completed_automatic",
-  "summary_count": 2,
-  "summary_file": "runtime-state/data/summaries/2026-09-10.jsonl",
+  "summary_count": 1,
+  "summary_file": "runtime-state/data/summaries/2026-09-11.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 2,
+  "summary_slot_count": 1,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "8ed2e70c4b7d42f84e3676a7": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "hybrid",
-        "repaired": true,
-        "resolved_type": "unclear"
-      },
-      "fca2cfc597728ee01e2a6032": {
+      "3c46ab2b3d315aef47db028e": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": null,
@@ -162,55 +118,78 @@
         "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 1,
+    "architecture_repairs": 0,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "8ed2e70c4b7d42f84e3676a7": {
+      "3c46ab2b3d315aef47db028e": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "8ed2e70c4b7d42f84e3676a7",
-        "character_count": 1965,
-        "content_sha256": "12571b08ea1e459cab7e9de5e0abc93f86f72401bf56bf4c989fe7f96bef4a89",
-        "elapsed_seconds": 1.332,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "application/xml+jats",
-        "section_headings": [
-          "implementation"
-        ],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-77397-0&p=1",
-        "status": "used",
-        "text_persisted": false
-      },
-      "fca2cfc597728ee01e2a6032": {
-        "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "fca2cfc597728ee01e2a6032",
-        "character_count": 3092,
-        "content_sha256": "80deaa394a323c3d1040c5651d5bf1a1d32cfd43073aaccde98492fd1d41d208",
-        "elapsed_seconds": 1.725,
+        "candidate_id": "3c46ab2b3d315aef47db028e",
+        "character_count": 12000,
+        "content_sha256": "d8183c2fc553d512d8d756358e79e97d9d9c0e488ae5c5effd130bb32d03e273",
+        "elapsed_seconds": 0.782,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
         "section_headings": [
-          "Method"
+          "MpSub: A Momentum p p -Dimensional Subspace Trust-Region Method for Derivative-Free Fine-Tuning of Large Language Models Thanks: Preprint.",
+          "4.1 Experimental setup"
         ],
-        "source_url": "https://iopscience.iop.org/article/10.1088/2632-2153/aea3a0",
+        "source_url": "https://arxiv.org/html/2609.07666",
         "status": "used",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 0,
-    "numeric_grounding_repair_responses": 0,
-    "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 16,
-    "unit_format_normalization_responses": 0
+    "generation_metadata_repair_responses": 1,
+    "numeric_grounding_repair_responses": 1,
+    "numeric_grounding_repairs": {
+      "3c46ab2b3d315aef47db028e": [
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "实验设置中，在OPT-125M和OPT-350M上使用CommitmentBank进行微调，总训练目标前向评估预算为每个配置8400次。",
+          "path": "method_implementation[4]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "8400"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "实验证明在8400次训练目标前向评估预算下，MpSub在OPT-125M和OPT-350M上获得平均测试准确率0.673和0.690，与经调参的MeZO（0.685）相当，无需学习率搜索。",
+          "path": "main_contributions[5]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "8400"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "在8400次训练目标前向评估预算下，MpSub在OPT-125M和OPT-350M上的CommitmentBank测试准确率分别为0.673和0.690（三个种子平均），与经调参的MeZO的0.685相当。",
+          "path": "reported_results[0].claim",
+          "replacement": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "8400"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "摘要明确说明每迭代需要2p+2次函数评估（用于中心差分和候选点），总预算为8400次训练目标前向评估；",
+          "path": "zeroth_order_analysis.per_step_vs_total_clarity",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "8400"
+          ]
+        }
+      ]
+    },
+    "tops_alias_expansions": 27,
+    "unit_format_normalization_responses": 1
   },
   "usage": {
-    "completion_tokens": 3960,
-    "prompt_cache_hit_tokens": 0,
-    "prompt_cache_miss_tokens": 7904,
-    "prompt_tokens": 7904,
-    "total_tokens": 11864
+    "completion_tokens": 2868,
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 4348,
+    "prompt_tokens": 6268,
+    "total_tokens": 9136
   }
 }
