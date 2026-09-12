@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`46`
-- 更新时间：`2026-09-11T01:00:59.624767Z`
+- 论文数：`47`
+- 更新时间：`2026-09-12T00:59:57.492097Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Smoothing Design Reshapes High‐Performance Broadband Optical Diffractive Neural Networks on Fiber End Facets
+
+- DOI/链接：[10.1002/lpor.71857](https://doi.org/10.1002/lpor.71857)
+- 期刊/年份：Laser &amp; Photonics Reviews，2026
+- 摘要日期：`2026-09-12`
+- 候选 ID：`15e7193239d6058f661ff180`
+- 标签：application:模式解复用, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Ferroelectrically programmable lanthanide luminescent memristor
 

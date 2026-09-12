@@ -46,6 +46,15 @@
       "summary_record_sha256": "37253d9a87aa5ef705506ff5770ebde59077ed2baab84197e48a23180e27d747",
       "title": "Noise-Aware Shrinkage for Differentially Private Zeroth-Order Fine-Tuning of Large Language Models"
     },
+    "15e7193239d6058f661ff180": {
+      "digest_date": "2026-09-12",
+      "doi": "10.1002/lpor.71857",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "f3c1e32639738ae826546c6bb2de67845f66deb04d8ad747f1c71ec8e53232fe",
+      "title": "Smoothing Design Reshapes High‐Performance Broadband Optical Diffractive Neural Networks on Fiber End Facets"
+    },
     "172a6e3e7b78c39c328487a6": {
       "digest_date": "2026-08-10",
       "doi": "10.1145/3770855.3817738",
@@ -504,11 +513,15 @@
     ],
     "2026-09-11": [
       "3c46ab2b3d315aef47db028e"
+    ],
+    "2026-09-12": [
+      "15e7193239d6058f661ff180"
     ]
   },
   "by_doi": {
     "10.1002/adom.71567": "ccd82d84305d463a6c33398d",
     "10.1002/adom.71712": "c82f6c2f7b8ae52a84e4eb29",
+    "10.1002/lpor.71857": "15e7193239d6058f661ff180",
     "10.1007/s10915-026-03433-2": "7719ae17086cb97168bebbc5",
     "10.1021/acsphotonics.6c00831": "2eb28d7201afb356d747693a",
     "10.1021/acsphotonics.6c01155": "d69a4f93ca6340969e1077a8",
@@ -559,6 +572,7 @@
       "09e1a0ed403ef22abbd9b189",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
+      "15e7193239d6058f661ff180",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "1e619f1b739f1893eae64f28",
@@ -731,6 +745,9 @@
     "application:机器视觉": [
       "83a830ace13b5158f346c392"
     ],
+    "application:模式解复用": [
+      "15e7193239d6058f661ff180"
+    ],
     "application:水下成像": [
       "35ff63ef9d3333099ee28868"
     ],
@@ -820,6 +837,7 @@
       "028de8014a2b67fd147a28e7",
       "09e1a0ed403ef22abbd9b189",
       "0cbf41592278a3ad1b89e219",
+      "15e7193239d6058f661ff180",
       "1e35265ce8678ca96adb8b93",
       "1e619f1b739f1893eae64f28",
       "2b5f9302fe96c2793d48540e",
@@ -853,6 +871,7 @@
       "c82f6c2f7b8ae52a84e4eb29"
     ],
     "hardware_validation:physical_experiment": [
+      "15e7193239d6058f661ff180",
       "1e619f1b739f1893eae64f28",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
@@ -886,6 +905,7 @@
       "09e1a0ed403ef22abbd9b189",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
+      "15e7193239d6058f661ff180",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "1e619f1b739f1893eae64f28",
@@ -1028,6 +1048,9 @@
     "Journal of Scientific Computing": [
       "7719ae17086cb97168bebbc5"
     ],
+    "Laser &amp; Photonics Reviews": [
+      "15e7193239d6058f661ff180"
+    ],
     "Light: Science &amp; Applications": [
       "1e619f1b739f1893eae64f28",
       "973507e35175bb05fcf25e79"
@@ -1107,6 +1130,7 @@
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
+      "15e7193239d6058f661ff180",
       "172a6e3e7b78c39c328487a6",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
@@ -1150,7 +1174,7 @@
       "fca2cfc597728ee01e2a6032"
     ]
   },
-  "paper_count": 46,
+  "paper_count": 47,
   "schema_version": 1,
-  "updated_at": "2026-09-11T01:00:59.624767Z"
+  "updated_at": "2026-09-12T00:59:57.492097Z"
 }
