@@ -1,0 +1,100 @@
+{
+  "completion": {
+    "architecture_repairs": 0,
+    "completed_at": "2026-09-13T01:08:02.825022Z",
+    "mode": "automatic_daily_batch_after_local_validation"
+  },
+  "delivery": {
+    "mode": "separate_daily_digest_workflow",
+    "status": "pending"
+  },
+  "digest_date": "2026-09-13",
+  "digest_version": 2,
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": true,
+    "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+    "numeric_grounding_scope": "title_and_abstract_only",
+    "review_required": false,
+    "summary_history_updated": true
+  },
+  "schema_version": 2,
+  "status": "completed_automatic",
+  "summaries": [
+    {
+      "candidate_id": "380b726618cccff0a9e5514f",
+      "core_problem": "片上光子计算虽进展迅速，但光学神经网络仍受限于卷积核表达能力有限、光学非线性弱以及硬件开销大。本文针对这些问题，提出一种紧凑的微环谐振器光子卷积神经网络，用于从星座图进行调制格式分类。",
+      "distinction_from_prior_work": "与已有方法相比，本文采用级联双微环单元和上传-下载微环谐振器构建光学线性层，通过相位补偿机制实现双端口混合，并利用差分直通和上下行读出实现带符号卷积核系数。相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+      "limitations_and_open_questions": [
+        "所提光子卷积神经网络主要在仿真平台上进行验证，尚未提供物理芯片上的实验测量结果。",
+        "对于制造容差、温度漂移和长期稳定性等实际部署问题，文中仅给出了一阶资源预算分析，未进行系统研究。",
+        "与ResNet、DenseNet等电子基线相比，PCNN在48×48分辨率下的绝对准确率仍低约2.11%~4.94%。",
+        "未提供关于不同信噪比条件下性能下降情况的详细讨论。"
+      ],
+      "main_contributions": [
+        "提出了一种基于级联双微环单元和上传-下载微环谐振器的紧凑光子卷积神经网络架构。",
+        "通过相位补偿机制实现双端口混合，并通过差分直通与上下行读出实现带符号卷积核系数。",
+        "在RML2016.10a数据集派生的星座图上，以0.25百万可训练参数和0.001 GFLOPs的计算量，在16×16、32×32、48×48分辨率下分别达到82.58%、87.85%和91.94%的准确率。",
+        "提供了显式的物理-网络参数映射和一阶实现预算分析，表明在严格计算和硬件预算下可实现紧凑可编程的光子调制格式识别。"
+      ],
+      "method_and_architecture": "该方法构建了一个光子卷积神经网络，其光学线性层由级联双微环单元和上传-下载微环谐振器组成。级联双微环单元通过相位补偿机制实现光学线性层的双端口混合；上传-下载微环谐振器利用差分直通端口和上下行读出实现带符号的卷积核系数。输入为从RML2016.10a数据集生成的星座图，输出为调制格式类别。",
+      "method_implementation": [
+        "系统输入为从RML2016.10a数据集生成的星座图，分辨率分别为16×16、32×32或48×48。星座图被编码为光信号的强度或相位分布，并送入光子卷积层。光子卷积层由级联双微环单元和上传-下载微环谐振器阵列组成：前者通过热光移相器调节耦合/失谐相位，实现双端口混合和相位补偿；后者的每个微环对应一个卷积核系数，其直通端口和下载端口的强度差给出带符号权重。",
+        "卷积核系数由上传-下载微环谐振器的差分读出决定：w_k = T_drop(φ_k) − T_through(φ_k)，其中φ_k由热光加热器在[−π,0]范围内调节。级联双微环单元的2×2混合角θ_{l,d,m}和内部补偿相位φ_{l,d,m}也由热光加热器控制，用于实现所需的酉变换或多端口干涉。分类器采用微环权重库，利用校准环的下载端口强度T_drop(ψ_ij^cls)作为权重，其值域为一个有界范围。",
+        "训练时，所有可训练参数（φ_k、θ、φ_comp、ψ_ij^cls）通过反向传播联合优化，优化器未在提供的方法上下文中明确说明。由于光子器件的响应函数可以解析表达，梯度可通过自动微分或解析导数获得。训练目标为最小化分类交叉熵损失。物理参数如环的自耦合系数r1、r2和往返幅度a为制造确定常数，不参与训练。",
+        "实现预算分析表明，该PCNN仅需约0.25百万可训练参数，计算量为0.001 GFLOPs。推断时，输入星座图被转换成光信号，经过光学线性层完成卷积运算，再经过光电转换和非线性激活（如ReLU或其他非线性）后送入分类器，最终输出11类调制格式的概率分布。"
+      ],
+      "method_principle": "光子卷积神经网络利用微环谐振器的光谱响应实现线性加权求和。上传-下载微环的直通端口与下载端口的光强随环内相位呈互补变化，两者之差形成可正可负的权重，从而支持带符号卷积核，提升网络表达能力。级联双微环单元通过调节耦合相位与补偿相位，可实现任意2×2酉变换，等效于光学矩阵乘法中的基本单元。多个单元级联构成卷积层的线性变换，其权重由热光相位直接映射。因此，光信号在传播过程中按网络结构完成加权和干涉，输出强度代表特征图。由于光子矩阵乘法在光域并行完成，功耗和计算延迟远低于电子实现，同时参数数量极小。光学非线性通常较弱，文中可能结合电子非线性或光电探测器的平方律响应作为激活，但具体实现未在方法上下文中详述。整体架构通过物理参数与网络权重的显式对应关系，实现了可训练、可编程且硬件开销低的调制格式分类器。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "调制格式分类",
+          "从星座图识别11种调制类型"
+        ],
+        "architecture_type": "integrated",
+        "calibration_requirements": "文中提到分类器使用校准环，并提供了一阶实现预算分析，但未描述具体校准流程。",
+        "hardware_validation": "simulation_only",
+        "optical_nonlinearity": "未明确说明。可能利用光电探测器的平方律响应或电子非线性，但摘要和上下文未提供具体信息。",
+        "training_method": "通过反向传播联合训练热光相移参数，物理参数（自耦合系数、损耗）固定；推理时直接由光学器件执行卷积。"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "在RML2016.10a数据集派生的星座图上，PCNN在16×16、32×32、48×48输入分辨率下分别达到82.58%、87.85%和91.94%的准确率。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "所提PCNN仅需0.25百万可训练参数和0.001 GFLOPs计算量。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。与DenseNet、ResNet相比准确率分别低2.11%和4.94%，但参数分别减少44.8×和32.0×，FLOPs分别减少1800×和2900×。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该研究为在严格计算与硬件预算下实现光学调制格式识别提供了一条紧凑、可编程的路径，证明了基于微环谐振器的光子卷积网络能以极少参数量和计算量达到有竞争力的精度，对低功耗、高速度光通信信号处理具有潜在应用价值。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": true,
+        "full_text_method_source_url": "https://opg.optica.org/ao/abstract.cfm?uri=ao-65-27-9222",
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+        "missing_information": [
+          "具体训练超参数（优化器、学习率、批次大小等）未提供。",
+          "光学非线性激活的具体实现方式未描述。",
+          "芯片制造参数或版图细节未提供。",
+          "校准流程的详细步骤未说明。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    }
+  ],
+  "summary_count": 1
+}

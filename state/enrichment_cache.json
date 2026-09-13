@@ -606,6 +606,68 @@
       "retrieved_at": "2026-09-12T00:59:34.622992Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/mgea.70097": {
+      "expires_at": "2026-10-13T01:07:34.072511Z",
+      "record": {
+        "abstract": "ABSTRACT Large language model (LLM)‐based structured knowledge extraction from materials literature is hindered by heterogeneous reporting, schema sensitivity, and prompt dependence. In this study, we present IGA‐POLLM, a gradient‐free prompt‐optimization framework that reformulates prompt engineering as a discrete combinatorial search using six schema‐aligned semantic gene components and an improved genetic algorithm with dynamic crossover/mutation scheduling, tournament selection, and elitist retention. Using corrosion inhibitor literature as a model materials literature system, IGA‐POLLM optimizes prompts for strict JSON‐based extraction of five fields from parsed PDFs. A hierarchical F 1‐based fitness function with hybrid matching aligns optimization with practical database construction. On a dataset of 130 papers, IGA‐POLLM outperforms standard genetic optimization ( F 1 of 0.8571 vs. 0.8208) while reducing runtime (5.6 vs. 8.2 h), generalizes across five publishers (mean F 1 > 0.85), and transfers consistently across five mainstream LLMs. The framework is schema‐driven and extensible to other materials subdomains.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hengju Xiang",
+            "orcid": null
+          },
+          {
+            "name": "Suyu Jin",
+            "orcid": "https://orcid.org/0009-0009-9173-7414"
+          },
+          {
+            "name": "Zhongheng Fu",
+            "orcid": "https://orcid.org/0000-0001-8779-9086"
+          },
+          {
+            "name": "Guangxuan Song",
+            "orcid": null
+          },
+          {
+            "name": "Jiamin Pei",
+            "orcid": null
+          },
+          {
+            "name": "Zewei Gu",
+            "orcid": null
+          },
+          {
+            "name": "Tian Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Wenxuan Fan",
+            "orcid": "https://orcid.org/0009-0002-0570-646X"
+          },
+          {
+            "name": "Qiuji Wang",
+            "orcid": null
+          },
+          {
+            "name": "Dawei Zhang",
+            "orcid": "https://orcid.org/0000-0002-6546-6181"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/mgea.70097",
+        "landing_page": "https://doi.org/10.1002/mgea.70097",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/mgea.70097",
+        "publication_date": "2026-09-07",
+        "title": "IGA‐POLLM: An Improved Genetic Algorithm for Prompt Optimization in Materials Literature Information Extraction",
+        "venue": "Materials Genome Engineering Advances",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-13T01:07:34.072511Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/nap2.70242": {
       "expires_at": "2026-09-17T04:25:18.637501Z",
       "record": {
@@ -2554,6 +2616,12 @@
       "retrieved_at": "2026-09-03T01:03:40.352439Z",
       "status": "found"
     },
+    "crossref:doi:10.1039/d6cp02326f/13779554/d6cp02326f": {
+      "expires_at": "2026-10-13T01:07:29.813861Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:29.813861Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.1080/19942060.2026.2682112": {
       "expires_at": "2026-09-08T00:36:02.501150Z",
       "record": {
@@ -4302,10 +4370,22 @@
       "retrieved_at": "2026-08-18T04:25:14.957375Z",
       "status": "found"
     },
+    "crossref:title:043eb451a4c6e0905bd116dd40db2c57a5de03d674bef236f4a1f5db91d7e108": {
+      "expires_at": "2026-09-20T01:07:30.486094Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:30.486094Z",
+      "status": "not_found"
+    },
     "crossref:title:06c1573614d7cec8aafdeabdbf04c206c9e42daeec19bd7a0690045235f26758": {
       "expires_at": "2026-09-07T01:07:10.369066Z",
       "record": null,
       "retrieved_at": "2026-08-31T01:07:10.369066Z",
+      "status": "not_found"
+    },
+    "crossref:title:0863bdf41b7653844ffb40fe45bc522c7423e871cf57794d46d910add9afe9a2": {
+      "expires_at": "2026-09-20T01:07:25.764659Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:25.764659Z",
       "status": "not_found"
     },
     "crossref:title:0f8c4e0a9f7dbce7dfea5017263591b2cbf2d3204d9a790cff62b5e4c9f44859": {
@@ -4628,6 +4708,12 @@
       "retrieved_at": "2026-08-20T00:32:29.038187Z",
       "status": "not_found"
     },
+    "crossref:title:263ed055819ba5f74c75d0aabc2ffe52c75589a67af2bc95a38034db5105664f": {
+      "expires_at": "2026-09-20T01:07:23.660421Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:23.660421Z",
+      "status": "not_found"
+    },
     "crossref:title:26dea586d5bd8dcdb9216738efab381980483260809f8bcd1fd6a7fe4b9d5395": {
       "expires_at": "2026-09-14T01:06:38.804642Z",
       "record": null,
@@ -4829,6 +4915,12 @@
       },
       "retrieved_at": "2026-08-22T00:32:17.951645Z",
       "status": "found"
+    },
+    "crossref:title:3f0fe9ff0903f34ce58f6f8ecb3df9c7df258013855792d3bcfdb13a071eb443": {
+      "expires_at": "2026-09-20T01:07:33.315552Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:33.315552Z",
+      "status": "not_found"
     },
     "crossref:title:4114fbae9b962f3a411545fc2497676637fc049a1bd9ba04ff31061fd75a8483": {
       "expires_at": "2026-09-02T00:32:42.903232Z",
@@ -5650,6 +5742,12 @@
       "retrieved_at": "2026-08-09T00:36:08.311312Z",
       "status": "found"
     },
+    "crossref:title:7c1a6ab395c6b4e253b48f1554aae723463a1fc5b1449be976fc11625f11cc8f": {
+      "expires_at": "2026-09-20T01:07:28.807451Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:28.807451Z",
+      "status": "not_found"
+    },
     "crossref:title:7d4ac24d04e0b22cfb9f98a3ec9da4cb37fc213c8632c2867a02ef3fcc5841e3": {
       "expires_at": "2026-09-02T00:32:41.276094Z",
       "record": {
@@ -5986,6 +6084,12 @@
       "retrieved_at": "2026-08-31T01:07:03.210046Z",
       "status": "found"
     },
+    "crossref:title:9cb99423c27621a002223c9a5fd617a530e071b1271c0ed8964d9ab6ccdfb669": {
+      "expires_at": "2026-09-20T01:07:21.975563Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:21.975563Z",
+      "status": "not_found"
+    },
     "crossref:title:9db74335bc487590184a65058a762fbe1c4c1a1f1e63d7599e22083b270f2a3e": {
       "expires_at": "2026-08-25T04:25:21.050819Z",
       "record": null,
@@ -6088,6 +6192,72 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-29T00:54:11.524325Z",
+      "status": "found"
+    },
+    "crossref:title:a17fe117ca806ce076a412f5c37e0c037b9e19547ccc0d88907da00c098c1bcc": {
+      "expires_at": "2026-09-20T01:07:24.859801Z",
+      "record": {
+        "abstract": "Despite the rapid progress of on-chip photonic computing, optical neural networks (ONNs) remain constrained by limited kernel expressivity, weak nonlinearities, and substantial hardware overhead. To address these limitations, we propose a compact microring resonator (MRR)-based photonic convolutional neural network (PCNN) for modulation format classification from constellation diagrams. This architecture is based on cascaded dual-microring units and add–drop MRRs; the former achieves dual-port mixing in the optical linear layer through a phase compensation mechanism while the latter utilizes differential pass-through and up/down-link readout to implement signed convolution kernel coefficients. On constellation diagrams derived from the RML2016.10a dataset, the proposed PCNN achieves accuracies of 82.58%, 87.85%, and 91.94% at input resolutions of 16×16, 32×32, and 48×48, respectively, with only 0.25 million trainable parameters and 0.001 GFLOPs. We further provide an explicit physics-to-network parameter mapping and a first-order implementation-budget analysis, indicating a compact and programmable photonic route to modulation format recognition under tight computational and hardware budgets.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yulin Li",
+            "orcid": null
+          },
+          {
+            "name": "Guang Chen",
+            "orcid": "https://orcid.org/0000-0001-5611-6561"
+          },
+          {
+            "name": "Lidan Lu",
+            "orcid": "https://orcid.org/0000-0003-1029-0083"
+          },
+          {
+            "name": "Senyan Chun",
+            "orcid": null
+          },
+          {
+            "name": "Yingjie Xu",
+            "orcid": null
+          },
+          {
+            "name": "Fengyu She",
+            "orcid": null
+          },
+          {
+            "name": "Guangping Zhong",
+            "orcid": null
+          },
+          {
+            "name": "Zhanbin Hou",
+            "orcid": null
+          },
+          {
+            "name": "Yirui Sun",
+            "orcid": null
+          },
+          {
+            "name": "Ruijiao Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Lianqing Zhu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/ao.598894",
+        "landing_page": "https://doi.org/10.1364/ao.598894",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/ao.598894",
+        "publication_date": "2026-09-20",
+        "title": "Lightweight programmable microring resonator photonic convolutional neural network for modulation format classification",
+        "venue": "Applied Optics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-13T01:07:24.859801Z",
       "status": "found"
     },
     "crossref:title:a1e9df18ed0ab1290e5eac26eb0b1960b570f6578a6c2d826dafb6737712e21a": {
@@ -6410,6 +6580,12 @@
       "retrieved_at": "2026-08-31T01:07:08.199185Z",
       "status": "found"
     },
+    "crossref:title:b9e7d3443e81c6f8b4d85cf32dee8fcc2167a5c13248682f8afba4fcfae119f6": {
+      "expires_at": "2026-09-20T01:07:27.402086Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:27.402086Z",
+      "status": "not_found"
+    },
     "crossref:title:ba94cca16e64e04bafe919a40c4704a5b86d61d54dc7c1b74c857c46b2f5cbc6": {
       "expires_at": "2026-08-25T04:25:36.931885Z",
       "record": {
@@ -6600,6 +6776,36 @@
       "retrieved_at": "2026-08-04T09:38:28.475680Z",
       "status": "not_found"
     },
+    "crossref:title:c3ac238e21a1fc518fa3f9758e49130afe7b286b49595292cc174fccdc27fc01": {
+      "expires_at": "2026-09-20T01:07:32.158453Z",
+      "record": {
+        "abstract": "Topology optimization is an effective method for obtaining high-performance material distributions with novel configurations. However, its application to complex electromagnetic devices remains challenging because of the difficulty of deriving sensitivities and the low computational efficiency associated with repeated finite element method (FEM) evaluations for nonlinear materials. This paper proposes an efficient gradient-free topology optimization method that integrates superellipse curves with a multilayer perceptron (MLP) surrogate model while accounting for nonlinearity. First, based on the general superellipse curve, an improved expression is introduced, in which the size, shape, and position can be flexibly controlled by only seven parameters. Then, a parameterized superellipse-curve-based gradient-free topology optimization framework is established, which can be applied to complex electromagnetic devices with nonlinear materials and complex objective functions. Moreover, a lightweight MLP-based surrogate model is constructed using limited training samples generated by Latin hypercube sampling and FEM, and it can replace FEM for evaluating nonlinear material behavior with negligible computational cost. Finally, the proposed topology optimization framework is applied to the design of a magnetic actuator, both with and without considering nonlinear B–H characteristics, demonstrating its effectiveness.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Fengyi Jin",
+            "orcid": "https://orcid.org/0009-0009-3899-6791"
+          },
+          {
+            "name": "Yanli Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/mi17091074",
+        "landing_page": "https://doi.org/10.3390/mi17091074",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/mi17091074",
+        "publication_date": "2026-09-10",
+        "title": "An Efficient Gradient-Free Topology Optimization Method Based on Superellipse Curves and a Multilayer Perceptron Surrogate",
+        "venue": "Micromachines",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-13T01:07:32.158453Z",
+      "status": "found"
+    },
     "crossref:title:c4d79688cf1020e546d937044a70d43156bcdb7ed5074122b89796a4ef43d462": {
       "expires_at": "2026-08-25T04:25:25.323474Z",
       "record": null,
@@ -6729,6 +6935,12 @@
       },
       "retrieved_at": "2026-08-10T00:36:49.160804Z",
       "status": "found"
+    },
+    "crossref:title:d22208955223ef9ce1ae12b0612330cb6007e94886f7e0ce83690eb5d2e7b294": {
+      "expires_at": "2026-09-20T01:07:38.014646Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:38.014646Z",
+      "status": "not_found"
     },
     "crossref:title:d3e29461a94a24a19e9514549c08a740b6826f00a41af026d18c5aa377352535": {
       "expires_at": "2026-08-25T04:25:13.165141Z",
@@ -7190,10 +7402,74 @@
       "retrieved_at": "2026-08-18T04:25:06.087066Z",
       "status": "not_found"
     },
+    "crossref:title:ecdcee214f4ab495b373905b979e900f917e639973efafc883f93b7a4c2ebd36": {
+      "expires_at": "2026-09-20T01:07:36.658080Z",
+      "record": {
+        "abstract": "Electroencephalography (EEG) decoding is fundamental to brain–computer interfaces (BCIs), yet remains challenging due to the intrinsic nonstationarity, low signal-to-noise ratio, and high dimensionality of multichannel recordings. To improve decoding robustness while enabling efficient hardware implementation, we propose a photonic attention-augmented spiking neural network (SNN) that integrates attention mechanisms with multi-timescale spiking neurons in a unified optoelectronic architecture. Multi-timescale photonic spiking neurons are experimentally realized using a distributed-feedback laser with a saturable absorber (DFB-SA) in combination with radio-frequency power dividers, enabling temporal integration across multiple time steps. Besides, negative-valued neural signals are supported via an effective threshold-shifting encoding strategy, enabling signed information processing within the photonic neuron dynamics. Evaluated on the EEGMMIDB motor-execution benchmark, the optoelectronic implementation achieves accuracies of 88.44%, 84.85%, and 82.71% on three classification tasks, closely matching the software baseline. Ablation results verify that the attention modules contribute effectively to EEG decoding performance. System-level analysis of energy consumption and latency demonstrates the potential of the proposed framework for high-throughput, energy-efficient EEG decoding, providing a promising pathway toward next-generation BCI accelerators.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yanan Han",
+            "orcid": null
+          },
+          {
+            "name": "Qing Bi",
+            "orcid": null
+          },
+          {
+            "name": "Shuiying Xiang",
+            "orcid": "https://orcid.org/0000-0002-1698-2083"
+          },
+          {
+            "name": "Yahui Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Xingxing Guo",
+            "orcid": null
+          },
+          {
+            "name": "Jin Li",
+            "orcid": null
+          },
+          {
+            "name": "Yuechun Shi",
+            "orcid": "https://orcid.org/0000-0002-9834-3460"
+          },
+          {
+            "name": "Weitao Pan",
+            "orcid": null
+          },
+          {
+            "name": "Yue Hao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.592163",
+        "landing_page": "https://doi.org/10.1364/oe.592163",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/oe.592163",
+        "publication_date": "2026-09-21",
+        "title": "EEG decoding with attention-augmented photonic spiking neural network based on multi-timescale laser neurons",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-13T01:07:36.658080Z",
+      "status": "found"
+    },
     "crossref:title:ef63a7f91c3b5ef8a19ee9368e136e4954362b505b62725abd03830c35937e1b": {
       "expires_at": "2026-08-27T00:32:23.976550Z",
       "record": null,
       "retrieved_at": "2026-08-20T00:32:23.976550Z",
+      "status": "not_found"
+    },
+    "crossref:title:f5ab57ac7e603ce67f736c744d43952cf525bcbf37ba3d24e6d377c07bf7e87f": {
+      "expires_at": "2026-09-20T01:07:35.132723Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:35.132723Z",
       "status": "not_found"
     },
     "crossref:title:f630768b0bad8d03283e0d7bf4f1d209f47728f2eebe201393016ddcf6bb6d44": {
@@ -7922,6 +8198,68 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-12T00:59:34.986810Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/mgea.70097": {
+      "expires_at": "2026-10-13T01:07:34.513037Z",
+      "record": {
+        "abstract": "ABSTRACT Large language model (LLM)‐based structured knowledge extraction from materials literature is hindered by heterogeneous reporting, schema sensitivity, and prompt dependence. In this study, we present IGA‐POLLM, a gradient‐free prompt‐optimization framework that reformulates prompt engineering as a discrete combinatorial search using six schema‐aligned semantic gene components and an improved genetic algorithm with dynamic crossover/mutation scheduling, tournament selection, and elitist retention. Using corrosion inhibitor literature as a model materials literature system, IGA‐POLLM optimizes prompts for strict JSON‐based extraction of five fields from parsed PDFs. A hierarchical F 1‐based fitness function with hybrid matching aligns optimization with practical database construction. On a dataset of 130 papers, IGA‐POLLM outperforms standard genetic optimization ( F 1 of 0.8571 vs. 0.8208) while reducing runtime (5.6 vs. 8.2 h), generalizes across five publishers (mean F 1 > 0.85), and transfers consistently across five mainstream LLMs. The framework is schema‐driven and extensible to other materials subdomains.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hengju Xiang",
+            "orcid": null
+          },
+          {
+            "name": "Suyu Jin",
+            "orcid": "https://orcid.org/0009-0009-9173-7414"
+          },
+          {
+            "name": "Zhongheng Fu",
+            "orcid": "https://orcid.org/0000-0001-8779-9086"
+          },
+          {
+            "name": "Guangxuan Song",
+            "orcid": "https://orcid.org/0000-0003-2007-1431"
+          },
+          {
+            "name": "Jiamin Pei",
+            "orcid": "https://orcid.org/0000-0003-3984-7105"
+          },
+          {
+            "name": "Zewei Gu",
+            "orcid": null
+          },
+          {
+            "name": "Tian Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Wenxuan Fan",
+            "orcid": "https://orcid.org/0009-0002-0570-646X"
+          },
+          {
+            "name": "Qiuji Wang",
+            "orcid": null
+          },
+          {
+            "name": "Dawei Zhang",
+            "orcid": "https://orcid.org/0000-0002-6546-6181"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/mgea.70097",
+        "landing_page": "https://doi.org/10.1002/mgea.70097",
+        "open_access_url": "https://doi.org/10.1002/mgea.70097",
+        "openalex_id": "https://openalex.org/W7211905994",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7211905994",
+        "publication_date": "2026-09-07",
+        "title": "IGA‐POLLM: An Improved Genetic Algorithm for Prompt Optimization in Materials Literature Information Extraction",
+        "venue": "Materials Genome Engineering Advances",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-13T01:07:34.513037Z",
       "status": "found"
     },
     "openalex:doi:10.1002/nap2.70242": {
@@ -10550,6 +10888,12 @@
       "retrieved_at": "2026-08-31T01:07:03.633527Z",
       "status": "found"
     },
+    "openalex:doi:10.1039/d6cp02326f/13779554/d6cp02326f": {
+      "expires_at": "2026-10-13T01:07:30.140524Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:30.140524Z",
+      "status": "not_found"
+    },
     "openalex:doi:10.1063/5.0339283": {
       "expires_at": "2026-09-03T09:38:22.171450Z",
       "record": {
@@ -12754,6 +13098,72 @@
       "retrieved_at": "2026-08-04T09:38:57.606662Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/ao.598894": {
+      "expires_at": "2026-10-13T01:07:25.277967Z",
+      "record": {
+        "abstract": "Despite the rapid progress of on-chip photonic computing, optical neural networks (ONNs) remain constrained by limited kernel expressivity, weak nonlinearities, and substantial hardware overhead. To address these limitations, we propose a compact microring resonator (MRR)-based photonic convolutional neural network (PCNN) for modulation format classification from constellation diagrams. This architecture is based on cascaded dual-microring units and add–drop MRRs; the former achieves dual-port mixing in the optical linear layer through a phase compensation mechanism while the latter utilizes differential pass-through and up/down-link readout to implement signed convolution kernel coefficients. On constellation diagrams derived from the RML2016.10a dataset, the proposed PCNN achieves accuracies of 82.58%, 87.85%, and 91.94% at input resolutions of 16×16, 32×32, and 48×48, respectively, with only 0.25 million trainable parameters and 0.001 GFLOPs. We further provide an explicit physics-to-network parameter mapping and a first-order implementation-budget analysis, indicating a compact and programmable photonic route to modulation format recognition under tight computational and hardware budgets.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yulin Li",
+            "orcid": null
+          },
+          {
+            "name": "Guang Chen",
+            "orcid": null
+          },
+          {
+            "name": "Lidan Lu",
+            "orcid": null
+          },
+          {
+            "name": "sen chun",
+            "orcid": null
+          },
+          {
+            "name": "Yingjie Xu",
+            "orcid": "https://orcid.org/0000-0002-8557-7196"
+          },
+          {
+            "name": "F.H. She",
+            "orcid": null
+          },
+          {
+            "name": "仲光苹",
+            "orcid": null
+          },
+          {
+            "name": "Zhanbin Hou",
+            "orcid": null
+          },
+          {
+            "name": "Yirui Sun",
+            "orcid": null
+          },
+          {
+            "name": "Ruijiao Zhang",
+            "orcid": "https://orcid.org/0000-0003-3068-0388"
+          },
+          {
+            "name": "Lianqing Zhu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/ao.598894",
+        "landing_page": "https://doi.org/10.1364/ao.598894",
+        "open_access_url": "https://doi.org/10.6084/m9.figshare.c.8512407",
+        "openalex_id": "https://openalex.org/W7204589048",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204589048",
+        "publication_date": "2026-08-28",
+        "title": "Lightweight programmable microring resonator photonic convolutional neural network for modulation format classification",
+        "venue": "Applied Optics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-13T01:07:25.277967Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/cleo_at.2026.atu1e.6": {
       "expires_at": "2026-09-03T09:38:51.368427Z",
       "record": {
@@ -12930,6 +13340,64 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:48.442310Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1364/oe.592163": {
+      "expires_at": "2026-10-13T01:07:36.986991Z",
+      "record": {
+        "abstract": "Electroencephalography (EEG) decoding is fundamental to brain–computer interfaces (BCIs), yet remains challenging due to the intrinsic nonstationarity, low signal-to-noise ratio, and high dimensionality of multichannel recordings. To improve decoding robustness while enabling efficient hardware implementation, we propose a photonic attention-augmented spiking neural network (SNN) that integrates attention mechanisms with multi-timescale spiking neurons in a unified optoelectronic architecture. Multi-timescale photonic spiking neurons are experimentally realized using a distributed-feedback laser with a saturable absorber (DFB-SA) in combination with radio-frequency power dividers, enabling temporal integration across multiple time steps. Besides, negative-valued neural signals are supported via an effective threshold-shifting encoding strategy, enabling signed information processing within the photonic neuron dynamics. Evaluated on the EEGMMIDB motor-execution benchmark, the optoelectronic implementation achieves accuracies of 88.44%, 84.85%, and 82.71% on three classification tasks, closely matching the software baseline. Ablation results verify that the attention modules contribute effectively to EEG decoding performance. System-level analysis of energy consumption and latency demonstrates the potential of the proposed framework for high-throughput, energy-efficient EEG decoding, providing a promising pathway toward next-generation BCI accelerators.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yanan Han",
+            "orcid": null
+          },
+          {
+            "name": "Qing Bi",
+            "orcid": null
+          },
+          {
+            "name": "Shuiying Xiang",
+            "orcid": null
+          },
+          {
+            "name": "YAHUI ZHANG",
+            "orcid": null
+          },
+          {
+            "name": "Xingxing Guo",
+            "orcid": null
+          },
+          {
+            "name": "Jin Hua Li",
+            "orcid": "https://orcid.org/0000-0001-9914-5944"
+          },
+          {
+            "name": "Yuechun Shi",
+            "orcid": null
+          },
+          {
+            "name": "Weitao Pan",
+            "orcid": null
+          },
+          {
+            "name": "Yue Hao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.592163",
+        "landing_page": "https://doi.org/10.1364/oe.592163",
+        "open_access_url": "https://doi.org/10.1364/oe.592163",
+        "openalex_id": "https://openalex.org/W7161946154",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7161946154",
+        "publication_date": "2026-05-21",
+        "title": "EEG decoding with attention-augmented photonic spiking neural network based on multi-timescale laser neurons",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-13T01:07:36.986991Z",
       "status": "found"
     },
     "openalex:doi:10.1364/oe.601000": {
@@ -13810,6 +14278,36 @@
       "retrieved_at": "2026-09-01T01:13:13.394348Z",
       "status": "found"
     },
+    "openalex:doi:10.3390/mi17091074": {
+      "expires_at": "2026-10-13T01:07:32.476540Z",
+      "record": {
+        "abstract": "Topology optimization is an effective method for obtaining high-performance material distributions with novel configurations. However, its application to complex electromagnetic devices remains challenging because of the difficulty of deriving sensitivities and the low computational efficiency associated with repeated finite element method (FEM) evaluations for nonlinear materials. This paper proposes an efficient gradient-free topology optimization method that integrates superellipse curves with a multilayer perceptron (MLP) surrogate model while accounting for nonlinearity. First, based on the general superellipse curve, an improved expression is introduced, in which the size, shape, and position can be flexibly controlled by only seven parameters. Then, a parameterized superellipse-curve-based gradient-free topology optimization framework is established, which can be applied to complex electromagnetic devices with nonlinear materials and complex objective functions. Moreover, a lightweight MLP-based surrogate model is constructed using limited training samples generated by Latin hypercube sampling and FEM, and it can replace FEM for evaluating nonlinear material behavior with negligible computational cost. Finally, the proposed topology optimization framework is applied to the design of a magnetic actuator, both with and without considering nonlinear B–H characteristics, demonstrating its effectiveness.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Fengyi Jin",
+            "orcid": "https://orcid.org/0009-0009-3899-6791"
+          },
+          {
+            "name": "Yanli Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/mi17091074",
+        "landing_page": "https://doi.org/10.3390/mi17091074",
+        "open_access_url": "https://doi.org/10.3390/mi17091074",
+        "openalex_id": "https://openalex.org/W7212137628",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212137628",
+        "publication_date": "2026-09-10",
+        "title": "An Efficient Gradient-Free Topology Optimization Method Based on Superellipse Curves and a Multilayer Perceptron Surrogate",
+        "venue": "Micromachines",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-13T01:07:32.476540Z",
+      "status": "found"
+    },
     "openalex:doi:10.3390/photonics13080779": {
       "expires_at": "2026-09-21T00:32:18.324551Z",
       "record": {
@@ -14498,6 +14996,12 @@
       "retrieved_at": "2026-09-07T01:06:42.496403Z",
       "status": "found"
     },
+    "openalex:title:043eb451a4c6e0905bd116dd40db2c57a5de03d674bef236f4a1f5db91d7e108": {
+      "expires_at": "2026-09-20T01:07:31.580537Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:31.580537Z",
+      "status": "not_found"
+    },
     "openalex:title:06c1573614d7cec8aafdeabdbf04c206c9e42daeec19bd7a0690045235f26758": {
       "expires_at": "2026-09-07T01:07:11.006421Z",
       "record": {
@@ -14527,6 +15031,12 @@
       },
       "retrieved_at": "2026-08-31T01:07:11.006421Z",
       "status": "found"
+    },
+    "openalex:title:0863bdf41b7653844ffb40fe45bc522c7423e871cf57794d46d910add9afe9a2": {
+      "expires_at": "2026-09-20T01:07:26.646522Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:26.646522Z",
+      "status": "not_found"
     },
     "openalex:title:0f8c4e0a9f7dbce7dfea5017263591b2cbf2d3204d9a790cff62b5e4c9f44859": {
       "expires_at": "2026-08-31T00:32:21.079217Z",
@@ -14603,6 +15113,40 @@
       "record": null,
       "retrieved_at": "2026-08-20T00:32:29.598699Z",
       "status": "not_found"
+    },
+    "openalex:title:263ed055819ba5f74c75d0aabc2ffe52c75589a67af2bc95a38034db5105664f": {
+      "expires_at": "2026-09-20T01:07:24.218602Z",
+      "record": {
+        "abstract": "We study zeroth-order optimization of non-convex functions with the aid of directional hints, which are cheap but potentially inaccurate approximations of the true gradient direction, given by linear subspaces at each iteration. To leverage these hints adaptively while maintaining robustness to their quality, we introduce Control-Variate Zeroth-Order Descent (CV-ZOD), a new framework that refines the classical zeroth-order gradient estimator with a control variate that can be set based on the directional hints. We first show that the oracle algorithm that optimally sets the reference vector and step size at each iteration achieves a convergence rate that interpolates between the first-order $O(1/T)$ rate and the zeroth-order $O(d/T)$ rate, depending on the quality of the hints along the trajectory. We then develop a practical variant of CV-ZOD that achieves the same oracle guarantee up to logarithmic factors, without any prior knowledge of the hint quality. We validate the method empirically on simulation-based scientific optimization tasks, demonstrating sustained progress on non-convex landscapes where zeroth-order descent is slower and existing guided methods stall as guidance deteriorates.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Alexander Ryabchenko",
+            "orcid": null
+          },
+          {
+            "name": "Jian Qian",
+            "orcid": null
+          },
+          {
+            "name": "Wenlong Mou",
+            "orcid": "https://orcid.org/0000-0001-9721-4213"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.08277",
+        "landing_page": "https://arxiv.org/abs/2609.08277",
+        "open_access_url": "https://arxiv.org/abs/2609.08277",
+        "openalex_id": "https://openalex.org/W7212084207",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212084207",
+        "publication_date": "2026-09-08",
+        "title": "Adaptively Incorporating Directional Hints into Zeroth-Order Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-13T01:07:24.218602Z",
+      "status": "found"
     },
     "openalex:title:26dea586d5bd8dcdb9216738efab381980483260809f8bcd1fd6a7fe4b9d5395": {
       "expires_at": "2026-09-14T01:06:39.932436Z",
@@ -14692,6 +15236,12 @@
       "expires_at": "2026-08-16T00:35:59.656653Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:35:59.656653Z",
+      "status": "not_found"
+    },
+    "openalex:title:3f0fe9ff0903f34ce58f6f8ecb3df9c7df258013855792d3bcfdb13a071eb443": {
+      "expires_at": "2026-09-20T01:07:33.769750Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:33.769750Z",
       "status": "not_found"
     },
     "openalex:title:4114fbae9b962f3a411545fc2497676637fc049a1bd9ba04ff31061fd75a8483": {
@@ -15194,6 +15744,12 @@
       "retrieved_at": "2026-08-19T00:32:50.873682Z",
       "status": "not_found"
     },
+    "openalex:title:7c1a6ab395c6b4e253b48f1554aae723463a1fc5b1449be976fc11625f11cc8f": {
+      "expires_at": "2026-09-20T01:07:29.581460Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:29.581460Z",
+      "status": "not_found"
+    },
     "openalex:title:7d6cb9b4d395b4a4a783b153ff09925de006d897efafc8be293f03e4c950d6af": {
       "expires_at": "2026-09-14T01:06:50.214132Z",
       "record": null,
@@ -15393,6 +15949,32 @@
       "record": null,
       "retrieved_at": "2026-08-20T00:32:27.549813Z",
       "status": "not_found"
+    },
+    "openalex:title:9cb99423c27621a002223c9a5fd617a530e071b1271c0ed8964d9ab6ccdfb669": {
+      "expires_at": "2026-09-20T01:07:22.589361Z",
+      "record": {
+        "abstract": "Multi-chiplet photonic neural network accelerators (MCPNAs) combine photonic computation, photonic communica-tion, and heterogeneous chiplet integration to enable scalable and energy-efficient AI acceleration. However, their distributed archi-tecture and reliance on third-party chiplets introduce significant hardware security risks. This paper examines Hardware Trojan (HT) threats to MCPNAs across three dimensions: confidentiality, integrity, and availability.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sudeep Pasricha",
+            "orcid": "https://orcid.org/0000-0002-0846-0066"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.06796",
+        "landing_page": "https://arxiv.org/abs/2609.06796",
+        "open_access_url": "https://arxiv.org/abs/2609.06796",
+        "openalex_id": "https://openalex.org/W7212013173",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212013173",
+        "publication_date": "2026-09-06",
+        "title": "Hardware Trojan Threats to Multi-Chiplet Photonic Neural Network Accelerators",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-13T01:07:22.589361Z",
+      "status": "found"
     },
     "openalex:title:9db74335bc487590184a65058a762fbe1c4c1a1f1e63d7599e22083b270f2a3e": {
       "expires_at": "2026-08-25T04:25:21.512832Z",
@@ -15602,6 +16184,36 @@
       "retrieved_at": "2026-08-09T00:36:10.644719Z",
       "status": "not_found"
     },
+    "openalex:title:b9e7d3443e81c6f8b4d85cf32dee8fcc2167a5c13248682f8afba4fcfae119f6": {
+      "expires_at": "2026-09-20T01:07:28.240564Z",
+      "record": {
+        "abstract": "Retraining-free MoE compression reduces deployment memory by pruning or merging experts, but often treats the compressed checkpoint as the final artifact. We argue that this view is incomplete: compressed MoE checkpoints are better understood as compressed initializations that benefit from a tiny post-compression adjustment stage. Across two MoE LLM backbones, four pruning/merging methods, three expert-retention ratios, and 28 benchmarks, we compare LM fine-tuning and teacher-based KD under matched small-data budgets and measured GPU costs. Using only 3,000 C4 examples and a single epoch of adjustment, Full FT recovers 37.3% of the original-to-compressed performance gap on average. Moreover, LM fine-tuning is more cost-effective than standard token-level KD, and full-parameter adjustment gives the strongest cost--recovery trade-off among the tested scopes. These results suggest that retraining-free compression should be paired with small post-compression adjustment to recover a substantial portion of the performance lost during compression.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sieun Hyeon",
+            "orcid": null
+          },
+          {
+            "name": "Jaeyoung Do",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.06076",
+        "landing_page": "https://arxiv.org/abs/2609.06076",
+        "open_access_url": "https://arxiv.org/abs/2609.06076",
+        "openalex_id": "https://openalex.org/W7212002995",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212002995",
+        "publication_date": "2026-09-05",
+        "title": "Beyond Retraining-Free MoE Compression: A Cost-Normalized Study of Post-Compression Adjustment",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-13T01:07:28.240564Z",
+      "status": "found"
+    },
     "openalex:title:bbf2eedc3e77d50fe6dcee68f46e579501d5b1d25d033d63d7e66458430ca8d6": {
       "expires_at": "2026-08-11T09:39:00.349544Z",
       "record": null,
@@ -15730,6 +16342,12 @@
       "expires_at": "2026-08-16T00:36:07.204631Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:36:07.204631Z",
+      "status": "not_found"
+    },
+    "openalex:title:d22208955223ef9ce1ae12b0612330cb6007e94886f7e0ce83690eb5d2e7b294": {
+      "expires_at": "2026-09-20T01:07:38.865385Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:38.865385Z",
       "status": "not_found"
     },
     "openalex:title:d773d6fbb26d1f4b4f09a95171e36c31e1e0fa7a575dae0c8ebc68392daf9952": {
@@ -15899,6 +16517,12 @@
       },
       "retrieved_at": "2026-08-20T00:32:24.473759Z",
       "status": "found"
+    },
+    "openalex:title:f5ab57ac7e603ce67f736c744d43952cf525bcbf37ba3d24e6d377c07bf7e87f": {
+      "expires_at": "2026-09-20T01:07:35.659687Z",
+      "record": null,
+      "retrieved_at": "2026-09-13T01:07:35.659687Z",
+      "status": "not_found"
     },
     "openalex:title:f7ff005a639554bb23bbd49c5a703663447cfbd95aba3ff8543f8daad5267f0c": {
       "expires_at": "2026-09-12T00:59:45.269851Z",

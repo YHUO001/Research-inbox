@@ -1,21 +1,19 @@
 {
-  "accepted_candidate_ids": [
-    "15e7193239d6058f661ff180"
-  ],
-  "accepted_count": 1,
-  "built_at": "2026-09-12T00:59:24.584782Z",
+  "accepted_candidate_ids": [],
+  "accepted_count": 0,
+  "built_at": "2026-09-13T01:07:15.003157Z",
   "discovery_version": 1,
-  "duplicate_count": 2,
+  "duplicate_count": 3,
   "duplicate_reasons": {
-    "openalex_work_id": 2
+    "openalex_work_id": 3
   },
-  "filtered_count": 61,
+  "filtered_count": 56,
   "invalid_count": 0,
   "query_error_count": 0,
   "query_summaries": [
     {
-      "accepted": 1,
-      "duplicates": 0,
+      "accepted": 0,
+      "duplicates": 1,
       "error": null,
       "filtered": 9,
       "invalid": 0,
@@ -67,48 +65,48 @@
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 10,
+      "filtered": 9,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "physical-neural-network-training",
-      "raw_results": 10
+      "raw_results": 9
     },
     {
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 2,
+      "filtered": 0,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-neural-network",
-      "raw_results": 2
+      "raw_results": 0
     },
     {
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 1,
+      "filtered": 0,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-llm",
-      "raw_results": 1
+      "raw_results": 0
     },
     {
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 1,
+      "filtered": 0,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-optical",
-      "raw_results": 1
+      "raw_results": 0
     }
   ],
-  "raw_result_count": 64,
-  "registry_candidate_count": 269,
-  "registry_sha256": "3aa30f590274f387b5ceb90baee5e1ab06f223d090257957b631a5748963b250",
+  "raw_result_count": 59,
+  "registry_candidate_count": 283,
+  "registry_sha256": "1d9d36c48a0327a55bb966e18827982cff51126fda53034852946a392cf028c1",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-09-12",
-  "window_start": "2026-09-08"
+  "window_end": "2026-09-13",
+  "window_start": "2026-09-09"
 }

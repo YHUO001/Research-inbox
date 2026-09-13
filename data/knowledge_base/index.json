@@ -136,6 +136,15 @@
       "summary_record_sha256": "70695cb6138c395e3e84b556c9ad5739bd4e9be089118c763ba8d36c3808550a",
       "title": "Full-colour imaging behind a glass diffuser through a diffractive neural network with multi-wavelength channels"
     },
+    "380b726618cccff0a9e5514f": {
+      "digest_date": "2026-09-13",
+      "doi": "10.1364/ao.598894",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "2e5ba83debe99c3ea66a28b9392f2e0639b68775b2caa32a26b357dceab296d4",
+      "title": "Lightweight programmable microring resonator photonic convolutional neural network for modulation format classification"
+    },
     "3c46ab2b3d315aef47db028e": {
       "digest_date": "2026-09-11",
       "doi": "10.48550/arxiv.2609.07666",
@@ -516,6 +525,9 @@
     ],
     "2026-09-12": [
       "15e7193239d6058f661ff180"
+    ],
+    "2026-09-13": [
+      "380b726618cccff0a9e5514f"
     ]
   },
   "by_doi": {
@@ -546,6 +558,7 @@
     "10.1145/3770855.3817661": "ead3d4ba8c5090acac05878a",
     "10.1145/3770855.3817738": "172a6e3e7b78c39c328487a6",
     "10.1145/3837864": "0e5c75b6132afcfb1f7afb17",
+    "10.1364/ao.598894": "380b726618cccff0a9e5514f",
     "10.1364/cleo_at.2026.jtu.84": "5017adbd33e6ddd5c320a4c4",
     "10.1364/oe.605087": "b832199d8494cc67a559fec5",
     "10.1364/oe.607573": "8a0187dc3ef13553d43f5bef",
@@ -580,6 +593,7 @@
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
+      "380b726618cccff0a9e5514f",
       "44fa3bd6f72c84820ce42dab",
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
@@ -638,6 +652,9 @@
     ],
     "application:二维/三维全息重建": [
       "c82f6c2f7b8ae52a84e4eb29"
+    ],
+    "application:从星座图识别11种调制类型": [
+      "380b726618cccff0a9e5514f"
     ],
     "application:传感内成像分类": [
       "9322fad036b3d7fc8e3dd47b"
@@ -784,6 +801,9 @@
     "application:语音识别（fsdd）": [
       "1cf1fcd769c5ace951188b8c"
     ],
+    "application:调制格式分类": [
+      "380b726618cccff0a9e5514f"
+    ],
     "application:超分辨显微": [
       "0cbf41592278a3ad1b89e219"
     ],
@@ -831,6 +851,7 @@
     "architecture:integrated": [
       "0e5c75b6132afcfb1f7afb17",
       "1cf1fcd769c5ace951188b8c",
+      "380b726618cccff0a9e5514f",
       "973790e22c46d30721660799"
     ],
     "architecture:unclear": [
@@ -885,6 +906,7 @@
     "hardware_validation:simulation_only": [
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
+      "380b726618cccff0a9e5514f",
       "541094f286db8902f2fe6077",
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
@@ -913,6 +935,7 @@
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
+      "380b726618cccff0a9e5514f",
       "44fa3bd6f72c84820ce42dab",
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
@@ -1036,6 +1059,9 @@
       "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d"
     ],
+    "Applied Optics": [
+      "380b726618cccff0a9e5514f"
+    ],
     "CLEO 2026": [
       "5017adbd33e6ddd5c320a4c4"
     ],
@@ -1140,6 +1166,7 @@
       "2f9953028e4e0e3b934222c8",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
+      "380b726618cccff0a9e5514f",
       "3c46ab2b3d315aef47db028e",
       "44fa3bd6f72c84820ce42dab",
       "4bb38e8bcc3a3d164bd28700",
@@ -1174,7 +1201,7 @@
       "fca2cfc597728ee01e2a6032"
     ]
   },
-  "paper_count": 47,
+  "paper_count": 48,
   "schema_version": 1,
-  "updated_at": "2026-09-12T00:59:57.492097Z"
+  "updated_at": "2026-09-13T01:08:02.825022Z"
 }

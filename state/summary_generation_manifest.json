@@ -1,56 +1,61 @@
 {
-  "abstract_fallback_candidate_ids": [
-    "15e7193239d6058f661ff180"
-  ],
-  "abstract_fallback_count": 1,
+  "abstract_fallback_candidate_ids": [],
+  "abstract_fallback_count": 0,
   "architecture_evidence": {
-    "15e7193239d6058f661ff180": {
+    "380b726618cccff0a9e5514f": {
       "changed": false,
       "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
+      "integrated_evidence": [
+        "Despite the rapid progress of on-chip photonic computing, optical neural networks (ONNs) remain constrained by limited kernel expressivity, weak nonlinearities, and substantial hardware overhead."
+      ],
+      "previous_type": "integrated",
+      "resolved_type": "integrated"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
   "automatic_queue_candidate_count": 1,
-  "completed_at": "2026-09-12T00:59:57.492097Z",
+  "completed_at": "2026-09-13T01:08:02.825022Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "15e7193239d6058f661ff180"
+    "380b726618cccff0a9e5514f"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-09-12",
-  "digest_json_file": "runtime-state/data/digests/2026-09-12.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-09-12.generated.md",
+  "digest_date": "2026-09-13",
+  "digest_json_file": "runtime-state/data/digests/2026-09-13.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-09-13.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0108452,
+  "estimated_cost_cny": 0.02316,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "15e7193239d6058f661ff180": {
+    "380b726618cccff0a9e5514f": {
       "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "15e7193239d6058f661ff180",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 0.541,
-      "error": "https://doi.org/10.1002/lpor.71857: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.1002/lpor.71857",
-      "status": "not_available",
+      "attempt_count": 1,
+      "candidate_id": "380b726618cccff0a9e5514f",
+      "character_count": 9087,
+      "content_sha256": "813fbe48ffdd901ca2d5e24a97e2606e3b8ea06d3f07da7aa22efeba535b6c99",
+      "elapsed_seconds": 1.453,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        "Comparison with Representative Learning-Based Modulation-Classification Methods in the Literature",
+        "Machine Learning Methods for Optical Systems",
+        "Implementation of energy-efficient convolutional neural networks based on kernel-pruned silicon photonics",
+        "Method"
+      ],
+      "source_url": "https://opg.optica.org/ao/abstract.cfm?uri=ao-65-27-9222",
+      "status": "used",
       "text_persisted": false
     }
   },
   "full_text_persisted": false,
-  "full_text_used": false,
+  "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_and_abstract_only",
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
   "newly_completed_candidate_count": 1,
@@ -71,82 +76,116 @@
   "output_language": "zh-CN",
   "prepared_request_count": 1,
   "provider": "deepseek",
-  "queue_sha256": "bfbd2fc731eafad628a7aebd4256017e15610affc9b8f71950f60a2725bbc109",
+  "queue_sha256": "bf99b264b8c6e391dfea06d03f6922aaff5f94d26eacdf163c778a75e00b6e3d",
   "request_count": 1,
-  "request_file": "runtime-state/data/summary_requests/2026-09-12.jsonl",
-  "request_sha256": "d9da117c344be092e08f4a20ebd9bb41f8a79e961ea687f18c9161a13dd93793",
+  "request_file": "runtime-state/data/summary_requests/2026-09-13.jsonl",
+  "request_sha256": "a7f8a6c51d476798f0aaaeb11f630fc0cc03bc8ce326b0ecec065787b3072eef",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "373143b2d2945fcb32a69020f1c86a735bfc807e3a04c7aacad0308187c6fc03",
+  "selection_manifest_sha256": "1ac99db5457590d74ee62b02e39ee4783d3588b8cd98ecaebbacf1027edc9d6a",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
   "source_queue_candidate_count": 1,
   "stage_timings": {
-    "full_text_preparation_seconds": 0.545,
+    "full_text_preparation_seconds": 1.458,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "15e7193239d6058f661ff180",
-        "elapsed_seconds": 14.558,
+        "candidate_id": "380b726618cccff0a9e5514f",
+        "elapsed_seconds": 19.9,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1100,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1398,
-          "prompt_tokens": 3446,
-          "total_tokens": 4546
+          "completion_tokens": 1923,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 3858,
+          "prompt_tokens": 5778,
+          "total_tokens": 7701
         }
       }
     ],
-    "model_generation_and_validation_seconds": 14.574
+    "model_generation_and_validation_seconds": 19.921
   },
   "status": "completed_automatic",
   "summary_count": 1,
-  "summary_file": "runtime-state/data/summaries/2026-09-12.jsonl",
+  "summary_file": "runtime-state/data/summaries/2026-09-13.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
   "summary_slot_count": 1,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "15e7193239d6058f661ff180": {
+      "380b726618cccff0a9e5514f": {
         "free_space_evidence": [],
-        "integrated_evidence": [],
+        "integrated_evidence": [
+          "Despite the rapid progress of on-chip photonic computing, optical neural networks (ONNs) remain constrained by limited kernel expressivity, weak nonlinearities, and substantial hardware overhead."
+        ],
         "model_value": "integrated",
-        "repaired": true,
-        "resolved_type": "unclear"
+        "repaired": false,
+        "resolved_type": "integrated"
       }
     },
-    "architecture_repairs": 1,
+    "architecture_repairs": 0,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "15e7193239d6058f661ff180": {
+      "380b726618cccff0a9e5514f": {
         "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "15e7193239d6058f661ff180",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 0.541,
-        "error": "https://doi.org/10.1002/lpor.71857: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.1002/lpor.71857",
-        "status": "not_available",
+        "attempt_count": 1,
+        "candidate_id": "380b726618cccff0a9e5514f",
+        "character_count": 9087,
+        "content_sha256": "813fbe48ffdd901ca2d5e24a97e2606e3b8ea06d3f07da7aa22efeba535b6c99",
+        "elapsed_seconds": 1.453,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          "Comparison with Representative Learning-Based Modulation-Classification Methods in the Literature",
+          "Machine Learning Methods for Optical Systems",
+          "Implementation of energy-efficient convolutional neural networks based on kernel-pruned silicon photonics",
+          "Method"
+        ],
+        "source_url": "https://opg.optica.org/ao/abstract.cfm?uri=ao-65-27-9222",
+        "status": "used",
         "text_persisted": false
       }
     },
     "generation_metadata_repair_responses": 1,
-    "numeric_grounding_repair_responses": 0,
-    "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 0,
+    "numeric_grounding_repair_responses": 1,
+    "numeric_grounding_repairs": {
+      "380b726618cccff0a9e5514f": [
+        {
+          "action": "rewrote_bounded_zero_one_interval",
+          "original_excerpt": "卷积核系数由上传-下载微环谐振器的差分读出决定：w_k = T_drop(φ_k) − T_through(φ_k)，其中φ_k由热光加热器在[−π,0]范围内调节。级联双微环单元的2×2混合角θ_{l,d,m}和内部补偿相位φ_{l,d,m}也由热光加热器控制，用于实现所需的酉变换或多端口干涉。分类器采用微环权重库，利用校准环的下载端口强度T_drop(ψ_ij^cls)作为权重，其值域为[0,1]。",
+          "path": "method_implementation[1]",
+          "replacement": "卷积核系数由上传-下载微环谐振器的差分读出决定：w_k = T_drop(φ_k) − T_through(φ_k)，其中φ_k由热光加热器在[−π,0]范围内调节。级联双微环单元的2×2混合角θ_{l,d,m}和内部补偿相位φ_{l,d,m}也由热光加热器控制，用于实现所需的酉变换或多端口干涉。分类器采用微环权重库，利用校准环的下载端口强度T_drop(ψ_ij^cls)作为权重，其值域为一个有界范围。"
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "在48×48分辨率下，与CNN相比准确率差距为-3.20%（即PCNN更高3.20%），参数减少7.2×，FLOPs减少420×；",
+          "path": "reported_results[2].claim",
+          "replacement": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "-3.20"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "此外，该方法在极低的可训练参数量（25万）和计算量（0.001 GFLOPs）下，在48×48分辨率上达到91.94%的准确率，优于文献中CNN基线，并在复杂度与性能之间取得了显著平衡。",
+          "path": "distinction_from_prior_work",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "25"
+          ]
+        }
+      ]
+    },
+    "tops_alias_expansions": 74,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 1100,
-    "prompt_cache_hit_tokens": 2048,
-    "prompt_cache_miss_tokens": 1398,
-    "prompt_tokens": 3446,
-    "total_tokens": 4546
+    "completion_tokens": 1923,
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 3858,
+    "prompt_tokens": 5778,
+    "total_tokens": 7701
   }
 }

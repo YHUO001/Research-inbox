@@ -1,0 +1,31 @@
+{
+  "built_at": "2026-09-13T01:07:39.864271Z",
+  "digest_date": "2026-09-13",
+  "digest_version": 1,
+  "pending_summary_count": 1,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "380b726618cccff0a9e5514f",
+        "landing_page": "https://doi.org/10.1364/ao.598894",
+        "mandatory": false,
+        "score": 0.73,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Lightweight programmable microring resonator photonic convolutional neural network for modulation format classification",
+        "venue": "Applied Optics",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

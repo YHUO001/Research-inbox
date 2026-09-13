@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`47`
-- 更新时间：`2026-09-12T00:59:57.492097Z`
+- 论文数：`48`
+- 更新时间：`2026-09-13T01:08:02.825022Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Lightweight programmable microring resonator photonic convolutional neural network for modulation format classification
+
+- DOI/链接：[10.1364/ao.598894](https://doi.org/10.1364/ao.598894)
+- 期刊/年份：Applied Optics，2026
+- 摘要日期：`2026-09-13`
+- 候选 ID：`380b726618cccff0a9e5514f`
+- 标签：application:从星座图识别11种调制类型, application:调制格式分类, architecture:integrated, hardware_validation:simulation_only, project:optical-neural-networks
 
 ### Smoothing Design Reshapes High‐Performance Broadband Optical Diffractive Neural Networks on Fiber End Facets
 
