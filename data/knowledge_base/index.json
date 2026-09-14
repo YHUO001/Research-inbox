@@ -280,6 +280,15 @@
       "summary_record_sha256": "3bdc55a64a58d8bf894d986e310983ab76c0c1060c092231aa80fa8960f3d1bd",
       "title": "Ferroelectrically programmable lanthanide luminescent memristor"
     },
+    "916e8199aaabe1372544d280": {
+      "digest_date": "2026-09-14",
+      "doi": "10.1117/1.ap.8.5.054001",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "8dc5d542b3daff15a952853778fd7c3bc6cfc467d9d26079bac3547384e9139e",
+      "title": "Diffractive optical neural networks for intelligent informatics: image processing, communications, and quantum applications"
+    },
     "9322fad036b3d7fc8e3dd47b": {
       "digest_date": "2026-08-30",
       "doi": "10.14288/1.0455632",
@@ -379,6 +388,15 @@
       "summary_record_sha256": "23f9d8c3c7e0801cc4b73be358c1f83de1dbee2d33e5c279c1fc1dc737a28798",
       "title": "On‐Chip Photonic Neural Network Architectures"
     },
+    "d162b179119ee09c86ad3708": {
+      "digest_date": "2026-09-14",
+      "doi": "10.6084/m9.figshare.c.8610155.v1",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "76d777380e2bad8f943501ddf56a3a441721c0ad5e2dc3773c2abb85d9acfdc8",
+      "title": "Second-harmonic generation for enhancing the performance of diffractive neural networks"
+    },
     "d33b2e7c6586f37945facb32": {
       "digest_date": "2026-09-03",
       "doi": "10.1038/s41467-026-77202-y",
@@ -432,6 +450,15 @@
       ],
       "summary_record_sha256": "390b022c38319eca8e41d80f69127f0c8a18b868f35607b4ff976a3deae0f674",
       "title": "Gradient-based versus gradient-free optimization in hybrid quantum machine learning: a systematic benchmark"
+    },
+    "fd6f281418ac4d412744b2ac": {
+      "digest_date": "2026-09-14",
+      "doi": "10.1038/s41467-026-76736-5",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "8dc9be59cfd8a2c14217d5aaef85f4bc2f2677301894a5f16a49c84ea939104f",
+      "title": "Optical phased array LiDAR chips towards polarization-resolved 4D sensing"
     }
   },
   "by_digest_date": {
@@ -528,6 +555,11 @@
     ],
     "2026-09-13": [
       "380b726618cccff0a9e5514f"
+    ],
+    "2026-09-14": [
+      "916e8199aaabe1372544d280",
+      "d162b179119ee09c86ad3708",
+      "fd6f281418ac4d412744b2ac"
     ]
   },
   "by_doi": {
@@ -541,6 +573,7 @@
     "10.1038/s41377-026-02419-x": "973507e35175bb05fcf25e79",
     "10.1038/s41427-026-00671-6": "83a830ace13b5158f346c392",
     "10.1038/s41467-026-76714-x": "8ce6ad350a786420a01c4dd8",
+    "10.1038/s41467-026-76736-5": "fd6f281418ac4d412744b2ac",
     "10.1038/s41467-026-76872-y": "7edb19b24759fe609707ba01",
     "10.1038/s41467-026-77202-y": "d33b2e7c6586f37945facb32",
     "10.1038/s41467-026-77397-0": "8ed2e70c4b7d42f84e3676a7",
@@ -549,6 +582,7 @@
     "10.1088/1361-6633/ae9e8c": "4bb38e8bcc3a3d164bd28700",
     "10.1088/2632-2153/aea3a0": "fca2cfc597728ee01e2a6032",
     "10.1109/icocn70692.2026.11656217": "c3474ba19a69c715eb87d391",
+    "10.1117/1.ap.8.5.054001": "916e8199aaabe1372544d280",
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
     "10.1117/12.3110867": "2b5f9302fe96c2793d48540e",
     "10.1117/12.3116253": "7d6c2a059923ebe445a1cdf7",
@@ -576,6 +610,7 @@
     "10.48550/arxiv.2608.28011": "5e49047e7ce2004f7954debb",
     "10.48550/arxiv.2609.07666": "3c46ab2b3d315aef47db028e",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
+    "10.6084/m9.figshare.c.8610155.v1": "d162b179119ee09c86ad3708",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799",
     "10.62311/nesx/rp2ag-30082026": "7bc9d4230ed283852c3248a7"
   },
@@ -606,6 +641,7 @@
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
+      "916e8199aaabe1372544d280",
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "973507e35175bb05fcf25e79",
@@ -615,8 +651,10 @@
       "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d",
+      "d162b179119ee09c86ad3708",
       "d33b2e7c6586f37945facb32",
-      "d69a4f93ca6340969e1077a8"
+      "d69a4f93ca6340969e1077a8",
+      "fd6f281418ac4d412744b2ac"
     ],
     "zeroth-order-optimization": [
       "0e5c75b6132afcfb1f7afb17",
@@ -665,6 +703,9 @@
     "application:低维和高维偏微分方程求解": [
       "0e5c75b6132afcfb1f7afb17"
     ],
+    "application:偏振分辨lidar感知": [
+      "fd6f281418ac4d412744b2ac"
+    ],
     "application:像素级状态识别": [
       "8ed2e70c4b7d42f84e3676a7"
     ],
@@ -676,6 +717,9 @@
     ],
     "application:光学信息存储": [
       "8ce6ad350a786420a01c4dd8"
+    ],
+    "application:光学图像分类": [
+      "916e8199aaabe1372544d280"
     ],
     "application:光学神经网络推理": [
       "09e1a0ed403ef22abbd9b189"
@@ -720,6 +764,9 @@
     "application:图像分类（mnist、fashion-mnist）": [
       "541094f286db8902f2fe6077"
     ],
+    "application:图像分类（mnist手写数字和fashion-mnist）。": [
+      "d162b179119ee09c86ad3708"
+    ],
     "application:图像去噪": [
       "2eb28d7201afb356d747693a"
     ],
@@ -740,6 +787,9 @@
     ],
     "application:实时感知": [
       "83a830ace13b5158f346c392"
+    ],
+    "application:实时材料分类": [
+      "fd6f281418ac4d412744b2ac"
     ],
     "application:工业 5.0": [
       "7bc9d4230ed283852c3248a7"
@@ -825,8 +875,14 @@
     "application:透过散射介质（玻璃扩散器）的多光谱全彩成像": [
       "35ff63ef9d3333099ee28868"
     ],
+    "application:通信容量扩展与复用": [
+      "916e8199aaabe1372544d280"
+    ],
     "application:遥感": [
       "0cbf41592278a3ad1b89e219"
+    ],
+    "application:量子信息处理（量子门、量子态层析、少光子计算）": [
+      "916e8199aaabe1372544d280"
     ],
     "application:量子态层析（2量子比特）": [
       "2b5f9302fe96c2793d48540e"
@@ -840,6 +896,9 @@
     "application:高光谱地球观测": [
       "7bc9d4230ed283852c3248a7"
     ],
+    "application:高维成像": [
+      "916e8199aaabe1372544d280"
+    ],
     "architecture:free_space": [
       "5017adbd33e6ddd5c320a4c4",
       "9351be654a20f4a2f7121847",
@@ -852,7 +911,8 @@
       "0e5c75b6132afcfb1f7afb17",
       "1cf1fcd769c5ace951188b8c",
       "380b726618cccff0a9e5514f",
-      "973790e22c46d30721660799"
+      "973790e22c46d30721660799",
+      "fd6f281418ac4d412744b2ac"
     ],
     "architecture:unclear": [
       "028de8014a2b67fd147a28e7",
@@ -876,11 +936,13 @@
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
+      "916e8199aaabe1372544d280",
       "9322fad036b3d7fc8e3dd47b",
       "c3474ba19a69c715eb87d391",
       "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d",
+      "d162b179119ee09c86ad3708",
       "d33b2e7c6586f37945facb32"
     ],
     "hardware_validation:mixed": [
@@ -901,7 +963,8 @@
       "7edb19b24759fe609707ba01",
       "973790e22c46d30721660799",
       "c7b91f881a121b7e1651e2f2",
-      "d69a4f93ca6340969e1077a8"
+      "d69a4f93ca6340969e1077a8",
+      "fd6f281418ac4d412744b2ac"
     ],
     "hardware_validation:simulation_only": [
       "0cbf41592278a3ad1b89e219",
@@ -911,6 +974,7 @@
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
       "b832199d8494cc67a559fec5",
+      "d162b179119ee09c86ad3708",
       "d33b2e7c6586f37945facb32"
     ],
     "hardware_validation:unclear": [
@@ -920,6 +984,7 @@
       "79855d774b83ef6c7c8a8a47",
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
+      "916e8199aaabe1372544d280",
       "c3474ba19a69c715eb87d391"
     ],
     "project:optical-neural-networks": [
@@ -948,6 +1013,7 @@
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
+      "916e8199aaabe1372544d280",
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "973507e35175bb05fcf25e79",
@@ -957,8 +1023,10 @@
       "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d",
+      "d162b179119ee09c86ad3708",
       "d33b2e7c6586f37945facb32",
-      "d69a4f93ca6340969e1077a8"
+      "d69a4f93ca6340969e1077a8",
+      "fd6f281418ac4d412744b2ac"
     ],
     "project:zeroth-order-optimization": [
       "0e5c75b6132afcfb1f7afb17",
@@ -1059,6 +1127,9 @@
       "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d"
     ],
+    "Advanced Photonics": [
+      "916e8199aaabe1372544d280"
+    ],
     "Applied Optics": [
       "380b726618cccff0a9e5514f"
     ],
@@ -1066,7 +1137,8 @@
       "5017adbd33e6ddd5c320a4c4"
     ],
     "Figshare": [
-      "09e1a0ed403ef22abbd9b189"
+      "09e1a0ed403ef22abbd9b189",
+      "d162b179119ee09c86ad3708"
     ],
     "International Journal of Academic and Industrial Research Innovations(IJAIRI)": [
       "7bc9d4230ed283852c3248a7"
@@ -1091,7 +1163,8 @@
       "7edb19b24759fe609707ba01",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
-      "d33b2e7c6586f37945facb32"
+      "d33b2e7c6586f37945facb32",
+      "fd6f281418ac4d412744b2ac"
     ],
     "Open Collections": [
       "9322fad036b3d7fc8e3dd47b"
@@ -1182,6 +1255,7 @@
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
+      "916e8199aaabe1372544d280",
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "973507e35175bb05fcf25e79",
@@ -1193,15 +1267,17 @@
       "c82f6c2f7b8ae52a84e4eb29",
       "ca00b2160d3deb8b79b61e6e",
       "ccd82d84305d463a6c33398d",
+      "d162b179119ee09c86ad3708",
       "d33b2e7c6586f37945facb32",
       "d69a4f93ca6340969e1077a8",
       "dd2f544b89860edf2c2a51ae",
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
-      "fca2cfc597728ee01e2a6032"
+      "fca2cfc597728ee01e2a6032",
+      "fd6f281418ac4d412744b2ac"
     ]
   },
-  "paper_count": 48,
+  "paper_count": 51,
   "schema_version": 1,
-  "updated_at": "2026-09-13T01:08:02.825022Z"
+  "updated_at": "2026-09-14T01:08:41.735853Z"
 }

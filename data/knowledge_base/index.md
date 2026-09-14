@@ -1,10 +1,34 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`48`
-- 更新时间：`2026-09-13T01:08:02.825022Z`
+- 论文数：`51`
+- 更新时间：`2026-09-14T01:08:41.735853Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Second-harmonic generation for enhancing the performance of diffractive neural networks
+
+- DOI/链接：[10.6084/m9.figshare.c.8610155.v1](https://doi.org/10.6084/m9.figshare.c.8610155.v1)
+- 期刊/年份：Figshare，2026
+- 摘要日期：`2026-09-14`
+- 候选 ID：`d162b179119ee09c86ad3708`
+- 标签：application:图像分类（mnist手写数字和fashion-mnist）。, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
+
+### Optical phased array LiDAR chips towards polarization-resolved 4D sensing
+
+- DOI/链接：[10.1038/s41467-026-76736-5](https://doi.org/10.1038/s41467-026-76736-5)
+- 期刊/年份：Nature Communications，2026
+- 摘要日期：`2026-09-14`
+- 候选 ID：`fd6f281418ac4d412744b2ac`
+- 标签：application:偏振分辨lidar感知, application:实时材料分类, architecture:integrated, hardware_validation:physical_experiment, project:optical-neural-networks
+
+### Diffractive optical neural networks for intelligent informatics: image processing, communications, and quantum applications
+
+- DOI/链接：[10.1117/1.ap.8.5.054001](https://doi.org/10.1117/1.ap.8.5.054001)
+- 期刊/年份：Advanced Photonics，2026
+- 摘要日期：`2026-09-14`
+- 候选 ID：`916e8199aaabe1372544d280`
+- 标签：application:光学图像分类, application:通信容量扩展与复用, application:量子信息处理（量子门、量子态层析、少光子计算）, application:高维成像, architecture:unclear, hardware_validation:unclear, project:optical-neural-networks
 
 ### Lightweight programmable microring resonator photonic convolutional neural network for modulation format classification
 

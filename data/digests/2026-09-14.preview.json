@@ -1,0 +1,53 @@
+{
+  "built_at": "2026-09-14T01:07:36.856530Z",
+  "digest_date": "2026-09-14",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "916e8199aaabe1372544d280",
+        "landing_page": "https://doi.org/10.1117/1.ap.8.5.054001",
+        "mandatory": false,
+        "score": 0.86,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Diffractive optical neural networks for intelligent informatics: image processing, communications, and quantum applications",
+        "venue": "Advanced Photonics",
+        "year": 2026
+      },
+      {
+        "candidate_id": "d162b179119ee09c86ad3708",
+        "landing_page": "https://doi.org/10.6084/m9.figshare.c.8610155.v1",
+        "mandatory": false,
+        "score": 0.81,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Second-harmonic generation for enhancing the performance of diffractive neural networks",
+        "venue": "Figshare",
+        "year": 2026
+      },
+      {
+        "candidate_id": "fd6f281418ac4d412744b2ac",
+        "landing_page": "https://doi.org/10.1038/s41467-026-76736-5",
+        "mandatory": false,
+        "score": 0.73,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Optical phased array LiDAR chips towards polarization-resolved 4D sensing",
+        "venue": "Nature Communications",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}
