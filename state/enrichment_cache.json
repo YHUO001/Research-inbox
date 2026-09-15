@@ -2688,6 +2688,60 @@
       "retrieved_at": "2026-09-13T01:07:29.813861Z",
       "status": "not_found"
     },
+    "crossref:doi:10.1063/5.0350777": {
+      "expires_at": "2026-10-15T01:03:33.684875Z",
+      "record": {
+        "abstract": "Metal halide perovskite semiconductors demonstrate significant advantages over traditional semiconductor materials in next-generation weak-light-responsive devices, owing to their exceptional photoelectric conversion capabilities and outstanding charge transport properties. Under illumination with a power density as low as 0.1 μW/cm2, these devices can efficiently respond to faint optical signals, achieving an ultrahigh detectivity of 1017 Jones—highlighting their exceptional sensitivity in low weak-light conditions. Furthermore, driven by intrinsic charge trap/de-trap dynamics, the devices successfully emulate fundamental biological synaptic behaviors, including optical pulse-modulated transitions from short-term to long-term memory. Leveraging these tunable synaptic characteristics, we further demonstrate complex visual learning simulations. Specifically, the system successfully modeled a facial recognition training process, where increasing optical stimulation progressively enhanced facial feature extraction, closely mimicking human visual cognition. By exploiting the adjustable conductance of the improved synaptic device, we construct convolutional neural networks to execute synaptic weight modifications. After 100 training epochs, the proposed system achieves a remarkable recognition accuracy of 98.91% on handwritten digit classification tasks. Collectively, these results systematically underscore the immense potential of BDASnI4 FETs as highly stable, multifunctional hardware platforms for next-generation photoelectrically integrated artificial visual systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xincan Qiu",
+            "orcid": "https://orcid.org/0009-0001-1396-4488"
+          },
+          {
+            "name": "Jiangnan Xia",
+            "orcid": "https://orcid.org/0009-0005-2552-9247"
+          },
+          {
+            "name": "Yu Liu",
+            "orcid": "https://orcid.org/0009-0000-2522-4674"
+          },
+          {
+            "name": "Ping-An Chen",
+            "orcid": "https://orcid.org/0009-0004-3513-6271"
+          },
+          {
+            "name": "Hong Lian",
+            "orcid": null
+          },
+          {
+            "name": "Zuoren Xiong",
+            "orcid": "https://orcid.org/0000-0002-8302-3712"
+          },
+          {
+            "name": "Xiang Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Yuanyuan Hu",
+            "orcid": "https://orcid.org/0000-0001-8511-1401"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1063/5.0350777",
+        "landing_page": "https://doi.org/10.1063/5.0350777",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1063/5.0350777",
+        "publication_date": "2026-09-14",
+        "title": "Ultra-sensitive 2D Dion−Jacobson perovskite phototransistors for optoelectronic neuromorphic computing",
+        "venue": "Applied Physics Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-15T01:03:33.684875Z",
+      "status": "found"
+    },
     "crossref:doi:10.1080/19942060.2026.2682112": {
       "expires_at": "2026-09-08T00:36:02.501150Z",
       "record": {
@@ -4480,6 +4534,12 @@
       "retrieved_at": "2026-08-18T04:25:14.957375Z",
       "status": "found"
     },
+    "crossref:title:03beeea4f2c63951ee8a4701a080fc53c33244e01b47403d7919902ea976253e": {
+      "expires_at": "2026-09-22T01:03:30.120395Z",
+      "record": null,
+      "retrieved_at": "2026-09-15T01:03:30.120395Z",
+      "status": "not_found"
+    },
     "crossref:title:043eb451a4c6e0905bd116dd40db2c57a5de03d674bef236f4a1f5db91d7e108": {
       "expires_at": "2026-09-20T01:07:30.486094Z",
       "record": null,
@@ -4497,6 +4557,32 @@
       "record": null,
       "retrieved_at": "2026-09-13T01:07:25.764659Z",
       "status": "not_found"
+    },
+    "crossref:title:0ef2b3c5ff1e9358effb87988e725ac3ef6be54ec31d5928d2de3016c3c25f28": {
+      "expires_at": "2026-09-22T01:03:33.133740Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Omar A.M. Abdelraouf",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optcom.2026.133748",
+        "landing_page": "https://doi.org/10.1016/j.optcom.2026.133748",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.optcom.2026.133748",
+        "publication_date": "2026-12",
+        "title": "NanoPhotoNet-PINL: Physics-informed nonlinear deep-learning for inverse design of multilayer metasurfaces for boosted SHG in 3R-MoS2",
+        "venue": "Optics Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-15T01:03:33.133740Z",
+      "status": "found"
     },
     "crossref:title:0f8c4e0a9f7dbce7dfea5017263591b2cbf2d3204d9a790cff62b5e4c9f44859": {
       "expires_at": "2026-08-31T00:32:20.567904Z",
@@ -4778,6 +4864,36 @@
       "retrieved_at": "2026-08-04T09:38:54.653784Z",
       "status": "found"
     },
+    "crossref:title:20e0321813f779b57400a1efa1a9062a82eb81a843aea717d78cb6cb05979696": {
+      "expires_at": "2026-09-22T01:03:22.594010Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Malihe Karami",
+            "orcid": null
+          },
+          {
+            "name": "Saeed Ghavami Sabouri",
+            "orcid": "https://orcid.org/0000-0002-6200-4459"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlastec.2026.116377",
+        "landing_page": "https://doi.org/10.1016/j.optlastec.2026.116377",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.optlastec.2026.116377",
+        "publication_date": "2026-11",
+        "title": "Physics-informed low-dimensional moment representation for deep learning–based modal decomposition",
+        "venue": "Optics &amp; Laser Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-15T01:03:22.594010Z",
+      "status": "found"
+    },
     "crossref:title:228b3b46c10b7220e57f2100055e4141e679d4bbd9d18a67aa288e7230050b53": {
       "expires_at": "2026-08-25T04:25:16.791069Z",
       "record": {
@@ -5025,6 +5141,12 @@
       },
       "retrieved_at": "2026-08-22T00:32:17.951645Z",
       "status": "found"
+    },
+    "crossref:title:3a372dcedf959ba1714704e408d0c6a721d23fd89360dd10d446008a4b765711": {
+      "expires_at": "2026-09-22T01:03:25.776696Z",
+      "record": null,
+      "retrieved_at": "2026-09-15T01:03:25.776696Z",
+      "status": "not_found"
     },
     "crossref:title:3f0fe9ff0903f34ce58f6f8ecb3df9c7df258013855792d3bcfdb13a071eb443": {
       "expires_at": "2026-09-20T01:07:33.315552Z",
@@ -5914,6 +6036,12 @@
       "retrieved_at": "2026-08-26T00:32:39.356861Z",
       "status": "not_found"
     },
+    "crossref:title:83bd039da35539c1d03ba566574b694cdb193872a2a860d4db5f837093315683": {
+      "expires_at": "2026-09-22T01:03:20.845181Z",
+      "record": null,
+      "retrieved_at": "2026-09-15T01:03:20.845181Z",
+      "status": "not_found"
+    },
     "crossref:title:849250f9042d4d1b1371df2dcf6d39f99be3ebe04fa2724789d7bbcde523a6ea": {
       "expires_at": "2026-09-05T00:54:08.565887Z",
       "record": null,
@@ -5966,11 +6094,47 @@
       "retrieved_at": "2026-08-10T00:36:45.356180Z",
       "status": "not_found"
     },
+    "crossref:title:893405bcc3b796b7ba1f5ebd6899498ebed2256010561528450195fe104ac044": {
+      "expires_at": "2026-09-22T01:03:36.079652Z",
+      "record": null,
+      "retrieved_at": "2026-09-15T01:03:36.079652Z",
+      "status": "not_found"
+    },
     "crossref:title:8995642801a61e04999e7650bb16c2f9566e395044ef2405151ecf1495410f52": {
       "expires_at": "2026-08-25T04:25:28.127246Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:28.127246Z",
       "status": "not_found"
+    },
+    "crossref:title:8b1f013d4dee204f8bd57f25f55b4e8b3b538d0b7d67225d044d853672ce24f6": {
+      "expires_at": "2026-09-22T01:03:23.652392Z",
+      "record": {
+        "abstract": "Conical intersections (CIs), where two potential energy surfaces, such as those for the ground and first excited states, coincide, are quintessential in photochemistry. Nevertheless, it is usually difficult to find...",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Federico Zahariev",
+            "orcid": null
+          },
+          {
+            "name": "Vassiliki-Alexandra Glezakou",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1039/d6cp02326f",
+        "landing_page": "https://doi.org/10.1039/d6cp02326f",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1039/d6cp02326f",
+        "publication_date": "2026",
+        "title": "RANGE-X: A gradient-free framework for the discovery of conical intersections and photochemical reaction pathways",
+        "venue": "Physical Chemistry Chemical Physics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-15T01:03:23.652392Z",
+      "status": "found"
     },
     "crossref:title:8ec677af02fbf901bc474e59ca0ce2b14a3bae399695bc4b316cdcc535905732": {
       "expires_at": "2026-08-25T04:25:30.567431Z",
@@ -6556,6 +6720,12 @@
       "retrieved_at": "2026-08-18T04:25:16.005752Z",
       "status": "not_found"
     },
+    "crossref:title:ad97331ae96a489a96091f933d0848d757bc498b64bcb16dca45cbb33416a4a4": {
+      "expires_at": "2026-09-22T01:03:37.570946Z",
+      "record": null,
+      "retrieved_at": "2026-09-15T01:03:37.570946Z",
+      "status": "not_found"
+    },
     "crossref:title:ae3bbafc4664c7dae8bdbdbf106cd750e8a2eede853712e94b2d13cdb905bd47": {
       "expires_at": "2026-09-16T01:01:59.815113Z",
       "record": null,
@@ -6967,6 +7137,12 @@
       },
       "retrieved_at": "2026-09-09T01:02:04.231175Z",
       "status": "found"
+    },
+    "crossref:title:c8e5f7f13de1c5e2dd1eda61932f53d050fec817d542a547fb423fe0a9379b7a": {
+      "expires_at": "2026-09-22T01:03:27.612497Z",
+      "record": null,
+      "retrieved_at": "2026-09-15T01:03:27.612497Z",
+      "status": "not_found"
     },
     "crossref:title:cbde4e7b874735126ef47edd5cebf95081723b500b74f59d1ec1de2538ee9151": {
       "expires_at": "2026-08-16T00:36:06.532514Z",
@@ -7575,6 +7751,78 @@
       "record": null,
       "retrieved_at": "2026-08-20T00:32:23.976550Z",
       "status": "not_found"
+    },
+    "crossref:title:f0c5003474f860bf9c194412b1d39b5403afb65ee1d1ffdb8617666dc927419e": {
+      "expires_at": "2026-09-22T01:03:18.781771Z",
+      "record": null,
+      "retrieved_at": "2026-09-15T01:03:18.781771Z",
+      "status": "not_found"
+    },
+    "crossref:title:f2e1b5b286ffb2c826fb063e3e0eebaca5af8c1a7146595e4bd056202262058e": {
+      "expires_at": "2026-09-22T01:03:35.043496Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jingtao Wu",
+            "orcid": null
+          },
+          {
+            "name": "Yidi Feng",
+            "orcid": null
+          },
+          {
+            "name": "Lin Wu",
+            "orcid": "https://orcid.org/0000-0002-7458-2387"
+          },
+          {
+            "name": "Chao Yang",
+            "orcid": "https://orcid.org/0009-0001-9659-838X"
+          },
+          {
+            "name": "Zichen Liu",
+            "orcid": "https://orcid.org/0000-0001-6694-6008"
+          },
+          {
+            "name": "Chao Li",
+            "orcid": "https://orcid.org/0000-0001-6623-131X"
+          },
+          {
+            "name": "Zhixue He",
+            "orcid": "https://orcid.org/0000-0001-8533-2247"
+          },
+          {
+            "name": "Yongquan Zeng",
+            "orcid": "https://orcid.org/0000-0003-0228-7562"
+          },
+          {
+            "name": "Yongzhi Cheng",
+            "orcid": "https://orcid.org/0000-0003-4928-9872"
+          },
+          {
+            "name": "Hanbing Li",
+            "orcid": null
+          },
+          {
+            "name": "Jin Tao",
+            "orcid": "https://orcid.org/0000-0003-2212-3880"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/lpt.2026.3732335",
+        "landing_page": "https://doi.org/10.1109/lpt.2026.3732335",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/lpt.2026.3732335",
+        "publication_date": "2026",
+        "title": "Turbulence-Resilient Multicasting of OAM Beams Using a Hybrid Optical-Electronic Neural Network",
+        "venue": "IEEE Photonics Technology Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-15T01:03:35.043496Z",
+      "status": "found"
     },
     "crossref:title:f5ab57ac7e603ce67f736c744d43952cf525bcbf37ba3d24e6d377c07bf7e87f": {
       "expires_at": "2026-09-20T01:07:35.132723Z",
@@ -9550,6 +9798,32 @@
       "retrieved_at": "2026-08-18T04:25:18.047311Z",
       "status": "found"
     },
+    "openalex:doi:10.1016/j.optcom.2026.133748": {
+      "expires_at": "2026-10-15T01:03:33.505145Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Omar A. M. Abdelraouf",
+            "orcid": "https://orcid.org/0000-0002-9065-7414"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optcom.2026.133748",
+        "landing_page": "https://doi.org/10.1016/j.optcom.2026.133748",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7212310415",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212310415",
+        "publication_date": "2026-09-11",
+        "title": "NanoPhotoNet-PINL: Physics-informed nonlinear deep-learning for inverse design of multilayer metasurfaces for boosted SHG in 3R-MoS2",
+        "venue": "Optics Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-15T01:03:33.505145Z",
+      "status": "found"
+    },
     "openalex:doi:10.1016/j.optlastec.2026.116154": {
       "expires_at": "2026-09-17T04:25:34.997756Z",
       "record": {
@@ -9598,6 +9872,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:34.997756Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.optlastec.2026.116377": {
+      "expires_at": "2026-10-15T01:03:22.953551Z",
+      "record": {
+        "abstract": "We present a physics-informed feature-based learning framework for modal decomposition of superposed Laguerre–Gaussian (LG) beams. Instead of using high-dimensional intensity images as network input, the optical field is represented by regional intensity moments extracted from four symmetric regions of the beam cross-section. Two low-order central moments are computed in each region, forming an eight-dimensional feature vector. This representation captures key spatial characteristics of the beam while significantly reducing the input dimensionality. A fully connected deep neural network (DNN) trained on these moment features is used to predict normalized modal coefficients for three-, five-, and eight-mode superpositions. Compared with convolutional neural networks (CNNs) operating on pixel-level images, the proposed approach achieves orders-of-magnitude reduction in training time while maintaining competitive prediction accuracy in both simulated and experimental datasets. Experimental results demonstrate that the moment-based representation remains effective under realistic optical conditions, despite the increased complexity associated with higher-order modal superpositions. The results indicate that physically informed low-dimensional features can provide a practical alternative to image-based learning for modal decomposition. Furthermore, the compact vector representation reduces the dimensionality of the data interface and may facilitate future hardware-oriented implementations, including optical neural-network (ONN) architectures.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Malihe Karami",
+            "orcid": null
+          },
+          {
+            "name": "Saeed Ghavami Sabouri",
+            "orcid": "https://orcid.org/0000-0002-6200-4459"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlastec.2026.116377",
+        "landing_page": "https://doi.org/10.1016/j.optlastec.2026.116377",
+        "open_access_url": "https://doi.org/10.1016/j.optlastec.2026.116377",
+        "openalex_id": "https://openalex.org/W7212152043",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212152043",
+        "publication_date": "2026-09-10",
+        "title": "Physics-informed low-dimensional moment representation for deep learning–based modal decomposition",
+        "venue": "Optics & Laser Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-15T01:03:22.953551Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.swevo.2026.102514": {
@@ -11104,6 +11408,60 @@
       "retrieved_at": "2026-08-04T09:38:22.171450Z",
       "status": "found"
     },
+    "openalex:doi:10.1063/5.0350777": {
+      "expires_at": "2026-10-15T01:03:34.077861Z",
+      "record": {
+        "abstract": "Metal halide perovskite semiconductors demonstrate significant advantages over traditional semiconductor materials in next-generation weak-light-responsive devices, owing to their exceptional photoelectric conversion capabilities and outstanding charge transport properties. Under illumination with a power density as low as 0.1 μW/cm2, these devices can efficiently respond to faint optical signals, achieving an ultrahigh detectivity of 1017 Jones—highlighting their exceptional sensitivity in low weak-light conditions. Furthermore, driven by intrinsic charge trap/de-trap dynamics, the devices successfully emulate fundamental biological synaptic behaviors, including optical pulse-modulated transitions from short-term to long-term memory. Leveraging these tunable synaptic characteristics, we further demonstrate complex visual learning simulations. Specifically, the system successfully modeled a facial recognition training process, where increasing optical stimulation progressively enhanced facial feature extraction, closely mimicking human visual cognition. By exploiting the adjustable conductance of the improved synaptic device, we construct convolutional neural networks to execute synaptic weight modifications. After 100 training epochs, the proposed system achieves a remarkable recognition accuracy of 98.91% on handwritten digit classification tasks. Collectively, these results systematically underscore the immense potential of BDASnI4 FETs as highly stable, multifunctional hardware platforms for next-generation photoelectrically integrated artificial visual systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xincan Qiu",
+            "orcid": "https://orcid.org/0009-0006-9779-0249"
+          },
+          {
+            "name": "Jiangnan Xia",
+            "orcid": "https://orcid.org/0009-0005-2552-9247"
+          },
+          {
+            "name": "Yu Liu",
+            "orcid": "https://orcid.org/0009-0005-8401-1763"
+          },
+          {
+            "name": "Ping-An Chen",
+            "orcid": "https://orcid.org/0009-0004-3513-6271"
+          },
+          {
+            "name": "Hong Lian",
+            "orcid": null
+          },
+          {
+            "name": "Zuoren Xiong",
+            "orcid": "https://orcid.org/0000-0002-8302-3712"
+          },
+          {
+            "name": "Xiang Zhou",
+            "orcid": "https://orcid.org/0000-0003-0121-6527"
+          },
+          {
+            "name": "Yuanyuan Hu",
+            "orcid": "https://orcid.org/0000-0001-8511-1401"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1063/5.0350777",
+        "landing_page": "https://doi.org/10.1063/5.0350777",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7212449750",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212449750",
+        "publication_date": "2026-09-14",
+        "title": "Ultra-sensitive 2D Dion−Jacobson perovskite phototransistors for optoelectronic neuromorphic computing",
+        "venue": "Applied Physics Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-15T01:03:34.077861Z",
+      "status": "found"
+    },
     "openalex:doi:10.1080/19942060.2026.2682112": {
       "expires_at": "2026-09-08T00:36:02.811260Z",
       "record": {
@@ -11880,6 +12238,72 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:23.198098Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/lpt.2026.3732335": {
+      "expires_at": "2026-10-15T01:03:35.625510Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jingtao Wu",
+            "orcid": null
+          },
+          {
+            "name": "Feng Yidi",
+            "orcid": null
+          },
+          {
+            "name": "Lin Wu",
+            "orcid": "https://orcid.org/0000-0002-7458-2387"
+          },
+          {
+            "name": "Chao Yang",
+            "orcid": "https://orcid.org/0009-0001-9659-838X"
+          },
+          {
+            "name": "Zichen Liu",
+            "orcid": "https://orcid.org/0000-0001-6694-6008"
+          },
+          {
+            "name": "Chao Li",
+            "orcid": "https://orcid.org/0000-0001-6623-131X"
+          },
+          {
+            "name": "Zhixue He",
+            "orcid": "https://orcid.org/0000-0001-8533-2247"
+          },
+          {
+            "name": "Yongquan Zeng",
+            "orcid": "https://orcid.org/0000-0003-0228-7562"
+          },
+          {
+            "name": "Yongzhi Cheng",
+            "orcid": "https://orcid.org/0000-0003-4928-9872"
+          },
+          {
+            "name": "Hanbing Li",
+            "orcid": "https://orcid.org/0009-0006-5775-9095"
+          },
+          {
+            "name": "Jin Tao",
+            "orcid": "https://orcid.org/0000-0003-2212-3880"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/lpt.2026.3732335",
+        "landing_page": "https://doi.org/10.1109/lpt.2026.3732335",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7212129485",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212129485",
+        "publication_date": "2026-01-01",
+        "title": "Turbulence-Resilient Multicasting of OAM Beams Using a Hybrid Optical-Electronic Neural Network",
+        "venue": "IEEE Photonics Technology Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-15T01:03:35.625510Z",
       "status": "found"
     },
     "openalex:doi:10.1109/mipro70003.2026.11591687": {
@@ -15256,6 +15680,12 @@
       "retrieved_at": "2026-09-07T01:06:42.496403Z",
       "status": "found"
     },
+    "openalex:title:03beeea4f2c63951ee8a4701a080fc53c33244e01b47403d7919902ea976253e": {
+      "expires_at": "2026-09-22T01:03:32.052841Z",
+      "record": null,
+      "retrieved_at": "2026-09-15T01:03:32.052841Z",
+      "status": "not_found"
+    },
     "openalex:title:043eb451a4c6e0905bd116dd40db2c57a5de03d674bef236f4a1f5db91d7e108": {
       "expires_at": "2026-09-20T01:07:31.580537Z",
       "record": null,
@@ -15497,6 +15927,56 @@
       "record": null,
       "retrieved_at": "2026-08-09T00:35:59.656653Z",
       "status": "not_found"
+    },
+    "openalex:title:3a372dcedf959ba1714704e408d0c6a721d23fd89360dd10d446008a4b765711": {
+      "expires_at": "2026-09-22T01:03:26.735474Z",
+      "record": {
+        "abstract": "Agent usage is shifting toward long-horizon tasks such as coding and scientific discovery, among which terminal tasks are especially important. We introduce T1, a Mixture-of-Experts model of 122B total trained with reinforcement learning, operating a real shell in a cloud sandbox for up to 300+ tool-call turns per task, rewarded by executing each task's own verifier. We provide a comprehensive recipe: First, an aggressively warm-started to stabilize actor-critic training, with a dense process reward scoring trajectories by the absolute number of passing verifiers. Second, stable optimization through TITO construction, training on the exact sampled token identifiers with drift repair at turn boundaries, and rollout routing replay, recording the sampler's per-token expert choices at every MoE layer and replaying them during training. Third, fully out-of-distribution training corpus: isolated seeds and synthesized tasks disjoint from Terminal-Bench 2.1 ensures gains reflect genuine capability transfer over benchmark overfitting. Together, TITO and R3 cut the training-to-inference log-probability difference from 0.021 to 0.013, with exactly aligned zero token drift in the loss region. On Terminal-Bench 2.1, our post-train pipeline raises initial base model from 43.8% to T1 with 64.0% resolved. On Long-Horizon Terminal Bench, T1 reaches 27.9% and surpasses GPT-5.4 and GLM-5.1.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Junyao Yang",
+            "orcid": null
+          },
+          {
+            "name": "Yucheng Shi",
+            "orcid": null
+          },
+          {
+            "name": "Zhongzhi Li",
+            "orcid": null
+          },
+          {
+            "name": "Ruhan Wang",
+            "orcid": null
+          },
+          {
+            "name": "Zongxia Li",
+            "orcid": null
+          },
+          {
+            "name": "Haitao Mi",
+            "orcid": null
+          },
+          {
+            "name": "Leowei Liang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.11042",
+        "landing_page": "https://arxiv.org/abs/2609.11042",
+        "open_access_url": "https://arxiv.org/abs/2609.11042",
+        "openalex_id": "https://openalex.org/W7212293382",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212293382",
+        "publication_date": "2026-09-10",
+        "title": "T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-15T01:03:26.735474Z",
+      "status": "found"
     },
     "openalex:title:3f0fe9ff0903f34ce58f6f8ecb3df9c7df258013855792d3bcfdb13a071eb443": {
       "expires_at": "2026-09-20T01:07:33.769750Z",
@@ -16056,6 +16536,36 @@
       "retrieved_at": "2026-08-26T00:32:40.232960Z",
       "status": "not_found"
     },
+    "openalex:title:83bd039da35539c1d03ba566574b694cdb193872a2a860d4db5f837093315683": {
+      "expires_at": "2026-09-22T01:03:21.836745Z",
+      "record": {
+        "abstract": "EGGROLL makes evolution strategies (ES) practical for LLMs by replacing dense Gaussian weight perturbations with low-rank Gaussian products, often of rank one. This choice is computationally attractive but geometrically severe: each rank-one perturbation lies in a zero-volume subset of the ambient matrix space, despite having identity covariance. We characterize the mean EGGROLL update field at finite rank and nonzero perturbation radii, then analyze the error of its finite-population estimator. The population field is obtained by applying an explicit resolvent to the gradient of the objective smoothed by the perturbations. We show that the resolvent can introduce a nonconservative component and can reverse the local stability of an optimum. EGGROLL is nevertheless exact on every quadratic objective at every rank and radius. For smooth objectives, its first local finite-rank correction is $O(σ^2/r)$, and nonasymptotic bounds control the resulting field error under smoothness assumptions. Under a local affine model, rank-one perturbations increase the variance of the gradient estimator by only $\\frac{2(m+n+1)}{mn+1}$ relative to dense Gaussian ES, or $0.098\\%$ for a $4096\\times4096$ matrix. We then introduce LOO-ROLL, a leave-one-out estimator that preserves the finite-rank population field while replacing EGGROLL's two antithetic evaluations per direction by one. At equal evaluation cost, LOO-ROLL halves estimator MSE in transformer blocks. At matched wall time across ten post-training settings and models up to 8B parameters, LOO-ROLL improves seven outcomes in individual paired tests, with no significant loss. On the GSM8K test set, accuracy increases from $38.1\\%$ to $63.0\\%$ at 0.6B and from $65.9\\%$ to $80.0\\%$ at 8B. Transformer measurements recover the predicted finite-rank variance, while the rank comparisons show no reproducible reward-based advantage for rank eight.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ege C. Kaya",
+            "orcid": null
+          },
+          {
+            "name": "Abolfazl Hashemi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.10980",
+        "landing_page": "https://arxiv.org/abs/2609.10980",
+        "open_access_url": "https://arxiv.org/abs/2609.10980",
+        "openalex_id": "https://openalex.org/W7212301750",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212301750",
+        "publication_date": "2026-09-10",
+        "title": "EGGROLL, Unrolled: Understanding and Improving Low-Rank Evolution Strategies at Scale",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-15T01:03:21.836745Z",
+      "status": "found"
+    },
     "openalex:title:849250f9042d4d1b1371df2dcf6d39f99be3ebe04fa2724789d7bbcde523a6ea": {
       "expires_at": "2026-09-05T00:54:09.070238Z",
       "record": null,
@@ -16074,10 +16584,22 @@
       "retrieved_at": "2026-08-10T00:36:45.916459Z",
       "status": "not_found"
     },
+    "openalex:title:893405bcc3b796b7ba1f5ebd6899498ebed2256010561528450195fe104ac044": {
+      "expires_at": "2026-09-22T01:03:37.039996Z",
+      "record": null,
+      "retrieved_at": "2026-09-15T01:03:37.039996Z",
+      "status": "not_found"
+    },
     "openalex:title:8995642801a61e04999e7650bb16c2f9566e395044ef2405151ecf1495410f52": {
       "expires_at": "2026-08-25T04:25:28.551056Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:28.551056Z",
+      "status": "not_found"
+    },
+    "openalex:title:8b1f013d4dee204f8bd57f25f55b4e8b3b538d0b7d67225d044d853672ce24f6": {
+      "expires_at": "2026-09-22T01:03:24.784315Z",
+      "record": null,
+      "retrieved_at": "2026-09-15T01:03:24.784315Z",
       "status": "not_found"
     },
     "openalex:title:8ec677af02fbf901bc474e59ca0ce2b14a3bae399695bc4b316cdcc535905732": {
@@ -16368,6 +16890,40 @@
       "retrieved_at": "2026-08-18T04:25:16.456778Z",
       "status": "found"
     },
+    "openalex:title:ad97331ae96a489a96091f933d0848d757bc498b64bcb16dca45cbb33416a4a4": {
+      "expires_at": "2026-09-22T01:03:38.566628Z",
+      "record": {
+        "abstract": "Graph condensation aims to produce a small surrogate graph that preserves the downstream node-classification performance of a much larger original graph. Existing methods rely on Weisfeiler-Lehman neighbourhood aggregation or gradient-based distribution matching, both of which assume that adjacent nodes share the same label, an assumption that breaks down under heterophily. We propose HERALD (High-fidelity Exemplar Retrieval with Adaptive Landmark Distillation), a gradient-free graph condensation framework that adapts the node scoring and feature selection in the condensation pipeline to the graph's measured heterophily. HERALD selects features via a joint Fisher-discriminability and activation-density criterion that down-weights aggregated representations on heterophilic graphs, and scores nodes by a weighted combination of prototype representativeness, decision-boundary proximity, and Local Intrinsic Dimensionality (LID), where the weights are driven by a smooth sigmoid function of the heterophily ratio. Nodes are then assembled into a condensed subgraph through score-ordered BFS expansion, Personalised PageRank pruning, and class rebalancing, all at an identical storage budget to BONSAI, enabling direct comparison. Experiments on eight benchmark datasets spanning homophilic and heterophilic settings show that HERALD matches or outperforms state-of-the-art condensers on heterophilic graphs and remains competitive on homophilic ones across four GNN architectures.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sujan Chakraborty",
+            "orcid": null
+          },
+          {
+            "name": "Priyanka Saha",
+            "orcid": null
+          },
+          {
+            "name": "Saptarshi Bej",
+            "orcid": "https://orcid.org/0000-0003-1835-6139"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.11123",
+        "landing_page": "https://arxiv.org/abs/2609.11123",
+        "open_access_url": "https://arxiv.org/abs/2609.11123",
+        "openalex_id": "https://openalex.org/W7212226187",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212226187",
+        "publication_date": "2026-09-10",
+        "title": "HERALD: High-Fidelity Exemplar Retrieval with Adaptive Landmark Distillation for Heterophily-Aware Graph Condensation",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-15T01:03:38.566628Z",
+      "status": "found"
+    },
     "openalex:title:ae3bbafc4664c7dae8bdbdbf106cd750e8a2eede853712e94b2d13cdb905bd47": {
       "expires_at": "2026-09-16T01:02:00.472984Z",
       "record": null,
@@ -16598,6 +17154,12 @@
       "retrieved_at": "2026-09-01T01:13:12.743268Z",
       "status": "not_found"
     },
+    "openalex:title:c8e5f7f13de1c5e2dd1eda61932f53d050fec817d542a547fb423fe0a9379b7a": {
+      "expires_at": "2026-09-22T01:03:29.566395Z",
+      "record": null,
+      "retrieved_at": "2026-09-15T01:03:29.566395Z",
+      "status": "not_found"
+    },
     "openalex:title:cbde4e7b874735126ef47edd5cebf95081723b500b74f59d1ec1de2538ee9151": {
       "expires_at": "2026-08-16T00:36:07.204631Z",
       "record": null,
@@ -16777,6 +17339,12 @@
       },
       "retrieved_at": "2026-08-20T00:32:24.473759Z",
       "status": "found"
+    },
+    "openalex:title:f0c5003474f860bf9c194412b1d39b5403afb65ee1d1ffdb8617666dc927419e": {
+      "expires_at": "2026-09-22T01:03:20.362221Z",
+      "record": null,
+      "retrieved_at": "2026-09-15T01:03:20.362221Z",
+      "status": "not_found"
     },
     "openalex:title:f5ab57ac7e603ce67f736c744d43952cf525bcbf37ba3d24e6d377c07bf7e87f": {
       "expires_at": "2026-09-20T01:07:35.659687Z",

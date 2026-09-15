@@ -64,6 +64,15 @@
       "summary_record_sha256": "44b6432693342a865346461b60eb744c14b9f2a0c1d12c77e24080dc8b433a36",
       "title": "Modality-Agnostic Zeroth-Order LoRA Fine-Tuning for Black-Box Prompt Optimization"
     },
+    "1b05123cc2b8f5f966b29a56": {
+      "digest_date": "2026-09-15",
+      "doi": "10.48550/arxiv.2609.10980",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "1275febc3a65fff89d5fad8e4d753b657d8fb5b89d2e20cb2676bdfba508147d",
+      "title": "EGGROLL, Unrolled: Understanding and Improving Low-Rank Evolution Strategies at Scale"
+    },
     "1cf1fcd769c5ace951188b8c": {
       "digest_date": "2026-08-07",
       "doi": "10.1364/optica.591264",
@@ -325,6 +334,15 @@
       "summary_record_sha256": "405da6f85e07c71a653f968f4a282526a3d0f9ac9a9c670dda6d83d4913e5e7d",
       "title": "Reconfigurable Optical Nonlinear Activation Functions Using a Phase-Change Microring for Photonic Neural Networks"
     },
+    "a7f4407333af25ddc7630e14": {
+      "digest_date": "2026-09-15",
+      "doi": "10.1063/5.0350777",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "4cdf580dfcf6728bdf15f7db9deac28372a5eaa7f6f1a2139f265f74a70db9e4",
+      "title": "Ultra-sensitive 2D Dion−Jacobson perovskite phototransistors for optoelectronic neuromorphic computing"
+    },
     "b03b6320be57edd77b3ad7e5": {
       "digest_date": "2026-08-31",
       "doi": "10.48550/arxiv.2608.23178",
@@ -560,6 +578,10 @@
       "916e8199aaabe1372544d280",
       "d162b179119ee09c86ad3708",
       "fd6f281418ac4d412744b2ac"
+    ],
+    "2026-09-15": [
+      "1b05123cc2b8f5f966b29a56",
+      "a7f4407333af25ddc7630e14"
     ]
   },
   "by_doi": {
@@ -579,6 +601,7 @@
     "10.1038/s41467-026-77397-0": "8ed2e70c4b7d42f84e3676a7",
     "10.1038/s44335-026-00086-0": "328b1572ba0e31f8f8a6dac1",
     "10.1038/s44335-026-00096-y": "35ff63ef9d3333099ee28868",
+    "10.1063/5.0350777": "a7f4407333af25ddc7630e14",
     "10.1088/1361-6633/ae9e8c": "4bb38e8bcc3a3d164bd28700",
     "10.1088/2632-2153/aea3a0": "fca2cfc597728ee01e2a6032",
     "10.1109/icocn70692.2026.11656217": "c3474ba19a69c715eb87d391",
@@ -609,6 +632,7 @@
     "10.48550/arxiv.2608.23178": "b03b6320be57edd77b3ad7e5",
     "10.48550/arxiv.2608.28011": "5e49047e7ce2004f7954debb",
     "10.48550/arxiv.2609.07666": "3c46ab2b3d315aef47db028e",
+    "10.48550/arxiv.2609.10980": "1b05123cc2b8f5f966b29a56",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.6084/m9.figshare.c.8610155.v1": "d162b179119ee09c86ad3708",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799",
@@ -646,6 +670,7 @@
       "9351be654a20f4a2f7121847",
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
+      "a7f4407333af25ddc7630e14",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
       "c7b91f881a121b7e1651e2f2",
@@ -660,6 +685,7 @@
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
+      "1b05123cc2b8f5f966b29a56",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
@@ -798,7 +824,8 @@
       "d33b2e7c6586f37945facb32"
     ],
     "application:手写数字分类": [
-      "7edb19b24759fe609707ba01"
+      "7edb19b24759fe609707ba01",
+      "a7f4407333af25ddc7630e14"
     ],
     "application:望远镜成像": [
       "0cbf41592278a3ad1b89e219"
@@ -893,6 +920,9 @@
     "application:非线性分类": [
       "d33b2e7c6586f37945facb32"
     ],
+    "application:面部识别训练过程模拟": [
+      "a7f4407333af25ddc7630e14"
+    ],
     "application:高光谱地球观测": [
       "7bc9d4230ed283852c3248a7"
     ],
@@ -938,6 +968,7 @@
       "8ed2e70c4b7d42f84e3676a7",
       "916e8199aaabe1372544d280",
       "9322fad036b3d7fc8e3dd47b",
+      "a7f4407333af25ddc7630e14",
       "c3474ba19a69c715eb87d391",
       "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
@@ -985,6 +1016,7 @@
       "7d6c2a059923ebe445a1cdf7",
       "83a830ace13b5158f346c392",
       "916e8199aaabe1372544d280",
+      "a7f4407333af25ddc7630e14",
       "c3474ba19a69c715eb87d391"
     ],
     "project:optical-neural-networks": [
@@ -1018,6 +1050,7 @@
       "9351be654a20f4a2f7121847",
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
+      "a7f4407333af25ddc7630e14",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
       "c7b91f881a121b7e1651e2f2",
@@ -1032,6 +1065,7 @@
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
+      "1b05123cc2b8f5f966b29a56",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
@@ -1047,6 +1081,7 @@
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
+      "1b05123cc2b8f5f966b29a56",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
@@ -1062,6 +1097,7 @@
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
+      "1b05123cc2b8f5f966b29a56",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
@@ -1077,6 +1113,7 @@
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
+      "1b05123cc2b8f5f966b29a56",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
@@ -1091,6 +1128,7 @@
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
+      "1b05123cc2b8f5f966b29a56",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
@@ -1104,6 +1142,7 @@
     ],
     "zo:total_query_reduction": [
       "0e5c75b6132afcfb1f7afb17",
+      "1b05123cc2b8f5f966b29a56",
       "2f9953028e4e0e3b934222c8",
       "b03b6320be57edd77b3ad7e5",
       "dd2f544b89860edf2c2a51ae"
@@ -1132,6 +1171,9 @@
     ],
     "Applied Optics": [
       "380b726618cccff0a9e5514f"
+    ],
+    "Applied Physics Letters": [
+      "a7f4407333af25ddc7630e14"
     ],
     "CLEO 2026": [
       "5017adbd33e6ddd5c320a4c4"
@@ -1209,6 +1251,7 @@
     "arXiv (Cornell University)": [
       "0cbf41592278a3ad1b89e219",
       "142dc76f41fc25448b82c91e",
+      "1b05123cc2b8f5f966b29a56",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
@@ -1231,6 +1274,7 @@
       "142dc76f41fc25448b82c91e",
       "15e7193239d6058f661ff180",
       "172a6e3e7b78c39c328487a6",
+      "1b05123cc2b8f5f966b29a56",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "1e619f1b739f1893eae64f28",
@@ -1260,6 +1304,7 @@
       "9351be654a20f4a2f7121847",
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
+      "a7f4407333af25ddc7630e14",
       "b03b6320be57edd77b3ad7e5",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
@@ -1277,7 +1322,7 @@
       "fd6f281418ac4d412744b2ac"
     ]
   },
-  "paper_count": 51,
+  "paper_count": 53,
   "schema_version": 1,
-  "updated_at": "2026-09-14T01:08:41.735853Z"
+  "updated_at": "2026-09-15T01:05:36.043911Z"
 }

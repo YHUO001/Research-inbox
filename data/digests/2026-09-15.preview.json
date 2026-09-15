@@ -1,0 +1,42 @@
+{
+  "built_at": "2026-09-15T01:03:39.376041Z",
+  "digest_date": "2026-09-15",
+  "digest_version": 1,
+  "pending_summary_count": 2,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "1b05123cc2b8f5f966b29a56",
+        "landing_page": "https://arxiv.org/abs/2609.10980",
+        "mandatory": false,
+        "score": 0.89,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "EGGROLL, Unrolled: Understanding and Improving Low-Rank Evolution Strategies at Scale",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "a7f4407333af25ddc7630e14",
+        "landing_page": "https://doi.org/10.1063/5.0350777",
+        "mandatory": false,
+        "score": 0.81,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Ultra-sensitive 2D Dion−Jacobson perovskite phototransistors for optoelectronic neuromorphic computing",
+        "venue": "Applied Physics Letters",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`51`
-- 更新时间：`2026-09-14T01:08:41.735853Z`
+- 论文数：`53`
+- 更新时间：`2026-09-15T01:05:36.043911Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Ultra-sensitive 2D Dion−Jacobson perovskite phototransistors for optoelectronic neuromorphic computing
+
+- DOI/链接：[10.1063/5.0350777](https://doi.org/10.1063/5.0350777)
+- 期刊/年份：Applied Physics Letters，2026
+- 摘要日期：`2026-09-15`
+- 候选 ID：`a7f4407333af25ddc7630e14`
+- 标签：application:手写数字分类, application:面部识别训练过程模拟, architecture:unclear, hardware_validation:unclear, project:optical-neural-networks
 
 ### Second-harmonic generation for enhancing the performance of diffractive neural networks
 
@@ -323,6 +331,14 @@ Perception
 - 标签：application:分布式声学传感（das）, application:图像分类（cifar-10、fashion-mnist、mnist）, application:语音识别（fsdd）, architecture:integrated, hardware_validation:mixed, project:optical-neural-networks
 
 ## zeroth-order-optimization
+
+### EGGROLL, Unrolled: Understanding and Improving Low-Rank Evolution Strategies at Scale
+
+- DOI/链接：[10.48550/arxiv.2609.10980](https://doi.org/10.48550/arxiv.2609.10980)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-09-15`
+- 候选 ID：`1b05123cc2b8f5f966b29a56`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
 
 ### MpSub: A Momentum $p$-Dimensional Subspace Trust-Region Method for Derivative-Free Fine-Tuning of Large Language Models
 

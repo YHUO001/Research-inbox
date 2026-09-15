@@ -1,193 +1,79 @@
 {
-  "abstract_fallback_candidate_ids": [],
-  "abstract_fallback_count": 0,
+  "abstract_fallback_candidate_ids": [
+    "a7f4407333af25ddc7630e14"
+  ],
+  "abstract_fallback_count": 1,
   "architecture_evidence": {
-    "916e8199aaabe1372544d280": {
+    "1b05123cc2b8f5f966b29a56": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    },
+    "a7f4407333af25ddc7630e14": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": "unclear",
       "resolved_type": "unclear"
-    },
-    "d162b179119ee09c86ad3708": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
-    },
-    "fd6f281418ac4d412744b2ac": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [
-        "This integrated architecture enables a polarization-resolved point-cloud output by jointly providing 3D geometry, return intensity, and a polarization-derived attribute, and it attaches a point-wise material label inferred by the on-chip PolarONN.",
-        "Compared to representative electronic classification back-ends used for polarization-based material identification, our on-chip photonic inference core provides ns-scale response with a low electrical power budget for the inference module."
-      ],
-      "previous_type": "integrated",
-      "resolved_type": "integrated"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 3,
-  "completed_at": "2026-09-14T01:08:41.735853Z",
+  "automatic_queue_candidate_count": 2,
+  "completed_at": "2026-09-15T01:05:36.043911Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "916e8199aaabe1372544d280",
-    "d162b179119ee09c86ad3708",
-    "fd6f281418ac4d412744b2ac"
+    "1b05123cc2b8f5f966b29a56",
+    "a7f4407333af25ddc7630e14"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-09-14",
-  "digest_json_file": "runtime-state/data/digests/2026-09-14.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-09-14.generated.md",
+  "digest_date": "2026-09-15",
+  "digest_json_file": "runtime-state/data/digests/2026-09-15.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-09-15.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.063978,
+  "estimated_cost_cny": 0.0766806,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "916e8199aaabe1372544d280": {
+    "1b05123cc2b8f5f966b29a56": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "916e8199aaabe1372544d280",
+      "candidate_id": "1b05123cc2b8f5f966b29a56",
       "character_count": 12000,
-      "content_sha256": "160331ca7865435cc64acc8d7f9db0942602b399638bff6884f366a45d770b14",
-      "elapsed_seconds": 4.878,
+      "content_sha256": "6919f44d8acd32f4ff127c4a4e795a2a820698f6dfb1e62dbea033bbcbce5cf3",
+      "elapsed_seconds": 0.942,
       "error": null,
       "fallback_decision": "use_full_text",
-      "media_type": "application/pdf",
+      "media_type": "text/html",
       "section_headings": [
-        "quantum information processing. Finally, we discuss the main challenges for practical implementation of",
-        "and processing, impede the efficient implementation of data-",
-        "the mathematical and physical model (Sec.2.1), training and",
-        "ing, the angular spectrum method is often employed for efficient",
-        "27,28 This method",
-        "2.2 Training and Inverse Design of DONNs",
-        "training is complete, the optimized parameters are physically",
-        "instantiated by fabricating the diffractive layers via methods",
-        "training approach is that experimental realization of DONNs",
-        "errors in both fabrication and assembly of the diffractive layers",
-        "Consequently, robust training schemes have been developed",
-        "the optical forward model during training. This vaccination",
-        "30 Furthermore, this robust training strategy extends",
-        "fabrication inaccuracies in individual diffractive or metasurface",
-        "A transition in design methodology fromin silico training,",
-        "which fully relies on simulation models, toin situtraining per-",
-        "formed on the optical hardware is underway.In situtraining not",
-        "only accelerates the training process by bypassing computation-",
-        "is hybrid training, where the computationally intensive forward",
-        "allows the training process to naturally compensate for static",
-        "proposed a fully forward training algorithm that bypasses the",
-        "passes. Such backpropagation-free methods are important for",
-        "scalable in situtraining and can reduce the reliance on external",
-        "weight-update cycle,in situtraining is anticipated to be widely",
-        "activation implementations, including saturable absorbers,",
-        "and others.49–51 For instance, Wright et al. introduced a training",
-        "puting pipeline, typical DONN implementations can be divided",
-        "use fabrication-fixed diffractive layers to perform a task-specific",
-        "length simplifies the fabrication of diffractive elements, such",
-        "fabrication-fixed optical",
-        "Fabrication Electron-beam lithography,",
-        "fabrication, alignment,",
-        "demanding more advanced nanoscale fabrication provides prac-",
-        "place complex optical setups or digital algorithms with a single,",
-        "optical computations.80 (e) An all-analog on-chip diffractive neural-network architecture for",
-        "In a distinct physical implementation, Wang et al. showed that a",
-        "representative DONN implementations across diverse commu-",
-        "mations and proposed two distinct implementation approaches",
-        "for image encryption.140 The first methodology encodes infor-",
-        "methods create multiple parallel channels for computation",
-        "training model, which enables accurate inference even with the",
-        "189 These methods hold promise for",
-        "physical implementations toward more complex architectures,",
-        "ability, and refining design methodologies to adapt to diverse",
-        "tectures, advanced AI-driven inverse design methodologies are",
-        "tasks, but also enables efficientin situ training. By updating",
-        "for fabrication imperfections or environmental perturbations,",
-        "als, integrated photonic devices, nanofabrication, optical pack-",
-        "Although most current implementations rely on fully coherent",
-        "advancements in network redesign and training strategies have",
-        "show the effects of fabrication and alignment errors and any",
-        "task accuracy under fabrication, alignment, coherence, band-",
-        "state fidelity under realistic fabrication, alignment, and channel",
-        "variations. Overall, acceptable fabrication tolerance, useful",
-        "AI design methodologies, novel tunable materials, and 3D nano-",
-        "fabrication techniques deepens, DONNs are poised to redefine",
-        "spectrum method for numerical simulation of free-space propa-",
-        "31. Z. Zheng et al., “Dual adaptive training of photonic neural",
-        "exhaustive metasurface robustness against fabrication uncertain-",
-        "34. A. Momeni et al.,“Training of physical neural networks,”Nature",
-        "35. T. Zhou et al., “In situ optical backpropagation training of",
-        "36. Z. Xue et al., “Fully forward mode training for optical neural",
-        "all-optical training of neural networks,” Photonics Res. 9(3),",
-        "38. J. Spall, X. Guo, and A. I. Lvovsky,“Hybrid training of optical",
-        "50. A. Opala et al.,“Training a neural network with exciton-polariton",
-        "implementation,”IEEE J. Sel. Areas Commun.41(8), 2367–2379",
-        "Turing: an optoelectronic implementation of reservoir comput-",
-        "all-optical implementation of a group of linear transformations"
+        "10 Experiments: from finite-rank theory to LLM post-training",
+        "Score standardization has negligible directional effect at the training population.",
+        "10.2 Consequences for LLM post-training",
+        "10.2.1 Does higher rank improve training at matched cost?",
+        "Training budgets and starting models.",
+        "Implementation."
       ],
-      "source_url": "https://www.spiedigitallibrary.org/JournalArticle/Download?urlId=10.1117/1.AP.8.5.054001",
+      "source_url": "https://arxiv.org/html/2609.10980",
       "status": "used",
       "text_persisted": false
     },
-    "d162b179119ee09c86ad3708": {
+    "a7f4407333af25ddc7630e14": {
       "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "d162b179119ee09c86ad3708",
-      "character_count": 12000,
-      "content_sha256": "80109b3ad90de42886a18c9eb3345e91713c4fd0dc49541f32033eec0a1ae658",
-      "elapsed_seconds": 3.237,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "application/pdf",
-      "section_headings": [
-        "1 Implementation of Free-Space Propagation",
-        "axis, separated by a distancez, as illustrated in Fig. 1. For numerical implementation,",
-        "we adopt the method introduced in [1], which solves the Rayleigh-Sommerfield inte-",
-        "2 Training Parameters",
-        "The training parameters and the loss function in our model were defined analogously",
-        "i. During training, it is represented by the",
-        "parameters are optimized using the backpropagation method with the Adam optimizer",
-        "class assignment. In our implementation, the intensity measured at the patches for each",
-        "Parameter Choices for the First Fourier Transform (Fig. 1(A)Our training input",
-        "mized, which was evaluated after three epochs of training before testing the next set of",
-        "were identified, training was resumed for 50 epochs using these parameters. The op-",
-        "6 Training",
-        "fashion datasets, the training data were provided by the Keras package, consisting of",
-        "Figure 3: Target detector masks used for training of the DNN: (A) detector mask for",
-        "60,000 grayscale images of size28×28for training and 10,000 for validation, with 10",
-        "images for training and 18,800 for validation, with 47 classes and an image size of",
-        "Keras, with the loss function defined as sparse categorical cross-entropy eq. 9. Training",
-        "provide the full training histories, including both training and validation loss and accu-",
-        "the loss and accuracy over training epochs (that is, one full cycle through the training",
-        "our case, these were typically within±0.5%or less. Successful DNN training requires",
-        "Figure 4: Training history of loss and accuracy for the single-layer DNN with 56×56",
-        "Figure 5: Training history of loss and accuracy for the single-layer DNN with 56×56",
-        "Figure 6: Training history of loss and accuracy for the 4-layer DNN with 56×56 neurons",
-        "method for the Rayleigh-Sommerfeld diffraction formula”.Appl. Opt.45.6",
-        "[3] D. P. Kingma and J. Ba. “Adam: A method for stochastic optimization”.arXiv"
-      ],
-      "source_url": "https://s3-eu-west-1.amazonaws.com/pstorage-osa-2151918321/68472559/7987489.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIC5UZOEV5G5EP3CQ/20260914/eu-west-1/s3/aws4_request&X-Amz-Date=20260914T010744Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=7d90cdaa8a84e544e7c224208c6bb19295696dcc6fd551313e79119ba6881858",
-      "status": "used",
-      "text_persisted": false
-    },
-    "fd6f281418ac4d412744b2ac": {
-      "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "fd6f281418ac4d412744b2ac",
-      "character_count": 2180,
-      "content_sha256": "ab97fc685bf936b76378c08c8e5630005e07bda0c79ebd3ae16f4712133b60c7",
-      "elapsed_seconds": 0.912,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "application/xml+jats",
-      "section_headings": [
-        "method"
-      ],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-76736-5&p=1",
-      "status": "used",
+      "attempt_count": 3,
+      "candidate_id": "a7f4407333af25ddc7630e14",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 0.808,
+      "error": "https://doi.org/10.1063/5.0350777: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1063/5.0350777",
+      "status": "not_available",
       "text_persisted": false
     }
   },
@@ -197,7 +83,7 @@
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 3,
+  "newly_completed_candidate_count": 2,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -213,254 +99,202 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 3,
+  "prepared_request_count": 2,
   "provider": "deepseek",
-  "queue_sha256": "60564ea3c91b13cb9097a46398b03c3cf262b1ad3107e192e1e84e4eaf339752",
-  "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-09-14.jsonl",
-  "request_sha256": "77fe61e8c37e5707ec32b29a5f2357a7cec4bc95ed13f7425f48b94961c64313",
+  "queue_sha256": "a5f7d12629553980613183e492f642507fc47bc17a8b60e9b466dbfee89bb3e4",
+  "request_count": 2,
+  "request_file": "runtime-state/data/summary_requests/2026-09-15.jsonl",
+  "request_sha256": "27c91a9735e9c4913fbf99512159a4c60717e566ad3c7793faf1b8541da0e725",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "a460f2895e05b580107f65cbc782e0cc12f3175674f91907e73a9c60d14eb2f9",
+  "selection_manifest_sha256": "00d3d64e51990c2b65439d590db8aa4bd16aaaee9725f6ad011802e3cc93b030",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 3,
+  "source_queue_candidate_count": 2,
   "stage_timings": {
-    "full_text_preparation_seconds": 9.034,
+    "full_text_preparation_seconds": 1.754,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "916e8199aaabe1372544d280",
-        "elapsed_seconds": 20.745,
+        "candidate_id": "1b05123cc2b8f5f966b29a56",
+        "elapsed_seconds": 42.078,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1682,
+          "completion_tokens": 3600,
           "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 4812,
-          "prompt_tokens": 6732,
-          "total_tokens": 8414
+          "prompt_cache_miss_tokens": 4489,
+          "prompt_tokens": 6409,
+          "total_tokens": 10009
+        }
+      },
+      {
+        "attempt": 2,
+        "candidate_id": "1b05123cc2b8f5f966b29a56",
+        "elapsed_seconds": 33.44,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 2907,
+          "prompt_cache_hit_tokens": 6400,
+          "prompt_cache_miss_tokens": 43,
+          "prompt_tokens": 6443,
+          "total_tokens": 9350
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "d162b179119ee09c86ad3708",
-        "elapsed_seconds": 20.314,
+        "candidate_id": "a7f4407333af25ddc7630e14",
+        "elapsed_seconds": 19.427,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1812,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 5037,
-          "prompt_tokens": 6957,
-          "total_tokens": 8769
+          "completion_tokens": 1687,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1424,
+          "prompt_tokens": 3472,
+          "total_tokens": 5159
         }
       },
       {
-        "attempt": 1,
-        "candidate_id": "fd6f281418ac4d412744b2ac",
-        "elapsed_seconds": 13.173,
+        "attempt": 2,
+        "candidate_id": "a7f4407333af25ddc7630e14",
+        "elapsed_seconds": 18.505,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1235,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 1971,
-          "prompt_tokens": 3891,
-          "total_tokens": 5126
+          "completion_tokens": 1516,
+          "prompt_cache_hit_tokens": 3456,
+          "prompt_cache_miss_tokens": 69,
+          "prompt_tokens": 3525,
+          "total_tokens": 5041
         }
       }
     ],
-    "model_generation_and_validation_seconds": 54.26
+    "model_generation_and_validation_seconds": 113.475
   },
   "status": "completed_automatic",
-  "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-09-14.jsonl",
+  "summary_count": 2,
+  "summary_file": "runtime-state/data/summaries/2026-09-15.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 3,
+  "summary_slot_count": 2,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "916e8199aaabe1372544d280": {
+      "1b05123cc2b8f5f966b29a56": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": "free_space",
-        "repaired": true,
-        "resolved_type": "unclear"
-      },
-      "d162b179119ee09c86ad3708": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "free_space",
-        "repaired": true,
-        "resolved_type": "unclear"
-      },
-      "fd6f281418ac4d412744b2ac": {
-        "free_space_evidence": [],
-        "integrated_evidence": [
-          "This integrated architecture enables a polarization-resolved point-cloud output by jointly providing 3D geometry, return intensity, and a polarization-derived attribute, and it attaches a point-wise material label inferred by the on-chip PolarONN.",
-          "Compared to representative electronic classification back-ends used for polarization-based material identification, our on-chip photonic inference core provides ns-scale response with a low electrical power budget for the inference module."
-        ],
-        "model_value": "integrated",
+        "model_value": null,
         "repaired": false,
-        "resolved_type": "integrated"
+        "resolved_type": "unclear"
+      },
+      "a7f4407333af25ddc7630e14": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "hybrid",
+        "repaired": true,
+        "resolved_type": "unclear"
       }
     },
     "architecture_repairs": 2,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "916e8199aaabe1372544d280": {
+      "1b05123cc2b8f5f966b29a56": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "916e8199aaabe1372544d280",
+        "candidate_id": "1b05123cc2b8f5f966b29a56",
         "character_count": 12000,
-        "content_sha256": "160331ca7865435cc64acc8d7f9db0942602b399638bff6884f366a45d770b14",
-        "elapsed_seconds": 4.878,
+        "content_sha256": "6919f44d8acd32f4ff127c4a4e795a2a820698f6dfb1e62dbea033bbcbce5cf3",
+        "elapsed_seconds": 0.942,
         "error": null,
         "fallback_decision": "use_full_text",
-        "media_type": "application/pdf",
+        "media_type": "text/html",
         "section_headings": [
-          "quantum information processing. Finally, we discuss the main challenges for practical implementation of",
-          "and processing, impede the efficient implementation of data-",
-          "the mathematical and physical model (Sec.2.1), training and",
-          "ing, the angular spectrum method is often employed for efficient",
-          "27,28 This method",
-          "2.2 Training and Inverse Design of DONNs",
-          "training is complete, the optimized parameters are physically",
-          "instantiated by fabricating the diffractive layers via methods",
-          "training approach is that experimental realization of DONNs",
-          "errors in both fabrication and assembly of the diffractive layers",
-          "Consequently, robust training schemes have been developed",
-          "the optical forward model during training. This vaccination",
-          "30 Furthermore, this robust training strategy extends",
-          "fabrication inaccuracies in individual diffractive or metasurface",
-          "A transition in design methodology fromin silico training,",
-          "which fully relies on simulation models, toin situtraining per-",
-          "formed on the optical hardware is underway.In situtraining not",
-          "only accelerates the training process by bypassing computation-",
-          "is hybrid training, where the computationally intensive forward",
-          "allows the training process to naturally compensate for static",
-          "proposed a fully forward training algorithm that bypasses the",
-          "passes. Such backpropagation-free methods are important for",
-          "scalable in situtraining and can reduce the reliance on external",
-          "weight-update cycle,in situtraining is anticipated to be widely",
-          "activation implementations, including saturable absorbers,",
-          "and others.49–51 For instance, Wright et al. introduced a training",
-          "puting pipeline, typical DONN implementations can be divided",
-          "use fabrication-fixed diffractive layers to perform a task-specific",
-          "length simplifies the fabrication of diffractive elements, such",
-          "fabrication-fixed optical",
-          "Fabrication Electron-beam lithography,",
-          "fabrication, alignment,",
-          "demanding more advanced nanoscale fabrication provides prac-",
-          "place complex optical setups or digital algorithms with a single,",
-          "optical computations.80 (e) An all-analog on-chip diffractive neural-network architecture for",
-          "In a distinct physical implementation, Wang et al. showed that a",
-          "representative DONN implementations across diverse commu-",
-          "mations and proposed two distinct implementation approaches",
-          "for image encryption.140 The first methodology encodes infor-",
-          "methods create multiple parallel channels for computation",
-          "training model, which enables accurate inference even with the",
-          "189 These methods hold promise for",
-          "physical implementations toward more complex architectures,",
-          "ability, and refining design methodologies to adapt to diverse",
-          "tectures, advanced AI-driven inverse design methodologies are",
-          "tasks, but also enables efficientin situ training. By updating",
-          "for fabrication imperfections or environmental perturbations,",
-          "als, integrated photonic devices, nanofabrication, optical pack-",
-          "Although most current implementations rely on fully coherent",
-          "advancements in network redesign and training strategies have",
-          "show the effects of fabrication and alignment errors and any",
-          "task accuracy under fabrication, alignment, coherence, band-",
-          "state fidelity under realistic fabrication, alignment, and channel",
-          "variations. Overall, acceptable fabrication tolerance, useful",
-          "AI design methodologies, novel tunable materials, and 3D nano-",
-          "fabrication techniques deepens, DONNs are poised to redefine",
-          "spectrum method for numerical simulation of free-space propa-",
-          "31. Z. Zheng et al., “Dual adaptive training of photonic neural",
-          "exhaustive metasurface robustness against fabrication uncertain-",
-          "34. A. Momeni et al.,“Training of physical neural networks,”Nature",
-          "35. T. Zhou et al., “In situ optical backpropagation training of",
-          "36. Z. Xue et al., “Fully forward mode training for optical neural",
-          "all-optical training of neural networks,” Photonics Res. 9(3),",
-          "38. J. Spall, X. Guo, and A. I. Lvovsky,“Hybrid training of optical",
-          "50. A. Opala et al.,“Training a neural network with exciton-polariton",
-          "implementation,”IEEE J. Sel. Areas Commun.41(8), 2367–2379",
-          "Turing: an optoelectronic implementation of reservoir comput-",
-          "all-optical implementation of a group of linear transformations"
+          "10 Experiments: from finite-rank theory to LLM post-training",
+          "Score standardization has negligible directional effect at the training population.",
+          "10.2 Consequences for LLM post-training",
+          "10.2.1 Does higher rank improve training at matched cost?",
+          "Training budgets and starting models.",
+          "Implementation."
         ],
-        "source_url": "https://www.spiedigitallibrary.org/JournalArticle/Download?urlId=10.1117/1.AP.8.5.054001",
+        "source_url": "https://arxiv.org/html/2609.10980",
         "status": "used",
         "text_persisted": false
       },
-      "d162b179119ee09c86ad3708": {
+      "a7f4407333af25ddc7630e14": {
         "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "d162b179119ee09c86ad3708",
-        "character_count": 12000,
-        "content_sha256": "80109b3ad90de42886a18c9eb3345e91713c4fd0dc49541f32033eec0a1ae658",
-        "elapsed_seconds": 3.237,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "application/pdf",
-        "section_headings": [
-          "1 Implementation of Free-Space Propagation",
-          "axis, separated by a distancez, as illustrated in Fig. 1. For numerical implementation,",
-          "we adopt the method introduced in [1], which solves the Rayleigh-Sommerfield inte-",
-          "2 Training Parameters",
-          "The training parameters and the loss function in our model were defined analogously",
-          "i. During training, it is represented by the",
-          "parameters are optimized using the backpropagation method with the Adam optimizer",
-          "class assignment. In our implementation, the intensity measured at the patches for each",
-          "Parameter Choices for the First Fourier Transform (Fig. 1(A)Our training input",
-          "mized, which was evaluated after three epochs of training before testing the next set of",
-          "were identified, training was resumed for 50 epochs using these parameters. The op-",
-          "6 Training",
-          "fashion datasets, the training data were provided by the Keras package, consisting of",
-          "Figure 3: Target detector masks used for training of the DNN: (A) detector mask for",
-          "60,000 grayscale images of size28×28for training and 10,000 for validation, with 10",
-          "images for training and 18,800 for validation, with 47 classes and an image size of",
-          "Keras, with the loss function defined as sparse categorical cross-entropy eq. 9. Training",
-          "provide the full training histories, including both training and validation loss and accu-",
-          "the loss and accuracy over training epochs (that is, one full cycle through the training",
-          "our case, these were typically within±0.5%or less. Successful DNN training requires",
-          "Figure 4: Training history of loss and accuracy for the single-layer DNN with 56×56",
-          "Figure 5: Training history of loss and accuracy for the single-layer DNN with 56×56",
-          "Figure 6: Training history of loss and accuracy for the 4-layer DNN with 56×56 neurons",
-          "method for the Rayleigh-Sommerfeld diffraction formula”.Appl. Opt.45.6",
-          "[3] D. P. Kingma and J. Ba. “Adam: A method for stochastic optimization”.arXiv"
-        ],
-        "source_url": "https://s3-eu-west-1.amazonaws.com/pstorage-osa-2151918321/68472559/7987489.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIC5UZOEV5G5EP3CQ/20260914/eu-west-1/s3/aws4_request&X-Amz-Date=20260914T010744Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=7d90cdaa8a84e544e7c224208c6bb19295696dcc6fd551313e79119ba6881858",
-        "status": "used",
-        "text_persisted": false
-      },
-      "fd6f281418ac4d412744b2ac": {
-        "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "fd6f281418ac4d412744b2ac",
-        "character_count": 2180,
-        "content_sha256": "ab97fc685bf936b76378c08c8e5630005e07bda0c79ebd3ae16f4712133b60c7",
-        "elapsed_seconds": 0.912,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "application/xml+jats",
-        "section_headings": [
-          "method"
-        ],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-76736-5&p=1",
-        "status": "used",
+        "attempt_count": 3,
+        "candidate_id": "a7f4407333af25ddc7630e14",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 0.808,
+        "error": "https://doi.org/10.1063/5.0350777: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1063/5.0350777",
+        "status": "not_available",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 1,
-    "numeric_grounding_repair_responses": 0,
-    "numeric_grounding_repairs": {},
+    "generation_metadata_repair_responses": 3,
+    "numeric_grounding_repair_responses": 2,
+    "numeric_grounding_repairs": {
+      "1b05123cc2b8f5f966b29a56": [
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "对比秩r∈{1,2,4,8}与稠密高斯ES，在四个扰动半径下使用8192个方向、三个独立扰动种子。",
+          "path": "method_implementation[1]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "8192"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "GSM8K使用全部1319个测试问题，其他任务使用256个共享保留示例。",
+          "path": "method_implementation[3]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "1319"
+          ]
+        }
+      ],
+      "a7f4407333af25ddc7630e14": [
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "器件在 0.1 μW/cm2 光功率密度下仍能有效响应微弱光信号，并获得 10¹⁷ Jones 的超高探测率，证明其具备在极低光照条件下的高灵敏探测能力。",
+          "path": "method_implementation[4]",
+          "replacement": "相关定量细节未在标题或摘要中提供。",
+          "tokens": [
+            "10"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "展示了基于 BDASnI4 场效应晶体管的超高灵敏光电突触器件，在 0.1 μW/cm2 光功率密度下获得 10¹⁷ Jones 的探测率。",
+          "path": "main_contributions[0]",
+          "replacement": "相关定量细节未在标题或摘要中提供。",
+          "tokens": [
+            "10"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "在 0.1 μW/cm2 光功率密度下，器件可获得 10¹⁷ Jones 的超高探测率。",
+          "path": "reported_results[0].claim",
+          "replacement": "相关定量结果未在标题或摘要中提供。",
+          "tokens": [
+            "10"
+          ]
+        }
+      ]
+    },
     "tops_alias_expansions": 77,
-    "unit_format_normalization_responses": 0
+    "unit_format_normalization_responses": 2
   },
   "usage": {
-    "completion_tokens": 4729,
-    "prompt_cache_hit_tokens": 5760,
-    "prompt_cache_miss_tokens": 11820,
-    "prompt_tokens": 17580,
-    "total_tokens": 22309
+    "completion_tokens": 9710,
+    "prompt_cache_hit_tokens": 13824,
+    "prompt_cache_miss_tokens": 6025,
+    "prompt_tokens": 19849,
+    "total_tokens": 29559
   }
 }
