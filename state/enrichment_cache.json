@@ -50,6 +50,68 @@
       "retrieved_at": "2026-09-04T01:00:16.072769Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/adfm.78514": {
+      "expires_at": "2026-10-17T01:03:00.566552Z",
+      "record": {
+        "abstract": "ABSTRACT Polarization‑sensitive photodetection is critical for advanced imaging, optical communication, and medical diagnosis technologies. Although detectors based on low‐symmetry metasurfaces or two‐dimensional materials have been widely investigated, they generally suffer from a low polarization ratio, narrow response bandwidth, stringent fabrication precision, and poor ambient stability. Here, we demonstrate a plasmon‐enhanced ferroelectric thin‐film photodetector capable of broadband detection from 260 to 1900 nm. Notably, the device exhibits excellent polarization sensitivity across the visible to near‐infrared band (380–980 nm), achieving an ultrahigh polarization ratio of 641. The polarization ratio can be dynamically tuned from positive unipolar operation to negative bipolar operation via external bias modulation, enabling the realization of six complete optoelectronic logic gates (AND, OR, NAND, NOR, NOT, and XOR) on a single device. It also delivers robust long‐term stability with negligible performance degradation after six months of ambient storage. Leveraging these programmable logic functions, we further demonstrate a proof‐of‐concept framework for data transmission and encryption imaging, whose security performance is systematically verified using a convolutional neural network. This work demonstrates the tremendous potential of the photovoltaic effect in polarization detection, and also provides new ideas for balancing information transmission, security, and sharing functions within a single architecture.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Wenqing Sun",
+            "orcid": "https://orcid.org/0000-0002-0693-642X"
+          },
+          {
+            "name": "Zhuoqun Wang",
+            "orcid": null
+          },
+          {
+            "name": "Qingtao Fang",
+            "orcid": null
+          },
+          {
+            "name": "Ulrich Kentsch",
+            "orcid": "https://orcid.org/0000-0001-5295-2554"
+          },
+          {
+            "name": "Lilong Pang",
+            "orcid": null
+          },
+          {
+            "name": "Yuechen Jia",
+            "orcid": "https://orcid.org/0000-0003-3852-7302"
+          },
+          {
+            "name": "Zaixing Yang",
+            "orcid": "https://orcid.org/0000-0002-9040-8805"
+          },
+          {
+            "name": "Shengqiang Zhou",
+            "orcid": "https://orcid.org/0000-0002-4885-799X"
+          },
+          {
+            "name": "Xiaoli Sun",
+            "orcid": "https://orcid.org/0000-0001-9320-4173"
+          },
+          {
+            "name": "Feng Chen",
+            "orcid": "https://orcid.org/0000-0002-9277-9810"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adfm.78514",
+        "landing_page": "https://doi.org/10.1002/adfm.78514",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/adfm.78514",
+        "publication_date": "2026-09-16",
+        "title": "Ferroelectric Thin‑Film Polarization‑Sensitive Photodetector Based on the Plasmon‑Enhanced Bulk Photovoltaic Effect",
+        "venue": "Advanced Functional Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:03:00.566552Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/adom.71567": {
       "expires_at": "2026-09-17T04:25:31.075985Z",
       "record": {
@@ -152,6 +214,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-02T01:02:18.462027Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1002/adom.71782": {
+      "expires_at": "2026-10-17T01:02:52.307397Z",
+      "record": {
+        "abstract": "ABSTRACT We introduce a wavelength‐addressable diffractive optical network that transforms illumination wavelength into a high‐dimensional control parameter for arbitrarily programmable 2D beam steering. This passive architecture comprises cascaded spatially optimized diffractive layers, jointly designed using deep learning, to rapidly map distinct wavelengths to predefined/desired output angles. Unlike conventional single‐layer dispersive optical elements, which are physically restricted to 1D linear mapping, this framework harnesses complex wavefront transformations to utilize the illumination wavelength as an intrinsic addressing key for arbitrary 2D beam steering, eliminating the need for mechanical scanning or electronic phase control. We numerically demonstrate wavelength‐controlled beam steering across 625 wavelength channels spanning 400–750 nm, realizing a 25 × 25 array of independently addressable beam positions with subwavelength positioning accuracy and high channel fidelity. We further validate the proposed framework experimentally in both the terahertz and visible spectral regimes, demonstrating wavelength‐multiplexed beam steering using 3D fabricated passive diffractive layers at terahertz frequencies and phase‐only spatial light modulators in the visible spectrum. This wavelength‐addressable diffractive architecture establishes a compact and scalable paradigm for high‐speed programmable beam steering, with potential applications in optical communications, routing, imaging, sensing, and emerging photonic information‐processing systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Che‐Yung Shen",
+            "orcid": "https://orcid.org/0009-0003-0546-6344"
+          },
+          {
+            "name": "Yuhang Li",
+            "orcid": "https://orcid.org/0000-0002-9364-4125"
+          },
+          {
+            "name": "Çağatay Işıl",
+            "orcid": "https://orcid.org/0000-0003-3367-1858"
+          },
+          {
+            "name": "Tianyi Gan",
+            "orcid": "https://orcid.org/0000-0001-8675-0053"
+          },
+          {
+            "name": "Mona Jarrahi",
+            "orcid": null
+          },
+          {
+            "name": "Aydogan Ozcan",
+            "orcid": "https://orcid.org/0000-0002-0717-683X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adom.71782",
+        "landing_page": "https://doi.org/10.1002/adom.71782",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/adom.71782",
+        "publication_date": "2026-09-14",
+        "title": "Wavelength‐Multiplexed 2D Beam Steering via a Passive Diffractive Network",
+        "venue": "Advanced Optical Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:02:52.307397Z",
       "status": "found"
     },
     "crossref:doi:10.1002/lpor.71596": {
@@ -604,6 +712,144 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-12T00:59:34.622992Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1002/lpor.71881": {
+      "expires_at": "2026-10-17T01:02:58.268585Z",
+      "record": {
+        "abstract": "ABSTRACT Metasurfaces composed of thin, densely packed planar arrays of resonant subwavelength elements are central to emerging photonic technologies operating beyond the diffraction limit. While their steady‐state functionalities are well‐documented, the potential for complex, high‐speed temporal control remains largely untapped. Here, we bridge this gap by investigating the spatiotemporal nonlinear dynamics of a metasurface consisting of a two‐dimensional array of nonlinear meta‐atoms. We formulate a general theoretical model to describe the nonlinear dynamical behavior of such systems and demonstrate that the interplay between the nonlinear resonant response of individual elements and strong dipole–dipole coupling triggers a modulation instability. This instability gives rise to long‐lived Faraday waves in the form of flat, beaded, and breaking stripes, as well as chaotic‐like patterns. We find that these patterns emerge and reconfigure on timescales as short as fs. Our results suggest that Faraday‐wave dynamics can serve as a physical foundation for petahertz‐scale all‐optical processors, programmable light routing, and ultrafast optical neural networks, enabling complex signal processing at the fundamental limits of light‐matter interaction.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Roman E. Noskov",
+            "orcid": "https://orcid.org/0000-0002-9752-8527"
+          },
+          {
+            "name": "Daria A. Smirnova",
+            "orcid": "https://orcid.org/0000-0001-8033-3427"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71881",
+        "landing_page": "https://doi.org/10.1002/lpor.71881",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.71881",
+        "publication_date": "2026-09-15",
+        "title": "Faraday Waves in Highly Nonlocal Nonlinear Metasurfaces",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:02:58.268585Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1002/lpor.71904": {
+      "expires_at": "2026-10-17T01:02:51.663469Z",
+      "record": {
+        "abstract": "ABSTRACT The growing computational demand of artificial intelligence (AI) calls for energy‐efficient computing architectures. Diffractive deep neural networks () offer a promising route for optical computing, but their lack of nonlinear activation functions limits their representation capability. Here, we demonstrate a passive all‐optical Leak‐ReLU nonlinear activation function based on a 1D photonic crystal microcavity. By exploiting resonantly enhanced thermo‐optic nonlinearity, the cavity exhibits a temperature‐induced resonance blueshift that produces intensity‐dependent nonlinear transmission with tunable activation thresholds through wavelength selection. Integrating the experimentally characterized nonlinear activation function into a improves the classification accuracy by 1.79% on Fashion‐MNIST compared with a two‐layer linear and accelerates convergence by 2.6 times on MNIST. This work provides a compact and passive approach for implementing nonlinear optical neural networks and advances low‐power neuromorphic optical computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zitao Wei",
+            "orcid": "https://orcid.org/0009-0007-6761-1817"
+          },
+          {
+            "name": "Zi'ang Guo",
+            "orcid": null
+          },
+          {
+            "name": "Wei Wu",
+            "orcid": null
+          },
+          {
+            "name": "Qinglian Li",
+            "orcid": null
+          },
+          {
+            "name": "Lun Qu",
+            "orcid": "https://orcid.org/0000-0002-3521-1380"
+          },
+          {
+            "name": "Lin Li",
+            "orcid": null
+          },
+          {
+            "name": "Xiaohai Liu",
+            "orcid": null
+          },
+          {
+            "name": "Yi Liang",
+            "orcid": "https://orcid.org/0000-0001-8734-3388"
+          },
+          {
+            "name": "Mengxin Ren",
+            "orcid": "https://orcid.org/0000-0003-0322-8193"
+          },
+          {
+            "name": "Jingjun Xu",
+            "orcid": "https://orcid.org/0000-0002-2509-0175"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71904",
+        "landing_page": "https://doi.org/10.1002/lpor.71904",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.71904",
+        "publication_date": "2026-09-15",
+        "title": "All‐Optical Nonlinear Activation Functions Based on Photonic Crystal Microcavity",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:02:51.663469Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1002/mats.70059": {
+      "expires_at": "2026-10-17T01:02:53.132433Z",
+      "record": {
+        "abstract": "ABSTRACT Gradient polymer materials exhibit great potential for applications in fields such as sensors and biomedicine. While photoinitiated radical polymerization represents a common strategy for gradient fabrication, mesoscopic insights into polymerization kinetics and topological evolution under the control of gradient initiation—similar to photoinitiation—remain limited. In this study, using CGMD simulations, we developed a radical polymerization model incorporating a space‐dependent initiation rate inspired by the mathematical form of Beer's Law. This model was utilized to investigate the reaction kinetics, topological features, and mechanical responses of radical polymerization under a decaying initiation reaction. The results indicate that the decay of the initiation reaction induces spatio‐temporal discrepancies in the reactions within the system. In highly graded systems, small clusters preferentially form and merge in the high‐initiation region, whereas the low‐initiation region exhibits a pronounced reaction lag due to kinetic inhibition, ultimately yielding a gradient distribution of particles and crosslinkers. Under this kinetic heterogeneity, the fraction of “bridges” (elastically effective chains) decreases in the top region but increases in the bottom region due to prolonged free‐radical lifetimes, thereby optimizing the overall topological structure. Mechanical analysis confirms that the initiation decay marginally enhances the overall mechanical performance while reallocating the stress‐bearing capacity toward the high‐initiation region.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bingbing Pan",
+            "orcid": "https://orcid.org/0009-0005-2706-7410"
+          },
+          {
+            "name": "Yiyi Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Wen Li",
+            "orcid": null
+          },
+          {
+            "name": "Zhenbin Chen",
+            "orcid": "https://orcid.org/0000-0003-1291-6078"
+          },
+          {
+            "name": "Hong Liu",
+            "orcid": "https://orcid.org/0000-0002-7256-5751"
+          },
+          {
+            "name": "Hui Li",
+            "orcid": "https://orcid.org/0000-0003-2633-823X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/mats.70059",
+        "landing_page": "https://doi.org/10.1002/mats.70059",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/mats.70059",
+        "publication_date": "2026-09",
+        "title": "Coarse‐Grained Simulation Study on Gradient‐Free Radical Polymerization via a Beer's Law‐Based Heterogeneous Initiation Model",
+        "venue": "Macromolecular Theory and Simulations",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:02:53.132433Z",
       "status": "found"
     },
     "crossref:doi:10.1002/mgea.70097": {
@@ -2054,6 +2300,68 @@
       "retrieved_at": "2026-08-22T00:32:15.151100Z",
       "status": "found"
     },
+    "crossref:doi:10.1038/s41377-026-02366-7": {
+      "expires_at": "2026-10-17T01:02:50.351348Z",
+      "record": {
+        "abstract": "Abstract All-optical neural networks (AONNs) offer significant potential for feature detection and pattern recognition by leveraging light-speed processing, high parallelism, and low energy consumption. However, traditional AONNs are limited to spatial light intensity distributions for both inputs and outputs, restricting network learning to the spatial-only dimension. To overcome this, we propose a novel spatiotemporal AONN architecture that integrates the time dimension with the spatial domain, enabling simultaneous modulation of light field information across both time and space. In this configuration, the output spatiotemporal light field is spatially filtered, and its temporal signals are detected using a single-pixel detector. This approach integrates the temporal dimension as a core computational resource into the network, driving a paradigm shift in AONNs from “imaging detection” to “temporal analysis”, effectively overcoming the speed bottleneck caused by the bandwidth limitations of traditional 2D array detectors. Moreover, experimental studies demonstrate that the system can accelerate the processing of real-world spatiotemporal lidar signals, facilitating the real-time reconstruction of multi-target moving scenes. Our innovative spatiotemporal AONN design offers enhanced flexibility, faster processing speeds, and superior performance, paving the way for more efficient and effective optical signal processing and computing applications.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Fu Feng",
+            "orcid": null
+          },
+          {
+            "name": "Ziyang Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Dewang Huo",
+            "orcid": "https://orcid.org/0000-0002-3029-8472"
+          },
+          {
+            "name": "Xiaolong Li",
+            "orcid": null
+          },
+          {
+            "name": "Qinggang Lin",
+            "orcid": null
+          },
+          {
+            "name": "Xingyu Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Guozhong Hou",
+            "orcid": null
+          },
+          {
+            "name": "Daoxin Dai",
+            "orcid": "https://orcid.org/0000-0002-2769-3009"
+          },
+          {
+            "name": "Michael G. Somekh",
+            "orcid": null
+          },
+          {
+            "name": "Xiaocong Yuan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41377-026-02366-7",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02366-7",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41377-026-02366-7",
+        "publication_date": "2026-09-16",
+        "title": "Spatiotemporal all-optical diffractive neural networks empowered by spatiotemporal light field manipulation",
+        "venue": "Light: Science &amp; Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:02:50.351348Z",
+      "status": "found"
+    },
     "crossref:doi:10.1038/s41377-026-02419-x": {
       "expires_at": "2026-09-22T00:32:33.635208Z",
       "record": {
@@ -2996,6 +3304,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-14T01:07:34.612939Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1117/1.ap.8.5.056010": {
+      "expires_at": "2026-10-17T01:02:50.994334Z",
+      "record": {
+        "abstract": "Photonic neuromorphic computing promises revolutionary advances in parallel and high-speed processing, yet a key challenge persists: co-integrating nonlinearity, dense connectivity, and intrinsic memory monolithically to enable brain-inspired, spatiotemporal information processing. We overcome this challenge by introducing a monolithic photonic neural network based on a metasurface operating at bound state in the continuum (BIC). The BIC mode mediates strong, long-range coupling across the lattice, supporting a physically reconfigurable recurrent network. Concurrently, the gain medium provides both optical nonlinearity for neuronal activation and a finite carrier lifetime that serves as a built-in, analog temporal memory. This synergy enables computation to emerge directly from the collective spatiotemporal dynamics of the driven-dissipative photonic system, effectively realizing a physical reservoir computer on a chip. We experimentally validate a minimal yet physically complete system on benchmark tasks—brain MRI image classification and human action recognition—achieving 92.16% and 85.25% accuracies, respectively. We establish a scalable pathway toward ultrafast, energy-efficient neuromorphic intelligence where processing is an inherent property of tailored light–matter interaction.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jingsong Fu",
+            "orcid": null
+          },
+          {
+            "name": "Can Huang",
+            "orcid": null
+          },
+          {
+            "name": "Qinghai Song",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/1.ap.8.5.056010",
+        "landing_page": "https://doi.org/10.1117/1.ap.8.5.056010",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/1.ap.8.5.056010",
+        "publication_date": "2026-09-15",
+        "title": "Photonic neuromorphic computing enabled by a BIC metasurface",
+        "venue": "Advanced Photonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:02:50.994334Z",
       "status": "found"
     },
     "crossref:doi:10.1117/1.oe.65.7.073102": {
@@ -4222,6 +4564,52 @@
       "retrieved_at": "2026-09-09T01:02:00.538994Z",
       "status": "found"
     },
+    "crossref:doi:10.1364/opticaopen.33752494": {
+      "expires_at": "2026-10-17T01:02:55.644340Z",
+      "record": {
+        "abstract": "Parallel data processing is key to the acceleration of many machine learning models. We develop an enhanced hybrid photonic-digital neural network that exploits co-propagating but non-interacting optical modes for parallel execution of machine learning tasks. Using nonlinear optical processing among optical comb lines as a network layer, we perform multiple forward passes concurrently on two and four isolated frequency bands, multiplying throughput during training and evaluation. The system achieves low loss and high classification accuracy across all operating bands for the make-moons binary classification task. We also show that two classifiers can simultaneously perform different tasks. In addition, we introduce a method for flattening comb-line phases, enabling more reliable and consistent nonlinear optical operations. The demonstrated parallel architecture provides a scalable pathway toward on-chip, high-throughput photonic machine learning.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jack Morrison",
+            "orcid": null
+          },
+          {
+            "name": "Daniel Alejandro Lopez Martinez",
+            "orcid": null
+          },
+          {
+            "name": "Usman Khan",
+            "orcid": null
+          },
+          {
+            "name": "Nirmal Dangi",
+            "orcid": null
+          },
+          {
+            "name": "Santosh Kumar",
+            "orcid": null
+          },
+          {
+            "name": "Yuping Huang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/opticaopen.33752494",
+        "landing_page": "https://doi.org/10.1364/opticaopen.33752494",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/opticaopen.33752494",
+        "publication_date": "2026-09-15",
+        "title": "Parallelizing Nonlinear Photonic Neural Networks",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:02:55.644340Z",
+      "status": "found"
+    },
     "crossref:doi:10.1364/opticaq.603710": {
       "expires_at": "2026-09-19T00:32:31.197134Z",
       "record": {
@@ -4873,6 +5261,40 @@
       "record": null,
       "retrieved_at": "2026-08-26T00:32:37.383677Z",
       "status": "not_found"
+    },
+    "crossref:title:1f89d4576a0965f374cb27636066193a2682735267d5b9eefcd0e6a6ef723cb9": {
+      "expires_at": "2026-09-24T01:02:59.935434Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Haohong Shi",
+            "orcid": null
+          },
+          {
+            "name": "Ismael Ben-Yelun",
+            "orcid": null
+          },
+          {
+            "name": "Francisco J. Montáns",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.finel.2026.104632",
+        "landing_page": "https://doi.org/10.1016/j.finel.2026.104632",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.finel.2026.104632",
+        "publication_date": "2026-12",
+        "title": "A cliff-guided algorithm for optimizing energy-absorbing designs",
+        "venue": "Finite Elements in Analysis and Design",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:02:59.935434Z",
+      "status": "found"
     },
     "crossref:title:1fc2a0a939542c3fc9c4403883e530525ddccd1adc2da4976237532884443f11": {
       "expires_at": "2026-08-11T09:38:48.118744Z",
@@ -6908,6 +7330,12 @@
       "retrieved_at": "2026-08-09T00:36:00.135704Z",
       "status": "not_found"
     },
+    "crossref:title:b141db545a3db278af89ab8e45b8947046ce1d99ab0c9dc1782e95f3b9d0e5c1": {
+      "expires_at": "2026-09-24T01:02:54.723994Z",
+      "record": null,
+      "retrieved_at": "2026-09-17T01:02:54.723994Z",
+      "status": "not_found"
+    },
     "crossref:title:b2b283344da0a1f3bd69064acb8d5c6a06aadc0124e1ed0f4eeaa1fadde99930": {
       "expires_at": "2026-09-11T01:00:21.428757Z",
       "record": null,
@@ -7688,6 +8116,12 @@
       "retrieved_at": "2026-08-04T09:38:34.322789Z",
       "status": "not_found"
     },
+    "crossref:title:e626e2920d2245a773b1e3b6bf9e0aeb2c1ab5520b5c4d8576d61eef43abc84b": {
+      "expires_at": "2026-09-24T01:02:57.109211Z",
+      "record": null,
+      "retrieved_at": "2026-09-17T01:02:57.109211Z",
+      "status": "not_found"
+    },
     "crossref:title:e74e8535525bbba31f3d3f431798d409524cd47a4694f6a29d221d4a1a533b5a": {
       "expires_at": "2026-08-11T09:38:36.452159Z",
       "record": {
@@ -8104,6 +8538,68 @@
       "retrieved_at": "2026-09-04T01:00:16.458324Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/adfm.78514": {
+      "expires_at": "2026-10-17T01:03:00.929089Z",
+      "record": {
+        "abstract": "ABSTRACT Polarization‑sensitive photodetection is critical for advanced imaging, optical communication, and medical diagnosis technologies. Although detectors based on low‐symmetry metasurfaces or two‐dimensional materials have been widely investigated, they generally suffer from a low polarization ratio, narrow response bandwidth, stringent fabrication precision, and poor ambient stability. Here, we demonstrate a plasmon‐enhanced ferroelectric thin‐film photodetector capable of broadband detection from 260 to 1900 nm. Notably, the device exhibits excellent polarization sensitivity across the visible to near‐infrared band (380–980 nm), achieving an ultrahigh polarization ratio of 641. The polarization ratio can be dynamically tuned from positive unipolar operation to negative bipolar operation via external bias modulation, enabling the realization of six complete optoelectronic logic gates (AND, OR, NAND, NOR, NOT, and XOR) on a single device. It also delivers robust long‐term stability with negligible performance degradation after six months of ambient storage. Leveraging these programmable logic functions, we further demonstrate a proof‐of‐concept framework for data transmission and encryption imaging, whose security performance is systematically verified using a convolutional neural network. This work demonstrates the tremendous potential of the photovoltaic effect in polarization detection, and also provides new ideas for balancing information transmission, security, and sharing functions within a single architecture.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Wenqing Sun",
+            "orcid": "https://orcid.org/0000-0002-0693-642X"
+          },
+          {
+            "name": "Zhuoqun Wang",
+            "orcid": null
+          },
+          {
+            "name": "Qingtao Fang",
+            "orcid": null
+          },
+          {
+            "name": "Ulrich Kentsch",
+            "orcid": "https://orcid.org/0000-0001-5295-2554"
+          },
+          {
+            "name": "庞立龙",
+            "orcid": null
+          },
+          {
+            "name": "Yuechen Jia",
+            "orcid": "https://orcid.org/0000-0003-3852-7302"
+          },
+          {
+            "name": "Zaixing Yang",
+            "orcid": "https://orcid.org/0000-0002-9040-8805"
+          },
+          {
+            "name": "Shengqiang Zhou",
+            "orcid": "https://orcid.org/0000-0002-4885-799X"
+          },
+          {
+            "name": "Xiaoli Sun",
+            "orcid": "https://orcid.org/0000-0001-9320-4173"
+          },
+          {
+            "name": "Feng Chen",
+            "orcid": "https://orcid.org/0000-0002-9277-9810"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adfm.78514",
+        "landing_page": "https://doi.org/10.1002/adfm.78514",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7213304705",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213304705",
+        "publication_date": "2026-09-16",
+        "title": "Ferroelectric Thin‑Film Polarization‑Sensitive Photodetector Based on the Plasmon‑Enhanced Bulk Photovoltaic Effect",
+        "venue": "Advanced Functional Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:03:00.929089Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/adom.71567": {
       "expires_at": "2026-09-17T04:25:31.408910Z",
       "record": {
@@ -8206,6 +8702,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-02T01:02:18.801449Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/adom.71782": {
+      "expires_at": "2026-10-17T01:02:52.712699Z",
+      "record": {
+        "abstract": "ABSTRACT We introduce a wavelength‐addressable diffractive optical network that transforms illumination wavelength into a high‐dimensional control parameter for arbitrarily programmable 2D beam steering. This passive architecture comprises cascaded spatially optimized diffractive layers, jointly designed using deep learning, to rapidly map distinct wavelengths to predefined/desired output angles. Unlike conventional single‐layer dispersive optical elements, which are physically restricted to 1D linear mapping, this framework harnesses complex wavefront transformations to utilize the illumination wavelength as an intrinsic addressing key for arbitrary 2D beam steering, eliminating the need for mechanical scanning or electronic phase control. We numerically demonstrate wavelength‐controlled beam steering across 625 wavelength channels spanning 400–750 nm, realizing a 25 × 25 array of independently addressable beam positions with subwavelength positioning accuracy and high channel fidelity. We further validate the proposed framework experimentally in both the terahertz and visible spectral regimes, demonstrating wavelength‐multiplexed beam steering using 3D fabricated passive diffractive layers at terahertz frequencies and phase‐only spatial light modulators in the visible spectrum. This wavelength‐addressable diffractive architecture establishes a compact and scalable paradigm for high‐speed programmable beam steering, with potential applications in optical communications, routing, imaging, sensing, and emerging photonic information‐processing systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Che‐Yung Shen",
+            "orcid": "https://orcid.org/0009-0003-0546-6344"
+          },
+          {
+            "name": "Yuhang Li",
+            "orcid": null
+          },
+          {
+            "name": "Çağatay Işıl",
+            "orcid": "https://orcid.org/0000-0003-3367-1858"
+          },
+          {
+            "name": "Tianyi Gan",
+            "orcid": null
+          },
+          {
+            "name": "Mona Jarrahi",
+            "orcid": "https://orcid.org/0000-0001-9514-555X"
+          },
+          {
+            "name": "Aydogan Ozcan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adom.71782",
+        "landing_page": "https://doi.org/10.1002/adom.71782",
+        "open_access_url": "https://doi.org/10.1002/adom.71782",
+        "openalex_id": "https://openalex.org/W7164938192",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7164938192",
+        "publication_date": "2026-09-14",
+        "title": "Wavelength‐Multiplexed 2D Beam Steering via a Passive Diffractive Network",
+        "venue": "Advanced Optical Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:02:52.712699Z",
       "status": "found"
     },
     "openalex:doi:10.1002/lpor.71596": {
@@ -8658,6 +9200,144 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-12T00:59:34.986810Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/lpor.71881": {
+      "expires_at": "2026-10-17T01:02:58.646326Z",
+      "record": {
+        "abstract": "ABSTRACT Metasurfaces composed of thin, densely packed planar arrays of resonant subwavelength elements are central to emerging photonic technologies operating beyond the diffraction limit. While their steady‐state functionalities are well‐documented, the potential for complex, high‐speed temporal control remains largely untapped. Here, we bridge this gap by investigating the spatiotemporal nonlinear dynamics of a metasurface consisting of a two‐dimensional array of nonlinear meta‐atoms. We formulate a general theoretical model to describe the nonlinear dynamical behavior of such systems and demonstrate that the interplay between the nonlinear resonant response of individual elements and strong dipole–dipole coupling triggers a modulation instability. This instability gives rise to long‐lived Faraday waves in the form of flat, beaded, and breaking stripes, as well as chaotic‐like patterns. We find that these patterns emerge and reconfigure on timescales as short as fs. Our results suggest that Faraday‐wave dynamics can serve as a physical foundation for petahertz‐scale all‐optical processors, programmable light routing, and ultrafast optical neural networks, enabling complex signal processing at the fundamental limits of light‐matter interaction.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Roman E. Noskov",
+            "orcid": "https://orcid.org/0000-0002-9752-8527"
+          },
+          {
+            "name": "Daria A. Smirnova",
+            "orcid": "https://orcid.org/0000-0001-8033-3427"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71881",
+        "landing_page": "https://doi.org/10.1002/lpor.71881",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7213257498",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213257498",
+        "publication_date": "2026-09-15",
+        "title": "Faraday Waves in Highly Nonlocal Nonlinear Metasurfaces",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:02:58.646326Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/lpor.71904": {
+      "expires_at": "2026-10-17T01:02:52.025129Z",
+      "record": {
+        "abstract": "ABSTRACT The growing computational demand of artificial intelligence (AI) calls for energy‐efficient computing architectures. Diffractive deep neural networks () offer a promising route for optical computing, but their lack of nonlinear activation functions limits their representation capability. Here, we demonstrate a passive all‐optical Leak‐ReLU nonlinear activation function based on a 1D photonic crystal microcavity. By exploiting resonantly enhanced thermo‐optic nonlinearity, the cavity exhibits a temperature‐induced resonance blueshift that produces intensity‐dependent nonlinear transmission with tunable activation thresholds through wavelength selection. Integrating the experimentally characterized nonlinear activation function into a improves the classification accuracy by 1.79% on Fashion‐MNIST compared with a two‐layer linear and accelerates convergence by 2.6 times on MNIST. This work provides a compact and passive approach for implementing nonlinear optical neural networks and advances low‐power neuromorphic optical computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zitao Wei",
+            "orcid": "https://orcid.org/0009-0007-6761-1817"
+          },
+          {
+            "name": "Ziang Guo",
+            "orcid": "https://orcid.org/0000-0002-8953-0205"
+          },
+          {
+            "name": "Wei Wu",
+            "orcid": null
+          },
+          {
+            "name": "Qinglian Li",
+            "orcid": null
+          },
+          {
+            "name": "Lun Qu",
+            "orcid": "https://orcid.org/0000-0002-3521-1380"
+          },
+          {
+            "name": "Lin Li",
+            "orcid": "https://orcid.org/0000-0003-0426-6546"
+          },
+          {
+            "name": "Xiaohai Liu",
+            "orcid": null
+          },
+          {
+            "name": "Yi Liang",
+            "orcid": "https://orcid.org/0000-0001-8734-3388"
+          },
+          {
+            "name": "Mengxin Ren",
+            "orcid": "https://orcid.org/0000-0003-0322-8193"
+          },
+          {
+            "name": "Jingjun Xu",
+            "orcid": "https://orcid.org/0000-0002-2509-0175"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71904",
+        "landing_page": "https://doi.org/10.1002/lpor.71904",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7213231183",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213231183",
+        "publication_date": "2026-09-15",
+        "title": "All‐Optical Nonlinear Activation Functions Based on Photonic Crystal Microcavity",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:02:52.025129Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/mats.70059": {
+      "expires_at": "2026-10-17T01:02:53.511204Z",
+      "record": {
+        "abstract": "ABSTRACT Gradient polymer materials exhibit great potential for applications in fields such as sensors and biomedicine. While photoinitiated radical polymerization represents a common strategy for gradient fabrication, mesoscopic insights into polymerization kinetics and topological evolution under the control of gradient initiation—similar to photoinitiation—remain limited. In this study, using CGMD simulations, we developed a radical polymerization model incorporating a space‐dependent initiation rate inspired by the mathematical form of Beer's Law. This model was utilized to investigate the reaction kinetics, topological features, and mechanical responses of radical polymerization under a decaying initiation reaction. The results indicate that the decay of the initiation reaction induces spatio‐temporal discrepancies in the reactions within the system. In highly graded systems, small clusters preferentially form and merge in the high‐initiation region, whereas the low‐initiation region exhibits a pronounced reaction lag due to kinetic inhibition, ultimately yielding a gradient distribution of particles and crosslinkers. Under this kinetic heterogeneity, the fraction of “bridges” (elastically effective chains) decreases in the top region but increases in the bottom region due to prolonged free‐radical lifetimes, thereby optimizing the overall topological structure. Mechanical analysis confirms that the initiation decay marginally enhances the overall mechanical performance while reallocating the stress‐bearing capacity toward the high‐initiation region.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bingbing Pan",
+            "orcid": null
+          },
+          {
+            "name": "Yiyi Zhang",
+            "orcid": "https://orcid.org/0000-0002-2896-1554"
+          },
+          {
+            "name": "Wen Li",
+            "orcid": null
+          },
+          {
+            "name": "Zhenbin Chen",
+            "orcid": "https://orcid.org/0000-0003-1291-6078"
+          },
+          {
+            "name": "Hong Liu",
+            "orcid": "https://orcid.org/0000-0002-7256-5751"
+          },
+          {
+            "name": "Hui Li",
+            "orcid": "https://orcid.org/0000-0003-2633-823X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/mats.70059",
+        "landing_page": "https://doi.org/10.1002/mats.70059",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7212148517",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212148517",
+        "publication_date": "2026-09-01",
+        "title": "Coarse‐Grained Simulation Study on Gradient‐Free Radical Polymerization via a Beer's Law‐Based Heterogeneous Initiation Model",
+        "venue": "Macromolecular Theory and Simulations",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:02:53.511204Z",
       "status": "found"
     },
     "openalex:doi:10.1002/mgea.70097": {
@@ -9786,6 +10466,40 @@
       "retrieved_at": "2026-08-26T00:32:39.023529Z",
       "status": "found"
     },
+    "openalex:doi:10.1016/j.finel.2026.104632": {
+      "expires_at": "2026-10-17T01:03:00.321397Z",
+      "record": {
+        "abstract": "A major engineering problem is the design of lightweight structures and components that are capable of absorbing a given amount of energy under external loading, e.g. in crash-worthiness or impacts. Load and displacements are unknown and the problem is nonlinear and non-conservative. Dissipation and resistance requirements render the optimization task complex and non-intuitive. A simple packet-based sizing optimization algorithm for lightweight hierarchical energy-absorbing truss-based structures is presented. The approach starts from a quasi-empty layout with connectivity background and thickens the member whose strain is highest at first failure. As a history-dependent gradient-free heuristic that tracks a specific structural failure trajectory, the algorithm converges to a path-dependent local optimum. A reduced-gradient analysis shows that this simple rule is a steepest-ascent step in a frozen-multiplier sub-space, guaranteeing a positive first-order gain in absorbed work. Numerical tests on 2D cantilever and simply-supported-beam (SSB) examples demonstrate weight savings of 88%–94% relative to fully solid baselines while meeting the energy target. The method shows robustness from an oscillatory “cliff-guided” dynamic, and requires only one nonlinear FE solve per packet.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Haohong Shi",
+            "orcid": null
+          },
+          {
+            "name": "Ismael Ben-Yelun",
+            "orcid": "https://orcid.org/0000-0002-0138-614X"
+          },
+          {
+            "name": "Francisco J. Montáns",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.finel.2026.104632",
+        "landing_page": "https://doi.org/10.1016/j.finel.2026.104632",
+        "open_access_url": "https://doi.org/10.1016/j.finel.2026.104632",
+        "openalex_id": "https://openalex.org/W7212236928",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212236928",
+        "publication_date": "2026-09-11",
+        "title": "A cliff-guided algorithm for optimizing energy-absorbing designs",
+        "venue": "Finite Elements in Analysis and Design",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:03:00.321397Z",
+      "status": "found"
+    },
     "openalex:doi:10.1016/j.ibmed.2026.100460": {
       "expires_at": "2026-10-01T01:13:11.503801Z",
       "record": {
@@ -10514,6 +11228,68 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-22T00:32:15.505137Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41377-026-02366-7": {
+      "expires_at": "2026-10-17T01:02:50.766080Z",
+      "record": {
+        "abstract": "Abstract All-optical neural networks (AONNs) offer significant potential for feature detection and pattern recognition by leveraging light-speed processing, high parallelism, and low energy consumption. However, traditional AONNs are limited to spatial light intensity distributions for both inputs and outputs, restricting network learning to the spatial-only dimension. To overcome this, we propose a novel spatiotemporal AONN architecture that integrates the time dimension with the spatial domain, enabling simultaneous modulation of light field information across both time and space. In this configuration, the output spatiotemporal light field is spatially filtered, and its temporal signals are detected using a single-pixel detector. This approach integrates the temporal dimension as a core computational resource into the network, driving a paradigm shift in AONNs from “imaging detection” to “temporal analysis”, effectively overcoming the speed bottleneck caused by the bandwidth limitations of traditional 2D array detectors. Moreover, experimental studies demonstrate that the system can accelerate the processing of real-world spatiotemporal lidar signals, facilitating the real-time reconstruction of multi-target moving scenes. Our innovative spatiotemporal AONN design offers enhanced flexibility, faster processing speeds, and superior performance, paving the way for more efficient and effective optical signal processing and computing applications.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Fu Feng",
+            "orcid": null
+          },
+          {
+            "name": "Ziyang Zhang",
+            "orcid": "https://orcid.org/0000-0001-5870-704X"
+          },
+          {
+            "name": "Dewang Huo",
+            "orcid": "https://orcid.org/0000-0002-3029-8472"
+          },
+          {
+            "name": "Xiaolong Li",
+            "orcid": "https://orcid.org/0000-0002-5712-8772"
+          },
+          {
+            "name": "Qinggang Lin",
+            "orcid": "https://orcid.org/0000-0002-3345-3298"
+          },
+          {
+            "name": "Xingyu Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Guozhong Hou",
+            "orcid": "https://orcid.org/0000-0001-6406-8643"
+          },
+          {
+            "name": "Daoxin Dai",
+            "orcid": "https://orcid.org/0000-0002-2769-3009"
+          },
+          {
+            "name": "Michael G. Somekh",
+            "orcid": null
+          },
+          {
+            "name": "Xiaocong Yuan",
+            "orcid": "https://orcid.org/0000-0003-2605-9003"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41377-026-02366-7",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02366-7",
+        "open_access_url": "https://doi.org/10.1038/s41377-026-02366-7",
+        "openalex_id": "https://openalex.org/W7213270743",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213270743",
+        "publication_date": "2026-09-16",
+        "title": "Spatiotemporal all-optical diffractive neural networks empowered by spatiotemporal light field manipulation",
+        "venue": "Light Science & Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:02:50.766080Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s41377-026-02394-3": {
@@ -12794,6 +13570,40 @@
       "retrieved_at": "2026-09-14T01:07:34.939068Z",
       "status": "found"
     },
+    "openalex:doi:10.1117/1.ap.8.5.056010": {
+      "expires_at": "2026-10-17T01:02:51.419262Z",
+      "record": {
+        "abstract": "Photonic neuromorphic computing promises revolutionary advances in parallel and high-speed processing, yet a key challenge persists: co-integrating nonlinearity, dense connectivity, and intrinsic memory monolithically to enable brain-inspired, spatiotemporal information processing. We overcome this challenge by introducing a monolithic photonic neural network based on a metasurface operating at bound state in the continuum (BIC). The BIC mode mediates strong, long-range coupling across the lattice, supporting a physically reconfigurable recurrent network. Concurrently, the gain medium provides both optical nonlinearity for neuronal activation and a finite carrier lifetime that serves as a built-in, analog temporal memory. This synergy enables computation to emerge directly from the collective spatiotemporal dynamics of the driven-dissipative photonic system, effectively realizing a physical reservoir computer on a chip. We experimentally validate a minimal yet physically complete system on benchmark tasks—brain MRI image classification and human action recognition—achieving 92.16% and 85.25% accuracies, respectively. We establish a scalable pathway toward ultrafast, energy-efficient neuromorphic intelligence where processing is an inherent property of tailored light–matter interaction.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jingsong Fu",
+            "orcid": null
+          },
+          {
+            "name": "Can Huang",
+            "orcid": null
+          },
+          {
+            "name": "Qinghai Song",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/1.ap.8.5.056010",
+        "landing_page": "https://doi.org/10.1117/1.ap.8.5.056010",
+        "open_access_url": "https://doi.org/10.1117/1.ap.8.5.056010",
+        "openalex_id": "https://openalex.org/W7131819383",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7131819383",
+        "publication_date": "2026-09-15",
+        "title": "Photonic neuromorphic computing enabled by a BIC metasurface",
+        "venue": "Advanced Photonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:02:51.419262Z",
+      "status": "found"
+    },
     "openalex:doi:10.1117/1.oe.65.7.073102": {
       "expires_at": "2026-09-03T09:38:18.749938Z",
       "record": {
@@ -14626,6 +15436,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-09T01:02:00.859346Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1364/opticaopen.33752494": {
+      "expires_at": "2026-10-17T01:02:56.020593Z",
+      "record": {
+        "abstract": "Parallel data processing is key to the acceleration of many machine learning models. We develop an enhanced hybrid photonic-digital neural network that exploits co-propagating but non-interacting optical modes for parallel execution of machine learning tasks. Using nonlinear optical processing among optical comb lines as a network layer, we perform multiple forward passes concurrently on two and four isolated frequency bands, multiplying throughput during training and evaluation. The system achieves low loss and high classification accuracy across all operating bands for the make-moons binary classification task. We also show that two classifiers can simultaneously perform different tasks. In addition, we introduce a method for flattening comb-line phases, enabling more reliable and consistent nonlinear optical operations. The demonstrated parallel architecture provides a scalable pathway toward on-chip, high-throughput photonic machine learning.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jack Morrison",
+            "orcid": null
+          },
+          {
+            "name": "Daniel Alejandro Lopez Martinez",
+            "orcid": null
+          },
+          {
+            "name": "Usman Khan",
+            "orcid": null
+          },
+          {
+            "name": "Nirmal Dangi",
+            "orcid": null
+          },
+          {
+            "name": "Santosh Kumar",
+            "orcid": null
+          },
+          {
+            "name": "Yuping Huang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/opticaopen.33752494",
+        "landing_page": "https://doi.org/10.1364/opticaopen.33752494",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7213241701",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213241701",
+        "publication_date": "2026-09-15",
+        "title": "Parallelizing Nonlinear Photonic Neural Networks",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-17T01:02:56.020593Z",
       "status": "found"
     },
     "openalex:doi:10.1364/opticaq.603710": {
@@ -17140,6 +17996,12 @@
       "retrieved_at": "2026-08-09T00:36:00.776579Z",
       "status": "not_found"
     },
+    "openalex:title:b141db545a3db278af89ab8e45b8947046ce1d99ab0c9dc1782e95f3b9d0e5c1": {
+      "expires_at": "2026-09-24T01:02:55.441715Z",
+      "record": null,
+      "retrieved_at": "2026-09-17T01:02:55.441715Z",
+      "status": "not_found"
+    },
     "openalex:title:b2b283344da0a1f3bd69064acb8d5c6a06aadc0124e1ed0f4eeaa1fadde99930": {
       "expires_at": "2026-09-11T01:00:22.102567Z",
       "record": {
@@ -17422,6 +18284,12 @@
       "expires_at": "2026-08-11T09:38:34.725114Z",
       "record": null,
       "retrieved_at": "2026-08-04T09:38:34.725114Z",
+      "status": "not_found"
+    },
+    "openalex:title:e626e2920d2245a773b1e3b6bf9e0aeb2c1ab5520b5c4d8576d61eef43abc84b": {
+      "expires_at": "2026-09-24T01:02:58.086148Z",
+      "record": null,
+      "retrieved_at": "2026-09-17T01:02:58.086148Z",
       "status": "not_found"
     },
     "openalex:title:eb3b84b843bc8e59d12a197a243351d14623c1a948c8a32022ac671e23fbaadd": {

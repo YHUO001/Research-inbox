@@ -1,10 +1,26 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`53`
-- 更新时间：`2026-09-15T01:05:36.043911Z`
+- 论文数：`55`
+- 更新时间：`2026-09-17T01:04:27.203324Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Spatiotemporal all-optical diffractive neural networks empowered by spatiotemporal light field manipulation
+
+- DOI/链接：[10.1038/s41377-026-02366-7](https://doi.org/10.1038/s41377-026-02366-7)
+- 期刊/年份：Light: Science &amp; Applications，2026
+- 摘要日期：`2026-09-17`
+- 候选 ID：`04bdf084776bcfe0d6f912cb`
+- 标签：application:图像识别与模式分类, application:时空结构光场测量, application:激光雷达信号处理与多目标运动场景实时重建, application:车辆和飞机运动数据集分类（模拟）, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
+
+### Photonic neuromorphic computing enabled by a BIC metasurface
+
+- DOI/链接：[10.1117/1.ap.8.5.056010](https://doi.org/10.1117/1.ap.8.5.056010)
+- 期刊/年份：Advanced Photonics，2026
+- 摘要日期：`2026-09-17`
+- 候选 ID：`0a7a6a25b0c077322aee6b4e`
+- 标签：application:人类动作识别, application:脑mri图像分类（肿瘤检测）, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Ultra-sensitive 2D Dion−Jacobson perovskite phototransistors for optoelectronic neuromorphic computing
 

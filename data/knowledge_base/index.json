@@ -9,6 +9,15 @@
       "summary_record_sha256": "e528dde6eae4acf21af476455f24a738b4ce501de599ef14fc565ef0a7c48318",
       "title": "A Noise-Resilient Calibration framework for Quantum and Optical Neural Network Inference"
     },
+    "04bdf084776bcfe0d6f912cb": {
+      "digest_date": "2026-09-17",
+      "doi": "10.1038/s41377-026-02366-7",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "ade5dd93d18b01bd728091a7e624d7a05a4e0e879d0214f99d0e7b280b9f8817",
+      "title": "Spatiotemporal all-optical diffractive neural networks empowered by spatiotemporal light field manipulation"
+    },
     "09e1a0ed403ef22abbd9b189": {
       "digest_date": "2026-09-06",
       "doi": "10.6084/m9.figshare.33342183.v2",
@@ -17,6 +26,15 @@
       ],
       "summary_record_sha256": "a9103ec0aed518d0d4385e6d4c297854035041fcfc4f2b9d40406ddfd8c53340",
       "title": "Supplementary document for Robust Training of MZI-Based Optical Neural Networks through Phase Discretization - 8023552.pdf"
+    },
+    "0a7a6a25b0c077322aee6b4e": {
+      "digest_date": "2026-09-17",
+      "doi": "10.1117/1.ap.8.5.056010",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "9e3716a0e65a64a3815f1d56895672b94744bfdbb27d7b15e38ab03fab070a00",
+      "title": "Photonic neuromorphic computing enabled by a BIC metasurface"
     },
     "0cbf41592278a3ad1b89e219": {
       "digest_date": "2026-08-18",
@@ -582,6 +600,10 @@
     "2026-09-15": [
       "1b05123cc2b8f5f966b29a56",
       "a7f4407333af25ddc7630e14"
+    ],
+    "2026-09-17": [
+      "04bdf084776bcfe0d6f912cb",
+      "0a7a6a25b0c077322aee6b4e"
     ]
   },
   "by_doi": {
@@ -592,6 +614,7 @@
     "10.1021/acsphotonics.6c00831": "2eb28d7201afb356d747693a",
     "10.1021/acsphotonics.6c01155": "d69a4f93ca6340969e1077a8",
     "10.1038/s41377-026-02325-2": "1e619f1b739f1893eae64f28",
+    "10.1038/s41377-026-02366-7": "04bdf084776bcfe0d6f912cb",
     "10.1038/s41377-026-02419-x": "973507e35175bb05fcf25e79",
     "10.1038/s41427-026-00671-6": "83a830ace13b5158f346c392",
     "10.1038/s41467-026-76714-x": "8ce6ad350a786420a01c4dd8",
@@ -606,6 +629,7 @@
     "10.1088/2632-2153/aea3a0": "fca2cfc597728ee01e2a6032",
     "10.1109/icocn70692.2026.11656217": "c3474ba19a69c715eb87d391",
     "10.1117/1.ap.8.5.054001": "916e8199aaabe1372544d280",
+    "10.1117/1.ap.8.5.056010": "0a7a6a25b0c077322aee6b4e",
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
     "10.1117/12.3110867": "2b5f9302fe96c2793d48540e",
     "10.1117/12.3116253": "7d6c2a059923ebe445a1cdf7",
@@ -641,7 +665,9 @@
   "by_project": {
     "optical-neural-networks": [
       "028de8014a2b67fd147a28e7",
+      "04bdf084776bcfe0d6f912cb",
       "09e1a0ed403ef22abbd9b189",
+      "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "15e7193239d6058f661ff180",
@@ -716,6 +742,9 @@
     ],
     "application:二维/三维全息重建": [
       "c82f6c2f7b8ae52a84e4eb29"
+    ],
+    "application:人类动作识别": [
+      "0a7a6a25b0c077322aee6b4e"
     ],
     "application:从星座图识别11种调制类型": [
       "380b726618cccff0a9e5514f"
@@ -799,6 +828,9 @@
     "application:图像特征提取": [
       "1e619f1b739f1893eae64f28"
     ],
+    "application:图像识别与模式分类": [
+      "04bdf084776bcfe0d6f912cb"
+    ],
     "application:基于实测电导更新特性的手写数字识别仿真，分类准确率98.02%": [
       "d69a4f93ca6340969e1077a8"
     ],
@@ -826,6 +858,9 @@
     "application:手写数字分类": [
       "7edb19b24759fe609707ba01",
       "a7f4407333af25ddc7630e14"
+    ],
+    "application:时空结构光场测量": [
+      "04bdf084776bcfe0d6f912cb"
     ],
     "application:望远镜成像": [
       "0cbf41592278a3ad1b89e219"
@@ -857,6 +892,9 @@
     "application:混合光电手写数字推理": [
       "8ed2e70c4b7d42f84e3676a7"
     ],
+    "application:激光雷达信号处理与多目标运动场景实时重建": [
+      "04bdf084776bcfe0d6f912cb"
+    ],
     "application:生物医学信号处理": [
       "7bc9d4230ed283852c3248a7"
     ],
@@ -868,6 +906,9 @@
     ],
     "application:肺炎病灶分割": [
       "7edb19b24759fe609707ba01"
+    ],
+    "application:脑mri图像分类（肿瘤检测）": [
+      "0a7a6a25b0c077322aee6b4e"
     ],
     "application:自主导航": [
       "328b1572ba0e31f8f8a6dac1"
@@ -892,6 +933,9 @@
     ],
     "application:跨衍射距离泛化": [
       "c82f6c2f7b8ae52a84e4eb29"
+    ],
+    "application:车辆和飞机运动数据集分类（模拟）": [
+      "04bdf084776bcfe0d6f912cb"
     ],
     "application:轨道角动量贝尔态识别": [
       "9351be654a20f4a2f7121847"
@@ -946,7 +990,9 @@
     ],
     "architecture:unclear": [
       "028de8014a2b67fd147a28e7",
+      "04bdf084776bcfe0d6f912cb",
       "09e1a0ed403ef22abbd9b189",
+      "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
       "15e7193239d6058f661ff180",
       "1e35265ce8678ca96adb8b93",
@@ -985,6 +1031,8 @@
       "c82f6c2f7b8ae52a84e4eb29"
     ],
     "hardware_validation:physical_experiment": [
+      "04bdf084776bcfe0d6f912cb",
+      "0a7a6a25b0c077322aee6b4e",
       "15e7193239d6058f661ff180",
       "1e619f1b739f1893eae64f28",
       "2eb28d7201afb356d747693a",
@@ -1021,7 +1069,9 @@
     ],
     "project:optical-neural-networks": [
       "028de8014a2b67fd147a28e7",
+      "04bdf084776bcfe0d6f912cb",
       "09e1a0ed403ef22abbd9b189",
+      "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "15e7193239d6058f661ff180",
@@ -1167,6 +1217,7 @@
       "ccd82d84305d463a6c33398d"
     ],
     "Advanced Photonics": [
+      "0a7a6a25b0c077322aee6b4e",
       "916e8199aaabe1372544d280"
     ],
     "Applied Optics": [
@@ -1192,6 +1243,7 @@
       "15e7193239d6058f661ff180"
     ],
     "Light: Science &amp; Applications": [
+      "04bdf084776bcfe0d6f912cb",
       "1e619f1b739f1893eae64f28",
       "973507e35175bb05fcf25e79"
     ],
@@ -1268,7 +1320,9 @@
   "by_year": {
     "2026": [
       "028de8014a2b67fd147a28e7",
+      "04bdf084776bcfe0d6f912cb",
       "09e1a0ed403ef22abbd9b189",
+      "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "142dc76f41fc25448b82c91e",
@@ -1322,7 +1376,7 @@
       "fd6f281418ac4d412744b2ac"
     ]
   },
-  "paper_count": 53,
+  "paper_count": 55,
   "schema_version": 1,
-  "updated_at": "2026-09-15T01:05:36.043911Z"
+  "updated_at": "2026-09-17T01:04:27.203324Z"
 }

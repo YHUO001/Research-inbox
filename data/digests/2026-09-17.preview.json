@@ -1,0 +1,42 @@
+{
+  "built_at": "2026-09-17T01:03:01.682121Z",
+  "digest_date": "2026-09-17",
+  "digest_version": 1,
+  "pending_summary_count": 2,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "04bdf084776bcfe0d6f912cb",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02366-7",
+        "mandatory": false,
+        "score": 0.93,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Spatiotemporal all-optical diffractive neural networks empowered by spatiotemporal light field manipulation",
+        "venue": "Light: Science &amp; Applications",
+        "year": 2026
+      },
+      {
+        "candidate_id": "0a7a6a25b0c077322aee6b4e",
+        "landing_page": "https://doi.org/10.1117/1.ap.8.5.056010",
+        "mandatory": false,
+        "score": 0.93,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Photonic neuromorphic computing enabled by a BIC metasurface",
+        "venue": "Advanced Photonics",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}
