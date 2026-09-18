@@ -217,6 +217,15 @@
       "summary_record_sha256": "49deef8c5dd819a048f0b75f9f51f1527d16379ce40f3d7f334cf489213e7460",
       "title": "Enhancing the robustness of optical neural networks via joint Mach–Zehnder interferometer phase optimization"
     },
+    "557b41cb542bf10e84da81f2": {
+      "digest_date": "2026-09-18",
+      "doi": "10.1126/sciadv.aeg8394",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "e6b064924959c835328fe88fa2018353c24b51909d5ce55006ba8edd9dd42112",
+      "title": "Microwave diffractive neural network chips for sensing and computing"
+    },
     "5e49047e7ce2004f7954debb": {
       "digest_date": "2026-09-04",
       "doi": "10.48550/arxiv.2608.28011",
@@ -604,6 +613,9 @@
     "2026-09-17": [
       "04bdf084776bcfe0d6f912cb",
       "0a7a6a25b0c077322aee6b4e"
+    ],
+    "2026-09-18": [
+      "557b41cb542bf10e84da81f2"
     ]
   },
   "by_doi": {
@@ -636,6 +648,7 @@
     "10.1117/12.3118799": "9351be654a20f4a2f7121847",
     "10.1126/sciadv.aee9649": "44fa3bd6f72c84820ce42dab",
     "10.1126/sciadv.aef8657": "c7b91f881a121b7e1651e2f2",
+    "10.1126/sciadv.aeg8394": "557b41cb542bf10e84da81f2",
     "10.1145/3770855.3817661": "ead3d4ba8c5090acac05878a",
     "10.1145/3770855.3817738": "172a6e3e7b78c39c328487a6",
     "10.1145/3837864": "0e5c75b6132afcfb1f7afb17",
@@ -683,6 +696,7 @@
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
+      "557b41cb542bf10e84da81f2",
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
@@ -733,6 +747,9 @@
     ],
     "application:mnist 手写数字分类": [
       "b832199d8494cc67a559fec5"
+    ],
+    "application:mnist 手写数字识别": [
+      "557b41cb542bf10e84da81f2"
     ],
     "application:mnist手写数字分类": [
       "973790e22c46d30721660799"
@@ -834,6 +851,9 @@
     "application:基于实测电导更新特性的手写数字识别仿真，分类准确率98.02%": [
       "d69a4f93ca6340969e1077a8"
     ],
+    "application:多用户干扰抑制": [
+      "557b41cb542bf10e84da81f2"
+    ],
     "application:大型模型部署": [
       "7d6c2a059923ebe445a1cdf7"
     ],
@@ -858,6 +878,9 @@
     "application:手写数字分类": [
       "7edb19b24759fe609707ba01",
       "a7f4407333af25ddc7630e14"
+    ],
+    "application:无人机实时障碍物感知": [
+      "557b41cb542bf10e84da81f2"
     ],
     "application:时空结构光场测量": [
       "04bdf084776bcfe0d6f912cb"
@@ -985,6 +1008,7 @@
       "0e5c75b6132afcfb1f7afb17",
       "1cf1fcd769c5ace951188b8c",
       "380b726618cccff0a9e5514f",
+      "557b41cb542bf10e84da81f2",
       "973790e22c46d30721660799",
       "fd6f281418ac4d412744b2ac"
     ],
@@ -1039,6 +1063,7 @@
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
       "5017adbd33e6ddd5c320a4c4",
+      "557b41cb542bf10e84da81f2",
       "7edb19b24759fe609707ba01",
       "973790e22c46d30721660799",
       "c7b91f881a121b7e1651e2f2",
@@ -1087,6 +1112,7 @@
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
+      "557b41cb542bf10e84da81f2",
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
@@ -1292,6 +1318,7 @@
     ],
     "Science Advances": [
       "44fa3bd6f72c84820ce42dab",
+      "557b41cb542bf10e84da81f2",
       "c7b91f881a121b7e1651e2f2"
     ],
     "Sixth Optics Frontier Conference (OFS 2026)": [
@@ -1343,6 +1370,7 @@
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
+      "557b41cb542bf10e84da81f2",
       "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
       "79855d774b83ef6c7c8a8a47",
@@ -1376,7 +1404,7 @@
       "fd6f281418ac4d412744b2ac"
     ]
   },
-  "paper_count": 55,
+  "paper_count": 56,
   "schema_version": 1,
-  "updated_at": "2026-09-17T01:04:27.203324Z"
+  "updated_at": "2026-09-18T01:02:54.942532Z"
 }

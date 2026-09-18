@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`55`
-- 更新时间：`2026-09-17T01:04:27.203324Z`
+- 论文数：`56`
+- 更新时间：`2026-09-18T01:02:54.942532Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Microwave diffractive neural network chips for sensing and computing
+
+- DOI/链接：[10.1126/sciadv.aeg8394](https://doi.org/10.1126/sciadv.aeg8394)
+- 期刊/年份：Science Advances，2026
+- 摘要日期：`2026-09-18`
+- 候选 ID：`557b41cb542bf10e84da81f2`
+- 标签：application:mnist 手写数字识别, application:多用户干扰抑制, application:无人机实时障碍物感知, architecture:integrated, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Spatiotemporal all-optical diffractive neural networks empowered by spatiotemporal light field manipulation
 

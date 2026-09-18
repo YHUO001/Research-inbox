@@ -1,107 +1,61 @@
 {
-  "abstract_fallback_candidate_ids": [],
-  "abstract_fallback_count": 0,
+  "abstract_fallback_candidate_ids": [
+    "557b41cb542bf10e84da81f2"
+  ],
+  "abstract_fallback_count": 1,
   "architecture_evidence": {
-    "04bdf084776bcfe0d6f912cb": {
+    "557b41cb542bf10e84da81f2": {
       "changed": false,
       "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
-    },
-    "0a7a6a25b0c077322aee6b4e": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
+      "integrated_evidence": [
+        "We present a chip-scale microwave diffractive neural network (MDNN) fabricated in a GaAs semiconductor process, integrating cascaded couplers and phase shifters to implement a diffraction network within a millimeter-scale footprint."
+      ],
+      "previous_type": "integrated",
+      "resolved_type": "integrated"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 2,
-  "completed_at": "2026-09-17T01:04:27.203324Z",
+  "automatic_queue_candidate_count": 1,
+  "completed_at": "2026-09-18T01:02:54.942532Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "04bdf084776bcfe0d6f912cb",
-    "0a7a6a25b0c077322aee6b4e"
+    "557b41cb542bf10e84da81f2"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-09-17",
-  "digest_json_file": "runtime-state/data/digests/2026-09-17.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-09-17.generated.md",
+  "digest_date": "2026-09-18",
+  "digest_json_file": "runtime-state/data/digests/2026-09-18.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-09-18.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0641076,
+  "estimated_cost_cny": 0.0119792,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "04bdf084776bcfe0d6f912cb": {
+    "557b41cb542bf10e84da81f2": {
       "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "04bdf084776bcfe0d6f912cb",
-      "character_count": 7499,
-      "content_sha256": "0061d8f205063d10b77b231f170645f882ac2088c4f02ed3757a961d42eb66db",
-      "elapsed_seconds": 1.576,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "application/xml+jats",
-      "section_headings": [
-        "Materials and methods",
-        "Training of ST-AONN",
-        "Experimental setup of spatiotemporal structured light field measurement",
-        "Experimental setup of ST-AONN lidar"
-      ],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02366-7&p=1",
-      "status": "used",
-      "text_persisted": false
-    },
-    "0a7a6a25b0c077322aee6b4e": {
-      "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "0a7a6a25b0c077322aee6b4e",
-      "character_count": 12000,
-      "content_sha256": "ad8fad46bd58d02a449fcf05f5ab4a93189052f7e1afa744fbb482ef0da8d388",
-      "elapsed_seconds": 3.413,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "application/pdf",
-      "section_headings": [
-        "2 Physical Implementation of the Neural",
-        "Fig. 1 (a) Operating principle of neuromorphic computing enabled by a network of coupled non-",
-        "implementation of neuromorphic computing enabled by coupled quasi-BICs. The network nodes",
-        "2F8) using an etch-free fabrication",
-        "Fig. 3(a). This method allows us to quantify the system ’s",
-        "3 Neural Network Training and Testing",
-        "space of the physical system, whereas the training and inference",
-        "details of neural network training and testing). This single-scalar",
-        "readout achieves a test accuracy of 92.16%, with stable training",
-        "Training and validation accuracy curves showing stable convergence. (c), (f) Confusion matrices",
-        "practical implementation. We note there is a critical system-level",
-        "tral, spatial, and even temporal readout methods. With such",
-        "training. It should be noted that the focus here is on demonstrat-",
-        "44 Furthermore, the etch-free fabrication process offers",
-        "5 Appendix: Methods",
-        "camera (XIOPM 5200). The details of the optical setup have",
-        "(PCA) transformation, fitted once on the training set of the lin-",
-        "to recurrent neural network training,”Comput. Sci. Rev.3(3), 127–",
-        "45. J. K. Eshraghian et al.,“Training spiking neural networks using",
-        "49. H. Jaeger, “The “echo state”approach to analysing and training",
-        "focused on the design, fabrication, and characterization of passive and"
-      ],
-      "source_url": "https://www.spiedigitallibrary.org/JournalArticle/Download?urlId=10.1117/1.AP.8.5.056010",
-      "status": "used",
+      "attempt_count": 3,
+      "candidate_id": "557b41cb542bf10e84da81f2",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 1.028,
+      "error": "https://doi.org/10.1126/sciadv.aeg8394: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1126/sciadv.aeg8394",
+      "status": "not_available",
       "text_persisted": false
     }
   },
   "full_text_persisted": false,
-  "full_text_used": true,
+  "full_text_used": false,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+  "information_basis": "title_metadata_and_abstract_only",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 2,
+  "newly_completed_candidate_count": 1,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -117,197 +71,86 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 2,
+  "prepared_request_count": 1,
   "provider": "deepseek",
-  "queue_sha256": "b403fc06ca3ef90805874c8e51326afc4fb249d1855b815fe43fabb067e533c0",
-  "request_count": 2,
-  "request_file": "runtime-state/data/summary_requests/2026-09-17.jsonl",
-  "request_sha256": "5591ccb17314738367e3126d59c4e9a91c8b8aaf52d80fba0ad1be980b4ede7b",
+  "queue_sha256": "a76dc1f95216a14b22d1ddb63096b6e32ae3b1f53772df6ec25dd69e7212260c",
+  "request_count": 1,
+  "request_file": "runtime-state/data/summary_requests/2026-09-18.jsonl",
+  "request_sha256": "6ff69355ff12b251b4727d8cc659adc16796e8da9dad2e152264d4001d22a5b8",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "5cbbfbf6084742a2978884feb4b864c86622cb289f9efeed6e35bf69f0f5eef5",
+  "selection_manifest_sha256": "ac95238d71271fbdd4b05a5552767caceac2f30f9391ff7fe82387f3c09005a0",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 2,
+  "source_queue_candidate_count": 1,
   "stage_timings": {
-    "full_text_preparation_seconds": 4.994,
+    "full_text_preparation_seconds": 1.032,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "04bdf084776bcfe0d6f912cb",
-        "elapsed_seconds": 27.001,
+        "candidate_id": "557b41cb542bf10e84da81f2",
+        "elapsed_seconds": 14.45,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2559,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 3261,
-          "prompt_tokens": 5181,
-          "total_tokens": 7740
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "0a7a6a25b0c077322aee6b4e",
-        "elapsed_seconds": 25.895,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 2111,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 4309,
-          "prompt_tokens": 6229,
-          "total_tokens": 8340
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "0a7a6a25b0c077322aee6b4e",
-        "elapsed_seconds": 26.441,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 2117,
-          "prompt_cache_hit_tokens": 6144,
-          "prompt_cache_miss_tokens": 142,
-          "prompt_tokens": 6286,
-          "total_tokens": 8403
+          "completion_tokens": 1276,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1424,
+          "prompt_tokens": 3472,
+          "total_tokens": 4748
         }
       }
     ],
-    "model_generation_and_validation_seconds": 79.359
+    "model_generation_and_validation_seconds": 14.465
   },
   "status": "completed_automatic",
-  "summary_count": 2,
-  "summary_file": "runtime-state/data/summaries/2026-09-17.jsonl",
+  "summary_count": 1,
+  "summary_file": "runtime-state/data/summaries/2026-09-18.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 2,
+  "summary_slot_count": 1,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "04bdf084776bcfe0d6f912cb": {
+      "557b41cb542bf10e84da81f2": {
         "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "free_space",
-        "repaired": true,
-        "resolved_type": "unclear"
-      },
-      "0a7a6a25b0c077322aee6b4e": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "hybrid",
-        "repaired": true,
-        "resolved_type": "unclear"
+        "integrated_evidence": [
+          "We present a chip-scale microwave diffractive neural network (MDNN) fabricated in a GaAs semiconductor process, integrating cascaded couplers and phase shifters to implement a diffraction network within a millimeter-scale footprint."
+        ],
+        "model_value": "integrated",
+        "repaired": false,
+        "resolved_type": "integrated"
       }
     },
-    "architecture_repairs": 3,
+    "architecture_repairs": 0,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "04bdf084776bcfe0d6f912cb": {
+      "557b41cb542bf10e84da81f2": {
         "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "04bdf084776bcfe0d6f912cb",
-        "character_count": 7499,
-        "content_sha256": "0061d8f205063d10b77b231f170645f882ac2088c4f02ed3757a961d42eb66db",
-        "elapsed_seconds": 1.576,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "application/xml+jats",
-        "section_headings": [
-          "Materials and methods",
-          "Training of ST-AONN",
-          "Experimental setup of spatiotemporal structured light field measurement",
-          "Experimental setup of ST-AONN lidar"
-        ],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41377-026-02366-7&p=1",
-        "status": "used",
-        "text_persisted": false
-      },
-      "0a7a6a25b0c077322aee6b4e": {
-        "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "0a7a6a25b0c077322aee6b4e",
-        "character_count": 12000,
-        "content_sha256": "ad8fad46bd58d02a449fcf05f5ab4a93189052f7e1afa744fbb482ef0da8d388",
-        "elapsed_seconds": 3.413,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "application/pdf",
-        "section_headings": [
-          "2 Physical Implementation of the Neural",
-          "Fig. 1 (a) Operating principle of neuromorphic computing enabled by a network of coupled non-",
-          "implementation of neuromorphic computing enabled by coupled quasi-BICs. The network nodes",
-          "2F8) using an etch-free fabrication",
-          "Fig. 3(a). This method allows us to quantify the system ’s",
-          "3 Neural Network Training and Testing",
-          "space of the physical system, whereas the training and inference",
-          "details of neural network training and testing). This single-scalar",
-          "readout achieves a test accuracy of 92.16%, with stable training",
-          "Training and validation accuracy curves showing stable convergence. (c), (f) Confusion matrices",
-          "practical implementation. We note there is a critical system-level",
-          "tral, spatial, and even temporal readout methods. With such",
-          "training. It should be noted that the focus here is on demonstrat-",
-          "44 Furthermore, the etch-free fabrication process offers",
-          "5 Appendix: Methods",
-          "camera (XIOPM 5200). The details of the optical setup have",
-          "(PCA) transformation, fitted once on the training set of the lin-",
-          "to recurrent neural network training,”Comput. Sci. Rev.3(3), 127–",
-          "45. J. K. Eshraghian et al.,“Training spiking neural networks using",
-          "49. H. Jaeger, “The “echo state”approach to analysing and training",
-          "focused on the design, fabrication, and characterization of passive and"
-        ],
-        "source_url": "https://www.spiedigitallibrary.org/JournalArticle/Download?urlId=10.1117/1.AP.8.5.056010",
-        "status": "used",
+        "attempt_count": 3,
+        "candidate_id": "557b41cb542bf10e84da81f2",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 1.028,
+        "error": "https://doi.org/10.1126/sciadv.aeg8394: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1126/sciadv.aeg8394",
+        "status": "not_available",
         "text_persisted": false
       }
     },
     "generation_metadata_repair_responses": 2,
-    "numeric_grounding_repair_responses": 2,
-    "numeric_grounding_repairs": {
-      "04bdf084776bcfe0d6f912cb": [
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "实验上，在激光输入功率1 W条件下，理论计算能效超过103 TOPS/W；",
-          "path": "method_implementation[5]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "103"
-          ]
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "在激光输入功率1 W条件下，理论计算能效超过103 TOPS/W；",
-          "path": "reported_results[3].claim",
-          "replacement": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "103"
-          ]
-        }
-      ],
-      "0a7a6a25b0c077322aee6b4e": [
-        {
-          "action": "rewrote_bounded_zero_one_interval",
-          "original_excerpt": "输入信号通过空间泵浦图案和脉冲序列编码。对于三节点网络，采用二进制输入模式：“1”对应1.2倍阈值泵浦，“0”对应0.8倍阈值泵浦。实验对八个输入组合（000到111）进行测试，采集输出发射的光谱和近场强度分布。由于BIC超表面中耦合的各向异性，不同节点对的耦合系数不同，例如沿Γ–X方向的耦合强于Γ–M方向，从而形成非对称耦合矩阵，该矩阵产生三个非简并集体超模（ψ1、ψ2、ψ3）。不同输入组合激发不同权重的超模叠加，导致输出强度和光谱的系统性变化，实现了输入相关的空间能量重分",
-          "path": "method_implementation[1]",
-          "replacement": "输入信号通过空间泵浦图案和脉冲序列编码。对于三节点网络，采用二进制输入模式：“1”对应1.2倍阈值泵浦，“0”对应0.8倍阈值泵浦。实验对八个输入组合（00一个有界范围11）进行测试，采集输出发射的光谱和近场强度分布。由于BIC超表面中耦合的各向异性，不同节点对的耦合系数不同，例如沿Γ–X方向的耦合强于Γ–M方向，从而形成非对称耦合矩阵，该矩阵产生三个非简并集体超模（ψ1、ψ2、ψ3）。不同输入组合激发不同权重的超模叠加，导致输出强度和光谱的系统性变化，实现了输入相关的空间能"
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "实验对八个输入组合（00一个有界范围11）进行测试，采集输出发射的光谱和近场强度分布。",
-          "path": "method_implementation[1]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "11"
-          ]
-        }
-      ]
-    },
-    "tops_alias_expansions": 73,
-    "unit_format_normalization_responses": 1
+    "numeric_grounding_repair_responses": 0,
+    "numeric_grounding_repairs": {},
+    "tops_alias_expansions": 0,
+    "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 6787,
-    "prompt_cache_hit_tokens": 9984,
-    "prompt_cache_miss_tokens": 7712,
-    "prompt_tokens": 17696,
-    "total_tokens": 24483
+    "completion_tokens": 1276,
+    "prompt_cache_hit_tokens": 2048,
+    "prompt_cache_miss_tokens": 1424,
+    "prompt_tokens": 3472,
+    "total_tokens": 4748
   }
 }

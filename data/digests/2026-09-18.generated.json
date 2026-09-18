@@ -1,0 +1,103 @@
+{
+  "completion": {
+    "architecture_repairs": 0,
+    "completed_at": "2026-09-18T01:02:54.942532Z",
+    "mode": "automatic_daily_batch_after_local_validation"
+  },
+  "delivery": {
+    "mode": "separate_daily_digest_workflow",
+    "status": "pending"
+  },
+  "digest_date": "2026-09-18",
+  "digest_version": 2,
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": false,
+    "information_basis": "title_metadata_and_abstract_only",
+    "numeric_grounding_scope": "title_and_abstract_only",
+    "review_required": false,
+    "summary_history_updated": true
+  },
+  "schema_version": 2,
+  "status": "completed_automatic",
+  "summaries": [
+    {
+      "candidate_id": "557b41cb542bf10e84da81f2",
+      "core_problem": "论文针对电磁衍射神经网络在光学实现中存在的制造与可扩展性限制，以及超表面微波系统体积过大的问题，提出在芯片尺度上实现微波衍射神经网络，以同时实现低功耗、低延迟的人工智能推理和微波域信息处理。",
+      "distinction_from_prior_work": "与以往大体积的超表面微波衍射神经网络不同，该芯片采用 GaAs 半导体工艺制造，将级联耦合器和移相器集成在毫米级尺寸内，使体积缩小超过四个数量级，兼具芯片级集成度与微波域直接处理能力。",
+      "limitations_and_open_questions": [
+        "摘要未提供制造公差、温度稳定性或校准方法对芯片性能影响的讨论。",
+        "摘要未说明芯片的可重构性、可编程性及扩展到更大规模网络的具体方案。",
+        "摘要未报告与数字处理器在能量效率、延迟以外的指标（如功耗绝对值、面积效率）的系统性比较。"
+      ],
+      "main_contributions": [
+        "提出并实验演示了芯片级微波衍射神经网络（MDNN），使用 GaAs 半导体工艺制造，在毫米级尺寸内集成级联耦合器和移相器。",
+        "将传统 MDNN 的体积缩小超过四个数量级，计算延迟达 2.05 ns，系统级能效达 0.83 TOPS/W。",
+        "通过三个功能原型验证了芯片的多功能性：MNIST 手写数字识别、多用户干扰抑制和无人机实时障碍物感知，识别准确率超过 86%。"
+      ],
+      "method_and_architecture": "采用 GaAs 半导体工艺制造芯片级微波衍射神经网络，将级联耦合器和移相器集成在毫米级尺寸内，形成衍射网络结构。芯片直接对微波域信号进行模拟计算，无需光电转换，可用于数字图像处理和原位电磁信息处理。",
+      "method_implementation": [
+        "芯片采用 GaAs 半导体工艺制造，集成级联耦合器和移相器构成衍射网络，输入微波信号进入芯片后依次经过各层调制。",
+        "对于 MNIST 识别、多用户干扰抑制和无人机障碍物感知三个任务，按任务要求设置各移相器的相位配置，芯片直接对输入的微波信号进行模拟计算并输出结果。"
+      ],
+      "method_principle": "微波衍射神经网络利用电磁波在由耦合器和移相器级联构成的衍射网络中的传播与干涉，实现类似光学衍射神经网络的模拟计算功能。在芯片尺度下，微波信号依次通过各层移相器和耦合器，其相位和幅度被逐层调制，最终在输出端口形成对应不同任务的电磁场分布。由于信号在微波域直接处理，无需模数转换和数字运算，因此可实现极低的计算延迟和高能效。GaAs 半导体工艺允许将传统由分离超表面单元组成的微波衍射网络集成到毫米级芯片上，大幅缩小体积的同时保持计算精度，并通过不同相位配置实现多种推理任务。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "MNIST 手写数字识别",
+          "多用户干扰抑制",
+          "无人机实时障碍物感知"
+        ],
+        "architecture_type": "integrated",
+        "calibration_requirements": "未提供",
+        "hardware_validation": "physical_experiment",
+        "optical_nonlinearity": "未提供",
+        "training_method": "未提供"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "芯片将传统 MDNN 的体积缩小超过四个数量级。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "计算延迟为 2.05 ns。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "系统级能效为 0.83 TOPS/W。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "三个功能原型（MNIST 识别、多用户干扰抑制、无人机障碍物感知）的准确率超过 86%。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该工作将微波衍射神经网络从大体积超表面系统推进到芯片尺度，展示了在同一平台上实现数字图像识别和微波域原位信息处理的可能性，为高集成度电磁衍射神经网络的设计开辟了新路径，并有望应用于低功耗、低延迟的边缘智能和传感场景。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "训练方法和参数配置未在摘要中提供。",
+          "芯片内部详细结构、耦合器和移相器的具体数量及连接方式未提供。",
+          "非线性来源、校准流程和制造容差未提供。",
+          "实验设置和评估协议细节未提供。",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    }
+  ],
+  "summary_count": 1
+}

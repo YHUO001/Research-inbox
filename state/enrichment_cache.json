@@ -50,6 +50,76 @@
       "retrieved_at": "2026-09-04T01:00:16.072769Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/adfm.78376": {
+      "expires_at": "2026-10-18T01:02:22.057071Z",
+      "record": {
+        "abstract": "ABSTRACT Hybrid optical computing seeks to merge the versatility of free‐space diffractive systems with the compactness and stability of integrated photonics, thereby providing a promising hardware platform for high‐bandwidth, low‐latency optical interconnects in GPU‐accelerated and data‐intensive computing systems. Yet, this integration remains fundamentally limited by the mismatch between guided optical modes and free‐space architectures, which typically require complex alignment and mode adaptation. Here, we introduce miniaturized vertical diffractive surfaces (MVDSs)—a new class of chip‐compatible diffractive neural surfaces that unify diffractive neural network principles with integrated photonic platforms. By combining physics‐driven neural network design with ultrafast three‐dimensional Galvo‐dithering and scanning two‐photon nanolithography (3D GDS‐TPN), we fabricate wavelength‐scale diffractive elements featuring vertical optical geometries, subwavelength alignment precision, and high structural scalability. These MVDSs perform diverse optical transformations—including focusing, beam steering, orbital angular momentum (OAM) generation—with diffraction efficiencies up to 91%. This work establishes a design and fabrication paradigm that bridges free‐space diffractive optics and guided‐wave photonics, enabling hybrid optical neural architectures where light itself performs customizable wavefront transformation and beam control at the chip scale.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jiayue Zhang",
+            "orcid": "https://orcid.org/0009-0009-6492-8442"
+          },
+          {
+            "name": "Haoyi Yu",
+            "orcid": "https://orcid.org/0000-0002-9480-8443"
+          },
+          {
+            "name": "Chao Meng",
+            "orcid": null
+          },
+          {
+            "name": "Yuting Guo",
+            "orcid": null
+          },
+          {
+            "name": "Wei Xin",
+            "orcid": "https://orcid.org/0009-0005-2736-4319"
+          },
+          {
+            "name": "Weijun Sun",
+            "orcid": null
+          },
+          {
+            "name": "Yipin Sun",
+            "orcid": null
+          },
+          {
+            "name": "Ruochen Li",
+            "orcid": null
+          },
+          {
+            "name": "Hanyu Sun",
+            "orcid": null
+          },
+          {
+            "name": "Simone Lamon",
+            "orcid": "https://orcid.org/0000-0003-4455-565X"
+          },
+          {
+            "name": "Qiming Zhang",
+            "orcid": "https://orcid.org/0000-0003-0067-1210"
+          },
+          {
+            "name": "Min Gu",
+            "orcid": "https://orcid.org/0000-0003-4078-253X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adfm.78376",
+        "landing_page": "https://doi.org/10.1002/adfm.78376",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/adfm.78376",
+        "publication_date": "2026-09-16",
+        "title": "Chip‐Compatible Optical Field Manipulation for a Single Mode Fiber Using Ultrathin 3D‐Nanoprinted Diffractive Neural Surfaces",
+        "venue": "Advanced Functional Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-18T01:02:22.057071Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/adfm.78514": {
       "expires_at": "2026-10-17T01:03:00.566552Z",
       "record": {
@@ -1724,6 +1794,80 @@
       "retrieved_at": "2026-08-18T04:25:12.367711Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/s44519-026-00008-4": {
+      "expires_at": "2026-10-18T01:02:30.560156Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xudong Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Huifu Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Shuai Meng",
+            "orcid": null
+          },
+          {
+            "name": "Jiajun He",
+            "orcid": null
+          },
+          {
+            "name": "Haorong Peng",
+            "orcid": null
+          },
+          {
+            "name": "Yingjie Hong",
+            "orcid": null
+          },
+          {
+            "name": "Mingyang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Zhiqi Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Huanmei Cao",
+            "orcid": null
+          },
+          {
+            "name": "Haisong Jin",
+            "orcid": null
+          },
+          {
+            "name": "Chaoyi Li",
+            "orcid": null
+          },
+          {
+            "name": "Wenrui Wu",
+            "orcid": null
+          },
+          {
+            "name": "Yonghui Tian",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s44519-026-00008-4",
+        "landing_page": "https://doi.org/10.1007/s44519-026-00008-4",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s44519-026-00008-4",
+        "publication_date": "2026-09-14",
+        "title": "High-performance optoelectronic computing chips: research progress, key challenges, and future trends",
+        "venue": "PhotoniX Synergy",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-18T01:02:30.560156Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s44519-026-00009-3": {
       "expires_at": "2026-09-03T09:38:26.523709Z",
       "record": {
@@ -2000,6 +2144,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-06T01:07:51.194407Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1021/acs.nanolett.6c03546": {
+      "expires_at": "2026-10-18T01:02:25.243593Z",
+      "record": {
+        "abstract": "Abstract Neuromorphic hardware that unifies sensing, memory, and learning at the device level remains challenging due to limited optoelectronic comodulation and rigid architectures. Here, we report a flexible, van der Waals (vdW)-integrated MoS2/hexagonal boron nitride (h-BN)/graphene memtransistor in which defect-mediated interfacial charge trapping enables gate-tunable, multimodal synaptic plasticity under combined optical and electrical stimuli. The device reproduces short- and long-term plasticity, multilevel optical memory, and Pavlovian associative learning via repeated optical–electrical stimulus pairing. It exhibits an on/off ratio exceeding 108, low-energy optical switching (138.6 pJ per event), and stable operation after 1000 bending cycles (<1.4% variation). Implemented in a hybrid optoelectronic neural network, the device achieves 96.03% accuracy on the MNIST benchmark, closely approaching ideal software performance. These results establish defect-mediated charge trapping in vdW heterostructures as a scalable route to flexible, in-sensor neuromorphic vision, where perception, memory, and learning converge for next-generation adaptive sensing systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jinyong Wang",
+            "orcid": "https://orcid.org/0000-0002-5205-1649"
+          },
+          {
+            "name": "Geyang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yun Ji",
+            "orcid": null
+          },
+          {
+            "name": "Yujing Ren",
+            "orcid": null
+          },
+          {
+            "name": "Fenghua Xu",
+            "orcid": null
+          },
+          {
+            "name": "Yu Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Zhiqun Lin",
+            "orcid": "https://orcid.org/0000-0003-3158-9340"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1021/acs.nanolett.6c03546",
+        "landing_page": "https://doi.org/10.1021/acs.nanolett.6c03546",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1021/acs.nanolett.6c03546",
+        "publication_date": "2026-09-17",
+        "title": "Atomic Defect-Mediated\nCharge Trapping Enables Multimodal\nPlasticity in van der Waals Heterostructures for In-Sensor Neuromorphic\nVision",
+        "venue": "Nano Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-18T01:02:25.243593Z",
       "status": "found"
     },
     "crossref:doi:10.1021/acsami.6c08360": {
@@ -3772,6 +3966,68 @@
       "retrieved_at": "2026-08-26T00:32:42.036998Z",
       "status": "found"
     },
+    "crossref:doi:10.1126/sciadv.aeg8394": {
+      "expires_at": "2026-10-18T01:02:22.786419Z",
+      "record": {
+        "abstract": "Electromagnetic diffractive neural networks (DNNs) enable ultra–low-power, low-latency artificial intelligence (AI) inference, yet optical implementations suffer from fabrication and scalability limits, and metasurface microwave systems remain bulky. We present a chip-scale microwave diffractive neural network (MDNN) fabricated in a GaAs semiconductor process, integrating cascaded couplers and phase shifters to implement a diffraction network within a millimeter-scale footprint. The MDNN chip reduces the size of conventional MDNNs by over four orders of magnitude, achieves a computational latency of 2.05 ns, and delivers a system-level energy efficiency of 0.83 TOPS/W. We demonstrate its versatility through three functional prototypes: MNIST handwritten digit recognition, multi-user interference suppression, and real-time obstacle perception for drones. These experiments achieved more than 86% accuracy, validating the capability of the MDNN chip to directly perform both digital image processing and in-situ electromagnetic information processing in the microwave domain. We hope this chip architecture opens a new pathway toward highly integrated designs for electromagnetic DNNs.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lei Chen",
+            "orcid": "https://orcid.org/0000-0003-0292-6600"
+          },
+          {
+            "name": "Qian Wen Wu",
+            "orcid": "https://orcid.org/0009-0008-1861-6678"
+          },
+          {
+            "name": "Ze Gu",
+            "orcid": "https://orcid.org/0000-0002-5459-1008"
+          },
+          {
+            "name": "Qian Ma",
+            "orcid": "https://orcid.org/0000-0002-4662-8667"
+          },
+          {
+            "name": "Lei Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Zhao Tian",
+            "orcid": "https://orcid.org/0009-0000-5064-6748"
+          },
+          {
+            "name": "Wen Qi Su",
+            "orcid": null
+          },
+          {
+            "name": "Hao Yang Cui",
+            "orcid": null
+          },
+          {
+            "name": "Jian Wei You",
+            "orcid": "https://orcid.org/0000-0001-5761-9507"
+          },
+          {
+            "name": "Tie Jun Cui",
+            "orcid": "https://orcid.org/0000-0002-5862-1497"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1126/sciadv.aeg8394",
+        "landing_page": "https://doi.org/10.1126/sciadv.aeg8394",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1126/sciadv.aeg8394",
+        "publication_date": "2026-09-18",
+        "title": "Microwave diffractive neural network chips for sensing and computing",
+        "venue": "Science Advances",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-18T01:02:22.786419Z",
+      "status": "found"
+    },
     "crossref:doi:10.1142/s0218863526400163": {
       "expires_at": "2026-10-06T01:07:51.685521Z",
       "record": {
@@ -5036,6 +5292,12 @@
       "retrieved_at": "2026-09-13T01:07:30.486094Z",
       "status": "not_found"
     },
+    "crossref:title:04527fb49b0161df259068daccd9ea9a89366bb34d5b1485be8f7a2b12cf4e7e": {
+      "expires_at": "2026-09-25T01:02:21.025212Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:21.025212Z",
+      "status": "not_found"
+    },
     "crossref:title:06c1573614d7cec8aafdeabdbf04c206c9e42daeec19bd7a0690045235f26758": {
       "expires_at": "2026-09-07T01:07:10.369066Z",
       "record": null,
@@ -5388,6 +5650,12 @@
       "retrieved_at": "2026-08-04T09:38:54.653784Z",
       "status": "found"
     },
+    "crossref:title:204f7f763ddd9b0ee0bfdf004597a2550f5e0e7c63ab7bef2e97e860f795b4b1": {
+      "expires_at": "2026-09-25T01:02:11.624150Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:11.624150Z",
+      "status": "not_found"
+    },
     "crossref:title:20e0321813f779b57400a1efa1a9062a82eb81a843aea717d78cb6cb05979696": {
       "expires_at": "2026-09-22T01:03:22.594010Z",
       "record": {
@@ -5670,6 +5938,12 @@
       "expires_at": "2026-09-22T01:03:25.776696Z",
       "record": null,
       "retrieved_at": "2026-09-15T01:03:25.776696Z",
+      "status": "not_found"
+    },
+    "crossref:title:3e2b531b19fc58e53e14b3b0dc7ac6fe9630b966c7276851ab79763507eac8bf": {
+      "expires_at": "2026-09-25T01:02:27.374310Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:27.374310Z",
       "status": "not_found"
     },
     "crossref:title:3f0fe9ff0903f34ce58f6f8ecb3df9c7df258013855792d3bcfdb13a071eb443": {
@@ -5975,6 +6249,12 @@
       },
       "retrieved_at": "2026-08-29T00:54:11.976936Z",
       "status": "found"
+    },
+    "crossref:title:4eba36834404ad45cb2be85cf224701f9eb40943be33adc7780fcde052de8139": {
+      "expires_at": "2026-09-25T01:02:16.510915Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:16.510915Z",
+      "status": "not_found"
     },
     "crossref:title:515316e23ebc42e941cd8b6423767ee9dacba9cc10cb175c2ece28292649cbd1": {
       "expires_at": "2026-09-07T01:07:05.264641Z",
@@ -7680,6 +7960,18 @@
       "retrieved_at": "2026-08-09T00:36:06.532514Z",
       "status": "not_found"
     },
+    "crossref:title:cd14bf027daeb446907c6dd9a8715fc27323ecaec097111ab6553d2e1bd73fa8": {
+      "expires_at": "2026-09-25T01:02:19.139933Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:19.139933Z",
+      "status": "not_found"
+    },
+    "crossref:title:ce30b5ccb3f288d5d12e090d87012fabe28615222120f4402bd424530931311b": {
+      "expires_at": "2026-09-25T01:02:24.192100Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:24.192100Z",
+      "status": "not_found"
+    },
     "crossref:title:cf60d9526b6a712182eab4e7921d86b4273e914482f2010b75e8c126259c24f7": {
       "expires_at": "2026-09-16T01:02:01.909031Z",
       "record": {
@@ -7835,6 +8127,12 @@
       },
       "retrieved_at": "2026-08-04T09:38:21.835495Z",
       "status": "found"
+    },
+    "crossref:title:d91ba011ef4681b2529ccf70b9b84f85dc1d3d4a92925458a515361e55121158": {
+      "expires_at": "2026-09-25T01:02:35.012052Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:35.012052Z",
+      "status": "not_found"
     },
     "crossref:title:d9f1c982a3cfd1c5b6c29c67f1f5383499064f71297dda9b379ac82ad25bc278": {
       "expires_at": "2026-08-11T09:38:49.500080Z",
@@ -8003,6 +8301,12 @@
       },
       "retrieved_at": "2026-09-09T01:02:03.064819Z",
       "status": "found"
+    },
+    "crossref:title:e1ed1bfb722b9d6863eb7a17ff99bfd1d32e18aba4f3ed4680a555f092e18848": {
+      "expires_at": "2026-09-25T01:02:13.947880Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:13.947880Z",
+      "status": "not_found"
     },
     "crossref:title:e3d30e93a810dcb91394f004ca83af5538e36c402ecc66569eda4d498aa93d53": {
       "expires_at": "2026-08-29T00:32:15.721716Z",
@@ -8294,6 +8598,48 @@
       "retrieved_at": "2026-09-15T01:03:18.781771Z",
       "status": "not_found"
     },
+    "crossref:title:f1af284a52a66b01daa30131c610b7e21acc4a3c2f7604f1a7e7c8aec1a6f5fd": {
+      "expires_at": "2026-09-25T01:02:29.783219Z",
+      "record": {
+        "abstract": "As aerodynamic configurations become increasingly integrated with propulsion systems, internal–external flow coupling has become a key issue in airframe–engine integration. For embedded-inlet configurations, however, the airframe and inlet/exhaust system have different geometric shaping requirements, making their design variables difficult to represent within a unified gradient-based optimization framework. This study develops a continuous parameterization method for embedded inlets that simultaneously controls cross-sectional profiles, area distribution, and centerline under large cross-sectional rotation angles. The method combines B-spline curves, shape blending functions, quaternion-based transformations, and free-form deformation (FFD) to establish a hybrid parameterization framework for coupled internal–external flow optimization. Analytical geometric sensitivities of the inlet surface mesh with respect to profile, area-distribution, and centerline variables are derived through the complete parameterization chain and coupled with discrete-adjoint flow sensitivities, enabling gradient evaluation for both external aerodynamic-shape and internal inlet-geometry variables. The framework is applied to full-configuration multipoint optimization of an aircraft with an embedded inlet. Aerodynamic drag is reduced by 2.82% and 2.36% at the two design points, while inlet drag decreases by 4.44 and 4.63 counts (1 count = 0.0001). Under distortion-coefficient and mass-flow-rate constraints, the inlet-exit total pressure recovery coefficient increases by 0.54% and 0.41%, respectively. These results demonstrate the effectiveness of the proposed method for integrated internal–external flow optimization and its potential for airframe–engine integrated design.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuning Liu",
+            "orcid": null
+          },
+          {
+            "name": "Libo Wang",
+            "orcid": null
+          },
+          {
+            "name": "Tihao Yang",
+            "orcid": null
+          },
+          {
+            "name": "Yiwen Wang",
+            "orcid": "https://orcid.org/0009-0009-7676-1176"
+          },
+          {
+            "name": "Yayun Shi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/aerospace13090835",
+        "landing_page": "https://doi.org/10.3390/aerospace13090835",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/aerospace13090835",
+        "publication_date": "2026-09-13",
+        "title": "Gradient-Based Internal–External Flow Coupling Optimization for Embedded-Inlet Aircraft",
+        "venue": "Aerospace",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-18T01:02:29.783219Z",
+      "status": "found"
+    },
     "crossref:title:f2e1b5b286ffb2c826fb063e3e0eebaca5af8c1a7146595e4bd056202262058e": {
       "expires_at": "2026-09-22T01:03:35.043496Z",
       "record": {
@@ -8359,6 +8705,12 @@
       },
       "retrieved_at": "2026-09-15T01:03:35.043496Z",
       "status": "found"
+    },
+    "crossref:title:f423903be74108a8d2be27f40109ed7a008b05c9f8426d00f09cc57552609ed9": {
+      "expires_at": "2026-09-25T01:02:32.334695Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:32.334695Z",
+      "status": "not_found"
     },
     "crossref:title:f5ab57ac7e603ce67f736c744d43952cf525bcbf37ba3d24e6d377c07bf7e87f": {
       "expires_at": "2026-09-20T01:07:35.132723Z",
@@ -8536,6 +8888,76 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-04T01:00:16.458324Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/adfm.78376": {
+      "expires_at": "2026-10-18T01:02:22.529593Z",
+      "record": {
+        "abstract": "ABSTRACT Hybrid optical computing seeks to merge the versatility of free‐space diffractive systems with the compactness and stability of integrated photonics, thereby providing a promising hardware platform for high‐bandwidth, low‐latency optical interconnects in GPU‐accelerated and data‐intensive computing systems. Yet, this integration remains fundamentally limited by the mismatch between guided optical modes and free‐space architectures, which typically require complex alignment and mode adaptation. Here, we introduce miniaturized vertical diffractive surfaces (MVDSs)—a new class of chip‐compatible diffractive neural surfaces that unify diffractive neural network principles with integrated photonic platforms. By combining physics‐driven neural network design with ultrafast three‐dimensional Galvo‐dithering and scanning two‐photon nanolithography (3D GDS‐TPN), we fabricate wavelength‐scale diffractive elements featuring vertical optical geometries, subwavelength alignment precision, and high structural scalability. These MVDSs perform diverse optical transformations—including focusing, beam steering, orbital angular momentum (OAM) generation—with diffraction efficiencies up to 91%. This work establishes a design and fabrication paradigm that bridges free‐space diffractive optics and guided‐wave photonics, enabling hybrid optical neural architectures where light itself performs customizable wavefront transformation and beam control at the chip scale.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jiayue Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Haoyi Yu",
+            "orcid": "https://orcid.org/0000-0002-9480-8443"
+          },
+          {
+            "name": "Chao Meng",
+            "orcid": null
+          },
+          {
+            "name": "Yuting Guo",
+            "orcid": "https://orcid.org/0009-0006-8860-5005"
+          },
+          {
+            "name": "Wei Xin",
+            "orcid": "https://orcid.org/0000-0002-1887-7535"
+          },
+          {
+            "name": "Weijun Sun",
+            "orcid": "https://orcid.org/0000-0002-2342-4434"
+          },
+          {
+            "name": "Yipin Sun",
+            "orcid": null
+          },
+          {
+            "name": "Ruochen Li",
+            "orcid": null
+          },
+          {
+            "name": "Hanyu Sun",
+            "orcid": null
+          },
+          {
+            "name": "Simone Lamon",
+            "orcid": "https://orcid.org/0000-0003-4455-565X"
+          },
+          {
+            "name": "Qiming Zhang",
+            "orcid": "https://orcid.org/0000-0003-0067-1210"
+          },
+          {
+            "name": "Miṅ Gu",
+            "orcid": "https://orcid.org/0000-0003-4078-253X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adfm.78376",
+        "landing_page": "https://doi.org/10.1002/adfm.78376",
+        "open_access_url": "https://doi.org/10.1002/adfm.78376",
+        "openalex_id": "https://openalex.org/W7213428309",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213428309",
+        "publication_date": "2026-09-16",
+        "title": "Chip‐Compatible Optical Field Manipulation for a Single Mode Fiber Using Ultrathin 3D‐Nanoprinted Diffractive Neural Surfaces",
+        "venue": "Advanced Functional Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-18T01:02:22.529593Z",
       "status": "found"
     },
     "openalex:doi:10.1002/adfm.78514": {
@@ -10296,6 +10718,80 @@
       "retrieved_at": "2026-08-18T04:25:12.679566Z",
       "status": "found"
     },
+    "openalex:doi:10.1007/s44519-026-00008-4": {
+      "expires_at": "2026-10-18T01:02:31.030298Z",
+      "record": {
+        "abstract": "Modern computing systems are increasingly constrained by the mismatch among computation, communication, and energy, which has motivated the exploration of optoelectronic computing as an alternative high-performance computing paradigm. By combining the ultrahigh bandwidth and parallelism of photonics with the control, memory, and programmability of electronics, optoelectronic computing chips have shown promising potential for high-throughput and energy-efficient information processing. This review surveys recent progress in optoelectronic computing from six key perspectives: higher computing power, higher computational precision, lower power consumption, richer functional integration, greater functional reconfigurability, and emerging photonic computing paradigms. We summarize representative device and system-level strategies for implementing optical and optoelectronic computing, including advances in multiplexed computing architectures, low-loss signal processing, precision enhancement, large-scale integration, and new computational schemes beyond conventional architectures. Particular attention is given to how different design choices shape the achievable performance of optoelectronic computing chips and to the main challenges that still limit their scalability and practical deployment. By organizing recent developments along these six directions, this review aims to provide a clearer pathway of the current state of the field and to outline possible pathways toward future high-performance optoelectronic computing systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xudong Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Huifu Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Shuai Meng",
+            "orcid": "https://orcid.org/0009-0001-0052-6008"
+          },
+          {
+            "name": "Jiajun He",
+            "orcid": null
+          },
+          {
+            "name": "Haorong Peng",
+            "orcid": null
+          },
+          {
+            "name": "Yingjie Hong",
+            "orcid": null
+          },
+          {
+            "name": "Mingyang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Zhiqi Zhu",
+            "orcid": "https://orcid.org/0009-0001-6258-2507"
+          },
+          {
+            "name": "Huanmei Cao",
+            "orcid": null
+          },
+          {
+            "name": "Haisong Jin",
+            "orcid": null
+          },
+          {
+            "name": "Chaoyi Li",
+            "orcid": null
+          },
+          {
+            "name": "Wenrui Wu",
+            "orcid": "https://orcid.org/0000-0001-7245-4659"
+          },
+          {
+            "name": "Yonghui Tian",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s44519-026-00008-4",
+        "landing_page": "https://doi.org/10.1007/s44519-026-00008-4",
+        "open_access_url": "https://doi.org/10.1007/s44519-026-00008-4",
+        "openalex_id": "https://openalex.org/W7212443350",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212443350",
+        "publication_date": "2026-09-13",
+        "title": "High-performance optoelectronic computing chips: research progress, key challenges, and future trends",
+        "venue": "PhotoniX Synergy",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-18T01:02:31.030298Z",
+      "status": "found"
+    },
     "openalex:doi:10.1007/s44519-026-00009-3": {
       "expires_at": "2026-09-03T09:38:26.867117Z",
       "record": {
@@ -10860,6 +11356,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-06T01:07:51.547307Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1021/acs.nanolett.6c03546": {
+      "expires_at": "2026-10-18T01:02:25.635741Z",
+      "record": {
+        "abstract": "Abstract Neuromorphic hardware that unifies sensing, memory, and learning at the device level remains challenging due to limited optoelectronic comodulation and rigid architectures. Here, we report a flexible, van der Waals (vdW)-integrated MoS2/hexagonal boron nitride (h-BN)/graphene memtransistor in which defect-mediated interfacial charge trapping enables gate-tunable, multimodal synaptic plasticity under combined optical and electrical stimuli. The device reproduces short- and long-term plasticity, multilevel optical memory, and Pavlovian associative learning via repeated optical–electrical stimulus pairing. It exhibits an on/off ratio exceeding 108, low-energy optical switching (138.6 pJ per event), and stable operation after 1000 bending cycles (<1.4% variation). Implemented in a hybrid optoelectronic neural network, the device achieves 96.03% accuracy on the MNIST benchmark, closely approaching ideal software performance. These results establish defect-mediated charge trapping in vdW heterostructures as a scalable route to flexible, in-sensor neuromorphic vision, where perception, memory, and learning converge for next-generation adaptive sensing systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jinyong Wang",
+            "orcid": "https://orcid.org/0000-0002-5205-1649"
+          },
+          {
+            "name": "Geyang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yun Ji",
+            "orcid": "https://orcid.org/0000-0003-1193-5293"
+          },
+          {
+            "name": "Yujing Ren",
+            "orcid": null
+          },
+          {
+            "name": "Fenghua Xu",
+            "orcid": "https://orcid.org/0000-0003-0247-8123"
+          },
+          {
+            "name": "Yu Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Zhiqun Lin",
+            "orcid": "https://orcid.org/0000-0003-3158-9340"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1021/acs.nanolett.6c03546",
+        "landing_page": "https://doi.org/10.1021/acs.nanolett.6c03546",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7213400874",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213400874",
+        "publication_date": "2026-09-17",
+        "title": "Atomic Defect-Mediated Charge Trapping Enables Multimodal Plasticity in van der Waals Heterostructures for In-Sensor Neuromorphic Vision",
+        "venue": "Nano Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-18T01:02:25.635741Z",
       "status": "found"
     },
     "openalex:doi:10.1021/acsami.6c08360": {
@@ -14036,6 +14582,68 @@
       "retrieved_at": "2026-08-26T00:32:42.469414Z",
       "status": "found"
     },
+    "openalex:doi:10.1126/sciadv.aeg8394": {
+      "expires_at": "2026-10-18T01:02:23.182264Z",
+      "record": {
+        "abstract": "Electromagnetic diffractive neural networks (DNNs) enable ultra–low-power, low-latency artificial intelligence (AI) inference, yet optical implementations suffer from fabrication and scalability limits, and metasurface microwave systems remain bulky. We present a chip-scale microwave diffractive neural network (MDNN) fabricated in a GaAs semiconductor process, integrating cascaded couplers and phase shifters to implement a diffraction network within a millimeter-scale footprint. The MDNN chip reduces the size of conventional MDNNs by over four orders of magnitude, achieves a computational latency of 2.05 ns, and delivers a system-level energy efficiency of 0.83 TOPS/W. We demonstrate its versatility through three functional prototypes: MNIST handwritten digit recognition, multi-user interference suppression, and real-time obstacle perception for drones. These experiments achieved more than 86% accuracy, validating the capability of the MDNN chip to directly perform both digital image processing and in-situ electromagnetic information processing in the microwave domain. We hope this chip architecture opens a new pathway toward highly integrated designs for electromagnetic DNNs.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lei Chen",
+            "orcid": "https://orcid.org/0000-0003-0292-6600"
+          },
+          {
+            "name": "Qian Wen Wu",
+            "orcid": "https://orcid.org/0009-0008-1861-6678"
+          },
+          {
+            "name": "Ze Gu",
+            "orcid": "https://orcid.org/0000-0002-5459-1008"
+          },
+          {
+            "name": "Qian Ma",
+            "orcid": "https://orcid.org/0000-0002-4662-8667"
+          },
+          {
+            "name": "Lei Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Zhao Tian",
+            "orcid": "https://orcid.org/0009-0000-5064-6748"
+          },
+          {
+            "name": "Wen Qi Su",
+            "orcid": null
+          },
+          {
+            "name": "Hao Yang Cui",
+            "orcid": "https://orcid.org/0000-0002-5110-4550"
+          },
+          {
+            "name": "Jian Wei You",
+            "orcid": "https://orcid.org/0000-0001-5761-9507"
+          },
+          {
+            "name": "Tie Jun Cui",
+            "orcid": "https://orcid.org/0000-0002-5862-1497"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1126/sciadv.aeg8394",
+        "landing_page": "https://doi.org/10.1126/sciadv.aeg8394",
+        "open_access_url": "https://doi.org/10.1126/sciadv.aeg8394",
+        "openalex_id": "https://openalex.org/W7213401769",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213401769",
+        "publication_date": "2026-09-16",
+        "title": "Microwave diffractive neural network chips for sensing and computing",
+        "venue": "Science Advances",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-18T01:02:23.182264Z",
+      "status": "found"
+    },
     "openalex:doi:10.1142/s0218863526400163": {
       "expires_at": "2026-10-06T01:07:52.078758Z",
       "record": {
@@ -15950,6 +16558,48 @@
       "retrieved_at": "2026-09-01T01:13:13.394348Z",
       "status": "found"
     },
+    "openalex:doi:10.3390/aerospace13090835": {
+      "expires_at": "2026-10-18T01:02:30.201153Z",
+      "record": {
+        "abstract": "As aerodynamic configurations become increasingly integrated with propulsion systems, internal–external flow coupling has become a key issue in airframe–engine integration. For embedded-inlet configurations, however, the airframe and inlet/exhaust system have different geometric shaping requirements, making their design variables difficult to represent within a unified gradient-based optimization framework. This study develops a continuous parameterization method for embedded inlets that simultaneously controls cross-sectional profiles, area distribution, and centerline under large cross-sectional rotation angles. The method combines B-spline curves, shape blending functions, quaternion-based transformations, and free-form deformation (FFD) to establish a hybrid parameterization framework for coupled internal–external flow optimization. Analytical geometric sensitivities of the inlet surface mesh with respect to profile, area-distribution, and centerline variables are derived through the complete parameterization chain and coupled with discrete-adjoint flow sensitivities, enabling gradient evaluation for both external aerodynamic-shape and internal inlet-geometry variables. The framework is applied to full-configuration multipoint optimization of an aircraft with an embedded inlet. Aerodynamic drag is reduced by 2.82% and 2.36% at the two design points, while inlet drag decreases by 4.44 and 4.63 counts (1 count = 0.0001). Under distortion-coefficient and mass-flow-rate constraints, the inlet-exit total pressure recovery coefficient increases by 0.54% and 0.41%, respectively. These results demonstrate the effectiveness of the proposed method for integrated internal–external flow optimization and its potential for airframe–engine integrated design.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuning Liu",
+            "orcid": null
+          },
+          {
+            "name": "Libo Wang",
+            "orcid": null
+          },
+          {
+            "name": "Tihao Yang",
+            "orcid": "https://orcid.org/0000-0001-9102-6617"
+          },
+          {
+            "name": "Yiwen Wang",
+            "orcid": "https://orcid.org/0009-0009-7676-1176"
+          },
+          {
+            "name": "Yayun Shi",
+            "orcid": "https://orcid.org/0000-0001-9351-5318"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/aerospace13090835",
+        "landing_page": "https://doi.org/10.3390/aerospace13090835",
+        "open_access_url": "https://doi.org/10.3390/aerospace13090835",
+        "openalex_id": "https://openalex.org/W7212699569",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212699569",
+        "publication_date": "2026-09-13",
+        "title": "Gradient-Based Internal–External Flow Coupling Optimization for Embedded-Inlet Aircraft",
+        "venue": "Aerospace",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-18T01:02:30.201153Z",
+      "status": "found"
+    },
     "openalex:doi:10.3390/mi17091074": {
       "expires_at": "2026-10-13T01:07:32.476540Z",
       "record": {
@@ -16752,6 +17402,12 @@
       "retrieved_at": "2026-09-13T01:07:31.580537Z",
       "status": "not_found"
     },
+    "openalex:title:04527fb49b0161df259068daccd9ea9a89366bb34d5b1485be8f7a2b12cf4e7e": {
+      "expires_at": "2026-09-25T01:02:21.768579Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:21.768579Z",
+      "status": "not_found"
+    },
     "openalex:title:06c1573614d7cec8aafdeabdbf04c206c9e42daeec19bd7a0690045235f26758": {
       "expires_at": "2026-09-07T01:07:11.006421Z",
       "record": {
@@ -16856,6 +17512,12 @@
       "expires_at": "2026-09-02T00:32:38.251477Z",
       "record": null,
       "retrieved_at": "2026-08-26T00:32:38.251477Z",
+      "status": "not_found"
+    },
+    "openalex:title:204f7f763ddd9b0ee0bfdf004597a2550f5e0e7c63ab7bef2e97e860f795b4b1": {
+      "expires_at": "2026-09-25T01:02:12.398704Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:12.398704Z",
       "status": "not_found"
     },
     "openalex:title:249de29380f61cbfa04e045bb6ff4ca3e6b09932fa43c62ead34e26d394beb77": {
@@ -17038,6 +17700,12 @@
       "retrieved_at": "2026-09-15T01:03:26.735474Z",
       "status": "found"
     },
+    "openalex:title:3e2b531b19fc58e53e14b3b0dc7ac6fe9630b966c7276851ab79763507eac8bf": {
+      "expires_at": "2026-09-25T01:02:28.408166Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:28.408166Z",
+      "status": "not_found"
+    },
     "openalex:title:3f0fe9ff0903f34ce58f6f8ecb3df9c7df258013855792d3bcfdb13a071eb443": {
       "expires_at": "2026-09-20T01:07:33.769750Z",
       "record": null,
@@ -17144,6 +17812,12 @@
       "expires_at": "2026-08-30T00:32:32.784526Z",
       "record": null,
       "retrieved_at": "2026-08-23T00:32:32.784526Z",
+      "status": "not_found"
+    },
+    "openalex:title:4eba36834404ad45cb2be85cf224701f9eb40943be33adc7780fcde052de8139": {
+      "expires_at": "2026-09-25T01:02:18.115513Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:18.115513Z",
       "status": "not_found"
     },
     "openalex:title:515316e23ebc42e941cd8b6423767ee9dacba9cc10cb175c2ece28292649cbd1": {
@@ -18232,6 +18906,74 @@
       "retrieved_at": "2026-08-09T00:36:07.204631Z",
       "status": "not_found"
     },
+    "openalex:title:cd14bf027daeb446907c6dd9a8715fc27323ecaec097111ab6553d2e1bd73fa8": {
+      "expires_at": "2026-09-25T01:02:19.785675Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:19.785675Z",
+      "status": "not_found"
+    },
+    "openalex:title:ce30b5ccb3f288d5d12e090d87012fabe28615222120f4402bd424530931311b": {
+      "expires_at": "2026-09-25T01:02:24.716550Z",
+      "record": {
+        "abstract": "PiMiX (Physics-informed Meta-instrument for eXperiments) was introduced for multi-instrument, multi-experiment, and simulation-experiment data fusion in radiographic imaging and tomography (RadIT). Here we present PiMiX 2.02 as an evolving AI-enhanced cyber-physical meta-instrument integrating imaging sensors, near-sensor computing, data fusion, physics-informed inference, and human-supervised AI workflows across X-ray, neutron, and other modalities. Demonstrated capabilities include multimodal CMOS radiation imaging, simulation-assisted sub-pixel neutron localization, and edge-deployed optical-neural-network (ONN) inference; GPU and ONN implementations achieved greater than 96% precision for neutron-event detection with sub-micron localization. A further advance is human-in-the-loop agentic-AI co-analysis of X-ray and neutron images from inertial-confinement-fusion experiments. Beyond conventional preprocessing, the workflow generates competing feature hypotheses, ranks contours using physics-informed evidence, estimates confidence, and presents alternatives for human review. The same architecture adapts to different physics: X-ray analysis emphasizes dark, nonuniform ring structures using deformable closed paths and multi-scale evidence, whereas neutron analysis targets bright emission envelopes using fractional-emission levels, intensity gradients, and cross-filter persistence. We also highlight automated comparison of an as-designed stereolithography model with an X-ray CT reconstruction of an additively manufactured metal lattice. Together, these examples show progression from AI assistance in specific processing tasks to multi-task, multi-domain scientific co-analysis. PiMiX 2.0 further provides a pathway toward PRISM, a RadIT scientific foundation model, and tighter integration of diagnostics, digital representations, inference, and experimental control.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhehui Wang",
+            "orcid": null
+          },
+          {
+            "name": "S. Lin",
+            "orcid": "https://orcid.org/0000-0003-1934-1588"
+          },
+          {
+            "name": "Nicholas Amano",
+            "orcid": null
+          },
+          {
+            "name": "Ramya Gurunathan",
+            "orcid": null
+          },
+          {
+            "name": "Katie Liu",
+            "orcid": null
+          },
+          {
+            "name": "Nathan Peterson",
+            "orcid": "https://orcid.org/0000-0001-7044-3542"
+          },
+          {
+            "name": "Michelle A. Espy",
+            "orcid": null
+          },
+          {
+            "name": "Adam Thompson",
+            "orcid": "https://orcid.org/0000-0002-4900-9378"
+          },
+          {
+            "name": "Amy J. Clarke",
+            "orcid": null
+          },
+          {
+            "name": "Ray T. Chen",
+            "orcid": "https://orcid.org/0000-0002-9181-4266"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": null,
+        "landing_page": "https://arxiv.org/abs/2609.13347",
+        "open_access_url": "https://arxiv.org/abs/2609.13347",
+        "openalex_id": "https://openalex.org/W7213373434",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213373434",
+        "publication_date": "2026-09-11",
+        "title": "PiMiX 2.02: Toward AI-Driven Data Fusion in Radiographic Imaging and Tomography",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-18T01:02:24.716550Z",
+      "status": "found"
+    },
     "openalex:title:d22208955223ef9ce1ae12b0612330cb6007e94886f7e0ce83690eb5d2e7b294": {
       "expires_at": "2026-09-20T01:07:38.865385Z",
       "record": null,
@@ -18242,6 +18984,12 @@
       "expires_at": "2026-09-11T01:00:25.102264Z",
       "record": null,
       "retrieved_at": "2026-09-04T01:00:25.102264Z",
+      "status": "not_found"
+    },
+    "openalex:title:d91ba011ef4681b2529ccf70b9b84f85dc1d3d4a92925458a515361e55121158": {
+      "expires_at": "2026-09-25T01:02:36.855186Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:36.855186Z",
       "status": "not_found"
     },
     "openalex:title:dbb7b2f0b602dda6bb264b5f39eeec51cebde5c6996ecc615c306031c46867a6": {
@@ -18260,6 +19008,12 @@
       "expires_at": "2026-09-19T00:59:38.926326Z",
       "record": null,
       "retrieved_at": "2026-09-12T00:59:38.926326Z",
+      "status": "not_found"
+    },
+    "openalex:title:e1ed1bfb722b9d6863eb7a17ff99bfd1d32e18aba4f3ed4680a555f092e18848": {
+      "expires_at": "2026-09-25T01:02:15.226167Z",
+      "record": null,
+      "retrieved_at": "2026-09-18T01:02:15.226167Z",
       "status": "not_found"
     },
     "openalex:title:e52562c68c7743def3c56d139b546749ca9c6a30d4c4fb7fa4d65bebf9940805": {
@@ -18417,6 +19171,56 @@
       "record": null,
       "retrieved_at": "2026-09-15T01:03:20.362221Z",
       "status": "not_found"
+    },
+    "openalex:title:f423903be74108a8d2be27f40109ed7a008b05c9f8426d00f09cc57552609ed9": {
+      "expires_at": "2026-09-25T01:02:33.062583Z",
+      "record": {
+        "abstract": "Retrieval-augmented generation (RAG) systems enhance large language models (LLMs) with external knowledge but have been demonstrated to be vulnerable to corpus poisoning. Existing poisoning attacks against RAG largely focus on single-point explicit injection, where the malicious payload is fully encapsulated within a single document. Consequently, recent mitigation mechanisms have evolved to identify and diminish these threats effectively. In this paper, we first verify that existing mitigation mechanisms are insufficient for a new class of threats: indirect logic induction. Motivated by this observation, we introduce InceptionRAG, a stealthy attack mechanism that subverts the standard attack paradigm. Instead of injecting explicit malicious payloads, InceptionRAG fragments it into a chain of dormant passages. These passages appear harmless and can bypass existing mitigation mechanisms when examined separately. However, when retrieved together, they trigger LLMs to self-deduce target misinformation via multi-hop reasoning. To further improve the applicability of InceptionRAG in black-box settings, we propose zeroth-order suffix optimization (ZOSO) to automate the generation of authoritative suffixes. Extensive evaluations across three datasets and three LLMs demonstrate that InceptionRAG achieves an attack success rate exceeding 80% even under rigorous adversarial constraints. In particular, InceptionRAG shows superior evasion capabilities, effectively bypassing established defenses that mitigate traditional single-document injections. Our findings expose a concerning paradox: the stronger reasoning capabilities of LLMs increase their vulnerability to reasoning-based poisoning attacks. To mitigate potential misuse, we propose a document isolation-based defense, HODOR, which decouples adversarial logical dependencies.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jiachang Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Min Chen",
+            "orcid": null
+          },
+          {
+            "name": "Xiao Ren",
+            "orcid": "https://orcid.org/0009-0001-1099-3208"
+          },
+          {
+            "name": "Zhenyong Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yuanchao Shu",
+            "orcid": null
+          },
+          {
+            "name": "Yunjun Gao",
+            "orcid": null
+          },
+          {
+            "name": "Zhikun Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": null,
+        "landing_page": "https://arxiv.org/abs/2609.16818",
+        "open_access_url": "https://arxiv.org/abs/2609.16818",
+        "openalex_id": "https://openalex.org/W7213473533",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213473533",
+        "publication_date": "2026-09-15",
+        "title": "InceptionRAG: Stealthy Poisoning Attack Against Retrieval-Augmented Generation",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-18T01:02:33.062583Z",
+      "status": "found"
     },
     "openalex:title:f5ab57ac7e603ce67f736c744d43952cf525bcbf37ba3d24e6d377c07bf7e87f": {
       "expires_at": "2026-09-20T01:07:35.659687Z",
