@@ -1,0 +1,31 @@
+{
+  "built_at": "2026-09-19T01:00:55.779873Z",
+  "digest_date": "2026-09-19",
+  "digest_version": 1,
+  "pending_summary_count": 1,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "1075bd8698bce3acb3ce9376",
+        "landing_page": "https://doi.org/10.25781/kaust-ip46p",
+        "mandatory": false,
+        "score": 0.7725,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Algorithmically Faithful and System-Efficient Optimization for Large Language Models",
+        "venue": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

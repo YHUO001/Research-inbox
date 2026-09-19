@@ -1,50 +1,48 @@
 {
   "abstract_fallback_candidate_ids": [
-    "557b41cb542bf10e84da81f2"
+    "1075bd8698bce3acb3ce9376"
   ],
   "abstract_fallback_count": 1,
   "architecture_evidence": {
-    "557b41cb542bf10e84da81f2": {
+    "1075bd8698bce3acb3ce9376": {
       "changed": false,
       "free_space_evidence": [],
-      "integrated_evidence": [
-        "We present a chip-scale microwave diffractive neural network (MDNN) fabricated in a GaAs semiconductor process, integrating cascaded couplers and phase shifters to implement a diffraction network within a millimeter-scale footprint."
-      ],
-      "previous_type": "integrated",
-      "resolved_type": "integrated"
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
   "automatic_queue_candidate_count": 1,
-  "completed_at": "2026-09-18T01:02:54.942532Z",
+  "completed_at": "2026-09-19T01:01:46.293018Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "557b41cb542bf10e84da81f2"
+    "1075bd8698bce3acb3ce9376"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-09-18",
-  "digest_json_file": "runtime-state/data/digests/2026-09-18.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-09-18.generated.md",
+  "digest_date": "2026-09-19",
+  "digest_json_file": "runtime-state/data/digests/2026-09-19.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-09-19.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0119792,
+  "estimated_cost_cny": 0.0138602,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "557b41cb542bf10e84da81f2": {
+    "1075bd8698bce3acb3ce9376": {
       "abstract_available": true,
       "attempt_count": 3,
-      "candidate_id": "557b41cb542bf10e84da81f2",
+      "candidate_id": "1075bd8698bce3acb3ce9376",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 1.028,
-      "error": "https://doi.org/10.1126/sciadv.aeg8394: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "elapsed_seconds": 30.983,
+      "error": "https://doi.org/10.25781/kaust-ip46p: TimeoutError: The read operation timed out; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": null,
       "section_headings": [],
-      "source_url": "https://doi.org/10.1126/sciadv.aeg8394",
+      "source_url": "https://doi.org/10.25781/kaust-ip46p",
       "status": "not_available",
       "text_persisted": false
     }
@@ -73,84 +71,82 @@
   "output_language": "zh-CN",
   "prepared_request_count": 1,
   "provider": "deepseek",
-  "queue_sha256": "a76dc1f95216a14b22d1ddb63096b6e32ae3b1f53772df6ec25dd69e7212260c",
+  "queue_sha256": "6895f584d71c80a7d2b5fc421e1123f3a434db0277ea3364e96e1a48b508f5cc",
   "request_count": 1,
-  "request_file": "runtime-state/data/summary_requests/2026-09-18.jsonl",
-  "request_sha256": "6ff69355ff12b251b4727d8cc659adc16796e8da9dad2e152264d4001d22a5b8",
+  "request_file": "runtime-state/data/summary_requests/2026-09-19.jsonl",
+  "request_sha256": "e801bf1feae8d9e4368dff8a4f3d5d96b7145693ed9d2dcb61156fb39d0acdf0",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "ac95238d71271fbdd4b05a5552767caceac2f30f9391ff7fe82387f3c09005a0",
+  "selection_manifest_sha256": "dea0bd7d8188a976435fde5c251773ef0817734e7c36d27a330d711e91db34e7",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
   "source_queue_candidate_count": 1,
   "stage_timings": {
-    "full_text_preparation_seconds": 1.032,
+    "full_text_preparation_seconds": 30.986,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "557b41cb542bf10e84da81f2",
-        "elapsed_seconds": 14.45,
+        "candidate_id": "1075bd8698bce3acb3ce9376",
+        "elapsed_seconds": 17.744,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1276,
+          "completion_tokens": 1499,
           "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1424,
-          "prompt_tokens": 3472,
-          "total_tokens": 4748
+          "prompt_cache_miss_tokens": 1605,
+          "prompt_tokens": 3653,
+          "total_tokens": 5152
         }
       }
     ],
-    "model_generation_and_validation_seconds": 14.465
+    "model_generation_and_validation_seconds": 17.759
   },
   "status": "completed_automatic",
   "summary_count": 1,
-  "summary_file": "runtime-state/data/summaries/2026-09-18.jsonl",
+  "summary_file": "runtime-state/data/summaries/2026-09-19.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
   "summary_slot_count": 1,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "557b41cb542bf10e84da81f2": {
+      "1075bd8698bce3acb3ce9376": {
         "free_space_evidence": [],
-        "integrated_evidence": [
-          "We present a chip-scale microwave diffractive neural network (MDNN) fabricated in a GaAs semiconductor process, integrating cascaded couplers and phase shifters to implement a diffraction network within a millimeter-scale footprint."
-        ],
-        "model_value": "integrated",
+        "integrated_evidence": [],
+        "model_value": null,
         "repaired": false,
-        "resolved_type": "integrated"
+        "resolved_type": "unclear"
       }
     },
     "architecture_repairs": 0,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "557b41cb542bf10e84da81f2": {
+      "1075bd8698bce3acb3ce9376": {
         "abstract_available": true,
         "attempt_count": 3,
-        "candidate_id": "557b41cb542bf10e84da81f2",
+        "candidate_id": "1075bd8698bce3acb3ce9376",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 1.028,
-        "error": "https://doi.org/10.1126/sciadv.aeg8394: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "elapsed_seconds": 30.983,
+        "error": "https://doi.org/10.25781/kaust-ip46p: TimeoutError: The read operation timed out; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": null,
         "section_headings": [],
-        "source_url": "https://doi.org/10.1126/sciadv.aeg8394",
+        "source_url": "https://doi.org/10.25781/kaust-ip46p",
         "status": "not_available",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 2,
+    "generation_metadata_repair_responses": 1,
     "numeric_grounding_repair_responses": 0,
     "numeric_grounding_repairs": {},
     "tops_alias_expansions": 0,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 1276,
+    "completion_tokens": 1499,
     "prompt_cache_hit_tokens": 2048,
-    "prompt_cache_miss_tokens": 1424,
-    "prompt_tokens": 3472,
-    "total_tokens": 4748
+    "prompt_cache_miss_tokens": 1605,
+    "prompt_tokens": 3653,
+    "total_tokens": 5152
   }
 }

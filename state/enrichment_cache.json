@@ -3882,6 +3882,60 @@
       "retrieved_at": "2026-08-18T04:25:29.386593Z",
       "status": "found"
     },
+    "crossref:doi:10.1126/sciadv.aeb3077": {
+      "expires_at": "2026-10-19T01:00:52.556548Z",
+      "record": {
+        "abstract": "Over the past decade, deep learning has led to disruptive advancements with key applications in computer vision, natural language processing, and predictive analytics. With the increasing prevalence and adoption of deep learning algorithms, the quest for hardware solutions that can efficiently process data in real time with high speeds and low latencies has come to the forefront of research. On-chip photonic neural networks offer a promising platform that leverage high bandwidths and low propagation losses associated with light to perform analog deep learning computations. However, nanophotonic circuits are yet to achieve the required linear and nonlinear operations simultaneously in an all-optical and ultrafast fashion. Here, we report a high-speed photonic integrated circuit (PIC)–based reservoir computer using an optical parametric oscillator (OPO) fabricated on thin-film lithium niobate. We apply the PIC-based OPO computing system for a variety of benchmark tasks including chaotic time series prediction, nonlinear error correction in a noisy communication channel, and noisy waveform classification, achieving >93% accuracies at an operating clock rate of ∼10 gigahertz in all cases. Our OPO network can allow for subnanosecond latencies when implemented in an end-to-end all-optical fashion, a timescale that is shorter than a single clock cycle in state-of-the-art digital electronic processors. By circumventing the need for optical-electronic-optical conversions, our high-speed PIC-based reservoir system paves the way for the next generation of compact, energy-efficient, all-optical neural networks with ultralow latencies.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Midya Parto",
+            "orcid": "https://orcid.org/0000-0003-2100-5671"
+          },
+          {
+            "name": "Gordon H. Y. Li",
+            "orcid": "https://orcid.org/0000-0001-8184-4915"
+          },
+          {
+            "name": "Ryoto Sekine",
+            "orcid": "https://orcid.org/0000-0001-6135-8581"
+          },
+          {
+            "name": "Robert M. Gray",
+            "orcid": "https://orcid.org/0000-0001-5980-8774"
+          },
+          {
+            "name": "Luis L. Ledezma",
+            "orcid": "https://orcid.org/0000-0002-0365-1672"
+          },
+          {
+            "name": "James Williams",
+            "orcid": "https://orcid.org/0000-0001-9073-5745"
+          },
+          {
+            "name": "Arkadev Roy",
+            "orcid": "https://orcid.org/0000-0001-5659-8388"
+          },
+          {
+            "name": "Alireza Marandi",
+            "orcid": "https://orcid.org/0000-0002-0470-0050"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1126/sciadv.aeb3077",
+        "landing_page": "https://doi.org/10.1126/sciadv.aeb3077",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1126/sciadv.aeb3077",
+        "publication_date": "2026-09-18",
+        "title": "High-speed reservoir computing using photonic integrated circuit optical parametric oscillators",
+        "venue": "Science Advances",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-19T01:00:52.556548Z",
+      "status": "found"
+    },
     "crossref:doi:10.1126/sciadv.aee9649": {
       "expires_at": "2026-09-21T00:32:14.709412Z",
       "record": {
@@ -5068,6 +5122,12 @@
       "retrieved_at": "2026-08-18T04:25:33.986502Z",
       "status": "found"
     },
+    "crossref:doi:10.25781/kaust-ip46p": {
+      "expires_at": "2026-10-19T01:00:50.469084Z",
+      "record": null,
+      "retrieved_at": "2026-09-19T01:00:50.469084Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.29026/oes.2026.260038": {
       "expires_at": "2026-10-01T01:13:13.074384Z",
       "record": {
@@ -5152,6 +5212,12 @@
       "expires_at": "2026-10-11T01:00:16.455824Z",
       "record": null,
       "retrieved_at": "2026-09-11T01:00:16.455824Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.48550/arxiv.2609.19144": {
+      "expires_at": "2026-10-19T01:00:51.924002Z",
+      "record": null,
+      "retrieved_at": "2026-09-19T01:00:51.924002Z",
       "status": "not_found"
     },
     "crossref:doi:10.5281/zenodo.21885998": {
@@ -5346,6 +5412,12 @@
       "expires_at": "2026-08-16T00:36:04.812147Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:36:04.812147Z",
+      "status": "not_found"
+    },
+    "crossref:title:10f4cc4884f3dc389d3745fdc5cf7e1d19bd6f20cb873d5d089eab437d5eb5a7": {
+      "expires_at": "2026-09-26T01:00:53.371105Z",
+      "record": null,
+      "retrieved_at": "2026-09-19T01:00:53.371105Z",
       "status": "not_found"
     },
     "crossref:title:1123620d5d5cb7d293ab7f67781a69c02946c54c47b3aeb28b88a1538c293468": {
@@ -5720,6 +5792,40 @@
       "retrieved_at": "2026-08-18T04:25:16.791069Z",
       "status": "found"
     },
+    "crossref:title:23c125f8574a076488b3ce404f450ae16ce4dfe1130454a942ca4aa22b802ee6": {
+      "expires_at": "2026-09-26T01:00:49.879633Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Avinas Meghwar",
+            "orcid": null
+          },
+          {
+            "name": "Mahesh Kumar Harijan",
+            "orcid": null
+          },
+          {
+            "name": "Syed Rizwan Hassan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optcom.2026.133765",
+        "landing_page": "https://doi.org/10.1016/j.optcom.2026.133765",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.optcom.2026.133765",
+        "publication_date": "2026-09",
+        "title": "Adaptive Amplitude-Phase Encoding and Physically Constrained Optimization for High-Performance Photonic Machine Learning",
+        "venue": "Optics Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-19T01:00:49.879633Z",
+      "status": "found"
+    },
     "crossref:title:249de29380f61cbfa04e045bb6ff4ca3e6b09932fa43c62ead34e26d394beb77": {
       "expires_at": "2026-08-27T00:32:29.038187Z",
       "record": null,
@@ -5939,6 +6045,32 @@
       "record": null,
       "retrieved_at": "2026-09-15T01:03:25.776696Z",
       "status": "not_found"
+    },
+    "crossref:title:3cd4efa766fe3d2eb40269b32ae4352279e34696540f4e3b6ff99f2d4d496861": {
+      "expires_at": "2026-09-26T01:00:51.361921Z",
+      "record": {
+        "abstract": "Abstract Fault diagnosis is essential in various engineering fields, including mechanical, electrical, and military systems. Analog circuits are fundamental components of nearly every engineering solution. A well-designed diagnostic process can enhance equipment performance, reduce the risk of failure, shorten service times, and ensure safe operation. The paper concerns soft-fault diagnosis in analog electronic circuits. It proposes an original method for identifying multiple faults in the time domain. The approach avoids the time-consuming sensitivity analyses typically required by multiple fault identification procedures. Combining the concept of deflation with the Nelder-Mead algorithm enables the identification of distinct sets of components, as well as multiple parameter values within each set that meet the diagnostic test. Numerous simulations and laboratory tests confirm the method’s effectiveness. The paper includes representative results of these tests. The technique, after modification, can also be used to diagnose nonlinear circuits and can act as an auxiliary tool in circuit synthesis and design for testability.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Stanisław Hałgas",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-71497-z",
+        "landing_page": "https://doi.org/10.1038/s41598-026-71497-z",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41598-026-71497-z",
+        "publication_date": "2026-09-15",
+        "title": "Gradient-free method for multiple soft-fault diagnosis in linear analog circuits",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-19T01:00:51.361921Z",
+      "status": "found"
     },
     "crossref:title:3e2b531b19fc58e53e14b3b0dc7ac6fe9630b966c7276851ab79763507eac8bf": {
       "expires_at": "2026-09-25T01:02:27.374310Z",
@@ -11136,6 +11268,40 @@
       "retrieved_at": "2026-09-15T01:03:33.505145Z",
       "status": "found"
     },
+    "openalex:doi:10.1016/j.optcom.2026.133765": {
+      "expires_at": "2026-10-19T01:00:50.209071Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Avinas Meghwar",
+            "orcid": null
+          },
+          {
+            "name": "Mahesh Kumar Harijan",
+            "orcid": null
+          },
+          {
+            "name": "Syed Rizwan Hassan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optcom.2026.133765",
+        "landing_page": "https://doi.org/10.1016/j.optcom.2026.133765",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7213224582",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213224582",
+        "publication_date": "2026-09-01",
+        "title": "Adaptive Amplitude-Phase Encoding and Physically Constrained Optimization for High-Performance Photonic Machine Learning",
+        "venue": "Optics Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-19T01:00:50.209071Z",
+      "status": "found"
+    },
     "openalex:doi:10.1016/j.optlastec.2026.116154": {
       "expires_at": "2026-09-17T04:25:34.997756Z",
       "record": {
@@ -12522,6 +12688,32 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-07T01:06:51.370789Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41598-026-71497-z": {
+      "expires_at": "2026-10-19T01:00:51.676507Z",
+      "record": {
+        "abstract": "Abstract Fault diagnosis is essential in various engineering fields, including mechanical, electrical, and military systems. Analog circuits are fundamental components of nearly every engineering solution. A well-designed diagnostic process can enhance equipment performance, reduce the risk of failure, shorten service times, and ensure safe operation. The paper concerns soft-fault diagnosis in analog electronic circuits. It proposes an original method for identifying multiple faults in the time domain. The approach avoids the time-consuming sensitivity analyses typically required by multiple fault identification procedures. Combining the concept of deflation with the Nelder-Mead algorithm enables the identification of distinct sets of components, as well as multiple parameter values within each set that meet the diagnostic test. Numerous simulations and laboratory tests confirm the method’s effectiveness. The paper includes representative results of these tests. The technique, after modification, can also be used to diagnose nonlinear circuits and can act as an auxiliary tool in circuit synthesis and design for testability.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Stanisław Hałgas",
+            "orcid": "https://orcid.org/0000-0003-3957-3853"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-71497-z",
+        "landing_page": "https://doi.org/10.1038/s41598-026-71497-z",
+        "open_access_url": "https://doi.org/10.1038/s41598-026-71497-z",
+        "openalex_id": "https://openalex.org/W7213298753",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213298753",
+        "publication_date": "2026-09-15",
+        "title": "Gradient-free method for multiple soft-fault diagnosis in linear analog circuits",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-19T01:00:51.676507Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s42005-026-02823-0": {
@@ -14496,6 +14688,60 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:29.716556Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1126/sciadv.aeb3077": {
+      "expires_at": "2026-10-19T01:00:52.897047Z",
+      "record": {
+        "abstract": "Over the past decade, deep learning has led to disruptive advancements with key applications in computer vision, natural language processing, and predictive analytics. With the increasing prevalence and adoption of deep learning algorithms, the quest for hardware solutions that can efficiently process data in real time with high speeds and low latencies has come to the forefront of research. On-chip photonic neural networks offer a promising platform that leverage high bandwidths and low propagation losses associated with light to perform analog deep learning computations. However, nanophotonic circuits are yet to achieve the required linear and nonlinear operations simultaneously in an all-optical and ultrafast fashion. Here, we report a high-speed photonic integrated circuit (PIC)–based reservoir computer using an optical parametric oscillator (OPO) fabricated on thin-film lithium niobate. We apply the PIC-based OPO computing system for a variety of benchmark tasks including chaotic time series prediction, nonlinear error correction in a noisy communication channel, and noisy waveform classification, achieving >93% accuracies at an operating clock rate of ∼10 gigahertz in all cases. Our OPO network can allow for subnanosecond latencies when implemented in an end-to-end all-optical fashion, a timescale that is shorter than a single clock cycle in state-of-the-art digital electronic processors. By circumventing the need for optical-electronic-optical conversions, our high-speed PIC-based reservoir system paves the way for the next generation of compact, energy-efficient, all-optical neural networks with ultralow latencies.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Midya Parto",
+            "orcid": "https://orcid.org/0000-0003-2100-5671"
+          },
+          {
+            "name": "Gordon H.Y. Li",
+            "orcid": "https://orcid.org/0000-0001-8184-4915"
+          },
+          {
+            "name": "Ryoto Sekine",
+            "orcid": "https://orcid.org/0000-0001-6135-8581"
+          },
+          {
+            "name": "Robert M. Gray",
+            "orcid": "https://orcid.org/0000-0001-5980-8774"
+          },
+          {
+            "name": "Luis Ledezma",
+            "orcid": "https://orcid.org/0000-0002-0365-1672"
+          },
+          {
+            "name": "James Williams",
+            "orcid": "https://orcid.org/0000-0001-9073-5745"
+          },
+          {
+            "name": "Arkadev Roy",
+            "orcid": "https://orcid.org/0000-0001-5659-8388"
+          },
+          {
+            "name": "Alireza Marandi",
+            "orcid": "https://orcid.org/0000-0002-0470-0050"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1126/sciadv.aeb3077",
+        "landing_page": "https://doi.org/10.1126/sciadv.aeb3077",
+        "open_access_url": "https://doi.org/10.1126/sciadv.aeb3077",
+        "openalex_id": "https://openalex.org/W7213547488",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213547488",
+        "publication_date": "2026-09-18",
+        "title": "High-speed reservoir computing using photonic integrated circuit optical parametric oscillators",
+        "venue": "Science Advances",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-19T01:00:52.897047Z",
       "status": "found"
     },
     "openalex:doi:10.1126/sciadv.aee9649": {
@@ -16508,6 +16754,32 @@
       "retrieved_at": "2026-08-18T04:25:34.320477Z",
       "status": "found"
     },
+    "openalex:doi:10.25781/kaust-ip46p": {
+      "expires_at": "2026-10-19T01:00:50.811385Z",
+      "record": {
+        "abstract": "Large language model training systems are highly optimized for first-order, element-wise optimizers such as AdamW. This design point has enabled large models to scale, but it also embeds a narrow execution contract: gradients are materialized by backpropagation, batch gradients may be aggregated before the optimizer step, optimizer states can be flattened and sharded, and each shard can often be updated independently. This dissertation argues that a growing class of advanced training methods breaks that contract. Zeroth-order fine-tuning estimates update directions through forward-only loss evaluations; differentially private training requires per-sample clipping before aggregation and calibrated noise on the aggregate; and matrix-based optimizers such as Muon, Shampoo, and SOAP require holistic matrix or tensor updates that conflict with distributed sharding. The thesis develops an optimizer-aware systems view in which these methods are treated as structured computations with algorithmic invariants, memory behavior, communication objects, and scheduling constraints. Four systems instantiate this view. ZO2 makes full-parameter zeroth-order fine-tuning memory-feasible by combining CPU--GPU offloading with perturbation-consistent execution, dynamic scheduling, reusable memory, and AMP-aware transfer. DistZO2 extends ZO2 to distributed execution by introducing perturbation parallelism, scalar-gradient data parallelism, two-dimensional parallelism, and topology-aware communication. FlashDP preserves per-layer DP-SGD semantics while reformulating per-sample gradient processing as a fused, cache-friendly GPU dataflow. Canzona generalizes the thesis to distributed matrix-based optimizers by decoupling logical optimizer ownership from physical parameter distribution and by scheduling atomic optimizer tasks with load balance and asynchronous execution. Across these systems, the dissertation shows that advanced LLM optimizers can be made practical at scale when systems preserve algorithmic faithfulness while reorganizing memory placement, communication, scheduling, and parallel execution. The broader contribution is a framework for designing LLM training systems in which optimizer semantics are visible to the runtime rather than hidden behind a fixed AdamW-like training loop.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Liangyu Wang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.25781/kaust-ip46p",
+        "landing_page": "https://doi.org/10.25781/kaust-ip46p",
+        "open_access_url": "https://doi.org/10.25781/kaust-ip46p",
+        "openalex_id": "https://openalex.org/W7213514781",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213514781",
+        "publication_date": "2026-09-17",
+        "title": "Algorithmically Faithful and System-Efficient Optimization for Large Language Models",
+        "venue": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-19T01:00:50.811385Z",
+      "status": "found"
+    },
     "openalex:doi:10.29026/oes.2026.260038": {
       "expires_at": "2026-10-01T01:13:13.394348Z",
       "record": {
@@ -16948,6 +17220,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-11T01:00:16.845735Z",
+      "status": "found"
+    },
+    "openalex:doi:10.48550/arxiv.2609.19144": {
+      "expires_at": "2026-10-19T01:00:52.252351Z",
+      "record": {
+        "abstract": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency. However, likelihood displacement motivates alternative ways to extract information from preference pairs with small likelihood margins. In this paper, we propose and analyze Comparison-based Preference Optimization (ComPO), a zeroth-order alignment method based on comparison oracles. ComPO extracts directional information from these pairs without directly optimizing a differentiable preference loss on them. We establish a convergence guarantee for its basic offline scheme under smoothness, gradient sparsity, and compatibility between the oracle and a latent objective. We further introduce online ComPO, which retains the offline comparison mechanism and uses unlabeled policy generations for reverse-KL control relative to a reference policy. Following the coverage perspective of preference fine-tuning, we establish a performance guarantee for a basic constrained scheme under local coverage and in-distribution pairwise reward accuracy. Experiments on Mistral, Llama, Gemma-2, Qwen3, and Gemma-3 models demonstrate improvements over existing direct alignment methods, including length-controlled win rates, with pair-level diagnostics providing evidence consistent with mitigating likelihood displacement.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Peter Yichen Chen",
+            "orcid": null
+          },
+          {
+            "name": "Xi Chen",
+            "orcid": null
+          },
+          {
+            "name": "Wotao Yin",
+            "orcid": null
+          },
+          {
+            "name": "Tianyi Lin",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.19144",
+        "landing_page": "https://doi.org/10.48550/arxiv.2609.19144",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2609.19144",
+        "openalex_id": "https://openalex.org/W7213531526",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213531526",
+        "publication_date": "2026-09-16",
+        "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-19T01:00:52.252351Z",
       "status": "found"
     },
     "openalex:doi:10.5281/zenodo.21885998": {
@@ -17454,6 +17764,12 @@
       "expires_at": "2026-08-16T00:36:05.489666Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:36:05.489666Z",
+      "status": "not_found"
+    },
+    "openalex:title:10f4cc4884f3dc389d3745fdc5cf7e1d19bd6f20cb873d5d089eab437d5eb5a7": {
+      "expires_at": "2026-09-26T01:00:54.662561Z",
+      "record": null,
+      "retrieved_at": "2026-09-19T01:00:54.662561Z",
       "status": "not_found"
     },
     "openalex:title:141a8841dc5bc51fbfd2e870ca1d2b69ffde28d0612acd4250b29c2c16938ee7": {

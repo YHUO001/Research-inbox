@@ -55,6 +55,15 @@
       "summary_record_sha256": "5c7b68b8b46104f05f87edb4583e77cc99dcd7efc4d7fd1354ee75ed2270cedf",
       "title": "Scalable Back-Propagation-Free Training of Optical Physics-Informed Neural Networks"
     },
+    "1075bd8698bce3acb3ce9376": {
+      "digest_date": "2026-09-19",
+      "doi": "10.25781/kaust-ip46p",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "01c13d8d6a66c9f3165886a4212a8013555a6c40d55a1ab2fe5f6043a664dc29",
+      "title": "Algorithmically Faithful and System-Efficient Optimization for Large Language Models"
+    },
     "142dc76f41fc25448b82c91e": {
       "digest_date": "2026-08-07",
       "doi": "10.48550/arxiv.2608.03277",
@@ -616,6 +625,9 @@
     ],
     "2026-09-18": [
       "557b41cb542bf10e84da81f2"
+    ],
+    "2026-09-19": [
+      "1075bd8698bce3acb3ce9376"
     ]
   },
   "by_doi": {
@@ -660,6 +672,7 @@
     "10.14288/1.0455632": "9322fad036b3d7fc8e3dd47b",
     "10.21203/rs.3.rs-10187577/v1": "1e35265ce8678ca96adb8b93",
     "10.21203/rs.3.rs-10794538/v1": "79855d774b83ef6c7c8a8a47",
+    "10.25781/kaust-ip46p": "1075bd8698bce3acb3ce9376",
     "10.48550/arxiv.2608.03277": "142dc76f41fc25448b82c91e",
     "10.48550/arxiv.2608.08060": "2f9953028e4e0e3b934222c8",
     "10.48550/arxiv.2608.12300": "0cbf41592278a3ad1b89e219",
@@ -723,6 +736,7 @@
     ],
     "zeroth-order-optimization": [
       "0e5c75b6132afcfb1f7afb17",
+      "1075bd8698bce3acb3ce9376",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
@@ -1139,6 +1153,7 @@
     ],
     "project:zeroth-order-optimization": [
       "0e5c75b6132afcfb1f7afb17",
+      "1075bd8698bce3acb3ce9376",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
@@ -1155,6 +1170,7 @@
     ],
     "zo:forward_only": [
       "0e5c75b6132afcfb1f7afb17",
+      "1075bd8698bce3acb3ce9376",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
@@ -1171,6 +1187,7 @@
     ],
     "zo:low_rank_or_subspace": [
       "0e5c75b6132afcfb1f7afb17",
+      "1075bd8698bce3acb3ce9376",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
@@ -1187,6 +1204,7 @@
     ],
     "zo:query_reuse": [
       "0e5c75b6132afcfb1f7afb17",
+      "1075bd8698bce3acb3ce9376",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
@@ -1202,6 +1220,7 @@
     ],
     "zo:structured_perturbation": [
       "0e5c75b6132afcfb1f7afb17",
+      "1075bd8698bce3acb3ce9376",
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
@@ -1264,6 +1283,9 @@
     ],
     "Journal of Scientific Computing": [
       "7719ae17086cb97168bebbc5"
+    ],
+    "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)": [
+      "1075bd8698bce3acb3ce9376"
     ],
     "Laser &amp; Photonics Reviews": [
       "15e7193239d6058f661ff180"
@@ -1352,6 +1374,7 @@
       "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
+      "1075bd8698bce3acb3ce9376",
       "142dc76f41fc25448b82c91e",
       "15e7193239d6058f661ff180",
       "172a6e3e7b78c39c328487a6",
@@ -1404,7 +1427,7 @@
       "fd6f281418ac4d412744b2ac"
     ]
   },
-  "paper_count": 56,
+  "paper_count": 57,
   "schema_version": 1,
-  "updated_at": "2026-09-18T01:02:54.942532Z"
+  "updated_at": "2026-09-19T01:01:46.293018Z"
 }

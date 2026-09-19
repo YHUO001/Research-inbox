@@ -1,7 +1,7 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`56`
-- 更新时间：`2026-09-18T01:02:54.942532Z`
+- 论文数：`57`
+- 更新时间：`2026-09-19T01:01:46.293018Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
@@ -355,6 +355,14 @@ Perception
 - 标签：application:分布式声学传感（das）, application:图像分类（cifar-10、fashion-mnist、mnist）, application:语音识别（fsdd）, architecture:integrated, hardware_validation:mixed, project:optical-neural-networks
 
 ## zeroth-order-optimization
+
+### Algorithmically Faithful and System-Efficient Optimization for Large Language Models
+
+- DOI/链接：[10.25781/kaust-ip46p](https://doi.org/10.25781/kaust-ip46p)
+- 期刊/年份：King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)，2026
+- 摘要日期：`2026-09-19`
+- 候选 ID：`1075bd8698bce3acb3ce9376`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
 
 ### EGGROLL, Unrolled: Understanding and Improving Low-Rank Evolution Strategies at Scale
 
