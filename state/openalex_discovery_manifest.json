@@ -1,25 +1,21 @@
 {
-  "accepted_candidate_ids": [
-    "1075bd8698bce3acb3ce9376",
-    "e110c2cacb2d55dbb9b4d010",
-    "e65bb69fb1aeea4fb86ced76"
-  ],
-  "accepted_count": 3,
-  "built_at": "2026-09-19T01:00:29.511930Z",
+  "accepted_candidate_ids": [],
+  "accepted_count": 0,
+  "built_at": "2026-09-20T01:07:43.926605Z",
   "discovery_version": 1,
-  "duplicate_count": 5,
+  "duplicate_count": 6,
   "duplicate_reasons": {
-    "openalex_work_id": 5
+    "openalex_work_id": 6
   },
-  "filtered_count": 66,
+  "filtered_count": 61,
   "invalid_count": 0,
   "query_error_count": 0,
   "query_summaries": [
     {
-      "accepted": 1,
+      "accepted": 0,
       "duplicates": 1,
       "error": null,
-      "filtered": 8,
+      "filtered": 9,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "optical-neural-network",
@@ -79,38 +75,38 @@
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 6,
-      "invalid": 0,
-      "project_id": "zeroth-order-optimization",
-      "query_id": "zeroth-order-neural-network",
-      "raw_results": 6
-    },
-    {
-      "accepted": 2,
-      "duplicates": 1,
-      "error": null,
       "filtered": 4,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
+      "query_id": "zeroth-order-neural-network",
+      "raw_results": 4
+    },
+    {
+      "accepted": 0,
+      "duplicates": 2,
+      "error": null,
+      "filtered": 1,
+      "invalid": 0,
+      "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-llm",
-      "raw_results": 7
+      "raw_results": 3
     },
     {
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 1,
+      "filtered": 0,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-optical",
-      "raw_results": 1
+      "raw_results": 0
     }
   ],
-  "raw_result_count": 74,
+  "raw_result_count": 67,
   "registry_candidate_count": 336,
   "registry_sha256": "89af07de2f8e993c3065ed852a14a7aba41ef3a98c3d786955dffcfc31e94766",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-09-19",
-  "window_start": "2026-09-15"
+  "window_end": "2026-09-20",
+  "window_start": "2026-09-16"
 }
