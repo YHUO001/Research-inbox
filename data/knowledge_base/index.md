@@ -1,10 +1,26 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`57`
-- 更新时间：`2026-09-19T01:01:46.293018Z`
+- 论文数：`59`
+- 更新时间：`2026-09-21T01:08:16.951177Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Sunset of Silicon: When Light Learns to Think The Dawn of Neuromorphic Photonic Computing
+
+- DOI/链接：[10.5281/zenodo.22849810](https://doi.org/10.5281/zenodo.22849810)
+- 期刊/年份：Zenodo (CERN European Organization for Nuclear Research)，2026
+- 摘要日期：`2026-09-21`
+- 候选 ID：`4b1739e45289d2156d3b1ed3`
+- 标签：application:local ai inference, architecture:unclear, project:optical-neural-networks
+
+### Optical diffractive layers 3D-integrated on a silicon photonic chip for high-density optical neural networks
+
+- DOI/链接：[10.1364/prj.591330](https://doi.org/10.1364/prj.591330)
+- 期刊/年份：Photonics Research，2026
+- 摘要日期：`2026-09-21`
+- 候选 ID：`a15033db64285e5d4c8a46c9`
+- 标签：application:image edge extraction, application:pattern recognition, architecture:free_space, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Microwave diffractive neural network chips for sensing and computing
 

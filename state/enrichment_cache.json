@@ -876,6 +876,52 @@
       "retrieved_at": "2026-09-17T01:02:51.663469Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/lpor.71919": {
+      "expires_at": "2026-10-21T01:07:33.423027Z",
+      "record": {
+        "abstract": "ABSTRACT All‐optical diffractive deep neural networks (D 2 NNs) are developed as the most important architecture for all‐optical intelligent computing, owing to their low power consumption and parallel processing at the speed of light. Currently, a significant challenge in D 2 NNs is exploring new degrees of freedom to expand channel capacity between multiple diffractive layers. Here, we propose a sequenceable scheme by reconfiguring the stacking sequence and interlayer distance to enable high‐capacity processing capability. Experimentally, we have simultaneously achieved 6 classifiers and 6 trigonometric calculators by exchanging the spatial sequence and interlayer distance among the same three‐layer metasurfaces. Moreover, we demonstrate a high‐security information transmission framework using image transformation and a shifting operation. To improve the robustness, we design the polarization‐insensitive metasurfaces to break the barrier of polarization‐dependent multi‐task diffractive processing. The demonstrated phenomena showcase polarization‐insensitive properties, excellent flexibility, and robustness, which provide a paradigm for next‐generation multi‐functional, high‐capacity all‐optical computing and versatile applications.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jian Xiong",
+            "orcid": null
+          },
+          {
+            "name": "Zhiyu Tan",
+            "orcid": "https://orcid.org/0009-0000-7972-8069"
+          },
+          {
+            "name": "Xiaofei Zang",
+            "orcid": "https://orcid.org/0000-0001-8557-895X"
+          },
+          {
+            "name": "Alexander P. Shkurinov",
+            "orcid": "https://orcid.org/0000-0002-6309-4732"
+          },
+          {
+            "name": "Yiming Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Songlin Zhuang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71919",
+        "landing_page": "https://doi.org/10.1002/lpor.71919",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.71919",
+        "publication_date": "2026-09-18",
+        "title": "Cascaded Metasurfaces Enabled Sequencable Diffractive Processor for Multi‐Task Processing and Encryption",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-21T01:07:33.423027Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/mats.70059": {
       "expires_at": "2026-10-17T01:02:53.132433Z",
       "record": {
@@ -1220,6 +1266,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-25T00:32:20.466121Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/978-3-032-36214-8_20": {
+      "expires_at": "2026-10-21T01:07:17.356402Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Li Li",
+            "orcid": null
+          },
+          {
+            "name": "Xun Nie",
+            "orcid": null
+          },
+          {
+            "name": "Liang Chang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-3-032-36214-8_20",
+        "landing_page": "https://doi.org/10.1007/978-3-032-36214-8_20",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/978-3-032-36214-8_20",
+        "publication_date": "2027",
+        "title": "Evolutionary Latent Space Search for Real-Time Dynamic Vehicle Routing Under Demand and Traffic Uncertainty",
+        "venue": "Lecture Notes in Computer Science",
+        "year": 2027
+      },
+      "retrieved_at": "2026-09-21T01:07:17.356402Z",
       "status": "found"
     },
     "crossref:doi:10.1007/s00158-026-04411-w": {
@@ -5232,6 +5312,12 @@
       "retrieved_at": "2026-08-30T01:05:16.758744Z",
       "status": "not_found"
     },
+    "crossref:doi:10.5281/zenodo.22849810": {
+      "expires_at": "2026-10-21T01:07:28.219632Z",
+      "record": null,
+      "retrieved_at": "2026-09-21T01:07:28.219632Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.6084/m9.figshare.33306492.v1": {
       "expires_at": "2026-10-11T01:00:17.087901Z",
       "record": null,
@@ -5364,6 +5450,56 @@
       "retrieved_at": "2026-09-18T01:02:21.025212Z",
       "status": "not_found"
     },
+    "crossref:title:06693e531997c12223d3bf4aeefb09d84bfa52f942f5ff9011fda630169008e4": {
+      "expires_at": "2026-09-28T01:07:32.848362Z",
+      "record": {
+        "abstract": "Optical neural networks (ONNs) have garnered significant interest for their potential to deliver ultra-high computational bandwidth and energy efficiency. Current ONN implementations mainly fall into two categories: integrated photonic neural networks (IPNNs) and free-space diffractive optical neural networks (DONNs). However, IPNNs face challenges in network scalability due to their physical footprints and accumulated losses. DONNs offer high neuron density and spatial parallelism, but possess poor reconfigurability after fabrication. In this work, we propose, to our knowledge, a novel “2D + 3D” hybrid integrated optical neural network (HIONN) architecture that monolithically integrates a 3D optical diffractive layer onto 2D photonic chips via two-photon nanolithography. An array of vertical grating couplers facilitates the optical interconnection between the planar waveguides and 3D free space. This architecture combines the potential programmability and high-speed operation of PICs with the massive parallelism and density of 3D diffractive networks, thereby overcoming the intrinsic limitations of each implementation. As a proof of concept, we experimentally demonstrate the HIONN with a neuron density of 2.5×10 5 neurons/ mm 2 through a pattern recognition task and numerically evaluate its image edge-extraction capability. The proposed HIONN provides a proof-of-concept route toward high-density hybrid integrated optical neural networks and motivates future work on complex and high-throughput optical computing tasks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Weihong Shen",
+            "orcid": "https://orcid.org/0000-0001-9949-7843"
+          },
+          {
+            "name": "Tingting Ni",
+            "orcid": null
+          },
+          {
+            "name": "Chao Meng",
+            "orcid": null
+          },
+          {
+            "name": "Haoyi Yu",
+            "orcid": "https://orcid.org/0000-0002-9480-8443"
+          },
+          {
+            "name": "Ruojing Ren",
+            "orcid": null
+          },
+          {
+            "name": "Min Gu",
+            "orcid": null
+          },
+          {
+            "name": "Qiming Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/prj.591330",
+        "landing_page": "https://doi.org/10.1364/prj.591330",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/prj.591330",
+        "publication_date": "2026-10-01",
+        "title": "Optical diffractive layers 3D-integrated on a silicon photonic chip for high-density optical neural networks",
+        "venue": "Photonics Research",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-21T01:07:32.848362Z",
+      "status": "found"
+    },
     "crossref:title:06c1573614d7cec8aafdeabdbf04c206c9e42daeec19bd7a0690045235f26758": {
       "expires_at": "2026-09-07T01:07:10.369066Z",
       "record": null,
@@ -5462,6 +5598,12 @@
       "expires_at": "2026-09-12T00:59:51.415911Z",
       "record": null,
       "retrieved_at": "2026-09-05T00:59:51.415911Z",
+      "status": "not_found"
+    },
+    "crossref:title:1489e70387a036b1e80958c46673cee873cec79bef3ba6a11cee31c0fa9d2cc2": {
+      "expires_at": "2026-09-28T01:07:30.619619Z",
+      "record": null,
+      "retrieved_at": "2026-09-21T01:07:30.619619Z",
       "status": "not_found"
     },
     "crossref:title:162e79b8034d15e0d018d25c22458bb6a70db891208b379c51b0b58a2ff57d76": {
@@ -5972,6 +6114,12 @@
       "retrieved_at": "2026-09-05T00:59:50.332909Z",
       "status": "not_found"
     },
+    "crossref:title:35dcdeea7b0e119ada24395175dddcae68596ac8dec0b6c5901290ca183cdf72": {
+      "expires_at": "2026-09-28T01:07:20.706813Z",
+      "record": null,
+      "retrieved_at": "2026-09-21T01:07:20.706813Z",
+      "status": "not_found"
+    },
     "crossref:title:396433acbcc3f91784f5268f64740577bf2596dcfa06755340cef71a7f90d310": {
       "expires_at": "2026-08-16T00:35:59.056202Z",
       "record": null,
@@ -6386,6 +6534,12 @@
       "expires_at": "2026-09-25T01:02:16.510915Z",
       "record": null,
       "retrieved_at": "2026-09-18T01:02:16.510915Z",
+      "status": "not_found"
+    },
+    "crossref:title:4f0bf37aceffdafad0bcea16be93382890154f01e26a1ad923f9a10395eaeb84": {
+      "expires_at": "2026-09-28T01:07:24.517901Z",
+      "record": null,
+      "retrieved_at": "2026-09-21T01:07:24.517901Z",
       "status": "not_found"
     },
     "crossref:title:515316e23ebc42e941cd8b6423767ee9dacba9cc10cb175c2ece28292649cbd1": {
@@ -7300,6 +7454,12 @@
       "retrieved_at": "2026-09-13T01:07:21.975563Z",
       "status": "not_found"
     },
+    "crossref:title:9d1cb9f5525dfc581f0e06c569bdd41181249af33557504e1e909393c9908e4a": {
+      "expires_at": "2026-09-28T01:07:22.613232Z",
+      "record": null,
+      "retrieved_at": "2026-09-21T01:07:22.613232Z",
+      "status": "not_found"
+    },
     "crossref:title:9db74335bc487590184a65058a762fbe1c4c1a1f1e63d7599e22083b270f2a3e": {
       "expires_at": "2026-08-25T04:25:21.050819Z",
       "record": null,
@@ -7654,6 +7814,12 @@
       "expires_at": "2026-08-25T04:25:16.005752Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:16.005752Z",
+      "status": "not_found"
+    },
+    "crossref:title:acf775e7c098c902249cd2afe7ddbbadcb8277ba5cbe4a49144ba38c2c21d8d3": {
+      "expires_at": "2026-09-28T01:07:27.453877Z",
+      "record": null,
+      "retrieved_at": "2026-09-21T01:07:27.453877Z",
       "status": "not_found"
     },
     "crossref:title:ad97331ae96a489a96091f933d0848d757bc498b64bcb16dca45cbb33416a4a4": {
@@ -8032,6 +8198,12 @@
       "expires_at": "2026-08-25T04:25:25.323474Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:25.323474Z",
+      "status": "not_found"
+    },
+    "crossref:title:c5351f67ca839f2f9a54772562a1a4735b1e7c07f1352b3bef1fd13c6832bcaa": {
+      "expires_at": "2026-09-28T01:07:19.034550Z",
+      "record": null,
+      "retrieved_at": "2026-09-21T01:07:19.034550Z",
       "status": "not_found"
     },
     "crossref:title:c589e2ff55ba9c6453a6907721a353a7da7cf9fae6c154ecaab45f20a0ac16ef": {
@@ -9848,6 +10020,52 @@
       "retrieved_at": "2026-09-17T01:02:52.025129Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/lpor.71919": {
+      "expires_at": "2026-10-21T01:07:33.749262Z",
+      "record": {
+        "abstract": "ABSTRACT All‐optical diffractive deep neural networks (D 2 NNs) are developed as the most important architecture for all‐optical intelligent computing, owing to their low power consumption and parallel processing at the speed of light. Currently, a significant challenge in D 2 NNs is exploring new degrees of freedom to expand channel capacity between multiple diffractive layers. Here, we propose a sequenceable scheme by reconfiguring the stacking sequence and interlayer distance to enable high‐capacity processing capability. Experimentally, we have simultaneously achieved 6 classifiers and 6 trigonometric calculators by exchanging the spatial sequence and interlayer distance among the same three‐layer metasurfaces. Moreover, we demonstrate a high‐security information transmission framework using image transformation and a shifting operation. To improve the robustness, we design the polarization‐insensitive metasurfaces to break the barrier of polarization‐dependent multi‐task diffractive processing. The demonstrated phenomena showcase polarization‐insensitive properties, excellent flexibility, and robustness, which provide a paradigm for next‐generation multi‐functional, high‐capacity all‐optical computing and versatile applications.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jian Xiong",
+            "orcid": "https://orcid.org/0009-0002-2564-7217"
+          },
+          {
+            "name": "Zhiyu Tan",
+            "orcid": "https://orcid.org/0000-0002-4117-2525"
+          },
+          {
+            "name": "Xiaofei Zang",
+            "orcid": "https://orcid.org/0000-0001-8557-895X"
+          },
+          {
+            "name": "A. P. Shkurinov",
+            "orcid": "https://orcid.org/0000-0002-6309-4732"
+          },
+          {
+            "name": "Yiming Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Songlin Zhuang",
+            "orcid": "https://orcid.org/0000-0003-3072-0634"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71919",
+        "landing_page": "https://doi.org/10.1002/lpor.71919",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7213621348",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213621348",
+        "publication_date": "2026-09-18",
+        "title": "Cascaded Metasurfaces Enabled Sequencable Diffractive Processor for Multi‐Task Processing and Encryption",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-21T01:07:33.749262Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/mats.70059": {
       "expires_at": "2026-10-17T01:02:53.511204Z",
       "record": {
@@ -10234,6 +10452,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-10T00:36:49.495557Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/978-3-032-36214-8_20": {
+      "expires_at": "2026-10-21T01:07:17.707585Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Li Li",
+            "orcid": null
+          },
+          {
+            "name": "Xun Nie",
+            "orcid": null
+          },
+          {
+            "name": "Liang Chang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-3-032-36214-8_20",
+        "landing_page": "https://doi.org/10.1007/978-3-032-36214-8_20",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7204136505",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204136505",
+        "publication_date": "2026-08-24",
+        "title": "Evolutionary Latent Space Search for Real-Time Dynamic Vehicle Routing Under Demand and Traffic Uncertainty",
+        "venue": "Lecture notes in computer science",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-21T01:07:17.707585Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s00158-026-04411-w": {
@@ -16372,6 +16624,56 @@
       "retrieved_at": "2026-08-20T00:32:31.551627Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/prj.591330": {
+      "expires_at": "2026-10-21T01:07:33.178617Z",
+      "record": {
+        "abstract": "Optical neural networks (ONNs) have garnered significant interest for their potential to deliver ultra-high computational bandwidth and energy efficiency. Current ONN implementations mainly fall into two categories: integrated photonic neural networks (IPNNs) and free-space diffractive optical neural networks (DONNs). However, IPNNs face challenges in network scalability due to their physical footprints and accumulated losses. DONNs offer high neuron density and spatial parallelism, but possess poor reconfigurability after fabrication. In this work, we propose, to our knowledge, a novel “2D + 3D” hybrid integrated optical neural network (HIONN) architecture that monolithically integrates a 3D optical diffractive layer onto 2D photonic chips via two-photon nanolithography. An array of vertical grating couplers facilitates the optical interconnection between the planar waveguides and 3D free space. This architecture combines the potential programmability and high-speed operation of PICs with the massive parallelism and density of 3D diffractive networks, thereby overcoming the intrinsic limitations of each implementation. As a proof of concept, we experimentally demonstrate the HIONN with a neuron density of 2.5×10 5 neurons/ mm 2 through a pattern recognition task and numerically evaluate its image edge-extraction capability. The proposed HIONN provides a proof-of-concept route toward high-density hybrid integrated optical neural networks and motivates future work on complex and high-throughput optical computing tasks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Weihong Shen",
+            "orcid": "https://orcid.org/0000-0001-9949-7843"
+          },
+          {
+            "name": "Tingting Ni",
+            "orcid": null
+          },
+          {
+            "name": "Chao Meng",
+            "orcid": null
+          },
+          {
+            "name": "Haoyi Yu",
+            "orcid": null
+          },
+          {
+            "name": "Ruojing Ren",
+            "orcid": null
+          },
+          {
+            "name": "Min Gu",
+            "orcid": null
+          },
+          {
+            "name": "Qiming Zhang",
+            "orcid": "https://orcid.org/0000-0002-4029-3579"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/prj.591330",
+        "landing_page": "https://doi.org/10.1364/prj.591330",
+        "open_access_url": "https://doi.org/10.6084/m9.figshare.c.8255266",
+        "openalex_id": "https://openalex.org/W7170736948",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7170736948",
+        "publication_date": "2026-07-24",
+        "title": "Optical diffractive layers 3D-integrated on a silicon photonic chip for high-density optical neural networks",
+        "venue": "Photonics Research",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-21T01:07:33.178617Z",
+      "status": "found"
+    },
     "openalex:doi:10.14288/1.0455632": {
       "expires_at": "2026-09-29T01:05:16.268118Z",
       "record": {
@@ -17320,6 +17622,32 @@
       "retrieved_at": "2026-08-30T01:05:17.093113Z",
       "status": "found"
     },
+    "openalex:doi:10.5281/zenodo.22849810": {
+      "expires_at": "2026-10-21T01:07:28.599482Z",
+      "record": {
+        "abstract": "This document introduces the Elrakhawi Horizon Project, a visionary framework for Neuromorphic Photonic Computing. It proposes a paradigm shift from electron-based silicon chips to photon-based optical computing, leveraging silicon photonics and electro-optic phase shifters to achieve femtojoule-level energy efficiency. The architecture integrates photonic neural networks with a tri-source energy harvesting ecosystem (thermoelectric and RF) to enable self-sustaining mobile devices. Coupled with Meta-Reasoning software optimization, this framework ensures computational sovereignty, allowing complex, private AI inference locally without relying on cloud infrastructure or suffering from thermal bottlenecks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "mohamed kamal arafa el-rakhawi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.22849810",
+        "landing_page": "https://doi.org/10.5281/zenodo.22849810",
+        "open_access_url": "https://doi.org/10.5281/zenodo.22849810",
+        "openalex_id": "https://openalex.org/W7213618540",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213618540",
+        "publication_date": "2026-09-19",
+        "title": "Sunset of Silicon: When Light Learns to Think The Dawn of Neuromorphic Photonic Computing",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-21T01:07:28.599482Z",
+      "status": "found"
+    },
     "openalex:doi:10.6084/m9.figshare.33306492.v1": {
       "expires_at": "2026-10-11T01:00:17.485706Z",
       "record": {
@@ -17778,6 +18106,12 @@
       "retrieved_at": "2026-09-05T00:59:51.907015Z",
       "status": "not_found"
     },
+    "openalex:title:1489e70387a036b1e80958c46673cee873cec79bef3ba6a11cee31c0fa9d2cc2": {
+      "expires_at": "2026-09-28T01:07:31.196927Z",
+      "record": null,
+      "retrieved_at": "2026-09-21T01:07:31.196927Z",
+      "status": "not_found"
+    },
     "openalex:title:194b18c310f1c95fa7b57f32bf8eac8d8d12cca5a8f0adbc26cb774d869457a4": {
       "expires_at": "2026-09-07T01:07:02.675473Z",
       "record": {
@@ -17960,6 +18294,12 @@
       "retrieved_at": "2026-09-05T00:59:51.041429Z",
       "status": "found"
     },
+    "openalex:title:35dcdeea7b0e119ada24395175dddcae68596ac8dec0b6c5901290ca183cdf72": {
+      "expires_at": "2026-09-28T01:07:21.310826Z",
+      "record": null,
+      "retrieved_at": "2026-09-21T01:07:21.310826Z",
+      "status": "not_found"
+    },
     "openalex:title:396433acbcc3f91784f5268f64740577bf2596dcfa06755340cef71a7f90d310": {
       "expires_at": "2026-08-16T00:35:59.656653Z",
       "record": null,
@@ -18134,6 +18474,12 @@
       "expires_at": "2026-09-25T01:02:18.115513Z",
       "record": null,
       "retrieved_at": "2026-09-18T01:02:18.115513Z",
+      "status": "not_found"
+    },
+    "openalex:title:4f0bf37aceffdafad0bcea16be93382890154f01e26a1ad923f9a10395eaeb84": {
+      "expires_at": "2026-09-28T01:07:25.310656Z",
+      "record": null,
+      "retrieved_at": "2026-09-21T01:07:25.310656Z",
       "status": "not_found"
     },
     "openalex:title:515316e23ebc42e941cd8b6423767ee9dacba9cc10cb175c2ece28292649cbd1": {
@@ -18808,6 +19154,12 @@
       "retrieved_at": "2026-09-13T01:07:22.589361Z",
       "status": "found"
     },
+    "openalex:title:9d1cb9f5525dfc581f0e06c569bdd41181249af33557504e1e909393c9908e4a": {
+      "expires_at": "2026-09-28T01:07:23.200381Z",
+      "record": null,
+      "retrieved_at": "2026-09-21T01:07:23.200381Z",
+      "status": "not_found"
+    },
     "openalex:title:9db74335bc487590184a65058a762fbe1c4c1a1f1e63d7599e22083b270f2a3e": {
       "expires_at": "2026-08-25T04:25:21.512832Z",
       "record": null,
@@ -18938,6 +19290,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:16.456778Z",
+      "status": "found"
+    },
+    "openalex:title:acf775e7c098c902249cd2afe7ddbbadcb8277ba5cbe4a49144ba38c2c21d8d3": {
+      "expires_at": "2026-09-28T01:07:27.984906Z",
+      "record": {
+        "abstract": "International audience",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yacine Mohammedi",
+            "orcid": null
+          },
+          {
+            "name": "Majd Daroukh",
+            "orcid": "https://orcid.org/0000-0001-6728-9732"
+          },
+          {
+            "name": "Martin Buszyk",
+            "orcid": null
+          },
+          {
+            "name": "Antoine Hajczak",
+            "orcid": null
+          },
+          {
+            "name": "Marc Bonnet",
+            "orcid": null
+          },
+          {
+            "name": "Itham Salah El-Din",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": null,
+        "landing_page": "https://inria.hal.science/hal-05751647",
+        "open_access_url": "https://inria.hal.science/hal-05751647",
+        "openalex_id": "https://openalex.org/W7213569619",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213569619",
+        "publication_date": "2026-01-01",
+        "title": "Aeroacoustic Optimization of Transonic Open Rotors Using a Discrete Adjoint Framework",
+        "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-21T01:07:27.984906Z",
       "status": "found"
     },
     "openalex:title:ad97331ae96a489a96091f933d0848d757bc498b64bcb16dca45cbb33416a4a4": {
@@ -19197,6 +19595,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:25.823067Z",
       "status": "found"
+    },
+    "openalex:title:c5351f67ca839f2f9a54772562a1a4735b1e7c07f1352b3bef1fd13c6832bcaa": {
+      "expires_at": "2026-09-28T01:07:19.681928Z",
+      "record": null,
+      "retrieved_at": "2026-09-21T01:07:19.681928Z",
+      "status": "not_found"
     },
     "openalex:title:c589e2ff55ba9c6453a6907721a353a7da7cf9fae6c154ecaab45f20a0ac16ef": {
       "expires_at": "2026-09-05T00:54:08.012700Z",

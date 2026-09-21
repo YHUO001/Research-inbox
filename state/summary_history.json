@@ -242,6 +242,17 @@
       "review_required": false,
       "summary_record_sha256": "9a3a248c905fc151ef7938facb5fefffeca54ba503e666bfe19f06094c2522d7"
     },
+    "4b1739e45289d2156d3b1ed3": {
+      "completed_at": "2026-09-21T01:08:16.951177Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-09-21",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "4e7841c590b604c453561f101d6425c44feef4427fef2995d1615db2260948bd",
+      "review_required": false,
+      "summary_record_sha256": "fc30090e6751ba586eb2b12d7b9eab6ffeed9dd224b5829636d8f878323a8230"
+    },
     "4bb38e8bcc3a3d164bd28700": {
       "completed_at": "2026-08-27T16:33:11.335258Z",
       "completion_mode": "automatic_daily_batch_after_local_validation",
@@ -472,6 +483,17 @@
       "review_required": false,
       "source_generation_status": "completed",
       "summary_file_sha256": "84755129ca860d38c72fffcad5500f35aa1507421a6c26fa2359dd930f414fb0"
+    },
+    "a15033db64285e5d4c8a46c9": {
+      "completed_at": "2026-09-21T01:08:16.951177Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-09-21",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "7de2da74d107d27c4317ab497660ba369742a307d34495097b7fc81a00a375fd",
+      "review_required": false,
+      "summary_record_sha256": "a5aa13a57cf377eea36a92bdb681d253620e8554c9d097ee241276d33ce11c75"
     },
     "a7f4407333af25ddc7630e14": {
       "completed_at": "2026-09-15T01:05:36.043911Z",

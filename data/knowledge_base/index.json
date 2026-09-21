@@ -199,6 +199,15 @@
       "summary_record_sha256": "9a3a248c905fc151ef7938facb5fefffeca54ba503e666bfe19f06094c2522d7",
       "title": "Programmable photonic neural engine with all-optical nonlinear activation and 40,000 connections"
     },
+    "4b1739e45289d2156d3b1ed3": {
+      "digest_date": "2026-09-21",
+      "doi": "10.5281/zenodo.22849810",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "fc30090e6751ba586eb2b12d7b9eab6ffeed9dd224b5829636d8f878323a8230",
+      "title": "Sunset of Silicon: When Light Learns to Think The Dawn of Neuromorphic Photonic Computing"
+    },
     "4bb38e8bcc3a3d164bd28700": {
       "digest_date": "2026-08-27",
       "doi": "10.1088/1361-6633/ae9e8c",
@@ -369,6 +378,15 @@
       ],
       "summary_record_sha256": "405da6f85e07c71a653f968f4a282526a3d0f9ac9a9c670dda6d83d4913e5e7d",
       "title": "Reconfigurable Optical Nonlinear Activation Functions Using a Phase-Change Microring for Photonic Neural Networks"
+    },
+    "a15033db64285e5d4c8a46c9": {
+      "digest_date": "2026-09-21",
+      "doi": "10.1364/prj.591330",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "a5aa13a57cf377eea36a92bdb681d253620e8554c9d097ee241276d33ce11c75",
+      "title": "Optical diffractive layers 3D-integrated on a silicon photonic chip for high-density optical neural networks"
     },
     "a7f4407333af25ddc7630e14": {
       "digest_date": "2026-09-15",
@@ -628,6 +646,10 @@
     ],
     "2026-09-19": [
       "1075bd8698bce3acb3ce9376"
+    ],
+    "2026-09-21": [
+      "4b1739e45289d2156d3b1ed3",
+      "a15033db64285e5d4c8a46c9"
     ]
   },
   "by_doi": {
@@ -669,6 +691,7 @@
     "10.1364/oe.605087": "b832199d8494cc67a559fec5",
     "10.1364/oe.607573": "8a0187dc3ef13553d43f5bef",
     "10.1364/optica.591264": "1cf1fcd769c5ace951188b8c",
+    "10.1364/prj.591330": "a15033db64285e5d4c8a46c9",
     "10.14288/1.0455632": "9322fad036b3d7fc8e3dd47b",
     "10.21203/rs.3.rs-10187577/v1": "1e35265ce8678ca96adb8b93",
     "10.21203/rs.3.rs-10794538/v1": "79855d774b83ef6c7c8a8a47",
@@ -683,6 +706,7 @@
     "10.48550/arxiv.2608.28011": "5e49047e7ce2004f7954debb",
     "10.48550/arxiv.2609.07666": "3c46ab2b3d315aef47db028e",
     "10.48550/arxiv.2609.10980": "1b05123cc2b8f5f966b29a56",
+    "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.6084/m9.figshare.c.8610155.v1": "d162b179119ee09c86ad3708",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799",
@@ -706,6 +730,7 @@
       "35ff63ef9d3333099ee28868",
       "380b726618cccff0a9e5514f",
       "44fa3bd6f72c84820ce42dab",
+      "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
@@ -723,6 +748,7 @@
       "9351be654a20f4a2f7121847",
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
+      "a15033db64285e5d4c8a46c9",
       "a7f4407333af25ddc7630e14",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
@@ -759,6 +785,12 @@
     "application:cart–pole 稳定控制": [
       "79855d774b83ef6c7c8a8a47"
     ],
+    "application:image edge extraction": [
+      "a15033db64285e5d4c8a46c9"
+    ],
+    "application:local ai inference": [
+      "4b1739e45289d2156d3b1ed3"
+    ],
     "application:mnist 手写数字分类": [
       "b832199d8494cc67a559fec5"
     ],
@@ -770,6 +802,9 @@
     ],
     "application:not_available": [
       "44fa3bd6f72c84820ce42dab"
+    ],
+    "application:pattern recognition": [
+      "a15033db64285e5d4c8a46c9"
     ],
     "application:二维/三维全息重建": [
       "c82f6c2f7b8ae52a84e4eb29"
@@ -1013,6 +1048,7 @@
     "architecture:free_space": [
       "5017adbd33e6ddd5c320a4c4",
       "9351be654a20f4a2f7121847",
+      "a15033db64285e5d4c8a46c9",
       "b832199d8494cc67a559fec5"
     ],
     "architecture:hybrid": [
@@ -1040,6 +1076,7 @@
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
       "44fa3bd6f72c84820ce42dab",
+      "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
       "541094f286db8902f2fe6077",
       "79855d774b83ef6c7c8a8a47",
@@ -1080,6 +1117,7 @@
       "557b41cb542bf10e84da81f2",
       "7edb19b24759fe609707ba01",
       "973790e22c46d30721660799",
+      "a15033db64285e5d4c8a46c9",
       "c7b91f881a121b7e1651e2f2",
       "d69a4f93ca6340969e1077a8",
       "fd6f281418ac4d412744b2ac"
@@ -1123,6 +1161,7 @@
       "35ff63ef9d3333099ee28868",
       "380b726618cccff0a9e5514f",
       "44fa3bd6f72c84820ce42dab",
+      "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
@@ -1140,6 +1179,7 @@
       "9351be654a20f4a2f7121847",
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
+      "a15033db64285e5d4c8a46c9",
       "a7f4407333af25ddc7630e14",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
@@ -1321,6 +1361,9 @@
       "8a0187dc3ef13553d43f5bef",
       "b832199d8494cc67a559fec5"
     ],
+    "Photonics Research": [
+      "a15033db64285e5d4c8a46c9"
+    ],
     "Photonics for Quantum 2026": [
       "2b5f9302fe96c2793d48540e"
     ],
@@ -1348,6 +1391,9 @@
     ],
     "Third International Conference on Optoelectronic Information and Optical Engineering (OIOE 2026)": [
       "7d6c2a059923ebe445a1cdf7"
+    ],
+    "Zenodo (CERN European Organization for Nuclear Research)": [
+      "4b1739e45289d2156d3b1ed3"
     ],
     "arXiv (Cornell University)": [
       "0cbf41592278a3ad1b89e219",
@@ -1390,6 +1436,7 @@
       "380b726618cccff0a9e5514f",
       "3c46ab2b3d315aef47db028e",
       "44fa3bd6f72c84820ce42dab",
+      "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
@@ -1409,6 +1456,7 @@
       "9351be654a20f4a2f7121847",
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
+      "a15033db64285e5d4c8a46c9",
       "a7f4407333af25ddc7630e14",
       "b03b6320be57edd77b3ad7e5",
       "b832199d8494cc67a559fec5",
@@ -1427,7 +1475,7 @@
       "fd6f281418ac4d412744b2ac"
     ]
   },
-  "paper_count": 57,
+  "paper_count": 59,
   "schema_version": 1,
-  "updated_at": "2026-09-19T01:01:46.293018Z"
+  "updated_at": "2026-09-21T01:08:16.951177Z"
 }

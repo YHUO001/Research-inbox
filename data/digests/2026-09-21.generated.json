@@ -1,0 +1,156 @@
+{
+  "completion": {
+    "architecture_repairs": 0,
+    "completed_at": "2026-09-21T01:08:16.951177Z",
+    "mode": "automatic_daily_batch_after_local_validation"
+  },
+  "delivery": {
+    "mode": "separate_daily_digest_workflow",
+    "status": "pending"
+  },
+  "digest_date": "2026-09-21",
+  "digest_version": 2,
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": false,
+    "information_basis": "title_metadata_and_abstract_only",
+    "numeric_grounding_scope": "title_and_abstract_only",
+    "review_required": false,
+    "summary_history_updated": true
+  },
+  "schema_version": 2,
+  "status": "completed_automatic",
+  "summaries": [
+    {
+      "candidate_id": "4b1739e45289d2156d3b1ed3",
+      "core_problem": "本文提出将神经形态光子计算作为传统硅基电子计算的替代范式，以解决电子芯片在能效和热瓶颈方面的限制，并探索无需云端即可在移动设备上本地完成复杂私有AI推理的可行性。",
+      "distinction_from_prior_work": "与基于电子的硅芯片计算不同，该框架利用硅光子学和电光移相器实现光子计算，并整合三源能量采集生态系统与元推理软件优化，从而支持自维持移动设备的本地AI推理。",
+      "limitations_and_open_questions": [
+        "摘要未报告任何性能基准或与现有方法的定量比较。",
+        "摘要未说明光子神经网络的训练算法、权重映射和非线性实现方式。",
+        "摘要未提供实验或仿真结果，无法验证能效和计算精度。",
+        "自维持移动设备的可行性仅停留在框架层面，未提供实现细节。"
+      ],
+      "main_contributions": [
+        "提出Elrakhawi Horizon项目框架，倡导从电子硅芯片向光子计算的范式转变。",
+        "整合光子神经网络与三源能量采集生态系统，支持自维持移动设备。",
+        "引入元推理软件优化，确保计算主权和本地私有AI推理。",
+        "提出飞焦耳级能效目标，避免热瓶颈并降低对云基础设施的依赖。"
+      ],
+      "method_and_architecture": "该框架采用神经形态光子计算架构，基于硅光子学和电光移相器实现光子神经网络，并结合三源能量采集（热电与射频）生态系统和元推理软件优化，以支持本地AI推理。",
+      "method_implementation": [
+        "光子计算平台由硅光子器件和电光移相器构成，光信号在波导中传播并通过移相器调制，形成可编程的干涉模式以执行神经网络计算。具体器件布局和信号路由详情未提供。",
+        "摘要指出利用光纤或片上波导传输光信号，通过电光移相器实现权重调制，但未说明非线性激活函数的光学实现方式，也未提供网络层数、训练算法或参数设置。",
+        "三源能量采集生态系统（热电与射频）用于为光子计算模块供电，但能量转换效率、储能方案和实际供电能力未提供。",
+        "元推理软件优化用于管理本地AI推理任务，保证计算主权和隐私，但算法细节、资源调度策略和软件架构未提供。"
+      ],
+      "method_principle": "该框架利用光子的高速、低损耗特性替代电子进行信息处理，通过硅光子学和电光移相器实现光子神经网络，理论上可获得飞焦耳级能效并避免热瓶颈。三源能量采集系统为光子计算提供可持续能源，支持自维持移动设备；元推理软件优化则确保复杂AI推理在本地完成，不依赖云端，从而保障计算主权和隐私。然而，摘要未提供原理验证或实验数据，因此该方法有效性待验证。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "local AI inference"
+        ],
+        "architecture_type": "unclear",
+        "calibration_requirements": "not_available",
+        "hardware_validation": "not_available",
+        "optical_nonlinearity": "not_available",
+        "training_method": "not_available"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [],
+      "research_value": "该框架提出了一种可能突破电子计算能效和热瓶颈的替代路径，融合光子计算、能量采集和本地推理优化，为移动设备上的私有AI应用提供了前瞻性设计。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "光子神经网络训练算法",
+          "权重映射方法",
+          "光学非线性实现",
+          "电光移相器数量与配置",
+          "能量采集系统效率",
+          "实验或仿真验证结果",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    },
+    {
+      "candidate_id": "a15033db64285e5d4c8a46c9",
+      "core_problem": "针对集成光子神经网络扩展性受限、自由空间衍射神经网络制造后重构性差的问题，提出并验证一种单片集成二维硅光芯片与三维衍射层的混合光学神经网络架构。",
+      "distinction_from_prior_work": "与现有集成光子神经网络或自由空间衍射光学神经网络不同，该工作通过双光子纳米光刻在硅光芯片上直接构建三维衍射层，利用垂直光栅耦合器实现平面波导与三维自由空间的光互连，从而同时获得光子集成电路的潜在可编程性和高速运行能力，以及三维衍射网络的高并行度与高密度。",
+      "limitations_and_open_questions": [
+        "当前演示仅为概念验证，尚未展示大规模可编程重构或复杂任务训练。",
+        "摘要未提供训练算法、网络深度、层间连接细节及可编程机制。",
+        "摘要未报告与其他光学神经网络在能效、延迟或精度上的定量比较。",
+        "三维衍射层与二维芯片之间的对准容差和长期稳定性尚待研究。"
+      ],
+      "main_contributions": [
+        "提出“二维加三维”混合集成光学神经网络架构，在二维光子芯片上单片集成三维衍射层。",
+        "利用垂直光栅耦合器阵列实现平面波导与三维自由空间的光学互连。",
+        "实验演示该架构的模式识别功能，并报告神经元密度为每平方毫米二点五乘以十的五次方个。",
+        "数值评估该架构的图像边缘提取能力，证明其可用于光学计算任务。"
+      ],
+      "method_and_architecture": "该工作提出混合集成光学神经网络，在二维硅光芯片上通过双光子纳米光刻构建三维衍射层，垂直光栅耦合器阵列连接平面波导和三维自由空间，形成单片集成的二维加三维混合光计算架构。",
+      "method_implementation": [
+        "系统由二维硅光芯片和单片集成在芯片表面的三维光学衍射层构成。三维衍射层采用双光子纳米光刻技术制作，垂直光栅耦合器阵列布置在芯片上，用于将波导中的光耦合到三维自由空间。输入光信号通过芯片上的平面波导传输，经垂直光栅耦合器向上出射，进入三维衍射层。",
+        "在三维衍射层中，光信号按预定衍射图案在自由空间中传播，衍射结构对光场进行空间调制，实现神经网络中的加权连接。经过衍射层调制的光场继续传播，由后续光栅耦合器接收并耦合回波导，完成一层或多层的光学计算。摘要未提供具体的层数、衍射元件参数、光源波长及探测器配置。"
+      ],
+      "method_principle": "该方法将集成光子芯片的可编程性与三维自由空间衍射网络的空间并行性结合起来，利用垂直光栅耦合器实现波导模式和自由空间传播模式之间的高效转换。光信号从芯片波导耦合到三维衍射层后，在自由空间中经历多层衍射传播，衍射层对光场进行空间调制，完成类似神经网络层的线性变换。这种三维集成方式既避免了纯集成光子网络因器件尺寸和累积损耗带来的规模限制，又弥补了自由空间衍射网络制造后难以动态重构的不足。作者报告的概念验证实现了每平方毫米二点五乘以十的五次方的神经元密度，说明该混合架构在单位面积内能够提供很高的光学神经元数量，为高密度、大规模光学神经网络提供了可行路线。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "pattern recognition",
+          "image edge extraction"
+        ],
+        "architecture_type": "free_space",
+        "calibration_requirements": "not_available",
+        "hardware_validation": "physical_experiment",
+        "optical_nonlinearity": "not_available",
+        "training_method": "not_available"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "作者实验演示了混合集成光学神经网络，并报告神经元密度为每平方毫米二点五乘以十的五次方个。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "作者通过模式识别任务对该架构进行了概念验证。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "作者数值评估了该架构的图像边缘提取能力。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该工作首次将三维衍射光学层单片集成到二维硅光芯片上，展示了混合集成光学神经网络在高密度、高并行度光学计算方面的潜力，为下一代高吞吐量光学计算系统提供了新的实现思路。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "训练算法和参数配置未提供",
+          "三维衍射层的具体结构和层数未提供",
+          "光栅耦合器的设计参数未提供",
+          "实验装置细节和测量方法未提供",
+          "边缘提取数值评估的具体方法和精度未提供",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    }
+  ],
+  "summary_count": 2
+}

@@ -1,31 +1,217 @@
 {
-  "actual_summary_count": 0,
-  "automatic_queue_candidate_count": 0,
-  "built_at": "2026-09-20T01:07:50.507243Z",
+  "abstract_fallback_candidate_ids": [
+    "4b1739e45289d2156d3b1ed3",
+    "a15033db64285e5d4c8a46c9"
+  ],
+  "abstract_fallback_count": 2,
+  "architecture_evidence": {
+    "4b1739e45289d2156d3b1ed3": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    },
+    "a15033db64285e5d4c8a46c9": {
+      "changed": false,
+      "free_space_evidence": [
+        "Current ONN implementations mainly fall into two categories: integrated photonic neural networks (IPNNs) and free-space diffractive optical neural networks (DONNs).",
+        "An array of vertical grating couplers facilitates the optical interconnection between the planar waveguides and 3D free space."
+      ],
+      "integrated_evidence": [],
+      "previous_type": "free_space",
+      "resolved_type": "free_space"
+    }
+  },
+  "architecture_repairs": 0,
+  "automatic_history_pending": false,
+  "automatic_queue_candidate_count": 2,
+  "completed_at": "2026-09-21T01:08:16.951177Z",
   "completed_candidate_filtered_count": 0,
-  "daily_digest_pending": false,
-  "digest_date": "2026-09-20",
-  "digest_json_file": "runtime-state/data/digests/2026-09-20.preview.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-09-20.preview.md",
+  "completed_candidate_ids": [
+    "4b1739e45289d2156d3b1ed3",
+    "a15033db64285e5d4c8a46c9"
+  ],
+  "completion_mode": "automatic_daily_batch_after_local_validation",
+  "daily_digest_pending": true,
+  "digest_date": "2026-09-21",
+  "digest_json_file": "runtime-state/data/digests/2026-09-21.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-09-21.generated.md",
   "email_enabled": false,
+  "estimated_cost_cny": 0.0219994,
   "execution_mode": "automatic_daily_batch",
+  "failure_count": 0,
+  "failures": [],
+  "full_text_method_contexts": {
+    "4b1739e45289d2156d3b1ed3": {
+      "abstract_available": true,
+      "attempt_count": 3,
+      "candidate_id": "4b1739e45289d2156d3b1ed3",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 6.035,
+      "error": "https://zenodo.org/records/22849810: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.5281/zenodo.22849810",
+      "status": "not_available",
+      "text_persisted": false
+    },
+    "a15033db64285e5d4c8a46c9": {
+      "abstract_available": true,
+      "attempt_count": 3,
+      "candidate_id": "a15033db64285e5d4c8a46c9",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 3.738,
+      "error": "https://opg.optica.org/prj/viewmedia.cfm?uri=prj-14-10-4317&html=true: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1364/prj.591330",
+      "status": "not_available",
+      "text_persisted": false
+    }
+  },
+  "full_text_persisted": false,
   "full_text_used": false,
   "history_path": "runtime-state/state/summary_history.json",
-  "knowledge_base_pending": false,
-  "llm_enabled": true,
+  "information_basis": "title_metadata_and_abstract_only",
+  "knowledge_base_pending": true,
+  "model": "deepseek-v4-pro",
+  "newly_completed_candidate_count": 2,
+  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+  "numeric_matching": {
+    "absolute_tolerance": 0.02,
+    "approximation_markers_ignored": true,
+    "evidence_sources": [
+      "title",
+      "abstract",
+      "temporary_open_full_text_methods"
+    ],
+    "full_text_unsupported_sentence_action": "deterministic_redaction",
+    "relative_tolerance": 0.02,
+    "unit_format_ignored": true,
+    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
+  },
   "output_language": "zh-CN",
-  "provider": "not_configured",
-  "queue_candidate_count": 0,
-  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "request_count": 0,
-  "request_file": "runtime-state/data/summary_requests/2026-09-20.jsonl",
-  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "prepared_request_count": 2,
+  "provider": "deepseek",
+  "queue_sha256": "e47ea8713059ad863884cc62b8185a98a34ef5f5de8654bd9e43726f97ba11f3",
+  "request_count": 2,
+  "request_file": "runtime-state/data/summary_requests/2026-09-21.jsonl",
+  "request_sha256": "918908a1a4012be097e3d3827f076b0ad3109c6244cf81a6c5ad62a9068f1ba1",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "07c1046e3564a5150cbd57c3f9be42f9a08ad1bff2c93bbf4e05526e4510c84f",
-  "source_queue_candidate_count": 0,
-  "status": "no_candidates",
+  "selection_manifest_sha256": "1e1f6429b3b0b55dfcb38980588dd955cd6ee60195b82cdeda2ae402e5ee8aea",
+  "skipped_no_abstract_candidate_ids": [],
+  "skipped_no_abstract_count": 0,
+  "source_queue_candidate_count": 2,
+  "stage_timings": {
+    "full_text_preparation_seconds": 9.778,
+    "model_api_calls": [
+      {
+        "attempt": 1,
+        "candidate_id": "4b1739e45289d2156d3b1ed3",
+        "elapsed_seconds": 13.278,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 940,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1303,
+          "prompt_tokens": 3351,
+          "total_tokens": 4291
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "a15033db64285e5d4c8a46c9",
+        "elapsed_seconds": 17.191,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1305,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1506,
+          "prompt_tokens": 3554,
+          "total_tokens": 4859
+        }
+      }
+    ],
+    "model_generation_and_validation_seconds": 30.487
+  },
+  "status": "completed_automatic",
+  "summary_count": 2,
+  "summary_file": "runtime-state/data/summaries/2026-09-21.jsonl",
   "summary_generation_version": 8,
-  "summary_history_updated": false,
-  "summary_slot_count": 0
+  "summary_history_updated": true,
+  "summary_slot_count": 2,
+  "thinking_enabled": false,
+  "transport_repairs": {
+    "architecture_evidence": {
+      "4b1739e45289d2156d3b1ed3": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "integrated",
+        "repaired": true,
+        "resolved_type": "unclear"
+      },
+      "a15033db64285e5d4c8a46c9": {
+        "free_space_evidence": [
+          "Current ONN implementations mainly fall into two categories: integrated photonic neural networks (IPNNs) and free-space diffractive optical neural networks (DONNs).",
+          "An array of vertical grating couplers facilitates the optical interconnection between the planar waveguides and 3D free space."
+        ],
+        "integrated_evidence": [],
+        "model_value": "hybrid",
+        "repaired": true,
+        "resolved_type": "free_space"
+      }
+    },
+    "architecture_repairs": 2,
+    "candidate_id_repair_responses": 0,
+    "full_text_method_contexts": {
+      "4b1739e45289d2156d3b1ed3": {
+        "abstract_available": true,
+        "attempt_count": 3,
+        "candidate_id": "4b1739e45289d2156d3b1ed3",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 6.035,
+        "error": "https://zenodo.org/records/22849810: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.5281/zenodo.22849810",
+        "status": "not_available",
+        "text_persisted": false
+      },
+      "a15033db64285e5d4c8a46c9": {
+        "abstract_available": true,
+        "attempt_count": 3,
+        "candidate_id": "a15033db64285e5d4c8a46c9",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 3.738,
+        "error": "https://opg.optica.org/prj/viewmedia.cfm?uri=prj-14-10-4317&html=true: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1364/prj.591330",
+        "status": "not_available",
+        "text_persisted": false
+      }
+    },
+    "generation_metadata_repair_responses": 2,
+    "numeric_grounding_repair_responses": 0,
+    "numeric_grounding_repairs": {},
+    "tops_alias_expansions": 0,
+    "unit_format_normalization_responses": 0
+  },
+  "usage": {
+    "completion_tokens": 2245,
+    "prompt_cache_hit_tokens": 4096,
+    "prompt_cache_miss_tokens": 2809,
+    "prompt_tokens": 6905,
+    "total_tokens": 9150
+  }
 }
