@@ -1,86 +1,60 @@
 {
-  "abstract_fallback_candidate_ids": [
-    "4b1739e45289d2156d3b1ed3",
-    "a15033db64285e5d4c8a46c9"
-  ],
-  "abstract_fallback_count": 2,
+  "abstract_fallback_candidate_ids": [],
+  "abstract_fallback_count": 0,
   "architecture_evidence": {
-    "4b1739e45289d2156d3b1ed3": {
+    "37a9533a60e5cdd68ef3c483": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
-      "previous_type": "unclear",
+      "previous_type": null,
       "resolved_type": "unclear"
-    },
-    "a15033db64285e5d4c8a46c9": {
-      "changed": false,
-      "free_space_evidence": [
-        "Current ONN implementations mainly fall into two categories: integrated photonic neural networks (IPNNs) and free-space diffractive optical neural networks (DONNs).",
-        "An array of vertical grating couplers facilitates the optical interconnection between the planar waveguides and 3D free space."
-      ],
-      "integrated_evidence": [],
-      "previous_type": "free_space",
-      "resolved_type": "free_space"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 2,
-  "completed_at": "2026-09-21T01:08:16.951177Z",
+  "automatic_queue_candidate_count": 1,
+  "completed_at": "2026-09-22T01:02:42.954571Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "4b1739e45289d2156d3b1ed3",
-    "a15033db64285e5d4c8a46c9"
+    "37a9533a60e5cdd68ef3c483"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-09-21",
-  "digest_json_file": "runtime-state/data/digests/2026-09-21.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-09-21.generated.md",
+  "digest_date": "2026-09-22",
+  "digest_json_file": "runtime-state/data/digests/2026-09-22.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-09-22.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0219994,
+  "estimated_cost_cny": 0.014964,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "4b1739e45289d2156d3b1ed3": {
+    "37a9533a60e5cdd68ef3c483": {
       "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "4b1739e45289d2156d3b1ed3",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 6.035,
-      "error": "https://zenodo.org/records/22849810: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.5281/zenodo.22849810",
-      "status": "not_available",
-      "text_persisted": false
-    },
-    "a15033db64285e5d4c8a46c9": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "a15033db64285e5d4c8a46c9",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 3.738,
-      "error": "https://opg.optica.org/prj/viewmedia.cfm?uri=prj-14-10-4317&html=true: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.1364/prj.591330",
-      "status": "not_available",
+      "attempt_count": 1,
+      "candidate_id": "37a9533a60e5cdd68ef3c483",
+      "character_count": 2596,
+      "content_sha256": "4b507264bc79c4d47471383810df64c23f8db879ba8975cb8802f13d1278f709",
+      "elapsed_seconds": 1.045,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "application/xml+jats",
+      "section_headings": [
+        "fabrication",
+        "training"
+      ],
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41598-026-69259-y&p=1",
+      "status": "used",
       "text_persisted": false
     }
   },
   "full_text_persisted": false,
-  "full_text_used": false,
+  "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_and_abstract_only",
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 2,
+  "newly_completed_candidate_count": 1,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -96,122 +70,87 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 2,
+  "prepared_request_count": 1,
   "provider": "deepseek",
-  "queue_sha256": "e47ea8713059ad863884cc62b8185a98a34ef5f5de8654bd9e43726f97ba11f3",
-  "request_count": 2,
-  "request_file": "runtime-state/data/summary_requests/2026-09-21.jsonl",
-  "request_sha256": "918908a1a4012be097e3d3827f076b0ad3109c6244cf81a6c5ad62a9068f1ba1",
+  "queue_sha256": "3b4db30b091d32d26c322cfeb1c530a9c862a6cf0d67499f11823450626fc517",
+  "request_count": 1,
+  "request_file": "runtime-state/data/summary_requests/2026-09-22.jsonl",
+  "request_sha256": "fbb22f97fda7679aefce91269646548a32b09d3edf68ecb9ad87ef91478c923e",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "1e1f6429b3b0b55dfcb38980588dd955cd6ee60195b82cdeda2ae402e5ee8aea",
+  "selection_manifest_sha256": "2ad1e4bf59688e6e4605bba69ab4f26bbb2620ce6cfcd62b46d1fbdca34dd207",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 2,
+  "source_queue_candidate_count": 1,
   "stage_timings": {
-    "full_text_preparation_seconds": 9.778,
+    "full_text_preparation_seconds": 1.048,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "4b1739e45289d2156d3b1ed3",
-        "elapsed_seconds": 13.278,
+        "candidate_id": "37a9533a60e5cdd68ef3c483",
+        "elapsed_seconds": 18.07,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 940,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1303,
-          "prompt_tokens": 3351,
-          "total_tokens": 4291
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "a15033db64285e5d4c8a46c9",
-        "elapsed_seconds": 17.191,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1305,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1506,
-          "prompt_tokens": 3554,
-          "total_tokens": 4859
+          "completion_tokens": 1447,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 2078,
+          "prompt_tokens": 3998,
+          "total_tokens": 5445
         }
       }
     ],
-    "model_generation_and_validation_seconds": 30.487
+    "model_generation_and_validation_seconds": 18.086
   },
   "status": "completed_automatic",
-  "summary_count": 2,
-  "summary_file": "runtime-state/data/summaries/2026-09-21.jsonl",
+  "summary_count": 1,
+  "summary_file": "runtime-state/data/summaries/2026-09-22.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 2,
+  "summary_slot_count": 1,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "4b1739e45289d2156d3b1ed3": {
+      "37a9533a60e5cdd68ef3c483": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": "integrated",
-        "repaired": true,
+        "model_value": null,
+        "repaired": false,
         "resolved_type": "unclear"
-      },
-      "a15033db64285e5d4c8a46c9": {
-        "free_space_evidence": [
-          "Current ONN implementations mainly fall into two categories: integrated photonic neural networks (IPNNs) and free-space diffractive optical neural networks (DONNs).",
-          "An array of vertical grating couplers facilitates the optical interconnection between the planar waveguides and 3D free space."
-        ],
-        "integrated_evidence": [],
-        "model_value": "hybrid",
-        "repaired": true,
-        "resolved_type": "free_space"
       }
     },
-    "architecture_repairs": 2,
-    "candidate_id_repair_responses": 0,
+    "architecture_repairs": 0,
+    "candidate_id_repair_responses": 1,
     "full_text_method_contexts": {
-      "4b1739e45289d2156d3b1ed3": {
+      "37a9533a60e5cdd68ef3c483": {
         "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "4b1739e45289d2156d3b1ed3",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 6.035,
-        "error": "https://zenodo.org/records/22849810: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.5281/zenodo.22849810",
-        "status": "not_available",
-        "text_persisted": false
-      },
-      "a15033db64285e5d4c8a46c9": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "a15033db64285e5d4c8a46c9",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 3.738,
-        "error": "https://opg.optica.org/prj/viewmedia.cfm?uri=prj-14-10-4317&html=true: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.1364/prj.591330",
-        "status": "not_available",
+        "attempt_count": 1,
+        "candidate_id": "37a9533a60e5cdd68ef3c483",
+        "character_count": 2596,
+        "content_sha256": "4b507264bc79c4d47471383810df64c23f8db879ba8975cb8802f13d1278f709",
+        "elapsed_seconds": 1.045,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "application/xml+jats",
+        "section_headings": [
+          "fabrication",
+          "training"
+        ],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41598-026-69259-y&p=1",
+        "status": "used",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 2,
+    "generation_metadata_repair_responses": 0,
     "numeric_grounding_repair_responses": 0,
     "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 0,
+    "tops_alias_expansions": 7,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 2245,
-    "prompt_cache_hit_tokens": 4096,
-    "prompt_cache_miss_tokens": 2809,
-    "prompt_tokens": 6905,
-    "total_tokens": 9150
+    "completion_tokens": 1447,
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 2078,
+    "prompt_tokens": 3998,
+    "total_tokens": 5445
   }
 }

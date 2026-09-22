@@ -3126,6 +3126,52 @@
       "retrieved_at": "2026-08-18T04:25:13.547391Z",
       "status": "found"
     },
+    "crossref:doi:10.1038/s41598-026-69259-y": {
+      "expires_at": "2026-10-22T01:02:18.820623Z",
+      "record": {
+        "abstract": "Abstract Metasurfaces enable precise manipulation of electromagnetic (EM) waves for applications such as beam steering, sensing, and stealth technology. However, inverse design of metasurfaces remains challenging owing to the computational burden of iterative full-wave simulation-driven optimization, the difficulty of achieving controllable generation under continuous EM constraints, and the inherently non-unique nature of the inverse mapping. To address these challenges, this paper presents a generative inverse design framework for controllable and physically consistent metasurface synthesis under continuous spectral constraints. The proposed approach employs a progressively growing Wasserstein generative adversarial network with gradient penalty (WGAN-GP) integrated with feature-wise linear modulation (FiLM)-based conditioning for stable propagation of continuous spectral and fabrication constraints. EM consistency is embedded directly into the generative learning process through a surrogate-assisted spectral alignment loss, enabling physics-constrained generation during training. Further, a determinantal point process (DPP)-based diversity regularization strategy is incorporated to generate geometrically diverse yet spectrally consistent realizations for the same target response. The effectiveness of the proposed framework is demonstrated through the generation of practically realizable metasurface absorbers exhibiting diverse reflection characteristics in the frequency range of 2–18 GHz. EM simulations validate that the generated designs meet the target specifications with high accuracy. The final proposed framework achieved an average mean squared error of 0.0052, accumulated average error of 0.0343, diversity score of 0.8730, band alignment accuracy of 0.8533, and a valid EM design generation rate of 89.57%, clearly demonstrating its capability to generate highly accurate, diverse, electromagnetically consistent and fabrication realizable metasurface configurations.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Vineetha Joy",
+            "orcid": null
+          },
+          {
+            "name": "Mohammad Abdullah",
+            "orcid": null
+          },
+          {
+            "name": "Pramit Pal",
+            "orcid": null
+          },
+          {
+            "name": "Anshuman Kumar",
+            "orcid": "https://orcid.org/0000-0002-7433-8341"
+          },
+          {
+            "name": "Amit Sethi",
+            "orcid": null
+          },
+          {
+            "name": "Hema Singh",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-69259-y",
+        "landing_page": "https://doi.org/10.1038/s41598-026-69259-y",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41598-026-69259-y",
+        "publication_date": "2026-09-18",
+        "title": "Inverse design of realizable metasurface based absorbers using improved conditioning and diversity enhanced progressively growing GANs",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-22T01:02:18.820623Z",
+      "status": "found"
+    },
     "crossref:doi:10.1038/s42005-026-02823-0": {
       "expires_at": "2026-10-05T00:59:46.615608Z",
       "record": {
@@ -3322,6 +3368,32 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-15T01:03:33.684875Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1080/15376494.2026.2732116": {
+      "expires_at": "2026-10-22T01:02:20.874726Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mukund A. Patil",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1080/15376494.2026.2732116",
+        "landing_page": "https://doi.org/10.1080/15376494.2026.2732116",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1080/15376494.2026.2732116",
+        "publication_date": "2026-12-31",
+        "title": "Machine learning-assisted energy-aware adaptive vibration control of functionally graded smart composites with Terfenol-D layers",
+        "venue": "Mechanics of Advanced Materials and Structures",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-22T01:02:20.874726Z",
       "status": "found"
     },
     "crossref:doi:10.1080/19942060.2026.2682112": {
@@ -7024,6 +7096,12 @@
       "retrieved_at": "2026-08-04T09:38:25.759094Z",
       "status": "not_found"
     },
+    "crossref:title:7865a016666659ac634ed36e46ca19311302e72f400eeb7a4d466be766584fbc": {
+      "expires_at": "2026-09-29T01:02:20.281639Z",
+      "record": null,
+      "retrieved_at": "2026-09-22T01:02:20.281639Z",
+      "status": "not_found"
+    },
     "crossref:title:78a4f5ff8bafd7a52353ec31127c8ab21eea64976315745ce3469aae7444ba73": {
       "expires_at": "2026-08-26T00:32:50.290553Z",
       "record": null,
@@ -7224,6 +7302,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-15T01:03:23.652392Z",
+      "status": "found"
+    },
+    "crossref:title:8c9f5127e092378395aacb8ca0ad0dab1487027d93ccd934ce520cfb1d400f30": {
+      "expires_at": "2026-09-29T01:02:18.248140Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Khoa Tran",
+            "orcid": null
+          },
+          {
+            "name": "Thai Huy Nguyen",
+            "orcid": null
+          },
+          {
+            "name": "Quan Minh Phan",
+            "orcid": null
+          },
+          {
+            "name": "Khang Tran",
+            "orcid": null
+          },
+          {
+            "name": "Tien-Dung Mai",
+            "orcid": null
+          },
+          {
+            "name": "Viet-Hang Duong",
+            "orcid": null
+          },
+          {
+            "name": "Ngoc Hoang Luong",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/mapr72750.2026.11685698",
+        "landing_page": "https://doi.org/10.1109/mapr72750.2026.11685698",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/mapr72750.2026.11685698",
+        "publication_date": "2026-08",
+        "title": "On the Instability of Saliency Maps under Sparse Perturbations",
+        "venue": "2026 International Conference on Multimedia Analysis and Pattern Recognition (MAPR)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-22T01:02:18.248140Z",
       "status": "found"
     },
     "crossref:title:8ec677af02fbf901bc474e59ca0ce2b14a3bae399695bc4b316cdcc535905732": {
@@ -9015,6 +9143,56 @@
       "record": null,
       "retrieved_at": "2026-09-18T01:02:32.334695Z",
       "status": "not_found"
+    },
+    "crossref:title:f4469ab8800cb317ffa3d7ffbc684de60db42066e494d108e306479db0b41318": {
+      "expires_at": "2026-09-29T01:02:19.509865Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Luping Gao",
+            "orcid": null
+          },
+          {
+            "name": "Deyin Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Zhixuan Gao",
+            "orcid": null
+          },
+          {
+            "name": "Wei Shu",
+            "orcid": null
+          },
+          {
+            "name": "Jingyi Liu",
+            "orcid": null
+          },
+          {
+            "name": "Xinchen Zhuang",
+            "orcid": null
+          },
+          {
+            "name": "Tianxiang Yu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.engappai.2026.116298",
+        "landing_page": "https://doi.org/10.1016/j.engappai.2026.116298",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.engappai.2026.116298",
+        "publication_date": "2026-11",
+        "title": "Physics-guided deep reinforcement learning framework for reliability-based design optimization of complex mechanical systems",
+        "venue": "Engineering Applications of Artificial Intelligence",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-22T01:02:19.509865Z",
+      "status": "found"
     },
     "crossref:title:f5ab57ac7e603ce67f736c744d43952cf525bcbf37ba3d24e6d377c07bf7e87f": {
       "expires_at": "2026-09-20T01:07:35.132723Z",
@@ -11346,6 +11524,56 @@
       "retrieved_at": "2026-08-26T00:32:39.023529Z",
       "status": "found"
     },
+    "openalex:doi:10.1016/j.engappai.2026.116298": {
+      "expires_at": "2026-10-22T01:02:19.827392Z",
+      "record": {
+        "abstract": "Reliability-based design optimization (RBDO) is essential for the safe and economical operation of complex mechanical systems, whose time-dependent performance must continuously satisfy safety requirements under multi-source stochasticity and multiple progressive damage. However, conventional RBDO methods face an inherent tension between computational feasibility and search capability, and are typically confined to a single design objective. To address this, a physics-guided deep reinforcement learning (DRL) framework for RBDO is proposed. First, the coupled degradation mechanisms are mapped to the time evolution of the key performance indicators, recasting the design task as a Markov decision process over a bounded design domain. Second, a composite reward—integrating an objective-improvement term, a physics-guided degradation-trajectory shaping term, and a constraint-violation penalty term—is embedded into the policy update, enabling high-dimensional optimization without a limit-state gradient, an inner reliability analysis, or a surrogate model. Finally, since the objective is carried by the reward rather than the problem structure, re-parameterizing it switches the same workflow between reliability and lifetime maximization. The framework is validated on three cases of increasing degradation complexity—a high-dimensional benchmark, a wing-spar–rib system, and an aircraft drag chute lock mechanism—and instantiated with four DRL agents, providing a unified, gradient-free solution approach across multiple reliability-oriented design tasks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Luping Gao",
+            "orcid": null
+          },
+          {
+            "name": "Deyin Jiang",
+            "orcid": "https://orcid.org/0000-0003-4490-3343"
+          },
+          {
+            "name": "Zhixuan Gao",
+            "orcid": null
+          },
+          {
+            "name": "Wei Shu",
+            "orcid": "https://orcid.org/0000-0002-3610-9388"
+          },
+          {
+            "name": "Jingyi Liu",
+            "orcid": null
+          },
+          {
+            "name": "Xinchen Zhuang",
+            "orcid": null
+          },
+          {
+            "name": "Tianxiang Yu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.engappai.2026.116298",
+        "landing_page": "https://doi.org/10.1016/j.engappai.2026.116298",
+        "open_access_url": "https://doi.org/10.1016/j.engappai.2026.116298",
+        "openalex_id": "https://openalex.org/W7213554000",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213554000",
+        "publication_date": "2026-09-18",
+        "title": "Physics-guided deep reinforcement learning framework for reliability-based design optimization of complex mechanical systems",
+        "venue": "Engineering Applications of Artificial Intelligence",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-22T01:02:19.827392Z",
+      "status": "found"
+    },
     "openalex:doi:10.1016/j.finel.2026.104632": {
       "expires_at": "2026-10-17T01:03:00.321397Z",
       "record": {
@@ -12942,6 +13170,52 @@
       "retrieved_at": "2026-09-07T01:06:51.370789Z",
       "status": "found"
     },
+    "openalex:doi:10.1038/s41598-026-69259-y": {
+      "expires_at": "2026-10-22T01:02:19.121972Z",
+      "record": {
+        "abstract": "Abstract Metasurfaces enable precise manipulation of electromagnetic (EM) waves for applications such as beam steering, sensing, and stealth technology. However, inverse design of metasurfaces remains challenging owing to the computational burden of iterative full-wave simulation-driven optimization, the difficulty of achieving controllable generation under continuous EM constraints, and the inherently non-unique nature of the inverse mapping. To address these challenges, this paper presents a generative inverse design framework for controllable and physically consistent metasurface synthesis under continuous spectral constraints. The proposed approach employs a progressively growing Wasserstein generative adversarial network with gradient penalty (WGAN-GP) integrated with feature-wise linear modulation (FiLM)-based conditioning for stable propagation of continuous spectral and fabrication constraints. EM consistency is embedded directly into the generative learning process through a surrogate-assisted spectral alignment loss, enabling physics-constrained generation during training. Further, a determinantal point process (DPP)-based diversity regularization strategy is incorporated to generate geometrically diverse yet spectrally consistent realizations for the same target response. The effectiveness of the proposed framework is demonstrated through the generation of practically realizable metasurface absorbers exhibiting diverse reflection characteristics in the frequency range of 2–18 GHz. EM simulations validate that the generated designs meet the target specifications with high accuracy. The final proposed framework achieved an average mean squared error of 0.0052, accumulated average error of 0.0343, diversity score of 0.8730, band alignment accuracy of 0.8533, and a valid EM design generation rate of 89.57%, clearly demonstrating its capability to generate highly accurate, diverse, electromagnetically consistent and fabrication realizable metasurface configurations.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Vineetha Joy",
+            "orcid": "https://orcid.org/0000-0003-1958-0925"
+          },
+          {
+            "name": "M. F. L. Abdullah",
+            "orcid": "https://orcid.org/0000-0003-0310-4051"
+          },
+          {
+            "name": "Pramit Pal",
+            "orcid": null
+          },
+          {
+            "name": "Anshuman Kumar",
+            "orcid": "https://orcid.org/0000-0002-7433-8341"
+          },
+          {
+            "name": "Amit Sethi",
+            "orcid": "https://orcid.org/0000-0002-8634-1804"
+          },
+          {
+            "name": "Hema Singh",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-69259-y",
+        "landing_page": "https://doi.org/10.1038/s41598-026-69259-y",
+        "open_access_url": "https://doi.org/10.1038/s41598-026-69259-y",
+        "openalex_id": "https://openalex.org/W7163652149",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7163652149",
+        "publication_date": "2026-09-18",
+        "title": "Inverse design of realizable metasurface based absorbers using improved conditioning and diversity enhanced progressively growing GANs",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-22T01:02:19.121972Z",
+      "status": "found"
+    },
     "openalex:doi:10.1038/s41598-026-71497-z": {
       "expires_at": "2026-10-19T01:00:51.676507Z",
       "record": {
@@ -13328,6 +13602,32 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-15T01:03:34.077861Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1080/15376494.2026.2732116": {
+      "expires_at": "2026-10-22T01:02:21.177865Z",
+      "record": {
+        "abstract": "This work presents a machine learning-guided optimization framework for functionally graded smart composite structures integrated with magnetostrictive layers for adaptive vibration control. The functionally graded host is coupled with Terfenol-D/Galfenol layers to combine material gradation effects with magnetic-field-driven actuation. High-fidelity numerical simulations are conducted across a wide design domain, including gradation index, magnetostrictive layer thickness, magnetic field intensity, boundary conditions, geometric ratio, and excitation frequency. The resulting physics-based dataset is used to train surrogate machine learning models for predicting natural frequency, vibration amplitude, frequency response characteristics, and vibration suppression efficiency. These trained models are further embedded into an optimization scheme to determine material and actuation parameters for enhanced vibration attenuation. By replacing repeated expensive simulations with rapid predictive models, the proposed strategy establishes an effective connection between artificial intelligence and smart composite design. The optimized configurations exhibit higher dynamic stiffness, lower vibration response, and improved adaptive control capability compared with non-optimized designs. Feature-sensitivity analysis confirms that material gradation, magnetostrictive layer thickness, and magnetic field intensity are the most influential parameters controlling vibration suppression. The developed framework offers an efficient AI-assisted route for inverse design and performance optimization of functionally graded magnetostrictive composites for aerospace, robotic, precision mechanical, and vibration-isolation applications.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mukund A. Patil",
+            "orcid": "https://orcid.org/0000-0002-9874-1688"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1080/15376494.2026.2732116",
+        "landing_page": "https://doi.org/10.1080/15376494.2026.2732116",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7213539199",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213539199",
+        "publication_date": "2026-09-18",
+        "title": "Machine learning-assisted energy-aware adaptive vibration control of functionally graded smart composites with Terfenol-D layers",
+        "venue": "Mechanics of Advanced Materials and Structures",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-22T01:02:21.177865Z",
       "status": "found"
     },
     "openalex:doi:10.1080/19942060.2026.2682112": {
@@ -14172,6 +14472,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-15T01:03:35.625510Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/mapr72750.2026.11685698": {
+      "expires_at": "2026-10-22T01:02:18.581725Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Khoa Tran",
+            "orcid": "https://orcid.org/0009-0007-4151-9262"
+          },
+          {
+            "name": "Thai Huy Nguyen",
+            "orcid": "https://orcid.org/0009-0004-9394-2570"
+          },
+          {
+            "name": "Quan Phan",
+            "orcid": "https://orcid.org/0009-0002-8645-219X"
+          },
+          {
+            "name": "Khang Tran",
+            "orcid": null
+          },
+          {
+            "name": "Tien-Dung Mai",
+            "orcid": null
+          },
+          {
+            "name": "Viet-Hang Duong",
+            "orcid": null
+          },
+          {
+            "name": "Ngoc Hoang Luong",
+            "orcid": "https://orcid.org/0000-0002-6768-1950"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/mapr72750.2026.11685698",
+        "landing_page": "https://doi.org/10.1109/mapr72750.2026.11685698",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7213430411",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213430411",
+        "publication_date": "2026-08-01",
+        "title": "On the Instability of Saliency Maps under Sparse Perturbations",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-22T01:02:18.581725Z",
       "status": "found"
     },
     "openalex:doi:10.1109/mipro70003.2026.11591687": {
@@ -18872,6 +19222,12 @@
       "expires_at": "2026-08-11T09:38:26.349123Z",
       "record": null,
       "retrieved_at": "2026-08-04T09:38:26.349123Z",
+      "status": "not_found"
+    },
+    "openalex:title:7865a016666659ac634ed36e46ca19311302e72f400eeb7a4d466be766584fbc": {
+      "expires_at": "2026-09-29T01:02:20.832925Z",
+      "record": null,
+      "retrieved_at": "2026-09-22T01:02:20.832925Z",
       "status": "not_found"
     },
     "openalex:title:78a4f5ff8bafd7a52353ec31127c8ab21eea64976315745ce3469aae7444ba73": {

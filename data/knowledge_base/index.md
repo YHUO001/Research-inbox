@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`59`
-- 更新时间：`2026-09-21T01:08:16.951177Z`
+- 论文数：`60`
+- 更新时间：`2026-09-22T01:02:42.954571Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Inverse design of realizable metasurface based absorbers using improved conditioning and diversity enhanced progressively growing GANs
+
+- DOI/链接：[10.1038/s41598-026-69259-y](https://doi.org/10.1038/s41598-026-69259-y)
+- 期刊/年份：Scientific Reports，2026
+- 摘要日期：`2026-09-22`
+- 候选 ID：`37a9533a60e5cdd68ef3c483`
+- 标签：project:optical-neural-networks
 
 ### Sunset of Silicon: When Light Learns to Think The Dawn of Neuromorphic Photonic Computing
 

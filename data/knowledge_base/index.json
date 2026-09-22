@@ -172,6 +172,15 @@
       "summary_record_sha256": "70695cb6138c395e3e84b556c9ad5739bd4e9be089118c763ba8d36c3808550a",
       "title": "Full-colour imaging behind a glass diffuser through a diffractive neural network with multi-wavelength channels"
     },
+    "37a9533a60e5cdd68ef3c483": {
+      "digest_date": "2026-09-22",
+      "doi": "10.1038/s41598-026-69259-y",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "d5a52efc0957cb01da344b39c4be174fad9a40e040d453be844473e8f358e8bc",
+      "title": "Inverse design of realizable metasurface based absorbers using improved conditioning and diversity enhanced progressively growing GANs"
+    },
     "380b726618cccff0a9e5514f": {
       "digest_date": "2026-09-13",
       "doi": "10.1364/ao.598894",
@@ -650,6 +659,9 @@
     "2026-09-21": [
       "4b1739e45289d2156d3b1ed3",
       "a15033db64285e5d4c8a46c9"
+    ],
+    "2026-09-22": [
+      "37a9533a60e5cdd68ef3c483"
     ]
   },
   "by_doi": {
@@ -668,6 +680,7 @@
     "10.1038/s41467-026-76872-y": "7edb19b24759fe609707ba01",
     "10.1038/s41467-026-77202-y": "d33b2e7c6586f37945facb32",
     "10.1038/s41467-026-77397-0": "8ed2e70c4b7d42f84e3676a7",
+    "10.1038/s41598-026-69259-y": "37a9533a60e5cdd68ef3c483",
     "10.1038/s44335-026-00086-0": "328b1572ba0e31f8f8a6dac1",
     "10.1038/s44335-026-00096-y": "35ff63ef9d3333099ee28868",
     "10.1063/5.0350777": "a7f4407333af25ddc7630e14",
@@ -728,6 +741,7 @@
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
+      "37a9533a60e5cdd68ef3c483",
       "380b726618cccff0a9e5514f",
       "44fa3bd6f72c84820ce42dab",
       "4b1739e45289d2156d3b1ed3",
@@ -1159,6 +1173,7 @@
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
+      "37a9533a60e5cdd68ef3c483",
       "380b726618cccff0a9e5514f",
       "44fa3bd6f72c84820ce42dab",
       "4b1739e45289d2156d3b1ed3",
@@ -1386,6 +1401,9 @@
       "557b41cb542bf10e84da81f2",
       "c7b91f881a121b7e1651e2f2"
     ],
+    "Scientific Reports": [
+      "37a9533a60e5cdd68ef3c483"
+    ],
     "Sixth Optics Frontier Conference (OFS 2026)": [
       "9351be654a20f4a2f7121847"
     ],
@@ -1433,6 +1451,7 @@
       "2f9953028e4e0e3b934222c8",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
+      "37a9533a60e5cdd68ef3c483",
       "380b726618cccff0a9e5514f",
       "3c46ab2b3d315aef47db028e",
       "44fa3bd6f72c84820ce42dab",
@@ -1475,7 +1494,7 @@
       "fd6f281418ac4d412744b2ac"
     ]
   },
-  "paper_count": 59,
+  "paper_count": 60,
   "schema_version": 1,
-  "updated_at": "2026-09-21T01:08:16.951177Z"
+  "updated_at": "2026-09-22T01:02:42.954571Z"
 }
