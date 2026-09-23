@@ -2,7 +2,7 @@
   "abstract_fallback_candidate_ids": [],
   "abstract_fallback_count": 0,
   "architecture_evidence": {
-    "37a9533a60e5cdd68ef3c483": {
+    "1bef6ee27ae84b878da0c512": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
@@ -13,37 +13,36 @@
   "architecture_repairs": 0,
   "automatic_history_pending": false,
   "automatic_queue_candidate_count": 1,
-  "completed_at": "2026-09-22T01:02:42.954571Z",
+  "completed_at": "2026-09-23T01:01:30.633096Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "37a9533a60e5cdd68ef3c483"
+    "1bef6ee27ae84b878da0c512"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-09-22",
-  "digest_json_file": "runtime-state/data/digests/2026-09-22.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-09-22.generated.md",
+  "digest_date": "2026-09-23",
+  "digest_json_file": "runtime-state/data/digests/2026-09-23.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-09-23.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.014964,
+  "estimated_cost_cny": 0.013263,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "37a9533a60e5cdd68ef3c483": {
+    "1bef6ee27ae84b878da0c512": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "37a9533a60e5cdd68ef3c483",
-      "character_count": 2596,
-      "content_sha256": "4b507264bc79c4d47471383810df64c23f8db879ba8975cb8802f13d1278f709",
-      "elapsed_seconds": 1.045,
+      "candidate_id": "1bef6ee27ae84b878da0c512",
+      "character_count": 2480,
+      "content_sha256": "a48a0d1fadb63daf4a19c695ae50cac2de6d16b0fe4ca410c341752487550209",
+      "elapsed_seconds": 1.157,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "application/xml+jats",
       "section_headings": [
-        "fabrication",
         "training"
       ],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41598-026-69259-y&p=1",
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-77768-7&p=1",
       "status": "used",
       "text_persisted": false
     }
@@ -72,45 +71,45 @@
   "output_language": "zh-CN",
   "prepared_request_count": 1,
   "provider": "deepseek",
-  "queue_sha256": "3b4db30b091d32d26c322cfeb1c530a9c862a6cf0d67499f11823450626fc517",
+  "queue_sha256": "3c2decdedc8a3967bf32840a3d3c298167c2bcde3d3849cfe3128da5bdcb7bd9",
   "request_count": 1,
-  "request_file": "runtime-state/data/summary_requests/2026-09-22.jsonl",
-  "request_sha256": "fbb22f97fda7679aefce91269646548a32b09d3edf68ecb9ad87ef91478c923e",
+  "request_file": "runtime-state/data/summary_requests/2026-09-23.jsonl",
+  "request_sha256": "c5be96faeb00ecd8736553b023b09d8b7981d062118b805b253a8175ab082006",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "2ad1e4bf59688e6e4605bba69ab4f26bbb2620ce6cfcd62b46d1fbdca34dd207",
+  "selection_manifest_sha256": "da585f8e22c451d871e19b9ce7772efd18b1bd5b8d12d592cceaf6734547e3bb",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
   "source_queue_candidate_count": 1,
   "stage_timings": {
-    "full_text_preparation_seconds": 1.048,
+    "full_text_preparation_seconds": 1.16,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "37a9533a60e5cdd68ef3c483",
-        "elapsed_seconds": 18.07,
+        "candidate_id": "1bef6ee27ae84b878da0c512",
+        "elapsed_seconds": 16.769,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1447,
+          "completion_tokens": 1287,
           "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 2078,
-          "prompt_tokens": 3998,
-          "total_tokens": 5445
+          "prompt_cache_miss_tokens": 1831,
+          "prompt_tokens": 3751,
+          "total_tokens": 5038
         }
       }
     ],
-    "model_generation_and_validation_seconds": 18.086
+    "model_generation_and_validation_seconds": 16.779
   },
   "status": "completed_automatic",
   "summary_count": 1,
-  "summary_file": "runtime-state/data/summaries/2026-09-22.jsonl",
+  "summary_file": "runtime-state/data/summaries/2026-09-23.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
   "summary_slot_count": 1,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "37a9533a60e5cdd68ef3c483": {
+      "1bef6ee27ae84b878da0c512": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": null,
@@ -119,23 +118,22 @@
       }
     },
     "architecture_repairs": 0,
-    "candidate_id_repair_responses": 1,
+    "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "37a9533a60e5cdd68ef3c483": {
+      "1bef6ee27ae84b878da0c512": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "37a9533a60e5cdd68ef3c483",
-        "character_count": 2596,
-        "content_sha256": "4b507264bc79c4d47471383810df64c23f8db879ba8975cb8802f13d1278f709",
-        "elapsed_seconds": 1.045,
+        "candidate_id": "1bef6ee27ae84b878da0c512",
+        "character_count": 2480,
+        "content_sha256": "a48a0d1fadb63daf4a19c695ae50cac2de6d16b0fe4ca410c341752487550209",
+        "elapsed_seconds": 1.157,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "application/xml+jats",
         "section_headings": [
-          "fabrication",
           "training"
         ],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41598-026-69259-y&p=1",
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-77768-7&p=1",
         "status": "used",
         "text_persisted": false
       }
@@ -143,14 +141,14 @@
     "generation_metadata_repair_responses": 0,
     "numeric_grounding_repair_responses": 0,
     "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 7,
+    "tops_alias_expansions": 10,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 1447,
+    "completion_tokens": 1287,
     "prompt_cache_hit_tokens": 1920,
-    "prompt_cache_miss_tokens": 2078,
-    "prompt_tokens": 3998,
-    "total_tokens": 5445
+    "prompt_cache_miss_tokens": 1831,
+    "prompt_tokens": 3751,
+    "total_tokens": 5038
   }
 }

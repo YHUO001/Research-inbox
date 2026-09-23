@@ -100,6 +100,13 @@
       "summary_record_sha256": "1275febc3a65fff89d5fad8e4d753b657d8fb5b89d2e20cb2676bdfba508147d",
       "title": "EGGROLL, Unrolled: Understanding and Improving Low-Rank Evolution Strategies at Scale"
     },
+    "1bef6ee27ae84b878da0c512": {
+      "digest_date": "2026-09-23",
+      "doi": "10.1038/s41467-026-77768-7",
+      "matched_projects": [],
+      "summary_record_sha256": "5395c5c43e6e57cf98c97f3dc299b2291fe02cb62b233a0e2f3a9c4d93219753",
+      "title": "Bayesian bilevel operator learning with low-rank adaptation for efficient uncertainty quantification of PDE inverse problems"
+    },
     "1cf1fcd769c5ace951188b8c": {
       "digest_date": "2026-08-07",
       "doi": "10.1364/optica.591264",
@@ -662,6 +669,9 @@
     ],
     "2026-09-22": [
       "37a9533a60e5cdd68ef3c483"
+    ],
+    "2026-09-23": [
+      "1bef6ee27ae84b878da0c512"
     ]
   },
   "by_doi": {
@@ -680,6 +690,7 @@
     "10.1038/s41467-026-76872-y": "7edb19b24759fe609707ba01",
     "10.1038/s41467-026-77202-y": "d33b2e7c6586f37945facb32",
     "10.1038/s41467-026-77397-0": "8ed2e70c4b7d42f84e3676a7",
+    "10.1038/s41467-026-77768-7": "1bef6ee27ae84b878da0c512",
     "10.1038/s41598-026-69259-y": "37a9533a60e5cdd68ef3c483",
     "10.1038/s44335-026-00086-0": "328b1572ba0e31f8f8a6dac1",
     "10.1038/s44335-026-00096-y": "35ff63ef9d3333099ee28868",
@@ -1357,6 +1368,7 @@
       "83a830ace13b5158f346c392"
     ],
     "Nature Communications": [
+      "1bef6ee27ae84b878da0c512",
       "7edb19b24759fe609707ba01",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
@@ -1443,6 +1455,7 @@
       "15e7193239d6058f661ff180",
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
+      "1bef6ee27ae84b878da0c512",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "1e619f1b739f1893eae64f28",
@@ -1494,7 +1507,7 @@
       "fd6f281418ac4d412744b2ac"
     ]
   },
-  "paper_count": 60,
+  "paper_count": 61,
   "schema_version": 1,
-  "updated_at": "2026-09-22T01:02:42.954571Z"
+  "updated_at": "2026-09-23T01:01:30.633096Z"
 }

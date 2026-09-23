@@ -6304,6 +6304,12 @@
       "retrieved_at": "2026-09-13T01:07:33.315552Z",
       "status": "not_found"
     },
+    "crossref:title:3faa05cc7a30b3781618a657f7e733c04675b081a56f7543397a92e88d8e892a": {
+      "expires_at": "2026-09-30T01:01:09.594547Z",
+      "record": null,
+      "retrieved_at": "2026-09-23T01:01:09.594547Z",
+      "status": "not_found"
+    },
     "crossref:title:4114fbae9b962f3a411545fc2497676637fc049a1bd9ba04ff31061fd75a8483": {
       "expires_at": "2026-09-02T00:32:42.903232Z",
       "record": null,
@@ -8238,6 +8244,12 @@
       "retrieved_at": "2026-08-27T16:32:40.233179Z",
       "status": "found"
     },
+    "crossref:title:be860c96415d73cb9f5a30d4a66847c69de8bd3275c84aa0e684245d477756b2": {
+      "expires_at": "2026-09-30T01:01:07.199020Z",
+      "record": null,
+      "retrieved_at": "2026-09-23T01:01:07.199020Z",
+      "status": "not_found"
+    },
     "crossref:title:c09e415b506f1f52eaf0a53f8b82767e00ec07514e55cc0a44a222d511ecce5a": {
       "expires_at": "2026-09-03T16:32:38.006835Z",
       "record": null,
@@ -9275,6 +9287,44 @@
       "record": null,
       "retrieved_at": "2026-08-04T09:38:44.743778Z",
       "status": "not_found"
+    },
+    "crossref:title:f8644e24f0759c248552abcf0a83a097499163ceda52272fe68c7fe769e83a07": {
+      "expires_at": "2026-09-30T01:01:05.833104Z",
+      "record": {
+        "abstract": "Abstract Uncertainty quantification in PDE inverse problems is essential in many applications. Scientific machine learning and AI enable data-driven learning of model components while preserving physical structure, and provide the scalability and adaptability needed for emerging imaging technologies and clinical insights. We develop a Bilevel Local Operator Learning framework for Bayesian inference in PDEs (B-BiLO). At the upper level, we sample parameters from the posterior via Hamiltonian Monte Carlo, while at the lower level we fine-tune a neural network via low-rank adaptation (LoRA) to approximate the solution operator locally. B-BiLO enables efficient gradient-based sampling without synthetic data or adjoint equations and avoids sampling in high-dimensional weight space, as in Bayesian neural networks, by optimizing weights deterministically. We analyze errors from approximate lower-level optimization and establish their impact on posterior accuracy. Numerical experiments across PDE models, including tumor growth, demonstrate that B-BiLO achieves accurate and efficient uncertainty quantification.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ray Zirui Zhang",
+            "orcid": "https://orcid.org/0000-0002-0410-5905"
+          },
+          {
+            "name": "Christopher E. Miles",
+            "orcid": "https://orcid.org/0000-0001-5494-403X"
+          },
+          {
+            "name": "Xiaohui Xie",
+            "orcid": null
+          },
+          {
+            "name": "John S. Lowengrub",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41467-026-77768-7",
+        "landing_page": "https://doi.org/10.1038/s41467-026-77768-7",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41467-026-77768-7",
+        "publication_date": "2026-09-19",
+        "title": "Bayesian bilevel operator learning with low-rank adaptation for efficient uncertainty quantification of PDE inverse problems",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-23T01:01:05.833104Z",
+      "status": "found"
     },
     "crossref:title:f9dc88e0cd29996c4ec7171855846dd1cbe95fc8b1bc2f458761089356fb14dd": {
       "expires_at": "2026-08-25T04:25:24.453947Z",
@@ -13066,6 +13116,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-10T01:00:35.213775Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41467-026-77768-7": {
+      "expires_at": "2026-10-23T01:01:06.187251Z",
+      "record": {
+        "abstract": "Abstract Uncertainty quantification in PDE inverse problems is essential in many applications. Scientific machine learning and AI enable data-driven learning of model components while preserving physical structure, and provide the scalability and adaptability needed for emerging imaging technologies and clinical insights. We develop a Bilevel Local Operator Learning framework for Bayesian inference in PDEs (B-BiLO). At the upper level, we sample parameters from the posterior via Hamiltonian Monte Carlo, while at the lower level we fine-tune a neural network via low-rank adaptation (LoRA) to approximate the solution operator locally. B-BiLO enables efficient gradient-based sampling without synthetic data or adjoint equations and avoids sampling in high-dimensional weight space, as in Bayesian neural networks, by optimizing weights deterministically. We analyze errors from approximate lower-level optimization and establish their impact on posterior accuracy. Numerical experiments across PDE models, including tumor growth, demonstrate that B-BiLO achieves accurate and efficient uncertainty quantification.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zirui Zhang",
+            "orcid": "https://orcid.org/0000-0002-0410-5905"
+          },
+          {
+            "name": "Christopher E. Miles",
+            "orcid": "https://orcid.org/0000-0001-5494-403X"
+          },
+          {
+            "name": "Xiaohui Xie",
+            "orcid": null
+          },
+          {
+            "name": "John S. Lowengrub",
+            "orcid": "https://orcid.org/0000-0003-1759-0900"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41467-026-77768-7",
+        "landing_page": "https://doi.org/10.1038/s41467-026-77768-7",
+        "open_access_url": "https://doi.org/10.1038/s41467-026-77768-7",
+        "openalex_id": "https://openalex.org/W7213625918",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213625918",
+        "publication_date": "2026-09-19",
+        "title": "Bayesian bilevel operator learning with low-rank adaptation for efficient uncertainty quantification of PDE inverse problems",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-23T01:01:06.187251Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s41586-026-10891-z": {
@@ -18718,6 +18806,12 @@
       "retrieved_at": "2026-09-13T01:07:33.769750Z",
       "status": "not_found"
     },
+    "openalex:title:3faa05cc7a30b3781618a657f7e733c04675b081a56f7543397a92e88d8e892a": {
+      "expires_at": "2026-09-30T01:01:10.416485Z",
+      "record": null,
+      "retrieved_at": "2026-09-23T01:01:10.416485Z",
+      "status": "not_found"
+    },
     "openalex:title:4114fbae9b962f3a411545fc2497676637fc049a1bd9ba04ff31061fd75a8483": {
       "expires_at": "2026-09-02T00:32:43.679530Z",
       "record": null,
@@ -19844,6 +19938,12 @@
       "expires_at": "2026-08-11T09:39:00.349544Z",
       "record": null,
       "retrieved_at": "2026-08-04T09:39:00.349544Z",
+      "status": "not_found"
+    },
+    "openalex:title:be860c96415d73cb9f5a30d4a66847c69de8bd3275c84aa0e684245d477756b2": {
+      "expires_at": "2026-09-30T01:01:08.074760Z",
+      "record": null,
+      "retrieved_at": "2026-09-23T01:01:08.074760Z",
       "status": "not_found"
     },
     "openalex:title:c09e415b506f1f52eaf0a53f8b82767e00ec07514e55cc0a44a222d511ecce5a": {

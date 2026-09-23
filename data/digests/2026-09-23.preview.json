@@ -1,0 +1,31 @@
+{
+  "built_at": "2026-09-23T01:01:11.282348Z",
+  "digest_date": "2026-09-23",
+  "digest_version": 1,
+  "pending_summary_count": 1,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "1bef6ee27ae84b878da0c512",
+        "landing_page": "https://doi.org/10.1038/s41467-026-77768-7",
+        "mandatory": true,
+        "score": 0.85,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Bayesian bilevel operator learning with low-rank adaptation for efficient uncertainty quantification of PDE inverse problems",
+        "venue": "Nature Communications",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

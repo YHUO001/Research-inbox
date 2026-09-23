@@ -1,7 +1,7 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`60`
-- 更新时间：`2026-09-22T01:02:42.954571Z`
+- 论文数：`61`
+- 更新时间：`2026-09-23T01:01:30.633096Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
@@ -377,6 +377,16 @@ Perception
 - 摘要日期：`2026-08-07`
 - 候选 ID：`1cf1fcd769c5ace951188b8c`
 - 标签：application:分布式声学传感（das）, application:图像分类（cifar-10、fashion-mnist、mnist）, application:语音识别（fsdd）, architecture:integrated, hardware_validation:mixed, project:optical-neural-networks
+
+## unclassified
+
+### Bayesian bilevel operator learning with low-rank adaptation for efficient uncertainty quantification of PDE inverse problems
+
+- DOI/链接：[10.1038/s41467-026-77768-7](https://doi.org/10.1038/s41467-026-77768-7)
+- 期刊/年份：Nature Communications，2026
+- 摘要日期：`2026-09-23`
+- 候选 ID：`1bef6ee27ae84b878da0c512`
+- 标签：未提供
 
 ## zeroth-order-optimization
 
