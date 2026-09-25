@@ -182,6 +182,60 @@
       "retrieved_at": "2026-09-17T01:03:00.566552Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/adma.75132": {
+      "expires_at": "2026-10-25T01:02:45.981817Z",
+      "record": {
+        "abstract": "ABSTRACT High‐capacity optical multiplexing is crucial for next‐generation intelligent information systems, spanning high‐speed communications, optical computing, and immersive displays. A fundamental challenge is to maximize the number of independent channels while maintaining high fidelity, compact footprint, and low structural complexity, constraints that severely limit existing diffractive optical elements. Here, we overcome these long‐standing trade‐offs by introducing a multi‐dimensional reconfigurable diffractive neural network (MRDNN) that enables high‐capacity, high‐fidelity optical multiplexing within an exceptionally compact and simple architecture through the co‐design of predictive neural optimization and multi‐physical‐dimension multiplexing. Experimentally, a dual‐layer MRDNN realizes 24 independent channels for distinct functionalities, including focusing, beam steering, and holographic image reconstruction. Owing to its excellent scalability, only four metasurface layers comprising a minimal library of 200 2 meta‐atoms achieve 120 distinct optical channels with low crosstalk and high fidelity (measured mean structural similarity index measure of over 0.8), representing a record experimental multiplexing capacity with one of the smallest normalized footprints and simplest structural configurations in a metasurface‐enabled system. This work establishes a scalable and efficient paradigm for extreme optical multiplexing in multifunctional and reconfigurable photonics systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhiyu Tan",
+            "orcid": "https://orcid.org/0009-0000-7972-8069"
+          },
+          {
+            "name": "Xiaofei Zang",
+            "orcid": "https://orcid.org/0000-0001-8557-895X"
+          },
+          {
+            "name": "Zhe Gao",
+            "orcid": null
+          },
+          {
+            "name": "Jianshu Miao",
+            "orcid": null
+          },
+          {
+            "name": "Alexander P. Shkurinov",
+            "orcid": "https://orcid.org/0000-0002-6309-4732"
+          },
+          {
+            "name": "Fei Ding",
+            "orcid": "https://orcid.org/0000-0001-7362-519X"
+          },
+          {
+            "name": "Yiming Zhu",
+            "orcid": "https://orcid.org/0000-0003-2353-5713"
+          },
+          {
+            "name": "Songlin Zhuang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adma.75132",
+        "landing_page": "https://doi.org/10.1002/adma.75132",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/adma.75132",
+        "publication_date": "2026-09-23",
+        "title": "120‐Channel High‐Fidelity Optical Multiplexing Using a Minimal Meta‐Atom Set",
+        "venue": "Advanced Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-25T01:02:45.981817Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/adom.71567": {
       "expires_at": "2026-09-17T04:25:31.075985Z",
       "record": {
@@ -1158,6 +1212,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-30T01:05:16.367033Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1002/nap2.70302": {
+      "expires_at": "2026-10-25T01:02:47.426255Z",
+      "record": {
+        "abstract": "ABSTRACT Optical computing offers a route to address the growing computational demands of machine learning, with inverse‐designed nanophotonic media providing a compact path to passive optical operators. Training such devices end to end remains expensive because each geometry update requires full‐wave forward and adjoint evaluations. We introduce a surrogate‐guided inverse‐design framework that separates task learning from electromagnetic realization. Classification is first solved in matrix space using a passive complex operator with bounded singular values, and the resulting target is transferred to a fabrication‐aware freeform device through complex transmission matching and reflection suppression. Because the realization target is fixed, the electromagnetic work per update is determined by the input and output port counts and is independent of training‐set size. A locality‐constrained router composed with a fixed evanescent mixing stage extends the approach to 16‐port transformations. Under the same physical initialization, solver, fabrication map, and 550‐solve budget, operator matching reached 98.34% test accuracy on MedNIST, compared with 89.50% for direct geometry‐to‐task training. On RSSCN7, the combined optical surrogate reached 48.21%, compared with 38.57% for a PCA‐16 ridge classifier. Three Yin–Yang realizations reached %. These results establish surrogate‐guided operator matching for compact, fabrication‐aware photonic neural networks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Azka Maula Iskandar Muda",
+            "orcid": null
+          },
+          {
+            "name": "Uğur Teğin",
+            "orcid": "https://orcid.org/0000-0002-4690-588X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/nap2.70302",
+        "landing_page": "https://doi.org/10.1002/nap2.70302",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/nap2.70302",
+        "publication_date": "2026-09-25",
+        "title": "Surrogate Scattering Matrix‐Guided Inverse Design of Nanophotonic Neural Networks",
+        "venue": "Nanophotonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-25T01:02:47.426255Z",
       "status": "found"
     },
     "crossref:doi:10.1002/pssa.70508": {
@@ -5504,6 +5588,52 @@
       "retrieved_at": "2026-09-16T01:02:26.878783Z",
       "status": "found"
     },
+    "crossref:doi:10.7498/aps.76.20261148": {
+      "expires_at": "2026-10-25T01:02:48.492971Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "YANG Hangqi",
+            "orcid": null
+          },
+          {
+            "name": "HOU Yaokang",
+            "orcid": null
+          },
+          {
+            "name": "ZHANG Kuo",
+            "orcid": null
+          },
+          {
+            "name": "ZOU Bin",
+            "orcid": null
+          },
+          {
+            "name": "ZHANG Guling",
+            "orcid": null
+          },
+          {
+            "name": "FENG Shuai",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.7498/aps.76.20261148",
+        "landing_page": "https://doi.org/10.7498/aps.76.20261148",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.7498/aps.76.20261148",
+        "publication_date": "2027",
+        "title": "Programmable Photonic-Crystal Optical Neural Network with Gated Residual Diffractive Enhancement",
+        "venue": "Acta Physica Sinica",
+        "year": 2027
+      },
+      "retrieved_at": "2026-09-25T01:02:48.492971Z",
+      "status": "found"
+    },
     "crossref:title:03beeea4f2c63951ee8a4701a080fc53c33244e01b47403d7919902ea976253e": {
       "expires_at": "2026-09-22T01:03:30.120395Z",
       "record": null,
@@ -5521,6 +5651,36 @@
       "record": null,
       "retrieved_at": "2026-09-18T01:02:21.025212Z",
       "status": "not_found"
+    },
+    "crossref:title:04ada98c8d6d731d4ac118440a3b7f1869d78265ef881e44592a33b7dc383c9b": {
+      "expires_at": "2026-10-02T01:02:49.342934Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jianhua Lu",
+            "orcid": null
+          },
+          {
+            "name": "Fen Qin",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-65736-6",
+        "landing_page": "https://doi.org/10.1038/s41598-026-65736-6",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41598-026-65736-6",
+        "publication_date": "2026-09-21",
+        "title": "Lithium-ion battery state-of-health prediction using Inception-V4 network optimized by Modified Hiking Optimization Algorithm",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-25T01:02:49.342934Z",
+      "status": "found"
     },
     "crossref:title:06693e531997c12223d3bf4aeefb09d84bfa52f942f5ff9011fda630169008e4": {
       "expires_at": "2026-09-28T01:07:32.848362Z",
@@ -6138,6 +6298,12 @@
       "retrieved_at": "2026-08-09T00:36:13.391892Z",
       "status": "not_found"
     },
+    "crossref:title:2de09ba9fe45efda4e5eb9882bf3b648703879248f4b14bc847cc7ee73ec9eb6": {
+      "expires_at": "2026-10-02T01:02:50.654702Z",
+      "record": null,
+      "retrieved_at": "2026-09-25T01:02:50.654702Z",
+      "status": "not_found"
+    },
     "crossref:title:2ede4074cd9c60b8c654c9d060707d687ba958b3f636a82a17ba0ea115dae63b": {
       "expires_at": "2026-09-08T01:13:11.183771Z",
       "record": {
@@ -6296,6 +6462,12 @@
       "expires_at": "2026-09-25T01:02:27.374310Z",
       "record": null,
       "retrieved_at": "2026-09-18T01:02:27.374310Z",
+      "status": "not_found"
+    },
+    "crossref:title:3e68decb4fae5db95ba704a0b05b0c121ecfde850d513fa78279ee97a15dff73": {
+      "expires_at": "2026-10-02T01:02:45.061294Z",
+      "record": null,
+      "retrieved_at": "2026-09-25T01:02:45.061294Z",
       "status": "not_found"
     },
     "crossref:title:3f0fe9ff0903f34ce58f6f8ecb3df9c7df258013855792d3bcfdb13a071eb443": {
@@ -7084,6 +7256,12 @@
       "retrieved_at": "2026-09-12T00:59:33.800150Z",
       "status": "not_found"
     },
+    "crossref:title:7475272df74c99c7e18d836922d1b44387a341aa06006f1e4e430d1b0e9f4b15": {
+      "expires_at": "2026-10-02T01:02:44.054897Z",
+      "record": null,
+      "retrieved_at": "2026-09-25T01:02:44.054897Z",
+      "status": "not_found"
+    },
     "crossref:title:775047231877a44a503e74e00b4c35bf0db5a2a4930ffcf9c949b135b27af7cc": {
       "expires_at": "2026-09-07T01:07:00.638335Z",
       "record": null,
@@ -7113,6 +7291,48 @@
       "record": null,
       "retrieved_at": "2026-08-19T00:32:50.290553Z",
       "status": "not_found"
+    },
+    "crossref:title:796f7b5dd9a283ce34ef216ed6fcb6546998d6f4c4a5cdc5f182895c824cafec": {
+      "expires_at": "2026-10-02T01:02:47.019667Z",
+      "record": {
+        "abstract": "Phase-change-material (PCM) synapses and all-optical spiking neurons provide a promising neuromorphic-computing framework for on-chip photonic neural networks. However, PCM weights mainly rely on absorption-based transmittance modulation, which is intrinsically more suitable for non-negative weights. When signed real-valued or complex-valued weight matrices obtained by backpropagation are implemented, differential synapse pairs are usually required, thereby increasing device count, insertion loss, and programming errors. This paper proposes a hybrid photonic-neural network simulation framework that employs a wavelength-division multiplexing (WDM) structure to implement optical signal fan-out and channel allocation. The weight matrices are implemented using a programmable Mach–Zehnder interferometer (MZI) array, and a hybrid offline–online configuration calibration strategy is employed to compensate for hardware errors. Matrix-level simulations on the MNIST dataset show that, under the proposed network architecture, the PCM differential-synapse model achieves 92.39% accuracy, whereas the uncalibrated MZI weight-matrix scheme reaches 87.15%. After online calibration, the MZI scheme recovers to 92.59%. Further matrix-fidelity analysis shows that the PCM baseline reaches approximately 96% average fidelity. The uncalibrated MZI scheme achieves about 78.00% fidelity, whereas calibration improves the fidelity of the two layers to 97.53% and 97.40%, respectively. These results demonstrate that the proposed method enhances the expressive power of the weight matrix and improves the correctability of hardware errors while retaining the advantages of the original optical pulse network architecture. This work provides a viable path toward the construction of scalable optical neural networks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dingmin Cheng",
+            "orcid": "https://orcid.org/0009-0008-3717-2363"
+          },
+          {
+            "name": "Rong Wang",
+            "orcid": null
+          },
+          {
+            "name": "Hang Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Ling Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Duan Huang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/josaa.608366",
+        "landing_page": "https://doi.org/10.1364/josaa.608366",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/josaa.608366",
+        "publication_date": "2026-10-01",
+        "title": "Hardware-calibrated optical spiking neural network based on a programmable MZI mesh weight engine",
+        "venue": "Journal of the Optical Society of America A",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-25T01:02:47.019667Z",
+      "status": "found"
     },
     "crossref:title:7a1d31740d92dd33874b2a6ff4fcbcce1ebfdf3724918e12655928b209f4384d": {
       "expires_at": "2026-08-16T00:36:08.311312Z",
@@ -7418,6 +7638,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:19.729058Z",
+      "status": "found"
+    },
+    "crossref:title:912b93f6975d0fba16bc98d2c09ad1939e170a053eeb1de26a72b74ab2ac8be7": {
+      "expires_at": "2026-10-02T01:02:48.104006Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ruifeng Gao",
+            "orcid": null
+          },
+          {
+            "name": "Longfei Tan",
+            "orcid": null
+          },
+          {
+            "name": "Huihuang Zhao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-3-032-37199-7_27",
+        "landing_page": "https://doi.org/10.1007/978-3-032-37199-7_27",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/978-3-032-37199-7_27",
+        "publication_date": "2027",
+        "title": "From Black Box to Gray Box: Efficient Interpretable Multi-model Training via Gradient-Free Forward and Sequential Backprop",
+        "venue": "IFIP Advances in Information and Communication Technology",
+        "year": 2027
+      },
+      "retrieved_at": "2026-09-25T01:02:48.104006Z",
       "status": "found"
     },
     "crossref:title:929f7f41a524e231d5b9648a6d50bf54725da5a7741153f019e519531d57830a": {
@@ -8966,6 +9220,48 @@
       "retrieved_at": "2026-08-09T00:36:07.561917Z",
       "status": "found"
     },
+    "crossref:title:e86a9eeddd5a9e9fc53667d00ca09048b16630901e92a46bc8b424b57d5ee086": {
+      "expires_at": "2026-10-02T01:02:49.966400Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Irsa Sajjad",
+            "orcid": null
+          },
+          {
+            "name": "Osama Abdulaiz Alamri",
+            "orcid": null
+          },
+          {
+            "name": "Maria Malik",
+            "orcid": null
+          },
+          {
+            "name": "Marwan H. Alhelali",
+            "orcid": null
+          },
+          {
+            "name": "Maysoon A. Sultan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3934/math.20261204",
+        "landing_page": "https://doi.org/10.3934/math.20261204",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3934/math.20261204",
+        "publication_date": "2026",
+        "title": "A Quantum-inspired population optimizer integrating curvature stability and predictive consistency for deep learning",
+        "venue": "AIMS Mathematics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-25T01:02:49.966400Z",
+      "status": "found"
+    },
     "crossref:title:eb3b84b843bc8e59d12a197a243351d14623c1a948c8a32022ac671e23fbaadd": {
       "expires_at": "2026-08-25T04:25:06.087066Z",
       "record": null,
@@ -9552,6 +9848,60 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-17T01:03:00.929089Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/adma.75132": {
+      "expires_at": "2026-10-25T01:02:46.324200Z",
+      "record": {
+        "abstract": "ABSTRACT High‐capacity optical multiplexing is crucial for next‐generation intelligent information systems, spanning high‐speed communications, optical computing, and immersive displays. A fundamental challenge is to maximize the number of independent channels while maintaining high fidelity, compact footprint, and low structural complexity, constraints that severely limit existing diffractive optical elements. Here, we overcome these long‐standing trade‐offs by introducing a multi‐dimensional reconfigurable diffractive neural network (MRDNN) that enables high‐capacity, high‐fidelity optical multiplexing within an exceptionally compact and simple architecture through the co‐design of predictive neural optimization and multi‐physical‐dimension multiplexing. Experimentally, a dual‐layer MRDNN realizes 24 independent channels for distinct functionalities, including focusing, beam steering, and holographic image reconstruction. Owing to its excellent scalability, only four metasurface layers comprising a minimal library of 200 2 meta‐atoms achieve 120 distinct optical channels with low crosstalk and high fidelity (measured mean structural similarity index measure of over 0.8), representing a record experimental multiplexing capacity with one of the smallest normalized footprints and simplest structural configurations in a metasurface‐enabled system. This work establishes a scalable and efficient paradigm for extreme optical multiplexing in multifunctional and reconfigurable photonics systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhiyu Tan",
+            "orcid": "https://orcid.org/0000-0002-4117-2525"
+          },
+          {
+            "name": "Xiaofei Zang",
+            "orcid": "https://orcid.org/0000-0001-8557-895X"
+          },
+          {
+            "name": "Zhe Gao",
+            "orcid": "https://orcid.org/0000-0003-0942-251X"
+          },
+          {
+            "name": "Jianshu Miao",
+            "orcid": null
+          },
+          {
+            "name": "Alexander P. Shkurinov",
+            "orcid": "https://orcid.org/0000-0002-6309-4732"
+          },
+          {
+            "name": "Fei Ding",
+            "orcid": "https://orcid.org/0000-0001-7362-519X"
+          },
+          {
+            "name": "Yiming Zhu",
+            "orcid": "https://orcid.org/0009-0002-2615-5089"
+          },
+          {
+            "name": "Songlin Zhuang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adma.75132",
+        "landing_page": "https://doi.org/10.1002/adma.75132",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7214102086",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214102086",
+        "publication_date": "2026-09-23",
+        "title": "120‐Channel High‐Fidelity Optical Multiplexing Using a Minimal Meta‐Atom Set",
+        "venue": "Advanced Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-25T01:02:46.324200Z",
       "status": "found"
     },
     "openalex:doi:10.1002/adom.71567": {
@@ -10532,6 +10882,36 @@
       "retrieved_at": "2026-08-30T01:05:16.699795Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/nap2.70302": {
+      "expires_at": "2026-10-25T01:02:47.739163Z",
+      "record": {
+        "abstract": "ABSTRACT Optical computing offers a route to address the growing computational demands of machine learning, with inverse‐designed nanophotonic media providing a compact path to passive optical operators. Training such devices end to end remains expensive because each geometry update requires full‐wave forward and adjoint evaluations. We introduce a surrogate‐guided inverse‐design framework that separates task learning from electromagnetic realization. Classification is first solved in matrix space using a passive complex operator with bounded singular values, and the resulting target is transferred to a fabrication‐aware freeform device through complex transmission matching and reflection suppression. Because the realization target is fixed, the electromagnetic work per update is determined by the input and output port counts and is independent of training‐set size. A locality‐constrained router composed with a fixed evanescent mixing stage extends the approach to 16‐port transformations. Under the same physical initialization, solver, fabrication map, and 550‐solve budget, operator matching reached 98.34% test accuracy on MedNIST, compared with 89.50% for direct geometry‐to‐task training. On RSSCN7, the combined optical surrogate reached 48.21%, compared with 38.57% for a PCA‐16 ridge classifier. Three Yin–Yang realizations reached %. These results establish surrogate‐guided operator matching for compact, fabrication‐aware photonic neural networks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Azka Maula Iskandar Muda",
+            "orcid": null
+          },
+          {
+            "name": "Uğur Teğin",
+            "orcid": "https://orcid.org/0000-0002-4690-588X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/nap2.70302",
+        "landing_page": "https://doi.org/10.1002/nap2.70302",
+        "open_access_url": "https://doi.org/10.1002/nap2.70302",
+        "openalex_id": "https://openalex.org/W7214078888",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214078888",
+        "publication_date": "2026-09-23",
+        "title": "Surrogate Scattering Matrix‐Guided Inverse Design of Nanophotonic Neural Networks",
+        "venue": "Nanophotonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-25T01:02:47.739163Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/pssa.70508": {
       "expires_at": "2026-10-02T01:02:21.046831Z",
       "record": {
@@ -10714,6 +11094,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-21T01:07:17.707585Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/978-3-032-37199-7_27": {
+      "expires_at": "2026-10-25T01:02:48.430281Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ruifeng Gao",
+            "orcid": null
+          },
+          {
+            "name": "Longfei Tan",
+            "orcid": null
+          },
+          {
+            "name": "Huihuang Zhao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-3-032-37199-7_27",
+        "landing_page": "https://doi.org/10.1007/978-3-032-37199-7_27",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7213449908",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213449908",
+        "publication_date": "2026-09-17",
+        "title": "From Black Box to Gray Box: Efficient Interpretable Multi-model Training via Gradient-Free Forward and Sequential Backprop",
+        "venue": "IFIP advances in information and communication technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-25T01:02:48.430281Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s00158-026-04411-w": {
@@ -13188,6 +13602,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:13.860712Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41598-026-65736-6": {
+      "expires_at": "2026-10-25T01:02:49.698178Z",
+      "record": {
+        "abstract": "Electrochemical impedance spectroscopy (EIS) represents a non-invasive method of measuring state-of-health (SoH) of lithium-ion batteries, but it is difficult to obtain strong degradation measurements because of complicated responses with frequency. The paper presents a new approach of combining Inception-V4 deep learning architecture with a Modified Hiking Optimization Algorithm (MHOA) to obtain precise SoH estimation using only raw impedance spectra. Unlike traditional approaches that rely on equivalent-circuit modeling or complex multidimensional feature extraction, the proposed end-to-end model directly utilizes the complete electrochemical impedance spectrum. The end-to-end network is trained and tested using an available online EIS dataset. EIS spectra were measured for 14,752 experiments for batteries subjected to controlled laboratory environments (25 °C and 45 °C), 6 states of charge, and cycling from 100% to 80% SoH, for which there were 14 logarithmically spaced frequencies from 0.05 Hz to 1000 Hz. The first validation is on a chronologically separated test set, that is, on later cycles of the same cells to test temporal generalization, in which case the test RMSE is 1.15%. On a completely new (not used for training or validation) cell, a test is on cross-cell generalization which results in an RMSE of 0.148%. Outputs from the dual branch network includes circuit like parameter estimations, for which it has been verified to be close to those in the respective equivalent circuit representations. All presented results are from an offline simulation on time-separated data, and no claim is made towards real-time, embedded BMS performance. Using a dataset of 14,752 EIS measurements collected under different temperature conditions and aging stages, the method achieves an overall test RMSE of about 1.15%. It also shows strong capability to generalize to degradation conditions that were not present in the training data. The dual-branch network is capable of providing accurate SoH predictions and interpretable parameters in the form of equivalent-circuit simultaneously, allowing it to be used in a battery management system. The proposed framework shows stable and reliable performance across the evaluated EIS dataset.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jianhua Lu",
+            "orcid": null
+          },
+          {
+            "name": "Fen Qin",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-65736-6",
+        "landing_page": "https://doi.org/10.1038/s41598-026-65736-6",
+        "open_access_url": "https://doi.org/10.1038/s41598-026-65736-6",
+        "openalex_id": "https://openalex.org/W7213890551",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213890551",
+        "publication_date": "2026-09-21",
+        "title": "Lithium-ion battery state-of-health prediction using Inception-V4 network optimized by Modified Hiking Optimization Algorithm",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-25T01:02:49.698178Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s41598-026-66005-2": {
@@ -16436,6 +16880,48 @@
       "retrieved_at": "2026-08-04T09:38:48.442310Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/josaa.608366": {
+      "expires_at": "2026-10-25T01:02:47.339432Z",
+      "record": {
+        "abstract": "Phase-change-material (PCM) synapses and all-optical spiking neurons provide a promising neuromorphic-computing framework for on-chip photonic neural networks. However, PCM weights mainly rely on absorption-based transmittance modulation, which is intrinsically more suitable for non-negative weights. When signed real-valued or complex-valued weight matrices obtained by backpropagation are implemented, differential synapse pairs are usually required, thereby increasing device count, insertion loss, and programming errors. This paper proposes a hybrid photonic-neural network simulation framework that employs a wavelength-division multiplexing (WDM) structure to implement optical signal fan-out and channel allocation. The weight matrices are implemented using a programmable Mach–Zehnder interferometer (MZI) array, and a hybrid offline–online configuration calibration strategy is employed to compensate for hardware errors. Matrix-level simulations on the MNIST dataset show that, under the proposed network architecture, the PCM differential-synapse model achieves 92.39% accuracy, whereas the uncalibrated MZI weight-matrix scheme reaches 87.15%. After online calibration, the MZI scheme recovers to 92.59%. Further matrix-fidelity analysis shows that the PCM baseline reaches approximately 96% average fidelity. The uncalibrated MZI scheme achieves about 78.00% fidelity, whereas calibration improves the fidelity of the two layers to 97.53% and 97.40%, respectively. These results demonstrate that the proposed method enhances the expressive power of the weight matrix and improves the correctability of hardware errors while retaining the advantages of the original optical pulse network architecture. This work provides a viable path toward the construction of scalable optical neural networks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dingmin Cheng",
+            "orcid": "https://orcid.org/0009-0008-3717-2363"
+          },
+          {
+            "name": "Rong Wang",
+            "orcid": null
+          },
+          {
+            "name": "Hang Zhang",
+            "orcid": "https://orcid.org/0000-0001-9326-0773"
+          },
+          {
+            "name": "Ling Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Duan Huang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/josaa.608366",
+        "landing_page": "https://doi.org/10.1364/josaa.608366",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7203694200",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203694200",
+        "publication_date": "2026-08-18",
+        "title": "Hardware-calibrated optical spiking neural network based on a programmable MZI mesh weight engine",
+        "venue": "Journal of the Optical Society of America A",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-25T01:02:47.339432Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/oe.592163": {
       "expires_at": "2026-10-13T01:07:36.986991Z",
       "record": {
@@ -17710,6 +18196,48 @@
       "retrieved_at": "2026-08-09T00:36:12.879300Z",
       "status": "not_found"
     },
+    "openalex:doi:10.3934/math.20261204": {
+      "expires_at": "2026-10-25T01:02:50.314041Z",
+      "record": {
+        "abstract": "Training deep neural networks is often hindered by sharp minima, unstable optimization trajectories, and limited generalization. To tackle these problems, we introduce a novel gradient-free, population-based optimization framework, the Curvature–Interference Quantum Entropic Optimizer (CI-QEO), which integrates the empirical loss, zeroth-order curvature estimation, predictive interference suppression, entropy-driven diversity preservation, and covariance-driven tunnelling into a single energy function. We used a benchmark set of binary and multiclass classification problems, as well as nonlinear regression problems, to test the proposed method with the same network architecture. We found that CI-QEO outperforms strong baseline optimizers in terms of accuracy of binary classification (94.18% vs. 90.58%), accuracy of multiclass classification (91.36% vs. 84.34%), and R² score (0.936 vs. 0.854), with lower test loss (26.46% vs. 37.24%), mean squared error (22.54% vs. 37.24%), predictive interference (64.27% vs. 105.12%), and total optimization energy (73.66% vs. 167.83%). In addition, ablation experiments and statistical significance analysis (p < 0.05) validated each proposed component's contribution to the observed performance gains. The results highlight that CI-QEO is a stable, accurate, and large-scale optimization framework for deep neural network training and a promising alternative to prevalent gradient- and population-based optimization algorithms.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Irsa Sajjad",
+            "orcid": null
+          },
+          {
+            "name": "Osama Abdulaziz Alamri",
+            "orcid": "https://orcid.org/0000-0001-8485-3681"
+          },
+          {
+            "name": "Maria Malik",
+            "orcid": null
+          },
+          {
+            "name": "Marwan H. Alhelali",
+            "orcid": "https://orcid.org/0000-0001-8405-4476"
+          },
+          {
+            "name": "Maysoon A. Sultan",
+            "orcid": "https://orcid.org/0000-0002-1073-0715"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3934/math.20261204",
+        "landing_page": "https://doi.org/10.3934/math.20261204",
+        "open_access_url": "https://doi.org/10.3934/math.20261204",
+        "openalex_id": "https://openalex.org/W7213441818",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213441818",
+        "publication_date": "2026-01-01",
+        "title": "A Quantum-inspired population optimizer integrating curvature stability and predictive consistency for deep learning",
+        "venue": "AIMS Mathematics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-25T01:02:50.314041Z",
+      "status": "found"
+    },
     "openalex:doi:10.3934/math.2026986": {
       "expires_at": "2026-09-17T04:25:13.493410Z",
       "record": {
@@ -18466,6 +18994,52 @@
       "retrieved_at": "2026-09-07T01:06:42.496403Z",
       "status": "found"
     },
+    "openalex:doi:10.7498/aps.76.20261148": {
+      "expires_at": "2026-10-25T01:02:48.814527Z",
+      "record": {
+        "abstract": "可编程光子晶体权重库可通过波长选择性透射实现局域光学加权，衍射传播则能够利用光场干涉实现空间特征混合。针对卷积型光子网络在有限通道规模下空间特征交互能力受限的问题，本文提出一种基于门控残差衍射增强的可编程光子晶体光学神经网络。不同于已有光子晶体卷积与级联衍射传播依次连接的串行处理结构，本文保留由光子晶体卷积和转置卷积构成的连续局域加权主干，并将多波长衍射处理作为并行特征支路，通过相位调制与传播形成空间混合特征，再利用门控残差机制自适应融合至主干特征。基于算子级光子网络模型，采用MNIST和CIFAR-10开展图像生成验证，并采用MNIST和BSDS500开展图像去噪验证。结果表明，引入衍射增强后图像生成的FID和KID均降低，其中CIFAR-10上32通道增强网络的性能接近64通道无衍射网络；去噪任务中MNIST和BSDS500的PSNR分别达到19.7和28.8 dB，SSIM分别达到0.90和0.85。上述结果表明，该方法可在保留局域可编程加权能力的同时引入传播型特征混合，为光子晶体光学神经网络的图像生成与恢复提供一种可行方案。",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hangqi Yang",
+            "orcid": null
+          },
+          {
+            "name": "HOU Yaokang",
+            "orcid": null
+          },
+          {
+            "name": "ZHANG Kuo",
+            "orcid": null
+          },
+          {
+            "name": "ZOU Bin",
+            "orcid": null
+          },
+          {
+            "name": "ZHANG Guling",
+            "orcid": null
+          },
+          {
+            "name": "FENG Shuai",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.7498/aps.76.20261148",
+        "landing_page": "https://doi.org/10.7498/aps.76.20261148",
+        "open_access_url": "https://doi.org/10.7498/aps.76.20261148",
+        "openalex_id": "https://openalex.org/W7214109932",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214109932",
+        "publication_date": "2026-09-23",
+        "title": "Programmable Photonic-Crystal Optical Neural Network with Gated Residual Diffractive Enhancement",
+        "venue": "Acta Physica Sinica",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-25T01:02:48.814527Z",
+      "status": "found"
+    },
     "openalex:title:03beeea4f2c63951ee8a4701a080fc53c33244e01b47403d7919902ea976253e": {
       "expires_at": "2026-09-22T01:03:32.052841Z",
       "record": null,
@@ -18666,6 +19240,12 @@
       "retrieved_at": "2026-08-09T00:36:13.940109Z",
       "status": "not_found"
     },
+    "openalex:title:2de09ba9fe45efda4e5eb9882bf3b648703879248f4b14bc847cc7ee73ec9eb6": {
+      "expires_at": "2026-10-02T01:02:51.365862Z",
+      "record": null,
+      "retrieved_at": "2026-09-25T01:02:51.365862Z",
+      "status": "not_found"
+    },
     "openalex:title:33a45e5cd73326adf0ab633eda1af5255e00d2d4b19bcf135911375e505af8e2": {
       "expires_at": "2026-09-12T00:59:51.041429Z",
       "record": {
@@ -18798,6 +19378,12 @@
       "expires_at": "2026-09-25T01:02:28.408166Z",
       "record": null,
       "retrieved_at": "2026-09-18T01:02:28.408166Z",
+      "status": "not_found"
+    },
+    "openalex:title:3e68decb4fae5db95ba704a0b05b0c121ecfde850d513fa78279ee97a15dff73": {
+      "expires_at": "2026-10-02T01:02:45.739420Z",
+      "record": null,
+      "retrieved_at": "2026-09-25T01:02:45.739420Z",
       "status": "not_found"
     },
     "openalex:title:3f0fe9ff0903f34ce58f6f8ecb3df9c7df258013855792d3bcfdb13a071eb443": {
@@ -19223,6 +19809,12 @@
       },
       "retrieved_at": "2026-09-12T00:59:34.366541Z",
       "status": "found"
+    },
+    "openalex:title:7475272df74c99c7e18d836922d1b44387a341aa06006f1e4e430d1b0e9f4b15": {
+      "expires_at": "2026-10-02T01:02:44.796881Z",
+      "record": null,
+      "retrieved_at": "2026-09-25T01:02:44.796881Z",
+      "status": "not_found"
     },
     "openalex:title:775047231877a44a503e74e00b4c35bf0db5a2a4930ffcf9c949b135b27af7cc": {
       "expires_at": "2026-09-07T01:07:01.321486Z",

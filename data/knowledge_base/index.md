@@ -1,10 +1,34 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`61`
-- 更新时间：`2026-09-23T01:01:30.633096Z`
+- 论文数：`64`
+- 更新时间：`2026-09-25T01:04:25.668556Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Surrogate Scattering Matrix‐Guided Inverse Design of Nanophotonic Neural Networks
+
+- DOI/链接：[10.1002/nap2.70302](https://doi.org/10.1002/nap2.70302)
+- 期刊/年份：Nanophotonics，2026
+- 摘要日期：`2026-09-25`
+- 候选 ID：`93f3ffb1741a00e1480b8ab2`
+- 标签：application:分类（mednist、rsscn7、yin–yang基准）, architecture:unclear, hardware_validation:unclear, project:optical-neural-networks
+
+### Programmable Photonic-Crystal Optical Neural Network with Gated Residual Diffractive Enhancement
+
+- DOI/链接：[10.7498/aps.76.20261148](https://doi.org/10.7498/aps.76.20261148)
+- 期刊/年份：Acta Physica Sinica，2027
+- 摘要日期：`2026-09-25`
+- 候选 ID：`c01ea24e589c31ebd4af01d6`
+- 标签：application:图像去噪（mnist、bsds500）, application:图像生成（mnist、cifar-10）, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
+
+### Hardware-calibrated optical spiking neural network based on a programmable MZI mesh weight engine
+
+- DOI/链接：[10.1364/josaa.608366](https://doi.org/10.1364/josaa.608366)
+- 期刊/年份：Journal of the Optical Society of America A，2026
+- 摘要日期：`2026-09-25`
+- 候选 ID：`6dc0459f08567bbd051cc579`
+- 标签：application:mnist手写数字识别（矩阵级仿真）, architecture:integrated, hardware_validation:simulation_only, project:optical-neural-networks
 
 ### Inverse design of realizable metasurface based absorbers using improved conditioning and diversity enhanced progressively growing GANs
 
