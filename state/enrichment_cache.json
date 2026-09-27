@@ -1244,6 +1244,36 @@
       "retrieved_at": "2026-09-25T01:02:47.426255Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/psp4.70343": {
+      "expires_at": "2026-10-27T01:11:27.792422Z",
+      "record": {
+        "abstract": "ABSTRACT Inverse problems in pharmacometrics and quantitative systems pharmacology (QSP) often involve sparse, noisy data, limited measurable states, and complex dynamical systems. Traditional parameter estimation methods can struggle with ill‐posed problems, stiffness, discontinuities, and gray‐box scenarios where only part of the system dynamics is known or observable. This tutorial provides an end‐to‐end, reproducible workflow for applying physics‐informed neural networks (PINNs) to PK/PD/QSP inverse problems and gray‐box discovery tasks. We present three worked case studies: (1) constant parameter recovery in a three‐state compartmental system, (2) gray‐box discovery of an unknown right‐hand‐side function, and (3) inference of a time‐varying chemotherapy efficacy function under partial observation. For each, we provide implementation guidance, validation checks, and practical advice on collocation design, feature expansion, optimizer selection, numerical precision, constraint enforcement, loss weighting, and residual‐based attention. We also discuss when to consider newer architectures such as Kolmogorov–Arnold networks (KANs) as drop‐in alternatives to standard multilayer perceptrons. All code and notebooks are provided through our PhINs library, short for Pharmacometrics‐Informed Networks, and are publicly available at https://github.com/NazAhmadi/PhINs/ .",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Nazanin Ahmadi Daryakenari",
+            "orcid": "https://orcid.org/0000-0003-2485-8987"
+          },
+          {
+            "name": "Mohammad Kohandel",
+            "orcid": "https://orcid.org/0000-0003-0667-7269"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/psp4.70343",
+        "landing_page": "https://doi.org/10.1002/psp4.70343",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/psp4.70343",
+        "publication_date": "2026-10",
+        "title": "A Practical Tutorial on Physics‐Informed Networks for Pharmacometrics and Quantitative Systems Pharmacology",
+        "venue": "CPT: Pharmacometrics &amp; Systems Pharmacology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-27T01:11:27.792422Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/pssa.70508": {
       "expires_at": "2026-10-02T01:02:20.681988Z",
       "record": {
@@ -4348,6 +4378,84 @@
       "retrieved_at": "2026-09-18T01:02:22.786419Z",
       "status": "found"
     },
+    "crossref:doi:10.1126/sciadv.aeh0904": {
+      "expires_at": "2026-10-27T01:11:29.096039Z",
+      "record": {
+        "abstract": "Nonlinear optics underpins a broad range of photonic technologies, from classical and quantum light sources to emerging nonlinear photonic neural networks. Yet, conventional nonlinear-optical devices exhibit static functionality: Their transfer characteristics and emission profiles are dictated by the intrinsic nonlinear process and locked by fabrication, limiting adaptability. Here, we introduce an ultrathin metasurface platform that enables dynamic reconfiguration of nonlinear functionality in a contactless fashion. By leveraging all-optical control of the optical torque exerted on liquid crystal molecules infiltrating a resonant metasurface, we achieve tunable polynomial nonlinear transfer functions based on the third-harmonic generation process. This mechanism further allows reconfigurable modulation of nonlinear weighting across different diffraction orders, revealing a previously unexplored interplay between mode structure and nonlinear emission. Our approach opens up a pathway toward field-programmable nonlinear photonic systems, offering unprecedented flexibility for reconfigurable nonlinear signal processing and adaptive photonic computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ziwei Yang",
+            "orcid": "https://orcid.org/0000-0003-1486-5462"
+          },
+          {
+            "name": "Lei Xu",
+            "orcid": "https://orcid.org/0000-0001-9071-4311"
+          },
+          {
+            "name": "Gabriel Sanderson",
+            "orcid": "https://orcid.org/0009-0005-0477-4163"
+          },
+          {
+            "name": "Akhshay Bhadwal",
+            "orcid": null
+          },
+          {
+            "name": "Luyao Wang",
+            "orcid": "https://orcid.org/0000-0002-0962-4288"
+          },
+          {
+            "name": "Katsuya Tanaka",
+            "orcid": "https://orcid.org/0000-0001-8230-8479"
+          },
+          {
+            "name": "Muyi Yang",
+            "orcid": "https://orcid.org/0000-0002-1738-4536"
+          },
+          {
+            "name": "Mingkai Liu",
+            "orcid": null
+          },
+          {
+            "name": "Shaun Lung",
+            "orcid": "https://orcid.org/0000-0001-7762-6616"
+          },
+          {
+            "name": "Isabelle Staude",
+            "orcid": "https://orcid.org/0000-0001-8021-572X"
+          },
+          {
+            "name": "Thomas Pertsch",
+            "orcid": "https://orcid.org/0000-0003-4889-0869"
+          },
+          {
+            "name": "Carl Brown",
+            "orcid": "https://orcid.org/0000-0002-1559-3238"
+          },
+          {
+            "name": "Mohsen Rahmani",
+            "orcid": "https://orcid.org/0000-0001-9268-4793"
+          },
+          {
+            "name": "Dragomir Neshev",
+            "orcid": "https://orcid.org/0000-0002-4508-8646"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1126/sciadv.aeh0904",
+        "landing_page": "https://doi.org/10.1126/sciadv.aeh0904",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1126/sciadv.aeh0904",
+        "publication_date": "2026-09-25",
+        "title": "All-optical control of nonlinear emission from resonant metasurfaces",
+        "venue": "Science Advances",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-27T01:11:29.096039Z",
+      "status": "found"
+    },
     "crossref:doi:10.1142/s0218863526400163": {
       "expires_at": "2026-10-06T01:07:51.685521Z",
       "record": {
@@ -5444,6 +5552,32 @@
       "retrieved_at": "2026-09-01T01:13:13.074384Z",
       "status": "found"
     },
+    "crossref:doi:10.3389/frai.2026.1922367": {
+      "expires_at": "2026-10-27T01:11:36.292657Z",
+      "record": {
+        "abstract": "This article addresses the requirements for a photonic artificial intelligence (AI) capable of supporting a deeper understanding of the Planck epoch in the origin of the Universe. The article continues the previous author’s articles, which outlined requirements for AI to support studies of protein evolution on Earth, cosmic strings (CS) detection, and a non-standard view on the photon’s nature. Modern digital generative AI cannot support its solution due to a lack of training datasets and limited energy resources for conducting adequate physical experiments. This article analyses the states of the Planck epoch, when there was no space–time, and when entropy began to emerge. It outlines additional requirements for an AI and proposes an adequate full-analogue photonic AI (PAI) that can be helpful for the research. The main idea of the PAI is to reject digitising the natural analogue signal and to use single-step Fourier convolution on many images simultaneously for representing states of the Planck epoch. To create PAI, a single holographic plate must replace a multilevel digital neural network, thereby eliminating the need for traditional multi-step machine learning. PAI is also expected to provide effective solutions to complex tasks such as Markov chains, genetic algorithms, and Kolmogorov (Fokker-Planck) equations, which are necessary for this research. The author’s convergent methodology helps make the research focused and stable. This methodology is based on fundamental thermodynamics and the inverse-problem-solving method in topological spaces. The PAI project has a starting technology readiness level: methodology, principles, and design.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Aleksandr Raikov",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3389/frai.2026.1922367",
+        "landing_page": "https://doi.org/10.3389/frai.2026.1922367",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3389/frai.2026.1922367",
+        "publication_date": "2026-09-25",
+        "title": "Photonic AI for deeper understanding of the Planck epoch",
+        "venue": "Frontiers in Artificial Intelligence",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-27T01:11:36.292657Z",
+      "status": "found"
+    },
     "crossref:doi:10.3788/irla20250523": {
       "expires_at": "2026-09-08T00:36:12.555790Z",
       "record": null,
@@ -5866,6 +6000,12 @@
       "expires_at": "2026-09-28T01:07:30.619619Z",
       "record": null,
       "retrieved_at": "2026-09-21T01:07:30.619619Z",
+      "status": "not_found"
+    },
+    "crossref:title:151986a082bf330392728bdeca8017bc62c4ef4c1c80eb8ce67bf36365773eab": {
+      "expires_at": "2026-10-04T01:11:34.657223Z",
+      "record": null,
+      "retrieved_at": "2026-09-27T01:11:34.657223Z",
       "status": "not_found"
     },
     "crossref:title:162e79b8034d15e0d018d25c22458bb6a70db891208b379c51b0b58a2ff57d76": {
@@ -6376,6 +6516,12 @@
       "retrieved_at": "2026-09-01T01:13:11.183771Z",
       "status": "found"
     },
+    "crossref:title:3155492c097c4d99ba721fef59868ee322b28a6d7c74600ec0d8b04fbdbe93d9": {
+      "expires_at": "2026-10-04T01:11:28.606186Z",
+      "record": null,
+      "retrieved_at": "2026-09-27T01:11:28.606186Z",
+      "status": "not_found"
+    },
     "crossref:title:33a45e5cd73326adf0ab633eda1af5255e00d2d4b19bcf135911375e505af8e2": {
       "expires_at": "2026-09-12T00:59:50.332909Z",
       "record": null,
@@ -6630,6 +6776,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-12T00:59:39.476775Z",
+      "status": "found"
+    },
+    "crossref:title:4473a8b40af1f74fcc972289f2a9b3ca554752bdbe6d8b6dc4da3d3c74b5ea94": {
+      "expires_at": "2026-10-04T01:11:30.024976Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Raiha Tallat",
+            "orcid": "https://orcid.org/0000-0002-0778-8107"
+          },
+          {
+            "name": "Xingfu Wang",
+            "orcid": "https://orcid.org/0000-0002-1301-3535"
+          },
+          {
+            "name": "Ammar Hawbani",
+            "orcid": "https://orcid.org/0000-0002-1069-3993"
+          },
+          {
+            "name": "Xiaohua Xu",
+            "orcid": "https://orcid.org/0000-0001-7770-803X"
+          },
+          {
+            "name": "Fuyou Miao",
+            "orcid": "https://orcid.org/0000-0001-8682-6003"
+          },
+          {
+            "name": "Liang Zhao",
+            "orcid": "https://orcid.org/0000-0001-5829-6850"
+          },
+          {
+            "name": "Zhi Liu",
+            "orcid": "https://orcid.org/0000-0003-0537-4522"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tce.2026.3735750",
+        "landing_page": "https://doi.org/10.1109/tce.2026.3735750",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/tce.2026.3735750",
+        "publication_date": "2026",
+        "title": "FedCluster: Client Clustering Meets Hierarchical Federated Learning",
+        "venue": "IEEE Transactions on Consumer Electronics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-27T01:11:30.024976Z",
       "status": "found"
     },
     "crossref:title:44cd5bfa9f21cda4013aab622c657016ae2639db19f541576c77d328402bd988": {
@@ -7982,6 +8178,12 @@
       "retrieved_at": "2026-08-29T00:54:11.524325Z",
       "status": "found"
     },
+    "crossref:title:a0a599ac68014d4b1192fc605c8ca96601d74e8b60d1cb9b8c96ac411ace0f64": {
+      "expires_at": "2026-10-04T01:11:31.781237Z",
+      "record": null,
+      "retrieved_at": "2026-09-27T01:11:31.781237Z",
+      "status": "not_found"
+    },
     "crossref:title:a17fe117ca806ce076a412f5c37e0c037b9e19547ccc0d88907da00c098c1bcc": {
       "expires_at": "2026-09-20T01:07:24.859801Z",
       "record": {
@@ -8178,6 +8380,12 @@
       "retrieved_at": "2026-09-04T01:00:16.748871Z",
       "status": "not_found"
     },
+    "crossref:title:a576c400a96f9ec12926bd9cdc2e03d381a4efd74c6deea994085b3a04f073ea": {
+      "expires_at": "2026-10-04T01:11:33.199894Z",
+      "record": null,
+      "retrieved_at": "2026-09-27T01:11:33.199894Z",
+      "status": "not_found"
+    },
     "crossref:title:a6c3f371dc2cf9bcbbc7c639b864b43aefb6dcd8524e1276f6846d6b8008d619": {
       "expires_at": "2026-09-14T01:06:44.729386Z",
       "record": null,
@@ -8331,6 +8539,32 @@
       "record": null,
       "retrieved_at": "2026-09-17T01:02:54.723994Z",
       "status": "not_found"
+    },
+    "crossref:title:b2a574362845e2e40ae749b39e39804f9398fe0f733bd77fbec67f61563915b5": {
+      "expires_at": "2026-10-04T01:11:30.944574Z",
+      "record": {
+        "abstract": "Neuromorphic photonics has emerged in the past five years as one of the most promising hardware paradigms for overcoming the bandwidth, energy, and scalability limits of conventional electronic accelerators. Between 2022 and 2026, the field has undergone a rapid transition from isolated proof-of-concept demonstrations of individual photonic neurons or synaptic weights toward integrated, reconfigurable, and functionally complete systems that combine linear optical processing, in-hardware nonlinearity, analogue memory, and on-chip learning on a single substrate. This review provides a comprehensive and critical account of these developments, organized around three analytical axes: device-level primitives, architectural paradigms, and physical learning mechanisms. Device-level advances are discussed in terms of photonic neurons (engineered integrated neurons and dynamical laser neurons), synaptic and weighting elements (phase-change materials, electro-optic analogue memories, micro-ring weight banks), and the nonlinear platforms (silicon, silicon nitride, thin-film lithium niobate, III–V laser dynamics, photorefractive media) that enable neural-like behavior. Architectural paradigms are examined through five complementary families: integrated, coherent, and wavelength-multiplexed photonic neural networks (PNNs); spiking photonic systems, photonic reservoir computing, diffractive and free-space optical processors, and physically adaptive systems based on soliton dynamics in photorefractive media. Particular emphasis is placed on two milestones that mark the maturity of the field: the demonstration of monolithically integrated analogue memory for in situ training and inference, and the experimental realization of end-to-end on-chip backpropagation within a PNN. In parallel, an alternative and less explored direction based on spatial-soliton dynamics and photorefractive nonlinearities is analyzed in depth. In these so-called solitonic neural networks, computation, connectivity, and memory are co-localized within the optical medium, enabling adaptive interconnections and synaptic plasticity through the self-organization of light-induced refractive-index patterns. A comparative discussion is offered between integrated programmable architectures and physically adaptive, self-organized systems, identifying the key open challenges: scalability, stability, training efficiency, standardized benchmarking, and the integration of memory and computation, together with the opportunities that distinguish photonic from electronic neuromorphic hardware. Finally, future research directions are outlined, with particular emphasis on hybrid architectures that combine the programmability of integrated photonics with the physical plasticity of adaptive optical media. Approximately 80 recent works are systematically analyzed to trace the trajectory of the field and to provide a reference framework for the next generation of neuromorphic photonic processors.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Alessandro Bile",
+            "orcid": "https://orcid.org/0000-0002-4112-2544"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1063/5.0341175",
+        "landing_page": "https://doi.org/10.1063/5.0341175",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1063/5.0341175",
+        "publication_date": "2026-09-01",
+        "title": "Recent advances in neuromorphic photonics: Devices, architectures, and physical learning systems (2022–2026)",
+        "venue": "Applied Physics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-27T01:11:30.944574Z",
+      "status": "found"
     },
     "crossref:title:b2b283344da0a1f3bd69064acb8d5c6a06aadc0124e1ed0f4eeaa1fadde99930": {
       "expires_at": "2026-09-11T01:00:21.428757Z",
@@ -8680,6 +8914,12 @@
       "expires_at": "2026-09-22T01:03:27.612497Z",
       "record": null,
       "retrieved_at": "2026-09-15T01:03:27.612497Z",
+      "status": "not_found"
+    },
+    "crossref:title:c9101c279e7ae20dc0791bd7d5ca35c8b85531c5ebcc4f97f8c863bca6c3946e": {
+      "expires_at": "2026-10-04T01:11:35.676957Z",
+      "record": null,
+      "retrieved_at": "2026-09-27T01:11:35.676957Z",
       "status": "not_found"
     },
     "crossref:title:cbde4e7b874735126ef47edd5cebf95081723b500b74f59d1ec1de2538ee9151": {
@@ -10940,6 +11180,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-25T01:02:47.739163Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/psp4.70343": {
+      "expires_at": "2026-10-27T01:11:28.105479Z",
+      "record": {
+        "abstract": "Inverse problems in pharmacometrics and quantitative systems pharmacology (QSP) often involve sparse, noisy data, limited measurable states, and complex dynamical systems. Traditional parameter estimation methods can struggle with ill-posed problems, stiffness, discontinuities, and gray-box scenarios where only part of the system dynamics is known or observable. This tutorial provides an end-to-end, reproducible workflow for applying physics-informed neural networks (PINNs) to PK/PD/QSP inverse problems and gray-box discovery tasks. We present three worked case studies: (1) constant parameter recovery in a three-state compartmental system, (2) gray-box discovery of an unknown right-hand-side function, and (3) inference of a time-varying chemotherapy efficacy function under partial observation. For each, we provide implementation guidance, validation checks, and practical advice on collocation design, feature expansion, optimizer selection, numerical precision, constraint enforcement, loss weighting, and residual-based attention. We also discuss when to consider newer architectures such as Kolmogorov-Arnold networks (KANs) as drop-in alternatives to standard multilayer perceptrons. All code and notebooks are provided through our PhINs library, short for Pharmacometrics-Informed Networks, and are publicly available at https://github.com/NazAhmadi/PhINs/.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Nazanin Ahmadi Daryakenari",
+            "orcid": "https://orcid.org/0000-0003-2485-8987"
+          },
+          {
+            "name": "Mohammad Kohandel",
+            "orcid": "https://orcid.org/0000-0003-0667-7269"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/psp4.70343",
+        "landing_page": "https://doi.org/10.1002/psp4.70343",
+        "open_access_url": "https://doi.org/10.1002/psp4.70343",
+        "openalex_id": "https://openalex.org/W7214063940",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214063940",
+        "publication_date": "2026-09-22",
+        "title": "A Practical Tutorial on Physics‐Informed Networks for Pharmacometrics and Quantitative Systems Pharmacology",
+        "venue": "CPT Pharmacometrics & Systems Pharmacology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-27T01:11:28.105479Z",
       "status": "found"
     },
     "openalex:doi:10.1002/pssa.70508": {
@@ -14112,6 +14382,32 @@
       "retrieved_at": "2026-08-04T09:38:22.171450Z",
       "status": "found"
     },
+    "openalex:doi:10.1063/5.0341175": {
+      "expires_at": "2026-10-27T01:11:31.275032Z",
+      "record": {
+        "abstract": "Neuromorphic photonics has emerged in the past five years as one of the most promising hardware paradigms for overcoming the bandwidth, energy, and scalability limits of conventional electronic accelerators. Between 2022 and 2026, the field has undergone a rapid transition from isolated proof-of-concept demonstrations of individual photonic neurons or synaptic weights toward integrated, reconfigurable, and functionally complete systems that combine linear optical processing, in-hardware nonlinearity, analogue memory, and on-chip learning on a single substrate. This review provides a comprehensive and critical account of these developments, organized around three analytical axes: device-level primitives, architectural paradigms, and physical learning mechanisms. Device-level advances are discussed in terms of photonic neurons (engineered integrated neurons and dynamical laser neurons), synaptic and weighting elements (phase-change materials, electro-optic analogue memories, micro-ring weight banks), and the nonlinear platforms (silicon, silicon nitride, thin-film lithium niobate, III–V laser dynamics, photorefractive media) that enable neural-like behavior. Architectural paradigms are examined through five complementary families: integrated, coherent, and wavelength-multiplexed photonic neural networks (PNNs); spiking photonic systems, photonic reservoir computing, diffractive and free-space optical processors, and physically adaptive systems based on soliton dynamics in photorefractive media. Particular emphasis is placed on two milestones that mark the maturity of the field: the demonstration of monolithically integrated analogue memory for in situ training and inference, and the experimental realization of end-to-end on-chip backpropagation within a PNN. In parallel, an alternative and less explored direction based on spatial-soliton dynamics and photorefractive nonlinearities is analyzed in depth. In these so-called solitonic neural networks, computation, connectivity, and memory are co-localized within the optical medium, enabling adaptive interconnections and synaptic plasticity through the self-organization of light-induced refractive-index patterns. A comparative discussion is offered between integrated programmable architectures and physically adaptive, self-organized systems, identifying the key open challenges: scalability, stability, training efficiency, standardized benchmarking, and the integration of memory and computation, together with the opportunities that distinguish photonic from electronic neuromorphic hardware. Finally, future research directions are outlined, with particular emphasis on hybrid architectures that combine the programmability of integrated photonics with the physical plasticity of adaptive optical media. Approximately 80 recent works are systematically analyzed to trace the trajectory of the field and to provide a reference framework for the next generation of neuromorphic photonic processors.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Alessandro Bile",
+            "orcid": "https://orcid.org/0000-0002-4112-2544"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1063/5.0341175",
+        "landing_page": "https://doi.org/10.1063/5.0341175",
+        "open_access_url": "https://doi.org/10.1063/5.0341175",
+        "openalex_id": "https://openalex.org/W7214084866",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214084866",
+        "publication_date": "2026-09-01",
+        "title": "Recent advances in neuromorphic photonics: Devices, architectures, and physical learning systems (2022–2026)",
+        "venue": "Applied Physics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-27T01:11:31.275032Z",
+      "status": "found"
+    },
     "openalex:doi:10.1063/5.0350777": {
       "expires_at": "2026-10-15T01:03:34.077861Z",
       "record": {
@@ -15212,6 +15508,56 @@
       "retrieved_at": "2026-09-04T01:00:24.056205Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/tce.2026.3735750": {
+      "expires_at": "2026-10-27T01:11:30.356296Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Raiha Tallat",
+            "orcid": "https://orcid.org/0000-0002-0778-8107"
+          },
+          {
+            "name": "Xingfu Wang",
+            "orcid": "https://orcid.org/0000-0002-1301-3535"
+          },
+          {
+            "name": "Ammar Hawbani",
+            "orcid": "https://orcid.org/0000-0002-1069-3993"
+          },
+          {
+            "name": "X X Xu",
+            "orcid": "https://orcid.org/0000-0001-7770-803X"
+          },
+          {
+            "name": "Fuyou Miao",
+            "orcid": "https://orcid.org/0000-0001-8682-6003"
+          },
+          {
+            "name": "Liang Zhao",
+            "orcid": "https://orcid.org/0000-0001-5829-6850"
+          },
+          {
+            "name": "Zhi Liu",
+            "orcid": "https://orcid.org/0000-0003-0537-4522"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tce.2026.3735750",
+        "landing_page": "https://doi.org/10.1109/tce.2026.3735750",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7214188321",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214188321",
+        "publication_date": "2026-01-01",
+        "title": "FedCluster: Client Clustering Meets Hierarchical Federated Learning",
+        "venue": "IEEE Transactions on Consumer Electronics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-27T01:11:30.356296Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/tgrs.2026.3725659": {
       "expires_at": "2026-09-26T16:32:40.567202Z",
       "record": {
@@ -16082,6 +16428,84 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-18T01:02:23.182264Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1126/sciadv.aeh0904": {
+      "expires_at": "2026-10-27T01:11:29.436558Z",
+      "record": {
+        "abstract": "Nonlinear optics underpins a broad range of photonic technologies, from classical and quantum light sources to emerging nonlinear photonic neural networks. Yet, conventional nonlinear-optical devices exhibit static functionality: Their transfer characteristics and emission profiles are dictated by the intrinsic nonlinear process and locked by fabrication, limiting adaptability. Here, we introduce an ultrathin metasurface platform that enables dynamic reconfiguration of nonlinear functionality in a contactless fashion. By leveraging all-optical control of the optical torque exerted on liquid crystal molecules infiltrating a resonant metasurface, we achieve tunable polynomial nonlinear transfer functions based on the third-harmonic generation process. This mechanism further allows reconfigurable modulation of nonlinear weighting across different diffraction orders, revealing a previously unexplored interplay between mode structure and nonlinear emission. Our approach opens up a pathway toward field-programmable nonlinear photonic systems, offering unprecedented flexibility for reconfigurable nonlinear signal processing and adaptive photonic computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ziwei Yang",
+            "orcid": null
+          },
+          {
+            "name": "Lei Xu",
+            "orcid": null
+          },
+          {
+            "name": "Gabriel Sanderson",
+            "orcid": "https://orcid.org/0009-0005-0477-4163"
+          },
+          {
+            "name": "Akhshay Singh Bhadwal",
+            "orcid": "https://orcid.org/0000-0002-6700-2604"
+          },
+          {
+            "name": "Luyao Wang",
+            "orcid": null
+          },
+          {
+            "name": "Katsuya Tanaka",
+            "orcid": "https://orcid.org/0000-0001-8230-8479"
+          },
+          {
+            "name": "Muyi Yang",
+            "orcid": "https://orcid.org/0000-0002-1738-4536"
+          },
+          {
+            "name": "Mingkai Liu",
+            "orcid": null
+          },
+          {
+            "name": "Shaun Lung",
+            "orcid": "https://orcid.org/0000-0001-7762-6616"
+          },
+          {
+            "name": "Isabelle Staude",
+            "orcid": "https://orcid.org/0000-0001-8021-572X"
+          },
+          {
+            "name": "Thomas Pertsch",
+            "orcid": "https://orcid.org/0000-0003-4889-0869"
+          },
+          {
+            "name": "Carl Brown",
+            "orcid": null
+          },
+          {
+            "name": "Mohsen Rahmani",
+            "orcid": null
+          },
+          {
+            "name": "Dragomir N. Neshev",
+            "orcid": "https://orcid.org/0000-0002-4508-8646"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1126/sciadv.aeh0904",
+        "landing_page": "https://doi.org/10.1126/sciadv.aeh0904",
+        "open_access_url": "https://doi.org/10.1126/sciadv.aeh0904",
+        "openalex_id": "https://openalex.org/W7151392434",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7151392434",
+        "publication_date": "2026-09-25",
+        "title": "All-optical control of nonlinear emission from resonant metasurfaces",
+        "venue": "Science Advances",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-27T01:11:29.436558Z",
       "status": "found"
     },
     "openalex:doi:10.1142/s0218863526400163": {
@@ -18116,6 +18540,32 @@
       "retrieved_at": "2026-09-01T01:13:13.394348Z",
       "status": "found"
     },
+    "openalex:doi:10.3389/frai.2026.1922367": {
+      "expires_at": "2026-10-27T01:11:36.618194Z",
+      "record": {
+        "abstract": "This article addresses the requirements for a photonic artificial intelligence (AI) capable of supporting a deeper understanding of the Planck epoch in the origin of the Universe. The article continues the previous author’s articles, which outlined requirements for AI to support studies of protein evolution on Earth, cosmic strings (CS) detection, and a non-standard view on the photon’s nature. Modern digital generative AI cannot support its solution due to a lack of training datasets and limited energy resources for conducting adequate physical experiments. This article analyses the states of the Planck epoch, when there was no space–time, and when entropy began to emerge. It outlines additional requirements for an AI and proposes an adequate full-analogue photonic AI (PAI) that can be helpful for the research. The main idea of the PAI is to reject digitising the natural analogue signal and to use single-step Fourier convolution on many images simultaneously for representing states of the Planck epoch. To create PAI, a single holographic plate must replace a multilevel digital neural network, thereby eliminating the need for traditional multi-step machine learning. PAI is also expected to provide effective solutions to complex tasks such as Markov chains, genetic algorithms, and Kolmogorov (Fokker-Planck) equations, which are necessary for this research. The author’s convergent methodology helps make the research focused and stable. This methodology is based on fundamental thermodynamics and the inverse-problem-solving method in topological spaces. The PAI project has a starting technology readiness level: methodology, principles, and design.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Aleksandr Raikov",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3389/frai.2026.1922367",
+        "landing_page": "https://doi.org/10.3389/frai.2026.1922367",
+        "open_access_url": "https://doi.org/10.3389/frai.2026.1922367",
+        "openalex_id": "https://openalex.org/W7214275046",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214275046",
+        "publication_date": "2026-09-25",
+        "title": "Photonic AI for deeper understanding of the Planck epoch",
+        "venue": "Frontiers in Artificial Intelligence",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-27T01:11:36.618194Z",
+      "status": "found"
+    },
     "openalex:doi:10.3390/aerospace13090835": {
       "expires_at": "2026-10-18T01:02:30.201153Z",
       "record": {
@@ -19184,6 +19634,12 @@
       "retrieved_at": "2026-09-21T01:07:31.196927Z",
       "status": "not_found"
     },
+    "openalex:title:151986a082bf330392728bdeca8017bc62c4ef4c1c80eb8ce67bf36365773eab": {
+      "expires_at": "2026-10-04T01:11:35.174416Z",
+      "record": null,
+      "retrieved_at": "2026-09-27T01:11:35.174416Z",
+      "status": "not_found"
+    },
     "openalex:title:194b18c310f1c95fa7b57f32bf8eac8d8d12cca5a8f0adbc26cb774d869457a4": {
       "expires_at": "2026-09-07T01:07:02.675473Z",
       "record": {
@@ -19305,6 +19761,32 @@
       "record": null,
       "retrieved_at": "2026-09-25T01:02:51.365862Z",
       "status": "not_found"
+    },
+    "openalex:title:3155492c097c4d99ba721fef59868ee322b28a6d7c74600ec0d8b04fbdbe93d9": {
+      "expires_at": "2026-10-04T01:11:29.011596Z",
+      "record": {
+        "abstract": "Composite materials are applied for numerous engineering tasks due to their distinguished properties, obtained from combining different constituent materials. By this combination, it is possible to achieve constitutive characteristics optimized for a given task. To improve the load-bearing capacity of composite materials, it is necessary to understand and leverage the characteristics of the mesoscopic interactions of the constituents, which produce the favorable composite behavior. This knowledge can then be utilized to optimize macroscopic structures when applying the composite material. The thesis at hand contributes to the field of numerical multi-scale analysis of composite materials with history-dependent constitutive behavior utilizing machine learning methods. It presents computational approaches to efficiently represent the mechanical response, including general inelastic processes, of materials with heterogeneous mesostructures in macroscopic investigations. The presented multi-scale modeling approach is based on artificial neural networks (ANNs) processing sequences of mechanical data. Such mechanical data can be obtained from physical or numerical experiments and must contain information on the current load state and the material state, i.e., information on previously encountered loads and the corresponding constitutive behavior. An ANN constitutive description, representing the effective macroscopic constitutive behavior, can be optimized on the experimental data. With a sequential input that considers the previous material states, it is possible to obtain a representation for different inelastic phenomena. This setup, requiring previously predicted constitutive responses for the computation of the current mechanical behavior, necessitates an adaption of the optimization framework due to the inevitable presence of errors in the predicted responses. By introducing a sequential optimization approach, the influence of these errors on the computation, and the errors themselves, can be reduced. To achieve this, the relevant information in the data base for optimization is iteratively adapted to represent the neural network’s current prediction error. The efficacy of this training scheme is demonstrated for heterogeneous mesostructures with elasto-plastic as well as a strain-softening constitutive descriptions. The thereby obtained ANNs are successfully applied in numerical macro-scale investigations, demonstrating their potential as an alternative to numerical multi-scale analysis for modeling inelastic composite materials. The foundation of this analysis is however contingent upon the assumption that a composite material can be characterized with sufficient accuracy by a single representative mesoscopic unit volume. The constraints introduced by this assumption can be partially remedied by requiring only statistical representativeness over a set of mesoscopic volumes. In order to achieve computational efficiency, the approach of employing sequences of mechanical data as a computational basis for ANNs to model history-dependent constitutive behavior is extended to consider such sets of mesoscopic volumes. The potential of this development is demonstrated by a numerical example.:1 Introduction 1 1.1 Objective and scope of the thesis . . . . . . . . . . . . . . . . . . . . . 1 1.2 Outline of the thesis . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 2 Fundamentals of continuum mechanics and the finite element method 5 2.1 Continuum mechanical fundamentals . . . . . . . . . . . . . . . . . . . 5 2.1.1 Kinematics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 2.1.2 Deformation measures . . . . . . . . . . . . . . . . . . . . . . . 8 2.1.3 Stress measures . . . . . . . . . . . . . . . . . . . . . . . . . . . 9 2.1.4 Continuum mechanical balance laws . . . . . . . . . . . . . . . 9 2.2 Finite element formulation . . . . . . . . . . . . . . . . . . . . . . . . . 14 2.2.1 Weak formulation of boundary value problems . . . . . . . . . 15 2.2.2 Spatial discretization . . . . . . . . . . . . . . . . . . . . . . . . 15 2.2.3 Consistent finite element linearization . . . . . . . . . . . . . . 17 2.3 Nonlocal continuum mechanics . . . . . . . . . . . . . . . . . . . . . . 18 2.3.1 Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 2.3.2 Computational considerations . . . . . . . . . . . . . . . . . . . 19 2.3.3 Finite element linearization . . . . . . . . . . . . . . . . . . . . 21 3 Aspects of computational homogenization 23 3.1 Principle of multi-scale virtual power . . . . . . . . . . . . . . . . . . . 23 3.2 Homogenization boundary conditions . . . . . . . . . . . . . . . . . . . 26 3.2.1 Linear displacement boundary conditions . . . . . . . . . . . . 26 3.2.2 Uniform traction boundary conditions . . . . . . . . . . . . . . 27 3.2.3 Periodic displacement boundary conditions . . . . . . . . . . . 27 4 Artificial neural networks in numerical multi-scale modeling 29 4.1 Fundamentals of artificial neural networks . . . . . . . . . . . . . . . . 29 4.1.1 Feed-forward neural networks . . . . . . . . . . . . . . . . . . . 29 4.1.2 Recurrent neural networks . . . . . . . . . . . . . . . . . . . . . 31 4.1.3 Convolutional neural networks . . . . . . . . . . . . . . . . . . 34 4.1.4 Autoencoders . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36 4.1.5 Neural network training . . . . . . . . . . . . . . . . . . . . . . 37 4.2 Data set acquisition and preprocessing . . . . . . . . . . . . . . . . . . 41 4.2.1 Design of experiment . . . . . . . . . . . . . . . . . . . . . . . . 41 4.2.2 Data normalization . . . . . . . . . . . . . . . . . . . . . . . . . 43 4.2.3 Sequencing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44 4.2.4 Data dilution . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44 4.2.5 CNN data acquisition . . . . . . . . . . . . . . . . . . . . . . . 46 4.3 Neural network constitutive description . . . . . . . . . . . . . . . . . 46 4.3.1 Constitutive model training . . . . . . . . . . . . . . . . . . . . 48 4.3.2 ANN material tangent computation . . . . . . . . . . . . . . . 50 4.4 Investigation of the signal processing in an LSTM cell . . . . . . . . . 52 5 Investigation of training parameter influence on the ANN model performance 57 5.1 Data set acquisition and preprocessing . . . . . . . . . . . . . . . . . . 57 5.2 Hyper-parameter study and test performance . . . . . . . . . . . . . . 58 5.2.1 ANN training results . . . . . . . . . . . . . . . . . . . . . . . . 59 5.2.2 Generalization performance on training data distribution . . . 59 5.2.3 Generalized test performance . . . . . . . . . . . . . . . . . . . 61 5.3 Application in numerical simulations . . . . . . . . . . . . . . . . . . . 62 6 A self-adversarial training approach 71 6.1 Self-adversarial training prerequisites . . . . . . . . . . . . . . . . . . . 72 6.2 Feedback testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74 6.3 Sequential training scheme for increased robustness . . . . . . . . . . . 75 7 Recurrent neural network constitutive description for inelastic material behavior 81 7.1 Application to elasto-plastic constitutive behavior . . . . . . . . . . . . 81 7.1.1 Data acquisition . . . . . . . . . . . . . . . . . . . . . . . . . . 81 7.1.2 Neural network training and evaluation . . . . . . . . . . . . . 84 7.1.3 Constitutive model application in finite element analysis . . . . 90 7.1.4 Example for plasticity with linear hardening . . . . . . . . . . . 91 7.2 Application within an implicit gradient enhanced damage framework . 94 7.2.1 Data acquisition . . . . . . . . . . . . . . . . . . . . . . . . . . 95 7.2.2 Neural network training and evaluation . . . . . . . . . . . . . 102 7.2.3 Constitutive model application in finite element analysis . . . . 103 7.2.4 Discussion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 110 8 Machine learning based homogenization of heterogeneous mesostructures 113 8.1 Application to elastic heterogeneous mesostructures . . . . . . . . . . 114 8.1.1 Data acquisition . . . . . . . . . . . . . . . . . . . . . . . . . . 114 8.1.2 Neural network architectures and training results . . . . . . . . 116 8.2 Application to elasto-plastic heterogeneous mesostructure . . . . . . . 123 8.2.1 Data acquisition . . . . . . . . . . . . . . . . . . . . . . . . . . 124 8.2.2 Neural network architecture and training results . . . . . . . . 125 9 Concluding remarks 129 9.1 Conclusions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 129 9.2 Outlook . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 130",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Julien Philipp Stöcker",
+            "orcid": "https://orcid.org/0000-0003-2791-2280"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": null,
+        "landing_page": "https://tud.qucosa.de/id/qucosa%3A106821",
+        "open_access_url": "https://tud.qucosa.de/id/qucosa%3A106821",
+        "openalex_id": "https://openalex.org/W7214139752",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214139752",
+        "publication_date": "2025-01-28",
+        "title": "On numericalmultiscale analysis of inelastic composite materials by artificial neural networks",
+        "venue": "Qucosa (Saxon State and University Library Dresden)",
+        "year": 2025
+      },
+      "retrieved_at": "2026-09-27T01:11:29.011596Z",
+      "status": "found"
     },
     "openalex:title:33a45e5cd73326adf0ab633eda1af5255e00d2d4b19bcf135911375e505af8e2": {
       "expires_at": "2026-09-12T00:59:51.041429Z",
@@ -20274,6 +20756,12 @@
       "retrieved_at": "2026-08-18T04:25:27.472018Z",
       "status": "not_found"
     },
+    "openalex:title:a0a599ac68014d4b1192fc605c8ca96601d74e8b60d1cb9b8c96ac411ace0f64": {
+      "expires_at": "2026-10-04T01:11:32.429504Z",
+      "record": null,
+      "retrieved_at": "2026-09-27T01:11:32.429504Z",
+      "status": "not_found"
+    },
     "openalex:title:a3f18eec772fb78c19795a9e1c18c07c9beea848799b21c9855e2593626bcaf0": {
       "expires_at": "2026-08-25T04:25:08.194699Z",
       "record": null,
@@ -20310,6 +20798,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-04T01:00:17.680869Z",
+      "status": "found"
+    },
+    "openalex:title:a576c400a96f9ec12926bd9cdc2e03d381a4efd74c6deea994085b3a04f073ea": {
+      "expires_at": "2026-10-04T01:11:33.894898Z",
+      "record": {
+        "abstract": "Thermal Visual Place Recognition (Thermal VPR) maps camera observations to metric poses within a mapped environment, serving as a prerequisite for autonomous navigation. However, thermal VPR suffers from severe environmental dependence, heavy online retraining overheads, and an inability to model dynamic non-linear shifts, causing existing frameworks to fail during online deployment. To achieve robust domain-invariant place recognition, we bridge Analytic Class-Incremental Learning (ACIL) with domain-invariant VPR for the first time, revealing that its gradient-free matrix updates construct a surprisingly strong baseline that outperforms conventional fine-tuning. Nevertheless, standard ACIL exhibits a critical vulnerability to extreme non-linear thermal fluctuations due to its structural linear assumptions. To overcome this limitation, we exploit a novel algebraic equivalence between ACIL and modern control theory, proposing a framework which embeds Unscented propagation (U-ACIL), Gaussian Mixture partitioning (GMM-ACIL), and minimax $H_\\infty$ optimization ($H_\\infty$-ACIL) directly into the update loop. Our formulation guarantees exact closed-form matrix updates within $\\mathcal{O}(1)$ computational complexity, bypassing backpropagation to ensure that the online update latency ($Δt_{\\mathrm{learn}}$) remains strictly bounded below the sensor acquisition interval ($Δt_{\\mathrm{acquire}}$), thereby eliminating trajectory jumps in real-time SLAM pipelines.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yanshuo Bai",
+            "orcid": null
+          },
+          {
+            "name": "Kanji Tanaka",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.26766",
+        "landing_page": "https://arxiv.org/abs/2609.26766",
+        "open_access_url": "https://arxiv.org/abs/2609.26766",
+        "openalex_id": "https://openalex.org/W7214084809",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214084809",
+        "publication_date": "2026-09-22",
+        "title": "TM-APR: Thermal Temporal-Memory Localization via Analytic Online Adaptation",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-27T01:11:33.894898Z",
       "status": "found"
     },
     "openalex:title:a6c3f371dc2cf9bcbbc7c639b864b43aefb6dcd8524e1276f6846d6b8008d619": {
@@ -20726,6 +21244,12 @@
       "expires_at": "2026-09-22T01:03:29.566395Z",
       "record": null,
       "retrieved_at": "2026-09-15T01:03:29.566395Z",
+      "status": "not_found"
+    },
+    "openalex:title:c9101c279e7ae20dc0791bd7d5ca35c8b85531c5ebcc4f97f8c863bca6c3946e": {
+      "expires_at": "2026-10-04T01:11:36.158208Z",
+      "record": null,
+      "retrieved_at": "2026-09-27T01:11:36.158208Z",
       "status": "not_found"
     },
     "openalex:title:cbde4e7b874735126ef47edd5cebf95081723b500b74f59d1ec1de2538ee9151": {

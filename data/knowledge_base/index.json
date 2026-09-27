@@ -269,6 +269,15 @@
       "summary_record_sha256": "132be0d775bcf4ebd6fb353441239c6cd15e26bd80ecaebf61429617154fb15e",
       "title": "Coverage, Not Credit: Failure-Credit Routing of Zeroth-Order Perturbation Budgets Does Not Improve On-Pool Sample Efficiency for LLM Agents"
     },
+    "5ec8e35ad02131d8ed156970": {
+      "digest_date": "2026-09-27",
+      "doi": "10.1126/sciadv.aeh0904",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "c4a650b558f2867b4d73c876388ad09254a36180d047f41114481ae0a2f0f520",
+      "title": "All-optical control of nonlinear emission from resonant metasurfaces"
+    },
     "6dc0459f08567bbd051cc579": {
       "digest_date": "2026-09-25",
       "doi": "10.1364/josaa.608366",
@@ -430,6 +439,15 @@
       ],
       "summary_record_sha256": "4cdf580dfcf6728bdf15f7db9deac28372a5eaa7f6f1a2139f265f74a70db9e4",
       "title": "Ultra-sensitive 2D Dion−Jacobson perovskite phototransistors for optoelectronic neuromorphic computing"
+    },
+    "ae3adee8419a5db7be7ec3b2": {
+      "digest_date": "2026-09-27",
+      "doi": "10.1063/5.0341175",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "3b05dae40072efe77b4c02e121f88740ac719b2dfa20ce4c82c80df992ff9470",
+      "title": "Recent advances in neuromorphic photonics: Devices, architectures, and physical learning systems (2022–2026)"
     },
     "b03b6320be57edd77b3ad7e5": {
       "digest_date": "2026-08-31",
@@ -704,6 +722,10 @@
       "6dc0459f08567bbd051cc579",
       "93f3ffb1741a00e1480b8ab2",
       "c01ea24e589c31ebd4af01d6"
+    ],
+    "2026-09-27": [
+      "5ec8e35ad02131d8ed156970",
+      "ae3adee8419a5db7be7ec3b2"
     ]
   },
   "by_doi": {
@@ -727,6 +749,7 @@
     "10.1038/s41598-026-69259-y": "37a9533a60e5cdd68ef3c483",
     "10.1038/s44335-026-00086-0": "328b1572ba0e31f8f8a6dac1",
     "10.1038/s44335-026-00096-y": "35ff63ef9d3333099ee28868",
+    "10.1063/5.0341175": "ae3adee8419a5db7be7ec3b2",
     "10.1063/5.0350777": "a7f4407333af25ddc7630e14",
     "10.1088/1361-6633/ae9e8c": "4bb38e8bcc3a3d164bd28700",
     "10.1088/2632-2153/aea3a0": "fca2cfc597728ee01e2a6032",
@@ -740,6 +763,7 @@
     "10.1126/sciadv.aee9649": "44fa3bd6f72c84820ce42dab",
     "10.1126/sciadv.aef8657": "c7b91f881a121b7e1651e2f2",
     "10.1126/sciadv.aeg8394": "557b41cb542bf10e84da81f2",
+    "10.1126/sciadv.aeh0904": "5ec8e35ad02131d8ed156970",
     "10.1145/3770855.3817661": "ead3d4ba8c5090acac05878a",
     "10.1145/3770855.3817738": "172a6e3e7b78c39c328487a6",
     "10.1145/3837864": "0e5c75b6132afcfb1f7afb17",
@@ -795,6 +819,7 @@
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
       "557b41cb542bf10e84da81f2",
+      "5ec8e35ad02131d8ed156970",
       "6dc0459f08567bbd051cc579",
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
@@ -812,6 +837,7 @@
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
       "a7f4407333af25ddc7630e14",
+      "ae3adee8419a5db7be7ec3b2",
       "b832199d8494cc67a559fec5",
       "c01ea24e589c31ebd4af01d6",
       "c3474ba19a69c715eb87d391",
@@ -893,6 +919,9 @@
     "application:偏振分辨lidar感知": [
       "fd6f281418ac4d412744b2ac"
     ],
+    "application:储备池计算": [
+      "ae3adee8419a5db7be7ec3b2"
+    ],
     "application:像素级状态识别": [
       "8ed2e70c4b7d42f84e3676a7"
     ],
@@ -901,6 +930,9 @@
     ],
     "application:光子张量核心计算": [
       "9322fad036b3d7fc8e3dd47b"
+    ],
+    "application:光子神经网络推理与训练": [
+      "ae3adee8419a5db7be7ec3b2"
     ],
     "application:光学信息存储": [
       "8ce6ad350a786420a01c4dd8"
@@ -934,6 +966,9 @@
     ],
     "application:单步光学线性加权": [
       "8ed2e70c4b7d42f84e3676a7"
+    ],
+    "application:可重构非线性信号处理": [
+      "5ec8e35ad02131d8ed156970"
     ],
     "application:四通道波分复用光神经网络中的非线性激活": [
       "c3474ba19a69c715eb87d391"
@@ -1042,11 +1077,17 @@
     "application:激光雷达信号处理与多目标运动场景实时重建": [
       "04bdf084776bcfe0d6f912cb"
     ],
+    "application:物理自适应计算": [
+      "ae3adee8419a5db7be7ec3b2"
+    ],
     "application:生物医学信号处理": [
       "7bc9d4230ed283852c3248a7"
     ],
     "application:生物成像": [
       "35ff63ef9d3333099ee28868"
+    ],
+    "application:神经形态计算": [
+      "ae3adee8419a5db7be7ec3b2"
     ],
     "application:稳态调节（homeostatic regulation）": [
       "79855d774b83ef6c7c8a8a47"
@@ -1062,6 +1103,12 @@
     ],
     "application:自动驾驶系统的机器视觉": [
       "35ff63ef9d3333099ee28868"
+    ],
+    "application:自由空间光处理": [
+      "ae3adee8419a5db7be7ec3b2"
+    ],
+    "application:自适应光子计算": [
+      "5ec8e35ad02131d8ed156970"
     ],
     "application:语音识别（fsdd）": [
       "1cf1fcd769c5ace951188b8c"
@@ -1127,6 +1174,7 @@
       "b832199d8494cc67a559fec5"
     ],
     "architecture:hybrid": [
+      "ae3adee8419a5db7be7ec3b2",
       "d69a4f93ca6340969e1077a8"
     ],
     "architecture:integrated": [
@@ -1155,6 +1203,7 @@
       "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
       "541094f286db8902f2fe6077",
+      "5ec8e35ad02131d8ed156970",
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
@@ -1193,6 +1242,7 @@
       "35ff63ef9d3333099ee28868",
       "5017adbd33e6ddd5c320a4c4",
       "557b41cb542bf10e84da81f2",
+      "5ec8e35ad02131d8ed156970",
       "7edb19b24759fe609707ba01",
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
@@ -1248,6 +1298,7 @@
       "5017adbd33e6ddd5c320a4c4",
       "541094f286db8902f2fe6077",
       "557b41cb542bf10e84da81f2",
+      "5ec8e35ad02131d8ed156970",
       "6dc0459f08567bbd051cc579",
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
@@ -1265,6 +1316,7 @@
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
       "a7f4407333af25ddc7630e14",
+      "ae3adee8419a5db7be7ec3b2",
       "b832199d8494cc67a559fec5",
       "c01ea24e589c31ebd4af01d6",
       "c3474ba19a69c715eb87d391",
@@ -1399,6 +1451,9 @@
     "Applied Physics Letters": [
       "a7f4407333af25ddc7630e14"
     ],
+    "Applied Physics Reviews": [
+      "ae3adee8419a5db7be7ec3b2"
+    ],
     "CLEO 2026": [
       "5017adbd33e6ddd5c320a4c4"
     ],
@@ -1479,6 +1534,7 @@
     "Science Advances": [
       "44fa3bd6f72c84820ce42dab",
       "557b41cb542bf10e84da81f2",
+      "5ec8e35ad02131d8ed156970",
       "c7b91f881a121b7e1651e2f2"
     ],
     "Scientific Reports": [
@@ -1542,6 +1598,7 @@
       "541094f286db8902f2fe6077",
       "557b41cb542bf10e84da81f2",
       "5e49047e7ce2004f7954debb",
+      "5ec8e35ad02131d8ed156970",
       "6dc0459f08567bbd051cc579",
       "7719ae17086cb97168bebbc5",
       "79855d774b83ef6c7c8a8a47",
@@ -1560,6 +1617,7 @@
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
       "a7f4407333af25ddc7630e14",
+      "ae3adee8419a5db7be7ec3b2",
       "b03b6320be57edd77b3ad7e5",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
@@ -1580,7 +1638,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 64,
+  "paper_count": 66,
   "schema_version": 1,
-  "updated_at": "2026-09-25T01:04:25.668556Z"
+  "updated_at": "2026-09-27T01:12:10.608638Z"
 }

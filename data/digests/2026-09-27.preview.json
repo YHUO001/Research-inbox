@@ -1,0 +1,42 @@
+{
+  "built_at": "2026-09-27T01:11:37.819902Z",
+  "digest_date": "2026-09-27",
+  "digest_version": 1,
+  "pending_summary_count": 2,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "5ec8e35ad02131d8ed156970",
+        "landing_page": "https://doi.org/10.1126/sciadv.aeh0904",
+        "mandatory": false,
+        "score": 0.82,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "All-optical control of nonlinear emission from resonant metasurfaces",
+        "venue": "Science Advances",
+        "year": 2026
+      },
+      {
+        "candidate_id": "ae3adee8419a5db7be7ec3b2",
+        "landing_page": "https://doi.org/10.1063/5.0341175",
+        "mandatory": false,
+        "score": 0.79,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Recent advances in neuromorphic photonics: Devices, architectures, and physical learning systems (2022–2026)",
+        "venue": "Applied Physics Reviews",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

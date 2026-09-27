@@ -1,23 +1,24 @@
 {
   "accepted_candidate_ids": [
-    "70d2b8d7ef310895b48e03e2"
+    "5ec8e35ad02131d8ed156970",
+    "f89e950ac8920659c62f2d04"
   ],
-  "accepted_count": 1,
-  "built_at": "2026-09-26T01:01:17.171380Z",
+  "accepted_count": 2,
+  "built_at": "2026-09-27T01:11:21.470152Z",
   "discovery_version": 1,
   "duplicate_count": 3,
   "duplicate_reasons": {
     "openalex_work_id": 3
   },
-  "filtered_count": 63,
+  "filtered_count": 64,
   "invalid_count": 0,
   "query_error_count": 0,
   "query_summaries": [
     {
-      "accepted": 0,
+      "accepted": 1,
       "duplicates": 0,
       "error": null,
-      "filtered": 10,
+      "filtered": 9,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "optical-neural-network",
@@ -25,9 +26,9 @@
     },
     {
       "accepted": 1,
-      "duplicates": 0,
+      "duplicates": 1,
       "error": null,
-      "filtered": 9,
+      "filtered": 8,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "photonic-neural-network",
@@ -65,9 +66,9 @@
     },
     {
       "accepted": 0,
-      "duplicates": 2,
+      "duplicates": 1,
       "error": null,
-      "filtered": 8,
+      "filtered": 9,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "physical-neural-network-training",
@@ -77,11 +78,11 @@
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 2,
+      "filtered": 4,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-neural-network",
-      "raw_results": 2
+      "raw_results": 4
     },
     {
       "accepted": 0,
@@ -104,11 +105,11 @@
       "raw_results": 1
     }
   ],
-  "raw_result_count": 67,
-  "registry_candidate_count": 367,
-  "registry_sha256": "eeefc8c74f9989a0c4a2f529a753638f515d05eed59b210aaf2f238d4d8cdf24",
+  "raw_result_count": 69,
+  "registry_candidate_count": 377,
+  "registry_sha256": "19217b8afd72de38033b21446db94c04c5428bcbd8056c365d27cdcbf2255a31",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-09-26",
-  "window_start": "2026-09-22"
+  "window_end": "2026-09-27",
+  "window_start": "2026-09-23"
 }

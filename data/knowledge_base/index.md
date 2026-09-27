@@ -1,10 +1,26 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`64`
-- 更新时间：`2026-09-25T01:04:25.668556Z`
+- 论文数：`66`
+- 更新时间：`2026-09-27T01:12:10.608638Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Recent advances in neuromorphic photonics: Devices, architectures, and physical learning systems (2022–2026)
+
+- DOI/链接：[10.1063/5.0341175](https://doi.org/10.1063/5.0341175)
+- 期刊/年份：Applied Physics Reviews，2026
+- 摘要日期：`2026-09-27`
+- 候选 ID：`ae3adee8419a5db7be7ec3b2`
+- 标签：application:储备池计算, application:光子神经网络推理与训练, application:物理自适应计算, application:神经形态计算, application:自由空间光处理, architecture:hybrid, project:optical-neural-networks
+
+### All-optical control of nonlinear emission from resonant metasurfaces
+
+- DOI/链接：[10.1126/sciadv.aeh0904](https://doi.org/10.1126/sciadv.aeh0904)
+- 期刊/年份：Science Advances，2026
+- 摘要日期：`2026-09-27`
+- 候选 ID：`5ec8e35ad02131d8ed156970`
+- 标签：application:可重构非线性信号处理, application:自适应光子计算, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Surrogate Scattering Matrix‐Guided Inverse Design of Nanophotonic Neural Networks
 
