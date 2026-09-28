@@ -1,7 +1,7 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`66`
-- 更新时间：`2026-09-27T01:12:10.608638Z`
+- 论文数：`67`
+- 更新时间：`2026-09-28T01:12:51.443685Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
@@ -429,6 +429,14 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### ZOCheck: CPU-Shadow Checkpointing for Zeroth-Order LLM Fine-Tuning
+
+- DOI/链接：[10.48550/arxiv.2609.27189](https://doi.org/10.48550/arxiv.2609.27189)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-09-28`
+- 候选 ID：`f180e20173fd0995c081891b`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
 
 ### Algorithmically Faithful and System-Efficient Optimization for Large Language Models
 

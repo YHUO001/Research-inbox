@@ -1,16 +1,15 @@
 {
   "accepted_candidate_ids": [
-    "5ec8e35ad02131d8ed156970",
-    "f89e950ac8920659c62f2d04"
+    "0edf55f50f914a65e1e11605"
   ],
-  "accepted_count": 2,
-  "built_at": "2026-09-27T01:11:21.470152Z",
+  "accepted_count": 1,
+  "built_at": "2026-09-28T01:11:17.689758Z",
   "discovery_version": 1,
-  "duplicate_count": 3,
+  "duplicate_count": 4,
   "duplicate_reasons": {
-    "openalex_work_id": 3
+    "openalex_work_id": 4
   },
-  "filtered_count": 64,
+  "filtered_count": 60,
   "invalid_count": 0,
   "query_error_count": 0,
   "query_summaries": [
@@ -25,8 +24,8 @@
       "raw_results": 10
     },
     {
-      "accepted": 1,
-      "duplicates": 1,
+      "accepted": 0,
+      "duplicates": 2,
       "error": null,
       "filtered": 8,
       "invalid": 0,
@@ -78,38 +77,38 @@
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 4,
+      "filtered": 3,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-neural-network",
-      "raw_results": 4
+      "raw_results": 3
     },
     {
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 4,
+      "filtered": 2,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-llm",
-      "raw_results": 4
+      "raw_results": 2
     },
     {
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 1,
+      "filtered": 0,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-optical",
-      "raw_results": 1
+      "raw_results": 0
     }
   ],
-  "raw_result_count": 69,
-  "registry_candidate_count": 377,
-  "registry_sha256": "19217b8afd72de38033b21446db94c04c5428bcbd8056c365d27cdcbf2255a31",
+  "raw_result_count": 65,
+  "registry_candidate_count": 393,
+  "registry_sha256": "719d5ab718e5a844ecfbe872354007ade0d312da0c10c9ccd89cb6f07f4f5af0",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-09-27",
-  "window_start": "2026-09-23"
+  "window_end": "2026-09-28",
+  "window_start": "2026-09-24"
 }

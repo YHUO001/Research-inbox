@@ -1846,6 +1846,32 @@
       "retrieved_at": "2026-08-27T16:32:38.612022Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/s41939-026-01271-1": {
+      "expires_at": "2026-10-28T01:11:36.814223Z",
+      "record": {
+        "abstract": "Abstract Neuromorphic systems hold the promise of ultra-low-power event-conditions intelligence, but noise and non-idealities of hardware of the memristive devices limit their practical use. Nonetheless, it is not understood how to attain an inference which is both noise-robust and accurate as well as energy-efficient across realistic multi-source perturbations. In this case we develop a metaheuristic evolutionary learning system which substantially alleviates this well-known robustness–efficiency trade-off in memristive spiking neural networks. The optimization of spiking networks is done with a noise-aware form of evolutionary strategy that explicitly takes into consideration event-based input noise, spike-timing jitter, conductance variability and long-term drift. Several noise levels are tested and compared with a three-level gradient trained spiking network, ANN-to-SNN conversion and non-evolved memristive SNN with fixed parameters in the context of the task of gesture recognition based on events. At low noise (ρ = 0.1) all four models reach similar accuracies of around 95% (n = 336). The proposed MSNN shows 87–91 percent accuracy at moderate noise (0.40–0.6), while the accuracy of gradient-based SNNs and ANN-to-SNN models are 70–80 percent and below 60 percent, respectively. Even with extreme noise (0.8–1.0), the accuracy is 76–82 compared to 51% and ANN-to-SNN models break to approximately 25%. Normalized robustness analysis shows that the highest loss of relative accuracy is about 0.21 which is three to four times less than baseline models. These findings indicate that evolutionary optimization reveals inaccessible noise tolerant representations with sparse and temporally structured spiking. This framework lays the groundwork to feasible, energy-efficient and resilient memristive neuromorphic systems and offers the new structure of applying SNNs to noisy hardware systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yinghao Qi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s41939-026-01271-1",
+        "landing_page": "https://doi.org/10.1007/s41939-026-01271-1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s41939-026-01271-1",
+        "publication_date": "2026-12",
+        "title": "Evolving robust memristive spiking neural networks via metaheuristic algorithms for noise-resilient neuromorphic inference",
+        "venue": "Multiscale and Multidisciplinary Modeling, Experiments and Design",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:36.814223Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s44443-026-00957-3": {
       "expires_at": "2026-09-30T01:07:07.392381Z",
       "record": {
@@ -2637,6 +2663,12 @@
       },
       "retrieved_at": "2026-09-06T01:07:52.261874Z",
       "status": "found"
+    },
+    "crossref:doi:10.1021/acsphotonics.6c01289/5433287": {
+      "expires_at": "2026-10-28T01:11:34.062142Z",
+      "record": null,
+      "retrieved_at": "2026-09-28T01:11:34.062142Z",
+      "status": "not_found"
     },
     "crossref:doi:10.1038/s41377-026-02325-2": {
       "expires_at": "2026-09-21T00:32:15.151100Z",
@@ -3698,6 +3730,12 @@
       "retrieved_at": "2026-09-10T01:00:36.393088Z",
       "status": "found"
     },
+    "crossref:doi:10.1093/ce/zkag066/71379258/zkag066": {
+      "expires_at": "2026-10-28T01:11:25.032076Z",
+      "record": null,
+      "retrieved_at": "2026-09-28T01:11:25.032076Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.1103/93x9-y3y9": {
       "expires_at": "2026-09-17T04:25:21.555387Z",
       "record": {
@@ -3726,6 +3764,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:21.555387Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1103/lh46-y9hy": {
+      "expires_at": "2026-10-28T01:11:30.686170Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Nathaniel Morrison",
+            "orcid": "https://orcid.org/0000-0002-1450-4643"
+          },
+          {
+            "name": "Xujia He",
+            "orcid": null
+          },
+          {
+            "name": "Siqi Zhai",
+            "orcid": null
+          },
+          {
+            "name": "Eric Y. Ma",
+            "orcid": "https://orcid.org/0000-0002-0539-1501"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1103/lh46-y9hy",
+        "landing_page": "https://doi.org/10.1103/lh46-y9hy",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1103/lh46-y9hy",
+        "publication_date": "2026-09-23",
+        "title": "Convex preoptimization for electromagnetic inverse design",
+        "venue": "Physical Review Applied",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:30.686170Z",
       "status": "found"
     },
     "crossref:doi:10.1117/1.ap.8.5.054001": {
@@ -4952,6 +5028,52 @@
       "retrieved_at": "2026-08-30T01:05:17.375686Z",
       "status": "found"
     },
+    "crossref:doi:10.1186/s43074-026-00289-5": {
+      "expires_at": "2026-10-28T01:11:35.436157Z",
+      "record": {
+        "abstract": "Abstract With the rapid growth of data-intensive computing, optical computing has become an important method for information processing with high bandwidth, low latency, and parallel operation. Early implementations were bench-top free-space systems, in which lenses, masks, and holograms were used to perform Fourier filtering, correlation, and image processing. Semiconductor micro/nanofabrication has further enabled miniaturized planar platforms for optical computing, where optical-field manipulation is largely confined to planar geometries. However, increasing the integration density of optical computing architectures and exploiting the vectorial and spatial degrees of freedom of optical fields require additional out-of-plane structuring and direct integration on optical interfaces beyond planar fabrication. Three-dimensional (3D) laser micro/nano printing provides a maskless additive route to meet this need by directly printing freeform optical micro/nanostructures in 3D space and on functional optical interfaces. In this review, we discuss laser-printed structures for optical computing, including diffractive processors, interface-integrated processors, and 3D photonic interconnects. The printed processors map input optical fields to designed outputs, retrieve encoded information, or transform spatial modes, whereas the interconnects route optical signals between processing nodes. We further examine printable materials, printing resolution, and printing throughput in terms of the fabrication requirements of printed optical-computing structures. Finally, we discuss four future directions: reconfigurable modulation, nonlinear optical activation, freeform 3D optical layouts, and heterogeneous optical integration.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tian-Wei Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yi-Yi Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Weiwei Liu",
+            "orcid": null
+          },
+          {
+            "name": "Ke-Mi Xu",
+            "orcid": null
+          },
+          {
+            "name": "Hong-Bo Sun",
+            "orcid": "https://orcid.org/0000-0003-2127-8610"
+          },
+          {
+            "name": "Linhan Lin",
+            "orcid": "https://orcid.org/0000-0003-0556-9143"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1186/s43074-026-00289-5",
+        "landing_page": "https://doi.org/10.1186/s43074-026-00289-5",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1186/s43074-026-00289-5",
+        "publication_date": "2026-09-23",
+        "title": "Three-dimensional laser micro/nano printing for optical computing",
+        "venue": "PhotoniX",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:35.436157Z",
+      "status": "found"
+    },
     "crossref:doi:10.1186/s43593-026-00141-0": {
       "expires_at": "2026-10-02T01:02:19.025917Z",
       "record": {
@@ -5494,6 +5616,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:33.986502Z",
+      "status": "found"
+    },
+    "crossref:doi:10.25195/ijci.v52i2.755": {
+      "expires_at": "2026-10-28T01:11:23.830122Z",
+      "record": {
+        "abstract": "The communication of Free Space Optical (FSO) has been approved to be a crucial high-bandwidth, technology possessing free license for 6G networks, UAV-to-ground, as well as satellite-to-ground backhaul. The well-known application related to turbulence of atmosphere, scintillation, as well as errors of reference has restricted its employment because of the signal stochastic fading. Viewed historically, the impairments reduction was mainly dependent upon frameworks that were complex as well as analytical. This required particular, actual-time Channel State Information (CSI). The present study offers a comprehensive literature survey concerning the change related to the transformation towards Artificial Intelligence data-driven systems as well as Machine Learning depending on the systems of FSO during the period of 2022 and 2026. The combination of Deep Learning (DL), Convolutional Neutral Network (CNNs.), as well as Deep Reinforcement Learning (DRL) are crucially evaluated. This evaluation is made within four functional areas: modeling of channel, the mitigation of turbulence, processing of signal, and adaptive resource allocation. In order to locate the need an organizing principle that is structured, this study offers a formal four-domain AI-FSO Taxonomy that divides all methods that are surveyed via their operational function within the FSO link, reinforcing logical comparison across studies and forming a framework that can be reproduced for future researchers. The findings of the present study have shown that neural auto encoders and cascaded CNNs can fulfill up to 12 dB Signal-to-Noise Ratio (SNR) gains at the 7% Hard-Decision Forward Error Correction (HD-FEC) threshold, while DRL-based relay-selection and power-allocation agents show 1-2 orders of magnitude improvements in Bit Error Rate (BER) over heuristic-based policies. Other research directions are also located with a focus on lightweight and hardware-aware The techniques of AI that can be explained for the coming generation resilient optical wireless networks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ibrahim Alshammari",
+            "orcid": null
+          },
+          {
+            "name": "Saad Al-Dakheel",
+            "orcid": null
+          },
+          {
+            "name": "Hasanain Jalil Neamah Alsaedi",
+            "orcid": null
+          },
+          {
+            "name": "Ahmed Sami Jaddoa",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.25195/ijci.v52i2.755",
+        "landing_page": "https://doi.org/10.25195/ijci.v52i2.755",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.25195/ijci.v52i2.755",
+        "publication_date": "2026-09-26",
+        "title": "Leveraging Artificial Intelligence for Enhanced Free Space Optical Communications: A Comprehensive Review",
+        "venue": "Iraqi Journal for Computers and Informatics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:23.830122Z",
       "status": "found"
     },
     "crossref:doi:10.25781/kaust-ip46p": {
@@ -6646,11 +6806,59 @@
       "retrieved_at": "2026-09-25T01:02:45.061294Z",
       "status": "not_found"
     },
+    "crossref:title:3efa0e3d9dcac4cd385166169d0f34b9cfca566936d226229b73160a67cd8270": {
+      "expires_at": "2026-10-05T01:11:37.361549Z",
+      "record": null,
+      "retrieved_at": "2026-09-28T01:11:37.361549Z",
+      "status": "not_found"
+    },
     "crossref:title:3f0fe9ff0903f34ce58f6f8ecb3df9c7df258013855792d3bcfdb13a071eb443": {
       "expires_at": "2026-09-20T01:07:33.315552Z",
       "record": null,
       "retrieved_at": "2026-09-13T01:07:33.315552Z",
       "status": "not_found"
+    },
+    "crossref:title:3f7fb01baf240a37d6c0936adeba174bbd984a5e0309f04d9ccf480c9ecee25f": {
+      "expires_at": "2026-10-05T01:11:25.935570Z",
+      "record": {
+        "abstract": "Abstract Accurate short horizon net demand forecasting is critical in power systems with high solar and battery penetration. Net demand exhibits nonlinear behavior and rapid variation, placing strong demands on neural network training. This paper presents cognitive perturbation search, a gradient-free, single-solution optimizer with a memory-based perturbation mechanism. Each parameter dimension maintains a cognitive memory that reinforces successful perturbation directions and suppresses ineffective ones. A fixed single-hidden-layer feedforward neural network predicts one-step-ahead net demand using battery power, solar generation, and demand measurements embedded via a sliding window. cognitive perturbation search is evaluated against Adam, Levenberg-Marquardt, scaled conjugate gradient, resilient backpropagation and the gradient-free covariance matrix adaptation evolution strategy under identical conditions and equal function evaluation budgets. Results across 10 independent runs show that cognitive perturbation search achieves an average root mean square error of 0.0415, statistically equivalent to resilient backpropagation (p = 0.882), significantly outperforming covariance matrix adaptation evolution strategy (p < 0.001) and achieving 8% lower than Adam (p < 0.001). cognitive perturbation search also demonstrates tighter error distributions and more stable convergence across runs. These findings demonstrate that the proposed cognitive single-solution perturbation search provides an effective alternative to both gradient-based and population-based optimization methods for neural network training in short-term energy forecasting applications.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Omar Aliman",
+            "orcid": null
+          },
+          {
+            "name": "Zuriani Mustaffa",
+            "orcid": "https://orcid.org/0000-0001-6924-4749"
+          },
+          {
+            "name": "Muhammad Ikram Mohd Rashid",
+            "orcid": null
+          },
+          {
+            "name": "Marzia Ahmed",
+            "orcid": null
+          },
+          {
+            "name": "Mohd Herwan Sulaiman",
+            "orcid": "https://orcid.org/0000-0003-2590-3807"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1093/ce/zkag066",
+        "landing_page": "https://doi.org/10.1093/ce/zkag066",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1093/ce/zkag066",
+        "publication_date": "2026-09-24",
+        "title": "Cognitive Perturbation Search for Short-Term Net Demand Forecasting with Battery and Solar Integration",
+        "venue": "Clean Energy",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:25.935570Z",
+      "status": "found"
     },
     "crossref:title:3faa05cc7a30b3781618a657f7e733c04675b081a56f7543397a92e88d8e892a": {
       "expires_at": "2026-09-30T01:01:09.594547Z",
@@ -7018,11 +7226,47 @@
       "retrieved_at": "2026-09-21T01:07:24.517901Z",
       "status": "not_found"
     },
+    "crossref:title:4f5fad19c1a8a0d47fca3a3a128c8c1bd7bd5e9f52df61b238979751202b9481": {
+      "expires_at": "2026-10-05T01:11:34.791837Z",
+      "record": null,
+      "retrieved_at": "2026-09-28T01:11:34.791837Z",
+      "status": "not_found"
+    },
     "crossref:title:515316e23ebc42e941cd8b6423767ee9dacba9cc10cb175c2ece28292649cbd1": {
       "expires_at": "2026-09-07T01:07:05.264641Z",
       "record": null,
       "retrieved_at": "2026-08-31T01:07:05.264641Z",
       "status": "not_found"
+    },
+    "crossref:title:53d70169af30dc7676fc1e18d73860e5f27e010dc6bbc0bfdcd0f35dd840674d": {
+      "expires_at": "2026-10-05T01:11:31.776839Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xinyu Tu",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoning Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tsc.2026.3735318",
+        "landing_page": "https://doi.org/10.1109/tsc.2026.3735318",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/tsc.2026.3735318",
+        "publication_date": "2026",
+        "title": "Secure Prompt Tuning Service: A Private and Gradient-free Realization",
+        "venue": "IEEE Transactions on Services Computing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:31.776839Z",
+      "status": "found"
     },
     "crossref:title:569bfc22d25d91d53c0cae46ed9c5efb021edc864023af252ff96d2957870e1e": {
       "expires_at": "2026-08-25T04:25:22.619748Z",
@@ -7650,6 +7894,12 @@
       "retrieved_at": "2026-08-31T01:07:12.908935Z",
       "status": "not_found"
     },
+    "crossref:title:80437b035112076fec66282cb9aee4ee154ca54dec0821e67e1431ad355e76ad": {
+      "expires_at": "2026-10-05T01:11:33.390140Z",
+      "record": null,
+      "retrieved_at": "2026-09-28T01:11:33.390140Z",
+      "status": "not_found"
+    },
     "crossref:title:8321bfce8eab0857839c0cf6b470b6020c4a40b8af8d91bcbb3371416187ca8c": {
       "expires_at": "2026-09-02T00:32:39.356861Z",
       "record": null,
@@ -7812,6 +8062,76 @@
       "retrieved_at": "2026-08-18T04:25:30.567431Z",
       "status": "not_found"
     },
+    "crossref:title:8fb3fe766d0bdee30c78b958390d420ec89a601da9b8a0fdba8ecc8d0d2fbf8c": {
+      "expires_at": "2026-10-05T01:11:26.887699Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yingjie Xu",
+            "orcid": null
+          },
+          {
+            "name": "Xu Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Lidan Lu",
+            "orcid": null
+          },
+          {
+            "name": "Bofei Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Li Yang",
+            "orcid": null
+          },
+          {
+            "name": "Guang Chen",
+            "orcid": null
+          },
+          {
+            "name": "Jinyi Du",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoping Lou",
+            "orcid": null
+          },
+          {
+            "name": "Guanghui Ren",
+            "orcid": null
+          },
+          {
+            "name": "Jin Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Zheng You",
+            "orcid": null
+          },
+          {
+            "name": "Lianqing Zhu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jlt.2026.3736531",
+        "landing_page": "https://doi.org/10.1109/jlt.2026.3736531",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/jlt.2026.3736531",
+        "publication_date": "2026",
+        "title": "Cavity-Enhanced Multilevel Nonvolatile Photonic Memory with Phase-change Nanobeam Cavities for In-memory Computing",
+        "venue": "Journal of Lightwave Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:26.887699Z",
+      "status": "found"
+    },
     "crossref:title:8fb9fe6ca9f77c33d22a745bc24ddc4d36f7850461097c73681a4e13d79fae56": {
       "expires_at": "2026-08-25T04:25:19.729058Z",
       "record": {
@@ -7922,6 +8242,12 @@
       "expires_at": "2026-09-07T01:07:11.608339Z",
       "record": null,
       "retrieved_at": "2026-08-31T01:07:11.608339Z",
+      "status": "not_found"
+    },
+    "crossref:title:96b97b2239e5c8ac850ddab7d2706a45ed92398fab9ab6f2e814a35b2caada98": {
+      "expires_at": "2026-10-05T01:11:35.942704Z",
+      "record": null,
+      "retrieved_at": "2026-09-28T01:11:35.942704Z",
       "status": "not_found"
     },
     "crossref:title:96c0231f25d36894ae4d4cc3d5dee0503439418726f910688ddc192f29cab7b6": {
@@ -8810,6 +9136,12 @@
       "retrieved_at": "2026-08-18T04:25:08.969019Z",
       "status": "found"
     },
+    "crossref:title:c21e4fb2874e216742eab455ab136df92e0037e06147a09d838e150490b63a18": {
+      "expires_at": "2026-10-05T01:11:30.166687Z",
+      "record": null,
+      "retrieved_at": "2026-09-28T01:11:30.166687Z",
+      "status": "not_found"
+    },
     "crossref:title:c2a0888b262e22ec5a3d1eb42f0170419f1f3350784d8ee24ba8599f016f3f00": {
       "expires_at": "2026-09-05T00:54:09.556340Z",
       "record": null,
@@ -8876,6 +9208,12 @@
       "retrieved_at": "2026-09-01T01:13:11.971306Z",
       "status": "not_found"
     },
+    "crossref:title:c67f94f2ba177e9f65c39a1fb1f2c2af7302d3e67afaca89c17c9938f7720df0": {
+      "expires_at": "2026-10-05T01:11:28.570543Z",
+      "record": null,
+      "retrieved_at": "2026-09-28T01:11:28.570543Z",
+      "status": "not_found"
+    },
     "crossref:title:c790b3a89feba3ef3222707de42e252fb1e112497909f19e700c7080da6421b2": {
       "expires_at": "2026-09-16T01:02:04.231175Z",
       "record": {
@@ -8933,6 +9271,52 @@
       "record": null,
       "retrieved_at": "2026-09-18T01:02:19.139933Z",
       "status": "not_found"
+    },
+    "crossref:title:cd1cceaee9fd90877f79496ce2da68c39ade527ba95ae46b2f0f9f863e4ef735": {
+      "expires_at": "2026-10-05T01:11:24.534798Z",
+      "record": {
+        "abstract": "Existing deep-learning-enabled optical scattering encryption schemes lack effective task-level access control, preventing independent multi-task encryption and decryption. Furthermore, these schemes typically treat the trained single neural network as a global decryption key, introducing critical security vulnerabilities once the model is leaked. To achieve secure multi-task optical scattering encryption and reliable task-model matching, we propose a dual-channel scheme integrating physical marker authentication and a residual-network matching module. Task-specific physical signatures are created by the spatial positions of scattering media and dedicated marker images, while complementary binary matrices serve as digital keys, establishing a hybrid physical-digital access control system. After that, the optical setup generates a marker speckle and an interference-fused speckle carrying both plaintext and marker information; the final ciphertext is constructed by extracting pixels from the corresponding speckle pairs using customized digital keys. Decryption follows two-level verification: physical authentication using the correct binary matrix, followed by activation of the corresponding task-specific residual network for high-quality reconstruction. Experiments demonstrate reliable task-model matching across multiple independent task groups, robust security against key leakage and unauthorized decryption, and effective resistance to cross-verification attacks. This work establishes, what is believed to be, a new paradigm with strengthened physical security for multi-task optical scattering encryption.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hanlu Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Lexin Yang",
+            "orcid": null
+          },
+          {
+            "name": "Menghao Jia",
+            "orcid": null
+          },
+          {
+            "name": "Chengbin Wang",
+            "orcid": null
+          },
+          {
+            "name": "Bijun Xu",
+            "orcid": "https://orcid.org/0000-0001-9613-203X"
+          },
+          {
+            "name": "Xiaogang Wang",
+            "orcid": "https://orcid.org/0000-0003-3297-8081"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.613813",
+        "landing_page": "https://doi.org/10.1364/oe.613813",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/oe.613813",
+        "publication_date": "2026-10-05",
+        "title": "Speckle-based cryptosystem with physically associated authentication and task-dedicated model matching",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:24.534798Z",
+      "status": "found"
     },
     "crossref:title:ce30b5ccb3f288d5d12e090d87012fabe28615222120f4402bd424530931311b": {
       "expires_at": "2026-09-25T01:02:24.192100Z",
@@ -9268,6 +9652,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-09T01:02:03.064819Z",
+      "status": "found"
+    },
+    "crossref:title:e12f16a709eac6fd7f66aaaafc3d9b9d6ad06238b4c4f3aadb7112a3cfdaec1c": {
+      "expires_at": "2026-10-05T01:11:31.182157Z",
+      "record": {
+        "abstract": "Federated fine-tuning adapts language models to distributed data and is widely adopted as a privacy-preserving alternative to centralized training, yet constrained clients must still store model weights and training states, execute updates, and communicate with a server. This review examines four composable routes---parameter-efficient and quantized adaptation, backpropagation-free adaptation, proxy or submodel adaptation, and split federated adaptation---through a common framework that traces the objects each endpoint retains, exchanges, and discloses. When a client retains the complete base, reducing adapter state leaves a base-storage floor; boundary communication depends on input dimensions, sequence length, and interaction frequency, so parameter count alone is insufficient. Keeping data local constrains the raw dataset but not the transmitted object: adapter updates, boundary activations, logits, and cached embeddings expose different surfaces, and the encryption, secure-aggregation, or noise mechanisms that protect them add to the same budgets. Server weight sharing removes duplication but retains private states and caches, and combining routes requires recalculating these costs for the resulting protocol. The analysis identifies where savings arise, where costs move, what each route discloses, and which training, deployment, and trustworthiness conditions govern its applicability.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yunheng Shen",
+            "orcid": null
+          },
+          {
+            "name": "Xiao Liu",
+            "orcid": null
+          },
+          {
+            "name": "Yang Yang",
+            "orcid": null
+          },
+          {
+            "name": "Hairong Lv",
+            "orcid": "https://orcid.org/0000-0003-1568-6861"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.62762/jrsc.2026.225854",
+        "landing_page": "https://doi.org/10.62762/jrsc.2026.225854",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.62762/jrsc.2026.225854",
+        "publication_date": "2026-09-20",
+        "title": "Federated Fine-Tuning of Large Language Models on Resource-Constrained Clients: Technical Approaches, Resource Costs, and Applicability",
+        "venue": "Journal of Reliable and Secure Computing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:31.182157Z",
       "status": "found"
     },
     "crossref:title:e1ed1bfb722b9d6863eb7a17ff99bfd1d32e18aba4f3ed4680a555f092e18848": {
@@ -9770,6 +10192,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-22T01:02:19.509865Z",
+      "status": "found"
+    },
+    "crossref:title:f47a6b7777a211c7a7b1bc4cd6825c6f74f120bfc3262c0aab0c32109663a38c": {
+      "expires_at": "2026-10-05T01:11:29.418296Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xianlin Ren",
+            "orcid": null
+          },
+          {
+            "name": "Zhengwen Li",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/srse70977.2026.11694407",
+        "landing_page": "https://doi.org/10.1109/srse70977.2026.11694407",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/srse70977.2026.11694407",
+        "publication_date": "2026-08",
+        "title": "KGN-M ${2}$ Md: Adaptive Sparse Multi-Order Moment Discrepancy Based on Gauss-Newton Optimization and Its Application to Cross-Domain Fault Diagnosis",
+        "venue": "2026 8th International Conference on System Reliability and Safety Engineering (SRSE)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:29.418296Z",
       "status": "found"
     },
     "crossref:title:f5ab57ac7e603ce67f736c744d43952cf525bcbf37ba3d24e6d377c07bf7e87f": {
@@ -11868,6 +12320,32 @@
       "retrieved_at": "2026-08-27T16:32:39.020162Z",
       "status": "found"
     },
+    "openalex:doi:10.1007/s41939-026-01271-1": {
+      "expires_at": "2026-10-28T01:11:37.137663Z",
+      "record": {
+        "abstract": "Abstract Neuromorphic systems hold the promise of ultra-low-power event-conditions intelligence, but noise and non-idealities of hardware of the memristive devices limit their practical use. Nonetheless, it is not understood how to attain an inference which is both noise-robust and accurate as well as energy-efficient across realistic multi-source perturbations. In this case we develop a metaheuristic evolutionary learning system which substantially alleviates this well-known robustness–efficiency trade-off in memristive spiking neural networks. The optimization of spiking networks is done with a noise-aware form of evolutionary strategy that explicitly takes into consideration event-based input noise, spike-timing jitter, conductance variability and long-term drift. Several noise levels are tested and compared with a three-level gradient trained spiking network, ANN-to-SNN conversion and non-evolved memristive SNN with fixed parameters in the context of the task of gesture recognition based on events. At low noise (ρ = 0.1) all four models reach similar accuracies of around 95% (n = 336). The proposed MSNN shows 87–91 percent accuracy at moderate noise (0.40–0.6), while the accuracy of gradient-based SNNs and ANN-to-SNN models are 70–80 percent and below 60 percent, respectively. Even with extreme noise (0.8–1.0), the accuracy is 76–82 compared to 51% and ANN-to-SNN models break to approximately 25%. Normalized robustness analysis shows that the highest loss of relative accuracy is about 0.21 which is three to four times less than baseline models. These findings indicate that evolutionary optimization reveals inaccessible noise tolerant representations with sparse and temporally structured spiking. This framework lays the groundwork to feasible, energy-efficient and resilient memristive neuromorphic systems and offers the new structure of applying SNNs to noisy hardware systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yinghao Qi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s41939-026-01271-1",
+        "landing_page": "https://doi.org/10.1007/s41939-026-01271-1",
+        "open_access_url": "https://doi.org/10.1007/s41939-026-01271-1",
+        "openalex_id": "https://openalex.org/W7214120654",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214120654",
+        "publication_date": "2026-09-23",
+        "title": "Evolving robust memristive spiking neural networks via metaheuristic algorithms for noise-resilient neuromorphic inference",
+        "venue": "Multiscale and Multidisciplinary Modeling Experiments and Design",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:37.137663Z",
+      "status": "found"
+    },
     "openalex:doi:10.1007/s44443-026-00957-3": {
       "expires_at": "2026-09-30T01:07:07.841607Z",
       "record": {
@@ -13065,6 +13543,12 @@
       },
       "retrieved_at": "2026-09-06T01:07:52.623465Z",
       "status": "found"
+    },
+    "openalex:doi:10.1021/acsphotonics.6c01289/5433287": {
+      "expires_at": "2026-10-28T01:11:34.625330Z",
+      "record": null,
+      "retrieved_at": "2026-09-28T01:11:34.625330Z",
+      "status": "not_found"
     },
     "openalex:doi:10.1038/s41377-026-02314-5": {
       "expires_at": "2026-09-03T09:38:36.810331Z",
@@ -14676,6 +15160,12 @@
       "retrieved_at": "2026-09-10T01:00:36.786942Z",
       "status": "found"
     },
+    "openalex:doi:10.1093/ce/zkag066/71379258/zkag066": {
+      "expires_at": "2026-10-28T01:11:25.583080Z",
+      "record": null,
+      "retrieved_at": "2026-09-28T01:11:25.583080Z",
+      "status": "not_found"
+    },
     "openalex:doi:10.1103/93x9-y3y9": {
       "expires_at": "2026-09-17T04:25:21.906660Z",
       "record": {
@@ -14704,6 +15194,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:21.906660Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1103/lh46-y9hy": {
+      "expires_at": "2026-10-28T01:11:31.026528Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Anonymous",
+            "orcid": "https://orcid.org/0000-0002-1450-4643"
+          },
+          {
+            "name": "Xujia He",
+            "orcid": null
+          },
+          {
+            "name": "Siqi Zhai",
+            "orcid": null
+          },
+          {
+            "name": "Yue Ma",
+            "orcid": "https://orcid.org/0000-0002-0539-1501"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1103/lh46-y9hy",
+        "landing_page": "https://doi.org/10.1103/lh46-y9hy",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7204149183",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204149183",
+        "publication_date": "2026-08-24",
+        "title": "Convex preoptimization for electromagnetic inverse design",
+        "venue": "Physical Review Applied",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:31.026528Z",
       "status": "found"
     },
     "openalex:doi:10.1109/access.2026.3720798": {
@@ -15228,6 +15756,76 @@
       "retrieved_at": "2026-08-18T04:25:20.036992Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/jlt.2026.3736531": {
+      "expires_at": "2026-10-28T01:11:27.213575Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yingjie Xu",
+            "orcid": "https://orcid.org/0000-0002-8557-7196"
+          },
+          {
+            "name": "Xu Zhang",
+            "orcid": "https://orcid.org/0000-0002-8651-5421"
+          },
+          {
+            "name": "Lidan Lu",
+            "orcid": "https://orcid.org/0000-0003-1029-0083"
+          },
+          {
+            "name": "Bofei Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Li Yang",
+            "orcid": null
+          },
+          {
+            "name": "Guang Chen",
+            "orcid": "https://orcid.org/0000-0002-0454-1686"
+          },
+          {
+            "name": "Jinyi Du",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoping Lou",
+            "orcid": null
+          },
+          {
+            "name": "Guanghui Ren",
+            "orcid": "https://orcid.org/0000-0002-9867-8279"
+          },
+          {
+            "name": "Jin Zhang",
+            "orcid": "https://orcid.org/0000-0001-5462-3631"
+          },
+          {
+            "name": "Zheng You",
+            "orcid": null
+          },
+          {
+            "name": "Lianqing Zhu",
+            "orcid": "https://orcid.org/0000-0002-0451-8531"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jlt.2026.3736531",
+        "landing_page": "https://doi.org/10.1109/jlt.2026.3736531",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7214013940",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214013940",
+        "publication_date": "2026-01-01",
+        "title": "Cavity-Enhanced Multilevel Nonvolatile Photonic Memory with Phase-change Nanobeam Cavities for In-memory Computing",
+        "venue": "Journal of Lightwave Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:27.213575Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/jphot.2026.3721155": {
       "expires_at": "2026-09-17T04:25:23.198098Z",
       "record": {
@@ -15414,6 +16012,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:41.971283Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/srse70977.2026.11694407": {
+      "expires_at": "2026-10-28T01:11:29.746796Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xianlin Ren",
+            "orcid": null
+          },
+          {
+            "name": "Zhengwen Li",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/srse70977.2026.11694407",
+        "landing_page": "https://doi.org/10.1109/srse70977.2026.11694407",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7214088084",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214088084",
+        "publication_date": "2026-08-01",
+        "title": "KGN-M ${2}$ Md: Adaptive Sparse Multi-Order Moment Discrepancy Based on Gauss-Newton Optimization and Its Application to Cross-Domain Fault Diagnosis",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:29.746796Z",
       "status": "found"
     },
     "openalex:doi:10.1109/tase.2026.3722641": {
@@ -15748,6 +16376,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:43.906346Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/tsc.2026.3735318": {
+      "expires_at": "2026-10-28T01:11:32.096791Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xinyu Tu",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoning Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tsc.2026.3735318",
+        "landing_page": "https://doi.org/10.1109/tsc.2026.3735318",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7214244223",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214244223",
+        "publication_date": "2026-01-01",
+        "title": "Secure Prompt Tuning Service: A Private and Gradient-free Realization",
+        "venue": "IEEE Transactions on Services Computing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:32.096791Z",
       "status": "found"
     },
     "openalex:doi:10.1109/twc.2026.3715594": {
@@ -17004,6 +17662,52 @@
       "retrieved_at": "2026-08-30T01:05:17.699553Z",
       "status": "found"
     },
+    "openalex:doi:10.1186/s43074-026-00289-5": {
+      "expires_at": "2026-10-28T01:11:35.765521Z",
+      "record": {
+        "abstract": "Abstract With the rapid growth of data-intensive computing, optical computing has become an important method for information processing with high bandwidth, low latency, and parallel operation. Early implementations were bench-top free-space systems, in which lenses, masks, and holograms were used to perform Fourier filtering, correlation, and image processing. Semiconductor micro/nanofabrication has further enabled miniaturized planar platforms for optical computing, where optical-field manipulation is largely confined to planar geometries. However, increasing the integration density of optical computing architectures and exploiting the vectorial and spatial degrees of freedom of optical fields require additional out-of-plane structuring and direct integration on optical interfaces beyond planar fabrication. Three-dimensional (3D) laser micro/nano printing provides a maskless additive route to meet this need by directly printing freeform optical micro/nanostructures in 3D space and on functional optical interfaces. In this review, we discuss laser-printed structures for optical computing, including diffractive processors, interface-integrated processors, and 3D photonic interconnects. The printed processors map input optical fields to designed outputs, retrieve encoded information, or transform spatial modes, whereas the interconnects route optical signals between processing nodes. We further examine printable materials, printing resolution, and printing throughput in terms of the fabrication requirements of printed optical-computing structures. Finally, we discuss four future directions: reconfigurable modulation, nonlinear optical activation, freeform 3D optical layouts, and heterogeneous optical integration.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tian-Wei Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yi-Yi Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Weiwei Liu",
+            "orcid": null
+          },
+          {
+            "name": "Ke-Mi Xu",
+            "orcid": null
+          },
+          {
+            "name": "Hong‐Bo Sun",
+            "orcid": "https://orcid.org/0000-0003-2127-8610"
+          },
+          {
+            "name": "Linhan Lin",
+            "orcid": "https://orcid.org/0000-0003-0556-9143"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1186/s43074-026-00289-5",
+        "landing_page": "https://doi.org/10.1186/s43074-026-00289-5",
+        "open_access_url": "https://doi.org/10.1186/s43074-026-00289-5",
+        "openalex_id": "https://openalex.org/W7214062919",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214062919",
+        "publication_date": "2026-09-23",
+        "title": "Three-dimensional laser micro/nano printing for optical computing",
+        "venue": "PhotoniX",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:35.765521Z",
+      "status": "found"
+    },
     "openalex:doi:10.1186/s43593-026-00141-0": {
       "expires_at": "2026-10-02T01:02:19.403844Z",
       "record": {
@@ -17744,6 +18448,52 @@
       "retrieved_at": "2026-09-10T01:00:34.337191Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/oe.613813": {
+      "expires_at": "2026-10-28T01:11:24.945327Z",
+      "record": {
+        "abstract": "Existing deep-learning-enabled optical scattering encryption schemes lack effective task-level access control, preventing independent multi-task encryption and decryption. Furthermore, these schemes typically treat the trained single neural network as a global decryption key, introducing critical security vulnerabilities once the model is leaked. To achieve secure multi-task optical scattering encryption and reliable task-model matching, we propose a dual-channel scheme integrating physical marker authentication and a residual-network matching module. Task-specific physical signatures are created by the spatial positions of scattering media and dedicated marker images, while complementary binary matrices serve as digital keys, establishing a hybrid physical-digital access control system. After that, the optical setup generates a marker speckle and an interference-fused speckle carrying both plaintext and marker information; the final ciphertext is constructed by extracting pixels from the corresponding speckle pairs using customized digital keys. Decryption follows two-level verification: physical authentication using the correct binary matrix, followed by activation of the corresponding task-specific residual network for high-quality reconstruction. Experiments demonstrate reliable task-model matching across multiple independent task groups, robust security against key leakage and unauthorized decryption, and effective resistance to cross-verification attacks. This work establishes, what is believed to be, a new paradigm with strengthened physical security for multi-task optical scattering encryption.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hanlu Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Lexin Yang",
+            "orcid": null
+          },
+          {
+            "name": "Menghao Jia",
+            "orcid": null
+          },
+          {
+            "name": "Chengbin Wang",
+            "orcid": null
+          },
+          {
+            "name": "xu bj",
+            "orcid": "https://orcid.org/0000-0001-9613-203X"
+          },
+          {
+            "name": "Xiaogang Wang",
+            "orcid": "https://orcid.org/0000-0003-3297-8081"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.613813",
+        "landing_page": "https://doi.org/10.1364/oe.613813",
+        "open_access_url": "https://doi.org/10.1364/oe.613813",
+        "openalex_id": "https://openalex.org/W7213019567",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213019567",
+        "publication_date": "2026-09-14",
+        "title": "Speckle-based cryptosystem with physically associated authentication and task-dedicated model matching",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:24.945327Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/ol.608488": {
       "expires_at": "2026-10-16T01:02:26.667889Z",
       "record": {
@@ -18462,6 +19212,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:34.320477Z",
+      "status": "found"
+    },
+    "openalex:doi:10.25195/ijci.v52i2.755": {
+      "expires_at": "2026-10-28T01:11:24.155464Z",
+      "record": {
+        "abstract": "The communication of Free Space Optical (FSO) has been approved to be a crucial high-bandwidth, technology possessing free license for 6G networks, UAV-to-ground, as well as satellite-to-ground backhaul. The well-known application related to turbulence of atmosphere, scintillation, as well as errors of reference has restricted its employment because of the signal stochastic fading. Viewed historically, the impairments reduction was mainly dependent upon frameworks that were complex as well as analytical. This required particular, actual-time Channel State Information (CSI). The present study offers a comprehensive literature survey concerning the change related to the transformation towards Artificial Intelligence data-driven systems as well as Machine Learning depending on the systems of FSO during the period of 2022 and 2026. The combination of Deep Learning (DL), Convolutional Neutral Network (CNNs.), as well as Deep Reinforcement Learning (DRL) are crucially evaluated. This evaluation is made within four functional areas: modeling of channel, the mitigation of turbulence, processing of signal, and adaptive resource allocation. In order to locate the need an organizing principle that is structured, this study offers a formal four-domain AI-FSO Taxonomy that divides all methods that are surveyed via their operational function within the FSO link, reinforcing logical comparison across studies and forming a framework that can be reproduced for future researchers. The findings of the present study have shown that neural auto encoders and cascaded CNNs can fulfill up to 12 dB Signal-to-Noise Ratio (SNR) gains at the 7% Hard-Decision Forward Error Correction (HD-FEC) threshold, while DRL-based relay-selection and power-allocation agents show 1-2 orders of magnitude improvements in Bit Error Rate (BER) over heuristic-based policies. Other research directions are also located with a focus on lightweight and hardware-aware The techniques of AI that can be explained for the coming generation resilient optical wireless networks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ibrahim Alshammari",
+            "orcid": "https://orcid.org/0009-0006-8073-7126"
+          },
+          {
+            "name": "Saad Al-Dakheel",
+            "orcid": "https://orcid.org/0009-0002-6521-6614"
+          },
+          {
+            "name": "Hasanain Jalil Neamah Alsaedi",
+            "orcid": null
+          },
+          {
+            "name": "Ahmed Sami Jaddoa",
+            "orcid": "https://orcid.org/0000-0002-5818-3749"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.25195/ijci.v52i2.755",
+        "landing_page": "https://doi.org/10.25195/ijci.v52i2.755",
+        "open_access_url": "https://doi.org/10.25195/ijci.v52i2.755",
+        "openalex_id": "https://openalex.org/W7214479433",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214479433",
+        "publication_date": "2026-09-26",
+        "title": "Leveraging Artificial Intelligence for Enhanced Free Space Optical Communications: A Comprehensive Review",
+        "venue": "Iraqi Journal for Computers and Informatics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:24.155464Z",
       "status": "found"
     },
     "openalex:doi:10.25781/kaust-ip46p": {
@@ -19426,6 +20214,44 @@
       "retrieved_at": "2026-08-30T01:05:15.787831Z",
       "status": "found"
     },
+    "openalex:doi:10.62762/jrsc.2026.225854": {
+      "expires_at": "2026-10-28T01:11:31.598753Z",
+      "record": {
+        "abstract": "Federated fine-tuning adapts language models to distributed data and is widely adopted as a privacy-preserving alternative to centralized training, yet constrained clients must still store model weights and training states, execute updates, and communicate with a server. This review examines four composable routes---parameter-efficient and quantized adaptation, backpropagation-free adaptation, proxy or submodel adaptation, and split federated adaptation---through a common framework that traces the objects each endpoint retains, exchanges, and discloses. When a client retains the complete base, reducing adapter state leaves a base-storage floor; boundary communication depends on input dimensions, sequence length, and interaction frequency, so parameter count alone is insufficient. Keeping data local constrains the raw dataset but not the transmitted object: adapter updates, boundary activations, logits, and cached embeddings expose different surfaces, and the encryption, secure-aggregation, or noise mechanisms that protect them add to the same budgets. Server weight sharing removes duplication but retains private states and caches, and combining routes requires recalculating these costs for the resulting protocol. The analysis identifies where savings arise, where costs move, what each route discloses, and which training, deployment, and trustworthiness conditions govern its applicability.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yunheng Shen",
+            "orcid": "https://orcid.org/0000-0003-1961-0274"
+          },
+          {
+            "name": "Xiao Liu",
+            "orcid": null
+          },
+          {
+            "name": "Yang Yang",
+            "orcid": null
+          },
+          {
+            "name": "Hairong Lv",
+            "orcid": "https://orcid.org/0000-0003-1568-6861"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.62762/jrsc.2026.225854",
+        "landing_page": "https://doi.org/10.62762/jrsc.2026.225854",
+        "open_access_url": "https://doi.org/10.62762/jrsc.2026.225854",
+        "openalex_id": "https://openalex.org/W7214104572",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214104572",
+        "publication_date": "2026-09-20",
+        "title": "Federated Fine-Tuning of Large Language Models on Resource-Constrained Clients: Technical Approaches, Resource Costs, and Applicability",
+        "venue": "Journal of Reliable and Secure Computing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:31.598753Z",
+      "status": "found"
+    },
     "openalex:doi:10.64388/irev10i2-1722321": {
       "expires_at": "2026-09-17T04:25:15.288051Z",
       "record": {
@@ -19928,11 +20754,99 @@
       "retrieved_at": "2026-09-25T01:02:45.739420Z",
       "status": "not_found"
     },
+    "openalex:title:3efa0e3d9dcac4cd385166169d0f34b9cfca566936d226229b73160a67cd8270": {
+      "expires_at": "2026-10-05T01:11:37.806523Z",
+      "record": {
+        "abstract": "Zeroth-order (ZO) optimization is an attractive option for memory-efficient LLM fine-tuning, but its fault tolerance remains underexplored. Unlike first-order training, ZO progress can be represented by lightweight seed-and-scalar step logs, yet naive log-only recovery still incurs replay cost that grows with training progress, and shortcut replay does not preserve the executed floating-point trajectory. We present ZOCheck, a fault-tolerant ZO training system that exploits this replayable structure through a CPU shadow process that continuously replays logged updates, materializes consistent recovery images off the GPU critical path, and persists them asynchronously. ZOCheck therefore combines non-blocking checkpointing during training with fast recovery from a near-current state. We also develop a cost model for choosing the snapshot policy under realistic failure rates. Experiments show that ZOCheck reduces checkpoint overhead by up to 219.7x and recovery latency by 1.55x on average compared with asynchronous full-state checkpointing, translating into up to 21.3x lower end-to-end wasted time across the evaluated failure rates, while preserving exact recovery behavior.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Minqiu Sun",
+            "orcid": null
+          },
+          {
+            "name": "Xin Huang",
+            "orcid": null
+          },
+          {
+            "name": "Luanzheng Guo",
+            "orcid": null
+          },
+          {
+            "name": "Nathan R. Tallent",
+            "orcid": "https://orcid.org/0000-0003-4297-3057"
+          },
+          {
+            "name": "Kento Sato",
+            "orcid": null
+          },
+          {
+            "name": "Dong Dai",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.27189",
+        "landing_page": "https://arxiv.org/abs/2609.27189",
+        "open_access_url": "https://arxiv.org/abs/2609.27189",
+        "openalex_id": "https://openalex.org/W7214236502",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214236502",
+        "publication_date": "2026-09-23",
+        "title": "ZOCheck: CPU-Shadow Checkpointing for Zeroth-Order LLM Fine-Tuning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:37.806523Z",
+      "status": "found"
+    },
     "openalex:title:3f0fe9ff0903f34ce58f6f8ecb3df9c7df258013855792d3bcfdb13a071eb443": {
       "expires_at": "2026-09-20T01:07:33.769750Z",
       "record": null,
       "retrieved_at": "2026-09-13T01:07:33.769750Z",
       "status": "not_found"
+    },
+    "openalex:title:3f7fb01baf240a37d6c0936adeba174bbd984a5e0309f04d9ccf480c9ecee25f": {
+      "expires_at": "2026-10-05T01:11:26.553208Z",
+      "record": {
+        "abstract": "Abstract Accurate short horizon net demand forecasting is critical in power systems with high solar and battery penetration. Net demand exhibits nonlinear behavior and rapid variation, placing strong demands on neural network training. This paper presents cognitive perturbation search, a gradient-free, single-solution optimizer with a memory-based perturbation mechanism. Each parameter dimension maintains a cognitive memory that reinforces successful perturbation directions and suppresses ineffective ones. A fixed single-hidden-layer feedforward neural network predicts one-step-ahead net demand using battery power, solar generation, and demand measurements embedded via a sliding window. cognitive perturbation search is evaluated against Adam, Levenberg-Marquardt, scaled conjugate gradient, resilient backpropagation and the gradient-free covariance matrix adaptation evolution strategy under identical conditions and equal function evaluation budgets. Results across 10 independent runs show that cognitive perturbation search achieves an average root mean square error of 0.0415, statistically equivalent to resilient backpropagation (p = 0.882), significantly outperforming covariance matrix adaptation evolution strategy (p < 0.001) and achieving 8% lower than Adam (p < 0.001). cognitive perturbation search also demonstrates tighter error distributions and more stable convergence across runs. These findings demonstrate that the proposed cognitive single-solution perturbation search provides an effective alternative to both gradient-based and population-based optimization methods for neural network training in short-term energy forecasting applications.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Omar Aliman",
+            "orcid": null
+          },
+          {
+            "name": "Zuriani Mustaffa",
+            "orcid": "https://orcid.org/0000-0001-6924-4749"
+          },
+          {
+            "name": "Muhammad Ikram Mohd Rashid",
+            "orcid": null
+          },
+          {
+            "name": "Marzia Ahmed",
+            "orcid": "https://orcid.org/0000-0001-6993-6868"
+          },
+          {
+            "name": "Mohd Herwan Sulaiman",
+            "orcid": "https://orcid.org/0000-0003-2590-3807"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1093/ce/zkag066",
+        "landing_page": "https://doi.org/10.1093/ce/zkag066",
+        "open_access_url": "https://doi.org/10.1093/ce/zkag066",
+        "openalex_id": "https://openalex.org/W7214331994",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214331994",
+        "publication_date": "2026-09-18",
+        "title": "Cognitive Perturbation Search for Short-Term Net Demand Forecasting with Battery and Solar Integration",
+        "venue": "Clean Energy",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-28T01:11:26.553208Z",
+      "status": "found"
     },
     "openalex:title:3faa05cc7a30b3781618a657f7e733c04675b081a56f7543397a92e88d8e892a": {
       "expires_at": "2026-09-30T01:01:10.416485Z",
@@ -20052,6 +20966,12 @@
       "expires_at": "2026-09-28T01:07:25.310656Z",
       "record": null,
       "retrieved_at": "2026-09-21T01:07:25.310656Z",
+      "status": "not_found"
+    },
+    "openalex:title:4f5fad19c1a8a0d47fca3a3a128c8c1bd7bd5e9f52df61b238979751202b9481": {
+      "expires_at": "2026-10-05T01:11:35.333069Z",
+      "record": null,
+      "retrieved_at": "2026-09-28T01:11:35.333069Z",
       "status": "not_found"
     },
     "openalex:title:515316e23ebc42e941cd8b6423767ee9dacba9cc10cb175c2ece28292649cbd1": {
@@ -20510,6 +21430,12 @@
       "retrieved_at": "2026-08-31T01:07:13.500228Z",
       "status": "found"
     },
+    "openalex:title:80437b035112076fec66282cb9aee4ee154ca54dec0821e67e1431ad355e76ad": {
+      "expires_at": "2026-10-05T01:11:33.975660Z",
+      "record": null,
+      "retrieved_at": "2026-09-28T01:11:33.975660Z",
+      "status": "not_found"
+    },
     "openalex:title:8321bfce8eab0857839c0cf6b470b6020c4a40b8af8d91bcbb3371416187ca8c": {
       "expires_at": "2026-09-02T00:32:40.232960Z",
       "record": null,
@@ -20686,6 +21612,12 @@
       "expires_at": "2026-09-07T01:07:12.337805Z",
       "record": null,
       "retrieved_at": "2026-08-31T01:07:12.337805Z",
+      "status": "not_found"
+    },
+    "openalex:title:96b97b2239e5c8ac850ddab7d2706a45ed92398fab9ab6f2e814a35b2caada98": {
+      "expires_at": "2026-10-05T01:11:36.613445Z",
+      "record": null,
+      "retrieved_at": "2026-09-28T01:11:36.613445Z",
       "status": "not_found"
     },
     "openalex:title:96c0231f25d36894ae4d4cc3d5dee0503439418726f910688ddc192f29cab7b6": {
@@ -21180,6 +22112,12 @@
       "retrieved_at": "2026-09-01T01:13:15.935666Z",
       "status": "found"
     },
+    "openalex:title:c21e4fb2874e216742eab455ab136df92e0037e06147a09d838e150490b63a18": {
+      "expires_at": "2026-10-05T01:11:30.605137Z",
+      "record": null,
+      "retrieved_at": "2026-09-28T01:11:30.605137Z",
+      "status": "not_found"
+    },
     "openalex:title:c2a0888b262e22ec5a3d1eb42f0170419f1f3350784d8ee24ba8599f016f3f00": {
       "expires_at": "2026-09-05T00:54:10.076190Z",
       "record": null,
@@ -21238,6 +22176,12 @@
       "expires_at": "2026-09-08T01:13:12.743268Z",
       "record": null,
       "retrieved_at": "2026-09-01T01:13:12.743268Z",
+      "status": "not_found"
+    },
+    "openalex:title:c67f94f2ba177e9f65c39a1fb1f2c2af7302d3e67afaca89c17c9938f7720df0": {
+      "expires_at": "2026-10-05T01:11:29.239762Z",
+      "record": null,
+      "retrieved_at": "2026-09-28T01:11:29.239762Z",
       "status": "not_found"
     },
     "openalex:title:c8e5f7f13de1c5e2dd1eda61932f53d050fec817d542a547fb423fe0a9379b7a": {
