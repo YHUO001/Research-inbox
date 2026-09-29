@@ -1454,6 +1454,52 @@
       "retrieved_at": "2026-08-27T16:32:39.127994Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/s00340-026-08717-x": {
+      "expires_at": "2026-10-29T01:08:34.391355Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shiva Shankar Mutupuri",
+            "orcid": null
+          },
+          {
+            "name": "Md. Haider Ansari",
+            "orcid": null
+          },
+          {
+            "name": "Satish Anamalamudi",
+            "orcid": null
+          },
+          {
+            "name": "Ravi Kumar",
+            "orcid": null
+          },
+          {
+            "name": "Shashi Prabhakar",
+            "orcid": null
+          },
+          {
+            "name": "Gangi Reddy Salla",
+            "orcid": "https://orcid.org/0000-0001-8039-2443"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s00340-026-08717-x",
+        "landing_page": "https://doi.org/10.1007/s00340-026-08717-x",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s00340-026-08717-x",
+        "publication_date": "2026-09-27",
+        "title": "Higher-order spatial mode detection leveraging deep learning on random optical patterns",
+        "venue": "Applied Physics B",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-29T01:08:34.391355Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s00521-026-12462-9": {
       "expires_at": "2026-10-12T00:59:36.699649Z",
       "record": {
@@ -5074,6 +5120,84 @@
       "retrieved_at": "2026-09-28T01:11:35.436157Z",
       "status": "found"
     },
+    "crossref:doi:10.1186/s43074-026-00291-x": {
+      "expires_at": "2026-10-29T01:08:34.811456Z",
+      "record": {
+        "abstract": "Abstract Metasurfaces are progressively reshaping traditional optical paradigms and pushing the boundaries in complex applications where compact designs are essential. However, the design of metasurfaces demands substantial computational resources to numerically solve Maxwell's equations—particularly for large-scale photonic systems. Conventional forward design using electromagnetic solvers is based on specific approximations that may not effectively address complex problems. In contrast, existing inverse design methods are a stepwise process that is often time-consuming. Here, we overcome these challenges by presenting MetaE-former architecture, a Neighborhood Attention Transformer-based transfer learning framework that enables customized surrogate solver development through fine-tuning of pre-trained neural networks with only thousands of data, facilitating highly efficient task-adaptable inverse design of metasurfaces. Moreover, this method achieves global solutions for hundreds of nanostructures simultaneously, providing up to a 250,000-fold speedup during the optimization stage compared with solving for individual meta-atoms based on the FDTD method. As examples, we demonstrate a binarized high-numerical-aperture (~ 1.31) metalens and several optimized structured-light meta-generators. Our method significantly improves the beam shaping adaptability with metasurfaces and paves the way for quick design of large-scale metadevices with high accuracy.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shiqi Kuang",
+            "orcid": null
+          },
+          {
+            "name": "Zhi Sun",
+            "orcid": null
+          },
+          {
+            "name": "Boyan Fu",
+            "orcid": null
+          },
+          {
+            "name": "Xue Yun",
+            "orcid": null
+          },
+          {
+            "name": "Minru He",
+            "orcid": null
+          },
+          {
+            "name": "Tianyu Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Shaowei Wang",
+            "orcid": null
+          },
+          {
+            "name": "Tianhua Shao",
+            "orcid": null
+          },
+          {
+            "name": "Geze Gao",
+            "orcid": null
+          },
+          {
+            "name": "Yunlai Fu",
+            "orcid": null
+          },
+          {
+            "name": "Yansheng Liang",
+            "orcid": "https://orcid.org/0000-0002-3561-1317"
+          },
+          {
+            "name": "Tianyue Li",
+            "orcid": null
+          },
+          {
+            "name": "Shuming Wang",
+            "orcid": null
+          },
+          {
+            "name": "Ming Lei",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1186/s43074-026-00291-x",
+        "landing_page": "https://doi.org/10.1186/s43074-026-00291-x",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1186/s43074-026-00291-x",
+        "publication_date": "2026-09-28",
+        "title": "Rapid inverse design of large-scale freeform meta-optics with the neighborhood-attention transformer",
+        "venue": "PhotoniX",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-29T01:08:34.811456Z",
+      "status": "found"
+    },
     "crossref:doi:10.1186/s43593-026-00141-0": {
       "expires_at": "2026-10-02T01:02:19.025917Z",
       "record": {
@@ -5796,6 +5920,12 @@
       "expires_at": "2026-10-21T01:07:28.219632Z",
       "record": null,
       "retrieved_at": "2026-09-21T01:07:28.219632Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.5281/zenodo.22986393": {
+      "expires_at": "2026-10-29T01:08:33.934653Z",
+      "record": null,
+      "retrieved_at": "2026-09-29T01:08:33.934653Z",
       "status": "not_found"
     },
     "crossref:doi:10.6084/m9.figshare.33306492.v1": {
@@ -11920,6 +12050,52 @@
       "retrieved_at": "2026-08-27T16:32:39.463795Z",
       "status": "found"
     },
+    "openalex:doi:10.1007/s00340-026-08717-x": {
+      "expires_at": "2026-10-29T01:08:34.737987Z",
+      "record": {
+        "abstract": "The speckle based classification of Laguerre-Gauss (LG) beams using the convolution neural network (CNN) has gained a significant interest in view of their applications towards free space optical communication. For the LG beams with higher azimuthal index or topological charge (TC), the classification becomes extremely difficult due to the presence of similarities or structural correlations between the speckle patterns corresponding to the various orders. Here, we propose two deep learning techniques based on CNN and a Vision Transformer (ViT) for classifying the LG beams with higher TC up to 50 using the speckle patterns generated by scattering these modes through a rough surface. The obtained results show that the ViT based model achieves a better mean classification accuracy of 98.1%, outperforming the CNN based model by approximately 3.3%. Additionally, we validated the robustness of the proposed models by accurately detecting TC over three independent test runs and we are also able to determine the sign of TC as well. This classification was performed using a small patch (224 $$\\times $$ 224) of speckle patterns, approximately 1% of the recorded speckle pattern. The robustness of the proposed method for high topological charges after perturbing using the scattering environments enables more reliable, high capacity optical systems for real world use.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shiva Shankar Mutupuri",
+            "orcid": "https://orcid.org/0009-0001-2996-3455"
+          },
+          {
+            "name": "Md Haider Ansari",
+            "orcid": "https://orcid.org/0009-0007-3457-524X"
+          },
+          {
+            "name": "Satish Anamalamudi",
+            "orcid": "https://orcid.org/0000-0003-0042-2177"
+          },
+          {
+            "name": "Ravi Kumar",
+            "orcid": null
+          },
+          {
+            "name": "Shashi Prabhakar",
+            "orcid": "https://orcid.org/0000-0002-7337-8755"
+          },
+          {
+            "name": "GANGIREDDY SALLA",
+            "orcid": "https://orcid.org/0000-0001-8039-2443"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s00340-026-08717-x",
+        "landing_page": "https://doi.org/10.1007/s00340-026-08717-x",
+        "open_access_url": "https://doi.org/10.1007/s00340-026-08717-x",
+        "openalex_id": "https://openalex.org/W7214448830",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214448830",
+        "publication_date": "2026-09-27",
+        "title": "Higher-order spatial mode detection leveraging deep learning on random optical patterns",
+        "venue": "Applied Physics B",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-29T01:08:34.737987Z",
+      "status": "found"
+    },
     "openalex:doi:10.1007/s00521-026-12462-9": {
       "expires_at": "2026-10-12T00:59:37.068250Z",
       "record": {
@@ -17708,6 +17884,84 @@
       "retrieved_at": "2026-09-28T01:11:35.765521Z",
       "status": "found"
     },
+    "openalex:doi:10.1186/s43074-026-00291-x": {
+      "expires_at": "2026-10-29T01:08:35.159367Z",
+      "record": {
+        "abstract": "Abstract Metasurfaces are progressively reshaping traditional optical paradigms and pushing the boundaries in complex applications where compact designs are essential. However, the design of metasurfaces demands substantial computational resources to numerically solve Maxwell's equations—particularly for large-scale photonic systems. Conventional forward design using electromagnetic solvers is based on specific approximations that may not effectively address complex problems. In contrast, existing inverse design methods are a stepwise process that is often time-consuming. Here, we overcome these challenges by presenting MetaE-former architecture, a Neighborhood Attention Transformer-based transfer learning framework that enables customized surrogate solver development through fine-tuning of pre-trained neural networks with only thousands of data, facilitating highly efficient task-adaptable inverse design of metasurfaces. Moreover, this method achieves global solutions for hundreds of nanostructures simultaneously, providing up to a 250,000-fold speedup during the optimization stage compared with solving for individual meta-atoms based on the FDTD method. As examples, we demonstrate a binarized high-numerical-aperture (~ 1.31) metalens and several optimized structured-light meta-generators. Our method significantly improves the beam shaping adaptability with metasurfaces and paves the way for quick design of large-scale metadevices with high accuracy.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shiqi Kuang",
+            "orcid": null
+          },
+          {
+            "name": "Zhi Sun",
+            "orcid": null
+          },
+          {
+            "name": "Boyan Fu",
+            "orcid": "https://orcid.org/0000-0001-6428-8080"
+          },
+          {
+            "name": "Xue Yun",
+            "orcid": null
+          },
+          {
+            "name": "Minru He",
+            "orcid": null
+          },
+          {
+            "name": "Tianyu Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Shaowei Wang",
+            "orcid": null
+          },
+          {
+            "name": "Tianhua Shao",
+            "orcid": null
+          },
+          {
+            "name": "Geze Gao",
+            "orcid": null
+          },
+          {
+            "name": "Yunlai Fu",
+            "orcid": null
+          },
+          {
+            "name": "Yansheng Liang",
+            "orcid": "https://orcid.org/0000-0002-3561-1317"
+          },
+          {
+            "name": "Tianyue Li",
+            "orcid": null
+          },
+          {
+            "name": "Shuming Wang",
+            "orcid": null
+          },
+          {
+            "name": "Ming Lei",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1186/s43074-026-00291-x",
+        "landing_page": "https://doi.org/10.1186/s43074-026-00291-x",
+        "open_access_url": "https://doi.org/10.1186/s43074-026-00291-x",
+        "openalex_id": "https://openalex.org/W7214551048",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214551048",
+        "publication_date": "2026-09-28",
+        "title": "Rapid inverse design of large-scale freeform meta-optics with the neighborhood-attention transformer",
+        "venue": "PhotoniX",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-29T01:08:35.159367Z",
+      "status": "found"
+    },
     "openalex:doi:10.1186/s43593-026-00141-0": {
       "expires_at": "2026-10-02T01:02:19.403844Z",
       "record": {
@@ -19910,6 +20164,32 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-21T01:07:28.599482Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.22986393": {
+      "expires_at": "2026-10-29T01:08:34.262243Z",
+      "record": {
+        "abstract": "Deep optical neural networks built from cascaded Mach–Zehnder-interferometer (MZI) meshes promise fast, low-energy linear algebra, but optical loss limits how many layers can be cascaded and no closed-form theory has described that limit. We show that for a product of independent Haar-random meshes the squared-singular-value distribution is the L-fold free multiplicative convolution of the single-layer loss spectrum, and from it we derive a closed-form law for the dynamical-isometry order parameter χ(L) = Var[log s_i(W)]: χ(L) = σ_loss² L (1 + σ_loss² L/3) + O(σ⁶). The correction coefficient γ = 1/3 is shape-independent to leading order and exact in the free multiplicative Brownian scaling limit. It is fixed by the second-order coefficient (1/12) of the log-variance under free multiplicative convolution—a probabilistic fact, the decomposition of log into a semicircle plus a uniform law, established by Auer and Voit; our contribution is not this coefficient but its identification as the law governing loss-limited depth in photonic meshes. Large-scale simulations show that real, structured, noisy Clements meshes follow the same law as the idealized Haar product to about 1–2% up to N = 2048 modes, the free correction (a ≈13% departure from a naive additive model at the depths tested) being required to fit them; because asymptotic freeness of deterministic meshes is an open problem, the real-mesh law is supported empirically rather than proven. The same conditioning controls optimization: in a deep linear network a lossless control isolates loss as the cause of a depth-dependent training collapse, which we show to be ill-conditioning rather than vanishing gradients. It also ranks mesh architectures by loss resilience through a single layout quantity, the variance of the per-mode path length—rectangular (Clements) meshes are predicted to tolerate about 85× more depth than triangular (Reck) meshes at N = 128—and carries its own regime of validity, crossing over to a classical additive law when the meshes mix weakly. At the moderate depths of present devices the measured coefficient is slightly smaller, ≈0.30, well described by the empirical finite-depth fit γ_eff = 1/3 + α/L with α ≈ −0.34 (a finite-size fit, not a derived identity). Files: the preprint (PDF); the simulation and derivation-verification code with result tables, notebooks and a README mapping each script to the results in the preprint (code-and-data ZIP; code under the MIT License); and the LaTeX source of the preprint (source ZIP). The use of AI tools in this work is disclosed in the preprint.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Joakim Haiden Kanichai",
+            "orcid": "https://orcid.org/0009-0003-7873-7184"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.22986393",
+        "landing_page": "https://doi.org/10.5281/zenodo.22986393",
+        "open_access_url": "https://doi.org/10.5281/zenodo.22986393",
+        "openalex_id": "https://openalex.org/W7214522207",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214522207",
+        "publication_date": "2026-09-27",
+        "title": "A closed-form free-probability law for loss-induced conditioning in deep photonic mesh networks",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-29T01:08:34.262243Z",
       "status": "found"
     },
     "openalex:doi:10.6084/m9.figshare.33306492.v1": {

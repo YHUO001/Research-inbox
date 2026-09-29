@@ -1,173 +1,31 @@
 {
-  "abstract_fallback_candidate_ids": [],
-  "abstract_fallback_count": 0,
-  "architecture_evidence": {
-    "f180e20173fd0995c081891b": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": null,
-      "resolved_type": "unclear"
-    }
-  },
-  "architecture_repairs": 0,
-  "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 1,
-  "completed_at": "2026-09-28T01:12:51.443685Z",
+  "actual_summary_count": 0,
+  "automatic_queue_candidate_count": 0,
+  "built_at": "2026-09-29T01:08:36.443689Z",
   "completed_candidate_filtered_count": 0,
-  "completed_candidate_ids": [
-    "f180e20173fd0995c081891b"
-  ],
-  "completion_mode": "automatic_daily_batch_after_local_validation",
-  "daily_digest_pending": true,
-  "digest_date": "2026-09-28",
-  "digest_json_file": "runtime-state/data/digests/2026-09-28.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-09-28.generated.md",
+  "daily_digest_pending": false,
+  "digest_date": "2026-09-29",
+  "digest_json_file": "runtime-state/data/digests/2026-09-29.preview.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-09-29.preview.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.036447,
   "execution_mode": "automatic_daily_batch",
-  "failure_count": 0,
-  "failures": [],
-  "full_text_method_contexts": {
-    "f180e20173fd0995c081891b": {
-      "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "f180e20173fd0995c081891b",
-      "character_count": 12000,
-      "content_sha256": "4b0c23e83e3faa5728757b43ae440eb287f8625e2d137581900ccbf154d50385",
-      "elapsed_seconds": 0.565,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "text/html",
-      "section_headings": [
-        "3 ZOCheck Design and Implementation",
-        "4.1 Experimental Setup",
-        "4.2 Main Results: Near-instant Recovery with Non-blocking Training",
-        "Checkpointing for first-order deep learning training"
-      ],
-      "source_url": "https://arxiv.org/html/2609.27189",
-      "status": "used",
-      "text_persisted": false
-    }
-  },
-  "full_text_persisted": false,
-  "full_text_used": true,
+  "full_text_used": false,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
-  "knowledge_base_pending": true,
-  "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 1,
-  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
-  "numeric_matching": {
-    "absolute_tolerance": 0.02,
-    "approximation_markers_ignored": true,
-    "evidence_sources": [
-      "title",
-      "abstract",
-      "temporary_open_full_text_methods"
-    ],
-    "full_text_unsupported_sentence_action": "deterministic_redaction",
-    "relative_tolerance": 0.02,
-    "unit_format_ignored": true,
-    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
-  },
+  "knowledge_base_pending": false,
+  "llm_enabled": true,
   "output_language": "zh-CN",
-  "prepared_request_count": 1,
-  "provider": "deepseek",
-  "queue_sha256": "55fab63a8036be241da14bba270bf362af3b9ee42fde20e96fa72e28440c6ac7",
-  "request_count": 1,
-  "request_file": "runtime-state/data/summary_requests/2026-09-28.jsonl",
-  "request_sha256": "691ee61ab6c3c7389c9ee27b06e9838826f33fb9f95f7d9c82bc97d3287a5172",
+  "provider": "not_configured",
+  "queue_candidate_count": 0,
+  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "request_count": 0,
+  "request_file": "runtime-state/data/summary_requests/2026-09-29.jsonl",
+  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "47c0006740c03805756e9267b7e6c87ab1589e7377cfa7ffdba378e3b7758e77",
-  "skipped_no_abstract_candidate_ids": [],
-  "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 1,
-  "stage_timings": {
-    "full_text_preparation_seconds": 0.569,
-    "model_api_calls": [
-      {
-        "attempt": 1,
-        "candidate_id": "f180e20173fd0995c081891b",
-        "elapsed_seconds": 24.969,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1601,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 3911,
-          "prompt_tokens": 5831,
-          "total_tokens": 7432
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "f180e20173fd0995c081891b",
-        "elapsed_seconds": 45.072,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 2428,
-          "prompt_cache_hit_tokens": 5760,
-          "prompt_cache_miss_tokens": 116,
-          "prompt_tokens": 5876,
-          "total_tokens": 8304
-        }
-      }
-    ],
-    "model_generation_and_validation_seconds": 70.067
-  },
-  "status": "completed_automatic",
-  "summary_count": 1,
-  "summary_file": "runtime-state/data/summaries/2026-09-28.jsonl",
+  "selection_manifest_sha256": "9e15108892841af12b0e7974eee77634795117f3e8f6dd8990edd2315438e438",
+  "source_queue_candidate_count": 0,
+  "status": "no_candidates",
   "summary_generation_version": 8,
-  "summary_history_updated": true,
-  "summary_slot_count": 1,
-  "thinking_enabled": false,
-  "transport_repairs": {
-    "architecture_evidence": {
-      "f180e20173fd0995c081891b": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": null,
-        "repaired": false,
-        "resolved_type": "unclear"
-      }
-    },
-    "architecture_repairs": 0,
-    "candidate_id_repair_responses": 0,
-    "full_text_method_contexts": {
-      "f180e20173fd0995c081891b": {
-        "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "f180e20173fd0995c081891b",
-        "character_count": 12000,
-        "content_sha256": "4b0c23e83e3faa5728757b43ae440eb287f8625e2d137581900ccbf154d50385",
-        "elapsed_seconds": 0.565,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "text/html",
-        "section_headings": [
-          "3 ZOCheck Design and Implementation",
-          "4.1 Experimental Setup",
-          "4.2 Main Results: Near-instant Recovery with Non-blocking Training",
-          "Checkpointing for first-order deep learning training"
-        ],
-        "source_url": "https://arxiv.org/html/2609.27189",
-        "status": "used",
-        "text_persisted": false
-      }
-    },
-    "generation_metadata_repair_responses": 0,
-    "numeric_grounding_repair_responses": 0,
-    "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 8,
-    "unit_format_normalization_responses": 0
-  },
-  "usage": {
-    "completion_tokens": 4029,
-    "prompt_cache_hit_tokens": 7680,
-    "prompt_cache_miss_tokens": 4027,
-    "prompt_tokens": 11707,
-    "total_tokens": 15736
-  }
+  "summary_history_updated": false,
+  "summary_slot_count": 0
 }
