@@ -386,6 +386,86 @@
       "retrieved_at": "2026-09-17T01:02:52.307397Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/adom.71837": {
+      "expires_at": "2026-10-30T01:10:08.172115Z",
+      "record": {
+        "abstract": "ABSTRACT Nanoscale light–matter interactions sit at the intersection of quantum electrodynamics and next‐generation technology. When electromagnetic fields are confined to volumes far below the classical diffraction limit, through different nanomaterial systems, the rules governing photon‐matter coupling are fundamentally altered. We observe that spontaneous emission rates are accelerated by orders of magnitude, optical nonlinearities become accessible at single‐photon power levels, and quantum coherence is sustained under conditions that would otherwise prevent it in conventional bulk systems. This Perspective argues that the field is approaching a critical inflection point. The underlying physics has come to a stage where meaningful technological translation is now possible, while advances in nanofabrication have reached a level of precision and reproducibility compatible with scalable device engineering. At the same time, pressing challenges in healthcare, energy, and information technologies are creating both the demand and the context for such translation. Drawing on recent progress in plasmonic, polaritonic, and moiré nanophotonic systems, this perspective outlines a structured, multi‐stage technology roadmap and examines the key scientific and engineering bottlenecks that must be addressed to achieve it. It concludes by identifying the directions most likely to benefit from continued, coordinated effort over the next two decades.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Aditya Dileep Kurdekar",
+            "orcid": "https://orcid.org/0000-0002-0704-0633"
+          },
+          {
+            "name": "Dharmaraj R.",
+            "orcid": null
+          },
+          {
+            "name": "Venkataramaniah Kamisetti",
+            "orcid": "https://orcid.org/0000-0002-5706-5919"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adom.71837",
+        "landing_page": "https://doi.org/10.1002/adom.71837",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/adom.71837",
+        "publication_date": "2026-09-25",
+        "title": "Engineering Light–Matter Interaction for Scalable Nanophotonic Technologies",
+        "venue": "Advanced Optical Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-30T01:10:08.172115Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1002/adom.71870": {
+      "expires_at": "2026-10-30T01:10:12.393298Z",
+      "record": {
+        "abstract": "ABSTRACT Stacked intelligent metasurfaces (SIMs), integrated within diffractive neural network (DNN), have emerged as a promising platform for electromagnetic (EM) sensing. In particular, SIMs enable compact, near‐speed‐of‐light direction‐of‐arrival (DOA) estimation through cascaded wavefront transformations and parallel physical computation. However, existing DNN‐based DOA approaches rely on a spatial‐channel exclusive mapping, coupling angular resolution to detector array scalability and limiting the extension of DOA estimation to wide angular range. To address this issue, we introduce a distributed combinatorial encoding scheme based on multi‐detector joint energy decision logic, overcoming the scalability limitations inherent in the conventional mapping paradigm. The DNN‐designed phase profiles are implemented on two polarization‐conversion metasurfaces to construct an SIM. After modulation by the SIM, incident waves arriving within angular range from −50° to 50° generate angle‐unique intensity distribution patterns on the detection plane, from which the DOA information can be inferred. Full‐wave simulations and microwave experiments validate the proposed approach, demonstrating reliable DOA estimation, including inferring unlabeled incident angles. These results highlight the potential of the proposed simple passive framework for wide angular range DOA estimation and its broader implications for EM sensing in future wireless communication and internet‐of‐things (IoT) ecosystems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yi Yu",
+            "orcid": "https://orcid.org/0009-0007-7988-6527"
+          },
+          {
+            "name": "Weiqing Zhao",
+            "orcid": "https://orcid.org/0009-0004-8991-0840"
+          },
+          {
+            "name": "Junming Zhao",
+            "orcid": "https://orcid.org/0000-0002-0588-0639"
+          },
+          {
+            "name": "Tian Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Ke Chen",
+            "orcid": "https://orcid.org/0000-0002-5864-5034"
+          },
+          {
+            "name": "Yijun Feng",
+            "orcid": "https://orcid.org/0000-0002-7118-7509"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adom.71870",
+        "landing_page": "https://doi.org/10.1002/adom.71870",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/adom.71870",
+        "publication_date": "2026-09-27",
+        "title": "Wide Angular Range Direction‐of‐Arrival Estimation Based on Diffractive Neural Network Integrated Stacked Intelligent Metasurfaces",
+        "venue": "Advanced Optical Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-30T01:10:12.393298Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/lpor.71596": {
       "expires_at": "2026-09-26T02:02:16.863743Z",
       "record": {
@@ -1760,6 +1840,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:53.189831Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/s11665-026-15156-4": {
+      "expires_at": "2026-10-30T01:10:07.521892Z",
+      "record": {
+        "abstract": "Abstract Cutting tools require materials that harmonize high hardness with fracture toughness, a challenge addressed in this study through niobium carbide (NbC)-iron (Fe) composites. Homogeneous NbC-Fe systems and a functionally graded structure were investigated to optimize mechanical performance. Homogeneous composites underwent dilatometry, x-ray diffractometry and sintering analysis to evaluate linear shrinkage, densification and density. Results revealed that varying NbC/Fe ratios influenced hardness and indentation toughness, with carbide-rich compositions favoring hardness and metallic phases enhancing ductility. The graded composite, sintered via pulsed electric current-assisted sintering (PECS), demonstrated a unique R-curve behavior: surface layers (NbC-dominant) achieved peak hardness (e.g., ~ 20 GPa), while toughness increased toward the Fe-rich core (e.g., ~ 10 MPa√m). This gradient design successfully merged ceramic-like surface durability with metal-like crack resistance, addressing the intrinsic brittleness of covalent ceramics. This work highlights the potential of functionally graded NbC-Fe cermets as next-generation cutting tools, offering a scalable solution to reconcile traditionally conflicting material properties.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "V. L. Arantes",
+            "orcid": null
+          },
+          {
+            "name": "S. Huang",
+            "orcid": null
+          },
+          {
+            "name": "J. Vleugels",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s11665-026-15156-4",
+        "landing_page": "https://doi.org/10.1007/s11665-026-15156-4",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s11665-026-15156-4",
+        "publication_date": "2026-09-26",
+        "title": "Sintering and Properties of Homogeneous and Functionally Graded Niobium Carbide-Iron Composites",
+        "venue": "Journal of Materials Engineering and Performance",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-30T01:10:07.521892Z",
       "status": "found"
     },
     "crossref:doi:10.1007/s11760-026-05638-2": {
@@ -6192,10 +6306,22 @@
       "retrieved_at": "2026-08-31T01:07:10.369066Z",
       "status": "not_found"
     },
+    "crossref:title:07a658f17d330573c0f74fe3ad3c8364a20c22f53dc0ae03a4bc66a3eac32b9f": {
+      "expires_at": "2026-10-07T01:10:09.691832Z",
+      "record": null,
+      "retrieved_at": "2026-09-30T01:10:09.691832Z",
+      "status": "not_found"
+    },
     "crossref:title:0863bdf41b7653844ffb40fe45bc522c7423e871cf57794d46d910add9afe9a2": {
       "expires_at": "2026-09-20T01:07:25.764659Z",
       "record": null,
       "retrieved_at": "2026-09-13T01:07:25.764659Z",
+      "status": "not_found"
+    },
+    "crossref:title:0c33755d6a2894feebc406bce7bbf52bfaca24f41cae949389b38d192ec8f017": {
+      "expires_at": "2026-10-07T01:10:15.930802Z",
+      "record": null,
+      "retrieved_at": "2026-09-30T01:10:15.930802Z",
       "status": "not_found"
     },
     "crossref:title:0ef2b3c5ff1e9358effb87988e725ac3ef6be54ec31d5928d2de3016c3c25f28": {
@@ -6560,6 +6686,12 @@
       "expires_at": "2026-09-25T01:02:11.624150Z",
       "record": null,
       "retrieved_at": "2026-09-18T01:02:11.624150Z",
+      "status": "not_found"
+    },
+    "crossref:title:20cfe67813be963e442465719751d8578d9f569e54fe5b75a1f930d33bbb3097": {
+      "expires_at": "2026-10-07T01:10:06.470496Z",
+      "record": null,
+      "retrieved_at": "2026-09-30T01:10:06.470496Z",
       "status": "not_found"
     },
     "crossref:title:20e0321813f779b57400a1efa1a9062a82eb81a843aea717d78cb6cb05979696": {
@@ -7812,6 +7944,12 @@
       "retrieved_at": "2026-09-12T00:59:35.874315Z",
       "status": "not_found"
     },
+    "crossref:title:7124e6200b9534d22ee9c5168445468c2ee260a17f3fabb27e59e276f3f38197": {
+      "expires_at": "2026-10-07T01:10:13.457501Z",
+      "record": null,
+      "retrieved_at": "2026-09-30T01:10:13.457501Z",
+      "status": "not_found"
+    },
     "crossref:title:7154f416d33e635ec62648b7399bdac5629bab1558b3480c4323821da605e9e8": {
       "expires_at": "2026-08-11T09:38:19.407006Z",
       "record": {
@@ -7891,6 +8029,44 @@
       "record": null,
       "retrieved_at": "2026-08-19T00:32:50.290553Z",
       "status": "not_found"
+    },
+    "crossref:title:78be98afafa20e9775609a24a2232dc8365d4e760b39de6bcc23560ec7b2943e": {
+      "expires_at": "2026-10-07T01:10:14.934294Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Irin Jose",
+            "orcid": "https://orcid.org/0000-0003-0820-6081"
+          },
+          {
+            "name": "Nickolas Kenyeres",
+            "orcid": null
+          },
+          {
+            "name": "Kailey Cozart Quesada",
+            "orcid": null
+          },
+          {
+            "name": "Israel Chen",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/access.2026.3736856",
+        "landing_page": "https://doi.org/10.1109/access.2026.3736856",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/access.2026.3736856",
+        "publication_date": "2026",
+        "title": "A Systematic Review of TinyML Techniques for Efficient Inference and On-Device Learning",
+        "venue": "IEEE Access",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-30T01:10:14.934294Z",
+      "status": "found"
     },
     "crossref:title:796f7b5dd9a283ce34ef216ed6fcb6546998d6f4c4a5cdc5f182895c824cafec": {
       "expires_at": "2026-10-02T01:02:47.019667Z",
@@ -8994,6 +9170,12 @@
       "expires_at": "2026-09-24T01:02:54.723994Z",
       "record": null,
       "retrieved_at": "2026-09-17T01:02:54.723994Z",
+      "status": "not_found"
+    },
+    "crossref:title:b1436e113bd5bd7e6406199f7e1526a10a395b899e92b77ded4a952076ba1c6d": {
+      "expires_at": "2026-10-07T01:10:17.372026Z",
+      "record": null,
+      "retrieved_at": "2026-09-30T01:10:17.372026Z",
       "status": "not_found"
     },
     "crossref:title:b2a574362845e2e40ae749b39e39804f9398fe0f733bd77fbec67f61563915b5": {
@@ -10160,6 +10342,12 @@
       "retrieved_at": "2026-09-15T01:03:18.781771Z",
       "status": "not_found"
     },
+    "crossref:title:f10ba3b2c5ed07915a5ac2b4211f0170c2946c0150a17cf4e020779a00218b2e": {
+      "expires_at": "2026-10-07T01:10:11.539886Z",
+      "record": null,
+      "retrieved_at": "2026-09-30T01:10:11.539886Z",
+      "status": "not_found"
+    },
     "crossref:title:f1af284a52a66b01daa30131c610b7e21acc4a3c2f7604f1a7e7c8aec1a6f5fd": {
       "expires_at": "2026-09-25T01:02:29.783219Z",
       "record": {
@@ -10904,6 +11092,86 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-17T01:02:52.712699Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/adom.71837": {
+      "expires_at": "2026-10-30T01:10:08.587495Z",
+      "record": {
+        "abstract": "ABSTRACT Nanoscale light–matter interactions sit at the intersection of quantum electrodynamics and next‐generation technology. When electromagnetic fields are confined to volumes far below the classical diffraction limit, through different nanomaterial systems, the rules governing photon‐matter coupling are fundamentally altered. We observe that spontaneous emission rates are accelerated by orders of magnitude, optical nonlinearities become accessible at single‐photon power levels, and quantum coherence is sustained under conditions that would otherwise prevent it in conventional bulk systems. This Perspective argues that the field is approaching a critical inflection point. The underlying physics has come to a stage where meaningful technological translation is now possible, while advances in nanofabrication have reached a level of precision and reproducibility compatible with scalable device engineering. At the same time, pressing challenges in healthcare, energy, and information technologies are creating both the demand and the context for such translation. Drawing on recent progress in plasmonic, polaritonic, and moiré nanophotonic systems, this perspective outlines a structured, multi‐stage technology roadmap and examines the key scientific and engineering bottlenecks that must be addressed to achieve it. It concludes by identifying the directions most likely to benefit from continued, coordinated effort over the next two decades.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Aditya Dileep Kurdekar",
+            "orcid": "https://orcid.org/0000-0002-0704-0633"
+          },
+          {
+            "name": "Dharmaraj R.",
+            "orcid": null
+          },
+          {
+            "name": "Venkataramaniah Kamisetti",
+            "orcid": "https://orcid.org/0000-0002-5706-5919"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adom.71837",
+        "landing_page": "https://doi.org/10.1002/adom.71837",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7214441634",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214441634",
+        "publication_date": "2026-09-25",
+        "title": "Engineering Light–Matter Interaction for Scalable Nanophotonic Technologies",
+        "venue": "Advanced Optical Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-30T01:10:08.587495Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/adom.71870": {
+      "expires_at": "2026-10-30T01:10:12.770750Z",
+      "record": {
+        "abstract": "ABSTRACT Stacked intelligent metasurfaces (SIMs), integrated within diffractive neural network (DNN), have emerged as a promising platform for electromagnetic (EM) sensing. In particular, SIMs enable compact, near‐speed‐of‐light direction‐of‐arrival (DOA) estimation through cascaded wavefront transformations and parallel physical computation. However, existing DNN‐based DOA approaches rely on a spatial‐channel exclusive mapping, coupling angular resolution to detector array scalability and limiting the extension of DOA estimation to wide angular range. To address this issue, we introduce a distributed combinatorial encoding scheme based on multi‐detector joint energy decision logic, overcoming the scalability limitations inherent in the conventional mapping paradigm. The DNN‐designed phase profiles are implemented on two polarization‐conversion metasurfaces to construct an SIM. After modulation by the SIM, incident waves arriving within angular range from −50° to 50° generate angle‐unique intensity distribution patterns on the detection plane, from which the DOA information can be inferred. Full‐wave simulations and microwave experiments validate the proposed approach, demonstrating reliable DOA estimation, including inferring unlabeled incident angles. These results highlight the potential of the proposed simple passive framework for wide angular range DOA estimation and its broader implications for EM sensing in future wireless communication and internet‐of‐things (IoT) ecosystems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yi Yu",
+            "orcid": "https://orcid.org/0009-0007-7988-6527"
+          },
+          {
+            "name": "Weiqing Zhao",
+            "orcid": "https://orcid.org/0000-0002-4306-1132"
+          },
+          {
+            "name": "Junming Zhao",
+            "orcid": "https://orcid.org/0000-0002-0588-0639"
+          },
+          {
+            "name": "Tian Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Ke Chen",
+            "orcid": "https://orcid.org/0000-0002-5864-5034"
+          },
+          {
+            "name": "Yijun Feng",
+            "orcid": "https://orcid.org/0000-0002-7118-7509"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adom.71870",
+        "landing_page": "https://doi.org/10.1002/adom.71870",
+        "open_access_url": "https://doi.org/10.1002/adom.71870",
+        "openalex_id": "https://openalex.org/W7214671237",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214671237",
+        "publication_date": "2026-09-27",
+        "title": "Wide Angular Range Direction‐of‐Arrival Estimation Based on Diffractive Neural Network Integrated Stacked Intelligent Metasurfaces",
+        "venue": "Advanced Optical Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-30T01:10:12.770750Z",
       "status": "found"
     },
     "openalex:doi:10.1002/lpor.71596": {
@@ -12364,6 +12632,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:53.549399Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s11665-026-15156-4": {
+      "expires_at": "2026-10-30T01:10:07.917807Z",
+      "record": {
+        "abstract": "Abstract Cutting tools require materials that harmonize high hardness with fracture toughness, a challenge addressed in this study through niobium carbide (NbC)-iron (Fe) composites. Homogeneous NbC-Fe systems and a functionally graded structure were investigated to optimize mechanical performance. Homogeneous composites underwent dilatometry, x-ray diffractometry and sintering analysis to evaluate linear shrinkage, densification and density. Results revealed that varying NbC/Fe ratios influenced hardness and indentation toughness, with carbide-rich compositions favoring hardness and metallic phases enhancing ductility. The graded composite, sintered via pulsed electric current-assisted sintering (PECS), demonstrated a unique R-curve behavior: surface layers (NbC-dominant) achieved peak hardness (e.g., ~ 20 GPa), while toughness increased toward the Fe-rich core (e.g., ~ 10 MPa√m). This gradient design successfully merged ceramic-like surface durability with metal-like crack resistance, addressing the intrinsic brittleness of covalent ceramics. This work highlights the potential of functionally graded NbC-Fe cermets as next-generation cutting tools, offering a scalable solution to reconcile traditionally conflicting material properties.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "V. L. Arantes",
+            "orcid": null
+          },
+          {
+            "name": "S. Huang",
+            "orcid": null
+          },
+          {
+            "name": "J. Vleugels",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s11665-026-15156-4",
+        "landing_page": "https://doi.org/10.1007/s11665-026-15156-4",
+        "open_access_url": "https://doi.org/10.1007/s11665-026-15156-4",
+        "openalex_id": "https://openalex.org/W7214476423",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214476423",
+        "publication_date": "2026-09-26",
+        "title": "Sintering and Properties of Homogeneous and Functionally Graded Niobium Carbide-Iron Composites",
+        "venue": "Journal of Materials Engineering and Performance",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-30T01:10:07.917807Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s11760-026-05638-2": {
@@ -15510,6 +15812,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-31T01:07:08.644211Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/access.2026.3736856": {
+      "expires_at": "2026-10-30T01:10:15.291214Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Irin Jose",
+            "orcid": "https://orcid.org/0000-0003-0820-6081"
+          },
+          {
+            "name": "Nickolas Kenyeres",
+            "orcid": null
+          },
+          {
+            "name": "Kailey Cozart Quesada",
+            "orcid": null
+          },
+          {
+            "name": "Israel Chen",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/access.2026.3736856",
+        "landing_page": "https://doi.org/10.1109/access.2026.3736856",
+        "open_access_url": "https://doi.org/10.1109/access.2026.3736856",
+        "openalex_id": "https://openalex.org/W7214094850",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214094850",
+        "publication_date": "2026-01-01",
+        "title": "A Systematic Review of TinyML Techniques for Efficient Inference and On-Device Learning",
+        "venue": "IEEE Access",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-30T01:10:15.291214Z",
       "status": "found"
     },
     "openalex:doi:10.1109/codit70676.2026.11631225": {
@@ -20704,10 +21044,58 @@
       "retrieved_at": "2026-08-31T01:07:11.006421Z",
       "status": "found"
     },
+    "openalex:title:07a658f17d330573c0f74fe3ad3c8364a20c22f53dc0ae03a4bc66a3eac32b9f": {
+      "expires_at": "2026-10-07T01:10:10.635223Z",
+      "record": {
+        "abstract": "Artificial intelligence workloads increasingly demand computing architectures combining high throughput, energy efficiency, and physical scalability. Here we present a signed incoherent optical matrix multiplier on thin-film lithium niobate that natively supports signed inputs and weights. We demonstrate closed-loop in situ backpropagation on a 16 X 16 photonic core, including forward computation, nonlinear operations, error propagation, and gradient computation. Measured physical outputs directly participate in optimization, thereby incorporating actual device responses and nonidealities into training. The core achieves 8-bit multiplication and 10-bit accumulation precision across 256 channels, maintains 10-bit accuracy in tiled 256 X 256 matrix computation, and further executes Transformer linear operations in a BERT-mini workload. This work presents a fundamental, scalable building block that addresses key limitations in practical optical computing, thereby opening avenues for large-scale, high-efficiency photonic neuromorphic systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuan Ren",
+            "orcid": null
+          },
+          {
+            "name": "Yong Zheng",
+            "orcid": null
+          },
+          {
+            "name": "Ruixue Liu",
+            "orcid": null
+          },
+          {
+            "name": "Min Wang",
+            "orcid": null
+          },
+          {
+            "name": "Ya Cheng",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.27709",
+        "landing_page": "https://arxiv.org/abs/2609.27709",
+        "open_access_url": "https://arxiv.org/abs/2609.27709",
+        "openalex_id": "https://openalex.org/W7214157964",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214157964",
+        "publication_date": "2026-09-23",
+        "title": "A native signed incoherent photonic matrix core on thin-film lithium niobate supporting in situ backpropagation",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-30T01:10:10.635223Z",
+      "status": "found"
+    },
     "openalex:title:0863bdf41b7653844ffb40fe45bc522c7423e871cf57794d46d910add9afe9a2": {
       "expires_at": "2026-09-20T01:07:26.646522Z",
       "record": null,
       "retrieved_at": "2026-09-13T01:07:26.646522Z",
+      "status": "not_found"
+    },
+    "openalex:title:0c33755d6a2894feebc406bce7bbf52bfaca24f41cae949389b38d192ec8f017": {
+      "expires_at": "2026-10-07T01:10:16.543987Z",
+      "record": null,
+      "retrieved_at": "2026-09-30T01:10:16.543987Z",
       "status": "not_found"
     },
     "openalex:title:0f8c4e0a9f7dbce7dfea5017263591b2cbf2d3204d9a790cff62b5e4c9f44859": {
@@ -20803,6 +21191,44 @@
       "record": null,
       "retrieved_at": "2026-09-18T01:02:12.398704Z",
       "status": "not_found"
+    },
+    "openalex:title:20cfe67813be963e442465719751d8578d9f569e54fe5b75a1f930d33bbb3097": {
+      "expires_at": "2026-10-07T01:10:07.270923Z",
+      "record": {
+        "abstract": "Sparse communication in decentralized zeroth-order learning requires compatible peer-state coordinates. We characterize this one-hop condition and develop \\textsf{ZO-COSMO}, coupling two-query estimation with average-preserving masked consensus using $q$ values per active link. Global supports serve all-neighbor mixing; matching updates require agreement only within each pair. We derive a sharp contraction-per-scalar bound within the matching class and convergence guarantees for the core and sparse-momentum updates. At fixed matching, exact moment identities characterize how shared directions preserve gradient-heterogeneity cancellation and redistribute estimation error and disagreement. Mechanism experiments cover unequal curvatures, noise, and sparse momentum. Further tests span $64$ synthetic agents and eight logical Qwen LoRA workers. At matched payload budgets, Qwen2-7B QNLI gains $3.65$ accuracy points over explicit-index Rand-$k$; edge-local updates gain $3.42$ and $2.53$ points over all-neighbor mixing on eight-worker complete and ring graphs. A matched-first-step ablation gives a $3.92$-point momentum benefit. Seed-aware and same-matching controls distinguish encoding, scheduling, and query correlation.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shengjun Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Tingyi Liu",
+            "orcid": null
+          },
+          {
+            "name": "Heng Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Dong Xie",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.27199",
+        "landing_page": "https://arxiv.org/abs/2609.27199",
+        "open_access_url": "https://arxiv.org/abs/2609.27199",
+        "openalex_id": "https://openalex.org/W7214180597",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214180597",
+        "publication_date": "2026-09-23",
+        "title": "ZO-COSMO: Index-Free One-Hop Mixing for Decentralized Zeroth-Order Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-09-30T01:10:07.270923Z",
+      "status": "found"
     },
     "openalex:title:249de29380f61cbfa04e045bb6ff4ca3e6b09932fa43c62ead34e26d394beb77": {
       "expires_at": "2026-08-27T00:32:29.598699Z",
@@ -21522,6 +21948,12 @@
       "retrieved_at": "2026-09-12T00:59:36.398896Z",
       "status": "not_found"
     },
+    "openalex:title:7124e6200b9534d22ee9c5168445468c2ee260a17f3fabb27e59e276f3f38197": {
+      "expires_at": "2026-10-07T01:10:14.285159Z",
+      "record": null,
+      "retrieved_at": "2026-09-30T01:10:14.285159Z",
+      "status": "not_found"
+    },
     "openalex:title:721de79f351b5436ae3c2ad5aa4fa56fc0afca6a1a504d4d87fb7c11c47f5662": {
       "expires_at": "2026-09-19T00:59:34.366541Z",
       "record": {
@@ -22222,6 +22654,12 @@
       "retrieved_at": "2026-09-17T01:02:55.441715Z",
       "status": "not_found"
     },
+    "openalex:title:b1436e113bd5bd7e6406199f7e1526a10a395b899e92b77ded4a952076ba1c6d": {
+      "expires_at": "2026-10-07T01:10:18.150317Z",
+      "record": null,
+      "retrieved_at": "2026-09-30T01:10:18.150317Z",
+      "status": "not_found"
+    },
     "openalex:title:b2b283344da0a1f3bd69064acb8d5c6a06aadc0124e1ed0f4eeaa1fadde99930": {
       "expires_at": "2026-09-11T01:00:22.102567Z",
       "record": {
@@ -22746,6 +23184,12 @@
       "expires_at": "2026-09-22T01:03:20.362221Z",
       "record": null,
       "retrieved_at": "2026-09-15T01:03:20.362221Z",
+      "status": "not_found"
+    },
+    "openalex:title:f10ba3b2c5ed07915a5ac2b4211f0170c2946c0150a17cf4e020779a00218b2e": {
+      "expires_at": "2026-10-07T01:10:12.168810Z",
+      "record": null,
+      "retrieved_at": "2026-09-30T01:10:12.168810Z",
       "status": "not_found"
     },
     "openalex:title:f423903be74108a8d2be27f40109ed7a008b05c9f8426d00f09cc57552609ed9": {

@@ -1,0 +1,90 @@
+{
+  "completion": {
+    "architecture_repairs": 0,
+    "completed_at": "2026-09-30T01:10:55.633110Z",
+    "mode": "automatic_daily_batch_after_local_validation"
+  },
+  "delivery": {
+    "mode": "separate_daily_digest_workflow",
+    "status": "pending"
+  },
+  "digest_date": "2026-09-30",
+  "digest_version": 2,
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": false,
+    "information_basis": "title_metadata_and_abstract_only",
+    "numeric_grounding_scope": "title_and_abstract_only",
+    "review_required": false,
+    "summary_history_updated": true
+  },
+  "schema_version": 2,
+  "status": "completed_automatic",
+  "summaries": [
+    {
+      "candidate_id": "95fe7b58392c34e07c8b2616",
+      "core_problem": "现有基于衍射神经网络的到达角估计方法采用空间信道独占映射，角度分辨率受探测器阵列规模限制，难以扩展到宽角度范围。论文要解决的核心问题是如何突破这一可扩展性瓶颈，实现宽角度范围的到达角估计。",
+      "distinction_from_prior_work": "与现有基于衍射神经网络的到达角估计方法不同，本工作不采用空间信道独占映射，而是利用多探测器联合能量决策逻辑进行分布式组合编码，从而克服了角度分辨率对探测器阵列可扩展性的依赖，扩展到宽角度范围。",
+      "limitations_and_open_questions": [
+        "摘要未提供关于探测器数量、系统尺寸、工作频率等具体参数。",
+        "摘要未报告估计误差、角度分辨率等定量性能指标。",
+        "摘要未讨论实际系统中超表面制备误差、噪声等因素的影响。",
+        "摘要级证据不足以评估该方案在更复杂电磁环境或非理想条件下的鲁棒性。"
+      ],
+      "main_contributions": [
+        "提出一种基于多探测器联合能量决策逻辑的分布式组合编码方案，用于到达角估计。",
+        "该方案突破了传统空间信道独占映射中探测器阵列规模对角度分辨率的限制，支持宽角度范围到达角估计。",
+        "将衍射神经网络设计的相位轮廓实现在两个偏振转换超表面上，构建堆叠智能超表面。",
+        "通过全波仿真和微波实验验证了在负五十度到正五十度范围内的可靠到达角估计，包括未标记角度的推断。"
+      ],
+      "method_and_architecture": "论文提出一种基于多探测器联合能量决策逻辑的分布式组合编码方案，并将其集成到由两个偏振转换超表面构成的堆叠智能超表面中。衍射神经网络设计的相位轮廓对入射波进行级联波前变换，在探测平面上产生与角度唯一对应的强度分布，从而实现到达角推断。",
+      "method_implementation": [
+        "系统由两个偏振转换超表面构成堆叠智能超表面，超表面的相位分布由衍射神经网络以数据驱动方式设计。入射电磁波依次穿过两层超表面，每一层对波前施加空间相位调制，经过传播后在探测平面上形成强度分布。探测平面上的多个探测器分别测量不同位置的强度值，这些强度值作为组合编码的输入。",
+        "在训练阶段，以不同角度的入射波作为输入，以期望的探测器强度模式作为目标，对衍射神经网络的可训练相位参数进行优化。训练完成后，将得到的相位轮廓制备到实际的超表面上。在推理阶段，未知角度的入射波通过超表面后，测量探测平面上的强度分布，再根据多探测器联合能量决策逻辑推断对应的到达角。全波仿真和微波实验被用于验证该方法，包括对未标记入射角的推断。"
+      ],
+      "method_principle": "堆叠智能超表面由两层经过衍射神经网络优化的超表面组成，每层超表面作为一个物理计算层，对入射电磁波施加空间变化的相位调制。入射波经过第一层调制后发生波前变换，继续传播到第二层并再次被调制，最终在探测平面上形成强度图案。传统方案中，不同角度的入射波被映射到不同的探测器单元上，角度分辨能力直接受探测器数目限制；而所提出的分布式组合编码方案不要求每个角度对应一个独立探测器，而是利用多个探测器接收到的能量联合分布来编码角度信息。因此，即使探测平面上的探测器数量有限，不同角度的入射波仍会产生不同的组合强度模式，从而突破空间信道独占映射的可扩展性限制。全波仿真和微波实验表明，在从负五十度到正五十度的角度范围内，入射波经超表面调制后能够生成角度唯一的强度分布图案，且未标记的入射角也能被正确推断。该方法仅使用无源超表面和简单的强度检测，无需复杂的射频链路或数字波束成形，具有低复杂度和近光速计算的优势。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "到达角估计（电磁感知）"
+        ],
+        "architecture_type": "unclear",
+        "calibration_requirements": "未提供校准需求信息。",
+        "hardware_validation": "mixed",
+        "optical_nonlinearity": "超表面为无源相位调制元件，无光学非线性；非线性可能仅存在于训练过程或后续信号处理中。",
+        "training_method": "衍射神经网络通过数据驱动方式优化超表面相位分布，但摘要未提供训练细节、损失函数或优化器。"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "全波仿真和微波实验验证了所提方法，展示了可靠的到达角估计，包括推断未标记的入射角。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "入射波在从负五十度到正五十度的角度范围内到达时，经堆叠智能超表面调制后在探测平面上生成角度唯一的强度分布图案。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该研究为宽角度范围到达角估计提供了一种简单、无源、近光速计算的框架，有望应用于未来无线通信和物联网生态系统中的电磁感知。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "公开全文未取得，仅依据题目、元数据和摘要；缺失实验细节、训练配置、超表面结构参数、探测器布局和定量性能结果。",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    }
+  ],
+  "summary_count": 1
+}

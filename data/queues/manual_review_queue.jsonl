@@ -18,4 +18,5 @@
 {"candidate_id": "b9799fbb6de20d2eb84c185d", "mandatory": false, "matched_projects": [], "priority": "normal", "reasons": ["parser_manual_review"], "route": "manual_review_queue"}
 {"candidate_id": "db7cf42738f4c42ba1eabfa0", "mandatory": false, "matched_projects": [], "priority": "normal", "reasons": ["parser_manual_review"], "route": "manual_review_queue"}
 {"candidate_id": "dbc2e8050780b230aa5e4a0c", "mandatory": false, "matched_projects": [], "priority": "normal", "reasons": ["parser_manual_review"], "route": "manual_review_queue"}
+{"candidate_id": "f0e1a79c829303f9705d092f", "mandatory": false, "matched_projects": [], "priority": "normal", "reasons": ["parser_manual_review"], "route": "manual_review_queue"}
 {"candidate_id": "f9803375b0eb7c51394fd6be", "mandatory": false, "matched_projects": [], "priority": "normal", "reasons": ["parser_manual_review"], "route": "manual_review_queue"}

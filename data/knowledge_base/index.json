@@ -404,6 +404,15 @@
       "summary_record_sha256": "7016ad024a34cfd13f81d2ab6d2e23d58153cbe61deb020c2a8b207c13c695bf",
       "title": "Surrogate Scattering Matrix‐Guided Inverse Design of Nanophotonic Neural Networks"
     },
+    "95fe7b58392c34e07c8b2616": {
+      "digest_date": "2026-09-30",
+      "doi": "10.1002/adom.71870",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "0218076744e99242e59059788a57013b4e5160d6751e17aac724599ff9cfe91c",
+      "title": "Wide Angular Range Direction‐of‐Arrival Estimation Based on Diffractive Neural Network Integrated Stacked Intelligent Metasurfaces"
+    },
     "973507e35175bb05fcf25e79": {
       "digest_date": "2026-09-03",
       "doi": "10.1038/s41377-026-02419-x",
@@ -738,11 +747,15 @@
     ],
     "2026-09-28": [
       "f180e20173fd0995c081891b"
+    ],
+    "2026-09-30": [
+      "95fe7b58392c34e07c8b2616"
     ]
   },
   "by_doi": {
     "10.1002/adom.71567": "ccd82d84305d463a6c33398d",
     "10.1002/adom.71712": "c82f6c2f7b8ae52a84e4eb29",
+    "10.1002/adom.71870": "95fe7b58392c34e07c8b2616",
     "10.1002/lpor.71857": "15e7193239d6058f661ff180",
     "10.1002/nap2.70302": "93f3ffb1741a00e1480b8ab2",
     "10.1007/s10915-026-03433-2": "7719ae17086cb97168bebbc5",
@@ -846,6 +859,7 @@
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "93f3ffb1741a00e1480b8ab2",
+      "95fe7b58392c34e07c8b2616",
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
@@ -965,6 +979,9 @@
     ],
     "application:分类（mednist、rsscn7、yin–yang基准）": [
       "93f3ffb1741a00e1480b8ab2"
+    ],
+    "application:到达角估计（电磁感知）": [
+      "95fe7b58392c34e07c8b2616"
     ],
     "application:加速人工智能计算": [
       "7d6c2a059923ebe445a1cdf7"
@@ -1229,6 +1246,7 @@
       "916e8199aaabe1372544d280",
       "9322fad036b3d7fc8e3dd47b",
       "93f3ffb1741a00e1480b8ab2",
+      "95fe7b58392c34e07c8b2616",
       "a7f4407333af25ddc7630e14",
       "c01ea24e589c31ebd4af01d6",
       "c3474ba19a69c715eb87d391",
@@ -1244,6 +1262,7 @@
       "2b5f9302fe96c2793d48540e",
       "8ed2e70c4b7d42f84e3676a7",
       "9322fad036b3d7fc8e3dd47b",
+      "95fe7b58392c34e07c8b2616",
       "c82f6c2f7b8ae52a84e4eb29"
     ],
     "hardware_validation:physical_experiment": [
@@ -1326,6 +1345,7 @@
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "93f3ffb1741a00e1480b8ab2",
+      "95fe7b58392c34e07c8b2616",
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
@@ -1457,6 +1477,7 @@
       "c01ea24e589c31ebd4af01d6"
     ],
     "Advanced Optical Materials": [
+      "95fe7b58392c34e07c8b2616",
       "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d"
     ],
@@ -1633,6 +1654,7 @@
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
       "93f3ffb1741a00e1480b8ab2",
+      "95fe7b58392c34e07c8b2616",
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
@@ -1659,7 +1681,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 67,
+  "paper_count": 68,
   "schema_version": 1,
-  "updated_at": "2026-09-28T01:12:51.443685Z"
+  "updated_at": "2026-09-30T01:10:55.633110Z"
 }

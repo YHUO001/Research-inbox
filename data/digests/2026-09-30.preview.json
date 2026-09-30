@@ -1,0 +1,31 @@
+{
+  "built_at": "2026-09-30T01:10:18.813152Z",
+  "digest_date": "2026-09-30",
+  "digest_version": 1,
+  "pending_summary_count": 1,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "95fe7b58392c34e07c8b2616",
+        "landing_page": "https://doi.org/10.1002/adom.71870",
+        "mandatory": false,
+        "score": 0.81,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Wide Angular Range Direction‐of‐Arrival Estimation Based on Diffractive Neural Network Integrated Stacked Intelligent Metasurfaces",
+        "venue": "Advanced Optical Materials",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`67`
-- 更新时间：`2026-09-28T01:12:51.443685Z`
+- 论文数：`68`
+- 更新时间：`2026-09-30T01:10:55.633110Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Wide Angular Range Direction‐of‐Arrival Estimation Based on Diffractive Neural Network Integrated Stacked Intelligent Metasurfaces
+
+- DOI/链接：[10.1002/adom.71870](https://doi.org/10.1002/adom.71870)
+- 期刊/年份：Advanced Optical Materials，2026
+- 摘要日期：`2026-09-30`
+- 候选 ID：`95fe7b58392c34e07c8b2616`
+- 标签：application:到达角估计（电磁感知）, architecture:unclear, hardware_validation:mixed, project:optical-neural-networks
 
 ### Recent advances in neuromorphic photonics: Devices, architectures, and physical learning systems (2022–2026)
 
