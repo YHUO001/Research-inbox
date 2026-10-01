@@ -2006,6 +2006,36 @@
       "retrieved_at": "2026-08-27T16:32:38.612022Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/s13042-026-03317-9": {
+      "expires_at": "2026-10-31T01:17:27.266206Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ximin Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Shuhua Yuan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s13042-026-03317-9",
+        "landing_page": "https://doi.org/10.1007/s13042-026-03317-9",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s13042-026-03317-9",
+        "publication_date": "2026-10",
+        "title": "PLS-ZO: projected latent subspace zeroth-order optimization for parameter-efficient fine-tuning",
+        "venue": "International Journal of Machine Learning and Cybernetics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-01T01:17:27.266206Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s41939-026-01271-1": {
       "expires_at": "2026-10-28T01:11:36.814223Z",
       "record": {
@@ -3514,6 +3544,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-05T00:59:46.615608Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1038/s42254-026-00984-z": {
+      "expires_at": "2026-10-31T01:17:26.795127Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hui Zhang",
+            "orcid": "https://orcid.org/0000-0003-2989-7547"
+          },
+          {
+            "name": "Yiming Ma",
+            "orcid": "https://orcid.org/0000-0002-5730-3956"
+          },
+          {
+            "name": "Zhanshan Wang",
+            "orcid": null
+          },
+          {
+            "name": "Xinbin Cheng",
+            "orcid": "https://orcid.org/0000-0002-3855-483X"
+          },
+          {
+            "name": "Anthony Laing",
+            "orcid": "https://orcid.org/0000-0002-1066-3110"
+          },
+          {
+            "name": "Ai Qun Liu",
+            "orcid": "https://orcid.org/0000-0002-0126-5778"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s42254-026-00984-z",
+        "landing_page": "https://doi.org/10.1038/s42254-026-00984-z",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s42254-026-00984-z",
+        "publication_date": "2026-09-29",
+        "title": "Scaling strategies for photonic neural networks",
+        "venue": "Nature Reviews Physics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-01T01:17:26.795127Z",
       "status": "found"
     },
     "crossref:doi:10.1038/s44335-026-00086-0": {
@@ -12798,6 +12874,36 @@
       "retrieved_at": "2026-08-27T16:32:39.020162Z",
       "status": "found"
     },
+    "openalex:doi:10.1007/s13042-026-03317-9": {
+      "expires_at": "2026-10-31T01:17:27.588245Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ximin Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Shuhua Yuan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s13042-026-03317-9",
+        "landing_page": "https://doi.org/10.1007/s13042-026-03317-9",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7214767483",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214767483",
+        "publication_date": "2026-09-29",
+        "title": "PLS-ZO: projected latent subspace zeroth-order optimization for parameter-efficient fine-tuning",
+        "venue": "International Journal of Machine Learning and Cybernetics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-01T01:17:27.588245Z",
+      "status": "found"
+    },
     "openalex:doi:10.1007/s41939-026-01271-1": {
       "expires_at": "2026-10-28T01:11:37.137663Z",
       "record": {
@@ -15072,6 +15178,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-05T00:59:46.957674Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s42254-026-00984-z": {
+      "expires_at": "2026-10-31T01:17:27.132913Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hui Zhang",
+            "orcid": "https://orcid.org/0000-0003-2989-7547"
+          },
+          {
+            "name": "Yiming Ma",
+            "orcid": "https://orcid.org/0000-0002-5730-3956"
+          },
+          {
+            "name": "Zhanshan Wang",
+            "orcid": null
+          },
+          {
+            "name": "Xinbin Cheng",
+            "orcid": "https://orcid.org/0000-0002-3855-483X"
+          },
+          {
+            "name": "Anthony Laing",
+            "orcid": "https://orcid.org/0000-0002-1066-3110"
+          },
+          {
+            "name": "A. Q. Liu",
+            "orcid": "https://orcid.org/0000-0002-0126-5778"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s42254-026-00984-z",
+        "landing_page": "https://doi.org/10.1038/s42254-026-00984-z",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7214776581",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214776581",
+        "publication_date": "2026-09-29",
+        "title": "Scaling strategies for photonic neural networks",
+        "venue": "Nature Reviews Physics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-01T01:17:27.132913Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s44310-026-00146-0": {

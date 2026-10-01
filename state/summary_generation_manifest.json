@@ -1,165 +1,31 @@
 {
-  "abstract_fallback_candidate_ids": [
-    "95fe7b58392c34e07c8b2616"
-  ],
-  "abstract_fallback_count": 1,
-  "architecture_evidence": {
-    "95fe7b58392c34e07c8b2616": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
-    }
-  },
-  "architecture_repairs": 0,
-  "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 1,
-  "completed_at": "2026-09-30T01:10:55.633110Z",
+  "actual_summary_count": 0,
+  "automatic_queue_candidate_count": 0,
+  "built_at": "2026-10-01T01:17:28.880450Z",
   "completed_candidate_filtered_count": 0,
-  "completed_candidate_ids": [
-    "95fe7b58392c34e07c8b2616"
-  ],
-  "completion_mode": "automatic_daily_batch_after_local_validation",
-  "daily_digest_pending": true,
-  "digest_date": "2026-09-30",
-  "digest_json_file": "runtime-state/data/digests/2026-09-30.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-09-30.generated.md",
+  "daily_digest_pending": false,
+  "digest_date": "2026-10-01",
+  "digest_json_file": "runtime-state/data/digests/2026-10-01.preview.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-10-01.preview.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0207386,
   "execution_mode": "automatic_daily_batch",
-  "failure_count": 0,
-  "failures": [],
-  "full_text_method_contexts": {
-    "95fe7b58392c34e07c8b2616": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "95fe7b58392c34e07c8b2616",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 0.967,
-      "error": "https://doi.org/10.1002/adom.71870: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.1002/adom.71870",
-      "status": "not_available",
-      "text_persisted": false
-    }
-  },
-  "full_text_persisted": false,
   "full_text_used": false,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_and_abstract_only",
-  "knowledge_base_pending": true,
-  "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 1,
-  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
-  "numeric_matching": {
-    "absolute_tolerance": 0.02,
-    "approximation_markers_ignored": true,
-    "evidence_sources": [
-      "title",
-      "abstract",
-      "temporary_open_full_text_methods"
-    ],
-    "full_text_unsupported_sentence_action": "deterministic_redaction",
-    "relative_tolerance": 0.02,
-    "unit_format_ignored": true,
-    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
-  },
+  "knowledge_base_pending": false,
+  "llm_enabled": true,
   "output_language": "zh-CN",
-  "prepared_request_count": 1,
-  "provider": "deepseek",
-  "queue_sha256": "dab1c032ce14da606132d912e4a50227010c289c9851280e8ba624632b9276a2",
-  "request_count": 1,
-  "request_file": "runtime-state/data/summary_requests/2026-09-30.jsonl",
-  "request_sha256": "8b5845071671846b2c3216cc4241a897cb8ad12490cc5f5c9e6bcaf993f12fa7",
+  "provider": "not_configured",
+  "queue_candidate_count": 0,
+  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "request_count": 0,
+  "request_file": "runtime-state/data/summary_requests/2026-10-01.jsonl",
+  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "3bb4cfeba6857303531c15d07997bad99f20fe25fc06f5916842656eeb88b908",
-  "skipped_no_abstract_candidate_ids": [],
-  "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 1,
-  "stage_timings": {
-    "full_text_preparation_seconds": 0.969,
-    "model_api_calls": [
-      {
-        "attempt": 1,
-        "candidate_id": "95fe7b58392c34e07c8b2616",
-        "elapsed_seconds": 17.853,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1369,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1452,
-          "prompt_tokens": 3500,
-          "total_tokens": 4869
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "95fe7b58392c34e07c8b2616",
-        "elapsed_seconds": 17.012,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1286,
-          "prompt_cache_hit_tokens": 3456,
-          "prompt_cache_miss_tokens": 105,
-          "prompt_tokens": 3561,
-          "total_tokens": 4847
-        }
-      }
-    ],
-    "model_generation_and_validation_seconds": 34.874
-  },
-  "status": "completed_automatic",
-  "summary_count": 1,
-  "summary_file": "runtime-state/data/summaries/2026-09-30.jsonl",
+  "selection_manifest_sha256": "ffe6db798e9a30abf51dc347fb40a2fa3a445ebf40876e0b9d86c583aadc14a0",
+  "source_queue_candidate_count": 0,
+  "status": "no_candidates",
   "summary_generation_version": 8,
-  "summary_history_updated": true,
-  "summary_slot_count": 1,
-  "thinking_enabled": false,
-  "transport_repairs": {
-    "architecture_evidence": {
-      "95fe7b58392c34e07c8b2616": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "free_space",
-        "repaired": true,
-        "resolved_type": "unclear"
-      }
-    },
-    "architecture_repairs": 2,
-    "candidate_id_repair_responses": 0,
-    "full_text_method_contexts": {
-      "95fe7b58392c34e07c8b2616": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "95fe7b58392c34e07c8b2616",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 0.967,
-        "error": "https://doi.org/10.1002/adom.71870: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.1002/adom.71870",
-        "status": "not_available",
-        "text_persisted": false
-      }
-    },
-    "generation_metadata_repair_responses": 2,
-    "numeric_grounding_repair_responses": 0,
-    "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 0,
-    "unit_format_normalization_responses": 0
-  },
-  "usage": {
-    "completion_tokens": 2655,
-    "prompt_cache_hit_tokens": 5504,
-    "prompt_cache_miss_tokens": 1557,
-    "prompt_tokens": 7061,
-    "total_tokens": 9716
-  }
+  "summary_history_updated": false,
+  "summary_slot_count": 0
 }
