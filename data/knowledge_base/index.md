@@ -1,7 +1,7 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`68`
-- 更新时间：`2026-09-30T01:10:55.633110Z`
+- 论文数：`71`
+- 更新时间：`2026-10-03T01:05:54.261183Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
@@ -437,6 +437,30 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### Simulation-Efficient Analog Circuit Yield Optimization via Monte Carlo Zeroth-Order Gradient Estimation
+
+- DOI/链接：[10.48550/arxiv.2609.30678](https://doi.org/10.48550/arxiv.2609.30678)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-10-03`
+- 候选 ID：`f4c6106a0a433a224abb3d56`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
+
+### Hardware-Aware Mixed-Precision Quantization and Memory-Efficient Zeroth-Order Fine-Tuning for In-vehicle Deployment of LLM
+
+- DOI/链接：[10.1109/tcad.2026.3738037](https://doi.org/10.1109/tcad.2026.3738037)
+- 期刊/年份：IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems，2026
+- 摘要日期：`2026-10-03`
+- 候选 ID：`70212be2c4a63d741872ace0`
+- 标签：project:zeroth-order-optimization
+
+### AIM-ZO: Activation-Informed Subspace Maintenance for Zeroth-Order LLM Fine-Tuning
+
+- DOI/链接：[10.48550/arxiv.2609.35257](https://doi.org/10.48550/arxiv.2609.35257)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-10-03`
+- 候选 ID：`1be9c6ec4a0fa7f4ce866764`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
 
 ### ZOCheck: CPU-Shadow Checkpointing for Zeroth-Order LLM Fine-Tuning
 

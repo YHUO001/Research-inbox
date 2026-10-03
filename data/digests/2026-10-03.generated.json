@@ -1,0 +1,229 @@
+{
+  "completion": {
+    "architecture_repairs": 0,
+    "completed_at": "2026-10-03T01:05:54.261183Z",
+    "mode": "automatic_daily_batch_after_local_validation"
+  },
+  "delivery": {
+    "mode": "separate_daily_digest_workflow",
+    "status": "pending"
+  },
+  "digest_date": "2026-10-03",
+  "digest_version": 2,
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": true,
+    "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+    "numeric_grounding_scope": "title_and_abstract_only",
+    "review_required": false,
+    "summary_history_updated": true
+  },
+  "schema_version": 2,
+  "status": "completed_automatic",
+  "summaries": [
+    {
+      "candidate_id": "1be9c6ec4a0fa7f4ce866764",
+      "core_problem": "论文要解决零阶优化在大语言模型微调中因各向同性扰动浪费大量前向评估的问题，提出基于激活信息维护高质量子空间的方法，以提高前向评估的信息量和微调性能。",
+      "distinction_from_prior_work": "与将扰动限制在固定低维子空间的 LoZO、AGZO、ZO-Muon 等方法不同，AIM-ZO 通过前向激活在线维护一个宽度为 K 的宽子空间，并在每次扰动时动态激活较小的共享与采样方向集合，既保持低维扰动的效率，又能访问更广泛的梯度相关结构，从而避免子空间压缩过大或维护不佳导致的方向信息丢失。",
+      "limitations_and_open_questions": [
+        "未提供：在更多模型架构（如非 OPT 或非 Qwen 系列）上的泛化性证据。",
+        "未提供：子空间维护带来的额外计算和内存开销的详细定量分析。",
+        "未提供：对 K、k、h 等超参数选择的系统化敏感性分析。",
+        "未提供：在更大规模模型（如 70B 以上）上的验证。",
+        "未提供：与其他零阶优化方法在训练稳定性和收敛速度上的对比。",
+        "未提供：是否适用于其他任务类型（如生成式任务）的证据。"
+      ],
+      "main_contributions": [
+        "提出 AIM-ZO，一种基于激活信息子空间维护的零阶大语言模型微调方法。",
+        "利用前向激活在线维护宽子空间，并解耦维护宽度与活跃宽度，同时保持低维扰动和更广的梯度相关信息访问。",
+        "在匹配前向评估预算下，AIM-ZO 在多个模型和任务上优于现有零阶方法，包括 MeZO、LoZO、AGZO、ZO-Muon 等。",
+        "发布代码仓库 https://github.com/EkkoXy/AIM-ZO。"
+      ],
+      "method_and_architecture": "AIM-ZO 是一种零阶微调方法，通过在线维护一个宽度为 K 的宽子空间（每层激活方向的正交基），并在每次扰动时从该子空间中选取宽度为 k 的活跃子空间（h 个共享方向加 s 个独立采样方向），对参数进行低秩扰动并利用 REINFORCE leave-one-out 估计器聚合前向评估结果，从而在固定前向评估预算下提升微调效果。",
+      "method_implementation": [
+        "AIM-ZO 在每个训练层维护一个宽度 K=128 的正交基 Q_wide，初始化为高斯矩阵。每次迭代时，首先在一个未扰动的中心参数上做前向传播，利用当前批次的输入激活 H 通过 Oja 规则更新该基：Q_wide ← qf(Q_wide + η_q H^T (Y - Q_wide Q_wide^T Y) )，其中 η_q=0.3。更新后的基被存储并用于该迭代的所有扰动。",
+        "在每次迭代中，对每个扰动 i，从更新后的宽子空间中构造活跃子空间：选取前 h=48 个共享方向 Q_h，并从剩余 K-h 个方向中均匀采样 s=k-h=16 个方向 S_i，形成活跃基 Q_i^act = [Q_h, Q_wide[:, S_i]]。活跃宽度 k=64。",
+        "对每个扰动 i 的每一层，独立采样 a_i ~ N(0, I_p) 和 b_i ~ N(0, I_k)，构造秩一低秩扰动 Z_i = (a_i b_i^T Q_i^act) / (sqrt(p) sqrt(k))，使层间 Frobenius 范数与 MeZO 的各向同性高斯扰动幅度匹配。",
+        "每个迭代使用 N=15 个扰动和 1 个未扰动中心评估。对每个扰动 i，在整个小批次上计算损失 y_i^+，得到平均 ȳ^+；中心损失记为 y^0。对每一层，使用 RLOO 估计器：ΔW = (1/(N-1)) Σ_i (y_i^+ - ȳ_i^+) Z_i，其中 ȳ_i^+ 是除第 i 个扰动外的均值。然后用学习率 η 更新参数。",
+        "主要实验在 NVIDIA RTX 4090（24 或 48 GiB）和 140 GiB NVIDIA H200 GPU 上进行，使用 BF16 精度更新所有模型参数。训练预算固定为约 40,000 次前向评估，AIM-ZO 因每次更新需要 16 次前向评估，共执行 2,500 次更新；MeZO 每次更新 2 次前向评估，共 20,000 次更新。扰动尺度 ϵ_t 按余弦调度从初始值降至 ϵ_0/4。",
+        "评估任务包括 RTE、BoolQ、SST-2、WiC、WSC、SQuAD 等 11 个下游任务（部分任务另有 MultiRC、ReCoRD、DROP 等），在 OPT-2.7B、OPT-13B、OPT-30B、Qwen3-0.6B-Base 和 Qwen3-8B-Base 等模型上与 MeZO、LoZO、AGZO、HiZOO、CurvZO、ZO-Muon 等基线比较。训练和开发集按官方划分无重叠抽取，主要六个任务使用 1,000 条训练和 500 条开发样本（WSC 为 454/100），批量大小为 16。"
+      ],
+      "method_principle": "在大语言模型零阶微调中，各向同性扰动会浪费前向评估于无效方向。已有工作将扰动限制在低维子空间，但子空间质量至关重要。AIM-ZO 利用前向激活作为局部方向信息，通过 Oja 规则在线维护一个宽的激活子空间，同时仅激活其中较小的共享与采样方向集合，使每次扰动保持低维却仍能访问更广泛的梯度相关结构。其原理在于：线性层的权重梯度行空间位于输入激活的行空间中，因此激活方向能有效捕捉梯度信息；维护宽子空间并通过不同扰动激活不同子集，可以在低维扰动的限制下覆盖更多有用方向。每次迭代使用一个未扰动前向评估和 N 个扰动前向评估，采用 RLOO 估计器将单侧函数值差转化为参数更新，并通过层间 Frobenius 归一化匹配 MeZO 各向同性扰动的幅度，从而在固定前向评估预算内实现更高效的零阶优化。",
+      "optical_neural_network_analysis": null,
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "在 OPT-2.7B 上，AIM-ZO 的六任务平均得分达到 70.94%，比最强全评估零阶基线高出 1.26 个百分点。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "在 OPT-30B 上，AIM-ZO 较 MeZO 在六个任务上均提升，平均提升 2.85 个百分点。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "在 OPT-13B 上，AIM-ZO 的六任务平均为 72.42%，高于最强子空间基线 ZO-Muon 的 68.08%。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "在 Qwen3-8B 上，AIM-ZO 较 MeZO 在六个任务中的五个上提升，平均提升 0.93 个百分点。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该工作展示了利用激活信息指导零阶优化子空间维护的有效性，为大规模语言模型的内存高效微调提供了一条新路径。其解耦维护宽度与活跃宽度的策略降低了子空间质量对性能的制约，并在一系列模型和任务上验证了性能提升，对零阶优化和参数高效微调研究具有参考价值。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": true,
+        "full_text_method_source_url": "https://arxiv.org/html/2609.35257",
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+        "missing_information": [],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": {
+        "forward_only": "AIM-ZO 仅使用前向传播计算损失值，通过 REINFORCE 估计器从函数值差估计梯度方向，完全避免反向传播和激活存储。",
+        "low_rank_or_subspace": "扰动限制在每层活跃子空间 Q_i^act 内，并采用秩一构造 Z_i = a_i b_i^T Q_i^act，显著降低单个扰动的维度；同时维护宽度较大的子空间 Q_wide（K=128）。",
+        "per_step_vs_total_clarity": "论文中训练预算按总前向评估次数匹配（约 40,000 次），AIM-ZO 每步使用 16 次前向评估（1 次中心 + 15 次扰动），共 2,500 次更新；MeZO 每步 2 次前向评估，共 20,000 次更新。总查询数相同，但每步查询数不同。",
+        "query_reuse": "每次迭代的中心前向评估用于更新子空间，且同一小批次的 N=15 个扰动共享更新后的子空间；不同扰动从同一宽子空间中采样不同的活跃方向，实现了查询的共享和复用。",
+        "structured_perturbation": "扰动由共享方向 Q_h 和独立采样方向 S_i 两部分组成，使用高斯随机向量 a_i、b_i 与激活基结合，并经 Frobenius 归一化匹配各向同性扰动幅度。",
+        "total_query_reduction_claim": "yes"
+      }
+    },
+    {
+      "candidate_id": "f4c6106a0a433a224abb3d56",
+      "core_problem": "模拟电路在工艺波动下的良率优化通常需要对每个候选设计进行大量蒙特卡洛SPICE采样，计算代价高昂；且有限样本良率作为设计参数的函数是分段常数，缺乏局部梯度信息，难以指导优化。本文旨在提出一种仿真高效的黑盒优化方法来应对这一挑战。",
+      "distinction_from_prior_work": "与直接优化蒙特卡洛良率估计的经典黑盒方法（如BO、CMA-ES、PSO、TuRBO）不同，ZO-MC-SGD通过连续规格裕量构造平滑代理损失，保留了仿真中的局部梯度信息，避免了分段常数经验良率对优化的限制。与需要代理模型或强化学习的变体（如RobustAnalog）相比，该方法是一种无模型、仅需前向函数评估的零阶方法，且利用共享工艺样本的成对扰动降低方差，理论保证不依赖工艺维度，在仿真效率上具有优势。",
+      "limitations_and_open_questions": [
+        "实验仅在五个模拟电路基准上验证，拓扑结构有限（共源级联和Miller补偿），泛化到其他电路类型（如ADC、PLL等）的性能未提供。",
+        "方法使用ngspice LEVEL-1器件模型，未验证在更精确的工艺设计套件（PDK）模型下的效果。",
+        "损失函数中的规格权重、softplus锐度等参数需要通过校准集调节，且校准过程本身需要额外SPICE仿真，论文中未明确该开销占总预算的比例。",
+        "论文仅报告良率达到0.95的预算，未提供优化后设计的具体性能裕量分布或其他质量指标。",
+        "零阶梯度估计的方差和样本复杂度界限的理论结果未在实验中直接验证，实际收敛行为可能依赖于问题结构。"
+      ],
+      "main_contributions": [
+        "提出ZO-MC-SGD，一种用于模拟电路良率优化的蒙特卡洛零阶随机梯度下降方法，将连续规格裕量转化为随机下降方向，无需对SPICE求导或拟合全局代理模型。",
+        "利用共享工艺样本的相反设计扰动估计局部方向，少量仿真即可获得梯度估计，显著降低仿真预算。",
+        "引入Spearman秩相关检验系统地保证边际损失与经验良率的设计排序一致。",
+        "证明了估计器对高斯平滑代理的无偏性，并推导方差和样本复杂度界限，不显式依赖工艺维度。",
+        "相关定量细节未在标题、摘要或公开正文方法上下文中提供。"
+      ],
+      "method_and_architecture": "ZO-MC-SGD是一种基于蒙特卡洛零阶随机梯度估计的黑盒优化方法。它将SPICE仿真结果转换为连续规格裕量并构造平滑损失函数，通过共享工艺样本下的相反设计扰动估计随机梯度，结合Adam优化器和随机搜索预热，在有限SPICE预算下优化模拟电路设计。",
+      "method_implementation": [
+        "针对给定模拟电路基准，定义设计变量x（经仿射变换映射到单位盒一个有界范围^n）和工艺变量ξ。对每个候选设计x和工艺样本ξ，执行一次SPICE仿真，提取电路性能指标（增益、单位增益带宽、静态功耗等）。这些指标经过缩放并与规格阈值比较，形成带符号的规格短欠量δ_k，正值表示违反，负值表示裕量。每个短欠量通过带锐度参数α_k的softplus函数转换为连续惩罚，再按权重w_k加权求和，并加入增益裕量偏好项，得到每个样本的损失ℓ(x,ξ)。经验良率仍由所有规格同时满足的样本比例估计，但优化信号改为该损失的期望F(x)。相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+        "在每次迭代t，从工艺分布ρ中抽取K个工艺样本{ξ^(i)}，并为每个样本独立抽取随机方向v^(i)~N(0,I_n)。对于每个工艺样本，固定ξ^(i)，在正负扰动x+εv^(i)和x−εv^(i)处分别进行SPICE仿真并计算损失，二者差值除以2ε后对所有K对平均，得到零阶梯度估计ĝ_t。该估计仅使用函数值，不涉及SPICE微分。然后利用Adam优化器对梯度进行坐标方向的自适应缩放，更新设计参数并投影回设计盒。当迭代预算受限时，在梯度下降前采用随机搜索进行短时预热；预热和梯度下降的SPICE仿真均计入总预算B。每次梯度估计消耗2K次SPICE仿真。",
+        "实验采用ngspice仿真器，使用LEVEL-1（Shichman-Hodges）器件模型，独立零均值高斯器件失配遵循Pelgrom缩放。基准包括五种模拟电路：一、三、五级共源级联和两、三级Miller补偿放大器，设计维度为6至30，工艺维度为10至42。相关定量细节未在标题、摘要或公开正文方法上下文中提供。优化从共享的独立初始设计开始，初始良率记录于表中。",
+        "与基线方法（BO、CMA-ES、PSO、TuRBO、RobustAnalog）比较时，所有方法在同一SPICE优化预算B∈{25,50,100,200,400,800,1600,3200}下运行，重复5个随机种子。ZO-MC-SGD使用平滑损失，而BO、CMA-ES、PSO、TuRBO直接优化蒙特卡洛良率估计，RobustAnalog使用其规格裕量奖励。优化结束后，每个返回设计在独立留出集（n_mc_eval=80个工艺样本）上重新估计良率，报告均值与范围。主要指标为平均良率首次达到0.95所需的最小SPICE预算。"
+      ],
+      "method_principle": "ZO-MC-SGD的核心思想是将难以直接优化的分段常数经验良率替换为一个连续可微的代理损失函数，该损失函数由每个工艺样本的规格裕量通过softplus映射并加权求和得到。规格裕量保留了仿真中关于设计优劣的连续信息，而softplus映射在违反侧近似线性惩罚、在满足侧平滑衰减，从而为优化提供局部方向。相关定量细节未在标题、摘要或公开正文方法上下文中提供。在优化更新中，对每个工艺样本，设计在相反方向扰动（共享同一工艺样本），其损失差平均后作为零阶梯度估计，该估计可证明为高斯平滑代理的无偏估计，且方差与样本复杂度界限不显式依赖工艺维度。通过控制扰动半径ε和批量K，在每步2K次SPICE仿真下获得局部下降方向，再经Adam自适应步长和投影到设计盒，实现仿真高效的良率优化。此流程将‘从每次仿真保留什么信息’和‘如何将信息转化为设计更新’两个问题解耦，既避免了有限样本良率的病态特性，又保持了黑盒特性，无需对SPICE求导或拟合全局代理模型。",
+      "optical_neural_network_analysis": null,
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "在五个模拟电路基准上，ZO-MC-SGD在四个电路上于50至200次仿真内达到平均良率0.95，在第五个电路上达到经验良率上限。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "基准电路设计维度最高为30，工艺维度最高为42。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "所有基准在ngspice中使用LEVEL-1器件模型仿真，工艺失配遵循Pelgrom缩放。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该工作针对模拟电路设计自动化中的高成本良率优化问题，提出了一种仿真高效、理论保障清晰的黑盒优化方法。其零阶梯度估计、平滑代理损失和秩相关校准策略为工艺波动下的设计优化提供了新的方法论，有望显著减少设计迭代所需的SPICE仿真次数，加速高良率模拟电路的开发，并具有向更广泛黑盒工程优化问题推广的潜力。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": true,
+        "full_text_method_source_url": "https://arxiv.org/html/2609.30678",
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+        "missing_information": [
+          "论文中未提供具体优化后的设计变量值或性能裕量数据。",
+          "校准阶段的SPICE开销占优化预算的比例未提供。",
+          "未提供每个基准的精确仿真次数与良率曲线数据，仅概括目标达标情况。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": {
+        "forward_only": "方法仅使用前向SPICE仿真获得函数值，不进行反向传播或对SPICE求导。每次扰动评估都是一次独立的前向仿真，梯度由函数值差估计。损失函数构造和梯度估计均基于前向仿真输出，无需任何伴随或微分信息。",
+        "low_rank_or_subspace": "未使用低秩或子空间方法。随机方向从全维高斯分布N(0,I_n)中独立抽取，梯度估计在原始设计空间（仿射映射到单位盒）中进行，未提及降维或子空间约束。",
+        "per_step_vs_total_clarity": "每步梯度估计消耗2K次SPICE仿真（K为工艺样本数，K对正负扰动），总仿真预算包括随机搜索预热和所有梯度步。论文通过在不同总预算B∈{25,50,100,200,400,800,1600,3200}下比较达到良率0.95所需的最小预算来体现总查询减少，并明确指出每次算法查询或更新所需SPICE仿真次数不同，所有方法在同一预算下比较。每步查询成本明确为2K，总查询复杂度通过达到目标所需的预算体现。",
+        "query_reuse": "两种查询复用机制被显式使用：一是每个工艺样本ξ^(i)同时用于正负扰动x+εv^(i)和x−εv^(i)，使一次工艺采样支持一对损失评估，其差值隔离了设计扰动效应并降低了工艺方差影响；二是在每次迭代中K个工艺样本被重复用于平均多个随机方向对，提供了蒙特卡洛平均。此外，校准集设计用于秩相关检验，其SPICE仿真开销与优化预算分开计算，不直接复用。",
+        "structured_perturbation": "扰动结构为对称随机有限差分：对每个方向v^(i)~N(0,I_n)，使用相反扰动x+εv和x−εv，固定工艺样本，形成中心差分估计。扰动半径ε和坐标缩放通过Adam调整，但方向本身是无结构的各向同性高斯。没有使用坐标下降、正交方向或其他结构化方向。",
+        "total_query_reduction_claim": "yes"
+      }
+    },
+    {
+      "candidate_id": "70212be2c4a63d741872ace0",
+      "core_problem": "面向车载环境部署大语言模型时，模型规模庞大且计算复杂度高，难以在资源受限的车载硬件上高效推理。论文试图通过硬件感知的混合精度量化与内存高效的零阶微调，降低模型部署的存储和计算开销，同时保持可接受的模型能力。",
+      "distinction_from_prior_work": "与仅采用统一精度量化或一阶反向传播微调的方法不同，该工作将硬件感知的混合精度量化与零阶微调结合，并以内存效率为优化目标，针对车载部署场景设计。摘要未提供与具体既有系统的定量或定性对比。",
+      "limitations_and_open_questions": [
+        "摘要仅给出研究动机和方法名称，未提供量化位宽、零阶梯度估计的具体方式或微调数据集规模。",
+        "摘要未报告与全精度模型或其他量化方法的精度、延迟、能耗等对比结果。",
+        "零阶优化的实际查询数量、梯度估计方差和收敛行为未在摘要中说明。",
+        "硬件平台、编译器支持以及车载芯片上的实测性能均未提供。"
+      ],
+      "main_contributions": [
+        "提出硬件感知的混合精度量化策略，以适配车载部署场景的计算和存储约束。",
+        "引入内存高效的零阶微调方法，避免大语言模型反向传播带来的高内存开销。",
+        "将量化与零阶微调整合为面向车载大语言模型部署的优化流程。"
+      ],
+      "method_and_architecture": "论文提出一种硬件感知的混合精度量化与内存高效零阶微调相结合的方法。摘要未提供具体模块划分、量化搜索空间、零阶估计器或模型架构细节，仅能确定其目标是降低车载部署场景下大语言模型的推理成本并支持微调。",
+      "method_implementation": [
+        "方法首先对原始大语言模型进行混合精度量化，量化精度配置需要结合目标车载硬件的计算和存储特性来选择；摘要未说明量化粒度、位宽或校准策略。量化后的模型作为后续微调的初始模型。",
+        "在量化模型基础上执行零阶微调。零阶微调通过多次查询模型输出估计参数更新方向，不进行反向传播；摘要未提供每次迭代的查询数量、扰动构造方式或优化器配置。",
+        "最终输出为既经过混合精度量化、又完成零阶微调的模型，用于车载环境部署。摘要未报告训练硬件、软件框架或部署后的推理性能。"
+      ],
+      "method_principle": "大语言模型在车载设备上部署的主要瓶颈是参数量大带来的存储与计算压力。混合精度量化通过为不同层或参数分配不同数值精度，在资源受限的硬件上减少内存占用和计算量；硬件感知意味着精度选择会考虑目标芯片的算力、带宽和指令特性，从而避免单纯追求理论压缩而忽视实际执行效率。零阶微调不依赖反向传播计算梯度，而是通过函数值查询估计梯度方向，因此可以规避激活存储和自动微分带来的高内存开销，更适合车载系统有限的内存环境。将两者结合，可以在降低推理资源需求的同时保留模型对特定车载任务的适应能力，但摘要未给出二者协同的具体机制或损失函数。",
+      "optical_neural_network_analysis": null,
+      "output_language": "zh-CN",
+      "reported_results": [],
+      "research_value": "该研究面向智能座舱中车载大语言模型的部署难点，提出同时降低推理资源消耗和微调内存占用的技术路线。若方法有效，可促进大语言模型在车载边缘设备上的实用化，并为资源受限场景下的模型压缩与适配提供参考。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "量化位宽、混合精度搜索策略及硬件指标未提供。",
+          "零阶梯度估计器、查询数、扰动规模和收敛结果未提供。",
+          "实验数据集、基线、精度损失和资源测量数据未提供。",
+          "目标硬件平台和软件执行环境未提供。",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": {
+        "forward_only": "not_available",
+        "low_rank_or_subspace": "not_available",
+        "per_step_vs_total_clarity": "not_available",
+        "query_reuse": "not_available",
+        "structured_perturbation": "not_available",
+        "total_query_reduction_claim": "not_available"
+      }
+    }
+  ],
+  "summary_count": 3
+}

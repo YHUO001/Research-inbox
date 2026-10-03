@@ -1,0 +1,53 @@
+{
+  "built_at": "2026-10-03T01:04:51.771988Z",
+  "digest_date": "2026-10-03",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "1be9c6ec4a0fa7f4ce866764",
+        "landing_page": "https://arxiv.org/abs/2609.35257",
+        "mandatory": false,
+        "score": 0.78,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "AIM-ZO: Activation-Informed Subspace Maintenance for Zeroth-Order LLM Fine-Tuning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "f4c6106a0a433a224abb3d56",
+        "landing_page": "https://arxiv.org/abs/2609.30678",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Simulation-Efficient Analog Circuit Yield Optimization via Monte Carlo Zeroth-Order Gradient Estimation",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "70212be2c4a63d741872ace0",
+        "landing_page": "https://doi.org/10.1109/tcad.2026.3738037",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Hardware-Aware Mixed-Precision Quantization and Memory-Efficient Zeroth-Order Fine-Tuning for In-vehicle Deployment of LLM",
+        "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

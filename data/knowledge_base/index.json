@@ -100,6 +100,15 @@
       "summary_record_sha256": "1275febc3a65fff89d5fad8e4d753b657d8fb5b89d2e20cb2676bdfba508147d",
       "title": "EGGROLL, Unrolled: Understanding and Improving Low-Rank Evolution Strategies at Scale"
     },
+    "1be9c6ec4a0fa7f4ce866764": {
+      "digest_date": "2026-10-03",
+      "doi": "10.48550/arxiv.2609.35257",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "369b6fc82c2efd83daab97d3fbc22429b26f5876e6acaac35657071b21389578",
+      "title": "AIM-ZO: Activation-Informed Subspace Maintenance for Zeroth-Order LLM Fine-Tuning"
+    },
     "1bef6ee27ae84b878da0c512": {
       "digest_date": "2026-09-23",
       "doi": "10.1038/s41467-026-77768-7",
@@ -286,6 +295,15 @@
       ],
       "summary_record_sha256": "6b2e95d2c1b977f396071496e5cc92f21d4911dbe47d3373dac6ddc08c1ed284",
       "title": "Hardware-calibrated optical spiking neural network based on a programmable MZI mesh weight engine"
+    },
+    "70212be2c4a63d741872ace0": {
+      "digest_date": "2026-10-03",
+      "doi": "10.1109/tcad.2026.3738037",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "c90ae79c1223d49c2215f607375316b2d3aad914d3319a004ae4697c687c0cc7",
+      "title": "Hardware-Aware Mixed-Precision Quantization and Memory-Efficient Zeroth-Order Fine-Tuning for In-vehicle Deployment of LLM"
     },
     "7719ae17086cb97168bebbc5": {
       "digest_date": "2026-08-23",
@@ -593,6 +611,15 @@
       "summary_record_sha256": "1e863777a5d304b97bd7b61f7051378960ba2cf748f4148293a6f8e3c3e3581e",
       "title": "ZOCheck: CPU-Shadow Checkpointing for Zeroth-Order LLM Fine-Tuning"
     },
+    "f4c6106a0a433a224abb3d56": {
+      "digest_date": "2026-10-03",
+      "doi": "10.48550/arxiv.2609.30678",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "0bf2d6c2c2d027be0fcddc0323e12c963039aa5500db802bc90c80d1aeeaef84",
+      "title": "Simulation-Efficient Analog Circuit Yield Optimization via Monte Carlo Zeroth-Order Gradient Estimation"
+    },
     "fca2cfc597728ee01e2a6032": {
       "digest_date": "2026-09-10",
       "doi": "10.1088/2632-2153/aea3a0",
@@ -750,6 +777,11 @@
     ],
     "2026-09-30": [
       "95fe7b58392c34e07c8b2616"
+    ],
+    "2026-10-03": [
+      "1be9c6ec4a0fa7f4ce866764",
+      "70212be2c4a63d741872ace0",
+      "f4c6106a0a433a224abb3d56"
     ]
   },
   "by_doi": {
@@ -779,6 +811,7 @@
     "10.1088/1361-6633/ae9e8c": "4bb38e8bcc3a3d164bd28700",
     "10.1088/2632-2153/aea3a0": "fca2cfc597728ee01e2a6032",
     "10.1109/icocn70692.2026.11656217": "c3474ba19a69c715eb87d391",
+    "10.1109/tcad.2026.3738037": "70212be2c4a63d741872ace0",
     "10.1117/1.ap.8.5.054001": "916e8199aaabe1372544d280",
     "10.1117/1.ap.8.5.056010": "0a7a6a25b0c077322aee6b4e",
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
@@ -814,6 +847,8 @@
     "10.48550/arxiv.2609.07666": "3c46ab2b3d315aef47db028e",
     "10.48550/arxiv.2609.10980": "1b05123cc2b8f5f966b29a56",
     "10.48550/arxiv.2609.27189": "f180e20173fd0995c081891b",
+    "10.48550/arxiv.2609.30678": "f4c6106a0a433a224abb3d56",
+    "10.48550/arxiv.2609.35257": "1be9c6ec4a0fa7f4ce866764",
     "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.6084/m9.figshare.c.8610155.v1": "d162b179119ee09c86ad3708",
@@ -882,9 +917,11 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
+      "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
+      "70212be2c4a63d741872ace0",
       "7719ae17086cb97168bebbc5",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
@@ -892,6 +929,7 @@
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
+      "f4c6106a0a433a224abb3d56",
       "fca2cfc597728ee01e2a6032"
     ]
   },
@@ -1368,9 +1406,11 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
+      "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
+      "70212be2c4a63d741872ace0",
       "7719ae17086cb97168bebbc5",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
@@ -1378,6 +1418,7 @@
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
+      "f4c6106a0a433a224abb3d56",
       "fca2cfc597728ee01e2a6032"
     ],
     "zo:forward_only": [
@@ -1386,6 +1427,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
+      "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
@@ -1396,6 +1438,7 @@
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
+      "f4c6106a0a433a224abb3d56",
       "fca2cfc597728ee01e2a6032"
     ],
     "zo:low_rank_or_subspace": [
@@ -1404,6 +1447,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
+      "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
@@ -1414,6 +1458,7 @@
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
+      "f4c6106a0a433a224abb3d56",
       "fca2cfc597728ee01e2a6032"
     ],
     "zo:query_reuse": [
@@ -1422,6 +1467,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
+      "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
@@ -1431,6 +1477,7 @@
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
+      "f4c6106a0a433a224abb3d56",
       "fca2cfc597728ee01e2a6032"
     ],
     "zo:structured_perturbation": [
@@ -1439,6 +1486,7 @@
       "142dc76f41fc25448b82c91e",
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
+      "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
@@ -1449,14 +1497,17 @@
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
+      "f4c6106a0a433a224abb3d56",
       "fca2cfc597728ee01e2a6032"
     ],
     "zo:total_query_reduction": [
       "0e5c75b6132afcfb1f7afb17",
       "1b05123cc2b8f5f966b29a56",
+      "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "b03b6320be57edd77b3ad7e5",
-      "dd2f544b89860edf2c2a51ae"
+      "dd2f544b89860edf2c2a51ae",
+      "f4c6106a0a433a224abb3d56"
     ]
   },
   "by_venue": {
@@ -1500,6 +1551,9 @@
     "Figshare": [
       "09e1a0ed403ef22abbd9b189",
       "d162b179119ee09c86ad3708"
+    ],
+    "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems": [
+      "70212be2c4a63d741872ace0"
     ],
     "International Journal of Academic and Industrial Research Innovations(IJAIRI)": [
       "7bc9d4230ed283852c3248a7"
@@ -1593,6 +1647,7 @@
       "0cbf41592278a3ad1b89e219",
       "142dc76f41fc25448b82c91e",
       "1b05123cc2b8f5f966b29a56",
+      "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
@@ -1600,7 +1655,8 @@
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
       "f0cf0b80e6f1f53ea347c136",
-      "f180e20173fd0995c081891b"
+      "f180e20173fd0995c081891b",
+      "f4c6106a0a433a224abb3d56"
     ],
     "npj Unconventional Computing": [
       "328b1572ba0e31f8f8a6dac1",
@@ -1620,6 +1676,7 @@
       "15e7193239d6058f661ff180",
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
+      "1be9c6ec4a0fa7f4ce866764",
       "1bef6ee27ae84b878da0c512",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
@@ -1641,6 +1698,7 @@
       "5e49047e7ce2004f7954debb",
       "5ec8e35ad02131d8ed156970",
       "6dc0459f08567bbd051cc579",
+      "70212be2c4a63d741872ace0",
       "7719ae17086cb97168bebbc5",
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
@@ -1674,6 +1732,7 @@
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
+      "f4c6106a0a433a224abb3d56",
       "fca2cfc597728ee01e2a6032",
       "fd6f281418ac4d412744b2ac"
     ],
@@ -1681,7 +1740,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 68,
+  "paper_count": 71,
   "schema_version": 1,
-  "updated_at": "2026-09-30T01:10:55.633110Z"
+  "updated_at": "2026-10-03T01:05:54.261183Z"
 }

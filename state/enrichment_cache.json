@@ -1496,6 +1496,102 @@
       "retrieved_at": "2026-09-21T01:07:17.356402Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/978-3-032-37199-7_27": {
+      "expires_at": "2026-11-02T01:04:36.545727Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ruifeng Gao",
+            "orcid": null
+          },
+          {
+            "name": "Longfei Tan",
+            "orcid": null
+          },
+          {
+            "name": "Huihuang Zhao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-3-032-37199-7_27",
+        "landing_page": "https://doi.org/10.1007/978-3-032-37199-7_27",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/978-3-032-37199-7_27",
+        "publication_date": "2027",
+        "title": "From Black Box to Gray Box: Efficient Interpretable Multi-model Training via Gradient-Free Forward and Sequential Backprop",
+        "venue": "IFIP Advances in Information and Communication Technology",
+        "year": 2027
+      },
+      "retrieved_at": "2026-10-03T01:04:36.545727Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/978-3-032-38062-3_46": {
+      "expires_at": "2026-11-02T01:04:44.539823Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dwarikanath Mahapatra",
+            "orcid": null
+          },
+          {
+            "name": "Abhijit Das",
+            "orcid": null
+          },
+          {
+            "name": "Sudipta Roy",
+            "orcid": null
+          },
+          {
+            "name": "Manish Pandey",
+            "orcid": null
+          },
+          {
+            "name": "Joy Dhar",
+            "orcid": null
+          },
+          {
+            "name": "Nayyar Zaidi",
+            "orcid": null
+          },
+          {
+            "name": "Zongyuan Ge",
+            "orcid": null
+          },
+          {
+            "name": "Behzad Bozorgtabar",
+            "orcid": null
+          },
+          {
+            "name": "Mauricio Reyes",
+            "orcid": null
+          },
+          {
+            "name": "Imran Razzak",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-3-032-38062-3_46",
+        "landing_page": "https://doi.org/10.1007/978-3-032-38062-3_46",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/978-3-032-38062-3_46",
+        "publication_date": "2027",
+        "title": "Prompt and Probe: Data-Efficient Adaptation of Black-Box Foundation Models via Unified Active Visual Prompting",
+        "venue": "Lecture Notes in Computer Science",
+        "year": 2027
+      },
+      "retrieved_at": "2026-10-03T01:04:44.539823Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s00158-026-04411-w": {
       "expires_at": "2026-09-26T16:32:39.127994Z",
       "record": {
@@ -2860,6 +2956,12 @@
       "retrieved_at": "2026-09-28T01:11:34.062142Z",
       "status": "not_found"
     },
+    "crossref:doi:10.1021/acsphotonics.6c01403/5437996": {
+      "expires_at": "2026-11-02T01:04:37.874820Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:37.874820Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.1038/s41377-026-02325-2": {
       "expires_at": "2026-09-21T00:32:15.151100Z",
       "record": {
@@ -3506,6 +3608,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-22T01:02:18.820623Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1038/s41598-026-71637-5": {
+      "expires_at": "2026-11-02T01:04:45.059150Z",
+      "record": {
+        "abstract": "Abstract We present a deep photonic neural network architecture based on ultrafast binary optical modulation using a digital micromirror device (DMD), optical scattering in a random medium, high-speed photodetection with a CMOS sensor, and a time-multiplexed multilayer structure. Operating at Gigabit-per-second (Gb/s) optical information throughput, our system based on the reservoir computing (RC) framework achieves state-of-the-art performance across various multimedia tasks, including video, image and speech recognition. We show that the careful optimization of key physical intra- and inter-layer hyperparameters can significantly enhance the deep photonic RC system’s ability to extract relevant temporal and spatial features by balancing memory retention and dynamical response of individual layers. This approach paves the way for highly scalable hierarchical photonic reservoir computing systems for high-throughput real-time multimedia signal processing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Muhammad Waqar Iqbal",
+            "orcid": "https://orcid.org/0000-0002-5034-2741"
+          },
+          {
+            "name": "Mohamad Alassir",
+            "orcid": "https://orcid.org/0009-0006-3312-2823"
+          },
+          {
+            "name": "Nicolas Marsal",
+            "orcid": "https://orcid.org/0000-0002-9309-811X"
+          },
+          {
+            "name": "Damien Rontani",
+            "orcid": "https://orcid.org/0000-0002-8549-4040"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-71637-5",
+        "landing_page": "https://doi.org/10.1038/s41598-026-71637-5",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41598-026-71637-5",
+        "publication_date": "2026-10-01",
+        "title": "Deep binarized photonic reservoir computing for ultrafast multimedia signal processing",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:45.059150Z",
       "status": "found"
     },
     "crossref:doi:10.1038/s42005-026-02823-0": {
@@ -6094,6 +6234,12 @@
       "retrieved_at": "2026-09-19T01:00:51.924002Z",
       "status": "not_found"
     },
+    "crossref:doi:10.48550/arxiv.2609.39074": {
+      "expires_at": "2026-11-02T01:04:30.130383Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:30.130383Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.5281/zenodo.21885998": {
       "expires_at": "2026-09-17T04:25:17.174341Z",
       "record": null,
@@ -6230,6 +6376,27 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-16T01:02:26.878783Z",
+      "status": "found"
+    },
+    "crossref:doi:10.71010/2996-4954/jcetai-e109": {
+      "expires_at": "2026-11-02T01:04:41.274047Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [],
+        "cited_by_count": 0,
+        "doi": "10.71010/2996-4954/jcetai-e109",
+        "landing_page": "https://doi.org/10.71010/2996-4954/jcetai-e109",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.71010/2996-4954/jcetai-e109",
+        "publication_date": null,
+        "title": "AI-Driven Electromagnetic Cloaking for Dynamic Antenna Stealth",
+        "venue": null,
+        "year": null
+      },
+      "retrieved_at": "2026-10-03T01:04:41.274047Z",
       "status": "found"
     },
     "crossref:doi:10.7498/aps.76.20261148": {
@@ -6398,6 +6565,12 @@
       "expires_at": "2026-10-07T01:10:15.930802Z",
       "record": null,
       "retrieved_at": "2026-09-30T01:10:15.930802Z",
+      "status": "not_found"
+    },
+    "crossref:title:0d24315b02bbe41800e70636f1a01b4ba251403960aa474b4d50e4b86d640512": {
+      "expires_at": "2026-10-10T01:04:42.077088Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:42.077088Z",
       "status": "not_found"
     },
     "crossref:title:0ef2b3c5ff1e9358effb87988e725ac3ef6be54ec31d5928d2de3016c3c25f28": {
@@ -6607,6 +6780,12 @@
       },
       "retrieved_at": "2026-08-04T09:38:30.607658Z",
       "status": "found"
+    },
+    "crossref:title:191215f2e5b226bc45eb8e92b38dad56f76360ff1352fdbc96b7ab8c5dac130b": {
+      "expires_at": "2026-10-10T01:04:38.853601Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:38.853601Z",
+      "status": "not_found"
     },
     "crossref:title:194b18c310f1c95fa7b57f32bf8eac8d8d12cca5a8f0adbc26cb774d869457a4": {
       "expires_at": "2026-09-07T01:07:01.749398Z",
@@ -7026,6 +7205,18 @@
       "retrieved_at": "2026-09-05T00:59:50.332909Z",
       "status": "not_found"
     },
+    "crossref:title:3427b28c253345231f4892b4e35c59d4aaa4d0b0214207d2466a9690a02aeb94": {
+      "expires_at": "2026-10-10T01:04:50.083086Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:50.083086Z",
+      "status": "not_found"
+    },
+    "crossref:title:3539b5b39d28489512cfc34c3ec97e258d5782a231319259db15604f81d03b7f": {
+      "expires_at": "2026-10-10T01:04:32.852627Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:32.852627Z",
+      "status": "not_found"
+    },
     "crossref:title:35dcdeea7b0e119ada24395175dddcae68596ac8dec0b6c5901290ca183cdf72": {
       "expires_at": "2026-09-28T01:07:20.706813Z",
       "record": null,
@@ -7436,6 +7627,48 @@
       "retrieved_at": "2026-08-18T04:25:34.646895Z",
       "status": "found"
     },
+    "crossref:title:46b1b588d80ba48e56a21e1808706cb222aa1c1aa4c84f7f8f79c12d273923f7": {
+      "expires_at": "2026-10-10T01:04:40.821137Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Chunlin Li",
+            "orcid": "https://orcid.org/0000-0001-8338-6065"
+          },
+          {
+            "name": "Mengchao Lei",
+            "orcid": null
+          },
+          {
+            "name": "Yong Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Guangming Cao",
+            "orcid": null
+          },
+          {
+            "name": "Shaohua Wan",
+            "orcid": "https://orcid.org/0000-0001-7013-9081"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tcad.2026.3738037",
+        "landing_page": "https://doi.org/10.1109/tcad.2026.3738037",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/tcad.2026.3738037",
+        "publication_date": "2026",
+        "title": "Hardware-Aware Mixed-Precision Quantization and Memory-Efficient Zeroth-Order Fine-Tuning for In-vehicle Deployment of LLM",
+        "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:40.821137Z",
+      "status": "found"
+    },
     "crossref:title:47403b44d2be4bdd7731057bb202e860754053470a476d03abdb7d058e64dd9d": {
       "expires_at": "2026-08-29T00:32:17.388728Z",
       "record": {
@@ -7780,6 +8013,12 @@
       "retrieved_at": "2026-09-09T01:01:59.024949Z",
       "status": "found"
     },
+    "crossref:title:5afb7bb094202eeedf007300cb41f647d08f1bce61cb0fcc5f5a51505d58d69b": {
+      "expires_at": "2026-10-10T01:04:43.956681Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:43.956681Z",
+      "status": "not_found"
+    },
     "crossref:title:5c1ba4b310ee00973da5eaa4f0ed408af3581a2539974b6418f2f2c538b8fa80": {
       "expires_at": "2026-09-02T00:32:40.533505Z",
       "record": {
@@ -7851,6 +8090,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:17.684612Z",
       "status": "found"
+    },
+    "crossref:title:5d31563a0cb0f13d3176b86b3777a592451f9621db32e8f594764170ac2cec4a": {
+      "expires_at": "2026-10-10T01:04:33.724414Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:33.724414Z",
+      "status": "not_found"
     },
     "crossref:title:5e068699ee7c3a803d9a5024caade81ea5dfcd06e2533e7a1c9caa26e8b1c8e9": {
       "expires_at": "2026-08-16T00:36:11.038479Z",
@@ -8069,6 +8314,44 @@
       "record": null,
       "retrieved_at": "2026-09-12T00:59:33.800150Z",
       "status": "not_found"
+    },
+    "crossref:title:73e34b54c202b919bab38836e01f398e5ebb477dca348954a52d9814d96b0fe3": {
+      "expires_at": "2026-10-10T01:04:46.106858Z",
+      "record": {
+        "abstract": "Abstract This paper introduces the COVID-19 optimization algorithm (COA), a novel metaheuristic inspired by the dynamical processes of the SARS-CoV-2 pandemic, including viral transmission, quarantine measures, recovery, and mutation. COA models the search for optimal solutions through a state-transition framework in which candidate solutions evolve as susceptible, infected, quarantined, or recovered, enabling a unique and adaptive balance between exploration and exploitation. To demonstrate its practical utility, COA is coupled with a Bernoulli operational matrix collocation method to solve a complex optimal control problem (OCP) designed to mitigate the dual burden of COVID-19 and associated heart attack risks. The proposed OCP incorporates a novel compartmental model that tracks susceptible, exposed, infected, vaccinated, recovered, deceased, and a dedicated heart attack patient class while simultaneously optimizing four time-dependent control strategies: vaccination, preventive measures, antiviral treatment, and cardiovascular care. The objective is to minimize the total number of infected individuals, heart attack cases, mortality, and associated intervention costs. Prior to applying control, the uncontrolled model is rigorously analyzed: the existence and uniqueness of non-negative, bounded solutions are proven; the basic reproduction number $$\\mathcal {R}_0$$ is derived; and the local and global stability of the equilibria are established. The model parameters are estimated by fitting the system to real epidemiological data from Wuhan, China, ensuring biological credibility. Computational results demonstrate that the proposed COA-based discretization metaheuristic approach effectively identifies optimal control profiles, significantly outperforming baseline scenarios. By integrating a biologically inspired optimization algorithm with a comprehensive epidemiological model and solid mathematical foundation, this work provides a robust, gradient-free framework for public health decision-making, offering actionable insights for managing infectious diseases alongside chronic comorbidities.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Raheleh Khanduzi",
+            "orcid": null
+          },
+          {
+            "name": "Amin Jajarmi",
+            "orcid": null
+          },
+          {
+            "name": "Asiyeh Ebrahimzadeh",
+            "orcid": null
+          },
+          {
+            "name": "Seyed Reza Khandoozi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-73065-x",
+        "landing_page": "https://doi.org/10.1038/s41598-026-73065-x",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41598-026-73065-x",
+        "publication_date": "2026-09-29",
+        "title": "A new metaheuristic optimization algorithm based on COVID-19: mathematical model and application to pandemic control",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:46.106858Z",
+      "status": "found"
     },
     "crossref:title:7475272df74c99c7e18d836922d1b44387a341aa06006f1e4e430d1b0e9f4b15": {
       "expires_at": "2026-10-02T01:02:44.054897Z",
@@ -8736,6 +9019,12 @@
       "retrieved_at": "2026-08-09T00:36:05.845920Z",
       "status": "found"
     },
+    "crossref:title:9966502f88eb3fc98499dbbd13380085702210519cfbc8832352c309c61073e0": {
+      "expires_at": "2026-10-10T01:04:31.946255Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:31.946255Z",
+      "status": "not_found"
+    },
     "crossref:title:99dd1517418f7398420b3e7298adb742dcac663847fd65a1583b8de20c8fd40d": {
       "expires_at": "2026-09-07T01:07:03.210046Z",
       "record": {
@@ -8769,6 +9058,18 @@
       },
       "retrieved_at": "2026-08-31T01:07:03.210046Z",
       "status": "found"
+    },
+    "crossref:title:9a0f7c4a30416b6e50d88ac64b969b792a2d1addfe52957b9c6a0e05dcc875a8": {
+      "expires_at": "2026-10-10T01:04:31.052788Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:31.052788Z",
+      "status": "not_found"
+    },
+    "crossref:title:9c81ec57cf07c17f3327ff148e5141bfb3499f3d4c0bc0498a2c625dff96c020": {
+      "expires_at": "2026-10-10T01:04:46.813895Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:46.813895Z",
+      "status": "not_found"
     },
     "crossref:title:9cb99423c27621a002223c9a5fd617a530e071b1271c0ed8964d9ab6ccdfb669": {
       "expires_at": "2026-09-20T01:07:21.975563Z",
@@ -9007,6 +9308,12 @@
       },
       "retrieved_at": "2026-08-04T09:38:58.953960Z",
       "status": "found"
+    },
+    "crossref:title:a27e9eda6d49c44630bb9d50756c1eb5966ac2eb001eff3d1eb6ac56e6304e16": {
+      "expires_at": "2026-10-10T01:04:49.227129Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:49.227129Z",
+      "status": "not_found"
     },
     "crossref:title:a32c12cad416e7d7b35af89dbb43a3ae3854ed723f0fba802a3ec9c1a87ab6c9": {
       "expires_at": "2026-08-11T09:38:23.793147Z",
@@ -9636,6 +9943,48 @@
       "retrieved_at": "2026-09-09T01:02:04.231175Z",
       "status": "found"
     },
+    "crossref:title:c8ba769f576f225f9d67c9460beddf995f190f288b39b8f2e2e17fd24c59f104": {
+      "expires_at": "2026-10-10T01:04:36.006206Z",
+      "record": {
+        "abstract": "Blumberg’s distribution-centric model, the analyte migration integral and a band-broadening layer based on the Golay equation are reformulated in a differentiable form and validated against a published simulation for the 16 EPA priority PAHs. The resolution of every peak pair is thereby an explicit differentiable function of the temperature program, and the exact gradient of any criterion built from these resolutions is returned by backpropagation through the simulator, irrespective of the number of program parameters. Separation conditions can therefore be selected purposefully, for programs of any dimensionality. The method returns the attainable front of the separation-time trade-off rather than a single program; the three forms of objective function compared here reach different regions of that front, so the criterion stays a free part of the formulation, written to suit the analysis at hand. Pairs that no program brings to baseline separation are identified from the search and excluded from the criterion. At an equal number of calls to the model, backpropagation reaches an objective value that direct search, an evolution strategy and finite differences do not attain. The attainable separation improves as the profile is allowed more nodes, and the optimizer does not reproduce the conventional shape of a few linear ramps, it smooths the heating where the separation physics rewards it. The number of ramps that current instruments accept is a restriction of their control software, and it limits the separation quality the same column could otherwise deliver.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Y.S. Zhigalenok",
+            "orcid": null
+          },
+          {
+            "name": "V.A. Dubrovskiy",
+            "orcid": null
+          },
+          {
+            "name": "T.V. Kan",
+            "orcid": null
+          },
+          {
+            "name": "A.K. Galeyeva",
+            "orcid": null
+          },
+          {
+            "name": "A.A. Starodubtseva",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.18321/cpc24(3)407-423",
+        "landing_page": "https://doi.org/10.18321/cpc24(3)407-423",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.18321/cpc24(3)407-423",
+        "publication_date": "2026-09-28",
+        "title": "A Differentiable Distribution-Centric Gas Chromatographic Model for Gradient-Based Optimization of Temperature Programs",
+        "venue": "Горение и плазмохимия",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:36.006206Z",
+      "status": "found"
+    },
     "crossref:title:c8e5f7f13de1c5e2dd1eda61932f53d050fec817d542a547fb423fe0a9379b7a": {
       "expires_at": "2026-09-22T01:03:27.612497Z",
       "record": null,
@@ -10041,6 +10390,12 @@
       },
       "retrieved_at": "2026-09-09T01:02:03.064819Z",
       "status": "found"
+    },
+    "crossref:title:e00396db83c2be4dfa3b2619e0516ab79abbb024e2859904bc0448d3028aa0ce": {
+      "expires_at": "2026-10-10T01:04:48.470391Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:48.470391Z",
+      "status": "not_found"
     },
     "crossref:title:e12f16a709eac6fd7f66aaaafc3d9b9d6ad06238b4c4f3aadb7112a3cfdaec1c": {
       "expires_at": "2026-10-05T01:11:31.182157Z",
@@ -10650,6 +11005,12 @@
       "retrieved_at": "2026-09-07T01:06:42.138745Z",
       "status": "found"
     },
+    "crossref:title:f71476d29fd468d2b975defa6703caa6aee3b19d351d9640c67f4c59cd67e187": {
+      "expires_at": "2026-10-10T01:04:47.620744Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:47.620744Z",
+      "status": "not_found"
+    },
     "crossref:title:f7840ff87d12d6e20459aea19b1a0a31d50f83f6996a55d434c4a1529f3be13e": {
       "expires_at": "2026-08-11T09:38:37.983990Z",
       "record": {
@@ -10737,6 +11098,12 @@
       },
       "retrieved_at": "2026-09-23T01:01:05.833104Z",
       "status": "found"
+    },
+    "crossref:title:f8e1f830325a91107ec8a2b004a5f05ead4e7e310218aac84628005c413b724c": {
+      "expires_at": "2026-10-10T01:04:37.301606Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:37.301606Z",
+      "status": "not_found"
     },
     "crossref:title:f9dc88e0cd29996c4ec7171855846dd1cbe95fc8b1bc2f458761089356fb14dd": {
       "expires_at": "2026-08-25T04:25:24.453947Z",
@@ -12354,6 +12721,68 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-25T01:02:48.430281Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/978-3-032-38062-3_46": {
+      "expires_at": "2026-11-02T01:04:44.929876Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dwarikanath Mahapatra",
+            "orcid": null
+          },
+          {
+            "name": "Abhijit Das",
+            "orcid": null
+          },
+          {
+            "name": "Sudipta Roy",
+            "orcid": null
+          },
+          {
+            "name": "Manish Pandey",
+            "orcid": null
+          },
+          {
+            "name": "Joy Dhar",
+            "orcid": "https://orcid.org/0000-0001-9488-8298"
+          },
+          {
+            "name": "Nayyar Zaidi",
+            "orcid": "https://orcid.org/0000-0003-4024-2517"
+          },
+          {
+            "name": "Zongyuan Ge",
+            "orcid": null
+          },
+          {
+            "name": "Behzad Bozorgtabar",
+            "orcid": "https://orcid.org/0000-0002-5759-4896"
+          },
+          {
+            "name": "Mauricio Reyes",
+            "orcid": null
+          },
+          {
+            "name": "Imran Razzak",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-3-032-38062-3_46",
+        "landing_page": "https://doi.org/10.1007/978-3-032-38062-3_46",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7214389157",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214389157",
+        "publication_date": "2026-09-25",
+        "title": "Prompt and Probe: Data-Efficient Adaptation of Black-Box Foundation Models via Unified Active Visual Prompting",
+        "venue": "Lecture notes in computer science",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:44.929876Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s00158-026-04411-w": {
@@ -14134,6 +14563,12 @@
       "retrieved_at": "2026-09-28T01:11:34.625330Z",
       "status": "not_found"
     },
+    "openalex:doi:10.1021/acsphotonics.6c01403/5437996": {
+      "expires_at": "2026-11-02T01:04:38.439147Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:38.439147Z",
+      "status": "not_found"
+    },
     "openalex:doi:10.1038/s41377-026-02314-5": {
       "expires_at": "2026-09-03T09:38:36.810331Z",
       "record": {
@@ -15140,6 +15575,82 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-19T01:00:51.676507Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41598-026-71637-5": {
+      "expires_at": "2026-11-02T01:04:45.396284Z",
+      "record": {
+        "abstract": "Abstract We present a deep photonic neural network architecture based on ultrafast binary optical modulation using a digital micromirror device (DMD), optical scattering in a random medium, high-speed photodetection with a CMOS sensor, and a time-multiplexed multilayer structure. Operating at Gigabit-per-second (Gb/s) optical information throughput, our system based on the reservoir computing (RC) framework achieves state-of-the-art performance across various multimedia tasks, including video, image and speech recognition. We show that the careful optimization of key physical intra- and inter-layer hyperparameters can significantly enhance the deep photonic RC system’s ability to extract relevant temporal and spatial features by balancing memory retention and dynamical response of individual layers. This approach paves the way for highly scalable hierarchical photonic reservoir computing systems for high-throughput real-time multimedia signal processing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Muhammad Waqar Iqbal",
+            "orcid": "https://orcid.org/0000-0002-5034-2741"
+          },
+          {
+            "name": "Mohamad Alassir",
+            "orcid": null
+          },
+          {
+            "name": "Nicolas Marsal",
+            "orcid": "https://orcid.org/0000-0002-9309-811X"
+          },
+          {
+            "name": "Damien Rontani",
+            "orcid": "https://orcid.org/0000-0002-8549-4040"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-71637-5",
+        "landing_page": "https://doi.org/10.1038/s41598-026-71637-5",
+        "open_access_url": "https://doi.org/10.1038/s41598-026-71637-5",
+        "openalex_id": "https://openalex.org/W7162780779",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7162780779",
+        "publication_date": "2026-10-01",
+        "title": "Deep binarized photonic reservoir computing for ultrafast multimedia signal processing",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:45.396284Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41598-026-73065-x": {
+      "expires_at": "2026-11-02T01:04:46.475396Z",
+      "record": {
+        "abstract": "Abstract This paper introduces the COVID-19 optimization algorithm (COA), a novel metaheuristic inspired by the dynamical processes of the SARS-CoV-2 pandemic, including viral transmission, quarantine measures, recovery, and mutation. COA models the search for optimal solutions through a state-transition framework in which candidate solutions evolve as susceptible, infected, quarantined, or recovered, enabling a unique and adaptive balance between exploration and exploitation. To demonstrate its practical utility, COA is coupled with a Bernoulli operational matrix collocation method to solve a complex optimal control problem (OCP) designed to mitigate the dual burden of COVID-19 and associated heart attack risks. The proposed OCP incorporates a novel compartmental model that tracks susceptible, exposed, infected, vaccinated, recovered, deceased, and a dedicated heart attack patient class while simultaneously optimizing four time-dependent control strategies: vaccination, preventive measures, antiviral treatment, and cardiovascular care. The objective is to minimize the total number of infected individuals, heart attack cases, mortality, and associated intervention costs. Prior to applying control, the uncontrolled model is rigorously analyzed: the existence and uniqueness of non-negative, bounded solutions are proven; the basic reproduction number $$\\mathcal {R}_0$$ is derived; and the local and global stability of the equilibria are established. The model parameters are estimated by fitting the system to real epidemiological data from Wuhan, China, ensuring biological credibility. Computational results demonstrate that the proposed COA-based discretization metaheuristic approach effectively identifies optimal control profiles, significantly outperforming baseline scenarios. By integrating a biologically inspired optimization algorithm with a comprehensive epidemiological model and solid mathematical foundation, this work provides a robust, gradient-free framework for public health decision-making, offering actionable insights for managing infectious diseases alongside chronic comorbidities.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Raheleh Khanduzi",
+            "orcid": "https://orcid.org/0000-0002-0979-4041"
+          },
+          {
+            "name": "Amin Jajarmi",
+            "orcid": "https://orcid.org/0000-0003-2768-840X"
+          },
+          {
+            "name": "Asiyeh Ebrahimzadeh",
+            "orcid": "https://orcid.org/0000-0002-4684-7640"
+          },
+          {
+            "name": "Seyed Reza Khandoozi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-73065-x",
+        "landing_page": "https://doi.org/10.1038/s41598-026-73065-x",
+        "open_access_url": "https://doi.org/10.1038/s41598-026-73065-x",
+        "openalex_id": "https://openalex.org/W7214657713",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214657713",
+        "publication_date": "2026-09-29",
+        "title": "A new metaheuristic optimization algorithm based on COVID-19: mathematical model and application to pandemic control",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:46.475396Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s42005-026-02823-0": {
@@ -16802,6 +17313,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-04T01:00:24.056205Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/tcad.2026.3738037": {
+      "expires_at": "2026-11-02T01:04:41.166808Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Chunlin Li",
+            "orcid": "https://orcid.org/0000-0001-8338-6065"
+          },
+          {
+            "name": "Mengchao Lei",
+            "orcid": null
+          },
+          {
+            "name": "Yong Zhang",
+            "orcid": "https://orcid.org/0000-0002-7666-6242"
+          },
+          {
+            "name": "Guangming Cao",
+            "orcid": null
+          },
+          {
+            "name": "Shaohua Wan",
+            "orcid": "https://orcid.org/0000-0001-7013-9081"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tcad.2026.3738037",
+        "landing_page": "https://doi.org/10.1109/tcad.2026.3738037",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7214584049",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214584049",
+        "publication_date": "2026-01-01",
+        "title": "Hardware-Aware Mixed-Precision Quantization and Memory-Efficient Zeroth-Order Fine-Tuning for In-vehicle Deployment of LLM",
+        "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:41.166808Z",
       "status": "found"
     },
     "openalex:doi:10.1109/tce.2026.3735750": {
@@ -19610,6 +20163,48 @@
       "retrieved_at": "2026-09-12T00:59:37.704094Z",
       "status": "not_found"
     },
+    "openalex:doi:10.18321/cpc24(3)407-423": {
+      "expires_at": "2026-11-02T01:04:36.388995Z",
+      "record": {
+        "abstract": "Blumberg’s distribution-centric model, the analyte migration integral and a band-broadening layer based on the Golay equation are reformulated in a differentiable form and validated against a published simulation for the 16 EPA priority PAHs. The resolution of every peak pair is thereby an explicit differentiable function of the temperature program, and the exact gradient of any criterion built from these resolutions is returned by backpropagation through the simulator, irrespective of the number of program parameters. Separation conditions can therefore be selected purposefully, for programs of any dimensionality. The method returns the attainable front of the separation-time trade-off rather than a single program; the three forms of objective function compared here reach different regions of that front, so the criterion stays a free part of the formulation, written to suit the analysis at hand. Pairs that no program brings to baseline separation are identified from the search and excluded from the criterion. At an equal number of calls to the model, backpropagation reaches an objective value that direct search, an evolution strategy and finite differences do not attain. The attainable separation improves as the profile is allowed more nodes, and the optimizer does not reproduce the conventional shape of a few linear ramps, it smooths the heating where the separation physics rewards it. The number of ramps that current instruments accept is a restriction of their control software, and it limits the separation quality the same column could otherwise deliver.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ya.S. Zhigalenok",
+            "orcid": "https://orcid.org/0000-0003-1452-1248"
+          },
+          {
+            "name": "V.A. Dubrovskiy",
+            "orcid": null
+          },
+          {
+            "name": "T.V. Kan",
+            "orcid": null
+          },
+          {
+            "name": "A.K. Galeyeva",
+            "orcid": null
+          },
+          {
+            "name": "A.A. Starodubtseva",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.18321/cpc24(3)407-423",
+        "landing_page": "https://doi.org/10.18321/cpc24(3)407-423",
+        "open_access_url": "https://doi.org/10.18321/cpc24(3)407-423",
+        "openalex_id": "https://openalex.org/W7214795568",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214795568",
+        "publication_date": "2026-09-28",
+        "title": "A Differentiable Distribution-Centric Gas Chromatographic Model for Gradient-Based Optimization of Temperature Programs",
+        "venue": "Горение и Плазмохимия",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:36.388995Z",
+      "status": "found"
+    },
     "openalex:doi:10.20944/preprints202609.0445.v1": {
       "expires_at": "2026-10-12T00:59:39.904888Z",
       "record": {
@@ -20572,6 +21167,44 @@
       "retrieved_at": "2026-09-19T01:00:52.252351Z",
       "status": "found"
     },
+    "openalex:doi:10.48550/arxiv.2609.39074": {
+      "expires_at": "2026-11-02T01:04:30.510737Z",
+      "record": {
+        "abstract": "Federated learning (FL) on memory-constrained edge devices faces a dilemma: first-order (FO) optimization (i.e., backpropagation) demands substantial memory, whereas zeroth-order (ZO) optimization suffers from severe convergence slowdown. To resolve this dilemma, we introduce HO-FL, a hybrid-order FL framework that trains a model's bottom segment with ZO optimization and its top segment with FO optimization. Each device can flexibly select its order boundary according to its memory budget while participating in the training of the same global model. Moreover, our convergence analysis reveals a new, fundamental trade-off: clients with larger FO-trained segments can provide more accurate updates, but favoring them can underrepresent other clients' data. We connect this trade-off to the bias and variance of actual multi-step local updates, yielding a sampling optimization problem and a practical dimension-aware approximation with direct model averaging. Experiments on language tasks examine task performance, client memory, and sampling under data heterogeneity. The results show that hybrid-order local training can retain much of the full-FO performance with substantially lower client memory requirements. Our code is available at https://github.com/HKU-WILL-Lab/HO-FL.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Qiyuan Chen",
+            "orcid": null
+          },
+          {
+            "name": "Xian Wu",
+            "orcid": null
+          },
+          {
+            "name": "Yanan Ma",
+            "orcid": null
+          },
+          {
+            "name": "Xianhao Chen",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.39074",
+        "landing_page": "https://doi.org/10.48550/arxiv.2609.39074",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2609.39074",
+        "openalex_id": "https://openalex.org/W7215115031",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7215115031",
+        "publication_date": "2026-09-30",
+        "title": "HO-FL: Hybrid-Order Federated Learning for Heterogeneous Edge Devices",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:30.510737Z",
+      "status": "found"
+    },
     "openalex:doi:10.5281/zenodo.21885998": {
       "expires_at": "2026-09-17T04:25:17.487937Z",
       "record": {
@@ -21102,6 +21735,27 @@
       "retrieved_at": "2026-09-07T01:06:42.496403Z",
       "status": "found"
     },
+    "openalex:doi:10.71010/2996-4954/jcetai-e109": {
+      "expires_at": "2026-11-02T01:04:41.633229Z",
+      "record": {
+        "abstract": "Artificial intelligence (AI) and electromagnetic (EM) metamaterial engineering is a paradigm shift in antenna stealth technology.This paper reviews the latest advances in electromagnetic cloaking using artificial intelligence (AI), especially mantle cloaking, radar cross section (RCS) reduction using metasurfaces, and machine learning-assisted inverse design techniques, in the context of recent advances up to 2020.The theoretical framework for coordinate-transforming cloaking and the surface-reactance mantle cloak framework is revisited, and a systematic discussion of programmable and coding metasurfaces, frequency-selective surfaces (FSS), and reconfigurable architectures is provided.The capability of the AI techniques, such as deep neural networks, variational autoencoders, Bayesian optimization, and reinforcement learning, in enhancing the speed of metasurface design, minimizing simulation time, and enabling autonomous real-time cloaking adaptation is explored.The key quantitative findings are: a self-adaptive microwave cloak with a deep-learning approach that suppresses the RCS of the object by 28.4 dB over an 8.1 GHz bandwidth without any human operation; a probabilistic generative model that achieves an inverse-design accuracy of 90.2% on a training set of 30,000 objects; a frequency-selective mantle structure whose RCS is suppressed by 15.8 dB at 10 GHz, optimized via a Bayesian algorithm; and a waveform-selective mantle cloak that provides stealth and communication capabilities simultaneously.It is revealed that feedback loops powered by AI, combined with reconfigurable PIN-diode and varactor-loaded metasurfaces, enable unprecedented dynamic adaptability in contested EM environments.",
+        "arxiv_id": null,
+        "authors": [],
+        "cited_by_count": 0,
+        "doi": "10.71010/2996-4954/jcetai-e109",
+        "landing_page": "https://doi.org/10.71010/2996-4954/jcetai-e109",
+        "open_access_url": "https://doi.org/10.71010/2996-4954/jcetai-e109",
+        "openalex_id": "https://openalex.org/W7215132649",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7215132649",
+        "publication_date": "2026-10-01",
+        "title": "AI-Driven Electromagnetic Cloaking for Dynamic Antenna Stealth",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:41.633229Z",
+      "status": "found"
+    },
     "openalex:doi:10.7498/aps.76.20261148": {
       "expires_at": "2026-10-25T01:02:48.814527Z",
       "record": {
@@ -21250,6 +21904,40 @@
       "retrieved_at": "2026-09-30T01:10:16.543987Z",
       "status": "not_found"
     },
+    "openalex:title:0d24315b02bbe41800e70636f1a01b4ba251403960aa474b4d50e4b86d640512": {
+      "expires_at": "2026-10-10T01:04:42.483609Z",
+      "record": {
+        "abstract": "We propose a continuous-time algorithm for zeroth-order global optimization of smooth functions on compact manifolds that synthesizes Riemannian gradient dynamics using only objective measurements, without evaluating gradients. The algorithm is formulated as an ordinary differential equation driven by piecewise-smooth McShane-type approximations of the Wiener process, with a geometric compensation term that depends only on the actuation frame and not on the objective function. Our main result establishes infinite-horizon practical probabilistic guarantees for fixed approximation parameters. To this end, we show that the algorithm's trajectories approximate, in the mean-square sense, a Riemannian Langevin diffusion whose unique invariant Gibbs measure concentrates on the set of global minimizers. We exploit this approximation to establish finite-horizon probabilistic convergence guarantees and directly analyze the algorithm's long-time behavior to obtain the infinite-horizon result.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mahmoud Abdelgalil",
+            "orcid": null
+          },
+          {
+            "name": "Miroslav Krstic",
+            "orcid": null
+          },
+          {
+            "name": "Jorge I. Poveda",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.38069",
+        "landing_page": "https://arxiv.org/abs/2609.38069",
+        "open_access_url": "https://arxiv.org/abs/2609.38069",
+        "openalex_id": "https://openalex.org/W7214912662",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214912662",
+        "publication_date": "2026-09-29",
+        "title": "Stochastic Lie-Bracket Approximations for Zeroth-Order Optimization on Manifolds",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:42.483609Z",
+      "status": "found"
+    },
     "openalex:title:0f8c4e0a9f7dbce7dfea5017263591b2cbf2d3204d9a790cff62b5e4c9f44859": {
       "expires_at": "2026-08-31T00:32:21.079217Z",
       "record": null,
@@ -21284,6 +21972,12 @@
       "expires_at": "2026-10-04T01:11:35.174416Z",
       "record": null,
       "retrieved_at": "2026-09-27T01:11:35.174416Z",
+      "status": "not_found"
+    },
+    "openalex:title:191215f2e5b226bc45eb8e92b38dad56f76360ff1352fdbc96b7ab8c5dac130b": {
+      "expires_at": "2026-10-10T01:04:39.319738Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:39.319738Z",
       "status": "not_found"
     },
     "openalex:title:194b18c310f1c95fa7b57f32bf8eac8d8d12cca5a8f0adbc26cb774d869457a4": {
@@ -21537,6 +22231,50 @@
       },
       "retrieved_at": "2026-09-05T00:59:51.041429Z",
       "status": "found"
+    },
+    "openalex:title:3427b28c253345231f4892b4e35c59d4aaa4d0b0214207d2466a9690a02aeb94": {
+      "expires_at": "2026-10-10T01:04:50.460549Z",
+      "record": {
+        "abstract": "Fine-tuning anguage models (LLMs) with first-order optimizers requires a memory several times larger than that required for inference. Memory-efficient zeroth-order optimization (MeZO) sidesteps this cost by estimating gradients from forward passes only. However, for BitNet architectures, a family of LLMs with ternary {-1,0,1\\} weights and 8-bit activations, fine-tuning requires updating full-precision latent weights, and thus the memory footprint of MeZO no longer matches that of inference. A promising solution is to finetune only a subset of the latent weights, but existing sparse zeroth-order (ZO) methods either ignore the ternary structure or require first-order gradient information to build a sparse mask, which is at odds with the purpose of ZO fine-tuning. We propose TerMeZO, a sparse MeZO scheme that exploits the geometry of the ternary quantizer itself to identify the latent weights that are more likely to change values during fine-tuning, at no additional data or memory cost. Our convergence analysis shows that TerMeZO can converge faster than full-parameter MeZO, owing to its optimized reduction of the fine-tuning effective dimension. We run extensive experiments on BitNet models ranging from 1B to 3B parameters, spanning classification, instruction-following, and mathematical reasoning tasks. TerMeZO matches or exceeds the performance of full-parameter MeZO while substantially reducing the fine-tuning memory footprint.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Houssem Sifaou",
+            "orcid": "https://orcid.org/0000-0003-0630-7073"
+          },
+          {
+            "name": "Prabodh Katti",
+            "orcid": "https://orcid.org/0000-0003-1919-9593"
+          },
+          {
+            "name": "Bipin Rajendran",
+            "orcid": "https://orcid.org/0000-0002-2960-6909"
+          },
+          {
+            "name": "Osvaldo Simeone",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.33548",
+        "landing_page": "https://arxiv.org/abs/2609.33548",
+        "open_access_url": "https://arxiv.org/abs/2609.33548",
+        "openalex_id": "https://openalex.org/W7214779256",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214779256",
+        "publication_date": "2026-09-27",
+        "title": "TerMeZO: Ternary Sparse Zeroth-Order Optimization for Fine-tuning BitNet Models at the Edge",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:50.460549Z",
+      "status": "found"
+    },
+    "openalex:title:3539b5b39d28489512cfc34c3ec97e258d5782a231319259db15604f81d03b7f": {
+      "expires_at": "2026-10-10T01:04:33.354110Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:33.354110Z",
+      "status": "not_found"
     },
     "openalex:title:35dcdeea7b0e119ada24395175dddcae68596ac8dec0b6c5901290ca183cdf72": {
       "expires_at": "2026-09-28T01:07:21.310826Z",
@@ -21848,6 +22586,18 @@
       "expires_at": "2026-08-16T00:36:12.468945Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:36:12.468945Z",
+      "status": "not_found"
+    },
+    "openalex:title:5afb7bb094202eeedf007300cb41f647d08f1bce61cb0fcc5f5a51505d58d69b": {
+      "expires_at": "2026-10-10T01:04:44.392430Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:44.392430Z",
+      "status": "not_found"
+    },
+    "openalex:title:5d31563a0cb0f13d3176b86b3777a592451f9621db32e8f594764170ac2cec4a": {
+      "expires_at": "2026-10-10T01:04:34.187371Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:34.187371Z",
       "status": "not_found"
     },
     "openalex:title:5e068699ee7c3a803d9a5024caade81ea5dfcd06e2533e7a1c9caa26e8b1c8e9": {
@@ -22508,6 +23258,148 @@
       "retrieved_at": "2026-08-20T00:32:27.549813Z",
       "status": "not_found"
     },
+    "openalex:title:9966502f88eb3fc98499dbbd13380085702210519cfbc8832352c309c61073e0": {
+      "expires_at": "2026-10-10T01:04:32.295862Z",
+      "record": {
+        "abstract": "Learned rotations play an important role in enabling low-bit weight and activation quantization of large language models by smoothing outliers in the activation distribution. State-of-the-art approaches include gradient-based procedures such as SpinQuant and computationally friendlier gradient-free approaches such as DartQuant, but both remain hard to scale to the largest architectures. To address the computational bottlenecks in gradient-free rotation learning, we introduce two ideas for efficiency, (i) a data selection procedure which reduces the required number of calibration data points, and (ii) an exact reduction of the associated optimization on this reduced calibration set. Our data selection procedure exploits the geometric structure of the convex hull of the activations. Using this idea, we show that a carefully selected calibration set with several orders of magnitude fewer activations than state-of-the-art rotation-based methods can match their performance in low-bit quantization settings. Under this extreme data efficiency, the selected activations span an $r$-dimensional subspace with $r",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mehdi Makni",
+            "orcid": "https://orcid.org/0009-0009-7573-8775"
+          },
+          {
+            "name": "Ryan Lucas",
+            "orcid": null
+          },
+          {
+            "name": "Rahul Mazumder",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.36120",
+        "landing_page": "https://arxiv.org/abs/2609.36120",
+        "open_access_url": "https://arxiv.org/abs/2609.36120",
+        "openalex_id": "https://openalex.org/W7214963470",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214963470",
+        "publication_date": "2026-09-28",
+        "title": "ThinQuant: Scalable Rotation Learning for Weight and Activation Quantization of LLMs",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:32.295862Z",
+      "status": "found"
+    },
+    "openalex:title:9a0f7c4a30416b6e50d88ac64b969b792a2d1addfe52957b9c6a0e05dcc875a8": {
+      "expires_at": "2026-10-10T01:04:31.508829Z",
+      "record": {
+        "abstract": "Zeroth-order (ZO) optimization offers a memory-efficient alternative for LLM fine-tuning by estimating updates only from forward evaluations of perturbed parameters, without backpropagation or activation storage. However, in billion-parameter LLMs, isotropic perturbations often waste many forward evaluations on weakly informative directions. To make these evaluations more informative, existing ZO methods restrict perturbations to low-dimensional subspaces. Yet the quality of these subspaces is critical: overly compressed or poorly maintained spaces can miss useful update directions. To obtain a high-quality subspace for ZO updates, this paper proposes AIM-ZO, a ZO fine-tuning method based on Activation-Informed Subspace Maintenance. AIM-ZO uses forward activations as local directional information and continuously integrates them into a broad, evolving subspace over training. To access broader gradient-relevant structure while keeping individual perturbations low-dimensional, AIM-ZO activates only a smaller set of shared and sampled directions, decoupling the maintained width from the active width. We evaluate AIM-ZO across 5 LLMs and 11 downstream tasks under matched forward-evaluation budgets; its six-task average exceeds the strongest fully evaluated ZO baseline by 1.26 percentage points on OPT-2.7B and MeZO by 2.85 percentage points on OPT-30B. Our code is available at https://github.com/EkkoXy/AIM-ZO",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yue Xie",
+            "orcid": null
+          },
+          {
+            "name": "Zhi Zheng",
+            "orcid": null
+          },
+          {
+            "name": "巴云鹏",
+            "orcid": null
+          },
+          {
+            "name": "Xuyang Wu",
+            "orcid": "https://orcid.org/0000-0001-7409-9611"
+          },
+          {
+            "name": "Xialiang Tong",
+            "orcid": "https://orcid.org/0009-0006-8153-1576"
+          },
+          {
+            "name": "Zhichao Lu",
+            "orcid": null
+          },
+          {
+            "name": "Tao Zhong",
+            "orcid": "https://orcid.org/0009-0004-2034-0392"
+          },
+          {
+            "name": "Zhenkun Wang",
+            "orcid": "https://orcid.org/0000-0003-1152-6780"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.35257",
+        "landing_page": "https://arxiv.org/abs/2609.35257",
+        "open_access_url": "https://arxiv.org/abs/2609.35257",
+        "openalex_id": "https://openalex.org/W7214766557",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214766557",
+        "publication_date": "2026-09-28",
+        "title": "AIM-ZO: Activation-Informed Subspace Maintenance for Zeroth-Order LLM Fine-Tuning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:31.508829Z",
+      "status": "found"
+    },
+    "openalex:title:9c81ec57cf07c17f3327ff148e5141bfb3499f3d4c0bc0498a2c625dff96c020": {
+      "expires_at": "2026-10-10T01:04:47.181968Z",
+      "record": {
+        "abstract": "Current grasp diffusion models provide rich priors for generation, yet their object-centric approach can violate the kinematic and collision constraints imposed by the embodiment and the environment. Existing embodiment-aware methods primarily perform local corrections around generated grasps through gradient guidance or optimization, making it difficult to recover from fundamentally infeasible modes. We present Steer2Grasp, a training-free, embodiment-agnostic framework for inference-time grasp steering that adapts a frozen Cartesian grasp diffusion model using deployment-specific rewards. Through Feynman-Kac (FK) inspired particle reweighting and resampling, the method reallocates population mass from infeasible to high-reward grasp modes, enabling population-level mode transitions without modifying the pretrained diffusion model or requiring differentiable constraints. The framework enables a unified treatment for single and dual arm grasping through reachability and collision aware rewards, followed by gradient free gripper level local refinement. Across diverse objects, robot embodiments, and constrained environments, our method substantially improves feasible grasp generation while maintaining proximity to the underlying grasp prior.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Vignesh Vembar",
+            "orcid": null
+          },
+          {
+            "name": "Ayush Kaura",
+            "orcid": null
+          },
+          {
+            "name": "A Padmaprabhan",
+            "orcid": null
+          },
+          {
+            "name": "Siddharth Sinha",
+            "orcid": null
+          },
+          {
+            "name": "Kailash Nagarajan",
+            "orcid": null
+          },
+          {
+            "name": "Keshab Patra",
+            "orcid": "https://orcid.org/0009-0007-5127-9637"
+          },
+          {
+            "name": "Md Faizal Karim",
+            "orcid": null
+          },
+          {
+            "name": "K. Madhava Krishna",
+            "orcid": "https://orcid.org/0000-0001-7846-7901"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.33546",
+        "landing_page": "https://arxiv.org/abs/2609.33546",
+        "open_access_url": "https://arxiv.org/abs/2609.33546",
+        "openalex_id": "https://openalex.org/W7214775362",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214775362",
+        "publication_date": "2026-09-27",
+        "title": "Steer2Grasp: Inference-Time Embodiment-Aware Steering for Diverse Physically Feasible Grasp Diffusion",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:47.181968Z",
+      "status": "found"
+    },
     "openalex:title:9cb99423c27621a002223c9a5fd617a530e071b1271c0ed8964d9ab6ccdfb669": {
       "expires_at": "2026-09-20T01:07:22.589361Z",
       "record": {
@@ -22556,6 +23448,12 @@
       "expires_at": "2026-10-04T01:11:32.429504Z",
       "record": null,
       "retrieved_at": "2026-09-27T01:11:32.429504Z",
+      "status": "not_found"
+    },
+    "openalex:title:a27e9eda6d49c44630bb9d50756c1eb5966ac2eb001eff3d1eb6ac56e6304e16": {
+      "expires_at": "2026-10-10T01:04:49.694935Z",
+      "record": null,
+      "retrieved_at": "2026-10-03T01:04:49.694935Z",
       "status": "not_found"
     },
     "openalex:title:a3f18eec772fb78c19795a9e1c18c07c9beea848799b21c9855e2593626bcaf0": {
@@ -23176,6 +24074,48 @@
       "retrieved_at": "2026-09-12T00:59:38.926326Z",
       "status": "not_found"
     },
+    "openalex:title:e00396db83c2be4dfa3b2619e0516ab79abbb024e2859904bc0448d3028aa0ce": {
+      "expires_at": "2026-10-10T01:04:48.916456Z",
+      "record": {
+        "abstract": "Yield optimization under process variation is expensive because each candidate design must be evaluated across many Monte Carlo SPICE samples. The resulting finite-sample yield is also piecewise constant in the design parameters, providing little local information for optimization. We introduce zeroth-order Monte Carlo stochastic gradient descent (ZO-MC-SGD), a black-box method that converts continuous specification margins into stochastic descent directions. Each update evaluates opposite design perturbations under shared process samples, allowing a small simulation batch to estimate a local direction without differentiating SPICE or fitting a global surrogate model. A Spearman rank-correlation test checks that the margin-based loss orders designs consistently with empirical yield. We prove that the estimator is unbiased for a Gaussian-smoothed surrogate and derive variance and sample-complexity bounds with no explicit dependence on process dimension. Across five analog circuit benchmarks with up to 30 design variables and 42 process variables, ZO-MC-SGD reaches a mean yield of 0.95 on four circuits within 50--200 simulations and the empirical yield ceiling on the fifth. Relative to the best of five black-box and learning-based baselines, it reduces the required simulation budget by up to a factor of eight.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Liyan Tan",
+            "orcid": null
+          },
+          {
+            "name": "Yequan Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Ben F. Jamroz",
+            "orcid": null
+          },
+          {
+            "name": "Ari Feldman",
+            "orcid": null
+          },
+          {
+            "name": "Zheng Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.30678",
+        "landing_page": "https://arxiv.org/abs/2609.30678",
+        "open_access_url": "https://arxiv.org/abs/2609.30678",
+        "openalex_id": "https://openalex.org/W7214635785",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214635785",
+        "publication_date": "2026-09-25",
+        "title": "Simulation-Efficient Analog Circuit Yield Optimization via Monte Carlo Zeroth-Order Gradient Estimation",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:48.916456Z",
+      "status": "found"
+    },
     "openalex:title:e1ed1bfb722b9d6863eb7a17ff99bfd1d32e18aba4f3ed4680a555f092e18848": {
       "expires_at": "2026-09-25T01:02:15.226167Z",
       "record": null,
@@ -23400,6 +24340,44 @@
       "retrieved_at": "2026-09-13T01:07:35.659687Z",
       "status": "not_found"
     },
+    "openalex:title:f71476d29fd468d2b975defa6703caa6aee3b19d351d9640c67f4c59cd67e187": {
+      "expires_at": "2026-10-10T01:04:47.979690Z",
+      "record": {
+        "abstract": "As robots transition from structured factory settings into homes, they are required to interact with an ever-increasing variety of objects. Many tasks require grasping, and often it is not sufficient to just pick up the target object. Consider a task like \"pouring coffee\" --- to facilitate the subsequent pouring, the robot should grasp the mug by its handle. Existing learning-based approaches for grasping either find robust and collision-free grasps that are largely agnostic to the task (e.g., picking up the mug by its rim), or leverage foundation models to propose task-appropriate grasp locations that lack fine-grained physical grounding (e.g., reaching for and missing the handle). In this work, we bridge these approaches with a real-to-sim-to-real framework. Based on a single RGB-D observation, we construct a digital twin of the environment, query a large foundation model to propose grasps that align with the object's affordances and task description, and then optimize the proposals to ensure robustness and plausibility before executing the result on the real robot. Our key insight is that the grasp proposals of the foundation model should be regarded as semantic priors that serve as seeds for local, gradient-free optimization. We leverage Bayesian optimization with Thompson sampling to draw batches of nearby poses, which are subsequently evaluated in parallel under domain-randomized physics rollouts. The resulting grasp is both task-oriented and physically feasible for execution by the robot arm. Our full zero-shot real-world transfer only takes a few minutes and improves task-oriented grasping success by up to 33% as compared to other state-of-the-art pipelines. Our code is available here: https://github.com/VT-Collab/GraspTwin/",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Daniel J. Evans",
+            "orcid": "https://orcid.org/0000-0002-2636-895X"
+          },
+          {
+            "name": "Yinlong Dai",
+            "orcid": "https://orcid.org/0009-0009-7200-0070"
+          },
+          {
+            "name": "Simon Stepputtis",
+            "orcid": "https://orcid.org/0009-0003-0519-3454"
+          },
+          {
+            "name": "Dylan P. Losey",
+            "orcid": "https://orcid.org/0000-0002-8787-5293"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.30543",
+        "landing_page": "https://arxiv.org/abs/2609.30543",
+        "open_access_url": "https://arxiv.org/abs/2609.30543",
+        "openalex_id": "https://openalex.org/W7214673781",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214673781",
+        "publication_date": "2026-09-24",
+        "title": "GraspTwin: Zero-Shot Task-Oriented Grasp Optimization via a Digital Twin",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:47.979690Z",
+      "status": "found"
+    },
     "openalex:title:f7ff005a639554bb23bbd49c5a703663447cfbd95aba3ff8543f8daad5267f0c": {
       "expires_at": "2026-09-12T00:59:45.269851Z",
       "record": {
@@ -23439,6 +24417,32 @@
       "record": null,
       "retrieved_at": "2026-08-04T09:38:45.339839Z",
       "status": "not_found"
+    },
+    "openalex:title:f8e1f830325a91107ec8a2b004a5f05ead4e7e310218aac84628005c413b724c": {
+      "expires_at": "2026-10-10T01:04:37.728555Z",
+      "record": {
+        "abstract": "The contents of this dissertation are focused on devising design methodologies suited for the optimization of ’futuristic’ wings, which are aimed at achieving the ambitious drag reduction objectives as envisioned for sustainable aviation. The term ’futuristic’ in this context refers to wings that are capable of sustaining extended regions of laminar flow by delaying the transition of boundary layers through leading-edge suction. In addition, the design of ’dry’ wings is also considered in this study, which refers to wings that do not house the fuel tanks. This is a characteristic feature of hydrogen-powered aircraft, whose design and development also form a key area of focus with regard to sustainable aviation. One major challenge that exists as a bottleneck in developing a design framework for laminar wings is the lack of applicability of gradient-based optimization algorithms, since the state-of-the-art adjoint gradient evaluation methods are not compatible with the transition prediction formulations that accompany the laminar aerodynamic design space. This limitation has conventionally restricted the design of laminar wings to gradient-free algorithms, which are generally governed by population-based heuristics. This class of algorithms has proven to be highly reliable in deciphering optimal solutions in the absence of gradients and provides additional robustness against getting stuck in local minima, which has highly popularized their use in industrial and scientific design applications in the absence of gradient information. However, a major drawback encountered with the use of these heuristic algorithms is that the computational effort required for optimization, primarily in terms of the number of time-consuming function evaluations, increases exponentially with the number of design variables. As a result, the use of such algorithms restricts the number of variables O(10) that can be accommodated in the development of laminar wings, which consequently reduces the design freedom along with the number of physical phenomena and interdisciplinary interactions that can be taken into consideration during the design. To overcome this limitation, the application of probabilistic AI in aerospace design, particularly the state-of-the-art high-dimensional Bayesian optimization techniques, has been explored and demonstrated in this work. Bayesian optimization is a gradient-free methodology that offers a much higher efficiency than the conventional heuristic algorithms by orders of magnitude, and consequently offers the possibility to accommodate a large number of design variables O(100), along with their corresponding physical interactions, thereby making it highly suitable for the aerodynamic as well as aerostructural design of laminar wings. Therefore, the design methodologies developed and presented in this dissertation, based on Bayesian optimization, offer a practically tractable way for efficient design of aerospace components in the absence of gradient information. In addition, the developed design framework resulting from this research is also utilized to push the boundaries of laminar aerodynamic design by exploring the design potential of natural laminar flow (NLF) airfoils at large backward leading edge sweep angles, which are conventionally deemed suitable only for wings with low sweep angles. Traditionally, the development of such specialized cross flow attenuating natural laminar flow (CATNLF) airfoils has been restricted to inverse design formulations due to a lack of a suitable geometry parameterization technique for representing the specialized leading-edge shapes of such airfoils. In this context, this thesis also demonstrates the application of Bayesian optimization to facilitate efficient forward design of CATNLF airfoils suited to large sweep angles, which is being demonstrated for the first time to the best of the author's knowledge. The associated design challenges for CATNLF airfoils in this regard are addressed by developing a novel geometry parameterization framework based on Bezier curves, which is also undertaken in this study. This developed design framework by combining Bayesian optimization with Bezier parameterization is further utilized to compare and analyze the design potential for laminar transonic airfoils at large sweep angles, with and without leading-edge boundary layer suction. In summary, the optimization and parameterization methodologies presented in this dissertation expand the scope of forward design capabilities for laminar transonic wings suited to sustainable aviation by significantly enhancing the computational efficiency and lowering the design lead time in comparison to the conventional gradient-free algorithms.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Samarth Kakkar",
+            "orcid": "https://orcid.org/0009-0000-6236-7316"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.24355/dbbs.084-202608172241-0",
+        "landing_page": "https://leopard.tu-braunschweig.de/receive/dbbs_mods_00080219",
+        "open_access_url": "https://leopard.tu-braunschweig.de/receive/dbbs_mods_00080219",
+        "openalex_id": "https://openalex.org/W7213184522",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213184522",
+        "publication_date": "2026-09-14",
+        "title": "Gradient-Free Aerostructural Design of Wings for Mid-Range Transport Aircraft using Probabilistic Machine Learning",
+        "venue": "Digitale Bibliothek Braunschweig (Verbundzentrale Göttingen (VZG))",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-03T01:04:37.728555Z",
+      "status": "found"
     },
     "openalex:title:fa60f02d09bca15be6c9a356913a55051cb0ebb4425af85d164abb26d908b601": {
       "expires_at": "2026-09-12T00:59:46.431467Z",
