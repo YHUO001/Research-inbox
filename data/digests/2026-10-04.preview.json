@@ -1,0 +1,31 @@
+{
+  "built_at": "2026-10-04T01:36:10.070821Z",
+  "digest_date": "2026-10-04",
+  "digest_version": 1,
+  "pending_summary_count": 1,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "7a7954d98c27d7ab9f7f730a",
+        "landing_page": "https://arxiv.org/abs/2609.38561",
+        "mandatory": false,
+        "score": 0.79,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "A Parameter-Free Zeroth-Order Method with Covariance Matrix Adaptation and Effective Dimension",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

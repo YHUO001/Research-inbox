@@ -323,6 +323,15 @@
       "summary_record_sha256": "8a49be9285d794f0ce8cb2e8937efdbb5b4b1b4b5eeb5262b5794d97e2452811",
       "title": "Control-aware training of physical neural networks for closed-loop regulation"
     },
+    "7a7954d98c27d7ab9f7f730a": {
+      "digest_date": "2026-10-04",
+      "doi": "10.48550/arxiv.2609.38561",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "cf9df83468f16bfb1a5b809470d43ed9e7d1385a63edf8de9fceb72277572175",
+      "title": "A Parameter-Free Zeroth-Order Method with Covariance Matrix Adaptation and Effective Dimension"
+    },
     "7bc9d4230ed283852c3248a7": {
       "digest_date": "2026-08-30",
       "doi": "10.62311/nesx/rp2ag-30082026",
@@ -782,6 +791,9 @@
       "1be9c6ec4a0fa7f4ce866764",
       "70212be2c4a63d741872ace0",
       "f4c6106a0a433a224abb3d56"
+    ],
+    "2026-10-04": [
+      "7a7954d98c27d7ab9f7f730a"
     ]
   },
   "by_doi": {
@@ -849,6 +861,7 @@
     "10.48550/arxiv.2609.27189": "f180e20173fd0995c081891b",
     "10.48550/arxiv.2609.30678": "f4c6106a0a433a224abb3d56",
     "10.48550/arxiv.2609.35257": "1be9c6ec4a0fa7f4ce866764",
+    "10.48550/arxiv.2609.38561": "7a7954d98c27d7ab9f7f730a",
     "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.6084/m9.figshare.c.8610155.v1": "d162b179119ee09c86ad3708",
@@ -923,6 +936,7 @@
       "5e49047e7ce2004f7954debb",
       "70212be2c4a63d741872ace0",
       "7719ae17086cb97168bebbc5",
+      "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
@@ -1412,6 +1426,7 @@
       "5e49047e7ce2004f7954debb",
       "70212be2c4a63d741872ace0",
       "7719ae17086cb97168bebbc5",
+      "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
@@ -1432,6 +1447,7 @@
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
+      "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
@@ -1452,6 +1468,7 @@
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
+      "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
@@ -1471,6 +1488,7 @@
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
+      "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
@@ -1491,6 +1509,7 @@
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
       "7719ae17086cb97168bebbc5",
+      "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
@@ -1505,6 +1524,7 @@
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
+      "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
       "dd2f544b89860edf2c2a51ae",
       "f4c6106a0a433a224abb3d56"
@@ -1651,6 +1671,7 @@
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
+      "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
@@ -1701,6 +1722,7 @@
       "70212be2c4a63d741872ace0",
       "7719ae17086cb97168bebbc5",
       "79855d774b83ef6c7c8a8a47",
+      "7a7954d98c27d7ab9f7f730a",
       "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
       "7edb19b24759fe609707ba01",
@@ -1740,7 +1762,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 71,
+  "paper_count": 72,
   "schema_version": 1,
-  "updated_at": "2026-10-03T01:05:54.261183Z"
+  "updated_at": "2026-10-04T01:36:30.266864Z"
 }

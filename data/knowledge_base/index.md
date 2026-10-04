@@ -1,7 +1,7 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`71`
-- 更新时间：`2026-10-03T01:05:54.261183Z`
+- 论文数：`72`
+- 更新时间：`2026-10-04T01:36:30.266864Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
@@ -437,6 +437,14 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### A Parameter-Free Zeroth-Order Method with Covariance Matrix Adaptation and Effective Dimension
+
+- DOI/链接：[10.48550/arxiv.2609.38561](https://doi.org/10.48550/arxiv.2609.38561)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-10-04`
+- 候选 ID：`7a7954d98c27d7ab9f7f730a`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
 
 ### Simulation-Efficient Analog Circuit Yield Optimization via Monte Carlo Zeroth-Order Gradient Estimation
 

@@ -5346,6 +5346,44 @@
       "retrieved_at": "2026-08-18T04:25:11.622324Z",
       "status": "found"
     },
+    "crossref:doi:10.1186/s43067-026-00403-4": {
+      "expires_at": "2026-11-03T01:36:06.200167Z",
+      "record": {
+        "abstract": "Abstract NeuroEvolution is scalable alternative for gradient-based deep reinforcement learning, which provides parallel, gradient-free optimization that overcomes backpropagation’s limitations. However, the selection of the neural network activation function has a significant impact on the stability and rewards of evolutionary optimization. In this paper, we investigate four evolutionary optimization algorithms and six activation functions, resulting in 24 different configurations, and evaluate their performance on the Inverted Double Pendulum environment. The investigated algorithms are NoiseReuseES, PersistentES, PGPE, and ARS, while the evaluated activation functions are GELU, ReLU, SELU, CELU, tanh, and SiLU. The results demonstrate significant interaction effects where one algorithm consistently exhibits stable learning across most activation functions; while another achieves high final rewards yet suffers from mid-training collapses; the third shows high sensitivity to activation choice, ranging from smooth improvement to severe oscillations; and the fourth remains unstable across all tested settings, although certain activation functions reduce its volatility. Among the evaluated configurations, ARS–GELU achieved the highest final reward, followed closely by PersistentES–GELU and PersistentES–ReLU, while PGPE–SELU, PGPE–CELU, PGPE–tanh, ARS–ReLU, and NoiseReuseES–GELU also achieved competitive final rewards. Based on these results, the evaluated evolutionary approaches achieved high final rewards within the configurations and evaluation setting considered in this study.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hesham Magdy",
+            "orcid": null
+          },
+          {
+            "name": "Amany M. Sarhan",
+            "orcid": "https://orcid.org/0000-0002-0151-9619"
+          },
+          {
+            "name": "Elsayed Sallam",
+            "orcid": null
+          },
+          {
+            "name": "Mohamed Ali Eita",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1186/s43067-026-00403-4",
+        "landing_page": "https://doi.org/10.1186/s43067-026-00403-4",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1186/s43067-026-00403-4",
+        "publication_date": "2026-09-30",
+        "title": "A comparative study of evolutionary algorithms and activation functions in neuroevolution deep reinforcement learning",
+        "venue": "Journal of Electrical Systems and Information Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-04T01:36:06.200167Z",
+      "status": "found"
+    },
     "crossref:doi:10.1186/s43074-026-00278-8": {
       "expires_at": "2026-09-29T01:05:17.375686Z",
       "record": {
@@ -6240,6 +6278,12 @@
       "retrieved_at": "2026-10-03T01:04:30.130383Z",
       "status": "not_found"
     },
+    "crossref:doi:10.48550/arxiv.2610.02190": {
+      "expires_at": "2026-11-03T01:36:06.727897Z",
+      "record": null,
+      "retrieved_at": "2026-10-04T01:36:06.727897Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.5281/zenodo.21885998": {
       "expires_at": "2026-09-17T04:25:17.174341Z",
       "record": null,
@@ -6444,6 +6488,12 @@
       },
       "retrieved_at": "2026-09-25T01:02:48.492971Z",
       "status": "found"
+    },
+    "crossref:title:024759bc375366300e9f6cbe889aaa20b41b043b8c939a51aa057b338fd19596": {
+      "expires_at": "2026-10-11T01:35:59.344582Z",
+      "record": null,
+      "retrieved_at": "2026-10-04T01:35:59.344582Z",
+      "status": "not_found"
     },
     "crossref:title:03beeea4f2c63951ee8a4701a080fc53c33244e01b47403d7919902ea976253e": {
       "expires_at": "2026-09-22T01:03:30.120395Z",
@@ -7297,6 +7347,12 @@
       "retrieved_at": "2026-09-15T01:03:25.776696Z",
       "status": "not_found"
     },
+    "crossref:title:3ccacb8dd677ba5b4456491e97033dec11b91c1a66522c5587dd72b1b5a24238": {
+      "expires_at": "2026-10-11T01:36:00.991251Z",
+      "record": null,
+      "retrieved_at": "2026-10-04T01:36:00.991251Z",
+      "status": "not_found"
+    },
     "crossref:title:3cd4efa766fe3d2eb40269b32ae4352279e34696540f4e3b6ff99f2d4d496861": {
       "expires_at": "2026-09-26T01:00:51.361921Z",
       "record": {
@@ -7809,6 +7865,12 @@
       "retrieved_at": "2026-08-31T01:07:05.264641Z",
       "status": "not_found"
     },
+    "crossref:title:516ba943226fb15098b89542b1db49ef4f038fb673b416bd583d199c848133ae": {
+      "expires_at": "2026-10-11T01:36:05.454383Z",
+      "record": null,
+      "retrieved_at": "2026-10-04T01:36:05.454383Z",
+      "status": "not_found"
+    },
     "crossref:title:53d70169af30dc7676fc1e18d73860e5f27e010dc6bbc0bfdcd0f35dd840674d": {
       "expires_at": "2026-10-05T01:11:31.776839Z",
       "record": {
@@ -8259,6 +8321,12 @@
       "retrieved_at": "2026-08-10T00:36:47.158828Z",
       "status": "not_found"
     },
+    "crossref:title:70435da44db6aee6189e01e8a8f298d2e74b2ea23db177882a07cb62fb3edb64": {
+      "expires_at": "2026-10-11T01:36:02.423353Z",
+      "record": null,
+      "retrieved_at": "2026-10-04T01:36:02.423353Z",
+      "status": "not_found"
+    },
     "crossref:title:70956e3e60d2bf212edc1f7c38da1e9c1727dbb88358d5081cd81ff2b90d408b": {
       "expires_at": "2026-09-19T00:59:35.874315Z",
       "record": null,
@@ -8553,6 +8621,12 @@
       "retrieved_at": "2026-09-07T01:06:49.427171Z",
       "status": "not_found"
     },
+    "crossref:title:7d7be61b34545d9dcc72e8c47e2fd79baba9b6bc3c73cc93e3cd90fb169e7518": {
+      "expires_at": "2026-10-11T01:36:04.621295Z",
+      "record": null,
+      "retrieved_at": "2026-10-04T01:36:04.621295Z",
+      "status": "not_found"
+    },
     "crossref:title:80359ee21bfbc95eeccd05a5e9edba365a161deeeb01f8772baf018348abe140": {
       "expires_at": "2026-09-07T01:07:12.908935Z",
       "record": null,
@@ -8629,6 +8703,12 @@
       "retrieved_at": "2026-08-10T00:36:45.356180Z",
       "status": "not_found"
     },
+    "crossref:title:888aaf024779eae215035bb0a4ee3fe335d0eb9305afe65f1cc101a627c82e49": {
+      "expires_at": "2026-10-11T01:36:03.652231Z",
+      "record": null,
+      "retrieved_at": "2026-10-04T01:36:03.652231Z",
+      "status": "not_found"
+    },
     "crossref:title:893405bcc3b796b7ba1f5ebd6899498ebed2256010561528450195fe104ac044": {
       "expires_at": "2026-09-22T01:03:36.079652Z",
       "record": null,
@@ -8670,6 +8750,12 @@
       },
       "retrieved_at": "2026-09-15T01:03:23.652392Z",
       "status": "found"
+    },
+    "crossref:title:8b4024db1ae6ff5455942a071e6a0c8d62ddcfb0b5b44be7f413cbee6d727de0": {
+      "expires_at": "2026-10-11T01:36:07.504474Z",
+      "record": null,
+      "retrieved_at": "2026-10-04T01:36:07.504474Z",
+      "status": "not_found"
     },
     "crossref:title:8c9f5127e092378395aacb8ca0ad0dab1487027d93ccd934ce520cfb1d400f30": {
       "expires_at": "2026-09-29T01:02:18.248140Z",
@@ -18825,6 +18911,44 @@
       "retrieved_at": "2026-08-18T04:25:11.946500Z",
       "status": "found"
     },
+    "openalex:doi:10.1186/s43067-026-00403-4": {
+      "expires_at": "2026-11-03T01:36:06.531537Z",
+      "record": {
+        "abstract": "Abstract NeuroEvolution is scalable alternative for gradient-based deep reinforcement learning, which provides parallel, gradient-free optimization that overcomes backpropagation’s limitations. However, the selection of the neural network activation function has a significant impact on the stability and rewards of evolutionary optimization. In this paper, we investigate four evolutionary optimization algorithms and six activation functions, resulting in 24 different configurations, and evaluate their performance on the Inverted Double Pendulum environment. The investigated algorithms are NoiseReuseES, PersistentES, PGPE, and ARS, while the evaluated activation functions are GELU, ReLU, SELU, CELU, tanh, and SiLU. The results demonstrate significant interaction effects where one algorithm consistently exhibits stable learning across most activation functions; while another achieves high final rewards yet suffers from mid-training collapses; the third shows high sensitivity to activation choice, ranging from smooth improvement to severe oscillations; and the fourth remains unstable across all tested settings, although certain activation functions reduce its volatility. Among the evaluated configurations, ARS–GELU achieved the highest final reward, followed closely by PersistentES–GELU and PersistentES–ReLU, while PGPE–SELU, PGPE–CELU, PGPE–tanh, ARS–ReLU, and NoiseReuseES–GELU also achieved competitive final rewards. Based on these results, the evaluated evolutionary approaches achieved high final rewards within the configurations and evaluation setting considered in this study.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hesham Magdy",
+            "orcid": null
+          },
+          {
+            "name": "Amany Mahmoud Sarhan",
+            "orcid": "https://orcid.org/0000-0002-0151-9619"
+          },
+          {
+            "name": "Elsayed Sallam",
+            "orcid": "https://orcid.org/0000-0001-9251-6239"
+          },
+          {
+            "name": "Mohamed Ali Eita",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1186/s43067-026-00403-4",
+        "landing_page": "https://doi.org/10.1186/s43067-026-00403-4",
+        "open_access_url": "https://doi.org/10.1186/s43067-026-00403-4",
+        "openalex_id": "https://openalex.org/W7214766569",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214766569",
+        "publication_date": "2026-09-30",
+        "title": "A comparative study of evolutionary algorithms and activation functions in neuroevolution deep reinforcement learning",
+        "venue": "Journal of Electrical Systems and Information Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-04T01:36:06.531537Z",
+      "status": "found"
+    },
     "openalex:doi:10.1186/s43074-026-00278-8": {
       "expires_at": "2026-09-29T01:05:17.699553Z",
       "record": {
@@ -21205,6 +21329,40 @@
       "retrieved_at": "2026-10-03T01:04:30.510737Z",
       "status": "found"
     },
+    "openalex:doi:10.48550/arxiv.2610.02190": {
+      "expires_at": "2026-11-03T01:36:07.076277Z",
+      "record": {
+        "abstract": "Step-size selection remains a central challenge in large-scale neural network optimization; conservative steps slow convergence, while aggressive steps can destabilize it. We combine \\textbf{Z}ero-and-\\textbf{F}irst-\\textbf{O}rder optimization~(ZFO) and propose a lightweight framework that decouples direction selection from step-size. ZFO uses a trusted first-order optimizer to determine the direction and performs zeroth-order evaluations only along this one-dimensional subspace to choose how far to move. Using the current {gradient information} and two additional objective function evaluations, ZFO instances construct a local model of the objective function along the proposed direction and select a curvature-aware step within a bounded search interval. This yields an adaptive step-selection mechanism that costs less than a full line search. We provide theoretical guarantees to show that shared-sample evaluations produce reliable finite-difference curvature estimates, that the induced local model selects a near-optimal step along the search interval, and that ZFO converges to a neighborhood of a stationary point. Across the evaluated settings, language models and datasets, ZFO frequently improves optimization and final performance relative to fixed-step first-order baselines, with the magnitude and preferred local model depending on the objective. Our code is publicly available at: https://github.com/nizswan/Zeroth-First-Order-Framework.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Cristian McGee",
+            "orcid": null
+          },
+          {
+            "name": "El Houcine Bergou",
+            "orcid": null
+          },
+          {
+            "name": "Aritra Dutta",
+            "orcid": "https://orcid.org/0000-0001-6994-1659"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.02190",
+        "landing_page": "https://doi.org/10.48550/arxiv.2610.02190",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2610.02190",
+        "openalex_id": "https://openalex.org/W7216515338",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7216515338",
+        "publication_date": "2026-10-01",
+        "title": "Trust the Direction, Search the Step: Zero-and-First-Order Methods for LLM Fine-Tuning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-04T01:36:07.076277Z",
+      "status": "found"
+    },
     "openalex:doi:10.5281/zenodo.21885998": {
       "expires_at": "2026-09-17T04:25:17.487937Z",
       "record": {
@@ -21802,6 +21960,48 @@
       "retrieved_at": "2026-09-25T01:02:48.814527Z",
       "status": "found"
     },
+    "openalex:title:024759bc375366300e9f6cbe889aaa20b41b043b8c939a51aa057b338fd19596": {
+      "expires_at": "2026-10-11T01:35:59.900378Z",
+      "record": {
+        "abstract": "Designing a material with a desired property amounts to solving an inverse problem: finding the couplings of a microscopic Hamiltonian whose ground state exhibits that property. For strongly correlated quantum systems, solving this problem efficiently remains largely out of reach. To address this challenge, we present a general framework for ab initio inverse design based on Foundation Neural-Network Quantum States, a recent approach in which the ground states of a family of Hamiltonians are encoded in a single variational wave function. Because the ansatz depends explicitly on the couplings, any target property is a differentiable function of them, and the search for the right Hamiltonian reduces to gradient-based optimization in coupling space. We apply this approach to search for nonmagnetic phases of frustrated Heisenberg models on the square lattice with an increasing number of free next-nearest-neighbor couplings, aiming to identify new quantum spin liquid candidates. With a single coupling, the method recovers the known nonmagnetic window of the square $J_1$-$J_2$ Heisenberg model, whereas letting the two diagonal couplings vary independently reveals an extended nonmagnetic region connecting the square-lattice and anisotropic-triangular-lattice regimes. In a search space of eight independent couplings within a $2\\times2$ unit cell, which contains several paradigmatic frustrated spin models, the optimization spontaneously converges to the $J_1$-$J_2$-$δ$ Heisenberg model, in which the diagonal couplings alternate between two values on neighboring plaquettes, a model recently proposed in the context of altermagnetism. Finite-size scaling up to $16\\times16$ clusters in this optimal model shows that the ground state has no magnetic, dimer, or plaquette order, establishing it as a new quantum spin liquid candidate, distinct from those previously proposed on the square lattice.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Alessandro Sinibaldi",
+            "orcid": "https://orcid.org/0009-0009-8498-6068"
+          },
+          {
+            "name": "Luciano Loris Viteritti",
+            "orcid": "https://orcid.org/0009-0004-2332-7943"
+          },
+          {
+            "name": "Riccardo Rende",
+            "orcid": "https://orcid.org/0000-0001-5656-4241"
+          },
+          {
+            "name": "Federico Becca",
+            "orcid": "https://orcid.org/0000-0002-6142-2050"
+          },
+          {
+            "name": "Giuseppe Carleo",
+            "orcid": "https://orcid.org/0000-0002-8887-4356"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.40209",
+        "landing_page": "https://arxiv.org/abs/2609.40209",
+        "open_access_url": "https://arxiv.org/abs/2609.40209",
+        "openalex_id": "https://openalex.org/W7215087764",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7215087764",
+        "publication_date": "2026-09-30",
+        "title": "Designing Strongly Correlated Quantum Phases of Matter with Foundation Neural-Network Quantum States",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-04T01:35:59.900378Z",
+      "status": "found"
+    },
     "openalex:title:03beeea4f2c63951ee8a4701a080fc53c33244e01b47403d7919902ea976253e": {
       "expires_at": "2026-09-22T01:03:32.052841Z",
       "record": null,
@@ -22338,6 +22538,48 @@
       "retrieved_at": "2026-09-15T01:03:26.735474Z",
       "status": "found"
     },
+    "openalex:title:3ccacb8dd677ba5b4456491e97033dec11b91c1a66522c5587dd72b1b5a24238": {
+      "expires_at": "2026-10-11T01:36:01.483064Z",
+      "record": {
+        "abstract": "Diffusion models have shown potential in inverse design of printed circuit boards (PCBs), enabling the generation of layouts conditioned on target S-parameters. Despite this promise, applying diffusion models to PCB layout generation remains challenging due to their difficulty in meeting the quantitative electromagnetic specifications. A common approach is gradient-based guidance, which biases the diffusion sampling process with the gradient of an objective used for evaluation. However, full-wave electromagnetic simulators are accurate but expensive and typically non-differentiable, whereas differentiable surrogates are informative but not always reliable. To address these limitations, this paper proposes Simulator-Refined Diffusion (SRD), a novel combination of a low-fidelity differentiable surrogate and a high-fidelity non-differentiable simulator within the diffusion sampling process. Unlike standard zeroth-order optimization, which requires a great number of random perturbations, our approach uses the surrogate's gradient to propose the perturbation direction while the simulator then searches based on this direction to identify an effective design update. Experimental results across different settings show that this method consistently outperforms current state-of-the-art methods, producing layouts whose simulated S-parameters match the target specifications up to 21.2% closer for in-distribution targets and up to 19.8% for out-of-distribution targets.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jinhao Liang",
+            "orcid": null
+          },
+          {
+            "name": "Jacob K. Christopher",
+            "orcid": "https://orcid.org/0009-0007-1363-0553"
+          },
+          {
+            "name": "Michael Frei",
+            "orcid": null
+          },
+          {
+            "name": "Tommaso Dreossi",
+            "orcid": null
+          },
+          {
+            "name": "Nando Fioretto",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.38363",
+        "landing_page": "https://arxiv.org/abs/2609.38363",
+        "open_access_url": "https://arxiv.org/abs/2609.38363",
+        "openalex_id": "https://openalex.org/W7215031508",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7215031508",
+        "publication_date": "2026-09-29",
+        "title": "Simulator-Refined Diffusion for Radio-Frequency Inverse Design",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-04T01:36:01.483064Z",
+      "status": "found"
+    },
     "openalex:title:3e2b531b19fc58e53e14b3b0dc7ac6fe9630b966c7276851ab79763507eac8bf": {
       "expires_at": "2026-09-25T01:02:28.408166Z",
       "record": null,
@@ -22575,6 +22817,36 @@
       "record": null,
       "retrieved_at": "2026-08-31T01:07:06.053965Z",
       "status": "not_found"
+    },
+    "openalex:title:516ba943226fb15098b89542b1db49ef4f038fb673b416bd583d199c848133ae": {
+      "expires_at": "2026-10-11T01:36:06.004981Z",
+      "record": {
+        "abstract": "Zeroth-order optimization methods are essential for solving black-box problems where gradient information is unavailable or expensive to compute. This paper presents POEM-CMA, a novel parameter-free stochastic zeroth-order algorithm that extends the recent POEM method by integrating covariance matrix alignment and the notion of effective dimension. In contrast to traditional zeroth-order approaches that rely on isotropic random directions, POEM-CMA performs anisotropic sampling by constructing a covariance matrix from gradient estimates. This enables the algorithm to focus sampling efforts on the most informative directions. We introduce the use of the empirical effective dimension $d^* = \\frac{\\operatorname{tr}(\\hatΣ)}{λ_{\\max}(\\hatΣ)}$, which reflects the intrinsic dimensionality of the problem and replaces the ambient dimension in both sampling and complexity analysis. We prove that POEM-CMA achieves a near-optimal convergence rate, requiring only $\\tilde{\\mathcal{O}}\\left(\\frac{d^* κ(\\hatΣ) L^2 D_{\\mathcal{X}}^2}{\\varepsilon^2}\\right)$ stochastic zeroth-order oracle queries. The method remains fully parameter-free and demonstrates significant improvements over the original POEM in problems with low-rank structure where $d^* \\ll d$. Numerical experiments on hinge-loss binary classification tasks using LibSVM datasets confirm the practical superiority of the proposed approach.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Alexander Sholokhov",
+            "orcid": null
+          },
+          {
+            "name": "Alexander Rogozin",
+            "orcid": "https://orcid.org/0000-0003-3435-2680"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.38561",
+        "landing_page": "https://arxiv.org/abs/2609.38561",
+        "open_access_url": "https://arxiv.org/abs/2609.38561",
+        "openalex_id": "https://openalex.org/W7215116740",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7215116740",
+        "publication_date": "2026-09-29",
+        "title": "A Parameter-Free Zeroth-Order Method with Covariance Matrix Adaptation and Effective Dimension",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-04T01:36:06.004981Z",
+      "status": "found"
     },
     "openalex:title:56a0b1289affcdba3eef08f164503b294ad7d609f0c92288669b209e91cd9217": {
       "expires_at": "2026-09-14T01:06:47.512628Z",
@@ -22844,6 +23116,12 @@
       "retrieved_at": "2026-08-10T00:36:48.038952Z",
       "status": "not_found"
     },
+    "openalex:title:70435da44db6aee6189e01e8a8f298d2e74b2ea23db177882a07cb62fb3edb64": {
+      "expires_at": "2026-10-11T01:36:02.973351Z",
+      "record": null,
+      "retrieved_at": "2026-10-04T01:36:02.973351Z",
+      "status": "not_found"
+    },
     "openalex:title:70956e3e60d2bf212edc1f7c38da1e9c1727dbb88358d5081cd81ff2b90d408b": {
       "expires_at": "2026-09-19T00:59:36.398896Z",
       "record": null,
@@ -23010,6 +23288,40 @@
       "retrieved_at": "2026-09-07T01:06:50.214132Z",
       "status": "not_found"
     },
+    "openalex:title:7d7be61b34545d9dcc72e8c47e2fd79baba9b6bc3c73cc93e3cd90fb169e7518": {
+      "expires_at": "2026-10-11T01:36:05.073071Z",
+      "record": {
+        "abstract": "Approximate machine unlearning seeks to remove the influence of a forget set from a trained model without full retraining. Existing gradient-based methods require data-dependent hyperparameter search, struggle when forget and retain knowledge are entangled, and offer little insight into where unlearning actually happens inside the network. We recast unlearning through the lens of task arithmetic: if finetuning produces a merged task vector $τ_m$ that combines learning on forget and retain sets, unlearning is the inverse operation that subtracts a learned forget component $τ_F$ to recover the retain task vector $τ_R$. The forget signal is concentrated: at every layer, forget activations lie in a subspace spanned by a handful of dominant directions, so we factorize $τ_F$ in a low-rank forget basis, which is faithful up to a small tail-eigenvalue residual and limits how far the correction can perturb retain. We then optimize three intuitive goals (match the merged vector inside the forget span, suppress leakage into the retain span, and bound the correction size) that provably bound forget leakage and retain damage in activation space. The resulting algorithm, Unmerge, is fast and powerful: on class-level unlearning with ResNet-50 on CIFAR-100 and Tiny ImageNet, it improves Tug-of-War by up to ~24% over a baseline of comparable runtime and by up to ~18% over stronger baselines that run ~5x slower, keeps membership-inference exposure at the level of retraining, and shrinks the feature-distribution gap to the retrained model, where relabeling methods leave forget features cleanly separable. Further studies show that Unmerge also applies to ViT-S/16 and scales to Llama-3.2-3B. The per-layer basis geometry that drives the algorithm also serves as a layerwise diagnostic for when and where unlearning becomes structurally hard.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Haoran Tang",
+            "orcid": null
+          },
+          {
+            "name": "Andrew Tan",
+            "orcid": null
+          },
+          {
+            "name": "Rajiv Khanna",
+            "orcid": "https://orcid.org/0000-0003-1314-3126"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.38895",
+        "landing_page": "https://arxiv.org/abs/2609.38895",
+        "open_access_url": "https://arxiv.org/abs/2609.38895",
+        "openalex_id": "https://openalex.org/W7215109785",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7215109785",
+        "publication_date": "2026-09-30",
+        "title": "Unmerge: Efficient Machine Unlearning via Task Arithmetic",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-04T01:36:05.073071Z",
+      "status": "found"
+    },
     "openalex:title:80359ee21bfbc95eeccd05a5e9edba365a161deeeb01f8772baf018348abe140": {
       "expires_at": "2026-09-07T01:07:13.500228Z",
       "record": {
@@ -23104,6 +23416,12 @@
       "retrieved_at": "2026-08-10T00:36:45.916459Z",
       "status": "not_found"
     },
+    "openalex:title:888aaf024779eae215035bb0a4ee3fe335d0eb9305afe65f1cc101a627c82e49": {
+      "expires_at": "2026-10-11T01:36:04.152220Z",
+      "record": null,
+      "retrieved_at": "2026-10-04T01:36:04.152220Z",
+      "status": "not_found"
+    },
     "openalex:title:893405bcc3b796b7ba1f5ebd6899498ebed2256010561528450195fe104ac044": {
       "expires_at": "2026-09-22T01:03:37.039996Z",
       "record": null,
@@ -23120,6 +23438,12 @@
       "expires_at": "2026-09-22T01:03:24.784315Z",
       "record": null,
       "retrieved_at": "2026-09-15T01:03:24.784315Z",
+      "status": "not_found"
+    },
+    "openalex:title:8b4024db1ae6ff5455942a071e6a0c8d62ddcfb0b5b44be7f413cbee6d727de0": {
+      "expires_at": "2026-10-11T01:36:08.123992Z",
+      "record": null,
+      "retrieved_at": "2026-10-04T01:36:08.123992Z",
       "status": "not_found"
     },
     "openalex:title:8ec677af02fbf901bc474e59ca0ce2b14a3bae399695bc4b316cdcc535905732": {

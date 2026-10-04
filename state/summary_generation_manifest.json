@@ -1,24 +1,8 @@
 {
-  "abstract_fallback_candidate_ids": [
-    "70212be2c4a63d741872ace0"
-  ],
-  "abstract_fallback_count": 1,
+  "abstract_fallback_candidate_ids": [],
+  "abstract_fallback_count": 0,
   "architecture_evidence": {
-    "1be9c6ec4a0fa7f4ce866764": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": null,
-      "resolved_type": "unclear"
-    },
-    "70212be2c4a63d741872ace0": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": null,
-      "resolved_type": "unclear"
-    },
-    "f4c6106a0a433a224abb3d56": {
+    "7a7954d98c27d7ab9f7f730a": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
@@ -28,81 +12,38 @@
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 3,
-  "completed_at": "2026-10-03T01:05:54.261183Z",
+  "automatic_queue_candidate_count": 1,
+  "completed_at": "2026-10-04T01:36:30.266864Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "1be9c6ec4a0fa7f4ce866764",
-    "70212be2c4a63d741872ace0",
-    "f4c6106a0a433a224abb3d56"
+    "7a7954d98c27d7ab9f7f730a"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-10-03",
-  "digest_json_file": "runtime-state/data/digests/2026-10-03.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-10-03.generated.md",
+  "digest_date": "2026-10-04",
+  "digest_json_file": "runtime-state/data/digests/2026-10-04.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-10-04.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0657452,
+  "estimated_cost_cny": 0.024447,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "1be9c6ec4a0fa7f4ce866764": {
+    "7a7954d98c27d7ab9f7f730a": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "1be9c6ec4a0fa7f4ce866764",
+      "candidate_id": "7a7954d98c27d7ab9f7f730a",
       "character_count": 12000,
-      "content_sha256": "078908398a6e0146c9e52f2e434e17d8c2fd1319b6c15ecfafa2d8784835befd",
-      "elapsed_seconds": 0.829,
+      "content_sha256": "412522d1aefc78574f8803296c2e4529d10f0684d3de5f241dfc849edc2e50a1",
+      "elapsed_seconds": 0.621,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
       "section_headings": [
-        "3 Methodology: AIM-ZO",
-        "5.1 Comparison with zeroth-order methods",
-        "Appendix C Experimental Setup and Evaluation Protocol",
-        "Training budget.",
-        "Training hardware.",
-        "Method settings.",
-        "Moving training trajectory.",
-        "Finite-training-set gradient.",
-        "Implementation-level direction alignment."
+        "A Parameter-Free Zeroth-Order Method with Covariance Matrix Adaptation and Effective Dimension",
+        "6.1 Experimental Setup"
       ],
-      "source_url": "https://arxiv.org/html/2609.35257",
-      "status": "used",
-      "text_persisted": false
-    },
-    "70212be2c4a63d741872ace0": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "70212be2c4a63d741872ace0",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 0.763,
-      "error": "https://ieeexplore.ieee.org/document/11713479/: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.1109/tcad.2026.3738037",
-      "status": "not_available",
-      "text_persisted": false
-    },
-    "f4c6106a0a433a224abb3d56": {
-      "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "f4c6106a0a433a224abb3d56",
-      "character_count": 10262,
-      "content_sha256": "b6d616d27efb0ed4c15ee26833327356077ac43ce60e8584be89fbca381478f3",
-      "elapsed_seconds": 0.417,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "text/html",
-      "section_headings": [
-        "III Method",
-        "V Experimental Setup",
-        "RobustAnalog implementation."
-      ],
-      "source_url": "https://arxiv.org/html/2609.30678",
+      "source_url": "https://arxiv.org/html/2609.38561",
       "status": "used",
       "text_persisted": false
     }
@@ -113,7 +54,7 @@
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 3,
+  "newly_completed_candidate_count": 1,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -129,87 +70,47 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 3,
+  "prepared_request_count": 1,
   "provider": "deepseek",
-  "queue_sha256": "d99858b0fcb2c595e13afe43b7cfc9709ac3c1a5947856ab570ba2fc49a7fb58",
-  "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-10-03.jsonl",
-  "request_sha256": "41fd43bb44d4e912f2a7cc6cec3d0786d6231e7c53024187bb78b360833a2f13",
+  "queue_sha256": "285ad8d84465a36296e5915750ca38e81003322a6a331d42fa991014e0401c54",
+  "request_count": 1,
+  "request_file": "runtime-state/data/summary_requests/2026-10-04.jsonl",
+  "request_sha256": "1dade2ee1f1c2c311eefd66b1a41c90d8b91169659bab379f1416381808e315f",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "bf973cfb58c67d6ca650e8f3ecb2abb73970d74bc05e7bbf1f217385c21af475",
+  "selection_manifest_sha256": "ae78d663f645e1099849cd28c07cfa31239e10c50b05c3dd7d74731b01bcb216",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 3,
+  "source_queue_candidate_count": 1,
   "stage_timings": {
-    "full_text_preparation_seconds": 2.022,
+    "full_text_preparation_seconds": 0.624,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "1be9c6ec4a0fa7f4ce866764",
-        "elapsed_seconds": 20.574,
+        "candidate_id": "7a7954d98c27d7ab9f7f730a",
+        "elapsed_seconds": 18.047,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2353,
+          "completion_tokens": 1914,
           "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 4726,
-          "prompt_tokens": 6646,
-          "total_tokens": 8999
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "f4c6106a0a433a224abb3d56",
-        "elapsed_seconds": 26.938,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 2650,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 3656,
-          "prompt_tokens": 5576,
-          "total_tokens": 8226
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "70212be2c4a63d741872ace0",
-        "elapsed_seconds": 11.245,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1110,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1258,
-          "prompt_tokens": 3306,
-          "total_tokens": 4416
+          "prompt_cache_miss_tokens": 4305,
+          "prompt_tokens": 6225,
+          "total_tokens": 8139
         }
       }
     ],
-    "model_generation_and_validation_seconds": 58.789
+    "model_generation_and_validation_seconds": 18.058
   },
   "status": "completed_automatic",
-  "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-10-03.jsonl",
+  "summary_count": 1,
+  "summary_file": "runtime-state/data/summaries/2026-10-04.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 3,
+  "summary_slot_count": 1,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "1be9c6ec4a0fa7f4ce866764": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": null,
-        "repaired": false,
-        "resolved_type": "unclear"
-      },
-      "70212be2c4a63d741872ace0": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": null,
-        "repaired": false,
-        "resolved_type": "unclear"
-      },
-      "f4c6106a0a433a224abb3d56": {
+      "7a7954d98c27d7ab9f7f730a": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": null,
@@ -220,142 +121,36 @@
     "architecture_repairs": 0,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "1be9c6ec4a0fa7f4ce866764": {
+      "7a7954d98c27d7ab9f7f730a": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "1be9c6ec4a0fa7f4ce866764",
+        "candidate_id": "7a7954d98c27d7ab9f7f730a",
         "character_count": 12000,
-        "content_sha256": "078908398a6e0146c9e52f2e434e17d8c2fd1319b6c15ecfafa2d8784835befd",
-        "elapsed_seconds": 0.829,
+        "content_sha256": "412522d1aefc78574f8803296c2e4529d10f0684d3de5f241dfc849edc2e50a1",
+        "elapsed_seconds": 0.621,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
         "section_headings": [
-          "3 Methodology: AIM-ZO",
-          "5.1 Comparison with zeroth-order methods",
-          "Appendix C Experimental Setup and Evaluation Protocol",
-          "Training budget.",
-          "Training hardware.",
-          "Method settings.",
-          "Moving training trajectory.",
-          "Finite-training-set gradient.",
-          "Implementation-level direction alignment."
+          "A Parameter-Free Zeroth-Order Method with Covariance Matrix Adaptation and Effective Dimension",
+          "6.1 Experimental Setup"
         ],
-        "source_url": "https://arxiv.org/html/2609.35257",
-        "status": "used",
-        "text_persisted": false
-      },
-      "70212be2c4a63d741872ace0": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "70212be2c4a63d741872ace0",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 0.763,
-        "error": "https://ieeexplore.ieee.org/document/11713479/: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.1109/tcad.2026.3738037",
-        "status": "not_available",
-        "text_persisted": false
-      },
-      "f4c6106a0a433a224abb3d56": {
-        "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "f4c6106a0a433a224abb3d56",
-        "character_count": 10262,
-        "content_sha256": "b6d616d27efb0ed4c15ee26833327356077ac43ce60e8584be89fbca381478f3",
-        "elapsed_seconds": 0.417,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "text/html",
-        "section_headings": [
-          "III Method",
-          "V Experimental Setup",
-          "RobustAnalog implementation."
-        ],
-        "source_url": "https://arxiv.org/html/2609.30678",
+        "source_url": "https://arxiv.org/html/2609.38561",
         "status": "used",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 4,
-    "numeric_grounding_repair_responses": 2,
-    "numeric_grounding_repairs": {
-      "1be9c6ec4a0fa7f4ce866764": [
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "在 OPT-2.7B 的 11 个任务中，AIM-ZO 在 9 个任务上的平均性能高于 MeZO。",
-          "path": "reported_results[4].claim",
-          "replacement": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "9"
-          ]
-        }
-      ],
-      "f4c6106a0a433a224abb3d56": [
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "通过Spearman秩相关检验（阈值ρ_s≤-0.7）确保代理损失与经验良率在排序上一致，保证降低损失能提高良率。",
-          "path": "method_principle",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "-0.7"
-          ]
-        },
-        {
-          "action": "rewrote_bounded_zero_one_interval",
-          "original_excerpt": "针对给定模拟电路基准，定义设计变量x（经仿射变换映射到单位盒[0,1]^n）和工艺变量ξ。对每个候选设计x和工艺样本ξ，执行一次SPICE仿真，提取电路性能指标（增益、单位增益带宽、静态功耗等）。这些指标经过缩放并与规格阈值比较，形成带符号的规格短欠量δ_k，正值表示违反，负值表示裕量。每个短欠量通过带锐度参数α_k的softplus函数转换为连续惩罚，再按权重w_k加权求和，并加入增益裕量偏好项，得到每个样本的损失ℓ(x,ξ)。经验良率仍由所有规格同时满足的样本比例估计，但",
-          "path": "method_implementation[0]",
-          "replacement": "针对给定模拟电路基准，定义设计变量x（经仿射变换映射到单位盒一个有界范围^n）和工艺变量ξ。对每个候选设计x和工艺样本ξ，执行一次SPICE仿真，提取电路性能指标（增益、单位增益带宽、静态功耗等）。这些指标经过缩放并与规格阈值比较，形成带符号的规格短欠量δ_k，正值表示违反，负值表示裕量。每个短欠量通过带锐度参数α_k的softplus函数转换为连续惩罚，再按权重w_k加权求和，并加入增益裕量偏好项，得到每个样本的损失ℓ(x,ξ)。经验良率仍由所有规格同时满足的样本比例估计，"
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "为保证损失与良率对齐，在一组固定校准设计集（N_cal=81）上计算平均损失与经验良率的Spearman秩相关系数，选择最负相关的锐度设置并验证ρ_s≤-0.7。",
-          "path": "method_implementation[0]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "-0.7"
-          ]
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "每个基准在优化前筛选，保证标称设计满足规格、所有规格对工艺波动敏感、初始良率在0.30至0.85之间，并通过校准损失对齐检验（ρ_s≤-0.7）。",
-          "path": "method_implementation[2]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "-0.7"
-          ]
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "在五个模拟电路基准（最多30个设计变量和42个工艺变量）上验证，ZO-MC-SGD在四个电路上达到0.95平均良率仅需50-200次仿真，在第五个电路上达到经验良率上限，且相较于最佳基线最高可减少8倍仿真预算。",
-          "path": "main_contributions[4]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "8"
-          ]
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "相对五种黑盒和学习型基线中最佳者，ZO-MC-SGD最高可将所需仿真预算减少8倍。",
-          "path": "reported_results[1].claim",
-          "replacement": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "8"
-          ]
-        }
-      ]
-    },
-    "tops_alias_expansions": 79,
-    "unit_format_normalization_responses": 0
+    "generation_metadata_repair_responses": 0,
+    "numeric_grounding_repair_responses": 0,
+    "numeric_grounding_repairs": {},
+    "tops_alias_expansions": 11,
+    "unit_format_normalization_responses": 1
   },
   "usage": {
-    "completion_tokens": 6113,
-    "prompt_cache_hit_tokens": 5888,
-    "prompt_cache_miss_tokens": 9640,
-    "prompt_tokens": 15528,
-    "total_tokens": 21641
+    "completion_tokens": 1914,
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 4305,
+    "prompt_tokens": 6225,
+    "total_tokens": 8139
   }
 }
