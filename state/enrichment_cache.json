@@ -2510,6 +2510,60 @@
       "retrieved_at": "2026-08-04T09:38:40.119247Z",
       "status": "found"
     },
+    "crossref:doi:10.1016/j.optlastec.2026.116572": {
+      "expires_at": "2026-11-04T01:13:35.352209Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhiling Yang",
+            "orcid": null
+          },
+          {
+            "name": "Lei Huang",
+            "orcid": null
+          },
+          {
+            "name": "Yan Chen",
+            "orcid": null
+          },
+          {
+            "name": "Xianghua Liu",
+            "orcid": null
+          },
+          {
+            "name": "Mingyu Li",
+            "orcid": null
+          },
+          {
+            "name": "Xinrui Lei",
+            "orcid": null
+          },
+          {
+            "name": "Ruxue Wang",
+            "orcid": null
+          },
+          {
+            "name": "Fengyuan Gan",
+            "orcid": "https://orcid.org/0000-0002-3746-4189"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlastec.2026.116572",
+        "landing_page": "https://doi.org/10.1016/j.optlastec.2026.116572",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.optlastec.2026.116572",
+        "publication_date": "2026-12",
+        "title": "Compact 32-channel metasurface hologram enabled by the UNet model",
+        "venue": "Optics &amp; Laser Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:35.352209Z",
+      "status": "found"
+    },
     "crossref:doi:10.1016/j.swevo.2026.102514": {
       "expires_at": "2026-09-26T02:02:17.493221Z",
       "record": {
@@ -5346,6 +5400,56 @@
       "retrieved_at": "2026-08-18T04:25:11.622324Z",
       "status": "found"
     },
+    "crossref:doi:10.1145/3849872": {
+      "expires_at": "2026-11-04T01:13:28.236353Z",
+      "record": {
+        "abstract": "Rapid advances in optical imaging have accelerated the emergence of holographic applications. To enable a genuine holographic telepresence experience, the challenge of transmitting massive volumes of holographic data over bandwidth-limited networks must be addressed. This paper presents a hologram streaming framework that combines complex-domain rescaling and bitrate allocation tailored to the complex-valued nature of holograms. First, we build a complex-valued rescaling neural network to reduce the required transmission bandwidth. It consists of a downscaling model for reducing hologram volume and a compression-robust upscaling model for recovering high-resolution holograms. The two models are jointly trained to optimize hologram reconstruction quality and are then deployed separately on the server and client. Second, we develop a distortion model that characterizes the different contributions of the real and imaginary (R/I) components to the amplitude distortion of reconstructed holograms. The model is used in a rate-distortion optimization framework to guide optimal R/I bitrate allocation subject to a bandwidth constraint. Experiments on immersive video datasets show that the proposed framework substantially improves rate-distortion performance; under the BD-rate metric, the baselines require 49.83%–222.71% more bitrate to achieve comparable reconstruction quality.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yanwei Liu",
+            "orcid": "https://orcid.org/0000-0002-0626-1901"
+          },
+          {
+            "name": "Jiasen Li",
+            "orcid": "https://orcid.org/0009-0004-6883-0972"
+          },
+          {
+            "name": "Yifei Chen",
+            "orcid": "https://orcid.org/0009-0007-4618-8669"
+          },
+          {
+            "name": "Jinxia Liu",
+            "orcid": "https://orcid.org/0000-0002-6552-9795"
+          },
+          {
+            "name": "Antonios Argyriou",
+            "orcid": "https://orcid.org/0000-0002-2510-3124"
+          },
+          {
+            "name": "Xiaoyan Gu",
+            "orcid": "https://orcid.org/0000-0003-0673-0058"
+          },
+          {
+            "name": "Siwei Ma",
+            "orcid": "https://orcid.org/0000-0002-2731-5403"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3849872",
+        "landing_page": "https://doi.org/10.1145/3849872",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1145/3849872",
+        "publication_date": "2026-10-03",
+        "title": "Hologram Streaming Based on Complex-Domain Rescaling and Optimal Real/Imaginary Bitrate Allocation",
+        "venue": "ACM Transactions on Multimedia Computing, Communications, and Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:28.236353Z",
+      "status": "found"
+    },
     "crossref:doi:10.1186/s43067-026-00403-4": {
       "expires_at": "2026-11-03T01:36:06.200167Z",
       "record": {
@@ -6308,6 +6412,12 @@
       "retrieved_at": "2026-09-29T01:08:33.934653Z",
       "status": "not_found"
     },
+    "crossref:doi:10.5281/zenodo.23119799": {
+      "expires_at": "2026-11-04T01:13:26.981045Z",
+      "record": null,
+      "retrieved_at": "2026-10-05T01:13:26.981045Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.6084/m9.figshare.33306492.v1": {
       "expires_at": "2026-10-11T01:00:17.087901Z",
       "record": null,
@@ -6394,6 +6504,60 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:14.957375Z",
+      "status": "found"
+    },
+    "crossref:doi:10.67704/ioe.2026.260005": {
+      "expires_at": "2026-11-04T01:13:27.605794Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jialong Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yu Tao",
+            "orcid": null
+          },
+          {
+            "name": "Zhicheng Jin",
+            "orcid": null
+          },
+          {
+            "name": "Yangyang Wan",
+            "orcid": null
+          },
+          {
+            "name": "Qixiang Cheng",
+            "orcid": null
+          },
+          {
+            "name": "Hailong Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Jianji Dong",
+            "orcid": null
+          },
+          {
+            "name": "Zuyuan He",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.67704/ioe.2026.260005",
+        "landing_page": "https://doi.org/10.67704/ioe.2026.260005",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.67704/ioe.2026.260005",
+        "publication_date": "2026",
+        "title": "Ultra-low latency integrated optical sensing-compression-inference system",
+        "venue": "Intelligent Opto-Electronics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:27.605794Z",
       "status": "found"
     },
     "crossref:doi:10.70267/aitia.2026168173": {
@@ -6648,6 +6812,12 @@
       },
       "retrieved_at": "2026-09-15T01:03:33.133740Z",
       "status": "found"
+    },
+    "crossref:title:0f496b08245f21bd1fa2b82dc71d2d05030e1c6be1c97870470bbd6c65acacd0": {
+      "expires_at": "2026-10-12T01:13:29.140796Z",
+      "record": null,
+      "retrieved_at": "2026-10-05T01:13:29.140796Z",
+      "status": "not_found"
     },
     "crossref:title:0f8c4e0a9f7dbce7dfea5017263591b2cbf2d3204d9a790cff62b5e4c9f44859": {
       "expires_at": "2026-08-31T00:32:20.567904Z",
@@ -7243,6 +7413,12 @@
       "retrieved_at": "2026-09-01T01:13:11.183771Z",
       "status": "found"
     },
+    "crossref:title:3062c2732ee164efff9da8dff00f9aeed823107dcf0d384efea34dd7f6e70964": {
+      "expires_at": "2026-10-12T01:13:36.308002Z",
+      "record": null,
+      "retrieved_at": "2026-10-05T01:13:36.308002Z",
+      "status": "not_found"
+    },
     "crossref:title:3155492c097c4d99ba721fef59868ee322b28a6d7c74600ec0d8b04fbdbe93d9": {
       "expires_at": "2026-10-04T01:11:28.606186Z",
       "record": null,
@@ -7683,6 +7859,12 @@
       "retrieved_at": "2026-08-18T04:25:34.646895Z",
       "status": "found"
     },
+    "crossref:title:466c33902c8d2a2f03b571fb67079c908f2e9738e487ac835ac93b2d84ad9ced": {
+      "expires_at": "2026-10-12T01:13:22.765543Z",
+      "record": null,
+      "retrieved_at": "2026-10-05T01:13:22.765543Z",
+      "status": "not_found"
+    },
     "crossref:title:46b1b588d80ba48e56a21e1808706cb222aa1c1aa4c84f7f8f79c12d273923f7": {
       "expires_at": "2026-10-10T01:04:40.821137Z",
       "record": {
@@ -7766,6 +7948,12 @@
       },
       "retrieved_at": "2026-08-22T00:32:17.388728Z",
       "status": "found"
+    },
+    "crossref:title:47992747adf521eac04056b376b7388440cbc67777f93b061421a79cb061a51d": {
+      "expires_at": "2026-10-12T01:13:31.411314Z",
+      "record": null,
+      "retrieved_at": "2026-10-05T01:13:31.411314Z",
+      "status": "not_found"
     },
     "crossref:title:49d034dc3ade2acf4fa4fe1892dc603b642f4d920ef8a790d7a190832712311a": {
       "expires_at": "2026-09-07T01:07:06.492421Z",
@@ -9151,6 +9339,18 @@
       "retrieved_at": "2026-10-03T01:04:31.052788Z",
       "status": "not_found"
     },
+    "crossref:title:9b1bad62a611b751ecd903de32038c6c178275fca05efd9e93adafcd091d41cc": {
+      "expires_at": "2026-10-12T01:13:34.611951Z",
+      "record": null,
+      "retrieved_at": "2026-10-05T01:13:34.611951Z",
+      "status": "not_found"
+    },
+    "crossref:title:9bb9e85d348016c6daef038d2376a6bb418a59c6bdf21dbb38b1ad176ac10f61": {
+      "expires_at": "2026-10-12T01:13:24.025803Z",
+      "record": null,
+      "retrieved_at": "2026-10-05T01:13:24.025803Z",
+      "status": "not_found"
+    },
     "crossref:title:9c81ec57cf07c17f3327ff148e5141bfb3499f3d4c0bc0498a2c625dff96c020": {
       "expires_at": "2026-10-10T01:04:46.813895Z",
       "record": null,
@@ -9697,6 +9897,12 @@
       "retrieved_at": "2026-08-09T00:36:09.827479Z",
       "status": "not_found"
     },
+    "crossref:title:b8691355d6918b919c1ae1a0bb8a5220716c903c9347d5dde82888782afabfd0": {
+      "expires_at": "2026-10-12T01:13:32.579917Z",
+      "record": null,
+      "retrieved_at": "2026-10-05T01:13:32.579917Z",
+      "status": "not_found"
+    },
     "crossref:title:b9c4e2f76d42e94b02b9971c6de545ec5db814dc32eaab8a4230fcd1b53da7f9": {
       "expires_at": "2026-09-07T01:07:08.199185Z",
       "record": {
@@ -9880,6 +10086,44 @@
       "record": null,
       "retrieved_at": "2026-08-27T16:32:38.006835Z",
       "status": "not_found"
+    },
+    "crossref:title:c0d53263c965344fb0f05b561bf0e5ea718f81705ef6c8bd662638bf43f7cbdf": {
+      "expires_at": "2026-10-12T01:13:30.503184Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xiaotong Wang",
+            "orcid": null
+          },
+          {
+            "name": "Min Li",
+            "orcid": null
+          },
+          {
+            "name": "Jinqiao Duan",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoli Chen",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 1,
+        "doi": "10.1016/j.jcp.2026.115458",
+        "landing_page": "https://doi.org/10.1016/j.jcp.2026.115458",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.jcp.2026.115458",
+        "publication_date": "2026-10",
+        "title": "Data-Driven Modeling of Stochastic Delay Differential Equations with Error Mitigation and Multi-Parameter Adaptation",
+        "venue": "Journal of Computational Physics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:30.503184Z",
+      "status": "found"
     },
     "crossref:title:c0f4376068a1b45b51b2779cb7d8516c45dcbb564afcb38e6fb86891d290453e": {
       "expires_at": "2026-09-08T01:13:15.230369Z",
@@ -10147,6 +10391,48 @@
       "retrieved_at": "2026-09-18T01:02:24.192100Z",
       "status": "not_found"
     },
+    "crossref:title:cee7813d179050991fa0fc8355a5ba6057ee655281c49aef61606de08ee686b3": {
+      "expires_at": "2026-10-12T01:13:21.914496Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Wanlin He",
+            "orcid": null
+          },
+          {
+            "name": "Zhanliang Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Mingxing Wang",
+            "orcid": null
+          },
+          {
+            "name": "Zixuan Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Lin Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/eeeac71377.2026.11709456",
+        "landing_page": "https://doi.org/10.1109/eeeac71377.2026.11709456",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/eeeac71377.2026.11709456",
+        "publication_date": "2026-08",
+        "title": "Seahorse Optimizer-Enhanced Model Predictive Control for Agent Path Planning: Benchmark Against PSO, WOA, and GWO",
+        "venue": "2026 5th International Conference on Electronic Electrical Engineering and Automatic Control (EEEAC)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:21.914496Z",
+      "status": "found"
+    },
     "crossref:title:cf60d9526b6a712182eab4e7921d86b4273e914482f2010b75e8c126259c24f7": {
       "expires_at": "2026-09-16T01:02:01.909031Z",
       "record": {
@@ -10175,6 +10461,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-09T01:02:01.909031Z",
+      "status": "found"
+    },
+    "crossref:title:d06011ead1540195831dcd9ca0a4a88a252f2ddbdce34daacec6dd543b151b49": {
+      "expires_at": "2026-10-12T01:13:21.061813Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Leo Strobel",
+            "orcid": "https://orcid.org/0000-0002-1069-315X"
+          },
+          {
+            "name": "Marco Pruckner",
+            "orcid": "https://orcid.org/0009-0000-7241-119X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.simpat.2026.103359",
+        "landing_page": "https://doi.org/10.1016/j.simpat.2026.103359",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.simpat.2026.103359",
+        "publication_date": "2026-10",
+        "title": "Calibrating agent-based transportation demand simulations with differentiable surrogate models – The case of OMoSim",
+        "venue": "Simulation Modelling Practice and Theory",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:21.061813Z",
       "status": "found"
     },
     "crossref:title:d07b4db1154d6c958fe930020e7dc85f1789fae9f328d95fdfa6b887cdfafa9d": {
@@ -10475,6 +10791,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-09T01:02:03.064819Z",
+      "status": "found"
+    },
+    "crossref:title:df7c06b4fde80778360d43ec818b67fdb88e79f0326142a415fc5e1dfb721692": {
+      "expires_at": "2026-10-12T01:13:37.323482Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Nguyen Van Thieu",
+            "orcid": "https://orcid.org/0000-0001-9994-8747"
+          },
+          {
+            "name": "Nguyen Thanh Hoang",
+            "orcid": "https://orcid.org/0009-0005-8362-7347"
+          },
+          {
+            "name": "Nguyen Duy Hung",
+            "orcid": null
+          },
+          {
+            "name": "Essam H. Houssein",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.softx.2026.103041",
+        "landing_page": "https://doi.org/10.1016/j.softx.2026.103041",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.softx.2026.103041",
+        "publication_date": "2026-10",
+        "title": "Reflame: An open-source python framework for gradient-based and metaheuristic-trained functional link neural networks",
+        "venue": "SoftwareX",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:37.323482Z",
       "status": "found"
     },
     "crossref:title:e00396db83c2be4dfa3b2619e0516ab79abbb024e2859904bc0448d3028aa0ce": {
@@ -10853,6 +11207,12 @@
       "retrieved_at": "2026-08-20T00:32:23.976550Z",
       "status": "not_found"
     },
+    "crossref:title:f0864e9ec372702623873efbd85a3a4060117510ff602a7daade6f2ebe27d82e": {
+      "expires_at": "2026-10-12T01:13:33.594142Z",
+      "record": null,
+      "retrieved_at": "2026-10-05T01:13:33.594142Z",
+      "status": "not_found"
+    },
     "crossref:title:f0c5003474f860bf9c194412b1d39b5403afb65ee1d1ffdb8617666dc927419e": {
       "expires_at": "2026-09-22T01:03:18.781771Z",
       "record": null,
@@ -11229,6 +11589,12 @@
       "expires_at": "2026-09-12T00:59:45.758737Z",
       "record": null,
       "retrieved_at": "2026-09-05T00:59:45.758737Z",
+      "status": "not_found"
+    },
+    "crossref:title:fba7af11db7dbaf16cf62b6e49916b6497acd26219d946bdd0c21b5aada6cd91": {
+      "expires_at": "2026-10-12T01:13:26.252351Z",
+      "record": null,
+      "retrieved_at": "2026-10-05T01:13:26.252351Z",
       "status": "not_found"
     },
     "crossref:title:ff884e77a73b8e9052fc7be889b495e7b766686c6a1d2488ea43b5c9c3515028": {
@@ -14033,6 +14399,44 @@
       "retrieved_at": "2026-08-22T00:32:17.755198Z",
       "status": "found"
     },
+    "openalex:doi:10.1016/j.jcp.2026.115458": {
+      "expires_at": "2026-11-04T01:13:30.867554Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xiaotong Wang",
+            "orcid": null
+          },
+          {
+            "name": "Min Li",
+            "orcid": null
+          },
+          {
+            "name": "Jinqiao Duan",
+            "orcid": "https://orcid.org/0000-0002-2077-990X"
+          },
+          {
+            "name": "Xiaoli Chen",
+            "orcid": "https://orcid.org/0000-0001-5835-4432"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.jcp.2026.115458",
+        "landing_page": "https://doi.org/10.1016/j.jcp.2026.115458",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7215121216",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7215121216",
+        "publication_date": "2026-10-01",
+        "title": "Data-Driven Modeling of Stochastic Delay Differential Equations with Error Mitigation and Multi-Parameter Adaptation",
+        "venue": "Journal of Computational Physics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:30.867554Z",
+      "status": "found"
+    },
     "openalex:doi:10.1016/j.nxener.2026.100879": {
       "expires_at": "2026-09-17T04:25:18.047311Z",
       "record": {
@@ -14201,6 +14605,128 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-15T01:03:22.953551Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.optlastec.2026.116572": {
+      "expires_at": "2026-11-04T01:13:35.765770Z",
+      "record": {
+        "abstract": "With unique advantages in parallel information manipulation, multi-channel metasurface holography exhibits extensive application prospects in optical information encryption, high-density data storage, and integrated photonic chips. However, most existing multi-channel metasurface holograms usually require a large footprint with more than 500 × 500 meta-atoms, accompanied by significant image quality degradation. To tackle these limitations, we propose a neural network-based strategy to achieve compact multi-channel metasurface holographic imaging. The metasurface (∼184 λ × 184 λ ), composed of 256 × 256 TiO 2 meta-atoms, is partitioned into 4 × 4 independently designed sub-arrays, enabling 16-channel holographic image storage within an ultracompact footprint. Benefiting from the polarization multiplexing capability of TiO 2 nanopillars, each sub-array encodes two independent image channels. To compensate for information degradation caused by the ultrasmall sub-array size (64 × 64-pixel) and fabrication imperfections, a UNet model is introduced for high-fidelity image reconstruction. Experimentally, both 16-channel spatially multiplexed and 32-channel polarization-spatially multiplexed meta-holograms are demonstrated. The reconstructed images achieve PSNRs exceeding 23.1 dB and fidelity above 96.7 % across the 550–700 nm spectral range, while maintaining ultralow crosstalk below −13 dB. This work provides a feasible route toward compact, high-capacity, and high-fidelity metasurface holographic systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhiling Yang",
+            "orcid": null
+          },
+          {
+            "name": "Lei Huang",
+            "orcid": null
+          },
+          {
+            "name": "Yan Chen",
+            "orcid": null
+          },
+          {
+            "name": "Xianghua Liu",
+            "orcid": "https://orcid.org/0009-0008-1355-0411"
+          },
+          {
+            "name": "Mingyu Li",
+            "orcid": null
+          },
+          {
+            "name": "Xinrui Lei",
+            "orcid": "https://orcid.org/0000-0002-0627-7225"
+          },
+          {
+            "name": "Ruxue Wang",
+            "orcid": null
+          },
+          {
+            "name": "Fengyuan Gan",
+            "orcid": "https://orcid.org/0000-0002-3746-4189"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlastec.2026.116572",
+        "landing_page": "https://doi.org/10.1016/j.optlastec.2026.116572",
+        "open_access_url": "https://doi.org/10.1016/j.optlastec.2026.116572",
+        "openalex_id": "https://openalex.org/W7216452446",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7216452446",
+        "publication_date": "2026-10-02",
+        "title": "Compact 32-channel metasurface hologram enabled by the UNet model",
+        "venue": "Optics & Laser Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:35.765770Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.simpat.2026.103359": {
+      "expires_at": "2026-11-04T01:13:21.471683Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Leo Strobel",
+            "orcid": "https://orcid.org/0000-0002-1069-315X"
+          },
+          {
+            "name": "Marco Pruckner",
+            "orcid": "https://orcid.org/0009-0000-7241-119X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.simpat.2026.103359",
+        "landing_page": "https://doi.org/10.1016/j.simpat.2026.103359",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7215066259",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7215066259",
+        "publication_date": "2026-10-01",
+        "title": "Calibrating agent-based transportation demand simulations with differentiable surrogate models – The case of OMoSim",
+        "venue": "Simulation Modelling Practice and Theory",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:21.471683Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.softx.2026.103041": {
+      "expires_at": "2026-11-04T01:13:37.718807Z",
+      "record": {
+        "abstract": "Functional Link Neural Networks (FLNNs) provide a lightweight neural architecture for nonlinear learning by expanding input features rather than using hidden layers. However, existing FLNN implementations are often task-specific, difficult to reproduce, and rarely provide a unified interface for comparing gradient-based and metaheuristic-based training strategies. This study introduces Reflame , an open-source Python framework designed to support reproducible experimentation with FLNN models for regression and classification. The software makes three main contributions. First, it provides reusable FLNN estimators with multiple functional expansion families, activation functions, objectives, and evaluation metrics. Second, it integrates gradient-based training and metaheuristic-based optimization within a common Scikit-learn-style workflow, supporting systematic experimentation with different FLNN training strategies. Third, it includes utilities for preprocessing, validation, metric evaluation, convergence tracking, model persistence, and result export. Illustrative examples on benchmark datasets demonstrate complete classification and regression workflows and highlight the computational trade-offs of different FLNN training strategies. The framework is suitable for research, education, and extensible development of FLNN-based learning systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Nguyen Van Thieu",
+            "orcid": "https://orcid.org/0000-0001-9994-8747"
+          },
+          {
+            "name": "Nguyen Thanh Hoang",
+            "orcid": "https://orcid.org/0009-0005-8362-7347"
+          },
+          {
+            "name": "Nguyen Duy Hung",
+            "orcid": null
+          },
+          {
+            "name": "Essam Halim Houssein",
+            "orcid": "https://orcid.org/0000-0002-8127-7233"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.softx.2026.103041",
+        "landing_page": "https://doi.org/10.1016/j.softx.2026.103041",
+        "open_access_url": "https://doi.org/10.1016/j.softx.2026.103041",
+        "openalex_id": "https://openalex.org/W7215101846",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7215101846",
+        "publication_date": "2026-10-01",
+        "title": "Reflame: An open-source python framework for gradient-based and metaheuristic-trained functional link neural networks",
+        "venue": "SoftwareX",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:37.718807Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.swevo.2026.102514": {
@@ -16639,6 +17165,48 @@
       "retrieved_at": "2026-08-18T04:25:37.274860Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/eeeac71377.2026.11709456": {
+      "expires_at": "2026-11-04T01:13:22.301136Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Wanlin He",
+            "orcid": null
+          },
+          {
+            "name": "Zhanliang Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Mingxing Wang",
+            "orcid": null
+          },
+          {
+            "name": "Zixuan Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Lin Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/eeeac71377.2026.11709456",
+        "landing_page": "https://doi.org/10.1109/eeeac71377.2026.11709456",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7214966913",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214966913",
+        "publication_date": "2026-08-01",
+        "title": "Seahorse Optimizer-Enhanced Model Predictive Control for Agent Path Planning: Benchmark Against PSO, WOA, and GWO",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:22.301136Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/icc59461.2026.11588032": {
       "expires_at": "2026-09-03T09:38:38.333024Z",
       "record": {
@@ -18909,6 +19477,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:11.946500Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1145/3849872": {
+      "expires_at": "2026-11-04T01:13:28.608457Z",
+      "record": {
+        "abstract": "Rapid advances in optical imaging have accelerated the emergence of holographic applications. To enable a genuine holographic telepresence experience, the challenge of transmitting massive volumes of holographic data over bandwidth-limited networks must be addressed. This paper presents a hologram streaming framework that combines complex-domain rescaling and bitrate allocation tailored to the complex-valued nature of holograms. First, we build a complex-valued rescaling neural network to reduce the required transmission bandwidth. It consists of a downscaling model for reducing hologram volume and a compression-robust upscaling model for recovering high-resolution holograms. The two models are jointly trained to optimize hologram reconstruction quality and are then deployed separately on the server and client. Second, we develop a distortion model that characterizes the different contributions of the real and imaginary (R/I) components to the amplitude distortion of reconstructed holograms. The model is used in a rate-distortion optimization framework to guide optimal R/I bitrate allocation subject to a bandwidth constraint. Experiments on immersive video datasets show that the proposed framework substantially improves rate-distortion performance; under the BD-rate metric, the baselines require 49.83%–222.71% more bitrate to achieve comparable reconstruction quality.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yanwei Liu",
+            "orcid": "https://orcid.org/0000-0002-0626-1901"
+          },
+          {
+            "name": "Jiasen Li",
+            "orcid": "https://orcid.org/0009-0004-6883-0972"
+          },
+          {
+            "name": "Yifei Chen",
+            "orcid": "https://orcid.org/0009-0007-4618-8669"
+          },
+          {
+            "name": "Jinxia Liu",
+            "orcid": "https://orcid.org/0000-0002-6552-9795"
+          },
+          {
+            "name": "Antonios Argyriou",
+            "orcid": "https://orcid.org/0000-0002-2510-3124"
+          },
+          {
+            "name": "Xiaoyan Gu",
+            "orcid": "https://orcid.org/0000-0003-0673-0058"
+          },
+          {
+            "name": "Siwei Ma",
+            "orcid": "https://orcid.org/0000-0002-2731-5403"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3849872",
+        "landing_page": "https://doi.org/10.1145/3849872",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7218855457",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7218855457",
+        "publication_date": "2026-10-03",
+        "title": "Hologram Streaming Based on Complex-Domain Rescaling and Optimal Real/Imaginary Bitrate Allocation",
+        "venue": "ACM Transactions on Multimedia Computing Communications and Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:28.608457Z",
       "status": "found"
     },
     "openalex:doi:10.1186/s43067-026-00403-4": {
@@ -21475,6 +22093,32 @@
       "retrieved_at": "2026-09-29T01:08:34.262243Z",
       "status": "found"
     },
+    "openalex:doi:10.5281/zenodo.23119799": {
+      "expires_at": "2026-11-04T01:13:27.361893Z",
+      "record": {
+        "abstract": "Communication Engineering Explained: Signals, Networks & Data Transmission Systems is a publication-grade Open Educational Resource (OER) module covering the mathematical, physical, and computational principles governing wireless, optical fiber, and satellite telecommunication systems. Serving as an integral specialized module within the Electrical and Electronic Engineering curriculum on Prep4Uni.Online, this text bridges classical information theory with contemporary computational paradigms, modern network topologies, and physical-layer design constraints. Key Features & Pedagogical Additions:• Theoretical Grounding & Contemporary Paradigms: Integrates classical electromagnetic wave propagation and information theory with Physics-Informed Neural Networks (PINNs) solving vector Helmholtz equations for urban micro-cell scattering, Fourier Neural Operators (FNOs) for real-time Nonlinear Schrödinger Equation (NLSE) pulse dispersion compensation in transoceanic optical fibers, and Lie-group Invariant Extended Kalman Filters (IEKF) for high-Doppler LEO satellite tracking.• Systems Engineering Architecture & Trade-Off Analysis: Structured comparison matrix contrasting high-order QAM vs. QPSK/BPSK constellations, OFDM vs. SC-FDMA peak-to-average power ratios (PAPR), millimeter-wave small cells vs. sub-6 GHz macro-cells, and coherent optical detection vs. intensity-modulation direct-detection (IM-DD).• Worked Numerical Engineering Application: A complete, multi-step engineering calculation detailing a Ku-band geostationary satellite downlink budget, quantifying free-space path loss (FSPL), atmospheric and rain attenuation, ground station G/T and thermal noise power, and theoretical Shannon-Hartley channel capacity.• Curricular Assessment & Analytical Inquiries: Contains 29 fully resolved foundational review questions, deep analytical design inquiries, and step-by-step numerical problems spanning Shannon channel capacity, double-sideband amplitude modulation (DSB-AM) sideband limits, free-space path loss calculations, bit error rate (BER) evaluations, fiber optic decibel attenuation, QAM baud symbol rates, and speed-of-light orbital propagation delays.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Prep4Uni.Online",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23119799",
+        "landing_page": "https://doi.org/10.5281/zenodo.23119799",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23119799",
+        "openalex_id": "https://openalex.org/W7218723597",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7218723597",
+        "publication_date": "2026-10-03",
+        "title": "Communication Engineering Explained: Signals, Networks & Data Transmission Systems",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:27.361893Z",
+      "status": "found"
+    },
     "openalex:doi:10.6084/m9.figshare.33306492.v1": {
       "expires_at": "2026-10-11T01:00:17.485706Z",
       "record": {
@@ -21841,6 +22485,60 @@
       "retrieved_at": "2026-08-18T04:25:15.288051Z",
       "status": "found"
     },
+    "openalex:doi:10.67704/ioe.2026.260005": {
+      "expires_at": "2026-11-04T01:13:28.004765Z",
+      "record": {
+        "abstract": "Distributed acoustic sensing (DAS) enables long-range, continuous monitoring, yet the real-time analysis of its massive spatiotemporal datasets remains a formidable challenge. As electronic processing faces bottlenecks from the slowing of Moore’s law, optical neural networks offer a promising high-speed, energy-efficient alternative. However, their integration with DAS is impeded by a fundamental dimensionality mismatch between the extensive DAS data and the limited input capacity of photonic computing chips. Furthermore, real-world deployment requires adaptive learning to handle dynamic environmental variations. Here, we report a hybrid architecture that synergizes optical sensing, compression and inference. We develop two integrated silicon photonic circuits: a DAS interrogator and a reconfigurable diffractive neural network achieving classification task. Notably, this architecture achieves an overall inference latency of just 0.1 ms—an order of magnitude lower than conventional electronic systems—with significant potential for further reduction. Crucially, we employ a free-space diffraction interface for nonlinear optical compression to bridge the dimensionality gap, improving classification accuracy by 30% over linear amplitude compression. Leveraging system reconfigurability and rapid online training algorithms, this adaptive framework facilitates robust, real-time event analysis, establishing a scalable path for next-generation intelligent DAS.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jialong Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yu Tao",
+            "orcid": null
+          },
+          {
+            "name": "Zhicheng Jin",
+            "orcid": null
+          },
+          {
+            "name": "Yangyang Wan",
+            "orcid": null
+          },
+          {
+            "name": "Qixiang Cheng",
+            "orcid": null
+          },
+          {
+            "name": "Hailong Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Jianji Dong",
+            "orcid": null
+          },
+          {
+            "name": "Zuyuan He",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.67704/ioe.2026.260005",
+        "landing_page": "https://doi.org/10.67704/ioe.2026.260005",
+        "open_access_url": "https://doi.org/10.67704/ioe.2026.260005",
+        "openalex_id": "https://openalex.org/W7213926810",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213926810",
+        "publication_date": "2026-01-01",
+        "title": "Ultra-low latency integrated optical sensing-compression-inference system",
+        "venue": "Intelligent Opto-Electronics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:28.004765Z",
+      "status": "found"
+    },
     "openalex:doi:10.70267/aitia.2026168173": {
       "expires_at": "2026-10-16T01:02:27.253007Z",
       "record": {
@@ -22138,6 +22836,52 @@
       "retrieved_at": "2026-10-03T01:04:42.483609Z",
       "status": "found"
     },
+    "openalex:title:0f496b08245f21bd1fa2b82dc71d2d05030e1c6be1c97870470bbd6c65acacd0": {
+      "expires_at": "2026-10-12T01:13:29.804624Z",
+      "record": {
+        "abstract": "Frequency-domain physical neural networks (PNNs) have emerged as a promising analog computing paradigm, achieving a reduced number of devices, enhanced robustness, and high inference accuracy. However, existing demonstrations across various physical domains, such as optics, acoustics, and electronics, are mostly specific to the target devices or platforms, usually requiring hardware-dependent models and post-fabrication parameter tuning. Here, we demonstrate cross-platform implementations of frequency-domain PNN across different wave-based computing platforms using identical, pre-trained parameters. By exploiting shared second-order nonlinear processes, the PNN model is implemented on optical, microwave, and acoustic-wave platforms without the need of fine tuning the parameters. Evaluated on a unified four-class classification task, the frequency-domain PNN achieves high inference accuracies of 97.6% in optics, 98.4% in electronics, and 98.2% in mechanics. Further, we systematically compare related performance metrics across these three distinct physical domains, paving the way to a universal neural network across different physical platforms.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zichen Xi",
+            "orcid": null
+          },
+          {
+            "name": "Jun Ji",
+            "orcid": null
+          },
+          {
+            "name": "Liyang Jin",
+            "orcid": null
+          },
+          {
+            "name": "Hsuan-Hao Lu",
+            "orcid": null
+          },
+          {
+            "name": "Wenjie Xiong",
+            "orcid": "https://orcid.org/0000-0002-7626-2651"
+          },
+          {
+            "name": "Linbo Shao",
+            "orcid": "https://orcid.org/0000-0002-0615-7848"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": null,
+        "landing_page": "https://arxiv.org/abs/2610.01059",
+        "open_access_url": "https://arxiv.org/abs/2610.01059",
+        "openalex_id": "https://openalex.org/W7219155257",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7219155257",
+        "publication_date": "2026-10-01",
+        "title": "Cross-platform frequency-domain physical neural networks with identical models and parameters",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:29.804624Z",
+      "status": "found"
+    },
     "openalex:title:0f8c4e0a9f7dbce7dfea5017263591b2cbf2d3204d9a790cff62b5e4c9f44859": {
       "expires_at": "2026-08-31T00:32:21.079217Z",
       "record": null,
@@ -22339,6 +23083,60 @@
       "record": null,
       "retrieved_at": "2026-09-25T01:02:51.365862Z",
       "status": "not_found"
+    },
+    "openalex:title:3062c2732ee164efff9da8dff00f9aeed823107dcf0d384efea34dd7f6e70964": {
+      "expires_at": "2026-10-12T01:13:36.826546Z",
+      "record": {
+        "abstract": "We prove a joint stochastic zeroth-order lower bound for Goldstein stationarity on a Euclidean query ball, even when the ball is guaranteed to contain a stationary point. In dimension $d$, let $f=\\mathbb{E}[F(\\cdot;ξ)]$, assume $\\mathbb{E}[\\operatorname{Lip}(F(\\cdot;ξ))^2]\\le L_0^2$, and bound the initial objective gap over the ball by $Δ$. For neighborhood radius $δ>0$ and residual tolerance $\\varepsilon>0$, our smooth hard family requires $Ω(dL_0^2Δ/(δ\\varepsilon^3))$ scalar evaluations for success probability $1/2$, against randomized adaptive algorithms that may retain and repeatedly query each sampled function. The result holds for $\\varepsilon\\le cL_0$, $Δ\\ge Cδ\\varepsilon$, and $d\\ge C[1+\\log(2+ΔL_0^2/(δ\\varepsilon^3))]$, on a constructed ball of radius $Θ(Δ/\\varepsilon)$. A sequence of localized regions forces repeated direction estimation, and an adaptive Gaussian posterior argument controls sample reuse. The result establishes a joint dimension and accuracy obstruction on solvable bounded-domain instances. The gap is local to the query ball; a matching minimax characterization at a common radius and the corresponding unrestricted global-gap lower bound remain open here.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Haihan Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Wendao Wu",
+            "orcid": null
+          },
+          {
+            "name": "Chenheng Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yanyi Li",
+            "orcid": null
+          },
+          {
+            "name": "Chunyuan Zheng",
+            "orcid": null
+          },
+          {
+            "name": "Cong Fang",
+            "orcid": "https://orcid.org/0000-0002-5076-7897"
+          },
+          {
+            "name": "Haoxuan Li",
+            "orcid": null
+          },
+          {
+            "name": "Zhouchen Lin",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": null,
+        "landing_page": "https://arxiv.org/abs/2610.00275",
+        "open_access_url": "https://arxiv.org/abs/2610.00275",
+        "openalex_id": "https://openalex.org/W7219155339",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7219155339",
+        "publication_date": "2026-09-24",
+        "title": "Joint Lower Bounds for Zeroth-Order Nonconvex Optimization on Euclidean Balls",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:36.826546Z",
+      "status": "found"
     },
     "openalex:title:3155492c097c4d99ba721fef59868ee322b28a6d7c74600ec0d8b04fbdbe93d9": {
       "expires_at": "2026-10-04T01:11:29.011596Z",
@@ -22781,6 +23579,18 @@
       },
       "retrieved_at": "2026-09-07T01:06:48.777396Z",
       "status": "found"
+    },
+    "openalex:title:466c33902c8d2a2f03b571fb67079c908f2e9738e487ac835ac93b2d84ad9ced": {
+      "expires_at": "2026-10-12T01:13:23.410034Z",
+      "record": null,
+      "retrieved_at": "2026-10-05T01:13:23.410034Z",
+      "status": "not_found"
+    },
+    "openalex:title:47992747adf521eac04056b376b7388440cbc67777f93b061421a79cb061a51d": {
+      "expires_at": "2026-10-12T01:13:32.030129Z",
+      "record": null,
+      "retrieved_at": "2026-10-05T01:13:32.030129Z",
+      "status": "not_found"
     },
     "openalex:title:49d034dc3ade2acf4fa4fe1892dc603b642f4d920ef8a790d7a190832712311a": {
       "expires_at": "2026-09-07T01:07:07.143026Z",
@@ -23670,6 +24480,70 @@
       "retrieved_at": "2026-10-03T01:04:31.508829Z",
       "status": "found"
     },
+    "openalex:title:9b1bad62a611b751ecd903de32038c6c178275fca05efd9e93adafcd091d41cc": {
+      "expires_at": "2026-10-12T01:13:35.157441Z",
+      "record": {
+        "abstract": "Photoacoustic tomography (PAT) is a hybrid imaging modality that combines high optical contrast with high ultrasonic resolution for biomedical imaging applications. In this work, we investigate the inverse problem of recovering the initial pressure distribution from boundary measurements in the presence of nonlinear acoustic propagation and viscous attenuation effects. To model these phenomena more accurately, we consider a nonlinear damped viscoelastic wave equation incorporating spatially varying sound speed, temporal attenuation, and nonlinear propagation mechanisms. We first establish the well-posedness of the corresponding forward problem using a Galerkin approximation combined with energy estimates and a fixed-point argument. For the inverse problem, we derive existence, uniqueness, and local uniqueness results under suitable assumptions through a harmonic extension reduction, spectral Laplace transform techniques, and observability estimates. To numerically reconstruct the initial pressure field, we develop a hybrid reconstruction framework that combines a convolutional neural network (CNN) with a gradient-free optimization strategy based on the sequential quadratic Hamiltonian (SQH) method derived from Pontryagin's maximum principle. The CNN is used to generate an informative initial guess, while the SQH framework enforces the governing PDE dynamics during the reconstruction process. Numerical experiments demonstrate that the proposed hybrid strategy significantly improves reconstruction quality, contrast, and robustness compared to standalone time-reversal and CNN-based approaches.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Madhu Gupta",
+            "orcid": null
+          },
+          {
+            "name": "Anwesa Dey",
+            "orcid": "https://orcid.org/0000-0001-5347-7820"
+          },
+          {
+            "name": "Prapti Tala",
+            "orcid": null
+          },
+          {
+            "name": "Souvik Roy",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": null,
+        "landing_page": "https://arxiv.org/abs/2610.01015",
+        "open_access_url": "https://arxiv.org/abs/2610.01015",
+        "openalex_id": "https://openalex.org/W7219155389",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7219155389",
+        "publication_date": "2026-10-01",
+        "title": "Initial condition recovery in nonlinear damped viscous photoacoustic tomography using a convolutional neural network-guided gradient-free optimization framework",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:35.157441Z",
+      "status": "found"
+    },
+    "openalex:title:9bb9e85d348016c6daef038d2376a6bb418a59c6bdf21dbb38b1ad176ac10f61": {
+      "expires_at": "2026-10-12T01:13:24.529329Z",
+      "record": {
+        "abstract": "As an alternative to the standard geometric analyses, we give an exact, information-theoretic analysis of stochastic gradient descent (SGD) and its variants. We show that a preconditioned SGD step is the posterior-mean update of a Gaussian Bayes model, and that its one-step regret splits into an intrinsic-time cost and a change in comparator information. The split extends to an identity for the objective itself. Convex convergence, strict-saddle-point escape, the link between flatness and generalization, the standard learning-rate schedules, adaptive optimizers, and the noisy, momentum, heavy-tailed, and gradient-free variants of SGD each correspond to a term or a special case of this identity. We measure its terms on synthetic and real training runs. On real networks it attributes the slack of classical convergence bounds to the terms their derivations drop and separates optimizers that reach the same training loss. That separation follows the number and consistency of their steps. Its relation to which of them generalizes better differs between networks. For gradient-free SGD the identity determines how a curvature preconditioner should enter the update. The sharpness-based generalization certificate it yields, with a data-independent isotropic prior, is vacuous at network scale unless the curvature spectrum is nearly flat across all parameters.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Akshay Balsubramani",
+            "orcid": "https://orcid.org/0000-0003-1545-9837"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.00446",
+        "landing_page": "https://arxiv.org/abs/2610.00446",
+        "open_access_url": "https://arxiv.org/abs/2610.00446",
+        "openalex_id": "https://openalex.org/W7216068455",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7216068455",
+        "publication_date": "2026-09-30",
+        "title": "Exact information accounting for SGD methods",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:24.529329Z",
+      "status": "found"
+    },
     "openalex:title:9c81ec57cf07c17f3327ff148e5141bfb3499f3d4c0bc0498a2c625dff96c020": {
       "expires_at": "2026-10-10T01:04:47.181968Z",
       "record": {
@@ -24097,6 +24971,56 @@
       "record": null,
       "retrieved_at": "2026-08-09T00:36:10.644719Z",
       "status": "not_found"
+    },
+    "openalex:title:b8691355d6918b919c1ae1a0bb8a5220716c903c9347d5dde82888782afabfd0": {
+      "expires_at": "2026-10-12T01:13:33.120832Z",
+      "record": {
+        "abstract": "We study the query complexity of optimization with exact scalar-value information. For globally $L$-smooth convex functions on $\\mathbb R^d$ with a minimizer in a Euclidean ball of radius $R$, we prove the lower bound $Ω(d\\min\\{d,\\sqrt{LR^2/\\varepsilon}\\})$ for adaptive randomized algorithms in the stated accuracy range. Queries are unrestricted, and the bound contains no logarithmic factor. It holds for quadratics and matches the minimum of two elementary upper bounds on that class. Prescribed strong convexity introduces the additional cap $\\sqrt{L/μ}$. The proof compares the mean of a matrix with the mean of its inverse on arbitrary affine slices and bounds posterior moments after adaptive measurements. We extend these information bounds to saddle-point problems with independent block dimensions. For compact bilinear games, the coupling alone yields $Ω(r\\min\\{r,\\sqrt{CR_xR_y/\\varepsilon}\\})$ queries, where $r=\\min\\lbrace d_x,d_y\\rbrace$. A strongly convex--strongly concave construction yields a condition-dependent lower bound even with known isotropic diagonal Hessians. Separate reductions establish scalar query lower bounds under mixed value and partial-gradient access, including for outer objective accuracy. A Euclidean-image radius yields smooth and nonsmooth extensions to independently specified norms and known penalties.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuriy Dorn",
+            "orcid": null
+          },
+          {
+            "name": "Darina Dvinskikh",
+            "orcid": null
+          },
+          {
+            "name": "Timofei Loginov",
+            "orcid": null
+          },
+          {
+            "name": "Osman Osmanov",
+            "orcid": "https://orcid.org/0000-0001-7956-448X"
+          },
+          {
+            "name": "Aleksandr Shestakov",
+            "orcid": null
+          },
+          {
+            "name": "Nazarii Tupitsa",
+            "orcid": null
+          },
+          {
+            "name": "Alexander Gasnikov",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.00345",
+        "landing_page": "https://arxiv.org/abs/2610.00345",
+        "open_access_url": "https://arxiv.org/abs/2610.00345",
+        "openalex_id": "https://openalex.org/W7215721613",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7215721613",
+        "publication_date": "2026-09-29",
+        "title": "Lower Bounds For Gradient-Free Convex Optimization And Convex-Concave Saddle-Point Problems",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:33.120832Z",
+      "status": "found"
     },
     "openalex:title:b9e7d3443e81c6f8b4d85cf32dee8fcc2167a5c13248682f8afba4fcfae119f6": {
       "expires_at": "2026-09-20T01:07:28.240564Z",
@@ -24596,6 +25520,60 @@
       "retrieved_at": "2026-08-20T00:32:24.473759Z",
       "status": "found"
     },
+    "openalex:title:f0864e9ec372702623873efbd85a3a4060117510ff602a7daade6f2ebe27d82e": {
+      "expires_at": "2026-10-12T01:13:34.105109Z",
+      "record": {
+        "abstract": "We determine the minimax dimension dependence of noisy zeroth-order optimization for globally strongly convex functions with higher-order smoothness in multilinear operator norm. Each query returns one function value with fresh independent Gaussian noise. For dimension $d$, query budget $T$, and any fixed finite smoothness order $β>2$, the minimax expected objective error satisfies $\\mathcal{E}_β(T,d)=Θ_β\\left(\\min\\left\\{1,(d^2/T)^{(β-1)/β}\\right\\}\\right)$, with dimension-independent strong-convexity, gradient-smoothness, higher-order-smoothness, noise, and minimizer-radius bounds. Thus, for sufficiently small target error $\\varepsilon$, the necessary and sufficient number of noisy values is $Θ_β(d^2\\varepsilon^{-β/(β-1)})$, with no logarithmic loss. The new lower bound matches the dimension and budget dependence of the upper bound of Akhavan et al. (2024), and holds for arbitrary randomized adaptive algorithms with unrestricted query points. Its key step localizes a normalized hypercube with one radial cutoff: a query can emphasize one hidden coordinate, but the aggregate information about all coordinates remains small. A self-contained multiscale spherical estimator attains the matching upper bound by cancelling lower-order bias terms. Constants in the rates depend only on the fixed smoothness order under the stated normalization.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Haihan Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Wendao Wu",
+            "orcid": null
+          },
+          {
+            "name": "Chenheng Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yanyi Li",
+            "orcid": null
+          },
+          {
+            "name": "Chunyuan Zheng",
+            "orcid": null
+          },
+          {
+            "name": "Cong Fang",
+            "orcid": null
+          },
+          {
+            "name": "Haoxuan Li",
+            "orcid": null
+          },
+          {
+            "name": "Zhouchen Lin",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.00276",
+        "landing_page": "https://arxiv.org/abs/2610.00276",
+        "open_access_url": "https://arxiv.org/abs/2610.00276",
+        "openalex_id": "https://openalex.org/W7216314382",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7216314382",
+        "publication_date": "2026-09-24",
+        "title": "Sharp Minimax Rates for Highly Smooth Strongly Convex Zeroth-Order Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:34.105109Z",
+      "status": "found"
+    },
     "openalex:title:f0c5003474f860bf9c194412b1d39b5403afb65ee1d1ffdb8617666dc927419e": {
       "expires_at": "2026-09-22T01:03:20.362221Z",
       "record": null,
@@ -24773,6 +25751,36 @@
       "record": null,
       "retrieved_at": "2026-09-05T00:59:46.431467Z",
       "status": "not_found"
+    },
+    "openalex:title:fba7af11db7dbaf16cf62b6e49916b6497acd26219d946bdd0c21b5aada6cd91": {
+      "expires_at": "2026-10-12T01:13:26.819651Z",
+      "record": {
+        "abstract": "Recent advances in distillation and flow-map models have enabled deterministic one- or few-step generation for high-quality data, facilitating a new branch of reward alignment approaches that directly optimize the initial noise from a Gaussian distribution. However, most existing initial-noise optimization methods rely on first-order gradient information, which is either inapplicable or suffers from instability and inefficiency in black-box reward scenarios. Here, we introduce ZeNOVA, a stable and efficient initial noise alignment method in a gradient-free manner. Specifically, we address existing algorithms' major challenge in black-box scenarios through annealed soft-value guidance, manifold-constrained hyperspherical Langevin dynamics, and Metropolis-Hastings jumping. Extensive experiments on image and video generative models show that ZeNOVA outperforms all evaluated zeroth-order baselines by optimizing the initial noise toward higher rewards substantially more stably while exploiting the geometry of the Gaussian prior, demonstrating its practical applicability to various black-box reward alignment.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jinho Chang",
+            "orcid": null
+          },
+          {
+            "name": "Jong Chul Ye",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.00365",
+        "landing_page": "https://arxiv.org/abs/2610.00365",
+        "open_access_url": "https://arxiv.org/abs/2610.00365",
+        "openalex_id": "https://openalex.org/W7216219168",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7216219168",
+        "publication_date": "2026-09-30",
+        "title": "Manifold-Constrained Initial Noise Optimization for Efficient Generative Model Alignment",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-05T01:13:26.819651Z",
+      "status": "found"
     },
     "openalex:title:ff884e77a73b8e9052fc7be889b495e7b766686c6a1d2488ea43b5c9c3515028": {
       "expires_at": "2026-09-14T01:06:53.575220Z",

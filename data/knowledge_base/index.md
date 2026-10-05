@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`72`
-- 更新时间：`2026-10-04T01:36:30.266864Z`
+- 论文数：`75`
+- 更新时间：`2026-10-05T01:14:53.851959Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Cross-platform frequency-domain physical neural networks with identical models and parameters
+
+- DOI/链接：https://arxiv.org/abs/2610.01059
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-10-05`
+- 候选 ID：`39df3bfb1d1f1919bbf17668`
+- 标签：application:四类fashion-mnist图像分类（t恤、裤子、运动鞋、包）, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Wide Angular Range Direction‐of‐Arrival Estimation Based on Diffractive Neural Network Integrated Stacked Intelligent Metasurfaces
 
@@ -437,6 +445,22 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### Sharp Minimax Rates for Highly Smooth Strongly Convex Zeroth-Order Optimization
+
+- DOI/链接：[10.48550/arxiv.2610.00276](https://doi.org/10.48550/arxiv.2610.00276)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-10-05`
+- 候选 ID：`b55d3108932c3bfbf5a93ca7`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
+
+### Joint Lower Bounds for Zeroth-Order Nonconvex Optimization on Euclidean Balls
+
+- DOI/链接：https://arxiv.org/abs/2610.00275
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-10-05`
+- 候选 ID：`e76ce8e7abb50e84a9c3324f`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
 
 ### A Parameter-Free Zeroth-Order Method with Covariance Matrix Adaptation and Effective Dimension
 

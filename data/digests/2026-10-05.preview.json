@@ -1,0 +1,53 @@
+{
+  "built_at": "2026-10-05T01:13:38.988246Z",
+  "digest_date": "2026-10-05",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "b55d3108932c3bfbf5a93ca7",
+        "landing_page": "https://arxiv.org/abs/2610.00276",
+        "mandatory": false,
+        "score": 0.78,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Sharp Minimax Rates for Highly Smooth Strongly Convex Zeroth-Order Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "e76ce8e7abb50e84a9c3324f",
+        "landing_page": "https://arxiv.org/abs/2610.00275",
+        "mandatory": false,
+        "score": 0.75,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Joint Lower Bounds for Zeroth-Order Nonconvex Optimization on Euclidean Balls",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "39df3bfb1d1f1919bbf17668",
+        "landing_page": "https://arxiv.org/abs/2610.01059",
+        "mandatory": false,
+        "score": 0.72,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Cross-platform frequency-domain physical neural networks with identical models and parameters",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

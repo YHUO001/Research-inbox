@@ -206,6 +206,15 @@
       "summary_record_sha256": "2e5ba83debe99c3ea66a28b9392f2e0639b68775b2caa32a26b357dceab296d4",
       "title": "Lightweight programmable microring resonator photonic convolutional neural network for modulation format classification"
     },
+    "39df3bfb1d1f1919bbf17668": {
+      "digest_date": "2026-10-05",
+      "doi": null,
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "5df6d96acb5cf7a0d7e720a1ffc68f8d6f193b71cb6c3a8e79a75bec0bf008c8",
+      "title": "Cross-platform frequency-domain physical neural networks with identical models and parameters"
+    },
     "3c46ab2b3d315aef47db028e": {
       "digest_date": "2026-09-11",
       "doi": "10.48550/arxiv.2609.07666",
@@ -494,6 +503,15 @@
       "summary_record_sha256": "a4f7428fa08f979f053ff0934996f274c15cf4b30a80e08893715c64c15900b6",
       "title": "Zeroth-Order Nonsmooth Nonconvex Optimization with Convex Liftings and Its Application to State-Feedback $H_\\infty$ Policy Optimization"
     },
+    "b55d3108932c3bfbf5a93ca7": {
+      "digest_date": "2026-10-05",
+      "doi": "10.48550/arxiv.2610.00276",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "fefe34a45f198c2ad5bfb0ee3919dd7930a552af82dabfde3e2615a414cdfbf4",
+      "title": "Sharp Minimax Rates for Highly Smooth Strongly Convex Zeroth-Order Optimization"
+    },
     "b832199d8494cc67a559fec5": {
       "digest_date": "2026-08-29",
       "doi": "10.1364/oe.605087",
@@ -592,6 +610,15 @@
       ],
       "summary_record_sha256": "8d60a373011ea4985f6abcd81ab5e053f1b3ed310aca0235c8402c17d885d6b9",
       "title": "SubZero+: Efficient Zeroth-Order LLM Fine-Tuning via Large Learning Rates"
+    },
+    "e76ce8e7abb50e84a9c3324f": {
+      "digest_date": "2026-10-05",
+      "doi": null,
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "8b10314264ba334c6ee18aa541152ff23324eb533e5e4c942f7af5d58ca31bfb",
+      "title": "Joint Lower Bounds for Zeroth-Order Nonconvex Optimization on Euclidean Balls"
     },
     "ead3d4ba8c5090acac05878a": {
       "digest_date": "2026-08-10",
@@ -794,6 +821,11 @@
     ],
     "2026-10-04": [
       "7a7954d98c27d7ab9f7f730a"
+    ],
+    "2026-10-05": [
+      "39df3bfb1d1f1919bbf17668",
+      "b55d3108932c3bfbf5a93ca7",
+      "e76ce8e7abb50e84a9c3324f"
     ]
   },
   "by_doi": {
@@ -862,6 +894,7 @@
     "10.48550/arxiv.2609.30678": "f4c6106a0a433a224abb3d56",
     "10.48550/arxiv.2609.35257": "1be9c6ec4a0fa7f4ce866764",
     "10.48550/arxiv.2609.38561": "7a7954d98c27d7ab9f7f730a",
+    "10.48550/arxiv.2610.00276": "b55d3108932c3bfbf5a93ca7",
     "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.6084/m9.figshare.c.8610155.v1": "d162b179119ee09c86ad3708",
@@ -887,6 +920,7 @@
       "35ff63ef9d3333099ee28868",
       "37a9533a60e5cdd68ef3c483",
       "380b726618cccff0a9e5514f",
+      "39df3bfb1d1f1919bbf17668",
       "44fa3bd6f72c84820ce42dab",
       "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
@@ -938,8 +972,10 @@
       "7719ae17086cb97168bebbc5",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
+      "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
+      "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
@@ -1052,6 +1088,9 @@
     ],
     "application:可重构非线性信号处理": [
       "5ec8e35ad02131d8ed156970"
+    ],
+    "application:四类fashion-mnist图像分类（t恤、裤子、运动鞋、包）": [
+      "39df3bfb1d1f1919bbf17668"
     ],
     "application:四通道波分复用光神经网络中的非线性激活": [
       "c3474ba19a69c715eb87d391"
@@ -1282,6 +1321,7 @@
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
+      "39df3bfb1d1f1919bbf17668",
       "44fa3bd6f72c84820ce42dab",
       "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
@@ -1325,6 +1365,7 @@
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
+      "39df3bfb1d1f1919bbf17668",
       "5017adbd33e6ddd5c320a4c4",
       "557b41cb542bf10e84da81f2",
       "5ec8e35ad02131d8ed156970",
@@ -1377,6 +1418,7 @@
       "35ff63ef9d3333099ee28868",
       "37a9533a60e5cdd68ef3c483",
       "380b726618cccff0a9e5514f",
+      "39df3bfb1d1f1919bbf17668",
       "44fa3bd6f72c84820ce42dab",
       "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
@@ -1428,8 +1470,10 @@
       "7719ae17086cb97168bebbc5",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
+      "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
+      "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
@@ -1449,8 +1493,10 @@
       "7719ae17086cb97168bebbc5",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
+      "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
+      "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
@@ -1470,8 +1516,10 @@
       "7719ae17086cb97168bebbc5",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
+      "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
+      "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
@@ -1490,8 +1538,10 @@
       "5e49047e7ce2004f7954debb",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
+      "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
+      "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
@@ -1511,8 +1561,10 @@
       "7719ae17086cb97168bebbc5",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
+      "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
+      "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
@@ -1526,7 +1578,9 @@
       "2f9953028e4e0e3b934222c8",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
+      "b55d3108932c3bfbf5a93ca7",
       "dd2f544b89860edf2c2a51ae",
+      "e76ce8e7abb50e84a9c3324f",
       "f4c6106a0a433a224abb3d56"
     ]
   },
@@ -1669,12 +1723,15 @@
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
+      "39df3bfb1d1f1919bbf17668",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
+      "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
       "dd2f544b89860edf2c2a51ae",
+      "e76ce8e7abb50e84a9c3324f",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
       "f4c6106a0a433a224abb3d56"
@@ -1709,6 +1766,7 @@
       "35ff63ef9d3333099ee28868",
       "37a9533a60e5cdd68ef3c483",
       "380b726618cccff0a9e5514f",
+      "39df3bfb1d1f1919bbf17668",
       "3c46ab2b3d315aef47db028e",
       "44fa3bd6f72c84820ce42dab",
       "4b1739e45289d2156d3b1ed3",
@@ -1741,6 +1799,7 @@
       "a7f4407333af25ddc7630e14",
       "ae3adee8419a5db7be7ec3b2",
       "b03b6320be57edd77b3ad7e5",
+      "b55d3108932c3bfbf5a93ca7",
       "b832199d8494cc67a559fec5",
       "c3474ba19a69c715eb87d391",
       "c7b91f881a121b7e1651e2f2",
@@ -1751,6 +1810,7 @@
       "d33b2e7c6586f37945facb32",
       "d69a4f93ca6340969e1077a8",
       "dd2f544b89860edf2c2a51ae",
+      "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
@@ -1762,7 +1822,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 72,
+  "paper_count": 75,
   "schema_version": 1,
-  "updated_at": "2026-10-04T01:36:30.266864Z"
+  "updated_at": "2026-10-05T01:14:53.851959Z"
 }
