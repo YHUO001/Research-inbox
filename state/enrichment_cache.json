@@ -1056,6 +1056,44 @@
       "retrieved_at": "2026-09-21T01:07:33.423027Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/lpor.71981": {
+      "expires_at": "2026-11-05T01:07:13.143121Z",
+      "record": {
+        "abstract": "ABSTRACT Quantum state tomography plays a fundamental role in quantum information science. Spatial modes of photons offer a promising encoding platform for high‐dimensional quantum states, yet efficient reconstruction of such states remains challenging. Recent advances in diffractive neural networks (DNNs) have introduced powerful capabilities for spatial mode manipulation, offering new opportunities for realizing efficient projective measurements. Here, we propose and experimentally demonstrate an efficient high‐dimensional state reconstruction method, enabled by parallel measurement of the full Bloch vectors for high‐dimensional states encoded in spatial modes of photons. By employing a DNN, our method maps mutually unbiased basis states to spatially separated Gaussian spots, thereby performing parallel projective measurements with a single measurement setting. We successfully reconstruct spatial‐mode‐encoded states in dimensions two through four, achieving state fidelities up to 99% and measurement process fidelities up to 97%. The method is further extended to spin‐orbit non‐separable states and mixed states, demonstrating its capability for reconstructing different classes of states within the selected spatial‐mode encoding space. Our method significantly improves the efficiency of tomography for spatial‐mode‐encoded high‐dimensional states and provides a versatile tool for the rapid characterization of high‐dimensional quantum systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dawei Lyu",
+            "orcid": "https://orcid.org/0000-0002-3086-2387"
+          },
+          {
+            "name": "Qianke Wang",
+            "orcid": "https://orcid.org/0000-0002-1649-5795"
+          },
+          {
+            "name": "Jun Liu",
+            "orcid": "https://orcid.org/0000-0003-3717-156X"
+          },
+          {
+            "name": "Jian Wang",
+            "orcid": "https://orcid.org/0000-0002-0579-3041"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71981",
+        "landing_page": "https://doi.org/10.1002/lpor.71981",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.71981",
+        "publication_date": "2026-10-03",
+        "title": "Empowering Spatial‐Mode‐Encoded High‐Dimensional State Reconstruction With Parallel Full Bloch Vector Mapping",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-06T01:07:13.143121Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/mats.70059": {
       "expires_at": "2026-10-17T01:02:53.132433Z",
       "record": {
@@ -6258,6 +6296,12 @@
       "retrieved_at": "2026-09-19T01:00:50.469084Z",
       "status": "not_found"
     },
+    "crossref:doi:10.26599/bdma.2026.9020041": {
+      "expires_at": "2026-11-05T01:07:11.526594Z",
+      "record": null,
+      "retrieved_at": "2026-10-06T01:07:11.526594Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.29026/oes.2026.260038": {
       "expires_at": "2026-10-01T01:13:13.074384Z",
       "record": {
@@ -9249,6 +9293,12 @@
       "retrieved_at": "2026-09-01T01:13:18.842340Z",
       "status": "not_found"
     },
+    "crossref:title:98206b5b368d642c4c65e9a4c8d8a400b9ea7672656d4afb327ef00878236e9d": {
+      "expires_at": "2026-10-13T01:07:14.288363Z",
+      "record": null,
+      "retrieved_at": "2026-10-06T01:07:14.288363Z",
+      "status": "not_found"
+    },
     "crossref:title:9863cf7ff493a2b7c37ba196cf968dc6f4ea005c3ac654a177628ba993caebce": {
       "expires_at": "2026-08-27T00:32:26.843676Z",
       "record": null,
@@ -9292,6 +9342,12 @@
       },
       "retrieved_at": "2026-08-09T00:36:05.845920Z",
       "status": "found"
+    },
+    "crossref:title:992338220bda2b05807dd64205bff1fa5efb73866ae79a67127cac6218d5f833": {
+      "expires_at": "2026-10-13T01:07:08.472589Z",
+      "record": null,
+      "retrieved_at": "2026-10-06T01:07:08.472589Z",
+      "status": "not_found"
     },
     "crossref:title:9966502f88eb3fc98499dbbd13380085702210519cfbc8832352c309c61073e0": {
       "expires_at": "2026-10-10T01:04:31.946255Z",
@@ -9976,6 +10032,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:36.931885Z",
       "status": "found"
+    },
+    "crossref:title:bb14804df96b5fc02545b349a8fbd08639570de4f6465ce4855a83f739ee303d": {
+      "expires_at": "2026-10-13T01:07:10.854898Z",
+      "record": null,
+      "retrieved_at": "2026-10-06T01:07:10.854898Z",
+      "status": "not_found"
     },
     "crossref:title:bb8209da87f83cccf23278545a23fbad06e524b1187316b7dedebcb1751588ba": {
       "expires_at": "2026-09-02T00:32:38.607605Z",
@@ -10881,6 +10943,36 @@
       "retrieved_at": "2026-09-18T01:02:13.947880Z",
       "status": "not_found"
     },
+    "crossref:title:e384a0047e80938c7fb9be278ae2a1f332542ce9032f8e8e03af5cd2e2957d61": {
+      "expires_at": "2026-10-13T01:07:09.703980Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Agastya Mundhe",
+            "orcid": null
+          },
+          {
+            "name": "Sananjay Biswas",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.4236/wjnse.2026.163006",
+        "landing_page": "https://doi.org/10.4236/wjnse.2026.163006",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.4236/wjnse.2026.163006",
+        "publication_date": "2026",
+        "title": "A Comprehensive Review of Modern Aerodynamic Optimization Techniques",
+        "venue": "World Journal of Nano Science and Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-06T01:07:09.703980Z",
+      "status": "found"
+    },
     "crossref:title:e3d30e93a810dcb91394f004ca83af5538e36c402ecc66569eda4d498aa93d53": {
       "expires_at": "2026-08-29T00:32:15.721716Z",
       "record": {
@@ -11136,6 +11228,12 @@
       },
       "retrieved_at": "2026-09-25T01:02:49.966400Z",
       "status": "found"
+    },
+    "crossref:title:eb09b8187914e28cf1b2ead8987eda5d5f4f6d9435ce03e2bbef87cf6d682749": {
+      "expires_at": "2026-10-13T01:07:12.584506Z",
+      "record": null,
+      "retrieved_at": "2026-10-06T01:07:12.584506Z",
+      "status": "not_found"
     },
     "crossref:title:eb3b84b843bc8e59d12a197a243351d14623c1a948c8a32022ac671e23fbaadd": {
       "expires_at": "2026-08-25T04:25:06.087066Z",
@@ -11417,6 +11515,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-28T01:11:29.418296Z",
+      "status": "found"
+    },
+    "crossref:title:f540724c37c5c94ae645b87cd914e318335e31a5fa0f4e3c50310e52fdf7e018": {
+      "expires_at": "2026-10-13T01:07:15.706670Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lijun Yang",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoyan Hu",
+            "orcid": null
+          },
+          {
+            "name": "Zhiqiang Wang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/aann71145.2026.11709303",
+        "landing_page": "https://doi.org/10.1109/aann71145.2026.11709303",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/aann71145.2026.11709303",
+        "publication_date": "2026-08",
+        "title": "Silicon-based integrated optoelectronic hybrid computing system",
+        "venue": "2026 6th International Conference on Advanced Algorithms and Neural Networks (AANN)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-06T01:07:15.706670Z",
       "status": "found"
     },
     "crossref:title:f5ab57ac7e603ce67f736c744d43952cf525bcbf37ba3d24e6d377c07bf7e87f": {
@@ -12657,6 +12789,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-21T01:07:33.749262Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/lpor.71981": {
+      "expires_at": "2026-11-05T01:07:13.489386Z",
+      "record": {
+        "abstract": "ABSTRACT Quantum state tomography plays a fundamental role in quantum information science. Spatial modes of photons offer a promising encoding platform for high‐dimensional quantum states, yet efficient reconstruction of such states remains challenging. Recent advances in diffractive neural networks (DNNs) have introduced powerful capabilities for spatial mode manipulation, offering new opportunities for realizing efficient projective measurements. Here, we propose and experimentally demonstrate an efficient high‐dimensional state reconstruction method, enabled by parallel measurement of the full Bloch vectors for high‐dimensional states encoded in spatial modes of photons. By employing a DNN, our method maps mutually unbiased basis states to spatially separated Gaussian spots, thereby performing parallel projective measurements with a single measurement setting. We successfully reconstruct spatial‐mode‐encoded states in dimensions two through four, achieving state fidelities up to 99% and measurement process fidelities up to 97%. The method is further extended to spin‐orbit non‐separable states and mixed states, demonstrating its capability for reconstructing different classes of states within the selected spatial‐mode encoding space. Our method significantly improves the efficiency of tomography for spatial‐mode‐encoded high‐dimensional states and provides a versatile tool for the rapid characterization of high‐dimensional quantum systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dawei Lyu",
+            "orcid": "https://orcid.org/0000-0002-3086-2387"
+          },
+          {
+            "name": "Qianke Wang",
+            "orcid": "https://orcid.org/0000-0002-1649-5795"
+          },
+          {
+            "name": "Jun Liu",
+            "orcid": "https://orcid.org/0000-0003-3717-156X"
+          },
+          {
+            "name": "Jian Wang",
+            "orcid": "https://orcid.org/0000-0002-0579-3041"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.71981",
+        "landing_page": "https://doi.org/10.1002/lpor.71981",
+        "open_access_url": "https://doi.org/10.1002/lpor.71981",
+        "openalex_id": "https://openalex.org/W7219144319",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7219144319",
+        "publication_date": "2026-10-03",
+        "title": "Empowering Spatial‐Mode‐Encoded High‐Dimensional State Reconstruction With Parallel Full Bloch Vector Mapping",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-06T01:07:13.489386Z",
       "status": "found"
     },
     "openalex:doi:10.1002/mats.70059": {
@@ -16985,6 +17155,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-28T01:11:31.026528Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/aann71145.2026.11709303": {
+      "expires_at": "2026-11-05T01:07:16.067859Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lijun Yang",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoyan Hu",
+            "orcid": null
+          },
+          {
+            "name": "Zhiqiang Wang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/aann71145.2026.11709303",
+        "landing_page": "https://doi.org/10.1109/aann71145.2026.11709303",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7215081709",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7215081709",
+        "publication_date": "2026-08-01",
+        "title": "Silicon-based integrated optoelectronic hybrid computing system",
+        "venue": "International Conference on Advanced Algorithms and Neural Networks (AANN)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-06T01:07:16.067859Z",
       "status": "found"
     },
     "openalex:doi:10.1109/access.2026.3720798": {
@@ -21361,6 +21565,12 @@
       "retrieved_at": "2026-09-19T01:00:50.811385Z",
       "status": "found"
     },
+    "openalex:doi:10.26599/bdma.2026.9020041": {
+      "expires_at": "2026-11-05T01:07:12.074020Z",
+      "record": null,
+      "retrieved_at": "2026-10-06T01:07:12.074020Z",
+      "status": "not_found"
+    },
     "openalex:doi:10.29026/oes.2026.260038": {
       "expires_at": "2026-10-01T01:13:13.394348Z",
       "record": {
@@ -21655,6 +21865,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:13.493410Z",
+      "status": "found"
+    },
+    "openalex:doi:10.4236/wjnse.2026.163006": {
+      "expires_at": "2026-11-05T01:07:10.051442Z",
+      "record": {
+        "abstract": "In order to improve performance, efficiency, and sustainability in energy, automotive, and aerospace systems, aerodynamic optimization is an essential part of contemporary engineering design. Current advances in aerodynamic optimization are covered in this paper, including gradient-based methods such adjoint techniques for efficient sensitivity analysis in high-dimensional design spaces and gradient-free and evolutionary algorithms for complex and nonlinear situations. The increased incorporation of machine learning and surrogate modeling has reduced the computing cost of high-fidelity CFD simulations, enabling faster and more efficient design exploration. The essay also discusses multidisciplinary and multi-objective optimization frameworks for aerodynamics, propulsion systems, and structures. We examine high-dimensional design spaces, computational costs, uncertainty quantification, and novel research avenues like physics-informed models and hybrid CFD-AI techniques. This page compiles trends and methods for aerodynamic optimization.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Agastya Mundhe",
+            "orcid": null
+          },
+          {
+            "name": "Sananjay Biswas",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.4236/wjnse.2026.163006",
+        "landing_page": "https://doi.org/10.4236/wjnse.2026.163006",
+        "open_access_url": "https://doi.org/10.4236/wjnse.2026.163006",
+        "openalex_id": "https://openalex.org/W7212322111",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212322111",
+        "publication_date": "2026-01-01",
+        "title": "A Comprehensive Review of Modern Aerodynamic Optimization Techniques",
+        "venue": "World Journal of Nano Science and Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-06T01:07:10.051442Z",
       "status": "found"
     },
     "openalex:doi:10.48550/arxiv.2608.03277": {
@@ -24386,10 +24626,22 @@
       "retrieved_at": "2026-09-01T01:13:19.360131Z",
       "status": "not_found"
     },
+    "openalex:title:98206b5b368d642c4c65e9a4c8d8a400b9ea7672656d4afb327ef00878236e9d": {
+      "expires_at": "2026-10-13T01:07:14.987092Z",
+      "record": null,
+      "retrieved_at": "2026-10-06T01:07:14.987092Z",
+      "status": "not_found"
+    },
     "openalex:title:9863cf7ff493a2b7c37ba196cf968dc6f4ea005c3ac654a177628ba993caebce": {
       "expires_at": "2026-08-27T00:32:27.549813Z",
       "record": null,
       "retrieved_at": "2026-08-20T00:32:27.549813Z",
+      "status": "not_found"
+    },
+    "openalex:title:992338220bda2b05807dd64205bff1fa5efb73866ae79a67127cac6218d5f833": {
+      "expires_at": "2026-10-13T01:07:09.027730Z",
+      "record": null,
+      "retrieved_at": "2026-10-06T01:07:09.027730Z",
       "status": "not_found"
     },
     "openalex:title:9966502f88eb3fc98499dbbd13380085702210519cfbc8832352c309c61073e0": {
@@ -25052,6 +25304,12 @@
       "retrieved_at": "2026-09-13T01:07:28.240564Z",
       "status": "found"
     },
+    "openalex:title:bb14804df96b5fc02545b349a8fbd08639570de4f6465ce4855a83f739ee303d": {
+      "expires_at": "2026-10-13T01:07:11.417985Z",
+      "record": null,
+      "retrieved_at": "2026-10-06T01:07:11.417985Z",
+      "status": "not_found"
+    },
     "openalex:title:bbf2eedc3e77d50fe6dcee68f46e579501d5b1d25d033d63d7e66458430ca8d6": {
       "expires_at": "2026-08-11T09:39:00.349544Z",
       "record": null,
@@ -25398,6 +25656,12 @@
       "expires_at": "2026-09-24T01:02:58.086148Z",
       "record": null,
       "retrieved_at": "2026-09-17T01:02:58.086148Z",
+      "status": "not_found"
+    },
+    "openalex:title:eb09b8187914e28cf1b2ead8987eda5d5f4f6d9435ce03e2bbef87cf6d682749": {
+      "expires_at": "2026-10-13T01:07:13.007837Z",
+      "record": null,
+      "retrieved_at": "2026-10-06T01:07:13.007837Z",
       "status": "not_found"
     },
     "openalex:title:eb3b84b843bc8e59d12a197a243351d14623c1a948c8a32022ac671e23fbaadd": {
