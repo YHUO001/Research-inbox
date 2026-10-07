@@ -2466,6 +2466,56 @@
       "retrieved_at": "2026-08-04T09:38:26.523709Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/s44519-026-00016-4": {
+      "expires_at": "2026-11-06T01:10:33.667341Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuanjian Wan",
+            "orcid": null
+          },
+          {
+            "name": "Yuhu Cheng",
+            "orcid": null
+          },
+          {
+            "name": "Xiao Yu",
+            "orcid": null
+          },
+          {
+            "name": "Xilin Han",
+            "orcid": null
+          },
+          {
+            "name": "Shulan Yi",
+            "orcid": null
+          },
+          {
+            "name": "Yanqi Chu",
+            "orcid": null
+          },
+          {
+            "name": "Peng Xie",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s44519-026-00016-4",
+        "landing_page": "https://doi.org/10.1007/s44519-026-00016-4",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s44519-026-00016-4",
+        "publication_date": "2026-10-05",
+        "title": "Column-streaming optical convolution with programmable MZIs processor",
+        "venue": "PhotoniX Synergy",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-07T01:10:33.667341Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s44519-026-00019-1": {
       "expires_at": "2026-09-03T09:38:40.119247Z",
       "record": {
@@ -6350,6 +6400,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-01T01:13:13.074384Z",
+      "status": "found"
+    },
+    "crossref:doi:10.3389/fphy.2026.1916847": {
+      "expires_at": "2026-11-06T01:10:33.107490Z",
+      "record": {
+        "abstract": "Introduction Traditional metasurface design relies on physical priors and parameter scanning, which is time-consuming and prone to getting stuck in local optima. Methods In this article, we proposed a pixelated metasurface inverse design method, which discretizes the metasurface elements into a 16 × 16 binary pixel array, with each pixel independently adjustable, expanding the design space. We constructed a deep neural network framework consisting of a forward prediction residual convolutional network and a tandem generative inverse network: The forward network takes the element structure image as input and quickly predicts its complex reflection coefficient spectrum. Results and Discussion The average mean square error (MSE) of the test set is 0.0017. The inverse network is implemented by concatenating pre-trained forward networks without the need for real geometric labels, with an average MSE of 0.0131 on the test set. Using the trained model, we designed a metasurface that generates orbital angular momentum (OAM) with topological charges of ±1 and ±2 in the 1.5-1.6 THz frequency range. The full wave simulation results confirm that the designed metasurface can achieve spatial separation and independent control of multi-topology OAM beams, and the far-field amplitude and phase distribution are consistent with theoretical expectations. This method significantly improves the design efficiency and control accuracy of multifunctional metasurfaces, providing a new approach for on-demand customization of terahertz wave devices.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ruilu Huang",
+            "orcid": null
+          },
+          {
+            "name": "Jiusheng Li",
+            "orcid": null
+          },
+          {
+            "name": "Guo-Hua Qiu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3389/fphy.2026.1916847",
+        "landing_page": "https://doi.org/10.3389/fphy.2026.1916847",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3389/fphy.2026.1916847",
+        "publication_date": "2026-10-05",
+        "title": "Inverse design of multi-mode OAM-generating pixelated THz metasurfaces",
+        "venue": "Frontiers in Physics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-07T01:10:33.107490Z",
       "status": "found"
     },
     "crossref:doi:10.3389/frai.2026.1922367": {
@@ -14285,6 +14369,56 @@
       "retrieved_at": "2026-08-04T09:38:26.867117Z",
       "status": "found"
     },
+    "openalex:doi:10.1007/s44519-026-00016-4": {
+      "expires_at": "2026-11-06T01:10:34.021273Z",
+      "record": {
+        "abstract": "Programmable photonic processors based on Mach–Zehnder interferometers (MZIs) provide a versatile platform for optical linear computing, yet convolution on such processors is still commonly implemented through high-dimensional matrix expansion or multi-processor decomposition, both of which incur substantial hardware and control overhead. Here, we present a column-streaming optical convolution scheme that maps an N × N convolution kernel directly onto a single programmable N × N MZIs processor. By transposing the kernel to match the column-wise input order, the proposed scheme decomposes two-dimensional convolution into a sequence of low-dimensional linear operations, followed by backend shift-add accumulation of the output. Using a fabricated silicon photonic processor, we experimentally demonstrate accurate matrix configuration and optical convolution under different kernels, with root-mean-square errors below 0.061 relative to the electrical reference results. We further construct a hybrid optoelectronic convolutional neural network for MNIST handwritten digit classification and achieve an inference accuracy of 92%. These results establish a compact route to kernel convolution on programmable photonic processors and highlight the potential of column-streaming photonic dataflow for integrated optical neural computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuanjian Wan",
+            "orcid": "https://orcid.org/0000-0002-8511-8563"
+          },
+          {
+            "name": "Yuhu Cheng",
+            "orcid": null
+          },
+          {
+            "name": "Xiao Yu",
+            "orcid": null
+          },
+          {
+            "name": "Xilin Han",
+            "orcid": null
+          },
+          {
+            "name": "Shulan Yi",
+            "orcid": "https://orcid.org/0009-0009-1015-1826"
+          },
+          {
+            "name": "Yanqi Chu",
+            "orcid": null
+          },
+          {
+            "name": "Peng Xie",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s44519-026-00016-4",
+        "landing_page": "https://doi.org/10.1007/s44519-026-00016-4",
+        "open_access_url": "https://doi.org/10.1007/s44519-026-00016-4",
+        "openalex_id": "https://openalex.org/W7219715504",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7219715504",
+        "publication_date": "2026-10-04",
+        "title": "Column-streaming optical convolution with programmable MZIs processor",
+        "venue": "PhotoniX Synergy",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-07T01:10:34.021273Z",
+      "status": "found"
+    },
     "openalex:doi:10.1007/s44519-026-00019-1": {
       "expires_at": "2026-09-03T09:38:40.464180Z",
       "record": {
@@ -21619,6 +21753,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-01T01:13:13.394348Z",
+      "status": "found"
+    },
+    "openalex:doi:10.3389/fphy.2026.1916847": {
+      "expires_at": "2026-11-06T01:10:33.443965Z",
+      "record": {
+        "abstract": "Introduction Traditional metasurface design relies on physical priors and parameter scanning, which is time-consuming and prone to getting stuck in local optima. Methods In this article, we proposed a pixelated metasurface inverse design method, which discretizes the metasurface elements into a 16 × 16 binary pixel array, with each pixel independently adjustable, expanding the design space. We constructed a deep neural network framework consisting of a forward prediction residual convolutional network and a tandem generative inverse network: The forward network takes the element structure image as input and quickly predicts its complex reflection coefficient spectrum. Results and Discussion The average mean square error (MSE) of the test set is 0.0017. The inverse network is implemented by concatenating pre-trained forward networks without the need for real geometric labels, with an average MSE of 0.0131 on the test set. Using the trained model, we designed a metasurface that generates orbital angular momentum (OAM) with topological charges of ±1 and ±2 in the 1.5-1.6 THz frequency range. The full wave simulation results confirm that the designed metasurface can achieve spatial separation and independent control of multi-topology OAM beams, and the far-field amplitude and phase distribution are consistent with theoretical expectations. This method significantly improves the design efficiency and control accuracy of multifunctional metasurfaces, providing a new approach for on-demand customization of terahertz wave devices.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ruilu Huang",
+            "orcid": null
+          },
+          {
+            "name": "J. Li",
+            "orcid": "https://orcid.org/0000-0002-5960-0348"
+          },
+          {
+            "name": "Guohua Qiu",
+            "orcid": "https://orcid.org/0000-0001-5658-0874"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3389/fphy.2026.1916847",
+        "landing_page": "https://doi.org/10.3389/fphy.2026.1916847",
+        "open_access_url": "https://doi.org/10.3389/fphy.2026.1916847",
+        "openalex_id": "https://openalex.org/W7219594398",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7219594398",
+        "publication_date": "2026-10-05",
+        "title": "Inverse design of multi-mode OAM-generating pixelated THz metasurfaces",
+        "venue": "Frontiers in Physics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-07T01:10:33.443965Z",
       "status": "found"
     },
     "openalex:doi:10.3389/frai.2026.1922367": {
