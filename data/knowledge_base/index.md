@@ -1,7 +1,7 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`75`
-- 更新时间：`2026-10-05T01:14:53.851959Z`
+- 论文数：`76`
+- 更新时间：`2026-10-08T01:10:44.792964Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
@@ -445,6 +445,14 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### VLA-ZO: Fast Zeroth-Order Adaptation for Vision-Language-Action Models
+
+- DOI/链接：[10.48550/arxiv.2610.06271](https://doi.org/10.48550/arxiv.2610.06271)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-10-08`
+- 候选 ID：`66c84fb1444bbf71b05ac0d7`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
 
 ### Sharp Minimax Rates for Highly Smooth Strongly Convex Zeroth-Order Optimization
 

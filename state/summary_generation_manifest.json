@@ -1,31 +1,156 @@
 {
-  "actual_summary_count": 0,
-  "automatic_queue_candidate_count": 0,
-  "built_at": "2026-10-07T01:10:35.447299Z",
+  "abstract_fallback_candidate_ids": [],
+  "abstract_fallback_count": 0,
+  "architecture_evidence": {
+    "66c84fb1444bbf71b05ac0d7": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    }
+  },
+  "architecture_repairs": 0,
+  "automatic_history_pending": false,
+  "automatic_queue_candidate_count": 1,
+  "completed_at": "2026-10-08T01:10:44.792964Z",
   "completed_candidate_filtered_count": 0,
-  "daily_digest_pending": false,
-  "digest_date": "2026-10-07",
-  "digest_json_file": "runtime-state/data/digests/2026-10-07.preview.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-10-07.preview.md",
+  "completed_candidate_ids": [
+    "66c84fb1444bbf71b05ac0d7"
+  ],
+  "completion_mode": "automatic_daily_batch_after_local_validation",
+  "daily_digest_pending": true,
+  "digest_date": "2026-10-08",
+  "digest_json_file": "runtime-state/data/digests/2026-10-08.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-10-08.generated.md",
   "email_enabled": false,
+  "estimated_cost_cny": 0.024648,
   "execution_mode": "automatic_daily_batch",
-  "full_text_used": false,
+  "failure_count": 0,
+  "failures": [],
+  "full_text_method_contexts": {
+    "66c84fb1444bbf71b05ac0d7": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "66c84fb1444bbf71b05ac0d7",
+      "character_count": 7062,
+      "content_sha256": "3d354b1ffd1a55c6ee4509c33252889d6a1447e86bb89e73ce0e6d71c8aca12d",
+      "elapsed_seconds": 0.447,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        "Adaptation methods and execution ablations.",
+        "Appendix B Implementation of Frozen-State Reuse and Prefetching"
+      ],
+      "source_url": "https://arxiv.org/html/2610.06271",
+      "status": "used",
+      "text_persisted": false
+    }
+  },
+  "full_text_persisted": false,
+  "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
-  "knowledge_base_pending": false,
-  "llm_enabled": true,
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+  "knowledge_base_pending": true,
+  "model": "deepseek-v4-pro",
+  "newly_completed_candidate_count": 1,
+  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+  "numeric_matching": {
+    "absolute_tolerance": 0.02,
+    "approximation_markers_ignored": true,
+    "evidence_sources": [
+      "title",
+      "abstract",
+      "temporary_open_full_text_methods"
+    ],
+    "full_text_unsupported_sentence_action": "deterministic_redaction",
+    "relative_tolerance": 0.02,
+    "unit_format_ignored": true,
+    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
+  },
   "output_language": "zh-CN",
-  "provider": "not_configured",
-  "queue_candidate_count": 0,
-  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "request_count": 0,
-  "request_file": "runtime-state/data/summary_requests/2026-10-07.jsonl",
-  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "prepared_request_count": 1,
+  "provider": "deepseek",
+  "queue_sha256": "9e4cb0728def43489f47de67aa4ffe8971dd2955afc826badcf8029cfecd3b05",
+  "request_count": 1,
+  "request_file": "runtime-state/data/summary_requests/2026-10-08.jsonl",
+  "request_sha256": "dc367d8719ce4131bd0ae02f833a7d029ec857422d314bda9bcc6cc82ab112fb",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "b21f5fd37c5282cafc62854c8e08463eb5d48ca43be46321319188f96a857d6c",
-  "source_queue_candidate_count": 0,
-  "status": "no_candidates",
+  "selection_manifest_sha256": "fab09d62177a6b7b8424f3a9559b957284ab5eeba710b4e9b754eca44a69a84a",
+  "skipped_no_abstract_candidate_ids": [],
+  "skipped_no_abstract_count": 0,
+  "source_queue_candidate_count": 1,
+  "stage_timings": {
+    "full_text_preparation_seconds": 0.451,
+    "model_api_calls": [
+      {
+        "attempt": 1,
+        "candidate_id": "66c84fb1444bbf71b05ac0d7",
+        "elapsed_seconds": 27.813,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 2577,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 3046,
+          "prompt_tokens": 4966,
+          "total_tokens": 7543
+        }
+      }
+    ],
+    "model_generation_and_validation_seconds": 27.831
+  },
+  "status": "completed_automatic",
+  "summary_count": 1,
+  "summary_file": "runtime-state/data/summaries/2026-10-08.jsonl",
   "summary_generation_version": 8,
-  "summary_history_updated": false,
-  "summary_slot_count": 0
+  "summary_history_updated": true,
+  "summary_slot_count": 1,
+  "thinking_enabled": false,
+  "transport_repairs": {
+    "architecture_evidence": {
+      "66c84fb1444bbf71b05ac0d7": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": null,
+        "repaired": false,
+        "resolved_type": "unclear"
+      }
+    },
+    "architecture_repairs": 0,
+    "candidate_id_repair_responses": 0,
+    "full_text_method_contexts": {
+      "66c84fb1444bbf71b05ac0d7": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "66c84fb1444bbf71b05ac0d7",
+        "character_count": 7062,
+        "content_sha256": "3d354b1ffd1a55c6ee4509c33252889d6a1447e86bb89e73ce0e6d71c8aca12d",
+        "elapsed_seconds": 0.447,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          "Adaptation methods and execution ablations.",
+          "Appendix B Implementation of Frozen-State Reuse and Prefetching"
+        ],
+        "source_url": "https://arxiv.org/html/2610.06271",
+        "status": "used",
+        "text_persisted": false
+      }
+    },
+    "generation_metadata_repair_responses": 0,
+    "numeric_grounding_repair_responses": 0,
+    "numeric_grounding_repairs": {},
+    "tops_alias_expansions": 13,
+    "unit_format_normalization_responses": 0
+  },
+  "usage": {
+    "completion_tokens": 2577,
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 3046,
+    "prompt_tokens": 4966,
+    "total_tokens": 7543
+  }
 }

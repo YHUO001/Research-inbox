@@ -6516,6 +6516,12 @@
       "retrieved_at": "2026-10-04T01:36:06.727897Z",
       "status": "not_found"
     },
+    "crossref:doi:10.48550/arxiv.2610.06271": {
+      "expires_at": "2026-11-07T01:10:13.129929Z",
+      "record": null,
+      "retrieved_at": "2026-10-08T01:10:13.129929Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.5281/zenodo.21885998": {
       "expires_at": "2026-09-17T04:25:17.174341Z",
       "record": null,
@@ -7581,6 +7587,12 @@
       "expires_at": "2026-08-16T00:35:59.056202Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:35:59.056202Z",
+      "status": "not_found"
+    },
+    "crossref:title:39c4e105d4d7b1dcebf2394ee089534cc95c7e479dcb9394d6df351447378778": {
+      "expires_at": "2026-10-15T01:10:12.408159Z",
+      "record": null,
+      "retrieved_at": "2026-10-08T01:10:12.408159Z",
       "status": "not_found"
     },
     "crossref:title:3a27ba996338fb35956c1e9dd60ddf07fce4131ffda938ef0b1f8500be2dec9c": {
@@ -22389,6 +22401,40 @@
       "retrieved_at": "2026-10-04T01:36:07.076277Z",
       "status": "found"
     },
+    "openalex:doi:10.48550/arxiv.2610.06271": {
+      "expires_at": "2026-11-07T01:10:13.440072Z",
+      "record": {
+        "abstract": "Adapting vision-language-action (VLA) models to deployment-time distribution shifts is important for reliable robotic operation, but conventional first-order adaptation can exceed the memory budget of inference-oriented deployment platforms. Zeroth-order (ZO) optimization offers a forward-only alternative with inference-level memory, but accurate gradient estimation requires many perturbation queries, making naive ZO prohibitively slow for large VLA models. We present VLA-ZO, a framework for fast ZO adaptation that exploits the structure of VLA computation. By confining adaptation to the action side, VLA-ZO keeps the expensive vision-language prefix frozen and reuses its conditioning states across perturbation queries and optimizer steps, while schedule-aware prefetching hides state-transfer overhead. On LIBERO camera-viewpoint shifts, VLA-ZO reduces end-to-end adaptation time by 25.59$\\times$ at $q=16$ and 32.54$\\times$ at $q=64$ relative to baseline ZO, while improving average task success from 48.27% without adaptation to 58.17% and 63.58%, respectively. These results show that making ZO faster can make larger query budgets practical, providing a promising path toward resource-efficient VLA adaptation on deployment platforms.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jaemin Kim",
+            "orcid": null
+          },
+          {
+            "name": "Jiahn Kim",
+            "orcid": null
+          },
+          {
+            "name": "Taesik Gong",
+            "orcid": "https://orcid.org/0000-0002-8967-3652"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.06271",
+        "landing_page": "https://doi.org/10.48550/arxiv.2610.06271",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2610.06271",
+        "openalex_id": "https://openalex.org/W7220701598",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220701598",
+        "publication_date": "2026-10-05",
+        "title": "VLA-ZO: Fast Zeroth-Order Adaptation for Vision-Language-Action Models",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-08T01:10:13.440072Z",
+      "status": "found"
+    },
     "openalex:doi:10.5281/zenodo.21885998": {
       "expires_at": "2026-09-17T04:25:17.487937Z",
       "record": {
@@ -23692,6 +23738,12 @@
       "expires_at": "2026-08-16T00:35:59.656653Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:35:59.656653Z",
+      "status": "not_found"
+    },
+    "openalex:title:39c4e105d4d7b1dcebf2394ee089534cc95c7e479dcb9394d6df351447378778": {
+      "expires_at": "2026-10-15T01:10:12.839041Z",
+      "record": null,
+      "retrieved_at": "2026-10-08T01:10:12.839041Z",
       "status": "not_found"
     },
     "openalex:title:3a372dcedf959ba1714704e408d0c6a721d23fd89360dd10d446008a4b765711": {

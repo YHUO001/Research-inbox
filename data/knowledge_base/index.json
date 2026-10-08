@@ -296,6 +296,15 @@
       "summary_record_sha256": "c4a650b558f2867b4d73c876388ad09254a36180d047f41114481ae0a2f0f520",
       "title": "All-optical control of nonlinear emission from resonant metasurfaces"
     },
+    "66c84fb1444bbf71b05ac0d7": {
+      "digest_date": "2026-10-08",
+      "doi": "10.48550/arxiv.2610.06271",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "9bf09c418eda9264dceb8d072c60e700fe55d3a44379d905cdbbe53d27582679",
+      "title": "VLA-ZO: Fast Zeroth-Order Adaptation for Vision-Language-Action Models"
+    },
     "6dc0459f08567bbd051cc579": {
       "digest_date": "2026-09-25",
       "doi": "10.1364/josaa.608366",
@@ -826,6 +835,9 @@
       "39df3bfb1d1f1919bbf17668",
       "b55d3108932c3bfbf5a93ca7",
       "e76ce8e7abb50e84a9c3324f"
+    ],
+    "2026-10-08": [
+      "66c84fb1444bbf71b05ac0d7"
     ]
   },
   "by_doi": {
@@ -895,6 +907,7 @@
     "10.48550/arxiv.2609.35257": "1be9c6ec4a0fa7f4ce866764",
     "10.48550/arxiv.2609.38561": "7a7954d98c27d7ab9f7f730a",
     "10.48550/arxiv.2610.00276": "b55d3108932c3bfbf5a93ca7",
+    "10.48550/arxiv.2610.06271": "66c84fb1444bbf71b05ac0d7",
     "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.6084/m9.figshare.c.8610155.v1": "d162b179119ee09c86ad3708",
@@ -968,6 +981,7 @@
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
+      "66c84fb1444bbf71b05ac0d7",
       "70212be2c4a63d741872ace0",
       "7719ae17086cb97168bebbc5",
       "7a7954d98c27d7ab9f7f730a",
@@ -1466,6 +1480,7 @@
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
+      "66c84fb1444bbf71b05ac0d7",
       "70212be2c4a63d741872ace0",
       "7719ae17086cb97168bebbc5",
       "7a7954d98c27d7ab9f7f730a",
@@ -1490,6 +1505,7 @@
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
+      "66c84fb1444bbf71b05ac0d7",
       "7719ae17086cb97168bebbc5",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
@@ -1513,6 +1529,7 @@
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
+      "66c84fb1444bbf71b05ac0d7",
       "7719ae17086cb97168bebbc5",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
@@ -1536,6 +1553,7 @@
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
+      "66c84fb1444bbf71b05ac0d7",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
@@ -1558,6 +1576,7 @@
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
+      "66c84fb1444bbf71b05ac0d7",
       "7719ae17086cb97168bebbc5",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
@@ -1726,6 +1745,7 @@
       "39df3bfb1d1f1919bbf17668",
       "3c46ab2b3d315aef47db028e",
       "5e49047e7ce2004f7954debb",
+      "66c84fb1444bbf71b05ac0d7",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
@@ -1776,6 +1796,7 @@
       "557b41cb542bf10e84da81f2",
       "5e49047e7ce2004f7954debb",
       "5ec8e35ad02131d8ed156970",
+      "66c84fb1444bbf71b05ac0d7",
       "6dc0459f08567bbd051cc579",
       "70212be2c4a63d741872ace0",
       "7719ae17086cb97168bebbc5",
@@ -1822,7 +1843,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 75,
+  "paper_count": 76,
   "schema_version": 1,
-  "updated_at": "2026-10-05T01:14:53.851959Z"
+  "updated_at": "2026-10-08T01:10:44.792964Z"
 }
