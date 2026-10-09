@@ -233,6 +233,15 @@
       "summary_record_sha256": "9a3a248c905fc151ef7938facb5fefffeca54ba503e666bfe19f06094c2522d7",
       "title": "Programmable photonic neural engine with all-optical nonlinear activation and 40,000 connections"
     },
+    "4ac97d5e03fb7df3ed448fc2": {
+      "digest_date": "2026-10-09",
+      "doi": "10.1038/s43588-026-01057-y",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "7c534e548a03b42d8c3f8db6fa5607f2dfbac1d57bbf323d050595e59b26fdd4",
+      "title": "Photonic neuromorphic learning via generalized in situ physical gradient descent"
+    },
     "4b1739e45289d2156d3b1ed3": {
       "digest_date": "2026-09-21",
       "doi": "10.5281/zenodo.22849810",
@@ -593,6 +602,15 @@
       "summary_record_sha256": "76d777380e2bad8f943501ddf56a3a441721c0ad5e2dc3773c2abb85d9acfdc8",
       "title": "Second-harmonic generation for enhancing the performance of diffractive neural networks"
     },
+    "d2a55bdec24bc3bc4b04467b": {
+      "digest_date": "2026-10-09",
+      "doi": "10.1038/s41467-026-77376-5",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "5f2de650346ead7bde9d8e17fae5640d0c61677ebb0f57551ec2ec06c0e82ba8",
+      "title": "Deep diffractive optical neural networks for detecting skyrmionic topologies of light and their live training"
+    },
     "d33b2e7c6586f37945facb32": {
       "digest_date": "2026-09-03",
       "doi": "10.1038/s41467-026-77202-y",
@@ -664,6 +682,15 @@
       ],
       "summary_record_sha256": "0bf2d6c2c2d027be0fcddc0323e12c963039aa5500db802bc90c80d1aeeaef84",
       "title": "Simulation-Efficient Analog Circuit Yield Optimization via Monte Carlo Zeroth-Order Gradient Estimation"
+    },
+    "f4eaa19659c54d93478a40d5": {
+      "digest_date": "2026-10-09",
+      "doi": "10.1016/j.optlastec.2026.116573",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "93d132ef6f192ed5f0f02b7d685091dd1f864e69c0c4e7df7a8d49a103c5a72c",
+      "title": "Graphene-enhanced dual-gate electro-optic micro-ring modulator: An optical neural network design"
     },
     "fca2cfc597728ee01e2a6032": {
       "digest_date": "2026-09-10",
@@ -838,6 +865,11 @@
     ],
     "2026-10-08": [
       "66c84fb1444bbf71b05ac0d7"
+    ],
+    "2026-10-09": [
+      "4ac97d5e03fb7df3ed448fc2",
+      "d2a55bdec24bc3bc4b04467b",
+      "f4eaa19659c54d93478a40d5"
     ]
   },
   "by_doi": {
@@ -847,6 +879,7 @@
     "10.1002/lpor.71857": "15e7193239d6058f661ff180",
     "10.1002/nap2.70302": "93f3ffb1741a00e1480b8ab2",
     "10.1007/s10915-026-03433-2": "7719ae17086cb97168bebbc5",
+    "10.1016/j.optlastec.2026.116573": "f4eaa19659c54d93478a40d5",
     "10.1021/acsphotonics.6c00831": "2eb28d7201afb356d747693a",
     "10.1021/acsphotonics.6c01155": "d69a4f93ca6340969e1077a8",
     "10.1038/s41377-026-02325-2": "1e619f1b739f1893eae64f28",
@@ -857,9 +890,11 @@
     "10.1038/s41467-026-76736-5": "fd6f281418ac4d412744b2ac",
     "10.1038/s41467-026-76872-y": "7edb19b24759fe609707ba01",
     "10.1038/s41467-026-77202-y": "d33b2e7c6586f37945facb32",
+    "10.1038/s41467-026-77376-5": "d2a55bdec24bc3bc4b04467b",
     "10.1038/s41467-026-77397-0": "8ed2e70c4b7d42f84e3676a7",
     "10.1038/s41467-026-77768-7": "1bef6ee27ae84b878da0c512",
     "10.1038/s41598-026-69259-y": "37a9533a60e5cdd68ef3c483",
+    "10.1038/s43588-026-01057-y": "4ac97d5e03fb7df3ed448fc2",
     "10.1038/s44335-026-00086-0": "328b1572ba0e31f8f8a6dac1",
     "10.1038/s44335-026-00096-y": "35ff63ef9d3333099ee28868",
     "10.1063/5.0341175": "ae3adee8419a5db7be7ec3b2",
@@ -935,6 +970,7 @@
       "380b726618cccff0a9e5514f",
       "39df3bfb1d1f1919bbf17668",
       "44fa3bd6f72c84820ce42dab",
+      "4ac97d5e03fb7df3ed448fc2",
       "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
@@ -967,8 +1003,10 @@
       "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d",
       "d162b179119ee09c86ad3708",
+      "d2a55bdec24bc3bc4b04467b",
       "d33b2e7c6586f37945facb32",
       "d69a4f93ca6340969e1077a8",
+      "f4eaa19659c54d93478a40d5",
       "fd6f281418ac4d412744b2ac"
     ],
     "zeroth-order-optimization": [
@@ -1070,6 +1108,9 @@
     "application:光学图像分类": [
       "916e8199aaabe1372544d280"
     ],
+    "application:光学斯格明子拓扑态检测": [
+      "d2a55bdec24bc3bc4b04467b"
+    ],
     "application:光学神经网络推理": [
       "09e1a0ed403ef22abbd9b189"
     ],
@@ -1097,8 +1138,14 @@
     "application:十类分类任务": [
       "b832199d8494cc67a559fec5"
     ],
+    "application:单次光子学习": [
+      "4ac97d5e03fb7df3ed448fc2"
+    ],
     "application:单步光学线性加权": [
       "8ed2e70c4b7d42f84e3676a7"
+    ],
+    "application:原位元学习": [
+      "4ac97d5e03fb7df3ed448fc2"
     ],
     "application:可重构非线性信号处理": [
       "5ec8e35ad02131d8ed156970"
@@ -1127,6 +1174,12 @@
     ],
     "application:图像分类（mnist手写数字和fashion-mnist）。": [
       "d162b179119ee09c86ad3708"
+    ],
+    "application:图像分类：fashion-mnist": [
+      "f4eaa19659c54d93478a40d5"
+    ],
+    "application:图像分类：mnist": [
+      "f4eaa19659c54d93478a40d5"
     ],
     "application:图像去噪": [
       "2eb28d7201afb356d747693a"
@@ -1173,6 +1226,9 @@
     "application:手写数字分类": [
       "7edb19b24759fe609707ba01",
       "a7f4407333af25ddc7630e14"
+    ],
+    "application:拓扑编码图像传输": [
+      "d2a55bdec24bc3bc4b04467b"
     ],
     "application:无人机实时障碍物感知": [
       "557b41cb542bf10e84da81f2"
@@ -1222,6 +1278,9 @@
     "application:生物成像": [
       "35ff63ef9d3333099ee28868"
     ],
+    "application:矢量拉盖尔-高斯模式拓扑电荷识别": [
+      "d2a55bdec24bc3bc4b04467b"
+    ],
     "application:神经形态计算": [
       "ae3adee8419a5db7be7ec3b2"
     ],
@@ -1242,6 +1301,9 @@
     ],
     "application:自由空间光处理": [
       "ae3adee8419a5db7be7ec3b2"
+    ],
+    "application:自适应光子神经拟态学习": [
+      "4ac97d5e03fb7df3ed448fc2"
     ],
     "application:自适应光子计算": [
       "5ec8e35ad02131d8ed156970"
@@ -1337,6 +1399,7 @@
       "35ff63ef9d3333099ee28868",
       "39df3bfb1d1f1919bbf17668",
       "44fa3bd6f72c84820ce42dab",
+      "4ac97d5e03fb7df3ed448fc2",
       "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
       "541094f286db8902f2fe6077",
@@ -1360,7 +1423,9 @@
       "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d",
       "d162b179119ee09c86ad3708",
-      "d33b2e7c6586f37945facb32"
+      "d2a55bdec24bc3bc4b04467b",
+      "d33b2e7c6586f37945facb32",
+      "f4eaa19659c54d93478a40d5"
     ],
     "hardware_validation:mixed": [
       "1cf1fcd769c5ace951188b8c",
@@ -1387,6 +1452,7 @@
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
       "c7b91f881a121b7e1651e2f2",
+      "d2a55bdec24bc3bc4b04467b",
       "d69a4f93ca6340969e1077a8",
       "fd6f281418ac4d412744b2ac"
     ],
@@ -1401,11 +1467,13 @@
       "b832199d8494cc67a559fec5",
       "c01ea24e589c31ebd4af01d6",
       "d162b179119ee09c86ad3708",
-      "d33b2e7c6586f37945facb32"
+      "d33b2e7c6586f37945facb32",
+      "f4eaa19659c54d93478a40d5"
     ],
     "hardware_validation:unclear": [
       "028de8014a2b67fd147a28e7",
       "44fa3bd6f72c84820ce42dab",
+      "4ac97d5e03fb7df3ed448fc2",
       "4bb38e8bcc3a3d164bd28700",
       "79855d774b83ef6c7c8a8a47",
       "7d6c2a059923ebe445a1cdf7",
@@ -1434,6 +1502,7 @@
       "380b726618cccff0a9e5514f",
       "39df3bfb1d1f1919bbf17668",
       "44fa3bd6f72c84820ce42dab",
+      "4ac97d5e03fb7df3ed448fc2",
       "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
@@ -1466,8 +1535,10 @@
       "c82f6c2f7b8ae52a84e4eb29",
       "ccd82d84305d463a6c33398d",
       "d162b179119ee09c86ad3708",
+      "d2a55bdec24bc3bc4b04467b",
       "d33b2e7c6586f37945facb32",
       "d69a4f93ca6340969e1077a8",
+      "f4eaa19659c54d93478a40d5",
       "fd6f281418ac4d412744b2ac"
     ],
     "project:zeroth-order-optimization": [
@@ -1682,8 +1753,12 @@
       "7edb19b24759fe609707ba01",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
+      "d2a55bdec24bc3bc4b04467b",
       "d33b2e7c6586f37945facb32",
       "fd6f281418ac4d412744b2ac"
+    ],
+    "Nature Computational Science": [
+      "4ac97d5e03fb7df3ed448fc2"
     ],
     "Open Collections": [
       "9322fad036b3d7fc8e3dd47b"
@@ -1693,6 +1768,9 @@
     ],
     "Optical Engineering": [
       "541094f286db8902f2fe6077"
+    ],
+    "Optics & Laser Technology": [
+      "f4eaa19659c54d93478a40d5"
     ],
     "Optics Express": [
       "8a0187dc3ef13553d43f5bef",
@@ -1789,6 +1867,7 @@
       "39df3bfb1d1f1919bbf17668",
       "3c46ab2b3d315aef47db028e",
       "44fa3bd6f72c84820ce42dab",
+      "4ac97d5e03fb7df3ed448fc2",
       "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
       "5017adbd33e6ddd5c320a4c4",
@@ -1828,6 +1907,7 @@
       "ca00b2160d3deb8b79b61e6e",
       "ccd82d84305d463a6c33398d",
       "d162b179119ee09c86ad3708",
+      "d2a55bdec24bc3bc4b04467b",
       "d33b2e7c6586f37945facb32",
       "d69a4f93ca6340969e1077a8",
       "dd2f544b89860edf2c2a51ae",
@@ -1836,6 +1916,7 @@
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
       "f4c6106a0a433a224abb3d56",
+      "f4eaa19659c54d93478a40d5",
       "fca2cfc597728ee01e2a6032",
       "fd6f281418ac4d412744b2ac"
     ],
@@ -1843,7 +1924,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 76,
+  "paper_count": 79,
   "schema_version": 1,
-  "updated_at": "2026-10-08T01:10:44.792964Z"
+  "updated_at": "2026-10-09T01:13:29.927006Z"
 }

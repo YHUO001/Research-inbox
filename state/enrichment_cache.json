@@ -1094,6 +1094,68 @@
       "retrieved_at": "2026-10-06T01:07:13.143121Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/lpor.72008": {
+      "expires_at": "2026-11-08T01:12:16.413496Z",
+      "record": {
+        "abstract": "ABSTRACT Metasurface structural color, which emerges from the interaction between sub‐wavelength meta‐atoms and incident light, presents inherent advantages in terms of resolution and environmental stability, thus positioning it as a crucial enabler for next‐generation displays. Despite remarkable progress achieved in performance metrics, modulation capabilities, and fabrication scalability, there is still a lack of review dedicated to the specific requirements and pixel‐level application prospects for displays. This review introduces a unified framework centered around the “meta‐pixel”, which is a functional unit integrating spectral control and dynamic tunability. We commence by examining the fundamental spectral regulation mechanisms, such as plasmonic resonances, Mie resonances, and mode hybridization. Subsequently, we emphasize the recent advancements in meta‐pixel performance in aspects of color quality, efficiency, angle‐robustness, and ultra‐high resolution, along with the progress in dynamic tuning and addressing technologies. Then, we explore the emerging display applications facilitated by these capabilities, like light field 3D, transparent, and multifunctional displays. Finally, we review the scalable fabrication techniques and discuss the critical challenges and future directions, including intelligent interaction and information fusion. By integrating mechanisms, materials, device engineering, and applications, this review offers a comprehensive foundation for the continuous development and industrialization of metasurface‐based display technologies.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jiawei Zhang",
+            "orcid": "https://orcid.org/0009-0008-7434-1672"
+          },
+          {
+            "name": "Yuyan Peng",
+            "orcid": "https://orcid.org/0000-0002-7012-9286"
+          },
+          {
+            "name": "Jiehui Li",
+            "orcid": null
+          },
+          {
+            "name": "Zhenyou Zou",
+            "orcid": null
+          },
+          {
+            "name": "Weiquan Yang",
+            "orcid": null
+          },
+          {
+            "name": "Yongai Zhang",
+            "orcid": "https://orcid.org/0000-0002-3829-0707"
+          },
+          {
+            "name": "Tailiang Guo",
+            "orcid": null
+          },
+          {
+            "name": "Qun Yan",
+            "orcid": "https://orcid.org/0000-0002-7057-2755"
+          },
+          {
+            "name": "Chaoxing Wu",
+            "orcid": "https://orcid.org/0000-0002-1231-2699"
+          },
+          {
+            "name": "Xiongtu Zhou",
+            "orcid": "https://orcid.org/0000-0003-3991-3467"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.72008",
+        "landing_page": "https://doi.org/10.1002/lpor.72008",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.72008",
+        "publication_date": "2026-10-03",
+        "title": "Metasurface Structural Color: From Fundamentals to Applications in Next‐Generation Displays",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:16.413496Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/mats.70059": {
       "expires_at": "2026-10-17T01:02:53.132433Z",
       "record": {
@@ -1790,6 +1852,44 @@
       "retrieved_at": "2026-09-07T01:06:51.649949Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/s10773-026-06497-w": {
+      "expires_at": "2026-11-08T01:12:22.986882Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Vahid Esrafilian",
+            "orcid": null
+          },
+          {
+            "name": "Bahram Abedi Ravan",
+            "orcid": null
+          },
+          {
+            "name": "Alireza Javadi",
+            "orcid": null
+          },
+          {
+            "name": "Hamidreza Daniali",
+            "orcid": "https://orcid.org/0000-0001-7621-9154"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10773-026-06497-w",
+        "landing_page": "https://doi.org/10.1007/s10773-026-06497-w",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s10773-026-06497-w",
+        "publication_date": "2026-10-03",
+        "title": "Principles and Architectures of Coherent Ising Machines: Optical Networks for Optimization and Quantum Neural Computing",
+        "venue": "International Journal of Theoretical Physics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:22.986882Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s10825-026-02624-2": {
       "expires_at": "2026-09-21T00:32:10.733048Z",
       "record": {
@@ -2168,6 +2268,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-01T01:17:27.266206Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/s13042-026-03321-z": {
+      "expires_at": "2026-11-08T01:12:17.428289Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Junhyeong Lee",
+            "orcid": null
+          },
+          {
+            "name": "Hyun Kwon",
+            "orcid": "https://orcid.org/0000-0003-1169-9892"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s13042-026-03321-z",
+        "landing_page": "https://doi.org/10.1007/s13042-026-03321-z",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s13042-026-03321-z",
+        "publication_date": "2026-10",
+        "title": "Physically valid adversarial examples for 3D molecular prediction",
+        "venue": "International Journal of Machine Learning and Cybernetics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:17.428289Z",
       "status": "found"
     },
     "crossref:doi:10.1007/s41939-026-01271-1": {
@@ -2596,6 +2726,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:40.119247Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1016/j.jmapro.2026.10.001": {
+      "expires_at": "2026-11-08T01:12:26.026550Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Abu Bakar Siddique",
+            "orcid": null
+          },
+          {
+            "name": "Khadija Mushtaq",
+            "orcid": null
+          },
+          {
+            "name": "Zhou Wanlin",
+            "orcid": null
+          },
+          {
+            "name": "Adnan Javed",
+            "orcid": null
+          },
+          {
+            "name": "Aqib Mashood Khan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.jmapro.2026.10.001",
+        "landing_page": "https://doi.org/10.1016/j.jmapro.2026.10.001",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.jmapro.2026.10.001",
+        "publication_date": "2026-11",
+        "title": "A state-of-the-art review on computational techniques in laser beam shaping across additive manufacturing",
+        "venue": "Journal of Manufacturing Processes",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:26.026550Z",
       "status": "found"
     },
     "crossref:doi:10.1016/j.optlastec.2026.116572": {
@@ -3592,6 +3764,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-28T16:53:25.605839Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1038/s41467-026-77376-5": {
+      "expires_at": "2026-11-08T01:12:28.433153Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hadrian Bezuidenhout",
+            "orcid": "https://orcid.org/0009-0000-8814-3118"
+          },
+          {
+            "name": "Cade Peters",
+            "orcid": "https://orcid.org/0000-0003-4306-3602"
+          },
+          {
+            "name": "Ram Nandan Kumar",
+            "orcid": "https://orcid.org/0000-0001-8419-3804"
+          },
+          {
+            "name": "Andrew Forbes",
+            "orcid": "https://orcid.org/0000-0003-2552-5586"
+          },
+          {
+            "name": "Isaac Nape",
+            "orcid": "https://orcid.org/0000-0001-9517-6612"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41467-026-77376-5",
+        "landing_page": "https://doi.org/10.1038/s41467-026-77376-5",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41467-026-77376-5",
+        "publication_date": "2026-10-07",
+        "title": "Deep diffractive optical neural networks for detecting skyrmionic topologies of light and their live training",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:28.433153Z",
       "status": "found"
     },
     "crossref:doi:10.1038/s41467-026-77397-0": {
@@ -6246,6 +6460,56 @@
       "retrieved_at": "2026-08-27T02:02:16.276091Z",
       "status": "found"
     },
+    "crossref:doi:10.21203/rs.3.rs-11002782/v1": {
+      "expires_at": "2026-11-08T01:12:18.762928Z",
+      "record": {
+        "abstract": "Abstract Optical computing encodes and processes information through the continuous evolution of optical fields, whereas digital electronic systems operate on discrete logical states. Conventional optical-to-electronic interfaces convert measured optical responses into electronically accessible data, with task-specific interpretation subsequently performed in the electronic domain. Here, we introduce and experimentally validate a proof-of-concept light-field-to-bits (LFB) computing architecture that maps information-bearing light fields onto predefined 4-bit codewords. The proposed architecture comprises two cascaded diffractive layers that route optical energy at the output plane into eight predefined regions of interest (ROIs) arranged as four differential pairs, with each pair encoding one bit through relative-intensity comparison. We physically implement the first diffractive layer and computationally emulate the second, using a CMOS sensor to capture the intermediate intensity distribution. We further develop a differentiable physics-assisted surrogate model within a camera-in-the-loop framework. The experimental prototype achieves 4-bit codeword accuracies of 95.31% for geometrically perturbed hexadecimal inputs and 93.36% for traffic-sign inputs subjected to combined viewpoint distortion and noise. Meanwhile, the optical front-end exploits the intrinsic parallelism of diffractive propagation, performing high-dimensional optical transformations equivalent to ∼51.2 Giga-Operations (GOPs) of multiply accumulate (MAC) operations within a ∼1.16 ns optical time-of-flight, while the electronic stage only performs lightweight spatial aggregation at the scale of tens of Mega-FLOPs. This strategy establishes the feasibility of LFB computing as an interface between continuous optical information processing and discrete digital decision-making for latency-sensitive machine vision and edge sensing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hongqiang Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Likuo Jia",
+            "orcid": null
+          },
+          {
+            "name": "Tianlong Man",
+            "orcid": "https://orcid.org/0000-0002-2463-7458"
+          },
+          {
+            "name": "Xunbo Yu",
+            "orcid": null
+          },
+          {
+            "name": "Sheng Shen",
+            "orcid": null
+          },
+          {
+            "name": "Liangcai Cao",
+            "orcid": "https://orcid.org/0000-0002-8099-2948"
+          },
+          {
+            "name": "Yuhong Wan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-11002782/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-11002782/v1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.21203/rs.3.rs-11002782/v1",
+        "publication_date": "2026-10-07",
+        "title": "Light-Field-to-Bits Computing via an Online-Trainable Cascaded Optoelectronic Neural Network",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:18.762928Z",
+      "status": "found"
+    },
     "crossref:doi:10.24108/preprints-3116381": {
       "expires_at": "2026-10-16T01:02:27.673782Z",
       "record": {
@@ -6692,6 +6956,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-05T01:13:27.605794Z",
+      "status": "found"
+    },
+    "crossref:doi:10.67704/ioe.2026.260014": {
+      "expires_at": "2026-11-08T01:12:20.339826Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuchun Huang",
+            "orcid": null
+          },
+          {
+            "name": "Guangbiao Wang",
+            "orcid": null
+          },
+          {
+            "name": "Zilin Zhong",
+            "orcid": null
+          },
+          {
+            "name": "Yali Fu",
+            "orcid": null
+          },
+          {
+            "name": "Zizheng Cao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.67704/ioe.2026.260014",
+        "landing_page": "https://doi.org/10.67704/ioe.2026.260014",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.67704/ioe.2026.260014",
+        "publication_date": "2026",
+        "title": "Photonic computing for accelerating computational lithography: a review and outlook",
+        "venue": "Intelligent Opto-Electronics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:20.339826Z",
       "status": "found"
     },
     "crossref:doi:10.70267/aitia.2026168173": {
@@ -7147,11 +7453,95 @@
       "retrieved_at": "2026-08-31T01:07:01.749398Z",
       "status": "not_found"
     },
+    "crossref:title:19dc6b5d4bdc23891a50e8d7804f6003bc1e102674b5ae091bd6b12f0c31d800": {
+      "expires_at": "2026-10-16T01:12:18.173018Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tiankuang Zhou",
+            "orcid": "https://orcid.org/0000-0001-8850-6839"
+          },
+          {
+            "name": "Yun Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Shanglong Li",
+            "orcid": null
+          },
+          {
+            "name": "Guocheng Shao",
+            "orcid": null
+          },
+          {
+            "name": "Ruqi Huang",
+            "orcid": "https://orcid.org/0000-0001-5942-3671"
+          },
+          {
+            "name": "Lu Fang",
+            "orcid": "https://orcid.org/0000-0003-3552-0367"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s43588-026-01057-y",
+        "landing_page": "https://doi.org/10.1038/s43588-026-01057-y",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s43588-026-01057-y",
+        "publication_date": "2026-10-05",
+        "title": "Photonic neuromorphic learning via generalized in situ physical gradient descent",
+        "venue": "Nature Computational Science",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:18.173018Z",
+      "status": "found"
+    },
     "crossref:title:1adc88c76d469186b074be45146ed1c6905b0e273dd119266784192a9811d410": {
       "expires_at": "2026-09-11T01:00:14.804416Z",
       "record": null,
       "retrieved_at": "2026-09-04T01:00:14.804416Z",
       "status": "not_found"
+    },
+    "crossref:title:1b6ad9b162022be246fd1a583f6fdb0a2df8cc3e7cfa9aafb3f8cc11a159d07d": {
+      "expires_at": "2026-10-16T01:12:30.006043Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Omid Poordashtban",
+            "orcid": "https://orcid.org/0009-0007-8659-5808"
+          },
+          {
+            "name": "Yuan Yuan",
+            "orcid": "https://orcid.org/0000-0003-0907-9934"
+          },
+          {
+            "name": "Yanzhi Wang",
+            "orcid": null
+          },
+          {
+            "name": "Hossein Mosallaei",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlastec.2026.116573",
+        "landing_page": "https://doi.org/10.1016/j.optlastec.2026.116573",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.optlastec.2026.116573",
+        "publication_date": "2026-12",
+        "title": "Graphene-enhanced dual-gate electro-optic micro-ring modulator: An optical neural network design",
+        "venue": "Optics &amp; Laser Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:30.006043Z",
+      "status": "found"
     },
     "crossref:title:1d03a31c480cfb0da2e0e91ffd1d2b010abe87f28bab51e4b85693bfb34159e5": {
       "expires_at": "2026-09-07T01:07:04.161417Z",
@@ -7332,6 +7722,12 @@
       },
       "retrieved_at": "2026-09-15T01:03:22.594010Z",
       "status": "found"
+    },
+    "crossref:title:219963c59fe44c86a9261ff166442f09f1ff4f61a9f48ddc2898b118bd7a4e37": {
+      "expires_at": "2026-10-16T01:12:13.437266Z",
+      "record": null,
+      "retrieved_at": "2026-10-09T01:12:13.437266Z",
+      "status": "not_found"
     },
     "crossref:title:228b3b46c10b7220e57f2100055e4141e679d4bbd9d18a67aa288e7230050b53": {
       "expires_at": "2026-08-25T04:25:16.791069Z",
@@ -7663,6 +8059,12 @@
       "retrieved_at": "2026-09-15T01:03:25.776696Z",
       "status": "not_found"
     },
+    "crossref:title:3a51f7b4472436992ff4ea7cce57de44e6d27e757d9b76afb632a491f687240a": {
+      "expires_at": "2026-10-16T01:12:27.640243Z",
+      "record": null,
+      "retrieved_at": "2026-10-09T01:12:27.640243Z",
+      "status": "not_found"
+    },
     "crossref:title:3ccacb8dd677ba5b4456491e97033dec11b91c1a66522c5587dd72b1b5a24238": {
       "expires_at": "2026-10-11T01:36:00.991251Z",
       "record": null,
@@ -7856,6 +8258,12 @@
       },
       "retrieved_at": "2026-08-26T00:32:36.596066Z",
       "status": "found"
+    },
+    "crossref:title:4446845a3536cf09f374b0319594fb1afb99947ae722f227caa83765eb9257a2": {
+      "expires_at": "2026-10-16T01:12:25.159516Z",
+      "record": null,
+      "retrieved_at": "2026-10-09T01:12:25.159516Z",
+      "status": "not_found"
     },
     "crossref:title:444c44cfdbcc6a4860f3ca67f84d55391eeffa7f2d8141b8ad797585399988a9": {
       "expires_at": "2026-09-19T00:59:39.476775Z",
@@ -8409,6 +8817,32 @@
       "retrieved_at": "2026-10-03T01:04:43.956681Z",
       "status": "not_found"
     },
+    "crossref:title:5bc1e880e8942c2612dedd82e70bbbe366420dd13880800413203297ad983856": {
+      "expires_at": "2026-10-16T01:12:19.614968Z",
+      "record": {
+        "abstract": "Matrix–matrix multiplication (MMM) is the dominant computational primitive in modern deep-learning workloads, and its electronic implementation is increasingly bounded by the energy and interconnect limits of CMOS. Existing photonic accelerators largely perform only matrix–vector multiplication or operate at limited scale. We present a free-space photonic MMM architecture that combines two thin-film lithium niobate (TFLN) phase-only spatial light modulators (SLMs) in a 4-f Fourier relay to perform true C=A⋅B in the outer-product, time-integrating regime of Athale and Collins [ Appl. Opt. 21 , 2089 ( 1982 ). APOPAI 0003-6935 10.1364/AO.21.002089 ], replacing kilohertz-rate liquid-crystal or acousto-optic modulation with gigahertz-rate electro-optic phase modulation. The outer product is formed by cascading a row-encoded and a column-encoded amplitude mask in an imaging relay; the Fourier shift theorem is used to place the amplitude-carrying diffraction order of each phase-only SLM in a Fourier-plane spatial filter. We derive the architecture from first principles and validate it with a three-layer physical simulation: scalar-diffraction modeling of the pixelated SLMs and 4-f relay, a full detector-noise Monte Carlo of the time-integrating accumulation, and end-to-end neural-network inference executed entirely through the physical model. Carrier-order placement is accurate to 0.09% of the row pitch with an 8-bit phase DAC; at the nominal 100 mW design point, the simulated processor achieves 6.4 effective bits at N=128 under a conservative 100 ps photon-integration window (about 8 bits when photons are integrated over the full 1 ns cycle), shot-noise limited, and 95.8% classification accuracy on a handwritten-digit benchmark versus 98.3% for float32 and INT8 digital execution. We quantify the effect of inter-pixel phase blur on the phase-only amplitude encoding end-to-end, showing that a two-level checkerboard with a blur of 0.1 pixel pitch limits the usable matrix dimension to N≈64 unless guard rows are added between macropixels, give a full-latency (compute plus readout) throughput and energy accounting, and break down the assumed optical efficiency and the physical volume. For N=1024, the compute subsystem projects 2 PFLOPS at sub-10 fJ/MAC; including detector readout with a pipelined read-out integrated circuit and a deep inner dimension, the full-latency figures are 1.7 PFLOPS at ≈9fJ/MAC, and the simulation quantifies the optical power (≈0.6−6W, depending on the integration window) required to reach INT8 precision at that scale.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Eran Gur",
+            "orcid": "https://orcid.org/0000-0001-8743-5709"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/ao.611779",
+        "landing_page": "https://doi.org/10.1364/ao.611779",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/ao.611779",
+        "publication_date": "2027-05-01",
+        "title": "Gigahertz thin-film lithium niobate phase-SLM architecture for true matrix–matrix multiplication in photonic AI accelerators: design and physical-layer simulation",
+        "venue": "Applied Optics",
+        "year": 2027
+      },
+      "retrieved_at": "2026-10-09T01:12:19.614968Z",
+      "status": "found"
+    },
     "crossref:title:5c1ba4b310ee00973da5eaa4f0ed408af3581a2539974b6418f2f2c538b8fa80": {
       "expires_at": "2026-09-02T00:32:40.533505Z",
       "record": {
@@ -8649,6 +9083,12 @@
       "retrieved_at": "2026-08-10T00:36:47.158828Z",
       "status": "not_found"
     },
+    "crossref:title:6e817dbb5b510e2232cd596305a922791aa6efcf5fa3a2bfc7d7397fccf224ee": {
+      "expires_at": "2026-10-16T01:12:21.155760Z",
+      "record": null,
+      "retrieved_at": "2026-10-09T01:12:21.155760Z",
+      "status": "not_found"
+    },
     "crossref:title:70435da44db6aee6189e01e8a8f298d2e74b2ea23db177882a07cb62fb3edb64": {
       "expires_at": "2026-10-11T01:36:02.423353Z",
       "record": null,
@@ -8748,6 +9188,12 @@
       },
       "retrieved_at": "2026-10-03T01:04:46.106858Z",
       "status": "found"
+    },
+    "crossref:title:744cfa7330b0b9187fda71691d3e26214663c69a7ffb786ff4fa6b1bfc8f0564": {
+      "expires_at": "2026-10-16T01:12:26.730103Z",
+      "record": null,
+      "retrieved_at": "2026-10-09T01:12:26.730103Z",
+      "status": "not_found"
     },
     "crossref:title:7475272df74c99c7e18d836922d1b44387a341aa06006f1e4e430d1b0e9f4b15": {
       "expires_at": "2026-10-02T01:02:44.054897Z",
@@ -8989,6 +9435,12 @@
       "expires_at": "2026-09-03T16:32:36.511687Z",
       "record": null,
       "retrieved_at": "2026-08-27T16:32:36.511687Z",
+      "status": "not_found"
+    },
+    "crossref:title:85fad719be426dd1abc2880ba727f6bf2040469e63d854671a284d4dd81a3535": {
+      "expires_at": "2026-10-16T01:12:15.511826Z",
+      "record": null,
+      "retrieved_at": "2026-10-09T01:12:15.511826Z",
       "status": "not_found"
     },
     "crossref:title:86599e5ae385dfcd91e3ebf2dee6160e6596b26621a6ea3b79ee1f7138ace847": {
@@ -9264,6 +9716,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:19.729058Z",
       "status": "found"
+    },
+    "crossref:title:8fe7434eeb2da040cfb7ff6115fba798dced6cafc235e934a0c9d33a029d2317": {
+      "expires_at": "2026-10-16T01:12:29.156740Z",
+      "record": null,
+      "retrieved_at": "2026-10-09T01:12:29.156740Z",
+      "status": "not_found"
     },
     "crossref:title:912b93f6975d0fba16bc98d2c09ad1939e170a053eeb1de26a72b74ab2ac8be7": {
       "expires_at": "2026-10-02T01:02:48.104006Z",
@@ -10175,6 +10633,12 @@
       "retrieved_at": "2026-08-04T09:38:59.811568Z",
       "status": "not_found"
     },
+    "crossref:title:bdbc22c60c3a0bcc6d2411059c31d964290b52328fc7032c2aaf056cbd4410b7": {
+      "expires_at": "2026-10-16T01:12:23.788231Z",
+      "record": null,
+      "retrieved_at": "2026-10-09T01:12:23.788231Z",
+      "status": "not_found"
+    },
     "crossref:title:be5409d6f32ed8c7609eac93ccbbbe764fd0e60218e4e88f6ceff746cf6a3802": {
       "expires_at": "2026-09-03T16:32:40.233179Z",
       "record": {
@@ -10237,6 +10701,12 @@
       "expires_at": "2026-09-30T01:01:07.199020Z",
       "record": null,
       "retrieved_at": "2026-09-23T01:01:07.199020Z",
+      "status": "not_found"
+    },
+    "crossref:title:bffc26275e0d2e3d0c5c1174d25a3099cf70a24c905e1daae2551670e5ebd9d6": {
+      "expires_at": "2026-10-16T01:12:22.154392Z",
+      "record": null,
+      "retrieved_at": "2026-10-09T01:12:22.154392Z",
       "status": "not_found"
     },
     "crossref:title:c09e415b506f1f52eaf0a53f8b82767e00ec07514e55cc0a44a222d511ecce5a": {
@@ -10776,6 +11246,12 @@
       },
       "retrieved_at": "2026-08-04T09:38:21.835495Z",
       "status": "found"
+    },
+    "crossref:title:d8c90d1607b0ce650fb3d6e3901c57398f53899a65ebd199f2b6ad727e7e1ebe": {
+      "expires_at": "2026-10-16T01:12:12.450182Z",
+      "record": null,
+      "retrieved_at": "2026-10-09T01:12:12.450182Z",
+      "status": "not_found"
     },
     "crossref:title:d91ba011ef4681b2529ccf70b9b84f85dc1d3d4a92925458a515361e55121158": {
       "expires_at": "2026-09-25T01:02:35.012052Z",
@@ -12925,6 +13401,68 @@
       "retrieved_at": "2026-10-06T01:07:13.489386Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/lpor.72008": {
+      "expires_at": "2026-11-08T01:12:16.886732Z",
+      "record": {
+        "abstract": "ABSTRACT Metasurface structural color, which emerges from the interaction between sub‐wavelength meta‐atoms and incident light, presents inherent advantages in terms of resolution and environmental stability, thus positioning it as a crucial enabler for next‐generation displays. Despite remarkable progress achieved in performance metrics, modulation capabilities, and fabrication scalability, there is still a lack of review dedicated to the specific requirements and pixel‐level application prospects for displays. This review introduces a unified framework centered around the “meta‐pixel”, which is a functional unit integrating spectral control and dynamic tunability. We commence by examining the fundamental spectral regulation mechanisms, such as plasmonic resonances, Mie resonances, and mode hybridization. Subsequently, we emphasize the recent advancements in meta‐pixel performance in aspects of color quality, efficiency, angle‐robustness, and ultra‐high resolution, along with the progress in dynamic tuning and addressing technologies. Then, we explore the emerging display applications facilitated by these capabilities, like light field 3D, transparent, and multifunctional displays. Finally, we review the scalable fabrication techniques and discuss the critical challenges and future directions, including intelligent interaction and information fusion. By integrating mechanisms, materials, device engineering, and applications, this review offers a comprehensive foundation for the continuous development and industrialization of metasurface‐based display technologies.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jiawei Zhang",
+            "orcid": "https://orcid.org/0009-0008-7434-1672"
+          },
+          {
+            "name": "Yuyan Peng",
+            "orcid": "https://orcid.org/0000-0002-7012-9286"
+          },
+          {
+            "name": "Jiehui Li",
+            "orcid": null
+          },
+          {
+            "name": "Zhenyou Zou",
+            "orcid": null
+          },
+          {
+            "name": "Weiquan Yang",
+            "orcid": null
+          },
+          {
+            "name": "Yongai Zhang",
+            "orcid": "https://orcid.org/0000-0002-3829-0707"
+          },
+          {
+            "name": "Tailiang Guo",
+            "orcid": null
+          },
+          {
+            "name": "Qun Frank Yan",
+            "orcid": "https://orcid.org/0000-0002-7057-2755"
+          },
+          {
+            "name": "Chaoxing Wu",
+            "orcid": "https://orcid.org/0000-0002-1231-2699"
+          },
+          {
+            "name": "Xiongtu Zhou",
+            "orcid": "https://orcid.org/0000-0003-3991-3467"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.72008",
+        "landing_page": "https://doi.org/10.1002/lpor.72008",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7218979170",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7218979170",
+        "publication_date": "2026-10-03",
+        "title": "Metasurface Structural Color: From Fundamentals to Applications in Next‐Generation Displays",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:16.886732Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/mats.70059": {
       "expires_at": "2026-10-17T01:02:53.511204Z",
       "record": {
@@ -13663,6 +14201,44 @@
       "retrieved_at": "2026-09-07T01:06:52.013328Z",
       "status": "found"
     },
+    "openalex:doi:10.1007/s10773-026-06497-w": {
+      "expires_at": "2026-11-08T01:12:23.399763Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Vahid Esrafilian",
+            "orcid": "https://orcid.org/0009-0009-5350-0731"
+          },
+          {
+            "name": "Bahram Abedi Ravan",
+            "orcid": "https://orcid.org/0000-0003-2979-1136"
+          },
+          {
+            "name": "Alireza Javadi",
+            "orcid": null
+          },
+          {
+            "name": "Hamidreza Daniali",
+            "orcid": "https://orcid.org/0000-0001-7621-9154"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10773-026-06497-w",
+        "landing_page": "https://doi.org/10.1007/s10773-026-06497-w",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7218806574",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7218806574",
+        "publication_date": "2026-10-03",
+        "title": "Principles and Architectures of Coherent Ising Machines: Optical Networks for Optimization and Quantum Neural Computing",
+        "venue": "International Journal of Theoretical Physics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:23.399763Z",
+      "status": "found"
+    },
     "openalex:doi:10.1007/s10825-026-02624-2": {
       "expires_at": "2026-09-21T00:32:11.095169Z",
       "record": {
@@ -14049,6 +14625,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-01T01:17:27.588245Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s13042-026-03321-z": {
+      "expires_at": "2026-11-08T01:12:17.851576Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Junhyeong Lee",
+            "orcid": null
+          },
+          {
+            "name": "Hyun Kwon",
+            "orcid": "https://orcid.org/0000-0003-1169-9892"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s13042-026-03321-z",
+        "landing_page": "https://doi.org/10.1007/s13042-026-03321-z",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7214551584",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214551584",
+        "publication_date": "2026-09-27",
+        "title": "Physically valid adversarial examples for 3D molecular prediction",
+        "venue": "International Journal of Machine Learning and Cybernetics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:17.851576Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s41939-026-01271-1": {
@@ -14753,6 +15359,48 @@
       "retrieved_at": "2026-10-05T01:13:30.867554Z",
       "status": "found"
     },
+    "openalex:doi:10.1016/j.jmapro.2026.10.001": {
+      "expires_at": "2026-11-08T01:12:26.436715Z",
+      "record": {
+        "abstract": "Laser beam shaping technology has become a revolutionary means to improve the quality, stability, and efficiency of many laser manufacturing processes, including laser welding (LW), laser powder bed fusion (LPBF), directed energy deposition (DED), and ultrafast laser processing. Although there have been remarkable experimental developments, the application of computational methods such as finite element analysis (FEA), molecular dynamics (MD) simulations, phase-field modeling, and machine learning (ML) to predict and optimize beam shaping procedures, as well as even to guide procedures, has been little reported in the literature. This review provides a comprehensive, systematic examination of computational methods used in laser beam-shaping research. The paper provides a theoretical background by reviewing the state-of-the-art beam-shaping technologies: static beam shaper technologies (diffractive optical elements (DOEs), aspheric lens groups and microlens arrays), dynamic beam shaper technologies (spatial light modulators (SLMs), deformable mirrors (DMs), acousto-optic deflectors (AODs), multi-plane light conversion (MPLC)), coherent beam combining (CBC) and dynamic beam laser (DBL). In the following sections, we discuss the current status of computational simulations for shaped-beam processing, classify simulation methodologies by manufacturing domain, and analyze the potential of artificial intelligence (AI) for beam-shaping optimization. The review also identifies opportunities, limitations, and challenges, and highlights promising research areas where computational modeling and beam-shaping technology converge. This review aims to structure this interdisciplinary research field and offer researchers and practitioners a framework for adopting computational tools to continue pursuing beam-shaping-enabled manufacturing processes. The review summarizes the field's evolution from descriptive modeling to inverse modeling of optimal beam shapes; the evolution of predictive capability from atomistic to part scale using multi-fidelity frameworks; and the emergence of new capabilities through the use of AI, including real-time closed-loop beam control, and identifies physics-informed neural networks (PINNs), digital-twin integration, and multi-objective inverse design as key areas for future development.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Abu Bakar Siddique",
+            "orcid": "https://orcid.org/0009-0006-0055-9981"
+          },
+          {
+            "name": "Khadija Mushtaq",
+            "orcid": null
+          },
+          {
+            "name": "Wanlin Zhou",
+            "orcid": "https://orcid.org/0009-0006-6066-0045"
+          },
+          {
+            "name": "Adnan Javed",
+            "orcid": "https://orcid.org/0009-0009-2732-3110"
+          },
+          {
+            "name": "Aqib Mashood Khan",
+            "orcid": "https://orcid.org/0000-0002-4446-4478"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.jmapro.2026.10.001",
+        "landing_page": "https://doi.org/10.1016/j.jmapro.2026.10.001",
+        "open_access_url": "https://doi.org/10.1016/j.jmapro.2026.10.001",
+        "openalex_id": "https://openalex.org/W7220661919",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220661919",
+        "publication_date": "2026-10-06",
+        "title": "A state-of-the-art review on computational techniques in laser beam shaping across additive manufacturing",
+        "venue": "Journal of Manufacturing Processes",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:26.436715Z",
+      "status": "found"
+    },
     "openalex:doi:10.1016/j.nxener.2026.100879": {
       "expires_at": "2026-09-17T04:25:18.047311Z",
       "record": {
@@ -14975,6 +15623,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-05T01:13:35.765770Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.optlastec.2026.116573": {
+      "expires_at": "2026-11-08T01:12:30.430342Z",
+      "record": {
+        "abstract": "To improve integrated photonic systems for optical computing applications, the ability to control both the amplitude and phase of microring modulator transmission is a key capability for advanced photonic integrated circuits. In this work, we present a novel dual-gate microring modulator that integrates a Z-shaped silicon PN junction with a graphene overlay, offering enhanced electro-optic tunability beyond conventional single-gate designs. The device consists of two electrically coupled active regions, one PN junction and the other incorporating graphene, allowing modulation of both the real and imaginary parts of the effective refractive index through control voltages V an and V gr . This dual-gate approach provides control over the transmission phase and amplitude, which are important for complex-valued modulation in programmable photonic circuits. We further demonstrate its utility by implementing a simplified optical neural network (ONN) architecture to illustrate end-to-end feasibility, achieving accuracies of 93.4% and 81.95% on the MNIST and Fashion-MNIST datasets, respectively. Multiphysics simulations using Lumerical Charge, finite-difference eigenmode (FDE), and finite-difference time-domain (FDTD) validate the modulator’s performance and highlight its potential for next-generation integrated photonic computing platforms.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Omid Poordashtban",
+            "orcid": "https://orcid.org/0009-0007-8659-5808"
+          },
+          {
+            "name": "Yuan Yuan",
+            "orcid": "https://orcid.org/0000-0003-0907-9934"
+          },
+          {
+            "name": "Yanzhi Wang",
+            "orcid": null
+          },
+          {
+            "name": "Hossein Mosallaei",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlastec.2026.116573",
+        "landing_page": "https://doi.org/10.1016/j.optlastec.2026.116573",
+        "open_access_url": "https://doi.org/10.1016/j.optlastec.2026.116573",
+        "openalex_id": "https://openalex.org/W7220453379",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220453379",
+        "publication_date": "2026-10-05",
+        "title": "Graphene-enhanced dual-gate electro-optic micro-ring modulator: An optical neural network design",
+        "venue": "Optics & Laser Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:30.430342Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.simpat.2026.103359": {
@@ -16185,6 +16871,48 @@
       "retrieved_at": "2026-08-28T16:53:25.962827Z",
       "status": "found"
     },
+    "openalex:doi:10.1038/s41467-026-77376-5": {
+      "expires_at": "2026-11-08T01:12:28.860916Z",
+      "record": {
+        "abstract": "Optical skyrmions are topological forms of structured light offering an unbounded encoding alphabet robust to perturbations. However, their practical use is limited by the absence of a topological detector, since states distinguished by their topological invariant, N, are not necessarily orthogonal. Here, we demonstrate the first deterministic detector for optical skyrmions using a deep diffractive neural network trained in real time, with the number of training parameters reduced by a factor of 1000. The network comprises two independent processing channels, each containing five diffractive layers, that map input topologies onto spatially separated output channels, enabling identification of N. We demonstrate the detector using 81 topologies constructed from vectorial Laguerre-Gaussian modes, achieving high accuracy even at noise levels that preclude conventional Stokes polarimetry. Finally, we transmit and recover an image encoded using a 15-level topological alphabet with negligible crosstalk, demonstrating a practical route towards topology-enabled optical communication. The article presents the first direct detector of optical skyrmionic topologies using a deep diffractive neural network, enabling seamless detection of symbols encoded in skyrmionic topology. Its simplified phase layers reduce network complexity and enable in situ training.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hadrian Bezuidenhout",
+            "orcid": "https://orcid.org/0009-0000-8814-3118"
+          },
+          {
+            "name": "Cade Peters",
+            "orcid": "https://orcid.org/0000-0003-4306-3602"
+          },
+          {
+            "name": "Ram Nandan Kumar",
+            "orcid": "https://orcid.org/0000-0001-8419-3804"
+          },
+          {
+            "name": "Andrew Forbes",
+            "orcid": "https://orcid.org/0000-0003-2552-5586"
+          },
+          {
+            "name": "Isaac M. Nape",
+            "orcid": "https://orcid.org/0000-0001-9517-6612"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41467-026-77376-5",
+        "landing_page": "https://doi.org/10.1038/s41467-026-77376-5",
+        "open_access_url": "https://doi.org/10.1038/s41467-026-77376-5",
+        "openalex_id": "https://openalex.org/W7220834184",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220834184",
+        "publication_date": "2026-10-07",
+        "title": "Deep diffractive optical neural networks for detecting skyrmionic topologies of light and their live training",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:28.860916Z",
+      "status": "found"
+    },
     "openalex:doi:10.1038/s41467-026-77397-0": {
       "expires_at": "2026-10-10T01:00:35.213775Z",
       "record": {
@@ -16663,6 +17391,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-01T01:17:27.132913Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s43588-026-01057-y": {
+      "expires_at": "2026-11-08T01:12:18.583070Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tiankuang Zhou",
+            "orcid": "https://orcid.org/0000-0001-8850-6839"
+          },
+          {
+            "name": "Yun Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Shanglong Li",
+            "orcid": "https://orcid.org/0009-0005-3667-6461"
+          },
+          {
+            "name": "Guocheng Shao",
+            "orcid": "https://orcid.org/0009-0009-2455-2460"
+          },
+          {
+            "name": "Ruqi Huang",
+            "orcid": "https://orcid.org/0000-0001-5942-3671"
+          },
+          {
+            "name": "Lu Fang",
+            "orcid": "https://orcid.org/0000-0003-3552-0367"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s43588-026-01057-y",
+        "landing_page": "https://doi.org/10.1038/s43588-026-01057-y",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7220438215",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220438215",
+        "publication_date": "2026-10-05",
+        "title": "Photonic neuromorphic learning via generalized in situ physical gradient descent",
+        "venue": "Nature Computational Science",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:18.583070Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s44310-026-00146-0": {
@@ -20281,6 +21055,32 @@
       "retrieved_at": "2026-09-13T01:07:25.277967Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/ao.611779": {
+      "expires_at": "2026-11-08T01:12:20.033679Z",
+      "record": {
+        "abstract": "Matrix–matrix multiplication (MMM) is the dominant computational primitive in modern deep-learning workloads, and its electronic implementation is increasingly bounded by the energy and interconnect limits of CMOS. Existing photonic accelerators largely perform only matrix–vector multiplication or operate at limited scale. We present a free-space photonic MMM architecture that combines two thin-film lithium niobate (TFLN) phase-only spatial light modulators (SLMs) in a 4-f Fourier relay to perform true C=A⋅B in the outer-product, time-integrating regime of Athale and Collins [ Appl. Opt. 21 , 2089 ( 1982 ). APOPAI 0003-6935 10.1364/AO.21.002089 ], replacing kilohertz-rate liquid-crystal or acousto-optic modulation with gigahertz-rate electro-optic phase modulation. The outer product is formed by cascading a row-encoded and a column-encoded amplitude mask in an imaging relay; the Fourier shift theorem is used to place the amplitude-carrying diffraction order of each phase-only SLM in a Fourier-plane spatial filter. We derive the architecture from first principles and validate it with a three-layer physical simulation: scalar-diffraction modeling of the pixelated SLMs and 4-f relay, a full detector-noise Monte Carlo of the time-integrating accumulation, and end-to-end neural-network inference executed entirely through the physical model. Carrier-order placement is accurate to 0.09% of the row pitch with an 8-bit phase DAC; at the nominal 100 mW design point, the simulated processor achieves 6.4 effective bits at N=128 under a conservative 100 ps photon-integration window (about 8 bits when photons are integrated over the full 1 ns cycle), shot-noise limited, and 95.8% classification accuracy on a handwritten-digit benchmark versus 98.3% for float32 and INT8 digital execution. We quantify the effect of inter-pixel phase blur on the phase-only amplitude encoding end-to-end, showing that a two-level checkerboard with a blur of 0.1 pixel pitch limits the usable matrix dimension to N≈64 unless guard rows are added between macropixels, give a full-latency (compute plus readout) throughput and energy accounting, and break down the assumed optical efficiency and the physical volume. For N=1024, the compute subsystem projects 2 PFLOPS at sub-10 fJ/MAC; including detector readout with a pipelined read-out integrated circuit and a deep inner dimension, the full-latency figures are 1.7 PFLOPS at ≈9fJ/MAC, and the simulation quantifies the optical power (≈0.6−6W, depending on the integration window) required to reach INT8 precision at that scale.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Eran Gur",
+            "orcid": "https://orcid.org/0000-0001-8743-5709"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/ao.611779",
+        "landing_page": "https://doi.org/10.1364/ao.611779",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7213309197",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213309197",
+        "publication_date": "2026-09-15",
+        "title": "Gigahertz thin-film lithium niobate phase-SLM architecture for true matrix–matrix multiplication in photonic AI accelerators: design and physical-layer simulation",
+        "venue": "Applied Optics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:20.033679Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/cleo_at.2026.atu1e.6": {
       "expires_at": "2026-09-03T09:38:51.368427Z",
       "record": {
@@ -21559,6 +22359,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-27T02:02:16.694588Z",
+      "status": "found"
+    },
+    "openalex:doi:10.21203/rs.3.rs-11002782/v1": {
+      "expires_at": "2026-11-08T01:12:19.200659Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hongqiang ZHOU",
+            "orcid": null
+          },
+          {
+            "name": "Likuo Jia",
+            "orcid": null
+          },
+          {
+            "name": "Tianlong Man",
+            "orcid": "https://orcid.org/0000-0002-2463-7458"
+          },
+          {
+            "name": "Xunbo Yu",
+            "orcid": null
+          },
+          {
+            "name": "Sheng Shen",
+            "orcid": null
+          },
+          {
+            "name": "Liangcai Cao",
+            "orcid": "https://orcid.org/0000-0002-8099-2948"
+          },
+          {
+            "name": "万玉红 Wan Yuhong",
+            "orcid": "https://orcid.org/0000-0002-4253-1067"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-11002782/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-11002782/v1",
+        "open_access_url": "https://doi.org/10.21203/rs.3.rs-11002782/v1",
+        "openalex_id": "https://openalex.org/W7220866371",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220866371",
+        "publication_date": "2026-10-07",
+        "title": "Light-Field-to-Bits Computing via an Online-Trainable Cascaded Optoelectronic Neural Network",
+        "venue": "Research Square",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:19.200659Z",
       "status": "found"
     },
     "openalex:doi:10.21595/jve.2026.26644": {
@@ -22993,6 +23843,48 @@
       "retrieved_at": "2026-10-05T01:13:28.004765Z",
       "status": "found"
     },
+    "openalex:doi:10.67704/ioe.2026.260014": {
+      "expires_at": "2026-11-08T01:12:20.774873Z",
+      "record": {
+        "abstract": "Computational lithography has become indispensable for sustaining pattern fidelity and manufacturing yield as semiconductor technology advances toward full-chip inverse lithography technology (ILT). However, the increasing demands for high-fidelity physical modeling and large-scale simulation impose severe burdens on conventional electronic computing platforms in terms of energy consumption, memory bandwidth, and data movement. This review systematically examines the foundations of computational lithography and analyzes the current acceleration approaches, including Graphics Processing Unit (GPU)-based parallel computing and artificial intelligence (AI)-based surrogate models, along with their limitations. We further discuss photonic computing as a promising emerging paradigm, emphasizing its intrinsic parallelism, low latency, energy efficiency, and physical compatibility with linear operations. Photonic systems show strong potential for accelerating key computational kernels such as convolution, Fourier transform, and neural network inference. The optoelectronic hybrid architecture represents a viable near-term solution, in which photonic processors should be viewed as linear-kernel coprocessors rather than standalone replacements for electronic lithography engines, with particular attention to challenges in I/O bottlenecks, system stability, and numerical precision. This work provides a comprehensive framework for understanding the synergy between photonic computing and computational lithography and outlines future research directions.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuchun Huang",
+            "orcid": null
+          },
+          {
+            "name": "Guangbiao Wang",
+            "orcid": null
+          },
+          {
+            "name": "Zilin Zhong",
+            "orcid": null
+          },
+          {
+            "name": "Yali Fu",
+            "orcid": null
+          },
+          {
+            "name": "Zizheng Cao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.67704/ioe.2026.260014",
+        "landing_page": "https://doi.org/10.67704/ioe.2026.260014",
+        "open_access_url": "https://doi.org/10.67704/ioe.2026.260014",
+        "openalex_id": "https://openalex.org/W7214679830",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7214679830",
+        "publication_date": "2026-01-01",
+        "title": "Photonic computing for accelerating computational lithography: a review and outlook",
+        "venue": "Intelligent Opto-Electronics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:20.774873Z",
+      "status": "found"
+    },
     "openalex:doi:10.70267/aitia.2026168173": {
       "expires_at": "2026-10-16T01:02:27.253007Z",
       "record": {
@@ -23474,6 +24366,32 @@
       "retrieved_at": "2026-09-30T01:10:07.270923Z",
       "status": "found"
     },
+    "openalex:title:219963c59fe44c86a9261ff166442f09f1ff4f61a9f48ddc2898b118bd7a4e37": {
+      "expires_at": "2026-10-16T01:12:13.933615Z",
+      "record": {
+        "abstract": "We revisit an established Quantum Control objective, characterize its exact local metric geometry, and reposition it as a rigorous benchmark for Search and Optimization. The trap-free topology of the landscape, established two decades ago, guarantees unhindered optimal pathways, but global topology alone does not govern convergence speed. Although the so-called Quantum Sphere is defined by the fourth power of the control field, we show that its yield gap admits an exact representation as a nonnegative linear combination of $\\sin^2$ terms. From this single identity, we derive a two-sided quadratic sandwich with ratio $4/π^2$ on a certified, worst-case quarter-wave region, proving the optimal peak nondegenerate modulo its affine gauge and well-conditioned. For white-box optimization, on a halved (eighth-wave) region, the objective satisfies a Polyak-Łojasiewicz inequality with an explicit constant, granting Gradient Descent a linear rate of $1 - 16/(π^4κ_r)$, where $κ_r$ is the condition number of the relevant Hessian block. For black-box optimization, we prove that the elitist single-parent Evolution Strategy converges linearly, almost surely and in expected hitting time, from a certified sublevel set, despite the landscape's continuous gauge symmetry and its lattice of periodic optima; the certified level is explicit whenever the landscape is trap-free, and near the optimum the strategy provably sees only the quadratic tangent of the peak. Systematic numerical simulations corroborate the theory. Finally, we show that additive input (actuator) noise reweights each term of the representation by a Debye-Waller factor without disrupting the landscape's structure, and outline open challenges: output (signal) noise, far-field plateau escape, angular-synchronization certificates, and another physically scalable benchmark (SHG with Glass).",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ofer M. Shir",
+            "orcid": "https://orcid.org/0000-0002-8257-5160"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.03788",
+        "landing_page": "https://arxiv.org/abs/2610.03788",
+        "open_access_url": "https://arxiv.org/abs/2610.03788",
+        "openalex_id": "https://openalex.org/W7220732903",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220732903",
+        "publication_date": "2026-09-30",
+        "title": "The Quantum Sphere: A Physically Realizable Optimization Benchmark with Provable Linear Convergence in White- and Black-Box Settings",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:13.933615Z",
+      "status": "found"
+    },
     "openalex:title:249de29380f61cbfa04e045bb6ff4ca3e6b09932fa43c62ead34e26d394beb77": {
       "expires_at": "2026-08-27T00:32:29.598699Z",
       "record": null,
@@ -23796,6 +24714,48 @@
       "retrieved_at": "2026-09-15T01:03:26.735474Z",
       "status": "found"
     },
+    "openalex:title:3a51f7b4472436992ff4ea7cce57de44e6d27e757d9b76afb632a491f687240a": {
+      "expires_at": "2026-10-16T01:12:28.173485Z",
+      "record": {
+        "abstract": "We investigate decentralized nonsmooth nonconvex stochastic optimization over a network of $n$ nodes, with the goal of finding an $(δ,ε)$-Goldstein stationary point. The best existing algorithm achieves $O(δ^{-1}(ε^{-3}+dε^{-1}))$ sample complexity and $\\widetilde{O}(γ^{-1/2}δ^{-1}(ε^{-3}+dε^{-1}))$ communication complexity, where $d$ is the problem dimension and $γ$ is the spectral gap of the communication matrix. However, the polynomial dependence on $d$ can be a major bottleneck in high-dimensional regimes. In this paper, we propose a novel algorithm that achieves $O(δ^{-1}ε^{-3})$ sample complexity and $\\widetilde{O}(γ^{-1/2}δ^{-1}ε^{-3})$ communication complexity. The primary technique is an elegant decentralized online-to-nonconvex conversion that reduces the original problem to a decentralized online convex optimization (D-OCO) problem. A key property of our conversion is that its consensus requirements can be inherited directly from the consensus of the underlying D-OCO decisions. In particular, this property enables us to establish an explicit connection between the dimension dependence and the consensus error, which in turn shows that the polynomial dependence on $d$ can be removed with only logarithmic additional communication.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuanyu Wan",
+            "orcid": "https://orcid.org/0000-0002-3577-5186"
+          },
+          {
+            "name": "Lan Xue",
+            "orcid": null
+          },
+          {
+            "name": "Haomin Bai",
+            "orcid": "https://orcid.org/0009-0007-5602-4844"
+          },
+          {
+            "name": "Tong Wei",
+            "orcid": null
+          },
+          {
+            "name": "Mingli Song",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.05789",
+        "landing_page": "https://arxiv.org/abs/2610.05789",
+        "open_access_url": "https://arxiv.org/abs/2610.05789",
+        "openalex_id": "https://openalex.org/W7220654461",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220654461",
+        "publication_date": "2026-10-05",
+        "title": "Dimension-Free Decentralized Nonsmooth Nonconvex Stochastic Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:28.173485Z",
+      "status": "found"
+    },
     "openalex:title:3ccacb8dd677ba5b4456491e97033dec11b91c1a66522c5587dd72b1b5a24238": {
       "expires_at": "2026-10-11T01:36:01.483064Z",
       "record": {
@@ -23986,6 +24946,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-04T01:00:20.164892Z",
+      "status": "found"
+    },
+    "openalex:title:4446845a3536cf09f374b0319594fb1afb99947ae722f227caa83765eb9257a2": {
+      "expires_at": "2026-10-16T01:12:25.726038Z",
+      "record": {
+        "abstract": "A novel discovery is one which is both useful and surprising: a generative model's output is a useful discovery if it has a low probability of being generated (it's surprising) and a high reward (it's useful). Global optimization can directly increase the probability of sampling high rewards but typically requires updating model weights. Such gradient based optimization is expensive and bars using capable closed-source models. Instead, modern search methods for discovery sacrifice the global target, and use evolutionary algorithms with local reward maximizing objectives, permitting the search to focus only on high probability samples. In this paper, we interpret various evolutionary algorithms as approximate Markov Chain Monte Carlo, an optimization-free method to sample from complex distributions. This interpretation allows developing Distribution Matching Evolutionary Algorithms (DME), a class of search methods which sample from a global target distribution without updating weights. Empirically, DME has a higher sample efficiency than existing methods on problems requiring many samples to find a solution.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yonatan Gideoni",
+            "orcid": null
+          },
+          {
+            "name": "Yarin Gal",
+            "orcid": "https://orcid.org/0000-0002-2733-2078"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.03833",
+        "landing_page": "https://arxiv.org/abs/2610.03833",
+        "open_access_url": "https://arxiv.org/abs/2610.03833",
+        "openalex_id": "https://openalex.org/W7220738756",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220738756",
+        "publication_date": "2026-10-02",
+        "title": "Distribution Matching Evolutionary Algorithms for Rare Event Sampling",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:25.726038Z",
       "status": "found"
     },
     "openalex:title:44cd5bfa9f21cda4013aab622c657016ae2639db19f541576c77d328402bd988": {
@@ -24386,6 +25376,12 @@
       "retrieved_at": "2026-08-10T00:36:48.038952Z",
       "status": "not_found"
     },
+    "openalex:title:6e817dbb5b510e2232cd596305a922791aa6efcf5fa3a2bfc7d7397fccf224ee": {
+      "expires_at": "2026-10-16T01:12:21.793120Z",
+      "record": null,
+      "retrieved_at": "2026-10-09T01:12:21.793120Z",
+      "status": "not_found"
+    },
     "openalex:title:70435da44db6aee6189e01e8a8f298d2e74b2ea23db177882a07cb62fb3edb64": {
       "expires_at": "2026-10-11T01:36:02.973351Z",
       "record": null,
@@ -24432,6 +25428,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-12T00:59:34.366541Z",
+      "status": "found"
+    },
+    "openalex:title:744cfa7330b0b9187fda71691d3e26214663c69a7ffb786ff4fa6b1bfc8f0564": {
+      "expires_at": "2026-10-16T01:12:27.329144Z",
+      "record": {
+        "abstract": "Inverse design has been transformative in nanophotonics, providing an automated means of realizing high-performance, non-intuitive devices. However, the primary bottleneck of existing inverse design approaches is their reliance on time-consuming and computationally expensive full-wave electromagnetic simulations. In this work, we extend the Precomputed Numerical Green Function (PNGF) method for the first time to nanophotonic inverse design, accelerating evaluation of the forward problem by multiple orders of magnitude with no loss in accuracy compared to the full-wave solution. After a single, fully parallelizable precomputation step, both the objective function and its gradient can be evaluated through simple calculations whose cost scales linearly with the size of the design region. A low-rank matrix update technique further reduces the cost of objective function evaluation, yielding sub-millisecond computation times per iteration. Design examples using both gradient-based level-set optimization and tile-flipping direct binary search often achieve more than three orders of magnitude speedup in design time, resulting in an ultrafast photonic inverse design platform that can design new devices from scratch in seconds.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Thi Phuong Thao Nguyen",
+            "orcid": null
+          },
+          {
+            "name": "James Wang",
+            "orcid": null
+          },
+          {
+            "name": "Constantine Sideris",
+            "orcid": "https://orcid.org/0000-0002-3042-4889"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.02821",
+        "landing_page": "https://arxiv.org/abs/2610.02821",
+        "open_access_url": "https://arxiv.org/abs/2610.02821",
+        "openalex_id": "https://openalex.org/W7220424658",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220424658",
+        "publication_date": "2026-10-02",
+        "title": "Fast Nanophotonic Inverse Design using Precomputed Numerical Green Functions",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:27.329144Z",
       "status": "found"
     },
     "openalex:title:7475272df74c99c7e18d836922d1b44387a341aa06006f1e4e430d1b0e9f4b15": {
@@ -24680,6 +25710,52 @@
       "retrieved_at": "2026-08-27T16:32:37.119995Z",
       "status": "not_found"
     },
+    "openalex:title:85fad719be426dd1abc2880ba727f6bf2040469e63d854671a284d4dd81a3535": {
+      "expires_at": "2026-10-16T01:12:16.087752Z",
+      "record": {
+        "abstract": "We study zeroth-order optimization of convex and strongly convex functions with Hölder smoothness of order $β>2$ from values corrupted by random noise with bias independent of the method's random directions, a Lipschitz systematic error and a bounded adversarial error. We measure the number of function evaluations (calls), of sequential rounds of parallel calls, and the largest tolerable systematic and adversarial errors. For strongly convex functions with a bounded Hessian, we prove a lower bound of order $d^2\\varepsilon^{-β/(β-1)}$ on the number of calls, where $d$ is the dimension and $\\varepsilon$ the accuracy, and find the sharp power of $d$ under the stronger Hilbert--Schmidt smoothness for all $β>2$. An accelerated finite-difference method attains them in $O(\\sqrtκ\\log(1/\\varepsilon))$ rounds for condition number $κ$, like Nesterov's method with exact gradients, and tolerates the optimal systematic and, up to logarithms, adversarial errors; rate-optimal methods need $Ω(\\log d)$ rounds. The same number of calls is attained when the Hessian grows at most linearly with the gradient and, for centered noise, without an upper bound on the Hessian, also in logarithmically many rounds. For convex functions, our lower bound improves the known one polynomially in $d$ and is tight at the curvature of the hard instances; the systematic level is again optimal. These bounds extend to general norms and constraints; on the $\\ell_1$ ball, mirror descent needs calls nearly linear in $d$. Experiments confirm the theory.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Timofei Loginov",
+            "orcid": null
+          },
+          {
+            "name": "Darina Dvinskikh",
+            "orcid": "https://orcid.org/0000-0003-1757-1021"
+          },
+          {
+            "name": "Nazarii Tupitsa",
+            "orcid": "https://orcid.org/0000-0002-9005-0129"
+          },
+          {
+            "name": "Osman Osmanov",
+            "orcid": "https://orcid.org/0000-0001-7956-448X"
+          },
+          {
+            "name": "Yuriy  V. Dorn",
+            "orcid": "https://orcid.org/0000-0003-0533-3018"
+          },
+          {
+            "name": "Alexander  Vladimirovich Gasnikov",
+            "orcid": "https://orcid.org/0000-0002-7386-039X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.05517",
+        "landing_page": "https://arxiv.org/abs/2610.05517",
+        "open_access_url": "https://arxiv.org/abs/2610.05517",
+        "openalex_id": "https://openalex.org/W7220657122",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220657122",
+        "publication_date": "2026-10-04",
+        "title": "Minimax Call Complexity, Rounds and Admissible Noise in Zeroth-Order Optimization of Highly Smooth Functions",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:16.087752Z",
+      "status": "found"
+    },
     "openalex:title:868b33466991620b31a192ee87b8df510a3ef61fed6e187284bb2224d98cfda0": {
       "expires_at": "2026-08-17T00:36:45.916459Z",
       "record": null,
@@ -24764,6 +25840,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:31.032934Z",
+      "status": "found"
+    },
+    "openalex:title:8fe7434eeb2da040cfb7ff6115fba798dced6cafc235e934a0c9d33a029d2317": {
+      "expires_at": "2026-10-16T01:12:29.599407Z",
+      "record": {
+        "abstract": "Machine unlearning seeks to remove the influence of designated training data from a trained model without retraining from scratch. Retrain-free methods such as Selective Synaptic Dampening (SSD) and its label-free variant LFSSD avoid full retraining but still require backpropagation and parameter importance computed over the entire dataset. We ask: what happens when a deletion request arrives with only a few images of the class to be forgotten? To answer this question, we introduce UnAct, a gradient-free class-unlearning method that needs only forward passes over the forget images. UnAct scores late-layer units by their responses, attenuates the most responsive connections, and repeats this for up to 20 rounds using no gradients, no labels, and no retained data. On ResNet-18 trained with CIFAR-10, CIFAR-20, and CIFAR-100, UnAct is competitive with SSD and LFSSD when forgetting entire classes and, unlike them, never collapses the network when forget data is scarce. On ResNet-18, across all tested sizes, UnAct's retain accuracy stays within 2.5 points of retraining, while SSD and LFSSD, at their full-class operating points, lose up to 86 points on some classes. With five forget images on CIFAR-10, UnAct's distance to retraining is 0.21 points, against 67 for LFSSD and 90 for SSD, and re-selecting SSD's threshold at each size with an oracle does not close the gap. In preliminary transfer to ViT-B/16, UnAct's distance to retraining is 11.5 against 33.7 for SSD, and a request is 19x faster than SSD when SSD computes its importance at request time. The code is available at https://github.com/abdulmuizz0903/UnAct",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Saeed Abdul Muizz",
+            "orcid": null
+          },
+          {
+            "name": "AAYAT RAFIQ",
+            "orcid": null
+          },
+          {
+            "name": "Iqra Altaf Gillani",
+            "orcid": "https://orcid.org/0000-0001-8656-4023"
+          },
+          {
+            "name": "Janibul Bashir",
+            "orcid": "https://orcid.org/0000-0001-6704-0937"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.04426",
+        "landing_page": "https://arxiv.org/abs/2610.04426",
+        "open_access_url": "https://arxiv.org/abs/2610.04426",
+        "openalex_id": "https://openalex.org/W7220659071",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220659071",
+        "publication_date": "2026-10-03",
+        "title": "UnAct: Gradient-Free Unlearning via Targeted Activation Intervention",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:29.599407Z",
       "status": "found"
     },
     "openalex:title:929f7f41a524e231d5b9648a6d50bf54725da5a7741153f019e519531d57830a": {
@@ -25536,11 +26650,103 @@
       "retrieved_at": "2026-08-04T09:39:00.349544Z",
       "status": "not_found"
     },
+    "openalex:title:bdbc22c60c3a0bcc6d2411059c31d964290b52328fc7032c2aaf056cbd4410b7": {
+      "expires_at": "2026-10-16T01:12:24.444326Z",
+      "record": {
+        "abstract": "As Artificial Intelligence (AI) has evolved from task-specific models to foundation models and agents, the scope of trustworthy AI has expanded from model-level robustness to the reliability and safety of broader AI systems. This evolution has also expanded the attack surface from individual models to broader system-level interactions, including tool use, context, and interaction trajectories with dynamic environments. As a result, maintaining reliable and safe behavior under changing or deliberately manipulated conditions has become increasingly challenging. The search for effective attacks and defenses often relies on black-box feedback to navigate discrete choices among words, actions, system components, or their combinations. Multiple objectives and expensive candidate evaluations further limit what can be explored. Evolutionary Computation (EC), with its population-based, gradient-free search and flexible variation and selection mechanisms, is well suited to these settings. This survey reviews how EC has been applied to trustworthy AI across three directions: evolutionary attacks, evolutionary defenses, and trustworthy self-evolving AI systems. Unlike prior reviews that treat trustworthy AI, EC, and self-evolving systems largely separately, we connect these lines through a common evolutionary perspective. For self-evolving AI, we examine how trustworthiness governs the generation and retention of updates that shape subsequent adaptation. We further synthesize evaluation methods and benchmark resources from both trustworthiness and evolutionary-search perspectives. Finally, we discuss key challenges and future research directions toward more effective and reliable use of EC in trustworthy AI.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Junhao Dong",
+            "orcid": null
+          },
+          {
+            "name": "Chenkai Wang",
+            "orcid": null
+          },
+          {
+            "name": "Xuanhui Lin",
+            "orcid": null
+          },
+          {
+            "name": "Mingrong Gong",
+            "orcid": null
+          },
+          {
+            "name": "Siyu Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yuqing Wen",
+            "orcid": null
+          },
+          {
+            "name": "Jiao Liu",
+            "orcid": null
+          },
+          {
+            "name": "Catherine Huang",
+            "orcid": null
+          },
+          {
+            "name": "Gary G. Yen",
+            "orcid": "https://orcid.org/0000-0001-8851-5348"
+          },
+          {
+            "name": "Xin Yao",
+            "orcid": null
+          },
+          {
+            "name": "Yew Soon Ong",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.02996",
+        "landing_page": "https://arxiv.org/abs/2610.02996",
+        "open_access_url": "https://arxiv.org/abs/2610.02996",
+        "openalex_id": "https://openalex.org/W7220464229",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220464229",
+        "publication_date": "2026-10-02",
+        "title": "Evolutionary Computation for Trustworthy AI: From Attacks and Defenses to Self-Evolving Era",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:24.444326Z",
+      "status": "found"
+    },
     "openalex:title:be860c96415d73cb9f5a30d4a66847c69de8bd3275c84aa0e684245d477756b2": {
       "expires_at": "2026-09-30T01:01:08.074760Z",
       "record": null,
       "retrieved_at": "2026-09-23T01:01:08.074760Z",
       "status": "not_found"
+    },
+    "openalex:title:bffc26275e0d2e3d0c5c1174d25a3099cf70a24c905e1daae2551670e5ebd9d6": {
+      "expires_at": "2026-10-16T01:12:22.737623Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "D.W. Willems",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": null,
+        "landing_page": "https://research.tue.nl/en/studentTheses/593997b8-2fcc-41ca-a1fb-b37c2d3f4aa5",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7216999921",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7216999921",
+        "publication_date": null,
+        "title": "Engineering Pure Polarized Microwave Fields for Hyperfine Qubit Control",
+        "venue": "TU/e Research Portal",
+        "year": null
+      },
+      "retrieved_at": "2026-10-09T01:12:22.737623Z",
+      "status": "found"
     },
     "openalex:title:c09e415b506f1f52eaf0a53f8b82767e00ec07514e55cc0a44a222d511ecce5a": {
       "expires_at": "2026-09-03T16:32:38.565419Z",
@@ -25775,6 +26981,36 @@
       "record": null,
       "retrieved_at": "2026-09-04T01:00:25.102264Z",
       "status": "not_found"
+    },
+    "openalex:title:d8c90d1607b0ce650fb3d6e3901c57398f53899a65ebd199f2b6ad727e7e1ebe": {
+      "expires_at": "2026-10-16T01:12:13.039057Z",
+      "record": {
+        "abstract": "Model Predictive Control (MPC) provides a structured and constraint-aware mechanism for decision-making, but its reliance on optimization-friendly analytical dynamics models limits its use in tasks with contacts and other hard-to-model state dependencies. Model-free reinforcement learning avoids explicit modeling assumptions but typically requires large amounts of interaction data. We present a learning-based MPC framework that combines the data efficiency and structure of local model-based planning with learned components that compensate for incomplete dynamics and finite-horizon myopia. The method augments a nominal analytical model with a residual dynamics network that learns missing state-dependent effects from data and combines the resulting planner with a learned action-value critic that injects long-horizon MDP structure into the local iLQR optimization. To make this practical at reinforcement-learning scale, we develop a GPU-accelerated batched iLQR solver that evaluates learned dynamics and critic networks inside the optimal-control loop and solves thousands of trajectory-optimization problems in parallel. The complete system is integrated into a robotics simulator, enabling scalable model-based reinforcement learning under incomplete dynamics. Experiments on biased and incompletely modeled control tasks show that the approach improves closed-loop control performance while preserving the model-based structure needed for efficient constrained trajectory optimization.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Philipp Schoch",
+            "orcid": null
+          },
+          {
+            "name": "Markus Ryll",
+            "orcid": "https://orcid.org/0000-0003-2203-2946"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.05359",
+        "landing_page": "https://arxiv.org/abs/2610.05359",
+        "open_access_url": "https://arxiv.org/abs/2610.05359",
+        "openalex_id": "https://openalex.org/W7220726941",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220726941",
+        "publication_date": "2026-10-04",
+        "title": "Optimal Control with Learned Critics under Unmodeled State Dependencies",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-09T01:12:13.039057Z",
+      "status": "found"
     },
     "openalex:title:d91ba011ef4681b2529ccf70b9b84f85dc1d3d4a92925458a515361e55121158": {
       "expires_at": "2026-09-25T01:02:36.855186Z",

@@ -1,10 +1,34 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`76`
-- 更新时间：`2026-10-08T01:10:44.792964Z`
+- 论文数：`79`
+- 更新时间：`2026-10-09T01:13:29.927006Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Photonic neuromorphic learning via generalized in situ physical gradient descent
+
+- DOI/链接：[10.1038/s43588-026-01057-y](https://doi.org/10.1038/s43588-026-01057-y)
+- 期刊/年份：Nature Computational Science，2026
+- 摘要日期：`2026-10-09`
+- 候选 ID：`4ac97d5e03fb7df3ed448fc2`
+- 标签：application:单次光子学习, application:原位元学习, application:自适应光子神经拟态学习, architecture:unclear, hardware_validation:unclear, project:optical-neural-networks
+
+### Graphene-enhanced dual-gate electro-optic micro-ring modulator: An optical neural network design
+
+- DOI/链接：[10.1016/j.optlastec.2026.116573](https://doi.org/10.1016/j.optlastec.2026.116573)
+- 期刊/年份：Optics & Laser Technology，2026
+- 摘要日期：`2026-10-09`
+- 候选 ID：`f4eaa19659c54d93478a40d5`
+- 标签：application:图像分类：fashion-mnist, application:图像分类：mnist, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
+
+### Deep diffractive optical neural networks for detecting skyrmionic topologies of light and their live training
+
+- DOI/链接：[10.1038/s41467-026-77376-5](https://doi.org/10.1038/s41467-026-77376-5)
+- 期刊/年份：Nature Communications，2026
+- 摘要日期：`2026-10-09`
+- 候选 ID：`d2a55bdec24bc3bc4b04467b`
+- 标签：application:光学斯格明子拓扑态检测, application:拓扑编码图像传输, application:矢量拉盖尔-高斯模式拓扑电荷识别, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Cross-platform frequency-domain physical neural networks with identical models and parameters
 

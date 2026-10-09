@@ -1,0 +1,76 @@
+{
+  "built_at": "2026-10-09T01:12:31.489084Z",
+  "digest_date": "2026-10-09",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "d2a55bdec24bc3bc4b04467b",
+        "landing_page": "https://doi.org/10.1038/s41467-026-77376-5",
+        "mandatory": false,
+        "score": 0.96,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Deep diffractive optical neural networks for detecting skyrmionic topologies of light and their live training",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      {
+        "candidate_id": "4ac97d5e03fb7df3ed448fc2",
+        "landing_page": "https://doi.org/10.1038/s43588-026-01057-y",
+        "mandatory": false,
+        "score": 0.78,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Photonic neuromorphic learning via generalized in situ physical gradient descent",
+        "venue": "Nature Computational Science",
+        "year": 2026
+      },
+      {
+        "candidate_id": "f4eaa19659c54d93478a40d5",
+        "landing_page": "https://doi.org/10.1016/j.optlastec.2026.116573",
+        "mandatory": false,
+        "score": 0.78,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Graphene-enhanced dual-gate electro-optic micro-ring modulator: An optical neural network design",
+        "venue": "Optics & Laser Technology",
+        "year": 2026
+      }
+    ],
+    "next_candidates": [
+      {
+        "candidate_id": "5228362e834f7a6b9567811b",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-11002782/v1",
+        "mandatory": false,
+        "score": 0.77,
+        "source_type": "openalex",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Light-Field-to-Bits Computing via an Online-Trainable Cascaded Optoelectronic Neural Network",
+        "venue": "Research Square",
+        "year": 2026
+      },
+      {
+        "candidate_id": "61dad77fe7c2ef7687ce5b21",
+        "landing_page": "https://doi.org/10.1364/ao.611779",
+        "mandatory": false,
+        "score": 0.73,
+        "source_type": "google_scholar_email",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Gigahertz thin-film lithium niobate phase-SLM architecture for true matrix–matrix multiplication in photonic AI accelerators: design and physical-layer simulation",
+        "venue": "Applied Optics",
+        "year": 2026
+      }
+    ]
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

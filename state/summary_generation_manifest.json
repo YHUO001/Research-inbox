@@ -1,50 +1,101 @@
 {
-  "abstract_fallback_candidate_ids": [],
-  "abstract_fallback_count": 0,
+  "abstract_fallback_candidate_ids": [
+    "4ac97d5e03fb7df3ed448fc2",
+    "f4eaa19659c54d93478a40d5"
+  ],
+  "abstract_fallback_count": 2,
   "architecture_evidence": {
-    "66c84fb1444bbf71b05ac0d7": {
+    "4ac97d5e03fb7df3ed448fc2": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
-      "previous_type": null,
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    },
+    "d2a55bdec24bc3bc4b04467b": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    },
+    "f4eaa19659c54d93478a40d5": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
       "resolved_type": "unclear"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 1,
-  "completed_at": "2026-10-08T01:10:44.792964Z",
+  "automatic_queue_candidate_count": 5,
+  "completed_at": "2026-10-09T01:13:29.927006Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "66c84fb1444bbf71b05ac0d7"
+    "4ac97d5e03fb7df3ed448fc2",
+    "d2a55bdec24bc3bc4b04467b",
+    "f4eaa19659c54d93478a40d5"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-10-08",
-  "digest_json_file": "runtime-state/data/digests/2026-10-08.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-10-08.generated.md",
+  "digest_date": "2026-10-09",
+  "digest_json_file": "runtime-state/data/digests/2026-10-09.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-10-09.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.024648,
+  "estimated_cost_cny": 0.0491494,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "66c84fb1444bbf71b05ac0d7": {
+    "4ac97d5e03fb7df3ed448fc2": {
+      "abstract_available": true,
+      "attempt_count": 3,
+      "candidate_id": "4ac97d5e03fb7df3ed448fc2",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 1.019,
+      "error": "Springer Open Access HTTP 404; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": "application/xml+jats",
+      "section_headings": [],
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs43588-026-01057-y&p=1",
+      "status": "not_available",
+      "text_persisted": false
+    },
+    "d2a55bdec24bc3bc4b04467b": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "66c84fb1444bbf71b05ac0d7",
-      "character_count": 7062,
-      "content_sha256": "3d354b1ffd1a55c6ee4509c33252889d6a1447e86bb89e73ce0e6d71c8aca12d",
-      "elapsed_seconds": 0.447,
+      "candidate_id": "d2a55bdec24bc3bc4b04467b",
+      "character_count": 12000,
+      "content_sha256": "86b33c4cd6c258175f372ff2821d2d24bd924c7d13cdb7555484ed2abbbeb6dd",
+      "elapsed_seconds": 1.662,
       "error": null,
       "fallback_decision": "use_full_text",
-      "media_type": "text/html",
+      "media_type": "application/xml+jats",
       "section_headings": [
-        "Adaptation methods and execution ablations.",
-        "Appendix B Implementation of Frozen-State Reuse and Prefetching"
+        "Diffractive network architecture",
+        "Methods",
+        "D2NN training procedure",
+        "Details of training data"
       ],
-      "source_url": "https://arxiv.org/html/2610.06271",
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-77376-5&p=1",
       "status": "used",
+      "text_persisted": false
+    },
+    "f4eaa19659c54d93478a40d5": {
+      "abstract_available": true,
+      "attempt_count": 3,
+      "candidate_id": "f4eaa19659c54d93478a40d5",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 1.497,
+      "error": "https://linkinghub.elsevier.com/retrieve/pii/S0030399226019249: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1016/j.optlastec.2026.116573",
+      "status": "not_available",
       "text_persisted": false
     }
   },
@@ -54,7 +105,7 @@
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 1,
+  "newly_completed_candidate_count": 3,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -70,87 +121,159 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 1,
+  "prepared_request_count": 3,
   "provider": "deepseek",
-  "queue_sha256": "9e4cb0728def43489f47de67aa4ffe8971dd2955afc826badcf8029cfecd3b05",
-  "request_count": 1,
-  "request_file": "runtime-state/data/summary_requests/2026-10-08.jsonl",
-  "request_sha256": "dc367d8719ce4131bd0ae02f833a7d029ec857422d314bda9bcc6cc82ab112fb",
+  "queue_sha256": "d749246476a3fb7732589652b8ae0c88ec43bc111c0bf3cd517540cc9993b99f",
+  "request_count": 3,
+  "request_file": "runtime-state/data/summary_requests/2026-10-09.jsonl",
+  "request_sha256": "1e739be72f9d56dbd7e71030c40a407d315f796e58ae30ff81b40efe00412baf",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "fab09d62177a6b7b8424f3a9559b957284ab5eeba710b4e9b754eca44a69a84a",
+  "selection_manifest_sha256": "b142fbbb3c5dbd58a878dd542b13f4eea60c2dab2427adb12276431263df874e",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 1,
+  "source_queue_candidate_count": 5,
   "stage_timings": {
-    "full_text_preparation_seconds": 0.451,
+    "full_text_preparation_seconds": 4.184,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "66c84fb1444bbf71b05ac0d7",
-        "elapsed_seconds": 27.813,
+        "candidate_id": "d2a55bdec24bc3bc4b04467b",
+        "elapsed_seconds": 17.781,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2577,
+          "completion_tokens": 1550,
           "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 3046,
-          "prompt_tokens": 4966,
-          "total_tokens": 7543
+          "prompt_cache_miss_tokens": 4420,
+          "prompt_tokens": 6340,
+          "total_tokens": 7890
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "4ac97d5e03fb7df3ed448fc2",
+        "elapsed_seconds": 16.545,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1378,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1212,
+          "prompt_tokens": 3260,
+          "total_tokens": 4638
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "f4eaa19659c54d93478a40d5",
+        "elapsed_seconds": 18.508,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1698,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1449,
+          "prompt_tokens": 3497,
+          "total_tokens": 5195
         }
       }
     ],
-    "model_generation_and_validation_seconds": 27.831
+    "model_generation_and_validation_seconds": 52.85
   },
   "status": "completed_automatic",
-  "summary_count": 1,
-  "summary_file": "runtime-state/data/summaries/2026-10-08.jsonl",
+  "summary_count": 3,
+  "summary_file": "runtime-state/data/summaries/2026-10-09.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 1,
+  "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "66c84fb1444bbf71b05ac0d7": {
+      "4ac97d5e03fb7df3ed448fc2": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": null,
+        "model_value": "unclear",
         "repaired": false,
+        "resolved_type": "unclear"
+      },
+      "d2a55bdec24bc3bc4b04467b": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "free_space",
+        "repaired": true,
+        "resolved_type": "unclear"
+      },
+      "f4eaa19659c54d93478a40d5": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "integrated",
+        "repaired": true,
         "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 0,
+    "architecture_repairs": 2,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "66c84fb1444bbf71b05ac0d7": {
+      "4ac97d5e03fb7df3ed448fc2": {
+        "abstract_available": true,
+        "attempt_count": 3,
+        "candidate_id": "4ac97d5e03fb7df3ed448fc2",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 1.019,
+        "error": "Springer Open Access HTTP 404; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": "application/xml+jats",
+        "section_headings": [],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs43588-026-01057-y&p=1",
+        "status": "not_available",
+        "text_persisted": false
+      },
+      "d2a55bdec24bc3bc4b04467b": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "66c84fb1444bbf71b05ac0d7",
-        "character_count": 7062,
-        "content_sha256": "3d354b1ffd1a55c6ee4509c33252889d6a1447e86bb89e73ce0e6d71c8aca12d",
-        "elapsed_seconds": 0.447,
+        "candidate_id": "d2a55bdec24bc3bc4b04467b",
+        "character_count": 12000,
+        "content_sha256": "86b33c4cd6c258175f372ff2821d2d24bd924c7d13cdb7555484ed2abbbeb6dd",
+        "elapsed_seconds": 1.662,
         "error": null,
         "fallback_decision": "use_full_text",
-        "media_type": "text/html",
+        "media_type": "application/xml+jats",
         "section_headings": [
-          "Adaptation methods and execution ablations.",
-          "Appendix B Implementation of Frozen-State Reuse and Prefetching"
+          "Diffractive network architecture",
+          "Methods",
+          "D2NN training procedure",
+          "Details of training data"
         ],
-        "source_url": "https://arxiv.org/html/2610.06271",
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-77376-5&p=1",
         "status": "used",
+        "text_persisted": false
+      },
+      "f4eaa19659c54d93478a40d5": {
+        "abstract_available": true,
+        "attempt_count": 3,
+        "candidate_id": "f4eaa19659c54d93478a40d5",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 1.497,
+        "error": "https://linkinghub.elsevier.com/retrieve/pii/S0030399226019249: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1016/j.optlastec.2026.116573",
+        "status": "not_available",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 0,
+    "generation_metadata_repair_responses": 3,
     "numeric_grounding_repair_responses": 0,
     "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 13,
+    "tops_alias_expansions": 12,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 2577,
-    "prompt_cache_hit_tokens": 1920,
-    "prompt_cache_miss_tokens": 3046,
-    "prompt_tokens": 4966,
-    "total_tokens": 7543
+    "completion_tokens": 4626,
+    "prompt_cache_hit_tokens": 6016,
+    "prompt_cache_miss_tokens": 7081,
+    "prompt_tokens": 13097,
+    "total_tokens": 17723
   }
 }

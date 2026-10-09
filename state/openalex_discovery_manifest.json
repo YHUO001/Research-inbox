@@ -1,15 +1,17 @@
 {
   "accepted_candidate_ids": [
-    "66c84fb1444bbf71b05ac0d7"
+    "5228362e834f7a6b9567811b",
+    "a7b7dcaa278696a6f1f37813",
+    "d2a55bdec24bc3bc4b04467b"
   ],
-  "accepted_count": 1,
-  "built_at": "2026-10-08T01:10:06.711225Z",
+  "accepted_count": 3,
+  "built_at": "2026-10-09T01:12:05.357291Z",
   "discovery_version": 1,
-  "duplicate_count": 4,
+  "duplicate_count": 6,
   "duplicate_reasons": {
-    "openalex_work_id": 4
+    "openalex_work_id": 6
   },
-  "filtered_count": 66,
+  "filtered_count": 63,
   "invalid_count": 0,
   "query_error_count": 0,
   "query_summaries": [
@@ -24,8 +26,8 @@
       "raw_results": 10
     },
     {
-      "accepted": 0,
-      "duplicates": 1,
+      "accepted": 1,
+      "duplicates": 0,
       "error": null,
       "filtered": 9,
       "invalid": 0,
@@ -34,10 +36,10 @@
       "raw_results": 10
     },
     {
-      "accepted": 0,
+      "accepted": 2,
       "duplicates": 1,
       "error": null,
-      "filtered": 9,
+      "filtered": 7,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "diffractive-optical-neural-network",
@@ -45,9 +47,9 @@
     },
     {
       "accepted": 0,
-      "duplicates": 0,
+      "duplicates": 1,
       "error": null,
-      "filtered": 10,
+      "filtered": 9,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "free-space-optical-computing",
@@ -65,9 +67,9 @@
     },
     {
       "accepted": 0,
-      "duplicates": 1,
+      "duplicates": 2,
       "error": null,
-      "filtered": 9,
+      "filtered": 8,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "physical-neural-network-training",
@@ -77,15 +79,15 @@
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 5,
+      "filtered": 6,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-neural-network",
-      "raw_results": 5
+      "raw_results": 6
     },
     {
-      "accepted": 1,
-      "duplicates": 0,
+      "accepted": 0,
+      "duplicates": 1,
       "error": null,
       "filtered": 1,
       "invalid": 0,
@@ -104,11 +106,11 @@
       "raw_results": 4
     }
   ],
-  "raw_result_count": 71,
-  "registry_candidate_count": 471,
-  "registry_sha256": "b669a954bf0834a6c39f44ef39458d85d0cb7dabee1ff214510c22394ef5bf3e",
+  "raw_result_count": 72,
+  "registry_candidate_count": 492,
+  "registry_sha256": "362623421386aee087377e5b849c4ec218a6133d7a4cc27b10e992b3283d6d69",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-10-08",
-  "window_start": "2026-10-04"
+  "window_end": "2026-10-09",
+  "window_start": "2026-10-05"
 }
