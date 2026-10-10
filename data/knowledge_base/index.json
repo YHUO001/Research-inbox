@@ -260,6 +260,15 @@
       "summary_record_sha256": "0b613efb52046b3b0b967093117b166d4280f39704d854d8ce3ce5c353810453",
       "title": "Metasurface color routers inverse-designed with a deep-learning accelerated genetic algorithm for high efficiency imaging"
     },
+    "4cf08afde3b5592300752bae": {
+      "digest_date": "2026-10-10",
+      "doi": "10.1117/1.ap.8.5.056013",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "15d259062e53938b75504399e6103f295689d840c0e5f76230b1885643e2a658",
+      "title": "Waveguide-array optical neural network on thin-film lithium niobate platform"
+    },
     "5017adbd33e6ddd5c320a4c4": {
       "digest_date": "2026-08-08",
       "doi": "10.1364/cleo_at.2026.jtu.84",
@@ -268,6 +277,15 @@
       ],
       "summary_record_sha256": "23b8ce7e41cb14aa676a9ced1224c0456fe5ab9481092f19297b6357959ef440",
       "title": "Integrated diffractive optical neural network with electroabsorption modulators"
+    },
+    "5228362e834f7a6b9567811b": {
+      "digest_date": "2026-10-10",
+      "doi": "10.21203/rs.3.rs-11002782/v1",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "18971912d3437483390d9d3f3c87a8b356578d6e94a7b83d9ec8be42cf12311e",
+      "title": "Light-Field-to-Bits Computing via an Online-Trainable Cascaded Optoelectronic Neural Network"
     },
     "541094f286db8902f2fe6077": {
       "digest_date": "2026-08-07",
@@ -547,6 +565,15 @@
       ],
       "summary_record_sha256": "ef2e1ae6e714420b6858071f76c831f3b457bab265594c835785f4a25aa38987",
       "title": "Programmable Photonic-Crystal Optical Neural Network with Gated Residual Diffractive Enhancement"
+    },
+    "c1e890d592087a69465d1299": {
+      "digest_date": "2026-10-10",
+      "doi": "10.1117/12.3113856",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "4f54ef3ed9cfc2b74a18a9d4f991878f1182c7bfae009ecb905fdbaca9d70e69",
+      "title": "Phase-only optical neural networks: quantization and robustness analysis"
     },
     "c3474ba19a69c715eb87d391": {
       "digest_date": "2026-08-26",
@@ -870,6 +897,11 @@
       "4ac97d5e03fb7df3ed448fc2",
       "d2a55bdec24bc3bc4b04467b",
       "f4eaa19659c54d93478a40d5"
+    ],
+    "2026-10-10": [
+      "4cf08afde3b5592300752bae",
+      "5228362e834f7a6b9567811b",
+      "c1e890d592087a69465d1299"
     ]
   },
   "by_doi": {
@@ -905,8 +937,10 @@
     "10.1109/tcad.2026.3738037": "70212be2c4a63d741872ace0",
     "10.1117/1.ap.8.5.054001": "916e8199aaabe1372544d280",
     "10.1117/1.ap.8.5.056010": "0a7a6a25b0c077322aee6b4e",
+    "10.1117/1.ap.8.5.056013": "4cf08afde3b5592300752bae",
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
     "10.1117/12.3110867": "2b5f9302fe96c2793d48540e",
+    "10.1117/12.3113856": "c1e890d592087a69465d1299",
     "10.1117/12.3116253": "7d6c2a059923ebe445a1cdf7",
     "10.1117/12.3118799": "9351be654a20f4a2f7121847",
     "10.1126/sciadv.aee9649": "44fa3bd6f72c84820ce42dab",
@@ -926,6 +960,7 @@
     "10.14288/1.0455632": "9322fad036b3d7fc8e3dd47b",
     "10.21203/rs.3.rs-10187577/v1": "1e35265ce8678ca96adb8b93",
     "10.21203/rs.3.rs-10794538/v1": "79855d774b83ef6c7c8a8a47",
+    "10.21203/rs.3.rs-11002782/v1": "5228362e834f7a6b9567811b",
     "10.25781/kaust-ip46p": "1075bd8698bce3acb3ce9376",
     "10.48550/arxiv.2608.03277": "142dc76f41fc25448b82c91e",
     "10.48550/arxiv.2608.08060": "2f9953028e4e0e3b934222c8",
@@ -973,7 +1008,9 @@
       "4ac97d5e03fb7df3ed448fc2",
       "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
+      "4cf08afde3b5592300752bae",
       "5017adbd33e6ddd5c320a4c4",
+      "5228362e834f7a6b9567811b",
       "541094f286db8902f2fe6077",
       "557b41cb542bf10e84da81f2",
       "5ec8e35ad02131d8ed156970",
@@ -998,6 +1035,7 @@
       "ae3adee8419a5db7be7ec3b2",
       "b832199d8494cc67a559fec5",
       "c01ea24e589c31ebd4af01d6",
+      "c1e890d592087a69465d1299",
       "c3474ba19a69c715eb87d391",
       "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
@@ -1063,11 +1101,17 @@
     "application:not_available": [
       "44fa3bd6f72c84820ce42dab"
     ],
+    "application:palmer penguins 数据集分类（仿真）": [
+      "4cf08afde3b5592300752bae"
+    ],
     "application:pattern recognition": [
       "a15033db64285e5d4c8a46c9"
     ],
     "application:二维/三维全息重建": [
       "c82f6c2f7b8ae52a84e4eb29"
+    ],
+    "application:交通标志的4位编码分类": [
+      "5228362e834f7a6b9567811b"
     ],
     "application:人类动作识别": [
       "0a7a6a25b0c077322aee6b4e"
@@ -1108,6 +1152,9 @@
     "application:光学图像分类": [
       "916e8199aaabe1372544d280"
     ],
+    "application:光学推理": [
+      "c1e890d592087a69465d1299"
+    ],
     "application:光学斯格明子拓扑态检测": [
       "d2a55bdec24bc3bc4b04467b"
     ],
@@ -1134,6 +1181,9 @@
     ],
     "application:化学物质浓度预测": [
       "c7b91f881a121b7e1651e2f2"
+    ],
+    "application:十六进制字符（0-f）的4位编码分类": [
+      "5228362e834f7a6b9567811b"
     ],
     "application:十类分类任务": [
       "b832199d8494cc67a559fec5"
@@ -1226,6 +1276,9 @@
     "application:手写数字分类": [
       "7edb19b24759fe609707ba01",
       "a7f4407333af25ddc7630e14"
+    ],
+    "application:手写数字识别（mnist）": [
+      "4cf08afde3b5592300752bae"
     ],
     "application:拓扑编码图像传输": [
       "d2a55bdec24bc3bc4b04467b"
@@ -1335,6 +1388,9 @@
     "application:连续动作控制": [
       "328b1572ba0e31f8f8a6dac1"
     ],
+    "application:适用于延迟敏感的机器视觉和边缘感知场景": [
+      "5228362e834f7a6b9567811b"
+    ],
     "application:透过散射介质（玻璃扩散器）的多光谱全彩成像": [
       "35ff63ef9d3333099ee28868"
     ],
@@ -1364,6 +1420,9 @@
     ],
     "application:高维成像": [
       "916e8199aaabe1372544d280"
+    ],
+    "application:鸢尾花分类": [
+      "4cf08afde3b5592300752bae"
     ],
     "architecture:free_space": [
       "5017adbd33e6ddd5c320a4c4",
@@ -1402,6 +1461,8 @@
       "4ac97d5e03fb7df3ed448fc2",
       "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
+      "4cf08afde3b5592300752bae",
+      "5228362e834f7a6b9567811b",
       "541094f286db8902f2fe6077",
       "5ec8e35ad02131d8ed156970",
       "79855d774b83ef6c7c8a8a47",
@@ -1418,6 +1479,7 @@
       "95fe7b58392c34e07c8b2616",
       "a7f4407333af25ddc7630e14",
       "c01ea24e589c31ebd4af01d6",
+      "c1e890d592087a69465d1299",
       "c3474ba19a69c715eb87d391",
       "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
@@ -1445,7 +1507,9 @@
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
       "39df3bfb1d1f1919bbf17668",
+      "4cf08afde3b5592300752bae",
       "5017adbd33e6ddd5c320a4c4",
+      "5228362e834f7a6b9567811b",
       "557b41cb542bf10e84da81f2",
       "5ec8e35ad02131d8ed156970",
       "7edb19b24759fe609707ba01",
@@ -1466,6 +1530,7 @@
       "8ce6ad350a786420a01c4dd8",
       "b832199d8494cc67a559fec5",
       "c01ea24e589c31ebd4af01d6",
+      "c1e890d592087a69465d1299",
       "d162b179119ee09c86ad3708",
       "d33b2e7c6586f37945facb32",
       "f4eaa19659c54d93478a40d5"
@@ -1505,7 +1570,9 @@
       "4ac97d5e03fb7df3ed448fc2",
       "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
+      "4cf08afde3b5592300752bae",
       "5017adbd33e6ddd5c320a4c4",
+      "5228362e834f7a6b9567811b",
       "541094f286db8902f2fe6077",
       "557b41cb542bf10e84da81f2",
       "5ec8e35ad02131d8ed156970",
@@ -1530,6 +1597,7 @@
       "ae3adee8419a5db7be7ec3b2",
       "b832199d8494cc67a559fec5",
       "c01ea24e589c31ebd4af01d6",
+      "c1e890d592087a69465d1299",
       "c3474ba19a69c715eb87d391",
       "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
@@ -1698,6 +1766,7 @@
     ],
     "Advanced Photonics": [
       "0a7a6a25b0c077322aee6b4e",
+      "4cf08afde3b5592300752bae",
       "916e8199aaabe1372544d280"
     ],
     "Applied Optics": [
@@ -1760,6 +1829,9 @@
     "Nature Computational Science": [
       "4ac97d5e03fb7df3ed448fc2"
     ],
+    "ODS 2026: Industrial Optical Devices and Systems": [
+      "c1e890d592087a69465d1299"
+    ],
     "Open Collections": [
       "9322fad036b3d7fc8e3dd47b"
     ],
@@ -1794,6 +1866,7 @@
     ],
     "Research Square": [
       "1e35265ce8678ca96adb8b93",
+      "5228362e834f7a6b9567811b",
       "79855d774b83ef6c7c8a8a47"
     ],
     "Science Advances": [
@@ -1870,7 +1943,9 @@
       "4ac97d5e03fb7df3ed448fc2",
       "4b1739e45289d2156d3b1ed3",
       "4bb38e8bcc3a3d164bd28700",
+      "4cf08afde3b5592300752bae",
       "5017adbd33e6ddd5c320a4c4",
+      "5228362e834f7a6b9567811b",
       "541094f286db8902f2fe6077",
       "557b41cb542bf10e84da81f2",
       "5e49047e7ce2004f7954debb",
@@ -1901,6 +1976,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "b832199d8494cc67a559fec5",
+      "c1e890d592087a69465d1299",
       "c3474ba19a69c715eb87d391",
       "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
@@ -1924,7 +2000,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 79,
+  "paper_count": 82,
   "schema_version": 1,
-  "updated_at": "2026-10-09T01:13:29.927006Z"
+  "updated_at": "2026-10-10T01:11:46.652493Z"
 }

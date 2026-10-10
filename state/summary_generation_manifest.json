@@ -1,25 +1,24 @@
 {
   "abstract_fallback_candidate_ids": [
-    "4ac97d5e03fb7df3ed448fc2",
-    "f4eaa19659c54d93478a40d5"
+    "c1e890d592087a69465d1299"
   ],
-  "abstract_fallback_count": 2,
+  "abstract_fallback_count": 1,
   "architecture_evidence": {
-    "4ac97d5e03fb7df3ed448fc2": {
+    "4cf08afde3b5592300752bae": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": "unclear",
       "resolved_type": "unclear"
     },
-    "d2a55bdec24bc3bc4b04467b": {
+    "5228362e834f7a6b9567811b": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": "unclear",
       "resolved_type": "unclear"
     },
-    "f4eaa19659c54d93478a40d5": {
+    "c1e890d592087a69465d1299": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
@@ -29,72 +28,126 @@
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 5,
-  "completed_at": "2026-10-09T01:13:29.927006Z",
+  "automatic_queue_candidate_count": 4,
+  "completed_at": "2026-10-10T01:11:46.652493Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "4ac97d5e03fb7df3ed448fc2",
-    "d2a55bdec24bc3bc4b04467b",
-    "f4eaa19659c54d93478a40d5"
+    "4cf08afde3b5592300752bae",
+    "5228362e834f7a6b9567811b",
+    "c1e890d592087a69465d1299"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-10-09",
-  "digest_json_file": "runtime-state/data/digests/2026-10-09.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-10-09.generated.md",
+  "digest_date": "2026-10-10",
+  "digest_json_file": "runtime-state/data/digests/2026-10-10.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-10-10.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0491494,
+  "estimated_cost_cny": 0.0704972,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "4ac97d5e03fb7df3ed448fc2": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "4ac97d5e03fb7df3ed448fc2",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 1.019,
-      "error": "Springer Open Access HTTP 404; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": "application/xml+jats",
-      "section_headings": [],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs43588-026-01057-y&p=1",
-      "status": "not_available",
-      "text_persisted": false
-    },
-    "d2a55bdec24bc3bc4b04467b": {
+    "4cf08afde3b5592300752bae": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "d2a55bdec24bc3bc4b04467b",
+      "candidate_id": "4cf08afde3b5592300752bae",
       "character_count": 12000,
-      "content_sha256": "86b33c4cd6c258175f372ff2821d2d24bd924c7d13cdb7555484ed2abbbeb6dd",
-      "elapsed_seconds": 1.662,
+      "content_sha256": "d46d54c95b2c36295989dc7df811691065377986eab63f294668694c59cbfaf0",
+      "elapsed_seconds": 2.009,
       "error": null,
       "fallback_decision": "use_full_text",
-      "media_type": "application/xml+jats",
+      "media_type": "application/pdf",
       "section_headings": [
-        "Diffractive network architecture",
-        "Methods",
-        "D2NN training procedure",
-        "Details of training data"
+        "tion structures of DONNs demand extremely high fabrication",
+        "accuracy, and this leads to poor fabrication error tolerance as",
+        "remarkable design flexibility, stable fabrication processes, and",
+        "2 Materials and Methods",
+        "A more accurate method for simulating light propagation in",
+        "at the output. Although this method is computationally more",
+        "speed and precision during the training process, in the design",
+        "of our device, we introduce an efficient training optimization",
+        "method. As shown in Fig. 2(b), the WONN is first trained",
+        "Based on the training results, the chip is processed using",
+        "150 samples was randomly divided into training and test sets",
+        "accuracy throughout the two-stage training process of the neural",
+        "After the training, our device achieves 100% recognition accu-",
+        "There are two influences brought from fabrication errors. First,",
+        "Fig. 2 Design principle and the prototype of the proposed device. (a) Modeling diagram of the",
+        "WONN. (b) Cross-profile of the waveguide array and the designing principle. A two-step training",
+        "optimization method is utilized to achieve the proper coupling coefficients powered by CMT",
+        "method and EME method. (c) Photograph of the packaged chip. (d) Microscope image of the de-",
+        "above 95%, demonstrating an excellent tolerance to fabrication",
+        "range. For the compensation of the initial phase error, a method",
+        "involving training-basedin situcompensation is proposed, which",
+        "entails retraining the model directly on the erroneous chip. The",
+        "(a) Loss function and the test accuracy versus the training epochs in the two-step training opti-",
+        "mization method. (b) and (c) Variation in the loss function and accuracy versus different evolution",
+        "plicated task. Utilizing the method above, a new WONN is de-",
+        "The MNIST dataset is divided into a training dataset of 60,000",
+        "capitalizes on the inherent compactness, fabrication stability,",
+        "method,",
+        "3. Z. Su et al.,“A multigrained preference analysis method for prod-",
+        "tive pre-training,”https://cdn.openai.com/research-covers/language-",
+        "distributed data parallelism training on large-scale HPC clusters,”",
+        "16. J. Spall, X. Guo, and A. I. Lvovsky,“Training neural networks",
+        "niobate for inference andin situ training,” Nat. Commun. 15(1),"
       ],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-77376-5&p=1",
+      "source_url": "https://www.spiedigitallibrary.org/JournalArticle/Download?urlId=10.1117/1.AP.8.5.056013",
       "status": "used",
       "text_persisted": false
     },
-    "f4eaa19659c54d93478a40d5": {
+    "5228362e834f7a6b9567811b": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "5228362e834f7a6b9567811b",
+      "character_count": 12000,
+      "content_sha256": "a15527089cb88c5cc2eb37da638f2eb766bd6915812b01f9b39a15241bb0fb3f",
+      "elapsed_seconds": 2.705,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "application/pdf",
+      "section_headings": [
+        "Among the various implementations of optical computing, optical neural networks",
+        "in situ training strategies have been developed to incorporate physical responses into",
+        "training, this approach treats the physical optical path as the forward propagation,",
+        "angular spectrum method (ASM) propagation [32], generating the final output",
+        "imperfections. The detailed implementation of the surrogate model and its layer-wise",
+        "d, where numerical and physical implementations trained with and without the",
+        "system, we utilized the experimental setup illustrated in Fig.3 to encode spatial patterns",
+        "physics-assisted surrogate model based on the angular spectrum method, we enable",
+        "training under both clean and perturbed conditions. This framework shifts the",
+        "implementation comprising a physical optical diffractive layer and a secondary",
+        "optoelectronic encoding mechanism, the same design principle may ultimately be",
+        "extended toward compact and high-speed chip-scale implementations. Such a transition",
+        "element coupling, material dispersion, and fabrication constraints. The resulting device",
+        "regions corresponding to four differential bit channels, a future implementation could",
+        "advantages will require dedicated device-level design, fabrication, packaging, and",
+        "Materials and Methods",
+        "During training, the parameters of the SLM correction module and the residual",
+        "assisted surrogate model . The system architecture operates through a collaborative",
+        "Fig. 3 Schematic of the experimental optical setup. The system employs a cascaded",
+        "intensity is captured by a CMOS sensor and transferred to a PC for implementation of",
+        "21. X. Yuan, Y. Wang, Z. Xu, et al., “Training large -scale optoelectronic neural networks with dual-",
+        "27. Y. Peng, S. Choi, N. Padmanaban, et al., “Neural holography with camera-in-the-loop training” ACM",
+        "29. Z. Xue, T. Zhou, Z. Xu, et al., “Fully forward mode training for optical neural networks” Nature",
+        "32. K. Matsushima, T. Shimobaba, “Band-limited angular spectrum method for numerical simulation of"
+      ],
+      "source_url": "https://assets-eu.researchsquare.com/files/rs-11002782/v1_covered_b239d1e5-0572-4edf-bd4b-846302e96259.pdf?c=1791365920",
+      "status": "used",
+      "text_persisted": false
+    },
+    "c1e890d592087a69465d1299": {
       "abstract_available": true,
       "attempt_count": 3,
-      "candidate_id": "f4eaa19659c54d93478a40d5",
+      "candidate_id": "c1e890d592087a69465d1299",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 1.497,
-      "error": "https://linkinghub.elsevier.com/retrieve/pii/S0030399226019249: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "elapsed_seconds": 1.76,
+      "error": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14222/3113856/Phase-only-optical-neural-networks-quantization-and-robustness-analysis/10.1117/12.3113856.full: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": null,
       "section_headings": [],
-      "source_url": "https://doi.org/10.1016/j.optlastec.2026.116573",
+      "source_url": "https://doi.org/10.1117/12.3113856",
       "status": "not_available",
       "text_persisted": false
     }
@@ -123,157 +176,272 @@
   "output_language": "zh-CN",
   "prepared_request_count": 3,
   "provider": "deepseek",
-  "queue_sha256": "d749246476a3fb7732589652b8ae0c88ec43bc111c0bf3cd517540cc9993b99f",
+  "queue_sha256": "abb3198ccf43ed61eb95f638dd8f0e99d4d9f20b4f06d58641a380e0d05f3df1",
   "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-10-09.jsonl",
-  "request_sha256": "1e739be72f9d56dbd7e71030c40a407d315f796e58ae30ff81b40efe00412baf",
+  "request_file": "runtime-state/data/summary_requests/2026-10-10.jsonl",
+  "request_sha256": "9b50edf2fe2b69bf6fe4bfde34a6e6c826dbe55d17ed39601dd0bed82220e602",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "b142fbbb3c5dbd58a878dd542b13f4eea60c2dab2427adb12276431263df874e",
+  "selection_manifest_sha256": "2fee292499c3550267cbb8525aecec84756854e495e1882d3bee3ad11fd5055d",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 5,
+  "source_queue_candidate_count": 4,
   "stage_timings": {
-    "full_text_preparation_seconds": 4.184,
+    "full_text_preparation_seconds": 6.48,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "d2a55bdec24bc3bc4b04467b",
-        "elapsed_seconds": 17.781,
+        "candidate_id": "4cf08afde3b5592300752bae",
+        "elapsed_seconds": 23.591,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1550,
+          "completion_tokens": 2259,
           "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 4420,
-          "prompt_tokens": 6340,
-          "total_tokens": 7890
+          "prompt_cache_miss_tokens": 4590,
+          "prompt_tokens": 6510,
+          "total_tokens": 8769
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "4ac97d5e03fb7df3ed448fc2",
-        "elapsed_seconds": 16.545,
+        "candidate_id": "5228362e834f7a6b9567811b",
+        "elapsed_seconds": 33.597,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1378,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1212,
-          "prompt_tokens": 3260,
-          "total_tokens": 4638
+          "completion_tokens": 2824,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 4281,
+          "prompt_tokens": 6201,
+          "total_tokens": 9025
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "f4eaa19659c54d93478a40d5",
-        "elapsed_seconds": 18.508,
+        "candidate_id": "c1e890d592087a69465d1299",
+        "elapsed_seconds": 18.726,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1698,
+          "completion_tokens": 1552,
           "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1449,
-          "prompt_tokens": 3497,
-          "total_tokens": 5195
+          "prompt_cache_miss_tokens": 1309,
+          "prompt_tokens": 3357,
+          "total_tokens": 4909
         }
       }
     ],
-    "model_generation_and_validation_seconds": 52.85
+    "model_generation_and_validation_seconds": 75.935
   },
   "status": "completed_automatic",
   "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-10-09.jsonl",
+  "summary_file": "runtime-state/data/summaries/2026-10-10.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
   "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "4ac97d5e03fb7df3ed448fc2": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "unclear",
-        "repaired": false,
-        "resolved_type": "unclear"
-      },
-      "d2a55bdec24bc3bc4b04467b": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "free_space",
-        "repaired": true,
-        "resolved_type": "unclear"
-      },
-      "f4eaa19659c54d93478a40d5": {
+      "4cf08afde3b5592300752bae": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": "integrated",
         "repaired": true,
         "resolved_type": "unclear"
+      },
+      "5228362e834f7a6b9567811b": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "hybrid",
+        "repaired": true,
+        "resolved_type": "unclear"
+      },
+      "c1e890d592087a69465d1299": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "free_space",
+        "repaired": true,
+        "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 2,
-    "candidate_id_repair_responses": 0,
+    "architecture_repairs": 3,
+    "candidate_id_repair_responses": 1,
     "full_text_method_contexts": {
-      "4ac97d5e03fb7df3ed448fc2": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "4ac97d5e03fb7df3ed448fc2",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 1.019,
-        "error": "Springer Open Access HTTP 404; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": "application/xml+jats",
-        "section_headings": [],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs43588-026-01057-y&p=1",
-        "status": "not_available",
-        "text_persisted": false
-      },
-      "d2a55bdec24bc3bc4b04467b": {
+      "4cf08afde3b5592300752bae": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "d2a55bdec24bc3bc4b04467b",
+        "candidate_id": "4cf08afde3b5592300752bae",
         "character_count": 12000,
-        "content_sha256": "86b33c4cd6c258175f372ff2821d2d24bd924c7d13cdb7555484ed2abbbeb6dd",
-        "elapsed_seconds": 1.662,
+        "content_sha256": "d46d54c95b2c36295989dc7df811691065377986eab63f294668694c59cbfaf0",
+        "elapsed_seconds": 2.009,
         "error": null,
         "fallback_decision": "use_full_text",
-        "media_type": "application/xml+jats",
+        "media_type": "application/pdf",
         "section_headings": [
-          "Diffractive network architecture",
-          "Methods",
-          "D2NN training procedure",
-          "Details of training data"
+          "tion structures of DONNs demand extremely high fabrication",
+          "accuracy, and this leads to poor fabrication error tolerance as",
+          "remarkable design flexibility, stable fabrication processes, and",
+          "2 Materials and Methods",
+          "A more accurate method for simulating light propagation in",
+          "at the output. Although this method is computationally more",
+          "speed and precision during the training process, in the design",
+          "of our device, we introduce an efficient training optimization",
+          "method. As shown in Fig. 2(b), the WONN is first trained",
+          "Based on the training results, the chip is processed using",
+          "150 samples was randomly divided into training and test sets",
+          "accuracy throughout the two-stage training process of the neural",
+          "After the training, our device achieves 100% recognition accu-",
+          "There are two influences brought from fabrication errors. First,",
+          "Fig. 2 Design principle and the prototype of the proposed device. (a) Modeling diagram of the",
+          "WONN. (b) Cross-profile of the waveguide array and the designing principle. A two-step training",
+          "optimization method is utilized to achieve the proper coupling coefficients powered by CMT",
+          "method and EME method. (c) Photograph of the packaged chip. (d) Microscope image of the de-",
+          "above 95%, demonstrating an excellent tolerance to fabrication",
+          "range. For the compensation of the initial phase error, a method",
+          "involving training-basedin situcompensation is proposed, which",
+          "entails retraining the model directly on the erroneous chip. The",
+          "(a) Loss function and the test accuracy versus the training epochs in the two-step training opti-",
+          "mization method. (b) and (c) Variation in the loss function and accuracy versus different evolution",
+          "plicated task. Utilizing the method above, a new WONN is de-",
+          "The MNIST dataset is divided into a training dataset of 60,000",
+          "capitalizes on the inherent compactness, fabrication stability,",
+          "method,",
+          "3. Z. Su et al.,“A multigrained preference analysis method for prod-",
+          "tive pre-training,”https://cdn.openai.com/research-covers/language-",
+          "distributed data parallelism training on large-scale HPC clusters,”",
+          "16. J. Spall, X. Guo, and A. I. Lvovsky,“Training neural networks",
+          "niobate for inference andin situ training,” Nat. Commun. 15(1),"
         ],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1038%2Fs41467-026-77376-5&p=1",
+        "source_url": "https://www.spiedigitallibrary.org/JournalArticle/Download?urlId=10.1117/1.AP.8.5.056013",
         "status": "used",
         "text_persisted": false
       },
-      "f4eaa19659c54d93478a40d5": {
+      "5228362e834f7a6b9567811b": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "5228362e834f7a6b9567811b",
+        "character_count": 12000,
+        "content_sha256": "a15527089cb88c5cc2eb37da638f2eb766bd6915812b01f9b39a15241bb0fb3f",
+        "elapsed_seconds": 2.705,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "application/pdf",
+        "section_headings": [
+          "Among the various implementations of optical computing, optical neural networks",
+          "in situ training strategies have been developed to incorporate physical responses into",
+          "training, this approach treats the physical optical path as the forward propagation,",
+          "angular spectrum method (ASM) propagation [32], generating the final output",
+          "imperfections. The detailed implementation of the surrogate model and its layer-wise",
+          "d, where numerical and physical implementations trained with and without the",
+          "system, we utilized the experimental setup illustrated in Fig.3 to encode spatial patterns",
+          "physics-assisted surrogate model based on the angular spectrum method, we enable",
+          "training under both clean and perturbed conditions. This framework shifts the",
+          "implementation comprising a physical optical diffractive layer and a secondary",
+          "optoelectronic encoding mechanism, the same design principle may ultimately be",
+          "extended toward compact and high-speed chip-scale implementations. Such a transition",
+          "element coupling, material dispersion, and fabrication constraints. The resulting device",
+          "regions corresponding to four differential bit channels, a future implementation could",
+          "advantages will require dedicated device-level design, fabrication, packaging, and",
+          "Materials and Methods",
+          "During training, the parameters of the SLM correction module and the residual",
+          "assisted surrogate model . The system architecture operates through a collaborative",
+          "Fig. 3 Schematic of the experimental optical setup. The system employs a cascaded",
+          "intensity is captured by a CMOS sensor and transferred to a PC for implementation of",
+          "21. X. Yuan, Y. Wang, Z. Xu, et al., “Training large -scale optoelectronic neural networks with dual-",
+          "27. Y. Peng, S. Choi, N. Padmanaban, et al., “Neural holography with camera-in-the-loop training” ACM",
+          "29. Z. Xue, T. Zhou, Z. Xu, et al., “Fully forward mode training for optical neural networks” Nature",
+          "32. K. Matsushima, T. Shimobaba, “Band-limited angular spectrum method for numerical simulation of"
+        ],
+        "source_url": "https://assets-eu.researchsquare.com/files/rs-11002782/v1_covered_b239d1e5-0572-4edf-bd4b-846302e96259.pdf?c=1791365920",
+        "status": "used",
+        "text_persisted": false
+      },
+      "c1e890d592087a69465d1299": {
         "abstract_available": true,
         "attempt_count": 3,
-        "candidate_id": "f4eaa19659c54d93478a40d5",
+        "candidate_id": "c1e890d592087a69465d1299",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 1.497,
-        "error": "https://linkinghub.elsevier.com/retrieve/pii/S0030399226019249: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "elapsed_seconds": 1.76,
+        "error": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14222/3113856/Phase-only-optical-neural-networks-quantization-and-robustness-analysis/10.1117/12.3113856.full: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": null,
         "section_headings": [],
-        "source_url": "https://doi.org/10.1016/j.optlastec.2026.116573",
+        "source_url": "https://doi.org/10.1117/12.3113856",
         "status": "not_available",
         "text_persisted": false
       }
     },
     "generation_metadata_repair_responses": 3,
-    "numeric_grounding_repair_responses": 0,
-    "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 12,
-    "unit_format_normalization_responses": 0
+    "numeric_grounding_repair_responses": 3,
+    "numeric_grounding_repairs": {
+      "4cf08afde3b5592300752bae": [
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "对于鸢尾花分类任务，采用 10 根波导的阵列，对应 10×10 权重矩阵，阵列尺寸为 14.3 μm × 100 μm；",
+          "path": "method_implementation[0]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "14.3"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "波导宽度为 800 nm，脊高 300 nm，下方平板层厚 300 nm，传播长度为 100 μm，波导间隙在 0.48 至 1.09 μm 之间。",
+          "path": "method_implementation[0]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "1.09"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "MNIST 数据集划分为 60,000 个训练样本，其余用于测试。",
+          "path": "method_implementation[1]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "60"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "波导阵列计算单元尺寸为 14.3 μm × 100 μm（鸢尾花任务）和 24.8 μm × 300 μm（MNIST 任务）。",
+          "path": "reported_results[5].claim",
+          "replacement": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "14.3"
+          ]
+        }
+      ],
+      "5228362e834f7a6b9567811b": [
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "输出平面划分为8个预定义的感兴趣区域（ROIs），排列为四对（每对包含一个代表逻辑1的探测器和代表逻辑0的探测器）。",
+          "path": "method_implementation[1]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "8"
+          ]
+        }
+      ],
+      "c1e890d592087a69465d1299": [
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "作者扩展了参考文献1中的物理感知仿真平台，加入量化感知训练，覆盖三种相位编码方案。",
+          "path": "method_and_architecture",
+          "replacement": "相关定量细节未在标题或摘要中提供。",
+          "tokens": [
+            "1"
+          ]
+        }
+      ]
+    },
+    "tops_alias_expansions": 90,
+    "unit_format_normalization_responses": 1
   },
   "usage": {
-    "completion_tokens": 4626,
-    "prompt_cache_hit_tokens": 6016,
-    "prompt_cache_miss_tokens": 7081,
-    "prompt_tokens": 13097,
-    "total_tokens": 17723
+    "completion_tokens": 6635,
+    "prompt_cache_hit_tokens": 5888,
+    "prompt_cache_miss_tokens": 10180,
+    "prompt_tokens": 16068,
+    "total_tokens": 22703
   }
 }

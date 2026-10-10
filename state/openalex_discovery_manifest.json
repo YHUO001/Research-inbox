@@ -1,17 +1,16 @@
 {
   "accepted_candidate_ids": [
-    "5228362e834f7a6b9567811b",
-    "a7b7dcaa278696a6f1f37813",
-    "d2a55bdec24bc3bc4b04467b"
+    "4cf08afde3b5592300752bae",
+    "c1e890d592087a69465d1299"
   ],
-  "accepted_count": 3,
-  "built_at": "2026-10-09T01:12:05.357291Z",
+  "accepted_count": 2,
+  "built_at": "2026-10-10T01:10:14.097746Z",
   "discovery_version": 1,
-  "duplicate_count": 6,
+  "duplicate_count": 4,
   "duplicate_reasons": {
-    "openalex_work_id": 6
+    "openalex_work_id": 4
   },
-  "filtered_count": 63,
+  "filtered_count": 59,
   "invalid_count": 0,
   "query_error_count": 0,
   "query_summaries": [
@@ -26,20 +25,20 @@
       "raw_results": 10
     },
     {
-      "accepted": 1,
-      "duplicates": 0,
+      "accepted": 2,
+      "duplicates": 1,
       "error": null,
-      "filtered": 9,
+      "filtered": 7,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "photonic-neural-network",
       "raw_results": 10
     },
     {
-      "accepted": 2,
+      "accepted": 0,
       "duplicates": 1,
       "error": null,
-      "filtered": 7,
+      "filtered": 9,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "diffractive-optical-neural-network",
@@ -47,9 +46,9 @@
     },
     {
       "accepted": 0,
-      "duplicates": 1,
+      "duplicates": 0,
       "error": null,
-      "filtered": 9,
+      "filtered": 10,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "free-space-optical-computing",
@@ -57,9 +56,9 @@
     },
     {
       "accepted": 0,
-      "duplicates": 1,
+      "duplicates": 0,
       "error": null,
-      "filtered": 9,
+      "filtered": 10,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "optical-nonlinear-activation",
@@ -79,38 +78,38 @@
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 6,
+      "filtered": 3,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-neural-network",
-      "raw_results": 6
-    },
-    {
-      "accepted": 0,
-      "duplicates": 1,
-      "error": null,
-      "filtered": 1,
-      "invalid": 0,
-      "project_id": "zeroth-order-optimization",
-      "query_id": "zeroth-order-llm",
-      "raw_results": 2
+      "raw_results": 3
     },
     {
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 4,
+      "filtered": 1,
+      "invalid": 0,
+      "project_id": "zeroth-order-optimization",
+      "query_id": "zeroth-order-llm",
+      "raw_results": 1
+    },
+    {
+      "accepted": 0,
+      "duplicates": 0,
+      "error": null,
+      "filtered": 1,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-optical",
-      "raw_results": 4
+      "raw_results": 1
     }
   ],
-  "raw_result_count": 72,
-  "registry_candidate_count": 492,
-  "registry_sha256": "362623421386aee087377e5b849c4ec218a6133d7a4cc27b10e992b3283d6d69",
+  "raw_result_count": 65,
+  "registry_candidate_count": 494,
+  "registry_sha256": "4cf70b1654a0eae43dd5203ca5e456459c4e69e1b740b2c3da703d590866b826",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-10-09",
-  "window_start": "2026-10-05"
+  "window_end": "2026-10-10",
+  "window_start": "2026-10-06"
 }

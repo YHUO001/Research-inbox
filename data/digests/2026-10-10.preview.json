@@ -1,0 +1,65 @@
+{
+  "built_at": "2026-10-10T01:10:22.735124Z",
+  "digest_date": "2026-10-10",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "4cf08afde3b5592300752bae",
+        "landing_page": "https://doi.org/10.1117/1.ap.8.5.056013",
+        "mandatory": false,
+        "score": 0.88,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Waveguide-array optical neural network on thin-film lithium niobate platform",
+        "venue": "Advanced Photonics",
+        "year": 2026
+      },
+      {
+        "candidate_id": "5228362e834f7a6b9567811b",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-11002782/v1",
+        "mandatory": false,
+        "score": 0.77,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Light-Field-to-Bits Computing via an Online-Trainable Cascaded Optoelectronic Neural Network",
+        "venue": "Research Square",
+        "year": 2026
+      },
+      {
+        "candidate_id": "c1e890d592087a69465d1299",
+        "landing_page": "https://doi.org/10.1117/12.3113856",
+        "mandatory": false,
+        "score": 0.76,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Phase-only optical neural networks: quantization and robustness analysis",
+        "venue": "ODS 2026: Industrial Optical Devices and Systems",
+        "year": 2026
+      }
+    ],
+    "next_candidates": [
+      {
+        "candidate_id": "61dad77fe7c2ef7687ce5b21",
+        "landing_page": "https://doi.org/10.1364/ao.611779",
+        "mandatory": false,
+        "score": 0.73,
+        "source_type": "google_scholar_email",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Gigahertz thin-film lithium niobate phase-SLM architecture for true matrix–matrix multiplication in photonic AI accelerators: design and physical-layer simulation",
+        "venue": "Applied Optics",
+        "year": 2026
+      }
+    ]
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

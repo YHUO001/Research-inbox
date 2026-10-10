@@ -4638,6 +4638,40 @@
       "retrieved_at": "2026-09-17T01:02:50.994334Z",
       "status": "found"
     },
+    "crossref:doi:10.1117/1.ap.8.5.056013": {
+      "expires_at": "2026-11-09T01:10:20.764525Z",
+      "record": {
+        "abstract": "Photonic parallel computing inspires important approaches to artificial intelligence, promising substantial gains in processing speed, energy efficiency, and latency. Nevertheless, the integration density and robustness of most optical computing architectures continue to pose significant challenges. Here, we report a waveguide-array optical neural network based on thin-film lithium niobate (TFLN). By virtue of the compact size of the waveguide arrays, this architecture yields a computational density of 9.48×104 TOPS/mm2. Moreover, the high-speed and energy-efficient characteristics of the TFLN platform enable a computing speed of 135.6 TOPS with an energy efficiency of 6.28 TOPS/W. Our experiments on the iris flower and handwritten digit recognition demonstrate accuracies of 100% and 89.7%, respectively. The device achieves over 90% accuracy across a 75-nm operating bandwidth in the iris flower recognition task, indicating the wavelength insensitivity and superior robustness of the waveguide array. As a compact paradigm for optical neural networks, we demonstrate the potential of waveguide arrays in performing optical computation, thereby offering solutions for the advancement of edge computing, optoelectronic integration, and intelligent automation.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jiacheng Sun",
+            "orcid": null
+          },
+          {
+            "name": "Jian Li",
+            "orcid": null
+          },
+          {
+            "name": "Tao Li",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/1.ap.8.5.056013",
+        "landing_page": "https://doi.org/10.1117/1.ap.8.5.056013",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/1.ap.8.5.056013",
+        "publication_date": "2026-10-08",
+        "title": "Waveguide-array optical neural network on thin-film lithium niobate platform",
+        "venue": "Advanced Photonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-10T01:10:20.764525Z",
+      "status": "found"
+    },
     "crossref:doi:10.1117/1.oe.65.7.073102": {
       "expires_at": "2026-09-03T09:38:17.735069Z",
       "record": {
@@ -4708,6 +4742,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:31.152075Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1117/12.3113856": {
+      "expires_at": "2026-11-09T01:10:21.340445Z",
+      "record": {
+        "abstract": "Phase-only optical neural networks (ONNs) promise energy-efficient inference through passive photonic components. Two gaps separate continuous-valued simulation from hardware deployment: commercial phase light modulators (PLMs) realize only discrete phase levels, and mechanical mounting fixes the propagation distance that training treats as a learnable parameter. The physics-aware simulation platform presented in1 is extended with quantization-aware training (QAT) over three phase encodings and a propagation-distance sensitivity analysis that holds trained phase masks fixed. Across the configurations tested, 4-bit resolution is the point where accuracy stabilizes and approaches the continuous-phase baseline, while the lowest bit depths collapse. The distance analysis bounds usable mounting tolerance to a few millimeters around the trained optimum. These results give hardware specifications for laboratory testbed implementation of discrete-phase optical inference.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Linqi Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Muhammad Ridwanur Rahim",
+            "orcid": null
+          },
+          {
+            "name": "Rongqing Hui",
+            "orcid": null
+          },
+          {
+            "name": "Andrea Fumagalli",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3113856",
+        "landing_page": "https://doi.org/10.1117/12.3113856",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/12.3113856",
+        "publication_date": "2026-10-08",
+        "title": "Phase-only optical neural networks: quantization and robustness analysis",
+        "venue": "ODS 2026: Industrial Optical Devices and Systems",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-10T01:10:21.340445Z",
       "status": "found"
     },
     "crossref:doi:10.1117/12.3116253": {
@@ -19539,6 +19611,40 @@
       "retrieved_at": "2026-09-17T01:02:51.419262Z",
       "status": "found"
     },
+    "openalex:doi:10.1117/1.ap.8.5.056013": {
+      "expires_at": "2026-11-09T01:10:21.106240Z",
+      "record": {
+        "abstract": "Photonic parallel computing inspires important approaches to artificial intelligence, promising substantial gains in processing speed, energy efficiency, and latency. Nevertheless, the integration density and robustness of most optical computing architectures continue to pose significant challenges. Here, we report a waveguide-array optical neural network based on thin-film lithium niobate (TFLN). By virtue of the compact size of the waveguide arrays, this architecture yields a computational density of 9.48×104 TOPS/mm2. Moreover, the high-speed and energy-efficient characteristics of the TFLN platform enable a computing speed of 135.6 TOPS with an energy efficiency of 6.28 TOPS/W. Our experiments on the iris flower and handwritten digit recognition demonstrate accuracies of 100% and 89.7%, respectively. The device achieves over 90% accuracy across a 75-nm operating bandwidth in the iris flower recognition task, indicating the wavelength insensitivity and superior robustness of the waveguide array. As a compact paradigm for optical neural networks, we demonstrate the potential of waveguide arrays in performing optical computation, thereby offering solutions for the advancement of edge computing, optoelectronic integration, and intelligent automation.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jiacheng Sun",
+            "orcid": "https://orcid.org/0000-0001-5289-3451"
+          },
+          {
+            "name": "Jian Li",
+            "orcid": "https://orcid.org/0009-0000-6832-4771"
+          },
+          {
+            "name": "Tao Li",
+            "orcid": "https://orcid.org/0000-0003-0049-471X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/1.ap.8.5.056013",
+        "landing_page": "https://doi.org/10.1117/1.ap.8.5.056013",
+        "open_access_url": "https://doi.org/10.1117/1.ap.8.5.056013",
+        "openalex_id": "https://openalex.org/W7220993780",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220993780",
+        "publication_date": "2026-10-08",
+        "title": "Waveguide-array optical neural network on thin-film lithium niobate platform",
+        "venue": "Advanced Photonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-10T01:10:21.106240Z",
+      "status": "found"
+    },
     "openalex:doi:10.1117/1.oe.65.7.073102": {
       "expires_at": "2026-09-03T09:38:18.749938Z",
       "record": {
@@ -19609,6 +19715,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:31.484273Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1117/12.3113856": {
+      "expires_at": "2026-11-09T01:10:21.691539Z",
+      "record": {
+        "abstract": "Phase-only optical neural networks (ONNs) promise energy-efficient inference through passive photonic components. Two gaps separate continuous-valued simulation from hardware deployment: commercial phase light modulators (PLMs) realize only discrete phase levels, and mechanical mounting fixes the propagation distance that training treats as a learnable parameter. The physics-aware simulation platform presented in1 is extended with quantization-aware training (QAT) over three phase encodings and a propagation-distance sensitivity analysis that holds trained phase masks fixed. Across the configurations tested, 4-bit resolution is the point where accuracy stabilizes and approaches the continuous-phase baseline, while the lowest bit depths collapse. The distance analysis bounds usable mounting tolerance to a few millimeters around the trained optimum. These results give hardware specifications for laboratory testbed implementation of discrete-phase optical inference.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Linqi Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Muhammad Ridwanur Rahim",
+            "orcid": null
+          },
+          {
+            "name": "Rongqing Hui",
+            "orcid": "https://orcid.org/0000-0002-0710-3518"
+          },
+          {
+            "name": "Andrea Fumagalli",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3113856",
+        "landing_page": "https://doi.org/10.1117/12.3113856",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7221005973",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221005973",
+        "publication_date": "2026-10-08",
+        "title": "Phase-only optical neural networks: quantization and robustness analysis",
+        "venue": "Industrial Optical Devices and Systems (ODS)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-10T01:10:21.691539Z",
       "status": "found"
     },
     "openalex:doi:10.1117/12.3116253": {

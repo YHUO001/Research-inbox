@@ -1,10 +1,34 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`79`
-- 更新时间：`2026-10-09T01:13:29.927006Z`
+- 论文数：`82`
+- 更新时间：`2026-10-10T01:11:46.652493Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Waveguide-array optical neural network on thin-film lithium niobate platform
+
+- DOI/链接：[10.1117/1.ap.8.5.056013](https://doi.org/10.1117/1.ap.8.5.056013)
+- 期刊/年份：Advanced Photonics，2026
+- 摘要日期：`2026-10-10`
+- 候选 ID：`4cf08afde3b5592300752bae`
+- 标签：application:palmer penguins 数据集分类（仿真）, application:手写数字识别（mnist）, application:鸢尾花分类, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
+
+### Phase-only optical neural networks: quantization and robustness analysis
+
+- DOI/链接：[10.1117/12.3113856](https://doi.org/10.1117/12.3113856)
+- 期刊/年份：ODS 2026: Industrial Optical Devices and Systems，2026
+- 摘要日期：`2026-10-10`
+- 候选 ID：`c1e890d592087a69465d1299`
+- 标签：application:光学推理, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
+
+### Light-Field-to-Bits Computing via an Online-Trainable Cascaded Optoelectronic Neural Network
+
+- DOI/链接：[10.21203/rs.3.rs-11002782/v1](https://doi.org/10.21203/rs.3.rs-11002782/v1)
+- 期刊/年份：Research Square，2026
+- 摘要日期：`2026-10-10`
+- 候选 ID：`5228362e834f7a6b9567811b`
+- 标签：application:交通标志的4位编码分类, application:十六进制字符（0-f）的4位编码分类, application:适用于延迟敏感的机器视觉和边缘感知场景, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Photonic neuromorphic learning via generalized in situ physical gradient descent
 
