@@ -2,13 +2,16 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from pathlib import Path
 from typing import Any
 
 import yaml
 
+from scripts.enrich.selected_author_metadata import enrich_selected_author_context
 from scripts.summarize.prepare_digest import (
     atomic_write,
+    file_digest,
     load_json,
     load_jsonl,
     prepare_dry_run,
@@ -51,6 +54,42 @@ def validate_automatic_config(config: dict[str, Any]) -> None:
         raise RuntimeError("The long-term index must be enabled without persisted full text")
     if delivery.get("daily_digest_enabled") is not True:
         raise RuntimeError("Daily digest delivery must be enabled")
+
+
+def attach_selected_author_contexts(
+    request_path: Path,
+    *,
+    api_key: str | None,
+) -> dict[str, int]:
+    """Attach deterministic author/team context to already-selected requests only.
+
+    The prompt has already been built before this step, so these static metadata
+    fields are available to the renderer without increasing LLM prompt tokens.
+    """
+    requests = load_jsonl(request_path)
+    enriched_count = 0
+    fallback_count = 0
+    for request in requests:
+        source = request.get("source")
+        if not isinstance(source, dict):
+            continue
+        context = enrich_selected_author_context(source, api_key=api_key)
+        source["author_context"] = context
+        if context.get("lookup_status") == "enriched":
+            enriched_count += 1
+        else:
+            fallback_count += 1
+    atomic_write(
+        request_path,
+        "".join(
+            json.dumps(item, ensure_ascii=False, sort_keys=True) + "\n"
+            for item in requests
+        ),
+    )
+    return {
+        "author_metadata_enriched_count": enriched_count,
+        "author_metadata_fallback_count": fallback_count,
+    }
 
 
 def prepare_automatic(
@@ -101,6 +140,20 @@ def prepare_automatic(
         output_root=output_root,
         state_manifest_path=manifest_path,
     )
+
+    author_counts = {
+        "author_metadata_enriched_count": 0,
+        "author_metadata_fallback_count": 0,
+    }
+    request_path_value = str(manifest.get("request_file") or "")
+    if int(manifest.get("request_count") or 0) > 0 and request_path_value:
+        request_path = Path(request_path_value)
+        author_counts = attach_selected_author_contexts(
+            request_path,
+            api_key=os.environ.get("OPENALEX_API_KEY"),
+        )
+        manifest["request_sha256"] = file_digest(request_path)
+
     manifest.update(
         {
             "status": "no_candidates" if int(manifest.get("request_count") or 0) == 0 else "automatic_requests_prepared",
@@ -114,6 +167,8 @@ def prepare_automatic(
             "history_path": str(history_path),
             "knowledge_base_pending": int(manifest.get("request_count") or 0) > 0,
             "daily_digest_pending": int(manifest.get("request_count") or 0) > 0,
+            "author_metadata_mode": "selected_openalex_work_metadata_with_safe_fallback",
+            **author_counts,
         }
     )
     atomic_write(
