@@ -1,10 +1,34 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`82`
-- 更新时间：`2026-10-10T01:11:46.652493Z`
+- 论文数：`85`
+- 更新时间：`2026-10-11T01:16:40.343070Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Toward scalable nonlinearities in convolutional optical neural networks driven by ultrashort laser pulses
+
+- DOI/链接：[10.1117/12.3114162](https://doi.org/10.1117/12.3114162)
+- 期刊/年份：Emerging Topics in Artificial Intelligence (ETAI) 2026，2026
+- 摘要日期：`2026-10-11`
+- 候选 ID：`f21edc0449744abc1fb2536f`
+- 标签：application:物体分类, architecture:free_space, hardware_validation:physical_experiment, project:optical-neural-networks
+
+### Scalable neuromorphic photonic architecture based on nonlinear Si₃N₄ waveguides and neural network surrogate modeling
+
+- DOI/链接：[10.1117/12.3117698](https://doi.org/10.1117/12.3117698)
+- 期刊/年份：Emerging Topics in Artificial Intelligence (ETAI) 2026，2026
+- 摘要日期：`2026-10-11`
+- 候选 ID：`099f50640efd207890cbb62b`
+- 标签：application:模式复用, application:模式转换, application:神经形态光计算, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
+
+### Physics-informed deep learning with optical neural networks for information transmission through scattering media
+
+- DOI/链接：[10.1117/12.3111755](https://doi.org/10.1117/12.3111755)
+- 期刊/年份：Emerging Topics in Artificial Intelligence (ETAI) 2026，2026
+- 摘要日期：`2026-10-11`
+- 候选 ID：`a6c0cee36e01933034e775f2`
+- 标签：application:多模光纤模式解复用, application:散射介质信息传输, architecture:unclear, hardware_validation:unclear, project:optical-neural-networks
 
 ### Waveguide-array optical neural network on thin-film lithium niobate platform
 

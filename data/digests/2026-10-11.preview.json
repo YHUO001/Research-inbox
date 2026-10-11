@@ -1,0 +1,65 @@
+{
+  "built_at": "2026-10-11T01:15:43.493131Z",
+  "digest_date": "2026-10-11",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "a6c0cee36e01933034e775f2",
+        "landing_page": "https://doi.org/10.1117/12.3111755",
+        "mandatory": false,
+        "score": 0.84,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Physics-informed deep learning with optical neural networks for information transmission through scattering media",
+        "venue": "Emerging Topics in Artificial Intelligence (ETAI) 2026",
+        "year": 2026
+      },
+      {
+        "candidate_id": "099f50640efd207890cbb62b",
+        "landing_page": "https://doi.org/10.1117/12.3117698",
+        "mandatory": false,
+        "score": 0.76,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Scalable neuromorphic photonic architecture based on nonlinear Si₃N₄ waveguides and neural network surrogate modeling",
+        "venue": "Emerging Topics in Artificial Intelligence (ETAI) 2026",
+        "year": 2026
+      },
+      {
+        "candidate_id": "f21edc0449744abc1fb2536f",
+        "landing_page": "https://doi.org/10.1117/12.3114162",
+        "mandatory": false,
+        "score": 0.73,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Toward scalable nonlinearities in convolutional optical neural networks driven by ultrashort laser pulses",
+        "venue": "Emerging Topics in Artificial Intelligence (ETAI) 2026",
+        "year": 2026
+      }
+    ],
+    "next_candidates": [
+      {
+        "candidate_id": "61dad77fe7c2ef7687ce5b21",
+        "landing_page": "https://doi.org/10.1364/ao.611779",
+        "mandatory": false,
+        "score": 0.73,
+        "source_type": "google_scholar_email",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Gigahertz thin-film lithium niobate phase-SLM architecture for true matrix–matrix multiplication in photonic AI accelerators: design and physical-layer simulation",
+        "venue": "Applied Optics",
+        "year": 2026
+      }
+    ]
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

@@ -18,6 +18,15 @@
       "summary_record_sha256": "ade5dd93d18b01bd728091a7e624d7a05a4e0e879d0214f99d0e7b280b9f8817",
       "title": "Spatiotemporal all-optical diffractive neural networks empowered by spatiotemporal light field manipulation"
     },
+    "099f50640efd207890cbb62b": {
+      "digest_date": "2026-10-11",
+      "doi": "10.1117/12.3117698",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "a8145ff08dd1d7db43f28b5c613c834e573eebae4e75128592e711eb1243b3ce",
+      "title": "Scalable neuromorphic photonic architecture based on nonlinear Si₃N₄ waveguides and neural network surrogate modeling"
+    },
     "09e1a0ed403ef22abbd9b189": {
       "digest_date": "2026-09-06",
       "doi": "10.6084/m9.figshare.33342183.v2",
@@ -512,6 +521,15 @@
       "summary_record_sha256": "a5aa13a57cf377eea36a92bdb681d253620e8554c9d097ee241276d33ce11c75",
       "title": "Optical diffractive layers 3D-integrated on a silicon photonic chip for high-density optical neural networks"
     },
+    "a6c0cee36e01933034e775f2": {
+      "digest_date": "2026-10-11",
+      "doi": "10.1117/12.3111755",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "7b39c05e52d988170f20b12676561a9039534d0dd8b832b208767c0c4089e8fc",
+      "title": "Physics-informed deep learning with optical neural networks for information transmission through scattering media"
+    },
     "a7f4407333af25ddc7630e14": {
       "digest_date": "2026-09-15",
       "doi": "10.1063/5.0350777",
@@ -700,6 +718,15 @@
       ],
       "summary_record_sha256": "1e863777a5d304b97bd7b61f7051378960ba2cf748f4148293a6f8e3c3e3581e",
       "title": "ZOCheck: CPU-Shadow Checkpointing for Zeroth-Order LLM Fine-Tuning"
+    },
+    "f21edc0449744abc1fb2536f": {
+      "digest_date": "2026-10-11",
+      "doi": "10.1117/12.3114162",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "8dbfce6f272d36727c805a232eb794fa2e5e486aa88be8e6a17d6c0a44ee24ae",
+      "title": "Toward scalable nonlinearities in convolutional optical neural networks driven by ultrashort laser pulses"
     },
     "f4c6106a0a433a224abb3d56": {
       "digest_date": "2026-10-03",
@@ -902,6 +929,11 @@
       "4cf08afde3b5592300752bae",
       "5228362e834f7a6b9567811b",
       "c1e890d592087a69465d1299"
+    ],
+    "2026-10-11": [
+      "099f50640efd207890cbb62b",
+      "a6c0cee36e01933034e775f2",
+      "f21edc0449744abc1fb2536f"
     ]
   },
   "by_doi": {
@@ -940,8 +972,11 @@
     "10.1117/1.ap.8.5.056013": "4cf08afde3b5592300752bae",
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
     "10.1117/12.3110867": "2b5f9302fe96c2793d48540e",
+    "10.1117/12.3111755": "a6c0cee36e01933034e775f2",
     "10.1117/12.3113856": "c1e890d592087a69465d1299",
+    "10.1117/12.3114162": "f21edc0449744abc1fb2536f",
     "10.1117/12.3116253": "7d6c2a059923ebe445a1cdf7",
+    "10.1117/12.3117698": "099f50640efd207890cbb62b",
     "10.1117/12.3118799": "9351be654a20f4a2f7121847",
     "10.1126/sciadv.aee9649": "44fa3bd6f72c84820ce42dab",
     "10.1126/sciadv.aef8657": "c7b91f881a121b7e1651e2f2",
@@ -989,6 +1024,7 @@
     "optical-neural-networks": [
       "028de8014a2b67fd147a28e7",
       "04bdf084776bcfe0d6f912cb",
+      "099f50640efd207890cbb62b",
       "09e1a0ed403ef22abbd9b189",
       "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
@@ -1031,6 +1067,7 @@
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
+      "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
       "ae3adee8419a5db7be7ec3b2",
       "b832199d8494cc67a559fec5",
@@ -1044,6 +1081,7 @@
       "d2a55bdec24bc3bc4b04467b",
       "d33b2e7c6586f37945facb32",
       "d69a4f93ca6340969e1077a8",
+      "f21edc0449744abc1fb2536f",
       "f4eaa19659c54d93478a40d5",
       "fd6f281418ac4d412744b2ac"
     ],
@@ -1249,6 +1287,9 @@
     "application:基于实测电导更新特性的手写数字识别仿真，分类准确率98.02%": [
       "d69a4f93ca6340969e1077a8"
     ],
+    "application:多模光纤模式解复用": [
+      "a6c0cee36e01933034e775f2"
+    ],
     "application:多用户干扰抑制": [
       "557b41cb542bf10e84da81f2"
     ],
@@ -1283,6 +1324,9 @@
     "application:拓扑编码图像传输": [
       "d2a55bdec24bc3bc4b04467b"
     ],
+    "application:散射介质信息传输": [
+      "a6c0cee36e01933034e775f2"
+    ],
     "application:无人机实时障碍物感知": [
       "557b41cb542bf10e84da81f2"
     ],
@@ -1301,8 +1345,14 @@
     "application:机器视觉": [
       "83a830ace13b5158f346c392"
     ],
+    "application:模式复用": [
+      "099f50640efd207890cbb62b"
+    ],
     "application:模式解复用": [
       "15e7193239d6058f661ff180"
+    ],
+    "application:模式转换": [
+      "099f50640efd207890cbb62b"
     ],
     "application:水下成像": [
       "35ff63ef9d3333099ee28868"
@@ -1322,6 +1372,9 @@
     "application:激光雷达信号处理与多目标运动场景实时重建": [
       "04bdf084776bcfe0d6f912cb"
     ],
+    "application:物体分类": [
+      "f21edc0449744abc1fb2536f"
+    ],
     "application:物理自适应计算": [
       "ae3adee8419a5db7be7ec3b2"
     ],
@@ -1333,6 +1386,9 @@
     ],
     "application:矢量拉盖尔-高斯模式拓扑电荷识别": [
       "d2a55bdec24bc3bc4b04467b"
+    ],
+    "application:神经形态光计算": [
+      "099f50640efd207890cbb62b"
     ],
     "application:神经形态计算": [
       "ae3adee8419a5db7be7ec3b2"
@@ -1428,7 +1484,8 @@
       "5017adbd33e6ddd5c320a4c4",
       "9351be654a20f4a2f7121847",
       "a15033db64285e5d4c8a46c9",
-      "b832199d8494cc67a559fec5"
+      "b832199d8494cc67a559fec5",
+      "f21edc0449744abc1fb2536f"
     ],
     "architecture:hybrid": [
       "ae3adee8419a5db7be7ec3b2",
@@ -1446,6 +1503,7 @@
     "architecture:unclear": [
       "028de8014a2b67fd147a28e7",
       "04bdf084776bcfe0d6f912cb",
+      "099f50640efd207890cbb62b",
       "09e1a0ed403ef22abbd9b189",
       "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
@@ -1477,6 +1535,7 @@
       "9322fad036b3d7fc8e3dd47b",
       "93f3ffb1741a00e1480b8ab2",
       "95fe7b58392c34e07c8b2616",
+      "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
       "c01ea24e589c31ebd4af01d6",
       "c1e890d592087a69465d1299",
@@ -1518,9 +1577,11 @@
       "c7b91f881a121b7e1651e2f2",
       "d2a55bdec24bc3bc4b04467b",
       "d69a4f93ca6340969e1077a8",
+      "f21edc0449744abc1fb2536f",
       "fd6f281418ac4d412744b2ac"
     ],
     "hardware_validation:simulation_only": [
+      "099f50640efd207890cbb62b",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "380b726618cccff0a9e5514f",
@@ -1545,12 +1606,14 @@
       "83a830ace13b5158f346c392",
       "916e8199aaabe1372544d280",
       "93f3ffb1741a00e1480b8ab2",
+      "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
       "c3474ba19a69c715eb87d391"
     ],
     "project:optical-neural-networks": [
       "028de8014a2b67fd147a28e7",
       "04bdf084776bcfe0d6f912cb",
+      "099f50640efd207890cbb62b",
       "09e1a0ed403ef22abbd9b189",
       "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
@@ -1593,6 +1656,7 @@
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
+      "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
       "ae3adee8419a5db7be7ec3b2",
       "b832199d8494cc67a559fec5",
@@ -1606,6 +1670,7 @@
       "d2a55bdec24bc3bc4b04467b",
       "d33b2e7c6586f37945facb32",
       "d69a4f93ca6340969e1077a8",
+      "f21edc0449744abc1fb2536f",
       "f4eaa19659c54d93478a40d5",
       "fd6f281418ac4d412744b2ac"
     ],
@@ -1781,6 +1846,11 @@
     "CLEO 2026": [
       "5017adbd33e6ddd5c320a4c4"
     ],
+    "Emerging Topics in Artificial Intelligence (ETAI) 2026": [
+      "099f50640efd207890cbb62b",
+      "a6c0cee36e01933034e775f2",
+      "f21edc0449744abc1fb2536f"
+    ],
     "Figshare": [
       "09e1a0ed403ef22abbd9b189",
       "d162b179119ee09c86ad3708"
@@ -1916,6 +1986,7 @@
     "2026": [
       "028de8014a2b67fd147a28e7",
       "04bdf084776bcfe0d6f912cb",
+      "099f50640efd207890cbb62b",
       "09e1a0ed403ef22abbd9b189",
       "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
@@ -1971,6 +2042,7 @@
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
+      "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
       "ae3adee8419a5db7be7ec3b2",
       "b03b6320be57edd77b3ad7e5",
@@ -1991,6 +2063,7 @@
       "ead3d4ba8c5090acac05878a",
       "f0cf0b80e6f1f53ea347c136",
       "f180e20173fd0995c081891b",
+      "f21edc0449744abc1fb2536f",
       "f4c6106a0a433a224abb3d56",
       "f4eaa19659c54d93478a40d5",
       "fca2cfc597728ee01e2a6032",
@@ -2000,7 +2073,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 82,
+  "paper_count": 85,
   "schema_version": 1,
-  "updated_at": "2026-10-10T01:11:46.652493Z"
+  "updated_at": "2026-10-11T01:16:40.343070Z"
 }

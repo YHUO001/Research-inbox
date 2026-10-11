@@ -1,0 +1,24 @@
+{
+  "archive_body_file": "data/digest_archive/2026/2026-10-11.email.md",
+  "archived_at": "2026-10-11T01:16:41.517474Z",
+  "body_sha256": "fc12c7ef0f10d094ba4f2f1a18af049c8af21da5dac90ea1743285855694befa",
+  "candidate_ids": [
+    "a6c0cee36e01933034e775f2",
+    "099f50640efd207890cbb62b",
+    "f21edc0449744abc1fb2536f"
+  ],
+  "content_status": "completed_digest",
+  "delivery_status": "sent",
+  "digest_date": "2026-10-11",
+  "full_text_persisted": false,
+  "gmail_message_id_sha256": "5c8211a46f17865a0b87409947883d97cfa1168a9861d3674efcac2251681d9a",
+  "knowledge_index_file": "data/knowledge_base/index.md",
+  "message_id_header": "<research-inbox-20261011-05bbb7a725825d85@research-inbox.local>",
+  "recipient_sha256": "05bbb7a725825d85078914a36b7fbb15a2c4781c25a2eb2832958cb229c38c4d",
+  "schema_version": 1,
+  "sent_at": "2026-10-11T01:16:41.517176Z",
+  "source_digest_file": "data/digests/2026-10-11.generated.md",
+  "source_digest_sha256": "e37cdf4818512eec33f791916520ba9eeee4096b579ba34bb364552a8920b802",
+  "subject": "[Research Inbox] 每日研究汇总 2026-10-11（3 篇）",
+  "summary_count": 3
+}

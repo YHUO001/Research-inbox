@@ -4744,6 +4744,32 @@
       "retrieved_at": "2026-08-04T09:38:31.152075Z",
       "status": "found"
     },
+    "crossref:doi:10.1117/12.3111755": {
+      "expires_at": "2026-11-10T01:15:40.697769Z",
+      "record": {
+        "abstract": "We propose novel approachs to information transmission in scattering media such as multimode fibers (MMF). By utilizing the physical basis of the model, training with pure eigenmode data enables precise mode decomposition, which is of great importance in high-rate secure multimode fiber communication. In this work, we present physics-based deep learning methods for the mode demultiplexing (MD) of MMF. The \"Physics-in-Loss\" method utilizes the physical premise that an MMF represents the linear superposition of its eigenmodes. This eliminates the need for large datasets and lengthy training sessions. MD of over 5,000 modes is achieved. However, mainly we focus on \"Physics-in-Network\" which is based on optical diffractive neural networks. It operates with minimal energy consumption and very low latency. For real-time mode demultiplexing, training with only eigenmode distributions is sufficient to achieve precise results. We will highlight the unique advantages, trade-offs and applications to information transmission via scattering media.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jürgen W. Czarske",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3111755",
+        "landing_page": "https://doi.org/10.1117/12.3111755",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/12.3111755",
+        "publication_date": "2026-10-09",
+        "title": "Physics-informed deep learning with optical neural networks for information transmission through scattering media",
+        "venue": "Emerging Topics in Artificial Intelligence (ETAI) 2026",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-11T01:15:40.697769Z",
+      "status": "found"
+    },
     "crossref:doi:10.1117/12.3113856": {
       "expires_at": "2026-11-09T01:10:21.340445Z",
       "record": {
@@ -4782,6 +4808,40 @@
       "retrieved_at": "2026-10-10T01:10:21.340445Z",
       "status": "found"
     },
+    "crossref:doi:10.1117/12.3114162": {
+      "expires_at": "2026-11-10T01:15:42.010001Z",
+      "record": {
+        "abstract": "The realization of ultrafast, low-power optical neural networks requires physically embedded nonlinear activation mechanisms compatible with Fourier-based photonic architectures. We demonstrate a convolutional optical neural network (OCNN) driven by a femtosecond-pulsed telecom laser, enabling intrinsic nonlinear activation via material absorption rather than electronic post-processing. Convolution is implemented in the Fourier plane using a spatial light modulator (SLM), with Laguerre-Gaussian modes serving as an orthogonal kernel basis. Object information is encoded directly onto the beam and processed through parallel Fourier-domain filtering. Nonlinear activation arises from two-photon absorption (TPA) in a CMOS camera, providing an intensity-dependent response without external electronic nonlinearities while remaining compatible with telecom wavelengths. The high peak intensities of ultrashort pulses enable scalable nonlinear activation at low average power. In object classification tasks, we achieve >90% accuracy, comparable to state-of-the-art OCNNs, establishing a pathway toward scalable, all-optical neuromorphic processors.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Maxim R. Shcherbakov",
+            "orcid": "https://orcid.org/0000-0001-7198-5482"
+          },
+          {
+            "name": "Arturo Ramirez",
+            "orcid": null
+          },
+          {
+            "name": "Taeyun Park",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3114162",
+        "landing_page": "https://doi.org/10.1117/12.3114162",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/12.3114162",
+        "publication_date": "2026-10-09",
+        "title": "Toward scalable nonlinearities in convolutional optical neural networks driven by ultrashort laser pulses",
+        "venue": "Emerging Topics in Artificial Intelligence (ETAI) 2026",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-11T01:15:42.010001Z",
+      "status": "found"
+    },
     "crossref:doi:10.1117/12.3116253": {
       "expires_at": "2026-09-03T09:38:55.106251Z",
       "record": {
@@ -4810,6 +4870,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:55.106251Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1117/12.3117698": {
+      "expires_at": "2026-11-10T01:15:37.756567Z",
+      "record": {
+        "abstract": "We present a scalable neuromorphic photonic computing architecture based on a χ⁽³⁾ silicon nitride waveguide. Using three-dimensional FDTD simulation, we characterize nonlinear mode coupling across 15 guided modes and verify linear scaling of the nonlinear field difference across four propagation lengths — 12.5, 25, 50, and 100 micrometers — confirming Kerr nonlinear accumulation consistent with theory. Simulation cost is minimized through length-nonlinearity equivalence scaling, reducing all production runs to the 12.5 μm geometry. A dataset of input mode combinations and corresponding output mode coefficients — extracted via modal decomposition at the output facet — trains a neural network surrogate that replaces expensive FDTD evaluations during optimization. The S-matrix formalism describes the inverse design region, enabling gradient-based joint optimization of input modes and waveguide geometry. Each waveguide-plus-inverse-design pair acts as a cascadable physical neural network layer, forming a scalable architecture for mode conversion, multiplexing, and neuromorphic optical computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Büşra Gedik",
+            "orcid": null
+          },
+          {
+            "name": "Azka Maula Iskandar Muda",
+            "orcid": null
+          },
+          {
+            "name": "Uğur Teğin",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3117698",
+        "landing_page": "https://doi.org/10.1117/12.3117698",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/12.3117698",
+        "publication_date": "2026-10-09",
+        "title": "Scalable neuromorphic photonic architecture based on nonlinear Si₃N₄ waveguides and neural network surrogate modeling",
+        "venue": "Emerging Topics in Artificial Intelligence (ETAI) 2026",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-11T01:15:37.756567Z",
       "status": "found"
     },
     "crossref:doi:10.1117/12.3118799": {
@@ -6858,6 +6952,12 @@
       "retrieved_at": "2026-10-08T01:10:13.129929Z",
       "status": "not_found"
     },
+    "crossref:doi:10.48550/arxiv.2610.12328": {
+      "expires_at": "2026-11-10T01:15:38.429351Z",
+      "record": null,
+      "retrieved_at": "2026-10-11T01:15:38.429351Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.5281/zenodo.21885998": {
       "expires_at": "2026-09-17T04:25:17.174341Z",
       "record": null,
@@ -7385,6 +7485,68 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:52.739145Z",
+      "status": "found"
+    },
+    "crossref:title:1163f8b6d457de6f4f0119ade1dd4ebdaeba9d2c8b8d85c8d0faeb0aa744a96a": {
+      "expires_at": "2026-10-18T01:15:39.216662Z",
+      "record": {
+        "abstract": "Artificial neural networks (ANNs) have become powerful tools for deciphering complex data patterns. However, conventional ANNs can be viewed as point estimators that fail to capture predictive uncertainty, leading to overconfident predictions. Probabilistic models grounded in Bayesian inference offer a principled framework for characterizing uncertainty, yet they are generally ill-suited for conventional deterministic computing architectures. Here, we propose and experimentally demonstrate a probabilistic photonic computing link based on chaotic Kerr optical frequency combs (CK-PPC). The intrinsic randomness of chaotic Kerr optical frequency combs is exploited as a native entropy source, and a cascade of Mach–Zehnder modulators with a micro-ring resonator (MRR) array is employed to realize the probabilistic photonic computing link. Building upon this platform, a hybrid Bayesian convolutional network (HBNN) is constructed and applied to blood-cell microscopic image classification and out-of-distribution (OOD) detection. Compared with conventional convolutional neural networks, our approach improves OOD detection by 23% while maintaining high recognition accuracy. This scheme paves the way toward integrable, high-speed probabilistic optical processors for trustworthy artificial intelligence in real-world scenarios.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Qi Liang",
+            "orcid": null
+          },
+          {
+            "name": "Qiuquan Yan",
+            "orcid": null
+          },
+          {
+            "name": "Hao Ouyang",
+            "orcid": null
+          },
+          {
+            "name": "Chao Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Hao Hao",
+            "orcid": null
+          },
+          {
+            "name": "Licheng Wang",
+            "orcid": "https://orcid.org/0000-0002-1585-4653"
+          },
+          {
+            "name": "Yilun Wang",
+            "orcid": "https://orcid.org/0000-0001-9416-2219"
+          },
+          {
+            "name": "Yuhua Tang",
+            "orcid": null
+          },
+          {
+            "name": "Jun Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Tian Jiang",
+            "orcid": "https://orcid.org/0000-0003-3343-5548"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/ol.611768",
+        "landing_page": "https://doi.org/10.1364/ol.611768",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/ol.611768",
+        "publication_date": "2026-10-15",
+        "title": "Probabilistic photonic computing based on chaotic Kerr optical frequency combs",
+        "venue": "Optics Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-11T01:15:39.216662Z",
       "status": "found"
     },
     "crossref:title:141a8841dc5bc51fbfd2e870ca1d2b69ffde28d0612acd4250b29c2c16938ee7": {
@@ -9035,6 +9197,12 @@
       "retrieved_at": "2026-09-01T01:13:17.558795Z",
       "status": "not_found"
     },
+    "crossref:title:65e40c751746554da0d9b25435ce98430be064c05f84c0f03047d11fa6ac86c2": {
+      "expires_at": "2026-10-18T01:15:41.303178Z",
+      "record": null,
+      "retrieved_at": "2026-10-11T01:15:41.303178Z",
+      "status": "not_found"
+    },
     "crossref:title:68c7f373df5dda2ec156480414652821d724642dc444651f33df7b44061a9455": {
       "expires_at": "2026-08-27T00:32:29.845954Z",
       "record": null,
@@ -9851,6 +10019,12 @@
       "expires_at": "2026-09-07T01:07:11.608339Z",
       "record": null,
       "retrieved_at": "2026-08-31T01:07:11.608339Z",
+      "status": "not_found"
+    },
+    "crossref:title:96a30e3b3d0fc926b817f3f826bb51f84b52e22e952552ed7b23de11f1a85e67": {
+      "expires_at": "2026-10-18T01:15:40.097523Z",
+      "record": null,
+      "retrieved_at": "2026-10-11T01:15:40.097523Z",
       "status": "not_found"
     },
     "crossref:title:96b97b2239e5c8ac850ddab7d2706a45ed92398fab9ab6f2e814a35b2caada98": {
@@ -19717,6 +19891,32 @@
       "retrieved_at": "2026-08-04T09:38:31.484273Z",
       "status": "found"
     },
+    "openalex:doi:10.1117/12.3111755": {
+      "expires_at": "2026-11-10T01:15:41.019491Z",
+      "record": {
+        "abstract": "We propose novel approachs to information transmission in scattering media such as multimode fibers (MMF). By utilizing the physical basis of the model, training with pure eigenmode data enables precise mode decomposition, which is of great importance in high-rate secure multimode fiber communication. In this work, we present physics-based deep learning methods for the mode demultiplexing (MD) of MMF. The \"Physics-in-Loss\" method utilizes the physical premise that an MMF represents the linear superposition of its eigenmodes. This eliminates the need for large datasets and lengthy training sessions. MD of over 5,000 modes is achieved. However, mainly we focus on \"Physics-in-Network\" which is based on optical diffractive neural networks. It operates with minimal energy consumption and very low latency. For real-time mode demultiplexing, training with only eigenmode distributions is sufficient to achieve precise results. We will highlight the unique advantages, trade-offs and applications to information transmission via scattering media.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jürgen W. Czarske",
+            "orcid": "https://orcid.org/0000-0001-7280-0523"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3111755",
+        "landing_page": "https://doi.org/10.1117/12.3111755",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7221196800",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221196800",
+        "publication_date": "2026-10-09",
+        "title": "Physics-informed deep learning with optical neural networks for information transmission through scattering media",
+        "venue": "Emerging Topics in Artificial Intelligence (ETAI)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-11T01:15:41.019491Z",
+      "status": "found"
+    },
     "openalex:doi:10.1117/12.3113856": {
       "expires_at": "2026-11-09T01:10:21.691539Z",
       "record": {
@@ -19755,6 +19955,40 @@
       "retrieved_at": "2026-10-10T01:10:21.691539Z",
       "status": "found"
     },
+    "openalex:doi:10.1117/12.3114162": {
+      "expires_at": "2026-11-10T01:15:42.436324Z",
+      "record": {
+        "abstract": "The realization of ultrafast, low-power optical neural networks requires physically embedded nonlinear activation mechanisms compatible with Fourier-based photonic architectures. We demonstrate a convolutional optical neural network (OCNN) driven by a femtosecond-pulsed telecom laser, enabling intrinsic nonlinear activation via material absorption rather than electronic post-processing. Convolution is implemented in the Fourier plane using a spatial light modulator (SLM), with Laguerre-Gaussian modes serving as an orthogonal kernel basis. Object information is encoded directly onto the beam and processed through parallel Fourier-domain filtering. Nonlinear activation arises from two-photon absorption (TPA) in a CMOS camera, providing an intensity-dependent response without external electronic nonlinearities while remaining compatible with telecom wavelengths. The high peak intensities of ultrashort pulses enable scalable nonlinear activation at low average power. In object classification tasks, we achieve >90% accuracy, comparable to state-of-the-art OCNNs, establishing a pathway toward scalable, all-optical neuromorphic processors.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Maxim R. Shcherbakov",
+            "orcid": "https://orcid.org/0000-0001-7198-5482"
+          },
+          {
+            "name": "Arturo Ramirez",
+            "orcid": null
+          },
+          {
+            "name": "Taeyun Park",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3114162",
+        "landing_page": "https://doi.org/10.1117/12.3114162",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7221076807",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221076807",
+        "publication_date": "2026-10-09",
+        "title": "Toward scalable nonlinearities in convolutional optical neural networks driven by ultrashort laser pulses",
+        "venue": "Emerging Topics in Artificial Intelligence (ETAI)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-11T01:15:42.436324Z",
+      "status": "found"
+    },
     "openalex:doi:10.1117/12.3116253": {
       "expires_at": "2026-09-03T09:38:55.436916Z",
       "record": {
@@ -19783,6 +20017,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:55.436916Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1117/12.3117698": {
+      "expires_at": "2026-11-10T01:15:38.101563Z",
+      "record": {
+        "abstract": "We present a scalable neuromorphic photonic computing architecture based on a χ⁽³⁾ silicon nitride waveguide. Using three-dimensional FDTD simulation, we characterize nonlinear mode coupling across 15 guided modes and verify linear scaling of the nonlinear field difference across four propagation lengths — 12.5, 25, 50, and 100 micrometers — confirming Kerr nonlinear accumulation consistent with theory. Simulation cost is minimized through length-nonlinearity equivalence scaling, reducing all production runs to the 12.5 μm geometry. A dataset of input mode combinations and corresponding output mode coefficients — extracted via modal decomposition at the output facet — trains a neural network surrogate that replaces expensive FDTD evaluations during optimization. The S-matrix formalism describes the inverse design region, enabling gradient-based joint optimization of input modes and waveguide geometry. Each waveguide-plus-inverse-design pair acts as a cascadable physical neural network layer, forming a scalable architecture for mode conversion, multiplexing, and neuromorphic optical computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Büşra Gedik",
+            "orcid": "https://orcid.org/0009-0003-5419-1172"
+          },
+          {
+            "name": "Azka Maula Iskandar Muda",
+            "orcid": null
+          },
+          {
+            "name": "Uğur Teğin",
+            "orcid": "https://orcid.org/0000-0002-4690-588X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3117698",
+        "landing_page": "https://doi.org/10.1117/12.3117698",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7221132276",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221132276",
+        "publication_date": "2026-10-09",
+        "title": "Scalable neuromorphic photonic architecture based on nonlinear Si₃N₄ waveguides and neural network surrogate modeling",
+        "venue": "Emerging Topics in Artificial Intelligence (ETAI)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-11T01:15:38.101563Z",
       "status": "found"
     },
     "openalex:doi:10.1117/12.3118799": {
@@ -21941,6 +22209,68 @@
       "retrieved_at": "2026-08-29T00:54:12.385748Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/ol.611768": {
+      "expires_at": "2026-11-10T01:15:39.548214Z",
+      "record": {
+        "abstract": "Artificial neural networks (ANNs) have become powerful tools for deciphering complex data patterns. However, conventional ANNs can be viewed as point estimators that fail to capture predictive uncertainty, leading to overconfident predictions. Probabilistic models grounded in Bayesian inference offer a principled framework for characterizing uncertainty, yet they are generally ill-suited for conventional deterministic computing architectures. Here, we propose and experimentally demonstrate a probabilistic photonic computing link based on chaotic Kerr optical frequency combs (CK-PPC). The intrinsic randomness of chaotic Kerr optical frequency combs is exploited as a native entropy source, and a cascade of Mach–Zehnder modulators with a micro-ring resonator (MRR) array is employed to realize the probabilistic photonic computing link. Building upon this platform, a hybrid Bayesian convolutional network (HBNN) is constructed and applied to blood-cell microscopic image classification and out-of-distribution (OOD) detection. Compared with conventional convolutional neural networks, our approach improves OOD detection by 23% while maintaining high recognition accuracy. This scheme paves the way toward integrable, high-speed probabilistic optical processors for trustworthy artificial intelligence in real-world scenarios.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Qi Liang",
+            "orcid": "https://orcid.org/0009-0000-9716-966X"
+          },
+          {
+            "name": "Qiuquan Yan",
+            "orcid": null
+          },
+          {
+            "name": "Hao Ouyang",
+            "orcid": null
+          },
+          {
+            "name": "Chao Zhou",
+            "orcid": "https://orcid.org/0000-0002-8679-3413"
+          },
+          {
+            "name": "Hao Hao",
+            "orcid": "https://orcid.org/0000-0003-3986-3703"
+          },
+          {
+            "name": "Licheng Wang",
+            "orcid": "https://orcid.org/0000-0002-1585-4653"
+          },
+          {
+            "name": "Yilun Wang",
+            "orcid": "https://orcid.org/0000-0001-9416-2219"
+          },
+          {
+            "name": "Yuhua Tang",
+            "orcid": "https://orcid.org/0000-0002-4956-3379"
+          },
+          {
+            "name": "Jun Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Tian Jiang",
+            "orcid": "https://orcid.org/0000-0003-3343-5548"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/ol.611768",
+        "landing_page": "https://doi.org/10.1364/ol.611768",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7213226089",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213226089",
+        "publication_date": "2026-09-15",
+        "title": "Probabilistic photonic computing based on chaotic Kerr optical frequency combs",
+        "venue": "Optics Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-11T01:15:39.548214Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/optica.591264": {
       "expires_at": "2026-09-03T09:38:30.948780Z",
       "record": {
@@ -23427,6 +23757,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-08T01:10:13.440072Z",
+      "status": "found"
+    },
+    "openalex:doi:10.48550/arxiv.2610.12328": {
+      "expires_at": "2026-11-10T01:15:38.847543Z",
+      "record": {
+        "abstract": "We consider stochastic nonsmooth nonconvex composite optimization, which includes several important problems such as constrained optimization and the regularized training of neural networks. The objective is the sum of a possibly nonsmooth nonconvex Lipschitz function and a convex regularizer, and the function is accessed through stochastic gradients or function values. The goal is to find a point that satisfies a Goldstein-type stationarity condition designed for composite objectives. To our knowledge, no oracle complexity bound for this setting is known under first-order access, and existing complexities under zeroth-order access are suboptimal. To handle this issue, we employ the framework of online-to-nonconvex conversion, which chooses update directions by an online learner and is known to achieve optimal rates for noncomposite problems. We extend the framework to our composite scenario by introducing new losses for the learner, which contain the regularizer itself rather than its linearization and for which a variant of online mirror descent achieves low regret. We show that the resulting algorithm finds such a point with $O(δ^{-1}\\varepsilon^{-3})$ stochastic gradient queries or $O(dδ^{-1}\\varepsilon^{-3})$ function-value queries, where $δ$ is the Goldstein radius, $\\varepsilon$ is the stationarity tolerance, and $d$ is the dimension. These rates match the optimal ones for noncomposite nonsmooth nonconvex optimization, demonstrating that the additional convex regularizer does not worsen the oracle complexity. We also give rates for the smooth case and present numerical experiments.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mingyi Li",
+            "orcid": null
+          },
+          {
+            "name": "Taira Tsuchiya",
+            "orcid": null
+          },
+          {
+            "name": "Kenji Yamanishi",
+            "orcid": "https://orcid.org/0000-0001-7370-9991"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.12328",
+        "landing_page": "https://doi.org/10.48550/arxiv.2610.12328",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2610.12328",
+        "openalex_id": "https://openalex.org/W7221171202",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221171202",
+        "publication_date": "2026-10-08",
+        "title": "Composite Online-to-Nonconvex Conversion with Optimal Oracle Complexity",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-11T01:15:38.847543Z",
       "status": "found"
     },
     "openalex:doi:10.5281/zenodo.21885998": {
@@ -25424,6 +25788,40 @@
       "retrieved_at": "2026-09-01T01:13:18.205309Z",
       "status": "found"
     },
+    "openalex:title:65e40c751746554da0d9b25435ce98430be064c05f84c0f03047d11fa6ac86c2": {
+      "expires_at": "2026-10-18T01:15:41.808922Z",
+      "record": {
+        "abstract": "Particle swarm optimization (PSO) is a popular class of gradient-free methods for global optimization. We study a continuous-time model for momentum-free PSO with personal-best memory and global-best interaction. Unlike previous models which rely on smooth approximations, we keep the original discontinuous personal- and global-best processes. We study the small-step limit and show that weak limit points satisfy a stochastic differential inclusion: personal-best variables obey a relaxed record condition, while fast switching of the global-best selector leads to a convexified interaction. We then give conditions under which the true original selectors are recovered. Under suitable regularity and nondegeneracy assumptions, Brownian noise allows us to identify the personal-best processes with the latest record positions of the limiting trajectories and to prove that the particle attaining the global best is unique at almost every time. The resulting continuous-time dynamics retain both selection rules without smoothing them.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Pascal Bianchi",
+            "orcid": "https://orcid.org/0000-0002-7156-0297"
+          },
+          {
+            "name": "Radu Dragomir",
+            "orcid": null
+          },
+          {
+            "name": "Yerkin Yesbay",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.07373",
+        "landing_page": "https://arxiv.org/abs/2610.07373",
+        "open_access_url": "https://arxiv.org/abs/2610.07373",
+        "openalex_id": "https://openalex.org/W7221041995",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221041995",
+        "publication_date": "2026-10-05",
+        "title": "A continuous-time limit for particle swarm optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-11T01:15:41.808922Z",
+      "status": "found"
+    },
     "openalex:title:68c7f373df5dda2ec156480414652821d724642dc444651f33df7b44061a9455": {
       "expires_at": "2026-08-27T00:32:30.372870Z",
       "record": {
@@ -26079,6 +26477,36 @@
       "record": null,
       "retrieved_at": "2026-08-31T01:07:12.337805Z",
       "status": "not_found"
+    },
+    "openalex:title:96a30e3b3d0fc926b817f3f826bb51f84b52e22e952552ed7b23de11f1a85e67": {
+      "expires_at": "2026-10-18T01:15:40.467434Z",
+      "record": {
+        "abstract": "Few-shot meta-learning traditionally formulates task adaptation either as analytical gradient descent through unrolled computational graphs or as metric-based distance comparisons over flattened 1D fea- ture vectors, which either incur costly test-time backpropagation or discard native 2D spatial geometry. In this work, we propose METALEARNNCA, a decentralized framework that achieves few-shot adapta- tion through the dynamical interaction of coupled Neural Cellular Automata (NCAs) without computing analytical gradients during inference. MetaLearnNCA decomposes task adaptation into an Active- NCA, which executes task inference conditioned on a continuous 2D spatial memory grid termed the spatial program, and a learned Meta-NCA, which acts as a decentralized cellular optimizer by diffusing spatial error residuals across local neighborhoods to dynamically update this program. METALEARN- NCA is competitive against canonical meta-learners in-distribution (96.12% on Omniglot) with Out-Of- Distribution transfer gains on MNIST, KMNIST, and Fashion-MNIST transfer across 10 independent testing seeds across 1-, 5-, and 10-shot regimes (e.g., surpassing Prototypical Networks by +10.54% on 10-shot MNIST and a +3.87% gain on 10-shot Fashion-MNIST over FOMAML). Our results establish that robust, gradient-free learning-to-learn can emerge from decentralized cellular dynamics on non-von Neumann substrates.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Etienne Guichard",
+            "orcid": null
+          },
+          {
+            "name": "Stefano Nichele",
+            "orcid": "https://orcid.org/0000-0003-4696-9872"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.08479",
+        "landing_page": "https://arxiv.org/abs/2610.08479",
+        "open_access_url": "https://arxiv.org/abs/2610.08479",
+        "openalex_id": "https://openalex.org/W7220984143",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220984143",
+        "publication_date": "2026-10-06",
+        "title": "MetaLearnNCA: Few-Shot Offline Meta-Learning via Interacting Neural Cellular Automata",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-11T01:15:40.467434Z",
+      "status": "found"
     },
     "openalex:title:96b97b2239e5c8ac850ddab7d2706a45ed92398fab9ab6f2e814a35b2caada98": {
       "expires_at": "2026-10-05T01:11:36.613445Z",
