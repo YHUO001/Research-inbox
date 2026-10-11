@@ -10,7 +10,6 @@ from typing import Any
 from scripts.summarize.author_context_renderer import render_author_context
 
 
-
 def append_author_section(markdown: str, summary: dict[str, Any]) -> str:
     """Append author metadata to a digest entry when metadata exists.
 
@@ -21,7 +20,7 @@ def append_author_section(markdown: str, summary: dict[str, Any]) -> str:
         return markdown
 
     markdown = markdown.rstrip()
-    if "## 作者信息" in markdown:
+    if "### 作者与团队" in markdown:
         return markdown
 
     return f"{markdown}\n\n{section}\n"
