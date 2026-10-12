@@ -1,10 +1,26 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`85`
-- 更新时间：`2026-10-11T01:16:40.343070Z`
+- 论文数：`87`
+- 更新时间：`2026-10-12T01:19:35.868654Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Gigahertz thin-film lithium niobate phase-SLM architecture for true matrix–matrix multiplication in photonic AI accelerators: design and physical-layer simulation
+
+- DOI/链接：[10.1364/ao.611779](https://doi.org/10.1364/ao.611779)
+- 期刊/年份：Applied Optics，2026
+- 摘要日期：`2026-10-12`
+- 候选 ID：`61dad77fe7c2ef7687ce5b21`
+- 标签：application:手写数字分类, application:矩阵-矩阵乘法加速, application:神经网络推理, architecture:free_space, hardware_validation:simulation_only, project:optical-neural-networks
+
+### Full-Vector Diffractive Deep Neural Networks
+
+- DOI/链接：[10.48550/arxiv.2610.11274](https://doi.org/10.48550/arxiv.2610.11274)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-10-12`
+- 候选 ID：`1229908a36775c08f23d92f8`
+- 标签：application:偏振依赖成像与分类, application:多通道光学加密, application:矢量光束生成, application:纵向场工程, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
 
 ### Toward scalable nonlinearities in convolutional optical neural networks driven by ultrashort laser pulses
 

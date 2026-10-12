@@ -73,6 +73,15 @@
       "summary_record_sha256": "01c13d8d6a66c9f3165886a4212a8013555a6c40d55a1ab2fe5f6043a664dc29",
       "title": "Algorithmically Faithful and System-Efficient Optimization for Large Language Models"
     },
+    "1229908a36775c08f23d92f8": {
+      "digest_date": "2026-10-12",
+      "doi": "10.48550/arxiv.2610.11274",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "50579880625f85781a715fc1d0ec8fce74f3f565f05bdbed4896bba05ba32545",
+      "title": "Full-Vector Diffractive Deep Neural Networks"
+    },
     "142dc76f41fc25448b82c91e": {
       "digest_date": "2026-08-07",
       "doi": "10.48550/arxiv.2608.03277",
@@ -331,6 +340,15 @@
       ],
       "summary_record_sha256": "c4a650b558f2867b4d73c876388ad09254a36180d047f41114481ae0a2f0f520",
       "title": "All-optical control of nonlinear emission from resonant metasurfaces"
+    },
+    "61dad77fe7c2ef7687ce5b21": {
+      "digest_date": "2026-10-12",
+      "doi": "10.1364/ao.611779",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "ca126135e2348aa3493960ea3107987ebbc261357cf933d0a0904ef47fcf7274",
+      "title": "Gigahertz thin-film lithium niobate phase-SLM architecture for true matrix–matrix multiplication in photonic AI accelerators: design and physical-layer simulation"
     },
     "66c84fb1444bbf71b05ac0d7": {
       "digest_date": "2026-10-08",
@@ -934,6 +952,10 @@
       "099f50640efd207890cbb62b",
       "a6c0cee36e01933034e775f2",
       "f21edc0449744abc1fb2536f"
+    ],
+    "2026-10-12": [
+      "1229908a36775c08f23d92f8",
+      "61dad77fe7c2ef7687ce5b21"
     ]
   },
   "by_doi": {
@@ -986,6 +1008,7 @@
     "10.1145/3770855.3817738": "172a6e3e7b78c39c328487a6",
     "10.1145/3837864": "0e5c75b6132afcfb1f7afb17",
     "10.1364/ao.598894": "380b726618cccff0a9e5514f",
+    "10.1364/ao.611779": "61dad77fe7c2ef7687ce5b21",
     "10.1364/cleo_at.2026.jtu.84": "5017adbd33e6ddd5c320a4c4",
     "10.1364/josaa.608366": "6dc0459f08567bbd051cc579",
     "10.1364/oe.605087": "b832199d8494cc67a559fec5",
@@ -1013,6 +1036,7 @@
     "10.48550/arxiv.2609.38561": "7a7954d98c27d7ab9f7f730a",
     "10.48550/arxiv.2610.00276": "b55d3108932c3bfbf5a93ca7",
     "10.48550/arxiv.2610.06271": "66c84fb1444bbf71b05ac0d7",
+    "10.48550/arxiv.2610.11274": "1229908a36775c08f23d92f8",
     "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.6084/m9.figshare.c.8610155.v1": "d162b179119ee09c86ad3708",
@@ -1029,6 +1053,7 @@
       "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
+      "1229908a36775c08f23d92f8",
       "15e7193239d6058f661ff180",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
@@ -1050,6 +1075,7 @@
       "541094f286db8902f2fe6077",
       "557b41cb542bf10e84da81f2",
       "5ec8e35ad02131d8ed156970",
+      "61dad77fe7c2ef7687ce5b21",
       "6dc0459f08567bbd051cc579",
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
@@ -1165,6 +1191,9 @@
     ],
     "application:低维和高维偏微分方程求解": [
       "0e5c75b6132afcfb1f7afb17"
+    ],
+    "application:偏振依赖成像与分类": [
+      "1229908a36775c08f23d92f8"
     ],
     "application:偏振分辨lidar感知": [
       "fd6f281418ac4d412744b2ac"
@@ -1293,6 +1322,9 @@
     "application:多用户干扰抑制": [
       "557b41cb542bf10e84da81f2"
     ],
+    "application:多通道光学加密": [
+      "1229908a36775c08f23d92f8"
+    ],
     "application:大型模型部署": [
       "7d6c2a059923ebe445a1cdf7"
     ],
@@ -1315,6 +1347,7 @@
       "d33b2e7c6586f37945facb32"
     ],
     "application:手写数字分类": [
+      "61dad77fe7c2ef7687ce5b21",
       "7edb19b24759fe609707ba01",
       "a7f4407333af25ddc7630e14"
     ],
@@ -1384,8 +1417,14 @@
     "application:生物成像": [
       "35ff63ef9d3333099ee28868"
     ],
+    "application:矢量光束生成": [
+      "1229908a36775c08f23d92f8"
+    ],
     "application:矢量拉盖尔-高斯模式拓扑电荷识别": [
       "d2a55bdec24bc3bc4b04467b"
+    ],
+    "application:矩阵-矩阵乘法加速": [
+      "61dad77fe7c2ef7687ce5b21"
     ],
     "application:神经形态光计算": [
       "099f50640efd207890cbb62b"
@@ -1393,8 +1432,14 @@
     "application:神经形态计算": [
       "ae3adee8419a5db7be7ec3b2"
     ],
+    "application:神经网络推理": [
+      "61dad77fe7c2ef7687ce5b21"
+    ],
     "application:稳态调节（homeostatic regulation）": [
       "79855d774b83ef6c7c8a8a47"
+    ],
+    "application:纵向场工程": [
+      "1229908a36775c08f23d92f8"
     ],
     "application:肺炎病灶分割": [
       "7edb19b24759fe609707ba01"
@@ -1482,6 +1527,7 @@
     ],
     "architecture:free_space": [
       "5017adbd33e6ddd5c320a4c4",
+      "61dad77fe7c2ef7687ce5b21",
       "9351be654a20f4a2f7121847",
       "a15033db64285e5d4c8a46c9",
       "b832199d8494cc67a559fec5",
@@ -1507,6 +1553,7 @@
       "09e1a0ed403ef22abbd9b189",
       "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
+      "1229908a36775c08f23d92f8",
       "15e7193239d6058f661ff180",
       "1e35265ce8678ca96adb8b93",
       "1e619f1b739f1893eae64f28",
@@ -1584,8 +1631,10 @@
       "099f50640efd207890cbb62b",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
+      "1229908a36775c08f23d92f8",
       "380b726618cccff0a9e5514f",
       "541094f286db8902f2fe6077",
+      "61dad77fe7c2ef7687ce5b21",
       "6dc0459f08567bbd051cc579",
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
@@ -1618,6 +1667,7 @@
       "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
+      "1229908a36775c08f23d92f8",
       "15e7193239d6058f661ff180",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
@@ -1639,6 +1689,7 @@
       "541094f286db8902f2fe6077",
       "557b41cb542bf10e84da81f2",
       "5ec8e35ad02131d8ed156970",
+      "61dad77fe7c2ef7687ce5b21",
       "6dc0459f08567bbd051cc579",
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
@@ -1835,7 +1886,8 @@
       "916e8199aaabe1372544d280"
     ],
     "Applied Optics": [
-      "380b726618cccff0a9e5514f"
+      "380b726618cccff0a9e5514f",
+      "61dad77fe7c2ef7687ce5b21"
     ],
     "Applied Physics Letters": [
       "a7f4407333af25ddc7630e14"
@@ -1959,6 +2011,7 @@
     ],
     "arXiv (Cornell University)": [
       "0cbf41592278a3ad1b89e219",
+      "1229908a36775c08f23d92f8",
       "142dc76f41fc25448b82c91e",
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
@@ -1992,6 +2045,7 @@
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "1075bd8698bce3acb3ce9376",
+      "1229908a36775c08f23d92f8",
       "142dc76f41fc25448b82c91e",
       "15e7193239d6058f661ff180",
       "172a6e3e7b78c39c328487a6",
@@ -2021,6 +2075,7 @@
       "557b41cb542bf10e84da81f2",
       "5e49047e7ce2004f7954debb",
       "5ec8e35ad02131d8ed156970",
+      "61dad77fe7c2ef7687ce5b21",
       "66c84fb1444bbf71b05ac0d7",
       "6dc0459f08567bbd051cc579",
       "70212be2c4a63d741872ace0",
@@ -2073,7 +2128,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 85,
+  "paper_count": 87,
   "schema_version": 1,
-  "updated_at": "2026-10-11T01:16:40.343070Z"
+  "updated_at": "2026-10-12T01:19:35.868654Z"
 }

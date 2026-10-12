@@ -1596,6 +1596,36 @@
       "retrieved_at": "2026-09-21T01:07:17.356402Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/978-3-032-37138-6_26": {
+      "expires_at": "2026-11-11T01:18:12.840837Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Monu Nagar",
+            "orcid": "https://orcid.org/0009-0000-4426-8592"
+          },
+          {
+            "name": "Debasis Das",
+            "orcid": "https://orcid.org/0000-0001-6205-4096"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-3-032-37138-6_26",
+        "landing_page": "https://doi.org/10.1007/978-3-032-37138-6_26",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/978-3-032-37138-6_26",
+        "publication_date": "2026",
+        "title": "COLA: Continual Orthogonal Low-Rank Adaptation for Class-Incremental Learning",
+        "venue": "Lecture Notes in Computer Science",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-12T01:18:12.840837Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/978-3-032-37199-7_27": {
       "expires_at": "2026-11-02T01:04:36.545727Z",
       "record": {
@@ -1690,6 +1720,40 @@
         "year": 2027
       },
       "retrieved_at": "2026-10-03T01:04:44.539823Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/978-3-032-39388-3_11": {
+      "expires_at": "2026-11-11T01:18:12.458680Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Berk Kıvılcım",
+            "orcid": "https://orcid.org/0009-0003-8159-7434"
+          },
+          {
+            "name": "Erchan Aptoula",
+            "orcid": "https://orcid.org/0000-0001-6168-2883"
+          },
+          {
+            "name": "Huseyin Ozkan",
+            "orcid": "https://orcid.org/0000-0002-5539-9085"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-3-032-39388-3_11",
+        "landing_page": "https://doi.org/10.1007/978-3-032-39388-3_11",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/978-3-032-39388-3_11",
+        "publication_date": "2027",
+        "title": "An Evolutionary Boost to Gaussian Splatting Optimization",
+        "venue": "Lecture Notes in Computer Science",
+        "year": 2027
+      },
+      "retrieved_at": "2026-10-12T01:18:12.458680Z",
       "status": "found"
     },
     "crossref:doi:10.1007/s00158-026-04411-w": {
@@ -6988,6 +7052,18 @@
       "retrieved_at": "2026-10-05T01:13:26.981045Z",
       "status": "not_found"
     },
+    "crossref:doi:10.5281/zenodo.23264752": {
+      "expires_at": "2026-11-11T01:18:10.390244Z",
+      "record": null,
+      "retrieved_at": "2026-10-12T01:18:10.390244Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.5281/zenodo.23279011": {
+      "expires_at": "2026-11-11T01:18:13.815209Z",
+      "record": null,
+      "retrieved_at": "2026-10-12T01:18:13.815209Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.6084/m9.figshare.33306492.v1": {
       "expires_at": "2026-10-11T01:00:17.087901Z",
       "record": null,
@@ -7996,6 +8072,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:16.791069Z",
       "status": "found"
+    },
+    "crossref:title:23685ef8c75101e990829fc1c5afd98931012debf581231a185d1b49dc084bd4": {
+      "expires_at": "2026-10-19T01:18:11.093660Z",
+      "record": null,
+      "retrieved_at": "2026-10-12T01:18:11.093660Z",
+      "status": "not_found"
     },
     "crossref:title:23c125f8574a076488b3ce404f450ae16ce4dfe1130454a942ca4aa22b802ee6": {
       "expires_at": "2026-09-26T01:00:49.879633Z",
@@ -9203,6 +9285,12 @@
       "retrieved_at": "2026-10-11T01:15:41.303178Z",
       "status": "not_found"
     },
+    "crossref:title:65ed9c7b737a655160294db1cadc2b2ef364e16d63f08b4d47698d0ceba04357": {
+      "expires_at": "2026-10-19T01:18:19.499028Z",
+      "record": null,
+      "retrieved_at": "2026-10-12T01:18:19.499028Z",
+      "status": "not_found"
+    },
     "crossref:title:68c7f373df5dda2ec156480414652821d724642dc444651f33df7b44061a9455": {
       "expires_at": "2026-08-27T00:32:29.845954Z",
       "record": null,
@@ -9741,6 +9829,12 @@
       "retrieved_at": "2026-08-18T04:25:28.127246Z",
       "status": "not_found"
     },
+    "crossref:title:8ab23b9cbb37740681160df3b8bd4b4a27bf41a25f427de83fc9b80dfdb3e724": {
+      "expires_at": "2026-10-19T01:18:20.577879Z",
+      "record": null,
+      "retrieved_at": "2026-10-12T01:18:20.577879Z",
+      "status": "not_found"
+    },
     "crossref:title:8b1f013d4dee204f8bd57f25f55b4e8b3b538d0b7d67225d044d853672ce24f6": {
       "expires_at": "2026-09-22T01:03:23.652392Z",
       "record": {
@@ -9827,10 +9921,22 @@
       "retrieved_at": "2026-09-22T01:02:18.248140Z",
       "status": "found"
     },
+    "crossref:title:8dc5eada13fd3742238bb20b85f37eacc8a3b0a5930dda1d7d6cd018a0adf3f9": {
+      "expires_at": "2026-10-19T01:18:15.303329Z",
+      "record": null,
+      "retrieved_at": "2026-10-12T01:18:15.303329Z",
+      "status": "not_found"
+    },
     "crossref:title:8ec677af02fbf901bc474e59ca0ce2b14a3bae399695bc4b316cdcc535905732": {
       "expires_at": "2026-08-25T04:25:30.567431Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:30.567431Z",
+      "status": "not_found"
+    },
+    "crossref:title:8f38bcaeb7e138a0918b3eb7874ebfda2253dfe4775c208d4361048599d117f9": {
+      "expires_at": "2026-10-19T01:18:17.749093Z",
+      "record": null,
+      "retrieved_at": "2026-10-12T01:18:17.749093Z",
       "status": "not_found"
     },
     "crossref:title:8fb3fe766d0bdee30c78b958390d420ec89a601da9b8a0fdba8ecc8d0d2fbf8c": {
@@ -10329,6 +10435,42 @@
       "retrieved_at": "2026-08-29T00:54:11.524325Z",
       "status": "found"
     },
+    "crossref:title:9e94396f1497e4455f6491e070a5702d8239c95a811d04d46379d999a6515482": {
+      "expires_at": "2026-10-19T01:18:11.981470Z",
+      "record": null,
+      "retrieved_at": "2026-10-12T01:18:11.981470Z",
+      "status": "not_found"
+    },
+    "crossref:title:a032dec852532698998401f501c63129377d7ea85d0e8d756780e2c100877469": {
+      "expires_at": "2026-10-19T01:18:17.272415Z",
+      "record": {
+        "abstract": "Soft robots offer significant advantages in adaptability, safe interactions, and operation in unstructured environments, yet their design faces unique challenges due to infinite degrees of freedom, nonlinear material behavior, and coupled multi-physics interactions. Bio-inspired optimization methods have emerged as a powerful tool to navigate these complex design spaces. While individual optimization paradigms have been reviewed separately, no single survey has systematically compared all major method families side by side for soft robot design or provided cross-method selection guidelines. This review fills that gap with a broad, method-centric survey. We classify and compare evolutionary algorithms, swarm intelligence, topology optimization, and emerging machine-learning-assisted approaches. A cross-method comparison framework with practical selection guidelines is presented. Representative applications covering robot body design, actuator geometry, multi-material distribution, and sensing–control co-optimization are analyzed for each method category. Open-source simulation platforms and topology optimization codes are also catalogued. Finally, we outline future directions including computational scalability, optimization-to-fabrication integration, sim-to-real transfer, benchmarking and standardization, multi-objective optimization, and autonomous design pipelines from biological inspiration to fabricated prototypes.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yilun Sun",
+            "orcid": "https://orcid.org/0000-0002-6688-6356"
+          },
+          {
+            "name": "Tim C. Lueth",
+            "orcid": "https://orcid.org/0000-0001-8949-5764"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/biomimetics11100714",
+        "landing_page": "https://doi.org/10.3390/biomimetics11100714",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/biomimetics11100714",
+        "publication_date": "2026-10-07",
+        "title": "Bio-Inspired Optimization in Soft Robot Design: Methods, Applications, and Future Directions",
+        "venue": "Biomimetics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-12T01:18:17.272415Z",
+      "status": "found"
+    },
     "crossref:title:a0a599ac68014d4b1192fc605c8ca96601d74e8b60d1cb9b8c96ac411ace0f64": {
       "expires_at": "2026-10-04T01:11:31.781237Z",
       "record": null,
@@ -10548,6 +10690,52 @@
       "record": null,
       "retrieved_at": "2026-09-07T01:06:44.729386Z",
       "status": "not_found"
+    },
+    "crossref:title:a76cc49592267cebc57972683e2606a227d4638a5ceed175f2da5a7c49278a82": {
+      "expires_at": "2026-10-19T01:18:13.445658Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhen Liu",
+            "orcid": "https://orcid.org/0000-0002-8107-0929"
+          },
+          {
+            "name": "Wenbin Pei",
+            "orcid": "https://orcid.org/0000-0002-8259-2614"
+          },
+          {
+            "name": "Ruohao Dai",
+            "orcid": "https://orcid.org/0009-0008-9475-1759"
+          },
+          {
+            "name": "Bing Xue",
+            "orcid": "https://orcid.org/0000-0002-4865-8026"
+          },
+          {
+            "name": "Mengjie Zhang",
+            "orcid": "https://orcid.org/0000-0003-4463-9538"
+          },
+          {
+            "name": "Qianli Ma",
+            "orcid": "https://orcid.org/0000-0002-9356-2883"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tsmc.2026.3736618",
+        "landing_page": "https://doi.org/10.1109/tsmc.2026.3736618",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/tsmc.2026.3736618",
+        "publication_date": "2026",
+        "title": "EvoShape: Evolutionary Diffusion Shapelet Search for Semisupervised Time-Series Classification",
+        "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-12T01:18:13.445658Z",
+      "status": "found"
     },
     "crossref:title:a7c92d53b927d831d8e34de5d97460fe06283501581cf9a53ac01b51930e5e71": {
       "expires_at": "2026-09-14T01:06:37.165596Z",
@@ -11105,6 +11293,12 @@
       "expires_at": "2026-09-08T01:13:11.971306Z",
       "record": null,
       "retrieved_at": "2026-09-01T01:13:11.971306Z",
+      "status": "not_found"
+    },
+    "crossref:title:c62616d4650b56253be23b03eb64faf7db921630b9f16cde45ca142b6c22f8fe": {
+      "expires_at": "2026-10-19T01:18:09.947453Z",
+      "record": null,
+      "retrieved_at": "2026-10-12T01:18:09.947453Z",
       "status": "not_found"
     },
     "crossref:title:c67f94f2ba177e9f65c39a1fb1f2c2af7302d3e67afaca89c17c9938f7720df0": {
@@ -11833,6 +12027,12 @@
       "retrieved_at": "2026-08-22T00:32:15.721716Z",
       "status": "found"
     },
+    "crossref:title:e3f4f9cb54a3f56c597d3b8b3fae9f75b147e9871db128ab320858cb9116aa9e": {
+      "expires_at": "2026-10-19T01:18:09.139601Z",
+      "record": null,
+      "retrieved_at": "2026-10-12T01:18:09.139601Z",
+      "status": "not_found"
+    },
     "crossref:title:e477316069b68854ffd08b1a94b73da0f813690d6298ed8c1c8c7b819be2e740": {
       "expires_at": "2026-08-11T09:38:39.461936Z",
       "record": {
@@ -11877,6 +12077,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:39.461936Z",
+      "status": "found"
+    },
+    "crossref:title:e48688a2e9a030799b897806f318d814f06c93249d86a9085b7389bf2440ff80": {
+      "expires_at": "2026-10-19T01:18:08.281635Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Nazia Banu",
+            "orcid": null
+          },
+          {
+            "name": "K.Chandra Lekha Reddy",
+            "orcid": null
+          },
+          {
+            "name": "Farooq sunar Mahammad",
+            "orcid": null
+          },
+          {
+            "name": "G. Sravani",
+            "orcid": null
+          },
+          {
+            "name": "E. Mamatha",
+            "orcid": null
+          },
+          {
+            "name": "A.Guru Eswari Devi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/icscsa69367.2026.11707890",
+        "landing_page": "https://doi.org/10.1109/icscsa69367.2026.11707890",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/icscsa69367.2026.11707890",
+        "publication_date": "2026-08",
+        "title": "SGAASS: A Closed-Loop Adaptive Framework for Personalized Skill Gap Analysis and Deadline-Aware Study Scheduling Using NLP",
+        "venue": "2026 6th International Conference on Soft Computing for Security Applications (ICSCSA)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-12T01:18:08.281635Z",
       "status": "found"
     },
     "crossref:title:e52562c68c7743def3c56d139b546749ca9c6a30d4c4fb7fa4d65bebf9940805": {
@@ -14191,6 +14437,36 @@
       "retrieved_at": "2026-09-21T01:07:17.707585Z",
       "status": "found"
     },
+    "openalex:doi:10.1007/978-3-032-37138-6_26": {
+      "expires_at": "2026-11-11T01:18:13.165730Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Monu Nagar",
+            "orcid": "https://orcid.org/0009-0000-4426-8592"
+          },
+          {
+            "name": "Debasis Das",
+            "orcid": "https://orcid.org/0000-0001-6205-4096"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-3-032-37138-6_26",
+        "landing_page": "https://doi.org/10.1007/978-3-032-37138-6_26",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7216591383",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7216591383",
+        "publication_date": "2026-01-01",
+        "title": "COLA: Continual Orthogonal Low-Rank Adaptation for Class-Incremental Learning",
+        "venue": "Lecture notes in computer science",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-12T01:18:13.165730Z",
+      "status": "found"
+    },
     "openalex:doi:10.1007/978-3-032-37199-7_27": {
       "expires_at": "2026-10-25T01:02:48.430281Z",
       "record": {
@@ -14285,6 +14561,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-03T01:04:44.929876Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/978-3-032-39388-3_11": {
+      "expires_at": "2026-11-11T01:18:12.791739Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Berk Kıvılcım",
+            "orcid": "https://orcid.org/0009-0003-8159-7434"
+          },
+          {
+            "name": "Erchan Aptoula",
+            "orcid": "https://orcid.org/0000-0001-6168-2883"
+          },
+          {
+            "name": "Hüseyin Özkan",
+            "orcid": "https://orcid.org/0000-0002-5539-9085"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-3-032-39388-3_11",
+        "landing_page": "https://doi.org/10.1007/978-3-032-39388-3_11",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7220924436",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220924436",
+        "publication_date": "2026-10-08",
+        "title": "An Evolutionary Boost to Gaussian Splatting Optimization",
+        "venue": "Lecture notes in computer science",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-12T01:18:12.791739Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s00158-026-04411-w": {
@@ -18809,6 +19119,52 @@
       "retrieved_at": "2026-08-26T00:32:41.766989Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/icscsa69367.2026.11707890": {
+      "expires_at": "2026-11-11T01:18:08.588268Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Nazia Banu",
+            "orcid": null
+          },
+          {
+            "name": "K.Chandra Lekha Reddy",
+            "orcid": null
+          },
+          {
+            "name": "Farooq Sunar Mahammad",
+            "orcid": "https://orcid.org/0000-0003-0936-1980"
+          },
+          {
+            "name": "G. Sravani",
+            "orcid": null
+          },
+          {
+            "name": "E. Mamatha",
+            "orcid": null
+          },
+          {
+            "name": "A.Guru Eswari Devi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/icscsa69367.2026.11707890",
+        "landing_page": "https://doi.org/10.1109/icscsa69367.2026.11707890",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7220678323",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220678323",
+        "publication_date": "2026-08-01",
+        "title": "SGAASS: A Closed-Loop Adaptive Framework for Personalized Skill Gap Analysis and Deadline-Aware Study Scheduling Using NLP",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-12T01:18:08.588268Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/jlt.2026.3718277": {
       "expires_at": "2026-09-03T09:38:19.738151Z",
       "record": {
@@ -19651,6 +20007,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-28T01:11:32.096791Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/tsmc.2026.3736618": {
+      "expires_at": "2026-11-11T01:18:13.754281Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhen Liu",
+            "orcid": "https://orcid.org/0000-0002-8107-0929"
+          },
+          {
+            "name": "Wenbin Pei",
+            "orcid": "https://orcid.org/0000-0002-8259-2614"
+          },
+          {
+            "name": "Ruohao Dai",
+            "orcid": "https://orcid.org/0009-0008-9475-1759"
+          },
+          {
+            "name": "Bing Xue",
+            "orcid": "https://orcid.org/0000-0002-4865-8026"
+          },
+          {
+            "name": "Mengjie Zhang",
+            "orcid": "https://orcid.org/0000-0003-4463-9538"
+          },
+          {
+            "name": "Qianli Ma",
+            "orcid": "https://orcid.org/0000-0002-9356-2883"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tsmc.2026.3736618",
+        "landing_page": "https://doi.org/10.1109/tsmc.2026.3736618",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7220849077",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220849077",
+        "publication_date": "2026-01-01",
+        "title": "EvoShape: Evolutionary Diffusion Shapelet Search for Semisupervised Time-Series Classification",
+        "venue": "IEEE Transactions on Systems Man and Cybernetics Systems",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-12T01:18:13.754281Z",
       "status": "found"
     },
     "openalex:doi:10.1109/twc.2026.3715594": {
@@ -23193,6 +23595,36 @@
       "retrieved_at": "2026-09-18T01:02:30.201153Z",
       "status": "found"
     },
+    "openalex:doi:10.3390/biomimetics11100714": {
+      "expires_at": "2026-11-11T01:18:17.589756Z",
+      "record": {
+        "abstract": "Soft robots offer significant advantages in adaptability, safe interactions, and operation in unstructured environments, yet their design faces unique challenges due to infinite degrees of freedom, nonlinear material behavior, and coupled multi-physics interactions. Bio-inspired optimization methods have emerged as a powerful tool to navigate these complex design spaces. While individual optimization paradigms have been reviewed separately, no single survey has systematically compared all major method families side by side for soft robot design or provided cross-method selection guidelines. This review fills that gap with a broad, method-centric survey. We classify and compare evolutionary algorithms, swarm intelligence, topology optimization, and emerging machine-learning-assisted approaches. A cross-method comparison framework with practical selection guidelines is presented. Representative applications covering robot body design, actuator geometry, multi-material distribution, and sensing–control co-optimization are analyzed for each method category. Open-source simulation platforms and topology optimization codes are also catalogued. Finally, we outline future directions including computational scalability, optimization-to-fabrication integration, sim-to-real transfer, benchmarking and standardization, multi-objective optimization, and autonomous design pipelines from biological inspiration to fabricated prototypes.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yilun Sun",
+            "orcid": "https://orcid.org/0000-0002-6688-6356"
+          },
+          {
+            "name": "Tim Christian Lueth",
+            "orcid": "https://orcid.org/0000-0001-8949-5764"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/biomimetics11100714",
+        "landing_page": "https://doi.org/10.3390/biomimetics11100714",
+        "open_access_url": "https://doi.org/10.3390/biomimetics11100714",
+        "openalex_id": "https://openalex.org/W7220858128",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220858128",
+        "publication_date": "2026-10-07",
+        "title": "Bio-Inspired Optimization in Soft Robot Design: Methods, Applications, and Future Directions",
+        "venue": "Biomimetics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-12T01:18:17.589756Z",
+      "status": "found"
+    },
     "openalex:doi:10.3390/mi17091074": {
       "expires_at": "2026-10-13T01:07:32.476540Z",
       "record": {
@@ -23929,6 +24361,58 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-05T01:13:27.361893Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.23264752": {
+      "expires_at": "2026-11-11T01:18:10.690536Z",
+      "record": {
+        "abstract": "The El-Rakhawi Theory of Neuromorphic Silicon Photonic Intelligence unifies silicon photonics, neuromorphic engineering, and algorithmic cognition to overcome von Neumann and thermodynamic bottlenecks. It proposes the Photonic Neural Silicon Chip (PNSC), executing deep learning matrix multiplications at light-speed via integrated interferometers. To ensure analog precision, it employs Noise-Aware Training, injecting hardware noise into digital backward passes. Scalability is achieved through WDM broadcast-and-weight topologies (O(N) footprint) and athermal tuning to eliminate parasitic power. Central is the Silicon Photonic Intelligence Index: SPII=(P×A×C×T)/[(P×A×C×T)+D×E+ε]. Under the Weakest-Link Axiom, it proves photonic intelligence requires simultaneous optimization of photonic, algorithmic, integrative, and thermodynamic dimensions. Guided by the Asymptotic Perfection Principle (max ~0.9901, reflecting the Landauer limit), it provides a definitive blueprint for sustainable, light-speed AI.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "mohamed kamal arafa el-rakhawi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23264752",
+        "landing_page": "https://doi.org/10.5281/zenodo.23264752",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23264752",
+        "openalex_id": "https://openalex.org/W7221066865",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221066865",
+        "publication_date": "2026-10-09",
+        "title": "THE EL-RAKHAWI THEORY OF NEUROMORPHIC SILICON PHOTONIC INTELLIGENCE Unifying Chip Physics, Optical Computing, and Algorithmic Cognition for the Post-Electronic Era",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-12T01:18:10.690536Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.23279011": {
+      "expires_at": "2026-11-11T01:18:14.147165Z",
+      "record": {
+        "abstract": "The El-Rakhawi Unified Theory of Photonic-Energy Fusion Grids (DOI: 10.5281/zenodo.23279012) introduces a \"Neuro-Energetic Grid\" unifying data and power. It uses Dual-Mode Hollow-Core Fibers to transmit quantum data and photonic energy simultaneously through a vacuum, achieving near-zero loss and overcoming Laser-Induced Damage Thresholds via anti-resonant designs. Powered by commercial nuclear fusion and buffered by quantum solid-state batteries, the grid is stabilized by Predictive Photonic Neural Networks neutralizing plasma instabilities at femtosecond resolutions. Central is the Photonic-Energy Fusion Harmony Index: PEFHI=(P×F×B×A)/[(P×F×B×A)+L×D+ε]. Under the Weakest-Link Axiom and Asymptotic Perfection Principle (max ≈0.9901), it proves grid harmony collapses if transmission, fusion stability, or battery buffering fails. Governed by a Decentralized Cryptographic Energy Treaty for equitable global distribution, this blueprint eradicates energy poverty. Released under the Ferial Zayed Humanitarian License.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "mohamed kamal arafa el-rakhawi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23279011",
+        "landing_page": "https://doi.org/10.5281/zenodo.23279011",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23279011",
+        "openalex_id": "https://openalex.org/W7221335549",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221335549",
+        "publication_date": "2026-10-10",
+        "title": "THE EL-RAKHAWI UNIFIED THEORY OF PHOTONIC-ENERGY FUSION GRIDS AND QUANTUM-OPTICAL MATERIAL HARMONY Unifying Hollow-Core Fiber Optics, Commercial Nuclear Fusion, Quantum Solid-State Batteries, and AI Femtosecond Control for a Zero-Loss Planetary Neuro-Energetic Grid",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-12T01:18:14.147165Z",
       "status": "found"
     },
     "openalex:doi:10.6084/m9.figshare.33306492.v1": {
@@ -24900,6 +25384,12 @@
       "retrieved_at": "2026-10-09T01:12:13.933615Z",
       "status": "found"
     },
+    "openalex:title:23685ef8c75101e990829fc1c5afd98931012debf581231a185d1b49dc084bd4": {
+      "expires_at": "2026-10-19T01:18:11.479935Z",
+      "record": null,
+      "retrieved_at": "2026-10-12T01:18:11.479935Z",
+      "status": "not_found"
+    },
     "openalex:title:249de29380f61cbfa04e045bb6ff4ca3e6b09932fa43c62ead34e26d394beb77": {
       "expires_at": "2026-08-27T00:32:29.598699Z",
       "record": null,
@@ -25822,6 +26312,48 @@
       "retrieved_at": "2026-10-11T01:15:41.808922Z",
       "status": "found"
     },
+    "openalex:title:65ed9c7b737a655160294db1cadc2b2ef364e16d63f08b4d47698d0ceba04357": {
+      "expires_at": "2026-10-19T01:18:19.858441Z",
+      "record": {
+        "abstract": "Dexterous teleoperation requires reliable human-hand state estimations. However, common low-cost motion-capture gloves and markerless trackers often exhibit biases that vary across users, glove fit, and recording sessions, degrading retargeting and demonstration quality. We present YOCO, a fast few-shot, fine-tuning-free calibration framework that corrects biased hand-pose streams from a small set of paired raw and target poses. Instead of optimizing a separate model for every operator or session, YOCO conditions a calibration HyperNet on the paired examples and predicts LoRA-style updates for a frozen MANO hand-estimation module, turning per-user calibration into a lightweight feed-forward adaptation step while preserving the geometric prior of MANO and the efficiency of a compact estimator. We train YOCO with synthetic drift augmentations on InterHand2.6M and evaluate on augmented InterHand sequences, offline real glove data, and dexterous teleoperation tasks. Across these settings, YOCO improves calibration efficiency, hand-state estimation quality and teleoperation performance compared with uncalibrated input and standard calibration baselines.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yu Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yunqi Li",
+            "orcid": "https://orcid.org/0000-0002-5190-3037"
+          },
+          {
+            "name": "Yushi Du",
+            "orcid": null
+          },
+          {
+            "name": "Yi Ma",
+            "orcid": null
+          },
+          {
+            "name": "Yanchao Yang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.11657",
+        "landing_page": "https://arxiv.org/abs/2610.11657",
+        "open_access_url": "https://arxiv.org/abs/2610.11657",
+        "openalex_id": "https://openalex.org/W7221168933",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221168933",
+        "publication_date": "2026-10-08",
+        "title": "YOCO: You Only Calibrate Once! Fast Mocap Calibration for Dexterous Teleoperation",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-12T01:18:19.858441Z",
+      "status": "found"
+    },
     "openalex:title:68c7f373df5dda2ec156480414652821d724642dc444651f33df7b44061a9455": {
       "expires_at": "2026-08-27T00:32:30.372870Z",
       "record": {
@@ -26322,6 +26854,36 @@
       "retrieved_at": "2026-08-18T04:25:28.551056Z",
       "status": "not_found"
     },
+    "openalex:title:8ab23b9cbb37740681160df3b8bd4b4a27bf41a25f427de83fc9b80dfdb3e724": {
+      "expires_at": "2026-10-19T01:18:20.944917Z",
+      "record": {
+        "abstract": "We study constrained nonsmooth nonconvex stochastic optimization in federated settings, where clients access only stochastic function evaluations. Existing federated zeroth-order methods primarily combine local zeroth-order updates with model averaging. However, they struggle with client drift induced by local projected updates and sampling variance in stochastic zeroth-order estimates. In this paper, we propose a federated zeroth-order framework based on direction aggregation, equipped with two local sampling schemes. Specifically, FedZOO constructs a local direction from a minibatch shared across multiple spherical queries, thereby controlling the stochastic errors arising from data sampling and gradient approximation. In contrast, FedVRZO forms its local estimator from independent sample--direction pairs, so that its sampling error is controlled directly by the number of sample--direction pairs. In both algorithms, clients compute the mean of the directions evaluated along their projected local trajectories, and the server performs a single projected update using the weighted aggregate of the client directions. Furthermore, we establish convergence guarantees for FedZOO and FedVRZO, respectively. Experiments on black-box adversarial attacks demonstrate the effectiveness of the proposed methods.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Qianlong Dang",
+            "orcid": null
+          },
+          {
+            "name": "Baosheng Li",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.11821",
+        "landing_page": "https://arxiv.org/abs/2610.11821",
+        "open_access_url": "https://arxiv.org/abs/2610.11821",
+        "openalex_id": "https://openalex.org/W7221138724",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221138724",
+        "publication_date": "2026-10-08",
+        "title": "Federated Zeroth-Order Optimization with Direction Aggregation and Variance Reduction",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-12T01:18:20.944917Z",
+      "status": "found"
+    },
     "openalex:title:8b1f013d4dee204f8bd57f25f55b4e8b3b538d0b7d67225d044d853672ce24f6": {
       "expires_at": "2026-09-22T01:03:24.784315Z",
       "record": null,
@@ -26332,6 +26894,12 @@
       "expires_at": "2026-10-11T01:36:08.123992Z",
       "record": null,
       "retrieved_at": "2026-10-04T01:36:08.123992Z",
+      "status": "not_found"
+    },
+    "openalex:title:8dc5eada13fd3742238bb20b85f37eacc8a3b0a5930dda1d7d6cd018a0adf3f9": {
+      "expires_at": "2026-10-19T01:18:15.656012Z",
+      "record": null,
+      "retrieved_at": "2026-10-12T01:18:15.656012Z",
       "status": "not_found"
     },
     "openalex:title:8ec677af02fbf901bc474e59ca0ce2b14a3bae399695bc4b316cdcc535905732": {
@@ -26383,6 +26951,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:31.032934Z",
       "status": "found"
+    },
+    "openalex:title:8f38bcaeb7e138a0918b3eb7874ebfda2253dfe4775c208d4361048599d117f9": {
+      "expires_at": "2026-10-19T01:18:18.118725Z",
+      "record": null,
+      "retrieved_at": "2026-10-12T01:18:18.118725Z",
+      "status": "not_found"
     },
     "openalex:title:8fe7434eeb2da040cfb7ff6115fba798dced6cafc235e934a0c9d33a029d2317": {
       "expires_at": "2026-10-16T01:12:29.599407Z",
@@ -26798,6 +27372,12 @@
       "expires_at": "2026-08-25T04:25:27.472018Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:27.472018Z",
+      "status": "not_found"
+    },
+    "openalex:title:9e94396f1497e4455f6491e070a5702d8239c95a811d04d46379d999a6515482": {
+      "expires_at": "2026-10-19T01:18:12.394854Z",
+      "record": null,
+      "retrieved_at": "2026-10-12T01:18:12.394854Z",
       "status": "not_found"
     },
     "openalex:title:a0a599ac68014d4b1192fc605c8ca96601d74e8b60d1cb9b8c96ac411ace0f64": {
@@ -27450,6 +28030,12 @@
       "retrieved_at": "2026-09-01T01:13:12.743268Z",
       "status": "not_found"
     },
+    "openalex:title:c62616d4650b56253be23b03eb64faf7db921630b9f16cde45ca142b6c22f8fe": {
+      "expires_at": "2026-10-19T01:18:10.311759Z",
+      "record": null,
+      "retrieved_at": "2026-10-12T01:18:10.311759Z",
+      "status": "not_found"
+    },
     "openalex:title:c67f94f2ba177e9f65c39a1fb1f2c2af7302d3e67afaca89c17c9938f7720df0": {
       "expires_at": "2026-10-05T01:11:29.239762Z",
       "record": null,
@@ -27655,6 +28241,48 @@
       "record": null,
       "retrieved_at": "2026-09-18T01:02:15.226167Z",
       "status": "not_found"
+    },
+    "openalex:title:e3f4f9cb54a3f56c597d3b8b3fae9f75b147e9871db128ab320858cb9116aa9e": {
+      "expires_at": "2026-10-19T01:18:09.545863Z",
+      "record": {
+        "abstract": "Conventional diffractive deep neural networks (D2NNs) treat polarization as independent channels and rely on scalar or semi-vectorial propagation models, which neglect cross polarization coupling and vector diffraction. Here we propose a vector D2NN (V-D2NN) that embeds the full vector angular spectrum method into the end-to-end training pipeline. This physically rigorous framework describes vectorial light-matter interactions across cascaded diffractive layers, enabling direct optimization of polarization conversion, spin-orbit coupling, and vectorial interference without external polarization optics. We demonstrate the V-D2NN on polarization-multiplexed tasks--ector beam generation, polarization dependent imaging and classification, and multiple channel optical encryption--where it consistently outperforms scalar and semi-vectorial counterparts. In longitudinal-field engineering, the V-D2NN actively shapes a prescribed longitudinal field with a normalized correlation of 0.839, a capability inaccessible to scalar-propagation models. An open-source training framework is also provided to support further development of vectorial diffractive optics for computing, sensing, and communications.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shengmei Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Gongyuan Wang",
+            "orcid": null
+          },
+          {
+            "name": "Z. Wang",
+            "orcid": null
+          },
+          {
+            "name": "Jianan Shao",
+            "orcid": null
+          },
+          {
+            "name": "Haolin Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.11274",
+        "landing_page": "https://arxiv.org/abs/2610.11274",
+        "open_access_url": "https://arxiv.org/abs/2610.11274",
+        "openalex_id": "https://openalex.org/W7221143640",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221143640",
+        "publication_date": "2026-10-08",
+        "title": "Full-Vector Diffractive Deep Neural Networks",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-12T01:18:09.545863Z",
+      "status": "found"
     },
     "openalex:title:e52562c68c7743def3c56d139b546749ca9c6a30d4c4fb7fa4d65bebf9940805": {
       "expires_at": "2026-09-12T00:59:49.141088Z",

@@ -1,0 +1,42 @@
+{
+  "built_at": "2026-10-12T01:18:22.453829Z",
+  "digest_date": "2026-10-12",
+  "digest_version": 1,
+  "pending_summary_count": 2,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "1229908a36775c08f23d92f8",
+        "landing_page": "https://arxiv.org/abs/2610.11274",
+        "mandatory": false,
+        "score": 0.81,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Full-Vector Diffractive Deep Neural Networks",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "61dad77fe7c2ef7687ce5b21",
+        "landing_page": "https://doi.org/10.1364/ao.611779",
+        "mandatory": false,
+        "score": 0.73,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Gigahertz thin-film lithium niobate phase-SLM architecture for true matrix–matrix multiplication in photonic AI accelerators: design and physical-layer simulation",
+        "venue": "Applied Optics",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}
