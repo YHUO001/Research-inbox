@@ -1,251 +1,34 @@
 {
-  "abstract_fallback_candidate_ids": [],
-  "abstract_fallback_count": 0,
-  "architecture_evidence": {
-    "1229908a36775c08f23d92f8": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
-    },
-    "61dad77fe7c2ef7687ce5b21": {
-      "changed": false,
-      "free_space_evidence": [
-        "We present a free-space photonic MMM architecture that combines two thin-film lithium niobate (TFLN) phase-only spatial light modulators (SLMs) in a 4-f Fourier relay to perform true C=A⋅B in the outer-product, time-integrating regime of Athale and Collins [ Appl.",
-        "The outer product is formed by cascading a row-encoded and a column-encoded amplitude mask in an imaging relay; the Fourier shift theorem is used to place the amplitude-carrying diffraction order of each phase-only SLM in a Fourier-plane spatial filter."
-      ],
-      "integrated_evidence": [],
-      "previous_type": "free_space",
-      "resolved_type": "free_space"
-    }
-  },
-  "architecture_repairs": 0,
-  "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 2,
-  "completed_at": "2026-10-12T01:19:35.868654Z",
+  "actual_summary_count": 0,
+  "author_metadata_enriched_count": 0,
+  "author_metadata_fallback_count": 0,
+  "author_metadata_mode": "selected_openalex_work_metadata_with_safe_fallback",
+  "automatic_queue_candidate_count": 0,
+  "built_at": "2026-10-13T01:13:49.508551Z",
   "completed_candidate_filtered_count": 0,
-  "completed_candidate_ids": [
-    "1229908a36775c08f23d92f8",
-    "61dad77fe7c2ef7687ce5b21"
-  ],
-  "completion_mode": "automatic_daily_batch_after_local_validation",
-  "daily_digest_pending": true,
-  "digest_date": "2026-10-12",
-  "digest_json_file": "runtime-state/data/digests/2026-10-12.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-10-12.generated.md",
+  "daily_digest_pending": false,
+  "digest_date": "2026-10-13",
+  "digest_json_file": "runtime-state/data/digests/2026-10-13.preview.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-10-13.preview.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0604628,
   "execution_mode": "automatic_daily_batch",
-  "failure_count": 0,
-  "failures": [],
-  "full_text_method_contexts": {
-    "1229908a36775c08f23d92f8": {
-      "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "1229908a36775c08f23d92f8",
-      "character_count": 12000,
-      "content_sha256": "098e8b8c70a560592bff7e6331e91632aba7b2bf3c822acde3a46289d56b7af4",
-      "elapsed_seconds": 0.282,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "text/html",
-      "section_headings": [
-        ". Reported strategies include training polarization-insensitive neurons for orthogonal channels",
-        "In parallel, several refinements to the angular spectrum method have been proposed to improve its accuracy for vectorial diffraction problems. Mansuripur introduced a",
-        ". More recently, Martínez-Herrero et al. proposed an integral angular spectrum method that decomposes the incident field into s- and p-polarized components",
-        "have extended the applicability of these methods, while the generic full-vector angular spectrum method",
-        "that maps sources to fields. The angular spectrum method, by contrast, provides a field-to-field transfer matrix",
-        ", the usual approach involves training two independent D",
-        "NN does not explicitly describe this longitudinal-field degree of freedom during training and therefore cannot directly perform end-to-end optimization around a target",
-        "T. Kozacki, K. Falaggis, and M. Kujawinska, “Computation of diffracted fields for the case of high numerical aperture using the angular spectrum method,”",
-        "C. Song, J. He, and G. Yuan, “Generic full-vector angular spectrum method for calculating diffraction of arbitrary electromagnetic fields,”"
-      ],
-      "source_url": "https://arxiv.org/html/2610.11274",
-      "status": "used",
-      "text_persisted": false
-    },
-    "61dad77fe7c2ef7687ce5b21": {
-      "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "61dad77fe7c2ef7687ce5b21",
-      "character_count": 3600,
-      "content_sha256": "db0299531747205306f2b3ff04a6221600ecea99b95c8b8f098be8d9157139fb",
-      "elapsed_seconds": 2.001,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "text/html",
-      "section_headings": [
-        "deep-learning workloads, and its electronic implementation is"
-      ],
-      "source_url": "https://opg.optica.org/ao/abstract.cfm?uri=ao-66-13-C31",
-      "status": "used",
-      "text_persisted": false
-    }
-  },
-  "full_text_persisted": false,
-  "full_text_used": true,
+  "full_text_used": false,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
-  "knowledge_base_pending": true,
-  "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 2,
-  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
-  "numeric_matching": {
-    "absolute_tolerance": 0.02,
-    "approximation_markers_ignored": true,
-    "evidence_sources": [
-      "title",
-      "abstract",
-      "temporary_open_full_text_methods"
-    ],
-    "full_text_unsupported_sentence_action": "deterministic_redaction",
-    "relative_tolerance": 0.02,
-    "unit_format_ignored": true,
-    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
-  },
+  "knowledge_base_pending": false,
+  "llm_enabled": true,
   "output_language": "zh-CN",
-  "prepared_request_count": 2,
-  "provider": "deepseek",
-  "queue_sha256": "d77a277b6c02878a1e3b4cb60b1bb111721ee415b3b98365e64c8e1b7b835148",
-  "request_count": 2,
-  "request_file": "runtime-state/data/summary_requests/2026-10-12.jsonl",
-  "request_sha256": "03c298172d3f072979ec4135227454d29f62cca0990ebd7913b541f388bf2960",
+  "provider": "not_configured",
+  "queue_candidate_count": 0,
+  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "request_count": 0,
+  "request_file": "runtime-state/data/summary_requests/2026-10-13.jsonl",
+  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "67cd97da4772bf3373188f3c9566095369575ce0727c5e13454019bf330c6b96",
-  "skipped_no_abstract_candidate_ids": [],
-  "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 2,
-  "stage_timings": {
-    "full_text_preparation_seconds": 2.289,
-    "model_api_calls": [
-      {
-        "attempt": 1,
-        "candidate_id": "1229908a36775c08f23d92f8",
-        "elapsed_seconds": 21.845,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1928,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 4399,
-          "prompt_tokens": 6319,
-          "total_tokens": 8247
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "1229908a36775c08f23d92f8",
-        "elapsed_seconds": 24.672,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 2340,
-          "prompt_cache_hit_tokens": 6272,
-          "prompt_cache_miss_tokens": 117,
-          "prompt_tokens": 6389,
-          "total_tokens": 8729
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "61dad77fe7c2ef7687ce5b21",
-        "elapsed_seconds": 22.507,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 2152,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 2714,
-          "prompt_tokens": 4634,
-          "total_tokens": 6786
-        }
-      }
-    ],
-    "model_generation_and_validation_seconds": 69.053
-  },
-  "status": "completed_automatic",
-  "summary_count": 2,
-  "summary_file": "runtime-state/data/summaries/2026-10-12.jsonl",
+  "selection_manifest_sha256": "3d6e8b70e4507cafdfd90ee1fc1632e09b2e2981ef3e96f2ee45b315a82b953f",
+  "source_queue_candidate_count": 0,
+  "status": "no_candidates",
   "summary_generation_version": 8,
-  "summary_history_updated": true,
-  "summary_slot_count": 2,
-  "thinking_enabled": false,
-  "transport_repairs": {
-    "architecture_evidence": {
-      "1229908a36775c08f23d92f8": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "free_space",
-        "repaired": true,
-        "resolved_type": "unclear"
-      },
-      "61dad77fe7c2ef7687ce5b21": {
-        "free_space_evidence": [
-          "We present a free-space photonic MMM architecture that combines two thin-film lithium niobate (TFLN) phase-only spatial light modulators (SLMs) in a 4-f Fourier relay to perform true C=A⋅B in the outer-product, time-integrating regime of Athale and Collins [ Appl.",
-          "The outer product is formed by cascading a row-encoded and a column-encoded amplitude mask in an imaging relay; the Fourier shift theorem is used to place the amplitude-carrying diffraction order of each phase-only SLM in a Fourier-plane spatial filter."
-        ],
-        "integrated_evidence": [],
-        "model_value": "free_space",
-        "repaired": false,
-        "resolved_type": "free_space"
-      }
-    },
-    "architecture_repairs": 2,
-    "candidate_id_repair_responses": 0,
-    "full_text_method_contexts": {
-      "1229908a36775c08f23d92f8": {
-        "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "1229908a36775c08f23d92f8",
-        "character_count": 12000,
-        "content_sha256": "098e8b8c70a560592bff7e6331e91632aba7b2bf3c822acde3a46289d56b7af4",
-        "elapsed_seconds": 0.282,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "text/html",
-        "section_headings": [
-          ". Reported strategies include training polarization-insensitive neurons for orthogonal channels",
-          "In parallel, several refinements to the angular spectrum method have been proposed to improve its accuracy for vectorial diffraction problems. Mansuripur introduced a",
-          ". More recently, Martínez-Herrero et al. proposed an integral angular spectrum method that decomposes the incident field into s- and p-polarized components",
-          "have extended the applicability of these methods, while the generic full-vector angular spectrum method",
-          "that maps sources to fields. The angular spectrum method, by contrast, provides a field-to-field transfer matrix",
-          ", the usual approach involves training two independent D",
-          "NN does not explicitly describe this longitudinal-field degree of freedom during training and therefore cannot directly perform end-to-end optimization around a target",
-          "T. Kozacki, K. Falaggis, and M. Kujawinska, “Computation of diffracted fields for the case of high numerical aperture using the angular spectrum method,”",
-          "C. Song, J. He, and G. Yuan, “Generic full-vector angular spectrum method for calculating diffraction of arbitrary electromagnetic fields,”"
-        ],
-        "source_url": "https://arxiv.org/html/2610.11274",
-        "status": "used",
-        "text_persisted": false
-      },
-      "61dad77fe7c2ef7687ce5b21": {
-        "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "61dad77fe7c2ef7687ce5b21",
-        "character_count": 3600,
-        "content_sha256": "db0299531747205306f2b3ff04a6221600ecea99b95c8b8f098be8d9157139fb",
-        "elapsed_seconds": 2.001,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "text/html",
-        "section_headings": [
-          "deep-learning workloads, and its electronic implementation is"
-        ],
-        "source_url": "https://opg.optica.org/ao/abstract.cfm?uri=ao-66-13-C31",
-        "status": "used",
-        "text_persisted": false
-      }
-    },
-    "generation_metadata_repair_responses": 0,
-    "numeric_grounding_repair_responses": 0,
-    "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 58,
-    "unit_format_normalization_responses": 0
-  },
-  "usage": {
-    "completion_tokens": 6420,
-    "prompt_cache_hit_tokens": 10112,
-    "prompt_cache_miss_tokens": 7230,
-    "prompt_tokens": 17342,
-    "total_tokens": 23762
-  }
+  "summary_history_updated": false,
+  "summary_slot_count": 0
 }
