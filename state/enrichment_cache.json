@@ -5494,6 +5494,40 @@
       "retrieved_at": "2026-09-27T01:11:29.096039Z",
       "status": "found"
     },
+    "crossref:doi:10.1139/cgj-2026-0055": {
+      "expires_at": "2026-11-13T00:59:31.754218Z",
+      "record": {
+        "abstract": "Poroelasticity inversion aims to infer subsurface material properties, including permeability and drained bulk modulus, from observed pore pressures and solid displacements. Conventionally, this requires executing forward numerical solvers thousands of times with varying material properties until simulated responses align with the observations. Such repetitive simulations are computationally expensive and constitute the main bottleneck of the inversion. To this end, we propose a differentiable modeling-based framework for poroelasticity inversion, which embeds DeepONet surrogates into a differentiable inversion framework. The surrogates approximate the mappings from material properties to poroelasticity responses, which achieve up to a 100-fold speedup over the finite-difference solver while maintaining satisfactory accuracy ($R^2$> 0.999). During inversion, the unknown material properties are treated as trainable components and passed through the DeepONet surrogates to predict poroelasticity responses. The mismatch between these predictions and the observations is then minimized to update the material property estimates through gradient-based optimization. The proposed framework was evaluated using four experimental and numerical benchmarks, covering 1-D and 2-D scenarios as well as homogeneous and heterogeneous material properties. Across these cases, the proposed framework accurately infers material properties with R^2 >= 0.883 and shows favorable accuracy and computational efficiency relative to the tested alternatives under the benchmark settings.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuhao Ren",
+            "orcid": null
+          },
+          {
+            "name": "Zhen Liu",
+            "orcid": null
+          },
+          {
+            "name": "Muchun Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1139/cgj-2026-0055",
+        "landing_page": "https://doi.org/10.1139/cgj-2026-0055",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1139/cgj-2026-0055",
+        "publication_date": "2026-10-09",
+        "title": "In-Poro-DON: a differentiable inversion framework for poroelasticity powered by deep operator networks",
+        "venue": "Canadian Geotechnical Journal",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-14T00:59:31.754218Z",
+      "status": "found"
+    },
     "crossref:doi:10.1142/s0218863526400163": {
       "expires_at": "2026-10-06T01:07:51.685521Z",
       "record": {
@@ -10691,6 +10725,12 @@
       "retrieved_at": "2026-09-07T01:06:44.729386Z",
       "status": "not_found"
     },
+    "crossref:title:a6c89d67aee4aebd231ec60b48daa772594d75d187dd32d69a8cb0a4a349eb9a": {
+      "expires_at": "2026-10-21T00:59:31.033190Z",
+      "record": null,
+      "retrieved_at": "2026-10-14T00:59:31.033190Z",
+      "status": "not_found"
+    },
     "crossref:title:a76cc49592267cebc57972683e2606a227d4638a5ceed175f2da5a7c49278a82": {
       "expires_at": "2026-10-19T01:18:13.445658Z",
       "record": {
@@ -10741,6 +10781,12 @@
       "expires_at": "2026-09-14T01:06:37.165596Z",
       "record": null,
       "retrieved_at": "2026-09-07T01:06:37.165596Z",
+      "status": "not_found"
+    },
+    "crossref:title:aa55fccd82ec16aa4bfed3034a68ad67e61d94c83a280c4978e5eec73ca34464": {
+      "expires_at": "2026-10-21T00:59:32.639259Z",
+      "record": null,
+      "retrieved_at": "2026-10-14T00:59:32.639259Z",
       "status": "not_found"
     },
     "crossref:title:ab8d443eed7b10d958066e3f946afaba65aad21de7e6f03c7460addac1cece9b": {
@@ -20979,6 +21025,40 @@
       "retrieved_at": "2026-09-27T01:11:29.436558Z",
       "status": "found"
     },
+    "openalex:doi:10.1139/cgj-2026-0055": {
+      "expires_at": "2026-11-13T00:59:32.111187Z",
+      "record": {
+        "abstract": "Poroelasticity inversion aims to infer subsurface material properties, including permeability and drained bulk modulus, from observed pore pressures and solid displacements. Conventionally, this requires executing forward numerical solvers thousands of times with varying material properties until simulated responses align with the observations. Such repetitive simulations are computationally expensive and constitute the main bottleneck of the inversion. To this end, we propose a differentiable modeling-based framework for poroelasticity inversion, which embeds DeepONet surrogates into a differentiable inversion framework. The surrogates approximate the mappings from material properties to poroelasticity responses, which achieve up to a 100-fold speedup over the finite-difference solver while maintaining satisfactory accuracy ($R^2$> 0.999). During inversion, the unknown material properties are treated as trainable components and passed through the DeepONet surrogates to predict poroelasticity responses. The mismatch between these predictions and the observations is then minimized to update the material property estimates through gradient-based optimization. The proposed framework was evaluated using four experimental and numerical benchmarks, covering 1-D and 2-D scenarios as well as homogeneous and heterogeneous material properties. Across these cases, the proposed framework accurately infers material properties with R^2 >= 0.883 and shows favorable accuracy and computational efficiency relative to the tested alternatives under the benchmark settings.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuhao Ren",
+            "orcid": "https://orcid.org/0009-0002-1264-6581"
+          },
+          {
+            "name": "Zhen Liu",
+            "orcid": "https://orcid.org/0009-0005-6222-061X"
+          },
+          {
+            "name": "Muchun Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1139/cgj-2026-0055",
+        "landing_page": "https://doi.org/10.1139/cgj-2026-0055",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7221102539",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221102539",
+        "publication_date": "2026-10-09",
+        "title": "In-Poro-DON: a differentiable inversion framework for poroelasticity powered by deep operator networks",
+        "venue": "Canadian Geotechnical Journal",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-14T00:59:32.111187Z",
+      "status": "found"
+    },
     "openalex:doi:10.1142/s0218863526400163": {
       "expires_at": "2026-10-06T01:07:52.078758Z",
       "record": {
@@ -27466,6 +27546,36 @@
       "retrieved_at": "2026-09-07T01:06:45.654731Z",
       "status": "not_found"
     },
+    "openalex:title:a6c89d67aee4aebd231ec60b48daa772594d75d187dd32d69a8cb0a4a349eb9a": {
+      "expires_at": "2026-10-21T00:59:31.520134Z",
+      "record": {
+        "abstract": "Zeroth-order optimization methods are essential for solving black-box problems where gradient information is unavailable or expensive to compute. This paper presents POEM-ES, a novel parameter-free stochastic zeroth-order algorithm that extends the recent POEM method by integrating subspace preconditioning with ellipsoidal randomized sampling. In contrast to traditional zeroth-order approaches that rely on isotropic random directions, POEM-ES performs anisotropic sampling guided by a fixed structural symmetric positive semi-definite (SPSD) preconditioner $\\hatΣ$ that encodes the underlying low-dimensional geometry. Under a standard structural spectral normalization where $λ_{\\max}(\\hatΣ) = 1$, we introduce the use of the empirical effective dimension $d^* = \\operatorname{tr}(\\hatΣ)$, which reflects the intrinsic dimensionality of the problem and guides both the sampling and randomized smoothing parameter schedules. In practice, such a preconditioner can be effectively obtained via pilot sampling, historical trajectories, or domain-specific expert knowledge. We prove that POEM-ES achieves a dimension-reduced convergence rate under low-rank structural assumptions, requiring only $\\tilde{\\mathcal{O}}\\left( \\frac{\\left( r^2 κ(\\hatΣ) + d^* \\right) L^2 D_{\\mathcal{X}}^2}{\\varepsilon^2} \\right)$ stochastic zeroth-order oracle queries. The method remains fully parameter-free and demonstrates significant improvements over the original POEM in problems with low-rank structure where $d^* \\ll d$. Numerical experiments on hinge-loss binary classification tasks using LibSVM datasets confirm the practical superiority of the proposed approach.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "A. V. Sholokhov",
+            "orcid": null
+          },
+          {
+            "name": "Alexander Rogozin",
+            "orcid": "https://orcid.org/0000-0003-3435-2680"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2609.38561",
+        "landing_page": "https://arxiv.org/abs/2609.38561",
+        "open_access_url": "https://arxiv.org/abs/2609.38561",
+        "openalex_id": "https://openalex.org/W7215116740",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7215116740",
+        "publication_date": "2026-09-29",
+        "title": "Parameter-Free Zeroth-Order Optimization with Ellipsoidal Sampling",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-14T00:59:31.520134Z",
+      "status": "found"
+    },
     "openalex:title:a7c92d53b927d831d8e34de5d97460fe06283501581cf9a53ac01b51930e5e71": {
       "expires_at": "2026-09-14T01:06:37.884651Z",
       "record": {
@@ -27499,6 +27609,12 @@
       },
       "retrieved_at": "2026-09-07T01:06:37.884651Z",
       "status": "found"
+    },
+    "openalex:title:aa55fccd82ec16aa4bfed3034a68ad67e61d94c83a280c4978e5eec73ca34464": {
+      "expires_at": "2026-10-21T00:59:33.137095Z",
+      "record": null,
+      "retrieved_at": "2026-10-14T00:59:33.137095Z",
+      "status": "not_found"
     },
     "openalex:title:abe3f6857f066ae2c21a956a5e740239a323d097dcc68241cf1f7c3fd60a87c3": {
       "expires_at": "2026-08-25T04:25:16.456778Z",
