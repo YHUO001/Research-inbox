@@ -1,0 +1,241 @@
+{
+  "completion": {
+    "architecture_repairs": 0,
+    "completed_at": "2026-10-15T13:00:51.171593Z",
+    "mode": "automatic_daily_batch_after_local_validation"
+  },
+  "delivery": {
+    "mode": "separate_daily_digest_workflow",
+    "status": "pending"
+  },
+  "digest_date": "2026-10-15",
+  "digest_version": 2,
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": true,
+    "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+    "numeric_grounding_scope": "title_and_abstract_only",
+    "review_required": false,
+    "summary_history_updated": true
+  },
+  "schema_version": 2,
+  "status": "completed_automatic",
+  "summaries": [
+    {
+      "candidate_id": "c9dee369fd4e64c2389af927",
+      "core_problem": "该研究针对人工智能芯片日益严重的能耗危机，提出一种革命性的混合芯片架构，试图通过集成光子计算、拓扑绝缘体和脉冲神经网络三种诺贝尔奖级现象，实现近零热耗散的神经形态计算。",
+      "distinction_from_prior_work": "该架构将拓扑绝缘体、光子计算和脉冲神经网络三者结合，以拓扑保护的边缘态实现背散射免疫的光子传播，同时避免电子运动产生的焦耳热，从而实现近零热耗散。摘要声称其能耗和热耗散比电子芯片有数个数量级的改善。",
+      "limitations_and_open_questions": [
+        "摘要未提供实验验证结果，缺乏真实硬件测试数据。",
+        "摘要未提供训练和权重更新算法的具体细节。",
+        "拓扑绝缘体基光子波导和相变材料突触的制造良率、均匀性和长期稳定性未提供数据。",
+        "系统级集成、光源和探测器的片上集成方案未提供细节。",
+        "摘要中的性能指标（如10-100 aJ/脉冲、10 μW/百万突触）均为作者计算值，未说明实验测量条件。"
+      ],
+      "main_contributions": [
+        "提出拓扑光子神经形态计算架构（TPNC-NZTD），整合光子计算、拓扑绝缘体和脉冲神经网络。",
+        "报告了量子极限下的性能指标：1550 nm波长下单个光子能量为0.128 aJ，每个脉冲能量约为10-100 aJ，比电子脉冲神经网络改善100-1000倍。",
+        "相关定量细节未在标题或摘要中提供。",
+        "报告计算速度可达100 GHz至1 THz，通过光子传播实现。",
+        "提出CMOS BEOL兼容的异质集成制造方案，保持拓扑带隙完整性。",
+        "提供全面的知识产权保护声明，包括5项专利权利要求和商业秘密等。"
+      ],
+      "method_and_architecture": "论文提出拓扑光子神经形态计算架构（TPNC-NZTD），其核心架构包括：以碳化硅上的铋烯二维拓扑绝缘体为衬底，沿拓扑边缘态构建纳米级光子波导，采用相变材料（GeSbTe）或二维过渡金属硫化物作为非线性光学突触，并利用具有阈值行为的光子神经元实现脉冲发放。该架构结合了光子传播的高速、拓扑边缘态的背散射免疫以及脉冲神经网络的事件驱动特性。",
+      "method_implementation": [
+        "系统以二维拓扑绝缘体铋烯（生长在碳化硅衬底上）为基底，沿拓扑边缘态构建纳米级光子波导作为信息传输通道。信号以光子脉冲形式在波导中传播，光源波长选定为1550 nm，每个脉冲包含10至100个光子以确保高于噪声底限的可靠检测。",
+        "突触权重通过非线性光学材料实现，可选相变材料GeSbTe或二维过渡金属硫化物。这些材料在光脉冲作用下发生光学非线性响应，从而实现突触权重的调制。光子神经元具有阈值行为，当输入光脉冲能量超过设定阈值时产生输出脉冲，完成事件驱动的神经计算。",
+        "制造工艺强调与CMOS后道工序（BEOL）兼容，通过异质集成技术（如III-V材料的微转印或粘合晶圆键合）将光子器件集成到硅平台上，同时在加工过程中保持拓扑带隙的完整性。训练和参数配置的具体算法在摘要中未提供。"
+      ],
+      "method_principle": "该架构的基本原理是将计算从电子域转移到光子域，利用光子在波导中的传播代替电子运动，从而避免焦耳热产生。拓扑绝缘体提供受拓扑保护的边缘态，光子沿边缘传播时对背散射和结构缺陷具有鲁棒性，显著降低传输损耗。非线性光学突触通过相变材料或二维材料的非线性光学响应实现突触权重调制，光子神经元则根据输入光脉冲强度是否超过阈值来决定是否发放脉冲，形成事件驱动的稀疏计算模式。整个系统在光子传播过程中完成信息处理，由于光子几乎没有质量且相互作用极弱，热耗散可降至接近绝对零度，从而实现近零热耗散的计算。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "边缘AI/IoT",
+          "数据中心加速",
+          "自主系统",
+          "科学计算",
+          "神经形态研究"
+        ],
+        "architecture_type": "unclear",
+        "calibration_requirements": "未提供。摘要提到必须高于噪声底限进行可靠检测（每个脉冲10-100光子），但未说明校准流程或环境稳定性要求。",
+        "hardware_validation": "not_available",
+        "optical_nonlinearity": "非线性光学突触采用相变材料GeSbTe或二维过渡金属硫化物（2D TMDs）实现，通过材料在光作用下的非线性响应调制突触权重。",
+        "training_method": "未明确提供。摘要仅提到突触权重更新协议受专利保护，但未具体说明采用反向传播、脉冲时序依赖可塑性或其他学习方法。"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "单个光子能量为0.128 aJ（1550 nm波长）。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "每个脉冲能量为10-100 aJ，比电子脉冲神经网络改善100-1000倍。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "相关定量结果未在标题或摘要中提供。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "计算速度达100 GHz至1 THz。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该研究有望解决人工智能芯片的能耗瓶颈，为边缘AI、数据中心加速、自主系统等提供超高能效的计算平台。相关定量细节未在标题或摘要中提供。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "公开全文未能获取，训练和推理的具体算法细节缺失。",
+          "实验测量和硬件验证结果缺失。",
+          "拓扑边缘态的制备与表征方法缺失。",
+          "具体器件尺寸和材料参数缺失。",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    },
+    {
+      "candidate_id": "dad476a2b20ea06a98b64b6a",
+      "core_problem": "许多优化问题只能直接获得梯度的一部分，其余部分必须通过函数值查询推断。本文研究如何高效结合已知梯度分量与零阶函数值信息，在不假设未知梯度分量有统一上界的情况下求解光滑非凸优化问题。",
+      "distinction_from_prior_work": "与现有基于辅助信息或零阶估计的方法不同，本文不直接估计当前迭代点的完整梯度或雅可比，而是跟踪残差并让方向误差以收缩方式演化，从而将随机探测方差与跟踪误差而非残差幅度挂钩，且无需复合结构假设。",
+      "limitations_and_open_questions": [
+        "理论保证主要针对光滑非凸目标，对非光滑或强凸情形未明确讨论。",
+        "实验结果表明在部分设置中仅与基线相当或更快到达可比较解，未证明在所有任务上全面优于现有方法。",
+        "依赖独立采样的函数值估计与高斯或球形探测，对更一般噪声模型的适用性未提供。",
+        "未提供实现细节之外的大规模或高维问题扩展性分析。"
+      ],
+      "main_contributions": [
+        "提出部分信息随机优化（PISO）框架，结合已知梯度分量与残差运行估计。",
+        "通过将零阶观测中心化在残差估计上，使随机探测方差依赖于跟踪误差而非残差幅值。",
+        "建立带显式收缩机制的随机草图迭代，并对动量给出原理性解释。",
+        "在光滑非凸目标下证明收敛保证仅依赖残差变化和初始幅值，不要求未知梯度分量的统一上界。",
+        "给出函数值复杂度 O(d^2 ε^-6)（Lipschitz 梯度）和 O(d^2 ε^-5)（额外 Lipschitz-Hessian 假设），每步仅需一个探测方向、两个函数样本和一个已知分量样本。",
+        "在五个设置中验证 PISO 变体在多数情况下优于或与测试基线相当，在双层路由和部分强化学习任务中表现突出。"
+      ],
+      "method_and_architecture": "PISO 算法利用已知梯度分量和一个可更新残差估计，通过随机探测构造零阶估计。每次更新使用一个探测方向、两个函数值样本和一个已知分量样本，将零阶观测以残差估计为中心以减少方差，并形成具有收缩和动量解释的迭代格式。",
+      "method_implementation": [
+        "系统由三部分输入组成：已知梯度分量（如特定模型参数的解析梯度）、目标函数的值查询 Oracle，以及随机探测方向生成器。在每次迭代，算法获取当前点的已知梯度分量样本，并生成一个独立探测方向（高斯或球面分布）。",
+        "为了估计未知梯度分量，PISO 维护一个残差估计量。每次更新时，在当前点沿探测方向进行两个函数值查询（一个正探测、一个负探测或等价的两点差分），并将这些零阶观测中心化在当前残差估计上，从而构造出针对残差变化的方向估计。",
+        "参数配置方面，算法步长和动量权重按理论设置，具体数值未在公开上下文中给出。每步仅需要一个探测方向、两个函数值样本和一个已知分量样本，即查询复杂度与维度 d 和精度 ε 的依赖为 O(d^2 ε^-6)（Lipschitz 梯度）或 O(d^2 ε^-5)（Lipschitz-Hessian 假设）。",
+        "执行时，将已知梯度分量与中心化后的零阶残差估计组合成完整方向，然后代入随机草图迭代更新残差估计和参数。该方法不需要对未知梯度分量施加统一上界，收敛保证依赖残差的变化和初始幅值。",
+        "输出是参数迭代序列，其收敛性由作者给出的理论证明保证。实验中，PISO 在五个设置中运行，对比测试基线，部分设置达到更好解或更快达到可比较解。"
+      ],
+      "method_principle": "PISO 的核心思想是把未知梯度分量视为残差并对其跟踪，而不是每步独立估计完整梯度。已知梯度分量直接采样获得，而残差部分通过零阶探测估计。将零阶观测中心化在残差估计上后，随机探测的方差只与残差跟踪误差成正比，而不是与残差的绝对幅度成正比；当跟踪误差收缩时，方差也自动减小。这形成了一种显式收缩机制：方向误差逐步减小，而非每步重新产生与维度相关的独立误差项。与之配合的动量项可以看作对残差估计的历史平滑，从而加速收缩。整体上，PISO 利用部分梯度信息降低了对黑盒查询的依赖，使每次更新只需少量函数值样本即可获得高质量方向估计。",
+      "optical_neural_network_analysis": null,
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "PISO 在 Lipschitz 梯度条件下达到函数值复杂度 O(d^2 ε^-6)，在额外 Lipschitz-Hessian 假设下达到 O(d^2 ε^-5)。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "在五个实验设置中，PISO 变体在三个设置上优于具有可比 Oracle 访问的基线，在双层路由中更快达到可比较解，在无需响应模型导数的 performative RL 中表现最佳。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "该算法每步仅需要一个探测方向、两个函数样本和一个已知分量样本。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "收敛保证不要求未知梯度分量有统一上界，仅依赖残差的变化和初始幅值。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该工作为利用部分梯度信息的零阶优化问题提供了新框架，不仅降低了查询复杂度，还放宽了对未知分量有界性的假设，对 performative 预测、强化学习和双层优化等实际场景具有理论和实践价值。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": true,
+        "full_text_method_source_url": "https://arxiv.org/html/2610.13871",
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+        "missing_information": [
+          "实验的详细设置和具体超参数未提供。",
+          "算法伪代码和完整收敛证明细节未提供。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": {
+        "forward_only": "主要是仅前向执行，利用函数值查询构造零阶估计；已知梯度分量可能来自前向或反向计算，未明确限制。",
+        "low_rank_or_subspace": "未提供；算法使用随机探测方向，未提及低秩或子空间结构。",
+        "per_step_vs_total_clarity": "每步查询数明确为两个函数样本和一个已知分量样本，总复杂度以 O(d^2 ε^-6) 或 O(d^2 ε^-5) 表示，两者区分清晰。",
+        "query_reuse": "通过维护残差估计并在连续迭代中使用，查询信息被隐式复用；零阶观测中心化在残差估计上，使过往信息收缩累积。",
+        "structured_perturbation": "使用高斯或球形随机探测，非结构化扰动；每次仅需一个探测方向。",
+        "total_query_reduction_claim": "yes"
+      }
+    },
+    {
+      "candidate_id": "05e945a039d8b6cce82abff1",
+      "core_problem": "论文针对大规模语言模型零阶微调中，已有方法通常均匀采样训练样本、忽视样本重要性随训练动态变化的问题，提出样本自适应零阶优化方法，以降低梯度估计方差并加速收敛。",
+      "distinction_from_prior_work": "与已有零阶优化方法（如MeZO、HiZOO、PaZO、LOZO）聚焦于参数空间自适应或扰动构造不同，SAZO从数据采样角度出发，利用零阶差分中已有的方向性信息在线估计样本重要性，并通过指数移动平均跟踪其演化，在模型评估次数不变的条件下实现自适应查询分配。",
+      "limitations_and_open_questions": [
+        "未提供SAZO在极端稀疏反馈（如极小批量）下的在线重要性估计稳定性分析。",
+        "未提供与其他先进零阶优化方法在更多任务上的直接比较。",
+        "理论分析主要针对梯度范数正则条件下的渐近性质，实际非凸大模型中的收敛保证仍需进一步研究。",
+        "未提供对超参数 β 的敏感性分析及自动调节机制。"
+      ],
+      "main_contributions": [
+        "提出SAZO方法，从现有方向差分中提取样本重要性信息，无需额外模型评估。",
+        "利用每个样本的指数移动平均跟踪重要性演化，仅需O(N)额外标量状态。",
+        "证明SAZO渐近匹配最小方差采样oracle的主要收敛项，并获得严格快于标准零阶方法的收敛速率。",
+        "在四个模型家族上实验表明平均下游性能提升，且在达到相同训练损失时查询数最多加速6倍。"
+      ],
+      "method_and_architecture": "SAZO是一种用于零阶优化的样本自适应算法。它利用现有方向差分的缩放幅度估计每个样本的梯度范数作为重要性，并维护每个样本的指数移动平均以适应训练过程中的重要性变化。采样概率根据当前估计的重要性分配，并对选中的样本进行逆概率加权以保持全数据有限差分更新的无偏性。该算法无需额外模型评估，仅需O(N)额外标量状态。",
+      "method_implementation": [
+        "系统由预训练大型语言模型、训练数据集和零阶优化器构成。对于每个训练样本 i，初始化重要性得分 mi,1 为正数，通常通过平均初始方向性幅度观测得到。算法需要设置扰动半径 μt、步长 η、批量大小 B（实验实现中可大于1）以及指数移动平均系数 β。在每一步 t，根据当前样本重要性得分 pi,t 采样批量 It，并独立抽取高斯方向 zt。",
+        "对采样到的每个样本 i，计算有限差分 si,t = [fi(xt + μt zt) - fi(xt - μt zt)] / (2μt)，仅需要两次前向评估，无需反向传播。利用该差分更新该样本的重要性观测值，例如使用缩放幅度的平方或相关量，并通过指数移动平均更新 mi,t+1 = (1-β) mi,t + β × 当前观测。",
+        "根据更新后的重要性得分 mi,t 计算采样概率 pi,t（通常与 mi,t 成正比，并进行归一化）。然后对当前批量样本的有限差分 si,t 乘以重要性权重 1/(N p_i,t)，再乘以方向 zt，累加得到当前更新方向 bgt。更新模型参数 xt+1 = xt - η bgt。",
+        "整个流程仅需 O(N) 额外标量状态存储重要性估计，无需存储梯度或激活。相关定量细节未在标题、摘要或公开正文方法上下文中提供。"
+      ],
+      "method_principle": "零阶优化通过随机方向扰动获取标量差分来估计梯度，其梯度估计方差与各样本梯度范数的平方和成正比。若均匀采样，则高范数样本和低范数样本对估计方差的贡献并不均衡，导致不必要的方差。SAZO利用重要性采样原理，将更多查询分配给梯度范数较大的样本，从而降低估计方差。然而，样本重要性（梯度范数）在零阶设置下不可直接观测。SAZO的关键机制是：方向差分 si,t 的缩放幅度的期望在扰动半径趋于零时逼近对应梯度范数，因此可直接从现有查询中提取重要性信息，无需额外评估。此外，由于每个更新只观测到一个小批量样本，重要性估计是稀疏的，且样本重要性会随模型参数演化而变化。SAZO为每个训练样本维护一个标量指数移动平均，融合历史估计与当前观测，从而在间歇性反馈下跟踪重要性动态。均匀探索机制确保不常被采样的样本也有机会更新其估计。最终，采样概率按估计的重要性成比例分配，并通过逆概率加权修正更新方向，使其期望仍等于全数据有限差分方向，从而在减少方差的同时保持正确收敛方向。",
+      "optical_neural_network_analysis": null,
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "在相同查询数预算下，SAZO 相比 MeZO 达到相同训练损失的速度最多快 6 倍。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "在四个模型家族上，SAZO 在保持类似 MeZO 的内存和单步成本的情况下，平均下游性能有所提升。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该研究为大规模语言模型零阶微调提供了新的优化视角，即从数据采样角度出发，利用零阶查询中固有的信息降低方差，从而加速收敛。该方法几乎不增加内存开销，具有实际部署潜力，同时理论保证也加强了零阶优化在非凸有限和问题上的理解，推动了后续零阶自适应算法的发展。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": true,
+        "full_text_method_source_url": "https://arxiv.org/pdf/2610.12566",
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+        "missing_information": [],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": {
+        "forward_only": "是。每次更新只需两次前向传播计算有限差分，无需反向传播，也不存储激活。",
+        "low_rank_or_subspace": "该方法不使用低秩或子空间近似，而是在全参数空间上进行随机方向扰动，但利用样本重要性采样来降低方差。",
+        "per_step_vs_total_clarity": "作者报告在相同训练损失下查询总数最多加速 6 倍，这是总查询复杂度层面的结果。每步查询数并未减少（仍是两次前向评估），加速来自收敛所需的总更新次数减少。",
+        "query_reuse": "SAZO 不额外增加查询，直接复用每次更新中已经计算的有限差分 si,t 来估计该样本的梯度范数，因此没有独立的查询开销。",
+        "structured_perturbation": "扰动方向为独立高斯分布 zt ~ N(0, Id)，不采用结构化或低维子空间扰动。",
+        "total_query_reduction_claim": "yes"
+      }
+    }
+  ],
+  "summary_count": 3
+}

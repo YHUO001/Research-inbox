@@ -18,6 +18,15 @@
       "summary_record_sha256": "ade5dd93d18b01bd728091a7e624d7a05a4e0e879d0214f99d0e7b280b9f8817",
       "title": "Spatiotemporal all-optical diffractive neural networks empowered by spatiotemporal light field manipulation"
     },
+    "05e945a039d8b6cce82abff1": {
+      "digest_date": "2026-10-15",
+      "doi": "10.48550/arxiv.2610.12566",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "359ccd66a87db9e5d800912ba8123609eb1305b82bc1ad5012c7cdf687692713",
+      "title": "Sample-Adaptive Zeroth-Order Post-Training"
+    },
     "099f50640efd207890cbb62b": {
       "digest_date": "2026-10-11",
       "doi": "10.1117/12.3117698",
@@ -638,6 +647,15 @@
       "summary_record_sha256": "4670ec077c07b58b0d96a4c3c6a73d22e111cdc2581e7ddddd399eaf23e08f48",
       "title": "Metasurface‐Based Terahertz Three‐Dimensional Holography Enabled by Physics‐Informed Neural Network"
     },
+    "c9dee369fd4e64c2389af927": {
+      "digest_date": "2026-10-15",
+      "doi": "10.5281/zenodo.23337932",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "63bf314b90eb0fc2a4b187bd25c289223d4b56a4812163a5a84899669c2e2a93",
+      "title": "EL-RAKHAWI ARCHITECTURE FOR TOPOLOGICAL PHOTONIC NEUROMORPHIC COMPUTING WITH NEAR-ZERO THERMAL DISSIPATION"
+    },
     "ca00b2160d3deb8b79b61e6e": {
       "digest_date": "2026-08-19",
       "doi": "10.48550/arxiv.2608.12679",
@@ -691,6 +709,15 @@
       ],
       "summary_record_sha256": "52959cb5fd5b523322a1c40829cf8ebe21d1b518a016c26ddc57329815fa8aea",
       "title": "Monolithically Integrated IGZO Synaptic Transistors\non a Silicon Nitride Waveguide for Optoelectronic Neuromorphic Computing"
+    },
+    "dad476a2b20ea06a98b64b6a": {
+      "digest_date": "2026-10-15",
+      "doi": "10.48550/arxiv.2610.13871",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "9005afa98b3e7ea8df306b1ef1e05be9a26c7bbb9be58accde26b65a501011f3",
+      "title": "Partially Informed Stochastic Optimization via Zeroth-Order Residual Tracking"
     },
     "dd2f544b89860edf2c2a51ae": {
       "digest_date": "2026-08-20",
@@ -956,6 +983,11 @@
     "2026-10-12": [
       "1229908a36775c08f23d92f8",
       "61dad77fe7c2ef7687ce5b21"
+    ],
+    "2026-10-15": [
+      "05e945a039d8b6cce82abff1",
+      "c9dee369fd4e64c2389af927",
+      "dad476a2b20ea06a98b64b6a"
     ]
   },
   "by_doi": {
@@ -1037,7 +1069,10 @@
     "10.48550/arxiv.2610.00276": "b55d3108932c3bfbf5a93ca7",
     "10.48550/arxiv.2610.06271": "66c84fb1444bbf71b05ac0d7",
     "10.48550/arxiv.2610.11274": "1229908a36775c08f23d92f8",
+    "10.48550/arxiv.2610.12566": "05e945a039d8b6cce82abff1",
+    "10.48550/arxiv.2610.13871": "dad476a2b20ea06a98b64b6a",
     "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
+    "10.5281/zenodo.23337932": "c9dee369fd4e64c2389af927",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.6084/m9.figshare.c.8610155.v1": "d162b179119ee09c86ad3708",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799",
@@ -1102,6 +1137,7 @@
       "c3474ba19a69c715eb87d391",
       "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
+      "c9dee369fd4e64c2389af927",
       "ccd82d84305d463a6c33398d",
       "d162b179119ee09c86ad3708",
       "d2a55bdec24bc3bc4b04467b",
@@ -1112,6 +1148,7 @@
       "fd6f281418ac4d412744b2ac"
     ],
     "zeroth-order-optimization": [
+      "05e945a039d8b6cce82abff1",
       "0e5c75b6132afcfb1f7afb17",
       "1075bd8698bce3acb3ce9376",
       "142dc76f41fc25448b82c91e",
@@ -1128,6 +1165,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
+      "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
@@ -1360,6 +1398,9 @@
     "application:散射介质信息传输": [
       "a6c0cee36e01933034e775f2"
     ],
+    "application:数据中心加速": [
+      "c9dee369fd4e64c2389af927"
+    ],
     "application:无人机实时障碍物感知": [
       "557b41cb542bf10e84da81f2"
     ],
@@ -1429,11 +1470,17 @@
     "application:神经形态光计算": [
       "099f50640efd207890cbb62b"
     ],
+    "application:神经形态研究": [
+      "c9dee369fd4e64c2389af927"
+    ],
     "application:神经形态计算": [
       "ae3adee8419a5db7be7ec3b2"
     ],
     "application:神经网络推理": [
       "61dad77fe7c2ef7687ce5b21"
+    ],
+    "application:科学计算": [
+      "c9dee369fd4e64c2389af927"
     ],
     "application:稳态调节（homeostatic regulation）": [
       "79855d774b83ef6c7c8a8a47"
@@ -1449,6 +1496,9 @@
     ],
     "application:自主导航": [
       "328b1572ba0e31f8f8a6dac1"
+    ],
+    "application:自主系统": [
+      "c9dee369fd4e64c2389af927"
     ],
     "application:自动驾驶系统的机器视觉": [
       "35ff63ef9d3333099ee28868"
@@ -1485,6 +1535,9 @@
     ],
     "application:轨道角动量贝尔态识别": [
       "9351be654a20f4a2f7121847"
+    ],
+    "application:边缘ai/iot": [
+      "c9dee369fd4e64c2389af927"
     ],
     "application:连续动作控制": [
       "328b1572ba0e31f8f8a6dac1"
@@ -1589,6 +1642,7 @@
       "c3474ba19a69c715eb87d391",
       "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
+      "c9dee369fd4e64c2389af927",
       "ccd82d84305d463a6c33398d",
       "d162b179119ee09c86ad3708",
       "d2a55bdec24bc3bc4b04467b",
@@ -1716,6 +1770,7 @@
       "c3474ba19a69c715eb87d391",
       "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
+      "c9dee369fd4e64c2389af927",
       "ccd82d84305d463a6c33398d",
       "d162b179119ee09c86ad3708",
       "d2a55bdec24bc3bc4b04467b",
@@ -1726,6 +1781,7 @@
       "fd6f281418ac4d412744b2ac"
     ],
     "project:zeroth-order-optimization": [
+      "05e945a039d8b6cce82abff1",
       "0e5c75b6132afcfb1f7afb17",
       "1075bd8698bce3acb3ce9376",
       "142dc76f41fc25448b82c91e",
@@ -1742,6 +1798,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
+      "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
@@ -1751,6 +1808,7 @@
       "fca2cfc597728ee01e2a6032"
     ],
     "zo:forward_only": [
+      "05e945a039d8b6cce82abff1",
       "0e5c75b6132afcfb1f7afb17",
       "1075bd8698bce3acb3ce9376",
       "142dc76f41fc25448b82c91e",
@@ -1766,6 +1824,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
+      "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
@@ -1775,6 +1834,7 @@
       "fca2cfc597728ee01e2a6032"
     ],
     "zo:low_rank_or_subspace": [
+      "05e945a039d8b6cce82abff1",
       "0e5c75b6132afcfb1f7afb17",
       "1075bd8698bce3acb3ce9376",
       "142dc76f41fc25448b82c91e",
@@ -1790,6 +1850,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
+      "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
@@ -1799,6 +1860,7 @@
       "fca2cfc597728ee01e2a6032"
     ],
     "zo:query_reuse": [
+      "05e945a039d8b6cce82abff1",
       "0e5c75b6132afcfb1f7afb17",
       "1075bd8698bce3acb3ce9376",
       "142dc76f41fc25448b82c91e",
@@ -1813,6 +1875,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
+      "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
@@ -1822,6 +1885,7 @@
       "fca2cfc597728ee01e2a6032"
     ],
     "zo:structured_perturbation": [
+      "05e945a039d8b6cce82abff1",
       "0e5c75b6132afcfb1f7afb17",
       "1075bd8698bce3acb3ce9376",
       "142dc76f41fc25448b82c91e",
@@ -1837,6 +1901,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
+      "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
@@ -1846,6 +1911,7 @@
       "fca2cfc597728ee01e2a6032"
     ],
     "zo:total_query_reduction": [
+      "05e945a039d8b6cce82abff1",
       "0e5c75b6132afcfb1f7afb17",
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
@@ -1853,6 +1919,7 @@
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
+      "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "f4c6106a0a433a224abb3d56"
@@ -2007,9 +2074,11 @@
       "7d6c2a059923ebe445a1cdf7"
     ],
     "Zenodo (CERN European Organization for Nuclear Research)": [
-      "4b1739e45289d2156d3b1ed3"
+      "4b1739e45289d2156d3b1ed3",
+      "c9dee369fd4e64c2389af927"
     ],
     "arXiv (Cornell University)": [
+      "05e945a039d8b6cce82abff1",
       "0cbf41592278a3ad1b89e219",
       "1229908a36775c08f23d92f8",
       "142dc76f41fc25448b82c91e",
@@ -2024,6 +2093,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
+      "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "f0cf0b80e6f1f53ea347c136",
@@ -2039,6 +2109,7 @@
     "2026": [
       "028de8014a2b67fd147a28e7",
       "04bdf084776bcfe0d6f912cb",
+      "05e945a039d8b6cce82abff1",
       "099f50640efd207890cbb62b",
       "09e1a0ed403ef22abbd9b189",
       "0a7a6a25b0c077322aee6b4e",
@@ -2107,12 +2178,14 @@
       "c3474ba19a69c715eb87d391",
       "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
+      "c9dee369fd4e64c2389af927",
       "ca00b2160d3deb8b79b61e6e",
       "ccd82d84305d463a6c33398d",
       "d162b179119ee09c86ad3708",
       "d2a55bdec24bc3bc4b04467b",
       "d33b2e7c6586f37945facb32",
       "d69a4f93ca6340969e1077a8",
+      "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
@@ -2128,7 +2201,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 87,
+  "paper_count": 90,
   "schema_version": 1,
-  "updated_at": "2026-10-12T01:19:35.868654Z"
+  "updated_at": "2026-10-15T13:00:51.171593Z"
 }

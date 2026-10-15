@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`87`
-- 更新时间：`2026-10-12T01:19:35.868654Z`
+- 论文数：`90`
+- 更新时间：`2026-10-15T13:00:51.171593Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### EL-RAKHAWI ARCHITECTURE FOR TOPOLOGICAL PHOTONIC NEUROMORPHIC COMPUTING WITH NEAR-ZERO THERMAL DISSIPATION
+
+- DOI/链接：[10.5281/zenodo.23337932](https://doi.org/10.5281/zenodo.23337932)
+- 期刊/年份：Zenodo (CERN European Organization for Nuclear Research)，2026
+- 摘要日期：`2026-10-15`
+- 候选 ID：`c9dee369fd4e64c2389af927`
+- 标签：application:数据中心加速, application:神经形态研究, application:科学计算, application:自主系统, application:边缘ai/iot, architecture:unclear, project:optical-neural-networks
 
 ### Gigahertz thin-film lithium niobate phase-SLM architecture for true matrix–matrix multiplication in photonic AI accelerators: design and physical-layer simulation
 
@@ -533,6 +541,22 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### Sample-Adaptive Zeroth-Order Post-Training
+
+- DOI/链接：[10.48550/arxiv.2610.12566](https://doi.org/10.48550/arxiv.2610.12566)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-10-15`
+- 候选 ID：`05e945a039d8b6cce82abff1`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
+
+### Partially Informed Stochastic Optimization via Zeroth-Order Residual Tracking
+
+- DOI/链接：[10.48550/arxiv.2610.13871](https://doi.org/10.48550/arxiv.2610.13871)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-10-15`
+- 候选 ID：`dad476a2b20ea06a98b64b6a`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
 
 ### VLA-ZO: Fast Zeroth-Order Adaptation for Vision-Language-Action Models
 
