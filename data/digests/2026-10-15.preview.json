@@ -1,0 +1,53 @@
+{
+  "built_at": "2026-10-15T00:58:21.720342Z",
+  "digest_date": "2026-10-15",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "c9dee369fd4e64c2389af927",
+        "landing_page": "https://doi.org/10.5281/zenodo.23337932",
+        "mandatory": false,
+        "score": 0.76,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "EL-RAKHAWI ARCHITECTURE FOR TOPOLOGICAL PHOTONIC NEUROMORPHIC COMPUTING WITH NEAR-ZERO THERMAL DISSIPATION",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "dad476a2b20ea06a98b64b6a",
+        "landing_page": "https://arxiv.org/abs/2610.13871",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Partially Informed Stochastic Optimization via Zeroth-Order Residual Tracking",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "05e945a039d8b6cce82abff1",
+        "landing_page": "https://arxiv.org/abs/2610.12566",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Sample-Adaptive Zeroth-Order Post-Training",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

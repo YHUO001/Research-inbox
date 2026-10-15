@@ -1094,6 +1094,48 @@
       "retrieved_at": "2026-10-06T01:07:13.143121Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/lpor.72006": {
+      "expires_at": "2026-11-14T00:58:15.491079Z",
+      "record": {
+        "abstract": "ABSTRACT The rapid expansion of Big Data and Artificial Intelligence has exposed fundamental inefficiencies in conventional von Neumann computing architectures, thus necessitating a search for alternative solutions. Neuromorphic computing, inspired by biological neural systems, has emerged as a promising route toward faster and more energy‐efficient information processing approaches. Optical neuromorphic computing exploits light as a signal modality for stimulation, data delivery, information processing, and signal readout, offering intrinsic advantages in speed, parallelism, and power consumption. This review outlines the core principles of neuromorphic computing and examines recent advances in its optical implementations, with a particular focus on optical artificial synapses, photonic layers integrated into hybrid photonic‐digital architectures, and optical neural networks. These emerging approaches define a coherent framework for advancing computing systems that offer clear advantages over purely von Neumann systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lília M. S. Dias",
+            "orcid": "https://orcid.org/0000-0001-8077-1355"
+          },
+          {
+            "name": "Ana R. Bastos",
+            "orcid": "https://orcid.org/0000-0002-3251-6306"
+          },
+          {
+            "name": "Elias Towe",
+            "orcid": null
+          },
+          {
+            "name": "Rute A. S. Ferreira",
+            "orcid": "https://orcid.org/0000-0003-1085-7836"
+          },
+          {
+            "name": "Paulo S. B. André",
+            "orcid": "https://orcid.org/0000-0002-6276-4976"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.72006",
+        "landing_page": "https://doi.org/10.1002/lpor.72006",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.72006",
+        "publication_date": "2026-10-05",
+        "title": "The Role of Photonics in Neuromorphic Computing for Augmenting the von Neumann Paradigm",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-15T00:58:15.491079Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/lpor.72008": {
       "expires_at": "2026-11-08T01:12:16.413496Z",
       "record": {
@@ -1154,6 +1196,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-09T01:12:16.413496Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1002/lpor.72040": {
+      "expires_at": "2026-11-14T00:58:14.762904Z",
+      "record": {
+        "abstract": "ABSTRACT Conventional optical cryptosystems rely on computationally heavy, detached deep‐learning black boxes and visual metrics, fundamentally hindering precise information delivery and exposing latent vulnerabilities. To overcome this, we propose a hardware‐algorithm isomorphic photonic neural cryptosystem tailored for exact data delivery. This architecture intrinsically utilizes physical optical scattering as the random projection of an Extreme Learning Machine (ELM). By synergizing the ELM's rapid closed‐form analytical inference with the deterministic error tolerance of structured data encoding, we successfully bridge the gap between statistical neural network inference and cryptographic correctness, achieving a 100% Decryption Success Rate (DSR). Furthermore, multi‐synaptic connections are repurposed as an additional physical key dimension, enlarging the key space without incurring digital computational overhead. Generating high‐entropy ciphertexts (>7 bits) and massive‐length unclonable physical keys (>96.9 megabits), the hardware‐rooted Physical Unclonable Function (PUF) coupled with a digital probabilistic encoding (salting) strategy neutralizes advanced cryptanalysis, including chosen‐plaintext attacks (CPA), known‐plaintext attacks (KPA), and machine‐learning model‐extraction attempts. Requiring only ∼0.76 M parameters and 0.67 ms inference latency, this lightweight framework natively supports high‐frequency dynamic key updates and poses a substantial computational barrier (digital keys >6 megabits) to brute‐force attacks, offering a scalable and highly efficient solution for secure communications in edge computing and IoT.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhuonan Jia",
+            "orcid": "https://orcid.org/0009-0003-4617-9077"
+          },
+          {
+            "name": "Haopeng Tao",
+            "orcid": "https://orcid.org/0009-0006-3282-9448"
+          },
+          {
+            "name": "Haipeng Yu",
+            "orcid": null
+          },
+          {
+            "name": "Guang‐Bin Huang",
+            "orcid": null
+          },
+          {
+            "name": "Ting Mei",
+            "orcid": "https://orcid.org/0000-0001-7756-040X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.72040",
+        "landing_page": "https://doi.org/10.1002/lpor.72040",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.72040",
+        "publication_date": "2026-10-09",
+        "title": "Photonic Extreme Learning Machine‐Based Neural Cryptosystem for Error‐Free Secure Data Delivery",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-15T00:58:14.762904Z",
       "status": "found"
     },
     "crossref:doi:10.1002/mats.70059": {
@@ -3327,6 +3411,12 @@
       },
       "retrieved_at": "2026-09-06T01:07:52.261874Z",
       "status": "found"
+    },
+    "crossref:doi:10.1021/acsphotonics.6c01168/5446634": {
+      "expires_at": "2026-11-14T00:58:17.925277Z",
+      "record": null,
+      "retrieved_at": "2026-10-15T00:58:17.925277Z",
+      "status": "not_found"
     },
     "crossref:doi:10.1021/acsphotonics.6c01289/5433287": {
       "expires_at": "2026-10-28T01:11:34.062142Z",
@@ -7098,6 +7188,18 @@
       "retrieved_at": "2026-10-12T01:18:13.815209Z",
       "status": "not_found"
     },
+    "crossref:doi:10.5281/zenodo.23337932": {
+      "expires_at": "2026-11-14T00:58:16.898650Z",
+      "record": null,
+      "retrieved_at": "2026-10-15T00:58:16.898650Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.5281/zenodo.23338144": {
+      "expires_at": "2026-11-14T00:58:15.122908Z",
+      "record": null,
+      "retrieved_at": "2026-10-15T00:58:15.122908Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.6084/m9.figshare.33306492.v1": {
       "expires_at": "2026-10-11T01:00:17.087901Z",
       "record": null,
@@ -7428,6 +7530,12 @@
       },
       "retrieved_at": "2026-09-25T01:02:49.342934Z",
       "status": "found"
+    },
+    "crossref:title:04c6d19bc1691fa0032b3b8598cd8477e4d6485d211e2619732b56689975ac84": {
+      "expires_at": "2026-10-22T00:58:14.259313Z",
+      "record": null,
+      "retrieved_at": "2026-10-15T00:58:14.259313Z",
+      "status": "not_found"
     },
     "crossref:title:06693e531997c12223d3bf4aeefb09d84bfa52f942f5ff9011fda630169008e4": {
       "expires_at": "2026-09-28T01:07:32.848362Z",
@@ -8105,6 +8213,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:16.791069Z",
+      "status": "found"
+    },
+    "crossref:title:22cc3dc70b0c5c247224795fcc53b7a00579daf175f3eb5e35ecf756bda5059e": {
+      "expires_at": "2026-10-22T00:58:16.043897Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Po-Jui Chiang",
+            "orcid": "https://orcid.org/0000-0001-8264-0279"
+          },
+          {
+            "name": "Yin-Chi Liao",
+            "orcid": null
+          },
+          {
+            "name": "Sheng-Xin Pan",
+            "orcid": null
+          },
+          {
+            "name": "Shuo-Hsien Wang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlastec.2026.116644",
+        "landing_page": "https://doi.org/10.1016/j.optlastec.2026.116644",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.optlastec.2026.116644",
+        "publication_date": "2026-12",
+        "title": "Calibration-assisted stress-optic phase programming for a 3D-printed optical neural-network frontend",
+        "venue": "Optics &amp; Laser Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-15T00:58:16.043897Z",
       "status": "found"
     },
     "crossref:title:23685ef8c75101e990829fc1c5afd98931012debf581231a185d1b49dc084bd4": {
@@ -9631,6 +9777,12 @@
       "retrieved_at": "2026-09-30T01:10:14.934294Z",
       "status": "found"
     },
+    "crossref:title:7934646938fbdf9e2724ebcbf599b0cd1d2025c1f075c08d5b184b9b46fd6234": {
+      "expires_at": "2026-10-22T00:58:18.785271Z",
+      "record": null,
+      "retrieved_at": "2026-10-15T00:58:18.785271Z",
+      "status": "not_found"
+    },
     "crossref:title:796f7b5dd9a283ce34ef216ed6fcb6546998d6f4c4a5cdc5f182895c824cafec": {
       "expires_at": "2026-10-02T01:02:47.019667Z",
       "record": {
@@ -9787,6 +9939,12 @@
       "retrieved_at": "2026-09-15T01:03:20.845181Z",
       "status": "not_found"
     },
+    "crossref:title:84104393d5057135ee5eb4e8071a2bac8f1da3be42c63b6cd0f584eb1b17220a": {
+      "expires_at": "2026-10-22T00:58:17.323888Z",
+      "record": null,
+      "retrieved_at": "2026-10-15T00:58:17.323888Z",
+      "status": "not_found"
+    },
     "crossref:title:849250f9042d4d1b1371df2dcf6d39f99be3ebe04fa2724789d7bbcde523a6ea": {
       "expires_at": "2026-09-05T00:54:08.565887Z",
       "record": null,
@@ -9798,6 +9956,56 @@
       "record": null,
       "retrieved_at": "2026-08-27T16:32:36.511687Z",
       "status": "not_found"
+    },
+    "crossref:title:858d1043bafa01e8639ee13e5807de1633cb7b775f7ec972232edbf55d476e96": {
+      "expires_at": "2026-10-22T00:58:16.534813Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yu Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Xuefei Zhong",
+            "orcid": null
+          },
+          {
+            "name": "Tian Cai",
+            "orcid": null
+          },
+          {
+            "name": "Wei Wei",
+            "orcid": null
+          },
+          {
+            "name": "Rui Yu",
+            "orcid": null
+          },
+          {
+            "name": "Han Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Xiong Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optcom.2026.133865",
+        "landing_page": "https://doi.org/10.1016/j.optcom.2026.133865",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.optcom.2026.133865",
+        "publication_date": "2027-01",
+        "title": "Microdisplay-driven optoelectronic fully connected neural network with microlens array",
+        "venue": "Optics Communications",
+        "year": 2027
+      },
+      "retrieved_at": "2026-10-15T00:58:16.534813Z",
+      "status": "found"
     },
     "crossref:title:85fad719be426dd1abc2880ba727f6bf2040469e63d854671a284d4dd81a3535": {
       "expires_at": "2026-10-16T01:12:15.511826Z",
@@ -11786,6 +11994,12 @@
       },
       "retrieved_at": "2026-08-04T09:38:49.500080Z",
       "status": "found"
+    },
+    "crossref:title:da0864c43cbc07ccccda8455948bed2bce575af9d04f7600fed77f299c05ade4": {
+      "expires_at": "2026-10-22T00:58:19.595048Z",
+      "record": null,
+      "retrieved_at": "2026-10-15T00:58:19.595048Z",
+      "status": "not_found"
     },
     "crossref:title:db822be0c4fb9ec39b46cafbc7ddba35220ed79f7b9d4770d9b067f12173c050": {
       "expires_at": "2026-08-17T00:36:44.025497Z",
@@ -13939,6 +14153,48 @@
       "retrieved_at": "2026-10-06T01:07:13.489386Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/lpor.72006": {
+      "expires_at": "2026-11-14T00:58:15.789967Z",
+      "record": {
+        "abstract": "ABSTRACT The rapid expansion of Big Data and Artificial Intelligence has exposed fundamental inefficiencies in conventional von Neumann computing architectures, thus necessitating a search for alternative solutions. Neuromorphic computing, inspired by biological neural systems, has emerged as a promising route toward faster and more energy‐efficient information processing approaches. Optical neuromorphic computing exploits light as a signal modality for stimulation, data delivery, information processing, and signal readout, offering intrinsic advantages in speed, parallelism, and power consumption. This review outlines the core principles of neuromorphic computing and examines recent advances in its optical implementations, with a particular focus on optical artificial synapses, photonic layers integrated into hybrid photonic‐digital architectures, and optical neural networks. These emerging approaches define a coherent framework for advancing computing systems that offer clear advantages over purely von Neumann systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lília M. S. Dias",
+            "orcid": "https://orcid.org/0000-0001-8077-1355"
+          },
+          {
+            "name": "Ana R. N. Bastos",
+            "orcid": "https://orcid.org/0000-0002-3251-6306"
+          },
+          {
+            "name": "E. Towe",
+            "orcid": "https://orcid.org/0000-0002-7149-2060"
+          },
+          {
+            "name": "Rute A. S. Ferreira",
+            "orcid": "https://orcid.org/0000-0003-1085-7836"
+          },
+          {
+            "name": "Paulo Sérgio de Brito André",
+            "orcid": "https://orcid.org/0000-0002-6276-4976"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.72006",
+        "landing_page": "https://doi.org/10.1002/lpor.72006",
+        "open_access_url": "https://doi.org/10.1002/lpor.72006",
+        "openalex_id": "https://openalex.org/W7220455864",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7220455864",
+        "publication_date": "2026-10-05",
+        "title": "The Role of Photonics in Neuromorphic Computing for Augmenting the von Neumann Paradigm",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-15T00:58:15.789967Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/lpor.72008": {
       "expires_at": "2026-11-08T01:12:16.886732Z",
       "record": {
@@ -13999,6 +14255,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-09T01:12:16.886732Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/lpor.72040": {
+      "expires_at": "2026-11-14T00:58:15.083481Z",
+      "record": {
+        "abstract": "ABSTRACT Conventional optical cryptosystems rely on computationally heavy, detached deep‐learning black boxes and visual metrics, fundamentally hindering precise information delivery and exposing latent vulnerabilities. To overcome this, we propose a hardware‐algorithm isomorphic photonic neural cryptosystem tailored for exact data delivery. This architecture intrinsically utilizes physical optical scattering as the random projection of an Extreme Learning Machine (ELM). By synergizing the ELM's rapid closed‐form analytical inference with the deterministic error tolerance of structured data encoding, we successfully bridge the gap between statistical neural network inference and cryptographic correctness, achieving a 100% Decryption Success Rate (DSR). Furthermore, multi‐synaptic connections are repurposed as an additional physical key dimension, enlarging the key space without incurring digital computational overhead. Generating high‐entropy ciphertexts (>7 bits) and massive‐length unclonable physical keys (>96.9 megabits), the hardware‐rooted Physical Unclonable Function (PUF) coupled with a digital probabilistic encoding (salting) strategy neutralizes advanced cryptanalysis, including chosen‐plaintext attacks (CPA), known‐plaintext attacks (KPA), and machine‐learning model‐extraction attempts. Requiring only ∼0.76 M parameters and 0.67 ms inference latency, this lightweight framework natively supports high‐frequency dynamic key updates and poses a substantial computational barrier (digital keys >6 megabits) to brute‐force attacks, offering a scalable and highly efficient solution for secure communications in edge computing and IoT.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhuonan Jia",
+            "orcid": "https://orcid.org/0009-0003-4617-9077"
+          },
+          {
+            "name": "Haopeng Tao",
+            "orcid": "https://orcid.org/0009-0006-3282-9448"
+          },
+          {
+            "name": "Haipeng Yu",
+            "orcid": null
+          },
+          {
+            "name": "Guang‐Bin Huang",
+            "orcid": null
+          },
+          {
+            "name": "Ting Mei",
+            "orcid": "https://orcid.org/0000-0001-7756-040X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.72040",
+        "landing_page": "https://doi.org/10.1002/lpor.72040",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7221175845",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221175845",
+        "publication_date": "2026-10-09",
+        "title": "Photonic Extreme Learning Machine‐Based Neural Cryptosystem for Error‐Free Secure Data Delivery",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-15T00:58:15.083481Z",
       "status": "found"
     },
     "openalex:doi:10.1002/mats.70059": {
@@ -16093,6 +16391,56 @@
       "retrieved_at": "2026-09-19T01:00:50.209071Z",
       "status": "found"
     },
+    "openalex:doi:10.1016/j.optcom.2026.133865": {
+      "expires_at": "2026-11-14T00:58:16.857130Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yu Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Xuefei Zhong",
+            "orcid": null
+          },
+          {
+            "name": "Tian Cai",
+            "orcid": "https://orcid.org/0009-0009-1034-5137"
+          },
+          {
+            "name": "Wei Wei",
+            "orcid": "https://orcid.org/0000-0002-6440-7972"
+          },
+          {
+            "name": "Rui Yu",
+            "orcid": "https://orcid.org/0000-0001-8367-1018"
+          },
+          {
+            "name": "Han Zhang",
+            "orcid": "https://orcid.org/0000-0002-4037-3026"
+          },
+          {
+            "name": "Xiong Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optcom.2026.133865",
+        "landing_page": "https://doi.org/10.1016/j.optcom.2026.133865",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7221531951",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221531951",
+        "publication_date": "2026-10-12",
+        "title": "Microdisplay-driven optoelectronic fully connected neural network with microlens array",
+        "venue": "Optics Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-15T00:58:16.857130Z",
+      "status": "found"
+    },
     "openalex:doi:10.1016/j.optlastec.2026.116154": {
       "expires_at": "2026-09-17T04:25:34.997756Z",
       "record": {
@@ -16263,6 +16611,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-09T01:12:30.430342Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.optlastec.2026.116644": {
+      "expires_at": "2026-11-14T00:58:16.420479Z",
+      "record": {
+        "abstract": "We report a calibration-assisted stress-optic phase-programming method for a 3D-printed optical neural-network (ONN) frontend. Full-vector stress-optic modeling gives a full-stress effective-index shift of Δ ⁢ 𝑛 e f f = − 2 . 1 2 8 4 × 1 0 − 4 at 850 nm, setting the phase-length rule for Mach–Zehnder interferometer (MZI) phase shifters. A matched MPB modal proxy reproduces the modeled phase sensitivity with a ratio of 0.999,396, giving phase errors below 0 . 0 0 1 2 ⁢ 𝜋 for the evaluated 4- and 8-node phase sets. MZI measurements across three annealing conditions show a monotonic reduction in fringe-shift magnitude; a separately defined ± 5 % gain-error envelope is used only for sensitivity analysis. The shortest 𝑠 = 1 design is tolerance-limited, but an 𝑠 d e s i g n = 0 . 8 5 process window restores a simulated 100% pass rate under ideal one-time per-node gain estimates, with a 17.65% length penalty. Mapping the resulting phase noise into a 64-mode MNIST optical-front-end benchmark gives 83.44% ideal accuracy and calibrated recovery of the ideal numerical reference. Mode-field maps and a stage-resolved projected | 𝐸 | 2 propagation map visualize the physical basis and propagation path while preserving the distinction between transverse modal fields and system-level power interpolation.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Po-Jui Chiang",
+            "orcid": "https://orcid.org/0000-0001-8264-0279"
+          },
+          {
+            "name": "Yin-Chi Liao",
+            "orcid": "https://orcid.org/0000-0003-1907-8337"
+          },
+          {
+            "name": "Sheng-Xin Pan",
+            "orcid": null
+          },
+          {
+            "name": "Shuo-Hsien Wang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlastec.2026.116644",
+        "landing_page": "https://doi.org/10.1016/j.optlastec.2026.116644",
+        "open_access_url": "https://doi.org/10.1016/j.optlastec.2026.116644",
+        "openalex_id": "https://openalex.org/W7221518934",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221518934",
+        "publication_date": "2026-10-12",
+        "title": "Calibration-assisted stress-optic phase programming for a 3D-printed optical neural-network frontend",
+        "venue": "Optics & Laser Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-15T00:58:16.420479Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.simpat.2026.103359": {
@@ -16772,6 +17158,12 @@
       },
       "retrieved_at": "2026-09-06T01:07:52.623465Z",
       "status": "found"
+    },
+    "openalex:doi:10.1021/acsphotonics.6c01168/5446634": {
+      "expires_at": "2026-11-14T00:58:18.672257Z",
+      "record": null,
+      "retrieved_at": "2026-10-15T00:58:18.672257Z",
+      "status": "not_found"
     },
     "openalex:doi:10.1021/acsphotonics.6c01289/5433287": {
       "expires_at": "2026-10-28T01:11:34.625330Z",
@@ -24495,6 +24887,70 @@
       "retrieved_at": "2026-10-12T01:18:14.147165Z",
       "status": "found"
     },
+    "openalex:doi:10.5281/zenodo.23337932": {
+      "expires_at": "2026-11-14T00:58:17.224107Z",
+      "record": {
+        "abstract": "TPNC-NZTD: TOPOLOGICAL PHOTONIC NEUROMORPHIC COMPUTING WITH NEAR-ZERO THERMAL DISSIPATION Author: Dr. Mohamed Kamal Arafa El-RakhawiDOI: 10.5281/zenodo.23337933 A revolutionary hybrid chip architecture solving AI's energy crisis by integrating three Nobel Prize-winning phenomena: photonic computing (light instead of electrons), topological insulators (backscattering-immune edge states), and spiking neural networks (event-driven computation). Core architecture: 2D topological insulator substrate (bismuthene on SiC) + nanoscale photonic waveguides along edges + non-linear optical synapses (phase-change materials GeSbTe or 2D TMDs) + photonic neurons with thresholding behavior. Quantum-limited performance: Energy per photon at 1550 nm = 0.128 aJ. With 10-100 photons per spike for reliable detection above noise floor: E_spike = 10-100 aJ (100-1000× improvement over electronic SNNs). Thermal dissipation: 10 aJ × 1 MHz × 10⁶ synapses = 10 μW per million synapses (1,000,000× improvement over electronic chips). Computational speed: 100 GHz - 1 THz via photonic propagation. Fabrication: CMOS BEOL-compatible via heterogeneous integration (micro-transfer printing or adhesive wafer bonding of III-V materials), preserving topological bandgap integrity during processing. Applications: Edge AI/IoT ($50B), data center acceleration ($150B), autonomous systems ($30B), scientific computing ($20B), neuromorphic research ($5B). Total addressable market: $300B+ by 2030. Comprehensive IP protection: 5 patent claims covering hybrid architecture, photonic spike computation method, heterogeneous fabrication process preserving topological states, synaptic weight update protocols, and application-specific deployments. Trade secrets, perpetual moral rights under Berne Convention, 4 protected trademarks. All rights reserved, proprietary. Full citation: El-Rakhawi, M. K. A. (2026). El-Rakhawi Architecture for Topological Photonic Neuromorphic Computing with Near-Zero Thermal Dissipation (TPNC-NZTD). Ismailia, Egypt. DOI: 10.5281/zenodo.23337933.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "mohamed kamal arafa el-rakhawi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23337932",
+        "landing_page": "https://doi.org/10.5281/zenodo.23337932",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23337932",
+        "openalex_id": "https://openalex.org/W7221642921",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221642921",
+        "publication_date": "2026-10-13",
+        "title": "EL-RAKHAWI ARCHITECTURE FOR TOPOLOGICAL PHOTONIC NEUROMORPHIC COMPUTING WITH NEAR-ZERO THERMAL DISSIPATION",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-15T00:58:17.224107Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.23338144": {
+      "expires_at": "2026-11-14T00:58:15.441240Z",
+      "record": {
+        "abstract": "Abstract—The relentless exponential scaling of foundation models and transformer architectures has pushed conventional silicon complementary metal-oxide-semiconductor (CMOS) digital accelerators (GPUs, TPUs) toward fundamental thermodynamic and interconnect boundaries. Joule heating, resistance-capacitance (RC) interconnect delay scaling, and the 'memory wall' severely constrain energy efficiency and compute density. Optical Computing and Integrated Silicon Photonics (SiPh) establish an analog non-Von Neumann hardware paradigm that executes fundamental linear algebra operations—specifically General Matrix-Matrix Multiplication (GEMM)—at the speed of light with near-zero runtime energy dissipation. By encoding vector-matrix activations into coherent optical wave fields and modulating light through cascaded Mach-Zehnder Interferometer (MZI) meshes, Micro-Ring Resonator (MRR) banks, and Wavelength-Division Multiplexing (WDM) waveguides, photonic tensor processing units (PTPUs) execute analog matrix multiplications in continuous time with sub-nanosecond propagation latencies. However, translating integrated photonic circuits into production deep learning accelerators introduces profound optoelectronic engineering bottlenecks: analog noise accumulation across deep optical meshes, severe thermal phase drift, limited electro-optic Digital-to-Analog / Analog-to-Digital (DAC/ADC) conversion resolution, non-linear activation implementation hurdles, and wafer-scale optical footprint scaling. This paper delivers an exhaustive, mathematically formal technical investigation and empirical benchmark of integrated photonic computing for deep neural network acceleration. We formalize the Clements and Reck unitary matrix decomposition algorithms over reconfigurable MZI topologies, derive the optical transmission transfer matrix under optical carrier phase error perturbations, and establish energy-per-MAC physical thermodynamic bounds across electro-optic conversion interfaces. Furthermore, we construct an empirical co-simulation and hardware testbed benchmarking silicon photonic meshes against state-of-the-art CMOS accelerators (NVIDIA H100, Google TPU v5p) across vision transformers, large language model attention heads, and resonant graph convolutions. Our empirical findings demonstrate that a 64x64 integrated MZI photonic mesh achieves a 58.4x improvement in energy-delay product (EDP) over 4nm digital CMOS cores, sustaining up to 128 Tera-Operations per Second per Watt (TOPS/W) at 4-bit to 8-bit equivalent precision, while active thermo-optic phase stabilization preserves 98.2% baseline classification accuracy. Finally, we establish open research directions in all-optical non-linear activation functions, co-packaged optical memory architectures, and wafer-scale photonic interconnect scaling. Index Terms—Photonic Computing, Silicon Photonics (SiPh), Mach-Zehnder Interferometer (MZI), Wavelength-Division Multiplexing (WDM), Optical Neural Networks (ONNs), Matrix-Vector Multiplication, Energy-Efficient Accelerators.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dhruv Agarwal",
+            "orcid": null
+          },
+          {
+            "name": "Surendra Singh Shekhawat",
+            "orcid": "https://orcid.org/0000-0003-2600-7721"
+          },
+          {
+            "name": "Dr. Vishal Shrivastava",
+            "orcid": null
+          },
+          {
+            "name": "Dr. Akhil Pandey",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23338144",
+        "landing_page": "https://doi.org/10.5281/zenodo.23338144",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23338144",
+        "openalex_id": "https://openalex.org/W7221647928",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221647928",
+        "publication_date": "2026-10-13",
+        "title": "Optical and Photonic Computing for Deep Learning Acceleration: Silicon Photonics, Mach-Zehnder Meshes, and Wavelength-Division Multiplexing",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-15T00:58:15.441240Z",
+      "status": "found"
+    },
     "openalex:doi:10.6084/m9.figshare.33306492.v1": {
       "expires_at": "2026-10-11T01:00:17.485706Z",
       "record": {
@@ -25135,6 +25591,44 @@
       "record": null,
       "retrieved_at": "2026-09-18T01:02:21.768579Z",
       "status": "not_found"
+    },
+    "openalex:title:04c6d19bc1691fa0032b3b8598cd8477e4d6485d211e2619732b56689975ac84": {
+      "expires_at": "2026-10-22T00:58:14.718412Z",
+      "record": {
+        "abstract": "Zeroth-order (ZO) optimization offers a memory-efficient alternative to backpropagation for fine-tuning large language models. However, existing ZO methods typically sample training examples uniformly, overlooking their evolving importance and leaving avoidable estimation variance. To address this limitation, we propose Sample-Adaptive Zeroth-Order Optimization (SAZO), which learns sample importance online and adaptively allocates queries to accelerate convergence. SAZO extracts gradient-norm information from existing directional differences to estimate sample importance without access to true gradients. Furthermore, to track evolving importance from sparse minibatch feedback, SAZO maintains per-example exponential moving averages that aggregate observations across updates. The method requires no additional model evaluations and only $O(N)$ additional scalar state compared with MeZO. We prove that SAZO asymptotically matches the leading convergence term of the minimum-variance sampling oracle, and achieves a strictly faster convergence rate than standard methods. Extensive experiments across four model families demonstrate improved average downstream performance and up to $6\\times$ faster convergence to the same training loss in terms of query count.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Haiyuan Wan",
+            "orcid": "https://orcid.org/0000-0002-2443-1150"
+          },
+          {
+            "name": "Yanyi Li",
+            "orcid": null
+          },
+          {
+            "name": "Weicheng Lin",
+            "orcid": null
+          },
+          {
+            "name": "Cong Fang",
+            "orcid": "https://orcid.org/0000-0002-3821-0084"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.12566",
+        "landing_page": "https://arxiv.org/abs/2610.12566",
+        "open_access_url": "https://arxiv.org/abs/2610.12566",
+        "openalex_id": "https://openalex.org/W7221521832",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221521832",
+        "publication_date": "2026-10-08",
+        "title": "Sample-Adaptive Zeroth-Order Post-Training",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-15T00:58:14.718412Z",
+      "status": "found"
     },
     "openalex:title:06c1573614d7cec8aafdeabdbf04c206c9e42daeec19bd7a0690045235f26758": {
       "expires_at": "2026-09-07T01:07:11.006421Z",
@@ -26730,6 +27224,12 @@
       "retrieved_at": "2026-08-19T00:32:50.873682Z",
       "status": "not_found"
     },
+    "openalex:title:7934646938fbdf9e2724ebcbf599b0cd1d2025c1f075c08d5b184b9b46fd6234": {
+      "expires_at": "2026-10-22T00:58:19.414917Z",
+      "record": null,
+      "retrieved_at": "2026-10-15T00:58:19.414917Z",
+      "status": "not_found"
+    },
     "openalex:title:7c1a6ab395c6b4e253b48f1554aae723463a1fc5b1449be976fc11625f11cc8f": {
       "expires_at": "2026-09-20T01:07:29.581460Z",
       "record": null,
@@ -26850,6 +27350,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-15T01:03:21.836745Z",
+      "status": "found"
+    },
+    "openalex:title:84104393d5057135ee5eb4e8071a2bac8f1da3be42c63b6cd0f584eb1b17220a": {
+      "expires_at": "2026-10-22T00:58:17.880410Z",
+      "record": {
+        "abstract": "Many optimization problems provide direct access to only part of the gradient, while the remaining component must be inferred from function evaluations. This structure arises in performative prediction, performative reinforcement learning, and bilevel optimization with a black-box lower level. We introduce Partially Informed Stochastic Optimization (PISO), which combines the available gradient component with a running estimate of the residual. By centring each zeroth-order observation on this estimate, PISO makes the variance due to random probing depend on the tracking error rather than the residual's magnitude. This yields a randomized sketch iteration with an explicit contraction mechanism and a principled interpretation of momentum. For smooth nonconvex objectives, we establish convergence guarantees that depend on the residual's variation and initial magnitude, without requiring a uniform bound on the unavailable gradient component. With independently sampled function evaluations and Gaussian or spherical probes, PISO attains leading function-evaluation complexities of \\(O(d^{2}\\varepsilon^{-6})\\) under Lipschitz gradients and \\(O(d^{2}\\varepsilon^{-5})\\) under an additional Lipschitz-Hessian assumption. These rates require only one probe direction, two function samples, and one known-component sample per update. The analysis also quantifies how batching trades observations for fewer deployments. Across five settings, PISO variants improve on the tested baselines with comparable oracle access in three, reach a comparable solution faster in bilevel routing, and perform best among methods without response-model derivatives in performative reinforcement learning.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "El Mahdi Chayti",
+            "orcid": null
+          },
+          {
+            "name": "Alireza Mirrokni",
+            "orcid": null
+          },
+          {
+            "name": "Martin Jaggi",
+            "orcid": "https://orcid.org/0000-0003-1579-5558"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.13871",
+        "landing_page": "https://arxiv.org/abs/2610.13871",
+        "open_access_url": "https://arxiv.org/abs/2610.13871",
+        "openalex_id": "https://openalex.org/W7221537936",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221537936",
+        "publication_date": "2026-10-09",
+        "title": "Partially Informed Stochastic Optimization via Zeroth-Order Residual Tracking",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-15T00:58:17.880410Z",
       "status": "found"
     },
     "openalex:title:849250f9042d4d1b1371df2dcf6d39f99be3ebe04fa2724789d7bbcde523a6ea": {
@@ -28291,6 +28825,36 @@
       "record": null,
       "retrieved_at": "2026-09-18T01:02:36.855186Z",
       "status": "not_found"
+    },
+    "openalex:title:da0864c43cbc07ccccda8455948bed2bce575af9d04f7600fed77f299c05ade4": {
+      "expires_at": "2026-10-22T00:58:20.125962Z",
+      "record": {
+        "abstract": "We present new algorithms for stochastic optimization problems in which the objective is neither smooth nor convex, subject to a convex constraint set. Our algorithms return a $(δ,\\varepsilon)$-Goldstein stationary point, as recently defined for constrained problems by Liu et al. (2024), with improved complexities, and are the first to achieve optimal convergence rates for this task in several settings. In particular, we design projection-based and projection-free algorithms that achieve a $\\widetilde O(δ^{-1}\\varepsilon^{-3})$ rate using stochastic gradients, which we show to be optimal, and a $\\widetilde O(dδ^{-1}\\varepsilon^{-3})$ rate using zeroth-order queries, which is also optimal in its dependence on the dimension $d$ and improves over prior work. Notably, our lower bound is given in terms of the Frank-Wolfe gap and holds even for smooth problems, which is of independent interest. These results show that in nonconvex stochastic optimization, the convergence rate is degraded neither by the presence of constraints nor by nonsmoothness. Our analysis is based on a reduction to online linear optimization, extending a related technique from unconstrained optimization.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Gon Buzaglo",
+            "orcid": null
+          },
+          {
+            "name": "Guy Kornowski",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.13787",
+        "landing_page": "https://arxiv.org/abs/2610.13787",
+        "open_access_url": "https://arxiv.org/abs/2610.13787",
+        "openalex_id": "https://openalex.org/W7221532040",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221532040",
+        "publication_date": "2026-10-09",
+        "title": "Optimal Algorithms for Nonsmooth Nonconvex Stochastic Optimization with Constraints",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-15T00:58:20.125962Z",
+      "status": "found"
     },
     "openalex:title:dbb7b2f0b602dda6bb264b5f39eeec51cebde5c6996ecc615c306031c46867a6": {
       "expires_at": "2026-08-25T04:25:33.119801Z",
