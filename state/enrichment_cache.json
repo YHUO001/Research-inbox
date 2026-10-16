@@ -466,6 +466,44 @@
       "retrieved_at": "2026-09-30T01:10:12.393298Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/advs.78012": {
+      "expires_at": "2026-11-15T00:57:53.270977Z",
+      "record": {
+        "abstract": "ABSTRACT Scientific optimization problems are often characterized by slow, expensive, and non‐differentiable evaluations, which severely limit efficient exploration of rich design spaces. In these settings, performance depends not only on the optimizer itself, but also on whether the chosen search space can represent good solutions and whether important design requirements are effectively incorporated into the search. Here, we introduce a gradient‐free optimization framework based on large language models (LLMs) that enables the generation and refinement of executable control policies directly from natural language. We propose two complementary paradigms: Prompt‐to‐Optimizer (P2O), which combines LLM‐based structural generation with gradient‐free parameter optimization, and Prompt‐to‐Protocol (P2P), which directly synthesizes fully specified control policies. We apply this framework to battery fast‐charging protocol design, a representative slow‐feedback optimization problem. Across multiple case studies, our methods outperform conventional approaches restricted to predefined functional forms. In a realistic fast‐charging scenario, both approaches improve battery state of health by approximately 4.2% over a representative baseline, with P2P achieving this under matched evaluation budgets. More broadly, our results suggest that LLMs can serve as representation generators that expand the hypothesis space of scientific optimization, enabling efficient search in domains where evaluations are costly, and gradients are unavailable.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ge Lei",
+            "orcid": null
+          },
+          {
+            "name": "Ferran Brosa Planella",
+            "orcid": "https://orcid.org/0000-0001-6363-2812"
+          },
+          {
+            "name": "Sterling G. Baird",
+            "orcid": "https://orcid.org/0000-0002-4491-6876"
+          },
+          {
+            "name": "Samuel J. Cooper",
+            "orcid": "https://orcid.org/0000-0003-4055-6903"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/advs.78012",
+        "landing_page": "https://doi.org/10.1002/advs.78012",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/advs.78012",
+        "publication_date": "2026-10-11",
+        "title": "LLMs as Representation Generators for Gradient‐Free Scientific Optimization: A Case Study in Battery Fast Charging",
+        "venue": "Advanced Science",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-16T00:57:53.270977Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/lpor.71596": {
       "expires_at": "2026-09-26T02:02:16.863743Z",
       "record": {
@@ -2180,6 +2218,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-04T01:00:20.610467Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/s11117-026-01236-1": {
+      "expires_at": "2026-11-15T00:57:54.182543Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yong Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Yue-Lei Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Wang Chen",
+            "orcid": null
+          },
+          {
+            "name": "Zai-Yun Peng",
+            "orcid": "https://orcid.org/0000-0002-8214-4918"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s11117-026-01236-1",
+        "landing_page": "https://doi.org/10.1007/s11117-026-01236-1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s11117-026-01236-1",
+        "publication_date": "2026-11",
+        "title": "Stochastic Frank–Wolfe methods for stochastic multi-objective optimization",
+        "venue": "Positivity",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-16T00:57:54.182543Z",
       "status": "found"
     },
     "crossref:doi:10.1007/s11433-026-2995-7": {
@@ -4524,6 +4600,12 @@
       "retrieved_at": "2026-08-27T16:32:37.231842Z",
       "status": "found"
     },
+    "crossref:doi:10.1088/1361-665x/aeb2ca/meta": {
+      "expires_at": "2026-11-15T00:57:50.832979Z",
+      "record": null,
+      "retrieved_at": "2026-10-16T00:57:50.832979Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.1088/2631-8695/ae95b1": {
       "expires_at": "2026-09-06T01:30:20.766384Z",
       "record": {
@@ -4689,6 +4771,12 @@
       },
       "retrieved_at": "2026-09-28T01:11:30.686170Z",
       "status": "found"
+    },
+    "crossref:doi:10.1108/ria-04-2025-0121/1401918": {
+      "expires_at": "2026-11-15T00:57:54.542719Z",
+      "record": null,
+      "retrieved_at": "2026-10-16T00:57:54.542719Z",
+      "status": "not_found"
     },
     "crossref:doi:10.1117/1.ap.8.5.054001": {
       "expires_at": "2026-10-14T01:07:34.612939Z",
@@ -6450,6 +6538,84 @@
       "retrieved_at": "2026-08-18T04:25:28.954331Z",
       "status": "found"
     },
+    "crossref:doi:10.1364/oe.607289": {
+      "expires_at": "2026-11-15T00:57:55.616104Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Junyu Wang",
+            "orcid": null
+          },
+          {
+            "name": "Jie Lu",
+            "orcid": null
+          },
+          {
+            "name": "Haoyu Li",
+            "orcid": null
+          },
+          {
+            "name": "Kexiang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Junxiu Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Zeyang Xiang",
+            "orcid": null
+          },
+          {
+            "name": "Yun Wen",
+            "orcid": null
+          },
+          {
+            "name": "Xinyu Cao",
+            "orcid": null
+          },
+          {
+            "name": "Weitian Xu",
+            "orcid": null
+          },
+          {
+            "name": "Chengjun Yan",
+            "orcid": null
+          },
+          {
+            "name": "Zhihao Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yuting Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Ke Xu",
+            "orcid": null
+          },
+          {
+            "name": "Ran Jiang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.607289",
+        "landing_page": "https://doi.org/10.1364/oe.607289",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/oe.607289",
+        "publication_date": "2026-10-14",
+        "title": "Quantization-Aware Nonlinear Diffractive Neural Network for Robust Optical Image Reconstruction under Fabrication Constraints",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-16T00:57:55.616104Z",
+      "status": "found"
+    },
     "crossref:doi:10.1364/oe.607560": {
       "expires_at": "2026-09-22T00:32:29.190843Z",
       "record": {
@@ -7144,6 +7310,12 @@
       "expires_at": "2026-11-10T01:15:38.429351Z",
       "record": null,
       "retrieved_at": "2026-10-11T01:15:38.429351Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.48550/arxiv.2610.16451": {
+      "expires_at": "2026-11-15T00:57:50.466234Z",
+      "record": null,
+      "retrieved_at": "2026-10-16T00:57:50.466234Z",
       "status": "not_found"
     },
     "crossref:doi:10.5281/zenodo.21885998": {
@@ -8677,6 +8849,48 @@
       "retrieved_at": "2026-08-18T04:25:19.093723Z",
       "status": "not_found"
     },
+    "crossref:title:41f1b916edb31604b746664b8df2d0a3b1d3b3b669c1ca2cce8cd66f5d2a6b17": {
+      "expires_at": "2026-10-23T00:57:51.277009Z",
+      "record": {
+        "abstract": "Abstract This study investigates the coupled effect of soft elasticity and phase behavior in monodomain liquid crystal elastomer(LCE) through finite element analysis. Soft elasticity allows for large deformations with minimal stress through mesogen rotation. Phase behavior describes the thermotropic transition between nematic and isotropic states, governed by the evolution of the scalar order parameter. Spontaneous behavior in LCEs is fundamentally determined by the interplay between mesogenic order and mechanical strain. Accurate prediction of such complex responses requires the integration of an underlying energy model, an algorithmically consistent constitutive framework, and realistic boundary conditions. Hence, a finite element method is used to implement the consistent constitutive model, enabling the analysis of large scale systems with non-trivial boundary conditions and complex domains. Through the numerical method, the proposed framework captures diverse morphing modes, providing a computational framework for designing programmable LCE-based actuators.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sanghyeon Park",
+            "orcid": "https://orcid.org/0009-0003-9746-7095"
+          },
+          {
+            "name": "Jaesung Park",
+            "orcid": null
+          },
+          {
+            "name": "Hyunggyu Kim",
+            "orcid": "https://orcid.org/0009-0001-1873-3435"
+          },
+          {
+            "name": "Howon Lee",
+            "orcid": "https://orcid.org/0000-0001-5778-2398"
+          },
+          {
+            "name": "Hayoung Chung",
+            "orcid": "https://orcid.org/0000-0002-6206-7396"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1088/1361-665x/aeb2ca",
+        "landing_page": "https://doi.org/10.1088/1361-665x/aeb2ca",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1088/1361-665x/aeb2ca",
+        "publication_date": "2026-10-11",
+        "title": "Temperature- and deformation-dependent soft elasticity and order-driven actuation in monodomain liquid crystal elastomers: a finite element study",
+        "venue": "Smart Materials and Structures",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-16T00:57:51.277009Z",
+      "status": "found"
+    },
     "crossref:title:42ad52bc1c9ead80bfada3309304bd6f44db88b3aff41f57a57578ad7f04b76d": {
       "expires_at": "2026-09-11T01:00:19.527254Z",
       "record": null,
@@ -8901,6 +9115,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:34.646895Z",
+      "status": "found"
+    },
+    "crossref:title:45f4e38b8e280daf429c4aa3c454583795ada8d472b254a223953e0793bc368b": {
+      "expires_at": "2026-10-23T00:57:52.880849Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Marco Rando",
+            "orcid": "https://orcid.org/0009-0008-3839-1429"
+          },
+          {
+            "name": "Cheik Traoré",
+            "orcid": null
+          },
+          {
+            "name": "Cesare Molinari",
+            "orcid": null
+          },
+          {
+            "name": "Lorenzo Rosasco",
+            "orcid": null
+          },
+          {
+            "name": "Silvia Villa",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10589-026-00835-8",
+        "landing_page": "https://doi.org/10.1007/s10589-026-00835-8",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s10589-026-00835-8",
+        "publication_date": "2026-10-12",
+        "title": "A proximal stochastic variance reduced zeroth-order algorithm using structured finite-differences",
+        "venue": "Computational Optimization and Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-16T00:57:52.880849Z",
       "status": "found"
     },
     "crossref:title:466c33902c8d2a2f03b571fb67079c908f2e9738e487ac835ac93b2d84ad9ced": {
@@ -10991,6 +11247,12 @@
       "retrieved_at": "2026-09-07T01:06:37.165596Z",
       "status": "not_found"
     },
+    "crossref:title:a8302f8cdde3bfe36da7f8e2f1eb8da1a848f1fc4821031e192ecbe7a21ab326": {
+      "expires_at": "2026-10-23T00:57:49.922397Z",
+      "record": null,
+      "retrieved_at": "2026-10-16T00:57:49.922397Z",
+      "status": "not_found"
+    },
     "crossref:title:aa55fccd82ec16aa4bfed3034a68ad67e61d94c83a280c4978e5eec73ca34464": {
       "expires_at": "2026-10-21T00:59:32.639259Z",
       "record": null,
@@ -11647,6 +11909,12 @@
       "expires_at": "2026-10-04T01:11:35.676957Z",
       "record": null,
       "retrieved_at": "2026-09-27T01:11:35.676957Z",
+      "status": "not_found"
+    },
+    "crossref:title:ca06110ed6fc9435d37ba27e89ed1faa2cae8f6915f55195e13dbeb254dc8f94": {
+      "expires_at": "2026-10-23T00:57:53.733756Z",
+      "record": null,
+      "retrieved_at": "2026-10-16T00:57:53.733756Z",
       "status": "not_found"
     },
     "crossref:title:cbde4e7b874735126ef47edd5cebf95081723b500b74f59d1ec1de2538ee9151": {
@@ -13053,6 +13321,40 @@
       "retrieved_at": "2026-10-05T01:13:26.252351Z",
       "status": "not_found"
     },
+    "crossref:title:fcd028a35931e26a390d8eeeeef2e0f4da92750a203ea95285158ffe2c0ce490": {
+      "expires_at": "2026-10-23T00:57:55.073538Z",
+      "record": {
+        "abstract": "Purpose This study aims to review multi-material three-dimensional (3D) printing by laser powder bed fusion (LPBF) process. Advancements in the LPBF process for multi-material 3D printing of different metallic alloys, focusing on material pre-alloying and chamber refilling approaches to achieve functionally graded and multi-layered compositions, have been presented. Design/methodology/approach The methodology involved an in-depth analysis of prominent research and peer-reviewed publications related to multi-material 3D printing using LPBF. A database of the Web of Science from the previous 20 years was examined using VOSviewer software for bibliometric analysis to identify research gaps. A networking diagram highlighting the research gap was generated using the study’s obtained relevance score. A case study was conducted for a single-hopper-based LPBF process for multi-material 3D printing of metals, exploring two novel approaches: material pre-alloying and chamber refilling to control material composition and layering with a single hopper. Findings A comprehensive review of multi-material 3D printing by LPBF, followed by a case study, highlights the challenges and advances in single-hopper-based LPBF for multi-material 3D printing of metallic components, focusing on innovative methods (material pre-alloying and chamber refill) to enable compositional gradients and layered structures. A functionally graded material (FGM) comprising 17–4 precipitate-hardened (PH) stainless steel (SS) and Ni625 was successfully 3D printed using chamber refill and material pre-alloying in a single-hopper LPBF system. However, a few limitations apply to multi-material 3D printing using LPBF, including managing phase evolution, mechanical characteristics and material compatibility. Integrating machine learning and AI-driven process optimization can enhance predictive capabilities and facilitate compelling exploration of process parameters to achieve desired material performance and structural integrity. Originality/value This study provided a comprehensive review of multi-material 3D printing using the LPBF technique and discussed a novel single-hopper multi-material 3D printing approach as a case study. This review offers insights into the maintenance and operation of single-hopper LPBF machines as an operational resource for industry/ academia for multi-material printing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bharat Kalia",
+            "orcid": "https://orcid.org/0009-0003-7864-7197"
+          },
+          {
+            "name": "Rupinder Singh",
+            "orcid": "https://orcid.org/0000-0001-8251-8943"
+          },
+          {
+            "name": "BS Pabla",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1108/ria-04-2025-0121",
+        "landing_page": "https://doi.org/10.1108/ria-04-2025-0121",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1108/ria-04-2025-0121",
+        "publication_date": "2026-10-13",
+        "title": "Multi-material 3D printing by laser powder bed fusion: a review",
+        "venue": "Robotic Intelligence and Automation",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-16T00:57:55.073538Z",
+      "status": "found"
+    },
     "crossref:title:ff884e77a73b8e9052fc7be889b495e7b766686c6a1d2488ea43b5c9c3515028": {
       "expires_at": "2026-09-14T01:06:53.072604Z",
       "record": null,
@@ -13523,6 +13825,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-30T01:10:12.770750Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/advs.78012": {
+      "expires_at": "2026-11-15T00:57:53.624750Z",
+      "record": {
+        "abstract": "Scientific optimization problems are often characterized by slow, expensive, and non-differentiable evaluations, which severely limit efficient exploration of rich design spaces. In these settings, performance depends not only on the optimizer itself, but also on whether the chosen search space can represent good solutions and whether important design requirements are effectively incorporated into the search. Here, we introduce a gradient-free optimization framework based on large language models (LLMs) that enables the generation and refinement of executable control policies directly from natural language. We propose two complementary paradigms: Prompt-to-Optimizer (P2O), which combines LLM-based structural generation with gradient-free parameter optimization, and Prompt-to-Protocol (P2P), which directly synthesizes fully specified control policies. We apply this framework to battery fast-charging protocol design, a representative slow-feedback optimization problem. Across multiple case studies, our methods outperform conventional approaches restricted to predefined functional forms. In a realistic fast-charging scenario, both approaches improve battery state of health by approximately 4.2% over a representative baseline, with P2P achieving this under matched evaluation budgets. More broadly, our results suggest that LLMs can serve as representation generators that expand the hypothesis space of scientific optimization, enabling efficient search in domains where evaluations are costly, and gradients are unavailable.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ge Lei",
+            "orcid": null
+          },
+          {
+            "name": "Ferran Brosa Planella",
+            "orcid": "https://orcid.org/0000-0001-6363-2812"
+          },
+          {
+            "name": "Sterling G. Baird",
+            "orcid": "https://orcid.org/0000-0002-4491-6876"
+          },
+          {
+            "name": "Samuel J. Cooper",
+            "orcid": "https://orcid.org/0000-0003-4055-6903"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/advs.78012",
+        "landing_page": "https://doi.org/10.1002/advs.78012",
+        "open_access_url": "https://doi.org/10.1002/advs.78012",
+        "openalex_id": "https://openalex.org/W7221436142",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221436142",
+        "publication_date": "2026-10-11",
+        "title": "LLMs as Representation Generators for Gradient‐Free Scientific Optimization: A Case Study in Battery Fast Charging",
+        "venue": "Advanced Science",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-16T00:57:53.624750Z",
       "status": "found"
     },
     "openalex:doi:10.1002/lpor.71596": {
@@ -15101,6 +15441,48 @@
       "retrieved_at": "2026-09-07T01:06:52.013328Z",
       "status": "found"
     },
+    "openalex:doi:10.1007/s10589-026-00835-8": {
+      "expires_at": "2026-11-15T00:57:53.229548Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Marco Rando",
+            "orcid": "https://orcid.org/0009-0008-3839-1429"
+          },
+          {
+            "name": "Cheik Traoré",
+            "orcid": "https://orcid.org/0000-0003-3114-4835"
+          },
+          {
+            "name": "Cesare Molinari",
+            "orcid": "https://orcid.org/0000-0003-0864-5682"
+          },
+          {
+            "name": "Lorenzo Rosasco",
+            "orcid": "https://orcid.org/0000-0003-3098-383X"
+          },
+          {
+            "name": "Silvia Villa",
+            "orcid": "https://orcid.org/0000-0002-6232-5631"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10589-026-00835-8",
+        "landing_page": "https://doi.org/10.1007/s10589-026-00835-8",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7221534825",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221534825",
+        "publication_date": "2026-10-12",
+        "title": "A proximal stochastic variance reduced zeroth-order algorithm using structured finite-differences",
+        "venue": "Computational Optimization and Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-16T00:57:53.229548Z",
+      "status": "found"
+    },
     "openalex:doi:10.1007/s10773-026-06497-w": {
       "expires_at": "2026-11-08T01:12:23.399763Z",
       "record": {
@@ -15289,6 +15671,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-04T01:00:21.006235Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s11117-026-01236-1": {
+      "expires_at": "2026-11-15T00:57:54.502349Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yong Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Yue-Lei Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Wang Chen",
+            "orcid": null
+          },
+          {
+            "name": "Zai-Yun Peng",
+            "orcid": "https://orcid.org/0000-0002-8214-4918"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s11117-026-01236-1",
+        "landing_page": "https://doi.org/10.1007/s11117-026-01236-1",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7221721347",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221721347",
+        "publication_date": "2026-10-13",
+        "title": "Stochastic Frank–Wolfe methods for stochastic multi-objective optimization",
+        "venue": "Positivity",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-16T00:57:54.502349Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s11433-026-2995-7": {
@@ -18905,6 +19325,12 @@
       "retrieved_at": "2026-08-27T16:32:37.782031Z",
       "status": "found"
     },
+    "openalex:doi:10.1088/1361-665x/aeb2ca/meta": {
+      "expires_at": "2026-11-15T00:57:51.150122Z",
+      "record": null,
+      "retrieved_at": "2026-10-16T00:57:51.150122Z",
+      "status": "not_found"
+    },
     "openalex:doi:10.1088/2631-8695/ae95b1": {
       "expires_at": "2026-09-06T01:30:21.116723Z",
       "record": {
@@ -19070,6 +19496,12 @@
       },
       "retrieved_at": "2026-09-28T01:11:31.026528Z",
       "status": "found"
+    },
+    "openalex:doi:10.1108/ria-04-2025-0121/1401918": {
+      "expires_at": "2026-11-15T00:57:54.879345Z",
+      "record": null,
+      "retrieved_at": "2026-10-16T00:57:54.879345Z",
+      "status": "not_found"
     },
     "openalex:doi:10.1109/aann71145.2026.11709303": {
       "expires_at": "2026-11-05T01:07:16.067859Z",
@@ -22783,6 +23215,84 @@
       "retrieved_at": "2026-08-18T04:25:29.279228Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/oe.607289": {
+      "expires_at": "2026-11-15T00:57:55.949479Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Junyu Wang",
+            "orcid": null
+          },
+          {
+            "name": "Jie Lu",
+            "orcid": null
+          },
+          {
+            "name": "Haoyu Li",
+            "orcid": "https://orcid.org/0000-0002-0004-9336"
+          },
+          {
+            "name": "Kexiang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Junxiu Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Zeyang Xiang",
+            "orcid": null
+          },
+          {
+            "name": "Yun Wen",
+            "orcid": null
+          },
+          {
+            "name": "Xinyu Cao",
+            "orcid": "https://orcid.org/0000-0002-0960-2871"
+          },
+          {
+            "name": "Weitian Xu",
+            "orcid": null
+          },
+          {
+            "name": "Chengjun Yan",
+            "orcid": null
+          },
+          {
+            "name": "Zhihao Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yuting Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Ke Xu",
+            "orcid": null
+          },
+          {
+            "name": "Ran Jiang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.607289",
+        "landing_page": "https://doi.org/10.1364/oe.607289",
+        "open_access_url": "https://doi.org/10.1364/oe.607289",
+        "openalex_id": "https://openalex.org/W7221796723",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221796723",
+        "publication_date": "2026-10-14",
+        "title": "Quantization-Aware Nonlinear Diffractive Neural Network for Robust Optical Image Reconstruction under Fabrication Constraints",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-16T00:57:55.949479Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/oe.607560": {
       "expires_at": "2026-09-22T00:32:29.691885Z",
       "record": {
@@ -24697,6 +25207,40 @@
       "retrieved_at": "2026-10-11T01:15:38.847543Z",
       "status": "found"
     },
+    "openalex:doi:10.48550/arxiv.2610.16451": {
+      "expires_at": "2026-11-15T00:57:50.791734Z",
+      "record": {
+        "abstract": "Fine-tuning large language models at scale is increasingly limited by the memory cost of backpropagation. Zeroth-Order (ZO) optimizers reduce this burden by relying only on forward function evaluations, but they still exhibit a substantial performance gap to first-order (FO) optimizers such as Adam. We argue that this gap does not arise solely from the absence of explicit gradients: FO fine-tuning also benefits from informative low-rank optimization geometry, large-scale signal aggregation, and well-conditioned update directions. Motivated by this, we introduce StructZO, a structured Zeroth-Order optimization framework for memory-efficient LLM fine-tuning. StructZO performs large-query ZO estimation within an activation-induced informative subspace and applies spectral control to the resulting reduced-space update before mapping it back to the original parameters. This lets ZO aggregate useful directional signals in a compact, geometry-aware space while avoiding the activation and optimizer-state memory costs of backpropagation. We show theoretically that, when the induced subspace captures concentrated optimization-relevant directions, StructZO reduces the effective ZO estimation dimension from $mn$ to $mr$, with the remaining projection error governed by the spectral tail of the activation Gram matrix. Empirically, across OPT-series and Llama3.1-8B on diverse downstreamtasks, StructZO improves over the strongest existing ZO baselines by up to $8.7%$ relative on average and up to $26.9%$ relative on individual tasks, while remaining within $1.5%$ of FO-Adam on average. These results suggest that structured and spectrally controlled ZO updates can substantially narrow the gap between ZO and FO optimization.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xuanlin Yang",
+            "orcid": null
+          },
+          {
+            "name": "Jia Li",
+            "orcid": null
+          },
+          {
+            "name": "Zhouchen Lin",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.16451",
+        "landing_page": "https://doi.org/10.48550/arxiv.2610.16451",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2610.16451",
+        "openalex_id": "https://openalex.org/W7221777946",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221777946",
+        "publication_date": "2026-10-12",
+        "title": "StructZO: Structured Zeroth-Order Optimization for Memory-Efficient LLM Fine-Tuning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-16T00:57:50.791734Z",
+      "status": "found"
+    },
     "openalex:doi:10.5281/zenodo.21885998": {
       "expires_at": "2026-09-17T04:25:17.487937Z",
       "record": {
@@ -26494,6 +27038,48 @@
       "retrieved_at": "2026-08-18T04:25:19.567453Z",
       "status": "not_found"
     },
+    "openalex:title:41f1b916edb31604b746664b8df2d0a3b1d3b3b669c1ca2cce8cd66f5d2a6b17": {
+      "expires_at": "2026-10-23T00:57:51.690692Z",
+      "record": {
+        "abstract": "Abstract This study investigates the coupled effect of soft elasticity and phase behavior in monodomain liquid crystal elastomer(LCE) through finite element analysis. Soft elasticity allows for large deformations with minimal stress through mesogen rotation. Phase behavior describes the thermotropic transition between nematic and isotropic states, governed by the evolution of the scalar order parameter. Spontaneous behavior in LCEs is fundamentally determined by the interplay between mesogenic order and mechanical strain. Accurate prediction of such complex responses requires the integration of an underlying energy model, an algorithmically consistent constitutive framework, and realistic boundary conditions. Hence, a finite element method is used to implement the consistent constitutive model, enabling the analysis of large scale systems with non-trivial boundary conditions and complex domains. Through the numerical method, the proposed framework captures diverse morphing modes, providing a computational framework for designing programmable LCE-based actuators.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sanghyeon Park",
+            "orcid": "https://orcid.org/0009-0003-9746-7095"
+          },
+          {
+            "name": "Jaesung Park",
+            "orcid": null
+          },
+          {
+            "name": "Hyunggyu Kim",
+            "orcid": "https://orcid.org/0000-0002-2988-516X"
+          },
+          {
+            "name": "Howon Lee",
+            "orcid": "https://orcid.org/0000-0001-5778-2398"
+          },
+          {
+            "name": "Hayoung Chung",
+            "orcid": "https://orcid.org/0000-0002-6206-7396"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1088/1361-665x/aeb2ca",
+        "landing_page": "https://doi.org/10.1088/1361-665x/aeb2ca",
+        "open_access_url": "https://doi.org/10.1088/1361-665x/aeb2ca",
+        "openalex_id": "https://openalex.org/W7221444356",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221444356",
+        "publication_date": "2026-10-11",
+        "title": "Temperature- and deformation-dependent soft elasticity and order-driven actuation in monodomain liquid crystal elastomers: a finite element study",
+        "venue": "Smart Materials and Structures",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-16T00:57:51.690692Z",
+      "status": "found"
+    },
     "openalex:title:42ad52bc1c9ead80bfada3309304bd6f44db88b3aff41f57a57578ad7f04b76d": {
       "expires_at": "2026-09-11T01:00:20.164892Z",
       "record": {
@@ -28144,6 +28730,12 @@
       "retrieved_at": "2026-09-07T01:06:37.884651Z",
       "status": "found"
     },
+    "openalex:title:a8302f8cdde3bfe36da7f8e2f1eb8da1a848f1fc4821031e192ecbe7a21ab326": {
+      "expires_at": "2026-10-23T00:57:50.427389Z",
+      "record": null,
+      "retrieved_at": "2026-10-16T00:57:50.427389Z",
+      "status": "not_found"
+    },
     "openalex:title:aa55fccd82ec16aa4bfed3034a68ad67e61d94c83a280c4978e5eec73ca34464": {
       "expires_at": "2026-10-21T00:59:33.137095Z",
       "record": null,
@@ -28702,6 +29294,12 @@
       "expires_at": "2026-10-04T01:11:36.158208Z",
       "record": null,
       "retrieved_at": "2026-09-27T01:11:36.158208Z",
+      "status": "not_found"
+    },
+    "openalex:title:ca06110ed6fc9435d37ba27e89ed1faa2cae8f6915f55195e13dbeb254dc8f94": {
+      "expires_at": "2026-10-23T00:57:54.141264Z",
+      "record": null,
+      "retrieved_at": "2026-10-16T00:57:54.141264Z",
       "status": "not_found"
     },
     "openalex:title:cbde4e7b874735126ef47edd5cebf95081723b500b74f59d1ec1de2538ee9151": {
@@ -29380,6 +29978,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-05T01:13:26.819651Z",
+      "status": "found"
+    },
+    "openalex:title:fcd028a35931e26a390d8eeeeef2e0f4da92750a203ea95285158ffe2c0ce490": {
+      "expires_at": "2026-10-23T00:57:55.574758Z",
+      "record": {
+        "abstract": "Purpose This study aims to review multi-material three-dimensional (3D) printing by laser powder bed fusion (LPBF) process. Advancements in the LPBF process for multi-material 3D printing of different metallic alloys, focusing on material pre-alloying and chamber refilling approaches to achieve functionally graded and multi-layered compositions, have been presented. Design/methodology/approach The methodology involved an in-depth analysis of prominent research and peer-reviewed publications related to multi-material 3D printing using LPBF. A database of the Web of Science from the previous 20 years was examined using VOSviewer software for bibliometric analysis to identify research gaps. A networking diagram highlighting the research gap was generated using the study’s obtained relevance score. A case study was conducted for a single-hopper-based LPBF process for multi-material 3D printing of metals, exploring two novel approaches: material pre-alloying and chamber refilling to control material composition and layering with a single hopper. Findings A comprehensive review of multi-material 3D printing by LPBF, followed by a case study, highlights the challenges and advances in single-hopper-based LPBF for multi-material 3D printing of metallic components, focusing on innovative methods (material pre-alloying and chamber refill) to enable compositional gradients and layered structures. A functionally graded material (FGM) comprising 17–4 precipitate-hardened (PH) stainless steel (SS) and Ni625 was successfully 3D printed using chamber refill and material pre-alloying in a single-hopper LPBF system. However, a few limitations apply to multi-material 3D printing using LPBF, including managing phase evolution, mechanical characteristics and material compatibility. Integrating machine learning and AI-driven process optimization can enhance predictive capabilities and facilitate compelling exploration of process parameters to achieve desired material performance and structural integrity. Originality/value This study provided a comprehensive review of multi-material 3D printing using the LPBF technique and discussed a novel single-hopper multi-material 3D printing approach as a case study. This review offers insights into the maintenance and operation of single-hopper LPBF machines as an operational resource for industry/ academia for multi-material printing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bharat Kalia",
+            "orcid": "https://orcid.org/0009-0003-7864-7197"
+          },
+          {
+            "name": "Rupinder Singh",
+            "orcid": "https://orcid.org/0000-0001-8251-8943"
+          },
+          {
+            "name": "B. Singh Pabla",
+            "orcid": "https://orcid.org/0000-0002-2159-5563"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1108/ria-04-2025-0121",
+        "landing_page": "https://doi.org/10.1108/ria-04-2025-0121",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7221504827",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221504827",
+        "publication_date": "2026-10-12",
+        "title": "Multi-material 3D printing by laser powder bed fusion: a review",
+        "venue": "Robotic Intelligence and Automation",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-16T00:57:55.574758Z",
       "status": "found"
     },
     "openalex:title:ff884e77a73b8e9052fc7be889b495e7b766686c6a1d2488ea43b5c9c3515028": {

@@ -1,25 +1,25 @@
 {
-  "after_scoring_candidate_count": 3,
-  "built_at": "2026-10-15T12:59:24.127335Z",
-  "completed_candidate_count": 90,
+  "after_scoring_candidate_count": 2,
+  "built_at": "2026-10-16T00:57:57.519000Z",
+  "completed_candidate_count": 93,
   "decision_counts": {
-    "archive": 45,
+    "archive": 46,
     "mandatory": 5,
-    "retain_without_summary": 104,
+    "retain_without_summary": 105,
     "summarize": 71,
-    "urgent": 10
+    "urgent": 11
   },
-  "eligible_candidate_count": 3,
+  "eligible_candidate_count": 2,
   "email_enabled": false,
-  "enriched_registry_sha256": "98bfc74a0cc5cb51b2b994d167c62ba3ae397a7d508574aca5b79e07e2d5cf78",
-  "llm_candidate_count": 3,
+  "enriched_registry_sha256": "406b815163dc661df3cb9fca0727bcb27af198151405cef0c17cdf8d67c38c06",
+  "llm_candidate_count": 2,
   "llm_enabled": false,
   "mandatory_carry_forward_ids": [],
   "mandatory_pending_count": 0,
-  "recognition_results_sha256": "eddc0b07f3485760ef79165c141be91639dd0f93fcc838d9f09384bf3ecfdf9c",
+  "recognition_results_sha256": "d425e0760bbdec0c99775edac57e38a724f54648e93f34a00094aa82ae7630fc",
   "schema_version": 1,
-  "scored_candidate_count": 235,
+  "scored_candidate_count": 238,
   "scoring_version": 2,
-  "source_registry_sha256": "7665c41b21374bdadea88ff0653de416d8b2a1f936fc6a67ec75227061404dc5",
-  "summary_slot_count": 3
+  "source_registry_sha256": "78fd777d287270e103c31352b37f3ee80cfc1bd0905a5b2b9610da258ff08a97",
+  "summary_slot_count": 2
 }

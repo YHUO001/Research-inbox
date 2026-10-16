@@ -1,7 +1,7 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`90`
-- 更新时间：`2026-10-15T13:00:51.171593Z`
+- 论文数：`92`
+- 更新时间：`2026-10-16T00:58:58.507443Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
@@ -541,6 +541,22 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### StructZO: Structured Zeroth-Order Optimization for Memory-Efficient LLM Fine-Tuning
+
+- DOI/链接：[10.48550/arxiv.2610.16451](https://doi.org/10.48550/arxiv.2610.16451)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-10-16`
+- 候选 ID：`7a45515c829cdcf2bd96f41f`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
+
+### A proximal stochastic variance reduced zeroth-order algorithm using structured finite-differences
+
+- DOI/链接：[10.1007/s10589-026-00835-8](https://doi.org/10.1007/s10589-026-00835-8)
+- 期刊/年份：Computational Optimization and Applications，2026
+- 摘要日期：`2026-10-16`
+- 候选 ID：`c55f09d580d098a54f7078e7`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:structured_perturbation
 
 ### Sample-Adaptive Zeroth-Order Post-Training
 

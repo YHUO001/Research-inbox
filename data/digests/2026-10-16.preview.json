@@ -1,0 +1,42 @@
+{
+  "built_at": "2026-10-16T00:57:57.519000Z",
+  "digest_date": "2026-10-16",
+  "digest_version": 1,
+  "pending_summary_count": 2,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "7a45515c829cdcf2bd96f41f",
+        "landing_page": "https://doi.org/10.48550/arxiv.2610.16451",
+        "mandatory": false,
+        "score": 0.91,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "StructZO: Structured Zeroth-Order Optimization for Memory-Efficient LLM Fine-Tuning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "c55f09d580d098a54f7078e7",
+        "landing_page": "https://doi.org/10.1007/s10589-026-00835-8",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "A proximal stochastic variance reduced zeroth-order algorithm using structured finite-differences",
+        "venue": "Computational Optimization and Applications",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

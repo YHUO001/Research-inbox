@@ -1,24 +1,17 @@
 {
   "abstract_fallback_candidate_ids": [
-    "c9dee369fd4e64c2389af927"
+    "c55f09d580d098a54f7078e7"
   ],
   "abstract_fallback_count": 1,
   "architecture_evidence": {
-    "05e945a039d8b6cce82abff1": {
+    "7a45515c829cdcf2bd96f41f": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": null,
       "resolved_type": "unclear"
     },
-    "c9dee369fd4e64c2389af927": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
-    },
-    "dad476a2b20ea06a98b64b6a": {
+    "c55f09d580d098a54f7078e7": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
@@ -28,121 +21,54 @@
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 3,
-  "completed_at": "2026-10-15T13:00:51.171593Z",
+  "automatic_queue_candidate_count": 2,
+  "completed_at": "2026-10-16T00:58:58.507443Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "05e945a039d8b6cce82abff1",
-    "c9dee369fd4e64c2389af927",
-    "dad476a2b20ea06a98b64b6a"
+    "7a45515c829cdcf2bd96f41f",
+    "c55f09d580d098a54f7078e7"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-10-15",
-  "digest_json_file": "runtime-state/data/digests/2026-10-15.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-10-15.generated.md",
+  "digest_date": "2026-10-16",
+  "digest_json_file": "runtime-state/data/digests/2026-10-16.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-10-16.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0558092,
+  "estimated_cost_cny": 0.0444956,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "05e945a039d8b6cce82abff1": {
+    "7a45515c829cdcf2bd96f41f": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "05e945a039d8b6cce82abff1",
-      "character_count": 12000,
-      "content_sha256": "b28594a313ce416d04f77b1cac7b864d97ee1c914197fcb79ec0ae6d6e2f9cc3",
-      "elapsed_seconds": 1.259,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "application/pdf",
-      "section_headings": [
-        "SAMPLE-ADAPTIVEZEROTH-ORDERPOST-TRAINING",
-        "tuning large language models. However, existing ZO methods typically sample training examples",
-        "across updates. The method requires no additional model evaluations and only O(N) additional",
-        "than standard methods. Extensive experiments across four model families demonstrate improved",
-        "average downstream performance and up to 6× faster convergence to the same training loss in",
-        "bottleneck, zeroth-order (ZO) methods such as MeZO bypass backpropagation and estimate updates from two forward",
-        "subspaces. However, ZO methods face a fundamental information bottleneck: each directional query reveals only a",
-        "Sample-Adaptive Zeroth-Order Post-TrainingA PREPRINT",
-        "Mean training loss",
-        "Since each update uses only a small subset of the training data, its effectiveness depends in part on which examples are",
-        "training examples. Their gradient norms differ substantially and change during training (Figure 1(a); Appendix E.5),",
-        "sampling, inspired by first-order methods (Katharopoulos and Fleuret, 2018; Borsos et al., 2018; El Hanchi and Stephens,",
-        "first-order methods, we argue that zeroth-order algorithms are more sensitive to it, since the estimated gradient variance",
-        "additional model evaluations and only O(N) scalar state for N training examples. The benefit of tracking rather than",
-        "sampling and an oracle allocation fixed at initialization. This improved allocation also translates into faster training-loss",
-        "Accelerating ZO post-training.MeZO establishes memory-efficient language-model fine-tuning using forward",
-        "and directional alignment (Ma and Huang, 2025). Other methods improve update normalization (Dang et al., 2026),",
-        "and Fleuret, 2018). Yet empirical evidence reveals pronounced sample heterogeneity in post-training: gradient norms",
-        "space; with 1,000 training examples and FP64 scores, this is 8,000 bytes, or less than 8 KiB, and is negligible relative to",
-        "Initialization and minibatch implementation.We initialize each mi by averaging its directional-magnitude observa-",
-        "language models, convergence across model scales, scaling with the training-population size, computational effi-",
-        "SAZO accelerates optimization across model scales.Figure 2 compares SST-2 training-loss trajectories on RoBERTa-",
-        "large, Phi-2, and Llama 3 at a common forward-pass budget of 24K. Each method uses its optimal learning rate from",
-        "4.2 Scaling with training-population size",
-        "SAZO remains effective as the training population grows.Having established gains across model scales, we vary",
-        "the amount of training data. Figure 3 compares SST-2 test accuracy as the RoBERTa-large training population increases",
-        "Training-population size (N = 1,024)",
-        "Figure 3: RoBERTa-large SST-2 test accuracy as the training population scales fromN= 1,024 to 4N. Curves show",
-        "those of MeZO. Compared with first-order methods, SAZO reduces memory requirements by factors of 6.8–12.2× for",
-        "Method RoBERTa-large OPT-1.3B Phi-2 Llama3-8B",
-        "0.6Mean training loss",
-        "adaptive momentum method for black-box optimization. InAdvances in Neural Information Processing Systems,",
-        "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional",
-        "Diederik P. Kingma and Jimmy Ba. Adam: A method for stochastic optimization. InInternational Conference on",
-        "and Veselin Stoyanov. RoBERTa: A robustly optimized BERT pretraining approach.arXiv preprint arXiv:1907.11692,",
-        "In this appendix take B= 1 for Algorithm 1, or B >1 for the experimental implementation. Let πi,t denote the",
-        "All experiments use with-replacement minibatch sampling. This appendix specifies the implementation and derives",
-        "Larger batches reduce both methods’ sampling variance by 1/B, while norm-proportional allocation minimizes this",
-        "ε= 0.1 , and four burn-in passes. For Figure 2(a), we select the optimal constant learning rate for each method from",
-        "constant learning rate for each method and model from {1,5} × {10−7,10 −6,10 −5}; all other settings match the",
-        "E.3 Training-population scaling settings",
-        "Figure 3 uses full-parameter RoBERTa-large on SST-2 with training populationsN= 1,024 , 2N= 2,048 , 3N= 3,072 ,",
-        "The ablations use one seed of full-parameter RoBERTa-large on SST-2 withk= 512 , a fixed 1,024-example training",
-        "mean-loss audit over the complete training population; audit queries are excluded from the update count. We retain",
-        "The heterogeneity experiments use full-parameter RoBERTa-large under uniform MeZO training, withk= 512 , batch",
-        "median initial norm and fix the horizontal order using the initial norms, so a given position refers to the same training",
-        "omitted from the plot. Exact gradients at each method’s current parameters define its reference oracle. Loss is evaluated",
-        "Sample rankings change during training.Figure 8 compares each example’s importance at initialization and after",
-        "Figure 8:Sample-importance rankings evolve during training.Initial versus 20K normalized gradient norms",
-        "Training-set importance"
-      ],
-      "source_url": "https://arxiv.org/pdf/2610.12566",
-      "status": "used",
-      "text_persisted": false
-    },
-    "c9dee369fd4e64c2389af927": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "c9dee369fd4e64c2389af927",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 6.59,
-      "error": "https://zenodo.org/records/23337933: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.5281/zenodo.23337932",
-      "status": "not_available",
-      "text_persisted": false
-    },
-    "dad476a2b20ea06a98b64b6a": {
-      "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "dad476a2b20ea06a98b64b6a",
-      "character_count": 1298,
-      "content_sha256": "34dca5fdf04e929597be114613281a3598c845cf2ae92431e115af4892a291e3",
-      "elapsed_seconds": 1.503,
+      "candidate_id": "7a45515c829cdcf2bd96f41f",
+      "character_count": 8215,
+      "content_sha256": "9d4b5b099d558093e0c31b4b09a473d6b2ff40cf3bd87570f269bebd9d060544",
+      "elapsed_seconds": 0.865,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
       "section_headings": [
-        "Methods that exploit a known gradient component."
+        "3 Method"
       ],
-      "source_url": "https://arxiv.org/html/2610.13871",
+      "source_url": "https://arxiv.org/html/2610.16451",
       "status": "used",
+      "text_persisted": false
+    },
+    "c55f09d580d098a54f7078e7": {
+      "abstract_available": true,
+      "attempt_count": 3,
+      "candidate_id": "c55f09d580d098a54f7078e7",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 1.197,
+      "error": "Springer Open Access HTTP 404; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": "application/xml+jats",
+      "section_headings": [],
+      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1007%2Fs10589-026-00835-8&p=1",
+      "status": "not_available",
       "text_persisted": false
     }
   },
@@ -152,7 +78,7 @@
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 3,
+  "newly_completed_candidate_count": 2,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -168,87 +94,80 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 3,
+  "prepared_request_count": 2,
   "provider": "deepseek",
-  "queue_sha256": "1d61394ef233567d1ab1d0577eff29861304d7c42272d1d23f269af1d4154922",
-  "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-10-15.jsonl",
-  "request_sha256": "f0bede2d3639a6736d5625601fdd1d52ed93689061392cfeda20f3a672ef23e0",
+  "queue_sha256": "fcf6a3e850adbaecd6f46a885b254750d9217d86141edcf13da49561b861dff9",
+  "request_count": 2,
+  "request_file": "runtime-state/data/summary_requests/2026-10-16.jsonl",
+  "request_sha256": "a32ea890aafad265dc759f106a251aec74d2bd772981eb6969aa1e1e89f42df8",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "69bdd93077bb0f12ffa222620fc4149dd33ff6a004730fe305ae28085400bef9",
+  "selection_manifest_sha256": "56c0a31a49ba5e1c9ae58607625c27106c5f2a08e8086aef7f429420a23a5255",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 3,
+  "source_queue_candidate_count": 2,
   "stage_timings": {
-    "full_text_preparation_seconds": 9.363,
+    "full_text_preparation_seconds": 2.068,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "c9dee369fd4e64c2389af927",
-        "elapsed_seconds": 21.584,
+        "candidate_id": "7a45515c829cdcf2bd96f41f",
+        "elapsed_seconds": 25.833,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1540,
+          "completion_tokens": 2216,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 3565,
+          "prompt_tokens": 5485,
+          "total_tokens": 7701
+        }
+      },
+      {
+        "attempt": 2,
+        "candidate_id": "7a45515c829cdcf2bd96f41f",
+        "elapsed_seconds": 18.473,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1715,
+          "prompt_cache_hit_tokens": 5376,
+          "prompt_cache_miss_tokens": 171,
+          "prompt_tokens": 5547,
+          "total_tokens": 7262
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "c55f09d580d098a54f7078e7",
+        "elapsed_seconds": 12.524,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 979,
           "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1688,
-          "prompt_tokens": 3736,
-          "total_tokens": 5276
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "dad476a2b20ea06a98b64b6a",
-        "elapsed_seconds": 24.688,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1706,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 1821,
-          "prompt_tokens": 3741,
-          "total_tokens": 5447
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "05e945a039d8b6cce82abff1",
-        "elapsed_seconds": 28.981,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1686,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 5181,
-          "prompt_tokens": 7101,
-          "total_tokens": 8787
+          "prompt_cache_miss_tokens": 1198,
+          "prompt_tokens": 3246,
+          "total_tokens": 4225
         }
       }
     ],
-    "model_generation_and_validation_seconds": 75.278
+    "model_generation_and_validation_seconds": 56.853
   },
   "status": "completed_automatic",
-  "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-10-15.jsonl",
+  "summary_count": 2,
+  "summary_file": "runtime-state/data/summaries/2026-10-16.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 3,
+  "summary_slot_count": 2,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "05e945a039d8b6cce82abff1": {
+      "7a45515c829cdcf2bd96f41f": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": null,
         "repaired": false,
         "resolved_type": "unclear"
       },
-      "c9dee369fd4e64c2389af927": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "hybrid",
-        "repaired": true,
-        "resolved_type": "unclear"
-      },
-      "dad476a2b20ea06a98b64b6a": {
+      "c55f09d580d098a54f7078e7": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": null,
@@ -256,171 +175,53 @@
         "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 1,
-    "candidate_id_repair_responses": 1,
+    "architecture_repairs": 0,
+    "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "05e945a039d8b6cce82abff1": {
+      "7a45515c829cdcf2bd96f41f": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "05e945a039d8b6cce82abff1",
-        "character_count": 12000,
-        "content_sha256": "b28594a313ce416d04f77b1cac7b864d97ee1c914197fcb79ec0ae6d6e2f9cc3",
-        "elapsed_seconds": 1.259,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "application/pdf",
-        "section_headings": [
-          "SAMPLE-ADAPTIVEZEROTH-ORDERPOST-TRAINING",
-          "tuning large language models. However, existing ZO methods typically sample training examples",
-          "across updates. The method requires no additional model evaluations and only O(N) additional",
-          "than standard methods. Extensive experiments across four model families demonstrate improved",
-          "average downstream performance and up to 6× faster convergence to the same training loss in",
-          "bottleneck, zeroth-order (ZO) methods such as MeZO bypass backpropagation and estimate updates from two forward",
-          "subspaces. However, ZO methods face a fundamental information bottleneck: each directional query reveals only a",
-          "Sample-Adaptive Zeroth-Order Post-TrainingA PREPRINT",
-          "Mean training loss",
-          "Since each update uses only a small subset of the training data, its effectiveness depends in part on which examples are",
-          "training examples. Their gradient norms differ substantially and change during training (Figure 1(a); Appendix E.5),",
-          "sampling, inspired by first-order methods (Katharopoulos and Fleuret, 2018; Borsos et al., 2018; El Hanchi and Stephens,",
-          "first-order methods, we argue that zeroth-order algorithms are more sensitive to it, since the estimated gradient variance",
-          "additional model evaluations and only O(N) scalar state for N training examples. The benefit of tracking rather than",
-          "sampling and an oracle allocation fixed at initialization. This improved allocation also translates into faster training-loss",
-          "Accelerating ZO post-training.MeZO establishes memory-efficient language-model fine-tuning using forward",
-          "and directional alignment (Ma and Huang, 2025). Other methods improve update normalization (Dang et al., 2026),",
-          "and Fleuret, 2018). Yet empirical evidence reveals pronounced sample heterogeneity in post-training: gradient norms",
-          "space; with 1,000 training examples and FP64 scores, this is 8,000 bytes, or less than 8 KiB, and is negligible relative to",
-          "Initialization and minibatch implementation.We initialize each mi by averaging its directional-magnitude observa-",
-          "language models, convergence across model scales, scaling with the training-population size, computational effi-",
-          "SAZO accelerates optimization across model scales.Figure 2 compares SST-2 training-loss trajectories on RoBERTa-",
-          "large, Phi-2, and Llama 3 at a common forward-pass budget of 24K. Each method uses its optimal learning rate from",
-          "4.2 Scaling with training-population size",
-          "SAZO remains effective as the training population grows.Having established gains across model scales, we vary",
-          "the amount of training data. Figure 3 compares SST-2 test accuracy as the RoBERTa-large training population increases",
-          "Training-population size (N = 1,024)",
-          "Figure 3: RoBERTa-large SST-2 test accuracy as the training population scales fromN= 1,024 to 4N. Curves show",
-          "those of MeZO. Compared with first-order methods, SAZO reduces memory requirements by factors of 6.8–12.2× for",
-          "Method RoBERTa-large OPT-1.3B Phi-2 Llama3-8B",
-          "0.6Mean training loss",
-          "adaptive momentum method for black-box optimization. InAdvances in Neural Information Processing Systems,",
-          "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional",
-          "Diederik P. Kingma and Jimmy Ba. Adam: A method for stochastic optimization. InInternational Conference on",
-          "and Veselin Stoyanov. RoBERTa: A robustly optimized BERT pretraining approach.arXiv preprint arXiv:1907.11692,",
-          "In this appendix take B= 1 for Algorithm 1, or B >1 for the experimental implementation. Let πi,t denote the",
-          "All experiments use with-replacement minibatch sampling. This appendix specifies the implementation and derives",
-          "Larger batches reduce both methods’ sampling variance by 1/B, while norm-proportional allocation minimizes this",
-          "ε= 0.1 , and four burn-in passes. For Figure 2(a), we select the optimal constant learning rate for each method from",
-          "constant learning rate for each method and model from {1,5} × {10−7,10 −6,10 −5}; all other settings match the",
-          "E.3 Training-population scaling settings",
-          "Figure 3 uses full-parameter RoBERTa-large on SST-2 with training populationsN= 1,024 , 2N= 2,048 , 3N= 3,072 ,",
-          "The ablations use one seed of full-parameter RoBERTa-large on SST-2 withk= 512 , a fixed 1,024-example training",
-          "mean-loss audit over the complete training population; audit queries are excluded from the update count. We retain",
-          "The heterogeneity experiments use full-parameter RoBERTa-large under uniform MeZO training, withk= 512 , batch",
-          "median initial norm and fix the horizontal order using the initial norms, so a given position refers to the same training",
-          "omitted from the plot. Exact gradients at each method’s current parameters define its reference oracle. Loss is evaluated",
-          "Sample rankings change during training.Figure 8 compares each example’s importance at initialization and after",
-          "Figure 8:Sample-importance rankings evolve during training.Initial versus 20K normalized gradient norms",
-          "Training-set importance"
-        ],
-        "source_url": "https://arxiv.org/pdf/2610.12566",
-        "status": "used",
-        "text_persisted": false
-      },
-      "c9dee369fd4e64c2389af927": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "c9dee369fd4e64c2389af927",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 6.59,
-        "error": "https://zenodo.org/records/23337933: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.5281/zenodo.23337932",
-        "status": "not_available",
-        "text_persisted": false
-      },
-      "dad476a2b20ea06a98b64b6a": {
-        "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "dad476a2b20ea06a98b64b6a",
-        "character_count": 1298,
-        "content_sha256": "34dca5fdf04e929597be114613281a3598c845cf2ae92431e115af4892a291e3",
-        "elapsed_seconds": 1.503,
+        "candidate_id": "7a45515c829cdcf2bd96f41f",
+        "character_count": 8215,
+        "content_sha256": "9d4b5b099d558093e0c31b4b09a473d6b2ff40cf3bd87570f269bebd9d060544",
+        "elapsed_seconds": 0.865,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
         "section_headings": [
-          "Methods that exploit a known gradient component."
+          "3 Method"
         ],
-        "source_url": "https://arxiv.org/html/2610.13871",
+        "source_url": "https://arxiv.org/html/2610.16451",
         "status": "used",
+        "text_persisted": false
+      },
+      "c55f09d580d098a54f7078e7": {
+        "abstract_available": true,
+        "attempt_count": 3,
+        "candidate_id": "c55f09d580d098a54f7078e7",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 1.197,
+        "error": "Springer Open Access HTTP 404; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": "application/xml+jats",
+        "section_headings": [],
+        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1007%2Fs10589-026-00835-8&p=1",
+        "status": "not_available",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 2,
-    "numeric_grounding_repair_responses": 2,
-    "numeric_grounding_repairs": {
-      "05e945a039d8b6cce82abff1": [
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "实验设置包括 SST-2 等下游任务，训练批量大小在附录中说明，学习率从 {1,5} × {10^-7, 10^-6, 10^-5} 中选取，扰动半径 ε=0.1，并进行四次预热遍历。",
-          "path": "method_implementation[3]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "-5",
-            "-6",
-            "-7"
-          ]
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "训练在四个模型家族（RoBERTa-large、OPT-1.3B、Phi-2、Llama3-8B）上分别进行，对比了 MeZO 等方法，主要衡量训练损失和下游准确率。",
-          "path": "method_implementation[3]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "1.3"
-          ]
-        }
-      ],
-      "c9dee369fd4e64c2389af927": [
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "报告热耗散为每百万突触10 μW（假设10 aJ × 1 MHz × 10^6突触），相比电子芯片改善1,000,000倍。",
-          "path": "main_contributions[2]",
-          "replacement": "相关定量细节未在标题或摘要中提供。",
-          "tokens": [
-            "6"
-          ]
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "每百万突触热耗散为10 μW（10 aJ × 1 MHz × 10^6突触），比电子芯片改善1,000,000倍。",
-          "path": "reported_results[2].claim",
-          "replacement": "相关定量结果未在标题或摘要中提供。",
-          "tokens": [
-            "6"
-          ]
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "其市场潜力估计到2030年可达3000亿美元以上。",
-          "path": "research_value",
-          "replacement": "相关定量细节未在标题或摘要中提供。",
-          "tokens": [
-            "3000"
-          ]
-        }
-      ]
-    },
-    "tops_alias_expansions": 40,
+    "generation_metadata_repair_responses": 1,
+    "numeric_grounding_repair_responses": 0,
+    "numeric_grounding_repairs": {},
+    "tops_alias_expansions": 8,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 4932,
-    "prompt_cache_hit_tokens": 5888,
-    "prompt_cache_miss_tokens": 8690,
-    "prompt_tokens": 14578,
-    "total_tokens": 19510
+    "completion_tokens": 4910,
+    "prompt_cache_hit_tokens": 9344,
+    "prompt_cache_miss_tokens": 4934,
+    "prompt_tokens": 14278,
+    "total_tokens": 19188
   }
 }
