@@ -3098,6 +3098,40 @@
       "retrieved_at": "2026-08-27T02:02:17.493221Z",
       "status": "found"
     },
+    "crossref:doi:10.1021/acs.jpclett.6c02829": {
+      "expires_at": "2026-11-16T00:59:09.991490Z",
+      "record": {
+        "abstract": "Abstract Developing physical neural network (PNN) hardwares is important to next-generation artificial intelligence systems. Phononic devices─using heat current to encode and process information─is one of the solutions to neuromorphic computing. In this work, we backmap an artificial neural network (ANN) into a PNN simulation model using polymer networked nanoparticles (PNNPs). Our atomistic simulation results demonstrate that the polymer-linked nanoparticle networks can potentially realize information processing─viz., classification of input temperatures according to the output heat currents. Using high-throughput molecular dynamics (MD) simulations and the trust region Bayesian optimization (TuRBO) methods, we tune the plasticity of polymer linkers and the temperatures of nanoparticles─28 parameters in total─to optimize the performance of the PNNP machines, which is analogous to tuning of the weights and bias of the corresponding ANNs. After five rounds of high-throughput MD simulations, we demonstrate that the PNNP machine can better label different input temperatures, and thus its performance is improved. We also use a testing data set to verify the heat flow outputs from the top five PNNP machines in each round.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xingfei Wei",
+            "orcid": "https://orcid.org/0000-0001-5924-1579"
+          },
+          {
+            "name": "Manuel Palma Banos",
+            "orcid": "https://orcid.org/0000-0001-8147-1821"
+          },
+          {
+            "name": "Rigoberto Hernandez",
+            "orcid": "https://orcid.org/0000-0001-8526-7414"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1021/acs.jpclett.6c02829",
+        "landing_page": "https://doi.org/10.1021/acs.jpclett.6c02829",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1021/acs.jpclett.6c02829",
+        "publication_date": "2026-10-15",
+        "title": "Polymer-Linked\nNanoparticle Networks Running on Heat\nCan Act as Computing Devices",
+        "venue": "The Journal of Physical\nChemistry Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-17T00:59:09.991490Z",
+      "status": "found"
+    },
     "crossref:doi:10.1021/acs.nanolett.6c02292": {
       "expires_at": "2026-09-03T09:38:42.073462Z",
       "record": {
@@ -4772,6 +4806,48 @@
       "retrieved_at": "2026-09-28T01:11:30.686170Z",
       "status": "found"
     },
+    "crossref:doi:10.1103/n5ty-nyzc": {
+      "expires_at": "2026-11-16T00:59:08.849667Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tingting Liu",
+            "orcid": null
+          },
+          {
+            "name": "Jumin Qiu",
+            "orcid": null
+          },
+          {
+            "name": "Xintong Shi",
+            "orcid": null
+          },
+          {
+            "name": "Qiegen Liu",
+            "orcid": null
+          },
+          {
+            "name": "Shuyuan Xiao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1103/n5ty-nyzc",
+        "landing_page": "https://doi.org/10.1103/n5ty-nyzc",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1103/n5ty-nyzc",
+        "publication_date": "2026-10-15",
+        "title": "Flat optics for analog computing: From fundamental mechanisms to advanced meta-processors",
+        "venue": "Physical Review Applied",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-17T00:59:08.849667Z",
+      "status": "found"
+    },
     "crossref:doi:10.1108/ria-04-2025-0121/1401918": {
       "expires_at": "2026-11-15T00:57:54.542719Z",
       "record": null,
@@ -4912,6 +4988,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-10T01:10:20.764525Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1117/1.apn.5.6.064002": {
+      "expires_at": "2026-11-16T00:59:09.439157Z",
+      "record": {
+        "abstract": "Metasurfaces have emerged as a transformative platform that offers unprecedented capabilities for tailoring the amplitude, phase, and polarization of light with ultrathin planar structures. Their compact device footprint, functional versatility, and compatibility with scalable nanofabrication techniques have positioned them at the forefront of photonic research and technologies. Conventional metasurface designs rely on a single meta-atom per unit cell, selected from a predefined library to achieve a desired optical response. Although effective, this approach inherently lacks sufficient design degrees of freedom (DOFs), thereby constraining the achievable device functionalities. Recent developments have introduced metasurfaces that incorporate multiple meta-atoms within each supercell, dramatically expanding the available DOFs and enabling more sophisticated optical responses. This architectural shift has catalyzed rapid progress across a broad spectrum of applications, including imaging, beam steering, displays, and sensing. This review focuses on metasurfaces composed of multiple meta-atoms within a supercell and classifies their development into two distinct paradigms: local supercell architectures that enhance the DOFs of optical responses through interference, and nonlocal supercells based on quasi-bound states in the continuum (quasi-BICs) that leverage long-range modal coupling to achieve high quality factors and enhanced wavefront control. We summarize recent advances in multi-element metasurface design, examine the physical mechanisms underlying the enhanced performance, and highlight emerging opportunities and challenges for future research in complex metasurface architectures.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lin Deng",
+            "orcid": null
+          },
+          {
+            "name": "Ziqiang Cai",
+            "orcid": null
+          },
+          {
+            "name": "Yongmin Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/1.apn.5.6.064002",
+        "landing_page": "https://doi.org/10.1117/1.apn.5.6.064002",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/1.apn.5.6.064002",
+        "publication_date": "2026-10-14",
+        "title": "Metasurface design using multiple meta-atoms as fundamental elements: a review",
+        "venue": "Advanced Photonics Nexus",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-17T00:59:09.439157Z",
       "status": "found"
     },
     "crossref:doi:10.1117/1.oe.65.7.073102": {
@@ -17189,6 +17299,40 @@
       "retrieved_at": "2026-08-27T02:02:17.928943Z",
       "status": "found"
     },
+    "openalex:doi:10.1021/acs.jpclett.6c02829": {
+      "expires_at": "2026-11-16T00:59:10.318376Z",
+      "record": {
+        "abstract": "Abstract Developing physical neural network (PNN) hardwares is important to next-generation artificial intelligence systems. Phononic devices─using heat current to encode and process information─is one of the solutions to neuromorphic computing. In this work, we backmap an artificial neural network (ANN) into a PNN simulation model using polymer networked nanoparticles (PNNPs). Our atomistic simulation results demonstrate that the polymer-linked nanoparticle networks can potentially realize information processing─viz., classification of input temperatures according to the output heat currents. Using high-throughput molecular dynamics (MD) simulations and the trust region Bayesian optimization (TuRBO) methods, we tune the plasticity of polymer linkers and the temperatures of nanoparticles─28 parameters in total─to optimize the performance of the PNNP machines, which is analogous to tuning of the weights and bias of the corresponding ANNs. After five rounds of high-throughput MD simulations, we demonstrate that the PNNP machine can better label different input temperatures, and thus its performance is improved. We also use a testing data set to verify the heat flow outputs from the top five PNNP machines in each round.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xingfei Wei",
+            "orcid": "https://orcid.org/0000-0001-5924-1579"
+          },
+          {
+            "name": "Manuel Palma Banos",
+            "orcid": "https://orcid.org/0000-0001-8147-1821"
+          },
+          {
+            "name": "Rigoberto Hernandez",
+            "orcid": "https://orcid.org/0000-0001-8526-7414"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1021/acs.jpclett.6c02829",
+        "landing_page": "https://doi.org/10.1021/acs.jpclett.6c02829",
+        "open_access_url": "https://arxiv.org/abs/2608.22841",
+        "openalex_id": "https://openalex.org/W7204210913",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7204210913",
+        "publication_date": "2026-10-15",
+        "title": "Polymer-Linked Nanoparticle Networks Running on Heat Can Act as Computing Devices",
+        "venue": "The Journal of Physical Chemistry Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-17T00:59:10.318376Z",
+      "status": "found"
+    },
     "openalex:doi:10.1021/acs.nanolett.6c02292": {
       "expires_at": "2026-09-03T09:38:42.538033Z",
       "record": {
@@ -19497,6 +19641,48 @@
       "retrieved_at": "2026-09-28T01:11:31.026528Z",
       "status": "found"
     },
+    "openalex:doi:10.1103/n5ty-nyzc": {
+      "expires_at": "2026-11-16T00:59:09.209298Z",
+      "record": {
+        "abstract": "As the explosive growth of visual data increasingly strains the latency and energy limits of conventional electronic computing, optical analog computing has re-emerged as a disruptive paradigm for zero-power, speed-of-light information processing. Propelled by the unprecedented wave-manipulation capabilities of optical metasurfaces, this field is undergoing a rapid transition from macroscopic physical optics to ultra-compact, on-chip meta-processors. This Review examines the fundamental mechanisms of metasurface-empowered optical computing spanning Fourier-domain, nonlocal spatial-domain, and interferometric architectures that perform mathematical operations, with a particular focus on spatial differentiation and edge detection as representative computing tasks. By emphasizing recent breakthroughs, we highlight the evolution of meta-processors from static, linear regimes to dynamically reconfigurable, nonlinear, and quantum-assisted multidimensional platforms. We also envision how the synergy of AI-driven inverse design and the integration of analog meta-front-ends with optical neural networks will synergistically revolutionize next-generation intelligent machine vision.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tingting Liu",
+            "orcid": null
+          },
+          {
+            "name": "Jumin Qiu",
+            "orcid": "https://orcid.org/0000-0002-3201-1965"
+          },
+          {
+            "name": "Xintong Shi",
+            "orcid": null
+          },
+          {
+            "name": "Qiegen Liu",
+            "orcid": null
+          },
+          {
+            "name": "Shuyuan Xiao",
+            "orcid": "https://orcid.org/0000-0002-4446-6967"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1103/n5ty-nyzc",
+        "landing_page": "https://doi.org/10.1103/n5ty-nyzc",
+        "open_access_url": "https://arxiv.org/abs/2604.16849",
+        "openalex_id": "https://openalex.org/W7155053710",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7155053710",
+        "publication_date": "2026-10-15",
+        "title": "Flat optics for analog computing: From fundamental mechanisms to advanced meta-processors",
+        "venue": "Physical Review Applied",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-17T00:59:09.209298Z",
+      "status": "found"
+    },
     "openalex:doi:10.1108/ria-04-2025-0121/1401918": {
       "expires_at": "2026-11-15T00:57:54.879345Z",
       "record": null,
@@ -21089,6 +21275,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-10T01:10:21.106240Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1117/1.apn.5.6.064002": {
+      "expires_at": "2026-11-16T00:59:09.760619Z",
+      "record": {
+        "abstract": "Metasurfaces have emerged as a transformative platform that offers unprecedented capabilities for tailoring the amplitude, phase, and polarization of light with ultrathin planar structures. Their compact device footprint, functional versatility, and compatibility with scalable nanofabrication techniques have positioned them at the forefront of photonic research and technologies. Conventional metasurface designs rely on a single meta-atom per unit cell, selected from a predefined library to achieve a desired optical response. Although effective, this approach inherently lacks sufficient design degrees of freedom (DOFs), thereby constraining the achievable device functionalities. Recent developments have introduced metasurfaces that incorporate multiple meta-atoms within each supercell, dramatically expanding the available DOFs and enabling more sophisticated optical responses. This architectural shift has catalyzed rapid progress across a broad spectrum of applications, including imaging, beam steering, displays, and sensing. This review focuses on metasurfaces composed of multiple meta-atoms within a supercell and classifies their development into two distinct paradigms: local supercell architectures that enhance the DOFs of optical responses through interference, and nonlocal supercells based on quasi-bound states in the continuum (quasi-BICs) that leverage long-range modal coupling to achieve high quality factors and enhanced wavefront control. We summarize recent advances in multi-element metasurface design, examine the physical mechanisms underlying the enhanced performance, and highlight emerging opportunities and challenges for future research in complex metasurface architectures.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lin Deng",
+            "orcid": null
+          },
+          {
+            "name": "Ziqiang Cai",
+            "orcid": null
+          },
+          {
+            "name": "Yongmin Liu",
+            "orcid": "https://orcid.org/0000-0003-1084-6651"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/1.apn.5.6.064002",
+        "landing_page": "https://doi.org/10.1117/1.apn.5.6.064002",
+        "open_access_url": "https://doi.org/10.1117/1.apn.5.6.064002",
+        "openalex_id": "https://openalex.org/W7221777375",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221777375",
+        "publication_date": "2026-10-14",
+        "title": "Metasurface design using multiple meta-atoms as fundamental elements: a review",
+        "venue": "Advanced Photonics Nexus",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-17T00:59:09.760619Z",
       "status": "found"
     },
     "openalex:doi:10.1117/1.oe.65.7.073102": {

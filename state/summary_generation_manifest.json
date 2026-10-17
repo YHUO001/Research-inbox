@@ -1,227 +1,34 @@
 {
-  "abstract_fallback_candidate_ids": [
-    "c55f09d580d098a54f7078e7"
-  ],
-  "abstract_fallback_count": 1,
-  "architecture_evidence": {
-    "7a45515c829cdcf2bd96f41f": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": null,
-      "resolved_type": "unclear"
-    },
-    "c55f09d580d098a54f7078e7": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": null,
-      "resolved_type": "unclear"
-    }
-  },
-  "architecture_repairs": 0,
-  "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 2,
-  "completed_at": "2026-10-16T00:58:58.507443Z",
+  "actual_summary_count": 0,
+  "author_metadata_enriched_count": 0,
+  "author_metadata_fallback_count": 0,
+  "author_metadata_mode": "selected_openalex_work_metadata_with_safe_fallback",
+  "automatic_queue_candidate_count": 0,
+  "built_at": "2026-10-17T00:59:11.458973Z",
   "completed_candidate_filtered_count": 0,
-  "completed_candidate_ids": [
-    "7a45515c829cdcf2bd96f41f",
-    "c55f09d580d098a54f7078e7"
-  ],
-  "completion_mode": "automatic_daily_batch_after_local_validation",
-  "daily_digest_pending": true,
-  "digest_date": "2026-10-16",
-  "digest_json_file": "runtime-state/data/digests/2026-10-16.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-10-16.generated.md",
+  "daily_digest_pending": false,
+  "digest_date": "2026-10-17",
+  "digest_json_file": "runtime-state/data/digests/2026-10-17.preview.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-10-17.preview.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0444956,
   "execution_mode": "automatic_daily_batch",
-  "failure_count": 0,
-  "failures": [],
-  "full_text_method_contexts": {
-    "7a45515c829cdcf2bd96f41f": {
-      "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "7a45515c829cdcf2bd96f41f",
-      "character_count": 8215,
-      "content_sha256": "9d4b5b099d558093e0c31b4b09a473d6b2ff40cf3bd87570f269bebd9d060544",
-      "elapsed_seconds": 0.865,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "text/html",
-      "section_headings": [
-        "3 Method"
-      ],
-      "source_url": "https://arxiv.org/html/2610.16451",
-      "status": "used",
-      "text_persisted": false
-    },
-    "c55f09d580d098a54f7078e7": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "c55f09d580d098a54f7078e7",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 1.197,
-      "error": "Springer Open Access HTTP 404; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": "application/xml+jats",
-      "section_headings": [],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1007%2Fs10589-026-00835-8&p=1",
-      "status": "not_available",
-      "text_persisted": false
-    }
-  },
-  "full_text_persisted": false,
-  "full_text_used": true,
+  "full_text_used": false,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
-  "knowledge_base_pending": true,
-  "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 2,
-  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
-  "numeric_matching": {
-    "absolute_tolerance": 0.02,
-    "approximation_markers_ignored": true,
-    "evidence_sources": [
-      "title",
-      "abstract",
-      "temporary_open_full_text_methods"
-    ],
-    "full_text_unsupported_sentence_action": "deterministic_redaction",
-    "relative_tolerance": 0.02,
-    "unit_format_ignored": true,
-    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
-  },
+  "knowledge_base_pending": false,
+  "llm_enabled": true,
   "output_language": "zh-CN",
-  "prepared_request_count": 2,
-  "provider": "deepseek",
-  "queue_sha256": "fcf6a3e850adbaecd6f46a885b254750d9217d86141edcf13da49561b861dff9",
-  "request_count": 2,
-  "request_file": "runtime-state/data/summary_requests/2026-10-16.jsonl",
-  "request_sha256": "a32ea890aafad265dc759f106a251aec74d2bd772981eb6969aa1e1e89f42df8",
+  "provider": "not_configured",
+  "queue_candidate_count": 0,
+  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "request_count": 0,
+  "request_file": "runtime-state/data/summary_requests/2026-10-17.jsonl",
+  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "56c0a31a49ba5e1c9ae58607625c27106c5f2a08e8086aef7f429420a23a5255",
-  "skipped_no_abstract_candidate_ids": [],
-  "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 2,
-  "stage_timings": {
-    "full_text_preparation_seconds": 2.068,
-    "model_api_calls": [
-      {
-        "attempt": 1,
-        "candidate_id": "7a45515c829cdcf2bd96f41f",
-        "elapsed_seconds": 25.833,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 2216,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 3565,
-          "prompt_tokens": 5485,
-          "total_tokens": 7701
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "7a45515c829cdcf2bd96f41f",
-        "elapsed_seconds": 18.473,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1715,
-          "prompt_cache_hit_tokens": 5376,
-          "prompt_cache_miss_tokens": 171,
-          "prompt_tokens": 5547,
-          "total_tokens": 7262
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "c55f09d580d098a54f7078e7",
-        "elapsed_seconds": 12.524,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 979,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1198,
-          "prompt_tokens": 3246,
-          "total_tokens": 4225
-        }
-      }
-    ],
-    "model_generation_and_validation_seconds": 56.853
-  },
-  "status": "completed_automatic",
-  "summary_count": 2,
-  "summary_file": "runtime-state/data/summaries/2026-10-16.jsonl",
+  "selection_manifest_sha256": "69a186a2df1b975be872a89196027095953caae108134d269550559e491566b0",
+  "source_queue_candidate_count": 0,
+  "status": "no_candidates",
   "summary_generation_version": 8,
-  "summary_history_updated": true,
-  "summary_slot_count": 2,
-  "thinking_enabled": false,
-  "transport_repairs": {
-    "architecture_evidence": {
-      "7a45515c829cdcf2bd96f41f": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": null,
-        "repaired": false,
-        "resolved_type": "unclear"
-      },
-      "c55f09d580d098a54f7078e7": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": null,
-        "repaired": false,
-        "resolved_type": "unclear"
-      }
-    },
-    "architecture_repairs": 0,
-    "candidate_id_repair_responses": 0,
-    "full_text_method_contexts": {
-      "7a45515c829cdcf2bd96f41f": {
-        "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "7a45515c829cdcf2bd96f41f",
-        "character_count": 8215,
-        "content_sha256": "9d4b5b099d558093e0c31b4b09a473d6b2ff40cf3bd87570f269bebd9d060544",
-        "elapsed_seconds": 0.865,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "text/html",
-        "section_headings": [
-          "3 Method"
-        ],
-        "source_url": "https://arxiv.org/html/2610.16451",
-        "status": "used",
-        "text_persisted": false
-      },
-      "c55f09d580d098a54f7078e7": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "c55f09d580d098a54f7078e7",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 1.197,
-        "error": "Springer Open Access HTTP 404; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": "application/xml+jats",
-        "section_headings": [],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1007%2Fs10589-026-00835-8&p=1",
-        "status": "not_available",
-        "text_persisted": false
-      }
-    },
-    "generation_metadata_repair_responses": 1,
-    "numeric_grounding_repair_responses": 0,
-    "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 8,
-    "unit_format_normalization_responses": 0
-  },
-  "usage": {
-    "completion_tokens": 4910,
-    "prompt_cache_hit_tokens": 9344,
-    "prompt_cache_miss_tokens": 4934,
-    "prompt_tokens": 14278,
-    "total_tokens": 19188
-  }
+  "summary_history_updated": false,
+  "summary_slot_count": 0
 }

@@ -3,17 +3,17 @@
   "alias_path": "runtime-state/state/unified_candidate_aliases.json",
   "alias_sha256": "41855d50d32bd6ab0ebf98feadbb5ff099a6f4ca62b1746b8fd3002bb856ad12",
   "merged_group_count": 25,
-  "raw_candidate_count": 538,
+  "raw_candidate_count": 541,
   "raw_registry_path": "runtime-state/data/paper_registry.jsonl",
-  "raw_registry_sha256": "79899e076bcb2755d03c92349e7b4fc641ff2f8a6cac2d54de473bfa8b06781a",
+  "raw_registry_sha256": "0009dc60157aaa2d283811779e01e1d8044490a261f0d780be59ce324f8cdfd6",
   "schema_version": 1,
   "source_combination_counts": {
     "google_scholar_email": 379,
     "google_scholar_email+openalex": 21,
-    "openalex": 113
+    "openalex": 116
   },
   "status": "completed",
-  "unified_candidate_count": 513,
+  "unified_candidate_count": 516,
   "unified_registry_path": "runtime-state/data/unified_paper_registry.jsonl",
-  "unified_registry_sha256": "78fd777d287270e103c31352b37f3ee80cfc1bd0905a5b2b9610da258ff08a97"
+  "unified_registry_sha256": "20f3f1cfef260e81307de0a462226137b5b2f58346f697419198c846a787d038"
 }
