@@ -4768,6 +4768,52 @@
       "retrieved_at": "2026-08-18T04:25:21.555387Z",
       "status": "found"
     },
+    "crossref:doi:10.1103/gwny-d6fw": {
+      "expires_at": "2026-11-17T01:04:57.636853Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Qianqian He",
+            "orcid": null
+          },
+          {
+            "name": "Kenan Guo",
+            "orcid": null
+          },
+          {
+            "name": "Jumin Qiu",
+            "orcid": null
+          },
+          {
+            "name": "Huifu Qiu",
+            "orcid": null
+          },
+          {
+            "name": "Shuyuan Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Tingting Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1103/gwny-d6fw",
+        "landing_page": "https://doi.org/10.1103/gwny-d6fw",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1103/gwny-d6fw",
+        "publication_date": "2026-10-16",
+        "title": "Edge-enhanced diffractive neural networks based on spin-multiplexed nonlocal metasurfaces",
+        "venue": "Physical Review Applied",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:57.636853Z",
+      "status": "found"
+    },
     "crossref:doi:10.1103/lh46-y9hy": {
       "expires_at": "2026-10-28T01:11:30.686170Z",
       "record": {
@@ -5022,6 +5068,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-17T00:59:09.439157Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1117/1.oe.65.10.107102": {
+      "expires_at": "2026-11-17T01:04:53.518267Z",
+      "record": {
+        "abstract": "Two-photon lithography (TPL) enables three-dimensional micro/nano-fabrication for diffractive optical neural networks (D2NNs), but its commonly used polymeric materials exhibit low refractive indices, limiting phase modulation and diffraction efficiency in compact optical processors. Here, we introduce an ultrathin high-refractive-index ZnO coating (44.5 nm, λ/10 at 532 nm) on TPL-fabricated blazed gratings and Fresnel microlenses to overcome this intrinsic material limitation. The conformal ZnO layer preserves the original polymer microstructure geometry while significantly increasing the local optical path difference, thereby enhancing phase accumulation for high-fidelity diffraction. Experimental measurements show that diffraction efficiency is improved by 20% for blazed gratings and >50% for microlenses, accompanied by stronger focal confinement and reduced FWHM, consistent with enhanced wavefront control. Material characterization via XPS, XRD, SEM, and EDS confirms uniformity, crystallinity, and chemical stability of the ZnO coating. This hybrid polymer–ZnO strategy addresses the low-index limitation of TPL materials and demonstrates a feasible route toward compact, high-performance D2NN components with precise phase modulation and energy-efficient optical processing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Li Li",
+            "orcid": null
+          },
+          {
+            "name": "Zhengfen Wan",
+            "orcid": null
+          },
+          {
+            "name": "Xiao Huang",
+            "orcid": null
+          },
+          {
+            "name": "Simone Lamon",
+            "orcid": null
+          },
+          {
+            "name": "Haoyi Yu",
+            "orcid": "https://orcid.org/0000-0002-9480-8443"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/1.oe.65.10.107102",
+        "landing_page": "https://doi.org/10.1117/1.oe.65.10.107102",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/1.oe.65.10.107102",
+        "publication_date": "2026-10-16",
+        "title": "Ultrathin high-refractive-index coating for enhanced phase modulation in two-photon-printed diffractive optical elements",
+        "venue": "Optical Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:53.518267Z",
       "status": "found"
     },
     "crossref:doi:10.1117/1.oe.65.7.073102": {
@@ -7482,6 +7570,24 @@
       "retrieved_at": "2026-10-15T00:58:15.122908Z",
       "status": "not_found"
     },
+    "crossref:doi:10.5281/zenodo.23413943": {
+      "expires_at": "2026-11-17T01:04:58.023494Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:04:58.023494Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.5281/zenodo.23421293": {
+      "expires_at": "2026-11-17T01:04:55.551292Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:04:55.551292Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.5281/zenodo.23425443": {
+      "expires_at": "2026-11-17T01:04:53.122598Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:04:53.122598Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.6084/m9.figshare.33306492.v1": {
       "expires_at": "2026-10-11T01:00:17.087901Z",
       "record": null,
@@ -8187,6 +8293,12 @@
       "retrieved_at": "2026-08-31T01:07:01.749398Z",
       "status": "not_found"
     },
+    "crossref:title:19610c7bf5c910f8f6385c61f9a7d7f854c408a5a0c069e3ae2a04f047f5fbd2": {
+      "expires_at": "2026-10-25T01:04:59.148018Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:04:59.148018Z",
+      "status": "not_found"
+    },
     "crossref:title:19dc6b5d4bdc23891a50e8d7804f6003bc1e102674b5ae091bd6b12f0c31d800": {
       "expires_at": "2026-10-16T01:12:18.173018Z",
       "record": {
@@ -8277,6 +8389,40 @@
       "retrieved_at": "2026-10-09T01:12:30.006043Z",
       "status": "found"
     },
+    "crossref:title:1c143fe748481adbf75fef895c38f344b56a18afcd80b3da45542526642b1de5": {
+      "expires_at": "2026-10-25T01:04:54.559434Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Huali Liu",
+            "orcid": null
+          },
+          {
+            "name": "Jun Wei",
+            "orcid": null
+          },
+          {
+            "name": "Xiaowei Su",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/iccnea70678.2026.11722261",
+        "landing_page": "https://doi.org/10.1109/iccnea70678.2026.11722261",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/iccnea70678.2026.11722261",
+        "publication_date": "2026-09",
+        "title": "HDE-based Parameter Identification and Synchronization of Lorenz System",
+        "venue": "2026 9th International Conference on Computer Network, Electronic and Automation (ICCNEA)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:54.559434Z",
+      "status": "found"
+    },
     "crossref:title:1d03a31c480cfb0da2e0e91ffd1d2b010abe87f28bab51e4b85693bfb34159e5": {
       "expires_at": "2026-09-07T01:07:04.161417Z",
       "record": null,
@@ -8287,6 +8433,12 @@
       "expires_at": "2026-09-02T00:32:37.383677Z",
       "record": null,
       "retrieved_at": "2026-08-26T00:32:37.383677Z",
+      "status": "not_found"
+    },
+    "crossref:title:1e959e0ca2de3682c2ec75319b576b0f19300d6a31516cbace1652486f5661ec": {
+      "expires_at": "2026-10-25T01:04:54.971743Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:04:54.971743Z",
       "status": "not_found"
     },
     "crossref:title:1f89d4576a0965f374cb27636066193a2682735267d5b9eefcd0e6a6ef723cb9": {
@@ -8419,6 +8571,12 @@
       "expires_at": "2026-09-25T01:02:11.624150Z",
       "record": null,
       "retrieved_at": "2026-09-18T01:02:11.624150Z",
+      "status": "not_found"
+    },
+    "crossref:title:206e5e0e8da71c6347a3c6caac4928568fc7d794669ee3b15edc86ac27e397e7": {
+      "expires_at": "2026-10-25T01:04:51.699754Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:04:51.699754Z",
       "status": "not_found"
     },
     "crossref:title:20cfe67813be963e442465719751d8578d9f569e54fe5b75a1f930d33bbb3097": {
@@ -8757,6 +8915,12 @@
       "retrieved_at": "2026-09-21T01:07:20.706813Z",
       "status": "not_found"
     },
+    "crossref:title:36f01fe28b1011c61988525079aac58e4f03334c80251ad1cbd0ce9c180e4dc5": {
+      "expires_at": "2026-10-25T01:05:05.467806Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:05:05.467806Z",
+      "status": "not_found"
+    },
     "crossref:title:396433acbcc3f91784f5268f64740577bf2596dcfa06755340cef71a7f90d310": {
       "expires_at": "2026-08-16T00:35:59.056202Z",
       "record": null,
@@ -8875,6 +9039,12 @@
       "retrieved_at": "2026-09-19T01:00:51.361921Z",
       "status": "found"
     },
+    "crossref:title:3d72e1049e91fe25f979573999f962c947a309313a0e17a9fea01ad9f22d8c1b": {
+      "expires_at": "2026-10-25T01:04:57.049880Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:04:57.049880Z",
+      "status": "not_found"
+    },
     "crossref:title:3e2b531b19fc58e53e14b3b0dc7ac6fe9630b966c7276851ab79763507eac8bf": {
       "expires_at": "2026-09-25T01:02:27.374310Z",
       "record": null,
@@ -8945,6 +9115,12 @@
       "expires_at": "2026-09-30T01:01:09.594547Z",
       "record": null,
       "retrieved_at": "2026-09-23T01:01:09.594547Z",
+      "status": "not_found"
+    },
+    "crossref:title:40e69a62540f8838042f7d88ffe89a8999b9e1fb8db8e3d5c3d79cccb1cac5f3": {
+      "expires_at": "2026-10-25T01:04:52.307293Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:04:52.307293Z",
       "status": "not_found"
     },
     "crossref:title:4114fbae9b962f3a411545fc2497676637fc049a1bd9ba04ff31061fd75a8483": {
@@ -9451,6 +9627,12 @@
       "retrieved_at": "2026-09-21T01:07:24.517901Z",
       "status": "not_found"
     },
+    "crossref:title:4f30aa89913f4fd1eb253c1e2168791104bc6e775be363f0cb6b4423ea0fd582": {
+      "expires_at": "2026-10-25T01:05:06.022617Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:05:06.022617Z",
+      "status": "not_found"
+    },
     "crossref:title:4f5fad19c1a8a0d47fca3a3a128c8c1bd7bd5e9f52df61b238979751202b9481": {
       "expires_at": "2026-10-05T01:11:34.791837Z",
       "record": null,
@@ -9541,6 +9723,12 @@
       "expires_at": "2026-09-14T01:06:46.498809Z",
       "record": null,
       "retrieved_at": "2026-09-07T01:06:46.498809Z",
+      "status": "not_found"
+    },
+    "crossref:title:575dc661ee2b0fe90558d627942ead807af2750ee33c56586586da7ed4a314d4": {
+      "expires_at": "2026-10-25T01:05:06.924536Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:05:06.924536Z",
       "status": "not_found"
     },
     "crossref:title:58a4e8946f478ec97ae906eac840dcbedd335e53d76cd06cbd7c9cc445297568": {
@@ -9677,6 +9865,12 @@
       "expires_at": "2026-10-10T01:04:43.956681Z",
       "record": null,
       "retrieved_at": "2026-10-03T01:04:43.956681Z",
+      "status": "not_found"
+    },
+    "crossref:title:5b03a6598954d4b0c503a289e8aacc5f094ab4beb992f18bb5bf1e454d6dc1c3": {
+      "expires_at": "2026-10-25T01:04:59.779660Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:04:59.779660Z",
       "status": "not_found"
     },
     "crossref:title:5bc1e880e8942c2612dedd82e70bbbe366420dd13880800413203297ad983856": {
@@ -11363,6 +11557,12 @@
       "retrieved_at": "2026-10-16T00:57:49.922397Z",
       "status": "not_found"
     },
+    "crossref:title:a91db7004d5a48913ed068dd5095b7aaa2fec90b51ec84c30f47c93dc230bfce": {
+      "expires_at": "2026-10-25T01:04:56.204517Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:04:56.204517Z",
+      "status": "not_found"
+    },
     "crossref:title:aa55fccd82ec16aa4bfed3034a68ad67e61d94c83a280c4978e5eec73ca34464": {
       "expires_at": "2026-10-21T00:59:32.639259Z",
       "record": null,
@@ -11903,6 +12103,12 @@
       "retrieved_at": "2026-08-18T04:25:25.323474Z",
       "status": "not_found"
     },
+    "crossref:title:c5173611b4ea3265eddeafae09972c00d4529bfea8d1a76244a6023e362632ce": {
+      "expires_at": "2026-10-25T01:05:01.868810Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:05:01.868810Z",
+      "status": "not_found"
+    },
     "crossref:title:c5351f67ca839f2f9a54772562a1a4735b1e7c07f1352b3bef1fd13c6832bcaa": {
       "expires_at": "2026-09-28T01:07:19.034550Z",
       "record": null,
@@ -11931,6 +12137,12 @@
       "expires_at": "2026-10-05T01:11:28.570543Z",
       "record": null,
       "retrieved_at": "2026-09-28T01:11:28.570543Z",
+      "status": "not_found"
+    },
+    "crossref:title:c6951389d273df018f693572fd2219d665bb4d95f6334d6749a69afd831061c7": {
+      "expires_at": "2026-10-25T01:05:03.472041Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:05:03.472041Z",
       "status": "not_found"
     },
     "crossref:title:c790b3a89feba3ef3222707de42e252fb1e112497909f19e700c7080da6421b2": {
@@ -12014,6 +12226,56 @@
       "record": null,
       "retrieved_at": "2026-09-15T01:03:27.612497Z",
       "status": "not_found"
+    },
+    "crossref:title:c8f1e27a46e1abeedb5ead94e6c618a8a45dfdcde8452b186d5cb687c07098fa": {
+      "expires_at": "2026-10-25T01:04:58.517769Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhiyong Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Junhui Li",
+            "orcid": "https://orcid.org/0009-0004-9761-4347"
+          },
+          {
+            "name": "Ye Su",
+            "orcid": "https://orcid.org/0009-0008-4205-0600"
+          },
+          {
+            "name": "Zhuang Chen",
+            "orcid": "https://orcid.org/0000-0003-0691-894X"
+          },
+          {
+            "name": "Xieyang Li",
+            "orcid": null
+          },
+          {
+            "name": "Hao Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yiyuan Xie",
+            "orcid": "https://orcid.org/0000-0002-0049-5256"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jstqe.2026.3742258",
+        "landing_page": "https://doi.org/10.1109/jstqe.2026.3742258",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/jstqe.2026.3742258",
+        "publication_date": "2026",
+        "title": "Phase Space Compression Optimization on Photonic Neural Networks",
+        "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:58.517769Z",
+      "status": "found"
     },
     "crossref:title:c9101c279e7ae20dc0791bd7d5ca35c8b85531c5ebcc4f97f8c863bca6c3946e": {
       "expires_at": "2026-10-04T01:11:35.676957Z",
@@ -12278,6 +12540,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:13.165141Z",
       "status": "found"
+    },
+    "crossref:title:d63daf6695652e997b502087a42fbff4eca6d178c7dc6f79e1b2e7b178c02ea5": {
+      "expires_at": "2026-10-25T01:05:04.572882Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:05:04.572882Z",
+      "status": "not_found"
     },
     "crossref:title:d773d6fbb26d1f4b4f09a95171e36c31e1e0fa7a575dae0c8ebc68392daf9952": {
       "expires_at": "2026-09-11T01:00:24.274409Z",
@@ -19603,6 +19871,52 @@
       "retrieved_at": "2026-08-18T04:25:21.906660Z",
       "status": "found"
     },
+    "openalex:doi:10.1103/gwny-d6fw": {
+      "expires_at": "2026-11-17T01:04:57.974426Z",
+      "record": {
+        "abstract": "Single-layer diffractive neural networks often face classification accuracy bottlenecks due to limited wavefront modulation capabilities. Edge detection, as an optical image processing technique, extracts image contours and offers a promising way to simplify classification tasks. However, integrating edge detection and DNN-based classification on a single chip remains a challenge. Here, we propose an integrated nonlocal meta-platform that achieves all-optical edge detection and DNN-based classification via spin-multiplexing. By exploiting the dispersion properties of the nonlocal Huygens' metasurface, the co-polarized component in the output light performs momentum-space filtering for real-time edge detection. The cross-polarized component undergoes geometric phase modulation to execute image classification within the DNN. We couple quasi-bound states in the continuum and magnetic dipole resonances in crescent-shaped nanopillars, achieving a high polarization conversion efficiency of approximately $55\\%$. This edge-enhanced DNN architecture significantly reduces data redundancy, elevating the classification accuracy of the single-layer network on the MNIST dataset from $64.2\\%$ to $80.7\\%$. Our work provides a compact, high-efficiency solution for integrated all-optical machine vision and intelligent photonic computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Qianqian He",
+            "orcid": null
+          },
+          {
+            "name": "Kenan Guo",
+            "orcid": null
+          },
+          {
+            "name": "Jumin Qiu",
+            "orcid": "https://orcid.org/0000-0002-3201-1965"
+          },
+          {
+            "name": "Huifu Qiu",
+            "orcid": null
+          },
+          {
+            "name": "Shuyuan Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Tingting Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1103/gwny-d6fw",
+        "landing_page": "https://doi.org/10.1103/gwny-d6fw",
+        "open_access_url": "https://arxiv.org/abs/2606.16938",
+        "openalex_id": "https://openalex.org/W7164915689",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7164915689",
+        "publication_date": "2026-10-16",
+        "title": "Edge-enhanced diffractive neural networks based on spin-multiplexed nonlocal metasurfaces",
+        "venue": "Physical Review Applied",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:57.974426Z",
+      "status": "found"
+    },
     "openalex:doi:10.1103/lh46-y9hy": {
       "expires_at": "2026-10-28T01:11:31.026528Z",
       "record": {
@@ -20053,6 +20367,40 @@
       "retrieved_at": "2026-08-09T00:36:03.357971Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/iccnea70678.2026.11722261": {
+      "expires_at": "2026-11-17T01:04:54.881651Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Huali Liu",
+            "orcid": null
+          },
+          {
+            "name": "Jun Wei",
+            "orcid": "https://orcid.org/0000-0002-1263-5260"
+          },
+          {
+            "name": "Xiaowei Su",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/iccnea70678.2026.11722261",
+        "landing_page": "https://doi.org/10.1109/iccnea70678.2026.11722261",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7221570155",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221570155",
+        "publication_date": "2026-09-01",
+        "title": "HDE-based Parameter Identification and Synchronization of Lorenz System",
+        "venue": "International Conference on Computer Network, Electronic and Automation (ICCNEA)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:54.881651Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/icip61757.2026.11630302": {
       "expires_at": "2026-09-17T04:25:08.707373Z",
       "record": {
@@ -20477,6 +20825,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:23.198098Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/jstqe.2026.3742258": {
+      "expires_at": "2026-11-17T01:04:58.838928Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhiyong Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Junhui Li",
+            "orcid": "https://orcid.org/0009-0004-9761-4347"
+          },
+          {
+            "name": "Ye Su",
+            "orcid": "https://orcid.org/0009-0008-4205-0600"
+          },
+          {
+            "name": "Zhuang Chen",
+            "orcid": "https://orcid.org/0000-0003-0691-894X"
+          },
+          {
+            "name": "Xieyang Li",
+            "orcid": null
+          },
+          {
+            "name": "Wang Hao",
+            "orcid": null
+          },
+          {
+            "name": "Yiyuan Xie",
+            "orcid": "https://orcid.org/0000-0002-0049-5256"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jstqe.2026.3742258",
+        "landing_page": "https://doi.org/10.1109/jstqe.2026.3742258",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7221623504",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221623504",
+        "publication_date": "2026-01-01",
+        "title": "Phase Space Compression Optimization on Photonic Neural Networks",
+        "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:58.838928Z",
       "status": "found"
     },
     "openalex:doi:10.1109/lpt.2026.3732335": {
@@ -21309,6 +21707,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-17T00:59:09.760619Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1117/1.oe.65.10.107102": {
+      "expires_at": "2026-11-17T01:04:53.854303Z",
+      "record": {
+        "abstract": "Two-photon lithography (TPL) enables three-dimensional micro/nano-fabrication for diffractive optical neural networks (D2NNs), but its commonly used polymeric materials exhibit low refractive indices, limiting phase modulation and diffraction efficiency in compact optical processors. Here, we introduce an ultrathin high-refractive-index ZnO coating (44.5 nm, λ/10 at 532 nm) on TPL-fabricated blazed gratings and Fresnel microlenses to overcome this intrinsic material limitation. The conformal ZnO layer preserves the original polymer microstructure geometry while significantly increasing the local optical path difference, thereby enhancing phase accumulation for high-fidelity diffraction. Experimental measurements show that diffraction efficiency is improved by 20% for blazed gratings and >50% for microlenses, accompanied by stronger focal confinement and reduced FWHM, consistent with enhanced wavefront control. Material characterization via XPS, XRD, SEM, and EDS confirms uniformity, crystallinity, and chemical stability of the ZnO coating. This hybrid polymer–ZnO strategy addresses the low-index limitation of TPL materials and demonstrates a feasible route toward compact, high-performance D2NN components with precise phase modulation and energy-efficient optical processing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Li Li",
+            "orcid": "https://orcid.org/0000-0001-5324-2271"
+          },
+          {
+            "name": "Z. Wan",
+            "orcid": "https://orcid.org/0000-0003-1182-6724"
+          },
+          {
+            "name": "Xiao Huang",
+            "orcid": null
+          },
+          {
+            "name": "Simone Lamon",
+            "orcid": "https://orcid.org/0000-0003-4455-565X"
+          },
+          {
+            "name": "Haoyi Yu",
+            "orcid": "https://orcid.org/0000-0002-9480-8443"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/1.oe.65.10.107102",
+        "landing_page": "https://doi.org/10.1117/1.oe.65.10.107102",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7222635799",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222635799",
+        "publication_date": "2026-10-16",
+        "title": "Ultrathin high-refractive-index coating for enhanced phase modulation in two-photon-printed diffractive optical elements",
+        "venue": "Optical Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:53.854303Z",
       "status": "found"
     },
     "openalex:doi:10.1117/1.oe.65.7.073102": {
@@ -25715,6 +26155,120 @@
       "retrieved_at": "2026-10-15T00:58:15.441240Z",
       "status": "found"
     },
+    "openalex:doi:10.5281/zenodo.23413943": {
+      "expires_at": "2026-11-17T01:04:58.341359Z",
+      "record": {
+        "abstract": "The El-Rakhawi Neuro-Photonic Silicon Architecture (NPSA) revolutionizes neuromorphic computing by emulating biological dendritic computation to overcome the Von Neumann bottleneck and extreme energy consumption of modern AI. It integrates four core modules: silicon-photonic memristive synapses for low-power Spike-Timing-Dependent Plasticity; dendritic optical interferometers combining linear Mach-Zehnder interferometers with non-linear phase-change elements for localized signal integration; Causal Spiking Neural Networks utilizing a Temporal Asymmetry Constraint to learn true cause-and-effect rather than statistical correlations; and non-equilibrium thermodynamic control to minimize Joule heating. Performance is quantified by the El-Rakhawi Neuro-Photonic Efficiency Metric (ENPEM), measuring causal information throughput per Joule. By bridging solid-state photonics, thermodynamics, and causal neuroscience, NPSA enables scalable, ultra-low-power edge AI for real-time applications, achieving energy efficiencies orders of magnitude beyond traditional digital processors while strictly adhering to physical limits.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "mohamed kamal arafa el-rakhawi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23413943",
+        "landing_page": "https://doi.org/10.5281/zenodo.23413943",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23413943",
+        "openalex_id": "https://openalex.org/W7222467958",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222467958",
+        "publication_date": "2026-10-16",
+        "title": "EL-RAKHAWI NEURO-PHOTONIC SILICON ARCHITECTURE: EMULATING BIOLOGICAL DENDRITIC COMPUTATION VIA NON-EQUILIBRIUM THERMODYNAMICS AND CAUSAL SPIKING NEURAL NETWORKS",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:58.341359Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.23421293": {
+      "expires_at": "2026-11-17T01:04:55.863106Z",
+      "record": {
+        "abstract": "Photonic processors use optical signals for computation, leveraging the high bandwidth and low loss of optical links. While many approaches have been proposed, including in memory photonic circuits, most efforts have focused on the physical design of photonic components rather than full architectural integration with electronic peripheral circuitry. In this work, we present a microarchitecture level study that estimates the compute efficiency and density of three prominent photonic computing architectures. Our evaluation accounts for both the photonic circuits and the essential peripheral electronics required for optoelectronic and analog to digital conversions. We further demonstrate a heterogenous photonic electronic in memory processing approach for low latency neural network inference. These results provide a better understanding of the design aspects of photonic computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Frank Brückerhoff‐Plückelmann",
+            "orcid": "https://orcid.org/0009-0009-7713-6735"
+          },
+          {
+            "name": "Jelle Dijkstra",
+            "orcid": "https://orcid.org/0009-0007-4647-4235"
+          },
+          {
+            "name": "Julian Büchel",
+            "orcid": "https://orcid.org/0000-0001-9495-7150"
+          },
+          {
+            "name": "Bottyan Batkai",
+            "orcid": "https://orcid.org/0009-0007-5864-6305"
+          },
+          {
+            "name": "Falk Ebert",
+            "orcid": null
+          },
+          {
+            "name": "Luis Mickeler",
+            "orcid": "https://orcid.org/0009-0003-8480-8874"
+          },
+          {
+            "name": "Urs Egger",
+            "orcid": null
+          },
+          {
+            "name": "Abu Sebastian",
+            "orcid": "https://orcid.org/0000-0001-5603-5243"
+          },
+          {
+            "name": "Wolfram H. P. Pernice",
+            "orcid": "https://orcid.org/0000-0003-4569-4213"
+          },
+          {
+            "name": "Ghazi Sarwat Syed",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23421293",
+        "landing_page": "https://doi.org/10.5281/zenodo.23421293",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23421293",
+        "openalex_id": "https://openalex.org/W7222550687",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222550687",
+        "publication_date": "2026-10-16",
+        "title": "A Case Study on the Performance Metrics of Integrated Photonic Computing",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:55.863106Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.23425443": {
+      "expires_at": "2026-11-17T01:04:53.452679Z",
+      "record": {
+        "abstract": "The El-Rakhawi Bio-Causal Neuro-Synthetic Symbiosis System (ECNSS) is a patentable hybrid architecture integrating iPSC-derived neural networks with neuromorphic photonic-silicon processors. Replacing invasive electrodes, it uses a nano-opto-magnetic interface with genetically expressed optogenetic channels for non-destructive synaptic modulation. Governed by the RCCA-Causal Orchestrator, it maps bio-computational states onto a Riemannian manifold via a Randers-Finsler metric. By applying exponentially steep topological barrier potentials around pathological attractors, it mathematically guarantees safe neural transitions, preventing seizures. Integrated micro-calorimetric sensors monitor real-time entropy production, ensuring strict compliance with the El-Rakhawi Causal Entropic Bound (ECB) and Cognitive Sovereignty Index (CSI). ECNSS enables ultra-low-power, self-healing AI and precise neuro-rehabilitation, providing a mathematically closed framework to reverse neurodegenerative synaptic loss and deliver causal sensory feedback in next-generation Brain-Computer Interfaces.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "m el-rakhawi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23425443",
+        "landing_page": "https://doi.org/10.5281/zenodo.23425443",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23425443",
+        "openalex_id": "https://openalex.org/W7222530937",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222530937",
+        "publication_date": "2026-10-16",
+        "title": "EL-RAKHAWI BIO-CAUSAL NEURO-SYNTHETIC SYMBIOSIS SYSTEM (ECNSS) A Hybrid Bio-Computing Architecture for Self-Healing, Ultra-Low-Power Causal Intelligence and Targeted Neuro-Rehabilitation",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:53.452679Z",
+      "status": "found"
+    },
     "openalex:doi:10.6084/m9.figshare.33306492.v1": {
       "expires_at": "2026-10-11T01:00:17.485706Z",
       "record": {
@@ -26634,6 +27188,44 @@
       "retrieved_at": "2026-08-31T01:07:02.675473Z",
       "status": "found"
     },
+    "openalex:title:19610c7bf5c910f8f6385c61f9a7d7f854c408a5a0c069e3ae2a04f047f5fbd2": {
+      "expires_at": "2026-10-25T01:04:59.669117Z",
+      "record": {
+        "abstract": "Score-based black-box adversarial attacks pose a serious threat to deployed machine learning systems by exploiting repeated model queries to craft adversarial examples, requiring neither access to model parameters nor architecture. Existing defenses predominantly rely on stochastic output perturbations, which fail to prevent determined attackers from recovering stable gradient estimates by increasing query budgets or averaging over randomness. In this work, we propose the Gradient Confusion Defense (GCD), a retraining-free, deterministic test-time wrapper that actively shapes the probability vector returned to querying adversaries. By solving a constrained optimization problem grounded in the model's Jacobian, GCD aligns the exposed logit-gradient with a target confusion direction that is maximally misaligned with the true adversarial loss gradient---increasing the query complexity of attacks without sacrificing predictive utility or top-1 accuracy. We provide rigorous theoretical analysis demonstrating that GCD provably slows gradient-estimation-based attacks and induces systematic accept/reject errors in random search-based attacks, with the confusion effect amplifying as the fraction of defended queries increases. Extensive experiments on CIFAR-10 and ImageNet across multiple architectures (ResNet-18, ResNet-50, ViT-B/16) and four state-of-the-art attacks confirm these predictions: GCD achieves state-of-the-art robustness, while incurring zero clean accuracy degradation. %Crucially, unlike randomization-based defenses, GCD's deterministic structure provides resilience against adaptive attacks that exploit stochasticity, making it well-suited for security-critical deployment settings.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ali Javeri",
+            "orcid": null
+          },
+          {
+            "name": "Javad Hezareh",
+            "orcid": null
+          },
+          {
+            "name": "Radin Shahdaei",
+            "orcid": null
+          },
+          {
+            "name": "Amir Mahdi Sadeghzadeh",
+            "orcid": "https://orcid.org/0000-0002-1492-2714"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.17382",
+        "landing_page": "https://arxiv.org/abs/2610.17382",
+        "open_access_url": "https://arxiv.org/abs/2610.17382",
+        "openalex_id": "https://openalex.org/W7221823520",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221823520",
+        "publication_date": "2026-10-12",
+        "title": "Mitigating Black-Box Score-Based Query Attacks via Gradient Confusion",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:59.669117Z",
+      "status": "found"
+    },
     "openalex:title:1adc88c76d469186b074be45146ed1c6905b0e273dd119266784192a9811d410": {
       "expires_at": "2026-09-11T01:00:15.900713Z",
       "record": null,
@@ -26652,11 +27244,75 @@
       "retrieved_at": "2026-08-26T00:32:38.251477Z",
       "status": "not_found"
     },
+    "openalex:title:1e959e0ca2de3682c2ec75319b576b0f19300d6a31516cbace1652486f5661ec": {
+      "expires_at": "2026-10-25T01:04:55.442479Z",
+      "record": {
+        "abstract": "Minimax optimization refers to a class of optimization problems with some variables to minimize and other variables to maximize. Biased stochastic gradient methods have shown practical success in solving minimax problems to either improve robustness, enhance communication efficiency, or decrease computational costs. These successes motivate a lot of theoretical works to study the convergence of biased stochastic gradient methods, while their generalization analysis remains untouched. In this paper, we present the first framework to study the stability and generalization of biased stochastic gradient methods for minimax problems. We establish a connection between stability and generalization for minimax problems by relaxing the existing bounded gradient assumption to a bounded second moment condition. We then introduce a generalized Lipschitz-type condition on bias and gradient estimators, and derive a general stability bound to clarify the connection among bias, gradient estimators, and stability. We apply our general analysis to Zeroth-order and Clipped stochastic gradient descent ascent (SGDA), and derive stability bounds that match those of SGDA under appropriate smoothing/clipping parameters. We combine stability and convergence analyses together, and derive optimal excess risk bounds of order $1/\\sqrt{n}$, where $n$ is the sample size.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shuang Zeng",
+            "orcid": null
+          },
+          {
+            "name": "Yunwen Lei",
+            "orcid": "https://orcid.org/0000-0002-5383-467X"
+          },
+          {
+            "name": "Yiming Ying",
+            "orcid": "https://orcid.org/0000-0001-7345-6672"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.19322",
+        "landing_page": "https://arxiv.org/abs/2610.19322",
+        "open_access_url": "https://arxiv.org/abs/2610.19322",
+        "openalex_id": "https://openalex.org/W7221993734",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221993734",
+        "publication_date": "2026-10-14",
+        "title": "Generalization Analysis of Biased Stochastic Gradient Methods for Minimax Problems",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:55.442479Z",
+      "status": "found"
+    },
     "openalex:title:204f7f763ddd9b0ee0bfdf004597a2550f5e0e7c63ab7bef2e97e860f795b4b1": {
       "expires_at": "2026-09-25T01:02:12.398704Z",
       "record": null,
       "retrieved_at": "2026-09-18T01:02:12.398704Z",
       "status": "not_found"
+    },
+    "openalex:title:206e5e0e8da71c6347a3c6caac4928568fc7d794669ee3b15edc86ac27e397e7": {
+      "expires_at": "2026-10-25T01:04:52.112428Z",
+      "record": {
+        "abstract": "Statistical inference is fundamentally a problem of rational learning. When the true data-generating mechanism cannot be safely assumed to lie within a finite-dimensional parametric family, Bayesian nonparametrics provides a flexible framework to allow model complexity to grow with the observations. However, the adoption of infinite-dimensional priors introduces distinct theoretical and computational challenges. This dissertation studies three facets of Bayesian learning: dynamics, compression, and pooling through a predictive lens to resolve the incompleteness of existing inferential algorithms. First, we investigate the dynamics of sequential learning by developing a gradient flow theory for recursive mixture estimation. We establish that Newton’s algorithm operates as the forward Euler discretization of the Fisher-Rao gradient flow of the marginal log-likelihood on the space of probability measures. This formulation clarifies which learning problem the predictive sequence targets and provides a principled route for incorporating prior regularization. Second, we address the computational limits of exact nonparametric inference by developing a coreset theory for model-based clustering. Because standard Euclidean coresets fail to capture the combinatorial topology of random partitions, we introduce a predictive matching criterion. This approach preserves the clustering structure of the full dataset within a weighted subsample of sublinear size. Finally, we examine the structural pooling of heterogeneous data. To avoid the unjustified homogeneity assumptions inherent in standard random-effects models, we develop a Dirichlet process mixture of Pólya trees for nonparametric meta-analysis. Applied to immunotherapy progression-free-survival data, this semiparametric procedure clusters studies and estimates continuous within-cluster densities without parametric constraints. Ultimately, this thesis demonstrates that a nonparametric and predictive-first perspective provides a rigorous language necessary to render Bayesian inference scalable and flexible.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bernardo Flores López",
+            "orcid": null
+          },
+          {
+            "name": "0009-0003-7588-0663",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.26153/tsw/64931",
+        "landing_page": "https://doi.org/10.26153/tsw/64931",
+        "open_access_url": "https://doi.org/10.26153/tsw/64931",
+        "openalex_id": "https://openalex.org/W7222142036",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222142036",
+        "publication_date": "2026-08-01",
+        "title": "Bayesian nonparametric learning : from predictive dynamics to meta-analysis",
+        "venue": "Texas Digital Library (University of Texas)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:52.112428Z",
+      "status": "found"
     },
     "openalex:title:20cfe67813be963e442465719751d8578d9f569e54fe5b75a1f930d33bbb3097": {
       "expires_at": "2026-10-07T01:10:07.270923Z",
@@ -26988,6 +27644,44 @@
       "retrieved_at": "2026-09-21T01:07:21.310826Z",
       "status": "not_found"
     },
+    "openalex:title:36f01fe28b1011c61988525079aac58e4f03334c80251ad1cbd0ce9c180e4dc5": {
+      "expires_at": "2026-10-25T01:05:05.886985Z",
+      "record": {
+        "abstract": "Recently, Morris et al. introduced TinyLoRA, a strategy for LLM fine-tuning which introduces arbitrarily few parameters, and demonstrated accuracy improvements using less than $10$ parameters rather than the ${\\gtrsim 10,000}$ typically demanded by LoRA-based methods. However, that study continued to use gradient-based local search methods of the kind deployed for training multi-billion parameter LLMs in the first place. This article is predicated on the observation that, in the low dimensional setting, global optimization methods become tractable, unlocking Large language Model Bayesian Optimization (LlMBO). LlMBO is sample-efficient, gradient-free, memory-light, parallelizes across devices without synchronization, and, unlike policy-gradient methods, can optimize greedy-decoding accuracy directly. We describe numerical experiments comparing LlMBO against GRPO on fine-tuning tasks for a variety of models on a math benchmark suite which show that LlMBO can be a suitable alternative in this regime, matching or exceeding GRPO's fine tuning gains, while using a fraction of the compute and memory.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Aditya Kulkarni",
+            "orcid": null
+          },
+          {
+            "name": "Davide Sartor",
+            "orcid": "https://orcid.org/0000-0003-1407-4783"
+          },
+          {
+            "name": "Carlos Soto",
+            "orcid": null
+          },
+          {
+            "name": "Nathan Wycoff",
+            "orcid": "https://orcid.org/0000-0002-0336-7401"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.18504",
+        "landing_page": "https://arxiv.org/abs/2610.18504",
+        "open_access_url": "https://arxiv.org/abs/2610.18504",
+        "openalex_id": "https://openalex.org/W7221762890",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221762890",
+        "publication_date": "2026-10-13",
+        "title": "How Low Can You Go: Fine-Tuning LLMs with Bayesian Optimization (LlMBO)",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:05:05.886985Z",
+      "status": "found"
+    },
     "openalex:title:396433acbcc3f91784f5268f64740577bf2596dcfa06755340cef71a7f90d310": {
       "expires_at": "2026-08-16T00:35:59.656653Z",
       "record": null,
@@ -27134,6 +27828,36 @@
       "retrieved_at": "2026-10-04T01:36:01.483064Z",
       "status": "found"
     },
+    "openalex:title:3d72e1049e91fe25f979573999f962c947a309313a0e17a9fea01ad9f22d8c1b": {
+      "expires_at": "2026-10-25T01:04:57.529489Z",
+      "record": {
+        "abstract": "Zeroth-order (ZO) optimization enables memory-efficient fine-tuning of large language models (LLMs). However, ZO optimization suffers from high variance in high-dimensional parameter spaces. While recent methods restrict perturbations to random low-rank subspaces, these subspaces often misalign with task-specific descent directions. We propose AdaSub-ZO, a novel forward-only fine-tuning framework in learnable low-rank subspaces. Instead of relying on fixed random matrices, AdaSub-ZO iteratively learns layer-wise projection matrices directly from finite-difference feedback to track task-aware descent directions. Furthermore, AdaSub-ZO incorporates a subspace momentum acceleration mechanism to smooth noisy gradient estimates across evolving subspace bases. Extensive experiments on natural language understanding tasks demonstrate that AdaSub-ZO outperforms existing ZO baselines, substantially reducing gradient estimation variance and accelerating convergence.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Chuang Tong",
+            "orcid": null
+          },
+          {
+            "name": "Ling Chen",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.15225",
+        "landing_page": "https://arxiv.org/abs/2610.15225",
+        "open_access_url": "https://arxiv.org/abs/2610.15225",
+        "openalex_id": "https://openalex.org/W7221769395",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221769395",
+        "publication_date": "2026-10-10",
+        "title": "Zeroth-Order Fine-Tuning of LLMs in Learnable Low-Rank Subspaces",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:57.529489Z",
+      "status": "found"
+    },
     "openalex:title:3e2b531b19fc58e53e14b3b0dc7ac6fe9630b966c7276851ab79763507eac8bf": {
       "expires_at": "2026-09-25T01:02:28.408166Z",
       "record": null,
@@ -27245,6 +27969,40 @@
       "record": null,
       "retrieved_at": "2026-09-23T01:01:10.416485Z",
       "status": "not_found"
+    },
+    "openalex:title:40e69a62540f8838042f7d88ffe89a8999b9e1fb8db8e3d5c3d79cccb1cac5f3": {
+      "expires_at": "2026-10-25T01:04:52.907550Z",
+      "record": {
+        "abstract": "Transportation planning has traditionally required substantial expertise in network modeling, traffic assignment, and optimization. As a result, strategic analyses such as network design, capacity expansion, and model calibration remain inaccessible to non-expert decision makers. Recent advances in large language models (LLMs) provide an opportunity to bridge this gap by enabling natural-language interaction with complex transportation planning tools. However, existing LLM-based systems primarily serve as interfaces to simulation software and lack the ability to efficiently search, evaluate, and optimize transportation solutions. This study proposes an integrated human-AI transportation planning framework that combines a large language model, a model context protocol (MCP) interface, an open-source transportation planning engine (AequilibraE), and a differentiable user equilibrium (UE) assignment layer. The framework allows non-expert users to execute network analyses and improve solutions for optimization. A differentiable UE layer is developed by directly differentiating the Karush-Kuhn-Tucker (KKT) conditions of the Beckmann traffic assignment problem. The proposed framework is demonstrated through two representative planning tasks: calibration of travel time functions from observed traffic counts and network design under budget constraints. The examples illustrate how differentiable transportation models and LLM agents can jointly democratize transportation planning and substantially reduce barriers between domain expertise and transportation decision making.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Eunseung Lee",
+            "orcid": null
+          },
+          {
+            "name": "Gyeongjun Kim",
+            "orcid": "https://orcid.org/0000-0002-6109-5416"
+          },
+          {
+            "name": "Keemin Sohn",
+            "orcid": "https://orcid.org/0000-0002-7270-7094"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.16140",
+        "landing_page": "https://arxiv.org/abs/2610.16140",
+        "open_access_url": "https://arxiv.org/abs/2610.16140",
+        "openalex_id": "https://openalex.org/W7221766399",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221766399",
+        "publication_date": "2026-10-12",
+        "title": "Large Language Model Assisted Transportation Planning through a Differentiable User Equilibrium Layer",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:52.907550Z",
+      "status": "found"
     },
     "openalex:title:4114fbae9b962f3a411545fc2497676637fc049a1bd9ba04ff31061fd75a8483": {
       "expires_at": "2026-09-02T00:32:43.679530Z",
@@ -27444,6 +28202,64 @@
       "retrieved_at": "2026-09-21T01:07:25.310656Z",
       "status": "not_found"
     },
+    "openalex:title:4f30aa89913f4fd1eb253c1e2168791104bc6e775be363f0cb6b4423ea0fd582": {
+      "expires_at": "2026-10-25T01:05:06.591169Z",
+      "record": {
+        "abstract": "Anaerobic digestion (AD) models can be challenging to calibrate against real data due to limited practical identifiability, data scarcity, and model complexity. Weighted least squares objective functions and gradient-based solvers using finite differences are often used in literature, but result in suboptimal parameter estimates and large uncertainty bands. This paper identifies the parameters of a reduced-order ADM1 by comparing the frameworks of maximum likelihood estimation (MLE) and Bayesian inference (BI), and quantifies uncertainties of parameters and outputs. Multirate experimental data are taken from a lab-scale AD reactor fed with agricultural substrates and operated at organic loading rates of 3$\\,$g VS $\\mathrm{m^{-3}d^{-1}}$. Global optima are found via global and gradient-based local search algorithms using forward sensitivities. Enhanced scatter search provides the best global search results. These are refined by the Gauss-Newton algorithm as the best local search, which delivers $R^2$ values of 0.95 for acetic acid and 0.77 for biogas production. BI yields substantially narrower uncertainty bands than MLE and avoids the need for a global search by incorporating prior knowledge about parameter distributions. The search space is captured efficiently by log10 scaling of parameters. Algorithmic details on its implications are provided. Despite a high-resolution lab-scale dataset, the ADM1-specific inhibition parameter $K_\\mathrm{I,nh3}$ is practically not identifiable with MLE, and shows a low output sensitivity, whereas a parameter for the effective ion concentration shows superb practical identifiabilty at high confidence with both MLE and BI. The present work lays a scalable base for calibration of nonlinear AD models by providing reliable simulations. It thus advances model-based monitoring and control applications of multirate processes such as agricultural AD plants.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Simon Hellmann",
+            "orcid": "https://orcid.org/0009-0002-4776-8407"
+          },
+          {
+            "name": "Leander Lerch",
+            "orcid": null
+          },
+          {
+            "name": "Terrance Wilms",
+            "orcid": "https://orcid.org/0000-0002-7314-0683"
+          },
+          {
+            "name": "Moritz Reumschüssel",
+            "orcid": null
+          },
+          {
+            "name": "Alberto Meola",
+            "orcid": "https://orcid.org/0000-0002-9393-7542"
+          },
+          {
+            "name": "Félix Delory",
+            "orcid": null
+          },
+          {
+            "name": "Steffi Knorn",
+            "orcid": "https://orcid.org/0000-0002-4413-4225"
+          },
+          {
+            "name": "Stefan Streif",
+            "orcid": "https://orcid.org/0000-0002-3398-1226"
+          },
+          {
+            "name": "Sören Weinrich",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.19098",
+        "landing_page": "https://arxiv.org/abs/2610.19098",
+        "open_access_url": "https://arxiv.org/abs/2610.19098",
+        "openalex_id": "https://openalex.org/W7222245964",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222245964",
+        "publication_date": "2026-10-13",
+        "title": "Global Parameter Identification and Uncertainty Quantification of reduced-order ADM1 using Maximum Likelihood Estimation and Bayesian Inference",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:05:06.591169Z",
+      "status": "found"
+    },
     "openalex:title:4f5fad19c1a8a0d47fca3a3a128c8c1bd7bd5e9f52df61b238979751202b9481": {
       "expires_at": "2026-10-05T01:11:35.333069Z",
       "record": null,
@@ -27492,6 +28308,44 @@
       "retrieved_at": "2026-09-07T01:06:47.512628Z",
       "status": "not_found"
     },
+    "openalex:title:575dc661ee2b0fe90558d627942ead807af2750ee33c56586586da7ed4a314d4": {
+      "expires_at": "2026-10-25T01:05:07.357524Z",
+      "record": {
+        "abstract": "Conventional fixed-time traffic signal optimization and recent day-to-day signal retiming generally model route adaptation under prescribed route-choice behavior and origin-destination (OD) demand, while neglecting the fact that travelers' behavior can be performative to the signal control policy. A signal timing policy learned from historical traffic observations must therefore account for how its own deployment changes the distribution on which it will be evaluated in the future. We formulate this problem as performative signal control under observed traveler responses and characterize performative stability of the coupled policy-demand system. We propose incremental day-to-day retiming using the local policy gradient at the current operating point, estimated offline through simulation-based zeroth-order optimization without an explicit day-to-day demand-response model. This gradual approach provides a feasible path for policy and demand to co-evolve toward stability. Experiments on a downtown Denver network show that our approach improves congestion, throughput, and stability, generalizes across different demand levels, and remains effective when the offline simulator contains mismatched travel demand and routing behaviors.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shuchang Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Xinwu Qian",
+            "orcid": "https://orcid.org/0000-0001-8001-2164"
+          },
+          {
+            "name": "Santiago Segarra",
+            "orcid": "https://orcid.org/0000-0002-8408-9633"
+          },
+          {
+            "name": "Zhongyuan Zhao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.19022",
+        "landing_page": "https://arxiv.org/abs/2610.19022",
+        "open_access_url": "https://arxiv.org/abs/2610.19022",
+        "openalex_id": "https://openalex.org/W7222346167",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222346167",
+        "publication_date": "2026-10-13",
+        "title": "A Performative Control Approach to Day-to-Day Traffic Signal Retiming",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:05:07.357524Z",
+      "status": "found"
+    },
     "openalex:title:58a4e8946f478ec97ae906eac840dcbedd335e53d76cd06cbd7c9cc445297568": {
       "expires_at": "2026-08-16T00:36:12.468945Z",
       "record": null,
@@ -27502,6 +28356,12 @@
       "expires_at": "2026-10-10T01:04:44.392430Z",
       "record": null,
       "retrieved_at": "2026-10-03T01:04:44.392430Z",
+      "status": "not_found"
+    },
+    "openalex:title:5b03a6598954d4b0c503a289e8aacc5f094ab4beb992f18bb5bf1e454d6dc1c3": {
+      "expires_at": "2026-10-25T01:05:00.268442Z",
+      "record": null,
+      "retrieved_at": "2026-10-18T01:05:00.268442Z",
       "status": "not_found"
     },
     "openalex:title:5d31563a0cb0f13d3176b86b3777a592451f9621db32e8f594764170ac2cec4a": {
@@ -28956,6 +29816,52 @@
       "retrieved_at": "2026-10-16T00:57:50.427389Z",
       "status": "not_found"
     },
+    "openalex:title:a91db7004d5a48913ed068dd5095b7aaa2fec90b51ec84c30f47c93dc230bfce": {
+      "expires_at": "2026-10-25T01:04:56.601283Z",
+      "record": {
+        "abstract": "LLM agents can adapt to task feedback by revising the textual context that guides their behavior, without changing their model parameters. However, turning execution rewards into reusable context updates is challenging: individual trajectories offer limited comparative evidence about what to change, while task-specific fixes may overgeneralize when incorporated into a shared context. We introduce TextualRL, a gradient-free reinforcement learning framework that treats a group of rollouts from the same task under the same context, rather than an isolated trajectory, as the unit of policy critique. Groupwise Policy Critique contrasts successful and failed rollouts within a task; when outcomes are uniform, it draws on cross-task evidence to identify behaviors worth preserving or formulate repair hypotheses. Cross-Group Policy Update reviews the resulting proposals against evidence pooled across groups, including observations that yield no proposed edit, to refine their content and applicability. Reviewed proposals form a bounded textual patch, with adoption of the candidate context determined by held-out validation rewards. Together, these components establish a reward-driven policy optimization loop in which multiple attempts jointly inform reusable context updates. We evaluate TextualRL with five target agents on six benchmarks. Averaged over the six benchmarks, TextualRL improves test accuracy over the base model by 24.4 and 15.3 percentage points for GPT-5.5 and Qwen3.8-27B, respectively.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tianyu Huai",
+            "orcid": "https://orcid.org/0009-0000-3573-9962"
+          },
+          {
+            "name": "Jie Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Bo Mao",
+            "orcid": null
+          },
+          {
+            "name": "Qin Chen",
+            "orcid": null
+          },
+          {
+            "name": "Liang He",
+            "orcid": null
+          },
+          {
+            "name": "Xipeng Qiu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.18216",
+        "landing_page": "https://arxiv.org/abs/2610.18216",
+        "open_access_url": "https://arxiv.org/abs/2610.18216",
+        "openalex_id": "https://openalex.org/W7221795015",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221795015",
+        "publication_date": "2026-10-13",
+        "title": "TextualRL: Textual Reinforcement Learning for Context Management",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:04:56.601283Z",
+      "status": "found"
+    },
     "openalex:title:aa55fccd82ec16aa4bfed3034a68ad67e61d94c83a280c4978e5eec73ca34464": {
       "expires_at": "2026-10-21T00:59:33.137095Z",
       "record": null,
@@ -29474,6 +30380,36 @@
       "retrieved_at": "2026-08-18T04:25:25.823067Z",
       "status": "found"
     },
+    "openalex:title:c5173611b4ea3265eddeafae09972c00d4529bfea8d1a76244a6023e362632ce": {
+      "expires_at": "2026-10-25T01:05:02.437477Z",
+      "record": {
+        "abstract": "Orbital optimization within the variational quantum eigensolver (VQE) framework is useful for improving active-space quality and accurately capturing electron correlation with shallow quantum circuits. The orbital-optimized unitary coupled cluster (OO-UCC) method [W. Mizukami et al., Phys. Rev. Res. 2, 033421 (2020)], in its original formulation, employs the orbital gradient and Hessian in a Newton--Laphson procedure. In this study, we propose sequential orbital-optimized unitary coupled cluster doubles (SOO-UCCD), extending the gradient-free sequential minimal optimization approach [K. M. Nakanishi et al., Phys. Rev. Res. 2, 043158 (2020)] to orbital rotation parameters. Based on the frequency structure implied by the algebraic properties of the orbital rotation generators, our method determines each orbital rotation angle from a nine-point energy profile. The energy landscape is evaluated by classically transforming the Hamiltonian integrals and contracting them with the reduced density matrices already measured for the VQE energy evaluation. This allows for orbital optimization without evaluating the orbital gradient or Hessian. By building on the core benefits of the OO-UCC framework, our method provides a gradient-free and hyperparameter-free orbital-optimization procedure. State-vector simulations for LiH in the STO-3G basis show that SOO-UCCD reproduces UCCSD-level accuracy along the bond-stretching curve and exhibits macro-iteration convergence comparable to that of L-BFGS-based orbital optimization.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hiromichi Hayashi",
+            "orcid": "https://orcid.org/0000-0002-5449-1744"
+          },
+          {
+            "name": "Takeshi Sato",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.16032",
+        "landing_page": "https://arxiv.org/abs/2610.16032",
+        "open_access_url": "https://arxiv.org/abs/2610.16032",
+        "openalex_id": "https://openalex.org/W7221767843",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221767843",
+        "publication_date": "2026-10-12",
+        "title": "Sequential optimization for orbital-optimized variational quantum eigensolvers",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:05:02.437477Z",
+      "status": "found"
+    },
     "openalex:title:c5351f67ca839f2f9a54772562a1a4735b1e7c07f1352b3bef1fd13c6832bcaa": {
       "expires_at": "2026-09-28T01:07:19.681928Z",
       "record": null,
@@ -29503,6 +30439,36 @@
       "record": null,
       "retrieved_at": "2026-09-28T01:11:29.239762Z",
       "status": "not_found"
+    },
+    "openalex:title:c6951389d273df018f693572fd2219d665bb4d95f6334d6749a69afd831061c7": {
+      "expires_at": "2026-10-25T01:05:04.112192Z",
+      "record": {
+        "abstract": "Recent work has sought to transfer first-order nonconvex optimization guarantees to zeroth-order methods through gradient estimators, typically incurring a factor linear in $d$. \\citet{kornowski2024} obtained an $\\mathcal{O}(dδ^{-1}ε^{-3})$ oracle complexity for nonsmooth nonconvex optimization and asked whether its dependence on all three parameters is jointly optimal. Although the dimension dependence and the first-order dependence on $(δ,ε)$ are separately known to be unavoidable, a matching zeroth-order lower bound has remained open. We answer this question in the unrestricted full-space setting. For smooth stochastic nonconvex optimization, we establish a scalar-oracle lower bound of $Ω\\!\\left(dL_0^2\\min\\{ΔH,L_0^2\\}/ε^4\\right)$ assuming a smooth, globally lower-bounded population objective and a second-moment bound on sample Lipschitz constants. A smooth reduction then yields a lower bound for Goldstein stationarity, proving the joint minimax optimality of the dependence on $(d,δ,ε)$ under explicit high-dimensional and small-accuracy conditions. Crucially, our results allow algorithms to query arbitrary points in $\\mathbb{R}^d$, adaptively select sample-function labels, reuse the same sampled function at any number of locations, and output points without spatial restrictions. Thus, unlike lower bounds based on bounded query regions or fresh evaluation noise, our guarantees apply to a fully adaptive, reusable-sample scalar oracle. We also establish a separate noiseless exact-value lower bound against randomized algorithms, and hence also against deterministic methods. Our proof combines a globally defined sequential nonconvex construction with an exact Gaussian scalar channel, multistage random-field estimates, and an antithetic finite-sample realization that preserves information hardness under adaptive reuse.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuxuan Xia",
+            "orcid": null
+          },
+          {
+            "name": "Xiao–Tong Yuan",
+            "orcid": "https://orcid.org/0000-0002-7151-8806"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.19652",
+        "landing_page": "https://arxiv.org/abs/2610.19652",
+        "open_access_url": "https://arxiv.org/abs/2610.19652",
+        "openalex_id": "https://openalex.org/W7222316468",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222316468",
+        "publication_date": "2026-10-14",
+        "title": "On Global Joint Lower Bounds in Zeroth-Order Nonconvex Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:05:04.112192Z",
+      "status": "found"
     },
     "openalex:title:c8e5f7f13de1c5e2dd1eda61932f53d050fec817d542a547fb423fe0a9379b7a": {
       "expires_at": "2026-09-22T01:03:29.566395Z",
@@ -29601,6 +30567,44 @@
       "record": null,
       "retrieved_at": "2026-09-13T01:07:38.865385Z",
       "status": "not_found"
+    },
+    "openalex:title:d63daf6695652e997b502087a42fbff4eca6d178c7dc6f79e1b2e7b178c02ea5": {
+      "expires_at": "2026-10-25T01:05:05.047848Z",
+      "record": {
+        "abstract": "Influence functions enable principled data selection for large language models (e.g., identifying influential training samples for model editing, debugging, or efficient fine-tuning). However, scaling IFs to LLMs is hindered by the intractability of billion-scale Hessian matrices and the prohibitive memory overhead of backpropagation (BP). While many classical IF approximations reduce Hessian complexity, they still rely on BP for gradient computation, requiring massive storage for intermediate activations that impedes practical data selection at scale. To address this, we propose ZOIF, a zeroth-order framework for influence estimation that operates entirely via forward passes, enabling memory-efficient data selection under resource constraints. ZOIF decomposes influence estimation into three BP-free stages: (1) approximating the average proxy gradient via zeroth-order estimation; (2) reformulating and solving the inverse Hessian-vector product as an auxiliary zeroth-order optimization to bypass explicit inversion; and (3) deriving per-sample influence scores via a forward finite difference along the previously computed parameter update direction. Experiments show that ZOIF selects data subsets with downstream utility competitive with, and in some cases exceeding, the evaluated baselines, yet at substantially lower peak memory cost and with comparable overall computation time.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lisong He",
+            "orcid": null
+          },
+          {
+            "name": "Yunxuan Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Haishan Ye",
+            "orcid": "https://orcid.org/0000-0002-0242-4857"
+          },
+          {
+            "name": "Xiangyu Chang",
+            "orcid": "https://orcid.org/0000-0001-9225-0477"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.15336",
+        "landing_page": "https://arxiv.org/abs/2610.15336",
+        "open_access_url": "https://arxiv.org/abs/2610.15336",
+        "openalex_id": "https://openalex.org/W7221770872",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221770872",
+        "publication_date": "2026-10-11",
+        "title": "ZOIF: Zeroth-Order Influence Function Estimation for LLM Data Selection Using Only Forward Passes",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-18T01:05:05.047848Z",
+      "status": "found"
     },
     "openalex:title:d773d6fbb26d1f4b4f09a95171e36c31e1e0fa7a575dae0c8ebc68392daf9952": {
       "expires_at": "2026-09-11T01:00:25.102264Z",
