@@ -1,25 +1,49 @@
 {
   "abstract_fallback_candidate_ids": [],
   "abstract_fallback_count": 0,
+  "architecture_evidence": {
+    "5ce553b88d26d1296b379174": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    },
+    "9039d2d888f22d7a64bcfc06": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    },
+    "d11ea194238cf32852af6b74": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    }
+  },
+  "architecture_repairs": 0,
   "automatic_history_pending": false,
   "automatic_queue_candidate_count": 4,
+  "completed_at": "2026-10-18T12:53:53.228405Z",
   "completed_candidate_filtered_count": 0,
-  "daily_digest_pending": false,
-  "digest_date": "2026-10-18",
-  "email_enabled": false,
-  "estimated_cost_cny": 0.1144272,
-  "execution_mode": "automatic_daily_batch",
-  "failure_count": 2,
-  "failures": [
-    {
-      "candidate_id": "9039d2d888f22d7a64bcfc06",
-      "reason": "summary 9039d2d888f22d7a64bcfc06 failed schema validation: 'title_metadata_abstract_and_open_full_text_methods' is not one of ['abstract', 'title_and_metadata', 'not_available']; 'title_metadata_abstract_and_open_full_text_methods' is not one of ['abstract', 'title_and_metadata', 'not_available']"
-    },
-    {
-      "candidate_id": "d11ea194238cf32852af6b74",
-      "reason": "summary d11ea194238cf32852af6b74 failed schema validation: '输出生成：最终输出为一组按影响力排序的训练样本索引或子集，供模型编辑、调试或高效微调等下游任务使用。' is too short; 'full_text_methods' is not one of ['abstract', 'title_and_metadata', 'not_available']; 'full_text_methods' is not one of ['abstract', 'title_and_metadata', 'not_available']"
-    }
+  "completed_candidate_ids": [
+    "5ce553b88d26d1296b379174",
+    "9039d2d888f22d7a64bcfc06",
+    "d11ea194238cf32852af6b74"
   ],
+  "completion_mode": "automatic_daily_batch_after_local_validation",
+  "daily_digest_pending": true,
+  "digest_date": "2026-10-18",
+  "digest_json_file": "runtime-state/data/digests/2026-10-18.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-10-18.generated.md",
+  "email_enabled": false,
+  "estimated_cost_cny": 0.0390792,
+  "execution_mode": "automatic_daily_batch",
+  "failure_count": 0,
+  "failures": [],
   "full_text_method_contexts": {
     "5ce553b88d26d1296b379174": {
       "abstract_available": true,
@@ -27,7 +51,7 @@
       "candidate_id": "5ce553b88d26d1296b379174",
       "character_count": 10958,
       "content_sha256": "8d7de42835a38bf04c97d44d76f00b22795e65e48570c684107a3c82ad9e59b3",
-      "elapsed_seconds": 0.518,
+      "elapsed_seconds": 0.466,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
@@ -45,7 +69,7 @@
       "candidate_id": "9039d2d888f22d7a64bcfc06",
       "character_count": 12000,
       "content_sha256": "688a2bb0f845b8477fbdebaff9767cb9a0ce5b9e57bdf58df69175ce5d1993d4",
-      "elapsed_seconds": 0.74,
+      "elapsed_seconds": 1.016,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "application/pdf",
@@ -68,7 +92,7 @@
       "candidate_id": "d11ea194238cf32852af6b74",
       "character_count": 12000,
       "content_sha256": "b324066b641b25852ab8f04adf5898da2774c584e94821fc58fa6112f8ec6e9a",
-      "elapsed_seconds": 0.661,
+      "elapsed_seconds": 0.714,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
@@ -90,8 +114,9 @@
   "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
-  "knowledge_base_pending": false,
+  "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
+  "newly_completed_candidate_count": 3,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -112,88 +137,63 @@
   "queue_sha256": "048f89c2560390d00de8da6a2ed6675097ceb0784e4662c824c6028f6d7fb4ac",
   "request_count": 3,
   "request_file": "runtime-state/data/summary_requests/2026-10-18.jsonl",
-  "request_sha256": "6b89606b51d8f4b53d3fa1b565708829de7770c4494ad4be2328555bee1ca425",
+  "request_sha256": "7110f8a83fc773ce5ed727878d926d4614c6edd5e5dc157a987e1ecbf48006cf",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "4fa347afb35681a7acea7cd42f1d473bf237ba5e959df498e3227b7a3a60cf0f",
+  "selection_manifest_sha256": "0647411b2cf155664ca262d4ced6f57a9025fee8a3e6755ecb49f24a6accc683",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
   "source_queue_candidate_count": 4,
   "stage_timings": {
-    "full_text_preparation_seconds": 1.928,
+    "full_text_preparation_seconds": 2.206,
     "model_api_calls": [
       {
         "attempt": 1,
         "candidate_id": "5ce553b88d26d1296b379174",
-        "elapsed_seconds": 29.563,
+        "elapsed_seconds": 20.212,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2856,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 3918,
-          "prompt_tokens": 5838,
-          "total_tokens": 8694
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "9039d2d888f22d7a64bcfc06",
-        "elapsed_seconds": 19.464,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 2056,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 3935,
-          "prompt_tokens": 5855,
-          "total_tokens": 7911
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "9039d2d888f22d7a64bcfc06",
-        "elapsed_seconds": 19.113,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 2000,
+          "completion_tokens": 1836,
           "prompt_cache_hit_tokens": 5760,
-          "prompt_cache_miss_tokens": 228,
-          "prompt_tokens": 5988,
-          "total_tokens": 7988
+          "prompt_cache_miss_tokens": 78,
+          "prompt_tokens": 5838,
+          "total_tokens": 7674
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "9039d2d888f22d7a64bcfc06",
+        "elapsed_seconds": 22.82,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 2061,
+          "prompt_cache_hit_tokens": 5760,
+          "prompt_cache_miss_tokens": 95,
+          "prompt_tokens": 5855,
+          "total_tokens": 7916
         }
       },
       {
         "attempt": 1,
         "candidate_id": "d11ea194238cf32852af6b74",
-        "elapsed_seconds": 26.508,
+        "elapsed_seconds": 27.591,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2927,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 4725,
-          "prompt_tokens": 6645,
-          "total_tokens": 9572
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "d11ea194238cf32852af6b74",
-        "elapsed_seconds": 25.55,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 2630,
+          "completion_tokens": 2396,
           "prompt_cache_hit_tokens": 6528,
-          "prompt_cache_miss_tokens": 248,
-          "prompt_tokens": 6776,
-          "total_tokens": 9406
+          "prompt_cache_miss_tokens": 117,
+          "prompt_tokens": 6645,
+          "total_tokens": 9041
         }
       }
     ],
-    "model_generation_and_validation_seconds": 120.237
+    "model_generation_and_validation_seconds": 70.651
   },
-  "status": "failed_validation",
-  "summary_count": 1,
+  "status": "completed_automatic",
+  "summary_count": 3,
+  "summary_file": "runtime-state/data/summaries/2026-10-18.jsonl",
   "summary_generation_version": 8,
-  "summary_history_updated": false,
+  "summary_history_updated": true,
   "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
@@ -208,7 +208,7 @@
       "9039d2d888f22d7a64bcfc06": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": "free_space",
+        "model_value": "integrated",
         "repaired": true,
         "resolved_type": "unclear"
       },
@@ -220,7 +220,7 @@
         "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 2,
+    "architecture_repairs": 1,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
       "5ce553b88d26d1296b379174": {
@@ -229,7 +229,7 @@
         "candidate_id": "5ce553b88d26d1296b379174",
         "character_count": 10958,
         "content_sha256": "8d7de42835a38bf04c97d44d76f00b22795e65e48570c684107a3c82ad9e59b3",
-        "elapsed_seconds": 0.518,
+        "elapsed_seconds": 0.466,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
@@ -247,7 +247,7 @@
         "candidate_id": "9039d2d888f22d7a64bcfc06",
         "character_count": 12000,
         "content_sha256": "688a2bb0f845b8477fbdebaff9767cb9a0ce5b9e57bdf58df69175ce5d1993d4",
-        "elapsed_seconds": 0.74,
+        "elapsed_seconds": 1.016,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "application/pdf",
@@ -270,7 +270,7 @@
         "candidate_id": "d11ea194238cf32852af6b74",
         "character_count": 12000,
         "content_sha256": "b324066b641b25852ab8f04adf5898da2774c584e94821fc58fa6112f8ec6e9a",
-        "elapsed_seconds": 0.661,
+        "elapsed_seconds": 0.714,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
@@ -288,37 +288,29 @@
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 2,
-    "numeric_grounding_repair_responses": 2,
+    "generation_metadata_repair_responses": 1,
+    "numeric_grounding_repair_responses": 1,
     "numeric_grounding_repairs": {
-      "5ce553b88d26d1296b379174": [
-        {
-          "action": "rewrote_bounded_zero_one_interval",
-          "original_excerpt": "当子空间基从 (U_l^old, V_l^old) 更新为 (U_l^new, V_l^new) 时，旧动量 M_l 不能直接使用。AdaSub-ZO 通过变换 M_l ← γ (U_l^new)^T U_l^old M_l (V_l^old)^T V_l^new 将旧动量投影到新坐标系，其中 γ∈(0,1] 为衰减因子。该变换在新旧基接近时保留历史方向，在子空间显著变化时抑制过时动量，避免丢弃动量导致的冷启动损失尖峰。整个训练过程每 K 次迭代执行一次子空间学习，其余迭代执",
-          "path": "method_implementation[3]",
-          "replacement": "当子空间基从 (U_l^old, V_l^old) 更新为 (U_l^new, V_l^new) 时，旧动量 M_l 不能直接使用。AdaSub-ZO 通过变换 M_l ← γ (U_l^new)^T U_l^old M_l (V_l^old)^T V_l^new 将旧动量投影到新坐标系，其中 γ∈一个有界范围 为衰减因子。该变换在新旧基接近时保留历史方向，在子空间显著变化时抑制过时动量，避免丢弃动量导致的冷启动损失尖峰。整个训练过程每 K 次迭代执行一次子空间学习，其余迭代"
-        }
-      ],
-      "d11ea194238cf32852af6b74": [
+      "9039d2d888f22d7a64bcfc06": [
         {
           "action": "redacted_unsupported_sentence",
-          "original_excerpt": "然后以 θ0 为起点，对目标 L̃(θ)=θ^T g̃proxy+0.5(θ−θ0)^T H(θ−θ0) 的二次形式做局部零阶优化；",
-          "path": "method_implementation[1]",
+          "original_excerpt": "输出平面包含十个探测器区域，分别对应数字 0–9 的类别。",
+          "path": "method_implementation[3]",
           "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
           "tokens": [
-            "0.5"
+            "0"
           ]
         }
       ]
     },
     "tops_alias_expansions": 58,
-    "unit_format_normalization_responses": 2
+    "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 12469,
+    "completion_tokens": 6293,
     "prompt_cache_hit_tokens": 18048,
-    "prompt_cache_miss_tokens": 13054,
-    "prompt_tokens": 31102,
-    "total_tokens": 43571
+    "prompt_cache_miss_tokens": 290,
+    "prompt_tokens": 18338,
+    "total_tokens": 24631
   }
 }

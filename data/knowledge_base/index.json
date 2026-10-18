@@ -332,6 +332,15 @@
       "summary_record_sha256": "e6b064924959c835328fe88fa2018353c24b51909d5ce55006ba8edd9dd42112",
       "title": "Microwave diffractive neural network chips for sensing and computing"
     },
+    "5ce553b88d26d1296b379174": {
+      "digest_date": "2026-10-18",
+      "doi": "10.48550/arxiv.2610.15225",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "d8e908482793c1c7dea1c2cf390c234a9c812304b4a514d2eb16369aa2181746",
+      "title": "Zeroth-Order Fine-Tuning of LLMs in Learnable Low-Rank Subspaces"
+    },
     "5e49047e7ce2004f7954debb": {
       "digest_date": "2026-09-04",
       "doi": "10.48550/arxiv.2608.28011",
@@ -484,6 +493,15 @@
       ],
       "summary_record_sha256": "3bdc55a64a58d8bf894d986e310983ab76c0c1060c092231aa80fa8960f3d1bd",
       "title": "Ferroelectrically programmable lanthanide luminescent memristor"
+    },
+    "9039d2d888f22d7a64bcfc06": {
+      "digest_date": "2026-10-18",
+      "doi": "10.1103/gwny-d6fw",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "3b68665efcb567159abbc984365f0b2a95e90e925a41edf9d9202868b6ba9a70",
+      "title": "Edge-enhanced diffractive neural networks based on spin-multiplexed nonlocal metasurfaces"
     },
     "916e8199aaabe1372544d280": {
       "digest_date": "2026-09-14",
@@ -691,6 +709,15 @@
       ],
       "summary_record_sha256": "23f9d8c3c7e0801cc4b73be358c1f83de1dbee2d33e5c279c1fc1dc737a28798",
       "title": "On‐Chip Photonic Neural Network Architectures"
+    },
+    "d11ea194238cf32852af6b74": {
+      "digest_date": "2026-10-18",
+      "doi": "10.48550/arxiv.2610.15336",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "1e2160d5f5d385affe35ae37cc63b586e29798910b12e0055b6cd144031fd306",
+      "title": "ZOIF: Zeroth-Order Influence Function Estimation for LLM Data Selection Using Only Forward Passes"
     },
     "d162b179119ee09c86ad3708": {
       "digest_date": "2026-09-14",
@@ -1010,6 +1037,11 @@
     "2026-10-16": [
       "7a45515c829cdcf2bd96f41f",
       "c55f09d580d098a54f7078e7"
+    ],
+    "2026-10-18": [
+      "5ce553b88d26d1296b379174",
+      "9039d2d888f22d7a64bcfc06",
+      "d11ea194238cf32852af6b74"
     ]
   },
   "by_doi": {
@@ -1042,6 +1074,7 @@
     "10.1063/5.0350777": "a7f4407333af25ddc7630e14",
     "10.1088/1361-6633/ae9e8c": "4bb38e8bcc3a3d164bd28700",
     "10.1088/2632-2153/aea3a0": "fca2cfc597728ee01e2a6032",
+    "10.1103/gwny-d6fw": "9039d2d888f22d7a64bcfc06",
     "10.1109/icocn70692.2026.11656217": "c3474ba19a69c715eb87d391",
     "10.1109/tcad.2026.3738037": "70212be2c4a63d741872ace0",
     "10.1117/1.ap.8.5.054001": "916e8199aaabe1372544d280",
@@ -1094,6 +1127,8 @@
     "10.48550/arxiv.2610.11274": "1229908a36775c08f23d92f8",
     "10.48550/arxiv.2610.12566": "05e945a039d8b6cce82abff1",
     "10.48550/arxiv.2610.13871": "dad476a2b20ea06a98b64b6a",
+    "10.48550/arxiv.2610.15225": "5ce553b88d26d1296b379174",
+    "10.48550/arxiv.2610.15336": "d11ea194238cf32852af6b74",
     "10.48550/arxiv.2610.16451": "7a45515c829cdcf2bd96f41f",
     "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
     "10.5281/zenodo.23337932": "c9dee369fd4e64c2389af927",
@@ -1144,6 +1179,7 @@
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
+      "9039d2d888f22d7a64bcfc06",
       "916e8199aaabe1372544d280",
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
@@ -1181,6 +1217,7 @@
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
+      "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
       "70212be2c4a63d741872ace0",
@@ -1191,6 +1228,7 @@
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
       "ca00b2160d3deb8b79b61e6e",
+      "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
@@ -1216,6 +1254,9 @@
     ],
     "application:mnist 手写数字分类": [
       "b832199d8494cc67a559fec5"
+    ],
+    "application:mnist 手写数字图像分类": [
+      "9039d2d888f22d7a64bcfc06"
     ],
     "application:mnist 手写数字识别": [
       "557b41cb542bf10e84da81f2"
@@ -1291,6 +1332,9 @@
     ],
     "application:光学神经网络推理": [
       "09e1a0ed403ef22abbd9b189"
+    ],
+    "application:全光机器视觉与智能光子计算": [
+      "9039d2d888f22d7a64bcfc06"
     ],
     "application:分布式声学传感（das）": [
       "1cf1fcd769c5ace951188b8c"
@@ -1397,6 +1441,9 @@
     ],
     "application:太赫兹三维全息超表面设计": [
       "c82f6c2f7b8ae52a84e4eb29"
+    ],
+    "application:实时图像边缘检测": [
+      "9039d2d888f22d7a64bcfc06"
     ],
     "application:实时感知": [
       "83a830ace13b5158f346c392"
@@ -1657,6 +1704,7 @@
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
+      "9039d2d888f22d7a64bcfc06",
       "916e8199aaabe1372544d280",
       "9322fad036b3d7fc8e3dd47b",
       "93f3ffb1741a00e1480b8ab2",
@@ -1718,6 +1766,7 @@
       "6dc0459f08567bbd051cc579",
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
+      "9039d2d888f22d7a64bcfc06",
       "b832199d8494cc67a559fec5",
       "c01ea24e589c31ebd4af01d6",
       "c1e890d592087a69465d1299",
@@ -1779,6 +1828,7 @@
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
+      "9039d2d888f22d7a64bcfc06",
       "916e8199aaabe1372544d280",
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
@@ -1816,6 +1866,7 @@
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
+      "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
       "70212be2c4a63d741872ace0",
@@ -1826,6 +1877,7 @@
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
       "ca00b2160d3deb8b79b61e6e",
+      "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
@@ -1845,6 +1897,7 @@
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
+      "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
       "7719ae17086cb97168bebbc5",
@@ -1854,6 +1907,7 @@
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
       "ca00b2160d3deb8b79b61e6e",
+      "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
@@ -1873,6 +1927,7 @@
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
+      "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
       "7719ae17086cb97168bebbc5",
@@ -1881,6 +1936,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
+      "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
@@ -1900,6 +1956,7 @@
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
+      "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
       "7a45515c829cdcf2bd96f41f",
@@ -1907,6 +1964,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
+      "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
@@ -1926,6 +1984,7 @@
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "3c46ab2b3d315aef47db028e",
+      "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
       "7719ae17086cb97168bebbc5",
@@ -1935,6 +1994,7 @@
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
       "ca00b2160d3deb8b79b61e6e",
+      "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
@@ -1950,10 +2010,12 @@
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
+      "5ce553b88d26d1296b379174",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
+      "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
@@ -2081,6 +2143,9 @@
     "Photonics for Quantum 2026": [
       "2b5f9302fe96c2793d48540e"
     ],
+    "Physical Review Applied": [
+      "9039d2d888f22d7a64bcfc06"
+    ],
     "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2": [
       "172a6e3e7b78c39c328487a6",
       "ead3d4ba8c5090acac05878a"
@@ -2125,6 +2190,7 @@
       "2f9953028e4e0e3b934222c8",
       "39df3bfb1d1f1919bbf17668",
       "3c46ab2b3d315aef47db028e",
+      "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
       "7a45515c829cdcf2bd96f41f",
@@ -2132,6 +2198,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
+      "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
@@ -2183,6 +2250,7 @@
       "5228362e834f7a6b9567811b",
       "541094f286db8902f2fe6077",
       "557b41cb542bf10e84da81f2",
+      "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "5ec8e35ad02131d8ed156970",
       "61dad77fe7c2ef7687ce5b21",
@@ -2200,6 +2268,7 @@
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
+      "9039d2d888f22d7a64bcfc06",
       "916e8199aaabe1372544d280",
       "9322fad036b3d7fc8e3dd47b",
       "9351be654a20f4a2f7121847",
@@ -2222,6 +2291,7 @@
       "c9dee369fd4e64c2389af927",
       "ca00b2160d3deb8b79b61e6e",
       "ccd82d84305d463a6c33398d",
+      "d11ea194238cf32852af6b74",
       "d162b179119ee09c86ad3708",
       "d2a55bdec24bc3bc4b04467b",
       "d33b2e7c6586f37945facb32",
@@ -2242,7 +2312,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 92,
+  "paper_count": 95,
   "schema_version": 1,
-  "updated_at": "2026-10-16T00:58:58.507443Z"
+  "updated_at": "2026-10-18T12:53:53.228405Z"
 }

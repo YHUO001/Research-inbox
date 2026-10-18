@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`92`
-- 更新时间：`2026-10-16T00:58:58.507443Z`
+- 论文数：`95`
+- 更新时间：`2026-10-18T12:53:53.228405Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Edge-enhanced diffractive neural networks based on spin-multiplexed nonlocal metasurfaces
+
+- DOI/链接：[10.1103/gwny-d6fw](https://doi.org/10.1103/gwny-d6fw)
+- 期刊/年份：Physical Review Applied，2026
+- 摘要日期：`2026-10-18`
+- 候选 ID：`9039d2d888f22d7a64bcfc06`
+- 标签：application:mnist 手写数字图像分类, application:全光机器视觉与智能光子计算, application:实时图像边缘检测, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
 
 ### EL-RAKHAWI ARCHITECTURE FOR TOPOLOGICAL PHOTONIC NEUROMORPHIC COMPUTING WITH NEAR-ZERO THERMAL DISSIPATION
 
@@ -541,6 +549,22 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### ZOIF: Zeroth-Order Influence Function Estimation for LLM Data Selection Using Only Forward Passes
+
+- DOI/链接：[10.48550/arxiv.2610.15336](https://doi.org/10.48550/arxiv.2610.15336)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-10-18`
+- 候选 ID：`d11ea194238cf32852af6b74`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
+
+### Zeroth-Order Fine-Tuning of LLMs in Learnable Low-Rank Subspaces
+
+- DOI/链接：[10.48550/arxiv.2610.15225](https://doi.org/10.48550/arxiv.2610.15225)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-10-18`
+- 候选 ID：`5ce553b88d26d1296b379174`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
 
 ### StructZO: Structured Zeroth-Order Optimization for Memory-Efficient LLM Fine-Tuning
 
