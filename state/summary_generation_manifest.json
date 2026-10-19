@@ -2,21 +2,14 @@
   "abstract_fallback_candidate_ids": [],
   "abstract_fallback_count": 0,
   "architecture_evidence": {
-    "5ce553b88d26d1296b379174": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": null,
-      "resolved_type": "unclear"
-    },
-    "9039d2d888f22d7a64bcfc06": {
+    "1bbef7ba5398ff216f60580f": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": "unclear",
       "resolved_type": "unclear"
     },
-    "d11ea194238cf32852af6b74": {
+    "cadf2190f4abdc8ebf66da38": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
@@ -26,86 +19,60 @@
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 4,
-  "completed_at": "2026-10-18T12:53:53.228405Z",
+  "automatic_queue_candidate_count": 2,
+  "completed_at": "2026-10-19T01:05:33.164723Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "5ce553b88d26d1296b379174",
-    "9039d2d888f22d7a64bcfc06",
-    "d11ea194238cf32852af6b74"
+    "1bbef7ba5398ff216f60580f",
+    "cadf2190f4abdc8ebf66da38"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-10-18",
-  "digest_json_file": "runtime-state/data/digests/2026-10-18.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-10-18.generated.md",
+  "digest_date": "2026-10-19",
+  "digest_json_file": "runtime-state/data/digests/2026-10-19.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-10-19.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0390792,
+  "estimated_cost_cny": 0.03678,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "5ce553b88d26d1296b379174": {
+    "1bbef7ba5398ff216f60580f": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "5ce553b88d26d1296b379174",
-      "character_count": 10958,
-      "content_sha256": "8d7de42835a38bf04c97d44d76f00b22795e65e48570c684107a3c82ad9e59b3",
-      "elapsed_seconds": 0.466,
+      "candidate_id": "1bbef7ba5398ff216f60580f",
+      "character_count": 997,
+      "content_sha256": "570ee5a850890f5b2f88bf4758b6f32196ed8e9c9ea185205cf814d1cea40832",
+      "elapsed_seconds": 1.734,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
       "section_headings": [
-        "Methodology",
-        "Training Dynamics"
+        "Differential-BPM-D2NN: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks"
       ],
-      "source_url": "https://arxiv.org/html/2610.15225",
+      "source_url": "https://zenodo.org/records/23422325",
       "status": "used",
       "text_persisted": false
     },
-    "9039d2d888f22d7a64bcfc06": {
+    "cadf2190f4abdc8ebf66da38": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "9039d2d888f22d7a64bcfc06",
+      "candidate_id": "cadf2190f4abdc8ebf66da38",
       "character_count": 12000,
-      "content_sha256": "688a2bb0f845b8477fbdebaff9767cb9a0ce5b9e57bdf58df69175ce5d1993d4",
-      "elapsed_seconds": 1.016,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "application/pdf",
-      "section_headings": [
-        "comes with demanding fabrication and alignment requirements. Notably, by extracting ob-",
-        "gration. All these schemes necessitate the fabrication of separate devices, which present",
-        "the finite difference time domain (FDTD) method, aiming to simultaneously achieve: (1)",
-        "is accurately modeled by the angular spectrum method; details are provided in the Sec. 1",
-        "for original and edge-enhanced inputs at a diffractive layer size of 280×280. (c) Training and",
-        "[5] H. Dou, Y. Deng, T. Yan, H. Wu, X. Lin, and Q. Dai, Residual d2nn: training diffractive",
-        "tive computing: all-optical implementation of a group of linear transformations through a"
-      ],
-      "source_url": "https://arxiv.org/pdf/2606.16938",
-      "status": "used",
-      "text_persisted": false
-    },
-    "d11ea194238cf32852af6b74": {
-      "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "d11ea194238cf32852af6b74",
-      "character_count": 12000,
-      "content_sha256": "b324066b641b25852ab8f04adf5898da2774c584e94821fc58fa6112f8ec6e9a",
-      "elapsed_seconds": 0.714,
+      "content_sha256": "b85676284c521500a92cf6861975cc767ba53b1f26c95978bb28040fedb9d8b5",
+      "elapsed_seconds": 2.069,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
       "section_headings": [
-        "4 Methodology",
-        "5.1.3 Data Selection Methods",
-        "Our Methods",
-        "Baseline Methods",
-        "D.2 Implementation and Hyperparameter Settings",
-        "D.3 Details of Baseline Methods",
-        "E.2 Comparison of Fine-tuning Performance Across Different Data Selection Methods"
+        "Recent work has sought to transfer first-order nonconvex optimization guarantees to zeroth-order methods through gradient estimators, typically incurring a factor linear in",
+        "algorithms and therefore includes deterministic methods, under",
+        "A gradient sampling method with complexity guarantees for lipschitz functions in high and low dimensions",
+        "Stochastic first- and zeroth-order methods for nonconvex stochastic programming",
+        "Gradient-free methods for deterministic and stochastic nonsmooth nonconvex optimization",
+        "exact-value zeroth-order methods and therefore, a fortiori, to deterministic ones. The word “noiseless” does not mean “deterministic algorithm.”"
       ],
-      "source_url": "https://arxiv.org/html/2610.15336",
+      "source_url": "https://arxiv.org/html/2610.19652",
       "status": "used",
       "text_persisted": false
     }
@@ -116,7 +83,7 @@
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 3,
+  "newly_completed_candidate_count": 2,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -132,87 +99,67 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 3,
+  "prepared_request_count": 2,
   "provider": "deepseek",
-  "queue_sha256": "048f89c2560390d00de8da6a2ed6675097ceb0784e4662c824c6028f6d7fb4ac",
-  "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-10-18.jsonl",
-  "request_sha256": "7110f8a83fc773ce5ed727878d926d4614c6edd5e5dc157a987e1ecbf48006cf",
+  "queue_sha256": "8ebc9a7fd1242dd6d185a4a00410538ca0e5a0a5d0d8c5df8b470933aeae5bc2",
+  "request_count": 2,
+  "request_file": "runtime-state/data/summary_requests/2026-10-19.jsonl",
+  "request_sha256": "5dde65a561ac3b4fd5a2bf7ca18f56d307fd4d8bd1c3f0f8d72fa4b40f3622c8",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "0647411b2cf155664ca262d4ced6f57a9025fee8a3e6755ecb49f24a6accc683",
+  "selection_manifest_sha256": "81798972c195bcf7daa6b3b02f4c12df1dec05dc164695d9dcf047f79f31e6f6",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 4,
+  "source_queue_candidate_count": 2,
   "stage_timings": {
-    "full_text_preparation_seconds": 2.206,
+    "full_text_preparation_seconds": 3.81,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "5ce553b88d26d1296b379174",
-        "elapsed_seconds": 20.212,
+        "candidate_id": "1bbef7ba5398ff216f60580f",
+        "elapsed_seconds": 13.741,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1836,
-          "prompt_cache_hit_tokens": 5760,
-          "prompt_cache_miss_tokens": 78,
-          "prompt_tokens": 5838,
-          "total_tokens": 7674
+          "completion_tokens": 1106,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 1586,
+          "prompt_tokens": 3506,
+          "total_tokens": 4612
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "9039d2d888f22d7a64bcfc06",
-        "elapsed_seconds": 22.82,
+        "candidate_id": "cadf2190f4abdc8ebf66da38",
+        "elapsed_seconds": 19.685,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2061,
-          "prompt_cache_hit_tokens": 5760,
-          "prompt_cache_miss_tokens": 95,
-          "prompt_tokens": 5855,
-          "total_tokens": 7916
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "d11ea194238cf32852af6b74",
-        "elapsed_seconds": 27.591,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 2396,
-          "prompt_cache_hit_tokens": 6528,
-          "prompt_cache_miss_tokens": 117,
-          "prompt_tokens": 6645,
-          "total_tokens": 9041
+          "completion_tokens": 1841,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 4748,
+          "prompt_tokens": 6668,
+          "total_tokens": 8509
         }
       }
     ],
-    "model_generation_and_validation_seconds": 70.651
+    "model_generation_and_validation_seconds": 33.446
   },
   "status": "completed_automatic",
-  "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-10-18.jsonl",
+  "summary_count": 2,
+  "summary_file": "runtime-state/data/summaries/2026-10-19.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 3,
+  "summary_slot_count": 2,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "5ce553b88d26d1296b379174": {
+      "1bbef7ba5398ff216f60580f": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": null,
-        "repaired": false,
-        "resolved_type": "unclear"
-      },
-      "9039d2d888f22d7a64bcfc06": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "integrated",
+        "model_value": "free_space",
         "repaired": true,
         "resolved_type": "unclear"
       },
-      "d11ea194238cf32852af6b74": {
+      "cadf2190f4abdc8ebf66da38": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": null,
@@ -223,94 +170,57 @@
     "architecture_repairs": 1,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "5ce553b88d26d1296b379174": {
+      "1bbef7ba5398ff216f60580f": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "5ce553b88d26d1296b379174",
-        "character_count": 10958,
-        "content_sha256": "8d7de42835a38bf04c97d44d76f00b22795e65e48570c684107a3c82ad9e59b3",
-        "elapsed_seconds": 0.466,
+        "candidate_id": "1bbef7ba5398ff216f60580f",
+        "character_count": 997,
+        "content_sha256": "570ee5a850890f5b2f88bf4758b6f32196ed8e9c9ea185205cf814d1cea40832",
+        "elapsed_seconds": 1.734,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
         "section_headings": [
-          "Methodology",
-          "Training Dynamics"
+          "Differential-BPM-D2NN: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks"
         ],
-        "source_url": "https://arxiv.org/html/2610.15225",
+        "source_url": "https://zenodo.org/records/23422325",
         "status": "used",
         "text_persisted": false
       },
-      "9039d2d888f22d7a64bcfc06": {
+      "cadf2190f4abdc8ebf66da38": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "9039d2d888f22d7a64bcfc06",
+        "candidate_id": "cadf2190f4abdc8ebf66da38",
         "character_count": 12000,
-        "content_sha256": "688a2bb0f845b8477fbdebaff9767cb9a0ce5b9e57bdf58df69175ce5d1993d4",
-        "elapsed_seconds": 1.016,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "application/pdf",
-        "section_headings": [
-          "comes with demanding fabrication and alignment requirements. Notably, by extracting ob-",
-          "gration. All these schemes necessitate the fabrication of separate devices, which present",
-          "the finite difference time domain (FDTD) method, aiming to simultaneously achieve: (1)",
-          "is accurately modeled by the angular spectrum method; details are provided in the Sec. 1",
-          "for original and edge-enhanced inputs at a diffractive layer size of 280×280. (c) Training and",
-          "[5] H. Dou, Y. Deng, T. Yan, H. Wu, X. Lin, and Q. Dai, Residual d2nn: training diffractive",
-          "tive computing: all-optical implementation of a group of linear transformations through a"
-        ],
-        "source_url": "https://arxiv.org/pdf/2606.16938",
-        "status": "used",
-        "text_persisted": false
-      },
-      "d11ea194238cf32852af6b74": {
-        "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "d11ea194238cf32852af6b74",
-        "character_count": 12000,
-        "content_sha256": "b324066b641b25852ab8f04adf5898da2774c584e94821fc58fa6112f8ec6e9a",
-        "elapsed_seconds": 0.714,
+        "content_sha256": "b85676284c521500a92cf6861975cc767ba53b1f26c95978bb28040fedb9d8b5",
+        "elapsed_seconds": 2.069,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
         "section_headings": [
-          "4 Methodology",
-          "5.1.3 Data Selection Methods",
-          "Our Methods",
-          "Baseline Methods",
-          "D.2 Implementation and Hyperparameter Settings",
-          "D.3 Details of Baseline Methods",
-          "E.2 Comparison of Fine-tuning Performance Across Different Data Selection Methods"
+          "Recent work has sought to transfer first-order nonconvex optimization guarantees to zeroth-order methods through gradient estimators, typically incurring a factor linear in",
+          "algorithms and therefore includes deterministic methods, under",
+          "A gradient sampling method with complexity guarantees for lipschitz functions in high and low dimensions",
+          "Stochastic first- and zeroth-order methods for nonconvex stochastic programming",
+          "Gradient-free methods for deterministic and stochastic nonsmooth nonconvex optimization",
+          "exact-value zeroth-order methods and therefore, a fortiori, to deterministic ones. The word “noiseless” does not mean “deterministic algorithm.”"
         ],
-        "source_url": "https://arxiv.org/html/2610.15336",
+        "source_url": "https://arxiv.org/html/2610.19652",
         "status": "used",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 1,
-    "numeric_grounding_repair_responses": 1,
-    "numeric_grounding_repairs": {
-      "9039d2d888f22d7a64bcfc06": [
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "输出平面包含十个探测器区域，分别对应数字 0–9 的类别。",
-          "path": "method_implementation[3]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "0"
-          ]
-        }
-      ]
-    },
-    "tops_alias_expansions": 58,
+    "generation_metadata_repair_responses": 0,
+    "numeric_grounding_repair_responses": 0,
+    "numeric_grounding_repairs": {},
+    "tops_alias_expansions": 72,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 6293,
-    "prompt_cache_hit_tokens": 18048,
-    "prompt_cache_miss_tokens": 290,
-    "prompt_tokens": 18338,
-    "total_tokens": 24631
+    "completion_tokens": 2947,
+    "prompt_cache_hit_tokens": 3840,
+    "prompt_cache_miss_tokens": 6334,
+    "prompt_tokens": 10174,
+    "total_tokens": 13121
   }
 }

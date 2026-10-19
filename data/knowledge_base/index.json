@@ -127,6 +127,15 @@
       "summary_record_sha256": "1275febc3a65fff89d5fad8e4d753b657d8fb5b89d2e20cb2676bdfba508147d",
       "title": "EGGROLL, Unrolled: Understanding and Improving Low-Rank Evolution Strategies at Scale"
     },
+    "1bbef7ba5398ff216f60580f": {
+      "digest_date": "2026-10-19",
+      "doi": "10.5281/zenodo.23422324",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "2b2a5f9e1e6994e9e9ff4758a34ace1a57e3023b885f3947703c6e6f257f585f",
+      "title": "Differential-BPM-D2NN: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks"
+    },
     "1be9c6ec4a0fa7f4ce866764": {
       "digest_date": "2026-10-03",
       "doi": "10.48550/arxiv.2609.35257",
@@ -701,6 +710,15 @@
       "summary_record_sha256": "f2ab0e20ddbec5a2519972346e8083c8ce406a7d6fe7fb95a326f5eb8de48d88",
       "title": "Beyond the Best Guess: Improving LLM Solution Coverage with Evolution Strategies"
     },
+    "cadf2190f4abdc8ebf66da38": {
+      "digest_date": "2026-10-19",
+      "doi": "10.48550/arxiv.2610.19652",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "22e098ebfd755599695aba15c95f00ecb26b73781b14dcb774fe211d400de1db",
+      "title": "On Global Joint Lower Bounds in Zeroth-Order Nonconvex Optimization"
+    },
     "ccd82d84305d463a6c33398d": {
       "digest_date": "2026-08-19",
       "doi": "10.1002/adom.71567",
@@ -1042,6 +1060,10 @@
       "5ce553b88d26d1296b379174",
       "9039d2d888f22d7a64bcfc06",
       "d11ea194238cf32852af6b74"
+    ],
+    "2026-10-19": [
+      "1bbef7ba5398ff216f60580f",
+      "cadf2190f4abdc8ebf66da38"
     ]
   },
   "by_doi": {
@@ -1130,8 +1152,10 @@
     "10.48550/arxiv.2610.15225": "5ce553b88d26d1296b379174",
     "10.48550/arxiv.2610.15336": "d11ea194238cf32852af6b74",
     "10.48550/arxiv.2610.16451": "7a45515c829cdcf2bd96f41f",
+    "10.48550/arxiv.2610.19652": "cadf2190f4abdc8ebf66da38",
     "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
     "10.5281/zenodo.23337932": "c9dee369fd4e64c2389af927",
+    "10.5281/zenodo.23422324": "1bbef7ba5398ff216f60580f",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.6084/m9.figshare.c.8610155.v1": "d162b179119ee09c86ad3708",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799",
@@ -1149,6 +1173,7 @@
       "0e5c75b6132afcfb1f7afb17",
       "1229908a36775c08f23d92f8",
       "15e7193239d6058f661ff180",
+      "1bbef7ba5398ff216f60580f",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "1e619f1b739f1893eae64f28",
@@ -1228,6 +1253,7 @@
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
       "ca00b2160d3deb8b79b61e6e",
+      "cadf2190f4abdc8ebf66da38",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
@@ -1371,6 +1397,9 @@
     ],
     "application:原位元学习": [
       "4ac97d5e03fb7df3ed448fc2"
+    ],
+    "application:可见光波段的衍射神经网络建模与优化": [
+      "1bbef7ba5398ff216f60580f"
     ],
     "application:可重构非线性信号处理": [
       "5ec8e35ad02131d8ed156970"
@@ -1681,6 +1710,7 @@
       "0cbf41592278a3ad1b89e219",
       "1229908a36775c08f23d92f8",
       "15e7193239d6058f661ff180",
+      "1bbef7ba5398ff216f60580f",
       "1e35265ce8678ca96adb8b93",
       "1e619f1b739f1893eae64f28",
       "2b5f9302fe96c2793d48540e",
@@ -1798,6 +1828,7 @@
       "0e5c75b6132afcfb1f7afb17",
       "1229908a36775c08f23d92f8",
       "15e7193239d6058f661ff180",
+      "1bbef7ba5398ff216f60580f",
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "1e619f1b739f1893eae64f28",
@@ -1877,6 +1908,7 @@
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
       "ca00b2160d3deb8b79b61e6e",
+      "cadf2190f4abdc8ebf66da38",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
@@ -1907,6 +1939,7 @@
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
       "ca00b2160d3deb8b79b61e6e",
+      "cadf2190f4abdc8ebf66da38",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
@@ -1936,6 +1969,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
+      "cadf2190f4abdc8ebf66da38",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
@@ -1964,6 +1998,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
+      "cadf2190f4abdc8ebf66da38",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
@@ -1994,6 +2029,7 @@
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
       "ca00b2160d3deb8b79b61e6e",
+      "cadf2190f4abdc8ebf66da38",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
@@ -2015,6 +2051,7 @@
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
+      "cadf2190f4abdc8ebf66da38",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
@@ -2177,6 +2214,7 @@
       "7d6c2a059923ebe445a1cdf7"
     ],
     "Zenodo (CERN European Organization for Nuclear Research)": [
+      "1bbef7ba5398ff216f60580f",
       "4b1739e45289d2156d3b1ed3",
       "c9dee369fd4e64c2389af927"
     ],
@@ -2198,6 +2236,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
+      "cadf2190f4abdc8ebf66da38",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
@@ -2227,6 +2266,7 @@
       "15e7193239d6058f661ff180",
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
+      "1bbef7ba5398ff216f60580f",
       "1be9c6ec4a0fa7f4ce866764",
       "1bef6ee27ae84b878da0c512",
       "1cf1fcd769c5ace951188b8c",
@@ -2290,6 +2330,7 @@
       "c82f6c2f7b8ae52a84e4eb29",
       "c9dee369fd4e64c2389af927",
       "ca00b2160d3deb8b79b61e6e",
+      "cadf2190f4abdc8ebf66da38",
       "ccd82d84305d463a6c33398d",
       "d11ea194238cf32852af6b74",
       "d162b179119ee09c86ad3708",
@@ -2312,7 +2353,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 95,
+  "paper_count": 97,
   "schema_version": 1,
-  "updated_at": "2026-10-18T12:53:53.228405Z"
+  "updated_at": "2026-10-19T01:05:33.164723Z"
 }

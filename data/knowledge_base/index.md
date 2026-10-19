@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`95`
-- 更新时间：`2026-10-18T12:53:53.228405Z`
+- 论文数：`97`
+- 更新时间：`2026-10-19T01:05:33.164723Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Differential-BPM-D2NN: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks
+
+- DOI/链接：[10.5281/zenodo.23422324](https://doi.org/10.5281/zenodo.23422324)
+- 期刊/年份：Zenodo (CERN European Organization for Nuclear Research)，2026
+- 摘要日期：`2026-10-19`
+- 候选 ID：`1bbef7ba5398ff216f60580f`
+- 标签：application:可见光波段的衍射神经网络建模与优化, architecture:unclear, project:optical-neural-networks
 
 ### Edge-enhanced diffractive neural networks based on spin-multiplexed nonlocal metasurfaces
 
@@ -549,6 +557,14 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### On Global Joint Lower Bounds in Zeroth-Order Nonconvex Optimization
+
+- DOI/链接：[10.48550/arxiv.2610.19652](https://doi.org/10.48550/arxiv.2610.19652)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-10-19`
+- 候选 ID：`cadf2190f4abdc8ebf66da38`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
 
 ### ZOIF: Zeroth-Order Influence Function Estimation for LLM Data Selection Using Only Forward Passes
 

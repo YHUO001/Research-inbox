@@ -1,0 +1,42 @@
+{
+  "built_at": "2026-10-19T01:04:53.577606Z",
+  "digest_date": "2026-10-19",
+  "digest_version": 1,
+  "pending_summary_count": 2,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "1bbef7ba5398ff216f60580f",
+        "landing_page": "https://doi.org/10.5281/zenodo.23422324",
+        "mandatory": false,
+        "score": 0.84,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Differential-BPM-D2NN: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "cadf2190f4abdc8ebf66da38",
+        "landing_page": "https://arxiv.org/abs/2610.19652",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "On Global Joint Lower Bounds in Zeroth-Order Nonconvex Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

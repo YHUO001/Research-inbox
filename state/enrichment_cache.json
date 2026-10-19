@@ -1278,6 +1278,56 @@
       "retrieved_at": "2026-10-15T00:58:14.762904Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/lpor.72050": {
+      "expires_at": "2026-11-18T01:04:46.859619Z",
+      "record": {
+        "abstract": "ABSTRACT Inline holography enables non‐invasive and label‐free quantitative phase imaging (QPI) with a compact and stable optical configuration. However, it remains hindered by severe twin‐image artifacts due to the absence of sensor‐plane phase information. Iterative approaches are sensitive to noise and prone to local minima, while existing learning‐based approaches rarely exploit sensor‐plane phase as a physically meaningful initialization and insufficiently integrate diffraction physics with complex‐domain learning. Here, we propose a dual‐plane‐driven complex‐valued cascaded neural network (DP‐CVNN) for phase retrieval in inline holography. The framework combines a front‐end real‐valued network for sensor‐plane phase estimation with a back‐end complex‐valued neural network for diffraction propagation learning, thereby enabling physically meaningful reconstruction from single‐shot inline holograms. By jointly constraining sensor‐plane and object‐plane phases through diffraction‐consistent supervision, the proposed framework effectively bridges data‐driven holographic reconstruction with physics‐consistent optical modeling in the complex domain, thereby reducing sensitivity to noise‐contaminated intensity measurements. Simulations and experiments on diverse phase‐dominant samples demonstrate effective suppression of twin‐image artifacts, achieving favorable reconstruction fidelity and noise robustness compared with representative conventional and learning‐based methods. Our findings further validate the critical role of sensor‐plane phase initialization, as well as its potential to benefit conventional phase retrieval algorithms.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xiaosong Liu",
+            "orcid": "https://orcid.org/0009-0009-4377-5512"
+          },
+          {
+            "name": "Zhuolin Ou",
+            "orcid": null
+          },
+          {
+            "name": "Ju Tang",
+            "orcid": "https://orcid.org/0000-0003-2623-035X"
+          },
+          {
+            "name": "Jiazhen Dou",
+            "orcid": "https://orcid.org/0000-0003-2729-147X"
+          },
+          {
+            "name": "Kaiqiang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Jianglei Di",
+            "orcid": "https://orcid.org/0000-0001-7651-6554"
+          },
+          {
+            "name": "Yuwen Qin",
+            "orcid": "https://orcid.org/0000-0001-9879-1514"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.72050",
+        "landing_page": "https://doi.org/10.1002/lpor.72050",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.72050",
+        "publication_date": "2026-10-17",
+        "title": "Physics‐Consistent Dual‐Plane‐Driven Complex‐Domain Learning for Phase Retrieval in Inline Holography",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-19T01:04:46.859619Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/mats.70059": {
       "expires_at": "2026-10-17T01:02:53.132433Z",
       "record": {
@@ -7582,10 +7632,34 @@
       "retrieved_at": "2026-10-18T01:04:55.551292Z",
       "status": "not_found"
     },
+    "crossref:doi:10.5281/zenodo.23422324": {
+      "expires_at": "2026-11-18T01:04:45.612028Z",
+      "record": null,
+      "retrieved_at": "2026-10-19T01:04:45.612028Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.5281/zenodo.23425443": {
       "expires_at": "2026-11-17T01:04:53.122598Z",
       "record": null,
       "retrieved_at": "2026-10-18T01:04:53.122598Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.5281/zenodo.23434368": {
+      "expires_at": "2026-11-18T01:04:47.780074Z",
+      "record": null,
+      "retrieved_at": "2026-10-19T01:04:47.780074Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.5281/zenodo.23434388": {
+      "expires_at": "2026-11-18T01:04:46.179609Z",
+      "record": null,
+      "retrieved_at": "2026-10-19T01:04:46.179609Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.5281/zenodo.23435316": {
+      "expires_at": "2026-11-18T01:04:48.348763Z",
+      "record": null,
+      "retrieved_at": "2026-10-19T01:04:48.348763Z",
       "status": "not_found"
     },
     "crossref:doi:10.6084/m9.figshare.33306492.v1": {
@@ -12133,6 +12207,12 @@
       "retrieved_at": "2026-10-12T01:18:09.947453Z",
       "status": "not_found"
     },
+    "crossref:title:c662609b51fa2374254f50f7822b35b00f38ad816a85429428ed367a8e09c59b": {
+      "expires_at": "2026-10-26T01:04:49.341849Z",
+      "record": null,
+      "retrieved_at": "2026-10-19T01:04:49.341849Z",
+      "status": "not_found"
+    },
     "crossref:title:c67f94f2ba177e9f65c39a1fb1f2c2af7302d3e67afaca89c17c9938f7720df0": {
       "expires_at": "2026-10-05T01:11:28.570543Z",
       "record": null,
@@ -12496,6 +12576,12 @@
       },
       "retrieved_at": "2026-08-10T00:36:49.160804Z",
       "status": "found"
+    },
+    "crossref:title:d1b1ab28f3935e5f42207c5a9aec29a9d35877821e8d2473fe6b9c7f7623c7d0": {
+      "expires_at": "2026-10-26T01:04:51.428978Z",
+      "record": null,
+      "retrieved_at": "2026-10-19T01:04:51.428978Z",
+      "status": "not_found"
     },
     "crossref:title:d22208955223ef9ce1ae12b0612330cb6007e94886f7e0ce83690eb5d2e7b294": {
       "expires_at": "2026-09-20T01:07:38.014646Z",
@@ -15015,6 +15101,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-15T00:58:15.083481Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/lpor.72050": {
+      "expires_at": "2026-11-18T01:04:47.248720Z",
+      "record": {
+        "abstract": "ABSTRACT Inline holography enables non‐invasive and label‐free quantitative phase imaging (QPI) with a compact and stable optical configuration. However, it remains hindered by severe twin‐image artifacts due to the absence of sensor‐plane phase information. Iterative approaches are sensitive to noise and prone to local minima, while existing learning‐based approaches rarely exploit sensor‐plane phase as a physically meaningful initialization and insufficiently integrate diffraction physics with complex‐domain learning. Here, we propose a dual‐plane‐driven complex‐valued cascaded neural network (DP‐CVNN) for phase retrieval in inline holography. The framework combines a front‐end real‐valued network for sensor‐plane phase estimation with a back‐end complex‐valued neural network for diffraction propagation learning, thereby enabling physically meaningful reconstruction from single‐shot inline holograms. By jointly constraining sensor‐plane and object‐plane phases through diffraction‐consistent supervision, the proposed framework effectively bridges data‐driven holographic reconstruction with physics‐consistent optical modeling in the complex domain, thereby reducing sensitivity to noise‐contaminated intensity measurements. Simulations and experiments on diverse phase‐dominant samples demonstrate effective suppression of twin‐image artifacts, achieving favorable reconstruction fidelity and noise robustness compared with representative conventional and learning‐based methods. Our findings further validate the critical role of sensor‐plane phase initialization, as well as its potential to benefit conventional phase retrieval algorithms.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xiaosong Liu",
+            "orcid": "https://orcid.org/0009-0009-4377-5512"
+          },
+          {
+            "name": "Zhuolin Ou",
+            "orcid": null
+          },
+          {
+            "name": "Ju Tang",
+            "orcid": "https://orcid.org/0000-0003-2623-035X"
+          },
+          {
+            "name": "Jiazhen Dou",
+            "orcid": "https://orcid.org/0000-0003-2729-147X"
+          },
+          {
+            "name": "Kaiqiang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Jianglei Di",
+            "orcid": "https://orcid.org/0000-0001-7651-6554"
+          },
+          {
+            "name": "Yuwen Qin",
+            "orcid": "https://orcid.org/0000-0001-9879-1514"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.72050",
+        "landing_page": "https://doi.org/10.1002/lpor.72050",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7222806411",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222806411",
+        "publication_date": "2026-10-17",
+        "title": "Physics‐Consistent Dual‐Plane‐Driven Complex‐Domain Learning for Phase Retrieval in Inline Holography",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-19T01:04:47.248720Z",
       "status": "found"
     },
     "openalex:doi:10.1002/mats.70059": {
@@ -26243,6 +26379,36 @@
       "retrieved_at": "2026-10-18T01:04:55.863106Z",
       "status": "found"
     },
+    "openalex:doi:10.5281/zenodo.23422324": {
+      "expires_at": "2026-11-18T01:04:45.957727Z",
+      "record": {
+        "abstract": "Research software accompanying the manuscript \"Beyond the Thin-Layer Limit: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks,\" accepted for publication in Optics Express (2026). This repository provides the implementation of a differentiable beam-propagation framework for modeling and optimizing finite-thickness diffractive deep neural networks. GitHub repository: https://github.com/wadduwagelab/Differential-BPM-D2NN Software version: 1.0.0.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dineth Jayakody",
+            "orcid": null
+          },
+          {
+            "name": "Dushan N. Wadduwage",
+            "orcid": "https://orcid.org/0000-0002-0689-9454"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23422324",
+        "landing_page": "https://doi.org/10.5281/zenodo.23422324",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23422324",
+        "openalex_id": "https://openalex.org/W7222654452",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222654452",
+        "publication_date": "2026-10-16",
+        "title": "Differential-BPM-D2NN: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-19T01:04:45.957727Z",
+      "status": "found"
+    },
     "openalex:doi:10.5281/zenodo.23425443": {
       "expires_at": "2026-11-17T01:04:53.452679Z",
       "record": {
@@ -26267,6 +26433,84 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-18T01:04:53.452679Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.23434368": {
+      "expires_at": "2026-11-18T01:04:48.103069Z",
+      "record": {
+        "abstract": "Modern neural network architectures—ranging from deep transformers to recurrent networks—rely predominantly on localized, addressable weight matrices stored in physical RAM or high-bandwidth memory (HBM). While effective for general inference, localized memory architectures exhibit catastrophic fragility under random memory corruption, lack graceful degradation when subjected to hardware bit-flips, and scale inefficiently when forming distributed associative bindings across millions of abstract concepts. Holographic Neural Memory (HNM) and HighDimensional Vector Symbolic Architectures (VSA / Hyperdimensional Computing) establish a transformative non-local computing paradigm inspired by optical holography and distributed brain memory. By encoding symbolic information into high-dimensional hypervectors (d >= 10,000) via random orthogonal projections and superimposing associations through complex phase-encoded interference, HNM architectures distribute information uniformly across every spatial component of the memory vector. This superposition property grants remarkable fault tolerance: distributed associative memories can experience up to 45% total vector component corruption or hardware bit-erasure while still executing clean pattern completion, un-aliased retrieval, and robust compositional reasoning. However, scaling holographic memories to enterprise foundation models introduces severe computational and mathematical bottlenecks: noise accumulation and crosstalk interference during massive vector superpositions, dimensionality curse during multi-hop role-filler binding, and complex hardware mapping onto conventional von Neumann processors. This paper delivers an exhaustive, mathematically formal technical investigation and empirical benchmark of holographic neural memory architectures. We formalize phase-encoded circular convolution binding, derive signal-to-noise ratio (SNR) capacity bounds under random hypervector superposition, and model fault-tolerant pattern recall. Furthermore, we construct an enterprise software and hardware-in-the-loop testbed evaluating holographic memory layers integrated with transformer residual streams across massive relational retrieval tasks, multi-modal concept grounding, and radiation-hardened edge aerospace workloads. Our empirical findings demonstrate that holographic neural memories achieve 99.2% robust associative recall under 40% random bit corruption, outperforming conventional hash tables and key-value caches by orders of magnitude in resilience, while sustaining sub-microsecond retrieval latencies on dedicated processing-in-memory (PIM) accelerators. Finally, we formulate open challenges in non-linear compositional generalization, continuous-time hypervector dynamics, and alloptical holographic processor hardware realization",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Akash-B. Atapi, Man Mohit, Dr. Vishal Shrivastava, Dr. Vibhakar Pathak,   Er. Amit  Kumar Tiwari",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23434368",
+        "landing_page": "https://doi.org/10.5281/zenodo.23434368",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23434368",
+        "openalex_id": "https://openalex.org/W7222801141",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222801141",
+        "publication_date": "2026-10-17",
+        "title": "Holographic Neural Memory Architectures and Distributed Associative Networks: Phase-Encoded Interference, High-Dimensional Vector Representations, and Fault-Tolerant Recall",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-19T01:04:48.103069Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.23434388": {
+      "expires_at": "2026-11-18T01:04:46.536448Z",
+      "record": {
+        "abstract": "Processing high-frequency time-series data, chaotic forecasting, and real-time telecommunication equalization on conventional electronic recurrent neural networks (RNNs) is severely constrained by digital clock speeds, high training gradient complexity, and electronic power dissipation bottlenecks. Photonic Reservoir Computing (PRC) establishes an emergent neuromorphic computing paradigm that exploits the rich, high-dimensional non-linear dynamics of optical substrates to process temporal information at the speed of light. By mapping input data streams into an untrained, randomly interconnected network of silicon microring resonators (MRRs) or semiconductor optical amplifiers (SOAs)—termed the optical reservoir—and training solely the output readout weights via linear regression, photonic reservoir computers bypass backpropagation-through-time (BPTT) training while sustaining multi-gigahertz bandwidths. However, translating optical reservoirs from theoretical simulations into robust hardware accelerators introduces acute physical and architectural bottlenecks: severe thermo-optic wavelength drift, multi-mode optical interference noise, limited reservoir fading memory capacity, and optical insertion loss accumulation. This paper delivers an exhaustive, mathematically formal technical investigation and empirical benchmark of photonic reservoir computing architectures. We formalize echo-state network dynamics in optical delay-line loops, derive non-linear carrier-density rate equations for semiconductor optical amplifiers, and model microring resonator resonant transient responses. Furthermore, we construct an enterprise multi-physics co-simulation and physical silicon photonic testbed evaluating integrated microring reservoir chips across chaotic time-series prediction (Santa Fe chaotic laser dataset) and 100 Gbps optical channel equalization. Our empirical findings demonstrate that our integrated silicon photonic reservoir achieves a Normalized Mean Square Error (NMSE) of 0.0014 on chaotic time-series forecasting while processing data at 40 Gigasamples per second (GSa/s) with an operational energy dissipation of 3.2 femtojoules per bit (fJ/bit)—outperforming digital electronic RNN accelerators by over three orders of magnitude in energy efficiency. Finally, we formulate open challenges in alloptical readouts, scalable photonic integration, and multi-reservoir deep cascading.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Amit Kumar Takhar, Abhishek Kumar, Dr. Vishal Shrivastava, Dr. Akhil Pandey",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23434388",
+        "landing_page": "https://doi.org/10.5281/zenodo.23434388",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23434388",
+        "openalex_id": "https://openalex.org/W7222791613",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222791613",
+        "publication_date": "2026-10-17",
+        "title": "Photonic Reservoir Computing and Neuromorphic Optical Networks: Silicon Microring Echo States, Non-Linear Optical Dynamics, and Ultra High-Speed Time-Series Prediction",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-19T01:04:46.536448Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.23435316": {
+      "expires_at": "2026-11-18T01:04:48.743207Z",
+      "record": {
+        "abstract": "Conventional Transformer neural networks embed token representations within flat Euclidean latent spaces RD . Despite their empirical utility, Euclidean geometries ex- hibit severe isotropic distance concentration in high dimen- sions, lack periodic boundary-free inductive bias, and scale self-attention quadratically O(N2) over sequence length N. Furthermore, classical inner-product softmax atten- tion inherently suffers from cluster dominance, wherein dif- fuse groupings of irrelevant tokens overpower singular ex- act factual keys, inducing catastrophic hallucination. In this work, we introduce Toroidal Topography Lan- guage Models (TT-LLMs), an architectural paradigm that projects high-dimensional token representations onto a compact 2-Torus Riemannian manifold T2 ∼ = S1 ×S1 embedded within R3, paired with localized tangent vector fields T(θ,ϕ)T2 and 4D quaternionic hyperspherical S3 Hopf fibrations. We prove and demonstrate: (i) Elimination of dynamic coordinate clamping via continuous cyclic periodic coordinates (θ,ϕ) ∈[0,2π)2 evaluated under reg- ularized origin manifolds; (ii) Fractal Golden Ratio (Φ) Rotary Position Embeddings (F-RoPE) that asymp- totically suppress rational harmonic aliasing across arbi- trarily extended sequence horizons (N ≫105) as guaran- teed by Kolmogorov-Arnold-Moser (KAM) dynamical sta- bility theory; (iii) Deterministic Geodesic Resonance Handshakes via high-quality-factor (Q) Lorentzian ker- nels suppressing diffuse cluster interference by >105×; and (iv) Direct physical mapping to integrated silicon photonics via Gaspard Monge’s collinear circle theorem with inward-normal centering and an impedance-matched triple-ring cascade (100 mm →14.14 mm →2 mm). Full 3D Finite-Difference Time-Domain (FDTD) Maxwell vec- tor curl simulations verify an empirical loaded resonance factor Qloaded = 2,791.5 at 120 nm coupling gap and an op- tical passive switching energy of 0.0460 fJ/MAC, demon- strating a 21,758.1×core optical energy reduction over electronic GPU multiply-accumulate baselines.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Justin F. Howard",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23435316",
+        "landing_page": "https://doi.org/10.5281/zenodo.23435316",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23435316",
+        "openalex_id": "https://openalex.org/W7222818139",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222818139",
+        "publication_date": "2026-10-17",
+        "title": "Non-Euclidean Toroidal Topography in Large Language Models: Compact Riemannian Manifold Embeddings, Geodesic Attention, and 3D Photonic Co-Simulation Verification",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-19T01:04:48.743207Z",
       "status": "found"
     },
     "openalex:doi:10.6084/m9.figshare.33306492.v1": {
@@ -30434,6 +30678,12 @@
       "retrieved_at": "2026-10-12T01:18:10.311759Z",
       "status": "not_found"
     },
+    "openalex:title:c662609b51fa2374254f50f7822b35b00f38ad816a85429428ed367a8e09c59b": {
+      "expires_at": "2026-10-26T01:04:49.850859Z",
+      "record": null,
+      "retrieved_at": "2026-10-19T01:04:49.850859Z",
+      "status": "not_found"
+    },
     "openalex:title:c67f94f2ba177e9f65c39a1fb1f2c2af7302d3e67afaca89c17c9938f7720df0": {
       "expires_at": "2026-10-05T01:11:29.239762Z",
       "record": null,
@@ -30561,6 +30811,12 @@
       },
       "retrieved_at": "2026-09-18T01:02:24.716550Z",
       "status": "found"
+    },
+    "openalex:title:d1b1ab28f3935e5f42207c5a9aec29a9d35877821e8d2473fe6b9c7f7623c7d0": {
+      "expires_at": "2026-10-26T01:04:51.947549Z",
+      "record": null,
+      "retrieved_at": "2026-10-19T01:04:51.947549Z",
+      "status": "not_found"
     },
     "openalex:title:d22208955223ef9ce1ae12b0612330cb6007e94886f7e0ce83690eb5d2e7b294": {
       "expires_at": "2026-09-20T01:07:38.865385Z",
