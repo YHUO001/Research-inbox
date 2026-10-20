@@ -1,0 +1,42 @@
+{
+  "built_at": "2026-10-20T01:00:41.828762Z",
+  "digest_date": "2026-10-20",
+  "digest_version": 1,
+  "pending_summary_count": 2,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "790fd87bc9a673947dfbaac6",
+        "landing_page": "https://doi.org/10.1016/j.optlaseng.2026.110178",
+        "mandatory": false,
+        "score": 0.79,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Optoelectronic hybrid computing from handwritten digits to binary based on time-division multiplexed neural networks",
+        "venue": "Optics and Lasers in Engineering",
+        "year": 2027
+      },
+      {
+        "candidate_id": "aaf22dbcd3252d085a360afb",
+        "landing_page": "https://doi.org/10.1002/advs.78340",
+        "mandatory": false,
+        "score": 0.79,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Spatiotemporal Computational Meta‐Imager for Broadband Dual‐Layer Optical Convolution",
+        "venue": "Advanced Science",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

@@ -1,86 +1,80 @@
 {
-  "abstract_fallback_candidate_ids": [],
-  "abstract_fallback_count": 0,
+  "abstract_fallback_candidate_ids": [
+    "790fd87bc9a673947dfbaac6",
+    "aaf22dbcd3252d085a360afb"
+  ],
+  "abstract_fallback_count": 2,
   "architecture_evidence": {
-    "1bbef7ba5398ff216f60580f": {
+    "790fd87bc9a673947dfbaac6": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": "unclear",
       "resolved_type": "unclear"
     },
-    "cadf2190f4abdc8ebf66da38": {
+    "aaf22dbcd3252d085a360afb": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
-      "previous_type": null,
+      "previous_type": "unclear",
       "resolved_type": "unclear"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
   "automatic_queue_candidate_count": 2,
-  "completed_at": "2026-10-19T01:05:33.164723Z",
+  "completed_at": "2026-10-20T01:01:24.011108Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "1bbef7ba5398ff216f60580f",
-    "cadf2190f4abdc8ebf66da38"
+    "790fd87bc9a673947dfbaac6",
+    "aaf22dbcd3252d085a360afb"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-10-19",
-  "digest_json_file": "runtime-state/data/digests/2026-10-19.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-10-19.generated.md",
+  "digest_date": "2026-10-20",
+  "digest_json_file": "runtime-state/data/digests/2026-10-20.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-10-20.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.03678,
+  "estimated_cost_cny": 0.0285124,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "1bbef7ba5398ff216f60580f": {
+    "790fd87bc9a673947dfbaac6": {
       "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "1bbef7ba5398ff216f60580f",
-      "character_count": 997,
-      "content_sha256": "570ee5a850890f5b2f88bf4758b6f32196ed8e9c9ea185205cf814d1cea40832",
-      "elapsed_seconds": 1.734,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "text/html",
-      "section_headings": [
-        "Differential-BPM-D2NN: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks"
-      ],
-      "source_url": "https://zenodo.org/records/23422325",
-      "status": "used",
+      "attempt_count": 3,
+      "candidate_id": "790fd87bc9a673947dfbaac6",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 1.724,
+      "error": "https://linkinghub.elsevier.com/retrieve/pii/S0143816626005828: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1016/j.optlaseng.2026.110178",
+      "status": "not_available",
       "text_persisted": false
     },
-    "cadf2190f4abdc8ebf66da38": {
+    "aaf22dbcd3252d085a360afb": {
       "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "cadf2190f4abdc8ebf66da38",
-      "character_count": 12000,
-      "content_sha256": "b85676284c521500a92cf6861975cc767ba53b1f26c95978bb28040fedb9d8b5",
-      "elapsed_seconds": 2.069,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "text/html",
-      "section_headings": [
-        "Recent work has sought to transfer first-order nonconvex optimization guarantees to zeroth-order methods through gradient estimators, typically incurring a factor linear in",
-        "algorithms and therefore includes deterministic methods, under",
-        "A gradient sampling method with complexity guarantees for lipschitz functions in high and low dimensions",
-        "Stochastic first- and zeroth-order methods for nonconvex stochastic programming",
-        "Gradient-free methods for deterministic and stochastic nonsmooth nonconvex optimization",
-        "exact-value zeroth-order methods and therefore, a fortiori, to deterministic ones. The word “noiseless” does not mean “deterministic algorithm.”"
-      ],
-      "source_url": "https://arxiv.org/html/2610.19652",
-      "status": "used",
+      "attempt_count": 3,
+      "candidate_id": "aaf22dbcd3252d085a360afb",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 0.634,
+      "error": "https://doi.org/10.1002/advs.78340: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1002/advs.78340",
+      "status": "not_available",
       "text_persisted": false
     }
   },
   "full_text_persisted": false,
-  "full_text_used": true,
+  "full_text_used": false,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+  "information_basis": "title_metadata_and_abstract_only",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
   "newly_completed_candidate_count": 2,
@@ -101,126 +95,117 @@
   "output_language": "zh-CN",
   "prepared_request_count": 2,
   "provider": "deepseek",
-  "queue_sha256": "8ebc9a7fd1242dd6d185a4a00410538ca0e5a0a5d0d8c5df8b470933aeae5bc2",
+  "queue_sha256": "a6ecc2016cb08f001eb9b556731c12475874ab5d0d7a571b33720b46726e7eb7",
   "request_count": 2,
-  "request_file": "runtime-state/data/summary_requests/2026-10-19.jsonl",
-  "request_sha256": "5dde65a561ac3b4fd5a2bf7ca18f56d307fd4d8bd1c3f0f8d72fa4b40f3622c8",
+  "request_file": "runtime-state/data/summary_requests/2026-10-20.jsonl",
+  "request_sha256": "2fb93452790ffcfbe9f08ac2743be1a51b52570a890f5f82c561329cb0c13539",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "81798972c195bcf7daa6b3b02f4c12df1dec05dc164695d9dcf047f79f31e6f6",
+  "selection_manifest_sha256": "1ebdfd482d46d7e718bb1e7a1ad04928cbc5f46b90ec5a7c991551e050e77364",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
   "source_queue_candidate_count": 2,
   "stage_timings": {
-    "full_text_preparation_seconds": 3.81,
+    "full_text_preparation_seconds": 2.362,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "1bbef7ba5398ff216f60580f",
-        "elapsed_seconds": 13.741,
+        "candidate_id": "790fd87bc9a673947dfbaac6",
+        "elapsed_seconds": 14.205,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1106,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 1586,
-          "prompt_tokens": 3506,
-          "total_tokens": 4612
+          "completion_tokens": 1094,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1564,
+          "prompt_tokens": 3612,
+          "total_tokens": 4706
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "cadf2190f4abdc8ebf66da38",
-        "elapsed_seconds": 19.685,
+        "candidate_id": "aaf22dbcd3252d085a360afb",
+        "elapsed_seconds": 23.406,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1841,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 4748,
-          "prompt_tokens": 6668,
-          "total_tokens": 8509
+          "completion_tokens": 2126,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1466,
+          "prompt_tokens": 3514,
+          "total_tokens": 5640
         }
       }
     ],
-    "model_generation_and_validation_seconds": 33.446
+    "model_generation_and_validation_seconds": 37.625
   },
   "status": "completed_automatic",
   "summary_count": 2,
-  "summary_file": "runtime-state/data/summaries/2026-10-19.jsonl",
+  "summary_file": "runtime-state/data/summaries/2026-10-20.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
   "summary_slot_count": 2,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "1bbef7ba5398ff216f60580f": {
+      "790fd87bc9a673947dfbaac6": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "hybrid",
+        "repaired": true,
+        "resolved_type": "unclear"
+      },
+      "aaf22dbcd3252d085a360afb": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": "free_space",
         "repaired": true,
         "resolved_type": "unclear"
-      },
-      "cadf2190f4abdc8ebf66da38": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": null,
-        "repaired": false,
-        "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 1,
+    "architecture_repairs": 2,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "1bbef7ba5398ff216f60580f": {
+      "790fd87bc9a673947dfbaac6": {
         "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "1bbef7ba5398ff216f60580f",
-        "character_count": 997,
-        "content_sha256": "570ee5a850890f5b2f88bf4758b6f32196ed8e9c9ea185205cf814d1cea40832",
-        "elapsed_seconds": 1.734,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "text/html",
-        "section_headings": [
-          "Differential-BPM-D2NN: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks"
-        ],
-        "source_url": "https://zenodo.org/records/23422325",
-        "status": "used",
+        "attempt_count": 3,
+        "candidate_id": "790fd87bc9a673947dfbaac6",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 1.724,
+        "error": "https://linkinghub.elsevier.com/retrieve/pii/S0143816626005828: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1016/j.optlaseng.2026.110178",
+        "status": "not_available",
         "text_persisted": false
       },
-      "cadf2190f4abdc8ebf66da38": {
+      "aaf22dbcd3252d085a360afb": {
         "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "cadf2190f4abdc8ebf66da38",
-        "character_count": 12000,
-        "content_sha256": "b85676284c521500a92cf6861975cc767ba53b1f26c95978bb28040fedb9d8b5",
-        "elapsed_seconds": 2.069,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "text/html",
-        "section_headings": [
-          "Recent work has sought to transfer first-order nonconvex optimization guarantees to zeroth-order methods through gradient estimators, typically incurring a factor linear in",
-          "algorithms and therefore includes deterministic methods, under",
-          "A gradient sampling method with complexity guarantees for lipschitz functions in high and low dimensions",
-          "Stochastic first- and zeroth-order methods for nonconvex stochastic programming",
-          "Gradient-free methods for deterministic and stochastic nonsmooth nonconvex optimization",
-          "exact-value zeroth-order methods and therefore, a fortiori, to deterministic ones. The word “noiseless” does not mean “deterministic algorithm.”"
-        ],
-        "source_url": "https://arxiv.org/html/2610.19652",
-        "status": "used",
+        "attempt_count": 3,
+        "candidate_id": "aaf22dbcd3252d085a360afb",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 0.634,
+        "error": "https://doi.org/10.1002/advs.78340: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1002/advs.78340",
+        "status": "not_available",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 0,
+    "generation_metadata_repair_responses": 3,
     "numeric_grounding_repair_responses": 0,
     "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 72,
+    "tops_alias_expansions": 0,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 2947,
-    "prompt_cache_hit_tokens": 3840,
-    "prompt_cache_miss_tokens": 6334,
-    "prompt_tokens": 10174,
-    "total_tokens": 13121
+    "completion_tokens": 3220,
+    "prompt_cache_hit_tokens": 4096,
+    "prompt_cache_miss_tokens": 3030,
+    "prompt_tokens": 7126,
+    "total_tokens": 10346
   }
 }

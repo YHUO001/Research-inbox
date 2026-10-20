@@ -413,6 +413,15 @@
       "summary_record_sha256": "13b40fca4cc645841a37d14b44ac0aed0895807bd6b74b4ed53fd0f5401fe388",
       "title": "A Proximal Newton-Type Algorithm for Zeroth-Order Stochastic Composite Optimization with a New Norm Test for Sample Size Selection"
     },
+    "790fd87bc9a673947dfbaac6": {
+      "digest_date": "2026-10-20",
+      "doi": "10.1016/j.optlaseng.2026.110178",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "80b699f28a7f04017da38dceda1f9c5c4cbd2da882588928e52858bf9c5a2592",
+      "title": "Optoelectronic hybrid computing from handwritten digits to binary based on time-division multiplexed neural networks"
+    },
     "79855d774b83ef6c7c8a8a47": {
       "digest_date": "2026-09-05",
       "doi": "10.21203/rs.3.rs-10794538/v1",
@@ -601,6 +610,15 @@
       ],
       "summary_record_sha256": "4cdf580dfcf6728bdf15f7db9deac28372a5eaa7f6f1a2139f265f74a70db9e4",
       "title": "Ultra-sensitive 2D Dion−Jacobson perovskite phototransistors for optoelectronic neuromorphic computing"
+    },
+    "aaf22dbcd3252d085a360afb": {
+      "digest_date": "2026-10-20",
+      "doi": "10.1002/advs.78340",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "f597783a0da4d974669aa853e1f9c032817c6f451438c578ef2e06cc744782ea",
+      "title": "Spatiotemporal Computational Meta‐Imager for Broadband Dual‐Layer Optical Convolution"
     },
     "ae3adee8419a5db7be7ec3b2": {
       "digest_date": "2026-09-27",
@@ -1064,16 +1082,22 @@
     "2026-10-19": [
       "1bbef7ba5398ff216f60580f",
       "cadf2190f4abdc8ebf66da38"
+    ],
+    "2026-10-20": [
+      "790fd87bc9a673947dfbaac6",
+      "aaf22dbcd3252d085a360afb"
     ]
   },
   "by_doi": {
     "10.1002/adom.71567": "ccd82d84305d463a6c33398d",
     "10.1002/adom.71712": "c82f6c2f7b8ae52a84e4eb29",
     "10.1002/adom.71870": "95fe7b58392c34e07c8b2616",
+    "10.1002/advs.78340": "aaf22dbcd3252d085a360afb",
     "10.1002/lpor.71857": "15e7193239d6058f661ff180",
     "10.1002/nap2.70302": "93f3ffb1741a00e1480b8ab2",
     "10.1007/s10589-026-00835-8": "c55f09d580d098a54f7078e7",
     "10.1007/s10915-026-03433-2": "7719ae17086cb97168bebbc5",
+    "10.1016/j.optlaseng.2026.110178": "790fd87bc9a673947dfbaac6",
     "10.1016/j.optlastec.2026.116573": "f4eaa19659c54d93478a40d5",
     "10.1021/acsphotonics.6c00831": "2eb28d7201afb356d747693a",
     "10.1021/acsphotonics.6c01155": "d69a4f93ca6340969e1077a8",
@@ -1196,6 +1220,7 @@
       "5ec8e35ad02131d8ed156970",
       "61dad77fe7c2ef7687ce5b21",
       "6dc0459f08567bbd051cc579",
+      "790fd87bc9a673947dfbaac6",
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
@@ -1215,6 +1240,7 @@
       "a15033db64285e5d4c8a46c9",
       "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
+      "aaf22dbcd3252d085a360afb",
       "ae3adee8419a5db7be7ec3b2",
       "b832199d8494cc67a559fec5",
       "c01ea24e589c31ebd4af01d6",
@@ -1302,6 +1328,9 @@
     "application:pattern recognition": [
       "a15033db64285e5d4c8a46c9"
     ],
+    "application:sipakmed 医学图像分类": [
+      "aaf22dbcd3252d085a360afb"
+    ],
     "application:二维/三维全息重建": [
       "c82f6c2f7b8ae52a84e4eb29"
     ],
@@ -1362,6 +1391,9 @@
     "application:全光机器视觉与智能光子计算": [
       "9039d2d888f22d7a64bcfc06"
     ],
+    "application:全彩 cifar-10 图像分类": [
+      "aaf22dbcd3252d085a360afb"
+    ],
     "application:分布式声学传感（das）": [
       "1cf1fcd769c5ace951188b8c"
     ],
@@ -1382,6 +1414,9 @@
     ],
     "application:化学物质浓度预测": [
       "c7b91f881a121b7e1651e2f2"
+    ],
+    "application:十六进制到二进制的手写数字分类": [
+      "790fd87bc9a673947dfbaac6"
     ],
     "application:十六进制字符（0-f）的4位编码分类": [
       "5228362e834f7a6b9567811b"
@@ -1508,6 +1543,9 @@
     ],
     "application:时空结构光场测量": [
       "04bdf084776bcfe0d6f912cb"
+    ],
+    "application:服装物品分类": [
+      "aaf22dbcd3252d085a360afb"
     ],
     "application:望远镜成像": [
       "0cbf41592278a3ad1b89e219"
@@ -1726,6 +1764,7 @@
       "5228362e834f7a6b9567811b",
       "541094f286db8902f2fe6077",
       "5ec8e35ad02131d8ed156970",
+      "790fd87bc9a673947dfbaac6",
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
@@ -1741,6 +1780,7 @@
       "95fe7b58392c34e07c8b2616",
       "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
+      "aaf22dbcd3252d085a360afb",
       "c01ea24e589c31ebd4af01d6",
       "c1e890d592087a69465d1299",
       "c3474ba19a69c715eb87d391",
@@ -1779,6 +1819,7 @@
       "7edb19b24759fe609707ba01",
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
+      "aaf22dbcd3252d085a360afb",
       "c7b91f881a121b7e1651e2f2",
       "d2a55bdec24bc3bc4b04467b",
       "d69a4f93ca6340969e1077a8",
@@ -1794,6 +1835,7 @@
       "541094f286db8902f2fe6077",
       "61dad77fe7c2ef7687ce5b21",
       "6dc0459f08567bbd051cc579",
+      "790fd87bc9a673947dfbaac6",
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
       "9039d2d888f22d7a64bcfc06",
@@ -1851,6 +1893,7 @@
       "5ec8e35ad02131d8ed156970",
       "61dad77fe7c2ef7687ce5b21",
       "6dc0459f08567bbd051cc579",
+      "790fd87bc9a673947dfbaac6",
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
@@ -1870,6 +1913,7 @@
       "a15033db64285e5d4c8a46c9",
       "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
+      "aaf22dbcd3252d085a360afb",
       "ae3adee8419a5db7be7ec3b2",
       "b832199d8494cc67a559fec5",
       "c01ea24e589c31ebd4af01d6",
@@ -2086,6 +2130,9 @@
       "4cf08afde3b5592300752bae",
       "916e8199aaabe1372544d280"
     ],
+    "Advanced Science": [
+      "aaf22dbcd3252d085a360afb"
+    ],
     "Applied Optics": [
       "380b726618cccff0a9e5514f",
       "61dad77fe7c2ef7687ce5b21"
@@ -2173,6 +2220,9 @@
     "Optics Express": [
       "8a0187dc3ef13553d43f5bef",
       "b832199d8494cc67a559fec5"
+    ],
+    "Optics and Lasers in Engineering": [
+      "790fd87bc9a673947dfbaac6"
     ],
     "Photonics Research": [
       "a15033db64285e5d4c8a46c9"
@@ -2319,6 +2369,7 @@
       "a15033db64285e5d4c8a46c9",
       "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
+      "aaf22dbcd3252d085a360afb",
       "ae3adee8419a5db7be7ec3b2",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
@@ -2350,10 +2401,11 @@
       "fd6f281418ac4d412744b2ac"
     ],
     "2027": [
+      "790fd87bc9a673947dfbaac6",
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 97,
+  "paper_count": 99,
   "schema_version": 1,
-  "updated_at": "2026-10-19T01:05:33.164723Z"
+  "updated_at": "2026-10-20T01:01:24.011108Z"
 }

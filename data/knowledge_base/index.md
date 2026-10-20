@@ -1,10 +1,26 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`97`
-- 更新时间：`2026-10-19T01:05:33.164723Z`
+- 论文数：`99`
+- 更新时间：`2026-10-20T01:01:24.011108Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Spatiotemporal Computational Meta‐Imager for Broadband Dual‐Layer Optical Convolution
+
+- DOI/链接：[10.1002/advs.78340](https://doi.org/10.1002/advs.78340)
+- 期刊/年份：Advanced Science，2026
+- 摘要日期：`2026-10-20`
+- 候选 ID：`aaf22dbcd3252d085a360afb`
+- 标签：application:sipakmed 医学图像分类, application:全彩 cifar-10 图像分类, application:服装物品分类, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
+
+### Optoelectronic hybrid computing from handwritten digits to binary based on time-division multiplexed neural networks
+
+- DOI/链接：[10.1016/j.optlaseng.2026.110178](https://doi.org/10.1016/j.optlaseng.2026.110178)
+- 期刊/年份：Optics and Lasers in Engineering，2027
+- 摘要日期：`2026-10-20`
+- 候选 ID：`790fd87bc9a673947dfbaac6`
+- 标签：application:十六进制到二进制的手写数字分类, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
 
 ### Differential-BPM-D2NN: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks
 

@@ -504,6 +504,56 @@
       "retrieved_at": "2026-10-16T00:57:53.270977Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/advs.78340": {
+      "expires_at": "2026-11-19T01:00:39.592814Z",
+      "record": {
+        "abstract": "ABSTRACT Optical neural networks face a tradeoff between device footprint and computational expressivity: deep systems are bulky, whereas single‐layer hardware lacks intrinsic depth and native negative‐weight support. We experimentally demonstrate a single‐layer metalens imager with “spatiotemporal intrinsic depth” for equivalent broadband dual‐layer convolution. A polarization‐multiplexed metasurface provides fixed Bessel‐vortex channels ( l = 0 to 3) as the immutable first convolution layer, where the ( l = 0) channel implements a hardware‐native residual connection. A metasurface‐generated 3 × 3 optical vortex matrix forms the second functional layer; time‐sequential liquid‐crystal amplitude modulation delivers tunable positive/negative weights. This temporal encoding solves the optical sign problem and converts fabrication imperfections into compensable biases via in‐situ training. Experiments verify rotational robustness for fashion‐item classification, raise full‐color CIFAR‐10 accuracy from 57.5 % to 86.6 %, and reach 99.3 % on the SIPaKMeD medical dataset, offloading 99.7 % of convolutional multiply‐accumulate operations to optics. By removing volumetric diffractive layers, this work enables low‐latency hybrid optoelectronic edge intelligent vision.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mengguang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Chenglong Zheng",
+            "orcid": "https://orcid.org/0000-0001-5754-5448"
+          },
+          {
+            "name": "Huaping Zang",
+            "orcid": null
+          },
+          {
+            "name": "Changwei Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Huai Xia",
+            "orcid": null
+          },
+          {
+            "name": "Chang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Zhenrong Zheng",
+            "orcid": "https://orcid.org/0000-0002-4586-6268"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/advs.78340",
+        "landing_page": "https://doi.org/10.1002/advs.78340",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/advs.78340",
+        "publication_date": "2026-10-18",
+        "title": "Spatiotemporal Computational Meta‐Imager for Broadband Dual‐Layer Optical Convolution",
+        "venue": "Advanced Science",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-20T01:00:39.592814Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/lpor.71596": {
       "expires_at": "2026-09-26T02:02:16.863743Z",
       "record": {
@@ -3044,6 +3094,48 @@
       "retrieved_at": "2026-10-09T01:12:26.026550Z",
       "status": "found"
     },
+    "crossref:doi:10.1016/j.optlaseng.2026.110178": {
+      "expires_at": "2026-11-19T01:00:38.945619Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Licheng Guo",
+            "orcid": "https://orcid.org/0009-0002-9395-2934"
+          },
+          {
+            "name": "Hongqiang Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Likuo Jia",
+            "orcid": null
+          },
+          {
+            "name": "Tianlong Man",
+            "orcid": "https://orcid.org/0000-0002-2463-7458"
+          },
+          {
+            "name": "Yuhong Wan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlaseng.2026.110178",
+        "landing_page": "https://doi.org/10.1016/j.optlaseng.2026.110178",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.optlaseng.2026.110178",
+        "publication_date": "2027-01",
+        "title": "Optoelectronic hybrid computing from handwritten digits to binary based on time-division multiplexed neural networks",
+        "venue": "Optics and Lasers in Engineering",
+        "year": 2027
+      },
+      "retrieved_at": "2026-10-20T01:00:38.945619Z",
+      "status": "found"
+    },
     "crossref:doi:10.1016/j.optlastec.2026.116572": {
       "expires_at": "2026-11-04T01:13:35.352209Z",
       "record": {
@@ -3096,6 +3188,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-05T01:13:35.352209Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1016/j.optlastec.2026.116673": {
+      "expires_at": "2026-11-19T01:00:40.265526Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Roman Vasilevich Skidanov",
+            "orcid": null
+          },
+          {
+            "name": "Nikolay Lvovich Kazanskiy",
+            "orcid": "https://orcid.org/0000-0002-0180-7522"
+          },
+          {
+            "name": "Svetlana Nikolaevna Khonina",
+            "orcid": "https://orcid.org/0000-0001-6765-4373"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlastec.2026.116673",
+        "landing_page": "https://doi.org/10.1016/j.optlastec.2026.116673",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.optlastec.2026.116673",
+        "publication_date": "2026-12",
+        "title": "Optical neural computing: from fourier optics to integrated photonic artificial intelligence",
+        "venue": "Optics &amp; Laser Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-20T01:00:40.265526Z",
       "status": "found"
     },
     "crossref:doi:10.1016/j.swevo.2026.102514": {
@@ -14329,6 +14455,56 @@
       "retrieved_at": "2026-10-16T00:57:53.624750Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/advs.78340": {
+      "expires_at": "2026-11-19T01:00:39.943495Z",
+      "record": {
+        "abstract": "ABSTRACT Optical neural networks face a tradeoff between device footprint and computational expressivity: deep systems are bulky, whereas single‐layer hardware lacks intrinsic depth and native negative‐weight support. We experimentally demonstrate a single‐layer metalens imager with “spatiotemporal intrinsic depth” for equivalent broadband dual‐layer convolution. A polarization‐multiplexed metasurface provides fixed Bessel‐vortex channels ( l = 0 to 3) as the immutable first convolution layer, where the ( l = 0) channel implements a hardware‐native residual connection. A metasurface‐generated 3 × 3 optical vortex matrix forms the second functional layer; time‐sequential liquid‐crystal amplitude modulation delivers tunable positive/negative weights. This temporal encoding solves the optical sign problem and converts fabrication imperfections into compensable biases via in‐situ training. Experiments verify rotational robustness for fashion‐item classification, raise full‐color CIFAR‐10 accuracy from 57.5 % to 86.6 %, and reach 99.3 % on the SIPaKMeD medical dataset, offloading 99.7 % of convolutional multiply‐accumulate operations to optics. By removing volumetric diffractive layers, this work enables low‐latency hybrid optoelectronic edge intelligent vision.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mengguang Wang",
+            "orcid": "https://orcid.org/0009-0003-8176-6621"
+          },
+          {
+            "name": "Chenglong Zheng",
+            "orcid": "https://orcid.org/0000-0001-5754-5448"
+          },
+          {
+            "name": "Huaping Zang",
+            "orcid": "https://orcid.org/0000-0003-1984-3529"
+          },
+          {
+            "name": "Changwei Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Huai Xia",
+            "orcid": null
+          },
+          {
+            "name": "Chang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Zhenrong Zheng",
+            "orcid": "https://orcid.org/0000-0002-4586-6268"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/advs.78340",
+        "landing_page": "https://doi.org/10.1002/advs.78340",
+        "open_access_url": "https://doi.org/10.1002/advs.78340",
+        "openalex_id": "https://openalex.org/W7222864255",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222864255",
+        "publication_date": "2026-10-18",
+        "title": "Spatiotemporal Computational Meta‐Imager for Broadband Dual‐Layer Optical Convolution",
+        "venue": "Advanced Science",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-20T01:00:39.943495Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/lpor.71596": {
       "expires_at": "2026-09-26T02:02:17.250100Z",
       "record": {
@@ -17375,6 +17551,48 @@
       "retrieved_at": "2026-10-15T00:58:16.857130Z",
       "status": "found"
     },
+    "openalex:doi:10.1016/j.optlaseng.2026.110178": {
+      "expires_at": "2026-11-19T01:00:39.352004Z",
+      "record": {
+        "abstract": "Conventional silicon-based electronic computing is plagued by escalating power consumption and diminishing efficiency gains as device scaling approaches physical limits. Meanwhile, all-optical diffractive neural networks (DNNs) suffer from limited computational accuracy on specific tasks due to inherent physical noise and manufacturing imperfections. Optoelectronic neural networks (OENNs), which synergistically combine the ultra-low power consumption and massive parallelism of optics with the flexibility and robustness of electronics, have emerged as a promising paradigm to address these challenges. In this work, we propose a time-division multiplexed diffractive optoelectronic neural network (TDM-DOENN) for high-efficiency hexadecimal to binary calculation of handwritten digits. The architecture utilizes seven trainable time-sequential amplitude masks. These masks combine with the input digit images as time-sequential modulation. This design effectively decomposes the challenging 16-class classification task into four parallel 2-class classification channels. To further enhance system robustness against physical noise, we integrate a (7, 4) Hamming check mechanism with three additional check bits. We develop a two-stage training strategy with tailored activation function and pooling operation. This method achieves collaborative optimization between the optical and electronic components. It fully leverages their respective strengths and effectively suppresses speckle noise. Under theoretical conditions, TDM-DOENN achieves a 16-class classification accuracy of 91.97%, accompanied by a computational speed of 2.56 TOPs/s and an energy efficiency of 425.97 GOPs/W based on reliable numerical simulations. This work demonstrates significant potential for applications in high-speed visual sensing, optical communication systems, and low-power edge computing devices.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Licheng Guo",
+            "orcid": "https://orcid.org/0009-0002-9395-2934"
+          },
+          {
+            "name": "Hongqiang ZHOU",
+            "orcid": null
+          },
+          {
+            "name": "Likuo Jia",
+            "orcid": null
+          },
+          {
+            "name": "Tianlong Man",
+            "orcid": "https://orcid.org/0000-0002-2463-7458"
+          },
+          {
+            "name": "Yuhong Wan",
+            "orcid": "https://orcid.org/0000-0002-4253-1067"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlaseng.2026.110178",
+        "landing_page": "https://doi.org/10.1016/j.optlaseng.2026.110178",
+        "open_access_url": "https://doi.org/10.1016/j.optlaseng.2026.110178",
+        "openalex_id": "https://openalex.org/W7222899215",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222899215",
+        "publication_date": "2026-10-18",
+        "title": "Optoelectronic hybrid computing from handwritten digits to binary based on time-division multiplexed neural networks",
+        "venue": "Optics and Lasers in Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-20T01:00:39.352004Z",
+      "status": "found"
+    },
     "openalex:doi:10.1016/j.optlastec.2026.116154": {
       "expires_at": "2026-09-17T04:25:34.997756Z",
       "record": {
@@ -17583,6 +17801,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-15T00:58:16.420479Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.optlastec.2026.116673": {
+      "expires_at": "2026-11-19T01:00:40.642875Z",
+      "record": {
+        "abstract": "The growing computational demands of artificial intelligence have accelerated interest in optical computing as a high-speed and energy-efficient alternative to conventional electronic hardware. Fourier optical computing provides an important foundation for this field because operations including convolution, correlation, spectral transformation, and certain classes of linear transformation can be implemented through diffraction, interference, and Fourier-domain processing. This review traces the development of optical neural computing from classical 4-f processors and free-space diffractive systems to programmable optical neural networks, integrated photonic accelerators, reservoir-computing platforms, and field-programmable photonic architectures. The underlying physical principles, computational mechanisms, and hardware implementations are systematically examined, with particular attention to reconfigurable photonics, metasurfaces, diffractive deep learning, photonic integrated circuits, and hybrid optical–electronic systems. Emerging applications in computational imaging, autonomous sensing, edge intelligence, high-speed communications, and quantum-enabled information processing are critically discussed alongside challenges related to scalability, programmability, nonlinear computation, training, and system integration. By positioning Fourier optics as a foundational branch within the broader landscape of optical neural computing, this review highlights the convergence of free-space, integrated, programmable, and hybrid photonic technologies toward next-generation artificial-intelligence hardware.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Р. В. Скиданов",
+            "orcid": "https://orcid.org/0000-0001-8514-7156"
+          },
+          {
+            "name": "Nikolay Lvovich Kazanskiy",
+            "orcid": "https://orcid.org/0000-0002-0180-7522"
+          },
+          {
+            "name": "Svetlana Nikolaevna Khonina",
+            "orcid": "https://orcid.org/0000-0001-6765-4373"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlastec.2026.116673",
+        "landing_page": "https://doi.org/10.1016/j.optlastec.2026.116673",
+        "open_access_url": "https://doi.org/10.1016/j.optlastec.2026.116673",
+        "openalex_id": "https://openalex.org/W7222841411",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222841411",
+        "publication_date": "2026-10-18",
+        "title": "Optical neural computing: from fourier optics to integrated photonic artificial intelligence",
+        "venue": "Optics & Laser Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-20T01:00:40.642875Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.simpat.2026.103359": {
