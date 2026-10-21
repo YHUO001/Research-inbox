@@ -7788,6 +7788,12 @@
       "retrieved_at": "2026-10-19T01:04:48.348763Z",
       "status": "not_found"
     },
+    "crossref:doi:10.5281/zenodo.23468292": {
+      "expires_at": "2026-11-20T01:00:32.477710Z",
+      "record": null,
+      "retrieved_at": "2026-10-21T01:00:32.477710Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.6084/m9.figshare.33306492.v1": {
       "expires_at": "2026-10-11T01:00:17.087901Z",
       "record": null,
@@ -8353,6 +8359,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-11T01:15:39.216662Z",
+      "status": "found"
+    },
+    "crossref:title:13c8c32969fa66fffa2268e71b0b5b5e8bcc80061c66c12b69d076735270b32d": {
+      "expires_at": "2026-10-28T01:00:31.793868Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jaafer Rahmani",
+            "orcid": null
+          },
+          {
+            "name": "Axel Sikora",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/etfa68377.2026.11724909",
+        "landing_page": "https://doi.org/10.1109/etfa68377.2026.11724909",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/etfa68377.2026.11724909",
+        "publication_date": "2026-09",
+        "title": "KEYSER: Stateful Adversarial Campaign Evaluation of ML-Based Intrusion Detection in Industrial Automation",
+        "venue": "2026 IEEE 31st International Conference on Emerging Technologies and Factory Automation (ETFA)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-21T01:00:31.793868Z",
       "status": "found"
     },
     "crossref:title:141a8841dc5bc51fbfd2e870ca1d2b69ffde28d0612acd4250b29c2c16938ee7": {
@@ -9752,6 +9788,36 @@
       "record": null,
       "retrieved_at": "2026-08-23T00:32:32.205536Z",
       "status": "not_found"
+    },
+    "crossref:title:4b9be13d0b2abf4c0a0e4727847c8b6cc5c9abee3d89bbe055c1f7305dacda5f": {
+      "expires_at": "2026-10-28T01:00:28.915750Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Qiongshan Pan",
+            "orcid": null
+          },
+          {
+            "name": "Peng Bao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.eswa.2026.134772",
+        "landing_page": "https://doi.org/10.1016/j.eswa.2026.134772",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.eswa.2026.134772",
+        "publication_date": "2026-10",
+        "title": "TNIA: Target-Aware Transformer-Based Node Injection Attacks on Graph Neural Networks",
+        "venue": "Expert Systems with Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-21T01:00:28.915750Z",
+      "status": "found"
     },
     "crossref:title:4c87c29f04006d253bc4d9e6699f9333cd9d3f40ab4e99e4693eaf75d863e602": {
       "expires_at": "2026-09-05T00:54:11.976936Z",
@@ -11961,6 +12027,12 @@
       "retrieved_at": "2026-08-24T00:32:18.540205Z",
       "status": "not_found"
     },
+    "crossref:title:b6bc135d4b05678fe79ea75798a3299c14588cf0abc03f086b53d0a38f0ad0d6": {
+      "expires_at": "2026-10-28T01:00:30.848678Z",
+      "record": null,
+      "retrieved_at": "2026-10-21T01:00:30.848678Z",
+      "status": "not_found"
+    },
     "crossref:title:b857736f74d4b6b8dd053691f8ebf5361af4a98b2c82f0ab5e97cf4484e5b711": {
       "expires_at": "2026-08-16T00:36:09.827479Z",
       "record": null,
@@ -13409,6 +13481,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-25T01:02:49.966400Z",
+      "status": "found"
+    },
+    "crossref:title:ea6b6b2c8309b225f9384a509377cd21ad0744bc11c33c7ded0bb21d32b50b94": {
+      "expires_at": "2026-10-28T01:00:33.258837Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Wencheng Han",
+            "orcid": "https://orcid.org/0000-0002-9344-4238"
+          },
+          {
+            "name": "Hao Li",
+            "orcid": "https://orcid.org/0000-0002-6294-6761"
+          },
+          {
+            "name": "Maoguo Gong",
+            "orcid": "https://orcid.org/0000-0002-0415-8556"
+          },
+          {
+            "name": "Yue Wu",
+            "orcid": "https://orcid.org/0000-0002-3459-5079"
+          },
+          {
+            "name": "Yu Zhou",
+            "orcid": "https://orcid.org/0009-0006-9950-4728"
+          },
+          {
+            "name": "Lining Xing",
+            "orcid": "https://orcid.org/0000-0002-6983-4244"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tevc.2026.3744149",
+        "landing_page": "https://doi.org/10.1109/tevc.2026.3744149",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/tevc.2026.3744149",
+        "publication_date": "2026",
+        "title": "Topology-Adaptive Evolutionary Multiobjective Optimization for Black-Box Adversarial Attacks on Large Audio-Language Models",
+        "venue": "IEEE Transactions on Evolutionary Computation",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-21T01:00:33.258837Z",
       "status": "found"
     },
     "crossref:title:eb09b8187914e28cf1b2ead8987eda5d5f4f6d9435ce03e2bbef87cf6d682749": {
@@ -17213,6 +17331,36 @@
       "retrieved_at": "2026-09-22T01:02:19.827392Z",
       "status": "found"
     },
+    "openalex:doi:10.1016/j.eswa.2026.134772": {
+      "expires_at": "2026-11-20T01:00:29.334575Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Qiongshan Pan",
+            "orcid": "https://orcid.org/0009-0003-7683-8248"
+          },
+          {
+            "name": "Peng Bao",
+            "orcid": "https://orcid.org/0000-0002-1761-3060"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.eswa.2026.134772",
+        "landing_page": "https://doi.org/10.1016/j.eswa.2026.134772",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7222843844",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222843844",
+        "publication_date": "2026-10-01",
+        "title": "TNIA: Target-Aware Transformer-Based Node Injection Attacks on Graph Neural Networks",
+        "venue": "Expert Systems with Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-21T01:00:29.334575Z",
+      "status": "found"
+    },
     "openalex:doi:10.1016/j.finel.2026.104632": {
       "expires_at": "2026-10-17T01:03:00.321397Z",
       "record": {
@@ -20645,6 +20793,36 @@
       "retrieved_at": "2026-10-05T01:13:22.301136Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/etfa68377.2026.11724909": {
+      "expires_at": "2026-11-20T01:00:32.301004Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jaafer Rahmani",
+            "orcid": "https://orcid.org/0009-0008-0975-2301"
+          },
+          {
+            "name": "Axel Sikora",
+            "orcid": "https://orcid.org/0000-0003-0878-2919"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/etfa68377.2026.11724909",
+        "landing_page": "https://doi.org/10.1109/etfa68377.2026.11724909",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7222419986",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222419986",
+        "publication_date": "2026-09-01",
+        "title": "KEYSER: Stateful Adversarial Campaign Evaluation of ML-Based Intrusion Detection in Industrial Automation",
+        "venue": "IEEE International Conference on Emerging Technologies and Factory Automation (ETFA)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-21T01:00:32.301004Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/icc59461.2026.11588032": {
       "expires_at": "2026-09-03T09:38:38.333024Z",
       "record": {
@@ -21627,6 +21805,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-27T01:11:30.356296Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/tevc.2026.3744149": {
+      "expires_at": "2026-11-20T01:00:33.676949Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Wencheng Han",
+            "orcid": "https://orcid.org/0000-0002-9344-4238"
+          },
+          {
+            "name": "Hui Li",
+            "orcid": "https://orcid.org/0000-0001-9198-3951"
+          },
+          {
+            "name": "Maoguo Gong",
+            "orcid": "https://orcid.org/0000-0002-0415-8556"
+          },
+          {
+            "name": "Yue Wu",
+            "orcid": "https://orcid.org/0000-0002-3459-5079"
+          },
+          {
+            "name": "Yu Zhou",
+            "orcid": "https://orcid.org/0009-0006-9950-4728"
+          },
+          {
+            "name": "Lining Xing",
+            "orcid": "https://orcid.org/0000-0002-6983-4244"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tevc.2026.3744149",
+        "landing_page": "https://doi.org/10.1109/tevc.2026.3744149",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7222423649",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222423649",
+        "publication_date": "2026-01-01",
+        "title": "Topology-Adaptive Evolutionary Multiobjective Optimization for Black-Box Adversarial Attacks on Large Audio-Language Models",
+        "venue": "IEEE Transactions on Evolutionary Computation",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-21T01:00:33.676949Z",
       "status": "found"
     },
     "openalex:doi:10.1109/tgrs.2026.3725659": {
@@ -26765,6 +26989,40 @@
       "retrieved_at": "2026-10-19T01:04:48.743207Z",
       "status": "found"
     },
+    "openalex:doi:10.5281/zenodo.23468292": {
+      "expires_at": "2026-11-20T01:00:32.886517Z",
+      "record": {
+        "abstract": "This dataset accompanies the manuscript “Experimental study of chaotic synchronization and message recovery in a multilayer optical neural network.” It contains exported signal time-series data in CSV format and an Excel workbook documenting laser operating-current parameters. The package preserves the original CSV folder structure and filenames. Please consult README.txt for details about the file organization, data fields, and interpretation of the accompanying parameter workbook.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Alaa M. Abdulhussein",
+            "orcid": "https://orcid.org/0000-0002-0258-5263"
+          },
+          {
+            "name": "Azhr Raheem",
+            "orcid": "https://orcid.org/0000-0002-1000-9952"
+          },
+          {
+            "name": "Ayser A. Hemed",
+            "orcid": "https://orcid.org/0000-0003-0319-1650"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23468292",
+        "landing_page": "https://doi.org/10.5281/zenodo.23468292",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23468292",
+        "openalex_id": "https://openalex.org/W7222917354",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222917354",
+        "publication_date": "2026-10-19",
+        "title": "Experimental time-series data and laser operating parameters for a multilayer optical neural network",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-21T01:00:32.886517Z",
+      "status": "found"
+    },
     "openalex:doi:10.6084/m9.figshare.33306492.v1": {
       "expires_at": "2026-10-11T01:00:17.485706Z",
       "record": {
@@ -30567,6 +30825,32 @@
       "record": null,
       "retrieved_at": "2026-08-24T00:32:19.217108Z",
       "status": "not_found"
+    },
+    "openalex:title:b6bc135d4b05678fe79ea75798a3299c14588cf0abc03f086b53d0a38f0ad0d6": {
+      "expires_at": "2026-10-28T01:00:31.496198Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Omer Rochman Sharabi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": null,
+        "landing_page": "https://orbi.uliege.be/handle/2268/348690",
+        "open_access_url": "https://orbi.uliege.be/handle/2268/348690",
+        "openalex_id": "https://openalex.org/W7213387466",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213387466",
+        "publication_date": null,
+        "title": "Data-Driven Models of Physical Systems: Efficiency, Consistency, and Inference at Scale",
+        "venue": "ORBi (University of Liège)",
+        "year": null
+      },
+      "retrieved_at": "2026-10-21T01:00:31.496198Z",
+      "status": "found"
     },
     "openalex:title:b857736f74d4b6b8dd053691f8ebf5361af4a98b2c82f0ab5e97cf4484e5b711": {
       "expires_at": "2026-08-16T00:36:10.644719Z",

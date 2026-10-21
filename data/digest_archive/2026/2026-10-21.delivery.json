@@ -1,0 +1,20 @@
+{
+  "archive_body_file": "data/digest_archive/2026/2026-10-21.email.md",
+  "archived_at": "2026-10-21T01:00:35.666010Z",
+  "body_sha256": "fbb828423a946500291aaf1e3effffa36b1814651234d8d0f03ace3b7235ba00",
+  "candidate_ids": [],
+  "content_status": "empty_daily_digest",
+  "delivery_status": "sent",
+  "digest_date": "2026-10-21",
+  "full_text_persisted": false,
+  "gmail_message_id_sha256": "85175c6132b3642070c620c903bc1f3a911570ee6f439f3f23893b37b78be62b",
+  "knowledge_index_file": "data/knowledge_base/index.md",
+  "message_id_header": "<research-inbox-20261021-05bbb7a725825d85@research-inbox.local>",
+  "recipient_sha256": "05bbb7a725825d85078914a36b7fbb15a2c4781c25a2eb2832958cb229c38c4d",
+  "schema_version": 1,
+  "sent_at": "2026-10-21T01:00:35.665891Z",
+  "source_digest_file": null,
+  "source_digest_sha256": null,
+  "subject": "[Research Inbox] 每日研究汇总 2026-10-21（0 篇）",
+  "summary_count": 0
+}
