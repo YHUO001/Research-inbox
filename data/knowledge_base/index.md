@@ -1,10 +1,26 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`99`
-- 更新时间：`2026-10-20T01:01:24.011108Z`
+- 论文数：`102`
+- 更新时间：`2026-10-22T01:00:19.603560Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Data for "Photonic neuromorphic processing with coupled spiking silicon microrings"
+
+- DOI/链接：[10.15129/03da6800-c038-4038-afc1-ded6006805b7](https://doi.org/10.15129/03da6800-c038-4038-afc1-ded6006805b7)
+- 期刊/年份：University of Strathclyde，2026
+- 摘要日期：`2026-10-22`
+- 候选 ID：`ce092fd32303d2ddfac44b92`
+- 标签：application:时间复用的数字神经网络, application:时间复用的模拟神经网络, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
+
+### Beyond the Thin-Layer Limit: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks
+
+- DOI/链接：[10.1364/oe.609758](https://doi.org/10.1364/oe.609758)
+- 期刊/年份：Optics Express，2026
+- 摘要日期：`2026-10-22`
+- 候选 ID：`d2fce890434b1e8464e61eb0`
+- 标签：application:可见光波段的衍射神经网络任务，例如图像分类、光学信息处理等（由标题和描述推断）。, architecture:unclear, project:optical-neural-networks
 
 ### Spatiotemporal Computational Meta‐Imager for Broadband Dual‐Layer Optical Convolution
 
@@ -573,6 +589,14 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### Training with ML-labeled Data via Stochastic First- and Zeroth-Order Optimization
+
+- DOI/链接：[10.48550/arxiv.2610.26790](https://doi.org/10.48550/arxiv.2610.26790)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-10-22`
+- 候选 ID：`7229499f7f76fe2e28f08e50`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
 
 ### On Global Joint Lower Bounds in Zeroth-Order Nonconvex Optimization
 

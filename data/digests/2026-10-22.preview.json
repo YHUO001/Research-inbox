@@ -1,0 +1,53 @@
+{
+  "built_at": "2026-10-22T00:59:21.833341Z",
+  "digest_date": "2026-10-22",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "ce092fd32303d2ddfac44b92",
+        "landing_page": "https://doi.org/10.15129/03da6800-c038-4038-afc1-ded6006805b7",
+        "mandatory": false,
+        "score": 0.76,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Data for \"Photonic neuromorphic processing with coupled spiking silicon microrings\"",
+        "venue": "University of Strathclyde",
+        "year": 2026
+      },
+      {
+        "candidate_id": "7229499f7f76fe2e28f08e50",
+        "landing_page": "https://doi.org/10.48550/arxiv.2610.26790",
+        "mandatory": false,
+        "score": 0.76,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Training with ML-labeled Data via Stochastic First- and Zeroth-Order Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "d2fce890434b1e8464e61eb0",
+        "landing_page": "https://doi.org/10.1364/oe.609758",
+        "mandatory": false,
+        "score": 0.72,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Beyond the Thin-Layer Limit: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks",
+        "venue": "Optics Express",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

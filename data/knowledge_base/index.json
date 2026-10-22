@@ -404,6 +404,15 @@
       "summary_record_sha256": "c90ae79c1223d49c2215f607375316b2d3aad914d3319a004ae4697c687c0cc7",
       "title": "Hardware-Aware Mixed-Precision Quantization and Memory-Efficient Zeroth-Order Fine-Tuning for In-vehicle Deployment of LLM"
     },
+    "7229499f7f76fe2e28f08e50": {
+      "digest_date": "2026-10-22",
+      "doi": "10.48550/arxiv.2610.26790",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "91a541f689b3ba4264887eab117199926b7dd3f438be6993a29048a9e6919f99",
+      "title": "Training with ML-labeled Data via Stochastic First- and Zeroth-Order Optimization"
+    },
     "7719ae17086cb97168bebbc5": {
       "digest_date": "2026-08-23",
       "doi": "10.1007/s10915-026-03433-2",
@@ -746,6 +755,15 @@
       "summary_record_sha256": "23f9d8c3c7e0801cc4b73be358c1f83de1dbee2d33e5c279c1fc1dc737a28798",
       "title": "On‐Chip Photonic Neural Network Architectures"
     },
+    "ce092fd32303d2ddfac44b92": {
+      "digest_date": "2026-10-22",
+      "doi": "10.15129/03da6800-c038-4038-afc1-ded6006805b7",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "1054e2989aebc44bb631890d0431a25ad925a4cd9e3b52ab7ad11226a6f2a70b",
+      "title": "Data for \"Photonic neuromorphic processing with coupled spiking silicon microrings\""
+    },
     "d11ea194238cf32852af6b74": {
       "digest_date": "2026-10-18",
       "doi": "10.48550/arxiv.2610.15336",
@@ -772,6 +790,15 @@
       ],
       "summary_record_sha256": "5f2de650346ead7bde9d8e17fae5640d0c61677ebb0f57551ec2ec06c0e82ba8",
       "title": "Deep diffractive optical neural networks for detecting skyrmionic topologies of light and their live training"
+    },
+    "d2fce890434b1e8464e61eb0": {
+      "digest_date": "2026-10-22",
+      "doi": "10.1364/oe.609758",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "1c6a2c39157a65164de76f4c6bf8f048a28210497b60f09f2632093ca82ffb18",
+      "title": "Beyond the Thin-Layer Limit: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks"
     },
     "d33b2e7c6586f37945facb32": {
       "digest_date": "2026-09-03",
@@ -1086,6 +1113,11 @@
     "2026-10-20": [
       "790fd87bc9a673947dfbaac6",
       "aaf22dbcd3252d085a360afb"
+    ],
+    "2026-10-22": [
+      "7229499f7f76fe2e28f08e50",
+      "ce092fd32303d2ddfac44b92",
+      "d2fce890434b1e8464e61eb0"
     ]
   },
   "by_doi": {
@@ -1147,9 +1179,11 @@
     "10.1364/josaa.608366": "6dc0459f08567bbd051cc579",
     "10.1364/oe.605087": "b832199d8494cc67a559fec5",
     "10.1364/oe.607573": "8a0187dc3ef13553d43f5bef",
+    "10.1364/oe.609758": "d2fce890434b1e8464e61eb0",
     "10.1364/optica.591264": "1cf1fcd769c5ace951188b8c",
     "10.1364/prj.591330": "a15033db64285e5d4c8a46c9",
     "10.14288/1.0455632": "9322fad036b3d7fc8e3dd47b",
+    "10.15129/03da6800-c038-4038-afc1-ded6006805b7": "ce092fd32303d2ddfac44b92",
     "10.21203/rs.3.rs-10187577/v1": "1e35265ce8678ca96adb8b93",
     "10.21203/rs.3.rs-10794538/v1": "79855d774b83ef6c7c8a8a47",
     "10.21203/rs.3.rs-11002782/v1": "5228362e834f7a6b9567811b",
@@ -1177,6 +1211,7 @@
     "10.48550/arxiv.2610.15336": "d11ea194238cf32852af6b74",
     "10.48550/arxiv.2610.16451": "7a45515c829cdcf2bd96f41f",
     "10.48550/arxiv.2610.19652": "cadf2190f4abdc8ebf66da38",
+    "10.48550/arxiv.2610.26790": "7229499f7f76fe2e28f08e50",
     "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
     "10.5281/zenodo.23337932": "c9dee369fd4e64c2389af927",
     "10.5281/zenodo.23422324": "1bbef7ba5398ff216f60580f",
@@ -1250,8 +1285,10 @@
       "c82f6c2f7b8ae52a84e4eb29",
       "c9dee369fd4e64c2389af927",
       "ccd82d84305d463a6c33398d",
+      "ce092fd32303d2ddfac44b92",
       "d162b179119ee09c86ad3708",
       "d2a55bdec24bc3bc4b04467b",
+      "d2fce890434b1e8464e61eb0",
       "d33b2e7c6586f37945facb32",
       "d69a4f93ca6340969e1077a8",
       "f21edc0449744abc1fb2536f",
@@ -1272,6 +1309,7 @@
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
       "70212be2c4a63d741872ace0",
+      "7229499f7f76fe2e28f08e50",
       "7719ae17086cb97168bebbc5",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
@@ -1433,6 +1471,9 @@
     "application:原位元学习": [
       "4ac97d5e03fb7df3ed448fc2"
     ],
+    "application:可见光波段的衍射神经网络任务，例如图像分类、光学信息处理等（由标题和描述推断）。": [
+      "d2fce890434b1e8464e61eb0"
+    ],
     "application:可见光波段的衍射神经网络建模与优化": [
       "1bbef7ba5398ff216f60580f"
     ],
@@ -1543,6 +1584,12 @@
     ],
     "application:时空结构光场测量": [
       "04bdf084776bcfe0d6f912cb"
+    ],
+    "application:时间复用的数字神经网络": [
+      "ce092fd32303d2ddfac44b92"
+    ],
+    "application:时间复用的模拟神经网络": [
+      "ce092fd32303d2ddfac44b92"
     ],
     "application:服装物品分类": [
       "aaf22dbcd3252d085a360afb"
@@ -1788,8 +1835,10 @@
       "c82f6c2f7b8ae52a84e4eb29",
       "c9dee369fd4e64c2389af927",
       "ccd82d84305d463a6c33398d",
+      "ce092fd32303d2ddfac44b92",
       "d162b179119ee09c86ad3708",
       "d2a55bdec24bc3bc4b04467b",
+      "d2fce890434b1e8464e61eb0",
       "d33b2e7c6586f37945facb32",
       "f4eaa19659c54d93478a40d5"
     ],
@@ -1821,6 +1870,7 @@
       "a15033db64285e5d4c8a46c9",
       "aaf22dbcd3252d085a360afb",
       "c7b91f881a121b7e1651e2f2",
+      "ce092fd32303d2ddfac44b92",
       "d2a55bdec24bc3bc4b04467b",
       "d69a4f93ca6340969e1077a8",
       "f21edc0449744abc1fb2536f",
@@ -1923,8 +1973,10 @@
       "c82f6c2f7b8ae52a84e4eb29",
       "c9dee369fd4e64c2389af927",
       "ccd82d84305d463a6c33398d",
+      "ce092fd32303d2ddfac44b92",
       "d162b179119ee09c86ad3708",
       "d2a55bdec24bc3bc4b04467b",
+      "d2fce890434b1e8464e61eb0",
       "d33b2e7c6586f37945facb32",
       "d69a4f93ca6340969e1077a8",
       "f21edc0449744abc1fb2536f",
@@ -1945,6 +1997,7 @@
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
       "70212be2c4a63d741872ace0",
+      "7229499f7f76fe2e28f08e50",
       "7719ae17086cb97168bebbc5",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
@@ -1976,6 +2029,7 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
+      "7229499f7f76fe2e28f08e50",
       "7719ae17086cb97168bebbc5",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
@@ -2007,6 +2061,7 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
+      "7229499f7f76fe2e28f08e50",
       "7719ae17086cb97168bebbc5",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
@@ -2037,6 +2092,7 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
+      "7229499f7f76fe2e28f08e50",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
@@ -2066,6 +2122,7 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
+      "7229499f7f76fe2e28f08e50",
       "7719ae17086cb97168bebbc5",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
@@ -2091,6 +2148,7 @@
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "5ce553b88d26d1296b379174",
+      "7229499f7f76fe2e28f08e50",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
@@ -2219,7 +2277,8 @@
     ],
     "Optics Express": [
       "8a0187dc3ef13553d43f5bef",
-      "b832199d8494cc67a559fec5"
+      "b832199d8494cc67a559fec5",
+      "d2fce890434b1e8464e61eb0"
     ],
     "Optics and Lasers in Engineering": [
       "790fd87bc9a673947dfbaac6"
@@ -2263,6 +2322,9 @@
     "Third International Conference on Optoelectronic Information and Optical Engineering (OIOE 2026)": [
       "7d6c2a059923ebe445a1cdf7"
     ],
+    "University of Strathclyde": [
+      "ce092fd32303d2ddfac44b92"
+    ],
     "Zenodo (CERN European Organization for Nuclear Research)": [
       "1bbef7ba5398ff216f60580f",
       "4b1739e45289d2156d3b1ed3",
@@ -2281,6 +2343,7 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
+      "7229499f7f76fe2e28f08e50",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
       "b03b6320be57edd77b3ad7e5",
@@ -2347,6 +2410,7 @@
       "66c84fb1444bbf71b05ac0d7",
       "6dc0459f08567bbd051cc579",
       "70212be2c4a63d741872ace0",
+      "7229499f7f76fe2e28f08e50",
       "7719ae17086cb97168bebbc5",
       "79855d774b83ef6c7c8a8a47",
       "7a45515c829cdcf2bd96f41f",
@@ -2383,9 +2447,11 @@
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
       "ccd82d84305d463a6c33398d",
+      "ce092fd32303d2ddfac44b92",
       "d11ea194238cf32852af6b74",
       "d162b179119ee09c86ad3708",
       "d2a55bdec24bc3bc4b04467b",
+      "d2fce890434b1e8464e61eb0",
       "d33b2e7c6586f37945facb32",
       "d69a4f93ca6340969e1077a8",
       "dad476a2b20ea06a98b64b6a",
@@ -2405,7 +2471,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 99,
+  "paper_count": 102,
   "schema_version": 1,
-  "updated_at": "2026-10-20T01:01:24.011108Z"
+  "updated_at": "2026-10-22T01:00:19.603560Z"
 }

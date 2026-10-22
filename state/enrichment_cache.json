@@ -5458,6 +5458,40 @@
       "retrieved_at": "2026-10-11T01:15:42.010001Z",
       "status": "found"
     },
+    "crossref:doi:10.1117/12.3114373": {
+      "expires_at": "2026-11-21T00:59:16.182868Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Arturo Ramirez",
+            "orcid": null
+          },
+          {
+            "name": "Maxim Shcherbakov",
+            "orcid": null
+          },
+          {
+            "name": "Taeyun Park",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3114373",
+        "landing_page": "https://doi.org/10.1117/12.3114373",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/12.3114373",
+        "publication_date": "2026-10-10",
+        "title": "Eigenmode-based Fourier kernels and femto-second nonlinear activation in an optical convolutional neural network",
+        "venue": "Emerging Topics in Artificial Intelligence (ETAI) 2026",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-22T00:59:16.182868Z",
+      "status": "found"
+    },
     "crossref:doi:10.1117/12.3116253": {
       "expires_at": "2026-09-03T09:38:55.106251Z",
       "record": {
@@ -7032,6 +7066,36 @@
       "retrieved_at": "2026-08-23T00:32:29.190843Z",
       "status": "found"
     },
+    "crossref:doi:10.1364/oe.609758": {
+      "expires_at": "2026-11-21T00:59:19.200692Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dushan Wadduwage",
+            "orcid": null
+          },
+          {
+            "name": "Dineth Jayakody",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.609758",
+        "landing_page": "https://doi.org/10.1364/oe.609758",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/oe.609758",
+        "publication_date": "2026-10-19",
+        "title": "Beyond the Thin-Layer Limit: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-22T00:59:19.200692Z",
+      "status": "found"
+    },
     "crossref:doi:10.1364/oe.612295": {
       "expires_at": "2026-10-10T01:00:33.961864Z",
       "record": {
@@ -7246,6 +7310,12 @@
       "expires_at": "2026-09-29T01:05:15.940425Z",
       "record": null,
       "retrieved_at": "2026-08-30T01:05:15.940425Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.15129/03da6800-c038-4038-afc1-ded6006805b7": {
+      "expires_at": "2026-11-21T00:59:18.837423Z",
+      "record": null,
+      "retrieved_at": "2026-10-22T00:59:18.837423Z",
       "status": "not_found"
     },
     "crossref:doi:10.15918/j.jbit1004-0579.2025.092": {
@@ -7692,6 +7762,12 @@
       "retrieved_at": "2026-10-16T00:57:50.466234Z",
       "status": "not_found"
     },
+    "crossref:doi:10.48550/arxiv.2610.26790": {
+      "expires_at": "2026-11-21T00:59:17.245380Z",
+      "record": null,
+      "retrieved_at": "2026-10-22T00:59:17.245380Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.5281/zenodo.21885998": {
       "expires_at": "2026-09-17T04:25:17.174341Z",
       "record": null,
@@ -7792,6 +7868,18 @@
       "expires_at": "2026-11-20T01:00:32.477710Z",
       "record": null,
       "retrieved_at": "2026-10-21T01:00:32.477710Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.5281/zenodo.23507506": {
+      "expires_at": "2026-11-21T00:59:16.806610Z",
+      "record": null,
+      "retrieved_at": "2026-10-22T00:59:16.806610Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.5281/zenodo.23508398": {
+      "expires_at": "2026-11-21T00:59:18.400075Z",
+      "record": null,
+      "retrieved_at": "2026-10-22T00:59:18.400075Z",
       "status": "not_found"
     },
     "crossref:doi:10.6084/m9.figshare.33306492.v1": {
@@ -9241,6 +9329,12 @@
       "expires_at": "2026-10-16T01:12:27.640243Z",
       "record": null,
       "retrieved_at": "2026-10-09T01:12:27.640243Z",
+      "status": "not_found"
+    },
+    "crossref:title:3b704351eb439bbdde32b5caa5f161f0780946c8fb8987e76981cf9325f3d34f": {
+      "expires_at": "2026-10-29T00:59:17.712504Z",
+      "record": null,
+      "retrieved_at": "2026-10-22T00:59:17.712504Z",
       "status": "not_found"
     },
     "crossref:title:3ccacb8dd677ba5b4456491e97033dec11b91c1a66522c5587dd72b1b5a24238": {
@@ -13100,6 +13194,40 @@
       "record": null,
       "retrieved_at": "2026-10-03T01:04:48.470391Z",
       "status": "not_found"
+    },
+    "crossref:title:e0c40173b31fb091dc9b2bb504251cc6923bf560efbc970803004aa46d87a922": {
+      "expires_at": "2026-10-29T00:59:19.773336Z",
+      "record": {
+        "abstract": "Chemical processes operate under time-varying economic conditions, such as changes in raw-material prices and market demand. Such changes may shift the economically optimal operating point. For high-dimensional systems, real-time optimization becomes difficult because the solution time rises rapidly with the number of decision variables and can exceed the available control interval. To address that issue, this paper develops an adaptive evolution strategy-based real-time optimization framework, termed AES-RTO. The framework first applies economically weighted uniform manifold approximation and projection (UMAP) to project the high-dimensional operating space into a low-dimensional latent space while retaining the cost-related structure. AES searches this latent space by adjusting the step size, expanding the population when needed, and performing directionally guided long-range exploration. These operations broaden the search when the optimization stalls and help prevent early convergence in local regions. The suboptimal point obtained from the search is then supplied to a gradient-based RTO step as a warm start, reducing the iterations required for final refinement. The framework was evaluated on a single-stage continuous stirred-tank reactor (CSTR), a higher-dimensional cascade CSTR, and the Tennessee Eastman Process. Across these cases, it improved the initial search result relative to the derivative-free methods considered and remained applicable to processes with heterogeneous constraints. The results indicate that AES-RTO provides a computationally efficient route to economically favorable operating points on the benchmark models studied, under changing economic parameters.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bin Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yifan Huang",
+            "orcid": "https://orcid.org/0000-0001-6584-6873"
+          },
+          {
+            "name": "Qibing Jin",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/pr14203345",
+        "landing_page": "https://doi.org/10.3390/pr14203345",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/pr14203345",
+        "publication_date": "2026-10-18",
+        "title": "AES-RTO: An Adaptive Evolution Strategy for Real-Time Economic Optimization of High-Dimensional Chemical Processes",
+        "venue": "Processes",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-22T00:59:19.773336Z",
+      "status": "found"
     },
     "crossref:title:e12f16a709eac6fd7f66aaaafc3d9b9d6ad06238b4c4f3aadb7112a3cfdaec1c": {
       "expires_at": "2026-10-05T01:11:31.182157Z",
@@ -22533,6 +22661,40 @@
       "retrieved_at": "2026-10-11T01:15:42.436324Z",
       "status": "found"
     },
+    "openalex:doi:10.1117/12.3114373": {
+      "expires_at": "2026-11-21T00:59:16.531116Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Arturo M. Ramirez",
+            "orcid": null
+          },
+          {
+            "name": "Maxim R. Shcherbakov",
+            "orcid": "https://orcid.org/0000-0001-7198-5482"
+          },
+          {
+            "name": "Taeyun Park",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3114373",
+        "landing_page": "https://doi.org/10.1117/12.3114373",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7203923428",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7203923428",
+        "publication_date": "2026-08-21",
+        "title": "Eigenmode-based Fourier kernels and femto-second nonlinear activation in an optical convolutional neural network",
+        "venue": "Emerging Topics in Artificial Intelligence (ETAI)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-22T00:59:16.531116Z",
+      "status": "found"
+    },
     "openalex:doi:10.1117/12.3116253": {
       "expires_at": "2026-09-03T09:38:55.436916Z",
       "record": {
@@ -24657,6 +24819,36 @@
       "retrieved_at": "2026-09-09T01:02:03.399972Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/oe.609758": {
+      "expires_at": "2026-11-21T00:59:19.633244Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dushan N. Wadduwage",
+            "orcid": "https://orcid.org/0000-0002-0689-9454"
+          },
+          {
+            "name": "Dineth Jayakody",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.609758",
+        "landing_page": "https://doi.org/10.1364/oe.609758",
+        "open_access_url": "https://doi.org/10.1364/oe.609758",
+        "openalex_id": "https://openalex.org/W7222919351",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222919351",
+        "publication_date": "2026-10-19",
+        "title": "Beyond the Thin-Layer Limit: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-22T00:59:19.633244Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/oe.612295": {
       "expires_at": "2026-10-10T01:00:34.337191Z",
       "record": {
@@ -25177,6 +25369,32 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-30T01:05:16.268118Z",
+      "status": "found"
+    },
+    "openalex:doi:10.15129/03da6800-c038-4038-afc1-ded6006805b7": {
+      "expires_at": "2026-11-21T00:59:19.159472Z",
+      "record": {
+        "abstract": "This repository contains the experimental data supporting the manuscript characterizing the nonlinear dynamics of a passive silicon photonic structure composed of three Side-Coupled-Integrated-Spaced-Sequence of Resonators (SCISSOR). The SCISSOR platform supports intrinsic spiking dynamics and is deployed as a photonic core for time-multiplexed analogue and digital neural networks. All data supporting the figures can be plotted using their associated python scripts.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Giovanni P. Donati",
+            "orcid": "https://orcid.org/0000-0001-6156-8394"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.15129/03da6800-c038-4038-afc1-ded6006805b7",
+        "landing_page": "https://doi.org/10.15129/03da6800-c038-4038-afc1-ded6006805b7",
+        "open_access_url": "https://doi.org/10.15129/03da6800-c038-4038-afc1-ded6006805b7",
+        "openalex_id": "https://openalex.org/W7223068934",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223068934",
+        "publication_date": "2026-10-20",
+        "title": "Data for \"Photonic neuromorphic processing with coupled spiking silicon microrings\"",
+        "venue": "University of Strathclyde",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-22T00:59:19.159472Z",
       "status": "found"
     },
     "openalex:doi:10.15918/j.jbit1004-0579.2025.092": {
@@ -25971,6 +26189,40 @@
       "retrieved_at": "2026-08-22T00:32:18.324551Z",
       "status": "found"
     },
+    "openalex:doi:10.3390/pr14203345": {
+      "expires_at": "2026-11-21T00:59:20.103487Z",
+      "record": {
+        "abstract": "Chemical processes operate under time-varying economic conditions, such as changes in raw-material prices and market demand. Such changes may shift the economically optimal operating point. For high-dimensional systems, real-time optimization becomes difficult because the solution time rises rapidly with the number of decision variables and can exceed the available control interval. To address that issue, this paper develops an adaptive evolution strategy-based real-time optimization framework, termed AES-RTO. The framework first applies economically weighted uniform manifold approximation and projection (UMAP) to project the high-dimensional operating space into a low-dimensional latent space while retaining the cost-related structure. AES searches this latent space by adjusting the step size, expanding the population when needed, and performing directionally guided long-range exploration. These operations broaden the search when the optimization stalls and help prevent early convergence in local regions. The suboptimal point obtained from the search is then supplied to a gradient-based RTO step as a warm start, reducing the iterations required for final refinement. The framework was evaluated on a single-stage continuous stirred-tank reactor (CSTR), a higher-dimensional cascade CSTR, and the Tennessee Eastman Process. Across these cases, it improved the initial search result relative to the derivative-free methods considered and remained applicable to processes with heterogeneous constraints. The results indicate that AES-RTO provides a computationally efficient route to economically favorable operating points on the benchmark models studied, under changing economic parameters.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bin Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yifan Huang",
+            "orcid": "https://orcid.org/0000-0001-6584-6873"
+          },
+          {
+            "name": "Qibing Jin",
+            "orcid": "https://orcid.org/0000-0002-8898-5064"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/pr14203345",
+        "landing_page": "https://doi.org/10.3390/pr14203345",
+        "open_access_url": "https://doi.org/10.3390/pr14203345",
+        "openalex_id": "https://openalex.org/W7222969253",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222969253",
+        "publication_date": "2026-10-18",
+        "title": "AES-RTO: An Adaptive Evolution Strategy for Real-Time Economic Optimization of High-Dimensional Chemical Processes",
+        "venue": "Processes",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-22T00:59:20.103487Z",
+      "status": "found"
+    },
     "openalex:doi:10.3788/irla20250523": {
       "expires_at": "2026-09-08T00:36:12.879300Z",
       "record": null,
@@ -26513,6 +26765,36 @@
       "retrieved_at": "2026-10-16T00:57:50.791734Z",
       "status": "found"
     },
+    "openalex:doi:10.48550/arxiv.2610.26790": {
+      "expires_at": "2026-11-21T00:59:17.562529Z",
+      "record": {
+        "abstract": "Training a machine learning (ML) model is an optimization process that typically requires a set of examples with ground-truth labels beforehand. Obtaining these ground truths usually requires laborious human effort and can be costly. The scalability of human labeling becomes a concern when there are a large number of data points that need to be labeled. To address this practical issue, we consider an optimization setting where a subset of samples has ground-truth labels, while the remaining data points were labeled by an ML predictor, which could potentially assign incorrect labels to those points. We propose both first-order and zeroth-order stochastic optimization methods for training on datasets consisting of a mix of true-labeled and ML-labeled samples. We further conduct comprehensive empirical studies from training a linear regression model to fine-tuning a large language model (LLM) to showcase the effectiveness of the proposed algorithms for training with ML-labeled data.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Maria-Eleni Sfyraki",
+            "orcid": null
+          },
+          {
+            "name": "Jun-Kun Wang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.26790",
+        "landing_page": "https://doi.org/10.48550/arxiv.2610.26790",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2610.26790",
+        "openalex_id": "https://openalex.org/W7223016913",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223016913",
+        "publication_date": "2026-10-19",
+        "title": "Training with ML-labeled Data via Stochastic First- and Zeroth-Order Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-22T00:59:17.562529Z",
+      "status": "found"
+    },
     "openalex:doi:10.5281/zenodo.21885998": {
       "expires_at": "2026-09-17T04:25:17.487937Z",
       "record": {
@@ -27021,6 +27303,58 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-21T01:00:32.886517Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.23507506": {
+      "expires_at": "2026-11-21T00:59:17.132421Z",
+      "record": {
+        "abstract": "The El-Rakhawi Pre-Clinical Photonic-Bio Verification System for CRISPR (DOI: 10.5281/zenodo.23507507) addresses the critical safety bottleneck in CRISPR gene editing: off-target effects that can cause oncogenic mutations. This PCT-ready patent specification discloses a revolutionary lab-on-a-chip architecture replacing conventional electronic simulation with photonic computing at the speed of light. The system integrates three core innovations: (1) a nanophotonic channel array with zwitterionic-PEG coating and 37°C thermal regulation preserving Cas9 RNP integrity; (2) a photonic processor utilizing Mach-Zehnder interferometers and microring resonators for optical matrix multiplications with O(1) propagation time, bypassing O(L^2) electronic bottlenecks; (3) a convolutional neural network specifically configured to map physical optical interference patterns to binding classifications, overcoming abstract idea rejections. Validated on benchmark datasets, the system achieves up to 99.99% sensitivity and 99.95% specificity, reducing validation time from weeks to under 30 minutes with 1,200 samples/day throughput. Comprehensive IP protection covers 15 claims spanning system, method, chip, and kit, with explicit prohibitions against unauthorized commercialization or AI training ingestion. All moral, financial, and proprietary rights exclusively reserved to Dr. Mohamed Kamal Arafa El-Rakhawi—establishing a commercially viable, regulatory-ready pathway for safe personalized gene therapy worldwide.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "mohamed kamal arafa el-rakhawi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23507506",
+        "landing_page": "https://doi.org/10.5281/zenodo.23507506",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23507506",
+        "openalex_id": "https://openalex.org/W7223031744",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223031744",
+        "publication_date": "2026-10-20",
+        "title": "THE EL-RAKHAWI PRE-CLINICAL PHOTONIC-BIO VERIFICATION SYSTEM FOR CRISPR GENE EDITING",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-22T00:59:17.132421Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.23508398": {
+      "expires_at": "2026-11-21T00:59:18.729043Z",
+      "record": {
+        "abstract": "The El-Rakhawi Hybrid Photonic-Ionic Power Unit for Edge AI Computing (DOI: 10.5281/zenodo.23508399) addresses critical energy bottlenecks in decentralized AI deployment by eliminating dependence on lithium-based batteries and grid infrastructure. This PCT-ready patent specification discloses an integrated architecture combining perovskite-silicon tandem solar cells achieving 30%+ efficiency under AM1.5G conditions with sodium-ion battery storage substantially free of lithium components. The system's core innovation is a direct DC coupling architecture comprising a DC-DC converter that eliminates intermediate AC-DC conversion stages, providing a low-noise, fast-transient power profile with ripple voltage <50 mV specifically matching photonic neural network accelerator requirements. The sodium-ion battery employs layered transition metal oxide cathode (Na_x Fe_y Mn_z O_2) with hard carbon anode, achieving 95%+ round-trip efficiency under specified charge/discharge rates. Validated across three deployment scenarios (rural medical diagnostics, oceanic monitoring, lunar habitat simulation), the system delivers 72-120 hours continuous operation with LCOE of $0.08-0.12/kWh, 40-60% lower than lithium-based alternatives. Comprehensive IP protection covers 15 claims spanning system, method, solar cell, and battery architectures. All moral, financial, and proprietary rights exclusively reserved to Dr. Mohamed Kamal Arafa El-Rakhawi—establishing a commercially viable pathway for sustainable, autonomous edge AI computing worldwide.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "mohamed kamal arafa el-rakhawi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23508398",
+        "landing_page": "https://doi.org/10.5281/zenodo.23508398",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23508398",
+        "openalex_id": "https://openalex.org/W7223003086",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223003086",
+        "publication_date": "2026-10-20",
+        "title": "THE EL-RAKHAWI HYBRID PHOTONIC-IONIC POWER UNIT FOR EDGE AI COMPUTING",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-22T00:59:18.729043Z",
       "status": "found"
     },
     "openalex:doi:10.6084/m9.figshare.33306492.v1": {
@@ -28538,6 +28872,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-09T01:12:28.173485Z",
+      "status": "found"
+    },
+    "openalex:title:3b704351eb439bbdde32b5caa5f161f0780946c8fb8987e76981cf9325f3d34f": {
+      "expires_at": "2026-10-29T00:59:18.240676Z",
+      "record": {
+        "abstract": "Classifier-free guidance (CFG) is essential for improving sample quality in visual generation, but it incurs substantial sampling overhead. Existing guidance-free approaches halve this cost by approximating the CFG with a single model inference, but their performance is bounded by the CFG and inherits its limitations. In this paper, we propose self-contrastive guidance (SCG), which contrasts the model's prediction on real and self-generated samples to obtain a direct, model-based signal that pushes generation toward the true data manifold. Integrating SCG into the standard likelihood objective via reparameterization yields Self-Contrastive Alignment for Likelihood Estimation (SCALE), a guidance-free training framework that produces SCG-enhanced predictions in a single forward pass. Across class-conditional and text-to-image generation on diffusion and autoregressive models, SCALE consistently outperforms CFG-mimicking guidance-free baselines and improves further when combined with DPO, demonstrating that the self-contrastive signal yields gains complementary to both CFG and preference-based fine-tuning.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jiwan Hur",
+            "orcid": "https://orcid.org/0009-0003-7252-038X"
+          },
+          {
+            "name": "Dong-Jae Lee",
+            "orcid": null
+          },
+          {
+            "name": "Dongyeun Lee",
+            "orcid": null
+          },
+          {
+            "name": "Gyojin Han",
+            "orcid": "https://orcid.org/0009-0002-7905-0045"
+          },
+          {
+            "name": "Junmo Kim",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.23263",
+        "landing_page": "https://arxiv.org/abs/2610.23263",
+        "open_access_url": "https://arxiv.org/abs/2610.23263",
+        "openalex_id": "https://openalex.org/W7222951668",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222951668",
+        "publication_date": "2026-10-16",
+        "title": "SCALE: Improving Guidance-Free Visual Generation via Self-Contrastive Alignment for Likelihood Estimation",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-22T00:59:18.240676Z",
       "status": "found"
     },
     "openalex:title:3ccacb8dd677ba5b4456491e97033dec11b91c1a66522c5587dd72b1b5a24238": {

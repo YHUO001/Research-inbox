@@ -1,34 +1,325 @@
 {
-  "actual_summary_count": 0,
-  "author_metadata_enriched_count": 0,
-  "author_metadata_fallback_count": 0,
-  "author_metadata_mode": "selected_openalex_work_metadata_with_safe_fallback",
-  "automatic_queue_candidate_count": 0,
-  "built_at": "2026-10-21T01:00:34.547250Z",
+  "abstract_fallback_candidate_ids": [
+    "ce092fd32303d2ddfac44b92"
+  ],
+  "abstract_fallback_count": 1,
+  "architecture_evidence": {
+    "7229499f7f76fe2e28f08e50": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    },
+    "ce092fd32303d2ddfac44b92": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    },
+    "d2fce890434b1e8464e61eb0": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    }
+  },
+  "architecture_repairs": 0,
+  "automatic_history_pending": false,
+  "automatic_queue_candidate_count": 3,
+  "completed_at": "2026-10-22T01:00:19.603560Z",
   "completed_candidate_filtered_count": 0,
-  "daily_digest_pending": false,
-  "digest_date": "2026-10-21",
-  "digest_json_file": "runtime-state/data/digests/2026-10-21.preview.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-10-21.preview.md",
+  "completed_candidate_ids": [
+    "7229499f7f76fe2e28f08e50",
+    "ce092fd32303d2ddfac44b92",
+    "d2fce890434b1e8464e61eb0"
+  ],
+  "completion_mode": "automatic_daily_batch_after_local_validation",
+  "daily_digest_pending": true,
+  "digest_date": "2026-10-22",
+  "digest_json_file": "runtime-state/data/digests/2026-10-22.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-10-22.generated.md",
   "email_enabled": false,
+  "estimated_cost_cny": 0.0495512,
   "execution_mode": "automatic_daily_batch",
-  "full_text_used": false,
+  "failure_count": 0,
+  "failures": [],
+  "full_text_method_contexts": {
+    "7229499f7f76fe2e28f08e50": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "7229499f7f76fe2e28f08e50",
+      "character_count": 12000,
+      "content_sha256": "e8428bd1f260d79ecb35a84914592edbba32b0f736cbe8231ddbea083eb20bf1",
+      "elapsed_seconds": 1.705,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        "Training with ML-labeled Data via Stochastic First- and Zeroth-Order Optimization",
+        "2.1 Our Methods",
+        "3.1 Our Methods",
+        "Appendix D Experimental Setup",
+        "D.1.1 First-order methods",
+        "D.1.2 Zeroth-order methods",
+        "D.2.1 First-order methods",
+        "D.2.2 Zeroth-order methods",
+        "D.3.1 First-order methods",
+        "D.3.2 Zeroth-order methods",
+        "D.4.1 First-order methods",
+        "D.4.2 Zeroth-order methods"
+      ],
+      "source_url": "https://arxiv.org/html/2610.26790",
+      "status": "used",
+      "text_persisted": false
+    },
+    "ce092fd32303d2ddfac44b92": {
+      "abstract_available": true,
+      "attempt_count": 3,
+      "candidate_id": "ce092fd32303d2ddfac44b92",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 1.878,
+      "error": "https://pureportal.strath.ac.uk/en/datasets/data-for-photonic-neuromorphic-processing-with-coupled-spiking-si/: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.15129/03da6800-c038-4038-afc1-ded6006805b7",
+      "status": "not_available",
+      "text_persisted": false
+    },
+    "d2fce890434b1e8464e61eb0": {
+      "abstract_available": false,
+      "attempt_count": 1,
+      "candidate_id": "d2fce890434b1e8464e61eb0",
+      "character_count": 1453,
+      "content_sha256": "11b06e142aa52efcd9b523a2620018a116001e99ff711e845273022561073e38",
+      "elapsed_seconds": 0.335,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        "Beyond the Thin-Layer Limit: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks"
+      ],
+      "source_url": "https://opg.optica.org/oe/abstract.cfm?doi=10.1364/OE.609758",
+      "status": "used",
+      "text_persisted": false
+    }
+  },
+  "full_text_persisted": false,
+  "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
-  "knowledge_base_pending": false,
-  "llm_enabled": true,
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+  "knowledge_base_pending": true,
+  "model": "deepseek-v4-pro",
+  "newly_completed_candidate_count": 3,
+  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+  "numeric_matching": {
+    "absolute_tolerance": 0.02,
+    "approximation_markers_ignored": true,
+    "evidence_sources": [
+      "title",
+      "abstract",
+      "temporary_open_full_text_methods"
+    ],
+    "full_text_unsupported_sentence_action": "deterministic_redaction",
+    "relative_tolerance": 0.02,
+    "unit_format_ignored": true,
+    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
+  },
   "output_language": "zh-CN",
-  "provider": "not_configured",
-  "queue_candidate_count": 0,
-  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "request_count": 0,
-  "request_file": "runtime-state/data/summary_requests/2026-10-21.jsonl",
-  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "prepared_request_count": 3,
+  "provider": "deepseek",
+  "queue_sha256": "2f4d14473ff52adeb87638ac1c9b2f998cedf6d6e8ffcb2e37e3bc506931d543",
+  "request_count": 3,
+  "request_file": "runtime-state/data/summary_requests/2026-10-22.jsonl",
+  "request_sha256": "7453cbfdad63e8c99a892b3cf2d3e9f13d223b7d56d57d0dcbbd7a95cecc4c0c",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "b5f8c9d5c2d1ecf907057a78548b3ca748778dad122d6bee080a77c5d5a7af78",
-  "source_queue_candidate_count": 0,
-  "status": "no_candidates",
+  "selection_manifest_sha256": "b6fe47883b02e8e1cf8d94c127e95dcc7d302ba3ecdf62bca0c513577f343602",
+  "skipped_no_abstract_candidate_ids": [],
+  "skipped_no_abstract_count": 0,
+  "source_queue_candidate_count": 3,
+  "stage_timings": {
+    "full_text_preparation_seconds": 3.926,
+    "model_api_calls": [
+      {
+        "attempt": 1,
+        "candidate_id": "ce092fd32303d2ddfac44b92",
+        "elapsed_seconds": 11.228,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1063,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1283,
+          "prompt_tokens": 3331,
+          "total_tokens": 4394
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "7229499f7f76fe2e28f08e50",
+        "elapsed_seconds": 19.399,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1912,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 4408,
+          "prompt_tokens": 6328,
+          "total_tokens": 8240
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "d2fce890434b1e8464e61eb0",
+        "elapsed_seconds": 20.787,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1662,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 1503,
+          "prompt_tokens": 3423,
+          "total_tokens": 5085
+        }
+      }
+    ],
+    "model_generation_and_validation_seconds": 51.436
+  },
+  "status": "completed_automatic",
+  "summary_count": 3,
+  "summary_file": "runtime-state/data/summaries/2026-10-22.jsonl",
   "summary_generation_version": 8,
-  "summary_history_updated": false,
-  "summary_slot_count": 0
+  "summary_history_updated": true,
+  "summary_slot_count": 3,
+  "thinking_enabled": false,
+  "transport_repairs": {
+    "architecture_evidence": {
+      "7229499f7f76fe2e28f08e50": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": null,
+        "repaired": false,
+        "resolved_type": "unclear"
+      },
+      "ce092fd32303d2ddfac44b92": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "integrated",
+        "repaired": true,
+        "resolved_type": "unclear"
+      },
+      "d2fce890434b1e8464e61eb0": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "free_space",
+        "repaired": true,
+        "resolved_type": "unclear"
+      }
+    },
+    "architecture_repairs": 2,
+    "candidate_id_repair_responses": 0,
+    "full_text_method_contexts": {
+      "7229499f7f76fe2e28f08e50": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "7229499f7f76fe2e28f08e50",
+        "character_count": 12000,
+        "content_sha256": "e8428bd1f260d79ecb35a84914592edbba32b0f736cbe8231ddbea083eb20bf1",
+        "elapsed_seconds": 1.705,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          "Training with ML-labeled Data via Stochastic First- and Zeroth-Order Optimization",
+          "2.1 Our Methods",
+          "3.1 Our Methods",
+          "Appendix D Experimental Setup",
+          "D.1.1 First-order methods",
+          "D.1.2 Zeroth-order methods",
+          "D.2.1 First-order methods",
+          "D.2.2 Zeroth-order methods",
+          "D.3.1 First-order methods",
+          "D.3.2 Zeroth-order methods",
+          "D.4.1 First-order methods",
+          "D.4.2 Zeroth-order methods"
+        ],
+        "source_url": "https://arxiv.org/html/2610.26790",
+        "status": "used",
+        "text_persisted": false
+      },
+      "ce092fd32303d2ddfac44b92": {
+        "abstract_available": true,
+        "attempt_count": 3,
+        "candidate_id": "ce092fd32303d2ddfac44b92",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 1.878,
+        "error": "https://pureportal.strath.ac.uk/en/datasets/data-for-photonic-neuromorphic-processing-with-coupled-spiking-si/: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.15129/03da6800-c038-4038-afc1-ded6006805b7",
+        "status": "not_available",
+        "text_persisted": false
+      },
+      "d2fce890434b1e8464e61eb0": {
+        "abstract_available": false,
+        "attempt_count": 1,
+        "candidate_id": "d2fce890434b1e8464e61eb0",
+        "character_count": 1453,
+        "content_sha256": "11b06e142aa52efcd9b523a2620018a116001e99ff711e845273022561073e38",
+        "elapsed_seconds": 0.335,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          "Beyond the Thin-Layer Limit: Differentiable Volumetric Training for Visible-Range Diffractive Neural Networks"
+        ],
+        "source_url": "https://opg.optica.org/oe/abstract.cfm?doi=10.1364/OE.609758",
+        "status": "used",
+        "text_persisted": false
+      }
+    },
+    "generation_metadata_repair_responses": 4,
+    "numeric_grounding_repair_responses": 2,
+    "numeric_grounding_repairs": {
+      "7229499f7f76fe2e28f08e50": [
+        {
+          "action": "rewrote_bounded_zero_one_interval",
+          "original_excerpt": "作者指出此前工作将ML标签成分的权重限制在[0,1]区间内，而本文解除了这一约束，允许权重为任意实数。",
+          "path": "reported_results[2].claim",
+          "replacement": "作者指出此前工作将ML标签成分的权重限制在一个有界范围区间内，而本文解除了这一约束，允许权重为任意实数。"
+        },
+        {
+          "action": "rewrote_bounded_zero_one_interval",
+          "original_excerpt": "与Shoham et al. (2025)等先前工作相比，本文不假设损失值或随机梯度有界，并将ML标签成分的权重从[0,1]区间放宽到任意实数；同时首次将预测驱动优化思想扩展到零阶随机优化，提供了带ML标签数据的随机无梯度优化理论结果。",
+          "path": "distinction_from_prior_work",
+          "replacement": "与Shoham et al. (2025)等先前工作相比，本文不假设损失值或随机梯度有界，并将ML标签成分的权重从一个有界范围区间放宽到任意实数；同时首次将预测驱动优化思想扩展到零阶随机优化，提供了带ML标签数据的随机无梯度优化理论结果。"
+        }
+      ],
+      "d2fce890434b1e8464e61eb0": [
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "在可见光波段（例如400–700纳米）下，材料折射率可能随波长变化，仿真中需设定工作波长或宽带模型。",
+          "path": "method_implementation[3]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "400",
+            "700"
+          ]
+        }
+      ]
+    },
+    "tops_alias_expansions": 25,
+    "unit_format_normalization_responses": 0
+  },
+  "usage": {
+    "completion_tokens": 4637,
+    "prompt_cache_hit_tokens": 5888,
+    "prompt_cache_miss_tokens": 7194,
+    "prompt_tokens": 13082,
+    "total_tokens": 17719
+  }
 }
