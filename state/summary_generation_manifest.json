@@ -5,21 +5,49 @@
     "0ea189a90da076d72e313576"
   ],
   "abstract_fallback_count": 3,
+  "architecture_evidence": {
+    "0ea189a90da076d72e313576": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    },
+    "879145cdb2d594dd2d392a9e": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    },
+    "9e604f17f644449b1f294680": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    }
+  },
+  "architecture_repairs": 0,
   "automatic_history_pending": false,
   "automatic_queue_candidate_count": 3,
+  "completed_at": "2026-10-23T12:58:18.435733Z",
   "completed_candidate_filtered_count": 0,
-  "daily_digest_pending": false,
-  "digest_date": "2026-10-23",
-  "email_enabled": false,
-  "estimated_cost_cny": 0.0456842,
-  "execution_mode": "automatic_daily_batch",
-  "failure_count": 1,
-  "failures": [
-    {
-      "candidate_id": "0ea189a90da076d72e313576",
-      "reason": "summary 0ea189a90da076d72e313576 failed schema validation: Additional properties are not allowed ('main_contributions_full' was unexpected)"
-    }
+  "completed_candidate_ids": [
+    "0ea189a90da076d72e313576",
+    "879145cdb2d594dd2d392a9e",
+    "9e604f17f644449b1f294680"
   ],
+  "completion_mode": "automatic_daily_batch_after_local_validation",
+  "daily_digest_pending": true,
+  "digest_date": "2026-10-23",
+  "digest_json_file": "runtime-state/data/digests/2026-10-23.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-10-23.generated.md",
+  "email_enabled": false,
+  "estimated_cost_cny": 0.0296926,
+  "execution_mode": "automatic_daily_batch",
+  "failure_count": 0,
+  "failures": [],
   "full_text_method_contexts": {
     "0ea189a90da076d72e313576": {
       "abstract_available": true,
@@ -27,7 +55,7 @@
       "candidate_id": "0ea189a90da076d72e313576",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 4.151,
+      "elapsed_seconds": 4.507,
       "error": "https://zenodo.org/records/23538543: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": null,
@@ -42,7 +70,7 @@
       "candidate_id": "879145cdb2d594dd2d392a9e",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 0.571,
+      "elapsed_seconds": 0.327,
       "error": "https://doi.org/10.1002/nap2.70315: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": null,
@@ -57,7 +85,7 @@
       "candidate_id": "9e604f17f644449b1f294680",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 0.711,
+      "elapsed_seconds": 0.403,
       "error": "https://doi.org/10.1145/3795866.3844151: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": null,
@@ -71,8 +99,9 @@
   "full_text_used": false,
   "history_path": "runtime-state/state/summary_history.json",
   "information_basis": "title_metadata_and_abstract_only",
-  "knowledge_base_pending": false,
+  "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
+  "newly_completed_candidate_count": 3,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -93,75 +122,63 @@
   "queue_sha256": "b07fb57ee5ac9b9826ea3650b0b2c650592c474ee8f5f0eb49e1f01d05a4dea8",
   "request_count": 3,
   "request_file": "runtime-state/data/summary_requests/2026-10-23.jsonl",
-  "request_sha256": "d843be332a79ecc4c0a232c496f88c1e524d5664c06f3a52e4cd8ce4803cf9f6",
+  "request_sha256": "619ac283d6c151e3be6a58e582b37b0e79008dc0e30be8c587b54af10dbf2c49",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "2ac26eb83c69f4e80d1b38bda0aa3b130885aaecf4a47d7b427b7b83e4ec8568",
+  "selection_manifest_sha256": "94aca2754020e032a74f64ca94fbf181565ad4f5074f5717d238356e3ecdd7b0",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
   "source_queue_candidate_count": 3,
   "stage_timings": {
-    "full_text_preparation_seconds": 5.436,
+    "full_text_preparation_seconds": 5.243,
     "model_api_calls": [
       {
         "attempt": 1,
         "candidate_id": "879145cdb2d594dd2d392a9e",
-        "elapsed_seconds": 15.547,
+        "elapsed_seconds": 18.867,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1303,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1453,
+          "completion_tokens": 1442,
+          "prompt_cache_hit_tokens": 3456,
+          "prompt_cache_miss_tokens": 45,
           "prompt_tokens": 3501,
-          "total_tokens": 4804
+          "total_tokens": 4943
         }
       },
       {
         "attempt": 1,
         "candidate_id": "9e604f17f644449b1f294680",
-        "elapsed_seconds": 13.66,
+        "elapsed_seconds": 17.958,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1228,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1547,
+          "completion_tokens": 1504,
+          "prompt_cache_hit_tokens": 3584,
+          "prompt_cache_miss_tokens": 11,
           "prompt_tokens": 3595,
-          "total_tokens": 4823
+          "total_tokens": 5099
         }
       },
       {
         "attempt": 1,
         "candidate_id": "0ea189a90da076d72e313576",
-        "elapsed_seconds": 14.722,
+        "elapsed_seconds": 27.863,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1259,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1571,
-          "prompt_tokens": 3619,
-          "total_tokens": 4878
-        }
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "0ea189a90da076d72e313576",
-        "elapsed_seconds": 15.931,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1460,
+          "completion_tokens": 1913,
           "prompt_cache_hit_tokens": 3584,
-          "prompt_cache_miss_tokens": 76,
-          "prompt_tokens": 3660,
-          "total_tokens": 5120
+          "prompt_cache_miss_tokens": 35,
+          "prompt_tokens": 3619,
+          "total_tokens": 5532
         }
       }
     ],
-    "model_generation_and_validation_seconds": 59.873
+    "model_generation_and_validation_seconds": 64.711
   },
-  "status": "failed_validation",
-  "summary_count": 2,
+  "status": "completed_automatic",
+  "summary_count": 3,
+  "summary_file": "runtime-state/data/summaries/2026-10-23.jsonl",
   "summary_generation_version": 8,
-  "summary_history_updated": false,
+  "summary_history_updated": true,
   "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
@@ -188,7 +205,7 @@
         "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 3,
+    "architecture_repairs": 2,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
       "0ea189a90da076d72e313576": {
@@ -197,7 +214,7 @@
         "candidate_id": "0ea189a90da076d72e313576",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 4.151,
+        "elapsed_seconds": 4.507,
         "error": "https://zenodo.org/records/23538543: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": null,
@@ -212,7 +229,7 @@
         "candidate_id": "879145cdb2d594dd2d392a9e",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 0.571,
+        "elapsed_seconds": 0.327,
         "error": "https://doi.org/10.1002/nap2.70315: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": null,
@@ -227,7 +244,7 @@
         "candidate_id": "9e604f17f644449b1f294680",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 0.711,
+        "elapsed_seconds": 0.403,
         "error": "https://doi.org/10.1145/3795866.3844151: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": null,
@@ -243,7 +260,27 @@
       "9e604f17f644449b1f294680": [
         {
           "action": "redacted_unsupported_sentence",
-          "original_excerpt": "相比于每个设置中的最佳基线，Prism 将每步延迟降低 53.4% 至 76.3%。",
+          "original_excerpt": "作者报告在端到端部署后，与每个配置中的最佳基线相比，每步延迟减少 53.4% 至 76.3%，峰值内存减少 10.6% 至 13.8%，并在多种任务和多种模型规模上达到与最先进零阶微调基线相当的精度。",
+          "path": "method_implementation[1]",
+          "replacement": "相关定量细节未在标题或摘要中提供。",
+          "tokens": [
+            "13.8",
+            "76.3"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "报告在达到与最先进零阶微调基线相当精度的同时，每步延迟减少 53.4% 至 76.3%，峰值内存减少 10.6% 至 13.8%。",
+          "path": "main_contributions[3]",
+          "replacement": "相关定量细节未在标题或摘要中提供。",
+          "tokens": [
+            "13.8",
+            "76.3"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "与每个配置中的最佳基线相比，Prism 的每步训练延迟减少 53.4% 至 76.3%。",
           "path": "reported_results[0].claim",
           "replacement": "相关定量结果未在标题或摘要中提供。",
           "tokens": [
@@ -252,20 +289,11 @@
         },
         {
           "action": "redacted_unsupported_sentence",
-          "original_excerpt": "相比于每个设置中的最佳基线，Prism 将峰值内存降低 10.6% 至 13.8%。",
+          "original_excerpt": "与每个配置中的最佳基线相比，Prism 的峰值内存减少 10.6% 至 13.8%。",
           "path": "reported_results[1].claim",
           "replacement": "相关定量结果未在标题或摘要中提供。",
           "tokens": [
             "13.8"
-          ]
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "摘要仅报告每步延迟降低 53.4% 至 76.3%，未给出总查询复杂度或每步查询数的定量信息。",
-          "path": "zeroth_order_analysis.per_step_vs_total_clarity",
-          "replacement": "相关定量细节未在标题或摘要中提供。",
-          "tokens": [
-            "76.3"
           ]
         }
       ]
@@ -274,10 +302,10 @@
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 5250,
-    "prompt_cache_hit_tokens": 9728,
-    "prompt_cache_miss_tokens": 4647,
-    "prompt_tokens": 14375,
-    "total_tokens": 19625
+    "completion_tokens": 4859,
+    "prompt_cache_hit_tokens": 10624,
+    "prompt_cache_miss_tokens": 91,
+    "prompt_tokens": 10715,
+    "total_tokens": 15574
   }
 }

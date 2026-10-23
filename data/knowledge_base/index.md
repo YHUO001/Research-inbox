@@ -1,10 +1,26 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`102`
-- 更新时间：`2026-10-22T01:00:19.603560Z`
+- 论文数：`105`
+- 更新时间：`2026-10-23T12:58:18.435733Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### THE EL-RAKHAWI FRONTIER QUANTUM INTELLIGENCE FRAMEWORK (EFQIF) A Unified Architecture for Topological Neural Networks, Blind Federated Learning, Photonic Neuromorphics, Quantum Cognition, and Macro-System Generative Design
+
+- DOI/链接：[10.5281/zenodo.23538542](https://doi.org/10.5281/zenodo.23538542)
+- 期刊/年份：Zenodo (CERN European Organization for Nuclear Research)，2026
+- 摘要日期：`2026-10-23`
+- 候选 ID：`0ea189a90da076d72e313576`
+- 标签：application:量子神经形态光子学拟用于模拟突触可塑性，但具体任务未提供, architecture:unclear, project:optical-neural-networks
+
+### All‐Optical Dual‐Angle Diffractive Neural Networks for 2D Direction‐of‐Arrival Estimation
+
+- DOI/链接：[10.1002/nap2.70315](https://doi.org/10.1002/nap2.70315)
+- 期刊/年份：Nanophotonics，2026
+- 摘要日期：`2026-10-23`
+- 候选 ID：`879145cdb2d594dd2d392a9e`
+- 标签：application:多角度空间分类, application:太赫兹通信中二维到达方向估计, architecture:unclear, hardware_validation:mixed, project:optical-neural-networks
 
 ### Data for "Photonic neuromorphic processing with coupled spiking silicon microrings"
 
@@ -589,6 +605,15 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### <i>Prism</i>
+                    : Efficient Zeroth-Order Fine-Tuning for On-Device LLMs
+
+- DOI/链接：[10.1145/3795866.3844151](https://doi.org/10.1145/3795866.3844151)
+- 期刊/年份：Proceedings of the 32nd Annual International Conference on Mobile Computing and Networking，2026
+- 摘要日期：`2026-10-23`
+- 候选 ID：`9e604f17f644449b1f294680`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
 
 ### Training with ML-labeled Data via Stochastic First- and Zeroth-Order Optimization
 

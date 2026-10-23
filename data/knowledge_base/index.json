@@ -73,6 +73,15 @@
       "summary_record_sha256": "5c7b68b8b46104f05f87edb4583e77cc99dcd7efc4d7fd1354ee75ed2270cedf",
       "title": "Scalable Back-Propagation-Free Training of Optical Physics-Informed Neural Networks"
     },
+    "0ea189a90da076d72e313576": {
+      "digest_date": "2026-10-23",
+      "doi": "10.5281/zenodo.23538542",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "4d037b8f36d18c9d9067a08faed4c731e27c88c9e258bfa6e058d6767e15f638",
+      "title": "THE EL-RAKHAWI FRONTIER QUANTUM INTELLIGENCE FRAMEWORK (EFQIF) A Unified Architecture for Topological Neural Networks, Blind Federated Learning, Photonic Neuromorphics, Quantum Cognition, and Macro-System Generative Design"
+    },
     "1075bd8698bce3acb3ce9376": {
       "digest_date": "2026-09-19",
       "doi": "10.25781/kaust-ip46p",
@@ -494,6 +503,15 @@
       "summary_record_sha256": "5e759c382b39f5b054a3122e808b02c19cab0877935f13a3c2bb4359b4d2af3f",
       "title": "Emerging light-driven neuromorphic hardware for artificial intelligence"
     },
+    "879145cdb2d594dd2d392a9e": {
+      "digest_date": "2026-10-23",
+      "doi": "10.1002/nap2.70315",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "f7b788a742924bf5f296ee767fec9b1e9bbfe5ef2796d53864e99a26a144975c",
+      "title": "All‐Optical Dual‐Angle Diffractive Neural Networks for 2D Direction‐of‐Arrival Estimation"
+    },
     "8a0187dc3ef13553d43f5bef": {
       "digest_date": "2026-09-09",
       "doi": "10.1364/oe.607573",
@@ -592,6 +610,15 @@
       ],
       "summary_record_sha256": "405da6f85e07c71a653f968f4a282526a3d0f9ac9a9c670dda6d83d4913e5e7d",
       "title": "Reconfigurable Optical Nonlinear Activation Functions Using a Phase-Change Microring for Photonic Neural Networks"
+    },
+    "9e604f17f644449b1f294680": {
+      "digest_date": "2026-10-23",
+      "doi": "10.1145/3795866.3844151",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "5a20cf1aa089d729ec2036157afc8279ebd1a1d601117cc29e616ad69bdc8426",
+      "title": "<i>Prism</i>\n                    : Efficient Zeroth-Order Fine-Tuning for On-Device LLMs"
     },
     "a15033db64285e5d4c8a46c9": {
       "digest_date": "2026-09-21",
@@ -1118,6 +1145,11 @@
       "7229499f7f76fe2e28f08e50",
       "ce092fd32303d2ddfac44b92",
       "d2fce890434b1e8464e61eb0"
+    ],
+    "2026-10-23": [
+      "0ea189a90da076d72e313576",
+      "879145cdb2d594dd2d392a9e",
+      "9e604f17f644449b1f294680"
     ]
   },
   "by_doi": {
@@ -1127,6 +1159,7 @@
     "10.1002/advs.78340": "aaf22dbcd3252d085a360afb",
     "10.1002/lpor.71857": "15e7193239d6058f661ff180",
     "10.1002/nap2.70302": "93f3ffb1741a00e1480b8ab2",
+    "10.1002/nap2.70315": "879145cdb2d594dd2d392a9e",
     "10.1007/s10589-026-00835-8": "c55f09d580d098a54f7078e7",
     "10.1007/s10915-026-03433-2": "7719ae17086cb97168bebbc5",
     "10.1016/j.optlaseng.2026.110178": "790fd87bc9a673947dfbaac6",
@@ -1172,6 +1205,7 @@
     "10.1126/sciadv.aeh0904": "5ec8e35ad02131d8ed156970",
     "10.1145/3770855.3817661": "ead3d4ba8c5090acac05878a",
     "10.1145/3770855.3817738": "172a6e3e7b78c39c328487a6",
+    "10.1145/3795866.3844151": "9e604f17f644449b1f294680",
     "10.1145/3837864": "0e5c75b6132afcfb1f7afb17",
     "10.1364/ao.598894": "380b726618cccff0a9e5514f",
     "10.1364/ao.611779": "61dad77fe7c2ef7687ce5b21",
@@ -1215,6 +1249,7 @@
     "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
     "10.5281/zenodo.23337932": "c9dee369fd4e64c2389af927",
     "10.5281/zenodo.23422324": "1bbef7ba5398ff216f60580f",
+    "10.5281/zenodo.23538542": "0ea189a90da076d72e313576",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.6084/m9.figshare.c.8610155.v1": "d162b179119ee09c86ad3708",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799",
@@ -1230,6 +1265,7 @@
       "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
+      "0ea189a90da076d72e313576",
       "1229908a36775c08f23d92f8",
       "15e7193239d6058f661ff180",
       "1bbef7ba5398ff216f60580f",
@@ -1261,6 +1297,7 @@
       "7d6c2a059923ebe445a1cdf7",
       "7edb19b24759fe609707ba01",
       "83a830ace13b5158f346c392",
+      "879145cdb2d594dd2d392a9e",
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
@@ -1313,6 +1350,7 @@
       "7719ae17086cb97168bebbc5",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
+      "9e604f17f644449b1f294680",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
@@ -1535,6 +1573,9 @@
     "application:多用户干扰抑制": [
       "557b41cb542bf10e84da81f2"
     ],
+    "application:多角度空间分类": [
+      "879145cdb2d594dd2d392a9e"
+    ],
     "application:多通道光学加密": [
       "1229908a36775c08f23d92f8"
     ],
@@ -1546,6 +1587,9 @@
     ],
     "application:太赫兹三维全息超表面设计": [
       "c82f6c2f7b8ae52a84e4eb29"
+    ],
+    "application:太赫兹通信中二维到达方向估计": [
+      "879145cdb2d594dd2d392a9e"
     ],
     "application:实时图像边缘检测": [
       "9039d2d888f22d7a64bcfc06"
@@ -1747,6 +1791,9 @@
     "application:量子态层析（2量子比特）": [
       "2b5f9302fe96c2793d48540e"
     ],
+    "application:量子神经形态光子学拟用于模拟突触可塑性，但具体任务未提供": [
+      "0ea189a90da076d72e313576"
+    ],
     "application:量子计算": [
       "ccd82d84305d463a6c33398d"
     ],
@@ -1793,6 +1840,7 @@
       "09e1a0ed403ef22abbd9b189",
       "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
+      "0ea189a90da076d72e313576",
       "1229908a36775c08f23d92f8",
       "15e7193239d6058f661ff180",
       "1bbef7ba5398ff216f60580f",
@@ -1817,6 +1865,7 @@
       "7d6c2a059923ebe445a1cdf7",
       "7edb19b24759fe609707ba01",
       "83a830ace13b5158f346c392",
+      "879145cdb2d594dd2d392a9e",
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
@@ -1846,6 +1895,7 @@
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
+      "879145cdb2d594dd2d392a9e",
       "8ed2e70c4b7d42f84e3676a7",
       "9322fad036b3d7fc8e3dd47b",
       "95fe7b58392c34e07c8b2616",
@@ -1918,6 +1968,7 @@
       "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
+      "0ea189a90da076d72e313576",
       "1229908a36775c08f23d92f8",
       "15e7193239d6058f661ff180",
       "1bbef7ba5398ff216f60580f",
@@ -1949,6 +2000,7 @@
       "7d6c2a059923ebe445a1cdf7",
       "7edb19b24759fe609707ba01",
       "83a830ace13b5158f346c392",
+      "879145cdb2d594dd2d392a9e",
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
@@ -2001,6 +2053,7 @@
       "7719ae17086cb97168bebbc5",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
+      "9e604f17f644449b1f294680",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
@@ -2033,6 +2086,7 @@
       "7719ae17086cb97168bebbc5",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
+      "9e604f17f644449b1f294680",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
@@ -2065,6 +2119,7 @@
       "7719ae17086cb97168bebbc5",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
+      "9e604f17f644449b1f294680",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
@@ -2095,6 +2150,7 @@
       "7229499f7f76fe2e28f08e50",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
+      "9e604f17f644449b1f294680",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
@@ -2126,6 +2182,7 @@
       "7719ae17086cb97168bebbc5",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
+      "9e604f17f644449b1f294680",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
@@ -2246,6 +2303,7 @@
       "83a830ace13b5158f346c392"
     ],
     "Nanophotonics": [
+      "879145cdb2d594dd2d392a9e",
       "93f3ffb1741a00e1480b8ab2"
     ],
     "Nature Communications": [
@@ -2296,6 +2354,9 @@
       "172a6e3e7b78c39c328487a6",
       "ead3d4ba8c5090acac05878a"
     ],
+    "Proceedings of the 32nd Annual International Conference on Mobile Computing and Networking": [
+      "9e604f17f644449b1f294680"
+    ],
     "Quantum 2.0": [
       "028de8014a2b67fd147a28e7"
     ],
@@ -2326,6 +2387,7 @@
       "ce092fd32303d2ddfac44b92"
     ],
     "Zenodo (CERN European Organization for Nuclear Research)": [
+      "0ea189a90da076d72e313576",
       "1bbef7ba5398ff216f60580f",
       "4b1739e45289d2156d3b1ed3",
       "c9dee369fd4e64c2389af927"
@@ -2373,6 +2435,7 @@
       "0a7a6a25b0c077322aee6b4e",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
+      "0ea189a90da076d72e313576",
       "1075bd8698bce3acb3ce9376",
       "1229908a36775c08f23d92f8",
       "142dc76f41fc25448b82c91e",
@@ -2419,6 +2482,7 @@
       "7d6c2a059923ebe445a1cdf7",
       "7edb19b24759fe609707ba01",
       "83a830ace13b5158f346c392",
+      "879145cdb2d594dd2d392a9e",
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
@@ -2430,6 +2494,7 @@
       "95fe7b58392c34e07c8b2616",
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
+      "9e604f17f644449b1f294680",
       "a15033db64285e5d4c8a46c9",
       "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
@@ -2471,7 +2536,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 102,
+  "paper_count": 105,
   "schema_version": 1,
-  "updated_at": "2026-10-22T01:00:19.603560Z"
+  "updated_at": "2026-10-23T12:58:18.435733Z"
 }
