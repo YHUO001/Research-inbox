@@ -1646,6 +1646,64 @@
       "retrieved_at": "2026-09-25T01:02:47.426255Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/nap2.70315": {
+      "expires_at": "2026-11-22T01:02:38.358598Z",
+      "record": {
+        "abstract": "ABSTRACT Accurate direction‐of‐arrival (DoA) estimation in real time is essential for stable terahertz (THz) communications. To overcome the limitations of previous diffractive methods that are restricted to 1D sensing or depend on rotation, and to advance their practical deployment, we propose and experimentally validate an all‐optical dual‐angle diffractive neural network (DA‐DNN) capable of simultaneous 2D angular classification. At the heart of our design is a diffractive aperture placed before the neural network as a physical encoder. It converts the phase‐only angular information carried by the incident wave into a complex optical field enriched with amplitude features, thereby producing robust spatial encoding sensitive to angle. The system is modeled using the Rayleigh–Sommerfeld diffraction integral and optimized through end‐to‐end backpropagation. We fabricate a compact, monolithically integrated DA‐DNN device using 3D printing at high resolution and evaluate it through full‐wave simulations and THz experiments that emulate communication environments. The system accurately recognizes 64 angular combinations over a range, providing a passive and scalable optical solution with low latency for THz communications.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Chenjie Xiong",
+            "orcid": null
+          },
+          {
+            "name": "Shuo Wang",
+            "orcid": null
+          },
+          {
+            "name": "Jianzhou Huang",
+            "orcid": null
+          },
+          {
+            "name": "Jia Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Luosha Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yu Wang",
+            "orcid": null
+          },
+          {
+            "name": "Jin Tao",
+            "orcid": "https://orcid.org/0000-0003-2212-3880"
+          },
+          {
+            "name": "Chengjun Zou",
+            "orcid": "https://orcid.org/0000-0003-4275-1630"
+          },
+          {
+            "name": "Bin Hu",
+            "orcid": "https://orcid.org/0000-0002-3315-8440"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/nap2.70315",
+        "landing_page": "https://doi.org/10.1002/nap2.70315",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/nap2.70315",
+        "publication_date": "2026-10-27",
+        "title": "All‐Optical Dual‐Angle Diffractive Neural Networks for 2D Direction‐of‐Arrival Estimation",
+        "venue": "Nanophotonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:38.358598Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/psp4.70343": {
       "expires_at": "2026-10-27T01:11:27.792422Z",
       "record": {
@@ -2694,6 +2752,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-31T01:07:07.392381Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/s44443-026-01343-9": {
+      "expires_at": "2026-11-22T01:02:41.473130Z",
+      "record": {
+        "abstract": "Abstract Large language model (LLM) serving platforms increasingly route requests across heterogeneous backends, transforming query routing from a model-selection task into a system-level load-balancing problem. Centralized routers can become throughput bottlenecks and single points of failure as deployment scale and request volume grow. Distributed routing mitigates these limitations, but it introduces a coupled min–max optimization problem in which multiple routers jointly determine peak backend utilization. This coupling makes routing optimization challenging under dynamic workload conditions. We propose LODAR, a layered optimization framework for distributed LLM routing. LODAR formulates routing as a distributed min–max load-balancing problem and optimizes routing logits directly through robust offline evolutionary search, router-level block-coordinate refinement, and lightweight online adaptation. This design does not require gradient-based credit assignment, yet exploits router-level structure and warm-start information across workload windows. Experiments on synthetic and WildChat-derived trace workloads cover three deployment scales, complemented by evaluation on a real heterogeneous multi-GPU testbed. In the scale-aggregated main comparisons, LODAR achieves the lowest MaxLoad and LoadStd under both workload settings. In trace-driven simulation, LODAR reduces MaxLoad by 16.9% and LoadStd by 40.3% relative to DE, the strongest evolutionary baseline in the simulation comparison. The simulation-optimized LODAR base routing table transfers directly to the physical deployment without deployment-specific offline retraining or tuning. In the real multi-GPU experiments, LODAR reduces MaxLoad by 4.7% and LoadStd by 14.9% relative to CMA-ES. These results demonstrate the effectiveness of LODAR’s layered optimization strategy for distributed load balancing in heterogeneous LLM serving systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuanhao Xi",
+            "orcid": "https://orcid.org/0009-0000-1835-0648"
+          },
+          {
+            "name": "Xiaohuan Bing",
+            "orcid": "https://orcid.org/0009-0007-8239-7564"
+          },
+          {
+            "name": "Ramin Yahyapour",
+            "orcid": "https://orcid.org/0000-0002-9057-4395"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s44443-026-01343-9",
+        "landing_page": "https://doi.org/10.1007/s44443-026-01343-9",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s44443-026-01343-9",
+        "publication_date": "2026-11",
+        "title": "LODAR: layered optimization for distributed adaptive LLM routing",
+        "venue": "Journal of King Saud University Computer and Information Sciences",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:41.473130Z",
       "status": "found"
     },
     "crossref:doi:10.1007/s44519-026-00003-9": {
@@ -4442,6 +4534,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-03T01:04:45.059150Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1038/s41598-026-73646-w": {
+      "expires_at": "2026-11-22T01:02:42.583683Z",
+      "record": {
+        "abstract": "Abstract Lens-free on-chip microscopy (LFOM) enables compact, wide-field imaging, yet reconstructing a complex field from a single in-line hologram involves two coupled challenges: phase must be inferred from an intensity-only measurement, while fringe-scale information must be recovered within a finite numerical-aperture bandwidth. We introduce XPAR-Net, which addresses these challenges through coordinated learning across complementary representation paradigms. Field-wide channel-relation modeling captures selective dependencies among holographic responses, whereas localized spatial refinement preserves fine structural variations. Cross-Domain Alignment and Fusion reconciles these representations and confines learnable spectral residual correction to the modeled acquisition support. Training further couples reference-domain complex-field fidelity with in-support spectral-profile, local-structural, and input-relative refinement constraints. On the complete 11-category in-distribution test set, XPAR-Net improved average PSNR by 1.28 dB and SSIM by $$2.9\\%$$ over HoloFormer, with only $$8.8\\%$$ of HoloFormer’s trainable parameters and $$19.0\\%$$ of its MACs for a $$256\\times 256$$ input patch. These results highlight coordinated cross-paradigm modeling as an effective route to accurate and computationally compact single-frame LFOM reconstruction under the evaluated conditions.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yanbo Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Xiongfei Su",
+            "orcid": null
+          },
+          {
+            "name": "Ning Xu",
+            "orcid": null
+          },
+          {
+            "name": "Yachen Gao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-73646-w",
+        "landing_page": "https://doi.org/10.1038/s41598-026-73646-w",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41598-026-73646-w",
+        "publication_date": "2026-10-21",
+        "title": "XPAR-Net: cross-paradigm alignment and reconstruction network for high-fidelity lens-free on-chip microscopy",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:42.583683Z",
       "status": "found"
     },
     "crossref:doi:10.1038/s42005-026-02823-0": {
@@ -6402,6 +6532,60 @@
       "retrieved_at": "2026-08-18T04:25:37.316396Z",
       "status": "found"
     },
+    "crossref:doi:10.1145/3795866.3844151": {
+      "expires_at": "2026-11-22T01:02:41.983953Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yongjian Fu",
+            "orcid": "https://orcid.org/0000-0001-8481-2644"
+          },
+          {
+            "name": "Wenyu Qi",
+            "orcid": "https://orcid.org/0009-0003-0575-0222"
+          },
+          {
+            "name": "Yizhe Zhao",
+            "orcid": "https://orcid.org/0009-0005-4553-6639"
+          },
+          {
+            "name": "Xiaohang Sui",
+            "orcid": "https://orcid.org/0009-0002-3653-5894"
+          },
+          {
+            "name": "Jun Lu",
+            "orcid": "https://orcid.org/0009-0004-5233-0148"
+          },
+          {
+            "name": "Yongheng Deng",
+            "orcid": "https://orcid.org/0000-0003-3010-3812"
+          },
+          {
+            "name": "Hao Pan",
+            "orcid": "https://orcid.org/0000-0002-2531-0107"
+          },
+          {
+            "name": "Ju Ren",
+            "orcid": "https://orcid.org/0000-0003-2782-183X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3795866.3844151",
+        "landing_page": "https://doi.org/10.1145/3795866.3844151",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1145/3795866.3844151",
+        "publication_date": "2026-10-26",
+        "title": "<i>Prism</i>\n                    : Efficient Zeroth-Order Fine-Tuning for On-Device LLMs",
+        "venue": "Proceedings of the 32nd Annual International Conference on Mobile Computing and Networking",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:41.983953Z",
+      "status": "found"
+    },
     "crossref:doi:10.1145/3816440.3828510": {
       "expires_at": "2026-09-17T04:25:31.838719Z",
       "record": {
@@ -7196,6 +7380,52 @@
       "retrieved_at": "2026-09-16T01:02:26.306511Z",
       "status": "found"
     },
+    "crossref:doi:10.1364/ol.610057": {
+      "expires_at": "2026-11-22T01:02:39.009639Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Menelaos Skontranis",
+            "orcid": null
+          },
+          {
+            "name": "Benoit Charbonnier",
+            "orcid": null
+          },
+          {
+            "name": "Olivier Girard",
+            "orcid": null
+          },
+          {
+            "name": "George Sarantoglou",
+            "orcid": null
+          },
+          {
+            "name": "Adonis Bogris",
+            "orcid": null
+          },
+          {
+            "name": "Charis Mesaritakis",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/ol.610057",
+        "landing_page": "https://doi.org/10.1364/ol.610057",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/ol.610057",
+        "publication_date": "2026-10-21",
+        "title": "Spiking Photonic Neurons Based on Two-Section InP Quantum-Well Lasers Integrated on Silicon",
+        "venue": "Optics Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:39.009639Z",
+      "status": "found"
+    },
     "crossref:doi:10.1364/opticaopen.33425656": {
       "expires_at": "2026-10-09T01:02:00.538994Z",
       "record": {
@@ -7882,6 +8112,12 @@
       "retrieved_at": "2026-10-22T00:59:18.400075Z",
       "status": "not_found"
     },
+    "crossref:doi:10.5281/zenodo.23538542": {
+      "expires_at": "2026-11-22T01:02:29.764498Z",
+      "record": null,
+      "retrieved_at": "2026-10-23T01:02:29.764498Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.6084/m9.figshare.33306492.v1": {
       "expires_at": "2026-10-11T01:00:17.087901Z",
       "record": null,
@@ -8539,6 +8775,36 @@
       "retrieved_at": "2026-08-18T04:25:08.388855Z",
       "status": "found"
     },
+    "crossref:title:163a39f91bda8f0f08b3801f061b1b4644ab508c4e1da4382127c77a7b11f5fe": {
+      "expires_at": "2026-10-30T01:02:39.894658Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mashail M. AL Sobhi",
+            "orcid": null
+          },
+          {
+            "name": "Irsa Sajjad",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3934/math.20261316",
+        "landing_page": "https://doi.org/10.3934/math.20261316",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3934/math.20261316",
+        "publication_date": "2026",
+        "title": "Entropy-regularized Riemannian hyperstate transport with adaptive nonlocal tunneling for stochastic deep neural optimization",
+        "venue": "AIMS Mathematics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:39.894658Z",
+      "status": "found"
+    },
     "crossref:title:18919ebfcfcb07c6e645cdfc921796f473416c45a86c611e597caa66b8d59add": {
       "expires_at": "2026-08-11T09:38:30.607658Z",
       "record": {
@@ -9063,6 +9329,12 @@
       "retrieved_at": "2026-08-20T00:32:29.038187Z",
       "status": "not_found"
     },
+    "crossref:title:24a0dd3da2d72f8c42e409108f130a8f5b8ba88fd600734bdff8c0f9b173a2c8": {
+      "expires_at": "2026-10-30T01:02:36.667610Z",
+      "record": null,
+      "retrieved_at": "2026-10-23T01:02:36.667610Z",
+      "status": "not_found"
+    },
     "crossref:title:263ed055819ba5f74c75d0aabc2ffe52c75589a67af2bc95a38034db5105664f": {
       "expires_at": "2026-09-20T01:07:23.660421Z",
       "record": null,
@@ -9153,6 +9425,12 @@
       "expires_at": "2026-08-16T00:36:13.391892Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:36:13.391892Z",
+      "status": "not_found"
+    },
+    "crossref:title:2d6e25be4b47767a242d72ec511a30f5872880dad1d253ee5ed076cdd9a8799e": {
+      "expires_at": "2026-10-30T01:02:35.434525Z",
+      "record": null,
+      "retrieved_at": "2026-10-23T01:02:35.434525Z",
       "status": "not_found"
     },
     "crossref:title:2de09ba9fe45efda4e5eb9882bf3b648703879248f4b14bc847cc7ee73ec9eb6": {
@@ -9506,6 +9784,12 @@
       },
       "retrieved_at": "2026-10-16T00:57:51.277009Z",
       "status": "found"
+    },
+    "crossref:title:429cf900145140d3770ae629c4b5d1ffee3d87d4cbc53247a7e13a950e55ed76": {
+      "expires_at": "2026-10-30T01:02:32.685902Z",
+      "record": null,
+      "retrieved_at": "2026-10-23T01:02:32.685902Z",
+      "status": "not_found"
     },
     "crossref:title:42ad52bc1c9ead80bfada3309304bd6f44db88b3aff41f57a57578ad7f04b76d": {
       "expires_at": "2026-09-11T01:00:19.527254Z",
@@ -10933,6 +11217,12 @@
       "retrieved_at": "2026-10-09T01:12:15.511826Z",
       "status": "not_found"
     },
+    "crossref:title:861b45e737881aaecca5bd4d5509c65537067f5af1b7e50b062d29bd0f1f9c5d": {
+      "expires_at": "2026-10-30T01:02:44.347275Z",
+      "record": null,
+      "retrieved_at": "2026-10-23T01:02:44.347275Z",
+      "status": "not_found"
+    },
     "crossref:title:86599e5ae385dfcd91e3ebf2dee6160e6596b26621a6ea3b79ee1f7138ace847": {
       "expires_at": "2026-08-11T09:38:57.262698Z",
       "record": {
@@ -10977,6 +11267,12 @@
       "expires_at": "2026-10-11T01:36:03.652231Z",
       "record": null,
       "retrieved_at": "2026-10-04T01:36:03.652231Z",
+      "status": "not_found"
+    },
+    "crossref:title:88cde42d26d4ad3c74f4d7f95b647f979a25690eda44d96039fd19311e3dd4f6": {
+      "expires_at": "2026-10-30T01:02:31.457903Z",
+      "record": null,
+      "retrieved_at": "2026-10-23T01:02:31.457903Z",
       "status": "not_found"
     },
     "crossref:title:893405bcc3b796b7ba1f5ebd6899498ebed2256010561528450195fe104ac044": {
@@ -11461,6 +11757,12 @@
       "expires_at": "2026-10-10T01:04:31.052788Z",
       "record": null,
       "retrieved_at": "2026-10-03T01:04:31.052788Z",
+      "status": "not_found"
+    },
+    "crossref:title:9a695ebdda4936d33046a0a4ad0b7bed3677879f732e50146292c9b336b09c9e": {
+      "expires_at": "2026-10-30T01:02:40.563852Z",
+      "record": null,
+      "retrieved_at": "2026-10-23T01:02:40.563852Z",
       "status": "not_found"
     },
     "crossref:title:9b1bad62a611b751ecd903de32038c6c178275fca05efd9e93adafcd091d41cc": {
@@ -11991,6 +12293,12 @@
       "retrieved_at": "2026-09-09T01:01:59.815113Z",
       "status": "not_found"
     },
+    "crossref:title:af38eaf9c21dfc35aec53ae49b430e47ae4cde91141aa9c8b95741e8c020d72f": {
+      "expires_at": "2026-10-30T01:02:43.250703Z",
+      "record": null,
+      "retrieved_at": "2026-10-23T01:02:43.250703Z",
+      "status": "not_found"
+    },
     "crossref:title:b015a3db8ae3989df6f7903232edb2cd1491fdcf78a23d74fe8f4da2ce3a57dd": {
       "expires_at": "2026-08-11T09:38:41.635244Z",
       "record": {
@@ -12137,6 +12445,12 @@
       "expires_at": "2026-10-12T01:13:32.579917Z",
       "record": null,
       "retrieved_at": "2026-10-05T01:13:32.579917Z",
+      "status": "not_found"
+    },
+    "crossref:title:b9bd4babb2aa3d346c7159db987388b353f0fc37df0bf3a3fcce37c5bbb2edbd": {
+      "expires_at": "2026-10-30T01:02:30.656022Z",
+      "record": null,
+      "retrieved_at": "2026-10-23T01:02:30.656022Z",
       "status": "not_found"
     },
     "crossref:title:b9c4e2f76d42e94b02b9971c6de545ec5db814dc32eaab8a4230fcd1b53da7f9": {
@@ -12334,6 +12648,60 @@
       "record": null,
       "retrieved_at": "2026-10-09T01:12:22.154392Z",
       "status": "not_found"
+    },
+    "crossref:title:c00c7805b5816be1d27080c1f860b02a2b0d82263000bb6eade4bfdc61c35d0d": {
+      "expires_at": "2026-10-30T01:02:37.616851Z",
+      "record": {
+        "abstract": "Abstract Neuromorphic hardware is emerging as a transformative platform for artificial intelligence and machine learning, offering unprecedented computational speed and energy efficiency. Although several analog neuromorphic photonic systems have been demonstrated in recent years, state-of-the-art architectures still face key challenges, particularly in achieving real-time online training with high-speed signals, fully on-chip end-to-end analog implementation, online tracking, and adaptive learning under dynamic environmental conditions. Here, we demonstrate the first hardware realization of an on-chip photonic multiplexed gradient descent (MGD) algorithm that performs in-situ, on-the-fly training directly in the analog domain, which significantly reduces computational overhead and latency. Our monolithically integrated foundry-fabricated silicon photonic processor uses a microring resonator weight-bank array and a balanced photodetector with in-situ gradient computation for implementing the analog end-to-end online training. The direct gradient measurement is achieved via a perturbative approach, without requiring conventional high-precision optical or digital matrix multiplication. The experimentally demonstrated photonic implementation of MGD features fully analog, end-to-end adaptive learning, allowing simultaneous inference and training on the same hardware platform. As a result, the photonic processor can learn locally and dynamically adjust to adopt its training parameters, even in complex and varying environments. For example, our classification results demonstrate robust performance under the presence of temperature fluctuations, crosstalk and limited bit precision. This work bridges the gap between analog neuromorphic processors, online training, and practical deployment in next-generation artificial intelligence, which potentially advances autonomous, real-time photonic neuromorphic systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bhavin Shastri",
+            "orcid": "https://orcid.org/0000-0001-5040-8248"
+          },
+          {
+            "name": "Zhimu Guo",
+            "orcid": "https://orcid.org/0000-0001-9320-7913"
+          },
+          {
+            "name": "A Aadhi",
+            "orcid": null
+          },
+          {
+            "name": "Ammar Ibrahim",
+            "orcid": null
+          },
+          {
+            "name": "Adam McCaughan",
+            "orcid": "https://orcid.org/0000-0002-8553-6474"
+          },
+          {
+            "name": "Alexander Tait",
+            "orcid": "https://orcid.org/0000-0002-9774-4131"
+          },
+          {
+            "name": "Nathan Youngblood",
+            "orcid": "https://orcid.org/0000-0003-2552-9376"
+          },
+          {
+            "name": "Sonia Buckley",
+            "orcid": "https://orcid.org/0000-0003-2809-9287"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-11350311/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-11350311/v1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.21203/rs.3.rs-11350311/v1",
+        "publication_date": "2026-10-20",
+        "title": "Fully analog end-to-end online training with real-time adaptability in integrated photonics",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:37.616851Z",
+      "status": "found"
     },
     "crossref:title:c09e415b506f1f52eaf0a53f8b82767e00ec07514e55cc0a44a222d511ecce5a": {
       "expires_at": "2026-09-03T16:32:38.006835Z",
@@ -12550,6 +12918,12 @@
       },
       "retrieved_at": "2026-09-09T01:02:04.231175Z",
       "status": "found"
+    },
+    "crossref:title:c8aa470386a1e3f96e25bfaf0ac6a014ca7c13dedd9aedde0d588c9a7cc63bfa": {
+      "expires_at": "2026-10-30T01:02:33.525957Z",
+      "record": null,
+      "retrieved_at": "2026-10-23T01:02:33.525957Z",
+      "status": "not_found"
     },
     "crossref:title:c8ba769f576f225f9d67c9460beddf995f190f288b39b8f2e2e17fd24c59f104": {
       "expires_at": "2026-10-10T01:04:36.006206Z",
@@ -15843,6 +16217,64 @@
       "retrieved_at": "2026-09-25T01:02:47.739163Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/nap2.70315": {
+      "expires_at": "2026-11-22T01:02:38.728482Z",
+      "record": {
+        "abstract": "ABSTRACT Accurate direction‐of‐arrival (DoA) estimation in real time is essential for stable terahertz (THz) communications. To overcome the limitations of previous diffractive methods that are restricted to 1D sensing or depend on rotation, and to advance their practical deployment, we propose and experimentally validate an all‐optical dual‐angle diffractive neural network (DA‐DNN) capable of simultaneous 2D angular classification. At the heart of our design is a diffractive aperture placed before the neural network as a physical encoder. It converts the phase‐only angular information carried by the incident wave into a complex optical field enriched with amplitude features, thereby producing robust spatial encoding sensitive to angle. The system is modeled using the Rayleigh–Sommerfeld diffraction integral and optimized through end‐to‐end backpropagation. We fabricate a compact, monolithically integrated DA‐DNN device using 3D printing at high resolution and evaluate it through full‐wave simulations and THz experiments that emulate communication environments. The system accurately recognizes 64 angular combinations over a range, providing a passive and scalable optical solution with low latency for THz communications.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Chenjie Xiong",
+            "orcid": null
+          },
+          {
+            "name": "Shuo Wang",
+            "orcid": "https://orcid.org/0000-0002-4224-3807"
+          },
+          {
+            "name": "Jianzhou Huang",
+            "orcid": "https://orcid.org/0009-0000-1592-5493"
+          },
+          {
+            "name": "Jia Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Luosha Zhang",
+            "orcid": "https://orcid.org/0009-0003-6465-7490"
+          },
+          {
+            "name": "Yu Wang",
+            "orcid": null
+          },
+          {
+            "name": "Jin Tao",
+            "orcid": "https://orcid.org/0000-0003-2212-3880"
+          },
+          {
+            "name": "Chengjun Zou",
+            "orcid": "https://orcid.org/0000-0003-4275-1630"
+          },
+          {
+            "name": "Bin Hu",
+            "orcid": "https://orcid.org/0000-0002-3315-8440"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/nap2.70315",
+        "landing_page": "https://doi.org/10.1002/nap2.70315",
+        "open_access_url": "https://doi.org/10.1002/nap2.70315",
+        "openalex_id": "https://openalex.org/W7223176897",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223176897",
+        "publication_date": "2026-10-22",
+        "title": "All‐Optical Dual‐Angle Diffractive Neural Networks for 2D Direction‐of‐Arrival Estimation",
+        "venue": "Nanophotonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:38.728482Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/psp4.70343": {
       "expires_at": "2026-10-27T01:11:28.105479Z",
       "record": {
@@ -17017,6 +17449,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-09T01:02:04.574436Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s44443-026-01343-9": {
+      "expires_at": "2026-11-22T01:02:41.842509Z",
+      "record": {
+        "abstract": "Abstract Large language model (LLM) serving platforms increasingly route requests across heterogeneous backends, transforming query routing from a model-selection task into a system-level load-balancing problem. Centralized routers can become throughput bottlenecks and single points of failure as deployment scale and request volume grow. Distributed routing mitigates these limitations, but it introduces a coupled min–max optimization problem in which multiple routers jointly determine peak backend utilization. This coupling makes routing optimization challenging under dynamic workload conditions. We propose LODAR, a layered optimization framework for distributed LLM routing. LODAR formulates routing as a distributed min–max load-balancing problem and optimizes routing logits directly through robust offline evolutionary search, router-level block-coordinate refinement, and lightweight online adaptation. This design does not require gradient-based credit assignment, yet exploits router-level structure and warm-start information across workload windows. Experiments on synthetic and WildChat-derived trace workloads cover three deployment scales, complemented by evaluation on a real heterogeneous multi-GPU testbed. In the scale-aggregated main comparisons, LODAR achieves the lowest MaxLoad and LoadStd under both workload settings. In trace-driven simulation, LODAR reduces MaxLoad by 16.9% and LoadStd by 40.3% relative to DE, the strongest evolutionary baseline in the simulation comparison. The simulation-optimized LODAR base routing table transfers directly to the physical deployment without deployment-specific offline retraining or tuning. In the real multi-GPU experiments, LODAR reduces MaxLoad by 4.7% and LoadStd by 14.9% relative to CMA-ES. These results demonstrate the effectiveness of LODAR’s layered optimization strategy for distributed load balancing in heterogeneous LLM serving systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuanhao Xi",
+            "orcid": "https://orcid.org/0009-0000-1835-0648"
+          },
+          {
+            "name": "Xiaohuan Bing",
+            "orcid": "https://orcid.org/0009-0007-8239-7564"
+          },
+          {
+            "name": "Ramin Yahyapour",
+            "orcid": "https://orcid.org/0000-0002-9057-4395"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s44443-026-01343-9",
+        "landing_page": "https://doi.org/10.1007/s44443-026-01343-9",
+        "open_access_url": "https://doi.org/10.1007/s44443-026-01343-9",
+        "openalex_id": "https://openalex.org/W7222983546",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222983546",
+        "publication_date": "2026-10-19",
+        "title": "LODAR: layered optimization for distributed adaptive LLM routing",
+        "venue": "Journal of King Saud University - Computer and Information Sciences",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:41.842509Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s44519-026-00003-9": {
@@ -19797,6 +20263,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-03T01:04:46.475396Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41598-026-73646-w": {
+      "expires_at": "2026-11-22T01:02:42.961947Z",
+      "record": {
+        "abstract": "Abstract Lens-free on-chip microscopy (LFOM) enables compact, wide-field imaging, yet reconstructing a complex field from a single in-line hologram involves two coupled challenges: phase must be inferred from an intensity-only measurement, while fringe-scale information must be recovered within a finite numerical-aperture bandwidth. We introduce XPAR-Net, which addresses these challenges through coordinated learning across complementary representation paradigms. Field-wide channel-relation modeling captures selective dependencies among holographic responses, whereas localized spatial refinement preserves fine structural variations. Cross-Domain Alignment and Fusion reconciles these representations and confines learnable spectral residual correction to the modeled acquisition support. Training further couples reference-domain complex-field fidelity with in-support spectral-profile, local-structural, and input-relative refinement constraints. On the complete 11-category in-distribution test set, XPAR-Net improved average PSNR by 1.28 dB and SSIM by $$2.9\\%$$ over HoloFormer, with only $$8.8\\%$$ of HoloFormer’s trainable parameters and $$19.0\\%$$ of its MACs for a $$256\\times 256$$ input patch. These results highlight coordinated cross-paradigm modeling as an effective route to accurate and computationally compact single-frame LFOM reconstruction under the evaluated conditions.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yanbo Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Xiongfei Su",
+            "orcid": "https://orcid.org/0000-0002-7733-3159"
+          },
+          {
+            "name": "Ning Xu",
+            "orcid": null
+          },
+          {
+            "name": "Yang Gao",
+            "orcid": "https://orcid.org/0000-0003-2734-2441"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-73646-w",
+        "landing_page": "https://doi.org/10.1038/s41598-026-73646-w",
+        "open_access_url": "https://doi.org/10.1038/s41598-026-73646-w",
+        "openalex_id": "https://openalex.org/W7223152602",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223152602",
+        "publication_date": "2026-10-21",
+        "title": "XPAR-Net: cross-paradigm alignment and reconstruction network for high-fidelity lens-free on-chip microscopy",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:42.961947Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s42005-026-02823-0": {
@@ -23605,6 +24109,60 @@
       "retrieved_at": "2026-08-18T04:25:37.873557Z",
       "status": "found"
     },
+    "openalex:doi:10.1145/3795866.3844151": {
+      "expires_at": "2026-11-22T01:02:42.329303Z",
+      "record": {
+        "abstract": "On-device fine-tuning of Large Language Models (LLMs) is becoming increasingly important for personalized AI assistants and adaptive agents. However, standard backpropagation imposes substantial training-state memory overheads that often exceed the stringent resource budgets of mobile platforms. To address this, Zeroth-order (ZO) optimization leverages forward-only probing instead of backpropagation, drastically reducing memory footprints and offering a compelling alternative for on-device adaptation. Nonetheless, scaling ZO fine-tuning to billion-scale trainable parameter spaces remains challenging, as the cost of recovering reliable update directions scales poorly with dimensionality under mobile constraints. In this paper, we present Prism, a mobile-native infrastructure for practical billion-scale on-device ZO fine-tuning. Prism re-architects the ZO loop around a scalable probing substrate, bringing both per-step training latency and memory overhead closer to the inference footprint. We implement Prism end to end on commodity smartphones and evaluate it across diverse tasks and multiple model scales. Prism achieves accuracy comparable to that of state-of-the-art ZO fine-tuning baselines while reducing per-step latency by 53.4%-76.3% and peak memory by 10.6%-13.8% relative to the best baseline in each setting. These results demonstrate the practical feasibility of billion-scale on-device ZO fine-tuning for LLMs under real mobile constraints. We will release our code to support future research.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yongjian Fu",
+            "orcid": "https://orcid.org/0000-0001-8481-2644"
+          },
+          {
+            "name": "Wenyu Qi",
+            "orcid": "https://orcid.org/0009-0003-0575-0222"
+          },
+          {
+            "name": "Yizhe Zhao",
+            "orcid": "https://orcid.org/0009-0005-4553-6639"
+          },
+          {
+            "name": "Xiaohang Sui",
+            "orcid": "https://orcid.org/0009-0002-3653-5894"
+          },
+          {
+            "name": "Jun Lu",
+            "orcid": "https://orcid.org/0009-0004-5233-0148"
+          },
+          {
+            "name": "Yongheng Deng",
+            "orcid": "https://orcid.org/0000-0003-3010-3812"
+          },
+          {
+            "name": "Hao Pan",
+            "orcid": "https://orcid.org/0000-0002-2531-0107"
+          },
+          {
+            "name": "Ju Ren",
+            "orcid": "https://orcid.org/0000-0003-2782-183X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3795866.3844151",
+        "landing_page": "https://doi.org/10.1145/3795866.3844151",
+        "open_access_url": "https://doi.org/10.1145/3795866.3844151",
+        "openalex_id": "https://openalex.org/W7223113459",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223113459",
+        "publication_date": "2026-10-21",
+        "title": "Prism : Efficient Zeroth-Order Fine-Tuning for On-Device LLMs",
+        "venue": "Proceedings of the 28th Annual International Conference on Mobile Computing And Networking",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:42.329303Z",
+      "status": "found"
+    },
     "openalex:doi:10.1145/3816440.3828510": {
       "expires_at": "2026-09-17T04:25:32.142012Z",
       "record": {
@@ -24995,6 +25553,52 @@
       "retrieved_at": "2026-09-16T01:02:26.667889Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/ol.610057": {
+      "expires_at": "2026-11-22T01:02:39.624549Z",
+      "record": {
+        "abstract": "In this work we experimentally investigate the spiking dynamics of two-section InP quantum-well lasers monolithically integrated on silicon. By appropriately tuning the electrical bias conditions, we realize multiple neuronal-like operating regimes, such as integrate-and-fire and resonate-and-fire, highlighting the device's versatility as a high-speed photonic neuron. A systematic investigation of laser design parameters, including cavity length and gain/saturable absorber ratio, elucidates their impact on spiking-related properties (such as pulse repetition frequency) and traces the operational parameter space that unlocks stable spiking. Finally, these findings pave the way toward scalable neuromorphic photonic integrated circuits, where low-loss silicon synapses coexist with versatile laser neurons.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Menelaos Skontranis",
+            "orcid": "https://orcid.org/0000-0002-3604-2021"
+          },
+          {
+            "name": "Benoı̂t Charbonnier",
+            "orcid": "https://orcid.org/0000-0002-1421-9105"
+          },
+          {
+            "name": "Olivier Girard",
+            "orcid": null
+          },
+          {
+            "name": "George Sarantoglou",
+            "orcid": "https://orcid.org/0000-0001-6890-1065"
+          },
+          {
+            "name": "Adonis Bogris",
+            "orcid": null
+          },
+          {
+            "name": "Charis Mesaritakis",
+            "orcid": "https://orcid.org/0000-0002-0072-3116"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/ol.610057",
+        "landing_page": "https://doi.org/10.1364/ol.610057",
+        "open_access_url": "https://arxiv.org/abs/2607.26950",
+        "openalex_id": "https://openalex.org/W7171840004",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7171840004",
+        "publication_date": "2026-10-21",
+        "title": "Spiking Photonic Neurons Based on Two-Section InP Quantum-Well Lasers Integrated on Silicon",
+        "venue": "Optics Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:39.624549Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/ol.611332": {
       "expires_at": "2026-09-28T00:54:12.385748Z",
       "record": {
@@ -25759,6 +26363,60 @@
       "retrieved_at": "2026-10-09T01:12:19.200659Z",
       "status": "found"
     },
+    "openalex:doi:10.21203/rs.3.rs-11350311/v1": {
+      "expires_at": "2026-11-22T01:02:38.201239Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bhavin J. Shastri",
+            "orcid": "https://orcid.org/0000-0001-5040-8248"
+          },
+          {
+            "name": "Zhimu Guo",
+            "orcid": "https://orcid.org/0000-0001-9320-7913"
+          },
+          {
+            "name": "A Aadhi",
+            "orcid": null
+          },
+          {
+            "name": "Ammar Ibrahim",
+            "orcid": null
+          },
+          {
+            "name": "Adam N. McCaughan",
+            "orcid": "https://orcid.org/0000-0002-8553-6474"
+          },
+          {
+            "name": "Alexander N. Tait",
+            "orcid": "https://orcid.org/0000-0002-9774-4131"
+          },
+          {
+            "name": "Nathan Youngblood",
+            "orcid": "https://orcid.org/0000-0003-2552-9376"
+          },
+          {
+            "name": "Sonia Mary Buckley",
+            "orcid": "https://orcid.org/0000-0003-2809-9287"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-11350311/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-11350311/v1",
+        "open_access_url": "https://doi.org/10.21203/rs.3.rs-11350311/v1",
+        "openalex_id": "https://openalex.org/W7223068847",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223068847",
+        "publication_date": "2026-10-20",
+        "title": "Fully analog end-to-end online training with real-time adaptability in integrated photonics",
+        "venue": "Research Square",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:38.201239Z",
+      "status": "found"
+    },
     "openalex:doi:10.21595/jve.2026.26644": {
       "expires_at": "2026-10-09T01:02:02.258249Z",
       "record": {
@@ -26269,6 +26927,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-25T01:02:50.314041Z",
+      "status": "found"
+    },
+    "openalex:doi:10.3934/math.20261316": {
+      "expires_at": "2026-11-22T01:02:40.246725Z",
+      "record": {
+        "abstract": "This study investigates an improved quantum-inspired stochastic geometric hyperstate optimization (QISGHO) method for stochastic deep neural optimization, where learning is viewed as the evolution and transport of multiple interacting probabilistic hyperstates on a Riemannian statistical manifold. The proposed optimization framework is based on the general stochastic-geometric hyperstate optimization paradigm, with a more explicit entropy-regularized Riemannian probability-transport mechanism, an interaction potential for hyperstates, geometry and uncertainty-adaptive diffusion, and an acceptance-controlled nonlocal tunneling process with loss barriers, manifold distance, local curvature, probability mass, and annealing temperature. The ensemble also includes a collapse-prevention, consolidation, and rejuvenation mechanism to preserve diversity within a hyperstate. The dynamics of these components are then linked to nonlinear Riemannian Fokker–Planck and nonlocal master-equation descriptions, thereby offering a population-level perspective on stochastic optimization, and are unified by a variational free-energy formulation. The framework establishes a principled balance between global exploration and local exploitation, optimization stability, uncertainty awareness, and geometric consistency. The paired-run experiments compare and contrast the algorithm's predictive performance, calibration, robustness to perturbations, optimization behavior, and computational cost with SGD, Adam, AdamW, Lion, and SGLD on one synthetic benchmark and four public ones. The reported estimates and multiplicity-controlled comparisons suggest the advantages of the full method and its components for the following architectures and computational budgets. While these are robust theoretical findings, the conclusions do not imply global convergence for a generic non-convex neural-network objective under the sum of diffusion, jump, consolidation, and rejuvenation perturbations.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mashail M. Al-Sobhi",
+            "orcid": "https://orcid.org/0000-0003-3405-5352"
+          },
+          {
+            "name": "Irsa Sajjad",
+            "orcid": "https://orcid.org/0000-0002-7246-7043"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3934/math.20261316",
+        "landing_page": "https://doi.org/10.3934/math.20261316",
+        "open_access_url": "https://doi.org/10.3934/math.20261316",
+        "openalex_id": "https://openalex.org/W7222185498",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222185498",
+        "publication_date": "2026-01-01",
+        "title": "Entropy-regularized Riemannian hyperstate transport with adaptive nonlocal tunneling for stochastic deep neural optimization",
+        "venue": "AIMS Mathematics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:40.246725Z",
       "status": "found"
     },
     "openalex:doi:10.3934/math.2026986": {
@@ -27355,6 +28043,32 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-22T00:59:18.729043Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.23538542": {
+      "expires_at": "2026-11-22T01:02:30.276172Z",
+      "record": {
+        "abstract": "THE EL-RAKHAWI FRONTIER QUANTUM INTELLIGENCE FRAMEWORK (EFQIF) by Dr. M.K.A. El-Rakhawi (DOI: 10.5281/zenodo.23538543) presents five revolutionary pillars addressing critical quantum AI bottlenecks. Key innovations:1. **Topological Quantum Neural Networks (TQNN)**: Utilize anyonic braiding in topological superconductors for passive error resilience, eliminating massive surface-code overhead.2. **Blind Quantum Federated Learning (BQFL)**: Merges Universal Blind Quantum Computing with federated averaging, employing quantum data compression to minimize qubit overhead while ensuring zero-knowledge computation for sensitive medical/financial data.3. **Quantum Neuromorphic Photonics**: Hybrid integrated photonics (TFLN/silicon nitride) leveraging strong χ(2)/χ(3) non-linear effects to mimic synaptic plasticity at room temperature via Mach-Zehnder interferometer meshes.4. **Quantum Cognition Models**: Hardware-accelerated parameterized quantum circuits evolve belief states in Hilbert space, specifically applied to optimize HMI response latency by predicting non-rational user intent patterns.5. **Macro-System QGANs**: Operate on classically derived Reduced-Order Models (ROM) to avoid barren plateaus, optimizing high-dimensional physical systems like fusion reactor magnetohydrodynamics. IP protection excludes abstract quantum phenomena per Alice/Myriad precedents, safeguarding only concrete hardware implementations (topological nanowire layouts, photonic chips, ROM-based QGAN accelerators, HMI-optimized cognition engines), ensuring robust patent eligibility for this post-classical intelligence architecture.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "m el-rakhawi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23538542",
+        "landing_page": "https://doi.org/10.5281/zenodo.23538542",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23538542",
+        "openalex_id": "https://openalex.org/W7223113528",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223113528",
+        "publication_date": "2026-10-21",
+        "title": "THE EL-RAKHAWI FRONTIER QUANTUM INTELLIGENCE FRAMEWORK (EFQIF) A Unified Architecture for Topological Neural Networks, Blind Federated Learning, Photonic Neuromorphics, Quantum Cognition, and Macro-System Generative Design",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:30.276172Z",
       "status": "found"
     },
     "openalex:doi:10.6084/m9.figshare.33306492.v1": {
@@ -28478,6 +29192,12 @@
       "retrieved_at": "2026-08-20T00:32:29.598699Z",
       "status": "not_found"
     },
+    "openalex:title:24a0dd3da2d72f8c42e409108f130a8f5b8ba88fd600734bdff8c0f9b173a2c8": {
+      "expires_at": "2026-10-30T01:02:37.220583Z",
+      "record": null,
+      "retrieved_at": "2026-10-23T01:02:37.220583Z",
+      "status": "not_found"
+    },
     "openalex:title:263ed055819ba5f74c75d0aabc2ffe52c75589a67af2bc95a38034db5105664f": {
       "expires_at": "2026-09-20T01:07:24.218602Z",
       "record": {
@@ -28529,6 +29249,36 @@
       "record": null,
       "retrieved_at": "2026-08-09T00:36:13.940109Z",
       "status": "not_found"
+    },
+    "openalex:title:2d6e25be4b47767a242d72ec511a30f5872880dad1d253ee5ed076cdd9a8799e": {
+      "expires_at": "2026-10-30T01:02:36.046039Z",
+      "record": {
+        "abstract": "We study steady-state queueing control when decisions must be learned from a single persistent operating trajectory: only the implemented action produces data, and the queue is not reset when the action changes. Fixed-event-count cycles yield a direct ratio-of-totals sample-average approximation (SAA) of each action's steady-state cost rate. A Top-K coarse-to-fine search ranks these estimates, retains several promising refinement paths, and concentrates later operation on finer candidate sets, without requiring gradients, convexity, or differentiability. We decompose direct-SAA error into accumulated conditional transient bias and martingale fluctuation. For regenerative queues, a bias-function representation reduces transient effects within contiguous action blocks to boundary terms. Finite-sample stagewise bounds then link estimation accuracy to master-grid identification through guardian retention, and the required queueing and sampling conditions are verified for a persistent-workload M/M/1 implementation. At a common active set, Top-K has a weakly larger guardian margin than Top-1, and an exact-objective example shows Top-1 can discard the optimal refinement branch. Numerical experiments delineate scope rather than universal dominance: Top-K improves terminal identification in the reported LiQUAR and mixed staffing comparisons, while LiQUAR can have lower cumulative learning cost, and GOLiQ is markedly stronger on a smooth benchmark with reliable queueing sensitivities. Direct ranking is therefore best viewed as a complementary method when model-specific gradients are unavailable, inconvenient, or poorly matched to the decision space.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "M. Seyed Yazdi",
+            "orcid": null
+          },
+          {
+            "name": "Yiqiang Q. Zhao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.26653",
+        "landing_page": "https://arxiv.org/abs/2610.26653",
+        "open_access_url": "https://arxiv.org/abs/2610.26653",
+        "openalex_id": "https://openalex.org/W7223041302",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223041302",
+        "publication_date": "2026-10-19",
+        "title": "Direct Sample-Average Learning for Queueing Control: Gradient-Free Top-$K$ Coarse-to-Fine Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:36.046039Z",
+      "status": "found"
     },
     "openalex:title:2de09ba9fe45efda4e5eb9882bf3b648703879248f4b14bc847cc7ee73ec9eb6": {
       "expires_at": "2026-10-02T01:02:51.365862Z",
@@ -29186,6 +29936,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-16T00:57:51.690692Z",
+      "status": "found"
+    },
+    "openalex:title:429cf900145140d3770ae629c4b5d1ffee3d87d4cbc53247a7e13a950e55ed76": {
+      "expires_at": "2026-10-30T01:02:33.157131Z",
+      "record": {
+        "abstract": "Large Language Model (LLM) agents are vulnerable to adversarial inputs that induce attacker-specified malicious behaviors, commonly referred to as jailbreaking. Existing optimization-based jailbreak attacks primarily employ first-order (FO) methods that leverage gradient information or zeroth-order (ZO) methods that rely on function-value feedback. However, their complementarity and optimization ordering remain underexplored. We systematically investigate four strategies: pure ZO, pure FO, ZO->FO, and FO->ZO, and develop a ZO-FO framework that explores adversarial prefixes through ZO optimization and refines their corresponding suffixes through FO optimization. To coordinate the two processes, we introduce Pair-aware optimization, which retains multiple prefix candidates, conditionally refines their suffixes and selects among the resulting prefix-suffix pairs. We further investigate agent jailbreaking from a more general stochastic-generation perspective, where the same adversarial input can induce diverse reasoning trajectories and actions that a single greedy output cannot capture. Accordingly, we adopt consistent stochastic decoding during both optimization and evaluation. Experiments across malicious-instruction and malicious-environment benchmarks demonstrate that hybrid optimization improves attack effectiveness over single-optimizer methods, while optimization order substantially influences performance.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Juanyang Xu",
+            "orcid": null
+          },
+          {
+            "name": "Zheng Wang",
+            "orcid": null
+          },
+          {
+            "name": "Xingyu Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Siddartha Khastgir",
+            "orcid": "https://orcid.org/0000-0002-6476-2536"
+          },
+          {
+            "name": "Andi Zhang",
+            "orcid": "https://orcid.org/0009-0007-4855-5442"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.24823",
+        "landing_page": "https://arxiv.org/abs/2610.24823",
+        "open_access_url": "https://arxiv.org/abs/2610.24823",
+        "openalex_id": "https://openalex.org/W7222999486",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222999486",
+        "publication_date": "2026-10-17",
+        "title": "Pair-Aware Optimization: Coordinating Exploration and Refinement for Jailbreaking LLM Agents",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:33.157131Z",
       "status": "found"
     },
     "openalex:title:42ad52bc1c9ead80bfada3309304bd6f44db88b3aff41f57a57578ad7f04b76d": {
@@ -30240,6 +31032,12 @@
       "retrieved_at": "2026-10-09T01:12:16.087752Z",
       "status": "found"
     },
+    "openalex:title:861b45e737881aaecca5bd4d5509c65537067f5af1b7e50b062d29bd0f1f9c5d": {
+      "expires_at": "2026-10-30T01:02:44.971277Z",
+      "record": null,
+      "retrieved_at": "2026-10-23T01:02:44.971277Z",
+      "status": "not_found"
+    },
     "openalex:title:868b33466991620b31a192ee87b8df510a3ef61fed6e187284bb2224d98cfda0": {
       "expires_at": "2026-08-17T00:36:45.916459Z",
       "record": null,
@@ -30251,6 +31049,32 @@
       "record": null,
       "retrieved_at": "2026-10-04T01:36:04.152220Z",
       "status": "not_found"
+    },
+    "openalex:title:88cde42d26d4ad3c74f4d7f95b647f979a25690eda44d96039fd19311e3dd4f6": {
+      "expires_at": "2026-10-30T01:02:32.410351Z",
+      "record": {
+        "abstract": "Diese Arbeit untersucht die Anwendung der Kinematischen Elemente Methode (KEM) in Kombination mit der Colliding-Bodies-Optimierung (CBO), um kritische nicht-kreisförmige Gleitflächen in der Analyse der Böschungsstabilität zu identifizieren. Erdrutsche stellen eine bedeutende Naturgefahr dar, weshalb effiziente und genaue Methoden zur Beurteilung der Hangstabilität erforderlich sind, um eine zuverlässige Risikobewertung und die Planung geeigneter Schutzmaßnahmen zu ermöglichen. Etablierte Verfahren wie die Limit Equilibrium Methode (LEM) und die Finite Elemente Methode (FEM) weisen jeweils spezifische Einschränkungen auf. Die KEM stellt einen Kompromiss zwischen der LEM und der FEM dar, indem sie das Kontinuum in eine endliche Anzahl starrer kinematischer Elemente diskretisiert, die gemeinsam einen potenziellen Versagensmechanismus bilden. Für diesen Mechanismus werden mithilfe virtueller Verschiebungen die Bewegungsrichtungen bestimmt und der zugehörige Sicherheitsfaktor aus den Gleichgewichtsbedingungen berechnet. Die Lokalisierung der kritischen Gleitfläche stellt jedoch eine komplexe Optimierungsherausforderung dar, insbesondere für nicht-kreisförmige Flächen, da die Zielfunktion stark nichtlinear ist und meist mehrere lokale Minima aufweist. Zur Bewältigung dieser Herausforderung wird in dieser Arbeit ein metaheuristischer Optimierungsansatz auf Grundlage des CBO-Algorithmus verfolgt. CBO ist ein populationsbasiertes stochastisches Optimierungsverfahren, das von den physikalischen Gesetzmäßigkeiten bei der Kollision von Körpern inspiriert ist und sich für komplexe globale Optimierungsprobleme eignet. Durch die Kopplung von CBO mit KEM lassen sich kritische nicht-kreisförmige Gleitflächen sowohl für einfache homogene als auch für komplexere heterogene Böschungen effizient identifizieren. Die Arbeit umfasst fünf Kapitel. Nach der Einleitung werden zunächst die Grundlagen der LEM, der FEM und der KEM für die Analyse der Böschungsstabilität erläutert. Anschließend werden Methoden zur effizienten Berechnung des Standsicherheitsfaktors mit der KEM vorgestellt. Darauf aufbauend werden metaheuristische Optimierungsverfahren mit Schwerpunkt auf dem CBO-Algorithmus und dessen Anwendung in der Böschungsstabilitätsanalyse behandelt. Der aus der Kopplung von KEM und CBO resultierende Ansatz wird anhand numerischer Untersuchungen bewertet und mit etablierten Methoden verglichen. Die Ergebnisse bestätigen die Eignung dieses Ansatzes für die Identifikation kritischer Gleitflächen.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Georg Bauer",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.34726/hss.2026.146820",
+        "landing_page": "https://doi.org/10.34726/hss.2026.146820",
+        "open_access_url": "https://doi.org/10.34726/hss.2026.146820",
+        "openalex_id": "https://openalex.org/W7222945265",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222945265",
+        "publication_date": "2026-09-01",
+        "title": "Locating the critical failure surface in slope stability analysis using the Kinematic Element Method and Colliding Bodies Optimization",
+        "venue": "reposiTUm (TU Wien)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:32.410351Z",
+      "status": "found"
     },
     "openalex:title:893405bcc3b796b7ba1f5ebd6899498ebed2256010561528450195fe104ac044": {
       "expires_at": "2026-09-22T01:03:37.039996Z",
@@ -30621,6 +31445,12 @@
       },
       "retrieved_at": "2026-10-03T01:04:31.508829Z",
       "status": "found"
+    },
+    "openalex:title:9a695ebdda4936d33046a0a4ad0b7bed3677879f732e50146292c9b336b09c9e": {
+      "expires_at": "2026-10-30T01:02:41.104274Z",
+      "record": null,
+      "retrieved_at": "2026-10-23T01:02:41.104274Z",
+      "status": "not_found"
     },
     "openalex:title:9b1bad62a611b751ecd903de32038c6c178275fca05efd9e93adafcd091d41cc": {
       "expires_at": "2026-10-12T01:13:35.157441Z",
@@ -31126,6 +31956,52 @@
       "retrieved_at": "2026-09-09T01:02:00.472984Z",
       "status": "not_found"
     },
+    "openalex:title:af38eaf9c21dfc35aec53ae49b430e47ae4cde91141aa9c8b95741e8c020d72f": {
+      "expires_at": "2026-10-30T01:02:43.967715Z",
+      "record": {
+        "abstract": "While autoregressive foundation models trained on limit order book (LOB) data show state-of-the-art performance for market simulation, pre-training with cross-entropy neither penalizes the compounding of sampling errors over free-running rollouts nor targets desired market properties. We introduce a post-training method for LOB foundation models using a Wasserstein generative adversarial network (GAN) objective. A critic, trained online on rollouts through the true, non-differentiable matching engine, guides updates from evolution strategies over rank-4 LoRA perturbations of the pre-trained generator, under a KL trust region. For efficiency, we use EGGROLL (Evolution Guided GeneRal Optimisation via Low-rank Learning), a memory-efficient variant of evolution strategies. On a held-out panel, adversarial post-training improves LOB-Bench realism by 17.6% (WS-21) and 17.0% (Mean-$L_1$), while selection-matched random-perturbation and compute-matched continued-pre-training controls yield no improvement. Post-training is thus a necessary stage that more pre-training does not replace. Per-position divergence measurements show that it slows error accumulation over 500-message rollouts from $3.1\\times$ to $2.3\\times$. Adversarial post-training is also inexpensive, requiring under 50M training tokens and 12 GPU-hours per seed, three orders of magnitude below the 48B-token pre-training budget. Ablations over critic inputs, optimizers, and the population-rollout trade-off, together with an analysis of reward hacking, yield practical design guidelines for adversarial post-training.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Alexandre Bismuth",
+            "orcid": null
+          },
+          {
+            "name": "Kang Li",
+            "orcid": null
+          },
+          {
+            "name": "Aramis Marti-Shahandeh",
+            "orcid": null
+          },
+          {
+            "name": "Valentin Mohl",
+            "orcid": "https://orcid.org/0000-0002-6166-2222"
+          },
+          {
+            "name": "Jakob Foerster",
+            "orcid": "https://orcid.org/0000-0001-9688-2498"
+          },
+          {
+            "name": "Anisoara Calinescu",
+            "orcid": "https://orcid.org/0000-0003-2082-734X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.25604",
+        "landing_page": "https://arxiv.org/abs/2610.25604",
+        "open_access_url": "https://arxiv.org/abs/2610.25604",
+        "openalex_id": "https://openalex.org/W7223011221",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223011221",
+        "publication_date": "2026-10-19",
+        "title": "Adversarial Post-Training of Foundation Models for High-Frequency Trading",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:43.967715Z",
+      "status": "found"
+    },
     "openalex:title:b063211f9f74d0395e687813f2847579df6b8341dce8fa35f74dae65243b9c91": {
       "expires_at": "2026-08-16T00:36:00.776579Z",
       "record": null,
@@ -31282,6 +32158,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-05T01:13:33.120832Z",
+      "status": "found"
+    },
+    "openalex:title:b9bd4babb2aa3d346c7159db987388b353f0fc37df0bf3a3fcce37c5bbb2edbd": {
+      "expires_at": "2026-10-30T01:02:31.153617Z",
+      "record": {
+        "abstract": "Online scene change detection requires an agent to detect what has changed in a previously mapped environment while it is still on site, observing from unconstrained viewpoints and without access to future observations. This causal setting is strictly harder than its offline counterpart, and online methods have consistently trailed offline accuracy. O-SCD closed that gap by treating change as a persistent property of a 3D Gaussian splatting map of the reference scene, surpassing the strongest offline methods in change detection accuracy while operating at over 10 frames per second. O-SCD optimizes a change field over the Gaussians of the reference map, refitting it to all past cue maps at every frame, a step that consumes more than half of the per-frame budget and forces accuracy to be traded against speed. We present a replay-free formulation that eliminates this trade-off. Because the reference map stays fixed, rendering the change field is a linear operation. Each new observation can therefore be carried onto the map's Gaussians directly, by a single backward pass of the renderer, which reduces multi-view fusion to an exact two-scalar recursion per Gaussian. Past observations are never stored or revisited. The self-supervised objective that O-SCD minimizes by descent also determines the decision threshold exactly, by sorting, yielding a label-free per-frame cutoff whose margin provides a selective-prediction signal. On PASLCD, our method improves mean intersection over union from 0.489 to 0.575 and throughput from 11.8 to 25.6 frames per second, even exceeding O-SCD's offline result while remaining strictly causal.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Chamuditha Jayanga Galappaththige",
+            "orcid": null
+          },
+          {
+            "name": "Jason Lai",
+            "orcid": null
+          },
+          {
+            "name": "Lloyd Windrim",
+            "orcid": "https://orcid.org/0000-0002-2230-0632"
+          },
+          {
+            "name": "Timothy Patten",
+            "orcid": "https://orcid.org/0000-0003-1139-9451"
+          },
+          {
+            "name": "Donald G. Dansereau",
+            "orcid": "https://orcid.org/0000-0003-2540-1639"
+          },
+          {
+            "name": "Niko Suenderhauf",
+            "orcid": null
+          },
+          {
+            "name": "Dimity Miller",
+            "orcid": "https://orcid.org/0000-0001-6312-8325"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.24462",
+        "landing_page": "https://arxiv.org/abs/2610.24462",
+        "open_access_url": "https://arxiv.org/abs/2610.24462",
+        "openalex_id": "https://openalex.org/W7223031533",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223031533",
+        "publication_date": "2026-10-17",
+        "title": "O-SCD++: Replay-Free Online Scene Change Detection via Recursive Evidence Fusion",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:31.153617Z",
       "status": "found"
     },
     "openalex:title:b9e7d3443e81c6f8b4d85cf32dee8fcc2167a5c13248682f8afba4fcfae119f6": {
@@ -31630,6 +32556,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-18T01:05:04.112192Z",
+      "status": "found"
+    },
+    "openalex:title:c8aa470386a1e3f96e25bfaf0ac6a014ca7c13dedd9aedde0d588c9a7cc63bfa": {
+      "expires_at": "2026-10-30T01:02:34.105279Z",
+      "record": {
+        "abstract": "Memory capacity and bandwidth are becoming major constraints in neural-network computing, motivating parameter-efficient representations that reduce model storage and data movement. Tensor-network methods already enable substantial compression of neural networks, but their structured operations are often poorly matched to conventional processors optimized for dense linear algebra. Such representations can be implemented in photonic hardware, although this typically requires optical architectures tailored to a particular factorization. Here we propose a different approach based on programmable photonic meshes. Compact electronic parameters determine the interferometer phases, while optical interference produces a dense, generally high-rank transformation. Since the parameterization remains electronic, its dimensionality and structure can be changed without modifying the optical circuit. Numerical experiments in end-to-end training demonstrate that the proposed photonic layers match or outperform strongly compressed tensor-train and brickwork layers, often with fewer trainable parameters. Experiments in parameter-efficient fine-tuning of a language model also show advantages over established digital adapters. The reduced trainable state lowers persistent memory requirements and offers the potential to reduce data movement and bandwidth demands.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Artem Popov",
+            "orcid": null
+          },
+          {
+            "name": "Stanislav S. Straupe",
+            "orcid": "https://orcid.org/0000-0001-9810-1958"
+          },
+          {
+            "name": "Mikhail Saygin",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.26429",
+        "landing_page": "https://arxiv.org/abs/2610.26429",
+        "open_access_url": "https://arxiv.org/abs/2610.26429",
+        "openalex_id": "https://openalex.org/W7223003327",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223003327",
+        "publication_date": "2026-10-19",
+        "title": "Parameter-efficient neural computing with programmable photonic meshes",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-23T01:02:34.105279Z",
       "status": "found"
     },
     "openalex:title:c8e5f7f13de1c5e2dd1eda61932f53d050fec817d542a547fb423fe0a9379b7a": {

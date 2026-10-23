@@ -1,0 +1,53 @@
+{
+  "built_at": "2026-10-23T01:02:45.941573Z",
+  "digest_date": "2026-10-23",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "879145cdb2d594dd2d392a9e",
+        "landing_page": "https://doi.org/10.1002/nap2.70315",
+        "mandatory": false,
+        "score": 0.89,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "All‐Optical Dual‐Angle Diffractive Neural Networks for 2D Direction‐of‐Arrival Estimation",
+        "venue": "Nanophotonics",
+        "year": 2026
+      },
+      {
+        "candidate_id": "9e604f17f644449b1f294680",
+        "landing_page": "https://doi.org/10.1145/3795866.3844151",
+        "mandatory": false,
+        "score": 0.8725,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "<i>Prism</i>\n                    : Efficient Zeroth-Order Fine-Tuning for On-Device LLMs",
+        "venue": "Proceedings of the 32nd Annual International Conference on Mobile Computing and Networking",
+        "year": 2026
+      },
+      {
+        "candidate_id": "0ea189a90da076d72e313576",
+        "landing_page": "https://doi.org/10.5281/zenodo.23538542",
+        "mandatory": false,
+        "score": 0.81,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "THE EL-RAKHAWI FRONTIER QUANTUM INTELLIGENCE FRAMEWORK (EFQIF) A Unified Architecture for Topological Neural Networks, Blind Federated Learning, Photonic Neuromorphics, Quantum Cognition, and Macro-System Generative Design",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}
