@@ -554,6 +554,56 @@
       "retrieved_at": "2026-10-20T01:00:39.592814Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/cpe.71005": {
+      "expires_at": "2026-11-23T00:58:35.987798Z",
+      "record": {
+        "abstract": "ABSTRACT This study presents a deep learning (DL) framework for head and neck cancer (HNC) detection using holographic imaging data. A self‐curated dataset of holographic and corresponding bright‐field images is used for comparative evaluation, demonstrating the novelty of the approach. The framework employs an EfficientNetB7 backbone integrated with a convolutional block attention module (CBAM) to enhance feature representation via channel and spatial attention mechanisms. To address class imbalance, class weighting and focal loss are applied to improve learning for minority classes. Experimental results demonstrated strong performance, achieving 96.93% validation accuracy, 97.80% test accuracy, and 99.31% area under the curve (AUC), outperforming bright‐field imaging data. The attention‐guided model improved classification performance by up to 12.72% over baseline models. These findings demonstrate the effectiveness of the proposed framework for accurate and early detection of HNC. Furthermore, explainability is incorporated using gradient‐weighted class activation mapping (Grad‐CAM) variants and local interpretable model‐agnostic explanations (LIME), providing qualitative visual insights into the model's decision‐making process, thereby facilitating its potential use in future computer‐aided decision support.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Asifa Nazir",
+            "orcid": "https://orcid.org/0009-0004-5526-3067"
+          },
+          {
+            "name": "Ahsan Hussain",
+            "orcid": "https://orcid.org/0000-0003-0721-176X"
+          },
+          {
+            "name": "Mandeep Singh",
+            "orcid": "https://orcid.org/0000-0002-1891-6231"
+          },
+          {
+            "name": "Assif Assad",
+            "orcid": null
+          },
+          {
+            "name": "Deepika Mishra",
+            "orcid": null
+          },
+          {
+            "name": "Vivek Nayyar",
+            "orcid": "https://orcid.org/0000-0002-2594-6949"
+          },
+          {
+            "name": "Muzafar A. Macha",
+            "orcid": "https://orcid.org/0000-0003-4468-4435"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/cpe.71005",
+        "landing_page": "https://doi.org/10.1002/cpe.71005",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/cpe.71005",
+        "publication_date": "2026-11",
+        "title": "An Explainable Attention‐Driven\n                    <scp>EfficientNetB7</scp>\n                    Framework for Early Detection of Head and Neck Cancer Using Digital Holographic Microscopy",
+        "venue": "Concurrency and Computation: Practice and Experience",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-24T00:58:35.987798Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/lpor.71596": {
       "expires_at": "2026-09-26T02:02:16.863743Z",
       "record": {
@@ -15123,6 +15173,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-20T01:00:39.943495Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/cpe.71005": {
+      "expires_at": "2026-11-23T00:58:36.334845Z",
+      "record": {
+        "abstract": "ABSTRACT This study presents a deep learning (DL) framework for head and neck cancer (HNC) detection using holographic imaging data. A self‐curated dataset of holographic and corresponding bright‐field images is used for comparative evaluation, demonstrating the novelty of the approach. The framework employs an EfficientNetB7 backbone integrated with a convolutional block attention module (CBAM) to enhance feature representation via channel and spatial attention mechanisms. To address class imbalance, class weighting and focal loss are applied to improve learning for minority classes. Experimental results demonstrated strong performance, achieving 96.93% validation accuracy, 97.80% test accuracy, and 99.31% area under the curve (AUC), outperforming bright‐field imaging data. The attention‐guided model improved classification performance by up to 12.72% over baseline models. These findings demonstrate the effectiveness of the proposed framework for accurate and early detection of HNC. Furthermore, explainability is incorporated using gradient‐weighted class activation mapping (Grad‐CAM) variants and local interpretable model‐agnostic explanations (LIME), providing qualitative visual insights into the model's decision‐making process, thereby facilitating its potential use in future computer‐aided decision support.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Asifa Nazir",
+            "orcid": "https://orcid.org/0009-0004-5526-3067"
+          },
+          {
+            "name": "Ahsan Basharat Hussain",
+            "orcid": "https://orcid.org/0000-0003-0721-176X"
+          },
+          {
+            "name": "Mandeep Singh",
+            "orcid": "https://orcid.org/0000-0002-1891-6231"
+          },
+          {
+            "name": "Assif Assad",
+            "orcid": "https://orcid.org/0000-0003-0323-6863"
+          },
+          {
+            "name": "Deepika Mishra",
+            "orcid": null
+          },
+          {
+            "name": "Vivek Nayyar",
+            "orcid": "https://orcid.org/0000-0002-2594-6949"
+          },
+          {
+            "name": "Muzafar Ahmad Macha",
+            "orcid": "https://orcid.org/0000-0003-4468-4435"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/cpe.71005",
+        "landing_page": "https://doi.org/10.1002/cpe.71005",
+        "open_access_url": "https://doi.org/10.1002/cpe.71005",
+        "openalex_id": "https://openalex.org/W7223173065",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223173065",
+        "publication_date": "2026-10-22",
+        "title": "An Explainable Attention‐Driven EfficientNetB7 Framework for Early Detection of Head and Neck Cancer Using Digital Holographic Microscopy",
+        "venue": "Concurrency and Computation Practice and Experience",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-24T00:58:36.334845Z",
       "status": "found"
     },
     "openalex:doi:10.1002/lpor.71596": {
