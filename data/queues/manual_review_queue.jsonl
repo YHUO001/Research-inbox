@@ -21,6 +21,7 @@
 {"candidate_id": "a615261e7233db868794d694", "mandatory": false, "matched_projects": [], "priority": "normal", "reasons": ["parser_manual_review"], "route": "manual_review_queue"}
 {"candidate_id": "ae74e51e9c2af1841c0f7cd2", "mandatory": false, "matched_projects": [{"confidence": "probable", "project_id": "optical-neural-networks"}], "priority": "normal", "reasons": ["parser_manual_review"], "route": "manual_review_queue"}
 {"candidate_id": "b9799fbb6de20d2eb84c185d", "mandatory": false, "matched_projects": [], "priority": "normal", "reasons": ["parser_manual_review"], "route": "manual_review_queue"}
+{"candidate_id": "ca3468dff8850463d078e6db", "mandatory": false, "matched_projects": [{"confidence": "probable", "project_id": "zeroth-order-optimization"}], "priority": "normal", "reasons": ["parser_manual_review"], "route": "manual_review_queue"}
 {"candidate_id": "db7cf42738f4c42ba1eabfa0", "mandatory": false, "matched_projects": [], "priority": "normal", "reasons": ["parser_manual_review"], "route": "manual_review_queue"}
 {"candidate_id": "dbc2e8050780b230aa5e4a0c", "mandatory": false, "matched_projects": [], "priority": "normal", "reasons": ["parser_manual_review"], "route": "manual_review_queue"}
 {"candidate_id": "e41d7556678d58128cc4c970", "mandatory": false, "matched_projects": [], "priority": "normal", "reasons": ["parser_manual_review"], "route": "manual_review_queue"}

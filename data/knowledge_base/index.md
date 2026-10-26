@@ -1,10 +1,34 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`105`
-- 更新时间：`2026-10-23T12:58:18.435733Z`
+- 论文数：`108`
+- 更新时间：`2026-10-26T01:05:40.979406Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Photonic Neuromorphic Processing With Coupled Spiking Silicon Microrings
+
+- DOI/链接：[10.1002/lpor.72106](https://doi.org/10.1002/lpor.72106)
+- 期刊/年份：Laser &amp; Photonics Reviews，2026
+- 摘要日期：`2026-10-26`
+- 候选 ID：`2c2645700d900a5b3f00a38c`
+- 标签：application:光学域预处理与传感（khz至mhz带宽）, application:声呐任务分类（准确率97以上）, application:鸢尾花数据集分类（零错误）, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
+
+### Non-volatile, compact, and broadband multimode matrix vector multiplication for photonic neuromorphic computing
+
+- DOI/链接：[10.1038/s41598-026-77326-7](https://doi.org/10.1038/s41598-026-77326-7)
+- 期刊/年份：Scientific Reports，2026
+- 摘要日期：`2026-10-26`
+- 候选 ID：`03aabdb282e176e5097616a7`
+- 标签：application:光子神经形态计算, application:矩阵-向量乘法, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
+
+### A circuit-level modeling and training framework for microring-based photonic neural networks
+
+- DOI/链接：[10.1117/12.3122162](https://doi.org/10.1117/12.3122162)
+- 期刊/年份：17th International Photonics and Optoelectronic Meetings (POEM 2026)，2026
+- 摘要日期：`2026-10-26`
+- 候选 ID：`fb9e976eb7e8f5a651e59b29`
+- 标签：application:iris数据集分类, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
 
 ### THE EL-RAKHAWI FRONTIER QUANTUM INTELLIGENCE FRAMEWORK (EFQIF) A Unified Architecture for Topological Neural Networks, Blind Federated Learning, Photonic Neuromorphics, Quantum Cognition, and Macro-System Generative Design
 

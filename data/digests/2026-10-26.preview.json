@@ -1,0 +1,76 @@
+{
+  "built_at": "2026-10-26T01:04:39.662630Z",
+  "digest_date": "2026-10-26",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "2c2645700d900a5b3f00a38c",
+        "landing_page": "https://doi.org/10.1002/lpor.72106",
+        "mandatory": false,
+        "score": 0.89,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Photonic Neuromorphic Processing With Coupled Spiking Silicon Microrings",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      {
+        "candidate_id": "fb9e976eb7e8f5a651e59b29",
+        "landing_page": "https://doi.org/10.1117/12.3122162",
+        "mandatory": false,
+        "score": 0.81,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "A circuit-level modeling and training framework for microring-based photonic neural networks",
+        "venue": "17th International Photonics and Optoelectronic Meetings (POEM 2026)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "03aabdb282e176e5097616a7",
+        "landing_page": "https://doi.org/10.1038/s41598-026-77326-7",
+        "mandatory": false,
+        "score": 0.76,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Non-volatile, compact, and broadband multimode matrix vector multiplication for photonic neuromorphic computing",
+        "venue": "Scientific Reports",
+        "year": 2026
+      }
+    ],
+    "next_candidates": [
+      {
+        "candidate_id": "ce453bfbb1da74c9ff0d3143",
+        "landing_page": "https://doi.org/10.1109/dcna72004.2026.11733422",
+        "mandatory": false,
+        "score": 0.76,
+        "source_type": "google_scholar_email",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "On Perspectives of Zeroth-Order Methods for Large Language Models Pre-Training",
+        "venue": "Scientific School Dynamics of Complex Networks and their Applications (DCNA)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "038bab63c7432a64fc594009",
+        "landing_page": "https://doi.org/10.1038/s44335-026-00102-3",
+        "mandatory": false,
+        "score": 0.73,
+        "source_type": "google_scholar_email",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "SEPhIA: spiking electro-photonic integrated tiled architecture leveraging multi-wavelength lasers for scalable optical neuromorphic computing",
+        "venue": "npj Unconventional Computing",
+        "year": 2026
+      }
+    ]
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

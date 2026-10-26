@@ -9,6 +9,15 @@
       "summary_record_sha256": "e528dde6eae4acf21af476455f24a738b4ce501de599ef14fc565ef0a7c48318",
       "title": "A Noise-Resilient Calibration framework for Quantum and Optical Neural Network Inference"
     },
+    "03aabdb282e176e5097616a7": {
+      "digest_date": "2026-10-26",
+      "doi": "10.1038/s41598-026-77326-7",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "63ec0d57c43fb9c364d5e2dfe339f461b2384cc05d23dd4d04913b5102c3d93a",
+      "title": "Non-volatile, compact, and broadband multimode matrix vector multiplication for photonic neuromorphic computing"
+    },
     "04bdf084776bcfe0d6f912cb": {
       "digest_date": "2026-09-17",
       "doi": "10.1038/s41377-026-02366-7",
@@ -196,6 +205,15 @@
       ],
       "summary_record_sha256": "18a9c0d613ce913ccc78135b56103608d7eb6151fd2f966abe295cceef86a60f",
       "title": "Optical neural networks for ultrafast quantum state tomography"
+    },
+    "2c2645700d900a5b3f00a38c": {
+      "digest_date": "2026-10-26",
+      "doi": "10.1002/lpor.72106",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "85773230b33e4c6a178be1fbf3468c7ecd847895791ed52d69473cc09126a61c",
+      "title": "Photonic Neuromorphic Processing With Coupled Spiking Silicon Microrings"
     },
     "2eb28d7201afb356d747693a": {
       "digest_date": "2026-08-19",
@@ -926,6 +944,15 @@
       "summary_record_sha256": "93d132ef6f192ed5f0f02b7d685091dd1f864e69c0c4e7df7a8d49a103c5a72c",
       "title": "Graphene-enhanced dual-gate electro-optic micro-ring modulator: An optical neural network design"
     },
+    "fb9e976eb7e8f5a651e59b29": {
+      "digest_date": "2026-10-26",
+      "doi": "10.1117/12.3122162",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "932804ba91b1379ca8b851486f26fba8f5fed41336f79f8eb83db1ae35687487",
+      "title": "A circuit-level modeling and training framework for microring-based photonic neural networks"
+    },
     "fca2cfc597728ee01e2a6032": {
       "digest_date": "2026-09-10",
       "doi": "10.1088/2632-2153/aea3a0",
@@ -1150,6 +1177,11 @@
       "0ea189a90da076d72e313576",
       "879145cdb2d594dd2d392a9e",
       "9e604f17f644449b1f294680"
+    ],
+    "2026-10-26": [
+      "03aabdb282e176e5097616a7",
+      "2c2645700d900a5b3f00a38c",
+      "fb9e976eb7e8f5a651e59b29"
     ]
   },
   "by_doi": {
@@ -1158,6 +1190,7 @@
     "10.1002/adom.71870": "95fe7b58392c34e07c8b2616",
     "10.1002/advs.78340": "aaf22dbcd3252d085a360afb",
     "10.1002/lpor.71857": "15e7193239d6058f661ff180",
+    "10.1002/lpor.72106": "2c2645700d900a5b3f00a38c",
     "10.1002/nap2.70302": "93f3ffb1741a00e1480b8ab2",
     "10.1002/nap2.70315": "879145cdb2d594dd2d392a9e",
     "10.1007/s10589-026-00835-8": "c55f09d580d098a54f7078e7",
@@ -1178,6 +1211,7 @@
     "10.1038/s41467-026-77397-0": "8ed2e70c4b7d42f84e3676a7",
     "10.1038/s41467-026-77768-7": "1bef6ee27ae84b878da0c512",
     "10.1038/s41598-026-69259-y": "37a9533a60e5cdd68ef3c483",
+    "10.1038/s41598-026-77326-7": "03aabdb282e176e5097616a7",
     "10.1038/s43588-026-01057-y": "4ac97d5e03fb7df3ed448fc2",
     "10.1038/s44335-026-00086-0": "328b1572ba0e31f8f8a6dac1",
     "10.1038/s44335-026-00096-y": "35ff63ef9d3333099ee28868",
@@ -1199,6 +1233,7 @@
     "10.1117/12.3116253": "7d6c2a059923ebe445a1cdf7",
     "10.1117/12.3117698": "099f50640efd207890cbb62b",
     "10.1117/12.3118799": "9351be654a20f4a2f7121847",
+    "10.1117/12.3122162": "fb9e976eb7e8f5a651e59b29",
     "10.1126/sciadv.aee9649": "44fa3bd6f72c84820ce42dab",
     "10.1126/sciadv.aef8657": "c7b91f881a121b7e1651e2f2",
     "10.1126/sciadv.aeg8394": "557b41cb542bf10e84da81f2",
@@ -1259,6 +1294,7 @@
   "by_project": {
     "optical-neural-networks": [
       "028de8014a2b67fd147a28e7",
+      "03aabdb282e176e5097616a7",
       "04bdf084776bcfe0d6f912cb",
       "099f50640efd207890cbb62b",
       "09e1a0ed403ef22abbd9b189",
@@ -1273,6 +1309,7 @@
       "1e35265ce8678ca96adb8b93",
       "1e619f1b739f1893eae64f28",
       "2b5f9302fe96c2793d48540e",
+      "2c2645700d900a5b3f00a38c",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
@@ -1330,6 +1367,7 @@
       "d69a4f93ca6340969e1077a8",
       "f21edc0449744abc1fb2536f",
       "f4eaa19659c54d93478a40d5",
+      "fb9e976eb7e8f5a651e59b29",
       "fd6f281418ac4d412744b2ac"
     ],
     "zeroth-order-optimization": [
@@ -1376,6 +1414,9 @@
     ],
     "application:image edge extraction": [
       "a15033db64285e5d4c8a46c9"
+    ],
+    "application:iris数据集分类": [
+      "fb9e976eb7e8f5a651e59b29"
     ],
     "application:local ai inference": [
       "4b1739e45289d2156d3b1ed3"
@@ -1446,6 +1487,9 @@
     "application:光子张量核心计算": [
       "9322fad036b3d7fc8e3dd47b"
     ],
+    "application:光子神经形态计算": [
+      "03aabdb282e176e5097616a7"
+    ],
     "application:光子神经网络推理与训练": [
       "ae3adee8419a5db7be7ec3b2"
     ],
@@ -1454,6 +1498,9 @@
     ],
     "application:光学图像分类": [
       "916e8199aaabe1372544d280"
+    ],
+    "application:光学域预处理与传感（khz至mhz带宽）": [
+      "2c2645700d900a5b3f00a38c"
     ],
     "application:光学推理": [
       "c1e890d592087a69465d1299"
@@ -1566,6 +1613,9 @@
     ],
     "application:基于实测电导更新特性的手写数字识别仿真，分类准确率98.02%": [
       "d69a4f93ca6340969e1077a8"
+    ],
+    "application:声呐任务分类（准确率97以上）": [
+      "2c2645700d900a5b3f00a38c"
     ],
     "application:多模光纤模式解复用": [
       "a6c0cee36e01933034e775f2"
@@ -1695,6 +1745,9 @@
     "application:矢量拉盖尔-高斯模式拓扑电荷识别": [
       "d2a55bdec24bc3bc4b04467b"
     ],
+    "application:矩阵-向量乘法": [
+      "03aabdb282e176e5097616a7"
+    ],
     "application:矩阵-矩阵乘法加速": [
       "61dad77fe7c2ef7687ce5b21"
     ],
@@ -1812,6 +1865,9 @@
     "application:鸢尾花分类": [
       "4cf08afde3b5592300752bae"
     ],
+    "application:鸢尾花数据集分类（零错误）": [
+      "2c2645700d900a5b3f00a38c"
+    ],
     "architecture:free_space": [
       "5017adbd33e6ddd5c320a4c4",
       "61dad77fe7c2ef7687ce5b21",
@@ -1835,6 +1891,7 @@
     ],
     "architecture:unclear": [
       "028de8014a2b67fd147a28e7",
+      "03aabdb282e176e5097616a7",
       "04bdf084776bcfe0d6f912cb",
       "099f50640efd207890cbb62b",
       "09e1a0ed403ef22abbd9b189",
@@ -1847,6 +1904,7 @@
       "1e35265ce8678ca96adb8b93",
       "1e619f1b739f1893eae64f28",
       "2b5f9302fe96c2793d48540e",
+      "2c2645700d900a5b3f00a38c",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
@@ -1889,7 +1947,8 @@
       "d2a55bdec24bc3bc4b04467b",
       "d2fce890434b1e8464e61eb0",
       "d33b2e7c6586f37945facb32",
-      "f4eaa19659c54d93478a40d5"
+      "f4eaa19659c54d93478a40d5",
+      "fb9e976eb7e8f5a651e59b29"
     ],
     "hardware_validation:mixed": [
       "1cf1fcd769c5ace951188b8c",
@@ -1906,6 +1965,7 @@
       "0a7a6a25b0c077322aee6b4e",
       "15e7193239d6058f661ff180",
       "1e619f1b739f1893eae64f28",
+      "2c2645700d900a5b3f00a38c",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
@@ -1927,6 +1987,7 @@
       "fd6f281418ac4d412744b2ac"
     ],
     "hardware_validation:simulation_only": [
+      "03aabdb282e176e5097616a7",
       "099f50640efd207890cbb62b",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
@@ -1944,7 +2005,8 @@
       "c1e890d592087a69465d1299",
       "d162b179119ee09c86ad3708",
       "d33b2e7c6586f37945facb32",
-      "f4eaa19659c54d93478a40d5"
+      "f4eaa19659c54d93478a40d5",
+      "fb9e976eb7e8f5a651e59b29"
     ],
     "hardware_validation:unclear": [
       "028de8014a2b67fd147a28e7",
@@ -1962,6 +2024,7 @@
     ],
     "project:optical-neural-networks": [
       "028de8014a2b67fd147a28e7",
+      "03aabdb282e176e5097616a7",
       "04bdf084776bcfe0d6f912cb",
       "099f50640efd207890cbb62b",
       "09e1a0ed403ef22abbd9b189",
@@ -1976,6 +2039,7 @@
       "1e35265ce8678ca96adb8b93",
       "1e619f1b739f1893eae64f28",
       "2b5f9302fe96c2793d48540e",
+      "2c2645700d900a5b3f00a38c",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
@@ -2033,6 +2097,7 @@
       "d69a4f93ca6340969e1077a8",
       "f21edc0449744abc1fb2536f",
       "f4eaa19659c54d93478a40d5",
+      "fb9e976eb7e8f5a651e59b29",
       "fd6f281418ac4d412744b2ac"
     ],
     "project:zeroth-order-optimization": [
@@ -2219,6 +2284,9 @@
     ]
   },
   "by_venue": {
+    "17th International Photonics and Optoelectronic Meetings (POEM 2026)": [
+      "fb9e976eb7e8f5a651e59b29"
+    ],
     "2026 24th International Conference on Optical Communications and Networks (ICOCN)": [
       "c3474ba19a69c715eb87d391"
     ],
@@ -2289,7 +2357,8 @@
       "1075bd8698bce3acb3ce9376"
     ],
     "Laser &amp; Photonics Reviews": [
-      "15e7193239d6058f661ff180"
+      "15e7193239d6058f661ff180",
+      "2c2645700d900a5b3f00a38c"
     ],
     "Light: Science &amp; Applications": [
       "04bdf084776bcfe0d6f912cb",
@@ -2375,6 +2444,7 @@
       "c7b91f881a121b7e1651e2f2"
     ],
     "Scientific Reports": [
+      "03aabdb282e176e5097616a7",
       "37a9533a60e5cdd68ef3c483"
     ],
     "Sixth Optics Frontier Conference (OFS 2026)": [
@@ -2428,6 +2498,7 @@
   "by_year": {
     "2026": [
       "028de8014a2b67fd147a28e7",
+      "03aabdb282e176e5097616a7",
       "04bdf084776bcfe0d6f912cb",
       "05e945a039d8b6cce82abff1",
       "099f50640efd207890cbb62b",
@@ -2449,6 +2520,7 @@
       "1e35265ce8678ca96adb8b93",
       "1e619f1b739f1893eae64f28",
       "2b5f9302fe96c2793d48540e",
+      "2c2645700d900a5b3f00a38c",
       "2eb28d7201afb356d747693a",
       "2f9953028e4e0e3b934222c8",
       "328b1572ba0e31f8f8a6dac1",
@@ -2528,6 +2600,7 @@
       "f21edc0449744abc1fb2536f",
       "f4c6106a0a433a224abb3d56",
       "f4eaa19659c54d93478a40d5",
+      "fb9e976eb7e8f5a651e59b29",
       "fca2cfc597728ee01e2a6032",
       "fd6f281418ac4d412744b2ac"
     ],
@@ -2536,7 +2609,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 105,
+  "paper_count": 108,
   "schema_version": 1,
-  "updated_at": "2026-10-23T12:58:18.435733Z"
+  "updated_at": "2026-10-26T01:05:40.979406Z"
 }

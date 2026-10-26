@@ -1428,6 +1428,44 @@
       "retrieved_at": "2026-10-19T01:04:46.859619Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/lpor.72106": {
+      "expires_at": "2026-11-25T01:04:33.089151Z",
+      "record": {
+        "abstract": "ABSTRACT Understanding the physical computing mechanisms of individual network nodes is essential for scaling neuromorphic photonic architectures. This work proposes a compact passive nonlinear photonic core based on a side‐coupled integrated spaced sequence of resonators (SCISSOR) comprising three nominally equal microrings and investigate its computing capabilities. Its nonlinearities and internal feedback enable analogue, spiking, and bistable responses that are accessed by tuning the injection power and wavelength. Implemented as a single nonlinear node in a time‐multiplexed reservoir computing, the SCISSOR achieves error‐free classification on the Iris dataset and accuracies above 97 on the Sonar task, using both analogue and digital reservoir representations with 150 virtual nodes. In the digital scheme, spiking dynamics naturally generate sparse reservoir states, enabling efficient classification even with a single spike. Intriguingly, operating points at the boundaries where sharp transitions in dynamical complexity and/or output power occur support high task‐performance, opening novel strategies for future on‐chip training. Spiking and thermal bistabilities also participate to enhance the computational performance. These results suggest that coupled optical microrings can serve as compact, physically interpretable nonlinear building blocks for future neuromorphic photonic processors, particularly in optical‐domain preprocessing and sensing scenarios where kHz‐to‐MHz signal bandwidths are relevant.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Giovanni Donati",
+            "orcid": "https://orcid.org/0000-0001-6156-8394"
+          },
+          {
+            "name": "Stefano Biasi",
+            "orcid": "https://orcid.org/0000-0002-3361-133X"
+          },
+          {
+            "name": "Lorenzo Pavesi",
+            "orcid": "https://orcid.org/0000-0001-7316-6034"
+          },
+          {
+            "name": "Antonio Hurtado",
+            "orcid": "https://orcid.org/0000-0002-4448-9034"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.72106",
+        "landing_page": "https://doi.org/10.1002/lpor.72106",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.72106",
+        "publication_date": "2026-10-24",
+        "title": "Photonic Neuromorphic Processing With Coupled Spiking Silicon Microrings",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-26T01:04:33.089151Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/mats.70059": {
       "expires_at": "2026-10-17T01:02:53.132433Z",
       "record": {
@@ -4624,6 +4662,36 @@
       "retrieved_at": "2026-10-23T01:02:42.583683Z",
       "status": "found"
     },
+    "crossref:doi:10.1038/s41598-026-77326-7": {
+      "expires_at": "2026-11-25T01:04:32.492037Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ali Atri",
+            "orcid": null
+          },
+          {
+            "name": "Abbas Zarifkar",
+            "orcid": "https://orcid.org/0000-0001-5815-3382"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-77326-7",
+        "landing_page": "https://doi.org/10.1038/s41598-026-77326-7",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41598-026-77326-7",
+        "publication_date": "2026-10-24",
+        "title": "Non-volatile, compact, and broadband multimode matrix vector multiplication for photonic neuromorphic computing",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-26T01:04:32.492037Z",
+      "status": "found"
+    },
     "crossref:doi:10.1038/s42005-026-02823-0": {
       "expires_at": "2026-10-05T00:59:46.615608Z",
       "record": {
@@ -5915,7 +5983,7 @@
       "status": "found"
     },
     "crossref:doi:10.1117/12.3122162": {
-      "expires_at": "2026-10-10T01:00:33.349523Z",
+      "expires_at": "2026-11-25T01:04:37.453464Z",
       "record": {
         "abstract": null,
         "arxiv_id": null,
@@ -5949,7 +6017,7 @@
         "venue": "17th International Photonics and Optoelectronic Meetings (POEM 2026)",
         "year": 2026
       },
-      "retrieved_at": "2026-09-10T01:00:33.349523Z",
+      "retrieved_at": "2026-10-26T01:04:37.453464Z",
       "status": "found"
     },
     "crossref:doi:10.1117/12.3122678": {
@@ -8500,6 +8568,12 @@
       },
       "retrieved_at": "2026-09-25T01:02:48.492971Z",
       "status": "found"
+    },
+    "crossref:title:0219585191a6aba59ee2454fd31211c23550d3ac6acbd245b6f6c803a56161bd": {
+      "expires_at": "2026-11-02T01:04:33.673906Z",
+      "record": null,
+      "retrieved_at": "2026-10-26T01:04:33.673906Z",
+      "status": "not_found"
     },
     "crossref:title:024759bc375366300e9f6cbe889aaa20b41b043b8c939a51aa057b338fd19596": {
       "expires_at": "2026-10-11T01:35:59.344582Z",
@@ -12571,6 +12645,36 @@
       "retrieved_at": "2026-10-21T01:00:30.848678Z",
       "status": "not_found"
     },
+    "crossref:title:b78a031a21f8562e54f0e4f0bcf25eac12a745ae2e11160751aa2d7fcfd39d39": {
+      "expires_at": "2026-11-02T01:04:36.862929Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Aleksei Trutnev",
+            "orcid": "https://orcid.org/0009-0001-9905-1398"
+          },
+          {
+            "name": "Alexandr Demidovskij",
+            "orcid": "https://orcid.org/0000-0003-3605-6332"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/dcna72004.2026.11733422",
+        "landing_page": "https://doi.org/10.1109/dcna72004.2026.11733422",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/dcna72004.2026.11733422",
+        "publication_date": "2026-09",
+        "title": "On Perspectives of Zeroth-Order Methods for Large Language Models Pre-Training",
+        "venue": "2026 10th Scientific School Dynamics of Complex Networks and their Applications (DCNA)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-26T01:04:36.862929Z",
+      "status": "found"
+    },
     "crossref:title:b857736f74d4b6b8dd053691f8ebf5361af4a98b2c82f0ab5e97cf4484e5b711": {
       "expires_at": "2026-08-16T00:36:09.827479Z",
       "record": null,
@@ -14282,6 +14386,12 @@
       },
       "retrieved_at": "2026-09-13T01:07:36.658080Z",
       "status": "found"
+    },
+    "crossref:title:ed6793fbe078db127bb431cb9ee38b8f2fbc7cd16ad5be4db72add181822886e": {
+      "expires_at": "2026-11-02T01:04:35.892252Z",
+      "record": null,
+      "retrieved_at": "2026-10-26T01:04:35.892252Z",
+      "status": "not_found"
     },
     "crossref:title:ef63a7f91c3b5ef8a19ee9368e136e4954362b505b62725abd03830c35937e1b": {
       "expires_at": "2026-08-27T00:32:23.976550Z",
@@ -16179,6 +16289,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-19T01:04:47.248720Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/lpor.72106": {
+      "expires_at": "2026-11-25T01:04:33.461793Z",
+      "record": {
+        "abstract": "ABSTRACT Understanding the physical computing mechanisms of individual network nodes is essential for scaling neuromorphic photonic architectures. This work proposes a compact passive nonlinear photonic core based on a side‐coupled integrated spaced sequence of resonators (SCISSOR) comprising three nominally equal microrings and investigate its computing capabilities. Its nonlinearities and internal feedback enable analogue, spiking, and bistable responses that are accessed by tuning the injection power and wavelength. Implemented as a single nonlinear node in a time‐multiplexed reservoir computing, the SCISSOR achieves error‐free classification on the Iris dataset and accuracies above 97 on the Sonar task, using both analogue and digital reservoir representations with 150 virtual nodes. In the digital scheme, spiking dynamics naturally generate sparse reservoir states, enabling efficient classification even with a single spike. Intriguingly, operating points at the boundaries where sharp transitions in dynamical complexity and/or output power occur support high task‐performance, opening novel strategies for future on‐chip training. Spiking and thermal bistabilities also participate to enhance the computational performance. These results suggest that coupled optical microrings can serve as compact, physically interpretable nonlinear building blocks for future neuromorphic photonic processors, particularly in optical‐domain preprocessing and sensing scenarios where kHz‐to‐MHz signal bandwidths are relevant.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Giovanni P. Donati",
+            "orcid": "https://orcid.org/0000-0001-6156-8394"
+          },
+          {
+            "name": "Stefano Biasi",
+            "orcid": "https://orcid.org/0000-0002-3361-133X"
+          },
+          {
+            "name": "Lorenzo Pavesi",
+            "orcid": null
+          },
+          {
+            "name": "Antonio Hurtado",
+            "orcid": "https://orcid.org/0000-0002-4448-9034"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.72106",
+        "landing_page": "https://doi.org/10.1002/lpor.72106",
+        "open_access_url": "https://doi.org/10.1002/lpor.72106",
+        "openalex_id": "https://openalex.org/W7128062991",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7128062991",
+        "publication_date": "2026-10-24",
+        "title": "Photonic Neuromorphic Processing With Coupled Spiking Silicon Microrings",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-26T01:04:33.461793Z",
       "status": "found"
     },
     "openalex:doi:10.1002/mats.70059": {
@@ -20535,6 +20683,36 @@
       "retrieved_at": "2026-10-23T01:02:42.961947Z",
       "status": "found"
     },
+    "openalex:doi:10.1038/s41598-026-77326-7": {
+      "expires_at": "2026-11-25T01:04:32.895050Z",
+      "record": {
+        "abstract": "Matrix-vector multiplication (MVM) is a fundamental operation in artificial neural networks. While conventional electronic implementations of MVMs face bottlenecks in speed and energy efficiency, here, we design an ultra-compact (185 μm × 21 μm) non-volatile photonic MVM engine leveraging mode division multiplexing (MDM) with the fundamental and first-order transverse magnetic modes. The architecture integrates a multimode-interferometer power splitter (0.98 dB insertion loss), a directional-coupler (de)multiplexer (≈ -10 dB crosstalk suppression, 0.87 dB insertion loss), a weighting core comprising four independently programmable weighting paths, each containing five Ge 2 Sb 2 Se 4 Te 1 (GSST) phase-change cells in series, giving twenty cells in total. By electrically programming individual GSST cells between amorphous and crystalline states, the device supports 1296 distinct matrix configurations with an extinction ratio of 11.29 dB and 17.3 dB for TM0 and TM1 modes, respectively. Electro-thermal simulations indicate ultrafast and reversible switching using a 5 V and 33 ns pulse for crystallization, while a 12 V and 5 ns pulse triggers melting and rapid quenching for amorphization. The non-volatile nature of GSST eliminates static power consumption, enabling energy-efficient operation. The complete MVM exhibits a total insertion loss of 2.76 dB and 3.64 dB at 1550 nm for TM0 and TM1 modes, respectively. This device maintains functionality across a 40 nm bandwidth (1540–1580 nm), offering a scalable pathway for energy-efficient, MDM-enabled photonic computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ali Atri",
+            "orcid": null
+          },
+          {
+            "name": "Abbas Zarifkar",
+            "orcid": "https://orcid.org/0000-0001-5815-3382"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-77326-7",
+        "landing_page": "https://doi.org/10.1038/s41598-026-77326-7",
+        "open_access_url": "https://doi.org/10.1038/s41598-026-77326-7",
+        "openalex_id": "https://openalex.org/W7223443442",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223443442",
+        "publication_date": "2026-10-24",
+        "title": "Non-volatile, compact, and broadband multimode matrix vector multiplication for photonic neuromorphic computing",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-26T01:04:32.895050Z",
+      "status": "found"
+    },
     "openalex:doi:10.1038/s42005-026-02823-0": {
       "expires_at": "2026-10-05T00:59:46.957674Z",
       "record": {
@@ -21663,6 +21841,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:37.274860Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/dcna72004.2026.11733422": {
+      "expires_at": "2026-11-25T01:04:37.323285Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Aleksei Trutnev",
+            "orcid": "https://orcid.org/0009-0001-9905-1398"
+          },
+          {
+            "name": "Alexander V. Demidovskij",
+            "orcid": "https://orcid.org/0000-0003-3605-6332"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/dcna72004.2026.11733422",
+        "landing_page": "https://doi.org/10.1109/dcna72004.2026.11733422",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7223109367",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223109367",
+        "publication_date": "2026-09-01",
+        "title": "On Perspectives of Zeroth-Order Methods for Large Language Models Pre-Training",
+        "venue": "Scientific School Dynamics of Complex Networks and their Applications (DCNA)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-26T01:04:37.323285Z",
       "status": "found"
     },
     "openalex:doi:10.1109/eeeac71377.2026.11709456": {
@@ -23708,9 +23916,9 @@
       "status": "found"
     },
     "openalex:doi:10.1117/12.3122162": {
-      "expires_at": "2026-10-10T01:00:33.681537Z",
+      "expires_at": "2026-11-25T01:04:37.887768Z",
       "record": {
-        "abstract": null,
+        "abstract": "Micro-ring resonator (MRR) based photonic neural networks (PNNs) have gained attention for their potential in high-speed, low-power analog computing. However, modeling and training PNNs remain challenging due to their opto-electronic hybrid nature. This paper presents a SPICE-based simulation framework for PNNs, where accurate SPICE models of MRR weight banks, modulators, and nonlinear activations are developed to construct a 4×3×3 PNN. The system processes the Iris dataset by performing photonic-weighted summation and nonlinear modulation in SPICE, while Python handles soft-max classification and backpropagation training. Experimental results demonstrate a classification accuracy of 100% on the Iris dataset, validating the effectiveness of this hybrid simulation approach and providing a reliable tool for large-scale PNN design and training.",
         "arxiv_id": null,
         "authors": [
           {
@@ -23723,11 +23931,11 @@
           },
           {
             "name": "Yikai Su",
-            "orcid": null
+            "orcid": "https://orcid.org/0000-0002-1526-8187"
           },
           {
             "name": "Xuhan Guo",
-            "orcid": null
+            "orcid": "https://orcid.org/0000-0002-4891-0201"
           }
         ],
         "cited_by_count": 0,
@@ -23742,7 +23950,7 @@
         "venue": null,
         "year": 2026
       },
-      "retrieved_at": "2026-09-10T01:00:33.681537Z",
+      "retrieved_at": "2026-10-26T01:04:37.887768Z",
       "status": "found"
     },
     "openalex:doi:10.1117/12.3122678": {
@@ -28994,6 +29202,12 @@
       "retrieved_at": "2026-09-25T01:02:48.814527Z",
       "status": "found"
     },
+    "openalex:title:0219585191a6aba59ee2454fd31211c23550d3ac6acbd245b6f6c803a56161bd": {
+      "expires_at": "2026-11-02T01:04:34.157824Z",
+      "record": null,
+      "retrieved_at": "2026-10-26T01:04:34.157824Z",
+      "status": "not_found"
+    },
     "openalex:title:024759bc375366300e9f6cbe889aaa20b41b043b8c939a51aa057b338fd19596": {
       "expires_at": "2026-10-11T01:35:59.900378Z",
       "record": {
@@ -33555,6 +33769,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:06.522679Z",
       "status": "found"
+    },
+    "openalex:title:ed6793fbe078db127bb431cb9ee38b8f2fbc7cd16ad5be4db72add181822886e": {
+      "expires_at": "2026-11-02T01:04:36.473497Z",
+      "record": null,
+      "retrieved_at": "2026-10-26T01:04:36.473497Z",
+      "status": "not_found"
     },
     "openalex:title:ef63a7f91c3b5ef8a19ee9368e136e4954362b505b62725abd03830c35937e1b": {
       "expires_at": "2026-08-27T00:32:24.473759Z",
