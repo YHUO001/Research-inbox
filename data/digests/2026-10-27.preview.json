@@ -1,0 +1,53 @@
+{
+  "built_at": "2026-10-27T01:03:21.531631Z",
+  "digest_date": "2026-10-27",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "7e9d9924bce580000ddda36d",
+        "landing_page": "https://doi.org/10.5281/zenodo.23632157",
+        "mandatory": false,
+        "score": 0.89,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Diffractive Deep Learning and All-Optical Neural Networks: Free-Space Metasurfaces, Optical Diffractive Processors, and Sub-Wavelength Wavefront Shaping",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "ce453bfbb1da74c9ff0d3143",
+        "landing_page": "https://doi.org/10.1109/dcna72004.2026.11733422",
+        "mandatory": false,
+        "score": 0.76,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "On Perspectives of Zeroth-Order Methods for Large Language Models Pre-Training",
+        "venue": "Scientific School Dynamics of Complex Networks and their Applications (DCNA)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "038bab63c7432a64fc594009",
+        "landing_page": "https://doi.org/10.1038/s44335-026-00102-3",
+        "mandatory": false,
+        "score": 0.73,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "SEPhIA: spiking electro-photonic integrated tiled architecture leveraging multi-wavelength lasers for scalable optical neuromorphic computing",
+        "venue": "npj Unconventional Computing",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

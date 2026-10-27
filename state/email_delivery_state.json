@@ -1,5 +1,5 @@
 {
-  "last_successful_delivery_at": "2026-10-26T01:05:42.052848Z",
+  "last_successful_delivery_at": "2026-10-27T01:04:37.141600Z",
   "schema_version": 1,
   "sent_digests": {
     "2026-08-07": {
@@ -961,6 +961,19 @@
       "message_id_header": "<research-inbox-20261026-05bbb7a725825d85@research-inbox.local>",
       "recipient_sha256": "05bbb7a725825d85078914a36b7fbb15a2c4781c25a2eb2832958cb229c38c4d",
       "sent_at": "2026-10-26T01:05:42.052848Z",
+      "status": "sent",
+      "summary_count": 3
+    },
+    "2026-10-27": {
+      "archive_body_file": "data/digest_archive/2026/2026-10-27.email.md",
+      "archive_metadata_file": "data/digest_archive/2026/2026-10-27.delivery.json",
+      "archive_status": "archived",
+      "content_status": "completed_digest",
+      "digest_sha256": "6570d29259b5223100416cb8aaa402dcb1c2eb9d471cce09b27432e84fbf15c8",
+      "gmail_message_id_sha256": "e4f27483ec2e24aedb762731fecefde2fce59e7c77325db9c2bdaac2112f4d02",
+      "message_id_header": "<research-inbox-20261027-05bbb7a725825d85@research-inbox.local>",
+      "recipient_sha256": "05bbb7a725825d85078914a36b7fbb15a2c4781c25a2eb2832958cb229c38c4d",
+      "sent_at": "2026-10-27T01:04:37.141600Z",
       "status": "sent",
       "summary_count": 3
     }

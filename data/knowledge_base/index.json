@@ -9,6 +9,15 @@
       "summary_record_sha256": "e528dde6eae4acf21af476455f24a738b4ce501de599ef14fc565ef0a7c48318",
       "title": "A Noise-Resilient Calibration framework for Quantum and Optical Neural Network Inference"
     },
+    "038bab63c7432a64fc594009": {
+      "digest_date": "2026-10-27",
+      "doi": "10.1038/s44335-026-00102-3",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "d36e32a123b440a932d883c76d47b680ba95e9f73d662c187187590306d0cea7",
+      "title": "SEPhIA: spiking electro-photonic integrated tiled architecture leveraging multi-wavelength lasers for scalable optical neuromorphic computing"
+    },
     "03aabdb282e176e5097616a7": {
       "digest_date": "2026-10-26",
       "doi": "10.1038/s41598-026-77326-7",
@@ -503,6 +512,15 @@
       "summary_record_sha256": "46be6ebe47db378bee8526f7d4afa137c5ca3903150be4b1a7de7b0436378e05",
       "title": "Scalable photonic tensor core coupled with direct optimization strategy for optical neural networks"
     },
+    "7e9d9924bce580000ddda36d": {
+      "digest_date": "2026-10-27",
+      "doi": "10.5281/zenodo.23632157",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "836db19e9e787f6457d36699ef1bb3a9144a8ddd5dcbf16fd472e725342b8dad",
+      "title": "Diffractive Deep Learning and All-Optical Neural Networks: Free-Space Metasurfaces, Optical Diffractive Processors, and Sub-Wavelength Wavefront Shaping"
+    },
     "7edb19b24759fe609707ba01": {
       "digest_date": "2026-09-05",
       "doi": "10.1038/s41467-026-76872-y",
@@ -808,6 +826,15 @@
       ],
       "summary_record_sha256": "1054e2989aebc44bb631890d0431a25ad925a4cd9e3b52ab7ad11226a6f2a70b",
       "title": "Data for \"Photonic neuromorphic processing with coupled spiking silicon microrings\""
+    },
+    "ce453bfbb1da74c9ff0d3143": {
+      "digest_date": "2026-10-27",
+      "doi": "10.1109/dcna72004.2026.11733422",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "23cec48544affb3fbc0dcf6d216b6744a50c4cf6182a8540dd864d1b4a854470",
+      "title": "On Perspectives of Zeroth-Order Methods for Large Language Models Pre-Training"
     },
     "d11ea194238cf32852af6b74": {
       "digest_date": "2026-10-18",
@@ -1182,6 +1209,11 @@
       "03aabdb282e176e5097616a7",
       "2c2645700d900a5b3f00a38c",
       "fb9e976eb7e8f5a651e59b29"
+    ],
+    "2026-10-27": [
+      "038bab63c7432a64fc594009",
+      "7e9d9924bce580000ddda36d",
+      "ce453bfbb1da74c9ff0d3143"
     ]
   },
   "by_doi": {
@@ -1215,11 +1247,13 @@
     "10.1038/s43588-026-01057-y": "4ac97d5e03fb7df3ed448fc2",
     "10.1038/s44335-026-00086-0": "328b1572ba0e31f8f8a6dac1",
     "10.1038/s44335-026-00096-y": "35ff63ef9d3333099ee28868",
+    "10.1038/s44335-026-00102-3": "038bab63c7432a64fc594009",
     "10.1063/5.0341175": "ae3adee8419a5db7be7ec3b2",
     "10.1063/5.0350777": "a7f4407333af25ddc7630e14",
     "10.1088/1361-6633/ae9e8c": "4bb38e8bcc3a3d164bd28700",
     "10.1088/2632-2153/aea3a0": "fca2cfc597728ee01e2a6032",
     "10.1103/gwny-d6fw": "9039d2d888f22d7a64bcfc06",
+    "10.1109/dcna72004.2026.11733422": "ce453bfbb1da74c9ff0d3143",
     "10.1109/icocn70692.2026.11656217": "c3474ba19a69c715eb87d391",
     "10.1109/tcad.2026.3738037": "70212be2c4a63d741872ace0",
     "10.1117/1.ap.8.5.054001": "916e8199aaabe1372544d280",
@@ -1285,6 +1319,7 @@
     "10.5281/zenodo.23337932": "c9dee369fd4e64c2389af927",
     "10.5281/zenodo.23422324": "1bbef7ba5398ff216f60580f",
     "10.5281/zenodo.23538542": "0ea189a90da076d72e313576",
+    "10.5281/zenodo.23632157": "7e9d9924bce580000ddda36d",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.6084/m9.figshare.c.8610155.v1": "d162b179119ee09c86ad3708",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799",
@@ -1294,6 +1329,7 @@
   "by_project": {
     "optical-neural-networks": [
       "028de8014a2b67fd147a28e7",
+      "038bab63c7432a64fc594009",
       "03aabdb282e176e5097616a7",
       "04bdf084776bcfe0d6f912cb",
       "099f50640efd207890cbb62b",
@@ -1332,6 +1368,7 @@
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
+      "7e9d9924bce580000ddda36d",
       "7edb19b24759fe609707ba01",
       "83a830ace13b5158f346c392",
       "879145cdb2d594dd2d392a9e",
@@ -1394,6 +1431,7 @@
       "c55f09d580d098a54f7078e7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
+      "ce453bfbb1da74c9ff0d3143",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
@@ -1411,6 +1449,12 @@
     ],
     "application:cart–pole 稳定控制": [
       "79855d774b83ef6c7c8a8a47"
+    ],
+    "application:cifar-10图像分类": [
+      "7e9d9924bce580000ddda36d"
+    ],
+    "application:fashion-mnist图像分类": [
+      "7e9d9924bce580000ddda36d"
     ],
     "application:image edge extraction": [
       "a15033db64285e5d4c8a46c9"
@@ -1507,6 +1551,9 @@
     ],
     "application:光学斯格明子拓扑态检测": [
       "d2a55bdec24bc3bc4b04467b"
+    ],
+    "application:光学涡旋模式分选": [
+      "7e9d9924bce580000ddda36d"
     ],
     "application:光学神经网络推理": [
       "09e1a0ed403ef22abbd9b189"
@@ -1775,6 +1822,9 @@
     "application:肺炎病灶分割": [
       "7edb19b24759fe609707ba01"
     ],
+    "application:脉冲编码分类任务": [
+      "038bab63c7432a64fc594009"
+    ],
     "application:脑mri图像分类（肿瘤检测）": [
       "0a7a6a25b0c077322aee6b4e"
     ],
@@ -1871,6 +1921,7 @@
     "architecture:free_space": [
       "5017adbd33e6ddd5c320a4c4",
       "61dad77fe7c2ef7687ce5b21",
+      "7e9d9924bce580000ddda36d",
       "9351be654a20f4a2f7121847",
       "a15033db64285e5d4c8a46c9",
       "b832199d8494cc67a559fec5",
@@ -1891,6 +1942,7 @@
     ],
     "architecture:unclear": [
       "028de8014a2b67fd147a28e7",
+      "038bab63c7432a64fc594009",
       "03aabdb282e176e5097616a7",
       "04bdf084776bcfe0d6f912cb",
       "099f50640efd207890cbb62b",
@@ -1954,6 +2006,7 @@
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
+      "7e9d9924bce580000ddda36d",
       "879145cdb2d594dd2d392a9e",
       "8ed2e70c4b7d42f84e3676a7",
       "9322fad036b3d7fc8e3dd47b",
@@ -1987,6 +2040,7 @@
       "fd6f281418ac4d412744b2ac"
     ],
     "hardware_validation:simulation_only": [
+      "038bab63c7432a64fc594009",
       "03aabdb282e176e5097616a7",
       "099f50640efd207890cbb62b",
       "0cbf41592278a3ad1b89e219",
@@ -2024,6 +2078,7 @@
     ],
     "project:optical-neural-networks": [
       "028de8014a2b67fd147a28e7",
+      "038bab63c7432a64fc594009",
       "03aabdb282e176e5097616a7",
       "04bdf084776bcfe0d6f912cb",
       "099f50640efd207890cbb62b",
@@ -2062,6 +2117,7 @@
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
+      "7e9d9924bce580000ddda36d",
       "7edb19b24759fe609707ba01",
       "83a830ace13b5158f346c392",
       "879145cdb2d594dd2d392a9e",
@@ -2124,6 +2180,7 @@
       "c55f09d580d098a54f7078e7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
+      "ce453bfbb1da74c9ff0d3143",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dd2f544b89860edf2c2a51ae",
@@ -2447,6 +2504,9 @@
       "03aabdb282e176e5097616a7",
       "37a9533a60e5cdd68ef3c483"
     ],
+    "Scientific School Dynamics of Complex Networks and their Applications (DCNA)": [
+      "ce453bfbb1da74c9ff0d3143"
+    ],
     "Sixth Optics Frontier Conference (OFS 2026)": [
       "9351be654a20f4a2f7121847"
     ],
@@ -2460,6 +2520,7 @@
       "0ea189a90da076d72e313576",
       "1bbef7ba5398ff216f60580f",
       "4b1739e45289d2156d3b1ed3",
+      "7e9d9924bce580000ddda36d",
       "c9dee369fd4e64c2389af927"
     ],
     "arXiv (Cornell University)": [
@@ -2491,6 +2552,7 @@
       "f4c6106a0a433a224abb3d56"
     ],
     "npj Unconventional Computing": [
+      "038bab63c7432a64fc594009",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868"
     ]
@@ -2498,6 +2560,7 @@
   "by_year": {
     "2026": [
       "028de8014a2b67fd147a28e7",
+      "038bab63c7432a64fc594009",
       "03aabdb282e176e5097616a7",
       "04bdf084776bcfe0d6f912cb",
       "05e945a039d8b6cce82abff1",
@@ -2552,6 +2615,7 @@
       "7a7954d98c27d7ab9f7f730a",
       "7bc9d4230ed283852c3248a7",
       "7d6c2a059923ebe445a1cdf7",
+      "7e9d9924bce580000ddda36d",
       "7edb19b24759fe609707ba01",
       "83a830ace13b5158f346c392",
       "879145cdb2d594dd2d392a9e",
@@ -2585,6 +2649,7 @@
       "cadf2190f4abdc8ebf66da38",
       "ccd82d84305d463a6c33398d",
       "ce092fd32303d2ddfac44b92",
+      "ce453bfbb1da74c9ff0d3143",
       "d11ea194238cf32852af6b74",
       "d162b179119ee09c86ad3708",
       "d2a55bdec24bc3bc4b04467b",
@@ -2609,7 +2674,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 108,
+  "paper_count": 111,
   "schema_version": 1,
-  "updated_at": "2026-10-26T01:05:40.979406Z"
+  "updated_at": "2026-10-27T01:04:36.051265Z"
 }

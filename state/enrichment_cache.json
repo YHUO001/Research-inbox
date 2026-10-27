@@ -8292,6 +8292,12 @@
       "retrieved_at": "2026-10-25T01:05:15.098096Z",
       "status": "not_found"
     },
+    "crossref:doi:10.5281/zenodo.23632157": {
+      "expires_at": "2026-11-26T01:03:19.369827Z",
+      "record": null,
+      "retrieved_at": "2026-10-27T01:03:19.369827Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.6084/m9.figshare.33306492.v1": {
       "expires_at": "2026-10-11T01:00:17.087901Z",
       "record": null,
@@ -28619,6 +28625,32 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-25T01:05:15.413926Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.23632157": {
+      "expires_at": "2026-11-26T01:03:19.706760Z",
+      "record": {
+        "abstract": "The insatiable energy and throughput demands of deep neural network inference have pushed digital electronic accelerators (GPUs, TPUs) toward severe thermodynamic and interconnect boundaries. All-Optical Neural Networks (ONNs) and Diffractive Deep Learning establish a revolutionary computing paradigm that executes massive matrix-vector multiplications and spatial classification tasks at the speed of light in free space with near-zero runtime electrical power dissipation. By structuring multi-layer cascades of sub-wavelength dielectric metasurfaces, diffractive deep neural networks (D2NNs) modulate incoming optical wavefront amplitudes and phases through passive light propagation, naturally performing linear matrix transformations via Huygens-Fresnel diffraction principles. However, translating all-optical diffractive processors from theoretical simulations into robust hardware accelerators introduces profound physical and manufacturing bottlenecks: severe fabrication tolerances in sub-wavelength nano-antennas, limited angular and wavelength tolerances, insertion loss accumulation across deep multi-layer diffractive stacks, and the challenge of implementing non-linear optical activations without electrical domain conversion. This paper delivers an exhaustive, mathematically formal technical investigation and empirical benchmark of diffractive deep learning and alloptical neural networks. We formalize scalar diffraction theory via Rayleigh-Sommerfeld propagation integrals, derive dielectric metasurface phase modulation transfer functions, and model optical backpropagation training via adjointvariable gradient methods. Furthermore, we construct an enterprise multi-physics co-simulation and physical optical testbed evaluating 5-layer stacked silicon nitride (Si3N4) metasurface diffractive processors across multi-class image classification (Fashion-MNIST, CIFAR-10) and optical vortex mode sorting. Our empirical findings demonstrate that our all-optical diffractive processor achieves 94.8% classification accuracy on Fashion-MNIST while executing inference in 33 picoseconds (speed of light propagation delay) with an active operational energy dissipation of 0.17 attojoules per classification - outperforming 4nm digital CMOS accelerators by over five orders of magnitude in energy efficiency. Finally, we formulate open challenges in all-optical non-linear activation materials, reconfigurable dynamic spatial light modulators, and multi-wavelength broadband diffractive multiplexing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ujjwal Kukreja, Amit Singh Bhati, Dr. Vishal Shrivastava, Dr. Ashok Kajla",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23632157",
+        "landing_page": "https://doi.org/10.5281/zenodo.23632157",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23632157",
+        "openalex_id": "https://openalex.org/W7223554460",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223554460",
+        "publication_date": "2026-10-25",
+        "title": "Diffractive Deep Learning and All-Optical Neural Networks: Free-Space Metasurfaces, Optical Diffractive Processors, and Sub-Wavelength Wavefront Shaping",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-27T01:03:19.706760Z",
       "status": "found"
     },
     "openalex:doi:10.6084/m9.figshare.33306492.v1": {

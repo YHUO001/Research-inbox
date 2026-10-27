@@ -1,10 +1,26 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`108`
-- 更新时间：`2026-10-26T01:05:40.979406Z`
+- 论文数：`111`
+- 更新时间：`2026-10-27T01:04:36.051265Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### SEPhIA: spiking electro-photonic integrated tiled architecture leveraging multi-wavelength lasers for scalable optical neuromorphic computing
+
+- DOI/链接：[10.1038/s44335-026-00102-3](https://doi.org/10.1038/s44335-026-00102-3)
+- 期刊/年份：npj Unconventional Computing，2026
+- 摘要日期：`2026-10-27`
+- 候选 ID：`038bab63c7432a64fc594009`
+- 标签：application:脉冲编码分类任务, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
+
+### Diffractive Deep Learning and All-Optical Neural Networks: Free-Space Metasurfaces, Optical Diffractive Processors, and Sub-Wavelength Wavefront Shaping
+
+- DOI/链接：[10.5281/zenodo.23632157](https://doi.org/10.5281/zenodo.23632157)
+- 期刊/年份：Zenodo (CERN European Organization for Nuclear Research)，2026
+- 摘要日期：`2026-10-27`
+- 候选 ID：`7e9d9924bce580000ddda36d`
+- 标签：application:cifar-10图像分类, application:fashion-mnist图像分类, application:光学涡旋模式分选, architecture:free_space, hardware_validation:mixed, project:optical-neural-networks
 
 ### Photonic Neuromorphic Processing With Coupled Spiking Silicon Microrings
 
@@ -629,6 +645,14 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### On Perspectives of Zeroth-Order Methods for Large Language Models Pre-Training
+
+- DOI/链接：[10.1109/dcna72004.2026.11733422](https://doi.org/10.1109/dcna72004.2026.11733422)
+- 期刊/年份：Scientific School Dynamics of Complex Networks and their Applications (DCNA)，2026
+- 摘要日期：`2026-10-27`
+- 候选 ID：`ce453bfbb1da74c9ff0d3143`
+- 标签：project:zeroth-order-optimization
 
 ### <i>Prism</i>
                     : Efficient Zeroth-Order Fine-Tuning for On-Device LLMs
