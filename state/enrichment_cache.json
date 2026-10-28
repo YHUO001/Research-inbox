@@ -182,6 +182,84 @@
       "retrieved_at": "2026-09-17T01:03:00.566552Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/adfm.79270": {
+      "expires_at": "2026-11-27T00:48:16.050085Z",
+      "record": {
+        "abstract": "ABSTRACT Room‐temperature phosphorescence (RTP) materials hold immense potential for neuromorphic vision, yet achieving system‐level cognitive capabilities within a single material remains challenging. Here, we design a carbon dots (CDs)–epoxy composite wherein hydrogen‐bond‐mediated interfacial assembly between electron‐donating CDs surface groups and electron‐accepting epoxy moieties deliberately generates interfacial exciplexes. This engineered interface achieves a minimized singlet–triplet energy gap and enhanced spin–orbit coupling (SOC), enabling efficient intersystem crossing (ISC) into a long‐lived triplet reservoir that emits green phosphorescence (∼468 ms). We obtain multiple neuromorphic functions by exploiting the exciplex kinetics. Ultraviolet (UV)‐dose‐dependent triplet filling enables optical learning and noisy pattern capture. The cooperative effect in densely populated exciplex networks establishes an intensity‐gated threshold for spontaneous physical noise reduction at the sensory terminal. Alternating UV‐induced hydrogen‐bond strengthening and near infrared‐induced photothermal relaxation bidirectionally modulate exciplex populations, realizing all‐optical plasticity with high symmetry (AR = 0.33) that supports a fully connected neural network achieving >95% recognition accuracy on noisy digits. The millisecond‐lived triplet reservoir further transcribes dynamic motion trajectories into static 2D afterglow patterns, enabling contactless trajectory recognition and real‐time control without high‐speed cameras. This work provides a unified material strategy integrating sensing, memory, and computation within a single neuromorphic visual terminal.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zihan Ying",
+            "orcid": "https://orcid.org/0009-0002-4413-6607"
+          },
+          {
+            "name": "Yi Zhang",
+            "orcid": "https://orcid.org/0000-0001-8501-7781"
+          },
+          {
+            "name": "Jiahao Fan",
+            "orcid": null
+          },
+          {
+            "name": "Mengqi Li",
+            "orcid": null
+          },
+          {
+            "name": "Siqi Liu",
+            "orcid": null
+          },
+          {
+            "name": "Jun Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Fangjian Xing",
+            "orcid": null
+          },
+          {
+            "name": "Cihui Liu",
+            "orcid": "https://orcid.org/0000-0002-2004-1761"
+          },
+          {
+            "name": "Dan Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Yingchun Cheng",
+            "orcid": "https://orcid.org/0009-0001-0955-1496"
+          },
+          {
+            "name": "Yunsong Di",
+            "orcid": null
+          },
+          {
+            "name": "Chaofeng Gao",
+            "orcid": "https://orcid.org/0009-0008-9176-8627"
+          },
+          {
+            "name": "Xiangxing Xu",
+            "orcid": "https://orcid.org/0000-0001-9135-9403"
+          },
+          {
+            "name": "Zhixing Gan",
+            "orcid": "https://orcid.org/0000-0001-5610-0287"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adfm.79270",
+        "landing_page": "https://doi.org/10.1002/adfm.79270",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/adfm.79270",
+        "publication_date": "2026-10-24",
+        "title": "Harnessing Synergistic Photophysical Processes in Phosphorescent Carbon Dots for Multifunctional Neuromorphic Vision",
+        "venue": "Advanced Functional Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-28T00:48:16.050085Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/adma.75132": {
       "expires_at": "2026-10-25T01:02:45.981817Z",
       "record": {
@@ -2242,6 +2320,32 @@
       "retrieved_at": "2026-09-12T00:59:36.699649Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/s00521-026-12581-3": {
+      "expires_at": "2026-11-27T00:48:16.463545Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lucas Battú",
+            "orcid": "https://orcid.org/0009-0000-9517-713X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s00521-026-12581-3",
+        "landing_page": "https://doi.org/10.1007/s00521-026-12581-3",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s00521-026-12581-3",
+        "publication_date": "2026-10",
+        "title": "COSMOS: continuous subspace manifold operating system learning as gauge dynamics on the Grassmannian",
+        "venue": "Neural Computing and Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-28T00:48:16.463545Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s10043-026-01085-z": {
       "expires_at": "2026-10-07T01:06:51.649949Z",
       "record": {
@@ -2502,6 +2606,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-16T00:57:54.182543Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/s11235-026-01525-w": {
+      "expires_at": "2026-11-27T00:48:14.985665Z",
+      "record": {
+        "abstract": "Abstract Accurate user-position estimation is essential in integrated sensing and communication systems, where sensing accuracy must be balanced against sampling and computational costs. This paper considers two-dimensional localization of a single ground-plane user through a known elevated uniform rectangular array and the multiple signal classification pseudo-spectrum. The proposed Nelder–Mead MUSIC method combines a uniform coarse search with derivative-free simplex refinement, thereby avoiding an exhaustive fine-grid evaluation of the complete search region. Exact Euclidean antenna–user distances and free-space amplitude decay are retained in the steering vector so that the pseudo-spectrum depends on the candidate position rather than only on direction of arrival. A Cramér–Rao bound that accounts for the unknown signal phase and amplitude is derived as a theoretical performance benchmark, and Monte Carlo simulations examine the effects of signal-to-noise ratio, sample count, array elevation, coarse-grid density, and refinement iterations. The numerical results indicate that, under the modeled line-of-sight single-user conditions, the estimator approaches the adopted bound at sufficiently high signal-to-noise ratios for well-conditioned user geometries, while requiring substantially fewer pseudo-spectrum evaluations than a dense exhaustive search.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bruno F. Costa",
+            "orcid": null
+          },
+          {
+            "name": "Taufik Abrão",
+            "orcid": "https://orcid.org/0000-0001-8678-2805"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s11235-026-01525-w",
+        "landing_page": "https://doi.org/10.1007/s11235-026-01525-w",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s11235-026-01525-w",
+        "publication_date": "2026-12",
+        "title": "Nelder–Mead enhanced MUSIC algorithm for efficient position estimation in ISAC systems",
+        "venue": "Telecommunication Systems",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-28T00:48:14.985665Z",
       "status": "found"
     },
     "crossref:doi:10.1007/s11433-026-2995-7": {
@@ -8575,6 +8709,12 @@
       "retrieved_at": "2026-09-25T01:02:48.492971Z",
       "status": "found"
     },
+    "crossref:title:01d0f51375153313f281a6020a49a3d435458500e7e85e732851c8cc8fc7415b": {
+      "expires_at": "2026-11-04T00:48:17.006345Z",
+      "record": null,
+      "retrieved_at": "2026-10-28T00:48:17.006345Z",
+      "status": "not_found"
+    },
     "crossref:title:0219585191a6aba59ee2454fd31211c23550d3ac6acbd245b6f6c803a56161bd": {
       "expires_at": "2026-11-02T01:04:33.673906Z",
       "record": null,
@@ -9521,6 +9661,12 @@
       "retrieved_at": "2026-10-23T01:02:36.667610Z",
       "status": "not_found"
     },
+    "crossref:title:25fe44e54f2479598b6d570a13571a249de3d4ed92c67de7f4651d2a73b60c5c": {
+      "expires_at": "2026-11-04T00:48:14.486164Z",
+      "record": null,
+      "retrieved_at": "2026-10-28T00:48:14.486164Z",
+      "status": "not_found"
+    },
     "crossref:title:263ed055819ba5f74c75d0aabc2ffe52c75589a67af2bc95a38034db5105664f": {
       "expires_at": "2026-09-20T01:07:23.660421Z",
       "record": null,
@@ -9606,6 +9752,12 @@
       },
       "retrieved_at": "2026-09-07T01:06:51.029914Z",
       "status": "found"
+    },
+    "crossref:title:2b271f45467a357f7a1769a5048457b29f7beee2c0f32848943d06e87bbfc9a1": {
+      "expires_at": "2026-11-04T00:48:18.014811Z",
+      "record": null,
+      "retrieved_at": "2026-10-28T00:48:18.014811Z",
+      "status": "not_found"
     },
     "crossref:title:2c07bb7239f1c6739bb02047e88fa7613eaedc31c559b6d954bbdf73ecfbbe87": {
       "expires_at": "2026-08-16T00:36:13.391892Z",
@@ -9921,6 +10073,12 @@
       "expires_at": "2026-09-02T00:32:42.903232Z",
       "record": null,
       "retrieved_at": "2026-08-26T00:32:42.903232Z",
+      "status": "not_found"
+    },
+    "crossref:title:41bcc0fb915a6f50fac62d4684a0c8fb9589ca40350e704731093e2c4861c233": {
+      "expires_at": "2026-11-04T00:48:12.816637Z",
+      "record": null,
+      "retrieved_at": "2026-10-28T00:48:12.816637Z",
       "status": "not_found"
     },
     "crossref:title:41dd4005a10029c0f49469f52ab7ddece38af9225fd5443f022cc31593690964": {
@@ -10819,6 +10977,40 @@
       "retrieved_at": "2026-08-09T00:36:11.038479Z",
       "status": "not_found"
     },
+    "crossref:title:5e61bf541753f3a1eb4a721562fcf7078cc904b0ec9a551e8ec5a487df68a17b": {
+      "expires_at": "2026-11-04T00:48:21.482126Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Atul Patel",
+            "orcid": null
+          },
+          {
+            "name": "Vibhor Kant",
+            "orcid": null
+          },
+          {
+            "name": "Pragya Dwivedi",
+            "orcid": "https://orcid.org/0000-0003-4101-628X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.asoc.2026.116732",
+        "landing_page": "https://doi.org/10.1016/j.asoc.2026.116732",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.asoc.2026.116732",
+        "publication_date": "2026-10",
+        "title": "Adaptive multi-depth fusion for overlapping-user cross-domain recommendation",
+        "venue": "Applied Soft Computing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-28T00:48:21.482126Z",
+      "status": "found"
+    },
     "crossref:title:5fc44aa91eebfc5b48e0c5db8f2d1572302ad27e1be5cad19a32db3811253f1a": {
       "expires_at": "2026-09-09T01:02:17.114101Z",
       "record": null,
@@ -10872,6 +11064,72 @@
       "record": null,
       "retrieved_at": "2026-10-12T01:18:19.499028Z",
       "status": "not_found"
+    },
+    "crossref:title:689f875278286857c4a854769db5dc9bdd74d6426ad615808a6e1ed2356694fa": {
+      "expires_at": "2026-11-04T00:48:20.930984Z",
+      "record": {
+        "abstract": "Existing challenges in modern AI architectures, including the von Neumann bottleneck and high energy demand, have led to increased research efforts towards the development of novel computing paradigms based on memristive technologies. This comprehensive review summarizes algorithmic approaches for training memristive neural networks (MNNs), including Memristive Spiking Neural Networks (MSNNs), integrating solutions implemented on hardware platforms with those developed in software. In contrast to existing reviews that consider algorithmic aspects within the broader context of hardware implementation, this review provides an algorithm-centric perspective, starting from training algorithms and analyzing different approaches to their adaptation to memristive hardware. The survey covers traditional machine learning algorithms such as backpropagation and its enhancements toward hardware-friendly solutions, as well as gradient-free methods, with particular emphasis on algorithms that address device non-idealities. We additionally provide an overview of bio-inspired learning rules, including Spike-Timing Dependent Plasticity (STDP) and reward-modulated STDP, which can be mimicked using memristive devices, along with reinforcement learning algorithms. Special attention is given to biologically plausible models of spiking neuron-astrocyte networks, and their direct implementation in memristive hardware, which significantly increase the efficiency of self-learning algorithms. Finally, this review presents an algorithm-centric perspective on open questions and challenges toward the large-scale implementation of memristive devices in AI systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Natasa M. Samardzic",
+            "orcid": "https://orcid.org/0000-0002-8920-3554"
+          },
+          {
+            "name": "Vuk Vranjkovic",
+            "orcid": "https://orcid.org/0000-0003-4419-8189"
+          },
+          {
+            "name": "Predrag Teodorovic",
+            "orcid": "https://orcid.org/0000-0003-1422-4745"
+          },
+          {
+            "name": "Jovana Maricic",
+            "orcid": "https://orcid.org/0009-0003-7948-0114"
+          },
+          {
+            "name": "Sergey Shchanikov",
+            "orcid": "https://orcid.org/0000-0002-3938-8896"
+          },
+          {
+            "name": "Susanna Gordleeva",
+            "orcid": "https://orcid.org/0000-0002-7687-3065"
+          },
+          {
+            "name": "Alexey Mikhaylov",
+            "orcid": "https://orcid.org/0000-0001-5505-7352"
+          },
+          {
+            "name": "Max Talanov",
+            "orcid": "https://orcid.org/0000-0002-6727-0983"
+          },
+          {
+            "name": "Victor Kazantsev",
+            "orcid": "https://orcid.org/0000-0002-2881-6648"
+          },
+          {
+            "name": "Rastislav Struharik",
+            "orcid": "https://orcid.org/0000-0002-7310-8173"
+          },
+          {
+            "name": "Victor Erokhin",
+            "orcid": "https://orcid.org/0000-0002-6297-5538"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/electronics15214892",
+        "landing_page": "https://doi.org/10.3390/electronics15214892",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/electronics15214892",
+        "publication_date": "2026-10-22",
+        "title": "Memristive Neural Networks-Assisted Training Algorithms: Current State and Future Challenges",
+        "venue": "Electronics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-28T00:48:20.930984Z",
+      "status": "found"
     },
     "crossref:title:68c7f373df5dda2ec156480414652821d724642dc444651f33df7b44061a9455": {
       "expires_at": "2026-08-27T00:32:29.845954Z",
@@ -12441,6 +12699,12 @@
       "retrieved_at": "2026-10-18T01:04:56.204517Z",
       "status": "not_found"
     },
+    "crossref:title:a942492186feaba4c545529af53768e028dba099358be4cf59f754380d2bc3e3": {
+      "expires_at": "2026-11-04T00:48:15.564978Z",
+      "record": null,
+      "retrieved_at": "2026-10-28T00:48:15.564978Z",
+      "status": "not_found"
+    },
     "crossref:title:aa55fccd82ec16aa4bfed3034a68ad67e61d94c83a280c4978e5eec73ca34464": {
       "expires_at": "2026-10-21T00:59:32.639259Z",
       "record": null,
@@ -13053,6 +13317,36 @@
       "retrieved_at": "2026-08-04T09:38:28.475680Z",
       "status": "not_found"
     },
+    "crossref:title:c393b42e9c6d7ddb694d0b7136943f4e8b630c7f1a0dbe3e91def8f10ac1ef15": {
+      "expires_at": "2026-11-04T00:48:13.919782Z",
+      "record": {
+        "abstract": "Diffractive deep neural networks (D2NNs) offer extraordinary advantages for applications in real-time object classification, computational imaging, and optical computing, where speed and energy efficiency are critical. Unsupervised learning reduces reliance on labeled data, enhances robustness, and is inherently compatible with optical parallel processing. In this work, an unsupervised geometric classifier combining optical feature extraction and clustering is proposed. A D2NN processor trained on the Laguerre-Gaussian modes serves as an optical encoder, mapping the input fields to a six-dimensional feature space. Circles, along with randomly rotated triangles, squares, and pentagons, are modulated onto the phase of a Gaussian beam. After the modulated beams pass through the D2NN-based encoder, the resulting feature vectors enable unsupervised classification via clustering. To the best of our knowledge, this is the first demonstration of unsupervised classification of different geometric shapes based on optical feature extraction. The experimental results show 100% classification accuracy for the four different geometric shapes, including circles and randomly rotated triangles, squares, and pentagons.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Chengwen Huang",
+            "orcid": null
+          },
+          {
+            "name": "Junhe Zhou",
+            "orcid": "https://orcid.org/0000-0002-6792-1133"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.611409",
+        "landing_page": "https://doi.org/10.1364/oe.611409",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/oe.611409",
+        "publication_date": "2026-11-02",
+        "title": "Unsupervised geometric classifier based on optical feature extraction",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-28T00:48:13.919782Z",
+      "status": "found"
+    },
     "crossref:title:c3ac238e21a1fc518fa3f9758e49130afe7b286b49595292cc174fccdc27fc01": {
       "expires_at": "2026-09-20T01:07:32.158453Z",
       "record": {
@@ -13291,6 +13585,12 @@
       "expires_at": "2026-10-23T00:57:53.733756Z",
       "record": null,
       "retrieved_at": "2026-10-16T00:57:53.733756Z",
+      "status": "not_found"
+    },
+    "crossref:title:cb653e6b154d2113886c90e071760dc4a8fb67fee0e0afa78f418c381e6f8209": {
+      "expires_at": "2026-11-04T00:48:20.036844Z",
+      "record": null,
+      "retrieved_at": "2026-10-28T00:48:20.036844Z",
       "status": "not_found"
     },
     "crossref:title:cbde4e7b874735126ef47edd5cebf95081723b500b74f59d1ec1de2538ee9151": {
@@ -15049,6 +15349,84 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-17T01:03:00.929089Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/adfm.79270": {
+      "expires_at": "2026-11-27T00:48:16.395296Z",
+      "record": {
+        "abstract": "ABSTRACT Room‐temperature phosphorescence (RTP) materials hold immense potential for neuromorphic vision, yet achieving system‐level cognitive capabilities within a single material remains challenging. Here, we design a carbon dots (CDs)–epoxy composite wherein hydrogen‐bond‐mediated interfacial assembly between electron‐donating CDs surface groups and electron‐accepting epoxy moieties deliberately generates interfacial exciplexes. This engineered interface achieves a minimized singlet–triplet energy gap and enhanced spin–orbit coupling (SOC), enabling efficient intersystem crossing (ISC) into a long‐lived triplet reservoir that emits green phosphorescence (∼468 ms). We obtain multiple neuromorphic functions by exploiting the exciplex kinetics. Ultraviolet (UV)‐dose‐dependent triplet filling enables optical learning and noisy pattern capture. The cooperative effect in densely populated exciplex networks establishes an intensity‐gated threshold for spontaneous physical noise reduction at the sensory terminal. Alternating UV‐induced hydrogen‐bond strengthening and near infrared‐induced photothermal relaxation bidirectionally modulate exciplex populations, realizing all‐optical plasticity with high symmetry (AR = 0.33) that supports a fully connected neural network achieving >95% recognition accuracy on noisy digits. The millisecond‐lived triplet reservoir further transcribes dynamic motion trajectories into static 2D afterglow patterns, enabling contactless trajectory recognition and real‐time control without high‐speed cameras. This work provides a unified material strategy integrating sensing, memory, and computation within a single neuromorphic visual terminal.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zihan Ying",
+            "orcid": "https://orcid.org/0009-0002-4413-6607"
+          },
+          {
+            "name": "Yi Zhang",
+            "orcid": "https://orcid.org/0000-0001-8501-7781"
+          },
+          {
+            "name": "Jiahao Fan",
+            "orcid": null
+          },
+          {
+            "name": "Mengqi Li",
+            "orcid": null
+          },
+          {
+            "name": "Siqi Liu",
+            "orcid": null
+          },
+          {
+            "name": "Jun Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Fangjian Xing",
+            "orcid": "https://orcid.org/0000-0002-4253-2561"
+          },
+          {
+            "name": "Cihui Liu",
+            "orcid": "https://orcid.org/0000-0002-2004-1761"
+          },
+          {
+            "name": "朱丹",
+            "orcid": null
+          },
+          {
+            "name": "Yingchun Cheng",
+            "orcid": "https://orcid.org/0009-0001-0955-1496"
+          },
+          {
+            "name": "Yunsong Di",
+            "orcid": "https://orcid.org/0000-0003-2881-0622"
+          },
+          {
+            "name": "Chaofeng Gao",
+            "orcid": "https://orcid.org/0009-0008-9176-8627"
+          },
+          {
+            "name": "Xiangxing Xu",
+            "orcid": "https://orcid.org/0000-0001-9135-9403"
+          },
+          {
+            "name": "Zhixing Gan",
+            "orcid": "https://orcid.org/0000-0001-5610-0287"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adfm.79270",
+        "landing_page": "https://doi.org/10.1002/adfm.79270",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7223445839",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223445839",
+        "publication_date": "2026-10-24",
+        "title": "Harnessing Synergistic Photophysical Processes in Phosphorescent Carbon Dots for Multifunctional Neuromorphic Vision",
+        "venue": "Advanced Functional Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-28T00:48:16.395296Z",
       "status": "found"
     },
     "openalex:doi:10.1002/adma.75132": {
@@ -17153,6 +17531,32 @@
       "retrieved_at": "2026-09-12T00:59:37.068250Z",
       "status": "found"
     },
+    "openalex:doi:10.1007/s00521-026-12581-3": {
+      "expires_at": "2026-11-27T00:48:16.819049Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lucas Battú",
+            "orcid": "https://orcid.org/0009-0000-9517-713X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s00521-026-12581-3",
+        "landing_page": "https://doi.org/10.1007/s00521-026-12581-3",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7223445354",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223445354",
+        "publication_date": "2026-10-01",
+        "title": "COSMOS: continuous subspace manifold operating system learning as gauge dynamics on the Grassmannian",
+        "venue": "Neural Computing and Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-28T00:48:16.819049Z",
+      "status": "found"
+    },
     "openalex:doi:10.1007/s10043-026-01085-z": {
       "expires_at": "2026-10-07T01:06:52.013328Z",
       "record": {
@@ -17463,6 +17867,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-16T00:57:54.502349Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s11235-026-01525-w": {
+      "expires_at": "2026-11-27T00:48:15.334424Z",
+      "record": {
+        "abstract": "Abstract Accurate user-position estimation is essential in integrated sensing and communication systems, where sensing accuracy must be balanced against sampling and computational costs. This paper considers two-dimensional localization of a single ground-plane user through a known elevated uniform rectangular array and the multiple signal classification pseudo-spectrum. The proposed Nelder–Mead MUSIC method combines a uniform coarse search with derivative-free simplex refinement, thereby avoiding an exhaustive fine-grid evaluation of the complete search region. Exact Euclidean antenna–user distances and free-space amplitude decay are retained in the steering vector so that the pseudo-spectrum depends on the candidate position rather than only on direction of arrival. A Cramér–Rao bound that accounts for the unknown signal phase and amplitude is derived as a theoretical performance benchmark, and Monte Carlo simulations examine the effects of signal-to-noise ratio, sample count, array elevation, coarse-grid density, and refinement iterations. The numerical results indicate that, under the modeled line-of-sight single-user conditions, the estimator approaches the adopted bound at sufficiently high signal-to-noise ratios for well-conditioned user geometries, while requiring substantially fewer pseudo-spectrum evaluations than a dense exhaustive search.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bruno Felipe Costa",
+            "orcid": "https://orcid.org/0000-0002-9317-5584"
+          },
+          {
+            "name": "Taufik Abrão",
+            "orcid": "https://orcid.org/0000-0001-8678-2805"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s11235-026-01525-w",
+        "landing_page": "https://doi.org/10.1007/s11235-026-01525-w",
+        "open_access_url": "https://doi.org/10.1007/s11235-026-01525-w",
+        "openalex_id": "https://openalex.org/W7223348691",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223348691",
+        "publication_date": "2026-10-23",
+        "title": "Nelder–Mead enhanced MUSIC algorithm for efficient position estimation in ISAC systems",
+        "venue": "Telecommunication Systems",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-28T00:48:15.334424Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s11433-026-2995-7": {
@@ -18225,6 +18659,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:40.464180Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.asoc.2026.116732": {
+      "expires_at": "2026-11-27T00:48:21.935380Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Atul Patel",
+            "orcid": null
+          },
+          {
+            "name": "Vibhor Kant",
+            "orcid": "https://orcid.org/0000-0003-1183-3836"
+          },
+          {
+            "name": "Pragya Dwivedi",
+            "orcid": "https://orcid.org/0000-0003-4101-628X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.asoc.2026.116732",
+        "landing_page": "https://doi.org/10.1016/j.asoc.2026.116732",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7223410277",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223410277",
+        "publication_date": "2026-10-01",
+        "title": "Adaptive multi-depth fusion for overlapping-user cross-domain recommendation",
+        "venue": "Applied Soft Computing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-28T00:48:21.935380Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.conbuildmat.2026.147869": {
@@ -25937,6 +26405,36 @@
       "retrieved_at": "2026-10-22T00:59:19.633244Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/oe.611409": {
+      "expires_at": "2026-11-27T00:48:14.295297Z",
+      "record": {
+        "abstract": "Diffractive deep neural networks (D2NNs) offer extraordinary advantages for applications in real-time object classification, computational imaging, and optical computing, where speed and energy efficiency are critical. Unsupervised learning reduces reliance on labeled data, enhances robustness, and is inherently compatible with optical parallel processing. In this work, an unsupervised geometric classifier combining optical feature extraction and clustering is proposed. A D2NN processor trained on the Laguerre-Gaussian modes serves as an optical encoder, mapping the input fields to a six-dimensional feature space. Circles, along with randomly rotated triangles, squares, and pentagons, are modulated onto the phase of a Gaussian beam. After the modulated beams pass through the D2NN-based encoder, the resulting feature vectors enable unsupervised classification via clustering. To the best of our knowledge, this is the first demonstration of unsupervised classification of different geometric shapes based on optical feature extraction. The experimental results show 100% classification accuracy for the four different geometric shapes, including circles and randomly rotated triangles, squares, and pentagons.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Chengwen Huang",
+            "orcid": null
+          },
+          {
+            "name": "Junhe Zhou",
+            "orcid": "https://orcid.org/0000-0002-6792-1133"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.611409",
+        "landing_page": "https://doi.org/10.1364/oe.611409",
+        "open_access_url": "https://doi.org/10.1364/oe.611409",
+        "openalex_id": "https://openalex.org/W7222756210",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7222756210",
+        "publication_date": "2026-10-16",
+        "title": "Unsupervised geometric classifier based on optical feature extraction",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-28T00:48:14.295297Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/oe.612295": {
       "expires_at": "2026-10-10T01:00:34.337191Z",
       "record": {
@@ -27283,6 +27781,72 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-12T01:18:17.589756Z",
+      "status": "found"
+    },
+    "openalex:doi:10.3390/electronics15214892": {
+      "expires_at": "2026-11-27T00:48:21.292193Z",
+      "record": {
+        "abstract": "Existing challenges in modern AI architectures, including the von Neumann bottleneck and high energy demand, have led to increased research efforts towards the development of novel computing paradigms based on memristive technologies. This comprehensive review summarizes algorithmic approaches for training memristive neural networks (MNNs), including Memristive Spiking Neural Networks (MSNNs), integrating solutions implemented on hardware platforms with those developed in software. In contrast to existing reviews that consider algorithmic aspects within the broader context of hardware implementation, this review provides an algorithm-centric perspective, starting from training algorithms and analyzing different approaches to their adaptation to memristive hardware. The survey covers traditional machine learning algorithms such as backpropagation and its enhancements toward hardware-friendly solutions, as well as gradient-free methods, with particular emphasis on algorithms that address device non-idealities. We additionally provide an overview of bio-inspired learning rules, including Spike-Timing Dependent Plasticity (STDP) and reward-modulated STDP, which can be mimicked using memristive devices, along with reinforcement learning algorithms. Special attention is given to biologically plausible models of spiking neuron-astrocyte networks, and their direct implementation in memristive hardware, which significantly increase the efficiency of self-learning algorithms. Finally, this review presents an algorithm-centric perspective on open questions and challenges toward the large-scale implementation of memristive devices in AI systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Nataša Samardžić",
+            "orcid": "https://orcid.org/0000-0002-8920-3554"
+          },
+          {
+            "name": "Vuk S. Vranjković",
+            "orcid": "https://orcid.org/0000-0003-4419-8189"
+          },
+          {
+            "name": "Predrag Teodorovic",
+            "orcid": "https://orcid.org/0000-0003-1422-4745"
+          },
+          {
+            "name": "Jovana Maričić",
+            "orcid": "https://orcid.org/0000-0001-9799-837X"
+          },
+          {
+            "name": "Щаников Сергей Андреевич",
+            "orcid": "https://orcid.org/0000-0002-3938-8896"
+          },
+          {
+            "name": "Susanna Gordleeva",
+            "orcid": "https://orcid.org/0000-0002-7687-3065"
+          },
+          {
+            "name": "Alexey N. Mikhaylov",
+            "orcid": "https://orcid.org/0000-0001-5505-7352"
+          },
+          {
+            "name": "Max O. Talanov",
+            "orcid": "https://orcid.org/0000-0002-6727-0983"
+          },
+          {
+            "name": "Victor Kazantsev",
+            "orcid": "https://orcid.org/0000-0002-2881-6648"
+          },
+          {
+            "name": "RASTISLAV J. R. STRUHARIK",
+            "orcid": "https://orcid.org/0000-0002-7310-8173"
+          },
+          {
+            "name": "Victor V Erokhin",
+            "orcid": "https://orcid.org/0000-0002-6297-5538"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/electronics15214892",
+        "landing_page": "https://doi.org/10.3390/electronics15214892",
+        "open_access_url": "https://doi.org/10.3390/electronics15214892",
+        "openalex_id": "https://openalex.org/W7223298932",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223298932",
+        "publication_date": "2026-10-22",
+        "title": "Memristive Neural Networks-Assisted Training Algorithms: Current State and Future Challenges",
+        "venue": "Electronics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-28T00:48:21.292193Z",
       "status": "found"
     },
     "openalex:doi:10.3390/mi17091074": {
@@ -29234,6 +29798,40 @@
       "retrieved_at": "2026-09-25T01:02:48.814527Z",
       "status": "found"
     },
+    "openalex:title:01d0f51375153313f281a6020a49a3d435458500e7e85e732851c8cc8fc7415b": {
+      "expires_at": "2026-11-04T00:48:17.812538Z",
+      "record": {
+        "abstract": "Modern optimization workflows involve interdependent quantities of interest (QoIs) across multiple disciplines and operating points. The scheduling of subordinate process chains strongly influences optimizer convergence and computational cost. This study presents an automated approach that emulates expert decision-making to select which process chains to execute, thereby avoiding unnecessary evaluations and reducing wall time. A dynamic QoI-prioritization method by dynamic process chain control (DPCC) is introduced to enable runtime selection of the next process chain. By linking progress-related parameters to each chain, their importance is assessed using derived criteria such as constraint violation, surrogate reliability, predicted improvement, and information-to-cost ratio. The framework integrates seamlessly with common surrogate-based and gradient-free optimizers. The method is demonstrated through two test cases: a multi-operating-point optimization of a quasi-3D compressor cascade and an aero-structural optimization of a low-pressure compressor rotor blade. To account for optimizer stochasticity, each case was repeatedly solved from identical initial designs. Results are statistically compared to a static reference executing the full process chain at every iteration. Across both problems, the DPCC strategy consistently yields decisions aligned with engineering intuition while achieving significant reductions in computational time, depending on the problem, without compromising solution quality, demonstrating its potential as a practical approach for accelerating multidisciplinary compressor optimizations.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Aryan Karimian",
+            "orcid": null
+          },
+          {
+            "name": "Christian Voss",
+            "orcid": null
+          },
+          {
+            "name": "Florian Herbst",
+            "orcid": "https://orcid.org/0000-0003-0993-4582"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": null,
+        "landing_page": "https://elib.dlr.de/227250/1/GT2026_175519.pdf",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7223537231",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223537231",
+        "publication_date": "2026-01-01",
+        "title": "Dynamic Process Chain Control for Compressor Design Optimization",
+        "venue": "elib (German Aerospace Center)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-28T00:48:17.812538Z",
+      "status": "found"
+    },
     "openalex:title:0219585191a6aba59ee2454fd31211c23550d3ac6acbd245b6f6c803a56161bd": {
       "expires_at": "2026-11-02T01:04:34.157824Z",
       "record": null,
@@ -29786,6 +30384,12 @@
       "retrieved_at": "2026-10-23T01:02:37.220583Z",
       "status": "not_found"
     },
+    "openalex:title:25fe44e54f2479598b6d570a13571a249de3d4ed92c67de7f4651d2a73b60c5c": {
+      "expires_at": "2026-11-04T00:48:14.925321Z",
+      "record": null,
+      "retrieved_at": "2026-10-28T00:48:14.925321Z",
+      "status": "not_found"
+    },
     "openalex:title:263ed055819ba5f74c75d0aabc2ffe52c75589a67af2bc95a38034db5105664f": {
       "expires_at": "2026-09-20T01:07:24.218602Z",
       "record": {
@@ -29830,6 +30434,12 @@
       "expires_at": "2026-08-25T04:25:18.566103Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:18.566103Z",
+      "status": "not_found"
+    },
+    "openalex:title:2b271f45467a357f7a1769a5048457b29f7beee2c0f32848943d06e87bbfc9a1": {
+      "expires_at": "2026-11-04T00:48:18.621815Z",
+      "record": null,
+      "retrieved_at": "2026-10-28T00:48:18.621815Z",
       "status": "not_found"
     },
     "openalex:title:2c07bb7239f1c6739bb02047e88fa7613eaedc31c559b6d954bbdf73ecfbbe87": {
@@ -30476,6 +31086,12 @@
       "expires_at": "2026-09-02T00:32:43.679530Z",
       "record": null,
       "retrieved_at": "2026-08-26T00:32:43.679530Z",
+      "status": "not_found"
+    },
+    "openalex:title:41bcc0fb915a6f50fac62d4684a0c8fb9589ca40350e704731093e2c4861c233": {
+      "expires_at": "2026-11-04T00:48:13.321742Z",
+      "record": null,
+      "retrieved_at": "2026-10-28T00:48:13.321742Z",
       "status": "not_found"
     },
     "openalex:title:41dd4005a10029c0f49469f52ab7ddece38af9225fd5443f022cc31593690964": {
@@ -32572,6 +33188,44 @@
       "retrieved_at": "2026-10-18T01:04:56.601283Z",
       "status": "found"
     },
+    "openalex:title:a942492186feaba4c545529af53768e028dba099358be4cf59f754380d2bc3e3": {
+      "expires_at": "2026-11-04T00:48:15.925495Z",
+      "record": {
+        "abstract": "LLM unlearning aims to remove the influence of undesirable knowledge from pretrained language models, which offers a practical mechanism for addressing safety and privacy concerns. Existing unlearning approaches, such as Gradient Ascent, are prone to catastrophic forgetting. Alignment-based approaches provide an alternative direction, yet their effectiveness is limited by the quality of the reference model. In realistic settings, both methods still require large retention datasets to preserve general knowledge. We propose a principled method that quantifies the target LLM's confidence in undesirable knowledge and uses it to calibrate the model's unlearning gradient updates more precisely. It enables fine-grained control over forgetting while better preserving model utility, thus reducing the dependence on retention data or prohibitive unlearning training data. Extensive evaluations on multiple benchmarks, including MUSE and WMDP, show that our method achieves effective unlearning and improves the trade-off between knowledge removal and utility preservation compared with state-of-the-art methods.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhengbang Yang",
+            "orcid": null
+          },
+          {
+            "name": "Yisheng Zhong",
+            "orcid": null
+          },
+          {
+            "name": "Junyuan Hong",
+            "orcid": null
+          },
+          {
+            "name": "Zhuangdi Zhu",
+            "orcid": "https://orcid.org/0000-0002-7418-731X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2602.02824",
+        "landing_page": "https://arxiv.org/abs/2602.02824",
+        "open_access_url": "https://arxiv.org/abs/2602.02824",
+        "openalex_id": "https://openalex.org/W7127624786",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7127624786",
+        "publication_date": "2026-02-02",
+        "title": "CALIBURN: Self-Calibrated LLM Unlearning Alignment",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-28T00:48:15.925495Z",
+      "status": "found"
+    },
     "openalex:title:aa55fccd82ec16aa4bfed3034a68ad67e61d94c83a280c4978e5eec73ca34464": {
       "expires_at": "2026-10-21T00:59:33.137095Z",
       "record": null,
@@ -33414,6 +34068,12 @@
       "expires_at": "2026-10-23T00:57:54.141264Z",
       "record": null,
       "retrieved_at": "2026-10-16T00:57:54.141264Z",
+      "status": "not_found"
+    },
+    "openalex:title:cb653e6b154d2113886c90e071760dc4a8fb67fee0e0afa78f418c381e6f8209": {
+      "expires_at": "2026-11-04T00:48:20.592950Z",
+      "record": null,
+      "retrieved_at": "2026-10-28T00:48:20.592950Z",
       "status": "not_found"
     },
     "openalex:title:cbde4e7b874735126ef47edd5cebf95081723b500b74f59d1ec1de2538ee9151": {
