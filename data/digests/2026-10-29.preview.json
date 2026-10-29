@@ -1,0 +1,31 @@
+{
+  "built_at": "2026-10-29T00:48:05.910237Z",
+  "digest_date": "2026-10-29",
+  "digest_version": 1,
+  "pending_summary_count": 1,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "5e8f619911f39f5434b3167d",
+        "landing_page": "https://doi.org/10.1021/acsphotonics.6c01531",
+        "mandatory": false,
+        "score": 0.81,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Parallel Spatial–Frequency\nDiffractive Neural\nNetworks for Autonomous-Driving Visual Understanding",
+        "venue": "ACS Photonics",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

@@ -395,6 +395,15 @@
       "summary_record_sha256": "132be0d775bcf4ebd6fb353441239c6cd15e26bd80ecaebf61429617154fb15e",
       "title": "Coverage, Not Credit: Failure-Credit Routing of Zeroth-Order Perturbation Budgets Does Not Improve On-Pool Sample Efficiency for LLM Agents"
     },
+    "5e8f619911f39f5434b3167d": {
+      "digest_date": "2026-10-29",
+      "doi": "10.1021/acsphotonics.6c01531",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "c21043ea0267e07f233bb58a5cee3a5e6ddc670f83d04aaf9bb49b41ea7ab278",
+      "title": "Parallel Spatial–Frequency\nDiffractive Neural\nNetworks for Autonomous-Driving Visual Understanding"
+    },
     "5ec8e35ad02131d8ed156970": {
       "digest_date": "2026-09-27",
       "doi": "10.1126/sciadv.aeh0904",
@@ -1214,6 +1223,9 @@
       "038bab63c7432a64fc594009",
       "7e9d9924bce580000ddda36d",
       "ce453bfbb1da74c9ff0d3143"
+    ],
+    "2026-10-29": [
+      "5e8f619911f39f5434b3167d"
     ]
   },
   "by_doi": {
@@ -1231,6 +1243,7 @@
     "10.1016/j.optlastec.2026.116573": "f4eaa19659c54d93478a40d5",
     "10.1021/acsphotonics.6c00831": "2eb28d7201afb356d747693a",
     "10.1021/acsphotonics.6c01155": "d69a4f93ca6340969e1077a8",
+    "10.1021/acsphotonics.6c01531": "5e8f619911f39f5434b3167d",
     "10.1038/s41377-026-02325-2": "1e619f1b739f1893eae64f28",
     "10.1038/s41377-026-02366-7": "04bdf084776bcfe0d6f912cb",
     "10.1038/s41377-026-02419-x": "973507e35175bb05fcf25e79",
@@ -1361,6 +1374,7 @@
       "5228362e834f7a6b9567811b",
       "541094f286db8902f2fe6077",
       "557b41cb542bf10e84da81f2",
+      "5e8f619911f39f5434b3167d",
       "5ec8e35ad02131d8ed156970",
       "61dad77fe7c2ef7687ce5b21",
       "6dc0459f08567bbd051cc579",
@@ -1494,6 +1508,9 @@
     ],
     "application:二维/三维全息重建": [
       "c82f6c2f7b8ae52a84e4eb29"
+    ],
+    "application:交通标志分类": [
+      "5e8f619911f39f5434b3167d"
     ],
     "application:交通标志的4位编码分类": [
       "5228362e834f7a6b9567811b"
@@ -1834,6 +1851,9 @@
     "application:自主系统": [
       "c9dee369fd4e64c2389af927"
     ],
+    "application:自主驾驶分割": [
+      "5e8f619911f39f5434b3167d"
+    ],
     "application:自动驾驶系统的机器视觉": [
       "35ff63ef9d3333099ee28868"
     ],
@@ -1936,6 +1956,7 @@
       "1cf1fcd769c5ace951188b8c",
       "380b726618cccff0a9e5514f",
       "557b41cb542bf10e84da81f2",
+      "5e8f619911f39f5434b3167d",
       "6dc0459f08567bbd051cc579",
       "973790e22c46d30721660799",
       "fd6f281418ac4d412744b2ac"
@@ -2006,6 +2027,7 @@
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
+      "5e8f619911f39f5434b3167d",
       "7e9d9924bce580000ddda36d",
       "879145cdb2d594dd2d392a9e",
       "8ed2e70c4b7d42f84e3676a7",
@@ -2110,6 +2132,7 @@
       "5228362e834f7a6b9567811b",
       "541094f286db8902f2fe6077",
       "557b41cb542bf10e84da81f2",
+      "5e8f619911f39f5434b3167d",
       "5ec8e35ad02131d8ed156970",
       "61dad77fe7c2ef7687ce5b21",
       "6dc0459f08567bbd051cc579",
@@ -2352,6 +2375,7 @@
     ],
     "ACS Photonics": [
       "2eb28d7201afb356d747693a",
+      "5e8f619911f39f5434b3167d",
       "d69a4f93ca6340969e1077a8"
     ],
     "AIP Publishing": [
@@ -2603,6 +2627,7 @@
       "557b41cb542bf10e84da81f2",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
+      "5e8f619911f39f5434b3167d",
       "5ec8e35ad02131d8ed156970",
       "61dad77fe7c2ef7687ce5b21",
       "66c84fb1444bbf71b05ac0d7",
@@ -2674,7 +2699,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 111,
+  "paper_count": 112,
   "schema_version": 1,
-  "updated_at": "2026-10-27T01:04:36.051265Z"
+  "updated_at": "2026-10-29T00:48:23.607595Z"
 }

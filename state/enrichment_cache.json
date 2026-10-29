@@ -4030,6 +4030,64 @@
       "retrieved_at": "2026-10-03T01:04:37.874820Z",
       "status": "not_found"
     },
+    "crossref:doi:10.1021/acsphotonics.6c01531": {
+      "expires_at": "2026-11-28T00:48:02.735887Z",
+      "record": {
+        "abstract": "Abstract Diffractive neural networks (DNNs) offer a promising route toward high-throughput, low-power optical computing; however, their application to autonomous-driving perception remains limited by insufficient representational capacity for complex scenes, owing to their relatively simple architectures and reliance on spatial-domain information alone. Here, we propose a spatial–frequency diffractive neural network (SFDNN) architecture that jointly exploits spatial- and frequency-domain information through two parallel sub-DNN branches. By leveraging the complementarity of these two domains, the proposed architecture improves feature separability and enhances perception performance, thereby outperforming conventional DNNs in the autonomous-driving segmentation task. Numerical results show that, under the same modulation-layer constraint, the SFDNN consistently surpasses single-domain models in segmentation tasks, improving reconstruction fidelity and spatial overlap over the best single-domain baseline by 10.9% and 23.2%, respectively. The framework further demonstrates strong generalization to traffic sign classification, achieving accuracies of up to 93.67%. Experimentally, we validate the proposed framework using a hybrid optical–digital system and demonstrate reliable target-region segmentation in a physical optical setup. Furthermore, a micrometer-scale SFDNN chip fabricated by laser nanoprinting confirms the feasibility of on-chip integration. This work provides a practical pathway to efficient, intelligent optical perception for autonomous driving and related edge-vision applications.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Peng Sun",
+            "orcid": null
+          },
+          {
+            "name": "Shu Li",
+            "orcid": null
+          },
+          {
+            "name": "Yuyang Duan",
+            "orcid": null
+          },
+          {
+            "name": "Yuchao Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Tingxuan Li",
+            "orcid": null
+          },
+          {
+            "name": "Kun Tu",
+            "orcid": null
+          },
+          {
+            "name": "Yibo Dong",
+            "orcid": "https://orcid.org/0000-0002-7376-3485"
+          },
+          {
+            "name": "Min Gu",
+            "orcid": null
+          },
+          {
+            "name": "Jing Wang",
+            "orcid": "https://orcid.org/0009-0001-2628-4721"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1021/acsphotonics.6c01531",
+        "landing_page": "https://doi.org/10.1021/acsphotonics.6c01531",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1021/acsphotonics.6c01531",
+        "publication_date": "2026-10-27",
+        "title": "Parallel Spatial–Frequency\nDiffractive Neural\nNetworks for Autonomous-Driving Visual Understanding",
+        "venue": "ACS Photonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-29T00:48:02.735887Z",
+      "status": "found"
+    },
     "crossref:doi:10.1038/s41377-026-02325-2": {
       "expires_at": "2026-09-21T00:32:15.151100Z",
       "record": {
@@ -7390,6 +7448,36 @@
       "retrieved_at": "2026-09-02T01:02:19.025917Z",
       "status": "found"
     },
+    "crossref:doi:10.1201/9781003649519-6": {
+      "expires_at": "2026-11-28T00:48:01.211759Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhijie Sun",
+            "orcid": null
+          },
+          {
+            "name": "Bikash Nakarmi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1201/9781003649519-6",
+        "landing_page": "https://doi.org/10.1201/9781003649519-6",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1201/9781003649519-6",
+        "publication_date": "2026-10-20",
+        "title": "Applications of Deep Learning in Microwave Photonics",
+        "venue": "Lasers and Their Applications to Digital Photonics and Microwave Photonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-29T00:48:01.211759Z",
+      "status": "found"
+    },
     "crossref:doi:10.1364/oe.605087": {
       "expires_at": "2026-09-17T04:25:28.954331Z",
       "record": {
@@ -9304,6 +9392,12 @@
       },
       "retrieved_at": "2026-10-09T01:12:30.006043Z",
       "status": "found"
+    },
+    "crossref:title:1bbaf314885b8ca6b617259a12336777cf145f12d10eb2fd32e192b8dd6c1009": {
+      "expires_at": "2026-11-05T00:48:02.129823Z",
+      "record": null,
+      "retrieved_at": "2026-10-29T00:48:02.129823Z",
+      "status": "not_found"
     },
     "crossref:title:1c143fe748481adbf75fef895c38f344b56a18afcd80b3da45542526642b1de5": {
       "expires_at": "2026-10-25T01:04:54.559434Z",
@@ -13792,6 +13886,12 @@
       },
       "retrieved_at": "2026-10-05T01:13:21.061813Z",
       "status": "found"
+    },
+    "crossref:title:d068de41dd4071869fb7434fcc1d6b5eda3bce6bc40a48cf58351545c9d5cb6c": {
+      "expires_at": "2026-11-05T00:48:03.570140Z",
+      "record": null,
+      "retrieved_at": "2026-10-29T00:48:03.570140Z",
+      "status": "not_found"
     },
     "crossref:title:d07b4db1154d6c958fe930020e7dc85f1789fae9f328d95fdfa6b887cdfafa9d": {
       "expires_at": "2026-08-17T00:36:49.160804Z",
@@ -19993,6 +20093,64 @@
       "retrieved_at": "2026-10-03T01:04:38.439147Z",
       "status": "not_found"
     },
+    "openalex:doi:10.1021/acsphotonics.6c01531": {
+      "expires_at": "2026-11-28T00:48:03.097747Z",
+      "record": {
+        "abstract": "Abstract Diffractive neural networks (DNNs) offer a promising route toward high-throughput, low-power optical computing; however, their application to autonomous-driving perception remains limited by insufficient representational capacity for complex scenes, owing to their relatively simple architectures and reliance on spatial-domain information alone. Here, we propose a spatial–frequency diffractive neural network (SFDNN) architecture that jointly exploits spatial- and frequency-domain information through two parallel sub-DNN branches. By leveraging the complementarity of these two domains, the proposed architecture improves feature separability and enhances perception performance, thereby outperforming conventional DNNs in the autonomous-driving segmentation task. Numerical results show that, under the same modulation-layer constraint, the SFDNN consistently surpasses single-domain models in segmentation tasks, improving reconstruction fidelity and spatial overlap over the best single-domain baseline by 10.9% and 23.2%, respectively. The framework further demonstrates strong generalization to traffic sign classification, achieving accuracies of up to 93.67%. Experimentally, we validate the proposed framework using a hybrid optical–digital system and demonstrate reliable target-region segmentation in a physical optical setup. Furthermore, a micrometer-scale SFDNN chip fabricated by laser nanoprinting confirms the feasibility of on-chip integration. This work provides a practical pathway to efficient, intelligent optical perception for autonomous driving and related edge-vision applications.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Peng Sun",
+            "orcid": null
+          },
+          {
+            "name": "Shu Li",
+            "orcid": null
+          },
+          {
+            "name": "Yuyang Duan",
+            "orcid": null
+          },
+          {
+            "name": "Yuchao Zhang",
+            "orcid": "https://orcid.org/0009-0005-5619-9201"
+          },
+          {
+            "name": "Tingxuan Li",
+            "orcid": null
+          },
+          {
+            "name": "Kun Tu",
+            "orcid": null
+          },
+          {
+            "name": "Yibo Dong",
+            "orcid": "https://orcid.org/0000-0002-7376-3485"
+          },
+          {
+            "name": "Miṅ Gu",
+            "orcid": "https://orcid.org/0000-0003-4078-253X"
+          },
+          {
+            "name": "Jing Wang",
+            "orcid": "https://orcid.org/0009-0001-2628-4721"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1021/acsphotonics.6c01531",
+        "landing_page": "https://doi.org/10.1021/acsphotonics.6c01531",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7223872637",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223872637",
+        "publication_date": "2026-10-27",
+        "title": "Parallel Spatial–Frequency Diffractive Neural Networks for Autonomous-Driving Visual Understanding",
+        "venue": "ACS Photonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-29T00:48:03.097747Z",
+      "status": "found"
+    },
     "openalex:doi:10.1038/s41377-026-02314-5": {
       "expires_at": "2026-09-03T09:38:36.810331Z",
       "record": {
@@ -25663,6 +25821,36 @@
       "retrieved_at": "2026-09-02T01:02:19.403844Z",
       "status": "found"
     },
+    "openalex:doi:10.1201/9781003649519-6": {
+      "expires_at": "2026-11-28T00:48:01.647437Z",
+      "record": {
+        "abstract": "This chapter focuses on the research of deep learning applications in microwave photonics (MWP), with an emphasis on exploring its practical value in the field of interference mitigation for MWP radars. It also covers areas such as real-time high-resolution MWP radar imaging, high-precision MWP measurement, multi-band ultra-wideband information cognition based on photonic technology, and integrated MWP chips. Aiming at the complex interference problems faced by MWP radars, deep learning relies on models such as Bi-LSTM, CNN, and DNN autoencoders to achieve accurate extraction and adaptive suppression of interference features. This breaks through the limitation of traditional methods that rely on preset interference models, effectively improves the stability of target detection and signal fidelity, and promotes the transformation of radar from passive anti-interference to active learning anti-interference. In other areas, deep learning has solved key issues such as insufficient data processing efficiency of ultra-wideband signals, the impact of multi-source noise on measurement accuracy, reduced accuracy of information cognition due to spectrum loss, and the difficulty in balancing material compatibility and loss in chips. Through experimental verification and case analysis, this chapter clarifies the key role of deep learning in upgrading the technical performance of microwave photonics, laying a foundation for the research, development, and application of high-performance MWP systems in the future.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhijie Sun",
+            "orcid": null
+          },
+          {
+            "name": "Bikash Nakarmi",
+            "orcid": "https://orcid.org/0000-0001-6177-5641"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1201/9781003649519-6",
+        "landing_page": "https://doi.org/10.1201/9781003649519-6",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7223025365",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223025365",
+        "publication_date": "2026-10-20",
+        "title": "Applications of Deep Learning in Microwave Photonics",
+        "venue": "CRC Press eBooks",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-29T00:48:01.647437Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/ao.597691": {
       "expires_at": "2026-09-03T09:38:57.606662Z",
       "record": {
@@ -30220,6 +30408,12 @@
       "retrieved_at": "2026-09-04T01:00:15.900713Z",
       "status": "not_found"
     },
+    "openalex:title:1bbaf314885b8ca6b617259a12336777cf145f12d10eb2fd32e192b8dd6c1009": {
+      "expires_at": "2026-11-05T00:48:02.597974Z",
+      "record": null,
+      "retrieved_at": "2026-10-29T00:48:02.597974Z",
+      "status": "not_found"
+    },
     "openalex:title:1d03a31c480cfb0da2e0e91ffd1d2b010abe87f28bab51e4b85693bfb34159e5": {
       "expires_at": "2026-09-07T01:07:04.854075Z",
       "record": null,
@@ -34149,6 +34343,12 @@
       },
       "retrieved_at": "2026-09-18T01:02:24.716550Z",
       "status": "found"
+    },
+    "openalex:title:d068de41dd4071869fb7434fcc1d6b5eda3bce6bc40a48cf58351545c9d5cb6c": {
+      "expires_at": "2026-11-05T00:48:04.072863Z",
+      "record": null,
+      "retrieved_at": "2026-10-29T00:48:04.072863Z",
+      "status": "not_found"
     },
     "openalex:title:d1b1ab28f3935e5f42207c5a9aec29a9d35877821e8d2473fe6b9c7f7623c7d0": {
       "expires_at": "2026-10-26T01:04:51.947549Z",

@@ -1,10 +1,20 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`111`
-- 更新时间：`2026-10-27T01:04:36.051265Z`
+- 论文数：`112`
+- 更新时间：`2026-10-29T00:48:23.607595Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Parallel Spatial–Frequency
+Diffractive Neural
+Networks for Autonomous-Driving Visual Understanding
+
+- DOI/链接：[10.1021/acsphotonics.6c01531](https://doi.org/10.1021/acsphotonics.6c01531)
+- 期刊/年份：ACS Photonics，2026
+- 摘要日期：`2026-10-29`
+- 候选 ID：`5e8f619911f39f5434b3167d`
+- 标签：application:交通标志分类, application:自主驾驶分割, architecture:integrated, hardware_validation:mixed, project:optical-neural-networks
 
 ### SEPhIA: spiking electro-photonic integrated tiled architecture leveraging multi-wavelength lasers for scalable optical neuromorphic computing
 

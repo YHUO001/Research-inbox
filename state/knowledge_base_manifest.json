@@ -1,14 +1,14 @@
 {
   "full_text_persisted": false,
   "index_file": "runtime-state/data/knowledge_base/index.json",
-  "index_sha256": "8748774332d49bf61bfe0d35b3d05104f98c6475cd0c81dc9c7a25e113f51558",
+  "index_sha256": "b181796fea3cc464693ca8da2f2aaa3596adc4bef1859e1c1e7807cad76469f5",
   "markdown_file": "runtime-state/data/knowledge_base/index.md",
-  "markdown_sha256": "0d6982292a990fc620138bcd45251a9b91f9a879198a42b7183af55b5aba1f79",
-  "newly_indexed_count": 3,
-  "paper_count": 111,
+  "markdown_sha256": "31f337d7fb620c65619976a4a072f6627e685cdefb60d09b967c05af002d1f6a",
+  "newly_indexed_count": 1,
+  "paper_count": 112,
   "papers_file": "runtime-state/data/knowledge_base/papers.jsonl",
-  "papers_sha256": "36a5df95aa947926c74ac19c6aa79c2f862a8fccdf2036f2e0d841e176ed79ad",
+  "papers_sha256": "4c5803ee9d9fb7d508ba6b9f13678fc58eb232caa4d4ed7452ee7beb7782cee5",
   "schema_version": 1,
   "status": "completed",
-  "updated_at": "2026-10-27T01:04:36.051265Z"
+  "updated_at": "2026-10-29T00:48:23.607595Z"
 }
