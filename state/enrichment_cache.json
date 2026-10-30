@@ -7720,6 +7720,84 @@
       "retrieved_at": "2026-09-10T01:00:33.961864Z",
       "status": "found"
     },
+    "crossref:doi:10.1364/oe.616219": {
+      "expires_at": "2026-11-29T00:48:52.668858Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yi Guo",
+            "orcid": null
+          },
+          {
+            "name": "Shijie Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Tingzhen Yan",
+            "orcid": null
+          },
+          {
+            "name": "Ruijin Hong",
+            "orcid": null
+          },
+          {
+            "name": "Yuanjin Zheng",
+            "orcid": null
+          },
+          {
+            "name": "Ziheng Xu",
+            "orcid": null
+          },
+          {
+            "name": "Tian Xing",
+            "orcid": null
+          },
+          {
+            "name": "yiwen yang",
+            "orcid": null
+          },
+          {
+            "name": "Jialin Ji",
+            "orcid": null
+          },
+          {
+            "name": "Chunxian Tao",
+            "orcid": null
+          },
+          {
+            "name": "Qi Wang",
+            "orcid": null
+          },
+          {
+            "name": "Hui Lin",
+            "orcid": null
+          },
+          {
+            "name": "Zhaoxia Han",
+            "orcid": null
+          },
+          {
+            "name": "Dawei Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.616219",
+        "landing_page": "https://doi.org/10.1364/oe.616219",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/oe.616219",
+        "publication_date": "2026-10-28",
+        "title": "Cascaded Holographic-Diffractive Neural Network with Dual-Polarization Multiplexing for High-Security Optical Encryption",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-30T00:48:52.668858Z",
+      "status": "found"
+    },
     "crossref:doi:10.1364/ol.608488": {
       "expires_at": "2026-10-16T01:02:26.306511Z",
       "record": {
@@ -7814,6 +7892,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-23T01:02:39.009639Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1364/optica.615458": {
+      "expires_at": "2026-11-29T00:48:51.277505Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Kamyar Behrouzi",
+            "orcid": null
+          },
+          {
+            "name": "Tanveer Ahmed Siddique",
+            "orcid": null
+          },
+          {
+            "name": "Megan Teng",
+            "orcid": null
+          },
+          {
+            "name": "Walid Redjem",
+            "orcid": null
+          },
+          {
+            "name": "Liwei Lin",
+            "orcid": null
+          },
+          {
+            "name": "Boubacar Kante",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/optica.615458",
+        "landing_page": "https://doi.org/10.1364/optica.615458",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/optica.615458",
+        "publication_date": "2026-10-28",
+        "title": "AI-Assisted Hyperspectral Interferometry and Single-Cell Dispersion Imaging",
+        "venue": "Optica",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-30T00:48:51.277505Z",
       "status": "found"
     },
     "crossref:doi:10.1364/opticaopen.33425656": {
@@ -8310,6 +8434,40 @@
       "retrieved_at": "2026-09-27T01:11:36.292657Z",
       "status": "found"
     },
+    "crossref:doi:10.3390/photonics13111020": {
+      "expires_at": "2026-11-29T00:48:51.941326Z",
+      "record": {
+        "abstract": "The continuous expansion of data-intensive applications, including deep learning, autonomous control, and real-time analytics, has pushed conventional electronic computing toward its limits in performance and energy efficiency. Combining silicon photonics with Optical Network on Chip (ONoC) provides a pathway toward high-bandwidth and low-latency communication with reduced power consumption, positioning these technologies as promising enablers for next-generation intelligent systems. This work systematically reviews current efforts to integrate silicon photonics and ONoC architectures with Artificial Intelligence (AI) models such as Machine Learning (ML), Deep Neural Network (DNN), and Large Language Model (LLM), highlighting recent progress, application areas, and open research challenges. A structured literature review was carried out across two focus areas, each searched and screened as a separate stream: (1) Optical Neural Network (ONN) developed for AI inference and training, and (2) ML-based optimization techniques applied to ONoC design. Peer-reviewed studies, and preprints under an explicitly stated rule, were examined with attention to device-level innovations, architectural co-design, acceleration of AI workloads, and photonic-aware system optimization. Recent studies report advances in photonic devices such as modulators, detectors, and microring resonators, along with hybrid photonic–electronic architectures and AI-optimized routing frameworks. ONN implementations demonstrate high-speed, low-energy computation, while ML-assisted methods have improved ONoC performance in wavelength allocation, fault tolerance, and security. Despite rapid progress, several technical challenges remain, including fabrication tolerances, thermal sensitivity, and the limited maturity of nonlinear photonic components. Current demonstrations are mainly at the prototype level, with few large-scale deployments, and because most studies are simulation-based, their reported performance figures should be regarded as upper bounds that still require verification on fabricated hardware. The convergence of silicon photonics, ONoCs, and AI computing represents a shift from purely electronic processing toward hybrid photonic–electronic platforms capable of supporting massive workloads efficiently. Future research should emphasize scalable fabrication processes, integrated photonic–electronic co-design, robust thermal management, and standardized frameworks to accelerate the adoption of these technologies in AI accelerators, data centers, and edge devices.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Meisam Abdollahi",
+            "orcid": "https://orcid.org/0000-0003-0187-6867"
+          },
+          {
+            "name": "S. Faegheh Yeganli",
+            "orcid": null
+          },
+          {
+            "name": "Amirali Baniasadi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/photonics13111020",
+        "landing_page": "https://doi.org/10.3390/photonics13111020",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/photonics13111020",
+        "publication_date": "2026-10-28",
+        "title": "A Scoping Review on Intelligent Computing upon Silicon Photonics and Optical Network on Chips",
+        "venue": "Photonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-30T00:48:51.941326Z",
+      "status": "found"
+    },
     "crossref:doi:10.3788/irla20250523": {
       "expires_at": "2026-09-08T00:36:12.555790Z",
       "record": null,
@@ -8519,6 +8677,36 @@
       "record": null,
       "retrieved_at": "2026-10-27T01:03:19.369827Z",
       "status": "not_found"
+    },
+    "crossref:doi:10.58168/pbht2026_225-229": {
+      "expires_at": "2026-11-29T00:48:53.535481Z",
+      "record": {
+        "abstract": "The article examines the scaling limits of classical CMOS electronics. It analyzes why performance gains are constrained by thermal and quantum limitations, especially against the backdrop of the explosive growth of AI and big data computing needs. Optical and hybrid photonic-electronic architectures are considered as a promising response to the digital infrastructure energy crisis, including optical neural networks, diffractive structures, and silicon photonics. Engineering barriers, materials with optical nonlinearity, integration with CMOS processes, and a forecast for the significant displacement of classical CPUs/GPUs in high-load AI tasks by 2035 are discussed separately.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "P. Fed'ko",
+            "orcid": null
+          },
+          {
+            "name": "A. Lubencov",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.58168/pbht2026_225-229",
+        "landing_page": "https://doi.org/10.58168/pbht2026_225-229",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.58168/pbht2026_225-229",
+        "publication_date": "2026-10-28",
+        "title": "ANALYSIS OF THE USE OF OPTICAL COMMUNICATION CHANNELS TO INCREASE THE SPEED OF NEURAL NETWORKS",
+        "venue": "PHYSICAL BASIS OF HIGH TECHNOLOGIES : Proceedings of the All-Russian Scientific and Methodological Conference with International Participation Voronezh, April 15-17, 2026",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-30T00:48:53.535481Z",
+      "status": "found"
     },
     "crossref:doi:10.6084/m9.figshare.33306492.v1": {
       "expires_at": "2026-10-11T01:00:17.087901Z",
@@ -26719,6 +26907,84 @@
       "retrieved_at": "2026-09-28T01:11:24.945327Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/oe.616219": {
+      "expires_at": "2026-11-29T00:48:53.101513Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yi Guo",
+            "orcid": null
+          },
+          {
+            "name": "Shijie Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Tingzhen Yan",
+            "orcid": null
+          },
+          {
+            "name": "Ruijin Hong",
+            "orcid": "https://orcid.org/0000-0001-7840-0600"
+          },
+          {
+            "name": "Yuanjin Zheng",
+            "orcid": null
+          },
+          {
+            "name": "Ziheng Xu",
+            "orcid": null
+          },
+          {
+            "name": "Tian Xing",
+            "orcid": "https://orcid.org/0000-0003-3706-326X"
+          },
+          {
+            "name": "yiwen yang",
+            "orcid": null
+          },
+          {
+            "name": "Jialin Ji",
+            "orcid": null
+          },
+          {
+            "name": "陶春先",
+            "orcid": null
+          },
+          {
+            "name": "Qi Wang",
+            "orcid": null
+          },
+          {
+            "name": "Hui Lin",
+            "orcid": null
+          },
+          {
+            "name": "Zhaoxia Han",
+            "orcid": null
+          },
+          {
+            "name": "Dawei Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.616219",
+        "landing_page": "https://doi.org/10.1364/oe.616219",
+        "open_access_url": "https://doi.org/10.1364/oe.616219",
+        "openalex_id": "https://openalex.org/W7224084982",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7224084982",
+        "publication_date": "2026-10-28",
+        "title": "Cascaded Holographic-Diffractive Neural Network with Dual-Polarization Multiplexing for High-Security Optical Encryption",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-30T00:48:53.101513Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/ol.608488": {
       "expires_at": "2026-10-16T01:02:26.667889Z",
       "record": {
@@ -27003,6 +27269,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:30.948780Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1364/optica.615458": {
+      "expires_at": "2026-11-29T00:48:51.662613Z",
+      "record": {
+        "abstract": "Interferometry techniques are essential for extracting phase information from optical systems enabling precise measurements of dispersion and highly sensitive detection of perturbations. While phase sensing offers enhanced sensitivity compared to conventional spectroscopy methods, this sensitivity often makes systems more vulnerable to external factors such as vibrations, introducing instability and noise. In this work, we demonstrate a broadband and AI-enhanced interferometry method, denoted general polarization common-path interferometry (GPCPI) that relaxes the polarization constraints of traditional common-path interferometry. The polarization decoupling feature enables simultaneous amplitude and phase measurements supplemented with deep neural autoencoders to detect phase anomalies in the spectrum through the analysis of second order derivative mapping of the phase profile, enhancing the accuracy of broadband phase measurements. The approach enables an order of magnitude improvement in phase stability compared to state-of-the-art interferometry techniques, leading to higher accuracy in phase sensing. Plasmonic metasurface phase sensing and hyperspectral single-cell dispersion imaging demonstrate the capability and sensitivity of the method over conventional spectroscopy. Our adopted version of deep learning model, ConvNeXt V2, enables real-time tracking of phase variation with minimized noise. Interference fringes affected by the cell-cultured samples reveal the fingerprints of the normal (CCD-32Sk) vs cancerous (COLO-829) skin cells, enabling cell classification and disease diagnosis at single-cell level through hyperspectral dispersion imaging. The proposed technique offers a reliable, compact, and stable solution for broadband phase measurements and single-cell dispersion imaging for applications in metrology, molecular diagnostics, drug discovery, and quantum sensing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Kamyar Behrouzi",
+            "orcid": "https://orcid.org/0000-0002-3800-2197"
+          },
+          {
+            "name": "Tanveer Ahmed Siddique",
+            "orcid": null
+          },
+          {
+            "name": "Megan Teng",
+            "orcid": "https://orcid.org/0009-0008-9662-2504"
+          },
+          {
+            "name": "Walid Redjem",
+            "orcid": "https://orcid.org/0009-0005-2694-8697"
+          },
+          {
+            "name": "Li-Wei Lin",
+            "orcid": null
+          },
+          {
+            "name": "Boubacar Kanté",
+            "orcid": "https://orcid.org/0000-0001-5633-4163"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/optica.615458",
+        "landing_page": "https://doi.org/10.1364/optica.615458",
+        "open_access_url": "https://doi.org/10.1364/optica.615458",
+        "openalex_id": "https://openalex.org/W7118248971",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7118248971",
+        "publication_date": "2026-10-28",
+        "title": "AI-Assisted Hyperspectral Interferometry and Single-Cell Dispersion Imaging",
+        "venue": "Optica",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-30T00:48:51.662613Z",
       "status": "found"
     },
     "openalex:doi:10.1364/opticaopen.33425656": {
@@ -28127,6 +28439,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-22T00:32:18.324551Z",
+      "status": "found"
+    },
+    "openalex:doi:10.3390/photonics13111020": {
+      "expires_at": "2026-11-29T00:48:52.497641Z",
+      "record": {
+        "abstract": "The continuous expansion of data-intensive applications, including deep learning, autonomous control, and real-time analytics, has pushed conventional electronic computing toward its limits in performance and energy efficiency. Combining silicon photonics with Optical Network on Chip (ONoC) provides a pathway toward high-bandwidth and low-latency communication with reduced power consumption, positioning these technologies as promising enablers for next-generation intelligent systems. This work systematically reviews current efforts to integrate silicon photonics and ONoC architectures with Artificial Intelligence (AI) models such as Machine Learning (ML), Deep Neural Network (DNN), and Large Language Model (LLM), highlighting recent progress, application areas, and open research challenges. A structured literature review was carried out across two focus areas, each searched and screened as a separate stream: (1) Optical Neural Network (ONN) developed for AI inference and training, and (2) ML-based optimization techniques applied to ONoC design. Peer-reviewed studies, and preprints under an explicitly stated rule, were examined with attention to device-level innovations, architectural co-design, acceleration of AI workloads, and photonic-aware system optimization. Recent studies report advances in photonic devices such as modulators, detectors, and microring resonators, along with hybrid photonic–electronic architectures and AI-optimized routing frameworks. ONN implementations demonstrate high-speed, low-energy computation, while ML-assisted methods have improved ONoC performance in wavelength allocation, fault tolerance, and security. Despite rapid progress, several technical challenges remain, including fabrication tolerances, thermal sensitivity, and the limited maturity of nonlinear photonic components. Current demonstrations are mainly at the prototype level, with few large-scale deployments, and because most studies are simulation-based, their reported performance figures should be regarded as upper bounds that still require verification on fabricated hardware. The convergence of silicon photonics, ONoCs, and AI computing represents a shift from purely electronic processing toward hybrid photonic–electronic platforms capable of supporting massive workloads efficiently. Future research should emphasize scalable fabrication processes, integrated photonic–electronic co-design, robust thermal management, and standardized frameworks to accelerate the adoption of these technologies in AI accelerators, data centers, and edge devices.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Meisam Abdollahi",
+            "orcid": "https://orcid.org/0000-0003-0187-6867"
+          },
+          {
+            "name": "S. Faegheh Yeganli",
+            "orcid": null
+          },
+          {
+            "name": "Amirali Baniasadi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/photonics13111020",
+        "landing_page": "https://doi.org/10.3390/photonics13111020",
+        "open_access_url": "https://doi.org/10.3390/photonics13111020",
+        "openalex_id": "https://openalex.org/W7224127691",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7224127691",
+        "publication_date": "2026-10-28",
+        "title": "A Scoping Review on Intelligent Computing upon Silicon Photonics and Optical Network on Chips",
+        "venue": "Photonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-30T00:48:52.497641Z",
       "status": "found"
     },
     "openalex:doi:10.3390/pr14203345": {
@@ -29403,6 +29749,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-27T01:03:19.706760Z",
+      "status": "found"
+    },
+    "openalex:doi:10.58168/pbht2026_225-229": {
+      "expires_at": "2026-11-29T00:48:54.002926Z",
+      "record": {
+        "abstract": "The article examines the scaling limits of classical CMOS electronics. It analyzes why performance gains are constrained by thermal and quantum limitations, especially against the backdrop of the explosive growth of AI and big data computing needs. Optical and hybrid photonic-electronic architectures are considered as a promising response to the digital infrastructure energy crisis, including optical neural networks, diffractive structures, and silicon photonics. Engineering barriers, materials with optical nonlinearity, integration with CMOS processes, and a forecast for the significant displacement of classical CPUs/GPUs in high-load AI tasks by 2035 are discussed separately.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "P. Fed'ko",
+            "orcid": null
+          },
+          {
+            "name": "A. Lubencov",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.58168/pbht2026_225-229",
+        "landing_page": "https://doi.org/10.58168/pbht2026_225-229",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7224105767",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7224105767",
+        "publication_date": "2026-10-28",
+        "title": "ANALYSIS OF THE USE OF OPTICAL COMMUNICATION CHANNELS TO INCREASE THE SPEED OF NEURAL NETWORKS",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-30T00:48:54.002926Z",
       "status": "found"
     },
     "openalex:doi:10.6084/m9.figshare.33306492.v1": {
