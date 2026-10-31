@@ -544,6 +544,44 @@
       "retrieved_at": "2026-09-30T01:10:12.393298Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/adts.70572": {
+      "expires_at": "2026-11-30T00:40:10.570282Z",
+      "record": {
+        "abstract": "ABSTRACT Orbital angular momentum (OAM) modes provide additional degrees of freedom for high‐capacity communication, advanced radar, and quantum information processing in millimeter‐wave and terahertz bands. This work investigates a multilayer quasi‐optical phase diffraction network operating at 150 GHz, in which each layer is represented by a 3D‐printable dielectric‐column array. The phase profiles are optimized with a differentiable angular‐spectrum model and Adam, and the resulting 3D dielectric structures are evaluated by CST full‐wave electromagnetic simulation. The inter‐layer spacing and higher‐order channel weights are examined separately. The fixed structure is also evaluated over frequency, and a second optimized design is used to test nonuniform OAM mappings. All CST results use the same definitions of Mode Purity and target‐normalized XT. The resulting passive three‐layer structure uses fabrication‐compatible dielectric columns and supports the four designed OAM conversion channels.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jiaqi Cai",
+            "orcid": "https://orcid.org/0000-0003-4592-2941"
+          },
+          {
+            "name": "Jiexin Lai",
+            "orcid": "https://orcid.org/0000-0001-5330-1569"
+          },
+          {
+            "name": "Yuda Wu",
+            "orcid": null
+          },
+          {
+            "name": "Shufang Li",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adts.70572",
+        "landing_page": "https://doi.org/10.1002/adts.70572",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/adts.70572",
+        "publication_date": "2026-10",
+        "title": "Millimeter‐Wave Orbital Angular Momentum Mode Conversion Based on Multilayer Quasi‐Optical Diffractive Neural Network",
+        "venue": "Advanced Theory and Simulations",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-31T00:40:10.570282Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/advs.78012": {
       "expires_at": "2026-11-15T00:57:53.270977Z",
       "record": {
@@ -10041,6 +10079,44 @@
       "retrieved_at": "2026-10-28T00:48:18.014811Z",
       "status": "not_found"
     },
+    "crossref:title:2b4302f7d6757139f8492546e2f932a3d16d985fa1da2ac593f5888e40bd4aad": {
+      "expires_at": "2026-11-07T00:40:10.374279Z",
+      "record": {
+        "abstract": "High-resolution space cameras require continuous knowledge of micro-vibration-induced image shift for image quality assessment and potential future compensation. This paper presents a simulation-based feasibility study of an optical measurement-assisted neural regression method that estimates imaging channel image shift without re-solving a full finite element model during inference. A high-frame-rate measurement channel shares the primary optics with the imaging channel; a lightweight, INT8-quantized and structurally pruned conventional neural regressor estimates the observable correction formed by the two measurement branch mirrors from rendered measurement frames, a calibrated sensitivity relation converts synchronized mirror-6 angular metrology into the same units, and both are added to the tracked measurement channel displacement. On the simulated dual-channel dataset, the proposed estimator reduces the correction RMSE from 0.396 px (centroid-only tracking) and 0.236 px (a specified structural-mismatch surrogate) to 0.130 px (0.133 px after INT8 quantization), which coincides with the structural scale of 0.132 px set by the common-path compensation residual; the remaining end-to-end image shift error of 0.398 px is dominated by the 0.378 px displacement tracking term rather than by the regressor. Its reported 0.0150 ms figure is a compute-only throughput estimate based on an assumed 120 GOPS INT8 accelerator; it excludes sensor exposure and readout, data transfer, synchronization, centroid tracking, and other pipeline overheads. A compute-only estimate does not establish the achievable end-to-end frame rate. The analytical error budget decomposes the measured shift error into displacement tracking, auxiliary metrology, and correction-scale terms and reproduces the measured value to within 1%. The modeled measurement branch does not observe independent motion of the imaging-only mirror; auxiliary state information or a validated mechanical constraint is required for a physically realizable estimator. The reported synthetic accuracy does not establish this observability; independent ray-tracing validation, optical bench experiments, hardware-in-the-loop tests, edge-hardware profiling, and on-orbit validation have not been performed.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Minlong Lian",
+            "orcid": null
+          },
+          {
+            "name": "Dawei Sang",
+            "orcid": null
+          },
+          {
+            "name": "Pu Wang",
+            "orcid": null
+          },
+          {
+            "name": "Xin Yi",
+            "orcid": "https://orcid.org/0000-0002-4726-5765"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/s26216760",
+        "landing_page": "https://doi.org/10.3390/s26216760",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/s26216760",
+        "publication_date": "2026-10-26",
+        "title": "A Hybrid Optical-Neural Network Approach for Micro-Vibration Image Shift Estimation in Space Cameras",
+        "venue": "Sensors",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-31T00:40:10.374279Z",
+      "status": "found"
+    },
     "crossref:title:2c07bb7239f1c6739bb02047e88fa7613eaedc31c559b6d954bbdf73ecfbbe87": {
       "expires_at": "2026-08-16T00:36:13.391892Z",
       "record": null,
@@ -11898,6 +11974,36 @@
       "record": null,
       "retrieved_at": "2026-08-29T00:54:08.565887Z",
       "status": "not_found"
+    },
+    "crossref:title:849ea9a63d725c4931a4ed79bcd89b6782a5edcc47aefbcb2f2c893e5cb19d06": {
+      "expires_at": "2026-11-07T00:40:10.951720Z",
+      "record": {
+        "abstract": "To overcome the thermal loss and interconnect delays of conventional electronic processors under escalating AI computing workloads, analog optical processors have emerged as a compelling low-latency alternative. This work introduces an integrated optical neural accelerator leveraging an electro-optically reconfigurable multimode interference (MMI) framework on a lithium-niobate-on-insulator (LNOI) platform. By harnessing localized spatial mode interference through micro-electrodes strategically placed within the MMI region, the device performs trainable matrix operations with a minimal on-chip insertion loss of 1.42 dB. A hardware-in-the-loop in situ (HIL in situ) calibration framework employing the Nelder–Mead optimization algorithm is developed to adaptively adjust local refractive indices and compensate for physical hardware imperfections. The system’s performance is validated through numerical electromagnetic simulations applied to the famous Iris flower classification benchmark, demonstrating the self-learning capabilities of the integrated optical neural network with an accuracy of 72%. These findings present a compact, low-loss building block for next-generation photonic tensor processors.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Rong-Rong Nien",
+            "orcid": null
+          },
+          {
+            "name": "Han-Chao Chang",
+            "orcid": "https://orcid.org/0000-0001-7343-3534"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/asi9110222",
+        "landing_page": "https://doi.org/10.3390/asi9110222",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/asi9110222",
+        "publication_date": "2026-10-27",
+        "title": "An Electro-Optic Lithium Niobate on Insulator (LNOI) Multimode Interference Accelerator for Reconfigurable Optical Neural Networks",
+        "venue": "Applied System Innovation",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-31T00:40:10.951720Z",
+      "status": "found"
     },
     "crossref:title:84c5ea46a5a22917f02db94b9d66ef6072762c665436b6e0e53fdfb60324146e": {
       "expires_at": "2026-09-03T16:32:36.511687Z",
@@ -15417,6 +15523,36 @@
       "retrieved_at": "2026-10-05T01:13:26.252351Z",
       "status": "not_found"
     },
+    "crossref:title:fcac13842883e1e414ff3bd294e54ddebf4338542e31e6f28802435ce612983c": {
+      "expires_at": "2026-11-07T00:40:09.915930Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Rio Tomioka",
+            "orcid": null
+          },
+          {
+            "name": "Masanori Takabayashi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1587/nolta.2026nhp0007",
+        "landing_page": "https://doi.org/10.1587/nolta.2026nhp0007",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1587/nolta.2026nhp0007",
+        "publication_date": "2026",
+        "title": "Numerical simulations of hyperparameter-optimization-based interface design for spatial light modulation-based deep neural networks",
+        "venue": "Nonlinear Theory and Its Applications, IEICE",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-31T00:40:09.915930Z",
+      "status": "found"
+    },
     "crossref:title:fcd028a35931e26a390d8eeeeef2e0f4da92750a203ea95285158ffe2c0ce490": {
       "expires_at": "2026-10-23T00:57:55.073538Z",
       "record": {
@@ -15999,6 +16135,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-30T01:10:12.770750Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/adts.70572": {
+      "expires_at": "2026-11-30T00:40:10.713153Z",
+      "record": {
+        "abstract": "ABSTRACT Orbital angular momentum (OAM) modes provide additional degrees of freedom for high‐capacity communication, advanced radar, and quantum information processing in millimeter‐wave and terahertz bands. This work investigates a multilayer quasi‐optical phase diffraction network operating at 150 GHz, in which each layer is represented by a 3D‐printable dielectric‐column array. The phase profiles are optimized with a differentiable angular‐spectrum model and Adam, and the resulting 3D dielectric structures are evaluated by CST full‐wave electromagnetic simulation. The inter‐layer spacing and higher‐order channel weights are examined separately. The fixed structure is also evaluated over frequency, and a second optimized design is used to test nonuniform OAM mappings. All CST results use the same definitions of Mode Purity and target‐normalized XT. The resulting passive three‐layer structure uses fabrication‐compatible dielectric columns and supports the four designed OAM conversion channels.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jiaqi Cai",
+            "orcid": "https://orcid.org/0000-0003-4592-2941"
+          },
+          {
+            "name": "Jiexin Lai",
+            "orcid": "https://orcid.org/0000-0001-5330-1569"
+          },
+          {
+            "name": "Yuda Wu",
+            "orcid": "https://orcid.org/0009-0003-0796-2544"
+          },
+          {
+            "name": "李淑芳",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adts.70572",
+        "landing_page": "https://doi.org/10.1002/adts.70572",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7223559990",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223559990",
+        "publication_date": "2026-10-01",
+        "title": "Millimeter‐Wave Orbital Angular Momentum Mode Conversion Based on Multilayer Quasi‐Optical Diffractive Neural Network",
+        "venue": "Advanced Theory and Simulations",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-31T00:40:10.713153Z",
       "status": "found"
     },
     "openalex:doi:10.1002/advs.78012": {
@@ -27529,6 +27703,36 @@
       "retrieved_at": "2026-10-22T00:59:19.159472Z",
       "status": "found"
     },
+    "openalex:doi:10.1587/nolta.2026nhp0007": {
+      "expires_at": "2026-11-30T00:40:10.018977Z",
+      "record": {
+        "abstract": "Spatial light modulation-based deep neural networks perform neural-network-like operations using the spatial parallelism of light. In hybrid optoelectronic systems, the detector-readout interface selects detector-plane signals for a downstream classifier, linking input dimensionality to computational cost and accuracy. We propose a hyperparameter-optimization framework that minimizes this dimensionality under an accuracy criterion. Simulations using a self-referential holographic deep neural network show that Bayesian optimization identifies candidate interfaces with 16–118 input nodes under a 97% criterion, reducing classifier floating-point operations to 0.10–0.72% of a full-output connection. Binary search can achieve comparable reduction with fewer candidate iterations, and trimmed-mean evaluation improves decision stability.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Rio Tomioka",
+            "orcid": null
+          },
+          {
+            "name": "Masanori Takabayashi",
+            "orcid": "https://orcid.org/0000-0001-8531-6044"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1587/nolta.2026nhp0007",
+        "landing_page": "https://doi.org/10.1587/nolta.2026nhp0007",
+        "open_access_url": "https://doi.org/10.1587/nolta.2026nhp0007",
+        "openalex_id": "https://openalex.org/W7223648499",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223648499",
+        "publication_date": "2026-01-01",
+        "title": "Numerical simulations of hyperparameter-optimization-based interface design for spatial light modulation-based deep neural networks",
+        "venue": "Nonlinear Theory and Its Applications IEICE",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-31T00:40:10.018977Z",
+      "status": "found"
+    },
     "openalex:doi:10.15918/j.jbit1004-0579.2025.092": {
       "expires_at": "2026-10-12T00:59:37.704094Z",
       "record": null,
@@ -28253,6 +28457,36 @@
       "retrieved_at": "2026-09-18T01:02:30.201153Z",
       "status": "found"
     },
+    "openalex:doi:10.3390/asi9110222": {
+      "expires_at": "2026-11-30T00:40:11.055034Z",
+      "record": {
+        "abstract": "To overcome the thermal loss and interconnect delays of conventional electronic processors under escalating AI computing workloads, analog optical processors have emerged as a compelling low-latency alternative. This work introduces an integrated optical neural accelerator leveraging an electro-optically reconfigurable multimode interference (MMI) framework on a lithium-niobate-on-insulator (LNOI) platform. By harnessing localized spatial mode interference through micro-electrodes strategically placed within the MMI region, the device performs trainable matrix operations with a minimal on-chip insertion loss of 1.42 dB. A hardware-in-the-loop in situ (HIL in situ) calibration framework employing the Nelder–Mead optimization algorithm is developed to adaptively adjust local refractive indices and compensate for physical hardware imperfections. The system’s performance is validated through numerical electromagnetic simulations applied to the famous Iris flower classification benchmark, demonstrating the self-learning capabilities of the integrated optical neural network with an accuracy of 72%. These findings present a compact, low-loss building block for next-generation photonic tensor processors.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Rong-Rong Nien",
+            "orcid": null
+          },
+          {
+            "name": "Han-Chao Chang",
+            "orcid": "https://orcid.org/0000-0001-7343-3534"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/asi9110222",
+        "landing_page": "https://doi.org/10.3390/asi9110222",
+        "open_access_url": "https://doi.org/10.3390/asi9110222",
+        "openalex_id": "https://openalex.org/W7223907692",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223907692",
+        "publication_date": "2026-10-27",
+        "title": "An Electro-Optic Lithium Niobate on Insulator (LNOI) Multimode Interference Accelerator for Reconfigurable Optical Neural Networks",
+        "venue": "Applied System Innovation",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-31T00:40:11.055034Z",
+      "status": "found"
+    },
     "openalex:doi:10.3390/biomimetics11100714": {
       "expires_at": "2026-11-11T01:18:17.589756Z",
       "record": {
@@ -28507,6 +28741,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-22T00:59:20.103487Z",
+      "status": "found"
+    },
+    "openalex:doi:10.3390/s26216760": {
+      "expires_at": "2026-11-30T00:40:10.529076Z",
+      "record": {
+        "abstract": "High-resolution space cameras require continuous knowledge of micro-vibration-induced image shift for image quality assessment and potential future compensation. This paper presents a simulation-based feasibility study of an optical measurement-assisted neural regression method that estimates imaging channel image shift without re-solving a full finite element model during inference. A high-frame-rate measurement channel shares the primary optics with the imaging channel; a lightweight, INT8-quantized and structurally pruned conventional neural regressor estimates the observable correction formed by the two measurement branch mirrors from rendered measurement frames, a calibrated sensitivity relation converts synchronized mirror-6 angular metrology into the same units, and both are added to the tracked measurement channel displacement. On the simulated dual-channel dataset, the proposed estimator reduces the correction RMSE from 0.396 px (centroid-only tracking) and 0.236 px (a specified structural-mismatch surrogate) to 0.130 px (0.133 px after INT8 quantization), which coincides with the structural scale of 0.132 px set by the common-path compensation residual; the remaining end-to-end image shift error of 0.398 px is dominated by the 0.378 px displacement tracking term rather than by the regressor. Its reported 0.0150 ms figure is a compute-only throughput estimate based on an assumed 120 GOPS INT8 accelerator; it excludes sensor exposure and readout, data transfer, synchronization, centroid tracking, and other pipeline overheads. A compute-only estimate does not establish the achievable end-to-end frame rate. The analytical error budget decomposes the measured shift error into displacement tracking, auxiliary metrology, and correction-scale terms and reproduces the measured value to within 1%. The modeled measurement branch does not observe independent motion of the imaging-only mirror; auxiliary state information or a validated mechanical constraint is required for a physically realizable estimator. The reported synthetic accuracy does not establish this observability; independent ray-tracing validation, optical bench experiments, hardware-in-the-loop tests, edge-hardware profiling, and on-orbit validation have not been performed.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Minlong Lian",
+            "orcid": null
+          },
+          {
+            "name": "Dawei Sang",
+            "orcid": null
+          },
+          {
+            "name": "Pu Wang",
+            "orcid": "https://orcid.org/0000-0003-1988-5016"
+          },
+          {
+            "name": "Xin Yi",
+            "orcid": "https://orcid.org/0000-0002-4726-5765"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/s26216760",
+        "landing_page": "https://doi.org/10.3390/s26216760",
+        "open_access_url": "https://doi.org/10.3390/s26216760",
+        "openalex_id": "https://openalex.org/W7223820398",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223820398",
+        "publication_date": "2026-10-26",
+        "title": "A Hybrid Optical-Neural Network Approach for Micro-Vibration Image Shift Estimation in Space Cameras",
+        "venue": "Sensors",
+        "year": 2026
+      },
+      "retrieved_at": "2026-10-31T00:40:10.529076Z",
       "status": "found"
     },
     "openalex:doi:10.3788/irla20250523": {

@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`112`
-- 更新时间：`2026-10-29T00:48:23.607595Z`
+- 论文数：`113`
+- 更新时间：`2026-10-31T00:40:24.463892Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### An Electro-Optic Lithium Niobate on Insulator (LNOI) Multimode Interference Accelerator for Reconfigurable Optical Neural Networks
+
+- DOI/链接：[10.3390/asi9110222](https://doi.org/10.3390/asi9110222)
+- 期刊/年份：Applied System Innovation，2026
+- 摘要日期：`2026-10-31`
+- 候选 ID：`c66af551e0b88c81e0533e7c`
+- 标签：application:鸢尾花分类, architecture:integrated, hardware_validation:simulation_only, project:optical-neural-networks
 
 ### Parallel Spatial–Frequency
 Diffractive Neural
