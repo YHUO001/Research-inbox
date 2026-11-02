@@ -2882,6 +2882,60 @@
       "retrieved_at": "2026-08-27T16:32:38.612022Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/s12596-026-03324-7": {
+      "expires_at": "2026-12-02T00:43:06.802922Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tanmoy Datta",
+            "orcid": null
+          },
+          {
+            "name": "Akash Kumar Pradhan",
+            "orcid": null
+          },
+          {
+            "name": "Tanmoy Dey",
+            "orcid": null
+          },
+          {
+            "name": "Haraprasad Mondal",
+            "orcid": "https://orcid.org/0000-0002-2056-6875"
+          },
+          {
+            "name": "Sandip Swarnakar",
+            "orcid": null
+          },
+          {
+            "name": "Mohammad Soroosh",
+            "orcid": null
+          },
+          {
+            "name": "Himanshu Ranjan Das",
+            "orcid": null
+          },
+          {
+            "name": "Rajasekar Ramakrishnan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s12596-026-03324-7",
+        "landing_page": "https://doi.org/10.1007/s12596-026-03324-7",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s12596-026-03324-7",
+        "publication_date": "2026-10-31",
+        "title": "A review on photonic neuromorphic computation from devices to algorithms",
+        "venue": "Journal of Optics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-02T00:43:06.802922Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s13042-026-03317-9": {
       "expires_at": "2026-10-31T01:17:27.266206Z",
       "record": {
@@ -8374,6 +8428,32 @@
       "retrieved_at": "2026-11-01T00:47:13.717796Z",
       "status": "found"
     },
+    "crossref:doi:10.2172/17426798": {
+      "expires_at": "2026-12-02T00:43:06.273874Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xiaoxing Xia",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.2172/17426798",
+        "landing_page": "https://doi.org/10.2172/17426798",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.2172/17426798",
+        "publication_date": "2026-10-31",
+        "title": "LDRD Abbreviated Final Report: 3D Nano-printing of All-Optical Neural Network Devices",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-02T00:43:06.273874Z",
+      "status": "found"
+    },
     "crossref:doi:10.24108/preprints-3116381": {
       "expires_at": "2026-10-16T01:02:27.673782Z",
       "record": {
@@ -8838,6 +8918,18 @@
       "expires_at": "2026-11-26T01:03:19.369827Z",
       "record": null,
       "retrieved_at": "2026-10-27T01:03:19.369827Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.5281/zenodo.23830339": {
+      "expires_at": "2026-12-02T00:43:05.828818Z",
+      "record": null,
+      "retrieved_at": "2026-11-02T00:43:05.828818Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.5281/zenodo.23839299": {
+      "expires_at": "2026-12-02T00:43:05.398319Z",
+      "record": null,
+      "retrieved_at": "2026-11-02T00:43:05.398319Z",
       "status": "not_found"
     },
     "crossref:doi:10.58168/pbht2026_225-229": {
@@ -18803,6 +18895,60 @@
       "retrieved_at": "2026-08-27T16:32:39.020162Z",
       "status": "found"
     },
+    "openalex:doi:10.1007/s12596-026-03324-7": {
+      "expires_at": "2026-12-02T00:43:07.111878Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tanmoy Datta",
+            "orcid": "https://orcid.org/0000-0001-5705-4294"
+          },
+          {
+            "name": "Akash Kumar Pradhan",
+            "orcid": "https://orcid.org/0000-0001-9234-3008"
+          },
+          {
+            "name": "Tanmoy Dey",
+            "orcid": null
+          },
+          {
+            "name": "Haraprasad Mondal",
+            "orcid": "https://orcid.org/0000-0002-2056-6875"
+          },
+          {
+            "name": "Sandip Swarnakar",
+            "orcid": "https://orcid.org/0000-0003-3767-0916"
+          },
+          {
+            "name": "Mohammad Soroosh",
+            "orcid": "https://orcid.org/0000-0003-1956-8272"
+          },
+          {
+            "name": "Himanshu Ranjan Das",
+            "orcid": null
+          },
+          {
+            "name": "Rajasekar Ramakrishnan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s12596-026-03324-7",
+        "landing_page": "https://doi.org/10.1007/s12596-026-03324-7",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7224850502",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7224850502",
+        "publication_date": "2026-10-31",
+        "title": "A review on photonic neuromorphic computation from devices to algorithms",
+        "venue": "Journal of Optics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-02T00:43:07.111878Z",
+      "status": "found"
+    },
     "openalex:doi:10.1007/s13042-026-03317-9": {
       "expires_at": "2026-10-31T01:17:27.588245Z",
       "record": {
@@ -28633,6 +28779,36 @@
       "retrieved_at": "2026-09-09T01:02:02.258249Z",
       "status": "found"
     },
+    "openalex:doi:10.2172/17426798": {
+      "expires_at": "2026-12-02T00:43:06.510549Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xiaoxing Xia",
+            "orcid": "https://orcid.org/0000-0003-1255-3289"
+          },
+          {
+            "name": "USDOE National Nuclear Security Administration (NNSA)",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.2172/17426798",
+        "landing_page": "https://doi.org/10.2172/17426798",
+        "open_access_url": "https://doi.org/10.2172/17426798",
+        "openalex_id": "https://openalex.org/W7225006073",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225006073",
+        "publication_date": "2026-10-31",
+        "title": "LDRD Abbreviated Final Report: 3D Nano-printing of All-Optical Neural Network Devices",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-02T00:43:06.510549Z",
+      "status": "found"
+    },
     "openalex:doi:10.24108/preprints-3116381": {
       "expires_at": "2026-10-16T01:02:28.087718Z",
       "record": {
@@ -30513,6 +30689,58 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-27T01:03:19.706760Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.23830339": {
+      "expires_at": "2026-12-02T00:43:06.046019Z",
+      "record": {
+        "abstract": "Data and code for the article \"Photon-Counting Noise and Ornstein–Uhlenbeck Heater Drift in In-Situ Training of Quantum Photonic Neural Networks: An Equal-Budget Benchmark of Derivative-Free and Finite-Difference Optimizers\" by J. Bhuvana Gowri and T. Kavitha (Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai, India), submitted to IEEE Photonics Journal. The study simulates a six-layer, four-mode quantum photonic neural network trained as a Bell-state analyzer, with realistic coupler errors and propagation loss, an effective Kerr phase of π/10, heater phase drift modeled as an Ornstein–Uhlenbeck process, and photon counting modeled as binomial sampling of 250 or 2,500 photon pairs per input. Seven optimizer variants (BOBYQA, standard and constant-gain SPSA, finite-difference Adam with nudges of 0.01, 0.1 and 0.3 rad, and random search) are compared with an equal budget of 30,000 measurements on 30 simulated chips and 26 noise settings (5,460 runs). Contents:- code/: simulator (based on the quotonic package), measurement interface, optimizers, exact reference trainer, tuning, main study, statistical analysis, pilot studies.- tests/: validation tests (Hong–Ou–Mandel interference, Clements mesh, linear-optics limit, Kerr element, loss limit, reproduction of published results, drift and counting models, optimizers, scoring, finite-difference noise model, statistics code).- results/: all main runs, statistics (Wilcoxon tests with Holm correction, Wilson intervals), exact reference runs, tuning runs, pilot results, noise-model data and the printed output of the validation tests.- figure_data/: the data of every figure as CSV files and one Excel workbook.- figure_scripts/: scripts that rebuild the figure data from the results and draw the figures.- audit/: independent recomputation of all reported numbers from the raw run files. Software: Python with NumPy 2.4.6, JAX 0.10.2, quotonic 1.0.1 and NLopt 2.11.0 (see requirements.txt and README.md for instructions to reproduce the results).",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bhuvana Gowri",
+            "orcid": "https://orcid.org/0009-0005-0279-8049"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23830339",
+        "landing_page": "https://doi.org/10.5281/zenodo.23830339",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23830339",
+        "openalex_id": "https://openalex.org/W7225013424",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225013424",
+        "publication_date": "2026-10-31",
+        "title": "Photon-Counting Noise and Ornstein–Uhlenbeck Heater Drift in In-Situ Training of Quantum Photonic Neural Networks: An Equal-Budget Benchmark of Derivative-Free and Finite-Difference Optimizers",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-02T00:43:06.046019Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.23839299": {
+      "expires_at": "2026-12-02T00:43:05.586916Z",
+      "record": {
+        "abstract": "\"The El-Rakhawi Framework for Non-Hermitian Topological Reservoir Computing\" presents a revolutionary paradigm for predicting spatiotemporal chaos by operating physical reservoirs at Non-Hermitian Exceptional Points (EPs). At EPs, eigenvalues and eigenvectors coalesce, creating square-root topological sensitivity ($\\Delta\\lambda \\propto \\sqrt{\\epsilon}$) that vastly expands state-space dimensionality. The framework utilizes pseudo-Hermitian Hamiltonians in the unbroken phase to guarantee global stability while maximizing responsiveness. Implemented via silicon photonic microring resonators, it achieves femtojoule-level energy efficiency, bypassing the von Neumann bottleneck through in-medium optical computing. Mathematical rigor is ensured by proving the Echo State Property at the edge of chaos ($\\lambda_{max} \\approx 0^-$). Performance is quantified by the Topological Reservoir Capacity Index (TRCI), a strictly bounded metric (0.0-1.0) using exponential penalty factors to prevent mathematical loopholes. This approach enables real-time, ultra-low-power prediction of complex systems like plasma turbulence and weather patterns, transcending traditional neural network limitations. Author: Dr. Mohamed Kamal Arafa El-Rakhawi. DOI: 10.5281/zenodo.23839300.\"",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "m el-rakhawi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.23839299",
+        "landing_page": "https://doi.org/10.5281/zenodo.23839299",
+        "open_access_url": "https://doi.org/10.5281/zenodo.23839299",
+        "openalex_id": "https://openalex.org/W7225001162",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225001162",
+        "publication_date": "2026-10-31",
+        "title": "THE EL-RAKHAWI FRAMEWORK FOR NON-HERMITIAN TOPOLOGICAL RESERVOIR COMPUTING: HARNESSING EXCEPTIONAL POINTS FOR ULTRA-LOW-POWER SPATIOTEMPORAL CHAOS PREDICTION",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-02T00:43:05.586916Z",
       "status": "found"
     },
     "openalex:doi:10.58168/pbht2026_225-229": {

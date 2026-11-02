@@ -1,0 +1,31 @@
+{
+  "built_at": "2026-11-02T00:43:09.000866Z",
+  "digest_date": "2026-11-02",
+  "digest_version": 1,
+  "pending_summary_count": 1,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "a390258440d82a472251969b",
+        "landing_page": "https://doi.org/10.5281/zenodo.23830339",
+        "mandatory": false,
+        "score": 0.84,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Photon-Counting Noise and Ornstein–Uhlenbeck Heater Drift in In-Situ Training of Quantum Photonic Neural Networks: An Equal-Budget Benchmark of Derivative-Free and Finite-Difference Optimizers",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

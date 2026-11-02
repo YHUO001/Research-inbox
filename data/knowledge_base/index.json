@@ -674,6 +674,16 @@
       "summary_record_sha256": "a5aa13a57cf377eea36a92bdb681d253620e8554c9d097ee241276d33ce11c75",
       "title": "Optical diffractive layers 3D-integrated on a silicon photonic chip for high-density optical neural networks"
     },
+    "a390258440d82a472251969b": {
+      "digest_date": "2026-11-02",
+      "doi": "10.5281/zenodo.23830339",
+      "matched_projects": [
+        "optical-neural-networks",
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "e74e1b30548dd0ef23bd1e34148e4017d75fb3e9df664b63c743ba5b974073da",
+      "title": "Photon-Counting Noise and Ornstein–Uhlenbeck Heater Drift in In-Situ Training of Quantum Photonic Neural Networks: An Equal-Budget Benchmark of Derivative-Free and Finite-Difference Optimizers"
+    },
     "a6c0cee36e01933034e775f2": {
       "digest_date": "2026-10-11",
       "doi": "10.1117/12.3111755",
@@ -1238,6 +1248,9 @@
     ],
     "2026-10-31": [
       "c66af551e0b88c81e0533e7c"
+    ],
+    "2026-11-02": [
+      "a390258440d82a472251969b"
     ]
   },
   "by_doi": {
@@ -1346,6 +1359,7 @@
     "10.5281/zenodo.23422324": "1bbef7ba5398ff216f60580f",
     "10.5281/zenodo.23538542": "0ea189a90da076d72e313576",
     "10.5281/zenodo.23632157": "7e9d9924bce580000ddda36d",
+    "10.5281/zenodo.23830339": "a390258440d82a472251969b",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.6084/m9.figshare.c.8610155.v1": "d162b179119ee09c86ad3708",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799",
@@ -1411,6 +1425,7 @@
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
+      "a390258440d82a472251969b",
       "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
       "aaf22dbcd3252d085a360afb",
@@ -1454,6 +1469,7 @@
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
       "9e604f17f644449b1f294680",
+      "a390258440d82a472251969b",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
@@ -1474,6 +1490,9 @@
   "by_tag": {
     "application:6g 通信": [
       "7bc9d4230ed283852c3248a7"
+    ],
+    "application:bell 态分析": [
+      "a390258440d82a472251969b"
     ],
     "application:cart–pole 稳定控制": [
       "79855d774b83ef6c7c8a8a47"
@@ -2021,6 +2040,7 @@
       "9322fad036b3d7fc8e3dd47b",
       "93f3ffb1741a00e1480b8ab2",
       "95fe7b58392c34e07c8b2616",
+      "a390258440d82a472251969b",
       "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
       "aaf22dbcd3252d085a360afb",
@@ -2092,6 +2112,7 @@
       "8a0187dc3ef13553d43f5bef",
       "8ce6ad350a786420a01c4dd8",
       "9039d2d888f22d7a64bcfc06",
+      "a390258440d82a472251969b",
       "b832199d8494cc67a559fec5",
       "c01ea24e589c31ebd4af01d6",
       "c1e890d592087a69465d1299",
@@ -2173,6 +2194,7 @@
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
+      "a390258440d82a472251969b",
       "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
       "aaf22dbcd3252d085a360afb",
@@ -2216,6 +2238,7 @@
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
       "9e604f17f644449b1f294680",
+      "a390258440d82a472251969b",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
@@ -2250,6 +2273,7 @@
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
       "9e604f17f644449b1f294680",
+      "a390258440d82a472251969b",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
@@ -2346,6 +2370,7 @@
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
       "9e604f17f644449b1f294680",
+      "a390258440d82a472251969b",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
@@ -2566,6 +2591,7 @@
       "1bbef7ba5398ff216f60580f",
       "4b1739e45289d2156d3b1ed3",
       "7e9d9924bce580000ddda36d",
+      "a390258440d82a472251969b",
       "c9dee369fd4e64c2389af927"
     ],
     "arXiv (Cornell University)": [
@@ -2678,6 +2704,7 @@
       "973790e22c46d30721660799",
       "9e604f17f644449b1f294680",
       "a15033db64285e5d4c8a46c9",
+      "a390258440d82a472251969b",
       "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
       "aaf22dbcd3252d085a360afb",
@@ -2721,7 +2748,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 113,
+  "paper_count": 114,
   "schema_version": 1,
-  "updated_at": "2026-10-31T00:40:24.463892Z"
+  "updated_at": "2026-11-02T00:43:30.470449Z"
 }

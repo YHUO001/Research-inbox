@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`113`
-- 更新时间：`2026-10-31T00:40:24.463892Z`
+- 论文数：`114`
+- 更新时间：`2026-11-02T00:43:30.470449Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Photon-Counting Noise and Ornstein–Uhlenbeck Heater Drift in In-Situ Training of Quantum Photonic Neural Networks: An Equal-Budget Benchmark of Derivative-Free and Finite-Difference Optimizers
+
+- DOI/链接：[10.5281/zenodo.23830339](https://doi.org/10.5281/zenodo.23830339)
+- 期刊/年份：Zenodo (CERN European Organization for Nuclear Research)，2026
+- 摘要日期：`2026-11-02`
+- 候选 ID：`a390258440d82a472251969b`
+- 标签：application:bell 态分析, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks, project:zeroth-order-optimization, zo:forward_only, zo:structured_perturbation
 
 ### An Electro-Optic Lithium Niobate on Insulator (LNOI) Multimode Interference Accelerator for Reconfigurable Optical Neural Networks
 
@@ -663,6 +671,14 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### Photon-Counting Noise and Ornstein–Uhlenbeck Heater Drift in In-Situ Training of Quantum Photonic Neural Networks: An Equal-Budget Benchmark of Derivative-Free and Finite-Difference Optimizers
+
+- DOI/链接：[10.5281/zenodo.23830339](https://doi.org/10.5281/zenodo.23830339)
+- 期刊/年份：Zenodo (CERN European Organization for Nuclear Research)，2026
+- 摘要日期：`2026-11-02`
+- 候选 ID：`a390258440d82a472251969b`
+- 标签：application:bell 态分析, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks, project:zeroth-order-optimization, zo:forward_only, zo:structured_perturbation
 
 ### On Perspectives of Zeroth-Order Methods for Large Language Models Pre-Training
 
