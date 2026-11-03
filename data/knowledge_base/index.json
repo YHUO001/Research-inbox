@@ -422,6 +422,15 @@
       "summary_record_sha256": "ca126135e2348aa3493960ea3107987ebbc261357cf933d0a0904ef47fcf7274",
       "title": "Gigahertz thin-film lithium niobate phase-SLM architecture for true matrix–matrix multiplication in photonic AI accelerators: design and physical-layer simulation"
     },
+    "6584a28300e4e24252061ccc": {
+      "digest_date": "2026-11-03",
+      "doi": "10.1002/nap2.70342",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "32b09d9afcc82deb6ae18c60b58444a6827708166a3d2d6dfc85da4d70871733",
+      "title": "Multitask Diffractive Deep Neural Networks Enabled by Joint Distance–Frequency Encoding"
+    },
     "66c84fb1444bbf71b05ac0d7": {
       "digest_date": "2026-10-08",
       "doi": "10.48550/arxiv.2610.06271",
@@ -746,6 +755,15 @@
       ],
       "summary_record_sha256": "ce35d6bf8a87355cc7003834abba0827a993da8ad747e243e4a6840b44ccb003",
       "title": "Simulated task-decomposed multi-channel diffractive neural networks for scalable and robust shallow-layer optical multiclass classification"
+    },
+    "b8423ccc73119513c6a02810": {
+      "digest_date": "2026-11-03",
+      "doi": "10.1117/12.3121864",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "f6d4ff931e65af916398b6adeafbb5dc80307f888c1b80c514dec546545fc69d",
+      "title": "All-optical speech recognition based on nonlinear diffractive neural network with picosecond latency"
     },
     "c01ea24e589c31ebd4af01d6": {
       "digest_date": "2026-09-25",
@@ -1251,6 +1269,10 @@
     ],
     "2026-11-02": [
       "a390258440d82a472251969b"
+    ],
+    "2026-11-03": [
+      "6584a28300e4e24252061ccc",
+      "b8423ccc73119513c6a02810"
     ]
   },
   "by_doi": {
@@ -1262,6 +1284,7 @@
     "10.1002/lpor.72106": "2c2645700d900a5b3f00a38c",
     "10.1002/nap2.70302": "93f3ffb1741a00e1480b8ab2",
     "10.1002/nap2.70315": "879145cdb2d594dd2d392a9e",
+    "10.1002/nap2.70342": "6584a28300e4e24252061ccc",
     "10.1007/s10589-026-00835-8": "c55f09d580d098a54f7078e7",
     "10.1007/s10915-026-03433-2": "7719ae17086cb97168bebbc5",
     "10.1016/j.optlaseng.2026.110178": "790fd87bc9a673947dfbaac6",
@@ -1305,6 +1328,7 @@
     "10.1117/12.3116253": "7d6c2a059923ebe445a1cdf7",
     "10.1117/12.3117698": "099f50640efd207890cbb62b",
     "10.1117/12.3118799": "9351be654a20f4a2f7121847",
+    "10.1117/12.3121864": "b8423ccc73119513c6a02810",
     "10.1117/12.3122162": "fb9e976eb7e8f5a651e59b29",
     "10.1126/sciadv.aee9649": "44fa3bd6f72c84820ce42dab",
     "10.1126/sciadv.aef8657": "c7b91f881a121b7e1651e2f2",
@@ -1404,6 +1428,7 @@
       "5e8f619911f39f5434b3167d",
       "5ec8e35ad02131d8ed156970",
       "61dad77fe7c2ef7687ce5b21",
+      "6584a28300e4e24252061ccc",
       "6dc0459f08567bbd051cc579",
       "790fd87bc9a673947dfbaac6",
       "79855d774b83ef6c7c8a8a47",
@@ -1431,6 +1456,7 @@
       "aaf22dbcd3252d085a360afb",
       "ae3adee8419a5db7be7ec3b2",
       "b832199d8494cc67a559fec5",
+      "b8423ccc73119513c6a02810",
       "c01ea24e589c31ebd4af01d6",
       "c1e890d592087a69465d1299",
       "c3474ba19a69c715eb87d391",
@@ -1539,6 +1565,15 @@
     "application:sipakmed 医学图像分类": [
       "aaf22dbcd3252d085a360afb"
     ],
+    "application:九类方向识别": [
+      "6584a28300e4e24252061ccc"
+    ],
+    "application:九类轨道角动量分类": [
+      "6584a28300e4e24252061ccc"
+    ],
+    "application:二分类语音识别": [
+      "b8423ccc73119513c6a02810"
+    ],
     "application:二维/三维全息重建": [
       "c82f6c2f7b8ae52a84e4eb29"
     ],
@@ -1614,6 +1649,9 @@
     "application:全彩 cifar-10 图像分类": [
       "aaf22dbcd3252d085a360afb"
     ],
+    "application:关键词唤醒": [
+      "b8423ccc73119513c6a02810"
+    ],
     "application:分布式声学传感（das）": [
       "1cf1fcd769c5ace951188b8c"
     ],
@@ -1664,6 +1702,12 @@
     ],
     "application:四类fashion-mnist图像分类（t恤、裤子、运动鞋、包）": [
       "39df3bfb1d1f1919bbf17668"
+    ],
+    "application:四类mnist数字识别": [
+      "6584a28300e4e24252061ccc"
+    ],
+    "application:四类可编程逻辑门操作": [
+      "6584a28300e4e24252061ccc"
     ],
     "application:四通道波分复用光神经网络中的非线性激活": [
       "c3474ba19a69c715eb87d391"
@@ -1993,6 +2037,7 @@
       "5e8f619911f39f5434b3167d",
       "6dc0459f08567bbd051cc579",
       "973790e22c46d30721660799",
+      "b8423ccc73119513c6a02810",
       "c66af551e0b88c81e0533e7c",
       "fd6f281418ac4d412744b2ac"
     ],
@@ -2025,6 +2070,7 @@
       "5228362e834f7a6b9567811b",
       "541094f286db8902f2fe6077",
       "5ec8e35ad02131d8ed156970",
+      "6584a28300e4e24252061ccc",
       "790fd87bc9a673947dfbaac6",
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
@@ -2064,6 +2110,7 @@
       "1e35265ce8678ca96adb8b93",
       "2b5f9302fe96c2793d48540e",
       "5e8f619911f39f5434b3167d",
+      "6584a28300e4e24252061ccc",
       "7e9d9924bce580000ddda36d",
       "879145cdb2d594dd2d392a9e",
       "8ed2e70c4b7d42f84e3676a7",
@@ -2090,6 +2137,7 @@
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
       "aaf22dbcd3252d085a360afb",
+      "b8423ccc73119513c6a02810",
       "c7b91f881a121b7e1651e2f2",
       "ce092fd32303d2ddfac44b92",
       "d2a55bdec24bc3bc4b04467b",
@@ -2173,6 +2221,7 @@
       "5e8f619911f39f5434b3167d",
       "5ec8e35ad02131d8ed156970",
       "61dad77fe7c2ef7687ce5b21",
+      "6584a28300e4e24252061ccc",
       "6dc0459f08567bbd051cc579",
       "790fd87bc9a673947dfbaac6",
       "79855d774b83ef6c7c8a8a47",
@@ -2200,6 +2249,7 @@
       "aaf22dbcd3252d085a360afb",
       "ae3adee8419a5db7be7ec3b2",
       "b832199d8494cc67a559fec5",
+      "b8423ccc73119513c6a02810",
       "c01ea24e589c31ebd4af01d6",
       "c1e890d592087a69465d1299",
       "c3474ba19a69c715eb87d391",
@@ -2408,6 +2458,7 @@
   },
   "by_venue": {
     "17th International Photonics and Optoelectronic Meetings (POEM 2026)": [
+      "b8423ccc73119513c6a02810",
       "fb9e976eb7e8f5a651e59b29"
     ],
     "2026 24th International Conference on Optical Communications and Networks (ICOCN)": [
@@ -2499,6 +2550,7 @@
       "83a830ace13b5158f346c392"
     ],
     "Nanophotonics": [
+      "6584a28300e4e24252061ccc",
       "879145cdb2d594dd2d392a9e",
       "93f3ffb1741a00e1480b8ab2"
     ],
@@ -2677,6 +2729,7 @@
       "5e8f619911f39f5434b3167d",
       "5ec8e35ad02131d8ed156970",
       "61dad77fe7c2ef7687ce5b21",
+      "6584a28300e4e24252061ccc",
       "66c84fb1444bbf71b05ac0d7",
       "6dc0459f08567bbd051cc579",
       "70212be2c4a63d741872ace0",
@@ -2712,6 +2765,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "b832199d8494cc67a559fec5",
+      "b8423ccc73119513c6a02810",
       "c1e890d592087a69465d1299",
       "c3474ba19a69c715eb87d391",
       "c55f09d580d098a54f7078e7",
@@ -2748,7 +2802,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 114,
+  "paper_count": 116,
   "schema_version": 1,
-  "updated_at": "2026-11-02T00:43:30.470449Z"
+  "updated_at": "2026-11-03T00:41:28.392455Z"
 }

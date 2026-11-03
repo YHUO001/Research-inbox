@@ -1,0 +1,23 @@
+{
+  "archive_body_file": "data/digest_archive/2026/2026-11-03.email.md",
+  "archived_at": "2026-11-03T00:41:29.265060Z",
+  "body_sha256": "a2f2341456e647ada31ee7f81424b764c92d54eee9ce11033c06f5e61583ede6",
+  "candidate_ids": [
+    "b8423ccc73119513c6a02810",
+    "6584a28300e4e24252061ccc"
+  ],
+  "content_status": "completed_digest",
+  "delivery_status": "sent",
+  "digest_date": "2026-11-03",
+  "full_text_persisted": false,
+  "gmail_message_id_sha256": "ec0a3e9392d72e4682f4277c8dad406f574af130db15d8659fb01659dca75872",
+  "knowledge_index_file": "data/knowledge_base/index.md",
+  "message_id_header": "<research-inbox-20261103-05bbb7a725825d85@research-inbox.local>",
+  "recipient_sha256": "05bbb7a725825d85078914a36b7fbb15a2c4781c25a2eb2832958cb229c38c4d",
+  "schema_version": 1,
+  "sent_at": "2026-11-03T00:41:29.264884Z",
+  "source_digest_file": "data/digests/2026-11-03.generated.md",
+  "source_digest_sha256": "5d86c2f62989d5cdf146c8020c7b5643e66dc3ef9567a9613c4c21a51c399c12",
+  "subject": "[Research Inbox] 每日研究汇总 2026-11-03（2 篇）",
+  "summary_count": 2
+}

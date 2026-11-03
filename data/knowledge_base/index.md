@@ -1,10 +1,26 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`114`
-- 更新时间：`2026-11-02T00:43:30.470449Z`
+- 论文数：`116`
+- 更新时间：`2026-11-03T00:41:28.392455Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Multitask Diffractive Deep Neural Networks Enabled by Joint Distance–Frequency Encoding
+
+- DOI/链接：[10.1002/nap2.70342](https://doi.org/10.1002/nap2.70342)
+- 期刊/年份：Nanophotonics，2026
+- 摘要日期：`2026-11-03`
+- 候选 ID：`6584a28300e4e24252061ccc`
+- 标签：application:九类方向识别, application:九类轨道角动量分类, application:四类mnist数字识别, application:四类可编程逻辑门操作, architecture:unclear, hardware_validation:mixed, project:optical-neural-networks
+
+### All-optical speech recognition based on nonlinear diffractive neural network with picosecond latency
+
+- DOI/链接：[10.1117/12.3121864](https://doi.org/10.1117/12.3121864)
+- 期刊/年份：17th International Photonics and Optoelectronic Meetings (POEM 2026)，2026
+- 摘要日期：`2026-11-03`
+- 候选 ID：`b8423ccc73119513c6a02810`
+- 标签：application:二分类语音识别, application:关键词唤醒, architecture:integrated, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Photon-Counting Noise and Ornstein–Uhlenbeck Heater Drift in In-Situ Training of Quantum Photonic Neural Networks: An Equal-Budget Benchmark of Derivative-Free and Finite-Difference Optimizers
 

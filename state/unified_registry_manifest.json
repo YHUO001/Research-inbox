@@ -1,19 +1,19 @@
 {
-  "alias_count": 32,
+  "alias_count": 35,
   "alias_path": "runtime-state/state/unified_candidate_aliases.json",
-  "alias_sha256": "38b92a1dfbf1b71194d80d2353b2dcdb3af025ca858899cdc1286651a6eb9980",
-  "merged_group_count": 32,
-  "raw_candidate_count": 659,
+  "alias_sha256": "fc87b169463ee7a1b3de11a33b1ce5025866d4066c1630a4aabbbe940ba15bc8",
+  "merged_group_count": 34,
+  "raw_candidate_count": 673,
   "raw_registry_path": "runtime-state/data/paper_registry.jsonl",
-  "raw_registry_sha256": "7c466bf8007fef9d61ed8a2424c517cfcd57a5da9947e367e5a4bbb913dc91da",
+  "raw_registry_sha256": "6efdb8586f343177d260da26b4f0e90ab8beba45f899a1aafc09f8e0eeeb251a",
   "schema_version": 1,
   "source_combination_counts": {
-    "google_scholar_email": 448,
-    "google_scholar_email+openalex": 27,
-    "openalex": 152
+    "google_scholar_email": 459,
+    "google_scholar_email+openalex": 29,
+    "openalex": 150
   },
   "status": "completed",
-  "unified_candidate_count": 627,
+  "unified_candidate_count": 638,
   "unified_registry_path": "runtime-state/data/unified_paper_registry.jsonl",
-  "unified_registry_sha256": "d80fbea4ff9e309318cfaa4cb1b5f290d4967691bb23b8f17729c3da8c0ea08b"
+  "unified_registry_sha256": "a1b948f34169acbf6817d1849ebb6aa5d6757e8cc8e92e9d8baf1e6c5edafed8"
 }

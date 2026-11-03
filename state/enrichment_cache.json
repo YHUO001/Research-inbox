@@ -3902,6 +3902,12 @@
       "retrieved_at": "2026-08-18T04:25:07.045792Z",
       "status": "not_found"
     },
+    "crossref:doi:10.1021/acsphotonics.6c00418/5461336": {
+      "expires_at": "2026-12-03T00:40:35.179227Z",
+      "record": null,
+      "retrieved_at": "2026-11-03T00:40:35.179227Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.1021/acsphotonics.6c00831": {
       "expires_at": "2026-09-18T00:32:49.652416Z",
       "record": {
@@ -6277,7 +6283,7 @@
       "status": "found"
     },
     "crossref:doi:10.1117/12.3121864": {
-      "expires_at": "2026-10-10T01:00:35.497210Z",
+      "expires_at": "2026-12-03T00:40:50.007286Z",
       "record": {
         "abstract": null,
         "arxiv_id": null,
@@ -6319,7 +6325,7 @@
         "venue": "17th International Photonics and Optoelectronic Meetings (POEM 2026)",
         "year": 2026
       },
-      "retrieved_at": "2026-09-10T01:00:35.497210Z",
+      "retrieved_at": "2026-11-03T00:40:50.007286Z",
       "status": "found"
     },
     "crossref:doi:10.1117/12.3122162": {
@@ -9311,6 +9317,36 @@
       "retrieved_at": "2026-10-15T00:58:14.259313Z",
       "status": "not_found"
     },
+    "crossref:title:05678acdc951ce9f5dec19f3d7d28c01087a5be77baafcae051033cb25ecda76": {
+      "expires_at": "2026-11-10T00:40:30.290504Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Keyin Chen",
+            "orcid": null
+          },
+          {
+            "name": "Yuanlin Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-78615-x",
+        "landing_page": "https://doi.org/10.1038/s41598-026-78615-x",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41598-026-78615-x",
+        "publication_date": "2026-10-30",
+        "title": "A symmetry breaking swarm optimizer derived from the Landau theory of phase transitions",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-03T00:40:30.290504Z",
+      "status": "found"
+    },
     "crossref:title:06693e531997c12223d3bf4aeefb09d84bfa52f942f5ff9011fda630169008e4": {
       "expires_at": "2026-09-28T01:07:32.848362Z",
       "record": {
@@ -9378,6 +9414,36 @@
       "record": null,
       "retrieved_at": "2026-09-13T01:07:25.764659Z",
       "status": "not_found"
+    },
+    "crossref:title:0920e2efb69cf4de96c909fa10e35cd1125e5b109e5d88951aa285c8433ce7b5": {
+      "expires_at": "2026-11-10T00:40:34.800081Z",
+      "record": {
+        "abstract": "Read-only memory (ROM) provides deterministic access to predefined data mappings. Extending ROM concepts to the optical domain enables high-bandwidth, low-latency, and parallel memory access, but realising compact, function-selectable optical ROM remains challenging due to loss, wavelength control, and integration constraints. This work presents a high-speed, function-selectable photonic ROM architecture implemented using integrated microring resonators (MRRs). The ROM encodes predefined input–output mappings directly in the spectral response of the photonic devices, enabling deterministic lookup-based operation without dynamic computation during readout. To improve scalability and reduce cumulative insertion loss, the architecture employs compact banked sub-arrays that are selectively addressed through an optical decoding mechanism. Run-time function selection is achieved using transistor-based optical selectors, allowing different ROM banks to be activated without physical light rerouting or interferometric structures. The proposed photonic ROM is designed and evaluated using device-level simulations based on the GlobalFoundries 45SPCLO silicon photonics platform. Simulation results support an access rate of 12.5 Gaccess/s with a maximum settling time of 31.3 ps, with stable light-to-current transfer characteristics obtained through integrated photodiode readout. The optical ROM can be used to implement nonlinear activation functions utilised in photonic accelerator architectures, including sigmoid, tanh, ReLU, and exponential mappings. In this use case, the ROM operates as a lookup table that stores predefined nonlinear transfer characteristics, demonstrating that complex nonlinear behaviours can be realised through static optical responses rather than active photonic computation. The use of activation functions in this work serves to illustrate the flexibility of the proposed ROM framework and does not constrain its general applicability to other lookup-based functions.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ankur Singh",
+            "orcid": "https://orcid.org/0000-0003-4836-3292"
+          },
+          {
+            "name": "Akhilesh Jaiswal",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.616047",
+        "landing_page": "https://doi.org/10.1364/oe.616047",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/oe.616047",
+        "publication_date": "2026-11-02",
+        "title": "OptiLookUp: a microring-based photonic read-only memory lookup table engine for photonic accelerators",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-03T00:40:34.800081Z",
+      "status": "found"
     },
     "crossref:title:0c33755d6a2894feebc406bce7bbf52bfaca24f41cae949389b38d192ec8f017": {
       "expires_at": "2026-10-07T01:10:15.930802Z",
@@ -9874,6 +9940,12 @@
       },
       "retrieved_at": "2026-10-18T01:04:54.559434Z",
       "status": "found"
+    },
+    "crossref:title:1cafff5a2b87ece58bdb5694dd1935c5a102f72710d3ffc586a5cc41babbb403": {
+      "expires_at": "2026-11-10T00:40:46.462446Z",
+      "record": null,
+      "retrieved_at": "2026-11-03T00:40:46.462446Z",
+      "status": "not_found"
     },
     "crossref:title:1d03a31c480cfb0da2e0e91ffd1d2b010abe87f28bab51e4b85693bfb34159e5": {
       "expires_at": "2026-09-07T01:07:04.161417Z",
@@ -11633,6 +11705,52 @@
       "retrieved_at": "2026-09-01T01:13:17.558795Z",
       "status": "not_found"
     },
+    "crossref:title:636012c4d044b6af927cfa2a6efcb8964b8c762eb211713120d50b9f7493b83a": {
+      "expires_at": "2026-11-10T00:40:42.150241Z",
+      "record": {
+        "abstract": "ABSTRACT Diffractive deep neural networks (D 2 NNs) offer a promising route toward high‐speed wave‐based computing, but most existing architectures are restricted to a single fixed function, whereas multitask implementations often require additional hardware complexity. Here, a multitask D 2 NN architecture based on joint distance and frequency encoding is proposed and demonstrated. The interlayer distance is introduced as a physically reconfigurable task‐encoding dimension and is combined with a dual‐frequency phase‐independent metasurface to enable task multiplexing within a single passive hardware system. Scalar diffraction simulations on the corresponding testing datasets yielded accuracies of 99.7% for 9‐class orbital angular momentum (OAM) classification, 86.4% for 9‐class direction recognition, 98.8% for 4‐category programmable logic‐gate operations, and 95.4% for 4‐class MNIST digit recognition (Digits 0–3). Full‐wave electromagnetic simulations further support the physical feasibility of the designed metasurface implementation, whereas microwave measurements on selected representative inputs provide proof‐of‐concept evidence of task‐dependent energy routing and distance‐enabled task switching. This joint‐encoding strategy provides a compact and resource‐efficient route for multifunctional intelligent wave‐based computing systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhengxuan Jiang",
+            "orcid": "https://orcid.org/0009-0007-2763-5793"
+          },
+          {
+            "name": "Zongmao Fei",
+            "orcid": null
+          },
+          {
+            "name": "Wen Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Guowen Ding",
+            "orcid": "https://orcid.org/0000-0002-6224-4567"
+          },
+          {
+            "name": "Ke Chen",
+            "orcid": "https://orcid.org/0000-0002-5864-5034"
+          },
+          {
+            "name": "Yijun Feng",
+            "orcid": "https://orcid.org/0000-0002-7118-7509"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/nap2.70342",
+        "landing_page": "https://doi.org/10.1002/nap2.70342",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/nap2.70342",
+        "publication_date": "2026-11-12",
+        "title": "Multitask Diffractive Deep Neural Networks Enabled by Joint Distance–Frequency Encoding",
+        "venue": "Nanophotonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-03T00:40:42.150241Z",
+      "status": "found"
+    },
     "crossref:title:65e40c751746554da0d9b25435ce98430be064c05f84c0f03047d11fa6ac86c2": {
       "expires_at": "2026-10-18T01:15:41.303178Z",
       "record": null,
@@ -11823,6 +11941,12 @@
       "expires_at": "2026-08-30T00:32:28.480267Z",
       "record": null,
       "retrieved_at": "2026-08-23T00:32:28.480267Z",
+      "status": "not_found"
+    },
+    "crossref:title:6d6136c3d873e6c6eedc25cae35f6907ea9d4ecfd32a410783ee5aa9f0d415c3": {
+      "expires_at": "2026-11-10T00:40:32.543522Z",
+      "record": null,
+      "retrieved_at": "2026-11-03T00:40:32.543522Z",
       "status": "not_found"
     },
     "crossref:title:6d8613ddccf0a73c97872be57802b9cbab36cc984a2d1e9b479f60dada4f95ae": {
@@ -13355,6 +13479,12 @@
       "retrieved_at": "2026-10-28T00:48:15.564978Z",
       "status": "not_found"
     },
+    "crossref:title:a94a71a6bc38e3701aa6dc312245352d38e26ae3dfc8a9ba9f0a9dab6e11e3c0": {
+      "expires_at": "2026-11-10T00:40:52.258248Z",
+      "record": null,
+      "retrieved_at": "2026-11-03T00:40:52.258248Z",
+      "status": "not_found"
+    },
     "crossref:title:aa55fccd82ec16aa4bfed3034a68ad67e61d94c83a280c4978e5eec73ca34464": {
       "expires_at": "2026-10-21T00:59:32.639259Z",
       "record": null,
@@ -14033,6 +14163,52 @@
       "retrieved_at": "2026-08-04T09:38:28.475680Z",
       "status": "not_found"
     },
+    "crossref:title:c2da3fa894960284365da1ac7771bba549fb02820a68473c00d56315a56262b9": {
+      "expires_at": "2026-11-10T00:40:43.991341Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Renzhi Lu",
+            "orcid": "https://orcid.org/0000-0001-6845-1711"
+          },
+          {
+            "name": "Yangshan Jin",
+            "orcid": null
+          },
+          {
+            "name": "Yifang Shi",
+            "orcid": "https://orcid.org/0000-0003-1607-3629"
+          },
+          {
+            "name": "Hai-Tao Zhang",
+            "orcid": "https://orcid.org/0000-0002-8819-8829"
+          },
+          {
+            "name": "Yang Tang",
+            "orcid": "https://orcid.org/0000-0002-2750-8029"
+          },
+          {
+            "name": "Fumin Zhang",
+            "orcid": "https://orcid.org/0000-0003-0053-4224"
+          }
+        ],
+        "cited_by_count": 1,
+        "doi": "10.1109/tii.2026.3743695",
+        "landing_page": "https://doi.org/10.1109/tii.2026.3743695",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/tii.2026.3743695",
+        "publication_date": "2026",
+        "title": "Derivative-Free Deep Reinforcement Learning for Optimal Control With Speeding-Up and Slowing-Down Strategy",
+        "venue": "IEEE Transactions on Industrial Informatics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-03T00:40:43.991341Z",
+      "status": "found"
+    },
     "crossref:title:c393b42e9c6d7ddb694d0b7136943f4e8b630c7f1a0dbe3e91def8f10ac1ef15": {
       "expires_at": "2026-11-04T00:48:13.919782Z",
       "record": {
@@ -14613,6 +14789,12 @@
       "retrieved_at": "2026-10-18T01:05:04.572882Z",
       "status": "not_found"
     },
+    "crossref:title:d707c9725acaf27fbdc1d017b6f5c934059c4411fd5f2cacb335947ee1ae1d6e": {
+      "expires_at": "2026-11-10T00:40:37.392710Z",
+      "record": null,
+      "retrieved_at": "2026-11-03T00:40:37.392710Z",
+      "status": "not_found"
+    },
     "crossref:title:d773d6fbb26d1f4b4f09a95171e36c31e1e0fa7a575dae0c8ebc68392daf9952": {
       "expires_at": "2026-09-11T01:00:24.274409Z",
       "record": null,
@@ -14789,6 +14971,12 @@
       "retrieved_at": "2026-09-12T00:59:38.233910Z",
       "status": "not_found"
     },
+    "crossref:title:dda39a81768bcbff1278a09a8bff5f5adf77aa35fa248f4818ffcf0a63b23f16": {
+      "expires_at": "2026-11-10T00:40:49.517599Z",
+      "record": null,
+      "retrieved_at": "2026-11-03T00:40:49.517599Z",
+      "status": "not_found"
+    },
     "crossref:title:ddc315880fbeedf25d920c89fb82f7dc1efe079149f2bbaa6ba9b0e632402bd9": {
       "expires_at": "2026-09-16T01:02:03.064819Z",
       "record": {
@@ -14960,6 +15148,36 @@
       "record": null,
       "retrieved_at": "2026-09-18T01:02:13.947880Z",
       "status": "not_found"
+    },
+    "crossref:title:e2eda3c826891e465c8e95a747652000447dbb4edf15c8fadf98bbc0df09b926": {
+      "expires_at": "2026-11-10T00:40:54.647899Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tung Son Do",
+            "orcid": "https://orcid.org/0009-0007-6724-800X"
+          },
+          {
+            "name": "Sungrae Cho",
+            "orcid": "https://orcid.org/0000-0003-1879-688X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tmc.2026.3748461",
+        "landing_page": "https://doi.org/10.1109/tmc.2026.3748461",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/tmc.2026.3748461",
+        "publication_date": "2026",
+        "title": "Sensitivity-Driven Strategic Attack and Adaptive Diffusion Defense for Semantic Communication Systems",
+        "venue": "IEEE Transactions on Mobile Computing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-03T00:40:54.647899Z",
+      "status": "found"
     },
     "crossref:title:e384a0047e80938c7fb9be278ae2a1f332542ce9032f8e8e03af5cd2e2957d61": {
       "expires_at": "2026-10-13T01:07:09.703980Z",
@@ -15153,6 +15371,12 @@
       "expires_at": "2026-08-11T09:38:34.322789Z",
       "record": null,
       "retrieved_at": "2026-08-04T09:38:34.322789Z",
+      "status": "not_found"
+    },
+    "crossref:title:e5d285b71b94993f274bda3a03ec527f3046c5e43b7c11bd632382477db3e8af": {
+      "expires_at": "2026-11-10T00:40:39.821864Z",
+      "record": null,
+      "retrieved_at": "2026-11-03T00:40:39.821864Z",
       "status": "not_found"
     },
     "crossref:title:e626e2920d2245a773b1e3b6bf9e0aeb2c1ab5520b5c4d8576d61eef43abc84b": {
@@ -17827,6 +18051,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-23T01:02:38.728482Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/nap2.70342": {
+      "expires_at": "2026-12-03T00:40:42.334728Z",
+      "record": {
+        "abstract": "ABSTRACT Diffractive deep neural networks (D 2 NNs) offer a promising route toward high‐speed wave‐based computing, but most existing architectures are restricted to a single fixed function, whereas multitask implementations often require additional hardware complexity. Here, a multitask D 2 NN architecture based on joint distance and frequency encoding is proposed and demonstrated. The interlayer distance is introduced as a physically reconfigurable task‐encoding dimension and is combined with a dual‐frequency phase‐independent metasurface to enable task multiplexing within a single passive hardware system. Scalar diffraction simulations on the corresponding testing datasets yielded accuracies of 99.7% for 9‐class orbital angular momentum (OAM) classification, 86.4% for 9‐class direction recognition, 98.8% for 4‐category programmable logic‐gate operations, and 95.4% for 4‐class MNIST digit recognition (Digits 0–3). Full‐wave electromagnetic simulations further support the physical feasibility of the designed metasurface implementation, whereas microwave measurements on selected representative inputs provide proof‐of‐concept evidence of task‐dependent energy routing and distance‐enabled task switching. This joint‐encoding strategy provides a compact and resource‐efficient route for multifunctional intelligent wave‐based computing systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhengxuan Jiang",
+            "orcid": "https://orcid.org/0009-0007-2763-5793"
+          },
+          {
+            "name": "Zongmao Fei",
+            "orcid": null
+          },
+          {
+            "name": "Jiang Wen",
+            "orcid": "https://orcid.org/0009-0005-4644-0452"
+          },
+          {
+            "name": "Guowen Ding",
+            "orcid": "https://orcid.org/0000-0002-6224-4567"
+          },
+          {
+            "name": "Ke Chen",
+            "orcid": "https://orcid.org/0000-0002-5864-5034"
+          },
+          {
+            "name": "Yijun Feng",
+            "orcid": "https://orcid.org/0000-0002-7118-7509"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/nap2.70342",
+        "landing_page": "https://doi.org/10.1002/nap2.70342",
+        "open_access_url": "https://doi.org/10.1002/nap2.70342",
+        "openalex_id": "https://openalex.org/W7224858260",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7224858260",
+        "publication_date": "2026-10-30",
+        "title": "Multitask Diffractive Deep Neural Networks Enabled by Joint Distance–Frequency Encoding",
+        "venue": "Nanophotonics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-03T00:40:42.334728Z",
       "status": "found"
     },
     "openalex:doi:10.1002/psp4.70343": {
@@ -20617,6 +20887,12 @@
       "retrieved_at": "2026-08-18T04:25:07.362028Z",
       "status": "not_found"
     },
+    "openalex:doi:10.1021/acsphotonics.6c00418/5461336": {
+      "expires_at": "2026-12-03T00:40:35.419499Z",
+      "record": null,
+      "retrieved_at": "2026-11-03T00:40:35.419499Z",
+      "status": "not_found"
+    },
     "openalex:doi:10.1021/acsphotonics.6c00831": {
       "expires_at": "2026-09-18T00:32:49.967329Z",
       "record": {
@@ -22093,6 +22369,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-26T01:04:32.895050Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41598-026-78615-x": {
+      "expires_at": "2026-12-03T00:40:30.488099Z",
+      "record": {
+        "abstract": "Metaheuristic optimization algorithms are widely used for high-dimensional non-convex problems, yet most are designed by analogy with biological or physical processes and govern their exploration–exploitation balance with heuristic schedules that lack an underlying theory. We introduce Symmetry-Breaking Swarm Optimization (SBSO), in which this balance is not a tuned schedule but a second-order phase transition derived from the Landau-Ginzburg free energy. Each agent carries a component of an order-parameter field that relaxes along the free-energy gradient while a computational temperature is lowered through the critical point; the field then breaks symmetry spontaneously, and the local order parameter schedules the search operator of every agent. A vector generalization with one field component per coordinate searches heterogeneous problems with coordinate-wise adaptive intensity and reduces exactly to the scalar algorithm when the differentiation strength vanishes. Against eleven optimizers from four families under one evaluation budget, SBSO ranks fourth of twelve on a classical suite, where separable unimodal problems favour methods that collapse the population onto a point, and second of twelve on five shifted and rotated IEEE CEC blocks, where it is consistently the runner-up. Controlled ablations attribute the benefit to the phase transition itself rather than to any individual search operator.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Keyin Chen",
+            "orcid": "https://orcid.org/0009-0005-3099-3722"
+          },
+          {
+            "name": "Yuanlin Liu",
+            "orcid": "https://orcid.org/0009-0009-9799-725X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-78615-x",
+        "landing_page": "https://doi.org/10.1038/s41598-026-78615-x",
+        "open_access_url": "https://doi.org/10.1038/s41598-026-78615-x",
+        "openalex_id": "https://openalex.org/W7221179570",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7221179570",
+        "publication_date": "2026-10-30",
+        "title": "A symmetry breaking swarm optimizer derived from the Landau theory of phase transitions",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-03T00:40:30.488099Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s42005-026-02823-0": {
@@ -24641,6 +24947,52 @@
       "retrieved_at": "2026-08-26T00:32:36.960619Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/tii.2026.3743695": {
+      "expires_at": "2026-12-03T00:40:44.210513Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Renzhi Lu",
+            "orcid": "https://orcid.org/0000-0001-6845-1711"
+          },
+          {
+            "name": "Yangshan Jin",
+            "orcid": null
+          },
+          {
+            "name": "Yifang Shi",
+            "orcid": "https://orcid.org/0000-0003-1607-3629"
+          },
+          {
+            "name": "Hai‐Tao Zhang",
+            "orcid": "https://orcid.org/0000-0002-8819-8829"
+          },
+          {
+            "name": "Yang Shan Tang",
+            "orcid": "https://orcid.org/0000-0002-2750-8029"
+          },
+          {
+            "name": "Fumin Zhang",
+            "orcid": "https://orcid.org/0000-0003-0053-4224"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tii.2026.3743695",
+        "landing_page": "https://doi.org/10.1109/tii.2026.3743695",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7224209807",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7224209807",
+        "publication_date": "2026-01-01",
+        "title": "Derivative-Free Deep Reinforcement Learning for Optimal Control With Speeding-Up and Slowing-Down Strategy",
+        "venue": "IEEE Transactions on Industrial Informatics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-03T00:40:44.210513Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/tkde.2026.3730166": {
       "expires_at": "2026-10-09T01:02:05.190108Z",
       "record": {
@@ -24731,6 +25083,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:43.906346Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/tmc.2026.3748461": {
+      "expires_at": "2026-12-03T00:40:54.840189Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tung Son Do",
+            "orcid": "https://orcid.org/0009-0007-6724-800X"
+          },
+          {
+            "name": "Sungrae Cho",
+            "orcid": "https://orcid.org/0000-0003-1879-688X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tmc.2026.3748461",
+        "landing_page": "https://doi.org/10.1109/tmc.2026.3748461",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7224400715",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7224400715",
+        "publication_date": "2026-01-01",
+        "title": "Sensitivity-Driven Strategic Attack and Adaptive Diffusion Defense for Semantic Communication Systems",
+        "venue": "IEEE Transactions on Mobile Computing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-03T00:40:54.840189Z",
       "status": "found"
     },
     "openalex:doi:10.1109/tsc.2026.3735318": {
@@ -25402,9 +25784,9 @@
       "status": "found"
     },
     "openalex:doi:10.1117/12.3121864": {
-      "expires_at": "2026-10-10T01:00:35.871164Z",
+      "expires_at": "2026-12-03T00:40:50.175236Z",
       "record": {
-        "abstract": null,
+        "abstract": "We propose and experimentally validate a keyword wake-up approach based on an all-optical nonlinear diffractive deep neural network (AON-D2NN) chip. The chip monolithically integrates an input layer, nine hidden layers, and an output layer. The hidden layers employ thermal phase shifter arrays for programmable matrix operations, and germanium microstructures provide on-chip nonlinear activation functions. We preprocess speech signals via fast Fourier transform (FFT) and intensity sampling at characteristic frequencies, then encode them into voltage vectors for parallel input. Using the stochastic gradient descent algorithm for in-situ training in the optical domain, we achieve a recognition accuracy of 75% in a binary classification task with the AON-D2NN chip. Benefiting from the all-optical forward propagation architecture, the chip avoids frequent photoelectric conversions and reduces its computation latency to 172 ps. This work offers a viable solution for low-power and low-latency optical-domain speech recognition.",
         "arxiv_id": null,
         "authors": [
           {
@@ -25444,7 +25826,7 @@
         "venue": null,
         "year": 2026
       },
-      "retrieved_at": "2026-09-10T01:00:35.871164Z",
+      "retrieved_at": "2026-11-03T00:40:50.175236Z",
       "status": "found"
     },
     "openalex:doi:10.1117/12.3122162": {
@@ -27617,6 +27999,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-28T01:11:24.945327Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1364/oe.616047": {
+      "expires_at": "2026-12-03T00:40:35.029441Z",
+      "record": {
+        "abstract": "Read-only memory (ROM) provides deterministic access to predefined data mappings. Extending ROM concepts to the optical domain enables high-bandwidth, low-latency, and parallel memory access, but realising compact, function-selectable optical ROM remains challenging due to loss, wavelength control, and integration constraints. This work presents a high-speed, function-selectable photonic ROM architecture implemented using integrated microring resonators (MRRs). The ROM encodes predefined input–output mappings directly in the spectral response of the photonic devices, enabling deterministic lookup-based operation without dynamic computation during readout. To improve scalability and reduce cumulative insertion loss, the architecture employs compact banked sub-arrays that are selectively addressed through an optical decoding mechanism. Run-time function selection is achieved using transistor-based optical selectors, allowing different ROM banks to be activated without physical light rerouting or interferometric structures. The proposed photonic ROM is designed and evaluated using device-level simulations based on the GlobalFoundries 45SPCLO silicon photonics platform. Simulation results support an access rate of 12.5 Gaccess/s with a maximum settling time of 31.3 ps, with stable light-to-current transfer characteristics obtained through integrated photodiode readout. The optical ROM can be used to implement nonlinear activation functions utilised in photonic accelerator architectures, including sigmoid, tanh, ReLU, and exponential mappings. In this use case, the ROM operates as a lookup table that stores predefined nonlinear transfer characteristics, demonstrating that complex nonlinear behaviours can be realised through static optical responses rather than active photonic computation. The use of activation functions in this work serves to illustrate the flexibility of the proposed ROM framework and does not constrain its general applicability to other lookup-based functions.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ankur Singh",
+            "orcid": null
+          },
+          {
+            "name": "Akhilesh Jaiswal",
+            "orcid": "https://orcid.org/0000-0001-9911-2624"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.616047",
+        "landing_page": "https://doi.org/10.1364/oe.616047",
+        "open_access_url": "https://doi.org/10.1364/oe.616047",
+        "openalex_id": "https://openalex.org/W7160386743",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7160386743",
+        "publication_date": "2026-10-27",
+        "title": "OptiLookUp: a microring-based photonic read-only memory lookup table engine for photonic accelerators",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-03T00:40:35.029441Z",
       "status": "found"
     },
     "openalex:doi:10.1364/oe.616219": {
@@ -31782,6 +32194,12 @@
       "retrieved_at": "2026-10-29T00:48:02.597974Z",
       "status": "not_found"
     },
+    "openalex:title:1cafff5a2b87ece58bdb5694dd1935c5a102f72710d3ffc586a5cc41babbb403": {
+      "expires_at": "2026-11-10T00:40:46.778157Z",
+      "record": null,
+      "retrieved_at": "2026-11-03T00:40:46.778157Z",
+      "status": "not_found"
+    },
     "openalex:title:1d03a31c480cfb0da2e0e91ffd1d2b010abe87f28bab51e4b85693bfb34159e5": {
       "expires_at": "2026-09-07T01:07:04.854075Z",
       "record": null,
@@ -33446,6 +33864,60 @@
       "retrieved_at": "2026-08-23T00:32:29.001299Z",
       "status": "not_found"
     },
+    "openalex:title:6d6136c3d873e6c6eedc25cae35f6907ea9d4ecfd32a410783ee5aa9f0d415c3": {
+      "expires_at": "2026-11-10T00:40:32.849477Z",
+      "record": {
+        "abstract": "Feed-forward 3D Gaussian Splatting predicts a scene from a few images, but our predictor is less accurate than its own Gaussians optimized per scene on those images. This gap lies mostly in the shape of the Gaussians, their scale and rotation, since optimizing the shape alone recovers almost all of it and opacity and color recover less. Gradient steps on the input views correct this shape, and the model holds these views at inference. Log-anisotropy correction changes the axis ratios of each Gaussian in log space at constant volume, and in-forward gradient refinement renders the Gaussians into the input views and applies the gradient of the photometric loss with a learned recurrent update, first to opacity and color and then to the shape. GradSplat is a feed-forward model that refines its own Gaussians by learned gradient steps inside its forward pass, with no target view. On both complete six-view RealEstate10K protocols, it has the best PSNR and SSIM among nine methods and keeps its accuracy from $6$ to $42$ input views. Without fine-tuning, it is the most accurate on DL3DV and has the best PSNR and SSIM on ScanNet++. The code will be released at https://github.com/Jingong-Chen/GradSplat/.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jingong Chen",
+            "orcid": null
+          },
+          {
+            "name": "Linlian Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Guangyuan Li",
+            "orcid": "https://orcid.org/0009-0005-8063-7873"
+          },
+          {
+            "name": "Xinxin Zuo",
+            "orcid": null
+          },
+          {
+            "name": "Yang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Chulwoo Pack",
+            "orcid": "https://orcid.org/0000-0002-9876-4388"
+          },
+          {
+            "name": "Kyle Gao",
+            "orcid": null
+          },
+          {
+            "name": "Kwanghee Won",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.38951",
+        "landing_page": "https://arxiv.org/abs/2610.38951",
+        "open_access_url": "https://arxiv.org/abs/2610.38951",
+        "openalex_id": "https://openalex.org/W7224823889",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7224823889",
+        "publication_date": "2026-10-28",
+        "title": "GradSplat: Gradients Inside the Forward Pass for Feed-Forward 3D Gaussian Splatting",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-03T00:40:32.849477Z",
+      "status": "found"
+    },
     "openalex:title:6d8613ddccf0a73c97872be57802b9cbab36cc984a2d1e9b479f60dada4f95ae": {
       "expires_at": "2026-08-17T00:36:48.038952Z",
       "record": null,
@@ -34800,6 +35272,48 @@
       "retrieved_at": "2026-10-28T00:48:15.925495Z",
       "status": "found"
     },
+    "openalex:title:a94a71a6bc38e3701aa6dc312245352d38e26ae3dfc8a9ba9f0a9dab6e11e3c0": {
+      "expires_at": "2026-11-10T00:40:52.682962Z",
+      "record": {
+        "abstract": "Vision foundation models for retinal imaging are large and computationally demanding, limiting point-of-care deployment. We ask how much of such a model's downstream utility survives compression into a smaller network. We propose a topology-aware discretization framework that distills a continuous foundation model into a discrete codebook, then uses it as the reconstruction target for masked image modeling (MIM). It combines gradient-free codebook learning via Growing Neural Gas, which yields an adjacency graph over the codes, with a graph-distance soft cross-entropy loss that replaces one-hot MIM targets with topologically graded supervision. With student pretraining on 383 public Duke iAMD optical coherence tomography (OCT) volumes, the pipeline distills an 86M-parameter teacher into a 22M-parameter student with at least 3.6x fewer FLOPs. The student performs close to, and in some settings above, its teacher across three classification and two segmentation benchmarks, with the magnitude and direction of the difference depending on the teacher, task, metric, and student capacity. On the external OLIVES benchmark, it surpasses its MIRAGE teacher on every metric (98.06% vs. 95.22% balanced accuracy). It works with two Vision Transformer (ViT-Base) teachers, retinal (MIRAGE) and natural-image (DINOv3); with the out-of-domain teacher, the student outperforms it on retinal-layer segmentation, indicating that the added value of retina-specific pretraining is task-dependent: largest for segmentation, while a general-domain teacher is competitive for classification. These results yield compact retinal models potentially suitable for deployment, transferring across OCT datasets, devices, and clinical tasks, including three datasets not used in the student's pretraining.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ali Yavari",
+            "orcid": "https://orcid.org/0009-0001-8484-8310"
+          },
+          {
+            "name": "Tilman Schmoll",
+            "orcid": null
+          },
+          {
+            "name": "Rainer Andreas Leitgeb",
+            "orcid": "https://orcid.org/0000-0002-0131-4111"
+          },
+          {
+            "name": "Wolfgang Drexler",
+            "orcid": "https://orcid.org/0000-0002-3557-6398"
+          },
+          {
+            "name": "Thomas Schlegl",
+            "orcid": "https://orcid.org/0000-0003-0706-7876"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.33340",
+        "landing_page": "https://arxiv.org/abs/2610.33340",
+        "open_access_url": "https://arxiv.org/abs/2610.33340",
+        "openalex_id": "https://openalex.org/W7223961722",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7223961722",
+        "publication_date": "2026-10-23",
+        "title": "Compression of Vision Foundation Models for Retinal OCT via Growing-Neural-Gas Codebooks and Graph-Guided Masked Image Modeling",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-03T00:40:52.682962Z",
+      "status": "found"
+    },
     "openalex:title:aa55fccd82ec16aa4bfed3034a68ad67e61d94c83a280c4978e5eec73ca34464": {
       "expires_at": "2026-10-21T00:59:33.137095Z",
       "record": null,
@@ -35780,6 +36294,12 @@
       "retrieved_at": "2026-10-18T01:05:05.047848Z",
       "status": "found"
     },
+    "openalex:title:d707c9725acaf27fbdc1d017b6f5c934059c4411fd5f2cacb335947ee1ae1d6e": {
+      "expires_at": "2026-11-10T00:40:37.656126Z",
+      "record": null,
+      "retrieved_at": "2026-11-03T00:40:37.656126Z",
+      "status": "not_found"
+    },
     "openalex:title:d773d6fbb26d1f4b4f09a95171e36c31e1e0fa7a575dae0c8ebc68392daf9952": {
       "expires_at": "2026-09-11T01:00:25.102264Z",
       "record": null,
@@ -35869,6 +36389,48 @@
       "record": null,
       "retrieved_at": "2026-09-12T00:59:38.926326Z",
       "status": "not_found"
+    },
+    "openalex:title:dda39a81768bcbff1278a09a8bff5f5adf77aa35fa248f4818ffcf0a63b23f16": {
+      "expires_at": "2026-11-10T00:40:49.804458Z",
+      "record": {
+        "abstract": "Federated zeroth-order optimization (FedZOO) reduces the memory and communication costs of collaborative training for edge intelligence by avoiding backpropagation while communicating only random seeds and scalar coefficients. However, existing methods lack efficient mechanisms for exact unlearning to fully remove the influence of training data when users request deletion. A key insight is that total variation stability of the learning algorithm creates overlap between model distributions before and after data deletion, allowing exact unlearning to reuse computation through coupling. Based on this observation, we jointly design two stable zeroth-order learning algorithms and their corresponding exact-unlearning procedures: \\textsc{FedZOO-S} obtains stability through client and mini-batch subsampling, enabling \\textsc{FedZOUL-S} to perform efficient unlearning by preserving earlier updates and restarting from the first affected step. \\textsc{FedZOO-NS} further combines subsampling with Gaussian noise to increase overlap between update distributions; \\textsc{FedZOUL-NS} exploits this overlap through rejection--reflection coupling to reuse affected updates when the coupling is accepted. We prove exact unlearning for both algorithms: the model and saved state have the same joint distribution as retraining with the corresponding learner on retained data. We further establish stability and convergence guarantees for the learning algorithms and derive upper bounds on expected unlearning cost. Experiments demonstrate effective unlearning with competitive model utility and up to $56.1\\%$ less cumulative unlearning time than re-optimization. Compared with first-order baselines, our methods reduce communication overhead by up to approximately four orders of magnitude.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Weijun Yin",
+            "orcid": "https://orcid.org/0009-0007-4930-1399"
+          },
+          {
+            "name": "Yanqing Yao",
+            "orcid": "https://orcid.org/0000-0002-4181-2166"
+          },
+          {
+            "name": "Falko Dressler",
+            "orcid": "https://orcid.org/0000-0002-1989-1750"
+          },
+          {
+            "name": "Di Wang",
+            "orcid": null
+          },
+          {
+            "name": "Youming Tao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.35211",
+        "landing_page": "https://arxiv.org/abs/2610.35211",
+        "open_access_url": "https://arxiv.org/abs/2610.35211",
+        "openalex_id": "https://openalex.org/W7224009293",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7224009293",
+        "publication_date": "2026-10-26",
+        "title": "Efficient Exact Unlearning for Federated Zeroth-Order Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-03T00:40:49.804458Z",
+      "status": "found"
     },
     "openalex:title:e00396db83c2be4dfa3b2619e0516ab79abbb024e2859904bc0448d3028aa0ce": {
       "expires_at": "2026-10-10T01:04:48.916456Z",
@@ -35983,6 +36545,52 @@
       "record": null,
       "retrieved_at": "2026-08-04T09:38:34.725114Z",
       "status": "not_found"
+    },
+    "openalex:title:e5d285b71b94993f274bda3a03ec527f3046c5e43b7c11bd632382477db3e8af": {
+      "expires_at": "2026-11-10T00:40:40.188207Z",
+      "record": {
+        "abstract": "While Variational Quantum Eigensolver (VQE) variants are among leading candidates for electronic structure calculations on quantum computers, gradient-based operator selection limits their scalability. To solve this, we introduce the Hamiltonian-gradient-free VULCAN (Variational Upbuilding, Layered Compression, Adaptive N-body perturbation) layered VQE framework. Our method dynamically generates ansatz operators using Variational Double Bracket Flow (VDBF) equations. Combined with a linearly scaling minimal complete pool, it creates a pool 4-12 times smaller than QEB (Qubit-Excitation-Based) pools. By appending entire layers simultaneously, Hamiltonian gradient measurements are completely eliminated. Circuit depth is managed via a grow-then-compress scheme using efficient state-overlap measurements, and qubit requirements are reduced by projecting the Hamiltonian onto a dominant-determinant subspace. Using high-performance emulation up to 32 logical qubits, we achieve chemical accuracy at just 5-20% of the measurement cost of batched ADAPT-VQE for hydrogen chains, BeH2 and H2O. For the 32-qubit C3H6, where batched ADAPT-VQE does not reach chemical accuracy, a single VULCAN layer combined with a GPU-accelerated stochastic Epstein-Nesbet (ENPT2) correction does. This stochastic ENPT2 post-processing step enables early termination at chemical accuracy.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hugo Demattos Nogueira",
+            "orcid": "https://orcid.org/0000-0003-1663-5476"
+          },
+          {
+            "name": "Siwar Badreddine",
+            "orcid": "https://orcid.org/0000-0002-3976-8813"
+          },
+          {
+            "name": "Olivier Adjoua",
+            "orcid": "https://orcid.org/0009-0008-1539-8230"
+          },
+          {
+            "name": "Diata Traoré",
+            "orcid": "https://orcid.org/0000-0003-0179-8002"
+          },
+          {
+            "name": "Guillaume Michel",
+            "orcid": null
+          },
+          {
+            "name": "Jean‐Philip Piquemal",
+            "orcid": "https://orcid.org/0000-0001-6615-9426"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.40561",
+        "landing_page": "https://arxiv.org/abs/2610.40561",
+        "open_access_url": "https://arxiv.org/abs/2610.40561",
+        "openalex_id": "https://openalex.org/W7224744117",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7224744117",
+        "publication_date": "2026-10-29",
+        "title": "Grow, Compress, and Perturb: A Hybrid Quantum-Classical Pathway to Scalable Quantum Chemistry on Quantum Computers",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-03T00:40:40.188207Z",
+      "status": "found"
     },
     "openalex:title:e626e2920d2245a773b1e3b6bf9e0aeb2c1ab5520b5c4d8576d61eef43abc84b": {
       "expires_at": "2026-09-24T01:02:58.086148Z",

@@ -1,60 +1,85 @@
 {
-  "abstract_fallback_candidate_ids": [],
-  "abstract_fallback_count": 0,
+  "abstract_fallback_candidate_ids": [
+    "b8423ccc73119513c6a02810",
+    "6584a28300e4e24252061ccc"
+  ],
+  "abstract_fallback_count": 2,
   "architecture_evidence": {
-    "a390258440d82a472251969b": {
+    "6584a28300e4e24252061ccc": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": "unclear",
       "resolved_type": "unclear"
+    },
+    "b8423ccc73119513c6a02810": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [
+        "The hidden layers employ thermal phase shifter arrays for programmable matrix operations, and germanium microstructures provide on-chip nonlinear activation functions."
+      ],
+      "previous_type": "integrated",
+      "resolved_type": "integrated"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 1,
-  "completed_at": "2026-11-02T00:43:30.470449Z",
+  "automatic_queue_candidate_count": 2,
+  "completed_at": "2026-11-03T00:41:28.392455Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "a390258440d82a472251969b"
+    "6584a28300e4e24252061ccc",
+    "b8423ccc73119513c6a02810"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-11-02",
-  "digest_json_file": "runtime-state/data/digests/2026-11-02.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-11-02.generated.md",
+  "digest_date": "2026-11-03",
+  "digest_json_file": "runtime-state/data/digests/2026-11-03.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-11-03.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.016284,
+  "estimated_cost_cny": 0.0247534,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "a390258440d82a472251969b": {
+    "6584a28300e4e24252061ccc": {
       "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "a390258440d82a472251969b",
-      "character_count": 77,
-      "content_sha256": "443ebfacb003e2965f2c640cfb80da599234f369a68072cfd739f4478ff8f098",
-      "elapsed_seconds": 1.615,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "text/html",
-      "section_headings": [
-        "Photon-Counting Noise and Ornstein–Uhlenbeck Heater Drift in In-Situ Training of Quantum Photonic Neural Networks: An Equal-Budget Benchmark of Derivative-Free and Finite-Difference Optimizers",
-        "QPNN_insitu_training_benchmark.zip"
-      ],
-      "source_url": "https://zenodo.org/records/23830340",
-      "status": "used",
+      "attempt_count": 3,
+      "candidate_id": "6584a28300e4e24252061ccc",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 0.546,
+      "error": "https://doi.org/10.1002/nap2.70342: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1002/nap2.70342",
+      "status": "not_available",
+      "text_persisted": false
+    },
+    "b8423ccc73119513c6a02810": {
+      "abstract_available": true,
+      "attempt_count": 3,
+      "candidate_id": "b8423ccc73119513c6a02810",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 2.62,
+      "error": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14306/3121864/All-optical-speech-recognition-based-on-nonlinear-diffractive-neural-network/10.1117/12.3121864.full: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1117/12.3121864",
+      "status": "not_available",
       "text_persisted": false
     }
   },
   "full_text_persisted": false,
-  "full_text_used": true,
+  "full_text_used": false,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+  "information_basis": "title_metadata_and_abstract_only",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 1,
+  "newly_completed_candidate_count": 2,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -70,87 +95,121 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 1,
+  "prepared_request_count": 2,
   "provider": "deepseek",
-  "queue_sha256": "4c9395a557f983877851dda961624c1da7d7736e5ecbd70fc67dff04ad9a0ace",
-  "request_count": 1,
-  "request_file": "runtime-state/data/summary_requests/2026-11-02.jsonl",
-  "request_sha256": "f0fa4814f309cfbe607e266c39d3a92c5d8a9272edb276df72369c4f3364aa36",
+  "queue_sha256": "eb1523a9d4ced70c860d9b4a3e1599fb4295b212a640208e5134cb818da661d4",
+  "request_count": 2,
+  "request_file": "runtime-state/data/summary_requests/2026-11-03.jsonl",
+  "request_sha256": "25cf34e699137a3b7c9a9a894fbaacb2d0cfbaf5d5fc3e65a6d184fe481d0313",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "205d900a6d2da7459f59d685ee43969e999cd0f3604b5d03ba7f3564bef106be",
+  "selection_manifest_sha256": "81f226cc2e22ccc2a94a6e16be0257a032c9e0b0a7a241d16f65fcde272f1409",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 1,
+  "source_queue_candidate_count": 2,
   "stage_timings": {
-    "full_text_preparation_seconds": 1.619,
+    "full_text_preparation_seconds": 3.17,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "a390258440d82a472251969b",
-        "elapsed_seconds": 17.481,
+        "candidate_id": "b8423ccc73119513c6a02810",
+        "elapsed_seconds": 14.126,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1770,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 1872,
-          "prompt_tokens": 3792,
-          "total_tokens": 5562
+          "completion_tokens": 1329,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1436,
+          "prompt_tokens": 3484,
+          "total_tokens": 4813
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "6584a28300e4e24252061ccc",
+        "elapsed_seconds": 13.602,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1329,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1465,
+          "prompt_tokens": 3513,
+          "total_tokens": 4842
         }
       }
     ],
-    "model_generation_and_validation_seconds": 17.497
+    "model_generation_and_validation_seconds": 27.739
   },
   "status": "completed_automatic",
-  "summary_count": 1,
-  "summary_file": "runtime-state/data/summaries/2026-11-02.jsonl",
+  "summary_count": 2,
+  "summary_file": "runtime-state/data/summaries/2026-11-03.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 1,
+  "summary_slot_count": 2,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "a390258440d82a472251969b": {
+      "6584a28300e4e24252061ccc": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": "integrated",
+        "model_value": "free_space",
         "repaired": true,
         "resolved_type": "unclear"
+      },
+      "b8423ccc73119513c6a02810": {
+        "free_space_evidence": [],
+        "integrated_evidence": [
+          "The hidden layers employ thermal phase shifter arrays for programmable matrix operations, and germanium microstructures provide on-chip nonlinear activation functions."
+        ],
+        "model_value": "integrated",
+        "repaired": false,
+        "resolved_type": "integrated"
       }
     },
     "architecture_repairs": 1,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "a390258440d82a472251969b": {
+      "6584a28300e4e24252061ccc": {
         "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "a390258440d82a472251969b",
-        "character_count": 77,
-        "content_sha256": "443ebfacb003e2965f2c640cfb80da599234f369a68072cfd739f4478ff8f098",
-        "elapsed_seconds": 1.615,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "text/html",
-        "section_headings": [
-          "Photon-Counting Noise and Ornstein–Uhlenbeck Heater Drift in In-Situ Training of Quantum Photonic Neural Networks: An Equal-Budget Benchmark of Derivative-Free and Finite-Difference Optimizers",
-          "QPNN_insitu_training_benchmark.zip"
-        ],
-        "source_url": "https://zenodo.org/records/23830340",
-        "status": "used",
+        "attempt_count": 3,
+        "candidate_id": "6584a28300e4e24252061ccc",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 0.546,
+        "error": "https://doi.org/10.1002/nap2.70342: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1002/nap2.70342",
+        "status": "not_available",
+        "text_persisted": false
+      },
+      "b8423ccc73119513c6a02810": {
+        "abstract_available": true,
+        "attempt_count": 3,
+        "candidate_id": "b8423ccc73119513c6a02810",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 2.62,
+        "error": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14306/3121864/All-optical-speech-recognition-based-on-nonlinear-diffractive-neural-network/10.1117/12.3121864.full: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1117/12.3121864",
+        "status": "not_available",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 0,
+    "generation_metadata_repair_responses": 2,
     "numeric_grounding_repair_responses": 0,
     "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 1,
+    "tops_alias_expansions": 0,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 1770,
-    "prompt_cache_hit_tokens": 1920,
-    "prompt_cache_miss_tokens": 1872,
-    "prompt_tokens": 3792,
-    "total_tokens": 5562
+    "completion_tokens": 2658,
+    "prompt_cache_hit_tokens": 4096,
+    "prompt_cache_miss_tokens": 2901,
+    "prompt_tokens": 6997,
+    "total_tokens": 9655
   }
 }
