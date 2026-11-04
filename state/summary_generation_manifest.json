@@ -1,85 +1,94 @@
 {
-  "abstract_fallback_candidate_ids": [
-    "b8423ccc73119513c6a02810",
-    "6584a28300e4e24252061ccc"
-  ],
-  "abstract_fallback_count": 2,
+  "abstract_fallback_candidate_ids": [],
+  "abstract_fallback_count": 0,
   "architecture_evidence": {
-    "6584a28300e4e24252061ccc": {
+    "56dc775d182273c3cd77748e": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": "unclear",
       "resolved_type": "unclear"
-    },
-    "b8423ccc73119513c6a02810": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [
-        "The hidden layers employ thermal phase shifter arrays for programmable matrix operations, and germanium microstructures provide on-chip nonlinear activation functions."
-      ],
-      "previous_type": "integrated",
-      "resolved_type": "integrated"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 2,
-  "completed_at": "2026-11-03T00:41:28.392455Z",
+  "automatic_queue_candidate_count": 1,
+  "completed_at": "2026-11-04T00:40:23.771802Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "6584a28300e4e24252061ccc",
-    "b8423ccc73119513c6a02810"
+    "56dc775d182273c3cd77748e"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-11-03",
-  "digest_json_file": "runtime-state/data/digests/2026-11-03.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-11-03.generated.md",
+  "digest_date": "2026-11-04",
+  "digest_json_file": "runtime-state/data/digests/2026-11-04.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-11-04.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0247534,
+  "estimated_cost_cny": 0.024999,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "6584a28300e4e24252061ccc": {
+    "56dc775d182273c3cd77748e": {
       "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "6584a28300e4e24252061ccc",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 0.546,
-      "error": "https://doi.org/10.1002/nap2.70342: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.1002/nap2.70342",
-      "status": "not_available",
-      "text_persisted": false
-    },
-    "b8423ccc73119513c6a02810": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "b8423ccc73119513c6a02810",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 2.62,
-      "error": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14306/3121864/All-optical-speech-recognition-based-on-nonlinear-diffractive-neural-network/10.1117/12.3121864.full: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.1117/12.3121864",
-      "status": "not_available",
+      "attempt_count": 1,
+      "candidate_id": "56dc775d182273c3cd77748e",
+      "character_count": 12000,
+      "content_sha256": "e76acd0bd49f26e687aa7ab15bbe5e7a966255cab443406c2970cdd6cac5c443",
+      "elapsed_seconds": 2.974,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "application/pdf",
+      "section_headings": [
+        "Fig. S12. T he femtosecond laser micro /nanofabrication system for preparing diffractive",
+        "Fig. S15. Screenshot of speckle and zero-latency D²NN optical processing training videos",
+        "Method section",
+        "Numerical analysis and experimental setup",
+        "D2NN phase mask fabrication",
+        "Training processes of U-Net and D²NN",
+        "Residual U-Net leveraged dual shortcut synergy: residual connections stabilize deep training",
+        "granting unmatched resilience to real-world optical distortions without retraining. Its RGB-native",
+        "gradient vanishing and improved training stability. The lowest -resolution feature map captured",
+        "results at different training epochs alongside peak signal-to-noise ratio (PSNR) values, a standard",
+        "in decibels, dB). These rows represented increasing training epochs: Epoch 50, Epoch 150, Epoch",
+        "250, Epoch 350, and the final converged re construction. As training progresse d, the network",
+        "training even at high epochs (as seen in the steady PSNR gains up to 350 epochs). The final",
+        "n ≈ 1.53 was the refractive index of the IP -Dip photoresist used for fabrication. Rearranging",
+        "spanned computational design, additive manufacturing, and post-fabrication characterization. (a)",
+        "Fig. S12. The femtosecond laser micro /nanofabrication system for preparing diffractive phase",
+        "system’s patterning capabilities. (a) A femtosecond laser fabrication setup presented the complete",
+        "femtosecond laser direct writing system for on -fiber phase mask fabrication. The setup was built",
+        "aperture objective lens. A customized mounter held the AR -HCF sample during fabrication. An",
+        "training process, the phase distribution of each layer was continuously optimized by minimizing",
+        "Fig. S15. Screenshot of speckle and zero-latency D²NN optical processing training videos through",
+        "Net-based image reconstruction; (iii) design, femtosecond- laser fabrication, and experimental",
+        "was measured via the cutback method to be <0.5dB/m. At a bending radius of 5cm, the loss",
+        "2NN phase mask fabrication",
+        "multi-axis piezoelectric stage for accurate alignment during fabrication. A thin layer of IP -Dip",
+        "diffusive phase processor onto the distal facet (Fig. S12). The fiber-integrated fabrication platform",
+        "all optimized fo r fiber-end nanofabrication. The femtosecond laser source was Coherent Axon",
+        "built software suite that translates 3D CAD models into machine -executable fabrication",
+        "into 8,000 training samples and 2,000 test samples. The model adopted an encoder –decoder U-",
+        "deep network training. Loss Function & Optimizer",
+        "retraining, validating its bending robustness inherited from the AR-HCF. We iteratively optimized",
+        "learning rate decay strategy is applied to reduce osci llations in later training stages and improve",
+        "stopping are used to prevent overfitting. Independent training of RGB channels and feature",
+        "physical diffraction constraints. Training was conducted strictly following Rayleigh–Sommerfeld",
+        "diffraction theory and simulated using the angular spectrum method. Only phase-only modulation",
+        "standard MNIST handwritten digit dataset was used, with 5,000 image–speckle training pairs and"
+      ],
+      "source_url": "https://s3-eu-west-1.amazonaws.com/pstorage-osa-2151918321/70997493/8053263.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIC5UZOEV5G5EP3CQ/20261104/eu-west-1/s3/aws4_request&X-Amz-Date=20261104T004000Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=7db02fc5d56cc656c53243e9e9aa507d0c62a68400c09b820cbec8045f92acb4",
+      "status": "used",
       "text_persisted": false
     }
   },
   "full_text_persisted": false,
-  "full_text_used": false,
+  "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_and_abstract_only",
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 2,
+  "newly_completed_candidate_count": 1,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -95,121 +104,160 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 2,
+  "prepared_request_count": 1,
   "provider": "deepseek",
-  "queue_sha256": "eb1523a9d4ced70c860d9b4a3e1599fb4295b212a640208e5134cb818da661d4",
-  "request_count": 2,
-  "request_file": "runtime-state/data/summary_requests/2026-11-03.jsonl",
-  "request_sha256": "25cf34e699137a3b7c9a9a894fbaacb2d0cfbaf5d5fc3e65a6d184fe481d0313",
+  "queue_sha256": "a6915d441bfe3af3dfee43a7f90766e7a6c575bbd82e7e545013042438f93748",
+  "request_count": 1,
+  "request_file": "runtime-state/data/summary_requests/2026-11-04.jsonl",
+  "request_sha256": "d010ed187d8ad6eb10966587ed0699661733d74da4b070cc303895f67bf522ce",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "81f226cc2e22ccc2a94a6e16be0257a032c9e0b0a7a241d16f65fcde272f1409",
+  "selection_manifest_sha256": "0cd5e9c00d82099a164485b573692195f5bfb354308d2e21a4fbcda4f312c3a1",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 2,
+  "source_queue_candidate_count": 1,
   "stage_timings": {
-    "full_text_preparation_seconds": 3.17,
+    "full_text_preparation_seconds": 2.978,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "b8423ccc73119513c6a02810",
-        "elapsed_seconds": 14.126,
+        "candidate_id": "56dc775d182273c3cd77748e",
+        "elapsed_seconds": 20.931,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1329,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1436,
-          "prompt_tokens": 3484,
-          "total_tokens": 4813
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "6584a28300e4e24252061ccc",
-        "elapsed_seconds": 13.602,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1329,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1465,
-          "prompt_tokens": 3513,
-          "total_tokens": 4842
+          "completion_tokens": 1827,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 4663,
+          "prompt_tokens": 6583,
+          "total_tokens": 8410
         }
       }
     ],
-    "model_generation_and_validation_seconds": 27.739
+    "model_generation_and_validation_seconds": 20.943
   },
   "status": "completed_automatic",
-  "summary_count": 2,
-  "summary_file": "runtime-state/data/summaries/2026-11-03.jsonl",
+  "summary_count": 1,
+  "summary_file": "runtime-state/data/summaries/2026-11-04.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 2,
+  "summary_slot_count": 1,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "6584a28300e4e24252061ccc": {
+      "56dc775d182273c3cd77748e": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": "free_space",
+        "model_value": "hybrid",
         "repaired": true,
         "resolved_type": "unclear"
-      },
-      "b8423ccc73119513c6a02810": {
-        "free_space_evidence": [],
-        "integrated_evidence": [
-          "The hidden layers employ thermal phase shifter arrays for programmable matrix operations, and germanium microstructures provide on-chip nonlinear activation functions."
-        ],
-        "model_value": "integrated",
-        "repaired": false,
-        "resolved_type": "integrated"
       }
     },
     "architecture_repairs": 1,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "6584a28300e4e24252061ccc": {
+      "56dc775d182273c3cd77748e": {
         "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "6584a28300e4e24252061ccc",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 0.546,
-        "error": "https://doi.org/10.1002/nap2.70342: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.1002/nap2.70342",
-        "status": "not_available",
-        "text_persisted": false
-      },
-      "b8423ccc73119513c6a02810": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "b8423ccc73119513c6a02810",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 2.62,
-        "error": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14306/3121864/All-optical-speech-recognition-based-on-nonlinear-diffractive-neural-network/10.1117/12.3121864.full: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.1117/12.3121864",
-        "status": "not_available",
+        "attempt_count": 1,
+        "candidate_id": "56dc775d182273c3cd77748e",
+        "character_count": 12000,
+        "content_sha256": "e76acd0bd49f26e687aa7ab15bbe5e7a966255cab443406c2970cdd6cac5c443",
+        "elapsed_seconds": 2.974,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "application/pdf",
+        "section_headings": [
+          "Fig. S12. T he femtosecond laser micro /nanofabrication system for preparing diffractive",
+          "Fig. S15. Screenshot of speckle and zero-latency D²NN optical processing training videos",
+          "Method section",
+          "Numerical analysis and experimental setup",
+          "D2NN phase mask fabrication",
+          "Training processes of U-Net and D²NN",
+          "Residual U-Net leveraged dual shortcut synergy: residual connections stabilize deep training",
+          "granting unmatched resilience to real-world optical distortions without retraining. Its RGB-native",
+          "gradient vanishing and improved training stability. The lowest -resolution feature map captured",
+          "results at different training epochs alongside peak signal-to-noise ratio (PSNR) values, a standard",
+          "in decibels, dB). These rows represented increasing training epochs: Epoch 50, Epoch 150, Epoch",
+          "250, Epoch 350, and the final converged re construction. As training progresse d, the network",
+          "training even at high epochs (as seen in the steady PSNR gains up to 350 epochs). The final",
+          "n ≈ 1.53 was the refractive index of the IP -Dip photoresist used for fabrication. Rearranging",
+          "spanned computational design, additive manufacturing, and post-fabrication characterization. (a)",
+          "Fig. S12. The femtosecond laser micro /nanofabrication system for preparing diffractive phase",
+          "system’s patterning capabilities. (a) A femtosecond laser fabrication setup presented the complete",
+          "femtosecond laser direct writing system for on -fiber phase mask fabrication. The setup was built",
+          "aperture objective lens. A customized mounter held the AR -HCF sample during fabrication. An",
+          "training process, the phase distribution of each layer was continuously optimized by minimizing",
+          "Fig. S15. Screenshot of speckle and zero-latency D²NN optical processing training videos through",
+          "Net-based image reconstruction; (iii) design, femtosecond- laser fabrication, and experimental",
+          "was measured via the cutback method to be <0.5dB/m. At a bending radius of 5cm, the loss",
+          "2NN phase mask fabrication",
+          "multi-axis piezoelectric stage for accurate alignment during fabrication. A thin layer of IP -Dip",
+          "diffusive phase processor onto the distal facet (Fig. S12). The fiber-integrated fabrication platform",
+          "all optimized fo r fiber-end nanofabrication. The femtosecond laser source was Coherent Axon",
+          "built software suite that translates 3D CAD models into machine -executable fabrication",
+          "into 8,000 training samples and 2,000 test samples. The model adopted an encoder –decoder U-",
+          "deep network training. Loss Function & Optimizer",
+          "retraining, validating its bending robustness inherited from the AR-HCF. We iteratively optimized",
+          "learning rate decay strategy is applied to reduce osci llations in later training stages and improve",
+          "stopping are used to prevent overfitting. Independent training of RGB channels and feature",
+          "physical diffraction constraints. Training was conducted strictly following Rayleigh–Sommerfeld",
+          "diffraction theory and simulated using the angular spectrum method. Only phase-only modulation",
+          "standard MNIST handwritten digit dataset was used, with 5,000 image–speckle training pairs and"
+        ],
+        "source_url": "https://s3-eu-west-1.amazonaws.com/pstorage-osa-2151918321/70997493/8053263.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIC5UZOEV5G5EP3CQ/20261104/eu-west-1/s3/aws4_request&X-Amz-Date=20261104T004000Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=7db02fc5d56cc656c53243e9e9aa507d0c62a68400c09b820cbec8045f92acb4",
+        "status": "used",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 2,
-    "numeric_grounding_repair_responses": 0,
-    "numeric_grounding_repairs": {},
-    "tops_alias_expansions": 0,
-    "unit_format_normalization_responses": 0
+    "generation_metadata_repair_responses": 1,
+    "numeric_grounding_repair_responses": 1,
+    "numeric_grounding_repairs": {
+      "56dc775d182273c3cd77748e": [
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "训练时使用标准MNIST手写数字数据集，生成5000对图像-散斑训练对，通过最小化损失函数迭代优化每层相位分布。",
+          "path": "method_implementation[1]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "5000"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "实验测量光纤损耗：通过截断法测得AR-HCF损耗小于0.5 dB/m；",
+          "path": "method_implementation[3]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "0.5"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "训练数据包含8000训练样本和2000测试样本，涵盖直线和弯曲光纤散斑。",
+          "path": "method_implementation[4]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "8000"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "AR-HCF损耗通过截断法测得小于0.5 dB/m。",
+          "path": "reported_results[0].claim",
+          "replacement": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "0.5"
+          ]
+        }
+      ]
+    },
+    "tops_alias_expansions": 41,
+    "unit_format_normalization_responses": 1
   },
   "usage": {
-    "completion_tokens": 2658,
-    "prompt_cache_hit_tokens": 4096,
-    "prompt_cache_miss_tokens": 2901,
-    "prompt_tokens": 6997,
-    "total_tokens": 9655
+    "completion_tokens": 1827,
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 4663,
+    "prompt_tokens": 6583,
+    "total_tokens": 8410
   }
 }

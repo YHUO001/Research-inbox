@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`116`
-- 更新时间：`2026-11-03T00:41:28.392455Z`
+- 论文数：`117`
+- 更新时间：`2026-11-04T00:40:23.771802Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Supplementary document for Femtosecond laser integrating optical diffractive neural network for air-core fiber image transmission - 8053263.pdf
+
+- DOI/链接：[10.6084/m9.figshare.33735265](https://doi.org/10.6084/m9.figshare.33735265)
+- 期刊/年份：Figshare，2026
+- 摘要日期：`2026-11-04`
+- 候选 ID：`56dc775d182273c3cd77748e`
+- 标签：application:彩色图像恢复, application:散斑图像重建, application:生物细胞成像, application:空芯光纤图像传输, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Multitask Diffractive Deep Neural Networks Enabled by Joint Distance–Frequency Encoding
 

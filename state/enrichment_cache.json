@@ -8986,6 +8986,27 @@
       "retrieved_at": "2026-08-28T03:25:34.221155Z",
       "status": "not_found"
     },
+    "crossref:doi:10.6084/m9.figshare.33735265": {
+      "expires_at": "2026-12-04T00:39:56.551000Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [],
+        "cited_by_count": 0,
+        "doi": "10.6084/m9.figshare.33735265",
+        "landing_page": "https://doi.org/10.6084/m9.figshare.33735265",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.6084/m9.figshare.33735265",
+        "publication_date": null,
+        "title": null,
+        "venue": null,
+        "year": null
+      },
+      "retrieved_at": "2026-11-04T00:39:56.551000Z",
+      "status": "found"
+    },
     "crossref:doi:10.6084/m9.figshare.c.8610155.v1": {
       "expires_at": "2026-10-14T01:07:35.185501Z",
       "record": null,
@@ -31305,6 +31326,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-28T03:25:34.545214Z",
+      "status": "found"
+    },
+    "openalex:doi:10.6084/m9.figshare.33735265": {
+      "expires_at": "2026-12-04T00:39:56.743775Z",
+      "record": {
+        "abstract": "Supplementary materials of revised manuscript",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yufeng Tao",
+            "orcid": null
+          },
+          {
+            "name": "liansheng Lin",
+            "orcid": null
+          },
+          {
+            "name": "Chunjie Yang",
+            "orcid": null
+          },
+          {
+            "name": "Yuqi Gong",
+            "orcid": "https://orcid.org/0000-0003-4216-7856"
+          },
+          {
+            "name": "Xuejiao Wang",
+            "orcid": null
+          },
+          {
+            "name": "Xinhong Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Hui Hao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.6084/m9.figshare.33735265",
+        "landing_page": "https://doi.org/10.6084/m9.figshare.33735265",
+        "open_access_url": "https://doi.org/10.6084/m9.figshare.33735265",
+        "openalex_id": "https://openalex.org/W7225083385",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225083385",
+        "publication_date": "2026-11-02",
+        "title": "Supplementary document for Femtosecond laser integrating optical diffractive neural network for air-core fiber image transmission - 8053263.pdf",
+        "venue": "Figshare",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-04T00:39:56.743775Z",
       "status": "found"
     },
     "openalex:doi:10.6084/m9.figshare.c.8610155.v1": {

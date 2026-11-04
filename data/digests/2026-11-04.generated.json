@@ -1,0 +1,106 @@
+{
+  "completion": {
+    "architecture_repairs": 0,
+    "completed_at": "2026-11-04T00:40:23.771802Z",
+    "mode": "automatic_daily_batch_after_local_validation"
+  },
+  "delivery": {
+    "mode": "separate_daily_digest_workflow",
+    "status": "pending"
+  },
+  "digest_date": "2026-11-04",
+  "digest_version": 2,
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": true,
+    "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+    "numeric_grounding_scope": "title_and_abstract_only",
+    "review_required": false,
+    "summary_history_updated": true
+  },
+  "schema_version": 2,
+  "status": "completed_automatic",
+  "summaries": [
+    {
+      "candidate_id": "56dc775d182273c3cd77748e",
+      "core_problem": "论文针对空气芯光纤图像传输中因模式耦合和弯曲导致的散斑退化问题，提出将飞秒激光制备的衍射神经网络（D2NN）集成在反谐振空芯光纤（AR-HCF）端面，以实现无需电子计算延迟的光学图像重建。",
+      "distinction_from_prior_work": "与已有固体多模光纤散斑重建方案不同，本工作采用反谐振空芯光纤抑制模式耦合，并将衍射神经网络直接集成在光纤端面，利用飞秒激光双光子聚合制备相位掩模，实现紧凑、零延迟的光学重建，且对弯曲具有鲁棒性。",
+      "limitations_and_open_questions": [
+        "D2NN硬件仅处理单波长灰度帧，彩色重建依赖RGB通道顺序处理，尚未实现原生多波长并行重建。",
+        "实验中对弯曲半径等参数的具体影响未提供全面定量分析，仅给出定性描述。",
+        "未提供D2NN相位掩模的衍射效率、插入损耗等具体性能指标。"
+      ],
+      "main_contributions": [
+        "设计并制备了集成在AR-HCF端面的紧凑型衍射神经网络光学处理器。",
+        "采用飞秒激光双光子聚合技术在光纤端面制造相位掩模，实现无源、零延迟的光学计算。",
+        "通过残余U-Net深度学习算法辅助设计相位掩模并在电子端重建彩色图像。",
+        "验证了系统在光纤弯曲条件下对散斑图像的重建鲁棒性。"
+      ],
+      "method_and_architecture": "系统包括12毛细管反谐振空芯光纤（120 μm空气芯）、端面集成的衍射神经网络相位掩模、以及残余U-Net电子重建网络。光纤传输矩阵描述输入输出关系，相位掩模通过逐像素高度调制实现衍射计算，RGB通道独立处理和重建。",
+      "method_implementation": [
+        "首先制备反谐振空芯光纤：采用12毛细管结构的AR-HCF，空气芯直径120 μm，通过抑制耦合机制导光，工作波长532 nm。实验中使用定制夹具固定AR-HCF样品，飞秒激光直写系统（Coherent Axon）配备物镜和多轴压电平台，在光纤端面涂覆IP-Dip光刻胶（折射率约1.53）。",
+        "衍射神经网络相位掩模的设计基于瑞利-索末菲衍射理论和角谱法仿真，仅采用相位调制。相关定量细节未在标题、摘要或公开正文方法上下文中提供。相位值映射为物理高度：h = φλ/(2π(n-1))，其中λ=532 nm，n≈1.53。",
+        "相位掩模通过飞秒激光双光子聚合法在光纤端面制造：激光直写系统根据CAD模型逐点扫描，将设计的三维结构固化，形成衍射神经元阵列。制备后使用扫描电子显微镜表征端面形貌，确认两层相位掩模结构。",
+        "相关定量细节未在标题、摘要或公开正文方法上下文中提供。在弯曲半径5 cm时损耗未提供具体值但表明弯曲鲁棒性。光学重建实验将输入图像（如手写字母、数字、彩色细胞图像）通过光纤传输，端面D2NN进行光学处理，输出散斑或重建光场由相机记录。",
+        "电子端重建使用残余U-Net：网络输入为96×96散斑图像，输出重建图像。RGB通道独立训练，损失函数结合像素损失和结构相似性，优化器采用学习率衰减和早停策略。相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+        "训练过程迭代至350个epoch，PSNR值逐步提升：例如红色通道从13.1 dB升至32.9 dB，绿色从17.3 dB至34.6 dB，蓝色从20.1 dB至34.8 dB，最终所有通道PSNR超过30 dB。彩色图像由三个单色重建结果合成。"
+      ],
+      "method_principle": "方法原理基于光波在空芯光纤中的传输和端面衍射调制的协同：AR-HCF利用抑制耦合机制维持低模式串扰，使输出散斑保留输入图像的线性可逆信息；端面相位掩模作为衍射神经网络，通过每个像素的相位延迟（由材料高度决定）对光场进行空间调制，在光学域执行矩阵乘法，实现零延迟特征提取和重建。相位掩模的设计通过深度学习优化，将期望光学变换编码为相位分布；残余U-Net则在电子端进一步恢复细节，弥补衍射计算的有限精度。两者结合利用光学高速并行性和电子精细重建能力，克服弯曲导致的模式扰动，实现无需电子延迟的图像传输与重建。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "空芯光纤图像传输",
+          "散斑图像重建",
+          "彩色图像恢复",
+          "生物细胞成像"
+        ],
+        "architecture_type": "unclear",
+        "calibration_requirements": "需要精确控制飞秒激光直写系统的定位和固化深度，确保相位掩模高度与设计值一致；光纤端面需清洁和平整，可能需要进行对准校准。",
+        "hardware_validation": "physical_experiment",
+        "optical_nonlinearity": "衍射神经网络仅采用线性相位调制，无光学非线性；非线性重建任务由电子残余U-Net完成。",
+        "training_method": "相位掩模通过基于瑞利-索末菲衍射理论和角谱法的仿真训练，以均方误差等损失函数反向传播优化相位分布；电子残余U-Net使用监督学习，以成对散斑-图像数据训练。"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "在弯曲半径5 cm时，损耗未提供具体数值但表明弯曲鲁棒性。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "最终重建图像的PSNR超过30 dB，红色通道从13.1 dB升至32.9 dB，绿色从17.3 dB升至34.6 dB，蓝色从20.1 dB升至34.8 dB。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "彩色重建图像的SSIM超过0.82。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该工作展示了将衍射神经网络集成于空芯光纤端面实现零延迟光学图像重建的可行性，为微型化、抗弯曲的光纤内窥镜和图像传输系统提供了新方案，同时结合深度学习进一步提升了彩色图像恢复质量。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": true,
+        "full_text_method_source_url": "https://s3-eu-west-1.amazonaws.com/pstorage-osa-2151918321/70997493/8053263.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIC5UZOEV5G5EP3CQ/20261104/eu-west-1/s3/aws4_request&X-Amz-Date=20261104T004000Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=7db02fc5d56cc656c53243e9e9aa507d0c62a68400c09b820cbec8045f92acb4",
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+        "missing_information": [
+          "未提供弯曲半径为5 cm时的具体损耗值。",
+          "未提供衍射效率等相位掩模性能参数。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    }
+  ],
+  "summary_count": 1
+}
