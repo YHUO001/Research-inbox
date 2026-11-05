@@ -1,0 +1,219 @@
+{
+  "completion": {
+    "architecture_repairs": 0,
+    "completed_at": "2026-11-05T00:42:29.214517Z",
+    "mode": "automatic_daily_batch_after_local_validation"
+  },
+  "delivery": {
+    "mode": "separate_daily_digest_workflow",
+    "status": "pending"
+  },
+  "digest_date": "2026-11-05",
+  "digest_version": 2,
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": true,
+    "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+    "numeric_grounding_scope": "title_and_abstract_only",
+    "review_required": false,
+    "summary_history_updated": true
+  },
+  "schema_version": 2,
+  "status": "completed_automatic",
+  "summaries": [
+    {
+      "candidate_id": "8c41a3326d64abdd0bb9d1a7",
+      "core_problem": "论文提出 ENGINE 方法，针对零阶优化在大语言模型微调中面临的全空间高方差与低维子空间信息丢失的两难困境：全空间优化信息丰富但方差大，子空间优化方差低但丢失关键高维信息。",
+      "distinction_from_prior_work": "现有零阶优化方法在全空间进行曲率感知更新时导致梯度方差爆炸和计算成本过高；将更新限制在低维子空间可以降低方差但丢失关键高维信息。ENGINE 首次将计算力学中的变分多尺度理论引入动态优化，通过 V-cycle 在低维子空间内高效采样，并周期性地从全空间注入细尺度曲率校正，从而同时获得低方差与高信息量。",
+      "limitations_and_open_questions": [
+        "理论分析基于适当的假设，如秩-1 Kronecker 曲率替代和线性化的 VMS 对偶，实际非线性训练的偏差需要进一步研究。",
+        "V-cycle 中粗、细尺度轮数 M 和 N 以及各超参数对性能的影响，论文中仅通过实验选择，缺乏自适应机制。",
+        "子网格校正的权重 λ_B、λ_A 使用角度差异作为代理，并不是理论上最优的混合系数；最优系数的在线估计仍未解决。",
+        "验证主要基于标准大语言模型基准，在更广泛的任务和模型规模上的适用性尚需探索。"
+      ],
+      "main_contributions": [
+        "提出 ENGINE，将静态变分多尺度理论转化为动态优化框架，用粗细尺度耦合打破全空间与子空间之间的方差-信息两难。",
+        "引入内禀算子概念，指出优化中的 Hessian 随迭代演化，因此细尺度闭合修正需通过 V-cycle 周期性刷新。",
+        "推导了秩-1 LoRA 分支替代下的子网格曲率校正项，并给出基于粗、细曲率角度差异的自适应混合权重。",
+        "通过统计分析与收敛分析，刻画了方差减少和曲率诱导偏差的校正，并建立了修正后粗尺度更新的平稳性界。",
+        "在标准大语言模型基准上验证了方法有效性，报告达到更高的准确率和更快的收敛，且最多获得 2.61 倍前向传播加速，无额外峰值显存开销。"
+      ],
+      "method_and_architecture": "ENGINE 是一种内禀变分多尺度优化方法，将 LoRA 因子空间视为已解析粗尺度，将全参数空间视为未解析细尺度，通过 V-cycle 周期性地在两者间交替：在粗尺度上高效采样更新 LoRA 因子，同时从细尺度注入曲率校正项，从而在低方差下保留关键高维信息。",
+      "method_implementation": [
+        "系统由 LoRA 因子空间（粗尺度）和全参数空间（细尺度）组成。每一层权重表示为 W = W0 + BA，其中 B ∈ R^{m×r}，A ∈ R^{r×n}，r 远小于 m 和 n。三个秩-1 曲率向量分别维护全空间曲率 v_f ∈ R^n 和两个 LoRA 分支曲率 v_B ∈ R^r、v_A ∈ R^n。算法交替执行 M 轮粗尺度阶段和 N 轮细尺度阶段；在粗尺度阶段只更新 LoRA 因子 (B, A)，在阶段边界才将更新合并到基础权重 W0。",
+        "粗尺度阶段采用零阶梯度估计。为了在 LoRA 坐标中采样，使用由曲率向量构建的秩-1 Kronecker 协方差矩阵作为预处理器；对当前参数施加各向异性扰动，得到 K 个扰动样本，并共享同一批扰动点与函数值来同时估计参数梯度和曲率梯度，因此一次更新仅需 K 次前向传播，没有额外前向传播成本用于曲率更新。",
+        "在每次粗尺度更新中，先计算纯粗尺度预条件方向 s_c = Σ_c R(G)，再由全空间与粗尺度曲率方向的不一致程度构造子网格残差 τ_sgs = R(Σ_f G) - Σ_c R(G)，其中 G 为全空间梯度（在零阶实现中由 RLOO 估计器替代）。分支残差由秩-1 曲率向量显式给出，最终更新方向为 s_c + λ τ_sgs，两个分支使用独立权重 λ_B, λ_A ∈ 一个有界范围，并根据粗、细曲率方向的角度差异动态调节。",
+        "细尺度阶段用于刷新全空间曲率向量 v_f。利用延拓算子 P 和受限算子 R（互为伴随）在粗、细尺度之间传递参数、动量和曲率信息。粗尺度阶段每轮更新同时也更新两个 LoRA 分支的曲率向量 v_B 和 v_A，其所需的扰动样本复用了参数梯度估计已生成的扰动点，因此不增加前向传播次数。",
+        "实验中所有实现基于 PyTorch，在标准大语言模型基准上评估。作者报告 ENGINE 在保持零额外峰值显存开销的情况下，前向传播次数比现有零阶方法最多减少 2.61 倍，同时获得更高精度和更快收敛。具体超参数如 M、N、K、学习率等详见附录，源代码可在 https://github.com/AI4Science-WestlakeU/ENGINE 获取。"
+      ],
+      "method_principle": "ENGINE 受计算力学中变分多尺度方法的启发。经典 VMS 将问题解分解为粗尺度分量和细尺度分量，细尺度由粗尺度残差驱动，最终得到包含细尺度反馈的闭合粗尺度方程。在优化中，牛顿步 H(θ)Δθ = -∇f(θ) 与线性方程 Lu = f 对应，但 Hessian 随迭代演化，因此闭合式需周期性刷新。ENGINE 将 LoRA 因子空间视为粗尺度，全参数空间视为细尺度。通过维数巨大的全空间 Hessian 的秩-1 Kronecker 替代构建预处理器，在粗尺度内使用只前向的零阶梯度估计进行低方差采样；同时利用受限算子与延拓算子的伴随性，计算粗、细尺度曲率方向的不一致作为子网格残差，将该残差加权注入粗尺度更新方向，从而校正仅由粗尺度曲率预条件引起的偏差。V-cycle 在若干轮粗尺度更新后进行细尺度曲率刷新，使细尺度状态保持新鲜。这样，ENGINE 在保持零额外峰值显存开销的同时，以少量前向传播次数获得了比纯子空间方法更准确的更新方向和更快的收敛。",
+      "optical_neural_network_analysis": null,
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "ENGINE 在标准大语言模型基准上达到比现有零阶方法更高的准确率和更快的收敛。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "ENGINE 最多获得 2.61 倍的前向传播加速，同时零额外峰值显存开销。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该研究为解决大语言模型零阶微调中的方差-信息权衡提供了新的理论视角和实用算法。它将成熟的多尺度数值方法思想迁移到深度优化中，可能推动更高效的参数高效微调和大规模黑盒优化发展。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": true,
+        "full_text_method_source_url": "https://arxiv.org/html/2611.03293",
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+        "missing_information": [],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": {
+        "forward_only": "ENGINE 是零阶方法，仅通过函数值评估（前向传播）来估计梯度信息，不需要反向传播。",
+        "low_rank_or_subspace": "ENGINE 将更新限制在低秩 LoRA 因子空间，但在粗尺度更新中注入来自全参数空间的曲率校正项，即子网格残差，从而利用高维信息而不进行全空间优化。",
+        "per_step_vs_total_clarity": "作者报告最多 2.61 倍的前向传播加速是相对于现有零阶方法的总前向传播次数减少。对于每一步，ENGINE 使用 K 次前向传播同时估计参数梯度和曲率梯度，且曲率更新完全复用参数估计的扰动点，因此每步查询数与 LOREN 相同，没有额外开销。",
+        "query_reuse": "ENGINE 在粗尺度更新中显式复用了 K 个 RLOO 样本 {u_k, f_k}，同一批扰动点和函数值既用于参数方向估计，也用于两个 LoRA 分支的曲率向量更新，因此曲率更新不增加任何前向传播。",
+        "structured_perturbation": "ENGINE 使用各向异性高斯扰动，扰动协方差为秩-1 Kronecker 形式，与估计的曲率向量对齐。每个方向上的扰动来自该方向曲率向量构建的预处理器，因此查询方向具有结构性和适应曲率的性质。",
+        "total_query_reduction_claim": "yes"
+      }
+    },
+    {
+      "candidate_id": "dbd89d73b4422f4357c86181",
+      "core_problem": "论文研究零阶优化在带可验证奖励的强化学习（RLVR）中可靠应用的限制因素。作者发现零阶梯度估计的可靠性在结构上取决于两个有限差分评估是否在匹配数据上进行，并针对在线策略强化学习的不匹配数据机制与 BOLT 的匹配数据机制进行了理论分析和实验验证。",
+      "distinction_from_prior_work": "不同于 PPO/GRPO 通过冻结分布代理目标来降低方差但改变优化目标的思路，本文提出了一个通用的方差理论框架，明确区分匹配数据与不匹配数据机制，并据此设计 ZO-BOLT，直接在 BOLT 的 RLVR 对齐加权 SFT 目标上应用零阶优化，在不牺牲目标函数的前提下实现噪声消除。",
+      "limitations_and_open_questions": [
+        "论文主要基于三个模型变体和两个数学推理基准进行实验，覆盖的任务类型较为有限。",
+        "零阶优化在更复杂奖励函数或更大规模策略模型上的扩展性未在摘要和方法上下文中明确讨论。",
+        "理论常数依赖于具体问题参数，实际调参可能需要针对不同任务重新进行扰动尺度扫描。",
+        "ZoAR 的历史存储上限 N_h 对最终性能的影响未在提供的上下文中量化。"
+      ],
+      "main_contributions": [
+        "提出通用的方差理论框架，证明估计可靠性由两个有限差分评估是否在匹配数据上进行所决定。",
+        "揭示在线策略强化学习在不匹配数据机制下会产生 1/μ2 的oracle噪声放大，并构成随扰动尺度 μ 减小而不可消除的噪声底。",
+        "证明 BOLT 在匹配数据机制下通过噪声对消消除了该放大效应。",
+        "给出带有显式常数的收敛性保证，清晰分离两种数据机制。",
+        "提出 ZO-BOLT 方法，将零阶优化应用于 BOLT 的 RLVR 对齐加权 SFT 目标，并在三个模型变体和两个数学推理基准上取得一致改进，同时保持接近推理的内存占用。"
+      ],
+      "method_and_architecture": "论文提出 ZO-BOLT 方法，模型采用 Qwen2.5-1.5B 为主干，使用 LoRA（r=8, α=16）微调查询和键投影，训练参数约 1M。优化目标采用 BOLT 构建的加权 SFT 目标，并使用零阶梯度估计器，结合对称有限差分和 ZoAR 历史复用策略。",
+      "method_implementation": [
+        "首先，在优化开始前，作者按照 BOLT 方法构造固定数据集和权重，形成加权 SFT 目标。模型采用 Qwen2.5-1.5B 作为主要骨干，利用 LoRA 适配器（秩 r=8，缩放因子 α=16）仅作用于查询投影和键投影。该配置产生约 1M 个可训练参数。除此之外，还评估了 Qwen2.5-7B 和 DeepSeek-R1-Distill-Qwen-1.5B 两个模型变体。实验数据集主要为 GSM8K（包含 7,473 个训练问题和 1,319 个测试问题）以及 MATH（包含 5,000 个测试问题）。",
+        "在每次优化步骤中，算法采用对称有限差分来估计梯度。具体来说，对当前参数施加正扰动和负扰动，并在同一个 minibatch 上分别计算两个扰动参数下的损失函数值，然后利用两者之差形成梯度估计。这种对偶查询对在相同数据上进行评估，正是实现噪声消除、进入匹配数据机制的关键。不进行扰动的原始损失仅用于日志记录，不参与参数更新。",
+        "为了充分利用历史函数值信息，作者引入了 ZoAR（Zeroth-order with Adaptive Reuse）策略。每个扰动对只存储其随机种子和两个标量函数值，在参数更新时根据存储的种子确定性重新生成扰动方向。历史存储上限为 N_h 对。算法根据 Adam 风格的自适应二阶矩信息调整更新方向，采用 β1=0.9、β2=0.99 和 ε=10^-8，且不使用偏差校正。在前 W 次更新中自适应分母设为 1，之后使用累积的二阶矩 v_t。梯度累积因子为 1。",
+        "训练和评估采用贪婪解码（温度 0）以及链式思维提示模板。最终答案从 \\boxed{} 格式中提取，并使用数学等价性比较器测量准确率。算法输出为更新后的 LoRA 参数，训练过程中只保留接近推理的内存占用，因为零阶梯度估计不需要反向传播。"
+      ],
+      "method_principle": "零阶梯度估计依赖有限差分，即通过比较两个扰动参数下的函数值来近似梯度方向。在在线策略强化学习中，采样分布随参数更新而变化，导致两个有限差分评估面对的数据分布不一致，即不匹配数据机制。这种不匹配使oracle噪声被放大，且放大倍数与扰动尺度 μ 的平方成反比，因此即使 μ 趋于零，噪声也无法消除。相比之下，BOLT 使用预先构造的固定数据集和权重，构成匹配数据机制：两个扰动评估在完全相同的数据上进行，oracle噪声中的共同分量被差分操作抵消，从而消除了 1/μ2 的噪声放大。PPO/GRPO 采用冻结分布代理目标虽然也能降低方差，但它们改变了优化目标，偏离了真实在线策略目标 J(θ)。ZO-BOLT 将零阶优化直接应用于 BOLT 的 RLVR 对齐加权 SFT 目标，同时利用 ZoAR 在确定相同的 minibatch 上计算对偶扰动对，保留匹配数据机制的噪声消除性质。Adam 风格的自适应更新结合历史函数值复用，在不进行反向传播的情况下稳定优化过程，并以接近推理的内存占用实现策略改进。",
+      "optical_neural_network_analysis": null,
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "在三个模型变体和两个数学推理基准上的实验表明，ZO-BOLT 始终优于预训练基线，同时保持接近推理的内存占用。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "受控扰动尺度扫描以及匹配与不匹配端到端对比验证了数据匹配对零阶梯度估计可靠性的预测效应。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该工作为零阶优化在强化学习中的应用提供了清晰的理论基础，特别是揭示了数据匹配对噪声行为的结构性影响。通过提出 ZO-BOLT，论文展示了一种在保持低内存开销的同时利用可验证奖励进行 LLM 后训练的有效途径，并为设计更可靠的零阶 RLVR 算法提供了指导。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": true,
+        "full_text_method_source_url": "https://arxiv.org/html/2611.03260",
+        "information_basis": "title_metadata_abstract_and_open_full_text_methods",
+        "missing_information": [],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": {
+        "forward_only": "零阶优化无需反向传播，仅需前向计算扰动参数下的损失值。这种仅前向的执行方式是实现接近推理内存占用的关键，适用于内存受限的 LLM 后训练。",
+        "low_rank_or_subspace": "模型采用 LoRA 低秩适配（r=8，α=16），仅微调查询和键投影，可训练参数约 1M，这显著降低了优化问题的维度，使零阶梯度估计在低维子空间内进行。",
+        "per_step_vs_total_clarity": "在每次优化步骤中，算法执行正负两个扰动评估（对偶查询对），共享同一个 minibatch。总查询复杂度未在上下文中有显式声明，但通过 ZoAR 历史复用机制可以减少总体函数值评估次数。",
+        "query_reuse": "ZoAR 保留最多 N_h 个历史扰动对，每个扰动对仅存储随机种子和两个标量函数值，更新时根据种子确定性重放扰动方向，从而在后续迭代中复用历史函数值信息以稳定更新。",
+        "structured_perturbation": "算法采用对称有限差分，即同时施加 +μ 和 -μ 扰动，并在相同 minibatch 上评估两个函数值。扰动方向通过随机种子确定性生成，以支持历史复用。",
+        "total_query_reduction_claim": "not_available"
+      }
+    },
+    {
+      "candidate_id": "6da55cf29e6e5024311c8a8a",
+      "core_problem": "零阶优化在仅使用前向传播对齐大语言模型与人类偏好时，梯度估计方差随参数维度增大而增大，导致优化效率低下。论文研究如何从偏好数据本身构造低维扰动子空间，以降低梯度估计方差并实现内存高效的设备端零阶优化。",
+      "distinction_from_prior_work": "与使用随机全空间扰动或基于参数幅度的低维方法不同，本文提出利用偏好数据的一次性离线反向传播获得逐对梯度，并取其主成分方向作为扰动子空间。该方法通过捕获率指标量化子空间质量，并在实验中显著优于随机子空间及多种强低维基线。",
+      "limitations_and_open_questions": [
+        "摘要未提供捕获率在其他模型、任务或偏好数据集上的泛化结果。",
+        "摘要未说明离线反向传播的计算成本如何随偏好对数量扩展。",
+        "摘要未报告训练过程中超参数设置、学习率调度或扰动强度等实现细节。",
+        "摘要未提供与其他零阶优化方法在更多基准上的系统比较。"
+      ],
+      "main_contributions": [
+        "提出从偏好数据中提取偏好梯度主成分子空间，用于零阶优化的大语言模型对齐。",
+        "定义捕获率 ρ 作为子空间质量的可度量指标，并证明子空间零阶随机梯度下降的每步期望进展按 ρ/(k+2) 缩放。",
+        "表明随机子空间（ρ≈k/D）无法优于全空间零阶优化，而偏好梯度子空间在 k=16 时捕获率约为随机基线的106倍。",
+        "在 Qwen2.5-1.5B 模型上，偏好梯度 PCA 子空间将留出 DPO 损失从 0.694 降至 0.619，峰值训练内存为 5.2–8.0 GB，优于匹配的 QLoRA 基线。"
+      ],
+      "method_and_architecture": "方法由离线阶段和在线阶段构成：离线阶段在少量偏好对上执行一次性反向传播，得到逐对梯度并提取前 k 个主成分方向（k≤128）作为扰动子空间；在线阶段在设备上仅用前向传播在该子空间内执行零阶优化。捕获率 ρ 通过 CountSketch–Gram 估计器在大规模参数下测量，无需显式物化子空间。",
+      "method_implementation": [
+        "在离线阶段，从偏好数据中采样少量偏好对，对这些数据执行一次反向传播以获得逐样本梯度。对这些梯度进行主成分分析，提取方差最大的 k 个正交方向（k≤128）构成低维子空间。该子空间被传输到设备端用于后续在线优化，而梯度本身不用于参数更新。",
+        "在线阶段，在提取的子空间内构造随机扰动，每次迭代仅通过模型前向传播计算损失值的变化来估计梯度方向。通过比较正负扰动的损失差异更新参数，从而保持内存占用接近推理成本。子空间维度和扰动方差等超参数的具体配置未在摘要中说明。",
+        "为了在十亿参数规模下评估子空间质量，作者采用 CountSketch–Gram 估计器测量捕获率 ρ，避免显式存储完整的 D×k 方向矩阵。在 Qwen2.5-1.5B 模型与直接偏好优化（DPO）的设置下，该方法将留出 DPO 损失从 0.694 降至 0.619。"
+      ],
+      "method_principle": "零阶梯度估计的方差与扰动空间的维度相关：在低维子空间中扰动可以更集中地探测损失变化，从而降低方差并提高每步下降的可靠性。偏好数据的梯度方向携带了与对齐目标最相关的信息，因此其主成分子空间能够保留大部分梯度能量。捕获率 ρ 衡量该子空间包含全空间梯度能量的比例，理论分析表明每步期望进展正比于 ρ/(k+2)，且残余损失下限由 1−ρ 决定。随机子空间的捕获率仅为 k/D，无法提供增益，而偏好梯度子空间在高维模型中仍能保持较高 ρ，这解释了它为何能在仅前向执行的设备端零阶优化中有效降低 DPO 损失。",
+      "optical_neural_network_analysis": null,
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "相关定量结果未在标题或摘要中提供。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "偏好梯度 PCA 子空间将留出 DPO 损失从 0.694 降至 0.619。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "峰值训练内存为 5.2–8.0 GB，而严格匹配的 QLoRA 基线为 16.3 GB。",
+          "reported_by_authors": true
+        },
+        {
+          "basis": "abstract",
+          "claim": "在作者设置的实验中，当参数维度缩小127倍时捕获率保持不变，表明其追踪偏好梯度分布的有效秩而非维度。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该工作为在资源受限设备上对齐大语言模型提供了新的低维零阶优化思路，通过偏好数据驱动子空间选择显著降低梯度估计方差并控制内存开销，有助于推动大模型偏好调优的实用化。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "离线主成分分析的具体实现和内存开销。",
+          "CountSketch–Gram 估计器的详细计算流程。",
+          "在线零阶优化器的超参数配置。",
+          "训练所用的偏好数据集规模和来源。",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": {
+        "forward_only": "在线优化仅使用前向传播，损失函数值通过正负扰动的前向计算获得，无需反向传播。",
+        "low_rank_or_subspace": "方法核心是利用偏好梯度主成分构成的 k 维（k≤128）低秩子空间进行零阶优化。",
+        "per_step_vs_total_clarity": "摘要报告每步进展按 ρ/(k+2) 缩放，并给出最终损失改善，但未明确给出总查询复杂度或与全空间零阶优化的总查询次数对比。",
+        "query_reuse": "摘要未明确提及跨步查询复用机制，但离线一次性反向传播提取子空间可视为一种对偏好梯度信息的复用。",
+        "structured_perturbation": "扰动被限制在偏好梯度主成分子空间内，而非全空间随机方向；随机性体现在子空间内的组合。",
+        "total_query_reduction_claim": "no"
+      }
+    }
+  ],
+  "summary_count": 3
+}

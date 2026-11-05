@@ -1,7 +1,7 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`117`
-- 更新时间：`2026-11-04T00:40:23.771802Z`
+- 论文数：`120`
+- 更新时间：`2026-11-05T00:42:29.214517Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
@@ -695,6 +695,30 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### The Cost of Mismatch: Noise Amplification in Zeroth-Order Reinforcement Learning
+
+- DOI/链接：[10.48550/arxiv.2611.03260](https://doi.org/10.48550/arxiv.2611.03260)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-11-05`
+- 候选 ID：`dbd89d73b4422f4357c86181`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
+
+### Preference-Gradient Subspaces for Memory-Efficient Zeroth-Order Alignment of Large Language Models
+
+- DOI/链接：[10.1109/ichci71425.2026.11739849](https://doi.org/10.1109/ichci71425.2026.11739849)
+- 期刊/年份：International Conference on Intelligent Computing and Human-Computer Interaction (ICHCI)，2026
+- 摘要日期：`2026-11-05`
+- 候选 ID：`6da55cf29e6e5024311c8a8a`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
+
+### ENGINE: Endogenous Variational MultiScale Optimization for Zeroth-Order LLM Fine-Tuning
+
+- DOI/链接：[10.48550/arxiv.2611.03293](https://doi.org/10.48550/arxiv.2611.03293)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-11-05`
+- 候选 ID：`8c41a3326d64abdd0bb9d1a7`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
 
 ### Photon-Counting Noise and Ornstein–Uhlenbeck Heater Drift in In-Situ Training of Quantum Photonic Neural Networks: An Equal-Budget Benchmark of Derivative-Free and Finite-Difference Optimizers
 

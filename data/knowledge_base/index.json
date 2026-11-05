@@ -449,6 +449,15 @@
       "summary_record_sha256": "9bf09c418eda9264dceb8d072c60e700fe55d3a44379d905cdbbe53d27582679",
       "title": "VLA-ZO: Fast Zeroth-Order Adaptation for Vision-Language-Action Models"
     },
+    "6da55cf29e6e5024311c8a8a": {
+      "digest_date": "2026-11-05",
+      "doi": "10.1109/ichci71425.2026.11739849",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "e7466e7bbbe9d2efb40e6470eaf7efac90d130f71bcf85fbaa80aaa8b2198fde",
+      "title": "Preference-Gradient Subspaces for Memory-Efficient Zeroth-Order Alignment of Large Language Models"
+    },
     "6dc0459f08567bbd051cc579": {
       "digest_date": "2026-09-25",
       "doi": "10.1364/josaa.608366",
@@ -583,6 +592,15 @@
       ],
       "summary_record_sha256": "c518fba5fce924e512db1ef8a41c9c510992e538f4b5a176e43cfe6dff419021",
       "title": "Robust training of MZI-based optical neural networks through phase discretization"
+    },
+    "8c41a3326d64abdd0bb9d1a7": {
+      "digest_date": "2026-11-05",
+      "doi": "10.48550/arxiv.2611.03293",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "643b3a1bdd37735c917d4eab76f917a107fd7b8091fe8323f7994586d6d3a8ba",
+      "title": "ENGINE: Endogenous Variational MultiScale Optimization for Zeroth-Order LLM Fine-Tuning"
     },
     "8ce6ad350a786420a01c4dd8": {
       "digest_date": "2026-09-05",
@@ -954,6 +972,15 @@
       "summary_record_sha256": "9005afa98b3e7ea8df306b1ef1e05be9a26c7bbb9be58accde26b65a501011f3",
       "title": "Partially Informed Stochastic Optimization via Zeroth-Order Residual Tracking"
     },
+    "dbd89d73b4422f4357c86181": {
+      "digest_date": "2026-11-05",
+      "doi": "10.48550/arxiv.2611.03260",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "930d1988190dbe4c0d1bf4086c26a147a3a288f18487cfe0438d3ef6bb21055b",
+      "title": "The Cost of Mismatch: Noise Amplification in Zeroth-Order Reinforcement Learning"
+    },
     "dd2f544b89860edf2c2a51ae": {
       "digest_date": "2026-08-20",
       "doi": "10.48550/arxiv.2608.15665",
@@ -1285,6 +1312,11 @@
     ],
     "2026-11-04": [
       "56dc775d182273c3cd77748e"
+    ],
+    "2026-11-05": [
+      "6da55cf29e6e5024311c8a8a",
+      "8c41a3326d64abdd0bb9d1a7",
+      "dbd89d73b4422f4357c86181"
     ]
   },
   "by_doi": {
@@ -1327,6 +1359,7 @@
     "10.1088/2632-2153/aea3a0": "fca2cfc597728ee01e2a6032",
     "10.1103/gwny-d6fw": "9039d2d888f22d7a64bcfc06",
     "10.1109/dcna72004.2026.11733422": "ce453bfbb1da74c9ff0d3143",
+    "10.1109/ichci71425.2026.11739849": "6da55cf29e6e5024311c8a8a",
     "10.1109/icocn70692.2026.11656217": "c3474ba19a69c715eb87d391",
     "10.1109/tcad.2026.3738037": "70212be2c4a63d741872ace0",
     "10.1117/1.ap.8.5.054001": "916e8199aaabe1372544d280",
@@ -1390,6 +1423,8 @@
     "10.48550/arxiv.2610.16451": "7a45515c829cdcf2bd96f41f",
     "10.48550/arxiv.2610.19652": "cadf2190f4abdc8ebf66da38",
     "10.48550/arxiv.2610.26790": "7229499f7f76fe2e28f08e50",
+    "10.48550/arxiv.2611.03260": "dbd89d73b4422f4357c86181",
+    "10.48550/arxiv.2611.03293": "8c41a3326d64abdd0bb9d1a7",
     "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
     "10.5281/zenodo.23337932": "c9dee369fd4e64c2389af927",
     "10.5281/zenodo.23422324": "1bbef7ba5398ff216f60580f",
@@ -1503,11 +1538,13 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
+      "6da55cf29e6e5024311c8a8a",
       "70212be2c4a63d741872ace0",
       "7229499f7f76fe2e28f08e50",
       "7719ae17086cb97168bebbc5",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
+      "8c41a3326d64abdd0bb9d1a7",
       "9e604f17f644449b1f294680",
       "a390258440d82a472251969b",
       "b03b6320be57edd77b3ad7e5",
@@ -1518,6 +1555,7 @@
       "ce453bfbb1da74c9ff0d3143",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
+      "dbd89d73b4422f4357c86181",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
@@ -2311,11 +2349,13 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
+      "6da55cf29e6e5024311c8a8a",
       "70212be2c4a63d741872ace0",
       "7229499f7f76fe2e28f08e50",
       "7719ae17086cb97168bebbc5",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
+      "8c41a3326d64abdd0bb9d1a7",
       "9e604f17f644449b1f294680",
       "a390258440d82a472251969b",
       "b03b6320be57edd77b3ad7e5",
@@ -2326,6 +2366,7 @@
       "ce453bfbb1da74c9ff0d3143",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
+      "dbd89d73b4422f4357c86181",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
@@ -2347,10 +2388,12 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
+      "6da55cf29e6e5024311c8a8a",
       "7229499f7f76fe2e28f08e50",
       "7719ae17086cb97168bebbc5",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
+      "8c41a3326d64abdd0bb9d1a7",
       "9e604f17f644449b1f294680",
       "a390258440d82a472251969b",
       "b03b6320be57edd77b3ad7e5",
@@ -2360,6 +2403,7 @@
       "cadf2190f4abdc8ebf66da38",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
+      "dbd89d73b4422f4357c86181",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
@@ -2381,10 +2425,12 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
+      "6da55cf29e6e5024311c8a8a",
       "7229499f7f76fe2e28f08e50",
       "7719ae17086cb97168bebbc5",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
+      "8c41a3326d64abdd0bb9d1a7",
       "9e604f17f644449b1f294680",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
@@ -2392,6 +2438,7 @@
       "cadf2190f4abdc8ebf66da38",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
+      "dbd89d73b4422f4357c86181",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
@@ -2413,9 +2460,11 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
+      "6da55cf29e6e5024311c8a8a",
       "7229499f7f76fe2e28f08e50",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
+      "8c41a3326d64abdd0bb9d1a7",
       "9e604f17f644449b1f294680",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
@@ -2423,6 +2472,7 @@
       "cadf2190f4abdc8ebf66da38",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
+      "dbd89d73b4422f4357c86181",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
@@ -2444,10 +2494,12 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
+      "6da55cf29e6e5024311c8a8a",
       "7229499f7f76fe2e28f08e50",
       "7719ae17086cb97168bebbc5",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
+      "8c41a3326d64abdd0bb9d1a7",
       "9e604f17f644449b1f294680",
       "a390258440d82a472251969b",
       "b03b6320be57edd77b3ad7e5",
@@ -2457,6 +2509,7 @@
       "cadf2190f4abdc8ebf66da38",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
+      "dbd89d73b4422f4357c86181",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
@@ -2475,6 +2528,7 @@
       "7229499f7f76fe2e28f08e50",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
+      "8c41a3326d64abdd0bb9d1a7",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "cadf2190f4abdc8ebf66da38",
@@ -2551,6 +2605,9 @@
     ],
     "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems": [
       "70212be2c4a63d741872ace0"
+    ],
+    "International Conference on Intelligent Computing and Human-Computer Interaction (ICHCI)": [
+      "6da55cf29e6e5024311c8a8a"
     ],
     "International Journal of Academic and Industrial Research Innovations(IJAIRI)": [
       "7bc9d4230ed283852c3248a7"
@@ -2692,12 +2749,14 @@
       "7229499f7f76fe2e28f08e50",
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
+      "8c41a3326d64abdd0bb9d1a7",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
+      "dbd89d73b4422f4357c86181",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "f0cf0b80e6f1f53ea347c136",
@@ -2762,6 +2821,7 @@
       "61dad77fe7c2ef7687ce5b21",
       "6584a28300e4e24252061ccc",
       "66c84fb1444bbf71b05ac0d7",
+      "6da55cf29e6e5024311c8a8a",
       "6dc0459f08567bbd051cc579",
       "70212be2c4a63d741872ace0",
       "7229499f7f76fe2e28f08e50",
@@ -2776,6 +2836,7 @@
       "83a830ace13b5158f346c392",
       "879145cdb2d594dd2d392a9e",
       "8a0187dc3ef13553d43f5bef",
+      "8c41a3326d64abdd0bb9d1a7",
       "8ce6ad350a786420a01c4dd8",
       "8ed2e70c4b7d42f84e3676a7",
       "9039d2d888f22d7a64bcfc06",
@@ -2816,6 +2877,7 @@
       "d33b2e7c6586f37945facb32",
       "d69a4f93ca6340969e1077a8",
       "dad476a2b20ea06a98b64b6a",
+      "dbd89d73b4422f4357c86181",
       "dd2f544b89860edf2c2a51ae",
       "e76ce8e7abb50e84a9c3324f",
       "ead3d4ba8c5090acac05878a",
@@ -2833,7 +2895,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 117,
+  "paper_count": 120,
   "schema_version": 1,
-  "updated_at": "2026-11-04T00:40:23.771802Z"
+  "updated_at": "2026-11-05T00:42:29.214517Z"
 }

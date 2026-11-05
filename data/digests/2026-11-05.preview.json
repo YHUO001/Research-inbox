@@ -1,0 +1,53 @@
+{
+  "built_at": "2026-11-05T00:41:21.925155Z",
+  "digest_date": "2026-11-05",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "8c41a3326d64abdd0bb9d1a7",
+        "landing_page": "https://doi.org/10.48550/arxiv.2611.03293",
+        "mandatory": false,
+        "score": 0.91,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "ENGINE: Endogenous Variational MultiScale Optimization for Zeroth-Order LLM Fine-Tuning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "dbd89d73b4422f4357c86181",
+        "landing_page": "https://doi.org/10.48550/arxiv.2611.03260",
+        "mandatory": false,
+        "score": 0.8725,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "The Cost of Mismatch: Noise Amplification in Zeroth-Order Reinforcement Learning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "6da55cf29e6e5024311c8a8a",
+        "landing_page": "https://doi.org/10.1109/ichci71425.2026.11739849",
+        "mandatory": false,
+        "score": 0.76,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Preference-Gradient Subspaces for Memory-Efficient Zeroth-Order Alignment of Large Language Models",
+        "venue": "International Conference on Intelligent Computing and Human-Computer Interaction (ICHCI)",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

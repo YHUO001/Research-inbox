@@ -1,15 +1,16 @@
 {
   "accepted_candidate_ids": [
-    "56dc775d182273c3cd77748e"
+    "8c41a3326d64abdd0bb9d1a7",
+    "dbd89d73b4422f4357c86181"
   ],
-  "accepted_count": 1,
-  "built_at": "2026-11-04T00:39:52.013499Z",
+  "accepted_count": 2,
+  "built_at": "2026-11-05T00:40:52.181162Z",
   "discovery_version": 1,
-  "duplicate_count": 2,
+  "duplicate_count": 1,
   "duplicate_reasons": {
-    "normalized_title_year": 2
+    "openalex_work_id": 1
   },
-  "filtered_count": 61,
+  "filtered_count": 74,
   "invalid_count": 0,
   "query_error_count": 0,
   "query_summaries": [
@@ -34,10 +35,10 @@
       "raw_results": 10
     },
     {
-      "accepted": 1,
-      "duplicates": 2,
+      "accepted": 0,
+      "duplicates": 1,
       "error": null,
-      "filtered": 7,
+      "filtered": 9,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "diffractive-optical-neural-network",
@@ -77,38 +78,38 @@
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 1,
+      "filtered": 5,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-neural-network",
-      "raw_results": 1
+      "raw_results": 5
     },
     {
-      "accepted": 0,
+      "accepted": 2,
       "duplicates": 0,
       "error": null,
-      "filtered": 2,
+      "filtered": 5,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-llm",
-      "raw_results": 2
+      "raw_results": 7
     },
     {
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 1,
+      "filtered": 5,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-optical",
-      "raw_results": 1
+      "raw_results": 5
     }
   ],
-  "raw_result_count": 64,
-  "registry_candidate_count": 674,
-  "registry_sha256": "d99c958a49228da0095fdd89ec9221ea15ec8fe11e88acefd088cff96566423f",
+  "raw_result_count": 77,
+  "registry_candidate_count": 680,
+  "registry_sha256": "e098e4f9a99d414978a65222d73fcd085250e30f7e1f119cee45a53f3ffa97d3",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-11-04",
-  "window_start": "2026-10-31"
+  "window_end": "2026-11-05",
+  "window_start": "2026-11-01"
 }

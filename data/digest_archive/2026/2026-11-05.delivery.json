@@ -1,0 +1,24 @@
+{
+  "archive_body_file": "data/digest_archive/2026/2026-11-05.email.md",
+  "archived_at": "2026-11-05T00:42:30.229107Z",
+  "body_sha256": "fa13c1934ffefae73ab1be3b053a83c15b386493690af0e391af7bfba2be3c07",
+  "candidate_ids": [
+    "8c41a3326d64abdd0bb9d1a7",
+    "dbd89d73b4422f4357c86181",
+    "6da55cf29e6e5024311c8a8a"
+  ],
+  "content_status": "completed_digest",
+  "delivery_status": "sent",
+  "digest_date": "2026-11-05",
+  "full_text_persisted": false,
+  "gmail_message_id_sha256": "6b2e4566abcf18fa0717142ff025ae6fa32436063786c75ca703c2efb600ec1c",
+  "knowledge_index_file": "data/knowledge_base/index.md",
+  "message_id_header": "<research-inbox-20261105-05bbb7a725825d85@research-inbox.local>",
+  "recipient_sha256": "05bbb7a725825d85078914a36b7fbb15a2c4781c25a2eb2832958cb229c38c4d",
+  "schema_version": 1,
+  "sent_at": "2026-11-05T00:42:30.228789Z",
+  "source_digest_file": "data/digests/2026-11-05.generated.md",
+  "source_digest_sha256": "77a941b06f25e4ce3bc87916f5cfcf5fbf138f904a9326cd6c4274b2e4f06d33",
+  "subject": "[Research Inbox] 每日研究汇总 2026-11-05（3 篇）",
+  "summary_count": 3
+}

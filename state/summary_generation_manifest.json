@@ -1,83 +1,106 @@
 {
-  "abstract_fallback_candidate_ids": [],
-  "abstract_fallback_count": 0,
+  "abstract_fallback_candidate_ids": [
+    "6da55cf29e6e5024311c8a8a"
+  ],
+  "abstract_fallback_count": 1,
   "architecture_evidence": {
-    "56dc775d182273c3cd77748e": {
+    "6da55cf29e6e5024311c8a8a": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
-      "previous_type": "unclear",
+      "previous_type": null,
+      "resolved_type": "unclear"
+    },
+    "8c41a3326d64abdd0bb9d1a7": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    },
+    "dbd89d73b4422f4357c86181": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
       "resolved_type": "unclear"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 1,
-  "completed_at": "2026-11-04T00:40:23.771802Z",
+  "automatic_queue_candidate_count": 3,
+  "completed_at": "2026-11-05T00:42:29.214517Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "56dc775d182273c3cd77748e"
+    "6da55cf29e6e5024311c8a8a",
+    "8c41a3326d64abdd0bb9d1a7",
+    "dbd89d73b4422f4357c86181"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-11-04",
-  "digest_json_file": "runtime-state/data/digests/2026-11-04.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-11-04.generated.md",
+  "digest_date": "2026-11-05",
+  "digest_json_file": "runtime-state/data/digests/2026-11-05.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-11-05.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.024999,
+  "estimated_cost_cny": 0.0614192,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "56dc775d182273c3cd77748e": {
+    "6da55cf29e6e5024311c8a8a": {
+      "abstract_available": true,
+      "attempt_count": 3,
+      "candidate_id": "6da55cf29e6e5024311c8a8a",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 2.005,
+      "error": "https://ieeexplore.ieee.org/document/11739849/: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1109/ichci71425.2026.11739849",
+      "status": "not_available",
+      "text_persisted": false
+    },
+    "8c41a3326d64abdd0bb9d1a7": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "56dc775d182273c3cd77748e",
+      "candidate_id": "8c41a3326d64abdd0bb9d1a7",
       "character_count": 12000,
-      "content_sha256": "e76acd0bd49f26e687aa7ab15bbe5e7a966255cab443406c2970cdd6cac5c443",
-      "elapsed_seconds": 2.974,
+      "content_sha256": "558489bbc3240891aef42d8c756564ca820acfedd13851d7958796f8eb493055",
+      "elapsed_seconds": 0.866,
       "error": null,
       "fallback_decision": "use_full_text",
-      "media_type": "application/pdf",
+      "media_type": "text/html",
       "section_headings": [
-        "Fig. S12. T he femtosecond laser micro /nanofabrication system for preparing diffractive",
-        "Fig. S15. Screenshot of speckle and zero-latency D²NN optical processing training videos",
-        "Method section",
-        "Numerical analysis and experimental setup",
-        "D2NN phase mask fabrication",
-        "Training processes of U-Net and D²NN",
-        "Residual U-Net leveraged dual shortcut synergy: residual connections stabilize deep training",
-        "granting unmatched resilience to real-world optical distortions without retraining. Its RGB-native",
-        "gradient vanishing and improved training stability. The lowest -resolution feature map captured",
-        "results at different training epochs alongside peak signal-to-noise ratio (PSNR) values, a standard",
-        "in decibels, dB). These rows represented increasing training epochs: Epoch 50, Epoch 150, Epoch",
-        "250, Epoch 350, and the final converged re construction. As training progresse d, the network",
-        "training even at high epochs (as seen in the steady PSNR gains up to 350 epochs). The final",
-        "n ≈ 1.53 was the refractive index of the IP -Dip photoresist used for fabrication. Rearranging",
-        "spanned computational design, additive manufacturing, and post-fabrication characterization. (a)",
-        "Fig. S12. The femtosecond laser micro /nanofabrication system for preparing diffractive phase",
-        "system’s patterning capabilities. (a) A femtosecond laser fabrication setup presented the complete",
-        "femtosecond laser direct writing system for on -fiber phase mask fabrication. The setup was built",
-        "aperture objective lens. A customized mounter held the AR -HCF sample during fabrication. An",
-        "training process, the phase distribution of each layer was continuously optimized by minimizing",
-        "Fig. S15. Screenshot of speckle and zero-latency D²NN optical processing training videos through",
-        "Net-based image reconstruction; (iii) design, femtosecond- laser fabrication, and experimental",
-        "was measured via the cutback method to be <0.5dB/m. At a bending radius of 5cm, the loss",
-        "2NN phase mask fabrication",
-        "multi-axis piezoelectric stage for accurate alignment during fabrication. A thin layer of IP -Dip",
-        "diffusive phase processor onto the distal facet (Fig. S12). The fiber-integrated fabrication platform",
-        "all optimized fo r fiber-end nanofabrication. The femtosecond laser source was Coherent Axon",
-        "built software suite that translates 3D CAD models into machine -executable fabrication",
-        "into 8,000 training samples and 2,000 test samples. The model adopted an encoder –decoder U-",
-        "deep network training. Loss Function & Optimizer",
-        "retraining, validating its bending robustness inherited from the AR-HCF. We iteratively optimized",
-        "learning rate decay strategy is applied to reduce osci llations in later training stages and improve",
-        "stopping are used to prevent overfitting. Independent training of RGB channels and feature",
-        "physical diffraction constraints. Training was conducted strictly following Rayleigh–Sommerfeld",
-        "diffraction theory and simulated using the angular spectrum method. Only phase-only modulation",
-        "standard MNIST handwritten digit dataset was used, with 5,000 image–speckle training pairs and"
+        "2.2 Variational MultiScale Method",
+        "3 Method",
+        "4.1 Experimental Setup and Main Results",
+        "Appendix D Implementation Details",
+        "Appendix F Experimental Setup and Hyperparameters",
+        "Training budget.",
+        "Method configurations."
       ],
-      "source_url": "https://s3-eu-west-1.amazonaws.com/pstorage-osa-2151918321/70997493/8053263.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIC5UZOEV5G5EP3CQ/20261104/eu-west-1/s3/aws4_request&X-Amz-Date=20261104T004000Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=7db02fc5d56cc656c53243e9e9aa507d0c62a68400c09b820cbec8045f92acb4",
+      "source_url": "https://arxiv.org/html/2611.03293",
+      "status": "used",
+      "text_persisted": false
+    },
+    "dbd89d73b4422f4357c86181": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "dbd89d73b4422f4357c86181",
+      "character_count": 3116,
+      "content_sha256": "a6d3844150a7b3da67e598570db2cbaf51e98df695c1aaa6ea6c817b577bdb6e",
+      "elapsed_seconds": 0.357,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        "B.3 PPO/GRPO-Style Frozen-Distribution Surrogate Methods",
+        "D.1 Common Experimental Setup",
+        "Implementation details."
+      ],
+      "source_url": "https://arxiv.org/html/2611.03260",
       "status": "used",
       "text_persisted": false
     }
@@ -88,7 +111,7 @@
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 1,
+  "newly_completed_candidate_count": 3,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -104,160 +127,186 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 1,
+  "prepared_request_count": 3,
   "provider": "deepseek",
-  "queue_sha256": "a6915d441bfe3af3dfee43a7f90766e7a6c575bbd82e7e545013042438f93748",
-  "request_count": 1,
-  "request_file": "runtime-state/data/summary_requests/2026-11-04.jsonl",
-  "request_sha256": "d010ed187d8ad6eb10966587ed0699661733d74da4b070cc303895f67bf522ce",
+  "queue_sha256": "eb5ac9199ee625e297eafa71c7e28eaf2ffdfc68a7194b4b93455b0fd809aa50",
+  "request_count": 3,
+  "request_file": "runtime-state/data/summary_requests/2026-11-05.jsonl",
+  "request_sha256": "76c452cab503e97f92be9577708727be675f645b627eb310c6cf8d5d8993da42",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "0cd5e9c00d82099a164485b573692195f5bfb354308d2e21a4fbcda4f312c3a1",
+  "selection_manifest_sha256": "4a032c3744f09f7e77020877e049d30c86e8c175fdaeac4e147e2555dc6e1d92",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 1,
+  "source_queue_candidate_count": 3,
   "stage_timings": {
-    "full_text_preparation_seconds": 2.978,
+    "full_text_preparation_seconds": 3.234,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "56dc775d182273c3cd77748e",
-        "elapsed_seconds": 20.931,
+        "candidate_id": "8c41a3326d64abdd0bb9d1a7",
+        "elapsed_seconds": 23.288,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1827,
+          "completion_tokens": 2097,
           "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 4663,
-          "prompt_tokens": 6583,
-          "total_tokens": 8410
+          "prompt_cache_miss_tokens": 5239,
+          "prompt_tokens": 7159,
+          "total_tokens": 9256
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "dbd89d73b4422f4357c86181",
+        "elapsed_seconds": 20.434,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1919,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 2313,
+          "prompt_tokens": 4233,
+          "total_tokens": 6152
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "6da55cf29e6e5024311c8a8a",
+        "elapsed_seconds": 18.234,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1606,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1628,
+          "prompt_tokens": 3676,
+          "total_tokens": 5282
         }
       }
     ],
-    "model_generation_and_validation_seconds": 20.943
+    "model_generation_and_validation_seconds": 61.976
   },
   "status": "completed_automatic",
-  "summary_count": 1,
-  "summary_file": "runtime-state/data/summaries/2026-11-04.jsonl",
+  "summary_count": 3,
+  "summary_file": "runtime-state/data/summaries/2026-11-05.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 1,
+  "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "56dc775d182273c3cd77748e": {
+      "6da55cf29e6e5024311c8a8a": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": "hybrid",
-        "repaired": true,
+        "model_value": null,
+        "repaired": false,
+        "resolved_type": "unclear"
+      },
+      "8c41a3326d64abdd0bb9d1a7": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": null,
+        "repaired": false,
+        "resolved_type": "unclear"
+      },
+      "dbd89d73b4422f4357c86181": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": null,
+        "repaired": false,
         "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 1,
+    "architecture_repairs": 0,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "56dc775d182273c3cd77748e": {
+      "6da55cf29e6e5024311c8a8a": {
+        "abstract_available": true,
+        "attempt_count": 3,
+        "candidate_id": "6da55cf29e6e5024311c8a8a",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 2.005,
+        "error": "https://ieeexplore.ieee.org/document/11739849/: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1109/ichci71425.2026.11739849",
+        "status": "not_available",
+        "text_persisted": false
+      },
+      "8c41a3326d64abdd0bb9d1a7": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "56dc775d182273c3cd77748e",
+        "candidate_id": "8c41a3326d64abdd0bb9d1a7",
         "character_count": 12000,
-        "content_sha256": "e76acd0bd49f26e687aa7ab15bbe5e7a966255cab443406c2970cdd6cac5c443",
-        "elapsed_seconds": 2.974,
+        "content_sha256": "558489bbc3240891aef42d8c756564ca820acfedd13851d7958796f8eb493055",
+        "elapsed_seconds": 0.866,
         "error": null,
         "fallback_decision": "use_full_text",
-        "media_type": "application/pdf",
+        "media_type": "text/html",
         "section_headings": [
-          "Fig. S12. T he femtosecond laser micro /nanofabrication system for preparing diffractive",
-          "Fig. S15. Screenshot of speckle and zero-latency D²NN optical processing training videos",
-          "Method section",
-          "Numerical analysis and experimental setup",
-          "D2NN phase mask fabrication",
-          "Training processes of U-Net and D²NN",
-          "Residual U-Net leveraged dual shortcut synergy: residual connections stabilize deep training",
-          "granting unmatched resilience to real-world optical distortions without retraining. Its RGB-native",
-          "gradient vanishing and improved training stability. The lowest -resolution feature map captured",
-          "results at different training epochs alongside peak signal-to-noise ratio (PSNR) values, a standard",
-          "in decibels, dB). These rows represented increasing training epochs: Epoch 50, Epoch 150, Epoch",
-          "250, Epoch 350, and the final converged re construction. As training progresse d, the network",
-          "training even at high epochs (as seen in the steady PSNR gains up to 350 epochs). The final",
-          "n ≈ 1.53 was the refractive index of the IP -Dip photoresist used for fabrication. Rearranging",
-          "spanned computational design, additive manufacturing, and post-fabrication characterization. (a)",
-          "Fig. S12. The femtosecond laser micro /nanofabrication system for preparing diffractive phase",
-          "system’s patterning capabilities. (a) A femtosecond laser fabrication setup presented the complete",
-          "femtosecond laser direct writing system for on -fiber phase mask fabrication. The setup was built",
-          "aperture objective lens. A customized mounter held the AR -HCF sample during fabrication. An",
-          "training process, the phase distribution of each layer was continuously optimized by minimizing",
-          "Fig. S15. Screenshot of speckle and zero-latency D²NN optical processing training videos through",
-          "Net-based image reconstruction; (iii) design, femtosecond- laser fabrication, and experimental",
-          "was measured via the cutback method to be <0.5dB/m. At a bending radius of 5cm, the loss",
-          "2NN phase mask fabrication",
-          "multi-axis piezoelectric stage for accurate alignment during fabrication. A thin layer of IP -Dip",
-          "diffusive phase processor onto the distal facet (Fig. S12). The fiber-integrated fabrication platform",
-          "all optimized fo r fiber-end nanofabrication. The femtosecond laser source was Coherent Axon",
-          "built software suite that translates 3D CAD models into machine -executable fabrication",
-          "into 8,000 training samples and 2,000 test samples. The model adopted an encoder –decoder U-",
-          "deep network training. Loss Function & Optimizer",
-          "retraining, validating its bending robustness inherited from the AR-HCF. We iteratively optimized",
-          "learning rate decay strategy is applied to reduce osci llations in later training stages and improve",
-          "stopping are used to prevent overfitting. Independent training of RGB channels and feature",
-          "physical diffraction constraints. Training was conducted strictly following Rayleigh–Sommerfeld",
-          "diffraction theory and simulated using the angular spectrum method. Only phase-only modulation",
-          "standard MNIST handwritten digit dataset was used, with 5,000 image–speckle training pairs and"
+          "2.2 Variational MultiScale Method",
+          "3 Method",
+          "4.1 Experimental Setup and Main Results",
+          "Appendix D Implementation Details",
+          "Appendix F Experimental Setup and Hyperparameters",
+          "Training budget.",
+          "Method configurations."
         ],
-        "source_url": "https://s3-eu-west-1.amazonaws.com/pstorage-osa-2151918321/70997493/8053263.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIC5UZOEV5G5EP3CQ/20261104/eu-west-1/s3/aws4_request&X-Amz-Date=20261104T004000Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=7db02fc5d56cc656c53243e9e9aa507d0c62a68400c09b820cbec8045f92acb4",
+        "source_url": "https://arxiv.org/html/2611.03293",
+        "status": "used",
+        "text_persisted": false
+      },
+      "dbd89d73b4422f4357c86181": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "dbd89d73b4422f4357c86181",
+        "character_count": 3116,
+        "content_sha256": "a6d3844150a7b3da67e598570db2cbaf51e98df695c1aaa6ea6c817b577bdb6e",
+        "elapsed_seconds": 0.357,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          "B.3 PPO/GRPO-Style Frozen-Distribution Surrogate Methods",
+          "D.1 Common Experimental Setup",
+          "Implementation details."
+        ],
+        "source_url": "https://arxiv.org/html/2611.03260",
         "status": "used",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 1,
-    "numeric_grounding_repair_responses": 1,
+    "generation_metadata_repair_responses": 2,
+    "numeric_grounding_repair_responses": 2,
     "numeric_grounding_repairs": {
-      "56dc775d182273c3cd77748e": [
+      "6da55cf29e6e5024311c8a8a": [
         {
           "action": "redacted_unsupported_sentence",
-          "original_excerpt": "训练时使用标准MNIST手写数字数据集，生成5000对图像-散斑训练对，通过最小化损失函数迭代优化每层相位分布。",
-          "path": "method_implementation[1]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "5000"
-          ]
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "实验测量光纤损耗：通过截断法测得AR-HCF损耗小于0.5 dB/m；",
-          "path": "method_implementation[3]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "0.5"
-          ]
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "训练数据包含8000训练样本和2000测试样本，涵盖直线和弯曲光纤散斑。",
-          "path": "method_implementation[4]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "8000"
-          ]
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "AR-HCF损耗通过截断法测得小于0.5 dB/m。",
+          "original_excerpt": "在 Qwen2.5-1.5B 上，偏好子空间在 k=16 时捕获率 ρ=4.6×10^-2，约为随机基线的106倍。",
           "path": "reported_results[0].claim",
-          "replacement": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。",
+          "replacement": "相关定量结果未在标题或摘要中提供。",
           "tokens": [
-            "0.5"
+            "-2"
           ]
+        }
+      ],
+      "8c41a3326d64abdd0bb9d1a7": [
+        {
+          "action": "rewrote_bounded_zero_one_interval",
+          "original_excerpt": "在每次粗尺度更新中，先计算纯粗尺度预条件方向 s_c = Σ_c R(G)，再由全空间与粗尺度曲率方向的不一致程度构造子网格残差 τ_sgs = R(Σ_f G) - Σ_c R(G)，其中 G 为全空间梯度（在零阶实现中由 RLOO 估计器替代）。分支残差由秩-1 曲率向量显式给出，最终更新方向为 s_c + λ τ_sgs，两个分支使用独立权重 λ_B, λ_A ∈ [0,1]，并根据粗、细曲率方向的角度差异动态调节。",
+          "path": "method_implementation[2]",
+          "replacement": "在每次粗尺度更新中，先计算纯粗尺度预条件方向 s_c = Σ_c R(G)，再由全空间与粗尺度曲率方向的不一致程度构造子网格残差 τ_sgs = R(Σ_f G) - Σ_c R(G)，其中 G 为全空间梯度（在零阶实现中由 RLOO 估计器替代）。分支残差由秩-1 曲率向量显式给出，最终更新方向为 s_c + λ τ_sgs，两个分支使用独立权重 λ_B, λ_A ∈ 一个有界范围，并根据粗、细曲率方向的角度差异动态调节。"
         }
       ]
     },
-    "tops_alias_expansions": 41,
+    "tops_alias_expansions": 37,
     "unit_format_normalization_responses": 1
   },
   "usage": {
-    "completion_tokens": 1827,
-    "prompt_cache_hit_tokens": 1920,
-    "prompt_cache_miss_tokens": 4663,
-    "prompt_tokens": 6583,
-    "total_tokens": 8410
+    "completion_tokens": 5622,
+    "prompt_cache_hit_tokens": 5888,
+    "prompt_cache_miss_tokens": 9180,
+    "prompt_tokens": 15068,
+    "total_tokens": 20690
   }
 }

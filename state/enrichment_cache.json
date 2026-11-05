@@ -8794,6 +8794,18 @@
       "retrieved_at": "2026-11-01T00:47:14.006093Z",
       "status": "not_found"
     },
+    "crossref:doi:10.48550/arxiv.2611.03260": {
+      "expires_at": "2026-12-05T00:41:20.106278Z",
+      "record": null,
+      "retrieved_at": "2026-11-05T00:41:20.106278Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.48550/arxiv.2611.03293": {
+      "expires_at": "2026-12-05T00:41:16.474835Z",
+      "record": null,
+      "retrieved_at": "2026-11-05T00:41:16.474835Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.5281/zenodo.21885998": {
       "expires_at": "2026-09-17T04:25:17.174341Z",
       "record": null,
@@ -9626,6 +9638,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-11T01:15:39.216662Z",
+      "status": "found"
+    },
+    "crossref:title:1274f8da46c7ff7212385d9c35c36e47ddb3ee13267dde71e46732d7d08c224d": {
+      "expires_at": "2026-11-12T00:41:14.669645Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yihang Shao",
+            "orcid": null
+          },
+          {
+            "name": "Ang Li",
+            "orcid": null
+          },
+          {
+            "name": "Shilong Pan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/ipat72217.2026.11749198",
+        "landing_page": "https://doi.org/10.1109/ipat72217.2026.11749198",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/ipat72217.2026.11749198",
+        "publication_date": "2026-09",
+        "title": "Deployment and Training of Complex Neural Network Models on Photonic Computing Chip",
+        "venue": "2026 2nd International Conference on Intelligent Photonics and Applied Technology (IPAT)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-05T00:41:14.669645Z",
       "status": "found"
     },
     "crossref:title:13c8c32969fa66fffa2268e71b0b5b5e8bcc80061c66c12b69d076735270b32d": {
@@ -11726,6 +11772,12 @@
       "retrieved_at": "2026-09-01T01:13:17.558795Z",
       "status": "not_found"
     },
+    "crossref:title:62f0df149dc04c4d3583e6f1a6acfce76a1da76f7a83c21c49d0b20af53819fe": {
+      "expires_at": "2026-11-12T00:41:18.373234Z",
+      "record": null,
+      "retrieved_at": "2026-11-05T00:41:18.373234Z",
+      "status": "not_found"
+    },
     "crossref:title:636012c4d044b6af927cfa2a6efcb8964b8c762eb211713120d50b9f7493b83a": {
       "expires_at": "2026-11-10T00:40:42.150241Z",
       "record": {
@@ -12646,6 +12698,12 @@
       "expires_at": "2026-10-19T01:18:17.749093Z",
       "record": null,
       "retrieved_at": "2026-10-12T01:18:17.749093Z",
+      "status": "not_found"
+    },
+    "crossref:title:8f5b84d78bc5640964fd41e9ada66d12155b1db03ed0c2b0b91aec6e51460c88": {
+      "expires_at": "2026-11-12T00:41:15.015518Z",
+      "record": null,
+      "retrieved_at": "2026-11-05T00:41:15.015518Z",
       "status": "not_found"
     },
     "crossref:title:8fb3fe766d0bdee30c78b958390d420ec89a601da9b8a0fdba8ecc8d0d2fbf8c": {
@@ -14562,6 +14620,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-28T01:11:24.534798Z",
+      "status": "found"
+    },
+    "crossref:title:ce13d29805ae7f55543297132c3a8fd2acbd3a998cbfc939f14f195509fe5f4d": {
+      "expires_at": "2026-11-12T00:41:16.254521Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shuhang Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Jianmin Ji",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/ichci71425.2026.11739849",
+        "landing_page": "https://doi.org/10.1109/ichci71425.2026.11739849",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/ichci71425.2026.11739849",
+        "publication_date": "2026-09",
+        "title": "Preference-Gradient Subspaces for Memory-Efficient Zeroth-Order Alignment of Large Language Models",
+        "venue": "2026 7th International Conference on Intelligent Computing and Human-Computer Interaction (ICHCI)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-05T00:41:16.254521Z",
       "status": "found"
     },
     "crossref:title:ce30b5ccb3f288d5d12e090d87012fabe28615222120f4402bd424530931311b": {
@@ -23914,6 +24002,36 @@
       "retrieved_at": "2026-10-18T01:04:54.881651Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/ichci71425.2026.11739849": {
+      "expires_at": "2026-12-05T00:41:16.364261Z",
+      "record": {
+        "abstract": "Zeroth-order (ZO) optimization aligns large language models (LLMs) with human preferences using only forward passes, keeping memory close to inference cost, but its gradient-estimation variance grows with the parameter dimension D. We propose deriving the ZO perturbation subspace from the preference data itself: a one-time, offline backpropagation over a small set of preference pairs yields per-pair gradients whose top principal directions span a k-dimensional subspace (k ≤128) in which on-device, forward-only optimization proceeds. We introduce the capture ratio ρ as a measurable quality index of a subspace, prove that the expected per-step progress of subspace ZO-SGD scales as ρ/(k+2) with a loss floor governed by 1 – ρ, and show that random subspaces (ρ ≈ k/D) provide no advantage over full-space ZO. A CountSketch–Gram estimator measures ρ at the 1.31 × 109-parameter scale without materializing the subspace. On Qwen2.5-1.5B aligned with direct preference optimization (DPO), preference subspaces attain ρ=4.6 10−2 at k =16—about 106times the random baseline—and, in×our setting, ρ is invariant when D shrinks by 127×, indicating that it tracks the effective rank of the preference-gradient distribution rather than D. Against six stronger low-dimensional alternatives—SFT-gradient spectra, magnitude/Fisher-style masks, structured low-rank random projections, and calibrated full-space ZO—only preference-gradient PCA both reaches high ρ and turns it into training descent, improving held-out DPO loss from 0.694 to 0.619; the alternatives stall or worsen. Peak training memory is 5.2–8.0 GB, versus 16.3 GB for a strictly matched QLoRA baseline.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shuhang Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Jianmin Ji",
+            "orcid": "https://orcid.org/0000-0002-1515-0402"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/ichci71425.2026.11739849",
+        "landing_page": "https://doi.org/10.1109/ichci71425.2026.11739849",
+        "open_access_url": "https://doi.org/10.1109/ichci71425.2026.11739849",
+        "openalex_id": "https://openalex.org/W7224834825",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7224834825",
+        "publication_date": "2026-09-01",
+        "title": "Preference-Gradient Subspaces for Memory-Efficient Zeroth-Order Alignment of Large Language Models",
+        "venue": "International Conference on Intelligent Computing and Human-Computer Interaction (ICHCI)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-05T00:41:16.364261Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/icip61757.2026.11630302": {
       "expires_at": "2026-09-17T04:25:08.707373Z",
       "record": {
@@ -24080,6 +24198,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-12T01:18:08.588268Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/ipat72217.2026.11749198": {
+      "expires_at": "2026-12-05T00:41:14.803789Z",
+      "record": {
+        "abstract": "Programmable photonic computing chips (PCCs) provide an energy-efficient platform for accelerating deep neural networks through high-speed optical matrix multiplication. However, the limited input/output port count of existing PCCs makes it difficult to directly deploy large-scale neural networks. In this work, we propose a general deployment strategy that partitions large weight matrices into fixed-size submatrices, enabling convolutional and fully connected layers of arbitrary dimensions to be mapped onto PCC. A behavior-level simulation platform compatible with the PyTorch framework is developed to support end-to-end optimization of chip control voltages and neural network parameters, facilitating future hardware implementation. The proposed method is validated on a 32×32 Fast Fourier Transform (FFT) -based PCC through image classification and image reconstruction tasks. Simulation results show that the proposed implementation achieves 84.96% classification accuracy on the CIFAR-10 dataset and an average PSNR of 26.98 dB for DR2-Net at a 25% sampling ratio, demonstrating competitive performance while maintaining good agreement with the original digital models. These results verify the feasibility and generality of the proposed deployment strategy for programmable photonic computing chips. These results demonstrate the feasibility, generality, and practicality of the proposed deployment strategy, providing a scalable framework for future programmable photonic computing systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yihang Shao",
+            "orcid": null
+          },
+          {
+            "name": "Ang Li",
+            "orcid": null
+          },
+          {
+            "name": "Shilong Pan",
+            "orcid": "https://orcid.org/0009-0004-6744-0120"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/ipat72217.2026.11749198",
+        "landing_page": "https://doi.org/10.1109/ipat72217.2026.11749198",
+        "open_access_url": "https://doi.org/10.1109/ipat72217.2026.11749198",
+        "openalex_id": "https://openalex.org/W7224734228",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7224734228",
+        "publication_date": "2026-09-01",
+        "title": "Deployment and Training of Complex Neural Network Models on Photonic Computing Chip",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-05T00:41:14.803789Z",
       "status": "found"
     },
     "openalex:doi:10.1109/jlt.2026.3718277": {
@@ -30484,6 +30636,86 @@
       "retrieved_at": "2026-11-01T00:47:14.216012Z",
       "status": "found"
     },
+    "openalex:doi:10.48550/arxiv.2611.03260": {
+      "expires_at": "2026-12-05T00:41:20.348530Z",
+      "record": {
+        "abstract": "Zeroth-order (ZO) optimization has emerged as a promising approach for memory-efficient large language model (LLM) post-training, yet its reliable application to reinforcement learning with verifiable rewards (RLVR) remains largely unexplored. Motivated by the distinct data regimes of on-policy RL and fixed-data optimization, we develop a generic variance-theoretic framework to investigate what limits the reliability of ZO gradient estimation. Our analysis reveals that estimation reliability is structurally determined by whether the two finite-difference evaluations are performed on matched data. On-policy reinforcement learning (RL) under the mismatched-data regime produces a $1/μ^2$ oracle-noise amplification that sets an irreducible noise floor as the perturbation scale $μ$ decreases, whereas Boltzmann Targeted SFT (BOLT) under the matched-data regime eliminates this amplification via noise cancellation. We further derive convergence guarantees with explicit constants that cleanly separate the two regimes. These results naturally lead to ZO-BOLT, which applies ZO optimization to BOLT's RLVR-aligned weighted-SFT objective. Controlled perturbation-scale sweeps and matched-versus-mismatched end-to-end comparisons validate the predicted effect of data matching. Experiments across three model variants and two mathematical reasoning benchmarks further show that ZO-BOLT consistently improves over the pretrained baseline while retaining a near-inference memory footprint. The code is publicly available at https://github.com/lianmin-chen/the_cost_of_mismatch.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "陈连民",
+            "orcid": null
+          },
+          {
+            "name": "Junbin Qiu",
+            "orcid": "https://orcid.org/0000-0003-0589-822X"
+          },
+          {
+            "name": "Chenxing Wei",
+            "orcid": null
+          },
+          {
+            "name": "Yao Shu",
+            "orcid": "https://orcid.org/0000-0001-8847-0549"
+          },
+          {
+            "name": "Kun He",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.03260",
+        "landing_page": "https://doi.org/10.48550/arxiv.2611.03260",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2611.03260",
+        "openalex_id": "https://openalex.org/W7225167252",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225167252",
+        "publication_date": "2026-11-02",
+        "title": "The Cost of Mismatch: Noise Amplification in Zeroth-Order Reinforcement Learning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-05T00:41:20.348530Z",
+      "status": "found"
+    },
+    "openalex:doi:10.48550/arxiv.2611.03293": {
+      "expires_at": "2026-12-05T00:41:16.590006Z",
+      "record": {
+        "abstract": "Zeroth-order (ZO) optimization enables memory-efficient large language model (LLM) fine-tuning, and recent methods incorporate curvature-aware strategies. However, in the high-dimensional parameter space of LLMs, these methods inherently suffer from exploding gradient variance and prohibitive costs. Conversely, confining updates to a low-dimensional subspace reduces variance but discards critical high-dimensional information, degrading performance. This creates a fundamental dilemma: full-space optimization is informative but has high variance, while subspace optimization has low variance but loses information. To break this trade-off, we propose ENGINE (Endogenous Variational MultiScale). Inspired by computational mechanics, we adapt static Variational MultiScale (VMS) theory to dynamic optimization, treating low- and high-dimensional spaces as resolved coarse and unresolved fine scales. Through a multigrid-style V-cycle, ENGINE alternates between spaces, dynamically probing fine-grained information in the high-dimensional space and injecting it to correct the efficient low-dimensional sampling process. Under appropriate assumptions, statistical analysis characterizes variance reduction and correction of curvature-induced bias, and convergence analysis establishes a stationarity bound for the corrected coarse updates. Evaluations on standard LLM benchmarks show that ENGINE achieves higher accuracy and faster convergence than existing ZO methods, achieving up to a $2.61\\times$ speed-up in forward passes with zero additional peak memory overhead. Code is available at https://github.com/AI4Science-WestlakeU/ENGINE.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhuoli Ouyang",
+            "orcid": "https://orcid.org/0009-0000-3557-2162"
+          },
+          {
+            "name": "Changxi Chi",
+            "orcid": "https://orcid.org/0009-0002-4060-7344"
+          },
+          {
+            "name": "Siyuan Li",
+            "orcid": null
+          },
+          {
+            "name": "Tailin Wu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.03293",
+        "landing_page": "https://doi.org/10.48550/arxiv.2611.03293",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2611.03293",
+        "openalex_id": "https://openalex.org/W7225189383",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225189383",
+        "publication_date": "2026-11-02",
+        "title": "ENGINE: Endogenous Variational MultiScale Optimization for Zeroth-Order LLM Fine-Tuning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-05T00:41:16.590006Z",
+      "status": "found"
+    },
     "openalex:doi:10.5281/zenodo.21885998": {
       "expires_at": "2026-09-17T04:25:17.487937Z",
       "record": {
@@ -33769,6 +34001,12 @@
       "retrieved_at": "2026-09-01T01:13:18.205309Z",
       "status": "found"
     },
+    "openalex:title:62f0df149dc04c4d3583e6f1a6acfce76a1da76f7a83c21c49d0b20af53819fe": {
+      "expires_at": "2026-11-12T00:41:20.011841Z",
+      "record": null,
+      "retrieved_at": "2026-11-05T00:41:20.011841Z",
+      "status": "not_found"
+    },
     "openalex:title:65e40c751746554da0d9b25435ce98430be064c05f84c0f03047d11fa6ac86c2": {
       "expires_at": "2026-10-18T01:15:41.808922Z",
       "record": {
@@ -34603,6 +34841,12 @@
       "expires_at": "2026-10-19T01:18:18.118725Z",
       "record": null,
       "retrieved_at": "2026-10-12T01:18:18.118725Z",
+      "status": "not_found"
+    },
+    "openalex:title:8f5b84d78bc5640964fd41e9ada66d12155b1db03ed0c2b0b91aec6e51460c88": {
+      "expires_at": "2026-11-12T00:41:16.132521Z",
+      "record": null,
+      "retrieved_at": "2026-11-05T00:41:16.132521Z",
       "status": "not_found"
     },
     "openalex:title:8fe7434eeb2da040cfb7ff6115fba798dced6cafc235e934a0c9d33a029d2317": {

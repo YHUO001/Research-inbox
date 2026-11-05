@@ -550,6 +550,17 @@
       "review_required": false,
       "summary_record_sha256": "9bf09c418eda9264dceb8d072c60e700fe55d3a44379d905cdbbe53d27582679"
     },
+    "6da55cf29e6e5024311c8a8a": {
+      "completed_at": "2026-11-05T00:42:29.214517Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-11-05",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "7cb616f6a6876bb929e53b9941ea84cdcc289a4ea1d6cff36dee3042149b5581",
+      "review_required": false,
+      "summary_record_sha256": "e7466e7bbbe9d2efb40e6470eaf7efac90d130f71bcf85fbaa80aaa8b2198fde"
+    },
     "6dc0459f08567bbd051cc579": {
       "completed_at": "2026-09-25T01:04:25.668556Z",
       "completion_mode": "automatic_daily_batch_after_local_validation",
@@ -725,6 +736,17 @@
       "request_id": "9170f87157ce3db996f1ca7d8fd6a1bcf9d7ff1bc1b71befdaf6210df60d5c48",
       "review_required": false,
       "summary_record_sha256": "c518fba5fce924e512db1ef8a41c9c510992e538f4b5a176e43cfe6dff419021"
+    },
+    "8c41a3326d64abdd0bb9d1a7": {
+      "completed_at": "2026-11-05T00:42:29.214517Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-11-05",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "39a74f72fc20591d325dc3609872c857fb5ecd4487be970f509aa3dc4c3ad473",
+      "review_required": false,
+      "summary_record_sha256": "643b3a1bdd37735c917d4eab76f917a107fd7b8091fe8323f7994586d6d3a8ba"
     },
     "8ce6ad350a786420a01c4dd8": {
       "completed_at": "2026-09-05T01:01:12.895873Z",
@@ -1198,6 +1220,17 @@
       "request_id": "808fea2009418ffa0d4e5a02de2734a8db2e90bb4be3e7b672a39e181e17f575",
       "review_required": false,
       "summary_record_sha256": "9005afa98b3e7ea8df306b1ef1e05be9a26c7bbb9be58accde26b65a501011f3"
+    },
+    "dbd89d73b4422f4357c86181": {
+      "completed_at": "2026-11-05T00:42:29.214517Z",
+      "completion_mode": "automatic_daily_batch_after_local_validation",
+      "digest_date": "2026-11-05",
+      "model": "deepseek-v4-pro",
+      "output_language": "zh-CN",
+      "provider": "deepseek",
+      "request_id": "52d3cbf74040e8c4637774571047b295e03c1caa9838a80aba2964a2f01b1580",
+      "review_required": false,
+      "summary_record_sha256": "930d1988190dbe4c0d1bf4086c26a147a3a288f18487cfe0438d3ef6bb21055b"
     },
     "dd2f544b89860edf2c2a51ae": {
       "completed_at": "2026-08-20T00:33:21.307398Z",
