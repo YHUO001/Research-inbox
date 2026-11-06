@@ -1,24 +1,22 @@
 {
-  "abstract_fallback_candidate_ids": [
-    "6da55cf29e6e5024311c8a8a"
-  ],
-  "abstract_fallback_count": 1,
+  "abstract_fallback_candidate_ids": [],
+  "abstract_fallback_count": 0,
   "architecture_evidence": {
-    "6da55cf29e6e5024311c8a8a": {
+    "4e1b2c8ed30de03dbe6a31eb": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": null,
       "resolved_type": "unclear"
     },
-    "8c41a3326d64abdd0bb9d1a7": {
+    "5779863299dcab370c05c0ca": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
-      "previous_type": null,
+      "previous_type": "unclear",
       "resolved_type": "unclear"
     },
-    "dbd89d73b4422f4357c86181": {
+    "e8de222ab87bdb274102d640": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
@@ -28,79 +26,82 @@
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 3,
-  "completed_at": "2026-11-05T00:42:29.214517Z",
+  "automatic_queue_candidate_count": 5,
+  "completed_at": "2026-11-06T00:42:29.514546Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "6da55cf29e6e5024311c8a8a",
-    "8c41a3326d64abdd0bb9d1a7",
-    "dbd89d73b4422f4357c86181"
+    "4e1b2c8ed30de03dbe6a31eb",
+    "5779863299dcab370c05c0ca",
+    "e8de222ab87bdb274102d640"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-11-05",
-  "digest_json_file": "runtime-state/data/digests/2026-11-05.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-11-05.generated.md",
+  "digest_date": "2026-11-06",
+  "digest_json_file": "runtime-state/data/digests/2026-11-06.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-11-06.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0614192,
+  "estimated_cost_cny": 0.065997,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "6da55cf29e6e5024311c8a8a": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "6da55cf29e6e5024311c8a8a",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 2.005,
-      "error": "https://ieeexplore.ieee.org/document/11739849/: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.1109/ichci71425.2026.11739849",
-      "status": "not_available",
-      "text_persisted": false
-    },
-    "8c41a3326d64abdd0bb9d1a7": {
+    "4e1b2c8ed30de03dbe6a31eb": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "8c41a3326d64abdd0bb9d1a7",
+      "candidate_id": "4e1b2c8ed30de03dbe6a31eb",
       "character_count": 12000,
-      "content_sha256": "558489bbc3240891aef42d8c756564ca820acfedd13851d7958796f8eb493055",
-      "elapsed_seconds": 0.866,
+      "content_sha256": "e98153dbf7f8ceaaff306cb040739c68a946d0717abcb18264be9d0b317b04c4",
+      "elapsed_seconds": 0.259,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
       "section_headings": [
-        "2.2 Variational MultiScale Method",
-        "3 Method",
-        "4.1 Experimental Setup and Main Results",
-        "Appendix D Implementation Details",
-        "Appendix F Experimental Setup and Hyperparameters",
-        "Training budget.",
-        "Method configurations."
+        "White-box methods for DFKD",
+        "Black-box methods for DFKD",
+        "3 Methodology",
+        "Student Training",
+        "Experimental Setup"
       ],
-      "source_url": "https://arxiv.org/html/2611.03293",
+      "source_url": "https://arxiv.org/html/2611.00908",
       "status": "used",
       "text_persisted": false
     },
-    "dbd89d73b4422f4357c86181": {
+    "5779863299dcab370c05c0ca": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "dbd89d73b4422f4357c86181",
-      "character_count": 3116,
-      "content_sha256": "a6d3844150a7b3da67e598570db2cbaf51e98df695c1aaa6ea6c817b577bdb6e",
-      "elapsed_seconds": 0.357,
+      "candidate_id": "5779863299dcab370c05c0ca",
+      "character_count": 774,
+      "content_sha256": "16d47ff3f5f8b758e4efa78684d6543f2133973782e45e87eae4b6b7a621139a",
+      "elapsed_seconds": 3.476,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "application/pdf",
+      "section_headings": [
+        "spectrum method. The complex amplitude of an optical field propagating over a"
+      ],
+      "source_url": "https://s3-eu-west-1.amazonaws.com/pstorage-osa-2151918321/71087676/8117704.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIC5UZOEV5G5EP3CQ/20261106/eu-west-1/s3/aws4_request&X-Amz-Date=20261106T004113Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=857e76b4baf960d26f5b372fef6a1562e7628aab6759e9df9d916bda8bf6c37f",
+      "status": "used",
+      "text_persisted": false
+    },
+    "e8de222ab87bdb274102d640": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "e8de222ab87bdb274102d640",
+      "character_count": 12000,
+      "content_sha256": "6718bebea581aeb2868564552d3a97f153f57df4b01f0ceb34cc95bf64a12ad7",
+      "elapsed_seconds": 0.471,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
       "section_headings": [
-        "B.3 PPO/GRPO-Style Frozen-Distribution Surrogate Methods",
-        "D.1 Common Experimental Setup",
-        "Implementation details."
+        "Accelerating LLM Pretraining with Zeroth-Order Curvature on Idle Serving Compute",
+        "LLM pretraining.",
+        "2.2 ZO gradients lose directional signal at pretraining scale",
+        "Preconditioned optimizers for pretraining.",
+        "Training on heterogeneous and idle compute.",
+        "Appendix E Training trajectories across query budgets"
       ],
-      "source_url": "https://arxiv.org/html/2611.03260",
+      "source_url": "https://arxiv.org/html/2611.02688",
       "status": "used",
       "text_persisted": false
     }
@@ -129,85 +130,85 @@
   "output_language": "zh-CN",
   "prepared_request_count": 3,
   "provider": "deepseek",
-  "queue_sha256": "eb5ac9199ee625e297eafa71c7e28eaf2ffdfc68a7194b4b93455b0fd809aa50",
+  "queue_sha256": "f7f11446bb6b96bc9618e4a55c5c203245882f5c3dbab96f7ff68687b28e191a",
   "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-11-05.jsonl",
-  "request_sha256": "76c452cab503e97f92be9577708727be675f645b627eb310c6cf8d5d8993da42",
+  "request_file": "runtime-state/data/summary_requests/2026-11-06.jsonl",
+  "request_sha256": "d4d34f0f37e1ced6e63036401cc56c238806db311d5cddf4a4ede11fd8be5c32",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "4a032c3744f09f7e77020877e049d30c86e8c175fdaeac4e147e2555dc6e1d92",
+  "selection_manifest_sha256": "758cb3afa32a394b39b41f2d3fe63cd8904ac07a09b51f1a8a961bea12684960",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 3,
+  "source_queue_candidate_count": 5,
   "stage_timings": {
-    "full_text_preparation_seconds": 3.234,
+    "full_text_preparation_seconds": 4.212,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "8c41a3326d64abdd0bb9d1a7",
-        "elapsed_seconds": 23.288,
+        "candidate_id": "4e1b2c8ed30de03dbe6a31eb",
+        "elapsed_seconds": 24.689,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 2097,
+          "completion_tokens": 1904,
           "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 5239,
-          "prompt_tokens": 7159,
-          "total_tokens": 9256
+          "prompt_cache_miss_tokens": 4440,
+          "prompt_tokens": 6360,
+          "total_tokens": 8264
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "dbd89d73b4422f4357c86181",
-        "elapsed_seconds": 20.434,
+        "candidate_id": "5779863299dcab370c05c0ca",
+        "elapsed_seconds": 22.354,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1919,
+          "completion_tokens": 1661,
           "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 2313,
-          "prompt_tokens": 4233,
-          "total_tokens": 6152
+          "prompt_cache_miss_tokens": 1989,
+          "prompt_tokens": 3909,
+          "total_tokens": 5570
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "6da55cf29e6e5024311c8a8a",
-        "elapsed_seconds": 18.234,
+        "candidate_id": "e8de222ab87bdb274102d640",
+        "elapsed_seconds": 27.341,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1606,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1628,
-          "prompt_tokens": 3676,
-          "total_tokens": 5282
+          "completion_tokens": 1984,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 4424,
+          "prompt_tokens": 6344,
+          "total_tokens": 8328
         }
       }
     ],
-    "model_generation_and_validation_seconds": 61.976
+    "model_generation_and_validation_seconds": 74.4
   },
   "status": "completed_automatic",
   "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-11-05.jsonl",
+  "summary_file": "runtime-state/data/summaries/2026-11-06.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
   "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "6da55cf29e6e5024311c8a8a": {
+      "4e1b2c8ed30de03dbe6a31eb": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": null,
         "repaired": false,
         "resolved_type": "unclear"
       },
-      "8c41a3326d64abdd0bb9d1a7": {
+      "5779863299dcab370c05c0ca": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": null,
-        "repaired": false,
+        "model_value": "hybrid",
+        "repaired": true,
         "resolved_type": "unclear"
       },
-      "dbd89d73b4422f4357c86181": {
+      "e8de222ab87bdb274102d640": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": null,
@@ -215,98 +216,93 @@
         "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 0,
+    "architecture_repairs": 1,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "6da55cf29e6e5024311c8a8a": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "6da55cf29e6e5024311c8a8a",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 2.005,
-        "error": "https://ieeexplore.ieee.org/document/11739849/: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.1109/ichci71425.2026.11739849",
-        "status": "not_available",
-        "text_persisted": false
-      },
-      "8c41a3326d64abdd0bb9d1a7": {
+      "4e1b2c8ed30de03dbe6a31eb": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "8c41a3326d64abdd0bb9d1a7",
+        "candidate_id": "4e1b2c8ed30de03dbe6a31eb",
         "character_count": 12000,
-        "content_sha256": "558489bbc3240891aef42d8c756564ca820acfedd13851d7958796f8eb493055",
-        "elapsed_seconds": 0.866,
+        "content_sha256": "e98153dbf7f8ceaaff306cb040739c68a946d0717abcb18264be9d0b317b04c4",
+        "elapsed_seconds": 0.259,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
         "section_headings": [
-          "2.2 Variational MultiScale Method",
-          "3 Method",
-          "4.1 Experimental Setup and Main Results",
-          "Appendix D Implementation Details",
-          "Appendix F Experimental Setup and Hyperparameters",
-          "Training budget.",
-          "Method configurations."
+          "White-box methods for DFKD",
+          "Black-box methods for DFKD",
+          "3 Methodology",
+          "Student Training",
+          "Experimental Setup"
         ],
-        "source_url": "https://arxiv.org/html/2611.03293",
+        "source_url": "https://arxiv.org/html/2611.00908",
         "status": "used",
         "text_persisted": false
       },
-      "dbd89d73b4422f4357c86181": {
+      "5779863299dcab370c05c0ca": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "dbd89d73b4422f4357c86181",
-        "character_count": 3116,
-        "content_sha256": "a6d3844150a7b3da67e598570db2cbaf51e98df695c1aaa6ea6c817b577bdb6e",
-        "elapsed_seconds": 0.357,
+        "candidate_id": "5779863299dcab370c05c0ca",
+        "character_count": 774,
+        "content_sha256": "16d47ff3f5f8b758e4efa78684d6543f2133973782e45e87eae4b6b7a621139a",
+        "elapsed_seconds": 3.476,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "application/pdf",
+        "section_headings": [
+          "spectrum method. The complex amplitude of an optical field propagating over a"
+        ],
+        "source_url": "https://s3-eu-west-1.amazonaws.com/pstorage-osa-2151918321/71087676/8117704.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIC5UZOEV5G5EP3CQ/20261106/eu-west-1/s3/aws4_request&X-Amz-Date=20261106T004113Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=857e76b4baf960d26f5b372fef6a1562e7628aab6759e9df9d916bda8bf6c37f",
+        "status": "used",
+        "text_persisted": false
+      },
+      "e8de222ab87bdb274102d640": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "e8de222ab87bdb274102d640",
+        "character_count": 12000,
+        "content_sha256": "6718bebea581aeb2868564552d3a97f153f57df4b01f0ceb34cc95bf64a12ad7",
+        "elapsed_seconds": 0.471,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
         "section_headings": [
-          "B.3 PPO/GRPO-Style Frozen-Distribution Surrogate Methods",
-          "D.1 Common Experimental Setup",
-          "Implementation details."
+          "Accelerating LLM Pretraining with Zeroth-Order Curvature on Idle Serving Compute",
+          "LLM pretraining.",
+          "2.2 ZO gradients lose directional signal at pretraining scale",
+          "Preconditioned optimizers for pretraining.",
+          "Training on heterogeneous and idle compute.",
+          "Appendix E Training trajectories across query budgets"
         ],
-        "source_url": "https://arxiv.org/html/2611.03260",
+        "source_url": "https://arxiv.org/html/2611.02688",
         "status": "used",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 2,
-    "numeric_grounding_repair_responses": 2,
+    "generation_metadata_repair_responses": 1,
+    "numeric_grounding_repair_responses": 1,
     "numeric_grounding_repairs": {
-      "6da55cf29e6e5024311c8a8a": [
+      "5779863299dcab370c05c0ca": [
         {
           "action": "redacted_unsupported_sentence",
-          "original_excerpt": "在 Qwen2.5-1.5B 上，偏好子空间在 k=16 时捕获率 ρ=4.6×10^-2，约为随机基线的106倍。",
-          "path": "reported_results[0].claim",
-          "replacement": "相关定量结果未在标题或摘要中提供。",
+          "original_excerpt": "例如，三层网络每层可有两种状态（如折射率高低），则总共可实现8种计算状态，实现对多功能光学计算的可编程切换。",
+          "path": "method_principle",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
           "tokens": [
-            "-2"
+            "8"
           ]
-        }
-      ],
-      "8c41a3326d64abdd0bb9d1a7": [
-        {
-          "action": "rewrote_bounded_zero_one_interval",
-          "original_excerpt": "在每次粗尺度更新中，先计算纯粗尺度预条件方向 s_c = Σ_c R(G)，再由全空间与粗尺度曲率方向的不一致程度构造子网格残差 τ_sgs = R(Σ_f G) - Σ_c R(G)，其中 G 为全空间梯度（在零阶实现中由 RLOO 估计器替代）。分支残差由秩-1 曲率向量显式给出，最终更新方向为 s_c + λ τ_sgs，两个分支使用独立权重 λ_B, λ_A ∈ [0,1]，并根据粗、细曲率方向的角度差异动态调节。",
-          "path": "method_implementation[2]",
-          "replacement": "在每次粗尺度更新中，先计算纯粗尺度预条件方向 s_c = Σ_c R(G)，再由全空间与粗尺度曲率方向的不一致程度构造子网格残差 τ_sgs = R(Σ_f G) - Σ_c R(G)，其中 G 为全空间梯度（在零阶实现中由 RLOO 估计器替代）。分支残差由秩-1 曲率向量显式给出，最终更新方向为 s_c + λ τ_sgs，两个分支使用独立权重 λ_B, λ_A ∈ 一个有界范围，并根据粗、细曲率方向的角度差异动态调节。"
         }
       ]
     },
-    "tops_alias_expansions": 37,
-    "unit_format_normalization_responses": 1
+    "tops_alias_expansions": 62,
+    "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 5622,
-    "prompt_cache_hit_tokens": 5888,
-    "prompt_cache_miss_tokens": 9180,
-    "prompt_tokens": 15068,
-    "total_tokens": 20690
+    "completion_tokens": 5549,
+    "prompt_cache_hit_tokens": 5760,
+    "prompt_cache_miss_tokens": 10853,
+    "prompt_tokens": 16613,
+    "total_tokens": 22162
   }
 }

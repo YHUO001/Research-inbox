@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`120`
-- 更新时间：`2026-11-05T00:42:29.214517Z`
+- 论文数：`123`
+- 更新时间：`2026-11-06T00:42:29.514546Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Programmable diffractive neural networks enabled by microfluidic refractive-index encoding
+
+- DOI/链接：[10.6084/m9.figshare.c.8809089](https://doi.org/10.6084/m9.figshare.c.8809089)
+- 期刊/年份：Figshare，2026
+- 摘要日期：`2026-11-06`
+- 候选 ID：`5779863299dcab370c05c0ca`
+- 标签：application:全息复用, application:分类, application:成像, application:边缘检测, architecture:unclear, project:optical-neural-networks
 
 ### Supplementary document for Femtosecond laser integrating optical diffractive neural network for air-core fiber image transmission - 8053263.pdf
 
@@ -695,6 +703,22 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### ZOPGA-KD: Zeroth Order PGA Guided Data Free Knowledge Distillation
+
+- DOI/链接：[10.48550/arxiv.2611.00908](https://doi.org/10.48550/arxiv.2611.00908)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-11-06`
+- 候选 ID：`4e1b2c8ed30de03dbe6a31eb`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
+
+### Accelerating LLM Pretraining with Zeroth-Order Curvature on Idle Serving Compute
+
+- DOI/链接：[10.48550/arxiv.2611.02688](https://doi.org/10.48550/arxiv.2611.02688)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-11-06`
+- 候选 ID：`e8de222ab87bdb274102d640`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
 
 ### The Cost of Mismatch: Noise Amplification in Zeroth-Order Reinforcement Learning
 

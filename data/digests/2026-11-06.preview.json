@@ -1,0 +1,76 @@
+{
+  "built_at": "2026-11-06T00:41:08.934650Z",
+  "digest_date": "2026-11-06",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "4e1b2c8ed30de03dbe6a31eb",
+        "landing_page": "https://arxiv.org/abs/2611.00908",
+        "mandatory": false,
+        "score": 0.87,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "ZOPGA-KD: Zeroth Order PGA Guided Data Free Knowledge Distillation",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "5779863299dcab370c05c0ca",
+        "landing_page": "https://doi.org/10.6084/m9.figshare.c.8809089",
+        "mandatory": false,
+        "score": 0.81,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "Programmable diffractive neural networks enabled by microfluidic refractive-index encoding",
+        "venue": "Figshare",
+        "year": 2026
+      },
+      {
+        "candidate_id": "e8de222ab87bdb274102d640",
+        "landing_page": "https://arxiv.org/abs/2611.02688",
+        "mandatory": false,
+        "score": 0.78,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Accelerating LLM Pretraining with Zeroth-Order Curvature on Idle Serving Compute",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      }
+    ],
+    "next_candidates": [
+      {
+        "candidate_id": "3632fc0a1f9d56351c9ae7c8",
+        "landing_page": "https://doi.org/10.3390/math14214006",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Evolution Strategy-Assisted TD3 for Continuous Control: Policy-Update Analysis and Plant-State Boundedness",
+        "venue": "Mathematics",
+        "year": 2026
+      },
+      {
+        "candidate_id": "447bcc656bdfd73659483dbf",
+        "landing_page": "https://arxiv.org/abs/2611.01373",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Differentially Private Distributed Optimization via the Intrinsic Randomness of Zeroth-Order Estimators: Sampling Geometry, Convergence, and Privacy Guarantees",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      }
+    ]
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

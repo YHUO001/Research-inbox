@@ -9019,6 +9019,27 @@
       "retrieved_at": "2026-11-04T00:39:56.551000Z",
       "status": "found"
     },
+    "crossref:doi:10.6084/m9.figshare.34485666": {
+      "expires_at": "2026-12-06T00:41:01.955679Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [],
+        "cited_by_count": 0,
+        "doi": "10.6084/m9.figshare.34485666",
+        "landing_page": "https://doi.org/10.6084/m9.figshare.34485666",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.6084/m9.figshare.34485666",
+        "publication_date": null,
+        "title": null,
+        "venue": null,
+        "year": null
+      },
+      "retrieved_at": "2026-11-06T00:41:01.955679Z",
+      "status": "found"
+    },
     "crossref:doi:10.6084/m9.figshare.c.8610155.v1": {
       "expires_at": "2026-10-14T01:07:35.185501Z",
       "record": null,
@@ -9029,6 +9050,12 @@
       "expires_at": "2026-09-27T03:25:33.764018Z",
       "record": null,
       "retrieved_at": "2026-08-28T03:25:33.764018Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.6084/m9.figshare.c.8809089": {
+      "expires_at": "2026-12-06T00:40:57.207375Z",
+      "record": null,
+      "retrieved_at": "2026-11-06T00:40:57.207375Z",
       "status": "not_found"
     },
     "crossref:doi:10.60893/figshare.app.c.8604716.v1": {
@@ -9447,6 +9474,44 @@
       "record": null,
       "retrieved_at": "2026-09-13T01:07:25.764659Z",
       "status": "not_found"
+    },
+    "crossref:title:08c22042cef42c9fbe341385ffbdfa7adc27a635eb412cd03de76d3c5c37a502": {
+      "expires_at": "2026-11-13T00:40:59.710403Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ming Liu",
+            "orcid": null
+          },
+          {
+            "name": "Lutian Wang",
+            "orcid": null
+          },
+          {
+            "name": "Lihua Sun",
+            "orcid": "https://orcid.org/0000-0002-3309-730X"
+          },
+          {
+            "name": "Feifeng Zheng",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.cor.2026.107716",
+        "landing_page": "https://doi.org/10.1016/j.cor.2026.107716",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.cor.2026.107716",
+        "publication_date": "2026-11",
+        "title": "Learning-oriented approach for integrated charging load prediction and mobile charging station scheduling",
+        "venue": "Computers &amp; Operations Research",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:40:59.710403Z",
+      "status": "found"
     },
     "crossref:title:0920e2efb69cf4de96c909fa10e35cd1125e5b109e5d88951aa285c8433ce7b5": {
       "expires_at": "2026-11-10T00:40:34.800081Z",
@@ -10550,6 +10615,44 @@
       "retrieved_at": "2026-09-27T01:11:28.606186Z",
       "status": "not_found"
     },
+    "crossref:title:3291b54eca383d1ad6314e398a45a4b1751904daf1fd0eb529522cea339b87d3": {
+      "expires_at": "2026-11-13T00:40:54.583462Z",
+      "record": {
+        "abstract": "Exploration quality and policy parameter updates influence the training of deterministic actor–critic controllers. This study presents ES–TD3, an evolution strategy-assisted Twin Delayed Deep Deterministic Policy Gradient framework that combines population-based actor-parameter search with off-policy learning. Candidate actors undergo Gaussian perturbation, episodic evaluation, elite selection, and fitness-weighted recombination. The mathematical analysis establishes that the recombined parameter vector lies within the convex hull of the elite actors and bounds its displacement from the current population center by the largest elite displacement, with a perturbation-dependent bound for Gaussian candidates. For a mass–spring–damper plant with positive mass, damping, and stiffness, bounded-input/bounded-state and Lyapunov analyses establish uniform ultimate boundedness of the physical state under the bounded deterministic actor output. These guarantees concern individual recombination steps and plant-state boundedness, not asymptotic tracking or global training convergence. MATLAB/Simulink simulations compare ES–TD3 with standard TD3 and PID control, examine reference and initial condition variations, and assess sensitivity to evolutionary settings. The best observed configuration reaches the moving-average reward threshold of 126,500 at generation 203 and attains a final moving-average reward of 126,512. The reported ES–TD3 run exhibits smoother reward progression than the TD3 baseline, while the deployed policy produces bounded tracking responses across the tested scenarios. The results support the feasibility of combining evolutionary policy search with actor–critic learning for the considered control problem; broader performance claims require independent repeated trials.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "A. H. Abdul Hafez",
+            "orcid": "https://orcid.org/0000-0002-1908-5521"
+          },
+          {
+            "name": "Ufuk Demircioğlu",
+            "orcid": "https://orcid.org/0000-0002-9707-8271"
+          },
+          {
+            "name": "Halit Bakır",
+            "orcid": null
+          },
+          {
+            "name": "Badar Almarri",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/math14214006",
+        "landing_page": "https://doi.org/10.3390/math14214006",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/math14214006",
+        "publication_date": "2026-11-03",
+        "title": "Evolution Strategy-Assisted TD3 for Continuous Control: Policy-Update Analysis and Plant-State Boundedness",
+        "venue": "Mathematics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:40:54.583462Z",
+      "status": "found"
+    },
     "crossref:title:33a45e5cd73326adf0ab633eda1af5255e00d2d4b19bcf135911375e505af8e2": {
       "expires_at": "2026-09-12T00:59:50.332909Z",
       "record": null,
@@ -11218,6 +11321,12 @@
       "retrieved_at": "2026-10-05T01:13:31.411314Z",
       "status": "not_found"
     },
+    "crossref:title:4865ecefca8be1ebc9fae963a445022de379579af7813f9c1ee05527e3bb658b": {
+      "expires_at": "2026-11-13T00:41:06.113214Z",
+      "record": null,
+      "retrieved_at": "2026-11-06T00:41:06.113214Z",
+      "status": "not_found"
+    },
     "crossref:title:49d034dc3ade2acf4fa4fe1892dc603b642f4d920ef8a790d7a190832712311a": {
       "expires_at": "2026-09-07T01:07:06.492421Z",
       "record": null,
@@ -11574,6 +11683,12 @@
       "retrieved_at": "2026-09-09T01:01:59.024949Z",
       "status": "found"
     },
+    "crossref:title:5a26ce60fcd438a4190c92d5dfc7b2718824ed5ea0276fcfa3f126e499e2d038": {
+      "expires_at": "2026-11-13T00:41:00.114889Z",
+      "record": null,
+      "retrieved_at": "2026-11-06T00:41:00.114889Z",
+      "status": "not_found"
+    },
     "crossref:title:5afb7bb094202eeedf007300cb41f647d08f1bce61cb0fcc5f5a51505d58d69b": {
       "expires_at": "2026-10-10T01:04:43.956681Z",
       "record": null,
@@ -11688,6 +11803,12 @@
       "expires_at": "2026-10-10T01:04:33.724414Z",
       "record": null,
       "retrieved_at": "2026-10-03T01:04:33.724414Z",
+      "status": "not_found"
+    },
+    "crossref:title:5d8c994c80724eb575516d639be1408cae13365623c4356db9c1fe38785e340e": {
+      "expires_at": "2026-11-13T00:41:06.829135Z",
+      "record": null,
+      "retrieved_at": "2026-11-06T00:41:06.829135Z",
       "status": "not_found"
     },
     "crossref:title:5e068699ee7c3a803d9a5024caade81ea5dfcd06e2533e7a1c9caa26e8b1c8e9": {
@@ -12564,6 +12685,12 @@
       "expires_at": "2026-08-17T00:36:45.356180Z",
       "record": null,
       "retrieved_at": "2026-08-10T00:36:45.356180Z",
+      "status": "not_found"
+    },
+    "crossref:title:880d428b9274f4a7678bec64a58d8ea61cdd747d2fca196bb33add130c12cd0b": {
+      "expires_at": "2026-11-13T00:41:07.576132Z",
+      "record": null,
+      "retrieved_at": "2026-11-06T00:41:07.576132Z",
       "status": "not_found"
     },
     "crossref:title:888aaf024779eae215035bb0a4ee3fe335d0eb9305afe65f1cc101a627c82e49": {
@@ -13452,6 +13579,12 @@
       "retrieved_at": "2026-08-18T04:25:07.751201Z",
       "status": "not_found"
     },
+    "crossref:title:a4ce3e381b3d22ac6eb4682aaa36f861bb6917d107da24314dbbef53432573b9": {
+      "expires_at": "2026-11-13T00:40:58.882652Z",
+      "record": null,
+      "retrieved_at": "2026-11-06T00:40:58.882652Z",
+      "status": "not_found"
+    },
     "crossref:title:a4d60fc193a9c170af67e7284eb656840f515bee60120abef56eb3c9e7d311ed": {
       "expires_at": "2026-09-12T00:59:47.500485Z",
       "record": null,
@@ -14072,6 +14205,12 @@
       "retrieved_at": "2026-08-27T16:32:40.233179Z",
       "status": "found"
     },
+    "crossref:title:be7458799c1b7f0a458109888f0367c66e230f035acf3b1e0b8dca5ff9b524e2": {
+      "expires_at": "2026-11-13T00:41:05.258839Z",
+      "record": null,
+      "retrieved_at": "2026-11-06T00:41:05.258839Z",
+      "status": "not_found"
+    },
     "crossref:title:be860c96415d73cb9f5a30d4a66847c69de8bd3275c84aa0e684245d477756b2": {
       "expires_at": "2026-09-30T01:01:07.199020Z",
       "record": null,
@@ -14448,6 +14587,12 @@
       "retrieved_at": "2026-10-23T01:02:33.525957Z",
       "status": "not_found"
     },
+    "crossref:title:c8b66f2d780fd1397efeb411c90d0f5ee71fc0953ab43b175daa76cd339e06e5": {
+      "expires_at": "2026-11-13T00:41:03.977196Z",
+      "record": null,
+      "retrieved_at": "2026-11-06T00:41:03.977196Z",
+      "status": "not_found"
+    },
     "crossref:title:c8ba769f576f225f9d67c9460beddf995f190f288b39b8f2e2e17fd24c59f104": {
       "expires_at": "2026-10-10T01:04:36.006206Z",
       "record": {
@@ -14556,6 +14701,12 @@
       "expires_at": "2026-10-23T00:57:53.733756Z",
       "record": null,
       "retrieved_at": "2026-10-16T00:57:53.733756Z",
+      "status": "not_found"
+    },
+    "crossref:title:ca557ff77f83466d23085506a17d223b25bc044172d1cada23986189b3fedc44": {
+      "expires_at": "2026-11-13T00:40:53.548437Z",
+      "record": null,
+      "retrieved_at": "2026-11-06T00:40:53.548437Z",
       "status": "not_found"
     },
     "crossref:title:cb653e6b154d2113886c90e071760dc4a8fb67fee0e0afa78f418c381e6f8209": {
@@ -14956,6 +15107,12 @@
       "retrieved_at": "2026-09-18T01:02:35.012052Z",
       "status": "not_found"
     },
+    "crossref:title:d9ddafa62b2f931823056b0437077a3e67a6e31e7555eeb5492afe449e51dec7": {
+      "expires_at": "2026-11-13T00:40:52.595773Z",
+      "record": null,
+      "retrieved_at": "2026-11-06T00:40:52.595773Z",
+      "status": "not_found"
+    },
     "crossref:title:d9f1c982a3cfd1c5b6c29c67f1f5383499064f71297dda9b379ac82ad25bc278": {
       "expires_at": "2026-08-11T09:38:49.500080Z",
       "record": {
@@ -15178,6 +15335,12 @@
       "expires_at": "2026-10-10T01:04:48.470391Z",
       "record": null,
       "retrieved_at": "2026-10-03T01:04:48.470391Z",
+      "status": "not_found"
+    },
+    "crossref:title:e05189dfeffed2440e46231dc1416291a26b77d1c1b72fcce3afef8096dbc22e": {
+      "expires_at": "2026-11-13T00:40:57.982354Z",
+      "record": null,
+      "retrieved_at": "2026-11-06T00:40:57.982354Z",
       "status": "not_found"
     },
     "crossref:title:e0c40173b31fb091dc9b2bb504251cc6923bf560efbc970803004aa46d87a922": {
@@ -15754,6 +15917,12 @@
       "retrieved_at": "2026-10-26T01:04:35.892252Z",
       "status": "not_found"
     },
+    "crossref:title:ee3356a2d2ea1b8e0801f1bf4bd9e9fe892a8da9a3120597aaa3a7180f68cc9a": {
+      "expires_at": "2026-11-13T00:40:56.626599Z",
+      "record": null,
+      "retrieved_at": "2026-11-06T00:40:56.626599Z",
+      "status": "not_found"
+    },
     "crossref:title:ef63a7f91c3b5ef8a19ee9368e136e4954362b505b62725abd03830c35937e1b": {
       "expires_at": "2026-08-27T00:32:23.976550Z",
       "record": null,
@@ -15885,6 +16054,12 @@
       },
       "retrieved_at": "2026-09-15T01:03:35.043496Z",
       "status": "found"
+    },
+    "crossref:title:f38aff59d0904b3c9de930313132fd35a45ac6e4bd20a566957f428d04a7fa40": {
+      "expires_at": "2026-11-13T00:40:55.313008Z",
+      "record": null,
+      "retrieved_at": "2026-11-06T00:40:55.313008Z",
+      "status": "not_found"
     },
     "crossref:title:f423903be74108a8d2be27f40109ed7a008b05c9f8426d00f09cc57552609ed9": {
       "expires_at": "2026-09-25T01:02:32.334695Z",
@@ -16093,6 +16268,40 @@
       "record": null,
       "retrieved_at": "2026-08-04T09:38:44.743778Z",
       "status": "not_found"
+    },
+    "crossref:title:f85df982d0334c9c90f999c380d329b6d55eb8398b0f75eeaa17ac9ca53e7fe0": {
+      "expires_at": "2026-11-13T00:41:03.173442Z",
+      "record": {
+        "abstract": "Oil and gas well-network systems are inherently complex hydraulically, thermodynamically, and operationally. Even the smallest network will typically demonstrate well-to-well hydraulic pressure interference, co-mingling fluids and gasses, down-hole constraints and capacity constraints once the multiphase mixtures reach their processing destination. A suite of mature commercial simulation offerings exist which have throughout the years shown to be quite capable in accurately predicting the steady state behavior of such systems given adequate well design, flowline, and fluid PVT data (Schlumberger 2023; Petroleum Experts 2023). Unfortunately, the simulation-driven optimization of such systems faces a multiplicative computational burden as a target network increases in size with respect to well count: the cost per forward solution increases and the dimensionality of the inverse problem itself (number of control variables) increases; proportionally demanding additional forward evaluations to find feasible optimums (Bieker et al. 2007). For example, a co-mingled network of 200 ESP wells undergoing choke opening and ESP frequency optimization will require 401 (1 baseline + 400 control variable perturbations) forward solves for the construction of a single two-point finite difference estimated Jacobian matrix. When operating networks of these scales, the time-horizon for decision making is the critical constraint. While combining a high-fidelity simulator with optimization algorithms can technically support a wide array of inverse problems, it may take so long to produce an answer from such an approach that the chance to apply a decision based on that answer has passed. There are many classical and novel approaches to accelerating optimization tasks including probabilistic methods, gradient free schemes, and linearization (Camponogara and Nakashima 2006), all with varying compatibility and utility for problems of this high dimensionality. In this work we focus on a proxy/surrogate model approach (Forrester et al. 2008) which leverages a computationally expensive yet robust gradient based optimizer algorithm, while compressing the forward solve time itself via assemblages of non-linear physics-informed deep neural network regressors.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Kyle Mooney",
+            "orcid": null
+          },
+          {
+            "name": "Nicholas Crabb",
+            "orcid": null
+          },
+          {
+            "name": "Gabriel Jacobsohn",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.2118/235490-ms",
+        "landing_page": "https://doi.org/10.2118/235490-ms",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.2118/235490-ms",
+        "publication_date": "2026-11-02",
+        "title": "Systems of Surrogates: A Method for Physics-Informed AI in Surface Network Optimization at Full-Field Scale",
+        "venue": "ADIPEC",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:41:03.173442Z",
+      "status": "found"
     },
     "crossref:title:f8644e24f0759c248552abcf0a83a097499163ceda52272fe68c7fe769e83a07": {
       "expires_at": "2026-09-30T01:01:05.833104Z",
@@ -19950,6 +20159,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-26T00:32:39.023529Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.cor.2026.107716": {
+      "expires_at": "2026-12-06T00:40:59.878126Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ming Liu",
+            "orcid": "https://orcid.org/0000-0002-4693-0073"
+          },
+          {
+            "name": "Lutian Wang",
+            "orcid": null
+          },
+          {
+            "name": "Sun Lihua",
+            "orcid": "https://orcid.org/0000-0002-3309-730X"
+          },
+          {
+            "name": "Feifeng Zheng",
+            "orcid": "https://orcid.org/0000-0002-1603-4163"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.cor.2026.107716",
+        "landing_page": "https://doi.org/10.1016/j.cor.2026.107716",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7225090359",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225090359",
+        "publication_date": "2026-11-01",
+        "title": "Learning-oriented approach for integrated charging load prediction and mobile charging station scheduling",
+        "venue": "Computers & Operations Research",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:40:59.878126Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.engappai.2026.116298": {
@@ -28934,6 +29181,40 @@
       "retrieved_at": "2026-09-12T00:59:39.904888Z",
       "status": "found"
     },
+    "openalex:doi:10.2118/235490-ms": {
+      "expires_at": "2026-12-06T00:41:03.357749Z",
+      "record": {
+        "abstract": "Oil and gas well-network systems are inherently complex hydraulically, thermodynamically, and operationally. Even the smallest network will typically demonstrate well-to-well hydraulic pressure interference, co-mingling fluids and gasses, down-hole constraints and capacity constraints once the multiphase mixtures reach their processing destination. A suite of mature commercial simulation offerings exist which have throughout the years shown to be quite capable in accurately predicting the steady state behavior of such systems given adequate well design, flowline, and fluid PVT data (Schlumberger 2023; Petroleum Experts 2023). Unfortunately, the simulation-driven optimization of such systems faces a multiplicative computational burden as a target network increases in size with respect to well count: the cost per forward solution increases and the dimensionality of the inverse problem itself (number of control variables) increases; proportionally demanding additional forward evaluations to find feasible optimums (Bieker et al. 2007). For example, a co-mingled network of 200 ESP wells undergoing choke opening and ESP frequency optimization will require 401 (1 baseline + 400 control variable perturbations) forward solves for the construction of a single two-point finite difference estimated Jacobian matrix. When operating networks of these scales, the time-horizon for decision making is the critical constraint. While combining a high-fidelity simulator with optimization algorithms can technically support a wide array of inverse problems, it may take so long to produce an answer from such an approach that the chance to apply a decision based on that answer has passed. There are many classical and novel approaches to accelerating optimization tasks including probabilistic methods, gradient free schemes, and linearization (Camponogara and Nakashima 2006), all with varying compatibility and utility for problems of this high dimensionality. In this work we focus on a proxy/surrogate model approach (Forrester et al. 2008) which leverages a computationally expensive yet robust gradient based optimizer algorithm, while compressing the forward solve time itself via assemblages of non-linear physics-informed deep neural network regressors.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Kyle Mooney",
+            "orcid": "https://orcid.org/0009-0001-4439-6268"
+          },
+          {
+            "name": "Nicholas Crabb",
+            "orcid": null
+          },
+          {
+            "name": "Gabriel L. Jacobsohn",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.2118/235490-ms",
+        "landing_page": "https://doi.org/10.2118/235490-ms",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7225054151",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225054151",
+        "publication_date": "2026-11-02",
+        "title": "Systems of Surrogates: A Method for Physics-Informed AI in Surface Network Optimization at Full-Field Scale",
+        "venue": "Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:41:03.357749Z",
+      "status": "found"
+    },
     "openalex:doi:10.21203/rs.3.rs-10187577/v1": {
       "expires_at": "2026-09-04T13:20:52.127904Z",
       "record": {
@@ -29796,6 +30077,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-28T00:48:21.292193Z",
+      "status": "found"
+    },
+    "openalex:doi:10.3390/math14214006": {
+      "expires_at": "2026-12-06T00:40:54.908271Z",
+      "record": {
+        "abstract": "Exploration quality and policy parameter updates influence the training of deterministic actor–critic controllers. This study presents ES–TD3, an evolution strategy-assisted Twin Delayed Deep Deterministic Policy Gradient framework that combines population-based actor-parameter search with off-policy learning. Candidate actors undergo Gaussian perturbation, episodic evaluation, elite selection, and fitness-weighted recombination. The mathematical analysis establishes that the recombined parameter vector lies within the convex hull of the elite actors and bounds its displacement from the current population center by the largest elite displacement, with a perturbation-dependent bound for Gaussian candidates. For a mass–spring–damper plant with positive mass, damping, and stiffness, bounded-input/bounded-state and Lyapunov analyses establish uniform ultimate boundedness of the physical state under the bounded deterministic actor output. These guarantees concern individual recombination steps and plant-state boundedness, not asymptotic tracking or global training convergence. MATLAB/Simulink simulations compare ES–TD3 with standard TD3 and PID control, examine reference and initial condition variations, and assess sensitivity to evolutionary settings. The best observed configuration reaches the moving-average reward threshold of 126,500 at generation 203 and attains a final moving-average reward of 126,512. The reported ES–TD3 run exhibits smoother reward progression than the TD3 baseline, while the deployed policy produces bounded tracking responses across the tested scenarios. The results support the feasibility of combining evolutionary policy search with actor–critic learning for the considered control problem; broader performance claims require independent repeated trials.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "A. H. Abdul Hafez",
+            "orcid": "https://orcid.org/0000-0002-1908-5521"
+          },
+          {
+            "name": "Ufuk Demircioğlu",
+            "orcid": "https://orcid.org/0000-0002-9707-8271"
+          },
+          {
+            "name": "Halit Bakır",
+            "orcid": "https://orcid.org/0000-0003-3327-2822"
+          },
+          {
+            "name": "Badar A. Almarri",
+            "orcid": "https://orcid.org/0000-0002-0960-3727"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/math14214006",
+        "landing_page": "https://doi.org/10.3390/math14214006",
+        "open_access_url": "https://doi.org/10.3390/math14214006",
+        "openalex_id": "https://openalex.org/W7225173421",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225173421",
+        "publication_date": "2026-11-03",
+        "title": "Evolution Strategy-Assisted TD3 for Continuous Control: Policy-Update Analysis and Plant-State Boundedness",
+        "venue": "Mathematics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:40:54.908271Z",
       "status": "found"
     },
     "openalex:doi:10.3390/mi17091074": {
@@ -31610,6 +31929,68 @@
       "retrieved_at": "2026-11-04T00:39:56.743775Z",
       "status": "found"
     },
+    "openalex:doi:10.6084/m9.figshare.34485666": {
+      "expires_at": "2026-12-06T00:41:02.411810Z",
+      "record": {
+        "abstract": "Supplementary Material containing Tables S1–S2, Figures S1–S2, and Algorithm S1.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Junyu Wang",
+            "orcid": null
+          },
+          {
+            "name": "Jie Lu",
+            "orcid": null
+          },
+          {
+            "name": "Haoyu Li",
+            "orcid": null
+          },
+          {
+            "name": "Kexiang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Junxiu Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Zeyang Xiang",
+            "orcid": null
+          },
+          {
+            "name": "Yun Wen",
+            "orcid": null
+          },
+          {
+            "name": "Xinyu Cao",
+            "orcid": "https://orcid.org/0000-0002-0960-2871"
+          },
+          {
+            "name": "Weitian Xu",
+            "orcid": null
+          },
+          {
+            "name": "Chengjun Yan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.6084/m9.figshare.34485666",
+        "landing_page": "https://doi.org/10.6084/m9.figshare.34485666",
+        "open_access_url": "https://doi.org/10.6084/m9.figshare.34485666",
+        "openalex_id": "https://openalex.org/W7225242967",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225242967",
+        "publication_date": "2026-11-04",
+        "title": "Supplementary document for Quantization-Aware Nonlinear Diffractive Neural Network for Robust Optical Image Reconstruction under Fabrication Constraints - 8074464.pdf",
+        "venue": "Figshare",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:41:02.411810Z",
+      "status": "found"
+    },
     "openalex:doi:10.6084/m9.figshare.c.8610155.v1": {
       "expires_at": "2026-10-14T01:07:35.525163Z",
       "record": {
@@ -31716,6 +32097,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-28T03:25:34.104710Z",
+      "status": "found"
+    },
+    "openalex:doi:10.6084/m9.figshare.c.8809089": {
+      "expires_at": "2026-12-06T00:40:57.448997Z",
+      "record": {
+        "abstract": "Diffractive deep neural networks (D2NNs) provide a compact platform for optical computing, but their functions are generally fixed after fabrication. Here, we introduce fluidic refractive-index control as an additional degree of freedom for programmable diffractive computing. By integrating microfluidic chambers with a monolithically printed D2NN, its optical response can be dynamically tuned without altering the physical structure. We demonstrate refractive-index-controlled holographic multiplexing and reconfigurable D2NN functions including imaging, edge detection, and classification. Independent control of individual layers further enables binary encoding, allowing a three-layer network to realize eight computational states with high recognition accuracy. This approach provides a compact and scalable route toward reconfigurable, multifunctional optical computing and photonic intelligence.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shengting Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Yinan Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.6084/m9.figshare.c.8809089",
+        "landing_page": "https://doi.org/10.6084/m9.figshare.c.8809089",
+        "open_access_url": "https://doi.org/10.6084/m9.figshare.c.8809089",
+        "openalex_id": "https://openalex.org/W7225238167",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225238167",
+        "publication_date": "2026-11-04",
+        "title": "Programmable diffractive neural networks enabled by microfluidic refractive-index encoding",
+        "venue": "Figshare",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:40:57.448997Z",
       "status": "found"
     },
     "openalex:doi:10.60893/figshare.app.c.8604716.v1": {
@@ -33593,6 +34004,56 @@
       "retrieved_at": "2026-10-05T01:13:32.030129Z",
       "status": "not_found"
     },
+    "openalex:title:4865ecefca8be1ebc9fae963a445022de379579af7813f9c1ee05527e3bb658b": {
+      "expires_at": "2026-11-13T00:41:06.499672Z",
+      "record": {
+        "abstract": "Offline-trained speech enhancement models can degrade under deployment mismatch. Test-time adaptation (TTA) addresses this problem using unlabeled test observations, but existing approaches mainly rely on online parameter optimization and do not explicitly exploit the residual discarded by the enhancement backbone. We propose Continual Residual Memory (CRM), a gradient-free continual TTA framework for selective residual recovery. CRM first estimates bounded time-frequency residual recovery from the current utterance alone and then uses causal prototype memory from preceding utterances to refine this estimate. During deployment, adaptation is driven solely by the evolving memory state while the backbone and CRM modules remain frozen. Across DNS, EARS-D, and Libri-MUSAN, CRM improves all seven reported metrics over frozen CMGAN and achieves the best PESQ, CSIG, and COVL on all three test sets among the compared methods. CRM remains lightweight and shows cross-backbone applicability on five additional backbones. Code is available at https://github.com/Ada312/continual-residual-memory.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yijia Shan",
+            "orcid": "https://orcid.org/0009-0002-6440-8614"
+          },
+          {
+            "name": "Tianrui Wang",
+            "orcid": null
+          },
+          {
+            "name": "Zixiang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Sheng Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yao Li",
+            "orcid": null
+          },
+          {
+            "name": "Yu Wang",
+            "orcid": null
+          },
+          {
+            "name": "Xie Chen",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.01023",
+        "landing_page": "https://arxiv.org/abs/2611.01023",
+        "open_access_url": "https://arxiv.org/abs/2611.01023",
+        "openalex_id": "https://openalex.org/W7225137800",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225137800",
+        "publication_date": "2026-10-31",
+        "title": "Continual Residual Memory for Gradient-Free Test-Time Adaptation in Speech Enhancement",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:41:06.499672Z",
+      "status": "found"
+    },
     "openalex:title:49d034dc3ade2acf4fa4fe1892dc603b642f4d920ef8a790d7a190832712311a": {
       "expires_at": "2026-09-07T01:07:07.143026Z",
       "record": null,
@@ -33793,6 +34254,44 @@
       "retrieved_at": "2026-08-09T00:36:12.468945Z",
       "status": "not_found"
     },
+    "openalex:title:5a26ce60fcd438a4190c92d5dfc7b2718824ed5ea0276fcfa3f126e499e2d038": {
+      "expires_at": "2026-11-13T00:41:01.774124Z",
+      "record": {
+        "abstract": "Wave-based analog computing has re-emerged as a compelling alternative to digital electronics for specific linear-algebraic and machine-learning workloads, promising massively parallel, high-bandwidth, and energy-efficient information processing. Metamaterials, metasurfaces, and integrated metastructures (collectively, metadevices) now perform mathematical operations, solve integral and differential equations, multiply matrices, and implement trainable photonic neural networks directly in the wave domain. This focused review consolidates the mathematical foundations that underpin such devices, i.e., the mapping between linear operators and wave scattering, the feedback architectures that realize equation inversion, and the inverse-design and scientific machine-learning toolchains that make their synthesis and training tractable, and connects them to the rapidly growing body of experimental demonstrations, from free-space diffractive processors to reconfigurable guided-wave metastructures. We conclude with open problems and opportunities for this emerging neuromorphic nanophotonics ecosystem.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xian Hadia",
+            "orcid": null
+          },
+          {
+            "name": "Odysseas Tsilipakos",
+            "orcid": null
+          },
+          {
+            "name": "Dimitrios C. Tzarouchis",
+            "orcid": "https://orcid.org/0000-0003-2044-1615"
+          },
+          {
+            "name": "Raphaël Pestourie",
+            "orcid": "https://orcid.org/0000-0001-6267-8771"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.40903",
+        "landing_page": "https://arxiv.org/abs/2610.40903",
+        "open_access_url": "https://arxiv.org/abs/2610.40903",
+        "openalex_id": "https://openalex.org/W7225087739",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225087739",
+        "publication_date": "2026-10-29",
+        "title": "Metadevices that compute: mathematical foundations and experimental implementations for neuromorphic nanophotonics",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:41:01.774124Z",
+      "status": "found"
+    },
     "openalex:title:5afb7bb094202eeedf007300cb41f647d08f1bce61cb0fcc5f5a51505d58d69b": {
       "expires_at": "2026-10-10T01:04:44.392430Z",
       "record": null,
@@ -33810,6 +34309,72 @@
       "record": null,
       "retrieved_at": "2026-10-03T01:04:34.187371Z",
       "status": "not_found"
+    },
+    "openalex:title:5d8c994c80724eb575516d639be1408cae13365623c4356db9c1fe38785e340e": {
+      "expires_at": "2026-11-13T00:41:07.156612Z",
+      "record": {
+        "abstract": "LLM pretraining is increasingly compute-intensive, while substantial inference serving compute remains idle during off-peak periods. However, such serving hardware is difficult to use for conventional first-order training due to its memory, networking and other system requirements. Zeroth-order (ZO) optimization offers a natural interface to this forward-only compute resource, but its gradient estimates break down in pretraining. Unlike fine-tuning, which can confine updates to a small parameter subspace, pretraining must update every parameter, and the alignment of a ZO gradient estimate with the true gradient shrinks as the number of updated parameters grows. We make a different observation: noisy ZO estimates can still provide useful curvature information, even when they are too inaccurate to serve as gradients. Based on this insight, we propose ZO-Curv, which leverages idle forward-only devices to estimate curvature and uses it to adapt and refine the update used during first-order training, thereby accelerating the process. We provide convergence guarantees that characterize the effect of finite-query curvature estimation. Experiments on LLMs from 125M to 1.5B parameters show that ZO-Curv consistently accelerates pretraining. At 770M parameters, ZO-Curv reaches AdamW's 20K-step validation loss in 3.9 hours instead of 7.5 hours, while achieving a lower final loss of 2.70 versus 2.84 under the same step budget. These results show that idle model serving compute can accelerate LLM pretraining when zeroth-order queries are used to estimate curvature rather than gradients directly.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Minmin Ma",
+            "orcid": "https://orcid.org/0009-0000-5980-567X"
+          },
+          {
+            "name": "Dongqi Cai",
+            "orcid": "https://orcid.org/0000-0003-2751-2500"
+          },
+          {
+            "name": "Daqian Yang",
+            "orcid": null
+          },
+          {
+            "name": "Zhenyan Lu",
+            "orcid": "https://orcid.org/0009-0005-0209-8421"
+          },
+          {
+            "name": "Chen Chen",
+            "orcid": null
+          },
+          {
+            "name": "Teresa Lv",
+            "orcid": null
+          },
+          {
+            "name": "Yan Gao",
+            "orcid": null
+          },
+          {
+            "name": "Shangguang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Mengwei Xu",
+            "orcid": null
+          },
+          {
+            "name": "Nicholas D. Lane",
+            "orcid": "https://orcid.org/0000-0002-2728-8273"
+          },
+          {
+            "name": "Yu Huang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.02688",
+        "landing_page": "https://arxiv.org/abs/2611.02688",
+        "open_access_url": "https://arxiv.org/abs/2611.02688",
+        "openalex_id": "https://openalex.org/W7225205250",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225205250",
+        "publication_date": "2026-11-02",
+        "title": "Accelerating LLM Pretraining with Zeroth-Order Curvature on Idle Serving Compute",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:41:07.156612Z",
+      "status": "found"
     },
     "openalex:title:5e068699ee7c3a803d9a5024caade81ea5dfcd06e2533e7a1c9caa26e8b1c8e9": {
       "expires_at": "2026-08-16T00:36:11.627946Z",
@@ -34695,6 +35260,40 @@
       "retrieved_at": "2026-08-10T00:36:45.916459Z",
       "status": "not_found"
     },
+    "openalex:title:880d428b9274f4a7678bec64a58d8ea61cdd747d2fca196bb33add130c12cd0b": {
+      "expires_at": "2026-11-13T00:41:07.835872Z",
+      "record": {
+        "abstract": "Multi-objective Bayesian optimization (MOBO) maximizes $M$ expensive black-box objectives with the goal of approximating the Pareto set, whose objective vectors cannot be improved in one component without sacrificing another. A common quality measure is hypervolume, the volume in objective space dominated by these vectors relative to a reference point. Expected hypervolume improvement (EHVI) directly targets this metric and is one-step Bayes-optimal, but its standard computation scales exponentially with $M$, making it prohibitively expensive for many-objective problems. We introduce random max-margin multi-objective Bayesian optimization (RaMMOBO), whose acquisition function lower-bounds EHVI while requiring only linear cost in $M$ to evaluate. RaMMOBO measures the volume of a max-margin box contained in a candidate's hypervolume-improvement region and averages over random reweightings of the objective space, yielding a utility that is strictly Pareto-monotone on hypervolume-improving outcomes. It naturally handles noisy observations and different probabilistic surrogates and supports efficient gradient-based optimization. Across synthetic and real-world benchmarks, RaMMOBO matches or outperforms state-of-the-art methods, with largest gains at higher $M$, with acquisition optimization up to two orders of magnitude faster than qLogNEHVI. Our implementation is available at https://anonymous.4open.science/r/rammobo.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Thomas Wedenig",
+            "orcid": null
+          },
+          {
+            "name": "Paul Plantosar",
+            "orcid": null
+          },
+          {
+            "name": "Robert Peharz",
+            "orcid": "https://orcid.org/0000-0002-8644-9655"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.00312",
+        "landing_page": "https://arxiv.org/abs/2611.00312",
+        "open_access_url": "https://arxiv.org/abs/2611.00312",
+        "openalex_id": "https://openalex.org/W7225198358",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225198358",
+        "publication_date": "2026-10-30",
+        "title": "RaMMOBO: Random Max-Margin Multi-Objective Bayesian Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:41:07.835872Z",
+      "status": "found"
+    },
     "openalex:title:888aaf024779eae215035bb0a4ee3fe335d0eb9305afe65f1cc101a627c82e49": {
       "expires_at": "2026-10-11T01:36:04.152220Z",
       "record": null,
@@ -35334,6 +35933,40 @@
       "record": null,
       "retrieved_at": "2026-08-18T04:25:08.194699Z",
       "status": "not_found"
+    },
+    "openalex:title:a4ce3e381b3d22ac6eb4682aaa36f861bb6917d107da24314dbbef53432573b9": {
+      "expires_at": "2026-11-13T00:40:59.350734Z",
+      "record": {
+        "abstract": "We study federated model-free learning of a common linear quadratic regulator (LQR) gain under a limited uplink communication budget, with clients that share dynamics and costs but experience different process-noise levels. Conventionally, clients transmit gradient matrices whose dimension equals the number of controller parameters. Exploiting the structure of two-point zeroth-order estimates, we consider an implementation in which clients transmit only one scalar cost-difference coefficient per rollout pair, while the server regenerates the associated perturbation directions from shared seeds. Communication thus scales with the number of rollout pairs rather than the controller dimension, turning the uplink budget into a rollout budget. Because noise heterogeneity produces gradient estimates of widely differing variance and every client carries equal weight in the fleet objective, uniform rollout allocation allows noisy clients to dominate the aggregated update and increases the probability of destabilizing updates. We propose a rollout-allocation scheme that assigns rollout pairs in proportion to the standard deviation of each client's estimates and show that it minimizes the variance of the aggregated update. The scheme is implemented exactly through a greedy integer allocation rule whose weights are estimated from the communicated scalars. We further prove that a single allocation factor quantifies its improvement over uniform allocation in a one-round instability bound, the certified step size, and the error floor of a joint stability and convergence guarantee. Simulations show that, under the same communication budget, personalized allocation reduces the one-step instability rate from $37\\%$ to $0.3\\%$.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mohammadreza Rostami",
+            "orcid": "https://orcid.org/0009-0003-9917-5432"
+          },
+          {
+            "name": "Shahriar Talebi",
+            "orcid": "https://orcid.org/0000-0001-8752-2888"
+          },
+          {
+            "name": "Solmaz S. Kia",
+            "orcid": "https://orcid.org/0000-0002-8492-6913"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.00712",
+        "landing_page": "https://arxiv.org/abs/2611.00712",
+        "open_access_url": "https://arxiv.org/abs/2611.00712",
+        "openalex_id": "https://openalex.org/W7225172682",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225172682",
+        "publication_date": "2026-10-31",
+        "title": "Personalized Rollout Allocation for Federated LQR Policy Optimization under Heterogeneous Process Noise",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:40:59.350734Z",
+      "status": "found"
     },
     "openalex:title:a4d60fc193a9c170af67e7284eb656840f515bee60120abef56eb3c9e7d311ed": {
       "expires_at": "2026-09-12T00:59:48.299346Z",
@@ -36125,6 +36758,48 @@
       "retrieved_at": "2026-10-09T01:12:24.444326Z",
       "status": "found"
     },
+    "openalex:title:be7458799c1b7f0a458109888f0367c66e230f035acf3b1e0b8dca5ff9b524e2": {
+      "expires_at": "2026-11-13T00:41:05.700015Z",
+      "record": {
+        "abstract": "Imitation learning from observations must recover behavior from state-only demonstrations without known temporal correspondence. Differentiable simulators provide pathwise policy gradients, but differentiating through long, contact-rich trajectories can make optimization unstable. We introduce FOCUS, which combines local optimal-transport alignment with short-horizon differentiable actor-critic learning. FOCUS matches agent rollout windows to multiple sampled expert segments using a soft best-of-$K$ objective that emphasizes locally compatible matches. The resulting transport-based costs provide differentiable imitation rewards, while a learned critic bootstraps value beyond the rollout horizon. FOCUS requires neither temporally aligned trajectories nor expert-aligned initialization or teacher forcing. Across contact-rich locomotion tasks in DFlex, including a musculoskeletal humanoid controlled by 152 muscle activations, FOCUS improves sample efficiency and training stability over adversarial imitation-from-observation methods and prior differentiable imitation baselines.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "João A. Cândido Ramos",
+            "orcid": "https://orcid.org/0000-0001-9693-469X"
+          },
+          {
+            "name": "Lionel Blondé",
+            "orcid": "https://orcid.org/0000-0002-1993-3121"
+          },
+          {
+            "name": "Hugues Vinzant",
+            "orcid": null
+          },
+          {
+            "name": "Jacopo Castellini",
+            "orcid": null
+          },
+          {
+            "name": "Alexandros Kalousis",
+            "orcid": "https://orcid.org/0000-0001-6282-0686"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.41540",
+        "landing_page": "https://arxiv.org/abs/2610.41540",
+        "open_access_url": "https://arxiv.org/abs/2610.41540",
+        "openalex_id": "https://openalex.org/W7225085298",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225085298",
+        "publication_date": "2026-10-30",
+        "title": "FOCUS: First-Order Control Using Optimal Transport Supervision for Imitation from Observations",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:41:05.700015Z",
+      "status": "found"
+    },
     "openalex:title:be860c96415d73cb9f5a30d4a66847c69de8bd3275c84aa0e684245d477756b2": {
       "expires_at": "2026-09-30T01:01:08.074760Z",
       "record": null,
@@ -36455,6 +37130,40 @@
       "retrieved_at": "2026-10-23T01:02:34.105279Z",
       "status": "found"
     },
+    "openalex:title:c8b66f2d780fd1397efeb411c90d0f5ee71fc0953ab43b175daa76cd339e06e5": {
+      "expires_at": "2026-11-13T00:41:04.599004Z",
+      "record": {
+        "abstract": "This paper proposes a maximum a posteriori (MAP) inference framework with a truncated diffusion prior for safe planning (TDP-SafeMAP). Under a generalized Bayesian formulation, a criterion based on covariance condition number determines the reverse diffusion truncation timestep, and the clean control distribution predicted at that timestep is approximated by a Gaussian prior encoding the control regularities and uncertainty of expert data. An energy function containing a control barrier function (CBF) constraint violation measure defines a Gibbs task likelihood that incorporates physical constraint information. After fusing the prior and likelihood, the covariance matrix adaptation evolution strategy (CMA-ES), whose core update admits an interpretation as a sampling-based approximation to natural-gradient ascent, approximates the posterior mode using only black-box evaluations. Bézier-curve-based dimensionality reduction and related techniques further improve computational efficiency and task-completion capability. Theoretical analysis establishes an error bound for the approximate MAP solution, an explicit condition for CBF safety preservation, and the equivalence of the MAP problem under prior whitening. Experimental results show that the proposed framework consistently generates safe, smooth, and goal-reaching trajectories, providing an effective and practical statistical inference approach to safe planning for black-box systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shanghan Liu",
+            "orcid": null
+          },
+          {
+            "name": "Jitao Sun",
+            "orcid": null
+          },
+          {
+            "name": "Junhui Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.41873",
+        "landing_page": "https://arxiv.org/abs/2610.41873",
+        "open_access_url": "https://arxiv.org/abs/2610.41873",
+        "openalex_id": "https://openalex.org/W7225106171",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225106171",
+        "publication_date": "2026-10-30",
+        "title": "Safe Planning for Black-Box Systems via MAP Inference with Truncated Diffusion Priors and CBF-Informed Gibbs Likelihoods",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:41:04.599004Z",
+      "status": "found"
+    },
     "openalex:title:c8e5f7f13de1c5e2dd1eda61932f53d050fec817d542a547fb423fe0a9379b7a": {
       "expires_at": "2026-09-22T01:03:29.566395Z",
       "record": null,
@@ -36472,6 +37181,40 @@
       "record": null,
       "retrieved_at": "2026-10-16T00:57:54.141264Z",
       "status": "not_found"
+    },
+    "openalex:title:ca557ff77f83466d23085506a17d223b25bc044172d1cada23986189b3fedc44": {
+      "expires_at": "2026-11-13T00:40:54.021957Z",
+      "record": {
+        "abstract": "Laminar-turbulent transition governs skin friction, heat transfer and losses in turbomachinery, yet Reynolds-averaged Navier-Stokes (RANS) transition models rely on empirical correlations and hand-calibrated activation functions whose structural deficiencies cannot be resolved by recalibration. We propose a CFD-driven sparse symbolic regression framework to learn interpretable, closed-form corrections to the production and destruction activation functions in the intermittency equation of the local, Galilean-invariant $k$-$ω$-$γ$ model of Ge et al. Each correction combines a polynomial of a local pressure-gradient parameter, controlling amplitude and sign, with a bounded exponential of local flow features, controlling spatial support. This construction bounds the corrections without ad hoc limiters. Coefficients are identified by gradient-free optimization with the RANS solver in the loop, accelerated by POD-Kriging field surrogates, using mean-velocity data from wall-resolved large-eddy simulations (LES) of the ERCOFTAC T3 flat-plate cases. Elastic-net hyperparameters are selected automatically through bi-level optimization with leave-one-case-out cross-validation. The resulting model retains 11 of 21 candidate terms, compared with 20 under conventional grid-search tuning, while achieving comparable or slightly better accuracy on training and unseen cases. Both approaches recover the same leading-order correction. Applied without retraining to the transonic LS89 turbine cascade, far beyond the training envelope, the augmented model remains numerically robust and improves heat-transfer predictions at all four operating points, reducing errors by up to 70% where the baseline predicts premature transition under high freestream turbulence. Residual errors in transition onset and length highlight the limits of training on flat-plate data alone.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Louenas Zemmour",
+            "orcid": "https://orcid.org/0009-0009-5271-6071"
+          },
+          {
+            "name": "Xavier Gloerfelt",
+            "orcid": "https://orcid.org/0000-0002-2156-8282"
+          },
+          {
+            "name": "Paola Cinnella",
+            "orcid": "https://orcid.org/0000-0001-9979-0783"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.03210",
+        "landing_page": "https://arxiv.org/abs/2611.03210",
+        "open_access_url": "https://arxiv.org/abs/2611.03210",
+        "openalex_id": "https://openalex.org/W7225193574",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225193574",
+        "publication_date": "2026-11-02",
+        "title": "CFD-driven symbolic regression of RANS transition models",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:40:54.021957Z",
+      "status": "found"
     },
     "openalex:title:cb653e6b154d2113886c90e071760dc4a8fb67fee0e0afa78f418c381e6f8209": {
       "expires_at": "2026-11-04T00:48:20.592950Z",
@@ -36657,6 +37400,52 @@
       "retrieved_at": "2026-09-18T01:02:36.855186Z",
       "status": "not_found"
     },
+    "openalex:title:d9ddafa62b2f931823056b0437077a3e67a6e31e7555eeb5492afe449e51dec7": {
+      "expires_at": "2026-11-13T00:40:52.944169Z",
+      "record": {
+        "abstract": "Autonomous agents powered by vision-language models (VLMs) show great potential in navigating mobile graphical user interfaces (GUIs) to complete complex tasks. However, existing paradigms face fundamental scalability bottlenecks: fine-tuning requires massive high-fidelity datasets or prohibitive training time and compute, while gradient-free approaches rely on custom static heuristics or costly trial-and-error trajectory exploration where feedback is deferred until the end of execution. To address these limitations, we introduce MAPLE (Multimodal Agent with Playbook-Learned Experience), a novel gradient-free multi-agent framework that enables dynamic, step-wise experience sharing and execution-time prompt evolution. Unlike traditional action-reflection architectures that depend on costly, post-hoc self-reflection, MAPLE enables agents to cross-reference and distribute runtime insights in real time at each operational step. This dynamic exchange eliminates blind trial-and-error looping and steers agents along direct, grounded interaction paths. Extensive evaluations on the AndroidWorld and MobileWorld benchmarks demonstrate that MAPLE achieves state-of-the-art performance on complex, long-horizon mobile tasks, while proving scalable and adaptable across novel environments.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jun Wang",
+            "orcid": null
+          },
+          {
+            "name": "Aurora Wei",
+            "orcid": null
+          },
+          {
+            "name": "Lucas Spangher",
+            "orcid": "https://orcid.org/0000-0002-5833-1799"
+          },
+          {
+            "name": "Ming Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Eugene Ie",
+            "orcid": null
+          },
+          {
+            "name": "Yiannis Kantaros",
+            "orcid": "https://orcid.org/0000-0002-0257-7378"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.01351",
+        "landing_page": "https://arxiv.org/abs/2611.01351",
+        "open_access_url": "https://arxiv.org/abs/2611.01351",
+        "openalex_id": "https://openalex.org/W7225141155",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225141155",
+        "publication_date": "2026-10-31",
+        "title": "MAPLE: A Multimodal Mobile Agent with Playbook-Learned Experience",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:40:52.944169Z",
+      "status": "found"
+    },
     "openalex:title:da0864c43cbc07ccccda8455948bed2bce575af9d04f7600fed77f299c05ade4": {
       "expires_at": "2026-10-22T00:58:20.125962Z",
       "record": {
@@ -36787,6 +37576,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-03T01:04:48.916456Z",
+      "status": "found"
+    },
+    "openalex:title:e05189dfeffed2440e46231dc1416291a26b77d1c1b72fcce3afef8096dbc22e": {
+      "expires_at": "2026-11-13T00:40:58.428837Z",
+      "record": {
+        "abstract": "We study decentralized composite finite-sum optimization over a fixed connected undirected network, where agents access local component functions through function evaluations and share a possibly nonsmooth convex regularizer. In this setting, standard two-point gradient estimators can retain nonvanishing variance at a solution, complicating their integration with gradient tracking. We propose Distributed Zeroth-Order Incremental Variance Reduction (Distributed ZIVR), which combines incrementally updated component-gradient estimates with a proximal gradient-tracking scheme. The method admits an implementation using a constant number of function evaluations per agent at every iteration, without intermittent full-component or full-coordinate refreshes. For convex smooth component functions and strongly convex local averages, we establish linear convergence up to a controllable finite-difference error. With the finite-difference radius chosen for the target accuracy, Chebyshev-accelerated mixing yields a per-agent oracle complexity of $\\widetilde{O}(d(m+κ)\\log(1/ε))$ for expected squared solution error $ε$, where $d$ is the dimension, $m$ is the number of components per agent, and $κ$ is the condition number. This matches the centralized ZIVR oracle bound, while the communication bound has only an inverse square-root dependence on the network spectral gap. Experiments on logistic and robust regression demonstrate rapid reduction of solution and consensus errors.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Silan Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yujie Tang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2610.41615",
+        "landing_page": "https://arxiv.org/abs/2610.41615",
+        "open_access_url": "https://arxiv.org/abs/2610.41615",
+        "openalex_id": "https://openalex.org/W7225117424",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225117424",
+        "publication_date": "2026-10-30",
+        "title": "Distributed Zeroth-Order Composite Finite-Sum Optimization via Incremental Variance Reduction",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:40:58.428837Z",
       "status": "found"
     },
     "openalex:title:e1ed1bfb722b9d6863eb7a17ff99bfd1d32e18aba4f3ed4680a555f092e18848": {
@@ -36971,6 +37790,48 @@
       "retrieved_at": "2026-10-26T01:04:36.473497Z",
       "status": "not_found"
     },
+    "openalex:title:ee3356a2d2ea1b8e0801f1bf4bd9e9fe892a8da9a3120597aaa3a7180f68cc9a": {
+      "expires_at": "2026-11-13T00:40:56.882295Z",
+      "record": {
+        "abstract": "Knowledge distillation (KD) enables the transfer of learned representations from a large teacher network to a small student network. In foundational KD, the student network uses the original training data of the teacher model to accomplish this task. However, due to privacy concerns, the original training data is often not available. To overcome this reliance on original training data, several data-free knowledge distillation methods have been developed. Some of these methods operate in the white-box setting, and a few methods generate synthetic data by training a generator network. White-box methods use the teacher model's parameters to obtain a synthetic dataset. To avoid relying on teacher parameters, some methods use computationally expensive generative approaches to obtain such a dataset. There also exist certain black-box methods that generate the synthetic data without accessing teacher parameters. These methods are also computationally intensive. We propose a data-free knowledge distillation method that utilizes just the teacher's output logits and does not require access to its architecture, parameters, or gradients. We generate synthetic data via Projected Gradient Ascent (PGA) starting from smooth random noise signals. Required gradients are obtained through zeroth-order gradient estimation rather than backpropagating through the teacher's parameters. The student is then trained on these synthetically generated samples. We evaluate the proposed method on several benchmark datasets and show that the distillation performance is comparable with approaches that have access to the teacher model parameters.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tuhin Subhra Mukherjee",
+            "orcid": null
+          },
+          {
+            "name": "Tiya Rose Pulikunnel",
+            "orcid": null
+          },
+          {
+            "name": "Vaidhav Adit",
+            "orcid": null
+          },
+          {
+            "name": "Devanand Thanissery",
+            "orcid": null
+          },
+          {
+            "name": "S. H. Shabbeer Basha",
+            "orcid": "https://orcid.org/0000-0002-8590-0897"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.00908",
+        "landing_page": "https://arxiv.org/abs/2611.00908",
+        "open_access_url": "https://arxiv.org/abs/2611.00908",
+        "openalex_id": "https://openalex.org/W7225167921",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225167921",
+        "publication_date": "2026-10-31",
+        "title": "ZOPGA-KD: Zeroth Order PGA Guided Data Free Knowledge Distillation",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:40:56.882295Z",
+      "status": "found"
+    },
     "openalex:title:ef63a7f91c3b5ef8a19ee9368e136e4954362b505b62725abd03830c35937e1b": {
       "expires_at": "2026-08-27T00:32:24.473759Z",
       "record": {
@@ -37110,6 +37971,36 @@
       "record": null,
       "retrieved_at": "2026-09-30T01:10:12.168810Z",
       "status": "not_found"
+    },
+    "openalex:title:f38aff59d0904b3c9de930313132fd35a45ac6e4bd20a566957f428d04a7fa40": {
+      "expires_at": "2026-11-13T00:40:55.969439Z",
+      "record": {
+        "abstract": "Distributed zeroth-order optimization has gained increasing attention in applications where exact gradients are computationally expensive or unavailable. However, the iterative exchange of local decision variables makes distributed networks vulnerable to inference attacks. While differential privacy provides a rigorous framework for privacy protection, conventional approaches generally require additional random noise, which inevitably affects optimization accuracy. In this paper, we investigate whether the randomness inherent in zeroth-order estimation can itself provide privacy protection. We develop a distributed zeroth-order gradient descent method that integrates consensus updates with a ball-uniform two-point gradient estimator. Our theoretical analysis shows that our algorithm attains standard convergence guarantees in both online and offline optimization settings. We then characterize the relevant probability distributions of the associated privacy mechanism, and establish differential privacy guarantees for both the online and offline optimization settings. These results reveal the potential of intrinsic zeroth-order randomness for privacy protection.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jiajun Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yujie Tang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.01373",
+        "landing_page": "https://arxiv.org/abs/2611.01373",
+        "open_access_url": "https://arxiv.org/abs/2611.01373",
+        "openalex_id": "https://openalex.org/W7225184209",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225184209",
+        "publication_date": "2026-11-01",
+        "title": "Differentially Private Distributed Optimization via the Intrinsic Randomness of Zeroth-Order Estimators: Sampling Geometry, Convergence, and Privacy Guarantees",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-06T00:40:55.969439Z",
+      "status": "found"
     },
     "openalex:title:f423903be74108a8d2be27f40109ed7a008b05c9f8426d00f09cc57552609ed9": {
       "expires_at": "2026-09-25T01:02:33.062583Z",
