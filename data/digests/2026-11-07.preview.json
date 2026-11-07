@@ -1,0 +1,65 @@
+{
+  "built_at": "2026-11-07T00:39:33.465810Z",
+  "digest_date": "2026-11-07",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "3632fc0a1f9d56351c9ae7c8",
+        "landing_page": "https://doi.org/10.3390/math14214006",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Evolution Strategy-Assisted TD3 for Continuous Control: Policy-Update Analysis and Plant-State Boundedness",
+        "venue": "Mathematics",
+        "year": 2026
+      },
+      {
+        "candidate_id": "447bcc656bdfd73659483dbf",
+        "landing_page": "https://arxiv.org/abs/2611.01373",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Differentially Private Distributed Optimization via the Intrinsic Randomness of Zeroth-Order Estimators: Sampling Geometry, Convergence, and Privacy Guarantees",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      {
+        "candidate_id": "5a8286fab9ab8fe52bf114fa",
+        "landing_page": "https://arxiv.org/abs/2610.41615",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Distributed Zeroth-Order Composite Finite-Sum Optimization via Incremental Variance Reduction",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      }
+    ],
+    "next_candidates": [
+      {
+        "candidate_id": "9e5e9e295864aadeda0674fe",
+        "landing_page": "https://doi.org/10.6084/m9.figshare.34485666",
+        "mandatory": false,
+        "score": 0.72,
+        "source_type": "openalex",
+        "status": "budgeted_not_in_summary_slot",
+        "title": "Supplementary document for Quantization-Aware Nonlinear Diffractive Neural Network for Robust Optical Image Reconstruction under Fabrication Constraints - 8074464.pdf",
+        "venue": "Figshare",
+        "year": 2026
+      }
+    ]
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

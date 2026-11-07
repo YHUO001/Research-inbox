@@ -1,22 +1,24 @@
 {
-  "abstract_fallback_candidate_ids": [],
-  "abstract_fallback_count": 0,
+  "abstract_fallback_candidate_ids": [
+    "3632fc0a1f9d56351c9ae7c8"
+  ],
+  "abstract_fallback_count": 1,
   "architecture_evidence": {
-    "4e1b2c8ed30de03dbe6a31eb": {
+    "3632fc0a1f9d56351c9ae7c8": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
       "previous_type": null,
       "resolved_type": "unclear"
     },
-    "5779863299dcab370c05c0ca": {
+    "447bcc656bdfd73659483dbf": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
-      "previous_type": "unclear",
+      "previous_type": null,
       "resolved_type": "unclear"
     },
-    "e8de222ab87bdb274102d640": {
+    "5a8286fab9ab8fe52bf114fa": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
@@ -26,82 +28,127 @@
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 5,
-  "completed_at": "2026-11-06T00:42:29.514546Z",
+  "automatic_queue_candidate_count": 4,
+  "completed_at": "2026-11-07T00:40:36.339380Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "4e1b2c8ed30de03dbe6a31eb",
-    "5779863299dcab370c05c0ca",
-    "e8de222ab87bdb274102d640"
+    "3632fc0a1f9d56351c9ae7c8",
+    "447bcc656bdfd73659483dbf",
+    "5a8286fab9ab8fe52bf114fa"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-11-06",
-  "digest_json_file": "runtime-state/data/digests/2026-11-06.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-11-06.generated.md",
+  "digest_date": "2026-11-07",
+  "digest_json_file": "runtime-state/data/digests/2026-11-07.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-11-07.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.065997,
+  "estimated_cost_cny": 0.0636062,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "4e1b2c8ed30de03dbe6a31eb": {
+    "3632fc0a1f9d56351c9ae7c8": {
       "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "4e1b2c8ed30de03dbe6a31eb",
-      "character_count": 12000,
-      "content_sha256": "e98153dbf7f8ceaaff306cb040739c68a946d0717abcb18264be9d0b317b04c4",
-      "elapsed_seconds": 0.259,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "text/html",
-      "section_headings": [
-        "White-box methods for DFKD",
-        "Black-box methods for DFKD",
-        "3 Methodology",
-        "Student Training",
-        "Experimental Setup"
-      ],
-      "source_url": "https://arxiv.org/html/2611.00908",
-      "status": "used",
+      "attempt_count": 3,
+      "candidate_id": "3632fc0a1f9d56351c9ae7c8",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 0.395,
+      "error": "https://doi.org/10.3390/math14214006: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.3390/math14214006",
+      "status": "not_available",
       "text_persisted": false
     },
-    "5779863299dcab370c05c0ca": {
+    "447bcc656bdfd73659483dbf": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "5779863299dcab370c05c0ca",
-      "character_count": 774,
-      "content_sha256": "16d47ff3f5f8b758e4efa78684d6543f2133973782e45e87eae4b6b7a621139a",
-      "elapsed_seconds": 3.476,
+      "candidate_id": "447bcc656bdfd73659483dbf",
+      "character_count": 12000,
+      "content_sha256": "390479b2bee4f21782b9c9cc7c41b9556f640a3399af73c1144370c4e6d9706b",
+      "elapsed_seconds": 2.574,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "application/pdf",
       "section_headings": [
-        "spectrum method. The complex amplitude of an optical field propagating over a"
+        "We develop a distributed zeroth-order gradient descent method",
+        "and subgradient methods established the basic paradigm of",
+        "ized gradient descent [ 3] and developed fixed-step methods,",
+        "address these difficulties, distributed zeroth-order methods have",
+        "and gradient-tracking methods [ 15], and stochastic distributed",
+        "order methods for private large-model fine-tuning replace",
+        "develop a consensus-based distributed zeroth-order method",
+        "losses, the proposed method achieves O(",
+        "used by first-order methods is therefore replaced by a random-",
+        "methods [ 11], [ 10]. For differential privacy, however, it is",
+        "compare three decentralized-gradient-descent-type methods: the",
+        "first-order (FO) method with gi(t) =∇f i(xi(t)), the zeroth-",
+        "order (ZO) method with the sphere-uniform estimator (6), and",
+        "in particular gradient-tracking methods [ 6], [5], [15], whose",
+        "[1] A. Nedic and A. Ozdaglar, “Distributed subgradient methods for multi-",
+        "[12] D. Yuan, D. W. C. Ho, and S. Xu, “Zeroth-order method for distributed",
+        "[23] Y . Wang and A. Nedi´c, “Tailoring gradient methods for differentially",
+        "Wainwright, “Derivative-free methods for policy optimization: Guarantees",
+        "interpolation inequalities on the sphere: new methods and consequences,”"
       ],
-      "source_url": "https://s3-eu-west-1.amazonaws.com/pstorage-osa-2151918321/71087676/8117704.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIC5UZOEV5G5EP3CQ/20261106/eu-west-1/s3/aws4_request&X-Amz-Date=20261106T004113Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=857e76b4baf960d26f5b372fef6a1562e7628aab6759e9df9d916bda8bf6c37f",
+      "source_url": "https://arxiv.org/pdf/2611.01373",
       "status": "used",
       "text_persisted": false
     },
-    "e8de222ab87bdb274102d640": {
+    "5a8286fab9ab8fe52bf114fa": {
       "abstract_available": true,
       "attempt_count": 1,
-      "candidate_id": "e8de222ab87bdb274102d640",
+      "candidate_id": "5a8286fab9ab8fe52bf114fa",
       "character_count": 12000,
-      "content_sha256": "6718bebea581aeb2868564552d3a97f153f57df4b01f0ceb34cc95bf64a12ad7",
-      "elapsed_seconds": 0.471,
+      "content_sha256": "09ce53e5ec743c1df3955e0e6ef4aa7e8568adfa7eafd5b546da918766716e46",
+      "elapsed_seconds": 1.254,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
       "section_headings": [
-        "Accelerating LLM Pretraining with Zeroth-Order Curvature on Idle Serving Compute",
-        "LLM pretraining.",
-        "2.2 ZO gradients lose directional signal at pretraining scale",
-        "Preconditioned optimizers for pretraining.",
-        "Training on heterogeneous and idle compute.",
-        "Appendix E Training trajectories across query budgets"
+        "While first-order GT methods successfully address the oscillation of local copy",
+        "proposes to address this trade-off by combining variance-reduced zeroth-order estimator with gradient-tracking methods,",
+        "This work develops a distributed extension of the Zeroth-Order Incremental Variance Reduction (ZIVR) method for the composite finite-sum problem (",
+        "The proposed method combines local incremental zeroth-order variance reduction with a proximal gradient-tracking scheme,",
+        "With Chebyshev-accelerated mixing, the pure constant-batch implementation matches the centralized zeroth-order oracle complexity,",
+        "Although these methods are simple, constant-stepsize DGD generally converges only to a neighborhood of the solution when the local gradients are heterogeneous",
+        "These two proximal methods attain graph-independent component-gradient complexity but retain network dependence in communication",
+        "including accelerated methods for smooth objectives",
+        "For stochastic convex optimization, two-point methods attain rates that match minimax lower bounds up to constants or logarithmic factors",
+        "ZIVR incrementally updates stored component-gradient estimates and admits a two-point implementation with constant maximum batch size,",
+        "Early distributed ZO methods inserted randomized function-value estimators into consensus or primal–dual schemes",
+        "More recent methods reduce the estimator variance before applying GT. DZOVR uses momentum-based variance reduction for stochastic nonconvex objectives,",
+        "Our method allows a shared proximable",
+        "Method",
+        "implementations. Our unaccelerated and accelerated rates are",
+        "Another method to construct zeroth-order estimators is to sample along every coordinate direction, resulting in the following",
+        "so that the agents can cooperatively solve the global problem. The resulting method is summarized in Algorithm",
+        "A concrete construction, following the centralized ZIVR method, is to draw an orthogonal matrix",
+        "If we use a unit-batch implementation of",
+        "All methods start from zero and communicate over an undirected path graph with Metropolis weights. They use the same fixed smoothing radius",
+        ". The training set contains",
+        "training observations, partitioned over",
+        "distinct observations each. Features and responses are standardized using the training data, and an intercept gives",
+        "Future directions include extending the method to convex problems without strong convexity and developing Nesterov-type acceleration, potentially via Katyusha-style momentum",
+        "Distributed gradient methods for convex machine learning problems in networks: distributed optimization",
+        "Distributed subgradient methods for multi-agent optimization",
+        "Push–pull gradient methods for distributed optimization in networks",
+        "ZOO: zeroth order optimization based black-box attacks to deep neural networks without training substitute models",
+        "Problem complexity and method efficiency in optimization",
+        "SAGA: a fast incremental gradient method with support for non-strongly convex composite objectives",
+        "A proximal stochastic gradient method with progressive variance reduction",
+        "Stochastic first- and zeroth-order methods for nonconvex stochastic programming",
+        "Faster gradient-free proximal stochastic methods for nonconvex nonsmooth optimization",
+        "Randomized gradient-free method for multiagent optimization over time-varying networks",
+        "A zeroth-order variance-reduced method for decentralized stochastic non-convex optimization",
+        "A zeroth-order proximal stochastic gradient method for weakly convex stochastic optimization",
+        "Journal of the Royal Statistical Society: Series B (Methodological)",
+        "Katyusha: the first direct acceleration of stochastic gradient methods",
+        "To verify the implementation, stack the vectors in Algorithm"
       ],
-      "source_url": "https://arxiv.org/html/2611.02688",
+      "source_url": "https://arxiv.org/html/2610.41615",
       "status": "used",
       "text_persisted": false
     }
@@ -130,85 +177,85 @@
   "output_language": "zh-CN",
   "prepared_request_count": 3,
   "provider": "deepseek",
-  "queue_sha256": "f7f11446bb6b96bc9618e4a55c5c203245882f5c3dbab96f7ff68687b28e191a",
+  "queue_sha256": "58736242b803d2378701b1ef91f13d56298033d92caf1df7ddafa49b6fc95e66",
   "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-11-06.jsonl",
-  "request_sha256": "d4d34f0f37e1ced6e63036401cc56c238806db311d5cddf4a4ede11fd8be5c32",
+  "request_file": "runtime-state/data/summary_requests/2026-11-07.jsonl",
+  "request_sha256": "f6b6bc27085895e5ddbfbf99c8bf620dd8ee1b28fbf05ba4712b49bcaa4b90d2",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "758cb3afa32a394b39b41f2d3fe63cd8904ac07a09b51f1a8a961bea12684960",
+  "selection_manifest_sha256": "449115e20813d52ccb490e3b85780512a73a6e29a5475db98f1d642433c396df",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 5,
+  "source_queue_candidate_count": 4,
   "stage_timings": {
-    "full_text_preparation_seconds": 4.212,
+    "full_text_preparation_seconds": 4.233,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "4e1b2c8ed30de03dbe6a31eb",
-        "elapsed_seconds": 24.689,
+        "candidate_id": "3632fc0a1f9d56351c9ae7c8",
+        "elapsed_seconds": 20.304,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1904,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 4440,
-          "prompt_tokens": 6360,
-          "total_tokens": 8264
+          "completion_tokens": 1830,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1447,
+          "prompt_tokens": 3495,
+          "total_tokens": 5325
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "5779863299dcab370c05c0ca",
-        "elapsed_seconds": 22.354,
+        "candidate_id": "447bcc656bdfd73659483dbf",
+        "elapsed_seconds": 15.909,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1661,
+          "completion_tokens": 1568,
           "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 1989,
-          "prompt_tokens": 3909,
-          "total_tokens": 5570
+          "prompt_cache_miss_tokens": 4173,
+          "prompt_tokens": 6093,
+          "total_tokens": 7661
         }
       },
       {
         "attempt": 1,
-        "candidate_id": "e8de222ab87bdb274102d640",
-        "elapsed_seconds": 27.341,
+        "candidate_id": "5a8286fab9ab8fe52bf114fa",
+        "elapsed_seconds": 19.704,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1984,
+          "completion_tokens": 1697,
           "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 4424,
-          "prompt_tokens": 6344,
-          "total_tokens": 8328
+          "prompt_cache_miss_tokens": 5343,
+          "prompt_tokens": 7263,
+          "total_tokens": 8960
         }
       }
     ],
-    "model_generation_and_validation_seconds": 74.4
+    "model_generation_and_validation_seconds": 55.942
   },
   "status": "completed_automatic",
   "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-11-06.jsonl",
+  "summary_file": "runtime-state/data/summaries/2026-11-07.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
   "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "4e1b2c8ed30de03dbe6a31eb": {
+      "3632fc0a1f9d56351c9ae7c8": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": null,
         "repaired": false,
         "resolved_type": "unclear"
       },
-      "5779863299dcab370c05c0ca": {
+      "447bcc656bdfd73659483dbf": {
         "free_space_evidence": [],
         "integrated_evidence": [],
-        "model_value": "hybrid",
-        "repaired": true,
+        "model_value": null,
+        "repaired": false,
         "resolved_type": "unclear"
       },
-      "e8de222ab87bdb274102d640": {
+      "5a8286fab9ab8fe52bf114fa": {
         "free_space_evidence": [],
         "integrated_evidence": [],
         "model_value": null,
@@ -216,93 +263,126 @@
         "resolved_type": "unclear"
       }
     },
-    "architecture_repairs": 1,
+    "architecture_repairs": 0,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "4e1b2c8ed30de03dbe6a31eb": {
+      "3632fc0a1f9d56351c9ae7c8": {
         "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "4e1b2c8ed30de03dbe6a31eb",
-        "character_count": 12000,
-        "content_sha256": "e98153dbf7f8ceaaff306cb040739c68a946d0717abcb18264be9d0b317b04c4",
-        "elapsed_seconds": 0.259,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "text/html",
-        "section_headings": [
-          "White-box methods for DFKD",
-          "Black-box methods for DFKD",
-          "3 Methodology",
-          "Student Training",
-          "Experimental Setup"
-        ],
-        "source_url": "https://arxiv.org/html/2611.00908",
-        "status": "used",
+        "attempt_count": 3,
+        "candidate_id": "3632fc0a1f9d56351c9ae7c8",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 0.395,
+        "error": "https://doi.org/10.3390/math14214006: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.3390/math14214006",
+        "status": "not_available",
         "text_persisted": false
       },
-      "5779863299dcab370c05c0ca": {
+      "447bcc656bdfd73659483dbf": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "5779863299dcab370c05c0ca",
-        "character_count": 774,
-        "content_sha256": "16d47ff3f5f8b758e4efa78684d6543f2133973782e45e87eae4b6b7a621139a",
-        "elapsed_seconds": 3.476,
+        "candidate_id": "447bcc656bdfd73659483dbf",
+        "character_count": 12000,
+        "content_sha256": "390479b2bee4f21782b9c9cc7c41b9556f640a3399af73c1144370c4e6d9706b",
+        "elapsed_seconds": 2.574,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "application/pdf",
         "section_headings": [
-          "spectrum method. The complex amplitude of an optical field propagating over a"
+          "We develop a distributed zeroth-order gradient descent method",
+          "and subgradient methods established the basic paradigm of",
+          "ized gradient descent [ 3] and developed fixed-step methods,",
+          "address these difficulties, distributed zeroth-order methods have",
+          "and gradient-tracking methods [ 15], and stochastic distributed",
+          "order methods for private large-model fine-tuning replace",
+          "develop a consensus-based distributed zeroth-order method",
+          "losses, the proposed method achieves O(",
+          "used by first-order methods is therefore replaced by a random-",
+          "methods [ 11], [ 10]. For differential privacy, however, it is",
+          "compare three decentralized-gradient-descent-type methods: the",
+          "first-order (FO) method with gi(t) =∇f i(xi(t)), the zeroth-",
+          "order (ZO) method with the sphere-uniform estimator (6), and",
+          "in particular gradient-tracking methods [ 6], [5], [15], whose",
+          "[1] A. Nedic and A. Ozdaglar, “Distributed subgradient methods for multi-",
+          "[12] D. Yuan, D. W. C. Ho, and S. Xu, “Zeroth-order method for distributed",
+          "[23] Y . Wang and A. Nedi´c, “Tailoring gradient methods for differentially",
+          "Wainwright, “Derivative-free methods for policy optimization: Guarantees",
+          "interpolation inequalities on the sphere: new methods and consequences,”"
         ],
-        "source_url": "https://s3-eu-west-1.amazonaws.com/pstorage-osa-2151918321/71087676/8117704.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIC5UZOEV5G5EP3CQ/20261106/eu-west-1/s3/aws4_request&X-Amz-Date=20261106T004113Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=857e76b4baf960d26f5b372fef6a1562e7628aab6759e9df9d916bda8bf6c37f",
+        "source_url": "https://arxiv.org/pdf/2611.01373",
         "status": "used",
         "text_persisted": false
       },
-      "e8de222ab87bdb274102d640": {
+      "5a8286fab9ab8fe52bf114fa": {
         "abstract_available": true,
         "attempt_count": 1,
-        "candidate_id": "e8de222ab87bdb274102d640",
+        "candidate_id": "5a8286fab9ab8fe52bf114fa",
         "character_count": 12000,
-        "content_sha256": "6718bebea581aeb2868564552d3a97f153f57df4b01f0ceb34cc95bf64a12ad7",
-        "elapsed_seconds": 0.471,
+        "content_sha256": "09ce53e5ec743c1df3955e0e6ef4aa7e8568adfa7eafd5b546da918766716e46",
+        "elapsed_seconds": 1.254,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
         "section_headings": [
-          "Accelerating LLM Pretraining with Zeroth-Order Curvature on Idle Serving Compute",
-          "LLM pretraining.",
-          "2.2 ZO gradients lose directional signal at pretraining scale",
-          "Preconditioned optimizers for pretraining.",
-          "Training on heterogeneous and idle compute.",
-          "Appendix E Training trajectories across query budgets"
+          "While first-order GT methods successfully address the oscillation of local copy",
+          "proposes to address this trade-off by combining variance-reduced zeroth-order estimator with gradient-tracking methods,",
+          "This work develops a distributed extension of the Zeroth-Order Incremental Variance Reduction (ZIVR) method for the composite finite-sum problem (",
+          "The proposed method combines local incremental zeroth-order variance reduction with a proximal gradient-tracking scheme,",
+          "With Chebyshev-accelerated mixing, the pure constant-batch implementation matches the centralized zeroth-order oracle complexity,",
+          "Although these methods are simple, constant-stepsize DGD generally converges only to a neighborhood of the solution when the local gradients are heterogeneous",
+          "These two proximal methods attain graph-independent component-gradient complexity but retain network dependence in communication",
+          "including accelerated methods for smooth objectives",
+          "For stochastic convex optimization, two-point methods attain rates that match minimax lower bounds up to constants or logarithmic factors",
+          "ZIVR incrementally updates stored component-gradient estimates and admits a two-point implementation with constant maximum batch size,",
+          "Early distributed ZO methods inserted randomized function-value estimators into consensus or primal–dual schemes",
+          "More recent methods reduce the estimator variance before applying GT. DZOVR uses momentum-based variance reduction for stochastic nonconvex objectives,",
+          "Our method allows a shared proximable",
+          "Method",
+          "implementations. Our unaccelerated and accelerated rates are",
+          "Another method to construct zeroth-order estimators is to sample along every coordinate direction, resulting in the following",
+          "so that the agents can cooperatively solve the global problem. The resulting method is summarized in Algorithm",
+          "A concrete construction, following the centralized ZIVR method, is to draw an orthogonal matrix",
+          "If we use a unit-batch implementation of",
+          "All methods start from zero and communicate over an undirected path graph with Metropolis weights. They use the same fixed smoothing radius",
+          ". The training set contains",
+          "training observations, partitioned over",
+          "distinct observations each. Features and responses are standardized using the training data, and an intercept gives",
+          "Future directions include extending the method to convex problems without strong convexity and developing Nesterov-type acceleration, potentially via Katyusha-style momentum",
+          "Distributed gradient methods for convex machine learning problems in networks: distributed optimization",
+          "Distributed subgradient methods for multi-agent optimization",
+          "Push–pull gradient methods for distributed optimization in networks",
+          "ZOO: zeroth order optimization based black-box attacks to deep neural networks without training substitute models",
+          "Problem complexity and method efficiency in optimization",
+          "SAGA: a fast incremental gradient method with support for non-strongly convex composite objectives",
+          "A proximal stochastic gradient method with progressive variance reduction",
+          "Stochastic first- and zeroth-order methods for nonconvex stochastic programming",
+          "Faster gradient-free proximal stochastic methods for nonconvex nonsmooth optimization",
+          "Randomized gradient-free method for multiagent optimization over time-varying networks",
+          "A zeroth-order variance-reduced method for decentralized stochastic non-convex optimization",
+          "A zeroth-order proximal stochastic gradient method for weakly convex stochastic optimization",
+          "Journal of the Royal Statistical Society: Series B (Methodological)",
+          "Katyusha: the first direct acceleration of stochastic gradient methods",
+          "To verify the implementation, stack the vectors in Algorithm"
         ],
-        "source_url": "https://arxiv.org/html/2611.02688",
+        "source_url": "https://arxiv.org/html/2610.41615",
         "status": "used",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 1,
-    "numeric_grounding_repair_responses": 1,
-    "numeric_grounding_repairs": {
-      "5779863299dcab370c05c0ca": [
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "例如，三层网络每层可有两种状态（如折射率高低），则总共可实现8种计算状态，实现对多功能光学计算的可编程切换。",
-          "path": "method_principle",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "8"
-          ]
-        }
-      ]
-    },
-    "tops_alias_expansions": 62,
-    "unit_format_normalization_responses": 0
+    "generation_metadata_repair_responses": 2,
+    "numeric_grounding_repair_responses": 0,
+    "numeric_grounding_repairs": {},
+    "tops_alias_expansions": 75,
+    "unit_format_normalization_responses": 1
   },
   "usage": {
-    "completion_tokens": 5549,
-    "prompt_cache_hit_tokens": 5760,
-    "prompt_cache_miss_tokens": 10853,
-    "prompt_tokens": 16613,
-    "total_tokens": 22162
+    "completion_tokens": 5095,
+    "prompt_cache_hit_tokens": 5888,
+    "prompt_cache_miss_tokens": 10963,
+    "prompt_tokens": 16851,
+    "total_tokens": 21946
   }
 }

@@ -7100,6 +7100,40 @@
       "retrieved_at": "2026-10-23T01:02:41.983953Z",
       "status": "found"
     },
+    "crossref:doi:10.1145/3799682.3840825": {
+      "expires_at": "2026-12-07T00:39:22.049538Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Alessandro Sbandi",
+            "orcid": "https://orcid.org/0009-0002-8804-2362"
+          },
+          {
+            "name": "Federico Siciliano",
+            "orcid": "https://orcid.org/0000-0003-1339-6983"
+          },
+          {
+            "name": "Fabrizio Silvestri",
+            "orcid": "https://orcid.org/0000-0001-7669-9055"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3799682.3840825",
+        "landing_page": "https://doi.org/10.1145/3799682.3840825",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1145/3799682.3840825",
+        "publication_date": "2026-11-07",
+        "title": "SA-GSL: Simulated Annealing for Graph Structure Learning",
+        "venue": "Proceedings of the 35th ACM International Conference on Information and Knowledge Management",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-07T00:39:22.049538Z",
+      "status": "found"
+    },
     "crossref:doi:10.1145/3816440.3828510": {
       "expires_at": "2026-09-17T04:25:31.838719Z",
       "record": {
@@ -8806,6 +8840,12 @@
       "retrieved_at": "2026-11-05T00:41:16.474835Z",
       "status": "not_found"
     },
+    "crossref:doi:10.48550/arxiv.2611.06890": {
+      "expires_at": "2026-12-07T00:39:24.736722Z",
+      "record": null,
+      "retrieved_at": "2026-11-07T00:39:24.736722Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.5281/zenodo.21885998": {
       "expires_at": "2026-09-17T04:25:17.174341Z",
       "record": null,
@@ -10223,6 +10263,64 @@
       "retrieved_at": "2026-08-04T09:38:54.653784Z",
       "status": "found"
     },
+    "crossref:title:2015b30b07aa603e49fef27ccb7607b221f0e2e1f15062e16d3965e8a887f2e8": {
+      "expires_at": "2026-11-14T00:39:25.258926Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Marcello Zucchi",
+            "orcid": null
+          },
+          {
+            "name": "Andrea Scarabosio",
+            "orcid": null
+          },
+          {
+            "name": "Giuseppe Musacchio Adorisio",
+            "orcid": null
+          },
+          {
+            "name": "Rossella Gaffoglio",
+            "orcid": null
+          },
+          {
+            "name": "Giorgio Giordanengo",
+            "orcid": null
+          },
+          {
+            "name": "Fabio Morgia",
+            "orcid": null
+          },
+          {
+            "name": "Francesco Vernì",
+            "orcid": null
+          },
+          {
+            "name": "Matteo Alessandro Francavilla",
+            "orcid": null
+          },
+          {
+            "name": "Giuseppe Vecchi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.23919/eumc69230.2026.11748199",
+        "landing_page": "https://doi.org/10.23919/eumc69230.2026.11748199",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.23919/eumc69230.2026.11748199",
+        "publication_date": "2026-10",
+        "title": "A High-Gain Metasurface Antenna for Linearly Polarized mmWave Wireless Links",
+        "venue": "2026 56th European Microwave Conference (EuMC)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-07T00:39:25.258926Z",
+      "status": "found"
+    },
     "crossref:title:204f7f763ddd9b0ee0bfdf004597a2550f5e0e7c63ab7bef2e97e860f795b4b1": {
       "expires_at": "2026-09-25T01:02:11.624150Z",
       "record": null,
@@ -10549,6 +10647,12 @@
       "retrieved_at": "2026-11-01T00:47:11.888661Z",
       "status": "not_found"
     },
+    "crossref:title:2d3733d73ffec26fa1472c4bd32aed85259ddc1f1ce276d6e37f3cb99d3b4510": {
+      "expires_at": "2026-11-14T00:39:22.670226Z",
+      "record": null,
+      "retrieved_at": "2026-11-07T00:39:22.670226Z",
+      "status": "not_found"
+    },
     "crossref:title:2d6e25be4b47767a242d72ec511a30f5872880dad1d253ee5ed076cdd9a8799e": {
       "expires_at": "2026-10-30T01:02:35.434525Z",
       "record": null,
@@ -10812,6 +10916,60 @@
       "record": null,
       "retrieved_at": "2026-10-18T01:04:57.049880Z",
       "status": "not_found"
+    },
+    "crossref:title:3de5587252e707bcce7c4bbd0343d59939a1da8839f5c1e151f091745be45ba1": {
+      "expires_at": "2026-11-14T00:39:29.092297Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "An-Jie Zheng",
+            "orcid": null
+          },
+          {
+            "name": "Xin-Hong Jia",
+            "orcid": "https://orcid.org/0000-0002-6378-0222"
+          },
+          {
+            "name": "Ming-Yu Bao",
+            "orcid": null
+          },
+          {
+            "name": "Chun-Yan Shi",
+            "orcid": null
+          },
+          {
+            "name": "Liang Meng",
+            "orcid": null
+          },
+          {
+            "name": "Jiang-Tao Lv",
+            "orcid": null
+          },
+          {
+            "name": "Yan-Ping Wu",
+            "orcid": null
+          },
+          {
+            "name": "Zheng-Nan Cao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optcom.2026.133958",
+        "landing_page": "https://doi.org/10.1016/j.optcom.2026.133958",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.optcom.2026.133958",
+        "publication_date": "2027-02",
+        "title": "STDP-like timing-dependent optical response based on mode competition in a semiconductor ring laser",
+        "venue": "Optics Communications",
+        "year": 2027
+      },
+      "retrieved_at": "2026-11-07T00:39:29.092297Z",
+      "status": "found"
     },
     "crossref:title:3e2b531b19fc58e53e14b3b0dc7ac6fe9630b966c7276851ab79763507eac8bf": {
       "expires_at": "2026-09-25T01:02:27.374310Z",
@@ -11944,6 +12102,12 @@
       },
       "retrieved_at": "2026-11-03T00:40:42.150241Z",
       "status": "found"
+    },
+    "crossref:title:63d1e903b8fe17c44a4b978982fcd86c4ec67f94fa2739b5c725c788f81e441c": {
+      "expires_at": "2026-11-14T00:39:20.344605Z",
+      "record": null,
+      "retrieved_at": "2026-11-07T00:39:20.344605Z",
+      "status": "not_found"
     },
     "crossref:title:65e40c751746554da0d9b25435ce98430be064c05f84c0f03047d11fa6ac86c2": {
       "expires_at": "2026-10-18T01:15:41.303178Z",
@@ -13377,6 +13541,12 @@
       "retrieved_at": "2026-09-27T01:11:31.781237Z",
       "status": "not_found"
     },
+    "crossref:title:a11f06504f70c050c6b6d111c31a3debaa73a0f4e02322554b56c88dd6226945": {
+      "expires_at": "2026-11-14T00:39:23.491345Z",
+      "record": null,
+      "retrieved_at": "2026-11-07T00:39:23.491345Z",
+      "status": "not_found"
+    },
     "crossref:title:a17fe117ca806ce076a412f5c37e0c037b9e19547ccc0d88907da00c098c1bcc": {
       "expires_at": "2026-09-20T01:07:24.859801Z",
       "record": {
@@ -13697,10 +13867,28 @@
       "retrieved_at": "2026-11-03T00:40:52.258248Z",
       "status": "not_found"
     },
+    "crossref:title:a96723d0ea8fe9eae80ecd36ca26a07a04c78cf960f7f757afe86893183834b6": {
+      "expires_at": "2026-11-14T00:39:28.229357Z",
+      "record": null,
+      "retrieved_at": "2026-11-07T00:39:28.229357Z",
+      "status": "not_found"
+    },
+    "crossref:title:aa543f626ead210526ef9ee521bc916e5e95e794757dd563397d326939c7ae00": {
+      "expires_at": "2026-11-14T00:39:31.015157Z",
+      "record": null,
+      "retrieved_at": "2026-11-07T00:39:31.015157Z",
+      "status": "not_found"
+    },
     "crossref:title:aa55fccd82ec16aa4bfed3034a68ad67e61d94c83a280c4978e5eec73ca34464": {
       "expires_at": "2026-10-21T00:59:32.639259Z",
       "record": null,
       "retrieved_at": "2026-10-14T00:59:32.639259Z",
+      "status": "not_found"
+    },
+    "crossref:title:aa64ae52a75c5cb50d05708801c1e50bfd32f889cb98c9e85f8b7efdc0f50f9c": {
+      "expires_at": "2026-11-14T00:39:21.206841Z",
+      "record": null,
+      "retrieved_at": "2026-11-07T00:39:21.206841Z",
       "status": "not_found"
     },
     "crossref:title:ab8d443eed7b10d958066e3f946afaba65aad21de7e6f03c7460addac1cece9b": {
@@ -14327,6 +14515,48 @@
       "retrieved_at": "2026-09-01T01:13:15.230369Z",
       "status": "not_found"
     },
+    "crossref:title:c1002ef4e840f87e91ba6562eccb5f7e36445c225f98f50877149cf14dbf43f8": {
+      "expires_at": "2026-11-14T00:39:24.276835Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Junhao Huang",
+            "orcid": "https://orcid.org/0000-0002-0074-2851"
+          },
+          {
+            "name": "Bing Xue",
+            "orcid": "https://orcid.org/0000-0002-4865-8026"
+          },
+          {
+            "name": "Yanan Sun",
+            "orcid": "https://orcid.org/0000-0001-6374-1429"
+          },
+          {
+            "name": "Mengjie Zhang",
+            "orcid": "https://orcid.org/0000-0003-4463-9538"
+          },
+          {
+            "name": "Gary G. Yen",
+            "orcid": "https://orcid.org/0000-0001-8851-5348"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tsmc.2026.3745687",
+        "landing_page": "https://doi.org/10.1109/tsmc.2026.3745687",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/tsmc.2026.3745687",
+        "publication_date": "2026",
+        "title": "Multiobjective Zero-Shot Neural Architecture Search via Double Perturbation Perception",
+        "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-07T00:39:24.276835Z",
+      "status": "found"
+    },
     "crossref:title:c20284588650f9fee6b16d061159a7d7bc07ff01c7090e0f0b531b46431ba513": {
       "expires_at": "2026-08-25T04:25:08.969019Z",
       "record": {
@@ -14884,6 +15114,12 @@
       },
       "retrieved_at": "2026-10-05T01:13:21.914496Z",
       "status": "found"
+    },
+    "crossref:title:cf0b0cf154e8da3a354465e53deffc5801d2a943f45a8e45464d222d5809a2a9": {
+      "expires_at": "2026-11-14T00:39:27.496173Z",
+      "record": null,
+      "retrieved_at": "2026-11-07T00:39:27.496173Z",
+      "status": "not_found"
     },
     "crossref:title:cf60d9526b6a712182eab4e7921d86b4273e914482f2010b75e8c126259c24f7": {
       "expires_at": "2026-09-16T01:02:01.909031Z",
@@ -20617,6 +20853,60 @@
       "retrieved_at": "2026-10-15T00:58:16.857130Z",
       "status": "found"
     },
+    "openalex:doi:10.1016/j.optcom.2026.133958": {
+      "expires_at": "2026-12-07T00:39:29.365536Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zheng An-Jie",
+            "orcid": null
+          },
+          {
+            "name": "Xin-Hong Jia",
+            "orcid": "https://orcid.org/0000-0002-6378-0222"
+          },
+          {
+            "name": "Ming-Yu Bao",
+            "orcid": null
+          },
+          {
+            "name": "Chun-Yan Shi",
+            "orcid": null
+          },
+          {
+            "name": "Liang Meng",
+            "orcid": null
+          },
+          {
+            "name": "Jiang‐Tao Lv",
+            "orcid": null
+          },
+          {
+            "name": "Yan-Ping Wu",
+            "orcid": null
+          },
+          {
+            "name": "Zheng-Nan Cao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optcom.2026.133958",
+        "landing_page": "https://doi.org/10.1016/j.optcom.2026.133958",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7225170070",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225170070",
+        "publication_date": "2026-11-01",
+        "title": "STDP-like timing-dependent optical response based on mode competition in a semiconductor ring laser",
+        "venue": "Optics Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-07T00:39:29.365536Z",
+      "status": "found"
+    },
     "openalex:doi:10.1016/j.optlaseng.2026.110178": {
       "expires_at": "2026-11-19T01:00:39.352004Z",
       "record": {
@@ -25611,6 +25901,48 @@
       "retrieved_at": "2026-10-12T01:18:13.754281Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/tsmc.2026.3745687": {
+      "expires_at": "2026-12-07T00:39:24.524860Z",
+      "record": {
+        "abstract": "Neural architecture search (NAS) aims to automate the design of network architectures and can be regarded as a systems engineering process. As one of the most vexing issues, enhancing its search efficiency has remained a persistent challenge. Moreover, architectural complexity control in NAS has also been a focus for deployment on resource-constrained platforms, with multiobjective optimization being recognized as a promising approach. However, the imbalance in difficulty between optimizing predictive accuracy and model complexity is rarely considered. In this work, we propose a reliable zero-cost metric, i.e., the double perturbation perception (DPP) score, to dramatically reduce the search cost of NAS in a training-free manner. In DPP, network performance is measured by counting the difference between the activation states of two noisy inputs. To handle the imbalanced difficulty in optimizing the objectives and improve architectural exploration of low and medium complexity regions, we develop a novel evolutionary multiobjective search algorithm. It combines Pareto dominance with a reference point-based technique to calculate appropriate fitness for promising architecture selection in different regions. The experimental results on various search spaces and datasets show the high efficiency of DPP and the high correlation between the score and test accuracy. DPP-NAS requires merely 0.009 GPU days on the CIFAR search space and 0.012-CIFAR search space and 0.012 GPU days for the MobileNet-ImageNet search space to explore multiple architectures, achieving superior performance in both parameter scale and classification accuracy.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Junhao Huang",
+            "orcid": "https://orcid.org/0000-0002-0074-2851"
+          },
+          {
+            "name": "Bing Xue",
+            "orcid": "https://orcid.org/0000-0002-4865-8026"
+          },
+          {
+            "name": "Yanan Sun",
+            "orcid": "https://orcid.org/0000-0001-6374-1429"
+          },
+          {
+            "name": "Mengjie Zhang",
+            "orcid": "https://orcid.org/0000-0003-4463-9538"
+          },
+          {
+            "name": "Gary G. Yen",
+            "orcid": "https://orcid.org/0000-0001-8851-5348"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tsmc.2026.3745687",
+        "landing_page": "https://doi.org/10.1109/tsmc.2026.3745687",
+        "open_access_url": "https://doi.org/10.1109/tsmc.2026.3745687",
+        "openalex_id": "https://openalex.org/W7225188159",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225188159",
+        "publication_date": "2026-01-01",
+        "title": "Multiobjective Zero-Shot Neural Architecture Search via Double Perturbation Perception",
+        "venue": "IEEE Transactions on Systems Man and Cybernetics Systems",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-07T00:39:24.524860Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/twc.2026.3715594": {
       "expires_at": "2026-09-17T04:25:09.281070Z",
       "record": {
@@ -27019,6 +27351,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-23T01:02:42.329303Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1145/3799682.3840825": {
+      "expires_at": "2026-12-07T00:39:22.260466Z",
+      "record": {
+        "abstract": "Graph Neural Networks (GNNs) have become a cornerstone for applications involving graph data. However, the performance of GNNs is critically dependent on the underlying graph structure. This presents a fundamental challenge, as a predefined topology may not be optimal for the specific learning task, limiting the model's performance. This limitation is particularly pronounced in heterophilous settings, where the inherent homophily assumption of GNNs contradicts the actual graph structure, causing models that rely on raw topology to fail. Although Graph Structure Learning (GSL) aims to address this issue, most existing methods use continuous relaxations of the graph topology to enable gradient-based optimization. This approach can trap models in local optima and fail to capture the discrete nature of graph data. To address this issue, we introduce a novel GSL algorithm, Simulated Annealing for Graph Structure Learning (SA-GSL), that leverages Simulated Annealing (SA) to optimize the discrete graph structure, effectively adapting the topology to handle heterophily. The SA algorithm operates as a gradient-free refiner proposing new topologies, guided by a multi-objective energy function that uses a lightweight Label Propagation model as a proxy while simultaneously promoting sparsity. An ensemble of candidate structures is generated at each step and combined via majority voting. The final graph is weighted between the original topology and the SA refined ensemble structure. Our experiments reveal that SA-GSL is highly effective, achieving state-of-the-art results on several key node classification benchmarks (1.5% on Cora, 3% on Minesweeper). The code implementation is publicly available on our GitHub repository (https://github.com/ashba93/sa-gsl).",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Alessandro Sbandi",
+            "orcid": "https://orcid.org/0009-0002-8804-2362"
+          },
+          {
+            "name": "Federico Siciliano",
+            "orcid": "https://orcid.org/0000-0003-1339-6983"
+          },
+          {
+            "name": "Fabrizio Silvestri",
+            "orcid": "https://orcid.org/0000-0001-7669-9055"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3799682.3840825",
+        "landing_page": "https://doi.org/10.1145/3799682.3840825",
+        "open_access_url": "https://doi.org/10.1145/3799682.3840825",
+        "openalex_id": "https://openalex.org/W7225082254",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225082254",
+        "publication_date": "2026-11-03",
+        "title": "SA-GSL: Simulated Annealing for Graph Structure Learning",
+        "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-07T00:39:22.260466Z",
       "status": "found"
     },
     "openalex:doi:10.1145/3816440.3828510": {
@@ -29675,6 +30041,64 @@
       "retrieved_at": "2026-11-02T00:43:06.510549Z",
       "status": "found"
     },
+    "openalex:doi:10.23919/eumc69230.2026.11748199": {
+      "expires_at": "2026-12-07T00:39:25.473635Z",
+      "record": {
+        "abstract": "We present the design of a high-gain, linearly-polarized metasurface antenna working at mmWave in the Ka-band (37–39 GHz). The antenna is circular, with a diameter of 35λ, and is designed to generate a pencil beam with low side-lobe levels, complying with ETSI Class 3 mask. The metasurface design is based on the optimization of an equivalent surface impedance layer. The impedance profile is parameterized and optimized with a gradient-free algorithm. After optimization, the impedance is implemented by means of double-anchor patches chosen from a database of precomputed geometries through matching of the impedance values. The feed is designed in isolation to provide optimal guided- to surface-wave conversion efficiency. The resulting antenna has been validated with full-wave simulations, exhibiting satisfactory directivity and low side-lobe levels compliant with ETSI Class 3 constraints for a wide angular range.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Marcello Zucchi",
+            "orcid": "https://orcid.org/0000-0002-4741-7159"
+          },
+          {
+            "name": "A. Scarabosio",
+            "orcid": "https://orcid.org/0000-0002-7372-6975"
+          },
+          {
+            "name": "Giuseppe Musacchio Adorisio",
+            "orcid": null
+          },
+          {
+            "name": "Rossella Gaffoglio",
+            "orcid": "https://orcid.org/0000-0002-6190-9125"
+          },
+          {
+            "name": "Giorgio Giordanengo",
+            "orcid": "https://orcid.org/0000-0002-3823-6452"
+          },
+          {
+            "name": "Fabio Morgia",
+            "orcid": null
+          },
+          {
+            "name": "Francesco Verní",
+            "orcid": "https://orcid.org/0000-0003-1220-1152"
+          },
+          {
+            "name": "Matteo Alessandro Francavilla",
+            "orcid": "https://orcid.org/0000-0002-7591-518X"
+          },
+          {
+            "name": "G. Vecchi",
+            "orcid": "https://orcid.org/0000-0003-0798-5431"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.23919/eumc69230.2026.11748199",
+        "landing_page": "https://doi.org/10.23919/eumc69230.2026.11748199",
+        "open_access_url": "https://doi.org/10.23919/eumc69230.2026.11748199",
+        "openalex_id": "https://openalex.org/W7225127245",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225127245",
+        "publication_date": "2026-10-01",
+        "title": "A High-Gain Metasurface Antenna for Linearly Polarized mmWave Wireless Links",
+        "venue": "European Microwave Conference (EuMC)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-07T00:39:25.473635Z",
+      "status": "found"
+    },
     "openalex:doi:10.24108/preprints-3116381": {
       "expires_at": "2026-10-16T01:02:28.087718Z",
       "record": {
@@ -31033,6 +31457,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-05T00:41:16.590006Z",
+      "status": "found"
+    },
+    "openalex:doi:10.48550/arxiv.2611.06890": {
+      "expires_at": "2026-12-07T00:39:24.955320Z",
+      "record": {
+        "abstract": "For many computer vision tasks, neural networks can be trained to produce a low average error, yet they still fail on seemingly simple scenes. Reducing these failures requires first finding them, but they may not be in a fixed dataset. We study procedural adversarial learning (PAL), a framework of minimax training and adversarial evaluation which searches the input space of a procedural generator for difficult instances. The procedural generator is an interpretable program mapping a low-dimensional vector of control parameters (e.g. layout, lighting, pose) to a rendered image and its label. We introduce the Simple-PAT algorithm, which uses zeroth-order optimization in the procedural generator's parameter space to propose adversarial training samples that are generated on demand. We also create PAL-Dojo, a collection of efficient procedural generators for surface normal estimation, image segmentation, and human pose estimation. Against a cross-model black-box adversary with 50M aggregate queries, Simple-PAT reduces worst-case error by a geometric mean of 3.15x compared to standard training and 2.63x compared to the strongest robust training baseline. Code is available at https://github.com/princeton-vl/procedural-adversarial-learning.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jack Nugent",
+            "orcid": null
+          },
+          {
+            "name": "Jia Deng",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.06890",
+        "landing_page": "https://doi.org/10.48550/arxiv.2611.06890",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2611.06890",
+        "openalex_id": "https://openalex.org/W7225305528",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225305528",
+        "publication_date": "2026-11-04",
+        "title": "Procedural Adversarial Learning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-07T00:39:24.955320Z",
       "status": "found"
     },
     "openalex:doi:10.5281/zenodo.21885998": {
@@ -33148,6 +33602,12 @@
       "retrieved_at": "2026-11-01T00:47:12.415013Z",
       "status": "not_found"
     },
+    "openalex:title:2d3733d73ffec26fa1472c4bd32aed85259ddc1f1ce276d6e37f3cb99d3b4510": {
+      "expires_at": "2026-11-14T00:39:22.975816Z",
+      "record": null,
+      "retrieved_at": "2026-11-07T00:39:22.975816Z",
+      "status": "not_found"
+    },
     "openalex:title:2d6e25be4b47767a242d72ec511a30f5872880dad1d253ee5ed076cdd9a8799e": {
       "expires_at": "2026-10-30T01:02:36.046039Z",
       "record": {
@@ -34572,6 +35032,12 @@
       "retrieved_at": "2026-11-05T00:41:20.011841Z",
       "status": "not_found"
     },
+    "openalex:title:63d1e903b8fe17c44a4b978982fcd86c4ec67f94fa2739b5c725c788f81e441c": {
+      "expires_at": "2026-11-14T00:39:20.723429Z",
+      "record": null,
+      "retrieved_at": "2026-11-07T00:39:20.723429Z",
+      "status": "not_found"
+    },
     "openalex:title:65e40c751746554da0d9b25435ce98430be064c05f84c0f03047d11fa6ac86c2": {
       "expires_at": "2026-10-18T01:15:41.808922Z",
       "record": {
@@ -35882,6 +36348,12 @@
       "retrieved_at": "2026-09-27T01:11:32.429504Z",
       "status": "not_found"
     },
+    "openalex:title:a11f06504f70c050c6b6d111c31a3debaa73a0f4e02322554b56c88dd6226945": {
+      "expires_at": "2026-11-14T00:39:23.851127Z",
+      "record": null,
+      "retrieved_at": "2026-11-07T00:39:23.851127Z",
+      "status": "not_found"
+    },
     "openalex:title:a27e9eda6d49c44630bb9d50756c1eb5966ac2eb001eff3d1eb6ac56e6304e16": {
       "expires_at": "2026-10-10T01:04:49.694935Z",
       "record": null,
@@ -36262,10 +36734,92 @@
       "retrieved_at": "2026-11-03T00:40:52.682962Z",
       "status": "found"
     },
+    "openalex:title:a96723d0ea8fe9eae80ecd36ca26a07a04c78cf960f7f757afe86893183834b6": {
+      "expires_at": "2026-11-14T00:39:28.616723Z",
+      "record": {
+        "abstract": "Vision-language models such as CLIP enable zero-shot classification from arbitrary class names, but under test-time corruptions, their visual encoder projects distorted features onto incorrect textual anchors with high confidence: a phenomenon we term modality bias. Standard entropy minimization reinforces these overconfident errors, which creates a confirmation-bias loop and collapses the predicted label distribution. We propose an online test-time adaptation (TTA) method that breaks this loop at three levels. At the representation level, a frozen self-supervised backbone (e.g., DINO v2) is combined with CLIP through a cross-covariance logit ensemble. CLIP text prototypes are projected into the feature space of this text-free backbone, so the self-supervised branch classifies native image features and is less affected by the text bias of CLIP. At the optimization level, a gated test-time information-maximization objective pairs per-sample sharpening with batch-level diversity, while an adaptive gate excludes unreliable samples from the gradient. At the prediction level, an online logit adjustment corrects the residual class-distribution skew. CDIM outperforms the compared CLIP-based online TTA baselines on ImageNet-C, CIFAR10-C, and CIFAR100-C, and remains competitive in continual and mixed-domain TTA. Extensive analyses and ablation studies verify the contribution of each of its components. Our code is available at https://github.com/B1ueC1oud/CDIM",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Taehoon Kim",
+            "orcid": null
+          },
+          {
+            "name": "Wonjun Hwang",
+            "orcid": "https://orcid.org/0000-0001-8895-0411"
+          },
+          {
+            "name": "Hyunsouk Cho",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.04489",
+        "landing_page": "https://doi.org/10.48550/arxiv.2611.04489",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2611.04489",
+        "openalex_id": "https://openalex.org/W7225235651",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225235651",
+        "publication_date": "2026-11-03",
+        "title": "Bridging CLIP with DINO: Cross-Modal Information Maximization for Online Test-Time Adaptation",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-07T00:39:28.616723Z",
+      "status": "found"
+    },
+    "openalex:title:aa543f626ead210526ef9ee521bc916e5e95e794757dd563397d326939c7ae00": {
+      "expires_at": "2026-11-14T00:39:31.506791Z",
+      "record": {
+        "abstract": "One big challenge in physical AI is interacting with systems whose states are defined by implicit equilibrium. Learning in these systems is difficult because their responses can be multistable, path-dependent, and sensitive over long horizons. Adjoint learning provides an efficient way to optimize trajectories without unrolling iterative equilibrium solvers, but its gradient relies on the frozen-tangent approximation, which neglects higher-order sensitivity terms and can become inaccurate when the local equilibrium varies rapidly. In this work, we introduce Self-Consistent Neural Control (SCNC), optimizing trajectories along which sensitivity variations are explicitly controlled. We derive a mathematical bound on the resulting gradient error and develop a practical finite-difference approximation. We validate the framework on deformable objects, which are representative of implicit equilibrium systems, ranging from simple quadratic energy models such as elastic rods to complex systems including thin-walled tubes, measuring tapes, and Slinky-like structures. Compared with the adjoint learning and the gradient-free iCEM baselines, SCNC achieves faster convergence and more stable optimization by reducing switching to undesirable equilibrium branches, doubling the stable optimization rate over adjoint learning 83.3% vs. 41.7% and reducing the average loss by more than 1.5 orders of magnitude on thin-walled tubes, where sensitivity variations are pronounced.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hengyi Zhou",
+            "orcid": "https://orcid.org/0009-0001-5431-246X"
+          },
+          {
+            "name": "Haobo fang",
+            "orcid": null
+          },
+          {
+            "name": "Xiaonan Huang",
+            "orcid": null
+          },
+          {
+            "name": "Dezhong Tong",
+            "orcid": "https://orcid.org/0000-0002-3829-234X"
+          },
+          {
+            "name": "M. Khalid Jawed",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.03885",
+        "landing_page": "https://doi.org/10.48550/arxiv.2611.03885",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2611.03885",
+        "openalex_id": "https://openalex.org/W7225264440",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225264440",
+        "publication_date": "2026-11-02",
+        "title": "Self-Consistent Neural Control: Learning Trajectories for Implicit Equilibrium",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-07T00:39:31.506791Z",
+      "status": "found"
+    },
     "openalex:title:aa55fccd82ec16aa4bfed3034a68ad67e61d94c83a280c4978e5eec73ca34464": {
       "expires_at": "2026-10-21T00:59:33.137095Z",
       "record": null,
       "retrieved_at": "2026-10-14T00:59:33.137095Z",
+      "status": "not_found"
+    },
+    "openalex:title:aa64ae52a75c5cb50d05708801c1e50bfd32f889cb98c9e85f8b7efdc0f50f9c": {
+      "expires_at": "2026-11-14T00:39:21.594841Z",
+      "record": null,
+      "retrieved_at": "2026-11-07T00:39:21.594841Z",
       "status": "not_found"
     },
     "openalex:title:abe3f6857f066ae2c21a956a5e740239a323d097dcc68241cf1f7c3fd60a87c3": {
@@ -37295,6 +37849,12 @@
       },
       "retrieved_at": "2026-09-18T01:02:24.716550Z",
       "status": "found"
+    },
+    "openalex:title:cf0b0cf154e8da3a354465e53deffc5801d2a943f45a8e45464d222d5809a2a9": {
+      "expires_at": "2026-11-14T00:39:27.903059Z",
+      "record": null,
+      "retrieved_at": "2026-11-07T00:39:27.903059Z",
+      "status": "not_found"
     },
     "openalex:title:d068de41dd4071869fb7434fcc1d6b5eda3bce6bc40a48cf58351545c9d5cb6c": {
       "expires_at": "2026-11-05T00:48:04.072863Z",

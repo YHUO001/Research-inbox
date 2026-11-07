@@ -260,6 +260,15 @@
       "summary_record_sha256": "70695cb6138c395e3e84b556c9ad5739bd4e9be089118c763ba8d36c3808550a",
       "title": "Full-colour imaging behind a glass diffuser through a diffractive neural network with multi-wavelength channels"
     },
+    "3632fc0a1f9d56351c9ae7c8": {
+      "digest_date": "2026-11-07",
+      "doi": "10.3390/math14214006",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "ea1b72e06b1d5211b72a5c538cd2f19bf9a65a1161de188e9d1c46c7c025f34d",
+      "title": "Evolution Strategy-Assisted TD3 for Continuous Control: Policy-Update Analysis and Plant-State Boundedness"
+    },
     "37a9533a60e5cdd68ef3c483": {
       "digest_date": "2026-09-22",
       "doi": "10.1038/s41598-026-69259-y",
@@ -295,6 +304,15 @@
       ],
       "summary_record_sha256": "a2b4d24b4f8b1735e5f0f3a6a46d29dbe7b84e4b033fa92adcabe3f5063010b4",
       "title": "MpSub: A Momentum $p$-Dimensional Subspace Trust-Region Method for Derivative-Free Fine-Tuning of Large Language Models"
+    },
+    "447bcc656bdfd73659483dbf": {
+      "digest_date": "2026-11-07",
+      "doi": "10.48550/arxiv.2611.01373",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "c340a873b6134ba73d9e1788412ac49624ca4fefb7929637092ee44867292b81",
+      "title": "Differentially Private Distributed Optimization via the Intrinsic Randomness of Zeroth-Order Estimators: Sampling Geometry, Convergence, and Privacy Guarantees"
     },
     "44fa3bd6f72c84820ce42dab": {
       "digest_date": "2026-09-04",
@@ -403,6 +421,15 @@
       ],
       "summary_record_sha256": "d9b44bb0aa6a0a2ec11e7ce7043e629783ffa6c5b300d199b342fe341d2025f7",
       "title": "Programmable diffractive neural networks enabled by microfluidic refractive-index encoding"
+    },
+    "5a8286fab9ab8fe52bf114fa": {
+      "digest_date": "2026-11-07",
+      "doi": "10.48550/arxiv.2610.41615",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "6d9d36bb74629046b95bfd85dc1c4437894b8d67bba08fe1b10f70487a9d86f2",
+      "title": "Distributed Zeroth-Order Composite Finite-Sum Optimization via Incremental Variance Reduction"
     },
     "5ce553b88d26d1296b379174": {
       "digest_date": "2026-10-18",
@@ -1349,6 +1376,11 @@
       "4e1b2c8ed30de03dbe6a31eb",
       "5779863299dcab370c05c0ca",
       "e8de222ab87bdb274102d640"
+    ],
+    "2026-11-07": [
+      "3632fc0a1f9d56351c9ae7c8",
+      "447bcc656bdfd73659483dbf",
+      "5a8286fab9ab8fe52bf114fa"
     ]
   },
   "by_doi": {
@@ -1431,6 +1463,7 @@
     "10.21203/rs.3.rs-11002782/v1": "5228362e834f7a6b9567811b",
     "10.25781/kaust-ip46p": "1075bd8698bce3acb3ce9376",
     "10.3390/asi9110222": "c66af551e0b88c81e0533e7c",
+    "10.3390/math14214006": "3632fc0a1f9d56351c9ae7c8",
     "10.48550/arxiv.2608.03277": "142dc76f41fc25448b82c91e",
     "10.48550/arxiv.2608.08060": "2f9953028e4e0e3b934222c8",
     "10.48550/arxiv.2608.12300": "0cbf41592278a3ad1b89e219",
@@ -1455,7 +1488,9 @@
     "10.48550/arxiv.2610.16451": "7a45515c829cdcf2bd96f41f",
     "10.48550/arxiv.2610.19652": "cadf2190f4abdc8ebf66da38",
     "10.48550/arxiv.2610.26790": "7229499f7f76fe2e28f08e50",
+    "10.48550/arxiv.2610.41615": "5a8286fab9ab8fe52bf114fa",
     "10.48550/arxiv.2611.00908": "4e1b2c8ed30de03dbe6a31eb",
+    "10.48550/arxiv.2611.01373": "447bcc656bdfd73659483dbf",
     "10.48550/arxiv.2611.02688": "e8de222ab87bdb274102d640",
     "10.48550/arxiv.2611.03260": "dbd89d73b4422f4357c86181",
     "10.48550/arxiv.2611.03293": "8c41a3326d64abdd0bb9d1a7",
@@ -1570,8 +1605,11 @@
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
+      "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
+      "447bcc656bdfd73659483dbf",
       "4e1b2c8ed30de03dbe6a31eb",
+      "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
@@ -2397,8 +2435,11 @@
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
+      "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
+      "447bcc656bdfd73659483dbf",
       "4e1b2c8ed30de03dbe6a31eb",
+      "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
@@ -2438,8 +2479,10 @@
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
+      "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
       "4e1b2c8ed30de03dbe6a31eb",
+      "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
@@ -2477,8 +2520,10 @@
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
+      "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
       "4e1b2c8ed30de03dbe6a31eb",
+      "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
@@ -2514,8 +2559,10 @@
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
+      "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
       "4e1b2c8ed30de03dbe6a31eb",
+      "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
@@ -2550,8 +2597,10 @@
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
+      "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
       "4e1b2c8ed30de03dbe6a31eb",
+      "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
@@ -2587,6 +2636,7 @@
       "1be9c6ec4a0fa7f4ce866764",
       "2f9953028e4e0e3b934222c8",
       "4e1b2c8ed30de03dbe6a31eb",
+      "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "7229499f7f76fe2e28f08e50",
       "7a45515c829cdcf2bd96f41f",
@@ -2696,6 +2746,9 @@
     ],
     "Machine Learning: Science and Technology": [
       "fca2cfc597728ee01e2a6032"
+    ],
+    "Mathematics": [
+      "3632fc0a1f9d56351c9ae7c8"
     ],
     "NPG Asia Materials": [
       "83a830ace13b5158f346c392"
@@ -2807,7 +2860,9 @@
       "2f9953028e4e0e3b934222c8",
       "39df3bfb1d1f1919bbf17668",
       "3c46ab2b3d315aef47db028e",
+      "447bcc656bdfd73659483dbf",
       "4e1b2c8ed30de03dbe6a31eb",
+      "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "66c84fb1444bbf71b05ac0d7",
@@ -2866,10 +2921,12 @@
       "2f9953028e4e0e3b934222c8",
       "328b1572ba0e31f8f8a6dac1",
       "35ff63ef9d3333099ee28868",
+      "3632fc0a1f9d56351c9ae7c8",
       "37a9533a60e5cdd68ef3c483",
       "380b726618cccff0a9e5514f",
       "39df3bfb1d1f1919bbf17668",
       "3c46ab2b3d315aef47db028e",
+      "447bcc656bdfd73659483dbf",
       "44fa3bd6f72c84820ce42dab",
       "4ac97d5e03fb7df3ed448fc2",
       "4b1739e45289d2156d3b1ed3",
@@ -2882,6 +2939,7 @@
       "557b41cb542bf10e84da81f2",
       "56dc775d182273c3cd77748e",
       "5779863299dcab370c05c0ca",
+      "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "5e8f619911f39f5434b3167d",
@@ -2964,7 +3022,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 123,
+  "paper_count": 126,
   "schema_version": 1,
-  "updated_at": "2026-11-06T00:42:29.514546Z"
+  "updated_at": "2026-11-07T00:40:36.339380Z"
 }

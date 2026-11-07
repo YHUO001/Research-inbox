@@ -1,7 +1,7 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`123`
-- 更新时间：`2026-11-06T00:42:29.514546Z`
+- 论文数：`126`
+- 更新时间：`2026-11-07T00:40:36.339380Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
@@ -703,6 +703,30 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### Evolution Strategy-Assisted TD3 for Continuous Control: Policy-Update Analysis and Plant-State Boundedness
+
+- DOI/链接：[10.3390/math14214006](https://doi.org/10.3390/math14214006)
+- 期刊/年份：Mathematics，2026
+- 摘要日期：`2026-11-07`
+- 候选 ID：`3632fc0a1f9d56351c9ae7c8`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
+
+### Distributed Zeroth-Order Composite Finite-Sum Optimization via Incremental Variance Reduction
+
+- DOI/链接：[10.48550/arxiv.2610.41615](https://doi.org/10.48550/arxiv.2610.41615)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-11-07`
+- 候选 ID：`5a8286fab9ab8fe52bf114fa`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
+
+### Differentially Private Distributed Optimization via the Intrinsic Randomness of Zeroth-Order Estimators: Sampling Geometry, Convergence, and Privacy Guarantees
+
+- DOI/链接：[10.48550/arxiv.2611.01373](https://doi.org/10.48550/arxiv.2611.01373)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-11-07`
+- 候选 ID：`447bcc656bdfd73659483dbf`
+- 标签：project:zeroth-order-optimization
 
 ### ZOPGA-KD: Zeroth Order PGA Guided Data Free Knowledge Distillation
 
