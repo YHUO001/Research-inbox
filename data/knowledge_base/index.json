@@ -737,6 +737,15 @@
       "summary_record_sha256": "405da6f85e07c71a653f968f4a282526a3d0f9ac9a9c670dda6d83d4913e5e7d",
       "title": "Reconfigurable Optical Nonlinear Activation Functions Using a Phase-Change Microring for Photonic Neural Networks"
     },
+    "9e5e9e295864aadeda0674fe": {
+      "digest_date": "2026-11-08",
+      "doi": "10.6084/m9.figshare.34485666",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "9544031ad075298229c483e66f8a3b85386297812322fc935bd5db6c91f2c0ef",
+      "title": "Supplementary document for Quantization-Aware Nonlinear Diffractive Neural Network for Robust Optical Image Reconstruction under Fabrication Constraints - 8074464.pdf"
+    },
     "9e604f17f644449b1f294680": {
       "digest_date": "2026-10-23",
       "doi": "10.1145/3795866.3844151",
@@ -1381,6 +1390,9 @@
       "3632fc0a1f9d56351c9ae7c8",
       "447bcc656bdfd73659483dbf",
       "5a8286fab9ab8fe52bf114fa"
+    ],
+    "2026-11-08": [
+      "9e5e9e295864aadeda0674fe"
     ]
   },
   "by_doi": {
@@ -1502,6 +1514,7 @@
     "10.5281/zenodo.23830339": "a390258440d82a472251969b",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.6084/m9.figshare.33735265": "56dc775d182273c3cd77748e",
+    "10.6084/m9.figshare.34485666": "9e5e9e295864aadeda0674fe",
     "10.6084/m9.figshare.c.8610155.v1": "d162b179119ee09c86ad3708",
     "10.6084/m9.figshare.c.8809089": "5779863299dcab370c05c0ca",
     "10.60893/figshare.app.c.8604716.v1": "973790e22c46d30721660799",
@@ -1569,6 +1582,7 @@
       "95fe7b58392c34e07c8b2616",
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
+      "9e5e9e295864aadeda0674fe",
       "a15033db64285e5d4c8a46c9",
       "a390258440d82a472251969b",
       "a6c0cee36e01933034e775f2",
@@ -1755,6 +1769,9 @@
     ],
     "application:光学图像分类": [
       "916e8199aaabe1372544d280"
+    ],
+    "application:光学图像重建": [
+      "9e5e9e295864aadeda0674fe"
     ],
     "application:光学域预处理与传感（khz至mhz带宽）": [
       "2c2645700d900a5b3f00a38c"
@@ -2240,6 +2257,7 @@
       "9322fad036b3d7fc8e3dd47b",
       "93f3ffb1741a00e1480b8ab2",
       "95fe7b58392c34e07c8b2616",
+      "9e5e9e295864aadeda0674fe",
       "a390258440d82a472251969b",
       "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
@@ -2335,6 +2353,7 @@
       "83a830ace13b5158f346c392",
       "916e8199aaabe1372544d280",
       "93f3ffb1741a00e1480b8ab2",
+      "9e5e9e295864aadeda0674fe",
       "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
       "c3474ba19a69c715eb87d391"
@@ -2399,6 +2418,7 @@
       "95fe7b58392c34e07c8b2616",
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
+      "9e5e9e295864aadeda0674fe",
       "a15033db64285e5d4c8a46c9",
       "a390258440d82a472251969b",
       "a6c0cee36e01933034e775f2",
@@ -2715,6 +2735,7 @@
       "09e1a0ed403ef22abbd9b189",
       "56dc775d182273c3cd77748e",
       "5779863299dcab370c05c0ca",
+      "9e5e9e295864aadeda0674fe",
       "d162b179119ee09c86ad3708"
     ],
     "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems": [
@@ -2973,6 +2994,7 @@
       "95fe7b58392c34e07c8b2616",
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
+      "9e5e9e295864aadeda0674fe",
       "9e604f17f644449b1f294680",
       "a15033db64285e5d4c8a46c9",
       "a390258440d82a472251969b",
@@ -3022,7 +3044,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 126,
+  "paper_count": 127,
   "schema_version": 1,
-  "updated_at": "2026-11-07T00:40:36.339380Z"
+  "updated_at": "2026-11-08T00:44:30.106427Z"
 }
