@@ -72,6 +72,15 @@
       "summary_record_sha256": "9e3716a0e65a64a3815f1d56895672b94744bfdbb27d7b15e38ab03fab070a00",
       "title": "Photonic neuromorphic computing enabled by a BIC metasurface"
     },
+    "0aaf9a70d0dd89f86bd1e549": {
+      "digest_date": "2026-11-09",
+      "doi": "10.1364/oe.613930",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "330870d6fcad843e154a9fc18239776533e2f325a041f4b3a86c529785d44df0",
+      "title": "High-speed optical target feature extractor based on multimode fiber optical neural network"
+    },
     "0cbf41592278a3ad1b89e219": {
       "digest_date": "2026-08-18",
       "doi": "10.48550/arxiv.2608.12300",
@@ -1393,6 +1402,9 @@
     ],
     "2026-11-08": [
       "9e5e9e295864aadeda0674fe"
+    ],
+    "2026-11-09": [
+      "0aaf9a70d0dd89f86bd1e549"
     ]
   },
   "by_doi": {
@@ -1466,6 +1478,7 @@
     "10.1364/oe.605087": "b832199d8494cc67a559fec5",
     "10.1364/oe.607573": "8a0187dc3ef13553d43f5bef",
     "10.1364/oe.609758": "d2fce890434b1e8464e61eb0",
+    "10.1364/oe.613930": "0aaf9a70d0dd89f86bd1e549",
     "10.1364/optica.591264": "1cf1fcd769c5ace951188b8c",
     "10.1364/prj.591330": "a15033db64285e5d4c8a46c9",
     "10.14288/1.0455632": "9322fad036b3d7fc8e3dd47b",
@@ -1530,6 +1543,7 @@
       "099f50640efd207890cbb62b",
       "09e1a0ed403ef22abbd9b189",
       "0a7a6a25b0c077322aee6b4e",
+      "0aaf9a70d0dd89f86bd1e549",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "0ea189a90da076d72e313576",
@@ -1903,6 +1917,9 @@
     "application:图像识别与模式分类": [
       "04bdf084776bcfe0d6f912cb"
     ],
+    "application:图像重建": [
+      "0aaf9a70d0dd89f86bd1e549"
+    ],
     "application:基于实测电导更新特性的手写数字识别仿真，分类准确率98.02%": [
       "d69a4f93ca6340969e1077a8"
     ],
@@ -2043,6 +2060,9 @@
     "application:生物细胞成像": [
       "56dc775d182273c3cd77748e"
     ],
+    "application:目标分类": [
+      "0aaf9a70d0dd89f86bd1e549"
+    ],
     "application:矢量光束生成": [
       "1229908a36775c08f23d92f8"
     ],
@@ -2178,6 +2198,9 @@
     "application:高维成像": [
       "916e8199aaabe1372544d280"
     ],
+    "application:高速特征提取": [
+      "0aaf9a70d0dd89f86bd1e549"
+    ],
     "application:鸢尾花分类": [
       "4cf08afde3b5592300752bae",
       "c66af551e0b88c81e0533e7c"
@@ -2218,6 +2241,7 @@
       "099f50640efd207890cbb62b",
       "09e1a0ed403ef22abbd9b189",
       "0a7a6a25b0c077322aee6b4e",
+      "0aaf9a70d0dd89f86bd1e549",
       "0cbf41592278a3ad1b89e219",
       "0ea189a90da076d72e313576",
       "1229908a36775c08f23d92f8",
@@ -2293,6 +2317,7 @@
     "hardware_validation:physical_experiment": [
       "04bdf084776bcfe0d6f912cb",
       "0a7a6a25b0c077322aee6b4e",
+      "0aaf9a70d0dd89f86bd1e549",
       "15e7193239d6058f661ff180",
       "1e619f1b739f1893eae64f28",
       "2c2645700d900a5b3f00a38c",
@@ -2366,6 +2391,7 @@
       "099f50640efd207890cbb62b",
       "09e1a0ed403ef22abbd9b189",
       "0a7a6a25b0c077322aee6b4e",
+      "0aaf9a70d0dd89f86bd1e549",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "0ea189a90da076d72e313576",
@@ -2807,6 +2833,7 @@
       "f4eaa19659c54d93478a40d5"
     ],
     "Optics Express": [
+      "0aaf9a70d0dd89f86bd1e549",
       "8a0187dc3ef13553d43f5bef",
       "b832199d8494cc67a559fec5",
       "d2fce890434b1e8464e61eb0"
@@ -2921,6 +2948,7 @@
       "099f50640efd207890cbb62b",
       "09e1a0ed403ef22abbd9b189",
       "0a7a6a25b0c077322aee6b4e",
+      "0aaf9a70d0dd89f86bd1e549",
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "0ea189a90da076d72e313576",
@@ -3044,7 +3072,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 127,
+  "paper_count": 128,
   "schema_version": 1,
-  "updated_at": "2026-11-08T00:44:30.106427Z"
+  "updated_at": "2026-11-09T00:44:47.695879Z"
 }

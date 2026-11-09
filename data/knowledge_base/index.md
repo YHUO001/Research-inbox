@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`127`
-- 更新时间：`2026-11-08T00:44:30.106427Z`
+- 论文数：`128`
+- 更新时间：`2026-11-09T00:44:47.695879Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### High-speed optical target feature extractor based on multimode fiber optical neural network
+
+- DOI/链接：[10.1364/oe.613930](https://doi.org/10.1364/oe.613930)
+- 期刊/年份：Optics Express，2026
+- 摘要日期：`2026-11-09`
+- 候选 ID：`0aaf9a70d0dd89f86bd1e549`
+- 标签：application:图像重建, application:目标分类, application:高速特征提取, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Supplementary document for Quantization-Aware Nonlinear Diffractive Neural Network for Robust Optical Image Reconstruction under Fabrication Constraints - 8074464.pdf
 

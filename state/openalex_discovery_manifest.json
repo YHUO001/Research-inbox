@@ -1,12 +1,10 @@
 {
   "accepted_candidate_ids": [],
   "accepted_count": 0,
-  "built_at": "2026-11-08T00:44:05.703645Z",
+  "built_at": "2026-11-09T00:44:10.057332Z",
   "discovery_version": 1,
-  "duplicate_count": 1,
-  "duplicate_reasons": {
-    "openalex_work_id": 1
-  },
+  "duplicate_count": 0,
+  "duplicate_reasons": {},
   "filtered_count": 83,
   "invalid_count": 0,
   "query_error_count": 0,
@@ -73,40 +71,40 @@
     },
     {
       "accepted": 0,
-      "duplicates": 1,
+      "duplicates": 0,
       "error": null,
       "filtered": 9,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-neural-network",
-      "raw_results": 10
+      "raw_results": 9
     },
     {
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 7,
+      "filtered": 6,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-llm",
-      "raw_results": 7
+      "raw_results": 6
     },
     {
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 7,
+      "filtered": 8,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-optical",
-      "raw_results": 7
+      "raw_results": 8
     }
   ],
-  "raw_result_count": 84,
-  "registry_candidate_count": 711,
-  "registry_sha256": "18ee8ee6d5f6466c62a7c680685b027978b2306c67a80311279f3d5069ae537a",
+  "raw_result_count": 83,
+  "registry_candidate_count": 718,
+  "registry_sha256": "e38e0f1b84296b488541ee2bfe69953b064d37eaff07d17b2ccf4914436d3817",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-11-08",
-  "window_start": "2026-11-04"
+  "window_end": "2026-11-09",
+  "window_start": "2026-11-05"
 }

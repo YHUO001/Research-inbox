@@ -8494,6 +8494,12 @@
       "retrieved_at": "2026-11-02T00:43:06.273874Z",
       "status": "found"
     },
+    "crossref:doi:10.22541/essoar.15011740": {
+      "expires_at": "2026-12-09T00:44:17.492223Z",
+      "record": null,
+      "retrieved_at": "2026-11-09T00:44:17.492223Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.24108/preprints-3116381": {
       "expires_at": "2026-10-16T01:02:27.673782Z",
       "record": {
@@ -9621,6 +9627,48 @@
       "retrieved_at": "2026-09-15T01:03:33.133740Z",
       "status": "found"
     },
+    "crossref:title:0f43ab2e18d434057a0f665cd5f0e7ab35a92bb64a0f14b7cba8682860ca73e5": {
+      "expires_at": "2026-11-16T00:44:17.878532Z",
+      "record": {
+        "abstract": "Differentiable programming gives numerical models access to the exact gradients of their solution with respect to their inputs, and turns the calibration of model parameters and the training of hybrid machine-learning components into gradient-based optimization problems. Here we use a differentiable version of the ocean model Veros to examine what this capability brings to ocean model design and calibration. The model is written in JAX and computes sensitivities with forward- and reverse-mode automatic differentiation, with no change to its forward numerical behavior. We consider three applications. In the first, two physical parameters, lateral viscosity and bottom friction, are calibrated from satellite-like observables over a two-day control window; the calibrated model restores the simulated circulation over a long term, multi-year evaluation. In the second, a subgrid parameterization representing the backscatter of energy toward resolved scales is trained online and improves the kinetic energy and shear of a long term simulation. In the third, a neural correction is trained online to compensate a biased vertical mixing closure. The simulation is fitted over a two-day control window, and similarly to the previous applications, the correction remains stable and effective over a multi-year free-running simulation. Across the three applications, quantities optimized over windows of about one hundred solver steps yield skill that persists over integration times that are orders of magnitude longer, which indicates that solving online learning problems using differentiable programming is a practical tool for ocean model design and calibration.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Said Ouala",
+            "orcid": "https://orcid.org/0000-0003-0554-3971"
+          },
+          {
+            "name": "Hugo Frezat",
+            "orcid": "https://orcid.org/0000-0002-0291-4020"
+          },
+          {
+            "name": "Etienne Meunier",
+            "orcid": null
+          },
+          {
+            "name": "Ronan Fablet",
+            "orcid": "https://orcid.org/0000-0002-6462-423X"
+          },
+          {
+            "name": "Julien Lesommer",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.22541/essoar.15011740/v1",
+        "landing_page": "https://doi.org/10.22541/essoar.15011740/v1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.22541/essoar.15011740/v1",
+        "publication_date": "2026-11-05",
+        "title": "Differentiable programming for ocean model design and calibration",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-09T00:44:17.878532Z",
+      "status": "found"
+    },
     "crossref:title:0f496b08245f21bd1fa2b82dc71d2d05030e1c6be1c97870470bbd6c65acacd0": {
       "expires_at": "2026-10-12T01:13:29.140796Z",
       "record": null,
@@ -9899,6 +9947,48 @@
       "retrieved_at": "2026-10-23T01:02:39.894658Z",
       "status": "found"
     },
+    "crossref:title:1872694db6a490116ab68393535608e9c9142e61f7c65801c6dde166b3e47f57": {
+      "expires_at": "2026-11-16T00:44:15.720253Z",
+      "record": {
+        "abstract": "With the widespread application of artificial intelligence, the requirement for the signal processing speed has been dramatically increasing. Optical neural networks, benefiting from intrinsic parallelism and high bandwidth, offer a promising pathway for high-speed information processing. Here, we proposed a multimode fiber (MMF)-based optical neural network (ONN) for high-speed target feature extraction, which utilizes the MMF as a high-dimensional optical encoder. Through complex mode coupling, the input image of the target is transformed into structured optical feature representations, enabling ultrafast and inherently parallel feature extraction. A 16-core fan-out device is employed to spatially sample the resulting speckle field, producing a compact 4 × 4 feature matrix for efficient downstream processing. The extracted features are evaluated using both image reconstruction and classification tasks, which respectively quantify information fidelity and discriminative capability. Furthermore, high-speed dynamic modulation experiments are conducted to investigate the stability and invariance of the encoded features under realistic operating conditions. Experimental results demonstrate that the proposed framework achieves high reconstruction accuracy and robust classification performance, while maintaining stable feature representations under dynamic perturbations. These findings establish MMFs as effective and scalable optical front-end processors, offering a promising route toward real-time optical neural computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Liuyang Hu",
+            "orcid": null
+          },
+          {
+            "name": "Yingtai Qiao",
+            "orcid": null
+          },
+          {
+            "name": "Wei Lin",
+            "orcid": "https://orcid.org/0000-0001-9711-2022"
+          },
+          {
+            "name": "Hao Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Bo Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 1,
+        "doi": "10.1364/oe.613930",
+        "landing_page": "https://doi.org/10.1364/oe.613930",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/oe.613930",
+        "publication_date": "2026-11-16",
+        "title": "High-speed optical target feature extractor based on multimode fiber optical neural network",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-09T00:44:15.720253Z",
+      "status": "found"
+    },
     "crossref:title:18919ebfcfcb07c6e645cdfc921796f473416c45a86c611e597caa66b8d59add": {
       "expires_at": "2026-08-11T09:38:30.607658Z",
       "record": {
@@ -10028,6 +10118,12 @@
       },
       "retrieved_at": "2026-10-09T01:12:18.173018Z",
       "status": "found"
+    },
+    "crossref:title:1a4bd3f2f76893ec1942482f1ce29df394019d0b8a707ef59239436582af4247": {
+      "expires_at": "2026-11-16T00:44:17.079920Z",
+      "record": null,
+      "retrieved_at": "2026-11-09T00:44:17.079920Z",
+      "status": "not_found"
     },
     "crossref:title:1adc88c76d469186b074be45146ed1c6905b0e273dd119266784192a9811d410": {
       "expires_at": "2026-09-11T01:00:14.804416Z",
@@ -12689,6 +12785,12 @@
       "retrieved_at": "2026-09-28T01:11:33.390140Z",
       "status": "not_found"
     },
+    "crossref:title:81c3be224c55fb7f654982a16293559e70eca4963728edb2081a8f80e61e923e": {
+      "expires_at": "2026-11-16T00:44:16.377857Z",
+      "record": null,
+      "retrieved_at": "2026-11-09T00:44:16.377857Z",
+      "status": "not_found"
+    },
     "crossref:title:8321bfce8eab0857839c0cf6b470b6020c4a40b8af8d91bcbb3371416187ca8c": {
       "expires_at": "2026-09-02T00:32:39.356861Z",
       "record": null,
@@ -14951,6 +15053,12 @@
       "retrieved_at": "2026-08-09T00:36:06.532514Z",
       "status": "not_found"
     },
+    "crossref:title:cc9d9274d19ad15d72bf9a4ee82f856a2911c8f169997ca3f67411921f52aa91": {
+      "expires_at": "2026-11-16T00:44:18.581925Z",
+      "record": null,
+      "retrieved_at": "2026-11-09T00:44:18.581925Z",
+      "status": "not_found"
+    },
     "crossref:title:cd14bf027daeb446907c6dd9a8715fc27323ecaec097111ab6553d2e1bd73fa8": {
       "expires_at": "2026-09-25T01:02:19.139933Z",
       "record": null,
@@ -15460,6 +15568,60 @@
       "record": null,
       "retrieved_at": "2026-08-18T04:25:32.712407Z",
       "status": "not_found"
+    },
+    "crossref:title:dc5801c22773c3e85c39340d29b452419c094ea023e4111279d59844473d959d": {
+      "expires_at": "2026-11-16T00:44:16.108918Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xi Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Ying Zhu",
+            "orcid": "https://orcid.org/0000-0001-9250-3550"
+          },
+          {
+            "name": "Yifan Liu",
+            "orcid": null
+          },
+          {
+            "name": "Xueyi Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Xinyu Yang",
+            "orcid": null
+          },
+          {
+            "name": "Daigao Chen",
+            "orcid": null
+          },
+          {
+            "name": "Hongguang Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Shaohua Yu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.eng.2026.10.017",
+        "landing_page": "https://doi.org/10.1016/j.eng.2026.10.017",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.eng.2026.10.017",
+        "publication_date": "2026-11",
+        "title": "Integrated Photonic Computing for AI: Architectures, Challenges, and Design Trends",
+        "venue": "Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-09T00:44:16.108918Z",
+      "status": "found"
     },
     "crossref:title:dc832493991ba038edbe987fb5fc940802a1354177edaa0c0b5bc0ccb93bcf85": {
       "expires_at": "2026-08-30T00:32:31.188781Z",
@@ -20433,6 +20595,60 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-06T00:40:59.878126Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.eng.2026.10.017": {
+      "expires_at": "2026-12-09T00:44:16.220164Z",
+      "record": {
+        "abstract": "With the rapid development of artificial intelligence (AI), its computational demands continue to grow while electronic computing hardware approaches its performance limits, necessitating the exploration of emerging paradigms. Integrated photonic computing, with its inherent advantages of ultra-low latency, high bandwidth, low energy consumption, and complementary metal oxide semiconductor (CMOS) compatibility, has emerged as a compelling route toward next-generation AI hardware. In this paper, we provide a structured overview of the major architectures for integrated photonic computing, including their operating principles and representative demonstrations. We then highlight the gap between the capabilities of highly efficient task-specific photonic accelerators and the requirements of dynamic, large-scale AI workloads. Drawing on our recent work in silicon photonic computing, we further discuss representative system-level design directions, including application-specific photonic accelerators, dynamically programmable optoelectronic computing systems, and reconfigurable multifunctional processors. By combining a structured overview with our perspective, this article outlines possible pathways from laboratory demonstrations to practical deployment in AI systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xi Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Ying Zhu",
+            "orcid": "https://orcid.org/0000-0001-9250-3550"
+          },
+          {
+            "name": "Yifan Liu",
+            "orcid": null
+          },
+          {
+            "name": "Xueyi Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Xinyu Yang",
+            "orcid": null
+          },
+          {
+            "name": "Daigao Chen",
+            "orcid": null
+          },
+          {
+            "name": "Hongguang Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Shaohua Yu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.eng.2026.10.017",
+        "landing_page": "https://doi.org/10.1016/j.eng.2026.10.017",
+        "open_access_url": "https://doi.org/10.1016/j.eng.2026.10.017",
+        "openalex_id": "https://openalex.org/W7225339774",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225339774",
+        "publication_date": "2026-11-01",
+        "title": "Integrated Photonic Computing for AI: Architectures, Challenges, and Design Trends",
+        "venue": "Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-09T00:44:16.220164Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.engappai.2026.116298": {
@@ -28787,6 +29003,48 @@
       "retrieved_at": "2026-09-28T01:11:24.945327Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/oe.613930": {
+      "expires_at": "2026-12-09T00:44:15.817412Z",
+      "record": {
+        "abstract": "With the widespread application of artificial intelligence, the requirement for the signal processing speed has been dramatically increasing. Optical neural networks, benefiting from intrinsic parallelism and high bandwidth, offer a promising pathway for high-speed information processing. Here, we proposed a multimode fiber (MMF)-based optical neural network (ONN) for high-speed target feature extraction, which utilizes the MMF as a high-dimensional optical encoder. Through complex mode coupling, the input image of the target is transformed into structured optical feature representations, enabling ultrafast and inherently parallel feature extraction. A 16-core fan-out device is employed to spatially sample the resulting speckle field, producing a compact 4 × 4 feature matrix for efficient downstream processing. The extracted features are evaluated using both image reconstruction and classification tasks, which respectively quantify information fidelity and discriminative capability. Furthermore, high-speed dynamic modulation experiments are conducted to investigate the stability and invariance of the encoded features under realistic operating conditions. Experimental results demonstrate that the proposed framework achieves high reconstruction accuracy and robust classification performance, while maintaining stable feature representations under dynamic perturbations. These findings establish MMFs as effective and scalable optical front-end processors, offering a promising route toward real-time optical neural computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Liuyang Hu",
+            "orcid": null
+          },
+          {
+            "name": "Yingtai Qiao",
+            "orcid": null
+          },
+          {
+            "name": "Wei Lin",
+            "orcid": "https://orcid.org/0000-0001-9711-2022"
+          },
+          {
+            "name": "Hao Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Bo Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.613930",
+        "landing_page": "https://doi.org/10.1364/oe.613930",
+        "open_access_url": "https://doi.org/10.1364/oe.613930",
+        "openalex_id": "https://openalex.org/W7225129915",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225129915",
+        "publication_date": "2026-11-02",
+        "title": "High-speed optical target feature extractor based on multimode fiber optical neural network",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-09T00:44:15.817412Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/oe.616047": {
       "expires_at": "2026-12-03T00:40:35.029441Z",
       "record": {
@@ -30040,6 +30298,12 @@
       },
       "retrieved_at": "2026-11-02T00:43:06.510549Z",
       "status": "found"
+    },
+    "openalex:doi:10.22541/essoar.15011740": {
+      "expires_at": "2026-12-09T00:44:17.584243Z",
+      "record": null,
+      "retrieved_at": "2026-11-09T00:44:17.584243Z",
+      "status": "not_found"
     },
     "openalex:doi:10.23919/eumc69230.2026.11748199": {
       "expires_at": "2026-12-07T00:39:25.473635Z",
@@ -33190,6 +33454,48 @@
       "retrieved_at": "2026-10-03T01:04:42.483609Z",
       "status": "found"
     },
+    "openalex:title:0f43ab2e18d434057a0f665cd5f0e7ab35a92bb64a0f14b7cba8682860ca73e5": {
+      "expires_at": "2026-11-16T00:44:18.396344Z",
+      "record": {
+        "abstract": "Differentiable programming gives numerical models access to the exact gradients of their solution with respect to their inputs, and turns the calibration of model parameters and the training of hybrid machine-learning components into gradient-based optimization problems. Here we use a differentiable version of the ocean model Veros to examine what this capability brings to ocean model design and calibration. The model is written in JAX and computes sensitivities with forward- and reverse-mode automatic differentiation, with no change to its forward numerical behavior. We consider three applications. In the first, two physical parameters, lateral viscosity and bottom friction, are calibrated from satellite-like observables over a two-day control window; the calibrated model restores the simulated circulation over a long term, multi-year evaluation. In the second, a subgrid parameterization representing the backscatter of energy toward resolved scales is trained online and improves the kinetic energy and shear of a long term simulation. In the third, a neural correction is trained online to compensate a biased vertical mixing closure. The simulation is fitted over a two-day control window, and similarly to the previous applications, the correction remains stable and effective over a multi-year free-running simulation. Across the three applications, quantities optimized over windows of about one hundred solver steps yield skill that persists over integration times that are orders of magnitude longer, which indicates that solving online learning problems using differentiable programming is a practical tool for ocean model design and calibration.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Said Ouala",
+            "orcid": "https://orcid.org/0000-0003-0554-3971"
+          },
+          {
+            "name": "Hugo Frezat",
+            "orcid": "https://orcid.org/0000-0002-0291-4020"
+          },
+          {
+            "name": "Etienne Meunier",
+            "orcid": "https://orcid.org/0000-0002-5310-2305"
+          },
+          {
+            "name": "Ronan Fablet",
+            "orcid": "https://orcid.org/0000-0002-6462-423X"
+          },
+          {
+            "name": "Julien Lesommer",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.22541/essoar.15011740/v1",
+        "landing_page": "https://doi.org/10.22541/essoar.15011740/v1",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7225324905",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225324905",
+        "publication_date": "2026-11-05",
+        "title": "Differentiable programming for ocean model design and calibration",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-09T00:44:18.396344Z",
+      "status": "found"
+    },
     "openalex:title:0f496b08245f21bd1fa2b82dc71d2d05030e1c6be1c97870470bbd6c65acacd0": {
       "expires_at": "2026-10-12T01:13:29.804624Z",
       "record": {
@@ -33348,6 +33654,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-18T01:04:59.669117Z",
+      "status": "found"
+    },
+    "openalex:title:1a4bd3f2f76893ec1942482f1ce29df394019d0b8a707ef59239436582af4247": {
+      "expires_at": "2026-11-16T00:44:17.458337Z",
+      "record": {
+        "abstract": "Deep generative models, particularly Flow Matching frameworks, have emerged as powerful tools for synthesizing complex physical systems. However, standard architectures remain purely statistically driven and agnostic to the underlying governing equations, often violating fundamental physical constraints during inference. Existing zero-shot approaches designed to enforce these constraints typically rely on rigid algebraic projections. While effective for sparse boundary conditions, applying such discrete geometric corrections to dense, full-domain PDEs may disrupt the probability path, \\rev{potentially deviating from the learned manifold and introducing substantial computational overhead}. To address these challenges, we introduce Energy-Guided Transport, a novel training-free framework that formulates non-linear physical constraints as a smooth potential energy landscape. Rather than interrupting the ODE integration, our method applies a continuous dissipative force directly to the intermediate generative states, steering them toward the physical manifold. By evaluating this force implicitly via reverse-mode automatic differentiation, our framework preserves the natural dynamics of the flow while maintaining an efficient $\\mathcal{O}(N)$ algorithmic complexity. We extensively evaluate our framework across various 1D and 2D physical systems, including the chaotic Navier-Stokes equations. Our method achieves stable generation without structural divergence, significantly improves the stability-accuracy trade-off compared to state-of-the-art methods, and substantially accelerates inference with respect to exact projection strategies. Code available at: https://github.com/ispamm/Projection-free-energy-guided-flow-matching.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Giuliano Galadini",
+            "orcid": null
+          },
+          {
+            "name": "Aurelio Uncini",
+            "orcid": "https://orcid.org/0000-0002-5793-0917"
+          },
+          {
+            "name": "Danilo Comminiello",
+            "orcid": "https://orcid.org/0000-0003-4067-4504"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.06711",
+        "landing_page": "https://arxiv.org/abs/2611.06711",
+        "open_access_url": "https://arxiv.org/abs/2611.06711",
+        "openalex_id": "https://openalex.org/W7225304075",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225304075",
+        "publication_date": "2026-11-04",
+        "title": "Energy-Guided Transport for Projection-Free Physics-Informed Flow Matching",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-09T00:44:17.458337Z",
       "status": "found"
     },
     "openalex:title:1adc88c76d469186b074be45146ed1c6905b0e273dd119266784192a9811d410": {
@@ -35586,6 +35926,40 @@
       "retrieved_at": "2026-09-28T01:11:33.975660Z",
       "status": "not_found"
     },
+    "openalex:title:81c3be224c55fb7f654982a16293559e70eca4963728edb2081a8f80e61e923e": {
+      "expires_at": "2026-11-16T00:44:16.863496Z",
+      "record": {
+        "abstract": "Reward alignment for diffusion- and flow-based generative models is often formulated over stochastic trajectories, making it less suitable for few-step deterministic generators. Initial noise optimization provides a trajectory-free alternative, but existing gradient-free methods require costly per-sample search at inference. We introduce LeNO (Learning Noise Optimization), which amortizes reward-guided initial noise optimization into a learned residual transport while keeping the pretrained generator frozen. LeNO learns an anchor-conditioned distribution over noise corrections using Local GRPO and scalar rewards, eliminating iterative test-time optimization. For Gaussian initial noise with norm-preserving projection, we derive a tractable upper bound on the KL divergence between the corrected noise distribution and the original prior, providing a principled regularization objective. We evaluate LeNO on few-step text-to-image and protein structure generation, including expensive black-box designability rewards. Across both domains, LeNO improves target rewards with a single noise correction at inference while largely preserving generation quality and diversity.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hongeun Kim",
+            "orcid": null
+          },
+          {
+            "name": "Jeongsol Kim",
+            "orcid": null
+          },
+          {
+            "name": "Jong Chul Ye",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.06255",
+        "landing_page": "https://arxiv.org/abs/2611.06255",
+        "open_access_url": "https://arxiv.org/abs/2611.06255",
+        "openalex_id": "https://openalex.org/W7225348290",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225348290",
+        "publication_date": "2026-11-04",
+        "title": "Learning Noise Optimization for Reward Alignment in Few-Step Generative Models",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-09T00:44:16.863496Z",
+      "status": "found"
+    },
     "openalex:title:8321bfce8eab0857839c0cf6b470b6020c4a40b8af8d91bcbb3371416187ca8c": {
       "expires_at": "2026-09-02T00:32:40.232960Z",
       "record": null,
@@ -37781,6 +38155,32 @@
       "record": null,
       "retrieved_at": "2026-08-09T00:36:07.204631Z",
       "status": "not_found"
+    },
+    "openalex:title:cc9d9274d19ad15d72bf9a4ee82f856a2911c8f169997ca3f67411921f52aa91": {
+      "expires_at": "2026-11-16T00:44:19.268118Z",
+      "record": {
+        "abstract": "Knowledge of the hidden interior structure of an object, including the presence and location of cavities, is essential for predictive simulation, robotic manipulation, and nondestructive inspection. However, such cavities leave no direct signature on the static visible surface, making collision-induced deformation one of the few cues used to infer their presence. Structure from Collision (SfC) addresses this problem by recovering the hidden interior structure of an object from multiview observations of a collision event. SfC is challenging for two reasons: hidden cavities are only indirectly observable through surface motion, and voids correspond to the absence of material, making direct optimization using standard density representations difficult. The density-based SfC baseline inherits both difficulties. Surface-matching gradients do not directly indicate the cavity location, while density gradients can be weak or uninformative inside or near void regions. Therefore, we reformulate SfC as hypothesis-space reasoning, representing hidden cavities as explicit structural hypotheses whose variables encode available structural assumptions rather than relying on implicit density updates. A global stage performs gradient-free optimization over this hypothesis space using forward-only material point method (MPM) simulation. A local stage then refines the selected hypothesis as a Lagrangian particle system through gradient-based optimization using differentiable MPM simulation. On the SfC benchmark, our method improves hidden-structure reconstruction and future prediction over the density-based SfC baseline. Interior-topology stress tests and robustness analyses characterize its scope and limitations. The project page is available at https://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/sfc-hypothesis/.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Takuhiro Kaneko",
+            "orcid": "https://orcid.org/0009-0000-8016-5144"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.07900",
+        "landing_page": "https://arxiv.org/abs/2611.07900",
+        "open_access_url": "https://arxiv.org/abs/2611.07900",
+        "openalex_id": "https://openalex.org/W7225433948",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225433948",
+        "publication_date": "2026-11-05",
+        "title": "Structure from Collision via Hypothesis-Space Reasoning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-09T00:44:19.268118Z",
+      "status": "found"
     },
     "openalex:title:cd14bf027daeb446907c6dd9a8715fc27323ecaec097111ab6553d2e1bd73fa8": {
       "expires_at": "2026-09-25T01:02:19.785675Z",

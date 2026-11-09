@@ -1,0 +1,94 @@
+{
+  "completion": {
+    "architecture_repairs": 0,
+    "completed_at": "2026-11-09T00:44:47.695879Z",
+    "mode": "automatic_daily_batch_after_local_validation"
+  },
+  "delivery": {
+    "mode": "separate_daily_digest_workflow",
+    "status": "pending"
+  },
+  "digest_date": "2026-11-09",
+  "digest_version": 2,
+  "model": "deepseek-v4-pro",
+  "output_language": "zh-CN",
+  "provider": "deepseek",
+  "safety": {
+    "email_enabled": false,
+    "full_text_persisted": false,
+    "full_text_used": false,
+    "information_basis": "title_metadata_and_abstract_only",
+    "numeric_grounding_scope": "title_and_abstract_only",
+    "review_required": false,
+    "summary_history_updated": true
+  },
+  "schema_version": 2,
+  "status": "completed_automatic",
+  "summaries": [
+    {
+      "candidate_id": "0aaf9a70d0dd89f86bd1e549",
+      "core_problem": "针对人工智能应用对信号处理速度日益增长的需求，论文提出利用多模光纤作为高维光学编码器，构建光学神经网络以实现高速目标特征提取，解决传统电子处理在高带宽和并行性方面的瓶颈。",
+      "distinction_from_prior_work": "与已有光学神经网络工作相比，该方案将多模光纤中的复杂模式耦合作为核心编码机制，而非仅将光纤视为传输介质；同时采用16芯扇出器件对散斑场进行空间采样，得到紧凑的4×4特征矩阵，兼顾了特征表达能力和下游处理效率。",
+      "limitations_and_open_questions": [
+        "摘要未提供所提出的特征提取器与现有电子或光学方法在速度、功耗或准确率上的定量对比。",
+        "摘要仅提及动态调制实验用于研究稳定性，但未给出扰动类型、幅度范围或特征不变性的具体量化指标。",
+        "多模光纤的模态色散、环境敏感性以及系统校准需求在摘要中未讨论，实际部署的长期稳定性尚不明确。",
+        "摘要未说明图像重建和分类任务所用的具体数据集、网络结构及训练配置。"
+      ],
+      "main_contributions": [
+        "提出基于多模光纤的光学神经网络前端，利用模式耦合实现超快并行特征提取。",
+        "采用16芯扇出器件对散斑场空间采样，得到紧凑的4×4特征矩阵。",
+        "使用图像重建和分类任务分别评估特征的信息保真度和判别能力。",
+        "开展高速动态调制实验，验证特征在动态扰动下的稳定性。",
+        "实验表明系统具有高重建精度和稳健分类性能，证明多模光纤可作为可扩展光学前端处理器。"
+      ],
+      "method_and_architecture": "系统以多模光纤为核心光学编码器，输入目标图像经光纤模式耦合后形成散斑场；16芯扇出器件对散斑场空间采样，输出紧凑的4×4特征矩阵；该特征矩阵可直接用于下游图像重建或分类任务。整体架构为无源光学前端与电子后端相结合的混合方案。",
+      "method_implementation": [
+        "系统由光源、输入图像加载装置、多模光纤、16芯扇出器件和光电探测器阵列组成。输入目标图像通过空间光调制器或直接成像方式耦合进多模光纤，光场在光纤内激发大量传导模式，各模式因传播常数不同而发生相位演化，并在输出端相互干涉形成散斑场。",
+        "16芯扇出器件紧贴光纤输出端面放置，将散斑场划分为规则的空间区域，每个纤芯收集对应区域的光强，从而获得一组16个强度值。这些强度值经过排列形成4×4的特征矩阵，作为目标的紧凑光学特征表示。",
+        "在图像重建任务中，特征矩阵被送入重建算法或神经网络，以恢复原始目标图像；在分类任务中，特征矩阵被用于训练分类器。摘要未提供具体的网络结构、训练超参数或优化器设置。",
+        "高速动态调制实验通过对输入光场施加随时间变化的扰动，采集特征矩阵的变化情况，以评估编码特征的稳定性和不变性。摘要未提供调制频率、扰动类型或稳定性量化指标。",
+        "所有实验均基于物理光路实现，验证了多模光纤光学神经网络在实际工作条件下的性能。摘要报告了高重建精度和稳健分类性能，但未给出具体数值或对比基线。"
+      ],
+      "method_principle": "多模光纤中众多传导模式之间存在复杂的耦合与干涉，当目标图像的光场耦合进光纤时，不同空间频率和角度的信息被映射到不同模式组合上，输出端形成高度结构化的散斑图案。这种模式耦合过程本质上是高维线性变换，具有极快的响应速度和内在并行性，因此可在光速下完成特征提取。16芯扇出器件对散斑场进行规则空间采样，将高维散斑信息压缩为4×4的低维特征矩阵，既保留了足够的目标判别信息，又降低了后续电子处理的复杂度。图像重建任务验证了特征矩阵对原始信息的高保真编码能力，而分类任务则验证了该编码对于区分不同目标的有效性。高速动态调制实验进一步表明，在输入光场受到动态扰动时，模式耦合产生的特征表示仍能保持稳定，这源于多模光纤编码对整体光场分布的鲁棒性以及空间采样对局部波动的平均效应。因此，该系统能够在不依赖复杂主动控制的情况下，提供高速、稳定且信息丰富的光学特征表示。",
+      "optical_neural_network_analysis": {
+        "application_tasks": [
+          "图像重建",
+          "目标分类",
+          "高速特征提取"
+        ],
+        "architecture_type": "unclear",
+        "calibration_requirements": "未提供；摘要未讨论多模光纤的校准或稳定性控制措施。",
+        "hardware_validation": "physical_experiment",
+        "optical_nonlinearity": "未提供；摘要未提及光学非线性，系统可能依赖线性模式耦合和干涉。",
+        "training_method": "未提供；摘要仅说明提取的特征用于图像重建和分类任务，未提及训练方式（可能在电子后端进行）。"
+      },
+      "output_language": "zh-CN",
+      "reported_results": [
+        {
+          "basis": "abstract",
+          "claim": "所提框架实现了高重建精度和稳健分类性能，同时在动态扰动下保持稳定特征表示。",
+          "reported_by_authors": true
+        }
+      ],
+      "research_value": "该研究展示了多模光纤作为高速、可扩展光学前端处理器的可行性，为实时光学神经计算提供了一条有前景的路径。其无源并行编码特性有望在超快信号处理、边缘计算和高速视觉任务中发挥作用。",
+      "schema_version": 2,
+      "summary_version": 2,
+      "verification": {
+        "full_text_method_context_used": false,
+        "full_text_method_source_url": null,
+        "information_basis": "title_metadata_and_abstract_only",
+        "missing_information": [
+          "具体实验装置参数（如光源类型、光路结构、探测器型号）",
+          "图像重建和分类任务的数据集、网络结构、训练细节及性能数值",
+          "动态调制实验的扰动参数和稳定性定量结果",
+          "系统校准方法和环境控制措施",
+          "公开全文已尝试获取 3 次但仍未取得；本条为摘要级短讯，仅依据题目、元数据和当前可用摘要或摘要片段生成。"
+        ],
+        "unsupported_numbers_detected": false
+      },
+      "zeroth_order_analysis": null
+    }
+  ],
+  "summary_count": 1
+}
