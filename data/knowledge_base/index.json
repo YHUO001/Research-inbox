@@ -260,6 +260,15 @@
       "summary_record_sha256": "5f1f161699f62499df8d7b588e5def0ed74fbaaa01e663d98ce09b28ec9105c0",
       "title": "Hardware implementation of photonic neuromorphic autonomous navigation"
     },
+    "35ca2b5d96e48aa3071b5073": {
+      "digest_date": "2026-11-10",
+      "doi": "10.1016/j.optlaseng.2026.110244",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "ef0333b6211cc39813671881341357737b61201ba500c21fd8f89a2fca21c858",
+      "title": "CNN-based bit error rate reduction in holographic data storage systems using simulated training datasets"
+    },
     "35ff63ef9d3333099ee28868": {
       "digest_date": "2026-09-03",
       "doi": "10.1038/s44335-026-00096-y",
@@ -972,6 +981,15 @@
       "summary_record_sha256": "23cec48544affb3fbc0dcf6d216b6744a50c4cf6182a8540dd864d1b4a854470",
       "title": "On Perspectives of Zeroth-Order Methods for Large Language Models Pre-Training"
     },
+    "d022b854580fba55dade4302": {
+      "digest_date": "2026-11-10",
+      "doi": "10.1109/tac.2026.3750789",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "0b78ab36844a8180d7121241d47c145c7a5891f8db81e51eded524349e00b930",
+      "title": "A Zeroth-Order Compressed Push-Pull Algorithm for Distributed Nonconvex Optimization Over Unbalanced Directed Graphs"
+    },
     "d11ea194238cf32852af6b74": {
       "digest_date": "2026-10-18",
       "doi": "10.48550/arxiv.2610.15336",
@@ -1405,6 +1423,10 @@
     ],
     "2026-11-09": [
       "0aaf9a70d0dd89f86bd1e549"
+    ],
+    "2026-11-10": [
+      "35ca2b5d96e48aa3071b5073",
+      "d022b854580fba55dade4302"
     ]
   },
   "by_doi": {
@@ -1420,6 +1442,7 @@
     "10.1007/s10589-026-00835-8": "c55f09d580d098a54f7078e7",
     "10.1007/s10915-026-03433-2": "7719ae17086cb97168bebbc5",
     "10.1016/j.optlaseng.2026.110178": "790fd87bc9a673947dfbaac6",
+    "10.1016/j.optlaseng.2026.110244": "35ca2b5d96e48aa3071b5073",
     "10.1016/j.optlastec.2026.116573": "f4eaa19659c54d93478a40d5",
     "10.1021/acsphotonics.6c00831": "2eb28d7201afb356d747693a",
     "10.1021/acsphotonics.6c01155": "d69a4f93ca6340969e1077a8",
@@ -1449,6 +1472,7 @@
     "10.1109/dcna72004.2026.11733422": "ce453bfbb1da74c9ff0d3143",
     "10.1109/ichci71425.2026.11739849": "6da55cf29e6e5024311c8a8a",
     "10.1109/icocn70692.2026.11656217": "c3474ba19a69c715eb87d391",
+    "10.1109/tac.2026.3750789": "d022b854580fba55dade4302",
     "10.1109/tcad.2026.3738037": "70212be2c4a63d741872ace0",
     "10.1117/1.ap.8.5.054001": "916e8199aaabe1372544d280",
     "10.1117/1.ap.8.5.056010": "0a7a6a25b0c077322aee6b4e",
@@ -1557,6 +1581,7 @@
       "2c2645700d900a5b3f00a38c",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
+      "35ca2b5d96e48aa3071b5073",
       "35ff63ef9d3333099ee28868",
       "37a9533a60e5cdd68ef3c483",
       "380b726618cccff0a9e5514f",
@@ -1656,6 +1681,7 @@
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
       "ce453bfbb1da74c9ff0d3143",
+      "d022b854580fba55dade4302",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dbd89d73b4422f4357c86181",
@@ -1810,6 +1836,12 @@
     ],
     "application:全息复用": [
       "5779863299dcab370c05c0ca"
+    ],
+    "application:全息数据存储系统的误码率测试": [
+      "35ca2b5d96e48aa3071b5073"
+    ],
+    "application:全息数据存储系统的误码率降低": [
+      "35ca2b5d96e48aa3071b5073"
     ],
     "application:关键词唤醒": [
       "b8423ccc73119513c6a02810"
@@ -1990,6 +2022,9 @@
     ],
     "application:数据中心加速": [
       "c9dee369fd4e64c2389af927"
+    ],
+    "application:数据页重建图像恢复": [
+      "35ca2b5d96e48aa3071b5073"
     ],
     "application:无人机实时障碍物感知": [
       "557b41cb542bf10e84da81f2"
@@ -2209,6 +2244,7 @@
       "2c2645700d900a5b3f00a38c"
     ],
     "architecture:free_space": [
+      "35ca2b5d96e48aa3071b5073",
       "5017adbd33e6ddd5c320a4c4",
       "61dad77fe7c2ef7687ce5b21",
       "7e9d9924bce580000ddda36d",
@@ -2323,6 +2359,7 @@
       "2c2645700d900a5b3f00a38c",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
+      "35ca2b5d96e48aa3071b5073",
       "35ff63ef9d3333099ee28868",
       "39df3bfb1d1f1919bbf17668",
       "4cf08afde3b5592300752bae",
@@ -2405,6 +2442,7 @@
       "2c2645700d900a5b3f00a38c",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
+      "35ca2b5d96e48aa3071b5073",
       "35ff63ef9d3333099ee28868",
       "37a9533a60e5cdd68ef3c483",
       "380b726618cccff0a9e5514f",
@@ -2504,6 +2542,7 @@
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
       "ce453bfbb1da74c9ff0d3143",
+      "d022b854580fba55dade4302",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dbd89d73b4422f4357c86181",
@@ -2545,6 +2584,7 @@
       "c55f09d580d098a54f7078e7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
+      "d022b854580fba55dade4302",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dbd89d73b4422f4357c86181",
@@ -2584,6 +2624,7 @@
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
+      "d022b854580fba55dade4302",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dbd89d73b4422f4357c86181",
@@ -2622,6 +2663,7 @@
       "b55d3108932c3bfbf5a93ca7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
+      "d022b854580fba55dade4302",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dbd89d73b4422f4357c86181",
@@ -2663,6 +2705,7 @@
       "c55f09d580d098a54f7078e7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
+      "d022b854580fba55dade4302",
       "d11ea194238cf32852af6b74",
       "dad476a2b20ea06a98b64b6a",
       "dbd89d73b4422f4357c86181",
@@ -2764,6 +2807,9 @@
       "9e5e9e295864aadeda0674fe",
       "d162b179119ee09c86ad3708"
     ],
+    "IEEE Transactions on Automatic Control": [
+      "d022b854580fba55dade4302"
+    ],
     "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems": [
       "70212be2c4a63d741872ace0"
     ],
@@ -2839,6 +2885,7 @@
       "d2fce890434b1e8464e61eb0"
     ],
     "Optics and Lasers in Engineering": [
+      "35ca2b5d96e48aa3071b5073",
       "790fd87bc9a673947dfbaac6"
     ],
     "Photonics Research": [
@@ -3046,6 +3093,7 @@
       "ccd82d84305d463a6c33398d",
       "ce092fd32303d2ddfac44b92",
       "ce453bfbb1da74c9ff0d3143",
+      "d022b854580fba55dade4302",
       "d11ea194238cf32852af6b74",
       "d162b179119ee09c86ad3708",
       "d2a55bdec24bc3bc4b04467b",
@@ -3068,11 +3116,12 @@
       "fd6f281418ac4d412744b2ac"
     ],
     "2027": [
+      "35ca2b5d96e48aa3071b5073",
       "790fd87bc9a673947dfbaac6",
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 128,
+  "paper_count": 130,
   "schema_version": 1,
-  "updated_at": "2026-11-09T00:44:47.695879Z"
+  "updated_at": "2026-11-10T00:40:46.920745Z"
 }

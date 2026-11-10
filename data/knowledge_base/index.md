@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`128`
-- 更新时间：`2026-11-09T00:44:47.695879Z`
+- 论文数：`130`
+- 更新时间：`2026-11-10T00:40:46.920745Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### CNN-based bit error rate reduction in holographic data storage systems using simulated training datasets
+
+- DOI/链接：[10.1016/j.optlaseng.2026.110244](https://doi.org/10.1016/j.optlaseng.2026.110244)
+- 期刊/年份：Optics and Lasers in Engineering，2027
+- 摘要日期：`2026-11-10`
+- 候选 ID：`35ca2b5d96e48aa3071b5073`
+- 标签：application:全息数据存储系统的误码率测试, application:全息数据存储系统的误码率降低, application:数据页重建图像恢复, architecture:free_space, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### High-speed optical target feature extractor based on multimode fiber optical neural network
 
@@ -719,6 +727,14 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### A Zeroth-Order Compressed Push-Pull Algorithm for Distributed Nonconvex Optimization Over Unbalanced Directed Graphs
+
+- DOI/链接：[10.1109/tac.2026.3750789](https://doi.org/10.1109/tac.2026.3750789)
+- 期刊/年份：IEEE Transactions on Automatic Control，2026
+- 摘要日期：`2026-11-10`
+- 候选 ID：`d022b854580fba55dade4302`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
 
 ### Evolution Strategy-Assisted TD3 for Continuous Control: Policy-Update Analysis and Plant-State Boundedness
 

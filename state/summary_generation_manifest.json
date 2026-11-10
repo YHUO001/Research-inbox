@@ -1,48 +1,74 @@
 {
   "abstract_fallback_candidate_ids": [
-    "0aaf9a70d0dd89f86bd1e549"
+    "35ca2b5d96e48aa3071b5073",
+    "d022b854580fba55dade4302"
   ],
-  "abstract_fallback_count": 1,
+  "abstract_fallback_count": 2,
   "architecture_evidence": {
-    "0aaf9a70d0dd89f86bd1e549": {
+    "35ca2b5d96e48aa3071b5073": {
+      "changed": false,
+      "free_space_evidence": [
+        "After training and testing the CNN with the simulated data we have applied the method to real reconstructed experimental data pages obtained in a HDSS which incorporates, among others innovations a parallel aligned liquid crystal on silicon device spatial light modulator (PA-LCoS, SLM) as data pager, and the pages are stored in a self-made photopolymer based on polyvinyl alcohol/acrylamide (PVA/AA)."
+      ],
+      "integrated_evidence": [],
+      "previous_type": "free_space",
+      "resolved_type": "free_space"
+    },
+    "d022b854580fba55dade4302": {
       "changed": false,
       "free_space_evidence": [],
       "integrated_evidence": [],
-      "previous_type": "unclear",
+      "previous_type": null,
       "resolved_type": "unclear"
     }
   },
   "architecture_repairs": 0,
   "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 1,
-  "completed_at": "2026-11-09T00:44:47.695879Z",
+  "automatic_queue_candidate_count": 2,
+  "completed_at": "2026-11-10T00:40:46.920745Z",
   "completed_candidate_filtered_count": 0,
   "completed_candidate_ids": [
-    "0aaf9a70d0dd89f86bd1e549"
+    "35ca2b5d96e48aa3071b5073",
+    "d022b854580fba55dade4302"
   ],
   "completion_mode": "automatic_daily_batch_after_local_validation",
   "daily_digest_pending": true,
-  "digest_date": "2026-11-09",
-  "digest_json_file": "runtime-state/data/digests/2026-11-09.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-11-09.generated.md",
+  "digest_date": "2026-11-10",
+  "digest_json_file": "runtime-state/data/digests/2026-11-10.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-11-10.generated.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0148802,
+  "estimated_cost_cny": 0.0250684,
   "execution_mode": "automatic_daily_batch",
   "failure_count": 0,
   "failures": [],
   "full_text_method_contexts": {
-    "0aaf9a70d0dd89f86bd1e549": {
+    "35ca2b5d96e48aa3071b5073": {
       "abstract_available": true,
       "attempt_count": 3,
-      "candidate_id": "0aaf9a70d0dd89f86bd1e549",
+      "candidate_id": "35ca2b5d96e48aa3071b5073",
       "character_count": 0,
       "content_sha256": null,
-      "elapsed_seconds": 1.734,
-      "error": "https://validate.perfdrive.com/?ssa=859919d0-9a8a-4fab-2e68-770bf9c285fa&ssb=48024279926&ssc=https%3A%2F%2Fopg.optica.org%2Foe%2Fviewmedia.cfm%3Furi%3Doe-34-23-43887%26html%3Dtrue&ssi=54ad550b-d3hy-0152-d199-d36faaf711e4&ssk=botmanager_support@radware.com&ssm=01007255508861607108892474641735&ssn=a726a4690b1d9abfe620a0d096fd1f7658f2d80f03c5-3a62-bbe7-8026e4&sso=0ab8ee7-8482-5cf8a0056c36bd41de8fe95805b53b2afa7825c6423bc5a3&ssp=50506240861794181029179415758897023&ssq=77709978506296950471285062722910798507523&ssr=NDguMjE3LjIyNy4yNDQ=&sst=ResearchInbox%2F0.5%20%28%2Bhttps%3A%2F%2Fgithub.com%2FYHUO001%2FResearch-inbox%29&ssv=&ssw=: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "elapsed_seconds": 1.436,
+      "error": "https://linkinghub.elsevier.com/retrieve/pii/S0143816626006470: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
       "fallback_decision": "generate_from_abstract",
       "media_type": null,
       "section_headings": [],
-      "source_url": "https://doi.org/10.1364/oe.613930",
+      "source_url": "https://doi.org/10.1016/j.optlaseng.2026.110244",
+      "status": "not_available",
+      "text_persisted": false
+    },
+    "d022b854580fba55dade4302": {
+      "abstract_available": true,
+      "attempt_count": 3,
+      "candidate_id": "d022b854580fba55dade4302",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 0.787,
+      "error": "https://ieeexplore.ieee.org/document/11775793/: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1109/tac.2026.3750789",
       "status": "not_available",
       "text_persisted": false
     }
@@ -53,7 +79,7 @@
   "information_basis": "title_metadata_and_abstract_only",
   "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 1,
+  "newly_completed_candidate_count": 2,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -69,84 +95,121 @@
     "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
   },
   "output_language": "zh-CN",
-  "prepared_request_count": 1,
+  "prepared_request_count": 2,
   "provider": "deepseek",
-  "queue_sha256": "4335087e8a9ccc9f36338eaa932f0acb078754be854ac9114b0b25edde30a1db",
-  "request_count": 1,
-  "request_file": "runtime-state/data/summary_requests/2026-11-09.jsonl",
-  "request_sha256": "b32f646fa52c0847c0ecb72565eb5a4dd1ec7bf1cb079ccb0549fb0555a4235c",
+  "queue_sha256": "877f8c39766708a7debd0266a2b5b52bb1ee0f9f0e52d80cf95e882f7b854f61",
+  "request_count": 2,
+  "request_file": "runtime-state/data/summary_requests/2026-11-10.jsonl",
+  "request_sha256": "42204e6b3ac6c4808dc12233bb5854eb2faafc061ca7ac19c1f353fe93e65af2",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "389dcc2d55d69ce4b5568e11e581aa903c764d43ae6893424ee7eedae74f89e4",
+  "selection_manifest_sha256": "9e4975fade76c7e44651aca51d32346b2ed36bca5ff8220ace80087454a27dd5",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 1,
+  "source_queue_candidate_count": 2,
   "stage_timings": {
-    "full_text_preparation_seconds": 1.737,
+    "full_text_preparation_seconds": 2.229,
     "model_api_calls": [
       {
         "attempt": 1,
-        "candidate_id": "0aaf9a70d0dd89f86bd1e549",
-        "elapsed_seconds": 23.328,
+        "candidate_id": "35ca2b5d96e48aa3071b5073",
+        "elapsed_seconds": 17.5,
         "status": "response_received",
         "usage": {
-          "completion_tokens": 1755,
+          "completion_tokens": 1503,
           "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1433,
-          "prompt_tokens": 3481,
-          "total_tokens": 5236
+          "prompt_cache_miss_tokens": 1531,
+          "prompt_tokens": 3579,
+          "total_tokens": 5082
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "d022b854580fba55dade4302",
+        "elapsed_seconds": 13.383,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1201,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1383,
+          "prompt_tokens": 3431,
+          "total_tokens": 4632
         }
       }
     ],
-    "model_generation_and_validation_seconds": 23.34
+    "model_generation_and_validation_seconds": 30.902
   },
   "status": "completed_automatic",
-  "summary_count": 1,
-  "summary_file": "runtime-state/data/summaries/2026-11-09.jsonl",
+  "summary_count": 2,
+  "summary_file": "runtime-state/data/summaries/2026-11-10.jsonl",
   "summary_generation_version": 8,
   "summary_history_updated": true,
-  "summary_slot_count": 1,
+  "summary_slot_count": 2,
   "thinking_enabled": false,
   "transport_repairs": {
     "architecture_evidence": {
-      "0aaf9a70d0dd89f86bd1e549": {
-        "free_space_evidence": [],
+      "35ca2b5d96e48aa3071b5073": {
+        "free_space_evidence": [
+          "After training and testing the CNN with the simulated data we have applied the method to real reconstructed experimental data pages obtained in a HDSS which incorporates, among others innovations a parallel aligned liquid crystal on silicon device spatial light modulator (PA-LCoS, SLM) as data pager, and the pages are stored in a self-made photopolymer based on polyvinyl alcohol/acrylamide (PVA/AA)."
+        ],
         "integrated_evidence": [],
         "model_value": "hybrid",
         "repaired": true,
+        "resolved_type": "free_space"
+      },
+      "d022b854580fba55dade4302": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": null,
+        "repaired": false,
         "resolved_type": "unclear"
       }
     },
     "architecture_repairs": 1,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
-      "0aaf9a70d0dd89f86bd1e549": {
+      "35ca2b5d96e48aa3071b5073": {
         "abstract_available": true,
         "attempt_count": 3,
-        "candidate_id": "0aaf9a70d0dd89f86bd1e549",
+        "candidate_id": "35ca2b5d96e48aa3071b5073",
         "character_count": 0,
         "content_sha256": null,
-        "elapsed_seconds": 1.734,
-        "error": "https://validate.perfdrive.com/?ssa=859919d0-9a8a-4fab-2e68-770bf9c285fa&ssb=48024279926&ssc=https%3A%2F%2Fopg.optica.org%2Foe%2Fviewmedia.cfm%3Furi%3Doe-34-23-43887%26html%3Dtrue&ssi=54ad550b-d3hy-0152-d199-d36faaf711e4&ssk=botmanager_support@radware.com&ssm=01007255508861607108892474641735&ssn=a726a4690b1d9abfe620a0d096fd1f7658f2d80f03c5-3a62-bbe7-8026e4&sso=0ab8ee7-8482-5cf8a0056c36bd41de8fe95805b53b2afa7825c6423bc5a3&ssp=50506240861794181029179415758897023&ssq=77709978506296950471285062722910798507523&ssr=NDguMjE3LjIyNy4yNDQ=&sst=ResearchInbox%2F0.5%20%28%2Bhttps%3A%2F%2Fgithub.com%2FYHUO001%2FResearch-inbox%29&ssv=&ssw=: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "elapsed_seconds": 1.436,
+        "error": "https://linkinghub.elsevier.com/retrieve/pii/S0143816626006470: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
         "fallback_decision": "generate_from_abstract",
         "media_type": null,
         "section_headings": [],
-        "source_url": "https://doi.org/10.1364/oe.613930",
+        "source_url": "https://doi.org/10.1016/j.optlaseng.2026.110244",
+        "status": "not_available",
+        "text_persisted": false
+      },
+      "d022b854580fba55dade4302": {
+        "abstract_available": true,
+        "attempt_count": 3,
+        "candidate_id": "d022b854580fba55dade4302",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 0.787,
+        "error": "https://ieeexplore.ieee.org/document/11775793/: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1109/tac.2026.3750789",
         "status": "not_available",
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 1,
+    "generation_metadata_repair_responses": 2,
     "numeric_grounding_repair_responses": 0,
     "numeric_grounding_repairs": {},
     "tops_alias_expansions": 0,
     "unit_format_normalization_responses": 0
   },
   "usage": {
-    "completion_tokens": 1755,
-    "prompt_cache_hit_tokens": 2048,
-    "prompt_cache_miss_tokens": 1433,
-    "prompt_tokens": 3481,
-    "total_tokens": 5236
+    "completion_tokens": 2704,
+    "prompt_cache_hit_tokens": 4096,
+    "prompt_cache_miss_tokens": 2914,
+    "prompt_tokens": 7010,
+    "total_tokens": 9714
   }
 }

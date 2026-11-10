@@ -2240,6 +2240,48 @@
       "retrieved_at": "2026-10-12T01:18:12.458680Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/978-981-95-9155-8": {
+      "expires_at": "2026-12-10T00:40:08.023795Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Nan Li",
+            "orcid": null
+          },
+          {
+            "name": "Lianbo Ma",
+            "orcid": null
+          },
+          {
+            "name": "Yuhua Qian",
+            "orcid": null
+          },
+          {
+            "name": "Bing Xue",
+            "orcid": "https://orcid.org/0000-0002-4865-8026"
+          },
+          {
+            "name": "Mengjie Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-981-95-9155-8",
+        "landing_page": "https://doi.org/10.1007/978-981-95-9155-8",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/978-981-95-9155-8",
+        "publication_date": "2027",
+        "title": "Performance Predictor in Evolutionary Neural Architecture Search",
+        "venue": "Genetic and Evolutionary Computation",
+        "year": 2027
+      },
+      "retrieved_at": "2026-11-10T00:40:08.023795Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s00158-026-04411-w": {
       "expires_at": "2026-09-26T16:32:39.127994Z",
       "record": {
@@ -2276,6 +2318,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-27T16:32:39.127994Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/s00158-026-04440-5": {
+      "expires_at": "2026-12-10T00:39:58.853089Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Boqian Ji",
+            "orcid": "https://orcid.org/0009-0007-6793-6953"
+          },
+          {
+            "name": "Jun Huang",
+            "orcid": null
+          },
+          {
+            "name": "Yacong Wu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s00158-026-04440-5",
+        "landing_page": "https://doi.org/10.1007/s00158-026-04440-5",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s00158-026-04440-5",
+        "publication_date": "2026-11",
+        "title": "Surrogate-based aero-stealth shape optimization from the perspective of radar detection",
+        "venue": "Structural and Multidisciplinary Optimization",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:39:58.853089Z",
       "status": "found"
     },
     "crossref:doi:10.1007/s00340-026-08717-x": {
@@ -3540,6 +3616,48 @@
         "year": 2027
       },
       "retrieved_at": "2026-10-20T01:00:38.945619Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1016/j.optlaseng.2026.110244": {
+      "expires_at": "2026-12-10T00:39:58.331830Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Fco. J. Martínez-Guardiola",
+            "orcid": "https://orcid.org/0000-0002-5840-2403"
+          },
+          {
+            "name": "Jorge Francés",
+            "orcid": "https://orcid.org/0000-0002-9752-776X"
+          },
+          {
+            "name": "Sergi Gallego",
+            "orcid": "https://orcid.org/0000-0001-7453-4206"
+          },
+          {
+            "name": "Shuhe Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Liangcai Cao",
+            "orcid": "https://orcid.org/0000-0002-8099-2948"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlaseng.2026.110244",
+        "landing_page": "https://doi.org/10.1016/j.optlaseng.2026.110244",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.optlaseng.2026.110244",
+        "publication_date": "2027-02",
+        "title": "CNN-based bit error rate reduction in holographic data storage systems using simulated training datasets",
+        "venue": "Optics and Lasers in Engineering",
+        "year": 2027
+      },
+      "retrieved_at": "2026-11-10T00:39:58.331830Z",
       "status": "found"
     },
     "crossref:doi:10.1016/j.optlastec.2026.116572": {
@@ -4986,6 +5104,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-26T01:04:32.492037Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1038/s41598-026-79334-z": {
+      "expires_at": "2026-12-10T00:39:59.727031Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ehsan Ahmadi",
+            "orcid": null
+          },
+          {
+            "name": "Narjes Mirshekari",
+            "orcid": null
+          },
+          {
+            "name": "Mohamadreza Taghadosi",
+            "orcid": null
+          },
+          {
+            "name": "Sohrab Mohammadi Pouyan",
+            "orcid": null
+          },
+          {
+            "name": "Mehdi Askari",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-79334-z",
+        "landing_page": "https://doi.org/10.1038/s41598-026-79334-z",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41598-026-79334-z",
+        "publication_date": "2026-11-07",
+        "title": "Deep-learning surrogate modeling for rapid design of high-sensitivity terahertz metasurface sensors",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:39:59.727031Z",
       "status": "found"
     },
     "crossref:doi:10.1038/s42005-026-02823-0": {
@@ -6826,6 +6986,86 @@
       "retrieved_at": "2026-09-03T01:03:40.757952Z",
       "status": "found"
     },
+    "crossref:doi:10.1142/s273759942650012x": {
+      "expires_at": "2026-12-10T00:40:02.032381Z",
+      "record": {
+        "abstract": "Genetic algorithms (GAs) and related evolutionary algorithms (EAs) have been central to evolutionary computation (EC) for more than four decades, providing robust optimization approaches for complex, nonlinear, non-differentiable, and black-box problems. Although gradient-based optimization dominates modern artificial intelligence (AI), the emergence of foundation models (FMs), including large language models (LLMs), vision-language models (VLMs), and multimodal architectures, has created new opportunities for evolutionary search. Many optimization problems surrounding FMs are inherently discrete, structured, black-box, or multi-objective, making them well suited to EAs and other derivative-free methods. This survey examines the growing intersection between EC and FMs, synthesizing recent research on hybrid evolutionary AI (HEAI) systems. Rather than organizing the literature by application domain, we develop a taxonomy based on the artifacts and system components being optimized, including prompts, reasoning strategies, single agents, multi-agent workflows, retrieval systems, executable code, neural architectures, hyperparameters, and model or system behavior. We analyze how evolutionary mechanisms such as mutation, crossover, selection, population-based search, and evolutionary strategies are adapted to these optimization targets, as well as the varying roles of FMs as generators, evaluators, optimizers, variation operators, or artifacts being evolved. Beyond summarizing existing methods, we identify recurring design patterns and research gaps and highlight the progression from optimizing numerical model parameters toward evolving semantic, executable, interactive, and compositional intelligent artifacts. Finally, we discuss challenges including computational cost, fitness evaluation, benchmark standardization, reproducibility, and explainability, and outline promising directions for future research. By framing EAs as a complementary optimization paradigm for FM ecosystems rather than a replacement for gradient-based learning, this survey provides a unified perspective on HEAI and the expanding role of EC in the design and optimization of intelligent systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Andrew Hornback",
+            "orcid": "https://orcid.org/0009-0009-5461-5848"
+          },
+          {
+            "name": "Kyungbeom Kim",
+            "orcid": "https://orcid.org/0009-0005-6255-8813"
+          },
+          {
+            "name": "Harinishree Sathu",
+            "orcid": "https://orcid.org/0009-0004-0484-5673"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1142/s273759942650012x",
+        "landing_page": "https://doi.org/10.1142/s273759942650012x",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1142/s273759942650012x",
+        "publication_date": "2026-01",
+        "title": "Hybrid evolutionary AI: A survey of evolutionary computation in the foundation model era",
+        "venue": "Innovation and Emerging Technologies",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:40:02.032381Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1145/3767308.3836000": {
+      "expires_at": "2026-12-10T00:40:08.552242Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jing Wu",
+            "orcid": "https://orcid.org/0009-0004-7049-5480"
+          },
+          {
+            "name": "Trung Le",
+            "orcid": "https://orcid.org/0000-0003-0414-9067"
+          },
+          {
+            "name": "Mingyi Zhou",
+            "orcid": "https://orcid.org/0000-0003-3514-0372"
+          },
+          {
+            "name": "Dinh Phung",
+            "orcid": "https://orcid.org/0000-0002-9977-8247"
+          },
+          {
+            "name": "Jianfei Cai",
+            "orcid": "https://orcid.org/0000-0002-9444-3763"
+          },
+          {
+            "name": "Mehrtash Harandi",
+            "orcid": "https://orcid.org/0000-0002-6937-6300"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3767308.3836000",
+        "landing_page": "https://doi.org/10.1145/3767308.3836000",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1145/3767308.3836000",
+        "publication_date": "2026-11-10",
+        "title": "Perceptual Alignment Reveals Vulnerability in Unlearned Diffusion Models",
+        "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:40:08.552242Z",
+      "status": "found"
+    },
     "crossref:doi:10.1145/3770855.3817661": {
       "expires_at": "2026-09-09T00:36:49.742616Z",
       "record": {
@@ -7906,6 +8146,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-10T01:00:33.961864Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1364/oe.612390": {
+      "expires_at": "2026-12-10T00:39:59.288289Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yunsong Guan",
+            "orcid": null
+          },
+          {
+            "name": "Sikun Li",
+            "orcid": null
+          },
+          {
+            "name": "Bowen Sun",
+            "orcid": null
+          },
+          {
+            "name": "Jibin He",
+            "orcid": null
+          },
+          {
+            "name": "Jianlang Li",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.612390",
+        "landing_page": "https://doi.org/10.1364/oe.612390",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/oe.612390",
+        "publication_date": "2026-11-08",
+        "title": "Diffractive optical-digital neural networks for robust EUV mask phase-defect characterization and classification",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:39:59.288289Z",
       "status": "found"
     },
     "crossref:doi:10.1364/oe.616219": {
@@ -12901,6 +13183,12 @@
       "retrieved_at": "2026-10-15T00:58:16.534813Z",
       "status": "found"
     },
+    "crossref:title:85e35b13ee3b8665a9766e52f21821fc9b527a020566b61a0577ffed5466379b": {
+      "expires_at": "2026-11-17T00:40:05.157644Z",
+      "record": null,
+      "retrieved_at": "2026-11-10T00:40:05.157644Z",
+      "status": "not_found"
+    },
     "crossref:title:85fad719be426dd1abc2880ba727f6bf2040469e63d854671a284d4dd81a3535": {
       "expires_at": "2026-10-16T01:12:15.511826Z",
       "record": null,
@@ -13279,6 +13567,12 @@
       "expires_at": "2026-09-14T01:06:34.750270Z",
       "record": null,
       "retrieved_at": "2026-09-07T01:06:34.750270Z",
+      "status": "not_found"
+    },
+    "crossref:title:948f31848304335d0439492f400eff496ab5daf2dca1c1a7a2be216d5e268df8": {
+      "expires_at": "2026-11-17T00:40:01.455276Z",
+      "record": null,
+      "retrieved_at": "2026-11-10T00:40:01.455276Z",
       "status": "not_found"
     },
     "crossref:title:9516831af358386c3b41e5eb5eb9d06c5f4af115830305bc7c47cc06d832318e": {
@@ -13974,6 +14268,56 @@
       "record": null,
       "retrieved_at": "2026-11-07T00:39:28.229357Z",
       "status": "not_found"
+    },
+    "crossref:title:aa3b3e7651498a6d6dfa56887236df65581af74b24aba93831668cbe497541a2": {
+      "expires_at": "2026-11-17T00:40:06.281182Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lei Xu",
+            "orcid": null
+          },
+          {
+            "name": "Xinlei Yi",
+            "orcid": null
+          },
+          {
+            "name": "Guanghui Wen",
+            "orcid": null
+          },
+          {
+            "name": "Jinliang Ding",
+            "orcid": null
+          },
+          {
+            "name": "Yang Shi",
+            "orcid": null
+          },
+          {
+            "name": "Karl H. Johansson",
+            "orcid": null
+          },
+          {
+            "name": "Tao Yang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tac.2026.3750789",
+        "landing_page": "https://doi.org/10.1109/tac.2026.3750789",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/tac.2026.3750789",
+        "publication_date": "2026",
+        "title": "A Zeroth-Order Compressed Push-Pull Algorithm for Distributed Nonconvex Optimization Over Unbalanced Directed Graphs",
+        "venue": "IEEE Transactions on Automatic Control",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:40:06.281182Z",
+      "status": "found"
     },
     "crossref:title:aa543f626ead210526ef9ee521bc916e5e95e794757dd563397d326939c7ae00": {
       "expires_at": "2026-11-14T00:39:31.015157Z",
@@ -15451,6 +15795,12 @@
       "retrieved_at": "2026-09-18T01:02:35.012052Z",
       "status": "not_found"
     },
+    "crossref:title:d9a6383e45c7d453e511ed651e08ca0c2a86e59e46a7567513f644fa6e42fb4a": {
+      "expires_at": "2026-11-17T00:40:07.354950Z",
+      "record": null,
+      "retrieved_at": "2026-11-10T00:40:07.354950Z",
+      "status": "not_found"
+    },
     "crossref:title:d9ddafa62b2f931823056b0437077a3e67a6e31e7555eeb5492afe449e51dec7": {
       "expires_at": "2026-11-13T00:40:52.595773Z",
       "record": null,
@@ -16654,6 +17004,12 @@
       },
       "retrieved_at": "2026-08-04T09:38:37.983990Z",
       "status": "found"
+    },
+    "crossref:title:f7a723d7c3864150e314e6586b88161747a96c0b671fc37a1683fa4e875a7f3a": {
+      "expires_at": "2026-11-17T00:40:00.475602Z",
+      "record": null,
+      "retrieved_at": "2026-11-10T00:40:00.475602Z",
+      "status": "not_found"
     },
     "crossref:title:f7ff005a639554bb23bbd49c5a703663447cfbd95aba3ff8543f8daad5267f0c": {
       "expires_at": "2026-09-12T00:59:44.558159Z",
@@ -19189,6 +19545,48 @@
       "retrieved_at": "2026-10-12T01:18:12.791739Z",
       "status": "found"
     },
+    "openalex:doi:10.1007/978-981-95-9155-8": {
+      "expires_at": "2026-12-10T00:40:08.311689Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Nan Li",
+            "orcid": null
+          },
+          {
+            "name": "Lianbo Ma",
+            "orcid": null
+          },
+          {
+            "name": "Yuhua Qian",
+            "orcid": null
+          },
+          {
+            "name": "Bing Xue",
+            "orcid": "https://orcid.org/0000-0002-4865-8026"
+          },
+          {
+            "name": "Mengjie Zhang",
+            "orcid": "https://orcid.org/0000-0003-4463-9538"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-981-95-9155-8",
+        "landing_page": "https://doi.org/10.1007/978-981-95-9155-8",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7224995071",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7224995071",
+        "publication_date": "2026-10-31",
+        "title": "Performance Predictor in Evolutionary Neural Architecture Search",
+        "venue": "Genetic and evolutionary computation",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:40:08.311689Z",
+      "status": "found"
+    },
     "openalex:doi:10.1007/s00158-026-04411-w": {
       "expires_at": "2026-09-26T16:32:39.463795Z",
       "record": {
@@ -19225,6 +19623,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-27T16:32:39.463795Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s00158-026-04440-5": {
+      "expires_at": "2026-12-10T00:39:59.083977Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Boqian Ji",
+            "orcid": "https://orcid.org/0009-0007-6793-6953"
+          },
+          {
+            "name": "Jun Huang",
+            "orcid": null
+          },
+          {
+            "name": "Yacong Wu",
+            "orcid": "https://orcid.org/0000-0002-7897-3510"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s00158-026-04440-5",
+        "landing_page": "https://doi.org/10.1007/s00158-026-04440-5",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7225385337",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225385337",
+        "publication_date": "2026-11-01",
+        "title": "Surrogate-based aero-stealth shape optimization from the perspective of radar detection",
+        "venue": "Structural and Multidisciplinary Optimization",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:39:59.083977Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s00340-026-08717-x": {
@@ -21163,6 +21595,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-20T01:00:39.352004Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.optlaseng.2026.110244": {
+      "expires_at": "2026-12-10T00:39:58.594746Z",
+      "record": {
+        "abstract": "In a holographic data storage system (HDSS) experimental setup, several noise sources can increase the bit error rate (BER) when we recover the data from the reconstructed data page. While some of these errors originate in the initial stages of the experimental setup and can be mitigated as the system is refined, others remain inherent to the setup itself. In this work, we present a technique based on a convolutional neural network (CNN) that enables BER testing during the early stages of the experimental setup to evaluate whether the system will meet future requirements, or even to improve the BER at a more advanced stage. For training a CNN it is crucial to have a sufficiently large dataset, for that reason we have to store and reconstruct a high volume of data pages. In the early development phases of a HDSS this process can be very time consuming because there are many steps that are not automatized. To address this challenge, we have developed a system that can simulate the recovered image that we obtain by using basic digital image processing techniques, allowing the generation of the large number of image pairs required for CNN training. After training and testing the CNN with the simulated data we have applied the method to real reconstructed experimental data pages obtained in a HDSS which incorporates, among others innovations a parallel aligned liquid crystal on silicon device spatial light modulator (PA-LCoS, SLM) as data pager, and the pages are stored in a self-made photopolymer based on polyvinyl alcohol/acrylamide (PVA/AA). The results obtained are promising and demonstrate this training approach can be successfully applied to a real-implemented HDSS.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "F. J. Martínez-Guardiola",
+            "orcid": null
+          },
+          {
+            "name": "Jorge Francés",
+            "orcid": "https://orcid.org/0000-0002-9752-776X"
+          },
+          {
+            "name": "Sergi Gallego",
+            "orcid": "https://orcid.org/0000-0001-7453-4206"
+          },
+          {
+            "name": "Shuhe Zhang",
+            "orcid": "https://orcid.org/0000-0002-3115-7364"
+          },
+          {
+            "name": "Liangcai Cao",
+            "orcid": "https://orcid.org/0000-0002-8099-2948"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlaseng.2026.110244",
+        "landing_page": "https://doi.org/10.1016/j.optlaseng.2026.110244",
+        "open_access_url": "https://doi.org/10.1016/j.optlaseng.2026.110244",
+        "openalex_id": "https://openalex.org/W7168358834",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7168358834",
+        "publication_date": "2026-11-07",
+        "title": "CNN-based bit error rate reduction in holographic data storage systems using simulated training datasets",
+        "venue": "Optics and Lasers in Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:39:58.594746Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.optlastec.2026.116154": {
@@ -23261,6 +23735,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-03T00:40:30.488099Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41598-026-79334-z": {
+      "expires_at": "2026-12-10T00:39:59.925506Z",
+      "record": {
+        "abstract": "The design of terahertz metasurface sensors commonly relies on extensive full-wave electromagnetic simulations, making systematic exploration of high-dimensional design spaces computationally demanding. In this work, a deep-learning-assisted surrogate modeling framework is proposed to accelerate the design and optimization of refractive-index-sensitive metasurfaces. A dataset comprising 2048 distinct CST-simulated metasurface configurations was generated over the frequency range of 1.0–1.4 THz. With 1001 frequency points evaluated for each configuration, the pointwise regression dataset contains 2,050,048 input–output samples of the complex transmission response. A multilayer neural network was trained to predict the real and imaginary components of the transmission coefficient as a function of geometric parameters, operating frequency, and analyte refractive index. The trained surrogate achieved strong predictive performance on an independent test dataset, yielding a mean squared error of \\(4.12\\times 10^{-3}\\) , a mean absolute error of \\(4.27\\times 10^{-2}\\) , and a coefficient of determination of \\(R^{2}=0.9792\\) . The model accurately reproduced the spectral features governing resonance-based sensing and enabled rapid evaluation of candidate metasurface designs without repeated full-wave simulations. The surrogate model was subsequently employed to screen thousands of candidate geometries and identify promising sensing configurations. Selected candidates were validated through full-wave CST simulations, confirming the effectiveness of the proposed screening strategy. The best-performing design exhibited a refractive-index sensitivity of approximately \\(0.2~\\mathrm {THz/RIU}\\) ( \\(232~\\mathrm {GHz/RIU}\\) ), which is roughly 2.5 times higher than the baseline value of \\(80~\\mathrm {GHz/RIU}\\) reported for closely related metasurface geometries. The observed resonance shifts and the agreement between surrogate predictions and CST results demonstrate the capability of the framework to guide the discovery of high-performance sensor designs. The results highlight the potential of surrogate-assisted electromagnetic design as an efficient and scalable alternative to conventional parameter-sweep-based optimization. The proposed framework substantially reduces computational cost while enabling systematic exploration of complex metasurface design spaces, providing a practical route toward data-driven development of terahertz sensing devices.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ehsan Ahmadi",
+            "orcid": null
+          },
+          {
+            "name": "Narjes Mirshekari",
+            "orcid": null
+          },
+          {
+            "name": "Mohamadreza Taghadosi",
+            "orcid": null
+          },
+          {
+            "name": "Sohrab Mohammadi Pouyan",
+            "orcid": null
+          },
+          {
+            "name": "Mehdi Askari",
+            "orcid": "https://orcid.org/0000-0002-6274-0077"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-79334-z",
+        "landing_page": "https://doi.org/10.1038/s41598-026-79334-z",
+        "open_access_url": "https://doi.org/10.1038/s41598-026-79334-z",
+        "openalex_id": "https://openalex.org/W7225462361",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225462361",
+        "publication_date": "2026-11-07",
+        "title": "Deep-learning surrogate modeling for rapid design of high-sensitivity terahertz metasurface sensors",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:39:59.925506Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s42005-026-02823-0": {
@@ -25509,6 +26025,56 @@
       "retrieved_at": "2026-09-28T01:11:29.746796Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/tac.2026.3750789": {
+      "expires_at": "2026-12-10T00:40:06.482260Z",
+      "record": {
+        "abstract": "This paper considers a distributed nonconvex optimization problem, where the objective is to minimize a global cost function formed as the sum of local cost functions across agents in an unbalanced directed communication network. Solving this problem typically requires information exchange among agents and access to gradient information. However, communication bandwidth is often limited, and gradient information may be unavailable or expensive to compute. To address these challenges, we propose a zeroth-order compressed push-pull algorithm that reduces communication overhead and removes the reliance on explicit gradient information. We design a novel Lyapunov function to establish that the proposed algorithm converges sublinearly to a stationary point when each local cost function is smooth. Under the additional assumption that the global cost function satisfies the Polyak–Łojasiewicz condition, we establish that the algorithm achieves linear convergence to the global optimum. Finally, numerical simulations demonstrate the effectiveness of the proposed algorithm.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Lei Xu",
+            "orcid": "https://orcid.org/0000-0002-1446-9059"
+          },
+          {
+            "name": "Xinlei Yi",
+            "orcid": "https://orcid.org/0000-0003-4299-0471"
+          },
+          {
+            "name": "Guanghui Wen",
+            "orcid": "https://orcid.org/0000-0003-0070-8597"
+          },
+          {
+            "name": "Jinliang Ding",
+            "orcid": null
+          },
+          {
+            "name": "Yang Shi",
+            "orcid": null
+          },
+          {
+            "name": "Karl Henrik Johansson",
+            "orcid": "https://orcid.org/0000-0001-9940-5929"
+          },
+          {
+            "name": "Tao Yang",
+            "orcid": "https://orcid.org/0000-0003-4090-8497"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tac.2026.3750789",
+        "landing_page": "https://doi.org/10.1109/tac.2026.3750789",
+        "open_access_url": "https://doi.org/10.1109/tac.2026.3750789",
+        "openalex_id": "https://openalex.org/W7225338628",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225338628",
+        "publication_date": "2026-01-01",
+        "title": "A Zeroth-Order Compressed Push-Pull Algorithm for Distributed Nonconvex Optimization Over Unbalanced Directed Graphs",
+        "venue": "IEEE Transactions on Automatic Control",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:40:06.482260Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/tase.2026.3722641": {
       "expires_at": "2026-09-17T04:25:17.108010Z",
       "record": {
@@ -27295,6 +27861,86 @@
       "retrieved_at": "2026-09-03T01:03:41.098833Z",
       "status": "found"
     },
+    "openalex:doi:10.1142/s273759942650012x": {
+      "expires_at": "2026-12-10T00:40:02.233609Z",
+      "record": {
+        "abstract": "Genetic algorithms (GAs) and related evolutionary algorithms (EAs) have been central to evolutionary computation (EC) for more than four decades, providing robust optimization approaches for complex, nonlinear, non-differentiable, and black-box problems. Although gradient-based optimization dominates modern artificial intelligence (AI), the emergence of foundation models (FMs), including large language models (LLMs), vision-language models (VLMs), and multimodal architectures, has created new opportunities for evolutionary search. Many optimization problems surrounding FMs are inherently discrete, structured, black-box, or multi-objective, making them well suited to EAs and other derivative-free methods. This survey examines the growing intersection between EC and FMs, synthesizing recent research on hybrid evolutionary AI (HEAI) systems. Rather than organizing the literature by application domain, we develop a taxonomy based on the artifacts and system components being optimized, including prompts, reasoning strategies, single agents, multi-agent workflows, retrieval systems, executable code, neural architectures, hyperparameters, and model or system behavior. We analyze how evolutionary mechanisms such as mutation, crossover, selection, population-based search, and evolutionary strategies are adapted to these optimization targets, as well as the varying roles of FMs as generators, evaluators, optimizers, variation operators, or artifacts being evolved. Beyond summarizing existing methods, we identify recurring design patterns and research gaps and highlight the progression from optimizing numerical model parameters toward evolving semantic, executable, interactive, and compositional intelligent artifacts. Finally, we discuss challenges including computational cost, fitness evaluation, benchmark standardization, reproducibility, and explainability, and outline promising directions for future research. By framing EAs as a complementary optimization paradigm for FM ecosystems rather than a replacement for gradient-based learning, this survey provides a unified perspective on HEAI and the expanding role of EC in the design and optimization of intelligent systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Andrew M. Hornback",
+            "orcid": "https://orcid.org/0009-0009-5461-5848"
+          },
+          {
+            "name": "Kyungbeom Kim",
+            "orcid": "https://orcid.org/0009-0005-6255-8813"
+          },
+          {
+            "name": "Harinishree Sathu",
+            "orcid": "https://orcid.org/0009-0004-0484-5673"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1142/s273759942650012x",
+        "landing_page": "https://doi.org/10.1142/s273759942650012x",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7225303080",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225303080",
+        "publication_date": "2026-01-01",
+        "title": "Hybrid evolutionary AI: A survey of evolutionary computation in the foundation model era",
+        "venue": "Innovation and Emerging Technologies",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:40:02.233609Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1145/3767308.3836000": {
+      "expires_at": "2026-12-10T00:40:08.812238Z",
+      "record": {
+        "abstract": "Machine unlearning methods have been proposed to delete undesired knowledge from Text-to-Image diffusion models (DMs), yet, unlearned models remain vulnerable to adversarial prompts that regenerate erased content. While existing noise-prediction optimization attacks have shown promising results, they generally rely on the intuitive premise that similar noise predictions between the original and unlearned models will naturally yield similar generated images. In this paper, we observe that this noise-level alignment may not fully guarantee image-level consistency, primarily due to cumulative deviations between noise prediction and image reconstruction during the iterative denoising process. Building on this diagnosis, we introduce a latent consistency loss and integrate it into existing optimization-based attack frameworks to bridge this gap. We further examine the vulnerability of unlearned DMs under more strict settings, and propose a gradient-free attacker (ZOOAtk) via zeroth-order stochastic variance reduction to enable effective prompt optimization under limited access. Experimental results demonstrate that latent consistency strengthens attacks in different settings, while ZOOAtk remains effective under restricted access, indicating that current unlearned DMs remain vulnerable even when internal model information is unavailable.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jing Wu",
+            "orcid": "https://orcid.org/0009-0004-7049-5480"
+          },
+          {
+            "name": "Trung Le",
+            "orcid": "https://orcid.org/0000-0003-0414-9067"
+          },
+          {
+            "name": "Mingyi Zhou",
+            "orcid": "https://orcid.org/0000-0003-3514-0372"
+          },
+          {
+            "name": "Dinh Phung",
+            "orcid": "https://orcid.org/0000-0002-9977-8247"
+          },
+          {
+            "name": "Jianfei Cai",
+            "orcid": "https://orcid.org/0000-0002-9444-3763"
+          },
+          {
+            "name": "Mehrtash Tafazzoli Harandi",
+            "orcid": "https://orcid.org/0000-0002-6937-6300"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3767308.3836000",
+        "landing_page": "https://doi.org/10.1145/3767308.3836000",
+        "open_access_url": "https://doi.org/10.1145/3767308.3836000",
+        "openalex_id": "https://openalex.org/W7225291328",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225291328",
+        "publication_date": "2026-11-05",
+        "title": "Perceptual Alignment Reveals Vulnerability in Unlearned Diffusion Models",
+        "venue": "ACM International Conference on Multimedia (ACM MM)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:40:08.812238Z",
+      "status": "found"
+    },
     "openalex:doi:10.1145/3770855.3817661": {
       "expires_at": "2026-09-09T00:36:50.098665Z",
       "record": {
@@ -28955,6 +29601,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-10T01:00:34.337191Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1364/oe.612390": {
+      "expires_at": "2026-12-10T00:39:59.510527Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yunsong Guan",
+            "orcid": null
+          },
+          {
+            "name": "Sikun Li",
+            "orcid": null
+          },
+          {
+            "name": "Bowen Sun",
+            "orcid": null
+          },
+          {
+            "name": "Jibin He",
+            "orcid": null
+          },
+          {
+            "name": "Jian Li",
+            "orcid": "https://orcid.org/0000-0003-3439-7539"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/oe.612390",
+        "landing_page": "https://doi.org/10.1364/oe.612390",
+        "open_access_url": "https://doi.org/10.1364/oe.612390",
+        "openalex_id": "https://openalex.org/W7225589823",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225589823",
+        "publication_date": "2026-11-08",
+        "title": "Diffractive optical-digital neural networks for robust EUV mask phase-defect characterization and classification",
+        "venue": "Optics Express",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:39:59.510527Z",
       "status": "found"
     },
     "openalex:doi:10.1364/oe.613813": {
@@ -36042,6 +36730,12 @@
       "retrieved_at": "2026-08-27T16:32:37.119995Z",
       "status": "not_found"
     },
+    "openalex:title:85e35b13ee3b8665a9766e52f21821fc9b527a020566b61a0577ffed5466379b": {
+      "expires_at": "2026-11-17T00:40:05.783749Z",
+      "record": null,
+      "retrieved_at": "2026-11-10T00:40:05.783749Z",
+      "status": "not_found"
+    },
     "openalex:title:85fad719be426dd1abc2880ba727f6bf2040469e63d854671a284d4dd81a3535": {
       "expires_at": "2026-10-16T01:12:16.087752Z",
       "record": {
@@ -36375,6 +37069,60 @@
       "record": null,
       "retrieved_at": "2026-09-07T01:06:36.381576Z",
       "status": "not_found"
+    },
+    "openalex:title:948f31848304335d0439492f400eff496ab5daf2dca1c1a7a2be216d5e268df8": {
+      "expires_at": "2026-11-17T00:40:01.756412Z",
+      "record": {
+        "abstract": "We introduce GPWM, a Generative Particle World Model that predicts how 3D scenes evolve by generating the motion of particles and rigid bodies over time. Unlike video world models that generate scene appearance, GPWM operates directly in 3D physical space. A single representation and architecture cover rigid, deformable, cloth, and granular materials, in both passive physics and robotic interaction. GPWM is an object-aware multi-resolution transformer that combines flow matching with diffusion forcing to generate coherent physical trajectories far beyond its training horizon. We train and evaluate GPWM on ParticleWorlds, a 25.5-million-frame corpus spanning diverse geometries, materials, interactions, and robot embodiments. GPWM outperforms the best prior learned-dynamics baseline in each of six physical domains, reducing prediction error by 31% on average. Breaking from the domain-specific setting of prior methods, a single Unified GPWM models these heterogeneous regimes with one set of weights, largely outperforming per-domain baselines and even surpassing our own specialist models in two domains. GPWM further generalizes to unseen geometries, physical properties, object counts, and rollout horizons. Beyond prediction, GPWM enables contact-rich planning by learning a generative prior over joint actuator-object motion. Instead of searching over unconstrained actions, planning searches the model's latent noise for interactions that achieve a desired object-space goal. With the same world model, noise-space planning substantially outperforms action-space search on pushing and picking, where complex contact sequences are hard to discover. Executed open-loop in simulation, the resulting plans achieve goal-directed manipulation without reference action trajectories or goal-specific policies.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Robert Ren",
+            "orcid": null
+          },
+          {
+            "name": "Matthew Bronars",
+            "orcid": "https://orcid.org/0009-0008-0237-1186"
+          },
+          {
+            "name": "He Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Yikai Tang",
+            "orcid": "https://orcid.org/0000-0002-3498-3557"
+          },
+          {
+            "name": "Jianing Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Sergey Zakharov",
+            "orcid": "https://orcid.org/0000-0002-6231-6137"
+          },
+          {
+            "name": "Pavel Tokmakov",
+            "orcid": "https://orcid.org/0000-0003-2043-6242"
+          },
+          {
+            "name": "Katerina Fragkiadaki",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.08338",
+        "landing_page": "https://arxiv.org/abs/2611.08338",
+        "open_access_url": "https://arxiv.org/abs/2611.08338",
+        "openalex_id": "https://openalex.org/W7225386880",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225386880",
+        "publication_date": "2026-11-05",
+        "title": "GPWM: Modeling the World as 3D Particle Motion",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:40:01.756412Z",
+      "status": "found"
     },
     "openalex:title:9516831af358386c3b41e5eb5eb9d06c5f4af115830305bc7c47cc06d832318e": {
       "expires_at": "2026-09-07T01:07:12.337805Z",
@@ -38360,6 +39108,60 @@
       "retrieved_at": "2026-09-18T01:02:36.855186Z",
       "status": "not_found"
     },
+    "openalex:title:d9a6383e45c7d453e511ed651e08ca0c2a86e59e46a7567513f644fa6e42fb4a": {
+      "expires_at": "2026-11-17T00:40:07.863864Z",
+      "record": {
+        "abstract": "On July 23, 2026, at the opening of the International Congress of Mathematicians in Philadelphia, the International Mathematical Union announced the award of the Gauss Prize to Yurii Evgenievich Nesterov -- an award for mathematical work with significant applications outside mathematics. This article explains the mathematical content of the recognized work of Yu. E. Nesterov and traces its influence on modern computational practice. The exposition is based on a concept that Yu. E. Nesterov himself regards as one of his main results: the classical complexity theory of convex optimization is oriented toward a black-box oracle, but its pessimistic bounds can be overcome by using a priori information about the internal structure of the objective function. We trace Yu. E. Nesterov's scientific career, then introduce the language of oracle complexity together with a classification of objective function models (geometric, algebraic, and structural), and subsequently discuss his main results in chronological order: the fast gradient method, fast automatic differentiation, the theory of self-concordant barriers and polynomial-time interior-point methods, the $π/2$ theorem, the stable dynamics model of traffic flows, the smoothing technique, primal-dual methods, cubic regularization of Newton's method, the modified Gauss--Newton scheme, coordinate descent methods and methods for huge-scale problems, gradient-free methods, universal gradient methods, implementable tensor methods, and \"superfast\" methods. Each topic is accompanied by historical background, precise statements specifying the problem class, oracle, and type of guarantee, examples, and a discussion of the current state of the art.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "A. V. Gasnikov",
+            "orcid": null
+          },
+          {
+            "name": "A. Yu. Gornov",
+            "orcid": null
+          },
+          {
+            "name": "D. M. Dvinskikh",
+            "orcid": null
+          },
+          {
+            "name": "Yu. V. Dorn",
+            "orcid": null
+          },
+          {
+            "name": "D. I. Kamzolov",
+            "orcid": null
+          },
+          {
+            "name": "Yu. V. MAXIMOV",
+            "orcid": null
+          },
+          {
+            "name": "V. V. Matyukhin",
+            "orcid": null
+          },
+          {
+            "name": "R. F. Hildebrand",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.07114",
+        "landing_page": "https://arxiv.org/abs/2611.07114",
+        "open_access_url": "https://arxiv.org/abs/2611.07114",
+        "openalex_id": "https://openalex.org/W7225380458",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225380458",
+        "publication_date": "2026-11-03",
+        "title": "How to Look Inside the Black Box: A Survey of Yu. E. Nesterov's Contributions (On the Award of the 2026 Gauss Prize)",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-10T00:40:07.863864Z",
+      "status": "found"
+    },
     "openalex:title:d9ddafa62b2f931823056b0437077a3e67a6e31e7555eeb5492afe449e51dec7": {
       "expires_at": "2026-11-13T00:40:52.944169Z",
       "record": {
@@ -39055,6 +39857,12 @@
       },
       "retrieved_at": "2026-10-03T01:04:47.979690Z",
       "status": "found"
+    },
+    "openalex:title:f7a723d7c3864150e314e6586b88161747a96c0b671fc37a1683fa4e875a7f3a": {
+      "expires_at": "2026-11-17T00:40:00.921424Z",
+      "record": null,
+      "retrieved_at": "2026-11-10T00:40:00.921424Z",
+      "status": "not_found"
     },
     "openalex:title:f7ff005a639554bb23bbd49c5a703663447cfbd95aba3ff8543f8daad5267f0c": {
       "expires_at": "2026-09-12T00:59:45.269851Z",

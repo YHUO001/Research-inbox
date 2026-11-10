@@ -1,0 +1,42 @@
+{
+  "built_at": "2026-11-10T00:40:10.990117Z",
+  "digest_date": "2026-11-10",
+  "digest_version": 1,
+  "pending_summary_count": 2,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "35ca2b5d96e48aa3071b5073",
+        "landing_page": "https://doi.org/10.1016/j.optlaseng.2026.110244",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "openalex",
+        "status": "pending_model_summary",
+        "title": "CNN-based bit error rate reduction in holographic data storage systems using simulated training datasets",
+        "venue": "Optics and Lasers in Engineering",
+        "year": 2027
+      },
+      {
+        "candidate_id": "d022b854580fba55dade4302",
+        "landing_page": "https://doi.org/10.1109/tac.2026.3750789",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "A Zeroth-Order Compressed Push-Pull Algorithm for Distributed Nonconvex Optimization Over Unbalanced Directed Graphs",
+        "venue": "IEEE Transactions on Automatic Control",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}
