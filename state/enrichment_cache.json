@@ -1582,6 +1582,94 @@
       "retrieved_at": "2026-10-26T01:04:33.089151Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/lpor.72192": {
+      "expires_at": "2026-12-11T00:40:54.157506Z",
+      "record": {
+        "abstract": "ABSTRACT Cascaded holographic architectures offer enhanced functionality for optical information processing, encryption, and multiplexing, but their practical implementation is severely limited by extreme sensitivity to interlayer alignment. Here, we demonstrate a dynamic cascaded holography platform using commercial phase‐only spatial light modulators by introducing a robust optimization framework that explicitly incorporates random misalignment errors into the wave propagation model. By optimizing phase patterns over diverse alignment conditions, the resulting holograms maintain stable reconstruction performance under lateral displacements of up to ∼100 pixels. Using this approach, we experimentally demonstrate robust holographic secret‐sharing, wavelength‐selective reconstruction, and high‐capacity information multiplexing with high‐fidelity image reconstruction. Furthermore, deep neural networks are employed to substantially reduce the computational overhead associated with robust phase optimization. These results establish a practical route toward scalable dynamic cascaded holography for optical encryption, holographic communication, and programmable wavefront engineering.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Gyeongsu Jin",
+            "orcid": "https://orcid.org/0009-0008-2740-2647"
+          },
+          {
+            "name": "Seokmin Kim",
+            "orcid": "https://orcid.org/0009-0005-9196-8950"
+          },
+          {
+            "name": "Seung‐Yeol Lee",
+            "orcid": "https://orcid.org/0000-0002-8987-9749"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.72192",
+        "landing_page": "https://doi.org/10.1002/lpor.72192",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.72192",
+        "publication_date": "2026-11-08",
+        "title": "Misalignment‐Robust Dynamic Cascaded Holography Accelerated by Deep Neural Networks",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-11T00:40:54.157506Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1002/lpor.72206": {
+      "expires_at": "2026-12-11T00:40:53.792171Z",
+      "record": {
+        "abstract": "ABSTRACT Convolutional neural networks (CNNs) dominate visual computing, but their electronic implementations face fundamental bottlenecks in speed and energy efficiency. Although photonic alternatives offer a promising route, all‐optical image recognition using CNNs remains challenging in experiments due to the difficulty of implementing effective weak‐light nonlinearities. Here, we demonstrate a streamlined all‐optical CNN architecture with only physically guided, fixed convolutional and trainable fully‐connected layers (FCLs), which circumvents explicit, energy‐intensive nonlinear layers. Our design leverages a fixed multi‐kernel metasurface operator to perform 24 directional‐differentiation convolutions, thus enhancing feature orthogonality and suppressing crosstalk. This preprocessing enables the system to exploit the weak nonlinearity produced by square‐law detection, thereby achieving high experimental classification accuracy: 86.8% on MNIST and 94.8% on ten‐class gesture recognition. The system exhibits high reconfigurability and robustness. Its all‐optical inference core achieves an equivalent computational throughput of 1.13 × 10 5 TOPS and an energy efficiency of 1.88 × 10 3 TOPS/W—surpassing current CNN implementations. At the system level, it achieves an end‐to‐end throughput of 871 TOPS and an energy efficiency of 4.97 TOPS/W, still exceeding advanced all‐electronic devices and paving the way for ultralow‐latency intelligent hardware.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Weiwei Fu",
+            "orcid": null
+          },
+          {
+            "name": "Dong Zhao",
+            "orcid": "https://orcid.org/0000-0001-7173-0500"
+          },
+          {
+            "name": "Qinghong Rao",
+            "orcid": null
+          },
+          {
+            "name": "Hengyi Wang",
+            "orcid": null
+          },
+          {
+            "name": "Benli Yu",
+            "orcid": null
+          },
+          {
+            "name": "Zhijia Hu",
+            "orcid": "https://orcid.org/0009-0004-7417-1301"
+          },
+          {
+            "name": "Fang‐Wen Sun",
+            "orcid": "https://orcid.org/0000-0002-9625-7390"
+          },
+          {
+            "name": "Kun Huang",
+            "orcid": "https://orcid.org/0000-0002-9391-149X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.72206",
+        "landing_page": "https://doi.org/10.1002/lpor.72206",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/lpor.72206",
+        "publication_date": "2026-11-08",
+        "title": "All‐Optical Meta‐Convolutional Neural Networks for Reconfigurable Image Identification",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-11T00:40:53.792171Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/mats.70059": {
       "expires_at": "2026-10-17T01:02:53.132433Z",
       "record": {
@@ -18797,6 +18885,94 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-26T01:04:33.461793Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/lpor.72192": {
+      "expires_at": "2026-12-11T00:40:54.405678Z",
+      "record": {
+        "abstract": "ABSTRACT Cascaded holographic architectures offer enhanced functionality for optical information processing, encryption, and multiplexing, but their practical implementation is severely limited by extreme sensitivity to interlayer alignment. Here, we demonstrate a dynamic cascaded holography platform using commercial phase‐only spatial light modulators by introducing a robust optimization framework that explicitly incorporates random misalignment errors into the wave propagation model. By optimizing phase patterns over diverse alignment conditions, the resulting holograms maintain stable reconstruction performance under lateral displacements of up to ∼100 pixels. Using this approach, we experimentally demonstrate robust holographic secret‐sharing, wavelength‐selective reconstruction, and high‐capacity information multiplexing with high‐fidelity image reconstruction. Furthermore, deep neural networks are employed to substantially reduce the computational overhead associated with robust phase optimization. These results establish a practical route toward scalable dynamic cascaded holography for optical encryption, holographic communication, and programmable wavefront engineering.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Gyeongsu Jin",
+            "orcid": "https://orcid.org/0009-0008-2740-2647"
+          },
+          {
+            "name": "김석민",
+            "orcid": "https://orcid.org/0009-0005-9196-8950"
+          },
+          {
+            "name": "Seung‐Yeol Lee",
+            "orcid": "https://orcid.org/0000-0002-8987-9749"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.72192",
+        "landing_page": "https://doi.org/10.1002/lpor.72192",
+        "open_access_url": "https://doi.org/10.1002/lpor.72192",
+        "openalex_id": "https://openalex.org/W7225613843",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225613843",
+        "publication_date": "2026-11-08",
+        "title": "Misalignment‐Robust Dynamic Cascaded Holography Accelerated by Deep Neural Networks",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-11T00:40:54.405678Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/lpor.72206": {
+      "expires_at": "2026-12-11T00:40:53.981625Z",
+      "record": {
+        "abstract": "ABSTRACT Convolutional neural networks (CNNs) dominate visual computing, but their electronic implementations face fundamental bottlenecks in speed and energy efficiency. Although photonic alternatives offer a promising route, all‐optical image recognition using CNNs remains challenging in experiments due to the difficulty of implementing effective weak‐light nonlinearities. Here, we demonstrate a streamlined all‐optical CNN architecture with only physically guided, fixed convolutional and trainable fully‐connected layers (FCLs), which circumvents explicit, energy‐intensive nonlinear layers. Our design leverages a fixed multi‐kernel metasurface operator to perform 24 directional‐differentiation convolutions, thus enhancing feature orthogonality and suppressing crosstalk. This preprocessing enables the system to exploit the weak nonlinearity produced by square‐law detection, thereby achieving high experimental classification accuracy: 86.8% on MNIST and 94.8% on ten‐class gesture recognition. The system exhibits high reconfigurability and robustness. Its all‐optical inference core achieves an equivalent computational throughput of 1.13 × 10 5 TOPS and an energy efficiency of 1.88 × 10 3 TOPS/W—surpassing current CNN implementations. At the system level, it achieves an end‐to‐end throughput of 871 TOPS and an energy efficiency of 4.97 TOPS/W, still exceeding advanced all‐electronic devices and paving the way for ultralow‐latency intelligent hardware.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Weiwei Fu",
+            "orcid": null
+          },
+          {
+            "name": "Dong Zhao",
+            "orcid": "https://orcid.org/0000-0001-7173-0500"
+          },
+          {
+            "name": "Qinghong Rao",
+            "orcid": null
+          },
+          {
+            "name": "Hengyi Wang",
+            "orcid": null
+          },
+          {
+            "name": "Benli Yu",
+            "orcid": null
+          },
+          {
+            "name": "Zhijia Hu",
+            "orcid": "https://orcid.org/0009-0004-7417-1301"
+          },
+          {
+            "name": "Fang‐Wen Sun",
+            "orcid": "https://orcid.org/0000-0002-9625-7390"
+          },
+          {
+            "name": "Kun Huang",
+            "orcid": "https://orcid.org/0000-0002-9391-149X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/lpor.72206",
+        "landing_page": "https://doi.org/10.1002/lpor.72206",
+        "open_access_url": "https://doi.org/10.1002/lpor.72206",
+        "openalex_id": "https://openalex.org/W7108918420",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7108918420",
+        "publication_date": "2026-11-08",
+        "title": "All‐Optical Meta‐Convolutional Neural Networks for Reconfigurable Image Identification",
+        "venue": "Laser & Photonics Review",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-11T00:40:53.981625Z",
       "status": "found"
     },
     "openalex:doi:10.1002/mats.70059": {
