@@ -6138,6 +6138,40 @@
       "retrieved_at": "2026-10-17T00:59:09.439157Z",
       "status": "found"
     },
+    "crossref:doi:10.1117/1.apn.5.6.066020": {
+      "expires_at": "2026-12-12T00:42:19.518906Z",
+      "record": {
+        "abstract": "Integrated photonic computing offers high bandwidth and low latency for optical signal processing and optical neural networks (ONNs). We report a monolithically integrated silicon photonic logic-gate chip in which particle swarm optimization (PSO) inverse-designed scattering metastructures, thermo-optic phase modulators, amplitude modulators, and grating-coupler interfaces are implemented on a silicon-on-insulator platform. The optimized scattering cores realize AND, OR, and XOR operations in a 6 μm×6 μm region by mapping three coherent inputs to two output ports through multimode scattering interference. Equal-parameter Jacobian and singular-value analyses show that aperiodically distributed holes provide a higher-dimensional and directionally balanced local control space than regular trenches. Simulations at 1550 nm give minimum contrast ratios (CRs) of 7.8, 8.0, and 14.8 dB for the AND, OR, and XOR gates, respectively. Across 1540 to 1560 nm, the simulated CRs are typically above 5 dB and no lower than 3.7 dB. Fabricated and packaged chips reproduce the intended truth tables, with minimum measured CRs of 3.6, 7.8, and 15.4 dB, respectively. AND-gate measurements confirm correct operation across 1540 to 1560 nm and tolerance to a ±5 deg Bias-phase sweep, with measured insertion losses ranging from 5.56 to 12.49 dB. These results demonstrate feasibility for optical logic and ONN hardware.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Run Sun",
+            "orcid": null
+          },
+          {
+            "name": "Hongwei Chen",
+            "orcid": null
+          },
+          {
+            "name": "Xu Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/1.apn.5.6.066020",
+        "landing_page": "https://doi.org/10.1117/1.apn.5.6.066020",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/1.apn.5.6.066020",
+        "publication_date": "2026-11-10",
+        "title": "Monolithically integrated silicon photonic chip for broadband all-optical logic gates based on scattering metastructure",
+        "venue": "Advanced Photonics Nexus",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-12T00:42:19.518906Z",
+      "status": "found"
+    },
     "crossref:doi:10.1117/1.oe.65.10.107102": {
       "expires_at": "2026-11-17T01:04:53.518267Z",
       "record": {
@@ -9364,6 +9398,18 @@
       "expires_at": "2026-12-02T00:43:05.398319Z",
       "record": null,
       "retrieved_at": "2026-11-02T00:43:05.398319Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.5281/zenodo.24102619": {
+      "expires_at": "2026-12-12T00:42:20.052887Z",
+      "record": null,
+      "retrieved_at": "2026-11-12T00:42:20.052887Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.5281/zenodo.24103194": {
+      "expires_at": "2026-12-12T00:42:18.650180Z",
+      "record": null,
+      "retrieved_at": "2026-11-12T00:42:18.650180Z",
       "status": "not_found"
     },
     "crossref:doi:10.58168/pbht2026_225-229": {
@@ -12897,6 +12943,12 @@
       "retrieved_at": "2026-09-25T01:02:44.054897Z",
       "status": "not_found"
     },
+    "crossref:title:75c58fbd462144a663c4e27b30b9f43676ec7d46ae4d4fc3c352131ff3ad5ca3": {
+      "expires_at": "2026-11-19T00:42:19.005876Z",
+      "record": null,
+      "retrieved_at": "2026-11-12T00:42:19.005876Z",
+      "status": "not_found"
+    },
     "crossref:title:775047231877a44a503e74e00b4c35bf0db5a2a4930ffcf9c949b135b27af7cc": {
       "expires_at": "2026-09-07T01:07:00.638335Z",
       "record": null,
@@ -15345,6 +15397,48 @@
       "retrieved_at": "2026-10-25T01:05:14.343294Z",
       "status": "not_found"
     },
+    "crossref:title:c7effbccad31210d252521a9b675800084714d3b059d276eca31a5e01b07eb60": {
+      "expires_at": "2026-11-19T00:42:19.891136Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dunhui Yao",
+            "orcid": null
+          },
+          {
+            "name": "Bing Yi",
+            "orcid": null
+          },
+          {
+            "name": "Yi Wu",
+            "orcid": "https://orcid.org/0000-0002-5243-7488"
+          },
+          {
+            "name": "Gil Ho Yoon",
+            "orcid": null
+          },
+          {
+            "name": "Tinh Quoc Bui",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.compstruc.2026.108521",
+        "landing_page": "https://doi.org/10.1016/j.compstruc.2026.108521",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.compstruc.2026.108521",
+        "publication_date": "2027-01",
+        "title": "Multi-component topology optimization of functionally graded lattice structures with tension–compression asymmetric interfacial effects",
+        "venue": "Computers &amp; Structures",
+        "year": 2027
+      },
+      "retrieved_at": "2026-11-12T00:42:19.891136Z",
+      "status": "found"
+    },
     "crossref:title:c8aa470386a1e3f96e25bfaf0ac6a014ca7c13dedd9aedde0d588c9a7cc63bfa": {
       "expires_at": "2026-10-30T01:02:33.525957Z",
       "record": null,
@@ -16687,6 +16781,12 @@
       "expires_at": "2026-08-25T04:25:06.087066Z",
       "record": null,
       "retrieved_at": "2026-08-18T04:25:06.087066Z",
+      "status": "not_found"
+    },
+    "crossref:title:ecb6ea30f5aaa7cdb55d586527582b0e6958b863b471426385543ac90c990490": {
+      "expires_at": "2026-11-19T00:42:20.524371Z",
+      "record": null,
+      "retrieved_at": "2026-11-12T00:42:20.524371Z",
       "status": "not_found"
     },
     "crossref:title:ecdcee214f4ab495b373905b979e900f917e639973efafc883f93b7a4c2ebd36": {
@@ -21131,6 +21231,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-28T00:48:21.935380Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.compstruc.2026.108521": {
+      "expires_at": "2026-12-12T00:42:19.983940Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dunhui Yao",
+            "orcid": null
+          },
+          {
+            "name": "Bing Yi",
+            "orcid": null
+          },
+          {
+            "name": "Yi Wu",
+            "orcid": "https://orcid.org/0000-0002-5243-7488"
+          },
+          {
+            "name": "Gil Ho Yoon",
+            "orcid": "https://orcid.org/0000-0002-0634-8329"
+          },
+          {
+            "name": "Tinh Quoc Bui",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.compstruc.2026.108521",
+        "landing_page": "https://doi.org/10.1016/j.compstruc.2026.108521",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7225452292",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225452292",
+        "publication_date": "2026-11-07",
+        "title": "Multi-component topology optimization of functionally graded lattice structures with tension–compression asymmetric interfacial effects",
+        "venue": "Computers & Structures",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-12T00:42:19.983940Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.conbuildmat.2026.147869": {
@@ -27099,6 +27241,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-17T00:59:09.760619Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1117/1.apn.5.6.066020": {
+      "expires_at": "2026-12-12T00:42:19.600439Z",
+      "record": {
+        "abstract": "Integrated photonic computing offers high bandwidth and low latency for optical signal processing and optical neural networks (ONNs). We report a monolithically integrated silicon photonic logic-gate chip in which particle swarm optimization (PSO) inverse-designed scattering metastructures, thermo-optic phase modulators, amplitude modulators, and grating-coupler interfaces are implemented on a silicon-on-insulator platform. The optimized scattering cores realize AND, OR, and XOR operations in a 6 μm×6 μm region by mapping three coherent inputs to two output ports through multimode scattering interference. Equal-parameter Jacobian and singular-value analyses show that aperiodically distributed holes provide a higher-dimensional and directionally balanced local control space than regular trenches. Simulations at 1550 nm give minimum contrast ratios (CRs) of 7.8, 8.0, and 14.8 dB for the AND, OR, and XOR gates, respectively. Across 1540 to 1560 nm, the simulated CRs are typically above 5 dB and no lower than 3.7 dB. Fabricated and packaged chips reproduce the intended truth tables, with minimum measured CRs of 3.6, 7.8, and 15.4 dB, respectively. AND-gate measurements confirm correct operation across 1540 to 1560 nm and tolerance to a ±5 deg Bias-phase sweep, with measured insertion losses ranging from 5.56 to 12.49 dB. These results demonstrate feasibility for optical logic and ONN hardware.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Run Sun",
+            "orcid": null
+          },
+          {
+            "name": "Hongwei Chen",
+            "orcid": null
+          },
+          {
+            "name": "Xu Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/1.apn.5.6.066020",
+        "landing_page": "https://doi.org/10.1117/1.apn.5.6.066020",
+        "open_access_url": "https://doi.org/10.1117/1.apn.5.6.066020",
+        "openalex_id": "https://openalex.org/W7225715804",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225715804",
+        "publication_date": "2026-11-10",
+        "title": "Monolithically integrated silicon photonic chip for broadband all-optical logic gates based on scattering metastructure",
+        "venue": "Advanced Photonics Nexus",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-12T00:42:19.600439Z",
       "status": "found"
     },
     "openalex:doi:10.1117/1.oe.65.10.107102": {
@@ -33309,6 +33485,134 @@
       "retrieved_at": "2026-11-02T00:43:05.586916Z",
       "status": "found"
     },
+    "openalex:doi:10.5281/zenodo.24102619": {
+      "expires_at": "2026-12-12T00:42:20.246729Z",
+      "record": {
+        "abstract": "We demonstrate a 2-bit photonic ADC architecture using optical sampling and quantization via a silicon photonic Crossbar-based Neural Network. Successful operation for analog signals is experimentally presented with an accuracy of 97.73% at 30 GSa/s.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Antonis Prapas",
+            "orcid": null
+          },
+          {
+            "name": "G. Tsamis",
+            "orcid": null
+          },
+          {
+            "name": "A. Tsakyridis",
+            "orcid": null
+          },
+          {
+            "name": "Miltiadis Moralis‐Pegios",
+            "orcid": "https://orcid.org/0000-0002-9401-730X"
+          },
+          {
+            "name": "D. Lazovsky",
+            "orcid": null
+          },
+          {
+            "name": "N. Pleros",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.24102619",
+        "landing_page": "https://doi.org/10.5281/zenodo.24102619",
+        "open_access_url": "https://doi.org/10.5281/zenodo.24102619",
+        "openalex_id": "https://openalex.org/W7225715319",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225715319",
+        "publication_date": "2026-11-10",
+        "title": "Photonic Analog-to-Digital Conversion (ADC) using Photonic Neural Network-assisted Quantization",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-12T00:42:20.246729Z",
+      "status": "found"
+    },
+    "openalex:doi:10.5281/zenodo.24103194": {
+      "expires_at": "2026-12-12T00:42:18.745948Z",
+      "record": {
+        "abstract": "The ever-increasing volume of data has necessitated a new computing paradigm, embodied through Artificial Intelligence (AI) and Large Language Models (LLMs). Digital electronic AI computing systems, however, are gradually reaching their physical plateaus, stimulating extensive research towards next-generation AI accelerators. Photonic Neural Networks (PNNs), with their unique ability to capitalize on the interplay of multiple physical dimensions including time, wavelength, and space, have been brought forward with a credible promise for boosting computational power and energy efficiency in AI processors. In this article, we experimentally demonstrate a novel multidimensional arrayed waveguide grating router (AWGR)-based photonic AI accelerator that can execute tensor multiplications at a total computational power of 262 TOPS, offering a ~24× improvement over the existing waveguide-based optical accelerators. It consists of a 16×16 AWGR that exploits the time-, wavelength- and space- division multiplexing (T-W-SDM) for weight and input encoding together with an integrated Si3N4-based frequency comb for multi-wavelength generation. The photonic AI accelerator has been experimentally validated in both Fully-Connected (FC) and Convolutional NN (NNs) models, with the FC and CNN being trained for DDoS attack identification and MNIST classification, respectively. The experimental inference at 32 Gbaud achieved a Cohen’s kappa score of 0.867 for DDoS detection and an accuracy of 92.14% for MNIST classification, respectively, closely matching the software performance.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "C. Pappas",
+            "orcid": null
+          },
+          {
+            "name": "A. Prapas",
+            "orcid": null
+          },
+          {
+            "name": "T. Moschos",
+            "orcid": null
+          },
+          {
+            "name": "M. Kirtas",
+            "orcid": null
+          },
+          {
+            "name": "O. Asimopoulos",
+            "orcid": null
+          },
+          {
+            "name": "A. Tsakyridis",
+            "orcid": null
+          },
+          {
+            "name": "M. Moralis - Pegios",
+            "orcid": null
+          },
+          {
+            "name": "N. Passalis",
+            "orcid": null
+          },
+          {
+            "name": "Cagri Ozdilek",
+            "orcid": "https://orcid.org/0000-0001-8608-3828"
+          },
+          {
+            "name": "Timofey Shpakovsky",
+            "orcid": null
+          },
+          {
+            "name": "Alain Yuji Takabayashi",
+            "orcid": "https://orcid.org/0000-0002-1654-6636"
+          },
+          {
+            "name": "John D. Jost",
+            "orcid": null
+          },
+          {
+            "name": "Maxim Karpov",
+            "orcid": "https://orcid.org/0000-0002-9304-3936"
+          },
+          {
+            "name": "A. Tefas",
+            "orcid": null
+          },
+          {
+            "name": "N. Pleros",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.5281/zenodo.24103194",
+        "landing_page": "https://doi.org/10.5281/zenodo.24103194",
+        "open_access_url": "https://doi.org/10.5281/zenodo.24103194",
+        "openalex_id": "https://openalex.org/W7225712449",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225712449",
+        "publication_date": "2026-11-10",
+        "title": "A 262 TOPS Hyperdimensional Photonic AI Accelerator",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-12T00:42:18.745948Z",
+      "status": "found"
+    },
     "openalex:doi:10.58168/pbht2026_225-229": {
       "expires_at": "2026-11-29T00:48:54.002926Z",
       "record": {
@@ -36562,6 +36866,12 @@
       "retrieved_at": "2026-09-25T01:02:44.796881Z",
       "status": "not_found"
     },
+    "openalex:title:75c58fbd462144a663c4e27b30b9f43676ec7d46ae4d4fc3c352131ff3ad5ca3": {
+      "expires_at": "2026-11-19T00:42:19.274941Z",
+      "record": null,
+      "retrieved_at": "2026-11-12T00:42:19.274941Z",
+      "status": "not_found"
+    },
     "openalex:title:775047231877a44a503e74e00b4c35bf0db5a2a4930ffcf9c949b135b27af7cc": {
       "expires_at": "2026-09-07T01:07:01.321486Z",
       "record": {
@@ -39721,6 +40031,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:06.522679Z",
       "status": "found"
+    },
+    "openalex:title:ecb6ea30f5aaa7cdb55d586527582b0e6958b863b471426385543ac90c990490": {
+      "expires_at": "2026-11-19T00:42:20.892639Z",
+      "record": null,
+      "retrieved_at": "2026-11-12T00:42:20.892639Z",
+      "status": "not_found"
     },
     "openalex:title:ed6793fbe078db127bb431cb9ee38b8f2fbc7cd16ad5be4db72add181822886e": {
       "expires_at": "2026-11-02T01:04:36.473497Z",

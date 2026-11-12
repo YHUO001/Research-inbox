@@ -530,6 +530,15 @@
       "summary_record_sha256": "6b2e95d2c1b977f396071496e5cc92f21d4911dbe47d3373dac6ddc08c1ed284",
       "title": "Hardware-calibrated optical spiking neural network based on a programmable MZI mesh weight engine"
     },
+    "6fb09da00d0f94c49f1e76ff": {
+      "digest_date": "2026-11-12",
+      "doi": "10.5281/zenodo.24102619",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "552461e057b30e8fa769660fc8d1b21dff901fc36863ebd3a036c3552d9cfc30",
+      "title": "Photonic Analog-to-Digital Conversion (ADC) using Photonic Neural Network-assisted Quantization"
+    },
     "70212be2c4a63d741872ace0": {
       "digest_date": "2026-10-03",
       "doi": "10.1109/tcad.2026.3738037",
@@ -1427,6 +1436,9 @@
     "2026-11-10": [
       "35ca2b5d96e48aa3071b5073",
       "d022b854580fba55dade4302"
+    ],
+    "2026-11-12": [
+      "6fb09da00d0f94c49f1e76ff"
     ]
   },
   "by_doi": {
@@ -1549,6 +1561,7 @@
     "10.5281/zenodo.23538542": "0ea189a90da076d72e313576",
     "10.5281/zenodo.23632157": "7e9d9924bce580000ddda36d",
     "10.5281/zenodo.23830339": "a390258440d82a472251969b",
+    "10.5281/zenodo.24102619": "6fb09da00d0f94c49f1e76ff",
     "10.6084/m9.figshare.33342183.v2": "09e1a0ed403ef22abbd9b189",
     "10.6084/m9.figshare.33735265": "56dc775d182273c3cd77748e",
     "10.6084/m9.figshare.34485666": "9e5e9e295864aadeda0674fe",
@@ -1602,6 +1615,7 @@
       "61dad77fe7c2ef7687ce5b21",
       "6584a28300e4e24252061ccc",
       "6dc0459f08567bbd051cc579",
+      "6fb09da00d0f94c49f1e76ff",
       "790fd87bc9a673947dfbaac6",
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
@@ -1696,6 +1710,9 @@
     ]
   },
   "by_tag": {
+    "application:2 位模数转换": [
+      "6fb09da00d0f94c49f1e76ff"
+    ],
     "application:6g 通信": [
       "7bc9d4230ed283852c3248a7"
     ],
@@ -2062,6 +2079,9 @@
     "application:模式转换": [
       "099f50640efd207890cbb62b"
     ],
+    "application:模拟信号量化": [
+      "6fb09da00d0f94c49f1e76ff"
+    ],
     "application:水下成像": [
       "35ff63ef9d3333099ee28868"
     ],
@@ -2302,6 +2322,7 @@
       "5779863299dcab370c05c0ca",
       "5ec8e35ad02131d8ed156970",
       "6584a28300e4e24252061ccc",
+      "6fb09da00d0f94c49f1e76ff",
       "790fd87bc9a673947dfbaac6",
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
@@ -2368,6 +2389,7 @@
       "557b41cb542bf10e84da81f2",
       "56dc775d182273c3cd77748e",
       "5ec8e35ad02131d8ed156970",
+      "6fb09da00d0f94c49f1e76ff",
       "7edb19b24759fe609707ba01",
       "973790e22c46d30721660799",
       "a15033db64285e5d4c8a46c9",
@@ -2463,6 +2485,7 @@
       "61dad77fe7c2ef7687ce5b21",
       "6584a28300e4e24252061ccc",
       "6dc0459f08567bbd051cc579",
+      "6fb09da00d0f94c49f1e76ff",
       "790fd87bc9a673947dfbaac6",
       "79855d774b83ef6c7c8a8a47",
       "7bc9d4230ed283852c3248a7",
@@ -2941,6 +2964,7 @@
       "0ea189a90da076d72e313576",
       "1bbef7ba5398ff216f60580f",
       "4b1739e45289d2156d3b1ed3",
+      "6fb09da00d0f94c49f1e76ff",
       "7e9d9924bce580000ddda36d",
       "a390258440d82a472251969b",
       "c9dee369fd4e64c2389af927"
@@ -3045,6 +3069,7 @@
       "66c84fb1444bbf71b05ac0d7",
       "6da55cf29e6e5024311c8a8a",
       "6dc0459f08567bbd051cc579",
+      "6fb09da00d0f94c49f1e76ff",
       "70212be2c4a63d741872ace0",
       "7229499f7f76fe2e28f08e50",
       "7719ae17086cb97168bebbc5",
@@ -3121,7 +3146,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 130,
+  "paper_count": 131,
   "schema_version": 1,
-  "updated_at": "2026-11-10T00:40:46.920745Z"
+  "updated_at": "2026-11-12T00:42:48.649201Z"
 }

@@ -1,34 +1,160 @@
 {
-  "actual_summary_count": 0,
-  "author_metadata_enriched_count": 0,
-  "author_metadata_fallback_count": 0,
-  "author_metadata_mode": "selected_openalex_work_metadata_with_safe_fallback",
-  "automatic_queue_candidate_count": 0,
-  "built_at": "2026-11-11T00:40:56.443531Z",
+  "abstract_fallback_candidate_ids": [],
+  "abstract_fallback_count": 0,
+  "architecture_evidence": {
+    "6fb09da00d0f94c49f1e76ff": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    }
+  },
+  "architecture_repairs": 0,
+  "automatic_history_pending": false,
+  "automatic_queue_candidate_count": 1,
+  "completed_at": "2026-11-12T00:42:48.649201Z",
   "completed_candidate_filtered_count": 0,
-  "daily_digest_pending": false,
-  "digest_date": "2026-11-11",
-  "digest_json_file": "runtime-state/data/digests/2026-11-11.preview.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-11-11.preview.md",
+  "completed_candidate_ids": [
+    "6fb09da00d0f94c49f1e76ff"
+  ],
+  "completion_mode": "automatic_daily_batch_after_local_validation",
+  "daily_digest_pending": true,
+  "digest_date": "2026-11-12",
+  "digest_json_file": "runtime-state/data/digests/2026-11-12.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-11-12.generated.md",
   "email_enabled": false,
+  "estimated_cost_cny": 0.021981,
   "execution_mode": "automatic_daily_batch",
-  "full_text_used": false,
+  "failure_count": 0,
+  "failures": [],
+  "full_text_method_contexts": {
+    "6fb09da00d0f94c49f1e76ff": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "6fb09da00d0f94c49f1e76ff",
+      "character_count": 6666,
+      "content_sha256": "77a6d4f4119b2cc07ce80455d33859e222a7304c4b080d9ab630fefd76c3664a",
+      "elapsed_seconds": 2.716,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "application/pdf",
+      "section_headings": [
+        "3. Experimental Setup",
+        "The proposed architecture was experimentally validated over the experimental setup depicted in Figure 2 (a),",
+        "Figure 2: (a) Experimental setup for the implementation of a 2-bit photonic ADC operation, (b) Microscope photo of the photonic 4×4",
+        "quantization circuit, exploiting a silicon photonic crossbar circuit for the linear neural layer implementation and"
+      ],
+      "source_url": "https://zenodo.org/records/24102620/files/Photonic%20Analog-to-Digital%20Conversion%20(ADC)%20using%20Photonic%20Neural%20Network-assisted%20Quantization.pdf",
+      "status": "used",
+      "text_persisted": false
+    }
+  },
+  "full_text_persisted": false,
+  "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
-  "knowledge_base_pending": false,
-  "llm_enabled": true,
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+  "knowledge_base_pending": true,
+  "model": "deepseek-v4-pro",
+  "newly_completed_candidate_count": 1,
+  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+  "numeric_matching": {
+    "absolute_tolerance": 0.02,
+    "approximation_markers_ignored": true,
+    "evidence_sources": [
+      "title",
+      "abstract",
+      "temporary_open_full_text_methods"
+    ],
+    "full_text_unsupported_sentence_action": "deterministic_redaction",
+    "relative_tolerance": 0.02,
+    "unit_format_ignored": true,
+    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
+  },
   "output_language": "zh-CN",
-  "provider": "not_configured",
-  "queue_candidate_count": 0,
-  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "request_count": 0,
-  "request_file": "runtime-state/data/summary_requests/2026-11-11.jsonl",
-  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "prepared_request_count": 1,
+  "provider": "deepseek",
+  "queue_sha256": "b07400516bd1f057565d30ea3e9a0ea202ab1ddf38e1b941cbff68479c74d6f4",
+  "request_count": 1,
+  "request_file": "runtime-state/data/summary_requests/2026-11-12.jsonl",
+  "request_sha256": "1b12d7c42a4ba5b29e86461dfc7bcf6b86115669d722bcf367139e4f2eb18aed",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "9bb294fbca19f6a1416b45fecb9eafc19e804b03530639915c57f1d7aa61c239",
-  "source_queue_candidate_count": 0,
-  "status": "no_candidates",
+  "selection_manifest_sha256": "c921708b290d0699958abd1373b200afda1ab1cc2eb9cb5de18860d75b535ea9",
+  "skipped_no_abstract_candidate_ids": [],
+  "skipped_no_abstract_count": 0,
+  "source_queue_candidate_count": 1,
+  "stage_timings": {
+    "full_text_preparation_seconds": 2.72,
+    "model_api_calls": [
+      {
+        "attempt": 1,
+        "candidate_id": "6fb09da00d0f94c49f1e76ff",
+        "elapsed_seconds": 21.192,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 2152,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 3007,
+          "prompt_tokens": 4927,
+          "total_tokens": 7079
+        }
+      }
+    ],
+    "model_generation_and_validation_seconds": 21.204
+  },
+  "status": "completed_automatic",
+  "summary_count": 1,
+  "summary_file": "runtime-state/data/summaries/2026-11-12.jsonl",
   "summary_generation_version": 8,
-  "summary_history_updated": false,
-  "summary_slot_count": 0
+  "summary_history_updated": true,
+  "summary_slot_count": 1,
+  "thinking_enabled": false,
+  "transport_repairs": {
+    "architecture_evidence": {
+      "6fb09da00d0f94c49f1e76ff": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "integrated",
+        "repaired": true,
+        "resolved_type": "unclear"
+      }
+    },
+    "architecture_repairs": 1,
+    "candidate_id_repair_responses": 0,
+    "full_text_method_contexts": {
+      "6fb09da00d0f94c49f1e76ff": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "6fb09da00d0f94c49f1e76ff",
+        "character_count": 6666,
+        "content_sha256": "77a6d4f4119b2cc07ce80455d33859e222a7304c4b080d9ab630fefd76c3664a",
+        "elapsed_seconds": 2.716,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "application/pdf",
+        "section_headings": [
+          "3. Experimental Setup",
+          "The proposed architecture was experimentally validated over the experimental setup depicted in Figure 2 (a),",
+          "Figure 2: (a) Experimental setup for the implementation of a 2-bit photonic ADC operation, (b) Microscope photo of the photonic 4×4",
+          "quantization circuit, exploiting a silicon photonic crossbar circuit for the linear neural layer implementation and"
+        ],
+        "source_url": "https://zenodo.org/records/24102620/files/Photonic%20Analog-to-Digital%20Conversion%20(ADC)%20using%20Photonic%20Neural%20Network-assisted%20Quantization.pdf",
+        "status": "used",
+        "text_persisted": false
+      }
+    },
+    "generation_metadata_repair_responses": 0,
+    "numeric_grounding_repair_responses": 0,
+    "numeric_grounding_repairs": {},
+    "tops_alias_expansions": 47,
+    "unit_format_normalization_responses": 0
+  },
+  "usage": {
+    "completion_tokens": 2152,
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 3007,
+    "prompt_tokens": 4927,
+    "total_tokens": 7079
+  }
 }

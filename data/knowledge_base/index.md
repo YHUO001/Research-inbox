@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`130`
-- 更新时间：`2026-11-10T00:40:46.920745Z`
+- 论文数：`131`
+- 更新时间：`2026-11-12T00:42:48.649201Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Photonic Analog-to-Digital Conversion (ADC) using Photonic Neural Network-assisted Quantization
+
+- DOI/链接：[10.5281/zenodo.24102619](https://doi.org/10.5281/zenodo.24102619)
+- 期刊/年份：Zenodo (CERN European Organization for Nuclear Research)，2026
+- 摘要日期：`2026-11-12`
+- 候选 ID：`6fb09da00d0f94c49f1e76ff`
+- 标签：application:2 位模数转换, application:模拟信号量化, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### CNN-based bit error rate reduction in holographic data storage systems using simulated training datasets
 
