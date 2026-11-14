@@ -1778,6 +1778,36 @@
       "retrieved_at": "2026-09-13T01:07:34.072511Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/mop.70846": {
+      "expires_at": "2026-12-14T00:39:41.162702Z",
+      "record": {
+        "abstract": "ABSTRACT To overcome the high energy consumption of conventional computing and the integration barriers of bulky diffractive deep neural networks (NNs), this study proposes a compact NN architecture using terahertz (THz) metasurfaces. Specifically, meta‐atoms are engineered to achieve a high polarization conversion transmission coefficient (exceeding 0.9) across the 0.55–0.65 THz range while providing full phase modulation. Based on these meta‐atoms, a THz optical neural network featuring three cascaded hidden layers is constructed. Simulations demonstrate that patterned electromagnetic waves, after being modulated by the three‐layer structure, can be converged onto designated detection regions. The system successfully recognizes a nine‐class subset of the MNIST data set comprising digits 0–6, 8, and 9 at 0.6 THz. This work demonstrates the viability of using THz metasurfaces for compact optical AI hardware with a passive metasurface inference core and next‐generation intelligent sensing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zeyi Zhong",
+            "orcid": "https://orcid.org/0009-0003-3392-8390"
+          },
+          {
+            "name": "Xiaozhou Li",
+            "orcid": "https://orcid.org/0000-0001-7097-4810"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/mop.70846",
+        "landing_page": "https://doi.org/10.1002/mop.70846",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/mop.70846",
+        "publication_date": "2026-11",
+        "title": "Terahertz Diffractive Deep Neural Networks via Polarization‐Conversion Metasurfaces for Digit Recognition",
+        "venue": "Microwave and Optical Technology Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:41.162702Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/nap2.70242": {
       "expires_at": "2026-09-17T04:25:18.637501Z",
       "record": {
@@ -3158,6 +3188,82 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-09T01:12:17.428289Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/s13042-026-03356-2": {
+      "expires_at": "2026-12-14T00:39:40.734922Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Qingdi Zhang",
+            "orcid": null
+          },
+          {
+            "name": "S. Li",
+            "orcid": null
+          },
+          {
+            "name": "J. Chen",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s13042-026-03356-2",
+        "landing_page": "https://doi.org/10.1007/s13042-026-03356-2",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s13042-026-03356-2",
+        "publication_date": "2026-11",
+        "title": "Federated learning and NLP for real-time misinformation detection in mobile social networks",
+        "venue": "International Journal of Machine Learning and Cybernetics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:40.734922Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/s13272-026-01031-4": {
+      "expires_at": "2026-12-14T00:39:37.676299Z",
+      "record": {
+        "abstract": "Abstract One major focus of enhancing the fuel efficiency in aviation lies in implementing drag reduction technologies. There exists a significant potential to reduce the viscous drag to facilitate this objective by delaying the laminar to turbulent transition of boundary layers using hybrid laminar flow control. This study evaluates the potential of novel Monte Carlo Bayesian optimization techniques used in conjunction with trust regions for high-dimensional aerodynamic design of transonic laminar airfoils and wings using black-box transition models that lack gradient information. The aerodynamic analysis considered in this study is based on coupled Euler-boundary layer equations with a mid-fidelity conical 2.75D approach, which is more suited for the objective to balance the reduction of viscous and wave drag, in comparison to the conventional low-fidelity panel methods used for fully turbulent designs. A comparative analysis of the underlying acquisition functions governing the Bayesian decision policy is also presented in this work. The Bayesian design framework adapted in this study delivers a 98-dimensional laminar wing with very high aerodynamic efficiency and robust performance within a wide design range. Laminar extensions close to 50% chord lengths are achieved at both upper and lower surfaces of the laminar airfoils and wings when assisted with optimized leading-edge suction distributions, thereby also exhibiting significantly lower viscous drag, while maintaining the wave drag at a practically negligible level, which is a major challenge in laminar aerodynamic designs.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Samarth Kakkar",
+            "orcid": null
+          },
+          {
+            "name": "Paolo Olivucci",
+            "orcid": null
+          },
+          {
+            "name": "Anand Sudhi",
+            "orcid": null
+          },
+          {
+            "name": "Camli Badrya",
+            "orcid": null
+          },
+          {
+            "name": "Rolf Radespiel",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s13272-026-01031-4",
+        "landing_page": "https://doi.org/10.1007/s13272-026-01031-4",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s13272-026-01031-4",
+        "publication_date": "2026-11-10",
+        "title": "Gradient free aerodynamic design of laminar airfoils and wings using high dimensional Bayesian optimization",
+        "venue": "CEAS Aeronautical Journal",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:37.676299Z",
       "status": "found"
     },
     "crossref:doi:10.1007/s41939-026-01271-1": {
@@ -7542,6 +7648,48 @@
       "retrieved_at": "2026-08-18T04:25:31.838719Z",
       "status": "found"
     },
+    "crossref:doi:10.1145/3830454.3846524": {
+      "expires_at": "2026-12-14T00:39:37.190068Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuntao Du",
+            "orcid": "https://orcid.org/0000-0002-1206-340X"
+          },
+          {
+            "name": "Tanishq Pauskar",
+            "orcid": "https://orcid.org/0009-0006-2878-0207"
+          },
+          {
+            "name": "Hao Wang",
+            "orcid": "https://orcid.org/0000-0002-1492-797X"
+          },
+          {
+            "name": "Jing Su",
+            "orcid": "https://orcid.org/0000-0003-4917-6173"
+          },
+          {
+            "name": "Ninghui Li",
+            "orcid": "https://orcid.org/0000-0001-8207-9717"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3830454.3846524",
+        "landing_page": "https://doi.org/10.1145/3830454.3846524",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1145/3830454.3846524",
+        "publication_date": "2026-11-15",
+        "title": "Privacy Leakage from a Thousand Words: Millipixel Location Recovery from Dot Maps",
+        "venue": "Proceedings of the 2026 ACM SIGSAC Conference on Computer and Communications Security",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:37.190068Z",
+      "status": "found"
+    },
     "crossref:doi:10.1145/3837864": {
       "expires_at": "2026-09-08T00:36:00.920049Z",
       "record": {
@@ -7694,6 +7842,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-05T01:13:28.236353Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1177/01617346261495108": {
+      "expires_at": "2026-12-14T00:39:46.616773Z",
+      "record": {
+        "abstract": "Deep learning models for breast ultrasound classification frequently suffer from performance degradation due to domain shifts caused by differences in imaging equipment, acquisition protocols, and preprocessing across institutions. Although test-time adaptation (TTA) has been proposed to mitigate this problem, conventional gradient-based methods may be unstable in medical imaging settings and can even degrade performance under severe target-domain shifts. We propose Uncertainty-guided Steering Vector Test-Time Adaptation (USV-TTA), a gradient-optimization-free TTA method that performs feature correction at test time without updating model parameters. USV-TTA uses frozen source batch-normalization statistics to estimate target-sample uncertainty and derive steering vectors that represent the direction of domain shift, then corrects high-uncertainty samples by suppressing projections along this direction. USV-TTA was evaluated on 4 external breast ultrasound datasets comprising 6267 images included in the binary benign/malignant evaluation. On the class-imbalanced GDPH dataset, USV-TTA achieved the highest AUROC of 0.813, outperforming the source model and preventing the degradation observed with TENT (0.711). On the heterogeneous AJMC dataset, which included images acquired from 11 ultrasound systems, USV-TTA also achieved the highest AUROC of 0.773. On BrEaST and BUS-BRA, USV-TTA maintained competitive discrimination performance, although DLTTA achieved the highest AUROC on BrEaST and SAR achieved the highest AUROC on BUS-BRA. Across target datasets, USV-TTA reduced expected calibration error in the most challenging domains without incurring the instability observed in several gradient-based TTA methods. These findings suggest that effective and stable test-time adaptation for breast ultrasound classification can be achieved without gradient-based optimization, supporting safer deployment under domain shift.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Woo Sik Cho",
+            "orcid": null
+          },
+          {
+            "name": "Jun Hyeong Park",
+            "orcid": null
+          },
+          {
+            "name": "Seonhwa Kim",
+            "orcid": null
+          },
+          {
+            "name": "Jaesung Heo",
+            "orcid": "https://orcid.org/0000-0003-2066-9062"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1177/01617346261495108",
+        "landing_page": "https://doi.org/10.1177/01617346261495108",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1177/01617346261495108",
+        "publication_date": "2026-11-08",
+        "title": "Uncertainty-Guided Steering Vector Test-Time Adaptation for the Classification of Breast Ultrasound Images",
+        "venue": "Ultrasonic Imaging",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:46.616773Z",
       "status": "found"
     },
     "crossref:doi:10.1186/s43067-026-00403-4": {
@@ -10011,6 +10197,40 @@
       "retrieved_at": "2026-09-30T01:10:15.930802Z",
       "status": "not_found"
     },
+    "crossref:title:0c4e6d93429c2f393b77d9a72e3eb3f89bf75b865b76ee3fb2dc1518a143d115": {
+      "expires_at": "2026-11-21T00:39:44.185796Z",
+      "record": {
+        "abstract": "Federated learning has emerged as a privacy-preserving paradigm that collaboratively trains a model without sharing raw data. However, federated learning remains highly vulnerable to abnormal or malicious participants. Differential privacy techniques are widely adopted to safeguard client data during federated optimization, but the added privacy noise makes it harder to detect such malicious behaviors. Existing malicious client detection techniques make the implicit assumption that behavioral signals are still identifiable. However, these signals are distorted by differential privacy, the very mechanism that protects client information, making it harder to identify between benign and malicious clients. Because of this, enhancing privacy often reduces attack detection effectiveness, a problem that is still mostly unsolved. We present a new privacy-preserving temporal multi-relational graph learning framework, which improves the ability to detect malicious clients in the differentially private setting. By taking into account the temporal and relational dependency structures of clients through the communication rounds, our framework minimizes the dependence on single behavioral information that is distorted due to privacy noise. In addition, exponential moving average smoothing and persistence-based temporal voting are introduced to ensure detector stability and minimize potential false positives due to privacy-induced perturbations. The proposed framework is comprehensively evaluated on three benchmark datasets, namely, FashionMNIST, CSE-CIC-IDS2018, and CIC-IoT2023, under both IID and non-IID data distributions across diverse adversarial scenarios, including label-flip, backdoor, gradient-lie, free-rider, and Sybil attacks. Experimental evaluation, supported by privacy-budget analysis, component-wise ablation studies, and comparisons with representative robust aggregation methods and recent malicious client detection baselines, demonstrates that the proposed approach consistently achieves a better balance among malicious client detection accuracy, attack mitigation, global model utility, and privacy preservation. On CIC-IoT2023, under the non-IID gradient-lie attack, the detector achieved a detection accuracy of 0.8467±0.0231 and a recall of 1.0000±0.0000 at a composed privacy budget of approximately ϵtotal=7.05, demonstrating that malicious client detection can be retained while providing stronger privacy protection. In addition to improving detection performance, the proposed work quantitatively assesses the degradation of malicious client separability caused by increased differential privacy and shows that temporal relational modeling significantly mitigates this effect.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Anuja Kunjumon",
+            "orcid": null
+          },
+          {
+            "name": "Sunitha E. Viswanathan",
+            "orcid": null
+          },
+          {
+            "name": "Jyothisha J. Nair",
+            "orcid": "https://orcid.org/0000-0002-8050-8896"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/jcp6060196",
+        "landing_page": "https://doi.org/10.3390/jcp6060196",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/jcp6060196",
+        "publication_date": "2026-11-08",
+        "title": "Preserving Malicious Client Detectability Under Differential Privacy Through Temporal Multi-Relation Graph Learning",
+        "venue": "Journal of Cybersecurity and Privacy",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:44.185796Z",
+      "status": "found"
+    },
     "crossref:title:0d24315b02bbe41800e70636f1a01b4ba251403960aa474b4d50e4b86d640512": {
       "expires_at": "2026-10-10T01:04:42.077088Z",
       "record": null,
@@ -10475,6 +10695,12 @@
       "expires_at": "2026-10-10T01:04:38.853601Z",
       "record": null,
       "retrieved_at": "2026-10-03T01:04:38.853601Z",
+      "status": "not_found"
+    },
+    "crossref:title:19178bfe1f774d635fa72ab85e040359c1547f45bddeae838de09814a721b473": {
+      "expires_at": "2026-11-21T00:39:33.502456Z",
+      "record": null,
+      "retrieved_at": "2026-11-14T00:39:33.502456Z",
       "status": "not_found"
     },
     "crossref:title:194b18c310f1c95fa7b57f32bf8eac8d8d12cca5a8f0adbc26cb774d869457a4": {
@@ -11146,6 +11372,12 @@
       },
       "retrieved_at": "2026-10-31T00:40:10.374279Z",
       "status": "found"
+    },
+    "crossref:title:2bca5dd91804642d0d23a62b49f2568d9b4f0d9e9227c04ebdc3aea234be92f9": {
+      "expires_at": "2026-11-21T00:39:32.622820Z",
+      "record": null,
+      "retrieved_at": "2026-11-14T00:39:32.622820Z",
+      "status": "not_found"
     },
     "crossref:title:2c07bb7239f1c6739bb02047e88fa7613eaedc31c559b6d954bbdf73ecfbbe87": {
       "expires_at": "2026-08-16T00:36:13.391892Z",
@@ -12131,6 +12363,12 @@
       "retrieved_at": "2026-09-28T01:11:34.791837Z",
       "status": "not_found"
     },
+    "crossref:title:51493310f4d97780c98a86284c31cf9bde1dd9806f4e6d329daf76e08453a638": {
+      "expires_at": "2026-11-21T00:39:41.796595Z",
+      "record": null,
+      "retrieved_at": "2026-11-14T00:39:41.796595Z",
+      "status": "not_found"
+    },
     "crossref:title:515316e23ebc42e941cd8b6423767ee9dacba9cc10cb175c2ece28292649cbd1": {
       "expires_at": "2026-09-07T01:07:05.264641Z",
       "record": null,
@@ -13105,6 +13343,12 @@
       "retrieved_at": "2026-09-13T01:07:28.807451Z",
       "status": "not_found"
     },
+    "crossref:title:7c302ea77f41eba7bbe8fbcf33346c9385769f1222210910e9119eef0669b779": {
+      "expires_at": "2026-11-21T00:39:39.163102Z",
+      "record": null,
+      "retrieved_at": "2026-11-14T00:39:39.163102Z",
+      "status": "not_found"
+    },
     "crossref:title:7caa27b0863d8ed6227ec0af1db00cda8133f32be1ac66e505ed805fb09ee44f": {
       "expires_at": "2026-11-08T00:47:10.488199Z",
       "record": {
@@ -13137,6 +13381,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-01T00:47:10.488199Z",
+      "status": "found"
+    },
+    "crossref:title:7cc04ca82df3ab0c55371f9e9baca7b60fcd6081273dd1aba8ededba484cca73": {
+      "expires_at": "2026-11-21T00:39:45.932891Z",
+      "record": {
+        "abstract": "Reinforcement learning (RL) provides an autonomous approach to quantitative trading by allowing an agent to learn a trading policy through repeated interaction with a market environment rather than through hand-crafted rules. The aim of an RL trading agent is to select actions that maximize long-term rewards while meeting a chosen level of risk. This review examines RL applications in quantitative trading, with particular attention to value-based, policy-based, and actor–critic methods. It summarizes the reported returns, risk-adjusted performance, evaluation settings, and practical limitations of the reviewed studies. Although many RL methods report promising results in backtests and simulated environments, their outcomes are highly dependent on data selection, feature construction, transaction cost assumptions, training procedures, reward design, and validation protocols. Consequently, reported returns, Sharpe ratios, and drawdowns across studies are not directly comparable and should not be interpreted as evidence that one RL method is universally superior to another. This review shows that relevant state information, suitable reward functions, realistic risk management, and deep neural feature extraction can improve RL trading performance. However, reliable progress requires transparent and consistent reporting of data handling, time-respecting validation, execution assumptions, transaction costs, slippage, and risk-adjusted trading outcomes. We therefore argue that future RL trading research should adopt Quantitative Finance Reporting Standard (QFRS), to make trading claims data leakage free, reproducible, back-tested, economically meaningful, and comparable across studies.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Matloob Khushi",
+            "orcid": "https://orcid.org/0000-0001-7792-2327"
+          },
+          {
+            "name": "Rakesh Kumar Sanodiya",
+            "orcid": "https://orcid.org/0000-0002-9524-9284"
+          },
+          {
+            "name": "Basem Suleiman",
+            "orcid": "https://orcid.org/0000-0003-2674-0253"
+          },
+          {
+            "name": "Sachit Desa",
+            "orcid": null
+          },
+          {
+            "name": "Shahadat Uddin",
+            "orcid": "https://orcid.org/0000-0003-0091-6919"
+          },
+          {
+            "name": "Xiaobin Lu",
+            "orcid": "https://orcid.org/0009-0007-6135-4813"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/ai7110470",
+        "landing_page": "https://doi.org/10.3390/ai7110470",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/ai7110470",
+        "publication_date": "2026-11-10",
+        "title": "Reinforcement Learning in Quantitative Trading: A Review of Current Approaches and Breakthroughs",
+        "venue": "AI",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:45.932891Z",
       "status": "found"
     },
     "crossref:title:7d4ac24d04e0b22cfb9f98a3ec9da4cb37fc213c8632c2867a02ef3fcc5841e3": {
@@ -13322,6 +13612,12 @@
       },
       "retrieved_at": "2026-10-15T00:58:16.534813Z",
       "status": "found"
+    },
+    "crossref:title:85c38382791554135705ec0f36ce5dfb55dc99dc6103efed683dba3e3847c524": {
+      "expires_at": "2026-11-21T00:39:35.637753Z",
+      "record": null,
+      "retrieved_at": "2026-11-14T00:39:35.637753Z",
+      "status": "not_found"
     },
     "crossref:title:85e35b13ee3b8665a9766e52f21821fc9b527a020566b61a0577ffed5466379b": {
       "expires_at": "2026-11-17T00:40:05.157644Z",
@@ -13791,6 +14087,12 @@
       "expires_at": "2026-09-08T01:13:18.842340Z",
       "record": null,
       "retrieved_at": "2026-09-01T01:13:18.842340Z",
+      "status": "not_found"
+    },
+    "crossref:title:980fe98736eb335931502f7ef7b6df12aea65ba1b1af38270ff3e582225cc32e": {
+      "expires_at": "2026-11-21T00:39:44.889358Z",
+      "record": null,
+      "retrieved_at": "2026-11-14T00:39:44.889358Z",
       "status": "not_found"
     },
     "crossref:title:98206b5b368d642c4c65e9a4c8d8a400b9ea7672656d4afb327ef00878236e9d": {
@@ -14745,6 +15047,12 @@
       "expires_at": "2026-10-28T01:00:30.848678Z",
       "record": null,
       "retrieved_at": "2026-10-21T01:00:30.848678Z",
+      "status": "not_found"
+    },
+    "crossref:title:b7635a06654f99d3f66a00af024e8a9f3bd85d1b547a5fca7ef0ddc2ee490268": {
+      "expires_at": "2026-11-21T00:39:43.234193Z",
+      "record": null,
+      "retrieved_at": "2026-11-14T00:39:43.234193Z",
       "status": "not_found"
     },
     "crossref:title:b78a031a21f8562e54f0e4f0bcf25eac12a745ae2e11160751aa2d7fcfd39d39": {
@@ -16587,6 +16895,12 @@
       "retrieved_at": "2026-09-17T01:02:57.109211Z",
       "status": "not_found"
     },
+    "crossref:title:e6924b787525dad948368be275641f73f1f00a9798a9eb3b0416b3a7ba38881a": {
+      "expires_at": "2026-11-21T00:39:40.010869Z",
+      "record": null,
+      "retrieved_at": "2026-11-14T00:39:40.010869Z",
+      "status": "not_found"
+    },
     "crossref:title:e74e8535525bbba31f3d3f431798d409524cd47a4694f6a29d221d4a1a533b5a": {
       "expires_at": "2026-08-11T09:38:36.452159Z",
       "record": {
@@ -16859,6 +17173,56 @@
       "retrieved_at": "2026-11-06T00:40:56.626599Z",
       "status": "not_found"
     },
+    "crossref:title:ee9710bb2aaddf1d1c5d7a420f25cf480da6bc8910d4869f9c100eb35bac4c74": {
+      "expires_at": "2026-11-21T00:39:42.524658Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Peter Seigo Kincaid",
+            "orcid": "https://orcid.org/0000-0001-6381-7462"
+          },
+          {
+            "name": "Lorenzo De Marinis",
+            "orcid": "https://orcid.org/0000-0003-1462-3199"
+          },
+          {
+            "name": "Alessandro Miorandi",
+            "orcid": null
+          },
+          {
+            "name": "Emilio Paolini",
+            "orcid": "https://orcid.org/0000-0001-7486-9268"
+          },
+          {
+            "name": "Filippo Scotti",
+            "orcid": "https://orcid.org/0000-0002-2553-7096"
+          },
+          {
+            "name": "Nicola Andriolli",
+            "orcid": "https://orcid.org/0000-0001-8322-6854"
+          },
+          {
+            "name": "Giampiero Contestabile",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jlt.2026.3750995",
+        "landing_page": "https://doi.org/10.1109/jlt.2026.3750995",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/jlt.2026.3750995",
+        "publication_date": "2026",
+        "title": "InP Monolithically Integrated Photonic-Electronic Neuron",
+        "venue": "Journal of Lightwave Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:42.524658Z",
+      "status": "found"
+    },
     "crossref:title:ef63a7f91c3b5ef8a19ee9368e136e4954362b505b62725abd03830c35937e1b": {
       "expires_at": "2026-08-27T00:32:23.976550Z",
       "record": null,
@@ -16875,6 +17239,12 @@
       "expires_at": "2026-09-22T01:03:18.781771Z",
       "record": null,
       "retrieved_at": "2026-09-15T01:03:18.781771Z",
+      "status": "not_found"
+    },
+    "crossref:title:f0cc57b0131bc699ff72c6df47b97ea849f85bf6d4b7f4a33282faef9430714d": {
+      "expires_at": "2026-11-21T00:39:36.478670Z",
+      "record": null,
+      "retrieved_at": "2026-11-14T00:39:36.478670Z",
       "status": "not_found"
     },
     "crossref:title:f10ba3b2c5ed07915a5ac2b4211f0170c2946c0150a17cf4e020779a00218b2e": {
@@ -17403,6 +17773,12 @@
       "expires_at": "2026-09-14T01:06:53.072604Z",
       "record": null,
       "retrieved_at": "2026-09-07T01:06:53.072604Z",
+      "status": "not_found"
+    },
+    "crossref:title:ffc4d5e162f6314e1f9892906f4a89fb2c7d4e160861e6013535c057a80042bd": {
+      "expires_at": "2026-11-21T00:39:38.281003Z",
+      "record": null,
+      "retrieved_at": "2026-11-14T00:39:38.281003Z",
       "status": "not_found"
     },
     "openalex:doi:10.1002/adfm.77732": {
@@ -19183,6 +19559,36 @@
       "retrieved_at": "2026-09-13T01:07:34.513037Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/mop.70846": {
+      "expires_at": "2026-12-14T00:39:41.384784Z",
+      "record": {
+        "abstract": "ABSTRACT To overcome the high energy consumption of conventional computing and the integration barriers of bulky diffractive deep neural networks (NNs), this study proposes a compact NN architecture using terahertz (THz) metasurfaces. Specifically, meta‐atoms are engineered to achieve a high polarization conversion transmission coefficient (exceeding 0.9) across the 0.55–0.65 THz range while providing full phase modulation. Based on these meta‐atoms, a THz optical neural network featuring three cascaded hidden layers is constructed. Simulations demonstrate that patterned electromagnetic waves, after being modulated by the three‐layer structure, can be converged onto designated detection regions. The system successfully recognizes a nine‐class subset of the MNIST data set comprising digits 0–6, 8, and 9 at 0.6 THz. This work demonstrates the viability of using THz metasurfaces for compact optical AI hardware with a passive metasurface inference core and next‐generation intelligent sensing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zeyi Zhong",
+            "orcid": "https://orcid.org/0009-0003-3392-8390"
+          },
+          {
+            "name": "Xiaozhou Li",
+            "orcid": "https://orcid.org/0000-0001-7097-4810"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/mop.70846",
+        "landing_page": "https://doi.org/10.1002/mop.70846",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7225166938",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225166938",
+        "publication_date": "2026-11-01",
+        "title": "Terahertz Diffractive Deep Neural Networks via Polarization‐Conversion Metasurfaces for Digit Recognition",
+        "venue": "Microwave and Optical Technology Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:41.384784Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/nap2.70242": {
       "expires_at": "2026-09-17T04:25:18.954571Z",
       "record": {
@@ -20701,6 +21107,82 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-09T01:12:17.851576Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s13042-026-03356-2": {
+      "expires_at": "2026-12-14T00:39:40.940898Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Qingdi Zhang",
+            "orcid": null
+          },
+          {
+            "name": "S. Li",
+            "orcid": null
+          },
+          {
+            "name": "J. Chen",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s13042-026-03356-2",
+        "landing_page": "https://doi.org/10.1007/s13042-026-03356-2",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7225348598",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225348598",
+        "publication_date": "2026-11-01",
+        "title": "Federated learning and NLP for real-time misinformation detection in mobile social networks",
+        "venue": "International Journal of Machine Learning and Cybernetics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:40.940898Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s13272-026-01031-4": {
+      "expires_at": "2026-12-14T00:39:37.908207Z",
+      "record": {
+        "abstract": "Abstract One major focus of enhancing the fuel efficiency in aviation lies in implementing drag reduction technologies. There exists a significant potential to reduce the viscous drag to facilitate this objective by delaying the laminar to turbulent transition of boundary layers using hybrid laminar flow control. This study evaluates the potential of novel Monte Carlo Bayesian optimization techniques used in conjunction with trust regions for high-dimensional aerodynamic design of transonic laminar airfoils and wings using black-box transition models that lack gradient information. The aerodynamic analysis considered in this study is based on coupled Euler-boundary layer equations with a mid-fidelity conical 2.75D approach, which is more suited for the objective to balance the reduction of viscous and wave drag, in comparison to the conventional low-fidelity panel methods used for fully turbulent designs. A comparative analysis of the underlying acquisition functions governing the Bayesian decision policy is also presented in this work. The Bayesian design framework adapted in this study delivers a 98-dimensional laminar wing with very high aerodynamic efficiency and robust performance within a wide design range. Laminar extensions close to 50% chord lengths are achieved at both upper and lower surfaces of the laminar airfoils and wings when assisted with optimized leading-edge suction distributions, thereby also exhibiting significantly lower viscous drag, while maintaining the wave drag at a practically negligible level, which is a major challenge in laminar aerodynamic designs.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Samarth Kakkar",
+            "orcid": "https://orcid.org/0009-0000-6236-7316"
+          },
+          {
+            "name": "Paolo Olivucci",
+            "orcid": "https://orcid.org/0000-0001-7570-1301"
+          },
+          {
+            "name": "Anand Sudhi",
+            "orcid": "https://orcid.org/0000-0003-3007-0758"
+          },
+          {
+            "name": "Camli Badrya",
+            "orcid": "https://orcid.org/0000-0001-5339-0485"
+          },
+          {
+            "name": "Rolf Radespiel",
+            "orcid": "https://orcid.org/0000-0002-7175-4518"
+          }
+        ],
+        "cited_by_count": 2,
+        "doi": "10.1007/s13272-026-01031-4",
+        "landing_page": "https://doi.org/10.1007/s13272-026-01031-4",
+        "open_access_url": "https://doi.org/10.1007/s13272-026-01031-4",
+        "openalex_id": "https://openalex.org/W4411548821",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W4411548821",
+        "publication_date": "2026-11-10",
+        "title": "Gradient free aerodynamic design of laminar airfoils and wings using high dimensional Bayesian optimization",
+        "venue": "CEAS Aeronautical Journal",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:37.908207Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s41939-026-01271-1": {
@@ -26075,6 +26557,56 @@
       "retrieved_at": "2026-10-25T01:05:16.909296Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/jlt.2026.3750995": {
+      "expires_at": "2026-12-14T00:39:42.714553Z",
+      "record": {
+        "abstract": "The rapid growth of AI applications is driving the need for alternative computing hardware, where energy efficiency and compute rate are prioritized at the expense of accuracy and generality. In this work, we present the photonic segment of a photonic-electronic multiply accumulate neuron (PEMAN) based on a monolithic InP platform, representing the first device to fully integrate all required photonic components on a single PIC. The device, packaged on a custom PCB, achieves an ENOB of 2 bits at compute rates up to 10 GBaud. Its functionality was validated on a heartbeat classification task, demonstrating performance comparable to digital inference up to 10 GBaud.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Peter Seigo Kincaid",
+            "orcid": "https://orcid.org/0000-0001-6381-7462"
+          },
+          {
+            "name": "Lorenzo De Marinis",
+            "orcid": "https://orcid.org/0000-0003-1462-3199"
+          },
+          {
+            "name": "Alessandro Miorandi",
+            "orcid": null
+          },
+          {
+            "name": "Emilio Paolini",
+            "orcid": "https://orcid.org/0000-0001-7486-9268"
+          },
+          {
+            "name": "Filippo Scotti",
+            "orcid": "https://orcid.org/0000-0002-2553-7096"
+          },
+          {
+            "name": "Nicola Andriolli",
+            "orcid": "https://orcid.org/0000-0001-8322-6854"
+          },
+          {
+            "name": "G. Contestabile",
+            "orcid": "https://orcid.org/0000-0001-8703-3291"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jlt.2026.3750995",
+        "landing_page": "https://doi.org/10.1109/jlt.2026.3750995",
+        "open_access_url": "https://doi.org/10.1109/jlt.2026.3750995",
+        "openalex_id": "https://openalex.org/W7225625083",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225625083",
+        "publication_date": "2026-01-01",
+        "title": "InP Monolithically Integrated Photonic-Electronic Neuron",
+        "venue": "Journal of Lightwave Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:42.714553Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/jphot.2026.3721155": {
       "expires_at": "2026-09-17T04:25:23.198098Z",
       "record": {
@@ -28647,6 +29179,48 @@
       "retrieved_at": "2026-08-18T04:25:32.142012Z",
       "status": "found"
     },
+    "openalex:doi:10.1145/3830454.3846524": {
+      "expires_at": "2026-12-14T00:39:37.398255Z",
+      "record": {
+        "abstract": "Dot maps, which visualize individual data points as dots over a geographic region, are widely used across diverse domains to represent spatial patterns in sensitive data. However, the understanding of the privacy risks associated with dot maps remains limited, particularly for maps covering large geographic areas. In this paper, we systematically analyze these risks and present AutoLocate, an automated framework for high-precision location recovery. At its core, AutoLocate exploits anti-aliasing artifacts introduced during map rendering, which inadvertently encode sub-pixel information about dot locations. AutoLocate formulates location recovery as a black-box optimization problem, iteratively refining estimated coordinates by minimizing perceptual discrepancies over these artifacts between the target map and rendered candidate maps. Extensive experiments on both real-world and synthetic datasets, across different attack scenarios and a broad range of map configurations (e.g., map scale, background, resolution), demonstrate the effectiveness of AutoLocate. In particular, it achieves average recovery errors as low as 1 meter (approximately 0.0002 pixel precision) on small-scale maps of the United States, over 200x more accurate than existing approaches. We also propose mitigation strategies and introduce a privacy risk assessment tool to help practitioners evaluate and reduce privacy leakage when publishing dot maps.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuntao Du",
+            "orcid": null
+          },
+          {
+            "name": "Tanishq Pauskar",
+            "orcid": null
+          },
+          {
+            "name": "Hao Wang",
+            "orcid": null
+          },
+          {
+            "name": "Jing Su",
+            "orcid": null
+          },
+          {
+            "name": "Ninghui Li",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3830454.3846524",
+        "landing_page": "https://doi.org/10.1145/3830454.3846524",
+        "open_access_url": "https://doi.org/10.1145/3830454.3846524",
+        "openalex_id": "https://openalex.org/W7212068678",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7212068678",
+        "publication_date": "2026-11-12",
+        "title": "Privacy Leakage from a Thousand Words: Millipixel Location Recovery from Dot Maps",
+        "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:37.398255Z",
+      "status": "found"
+    },
     "openalex:doi:10.1145/3837864": {
       "expires_at": "2026-09-08T00:36:01.261178Z",
       "record": {
@@ -28799,6 +29373,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-05T01:13:28.608457Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1177/01617346261495108": {
+      "expires_at": "2026-12-14T00:39:46.903652Z",
+      "record": {
+        "abstract": "Deep learning models for breast ultrasound classification frequently suffer from performance degradation due to domain shifts caused by differences in imaging equipment, acquisition protocols, and preprocessing across institutions. Although test-time adaptation (TTA) has been proposed to mitigate this problem, conventional gradient-based methods may be unstable in medical imaging settings and can even degrade performance under severe target-domain shifts. We propose Uncertainty-guided Steering Vector Test-Time Adaptation (USV-TTA), a gradient-optimization-free TTA method that performs feature correction at test time without updating model parameters. USV-TTA uses frozen source batch-normalization statistics to estimate target-sample uncertainty and derive steering vectors that represent the direction of domain shift, then corrects high-uncertainty samples by suppressing projections along this direction. USV-TTA was evaluated on 4 external breast ultrasound datasets comprising 6267 images included in the binary benign/malignant evaluation. On the class-imbalanced GDPH dataset, USV-TTA achieved the highest AUROC of 0.813, outperforming the source model and preventing the degradation observed with TENT (0.711). On the heterogeneous AJMC dataset, which included images acquired from 11 ultrasound systems, USV-TTA also achieved the highest AUROC of 0.773. On BrEaST and BUS-BRA, USV-TTA maintained competitive discrimination performance, although DLTTA achieved the highest AUROC on BrEaST and SAR achieved the highest AUROC on BUS-BRA. Across target datasets, USV-TTA reduced expected calibration error in the most challenging domains without incurring the instability observed in several gradient-based TTA methods. These findings suggest that effective and stable test-time adaptation for breast ultrasound classification can be achieved without gradient-based optimization, supporting safer deployment under domain shift.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Woo Sik Cho",
+            "orcid": null
+          },
+          {
+            "name": "Jun Hyeong Park",
+            "orcid": null
+          },
+          {
+            "name": "SEONHWA KIM",
+            "orcid": null
+          },
+          {
+            "name": "Jaesung Heo",
+            "orcid": "https://orcid.org/0000-0003-2066-9062"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1177/01617346261495108",
+        "landing_page": "https://doi.org/10.1177/01617346261495108",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7225636418",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225636418",
+        "publication_date": "2026-11-08",
+        "title": "Uncertainty-Guided Steering Vector Test-Time Adaptation for the Classification of Breast Ultrasound Images",
+        "venue": "Ultrasonic Imaging",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:46.903652Z",
       "status": "found"
     },
     "openalex:doi:10.1186/s43067-026-00403-4": {
@@ -31681,6 +32293,52 @@
       "retrieved_at": "2026-09-18T01:02:30.201153Z",
       "status": "found"
     },
+    "openalex:doi:10.3390/ai7110470": {
+      "expires_at": "2026-12-14T00:39:46.404496Z",
+      "record": {
+        "abstract": "Reinforcement learning (RL) provides an autonomous approach to quantitative trading by allowing an agent to learn a trading policy through repeated interaction with a market environment rather than through hand-crafted rules. The aim of an RL trading agent is to select actions that maximize long-term rewards while meeting a chosen level of risk. This review examines RL applications in quantitative trading, with particular attention to value-based, policy-based, and actor–critic methods. It summarizes the reported returns, risk-adjusted performance, evaluation settings, and practical limitations of the reviewed studies. Although many RL methods report promising results in backtests and simulated environments, their outcomes are highly dependent on data selection, feature construction, transaction cost assumptions, training procedures, reward design, and validation protocols. Consequently, reported returns, Sharpe ratios, and drawdowns across studies are not directly comparable and should not be interpreted as evidence that one RL method is universally superior to another. This review shows that relevant state information, suitable reward functions, realistic risk management, and deep neural feature extraction can improve RL trading performance. However, reliable progress requires transparent and consistent reporting of data handling, time-respecting validation, execution assumptions, transaction costs, slippage, and risk-adjusted trading outcomes. We therefore argue that future RL trading research should adopt Quantitative Finance Reporting Standard (QFRS), to make trading claims data leakage free, reproducible, back-tested, economically meaningful, and comparable across studies.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Matloob Khushi",
+            "orcid": "https://orcid.org/0000-0001-7792-2327"
+          },
+          {
+            "name": "Rakesh Kumar Sanodiya",
+            "orcid": "https://orcid.org/0000-0002-9524-9284"
+          },
+          {
+            "name": "Basem Suleiman",
+            "orcid": "https://orcid.org/0000-0003-2674-0253"
+          },
+          {
+            "name": "Sachit Desa",
+            "orcid": "https://orcid.org/0000-0002-9311-0123"
+          },
+          {
+            "name": "Shahadat Uddin",
+            "orcid": "https://orcid.org/0000-0003-0091-6919"
+          },
+          {
+            "name": "Xiaojian Lu",
+            "orcid": "https://orcid.org/0009-0007-6135-4813"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/ai7110470",
+        "landing_page": "https://doi.org/10.3390/ai7110470",
+        "open_access_url": "https://doi.org/10.3390/ai7110470",
+        "openalex_id": "https://openalex.org/W7225715073",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225715073",
+        "publication_date": "2026-11-10",
+        "title": "Reinforcement Learning in Quantitative Trading: A Review of Current Approaches and Breakthroughs",
+        "venue": "AI",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:46.404496Z",
+      "status": "found"
+    },
     "openalex:doi:10.3390/asi9110222": {
       "expires_at": "2026-11-30T00:40:11.055034Z",
       "record": {
@@ -31805,6 +32463,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-28T00:48:21.292193Z",
+      "status": "found"
+    },
+    "openalex:doi:10.3390/jcp6060196": {
+      "expires_at": "2026-12-14T00:39:44.396149Z",
+      "record": {
+        "abstract": "Federated learning has emerged as a privacy-preserving paradigm that collaboratively trains a model without sharing raw data. However, federated learning remains highly vulnerable to abnormal or malicious participants. Differential privacy techniques are widely adopted to safeguard client data during federated optimization, but the added privacy noise makes it harder to detect such malicious behaviors. Existing malicious client detection techniques make the implicit assumption that behavioral signals are still identifiable. However, these signals are distorted by differential privacy, the very mechanism that protects client information, making it harder to identify between benign and malicious clients. Because of this, enhancing privacy often reduces attack detection effectiveness, a problem that is still mostly unsolved. We present a new privacy-preserving temporal multi-relational graph learning framework, which improves the ability to detect malicious clients in the differentially private setting. By taking into account the temporal and relational dependency structures of clients through the communication rounds, our framework minimizes the dependence on single behavioral information that is distorted due to privacy noise. In addition, exponential moving average smoothing and persistence-based temporal voting are introduced to ensure detector stability and minimize potential false positives due to privacy-induced perturbations. The proposed framework is comprehensively evaluated on three benchmark datasets, namely, FashionMNIST, CSE-CIC-IDS2018, and CIC-IoT2023, under both IID and non-IID data distributions across diverse adversarial scenarios, including label-flip, backdoor, gradient-lie, free-rider, and Sybil attacks. Experimental evaluation, supported by privacy-budget analysis, component-wise ablation studies, and comparisons with representative robust aggregation methods and recent malicious client detection baselines, demonstrates that the proposed approach consistently achieves a better balance among malicious client detection accuracy, attack mitigation, global model utility, and privacy preservation. On CIC-IoT2023, under the non-IID gradient-lie attack, the detector achieved a detection accuracy of 0.8467±0.0231 and a recall of 1.0000±0.0000 at a composed privacy budget of approximately ϵtotal=7.05, demonstrating that malicious client detection can be retained while providing stronger privacy protection. In addition to improving detection performance, the proposed work quantitatively assesses the degradation of malicious client separability caused by increased differential privacy and shows that temporal relational modeling significantly mitigates this effect.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Anuja Kunjumon",
+            "orcid": "https://orcid.org/0009-0009-7700-6762"
+          },
+          {
+            "name": "Sunitha Edacheril Viswanathan",
+            "orcid": null
+          },
+          {
+            "name": "Jyothisha J. Nair",
+            "orcid": "https://orcid.org/0000-0002-8050-8896"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/jcp6060196",
+        "landing_page": "https://doi.org/10.3390/jcp6060196",
+        "open_access_url": "https://doi.org/10.3390/jcp6060196",
+        "openalex_id": "https://openalex.org/W7225610586",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225610586",
+        "publication_date": "2026-11-08",
+        "title": "Preserving Malicious Client Detectability Under Differential Privacy Through Temporal Multi-Relation Graph Learning",
+        "venue": "Journal of Cybersecurity and Privacy",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:44.396149Z",
       "status": "found"
     },
     "openalex:doi:10.3390/math14214006": {
@@ -34752,6 +35444,68 @@
       "retrieved_at": "2026-10-03T01:04:39.319738Z",
       "status": "not_found"
     },
+    "openalex:title:19178bfe1f774d635fa72ab85e040359c1547f45bddeae838de09814a721b473": {
+      "expires_at": "2026-11-21T00:39:34.009384Z",
+      "record": {
+        "abstract": "Medical images encode intrinsic tissue properties that indicate disease progression, yet these properties remain entangled with the system-dependent physics of image formation. Differentiable inverse rendering asks whether they are recoverable by inverting the imaging system's forward physics rather than through post-hoc correction. We address this in optical coherence tomography (OCT), focusing on the optical attenuation coefficient, a per-pixel marker of pathology and cellular composition. Conventional recovery relies on closed-form inversions limited to simplified light-tissue models, or learned methods coupled to specific imaging configurations. We instead recover per-pixel attenuation from a single OCT image by gradient descent through a differentiable physics-based forward model. We verified the method against analytical solutions, validated it on five in vitro phantoms, and applied it without modification to 29{,}269 clinical intravascular OCT images from 128 patients. The inversion needs no training data or segmentations and is portable across platforms and retrospective archives. Replacing the forward model or recovering another optical parameter leaves the optimization procedure unchanged. We demonstrate per-pixel recovery is tractable because gradient information scales to this high-dimensional problem, where gradient-free methods become intractable. Our work supports quantitative tissue characterization from OCT images and provides a framework for extension across imaging modalities and organ systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ajay Manicka",
+            "orcid": "https://orcid.org/0000-0001-7985-0232"
+          },
+          {
+            "name": "Karim Kadry",
+            "orcid": "https://orcid.org/0000-0001-9520-0504"
+          },
+          {
+            "name": "Sebastián Ruiz-Lopera",
+            "orcid": "https://orcid.org/0009-0002-1688-1853"
+          },
+          {
+            "name": "Maryam Alsharqi",
+            "orcid": "https://orcid.org/0000-0002-0423-9591"
+          },
+          {
+            "name": "Sanjana Arji",
+            "orcid": null
+          },
+          {
+            "name": "Samuel Ruiperez-Campillo",
+            "orcid": null
+          },
+          {
+            "name": "Néstor Uribe‐Patarroyo",
+            "orcid": "https://orcid.org/0000-0001-9201-2196"
+          },
+          {
+            "name": "Brett E. Bouma",
+            "orcid": "https://orcid.org/0000-0002-4531-2206"
+          },
+          {
+            "name": "Farhad Nezami",
+            "orcid": null
+          },
+          {
+            "name": "Elazer Reuven Edelman",
+            "orcid": "https://orcid.org/0000-0002-7832-7156"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.12686",
+        "landing_page": "https://arxiv.org/abs/2611.12686",
+        "open_access_url": "https://arxiv.org/abs/2611.12686",
+        "openalex_id": "https://openalex.org/W7225719955",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225719955",
+        "publication_date": "2026-11-09",
+        "title": "Differentiable Inverse Rendering Recovers Intrinsic Properties from Intravascular Optical Coherence Tomography",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:34.009384Z",
+      "status": "found"
+    },
     "openalex:title:194b18c310f1c95fa7b57f32bf8eac8d8d12cca5a8f0adbc26cb774d869457a4": {
       "expires_at": "2026-09-07T01:07:02.675473Z",
       "record": {
@@ -35097,6 +35851,40 @@
       "record": null,
       "retrieved_at": "2026-10-28T00:48:18.621815Z",
       "status": "not_found"
+    },
+    "openalex:title:2bca5dd91804642d0d23a62b49f2568d9b4f0d9e9227c04ebdc3aea234be92f9": {
+      "expires_at": "2026-11-21T00:39:33.200623Z",
+      "record": {
+        "abstract": "Photonic processors are emerging as promising platforms in the race towards the realization of practical universal quantum computers. Several architectures with universal capabilities have been proposed for their implementation via a photonic platform, each with their own set of benefits and drawbacks. In this work we propose an architecture for a universal photonic quantum computer. The proposed architecture is modular, allowing for a high degree of flexibility and scalability, and relies on a loop-based structure, significantly reducing the number of physical components required to implement it experimentally. We prove that our architecture is universal, deterministic, and compatible with the quantum circuital model, as well as reprogrammable and capable of adaptive measurements. Furthermore, we showcase its functioning via numerical simulation on specific examples, by using machine learning techniques on a set of fundamental linear and nonlinear optical components to obtain some of the building blocks used in the architecture. The obtained results can be used to highlight the benefits and the drawbacks of the proposed architecture, as well as the route for future developments towards its physical implementation.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Denis Stanev",
+            "orcid": "https://orcid.org/0000-0002-7334-0159"
+          },
+          {
+            "name": "Nicolò Spagnolo",
+            "orcid": "https://orcid.org/0000-0003-3471-2252"
+          },
+          {
+            "name": "Fabio Sciarrino",
+            "orcid": "https://orcid.org/0000-0003-1715-245X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.12126",
+        "landing_page": "https://arxiv.org/abs/2611.12126",
+        "open_access_url": "https://arxiv.org/abs/2611.12126",
+        "openalex_id": "https://openalex.org/W7225728655",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225728655",
+        "publication_date": "2026-11-09",
+        "title": "Modular and Looping Quantum Photonic Processing Unit for Quantum Computing",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:33.200623Z",
+      "status": "found"
     },
     "openalex:title:2c07bb7239f1c6739bb02047e88fa7613eaedc31c559b6d954bbdf73ecfbbe87": {
       "expires_at": "2026-08-16T00:36:13.940109Z",
@@ -36136,6 +36924,36 @@
       "retrieved_at": "2026-09-28T01:11:35.333069Z",
       "status": "not_found"
     },
+    "openalex:title:51493310f4d97780c98a86284c31cf9bde1dd9806f4e6d329daf76e08453a638": {
+      "expires_at": "2026-11-21T00:39:42.190665Z",
+      "record": {
+        "abstract": "Zeroth-order methods provide a way to optimize stochastic nonconvex objectives using only noisy function evaluations. However, the smoothing inherent in their gradient estimators effectively modifies the objective being optimized. In particular, Gaussian smoothing with smoothing parameter $η>0$ induces, to leading order, an implicit Hessian-trace regularization, which motivates the study of the curvature-regularized objective of the form $f(x)+(η^2/2) tr(\\nabla^2 f(x))$. We develop a non-asymptotic theory in the nonconvex setting for a class of algorithms called stochastic zeroth-order Langevin dynamics (ZOLD), which use only noisy function evaluations and do not have access to first- or higher-order derivative information, and derive excess-risk guarantees for the curvature-regularized objective. We first control the finite-time distribution of the ZOLD iterates in Wasserstein distance with respect to the Gibbs measure associated with the Gaussian-smoothed objective. An explicit coupling between the smoothing and inverse temperature parameters then quantifies the proximity of this measure to the Gibbs measure associated with the corresponding Hessian-trace-regularized objective. These distributional estimates in Wasserstein distance lead to excess-risk bounds for the curvature-regularized objective. Our analysis accommodates assumptions under which the stochastic function evaluations are allowed to have non-uniform dependence on the data stream. In addition, the constants in the non-asymptotic bounds do not rely on log-Sobolev or Poincaré inequalities as in prior zeroth-order Langevin analyses. To the best of our knowledge, this is the first non-asymptotic analysis of a zeroth-order Langevin method that simultaneously establishes excess-risk guarantees for a curvature-regularized objective and Wasserstein guarantees for the associated Gibbs measure in the nonconvex setting.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Stefano Bruno",
+            "orcid": "https://orcid.org/0000-0001-6714-244X"
+          },
+          {
+            "name": "Dong‐Young Lim",
+            "orcid": "https://orcid.org/0000-0002-4677-965X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.10461",
+        "landing_page": "https://arxiv.org/abs/2611.10461",
+        "open_access_url": "https://arxiv.org/abs/2611.10461",
+        "openalex_id": "https://openalex.org/W7225730651",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225730651",
+        "publication_date": "2026-11-07",
+        "title": "Zeroth-Order Langevin Dynamics for Stochastic Nonconvex Optimization: Curvature Regularization and Non-Asymptotic Guarantees",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:42.190665Z",
+      "status": "found"
+    },
     "openalex:title:515316e23ebc42e941cd8b6423767ee9dacba9cc10cb175c2ece28292649cbd1": {
       "expires_at": "2026-09-07T01:07:06.053965Z",
       "record": null,
@@ -36990,6 +37808,48 @@
       "retrieved_at": "2026-09-13T01:07:29.581460Z",
       "status": "not_found"
     },
+    "openalex:title:7c302ea77f41eba7bbe8fbcf33346c9385769f1222210910e9119eef0669b779": {
+      "expires_at": "2026-11-21T00:39:39.703907Z",
+      "record": {
+        "abstract": "Zeroth-order (ZO) optimization estimates descent directions from function values alone, which removes the activation storage required by backpropagation and makes it attractive for memory-efficient fine-tuning of large language models (LLMs). Existing low-rank ZO methods either parameterize the additive update through Euclidean factors with a non-unique representation, or restrict each finite-difference direction to be low-rank. In this work, we propose to constrain each additive update block to a fixed-rank matrix manifold while keeping the pretrained weights frozen, so the learned update remains rank-constrained throughout fine-tuning. On this geometry, we build a Riemannian ZO gradient estimator that projects a random matrix onto the tangent space, normalizes it to correct the scale mismatch induced by projection, and further propose Zeroth-order Riemannian Gradient Descent (ZO-RGD) and its smoothed variant, ZO-RGD-S. We show that the ambient finite difference matches its retracted counterpart, the normalized estimator recovers the Riemannian gradient in expectation, and ZO-RGD converges under trajectory-regularity conditions. Experiments on LLM fine-tuning tasks show that the proposed algorithms are competitive with strong forward-only baselines across model families and tasks, with gains in several settings.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xinjue Wang",
+            "orcid": null
+          },
+          {
+            "name": "Xiuheng Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yejun Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Sergiy A. Vorobyov",
+            "orcid": "https://orcid.org/0000-0001-7249-647X"
+          },
+          {
+            "name": "Esa Ollila",
+            "orcid": "https://orcid.org/0000-0002-0898-5313"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.10792",
+        "landing_page": "https://arxiv.org/abs/2611.10792",
+        "open_access_url": "https://arxiv.org/abs/2611.10792",
+        "openalex_id": "https://openalex.org/W7225751030",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225751030",
+        "publication_date": "2026-11-07",
+        "title": "Zeroth-Order Riemannian Optimization on Fixed-Rank Manifolds for LLM Fine-Tuning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:39.703907Z",
+      "status": "found"
+    },
     "openalex:title:7d6cb9b4d395b4a4a783b153ff09925de006d897efafc8be293f03e4c950d6af": {
       "expires_at": "2026-09-14T01:06:50.214132Z",
       "record": null,
@@ -37215,6 +38075,56 @@
       "record": null,
       "retrieved_at": "2026-08-27T16:32:37.119995Z",
       "status": "not_found"
+    },
+    "openalex:title:85c38382791554135705ec0f36ce5dfb55dc99dc6103efed683dba3e3847c524": {
+      "expires_at": "2026-11-21T00:39:36.019562Z",
+      "record": {
+        "abstract": "Programmable photonic circuits are a natural platform for physical learning, where hardware parameters are trained directly from measured feedback. We propose a physical learning algorithm and architecture for continuous-variable quantum systems where a photonic circuit is trained in situ to invert an unknown lossless Gaussian quantum operation. We prove that a generic symplectic matrix $S\\in\\mathrm{Sp}(2N,\\mathbb{R})$ admits a decomposition into a triangular array of two-mode symplectic gates on neighboring modes, followed by single-mode symplectic gates. We then introduce the symplectic Reck mesh, which physically realizes this factorization, generalizing the unitary Reck mesh widely used in optical neural networks. When placed after an unknown Gaussian unitary, the mesh is trained in situ by nulling local response blocks one at a time using optical probes and measurements. We identify a local condition number that quantifies the squeezing required for a nulling step and its sensitivity to measurement error. We numerically demonstrate finite-shot training and robustness to systematic gate-calibration errors. Our work extends self-configuring optical networks from unitary to symplectic transformations, bringing physical learning to continuous-variable quantum photonic hardware.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Janet Zhong",
+            "orcid": "https://orcid.org/0000-0002-2196-4656"
+          },
+          {
+            "name": "Renwen Yu",
+            "orcid": "https://orcid.org/0000-0002-9701-5270"
+          },
+          {
+            "name": "Paul-Alexis Mor",
+            "orcid": "https://orcid.org/0009-0001-7833-1788"
+          },
+          {
+            "name": "Charles Roques‐Carmes",
+            "orcid": "https://orcid.org/0000-0002-1168-5944"
+          },
+          {
+            "name": "Aviv Karnieli",
+            "orcid": "https://orcid.org/0000-0002-4056-4455"
+          },
+          {
+            "name": "David A. B. Miller",
+            "orcid": "https://orcid.org/0000-0002-3633-7479"
+          },
+          {
+            "name": "Shanhui Fan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.10206",
+        "landing_page": "https://arxiv.org/abs/2611.10206",
+        "open_access_url": "https://arxiv.org/abs/2611.10206",
+        "openalex_id": "https://openalex.org/W7225701511",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225701511",
+        "publication_date": "2026-11-06",
+        "title": "Symplectic Reck: In-Situ Learning of Gaussian Quantum Operations",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:36.019562Z",
+      "status": "found"
     },
     "openalex:title:85e35b13ee3b8665a9766e52f21821fc9b527a020566b61a0577ffed5466379b": {
       "expires_at": "2026-11-17T00:40:05.783749Z",
@@ -37669,6 +38579,40 @@
       "record": null,
       "retrieved_at": "2026-09-01T01:13:19.360131Z",
       "status": "not_found"
+    },
+    "openalex:title:980fe98736eb335931502f7ef7b6df12aea65ba1b1af38270ff3e582225cc32e": {
+      "expires_at": "2026-11-21T00:39:45.461701Z",
+      "record": {
+        "abstract": "Almost all solutions to vision tasks $\\unicode{x2014}$ offered by nature and technology alike $\\unicode{x2014}$ rely on capturing an image using a lens or a similar optical instrument, followed by computational analysis by neurons of a brain or a digital computer. This approach is inherently suboptimal in photon-limited and noisy conditions, where critical information is irreversibly lost at the measurement stage. We address this gap by introducing AI-driven optimization of quantum measurements on the incoming photons, learning how to extract the maximum possible information for a given computer vision task from each incoming photon. The trained measurement consists of a diffractive optical neural network (DONN) followed by a detector array. We train the DONN with a quantum information-theoretic objective that maximizes the rate at which the discrimination error decays as photons accumulate. The resulting measurement achieves exponentially lower error than both direct imaging and a DONN optimized for single-photon discrimination. We validate the advantage in a noiseless setting as well as a photon-counting experiment with an electron-multiplying CCD with the noise corresponding to $10^4$ photons per single signal photon, where the measurement also learns to mitigate the detector noise.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "A. Duplinskiy",
+            "orcid": null
+          },
+          {
+            "name": "M. J. Filipovich",
+            "orcid": null
+          },
+          {
+            "name": "Alexander I. Lvovsky",
+            "orcid": "https://orcid.org/0000-0003-3165-6654"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.10282",
+        "landing_page": "https://arxiv.org/abs/2611.10282",
+        "open_access_url": "https://arxiv.org/abs/2611.10282",
+        "openalex_id": "https://openalex.org/W7225738855",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225738855",
+        "publication_date": "2026-11-06",
+        "title": "Experimental visual quantum state discrimination",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:45.461701Z",
+      "status": "found"
     },
     "openalex:title:98206b5b368d642c4c65e9a4c8d8a400b9ea7672656d4afb327ef00878236e9d": {
       "expires_at": "2026-10-13T01:07:14.987092Z",
@@ -38704,6 +39648,48 @@
         "year": null
       },
       "retrieved_at": "2026-10-21T01:00:31.496198Z",
+      "status": "found"
+    },
+    "openalex:title:b7635a06654f99d3f66a00af024e8a9f3bd85d1b547a5fca7ef0ddc2ee490268": {
+      "expires_at": "2026-11-21T00:39:43.789363Z",
+      "record": {
+        "abstract": "Safety-aligned language models are known to suffer degradation in refusal behavior following domain-specific fine-tuning, even when the fine-tuning data is entirely benign. The predominant mitigation strategy, preference optimization on the fine-tuned model, is computationally expensive and requires domain-specific preference data that is often unavailable in practice. We propose SPECTRA, a training-free, weight-level method that restores refusal behavior by transferring the base model's refusal direction into the fine-tuned model's weights via an activation-aware, low-rank update, requiring no gradient-based optimization or domain-specific safety data. The low-rank design restricts the intervention to the subspace most causally active on harmful inputs, leaving benign behavior largely undisturbed by construction. Empirically, SPECTRA substantially improves refusal behavior across a comprehensive safety evaluation, while preserving general coherence, domain-specific knowledge, and producing negligible change in false refusal rates.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Vishnu Kabir Chhabra",
+            "orcid": null
+          },
+          {
+            "name": "Ding Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Zhihui Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Xueru Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Mohammad Mahdi Khalili",
+            "orcid": "https://orcid.org/0000-0002-4223-3254"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.10279",
+        "landing_page": "https://arxiv.org/abs/2611.10279",
+        "open_access_url": "https://arxiv.org/abs/2611.10279",
+        "openalex_id": "https://openalex.org/W7225746627",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225746627",
+        "publication_date": "2026-11-06",
+        "title": "Restoring General and Improving Domain-Specific Safety in Fine-Tuned LLMs Without Retraining",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:43.789363Z",
       "status": "found"
     },
     "openalex:title:b857736f74d4b6b8dd053691f8ebf5361af4a98b2c82f0ab5e97cf4484e5b711": {
@@ -39980,6 +40966,32 @@
       "retrieved_at": "2026-09-17T01:02:58.086148Z",
       "status": "not_found"
     },
+    "openalex:title:e6924b787525dad948368be275641f73f1f00a9798a9eb3b0416b3a7ba38881a": {
+      "expires_at": "2026-11-21T00:39:40.437996Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ashutosh Mishra",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.22028/d291-48942",
+        "landing_page": "https://doi.org/10.22028/d291-48942",
+        "open_access_url": "https://doi.org/10.22028/d291-48942",
+        "openalex_id": "https://openalex.org/W7225718029",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225718029",
+        "publication_date": "2026-01-01",
+        "title": "Open-loop quantum control for practical superconducting quantum systems",
+        "venue": "Publications of the UdS (Saarland University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:40.437996Z",
+      "status": "found"
+    },
     "openalex:title:eb09b8187914e28cf1b2ead8987eda5d5f4f6d9435ce03e2bbef87cf6d682749": {
       "expires_at": "2026-10-13T01:07:13.007837Z",
       "record": null,
@@ -40219,6 +41231,44 @@
       "record": null,
       "retrieved_at": "2026-09-15T01:03:20.362221Z",
       "status": "not_found"
+    },
+    "openalex:title:f0cc57b0131bc699ff72c6df47b97ea849f85bf6d4b7f4a33282faef9430714d": {
+      "expires_at": "2026-11-21T00:39:36.912873Z",
+      "record": {
+        "abstract": "LLMs are powerful but incur substantial inference cost, which can be exploited by malicious users to induce overly long outputs, increasing latency and operational expense. Prior resource consumption attacks either coerce repetition or suppress the end-of-sequence token by lowering its logit value. However, with autoregressive, sampling-based generation, the search space grows exponentially with length and small deviations or unstable trajectories can derail optimization, limiting attack effectiveness and stability. To address this issue, we introduce Chatter Attack, a novel class of resource consumption attacks that optimize adversarial prompts to induce predefined short target phrases, thereby avoiding search-space explosion while still eliciting long responses. Specifically, Chatter Attack triggers self-doubt using short doubt-inducing phrases as the target, and sustains this state throughout generation via inference attention loss and global entropy loss. To extend to black-box settings, we further propose a novel Bayesian Prompt Optimization (BPO) method, which models the objective function globally by constructing a discrete token kernel, efficiently exploring the entire search space using prior information. Extensive experiments across multiple models and datasets show that our method outperforms baselines, with maximum response length increases to 31.5$\\times$, and revealing practical resource-depletion risks for real-world LLM inference services.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yibo Miao",
+            "orcid": null
+          },
+          {
+            "name": "Yichuan Cao",
+            "orcid": null
+          },
+          {
+            "name": "Xiao-Shan Gao",
+            "orcid": null
+          },
+          {
+            "name": "Yinpeng Dong",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.11261",
+        "landing_page": "https://arxiv.org/abs/2611.11261",
+        "open_access_url": "https://arxiv.org/abs/2611.11261",
+        "openalex_id": "https://openalex.org/W7225736009",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225736009",
+        "publication_date": "2026-11-08",
+        "title": "Chatter Attack: Resource Consumption Attack for Large Language Models",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:36.912873Z",
+      "status": "found"
     },
     "openalex:title:f10ba3b2c5ed07915a5ac2b4211f0170c2946c0150a17cf4e020779a00218b2e": {
       "expires_at": "2026-10-07T01:10:12.168810Z",
@@ -40497,6 +41547,32 @@
       "record": null,
       "retrieved_at": "2026-09-07T01:06:53.575220Z",
       "status": "not_found"
+    },
+    "openalex:title:ffc4d5e162f6314e1f9892906f4a89fb2c7d4e160861e6013535c057a80042bd": {
+      "expires_at": "2026-11-21T00:39:38.825648Z",
+      "record": {
+        "abstract": "Stochastic optimization relies on information whose statistical quality, availability, and computational cost can vary substantially. Heavy-tailed observations challenge concentration, compression distorts communicated vectors, and generalized smoothness changes how far an algorithm can move. This dissertation studies these difficulties through two linked design decisions: how to construct an informative search vector and how to convert it into a controlled step. We first develop high-probability methods under bounded central $p$-th moments, $p\\in(1,2]$, permitting infinite variance when $p<2$. Clipped gradient, accelerated, extragradient, and gradient descent--ascent methods provide guarantees for stochastic minimization and variational inequalities, with smoothness and moment conditions imposed only on regions containing the iterates with high probability. For composite and distributed problems, shifted and innovation clipping preserve the deterministic fixed point that direct clipping can disturb. The distributed guarantees also retain linear speedup in the stated stochastic terms. We then characterize the value of richer stochastic information through lower complexity bounds and corresponding algorithms. The bounds quantify when same-sample gradient differences and stochastic Hessian information improve heavy-tailed nonconvex optimization. Normalized momentum variance reduction and Hessian-corrected momentum attain matching or near-matching in-expectation bounds in the stated oracle regimes. Separately clipping gradients and their correction terms yields batch-free high-probability methods with polylogarithmic confidence dependence. For compressed distributed optimization, we establish convergence of normalized error-feedback methods under generalized smoothness without a uniform gradient-dissimilarity assumption. Under standard smoothness, we develop parameter-agnostic variants with five momentum estimators whose decreasing stepsizes require neither smoothness constants nor the initial optimality gap. Finally, we extend the estimator hierarchy to linear minimization oracles over arbitrary norm balls. The analysis bounds the minimum expected dual gradient norm along the trajectory, recovering the corresponding Euclidean convergence orders under estimator-specific generalized smoothness. Together, these results connect the statistical quality of stochastic information, its reconstruction under compression, and the geometry of the resulting update. They identify how controlled transformations and steps can improve convergence, and where lower bounds delimit the gains available from richer information.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Abdurakhmon Sadiev",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.25781/kaust-j6k0t",
+        "landing_page": "https://arxiv.org/abs/2611.11459",
+        "open_access_url": "https://arxiv.org/abs/2611.11459",
+        "openalex_id": "https://openalex.org/W7225599193",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225599193",
+        "publication_date": "2026-11-08",
+        "title": "From Imperfect Information to Controlled Steps: Stochastic Optimization under Heavy-Tailed Noise and Compression",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-14T00:39:38.825648Z",
+      "status": "found"
     }
   },
   "schema_version": 1

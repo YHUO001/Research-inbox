@@ -1,34 +1,221 @@
 {
-  "actual_summary_count": 0,
-  "author_metadata_enriched_count": 0,
-  "author_metadata_fallback_count": 0,
-  "author_metadata_mode": "selected_openalex_work_metadata_with_safe_fallback",
-  "automatic_queue_candidate_count": 0,
-  "built_at": "2026-11-13T00:42:07.654343Z",
+  "abstract_fallback_candidate_ids": [],
+  "abstract_fallback_count": 0,
+  "automatic_history_pending": false,
+  "automatic_queue_candidate_count": 2,
   "completed_candidate_filtered_count": 0,
   "daily_digest_pending": false,
-  "digest_date": "2026-11-13",
-  "digest_json_file": "runtime-state/data/digests/2026-11-13.preview.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-11-13.preview.md",
+  "digest_date": "2026-11-14",
   "email_enabled": false,
+  "estimated_cost_cny": 0.0,
   "execution_mode": "automatic_daily_batch",
-  "full_text_used": false,
+  "failure_count": 2,
+  "failures": [
+    {
+      "candidate_id": "c8eab601a12e0edc6ea689c7",
+      "reason": "http_402"
+    },
+    {
+      "candidate_id": "613738348c3064572d16e38f",
+      "reason": "http_402"
+    }
+  ],
+  "full_text_method_contexts": {
+    "613738348c3064572d16e38f": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "613738348c3064572d16e38f",
+      "character_count": 12000,
+      "content_sha256": "5625865f23f6599465c24a7e8c8fa46ffdcf8ae4c5ca8c7c802dcc2d310db308",
+      "elapsed_seconds": 0.785,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        "4 Proposed method",
+        "Blockwise implementation and memory:",
+        "Appendix A Algorithmic and Implementation Details",
+        "A.4 Complexity of the implementation",
+        "D.1 Training protocol and configurations"
+      ],
+      "source_url": "https://arxiv.org/html/2611.10792",
+      "status": "used",
+      "text_persisted": false
+    },
+    "c8eab601a12e0edc6ea689c7": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "c8eab601a12e0edc6ea689c7",
+      "character_count": 12000,
+      "content_sha256": "8221289ae66687c1e017fff1440e471c62c3e6a0fb87941ef8649647a1d55506",
+      "elapsed_seconds": 1.01,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        "Zeroth-order, or derivative-free, stochastic optimization methods provide a natural approach to solving (",
+        "Such methods have found wide applicability in black-box",
+        "zeroth-order methods have also been used for memory-efficient fine-tuning",
+        "preference of optimization methods for solutions with lower local",
+        "zeroth-order Langevin methods for sampling, zeroth-order Langevin methods for nonconvex optimization, and",
+        "Comparison of zeroth-order Langevin methods and curvature-regularization",
+        "method uses Langevin dynamics, accommodates nonconvex objectives,",
+        "The first line of work studies zeroth-order Langevin methods for sampling from the target distribution",
+        "zeroth-order Langevin method for non-log-concave sampling. Their analysis",
+        "effect of zeroth-order methods as an implicit regularizer. Our",
+        "curva-ture-regularized target. Therefore, we report the algorithmic complexity of closely related methods. In this case, the",
+        ". Thus, our method attains the same explicit",
+        "ZO-AdaMM: Zeroth-order adaptive momentum method for black-box",
+        "Stochastic first-and zeroth-order methods for nonconvex stochastic",
+        "First-order and stochastic optimization methods for machine"
+      ],
+      "source_url": "https://arxiv.org/html/2611.10461",
+      "status": "used",
+      "text_persisted": false
+    }
+  },
+  "full_text_persisted": false,
+  "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
   "knowledge_base_pending": false,
-  "llm_enabled": true,
+  "model": "deepseek-v4-pro",
+  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+  "numeric_matching": {
+    "absolute_tolerance": 0.02,
+    "approximation_markers_ignored": true,
+    "evidence_sources": [
+      "title",
+      "abstract",
+      "temporary_open_full_text_methods"
+    ],
+    "full_text_unsupported_sentence_action": "deterministic_redaction",
+    "relative_tolerance": 0.02,
+    "unit_format_ignored": true,
+    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
+  },
   "output_language": "zh-CN",
-  "provider": "not_configured",
-  "queue_candidate_count": 0,
-  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "request_count": 0,
-  "request_file": "runtime-state/data/summary_requests/2026-11-13.jsonl",
-  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "prepared_request_count": 2,
+  "provider": "deepseek",
+  "queue_sha256": "e56cba4b4c9447b10ffd4fc0ff014296422ab222947de18b12c7aab07baa755c",
+  "request_count": 2,
+  "request_file": "runtime-state/data/summary_requests/2026-11-14.jsonl",
+  "request_sha256": "c263d0ffffba02928fdc8dffa12586b050bbfc5efe277190aa4fa0275fe0cfbd",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "083ae5d3276699efd50d07e1b9c459f523c1c0383269a52786ad5449fa5da0a1",
-  "source_queue_candidate_count": 0,
-  "status": "no_candidates",
+  "selection_manifest_sha256": "817bcbcfb7d048989ef9d7a07ccaedb5622bef517238fe8f4140aebacccaa71b",
+  "skipped_no_abstract_candidate_ids": [],
+  "skipped_no_abstract_count": 0,
+  "source_queue_candidate_count": 2,
+  "stage_timings": {
+    "full_text_preparation_seconds": 1.802,
+    "model_api_calls": [
+      {
+        "attempt": 1,
+        "candidate_id": "c8eab601a12e0edc6ea689c7",
+        "elapsed_seconds": 0.692,
+        "error": "DeepSeekRequestError: http_402",
+        "status": "error"
+      },
+      {
+        "attempt": 2,
+        "candidate_id": "c8eab601a12e0edc6ea689c7",
+        "elapsed_seconds": 0.666,
+        "error": "DeepSeekRequestError: http_402",
+        "status": "error"
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "613738348c3064572d16e38f",
+        "elapsed_seconds": 0.688,
+        "error": "DeepSeekRequestError: http_402",
+        "status": "error"
+      },
+      {
+        "attempt": 2,
+        "candidate_id": "613738348c3064572d16e38f",
+        "elapsed_seconds": 0.668,
+        "error": "DeepSeekRequestError: http_402",
+        "status": "error"
+      }
+    ],
+    "model_generation_and_validation_seconds": 2.724
+  },
+  "status": "failed_validation",
+  "summary_count": 0,
   "summary_generation_version": 8,
   "summary_history_updated": false,
-  "summary_slot_count": 0
+  "summary_slot_count": 2,
+  "thinking_enabled": false,
+  "transport_repairs": {
+    "architecture_evidence": {},
+    "architecture_repairs": 0,
+    "candidate_id_repair_responses": 0,
+    "full_text_method_contexts": {
+      "613738348c3064572d16e38f": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "613738348c3064572d16e38f",
+        "character_count": 12000,
+        "content_sha256": "5625865f23f6599465c24a7e8c8fa46ffdcf8ae4c5ca8c7c802dcc2d310db308",
+        "elapsed_seconds": 0.785,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          "4 Proposed method",
+          "Blockwise implementation and memory:",
+          "Appendix A Algorithmic and Implementation Details",
+          "A.4 Complexity of the implementation",
+          "D.1 Training protocol and configurations"
+        ],
+        "source_url": "https://arxiv.org/html/2611.10792",
+        "status": "used",
+        "text_persisted": false
+      },
+      "c8eab601a12e0edc6ea689c7": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "c8eab601a12e0edc6ea689c7",
+        "character_count": 12000,
+        "content_sha256": "8221289ae66687c1e017fff1440e471c62c3e6a0fb87941ef8649647a1d55506",
+        "elapsed_seconds": 1.01,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          "Zeroth-order, or derivative-free, stochastic optimization methods provide a natural approach to solving (",
+          "Such methods have found wide applicability in black-box",
+          "zeroth-order methods have also been used for memory-efficient fine-tuning",
+          "preference of optimization methods for solutions with lower local",
+          "zeroth-order Langevin methods for sampling, zeroth-order Langevin methods for nonconvex optimization, and",
+          "Comparison of zeroth-order Langevin methods and curvature-regularization",
+          "method uses Langevin dynamics, accommodates nonconvex objectives,",
+          "The first line of work studies zeroth-order Langevin methods for sampling from the target distribution",
+          "zeroth-order Langevin method for non-log-concave sampling. Their analysis",
+          "effect of zeroth-order methods as an implicit regularizer. Our",
+          "curva-ture-regularized target. Therefore, we report the algorithmic complexity of closely related methods. In this case, the",
+          ". Thus, our method attains the same explicit",
+          "ZO-AdaMM: Zeroth-order adaptive momentum method for black-box",
+          "Stochastic first-and zeroth-order methods for nonconvex stochastic",
+          "First-order and stochastic optimization methods for machine"
+        ],
+        "source_url": "https://arxiv.org/html/2611.10461",
+        "status": "used",
+        "text_persisted": false
+      }
+    },
+    "generation_metadata_repair_responses": 0,
+    "numeric_grounding_repair_responses": 0,
+    "numeric_grounding_repairs": {},
+    "tops_alias_expansions": 62,
+    "unit_format_normalization_responses": 0
+  },
+  "usage": {
+    "completion_tokens": 0,
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 0,
+    "prompt_tokens": 0,
+    "total_tokens": 0
+  }
 }
