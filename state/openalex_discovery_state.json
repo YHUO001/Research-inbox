@@ -1,17 +1,17 @@
 {
   "consecutive_failures": 0,
   "discovery_version": 1,
-  "last_attempt_at": "2026-11-14T00:39:25.609776Z",
-  "last_successful_run_at": "2026-11-14T00:39:25.609776Z",
+  "last_attempt_at": "2026-11-15T00:43:59.337992Z",
+  "last_successful_run_at": "2026-11-15T00:43:59.337992Z",
   "last_summary": {
     "accepted": 1,
-    "duplicates": 3,
-    "filtered": 77,
+    "duplicates": 4,
+    "filtered": 74,
     "invalid": 0,
     "query_errors": 0,
-    "raw_results": 81
+    "raw_results": 79
   },
-  "last_window_end": "2026-11-14",
-  "last_window_start": "2026-11-10",
+  "last_window_end": "2026-11-15",
+  "last_window_start": "2026-11-11",
   "schema_version": 1
 }

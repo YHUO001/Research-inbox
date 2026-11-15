@@ -1,5 +1,35 @@
 {
   "entries": {
+    "crossref:doi:10.1002/9781394339983.ch02": {
+      "expires_at": "2026-12-15T00:44:11.760570Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Petteri Pulkkinen",
+            "orcid": null
+          },
+          {
+            "name": "Visa Koivunen",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/9781394339983.ch02",
+        "landing_page": "https://doi.org/10.1002/9781394339983.ch02",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/9781394339983.ch02",
+        "publication_date": "2026-10-26",
+        "title": "Model‐based Reinforcement Learning for Integrated Sensing and Communications",
+        "venue": "Machine Learning for Radar Signal Processing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:11.760570Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/adfm.77732": {
       "expires_at": "2026-10-04T01:00:16.072769Z",
       "record": {
@@ -2436,6 +2466,82 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-27T16:32:39.127994Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/s00158-026-04432-5": {
+      "expires_at": "2026-12-15T00:44:05.641048Z",
+      "record": {
+        "abstract": "Abstract Topology Optimization (TO) has proven effective for conceptual component design. However, optimization based on locally defined, component-level objectives does not necessarily yield optimal system-level performance. Existing approaches increasingly address this issue by incorporating multidisciplinary system behavior directly into the topology optimization formulation, increasing the specialization and complexity of the TO problem. This paper investigates an alternative approach in which density-based topology optimization is treated as a self-contained disciplinary design tool embedded within a Multidisciplinary Design Optimization (MDO) framework. System-level design variables are allowed to parametrically influence the topology optimization problem through differentiable descriptions of the design domain, geometric features, and boundary conditions, while preserving modularity and software boundaries. This enables the use of gradient-based optimization as well as standard multidisciplinary design optimization architectures, including Multidisciplinary Feasible (MDF) and Individual Discipline Feasible (IDF). Using a deliberately simplified benchmark problem, the paper explores the behavior of a nested TO–MDO formulation and examines the interaction between system-level optimization and an embedded, non-convex TO discipline. The effects of MDO architecture, optimizer selection, and initialization strategies are investigated. Comparison with a reference formulation in which system behavior is integrated directly into the topology optimization problem shows that the nested formulation converges to the same optimum, while the gain in modularity and integration flexibility comes at the expense of some computational efficiency. The results provide insight into the opportunities, limitations, and practical implications of embedding topology optimization within a broader system-level optimization.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Marek Slebioda",
+            "orcid": "https://orcid.org/0009-0001-0388-0918"
+          },
+          {
+            "name": "Matthijs Langelaar",
+            "orcid": "https://orcid.org/0000-0003-2106-2246"
+          },
+          {
+            "name": "Gianfranco La Rocca",
+            "orcid": "https://orcid.org/0000-0002-2963-7780"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s00158-026-04432-5",
+        "landing_page": "https://doi.org/10.1007/s00158-026-04432-5",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s00158-026-04432-5",
+        "publication_date": "2026-11",
+        "title": "An exploration of topology optimization nested into multidisciplinary design optimization",
+        "venue": "Structural and Multidisciplinary Optimization",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:05.641048Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/s00158-026-04433-4": {
+      "expires_at": "2026-12-15T00:44:10.527036Z",
+      "record": {
+        "abstract": "Abstract Hydrofoils impact the speed and efficiency of high-performance marine vessels, and their hydrodynamic loads scale with the square of speed. Designers can exploit the material anisotropy of composite materials to tailor the deformed shape under hydrodynamic loading. Composite hydrofoils face design challenges, two of which are flutter instability and ventilation inception. The problem with current state-of-the-art methods for flexible marine lifting surfaces is that they most often investigate only static hydroelasticity. The dynamic hydroelasticity of anisotropic hydrofoil configurations is not as well understood, especially in proximity to a free surface. This work presents an optimization methodology for cantilevered composite hydrofoils that addresses these two challenges, using low-order models of the hydrodynamics and composite structural dynamics with differentiated ventilation and flutter constraints. Dynamic hydroelasticity and free-surface proximity change the optimal design of a composite hydrofoil. The optimization reduces drag between 6 and 14% compared to a baseline design. The results show that flutter constraints are necessary for composite hydrofoils. Optimizing for drag alone drops the flutter speed from 25 to 14 m/s, and enforcing the constraint costs 3% in drag because of increased structural thickness. Ventilation constraints limit the minimum section chord and keep the section lift coefficient below critical inception values. The framework enables rapid preliminary design of composite hydrofoils, with applications from rudders and struts to propulsors and turbines. Flutter and ventilation no longer have to be checked after the fact; they can shape the design from the start.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Galen W. Ng",
+            "orcid": "https://orcid.org/0000-0001-7980-9483"
+          },
+          {
+            "name": "Shugo Kaneko",
+            "orcid": "https://orcid.org/0000-0002-3414-4542"
+          },
+          {
+            "name": "Eirikur Jonsson",
+            "orcid": "https://orcid.org/0000-0002-5166-3889"
+          },
+          {
+            "name": "Sicheng He",
+            "orcid": "https://orcid.org/0000-0003-1307-4909"
+          },
+          {
+            "name": "Joaquim R. R. A. Martins",
+            "orcid": "https://orcid.org/0000-0003-2143-1478"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s00158-026-04433-4",
+        "landing_page": "https://doi.org/10.1007/s00158-026-04433-4",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s00158-026-04433-4",
+        "publication_date": "2026-11",
+        "title": "Hydroelastic optimization of submerged composite foils with flutter and ventilation constraints",
+        "venue": "Structural and Multidisciplinary Optimization",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:10.527036Z",
       "status": "found"
     },
     "crossref:doi:10.1007/s00158-026-04440-5": {
@@ -9190,6 +9296,12 @@
       "retrieved_at": "2026-09-19T01:00:50.469084Z",
       "status": "not_found"
     },
+    "crossref:doi:10.26434/chemrxiv.15011974": {
+      "expires_at": "2026-12-15T00:44:15.947743Z",
+      "record": null,
+      "retrieved_at": "2026-11-15T00:44:15.947743Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.26599/bdma.2026.9020041": {
       "expires_at": "2026-11-05T01:07:11.526594Z",
       "record": null,
@@ -9440,6 +9552,12 @@
       "expires_at": "2026-12-07T00:39:24.736722Z",
       "record": null,
       "retrieved_at": "2026-11-07T00:39:24.736722Z",
+      "status": "not_found"
+    },
+    "crossref:doi:10.48550/arxiv.2611.16317": {
+      "expires_at": "2026-12-15T00:44:07.036528Z",
+      "record": null,
+      "retrieved_at": "2026-11-15T00:44:07.036528Z",
       "status": "not_found"
     },
     "crossref:doi:10.5281/zenodo.21885998": {
@@ -10189,6 +10307,68 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-03T00:40:34.800081Z",
+      "status": "found"
+    },
+    "crossref:title:0b2b8d2722d135c87daa2805d6e11891e840cedca4e53ecde299b6913fdc6e36": {
+      "expires_at": "2026-11-22T00:44:08.859975Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yunlong Li",
+            "orcid": "https://orcid.org/0000-0001-8819-7167"
+          },
+          {
+            "name": "Yu Han",
+            "orcid": null
+          },
+          {
+            "name": "Haowei Tang",
+            "orcid": null
+          },
+          {
+            "name": "Yao Sun",
+            "orcid": null
+          },
+          {
+            "name": "Zihang Yang",
+            "orcid": null
+          },
+          {
+            "name": "Zongzhe Wei",
+            "orcid": null
+          },
+          {
+            "name": "Qi Tian",
+            "orcid": null
+          },
+          {
+            "name": "Li Shen",
+            "orcid": "https://orcid.org/0000-0001-7502-3643"
+          },
+          {
+            "name": "Shuang Zheng",
+            "orcid": "https://orcid.org/0000-0002-4825-5163"
+          },
+          {
+            "name": "Minming Zhang",
+            "orcid": "https://orcid.org/0000-0002-3742-1445"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jlt.2026.3751851",
+        "landing_page": "https://doi.org/10.1109/jlt.2026.3751851",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/jlt.2026.3751851",
+        "publication_date": "2026",
+        "title": "Silicon MRR Arrays Based All-Optical Deep Neural Networks With III-V SOA Nonlinear Activation Function",
+        "venue": "Journal of Lightwave Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:08.859975Z",
       "status": "found"
     },
     "crossref:title:0c33755d6a2894feebc406bce7bbf52bfaca24f41cae949389b38d192ec8f017": {
@@ -11291,6 +11471,12 @@
       "retrieved_at": "2026-08-18T04:25:18.155930Z",
       "status": "not_found"
     },
+    "crossref:title:28a846071264935614543b47f7157360b9a154acaaf1e83dac9eb6e460ade9b1": {
+      "expires_at": "2026-11-22T00:44:06.330313Z",
+      "record": null,
+      "retrieved_at": "2026-11-15T00:44:06.330313Z",
+      "status": "not_found"
+    },
     "crossref:title:2a5895fd274266d0fe610b653429937a7341ed6e14e03daf0cbe7258acf39847": {
       "expires_at": "2026-09-14T01:06:51.029914Z",
       "record": {
@@ -12083,6 +12269,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-18T04:25:34.646895Z",
+      "status": "found"
+    },
+    "crossref:title:450278fd745293daf9f536cd63995b843993568a593b04c438f9bcd2867b0289": {
+      "expires_at": "2026-11-22T00:44:13.539785Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shuzhi Xu",
+            "orcid": "https://orcid.org/0009-0002-0370-1243"
+          },
+          {
+            "name": "Yifan Guo",
+            "orcid": "https://orcid.org/0000-0002-3078-9968"
+          },
+          {
+            "name": "Hiroki Kawabe",
+            "orcid": "https://orcid.org/0009-0000-6332-1440"
+          },
+          {
+            "name": "Kentaro Yaji",
+            "orcid": "https://orcid.org/0000-0002-4309-2043"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.engstruct.2026.124076",
+        "landing_page": "https://doi.org/10.1016/j.engstruct.2026.124076",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.engstruct.2026.124076",
+        "publication_date": "2027-01",
+        "title": "Data-driven multifidelity multiscale topology optimization via phasor-based evolutionary de-homogenization",
+        "venue": "Engineering Structures",
+        "year": 2027
+      },
+      "retrieved_at": "2026-11-15T00:44:13.539785Z",
       "status": "found"
     },
     "crossref:title:45f4e38b8e280daf429c4aa3c454583795ada8d472b254a223953e0793bc368b": {
@@ -12943,6 +13167,12 @@
       "retrieved_at": "2026-08-20T00:32:29.845954Z",
       "status": "not_found"
     },
+    "crossref:title:68eca2127a44765dda272674e0e6cdc69506490a9fd2e1c126ff95cadce88d9e": {
+      "expires_at": "2026-11-22T00:44:12.591803Z",
+      "record": null,
+      "retrieved_at": "2026-11-15T00:44:12.591803Z",
+      "status": "not_found"
+    },
     "crossref:title:692a520f82c9d20cd9c87a5e7bb96e0c70b47da8d71cf9f973c484caf4b25c9c": {
       "expires_at": "2026-08-16T00:36:03.053032Z",
       "record": {
@@ -13043,6 +13273,60 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-04T01:00:23.653154Z",
+      "status": "found"
+    },
+    "crossref:title:6c259651d31eaffb1107d753303f7b497a22692d0cb1ca9b9462eb65fcdb388a": {
+      "expires_at": "2026-11-22T00:44:15.402742Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yi Li",
+            "orcid": "https://orcid.org/0000-0002-2856-7290"
+          },
+          {
+            "name": "Chengyan Li",
+            "orcid": "https://orcid.org/0009-0006-4485-3111"
+          },
+          {
+            "name": "Zhirui Fang",
+            "orcid": null
+          },
+          {
+            "name": "Junchuan Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Xuan Wang",
+            "orcid": null
+          },
+          {
+            "name": "Huaibo Huang",
+            "orcid": "https://orcid.org/0000-0001-5866-2283"
+          },
+          {
+            "name": "Yan Luo",
+            "orcid": null
+          },
+          {
+            "name": "Yanqing Guo",
+            "orcid": "https://orcid.org/0000-0001-9123-140X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tpami.2026.3752263",
+        "landing_page": "https://doi.org/10.1109/tpami.2026.3752263",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/tpami.2026.3752263",
+        "publication_date": "2026",
+        "title": "Bridging the Training Gap with Hyperion: A Training-Free Style Transfer Method on Diffusion Transformers",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:15.402742Z",
       "status": "found"
     },
     "crossref:title:6c3ce8df9a71a6267107f84899ddd34bd8b0930d58bea2d35008ad2700d3aeda": {
@@ -14599,6 +14883,52 @@
       "retrieved_at": "2026-09-05T00:59:47.500485Z",
       "status": "not_found"
     },
+    "crossref:title:a536a2deb4d77d5fb1f1d86d3539f823f5fd371e960b9e171d6079fffc3aa3b2": {
+      "expires_at": "2026-11-22T00:44:17.615340Z",
+      "record": {
+        "abstract": "Optical convolutional neural networks (OCNNs) are susceptible to modulation, alignment, and detection errors, which cause the accuracy of a deployed optical–electronic network to deviate from its numerical model. We propose a learnable bit-plane weighted-fusion (AWF) strategy for low-dimensional offline calibration after camera detection. Each 8-bit input image is decomposed into eight binary planes, convolved separately, and reconstructed using eight learnable normalized weights before electronic activation, pooling, and classification. With 5000 MNIST training images, the optical neural network (ONN) using AWF reaches 92.6% training accuracy, 1.9% points above the traditional binary weighted-fusion (TWF) method. The corresponding experimentally measured test accuracies are 90.30% and 88.69%, respectively. Under 5 dB added noise, AWF-ONN maintains 83.84% accuracy, 5.51% points above TWF, while its loss relative to the no-added-noise condition is 6.46% points compared with 10.36% points for TWF-ONN. A two-layer network retains an experimental advantage of 1.12% points. The results show that a low-dimensional calibration of bit-plane contributions can improve optical inference when labeled data or signal-to-noise ratio is limited.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ruoxing Guo",
+            "orcid": null
+          },
+          {
+            "name": "Zhiguo Nie",
+            "orcid": null
+          },
+          {
+            "name": "Yulu Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Xinchang Liu",
+            "orcid": null
+          },
+          {
+            "name": "Yongpan Gao",
+            "orcid": "https://orcid.org/0000-0001-5351-0627"
+          },
+          {
+            "name": "Chuan Wang",
+            "orcid": "https://orcid.org/0000-0002-0466-3165"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/ol.615383",
+        "landing_page": "https://doi.org/10.1364/ol.615383",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/ol.615383",
+        "publication_date": "2026-11-15",
+        "title": "Noise-robust optical convolutional neural networks with learnable bit-plane weighted fusion",
+        "venue": "Optics Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:17.615340Z",
+      "status": "found"
+    },
     "crossref:title:a557f45f91f453523d599a0ec9eec441f9dfcb5026fa88cb396152f40e618dc9": {
       "expires_at": "2026-09-11T01:00:16.748871Z",
       "record": null,
@@ -14685,6 +15015,12 @@
       "expires_at": "2026-10-23T00:57:49.922397Z",
       "record": null,
       "retrieved_at": "2026-10-16T00:57:49.922397Z",
+      "status": "not_found"
+    },
+    "crossref:title:a90ec3fa0dbc4c4cb5be1355e9d1bae0680f63ef36a279df7b9729a2907aff6d": {
+      "expires_at": "2026-11-22T00:44:11.111220Z",
+      "record": null,
+      "retrieved_at": "2026-11-15T00:44:11.111220Z",
       "status": "not_found"
     },
     "crossref:title:a91db7004d5a48913ed068dd5095b7aaa2fec90b51ec84c30f47c93dc230bfce": {
@@ -16345,6 +16681,12 @@
       "retrieved_at": "2026-10-15T00:58:19.595048Z",
       "status": "not_found"
     },
+    "crossref:title:daab00db2a1339ea6f06f1615ed50040df95431a0ce3550038f776d7a3c286ec": {
+      "expires_at": "2026-11-22T00:44:07.817441Z",
+      "record": null,
+      "retrieved_at": "2026-11-15T00:44:07.817441Z",
+      "status": "not_found"
+    },
     "crossref:title:db822be0c4fb9ec39b46cafbc7ddba35220ed79f7b9d4770d9b067f12173c050": {
       "expires_at": "2026-08-17T00:36:44.025497Z",
       "record": {
@@ -16475,6 +16817,40 @@
       "retrieved_at": "2026-09-12T00:59:38.233910Z",
       "status": "not_found"
     },
+    "crossref:title:dd8ba64873aff2d0f5cad2bdc6ed346cdacc5b1a1034acc35cad44793e88fdd2": {
+      "expires_at": "2026-11-22T00:44:16.796115Z",
+      "record": {
+        "abstract": "Quantum optimal control is a versatile, powerful method to tailor quantum experiments. In NMR, numerical quantum optimal control algorithms such as the gradient ascent pulse engineering (GRAPE) algorithm have sparked many developments in pulse shaping, pushing the limits of pulse selectivity and robustness. To provide an overview of its core principles and the many expansions it has undergone ever since its introduction, the most common quality functions are benchmarked in their ability to guide the spin state transfer for facilitating excitation, inversion, and maximum quantum coherence. Explicit derivations of gradient and Hessian formulas are given, both summarizing what is known from the literature and complementing it. The derivations also give due consideration to the fact that spin states can be represented as density operators or spin operators. Analogously, the most common penalties to guide optimization toward experimentally feasible controls are discussed along with their explicit gradient and Hessian formula derivations. The discussion is complemented by thorough benchmarking for the most commonly used optimization algorithms.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Armin J. Römer",
+            "orcid": "https://orcid.org/0009-0001-8498-8452"
+          },
+          {
+            "name": "Josef Granwehr",
+            "orcid": null
+          },
+          {
+            "name": "Simone S. Köcher",
+            "orcid": "https://orcid.org/0000-0001-9501-1703"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.26434/chemrxiv.15011974/v1",
+        "landing_page": "https://doi.org/10.26434/chemrxiv.15011974/v1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.26434/chemrxiv.15011974/v1",
+        "publication_date": "2026-11-11",
+        "title": "Gradient ascent pulse engineering (GRAPE)–a primer on quality functions and pulse shape penalties",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:16.796115Z",
+      "status": "found"
+    },
     "crossref:title:dda39a81768bcbff1278a09a8bff5f5adf77aa35fa248f4818ffcf0a63b23f16": {
       "expires_at": "2026-11-10T00:40:49.517599Z",
       "record": null,
@@ -16530,6 +16906,12 @@
       },
       "retrieved_at": "2026-09-09T01:02:03.064819Z",
       "status": "found"
+    },
+    "crossref:title:df0eabc2272a1efdf8459e03c70cf8de95893159d272a8b78a6b173f6527b36d": {
+      "expires_at": "2026-11-22T00:44:09.656942Z",
+      "record": null,
+      "retrieved_at": "2026-11-15T00:44:09.656942Z",
+      "status": "not_found"
     },
     "crossref:title:df7c06b4fde80778360d43ec818b67fdb88e79f0326142a415fc5e1dfb721692": {
       "expires_at": "2026-10-12T01:13:37.323482Z",
@@ -17780,6 +18162,36 @@
       "record": null,
       "retrieved_at": "2026-11-14T00:39:38.281003Z",
       "status": "not_found"
+    },
+    "openalex:doi:10.1002/9781394339983.ch02": {
+      "expires_at": "2026-12-15T00:44:11.980900Z",
+      "record": {
+        "abstract": "Proper radio resource allocation is crucial for achieving system performance objectives in integrated sensing and communications (ISAC) for emerging 6G wireless systems. Structured optimization faces practical limitations, such as high computational demands, lack of adaptability, and performance degradation due to modeling deficiencies. Reinforcement learning (RL) offers a data-driven alternative, leveraging empirical observations to avoid discrepancies in analytical models. Pure model-free reinforcement learning (MFRL) learns through trial and error, which can be slow in dynamic settings. Therefore, we combine RL principles with model awareness of radio environment dynamics to enhance learning efficiency and algorithm interpretability compared to traditional MFRL. It enables efficient and flexible resource allocation in dynamic ISAC environments, where channels and interferences vary over time, frequency, and space. We introduce model-based reinforcement learning (MBRL) methods for allocating subcarriers, resource blocks, and beams in the beamspace domain to achieve desired performance in wireless communications and radar sensing tasks in ISAC.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Petteri Pulkkinen",
+            "orcid": "https://orcid.org/0000-0002-0589-0992"
+          },
+          {
+            "name": "Visa Koivunen",
+            "orcid": "https://orcid.org/0000-0003-1454-5928"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/9781394339983.ch02",
+        "landing_page": "https://doi.org/10.1002/9781394339983.ch02",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7225825944",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225825944",
+        "publication_date": "2026-10-26",
+        "title": "Model‐based Reinforcement Learning for Integrated Sensing and Communications",
+        "venue": "Wiley eBooks",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:11.980900Z",
+      "status": "found"
     },
     "openalex:doi:10.1002/adfm.77732": {
       "expires_at": "2026-10-04T01:00:16.458324Z",
@@ -20307,6 +20719,82 @@
       "retrieved_at": "2026-08-27T16:32:39.463795Z",
       "status": "found"
     },
+    "openalex:doi:10.1007/s00158-026-04432-5": {
+      "expires_at": "2026-12-15T00:44:05.861034Z",
+      "record": {
+        "abstract": "Abstract Topology Optimization (TO) has proven effective for conceptual component design. However, optimization based on locally defined, component-level objectives does not necessarily yield optimal system-level performance. Existing approaches increasingly address this issue by incorporating multidisciplinary system behavior directly into the topology optimization formulation, increasing the specialization and complexity of the TO problem. This paper investigates an alternative approach in which density-based topology optimization is treated as a self-contained disciplinary design tool embedded within a Multidisciplinary Design Optimization (MDO) framework. System-level design variables are allowed to parametrically influence the topology optimization problem through differentiable descriptions of the design domain, geometric features, and boundary conditions, while preserving modularity and software boundaries. This enables the use of gradient-based optimization as well as standard multidisciplinary design optimization architectures, including Multidisciplinary Feasible (MDF) and Individual Discipline Feasible (IDF). Using a deliberately simplified benchmark problem, the paper explores the behavior of a nested TO–MDO formulation and examines the interaction between system-level optimization and an embedded, non-convex TO discipline. The effects of MDO architecture, optimizer selection, and initialization strategies are investigated. Comparison with a reference formulation in which system behavior is integrated directly into the topology optimization problem shows that the nested formulation converges to the same optimum, while the gain in modularity and integration flexibility comes at the expense of some computational efficiency. The results provide insight into the opportunities, limitations, and practical implications of embedding topology optimization within a broader system-level optimization.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Marek Ślebioda",
+            "orcid": "https://orcid.org/0009-0001-0388-0918"
+          },
+          {
+            "name": "Matthijs Langelaar",
+            "orcid": "https://orcid.org/0000-0003-2106-2246"
+          },
+          {
+            "name": "Gianfranco La Rocca",
+            "orcid": "https://orcid.org/0000-0002-2963-7780"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s00158-026-04432-5",
+        "landing_page": "https://doi.org/10.1007/s00158-026-04432-5",
+        "open_access_url": "https://doi.org/10.1007/s00158-026-04432-5",
+        "openalex_id": "https://openalex.org/W7225877049",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225877049",
+        "publication_date": "2026-11-01",
+        "title": "An exploration of topology optimization nested into multidisciplinary design optimization",
+        "venue": "Structural and Multidisciplinary Optimization",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:05.861034Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s00158-026-04433-4": {
+      "expires_at": "2026-12-15T00:44:10.749610Z",
+      "record": {
+        "abstract": "Abstract Hydrofoils impact the speed and efficiency of high-performance marine vessels, and their hydrodynamic loads scale with the square of speed. Designers can exploit the material anisotropy of composite materials to tailor the deformed shape under hydrodynamic loading. Composite hydrofoils face design challenges, two of which are flutter instability and ventilation inception. The problem with current state-of-the-art methods for flexible marine lifting surfaces is that they most often investigate only static hydroelasticity. The dynamic hydroelasticity of anisotropic hydrofoil configurations is not as well understood, especially in proximity to a free surface. This work presents an optimization methodology for cantilevered composite hydrofoils that addresses these two challenges, using low-order models of the hydrodynamics and composite structural dynamics with differentiated ventilation and flutter constraints. Dynamic hydroelasticity and free-surface proximity change the optimal design of a composite hydrofoil. The optimization reduces drag between 6 and 14% compared to a baseline design. The results show that flutter constraints are necessary for composite hydrofoils. Optimizing for drag alone drops the flutter speed from 25 to 14 m/s, and enforcing the constraint costs 3% in drag because of increased structural thickness. Ventilation constraints limit the minimum section chord and keep the section lift coefficient below critical inception values. The framework enables rapid preliminary design of composite hydrofoils, with applications from rudders and struts to propulsors and turbines. Flutter and ventilation no longer have to be checked after the fact; they can shape the design from the start.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Galen W. Ng",
+            "orcid": "https://orcid.org/0000-0001-7980-9483"
+          },
+          {
+            "name": "Shugo Kaneko",
+            "orcid": "https://orcid.org/0000-0002-3414-4542"
+          },
+          {
+            "name": "Eiríkur Jónsson",
+            "orcid": "https://orcid.org/0000-0002-5166-3889"
+          },
+          {
+            "name": "Sicheng He",
+            "orcid": "https://orcid.org/0000-0003-1307-4909"
+          },
+          {
+            "name": "Joaquim R. R. A. Martins",
+            "orcid": "https://orcid.org/0000-0003-2143-1478"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s00158-026-04433-4",
+        "landing_page": "https://doi.org/10.1007/s00158-026-04433-4",
+        "open_access_url": "https://doi.org/10.1007/s00158-026-04433-4",
+        "openalex_id": "https://openalex.org/W7225788280",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225788280",
+        "publication_date": "2026-11-01",
+        "title": "Hydroelastic optimization of submerged composite foils with flutter and ventilation constraints",
+        "venue": "Structural and Multidisciplinary Optimization",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:10.749610Z",
+      "status": "found"
+    },
     "openalex:doi:10.1007/s00158-026-04440-5": {
       "expires_at": "2026-12-10T00:39:59.083977Z",
       "record": {
@@ -21931,6 +22419,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-22T01:02:19.827392Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.engstruct.2026.124076": {
+      "expires_at": "2026-12-15T00:44:13.756562Z",
+      "record": {
+        "abstract": "Multiscale topology optimization is crucial for designing porous infill structures with high stiffness-to-weight ratios and excellent energy absorption. Although gradient-based methods provide a rigorous framework, they are computationally expensive and struggle to capture cross-scale sensitivities in nonlinear settings. Moreover, the resulting hierarchical geometries are often overly complex and lack macroscopically meaningful features. To overcome these issues, we propose an evolutionary de-homogenization framework that couples MultiFidelity Topology Design with a phasor-based de-homogenization technique. The framework translates low-dimensional geometric descriptors into explicit, CAD-compatible high-resolution structures through a hybrid evolutionary algorithm integrating NSGA-II selection, PCA-VAE-enabled latent-space crossover, and a novel image-deformation-based mutation operator. This gradient-free approach supports multi-objective refinement through non-differentiable geometry processing and body-fitted high-fidelity analysis. The numerical studies show design trade-offs for stiffness, stress, and buckling objectives; the intended scope is design-set exploration rather than universal computational superiority over full-scale gradient-based optimization.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Shuzhi Xu",
+            "orcid": "https://orcid.org/0009-0002-0370-1243"
+          },
+          {
+            "name": "Yifan Guo",
+            "orcid": "https://orcid.org/0000-0002-3078-9968"
+          },
+          {
+            "name": "Hiroki Kawabe",
+            "orcid": "https://orcid.org/0009-0000-6332-1440"
+          },
+          {
+            "name": "Kentaro Yaji",
+            "orcid": "https://orcid.org/0000-0002-4309-2043"
+          }
+        ],
+        "cited_by_count": 1,
+        "doi": "10.1016/j.engstruct.2026.124076",
+        "landing_page": "https://doi.org/10.1016/j.engstruct.2026.124076",
+        "open_access_url": "https://doi.org/10.1016/j.engstruct.2026.124076",
+        "openalex_id": "https://openalex.org/W4417116249",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W4417116249",
+        "publication_date": "2026-11-11",
+        "title": "Data-driven multifidelity multiscale topology optimization via phasor-based evolutionary de-homogenization",
+        "venue": "Engineering Structures",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:13.756562Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.eswa.2026.134772": {
@@ -26607,6 +27133,68 @@
       "retrieved_at": "2026-11-14T00:39:42.714553Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/jlt.2026.3751851": {
+      "expires_at": "2026-12-15T00:44:09.086489Z",
+      "record": {
+        "abstract": "Optical neural networks (ONNs) based on microring resonator (MRR) arrays offer a promising platform for implementing linear matrix–vector multiplication (MVM) owing to their compact footprint and reconfigurability. However, constructing deep neural networks (DNNs) requires cascading linear layers with nonlinear activation units. In conventional MRR-based ONNs, wavelength-domain summation is typically realized using photodetectors, which introduces optical–electrical–optical (O–E–O) conversions and limits performance due to finite electronic bandwidth. We propose an all-optical DNN architecture by integrating silicon MRR arrays with semiconductor optical amplifiers (SOAs), and experimentally demonstrate an all-optical neuron that simultaneously performs wavelength-domain summation and nonlinear activation. Through cross-gain modulation (XGM) in SOAs, wavelength-domain summation and nonlinear activation are achieved in the optical domain, avoiding photodetector-based summation and O–E–O conversion. System-level simulations incorporating the experimentally measured SOA activation response validate the effectiveness of this approach, with classification accuracies reaching 100% for Iris and 97.5% for handwritten digits.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yunlong Li",
+            "orcid": "https://orcid.org/0000-0001-8819-7167"
+          },
+          {
+            "name": "Yu Han",
+            "orcid": null
+          },
+          {
+            "name": "Haowei Tang",
+            "orcid": "https://orcid.org/0009-0002-6925-5426"
+          },
+          {
+            "name": "Yao Sun",
+            "orcid": "https://orcid.org/0000-0002-6519-7436"
+          },
+          {
+            "name": "Zihang Yang",
+            "orcid": null
+          },
+          {
+            "name": "Zongzhe Wei",
+            "orcid": null
+          },
+          {
+            "name": "Qi Tian",
+            "orcid": "https://orcid.org/0000-0003-1110-6321"
+          },
+          {
+            "name": "Li Shen",
+            "orcid": "https://orcid.org/0000-0001-7502-3643"
+          },
+          {
+            "name": "Shuang Zheng",
+            "orcid": "https://orcid.org/0000-0002-4825-5163"
+          },
+          {
+            "name": "Minming Zhang",
+            "orcid": "https://orcid.org/0000-0002-3742-1445"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jlt.2026.3751851",
+        "landing_page": "https://doi.org/10.1109/jlt.2026.3751851",
+        "open_access_url": "https://doi.org/10.1109/jlt.2026.3751851",
+        "openalex_id": "https://openalex.org/W7225700015",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225700015",
+        "publication_date": "2026-01-01",
+        "title": "Silicon MRR Arrays Based All-Optical Deep Neural Networks With III-V SOA Nonlinear Activation Function",
+        "venue": "Journal of Lightwave Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:09.086489Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/jphot.2026.3721155": {
       "expires_at": "2026-09-17T04:25:23.198098Z",
       "record": {
@@ -27455,6 +28043,60 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-03T00:40:54.840189Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/tpami.2026.3752263": {
+      "expires_at": "2026-12-15T00:44:15.740600Z",
+      "record": {
+        "abstract": "Training-free style transfer on Multimodal Diffusion Transformers (MM-DiT) remains challenging due to the persistent gap between trained adapters and injection-based training-free methods. Existing training-free methods typically perform forward feature injection, and thus struggle to reproduce the rich painterly textures achieved by trained adapters, often leading to only faint hue shifts. In this paper, we trace this limitation to the absence of backpropagation-induced spatial coupling and propose Hyperion, a fully training-free style-transfer pipeline for MM-DiT. At the optimization level, the pipeline introduces Adam-in-loop, which iteratively optimizes the diffusion latent at each denoising step with a frozen MM-DiT. This process recovers the gradient-driven coupling effect produced through the self-attention value path, where neighboring tokens receive highly similar updates and form coherent brushstroke textures. At the distribution level, the pipeline introduces Sinkhorn Latent Transport (SLT), a single closed-form optimal-transport step that pre-aligns latent color distributions before Adam optimization, improving the operational efficiency of Adam-in-loop. To further enhance stylization quality, we develop a frequency-domain Sinkhorn loss to sharpen painterly textures and a layout-residual-suppression step to reduce layout interference. The pipeline can also be extended to image-to-image stylization. Extensive experiments on a 39-style × 6-prompt benchmark (234 pairs) demonstrate that Hyperion achieves CSD $= 0.640$ and CLIP-T $= 0.296$, improving CSD by +5.2% over Adam-8 at $2.5\\times$ lower forward-pass cost and by +16.6% over Adam-only under an equal compute budget. Notably, Hyperion outperforms four pre-trained style adapters on 19 of 21 diverse style families, achieving a mean CSD of 0.657 versus 0.506 for the strongest baseline.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yi Li",
+            "orcid": "https://orcid.org/0000-0002-2856-7290"
+          },
+          {
+            "name": "Chengyan Li",
+            "orcid": "https://orcid.org/0009-0006-4485-3111"
+          },
+          {
+            "name": "Zhirui Fang",
+            "orcid": null
+          },
+          {
+            "name": "Junchuan Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Xuan Wang",
+            "orcid": null
+          },
+          {
+            "name": "Huaibo Huang",
+            "orcid": "https://orcid.org/0000-0001-5866-2283"
+          },
+          {
+            "name": "Yan Luo",
+            "orcid": "https://orcid.org/0000-0001-5135-0316"
+          },
+          {
+            "name": "Yanqing Guo",
+            "orcid": "https://orcid.org/0000-0001-9123-140X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tpami.2026.3752263",
+        "landing_page": "https://doi.org/10.1109/tpami.2026.3752263",
+        "open_access_url": "https://doi.org/10.1109/tpami.2026.3752263",
+        "openalex_id": "https://openalex.org/W7225832363",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225832363",
+        "publication_date": "2026-01-01",
+        "title": "Bridging the Training Gap with Hyperion: A Training-Free Style Transfer Method on Diffusion Transformers",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:15.740600Z",
       "status": "found"
     },
     "openalex:doi:10.1109/tsc.2026.3735318": {
@@ -31025,6 +31667,52 @@
       "retrieved_at": "2026-10-11T01:15:39.548214Z",
       "status": "found"
     },
+    "openalex:doi:10.1364/ol.615383": {
+      "expires_at": "2026-12-15T00:44:17.837601Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "ruoxing Guo",
+            "orcid": null
+          },
+          {
+            "name": "Zhi-Guo Nie",
+            "orcid": null
+          },
+          {
+            "name": "Yu-Lu Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Xinchang Liu",
+            "orcid": null
+          },
+          {
+            "name": "Yong-Pan Gao",
+            "orcid": null
+          },
+          {
+            "name": "Chuan Wang",
+            "orcid": "https://orcid.org/0000-0002-0466-3165"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/ol.615383",
+        "landing_page": "https://doi.org/10.1364/ol.615383",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7224077317",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7224077317",
+        "publication_date": "2026-10-28",
+        "title": "Noise-robust optical convolutional neural networks with adaptive bit-plane weighted fusion",
+        "venue": "Optics Letters",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:17.837601Z",
+      "status": "found"
+    },
     "openalex:doi:10.1364/optica.591264": {
       "expires_at": "2026-09-03T09:38:30.948780Z",
       "record": {
@@ -32134,6 +32822,12 @@
       },
       "retrieved_at": "2026-09-19T01:00:50.811385Z",
       "status": "found"
+    },
+    "openalex:doi:10.26434/chemrxiv.15011974": {
+      "expires_at": "2026-12-15T00:44:16.166388Z",
+      "record": null,
+      "retrieved_at": "2026-11-15T00:44:16.166388Z",
+      "status": "not_found"
     },
     "openalex:doi:10.26599/bdma.2026.9020041": {
       "expires_at": "2026-11-05T01:07:12.074020Z",
@@ -33483,6 +34177,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-07T00:39:24.955320Z",
+      "status": "found"
+    },
+    "openalex:doi:10.48550/arxiv.2611.16317": {
+      "expires_at": "2026-12-15T00:44:07.324155Z",
+      "record": {
+        "abstract": "Zeroth-order (ZO) optimization enables memory-efficient fine-tuning of large language models through forward-only evaluations, but high-dimensional random perturbations can limit optimization efficiency. Sparse perturbations reduce the search dimension, making the selection of informative coordinates critical. We propose Wanda-Importance Sparsity-MeZO (WIS-MeZO), which uses Wanda weight--activation saliency to construct task-conditioned sparse perturbation masks while keeping the pretrained model dense. We analyze support quality through gradient energy capture and relate it to gradient estimation and convergence. Across 16 benchmarks with LLaMA and Qwen models ranging from 3B to 32B parameters, WIS-MeZO achieves higher aggregate scores than MeZO and reaches comparable validation losses in fewer optimization steps. Comparisons with random and magnitude-based sparse perturbations further highlight the importance of informative support selection.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ziqing Wen",
+            "orcid": null
+          },
+          {
+            "name": "Xiaohui Song",
+            "orcid": null
+          },
+          {
+            "name": "Jiahuan Wang",
+            "orcid": null
+          },
+          {
+            "name": "Ping Luo",
+            "orcid": null
+          },
+          {
+            "name": "Junlin Zeng",
+            "orcid": null
+          },
+          {
+            "name": "Dongsheng Li",
+            "orcid": null
+          },
+          {
+            "name": "Tao Sun",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.16317",
+        "landing_page": "https://doi.org/10.48550/arxiv.2611.16317",
+        "open_access_url": "https://doi.org/10.48550/arxiv.2611.16317",
+        "openalex_id": "https://openalex.org/W7226027888",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7226027888",
+        "publication_date": "2026-11-12",
+        "title": "Wanda-Guided Sparse Perturbations for Efficient Zeroth-Order Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:07.324155Z",
       "status": "found"
     },
     "openalex:doi:10.5281/zenodo.21885998": {
@@ -35846,6 +36590,56 @@
       "retrieved_at": "2026-08-18T04:25:18.566103Z",
       "status": "not_found"
     },
+    "openalex:title:28a846071264935614543b47f7157360b9a154acaaf1e83dac9eb6e460ade9b1": {
+      "expires_at": "2026-11-22T00:44:06.833682Z",
+      "record": {
+        "abstract": "In the paper, a prospect of large-scale optimization problems faced during the operation of networking engineering systems such as smart grids, multi-agent systems based on sensor arrays, or systems for distribution of resources are discussed since it deals with high-dimensional coupled constraints making metric projections difficult. The use of conventional numerical projection-based methods in practice involves the repeated solution of quadratic problems in each iteration, leading to costs increasing super-linearly with the increase in network size, thus limiting applicability in real-time engineering practice. In this paper, projection-free numerical methods based on linear minimization oracles are proposed; in particular, the responses of conditional gradient methods (Frank-Wolfe algorithm) are applied to decentralized networks. The study presents an optimization problem defined over a communication graph, as well as present assumption considering smoothness, convexity, and boundedness in respect to both feasible set and the function goal of optimization. The study proves sublinear convergence of the primal and its dual formulations in general convex case; in addition, for strong convex/Polyak-Łojasiewicz case, it is proved that linear convergence is possible. The communication complexity bounds that evaluate the amount of data exchange between nodes to achieve epsilon-optimality is offered along with the results concerning convergence proofs. The conducted numerical simulation in respect to a distributed resource allocation case study illustrates the established rates of the algorithm efficiency, demonstrates the advantages of the proposed method over projection-based problems, and discusses the scalability of the proposed methods as concerning implementation of up to five hundred nodes in a network.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Dr.M. Raja",
+            "orcid": null
+          },
+          {
+            "name": "M. Benedict",
+            "orcid": null
+          },
+          {
+            "name": "Farhat Anjum",
+            "orcid": null
+          },
+          {
+            "name": "Dr.V. Saikumari",
+            "orcid": null
+          },
+          {
+            "name": "Dr.K. Santhanam",
+            "orcid": null
+          },
+          {
+            "name": "M. Suma",
+            "orcid": null
+          },
+          {
+            "name": "Dr. Amit Sharma",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": null,
+        "landing_page": "https://journalmta.com/index.php/jmta/article/view/592",
+        "open_access_url": "https://journalmta.com/index.php/jmta/article/view/592",
+        "openalex_id": "https://openalex.org/W7226042713",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7226042713",
+        "publication_date": "2026-10-13",
+        "title": "Projection-free numerical algorithms for large-scale constrained optimization in networked engineering applications",
+        "venue": "Minimax Theory and its Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:06.833682Z",
+      "status": "found"
+    },
     "openalex:title:2b271f45467a357f7a1769a5048457b29f7beee2c0f32848943d06e87bbfc9a1": {
       "expires_at": "2026-11-04T00:48:18.621815Z",
       "record": null,
@@ -37472,6 +38266,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-20T00:32:30.372870Z",
+      "status": "found"
+    },
+    "openalex:title:68eca2127a44765dda272674e0e6cdc69506490a9fd2e1c126ff95cadce88d9e": {
+      "expires_at": "2026-11-22T00:44:12.990674Z",
+      "record": {
+        "abstract": "We introduce LongTails, a framework for discovering and improving oracle-complexity bounds with formal verification in Lean 4. Using LongTails, we have already obtained more than 100 new results across a broad range of optimization problems, including generalized smoothness, heavy-tailed noise, finite-sum and composite optimization, and higher-order and zeroth-order methods. Our goal is to scale discovery and continually develop new methods with non-trivial and valuable theoretical guarantees using modern agentic systems. The framework is specialized for optimization, where we separate a Setup, specifying the problem class, assumptions, available information, and success criterion, from a Complexity, specifying a sufficient oracle-call budget. Once a Setup is fixed (e.g., $L$-smooth convex optimization with the goal of finding $x_{\\mathrm{out}}$ such that $f(x_{\\mathrm{out}}) - f(x^\\star) \\leq \\varepsilon$), agents search for better Complexities (e.g., $O(\\sqrt{L R^2 / \\varepsilon})$, where $R \\geq \\|x_0 - x^\\star\\|$) by designing algorithms and proving their convergence. The framework then checks the proofs and guarantees that every accepted Complexity can indeed be attained under the given Setup. This turns the search for new methods into an ongoing effort to improve their theoretical guarantees. To the best of our knowledge, LongTails is the first framework to scale automated research in optimization across such a broad range of problems with formally verified theoretical guarantees.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Alexander Tyurin",
+            "orcid": "https://orcid.org/0000-0003-4963-8227"
+          },
+          {
+            "name": "QuocViet Pham",
+            "orcid": "https://orcid.org/0009-0005-5880-9608"
+          },
+          {
+            "name": "Valentin Khrulkov",
+            "orcid": "https://orcid.org/0009-0000-6694-5398"
+          },
+          {
+            "name": "Ivan Oseledets",
+            "orcid": "https://orcid.org/0000-0003-2071-2163"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.13872",
+        "landing_page": "https://arxiv.org/abs/2611.13872",
+        "open_access_url": "https://arxiv.org/abs/2611.13872",
+        "openalex_id": "https://openalex.org/W7225817645",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225817645",
+        "publication_date": "2026-11-10",
+        "title": "LongTails: Automated Research in Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:12.990674Z",
       "status": "found"
     },
     "openalex:title:6b0115533826a064ee0bb7aa6182c508efe8a7595937efe4b349e391caa7cfe7": {
@@ -39160,6 +39992,52 @@
       "retrieved_at": "2026-10-16T00:57:50.427389Z",
       "status": "not_found"
     },
+    "openalex:title:a90ec3fa0dbc4c4cb5be1355e9d1bae0680f63ef36a279df7b9729a2907aff6d": {
+      "expires_at": "2026-11-22T00:44:11.520741Z",
+      "record": {
+        "abstract": "Biological visual systems compute reliably under tight metabolic and wiring constraints, whereas artificial vision systems consume far more energy and can be sensitive to adversarial perturbations. Whether networks with brain-like wiring are more robust at lower computational cost is unclear. We address this by benchmarking a task-optimized, continuous-time recurrent neural network of the fly visual system constrained by its synaptic connectome (FlyNet) against artificial neural networks. We compare it against CNNs, RAFT, and continuous-time recurrent neural networks without detailed connectome constraints (sCTRNN, CTRNN) on a collision-detection task within a differentiable 3D rendering pipeline. FlyNet is adversarially vulnerable but, relative to its compute, more robust to common video corruptions than RAFT, while using up to five orders of magnitude fewer FLOPs. The CTRNNs remain more robust than FlyNet across almost all tested perturbations, suggesting that connectome constraints benefit efficiency, through their low edge count, over robustness. Recurrence improves robustness to white-box attacks in RAFT and temporal context improves robustness to common corruptions. FlyNet's position and velocity representations degrade under adversarial textures but recover under counterfactual textures that restore correct classification while staying equally far from training, ruling out unfamiliar textures as the cause of failure. The reverse-phi illusion similarly disrupts these representations and inverts the same low-level motion statistic as the adversarial textures. Optimizing this input statistic alone, without access to the network, suffices to induce classification failure, attributing both perturbations to the same circuit vulnerability. Connectome-constrained models can thus surface adversarial failure mechanisms as testable hypotheses about biological perceptual vulnerabilities.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Alexandre Garcia-Duran",
+            "orcid": "https://orcid.org/0009-0004-2473-8111"
+          },
+          {
+            "name": "Alejandro Rodríguez-García",
+            "orcid": null
+          },
+          {
+            "name": "Manuel Molano‐Mazón",
+            "orcid": "https://orcid.org/0000-0002-9140-3571"
+          },
+          {
+            "name": "Alexandre Hyafil",
+            "orcid": "https://orcid.org/0000-0002-0566-651X"
+          },
+          {
+            "name": "Srikanth Ramaswamy",
+            "orcid": "https://orcid.org/0000-0001-6642-7136"
+          },
+          {
+            "name": "Janne K. Lappalainen",
+            "orcid": "https://orcid.org/0000-0002-0547-7401"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.14498",
+        "landing_page": "https://arxiv.org/abs/2611.14498",
+        "open_access_url": "https://arxiv.org/abs/2611.14498",
+        "openalex_id": "https://openalex.org/W7225781864",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225781864",
+        "publication_date": "2026-11-10",
+        "title": "Measuring Robustness and Efficiency in a Connectome-Constrained Fly Visual System Model: Linking an Adversarial and a Perceptual Illusion",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:11.520741Z",
+      "status": "found"
+    },
     "openalex:title:a91db7004d5a48913ed068dd5095b7aaa2fec90b51ec84c30f47c93dc230bfce": {
       "expires_at": "2026-10-25T01:04:56.601283Z",
       "record": {
@@ -40710,6 +41588,12 @@
       "retrieved_at": "2026-10-15T00:58:20.125962Z",
       "status": "found"
     },
+    "openalex:title:daab00db2a1339ea6f06f1615ed50040df95431a0ce3550038f776d7a3c286ec": {
+      "expires_at": "2026-11-22T00:44:08.500707Z",
+      "record": null,
+      "retrieved_at": "2026-11-15T00:44:08.500707Z",
+      "status": "not_found"
+    },
     "openalex:title:dbb7b2f0b602dda6bb264b5f39eeec51cebde5c6996ecc615c306031c46867a6": {
       "expires_at": "2026-08-25T04:25:33.119801Z",
       "record": null,
@@ -40727,6 +41611,40 @@
       "record": null,
       "retrieved_at": "2026-09-12T00:59:38.926326Z",
       "status": "not_found"
+    },
+    "openalex:title:dd8ba64873aff2d0f5cad2bdc6ed346cdacc5b1a1034acc35cad44793e88fdd2": {
+      "expires_at": "2026-11-22T00:44:17.165557Z",
+      "record": {
+        "abstract": "Quantum optimal control is a versatile, powerful method to tailor quantum experiments. In NMR, numerical quantum optimal control algorithms such as the gradient ascent pulse engineering (GRAPE) algorithm have sparked many developments in pulse shaping, pushing the limits of pulse selectivity and robustness. To provide an overview of its core principles and the many expansions it has undergone ever since its introduction, the most common quality functions are benchmarked in their ability to guide the spin state transfer for facilitating excitation, inversion, and maximum quantum coherence. Explicit derivations of gradient and Hessian formulas are given, both summarizing what is known from the literature and complementing it. The derivations also give due consideration to the fact that spin states can be represented as density operators or spin operators. Analogously, the most common penalties to guide optimization toward experimentally feasible controls are discussed along with their explicit gradient and Hessian formula derivations. The discussion is complemented by thorough benchmarking for the most commonly used optimization algorithms.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Armin J. Römer",
+            "orcid": "https://orcid.org/0009-0001-8498-8452"
+          },
+          {
+            "name": "Josef Granwehr",
+            "orcid": "https://orcid.org/0000-0002-9307-1101"
+          },
+          {
+            "name": "S. Kocher",
+            "orcid": "https://orcid.org/0000-0001-9501-1703"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.26434/chemrxiv.15011974/v1",
+        "landing_page": "https://doi.org/10.26434/chemrxiv.15011974/v1",
+        "open_access_url": "https://doi.org/10.26434/chemrxiv.15011974/v1",
+        "openalex_id": "https://openalex.org/W7225810393",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225810393",
+        "publication_date": "2026-11-11",
+        "title": "Gradient ascent pulse engineering (GRAPE)–a primer on quality functions and pulse shape penalties",
+        "venue": "ChemRxiv",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-15T00:44:17.165557Z",
+      "status": "found"
     },
     "openalex:title:dda39a81768bcbff1278a09a8bff5f5adf77aa35fa248f4818ffcf0a63b23f16": {
       "expires_at": "2026-11-10T00:40:49.804458Z",
@@ -40769,6 +41687,12 @@
       },
       "retrieved_at": "2026-11-03T00:40:49.804458Z",
       "status": "found"
+    },
+    "openalex:title:df0eabc2272a1efdf8459e03c70cf8de95893159d272a8b78a6b173f6527b36d": {
+      "expires_at": "2026-11-22T00:44:10.198309Z",
+      "record": null,
+      "retrieved_at": "2026-11-15T00:44:10.198309Z",
+      "status": "not_found"
     },
     "openalex:title:e00396db83c2be4dfa3b2619e0516ab79abbb024e2859904bc0448d3028aa0ce": {
       "expires_at": "2026-10-10T01:04:48.916456Z",
