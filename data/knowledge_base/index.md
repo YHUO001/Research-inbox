@@ -1,7 +1,7 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`131`
-- 更新时间：`2026-11-12T00:42:48.649201Z`
+- 论文数：`134`
+- 更新时间：`2026-11-16T13:04:14.683247Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
@@ -735,6 +735,30 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### Zeroth-Order Riemannian Optimization on Fixed-Rank Manifolds for LLM Fine-Tuning
+
+- DOI/链接：[10.48550/arxiv.2611.10792](https://doi.org/10.48550/arxiv.2611.10792)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-11-16`
+- 候选 ID：`613738348c3064572d16e38f`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
+
+### Zeroth-Order Langevin Dynamics for Stochastic Nonconvex Optimization: Curvature Regularization and Non-Asymptotic Guarantees
+
+- DOI/链接：[10.48550/arxiv.2611.10461](https://doi.org/10.48550/arxiv.2611.10461)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-11-16`
+- 候选 ID：`c8eab601a12e0edc6ea689c7`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
+
+### Wanda-Guided Sparse Perturbations for Efficient Zeroth-Order Optimization
+
+- DOI/链接：[10.48550/arxiv.2611.16317](https://doi.org/10.48550/arxiv.2611.16317)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-11-16`
+- 候选 ID：`243c7d0258c4f3c336b23ef5`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation, zo:total_query_reduction
 
 ### A Zeroth-Order Compressed Push-Pull Algorithm for Distributed Nonconvex Optimization Over Unbalanced Directed Graphs
 

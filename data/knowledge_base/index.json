@@ -215,6 +215,15 @@
       "summary_record_sha256": "92dc41e70091f9a883e668fe8553c405ef05d4436fca6a824ef5d9361830ac9c",
       "title": "On-chip non-volatile all-optical residual neural network accelerator"
     },
+    "243c7d0258c4f3c336b23ef5": {
+      "digest_date": "2026-11-16",
+      "doi": "10.48550/arxiv.2611.16317",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "50dab6a0f43865a8993085761b67b23a693a06281b91826dc6a5b783fa94bd83",
+      "title": "Wanda-Guided Sparse Perturbations for Efficient Zeroth-Order Optimization"
+    },
     "2b5f9302fe96c2793d48540e": {
       "digest_date": "2026-08-09",
       "doi": "10.1117/12.3110867",
@@ -484,6 +493,15 @@
       ],
       "summary_record_sha256": "c4a650b558f2867b4d73c876388ad09254a36180d047f41114481ae0a2f0f520",
       "title": "All-optical control of nonlinear emission from resonant metasurfaces"
+    },
+    "613738348c3064572d16e38f": {
+      "digest_date": "2026-11-16",
+      "doi": "10.48550/arxiv.2611.10792",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "60577c695c16aa068f64168b54ee370559035164d076a6930f2d7f46ee33315e",
+      "title": "Zeroth-Order Riemannian Optimization on Fixed-Rank Manifolds for LLM Fine-Tuning"
     },
     "61dad77fe7c2ef7687ce5b21": {
       "digest_date": "2026-10-12",
@@ -935,6 +953,15 @@
       ],
       "summary_record_sha256": "4670ec077c07b58b0d96a4c3c6a73d22e111cdc2581e7ddddd399eaf23e08f48",
       "title": "Metasurface‐Based Terahertz Three‐Dimensional Holography Enabled by Physics‐Informed Neural Network"
+    },
+    "c8eab601a12e0edc6ea689c7": {
+      "digest_date": "2026-11-16",
+      "doi": "10.48550/arxiv.2611.10461",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "3de15c406ce016475845950f80ae8705af3263d688930d9ed74a2abd40c86cc3",
+      "title": "Zeroth-Order Langevin Dynamics for Stochastic Nonconvex Optimization: Curvature Regularization and Non-Asymptotic Guarantees"
     },
     "c9dee369fd4e64c2389af927": {
       "digest_date": "2026-10-15",
@@ -1439,6 +1466,11 @@
     ],
     "2026-11-12": [
       "6fb09da00d0f94c49f1e76ff"
+    ],
+    "2026-11-16": [
+      "243c7d0258c4f3c336b23ef5",
+      "613738348c3064572d16e38f",
+      "c8eab601a12e0edc6ea689c7"
     ]
   },
   "by_doi": {
@@ -1555,6 +1587,9 @@
     "10.48550/arxiv.2611.02688": "e8de222ab87bdb274102d640",
     "10.48550/arxiv.2611.03260": "dbd89d73b4422f4357c86181",
     "10.48550/arxiv.2611.03293": "8c41a3326d64abdd0bb9d1a7",
+    "10.48550/arxiv.2611.10461": "c8eab601a12e0edc6ea689c7",
+    "10.48550/arxiv.2611.10792": "613738348c3064572d16e38f",
+    "10.48550/arxiv.2611.16317": "243c7d0258c4f3c336b23ef5",
     "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
     "10.5281/zenodo.23337932": "c9dee369fd4e64c2389af927",
     "10.5281/zenodo.23422324": "1bbef7ba5398ff216f60580f",
@@ -1671,6 +1706,7 @@
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
+      "243c7d0258c4f3c336b23ef5",
       "2f9953028e4e0e3b934222c8",
       "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
@@ -1679,6 +1715,7 @@
       "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
+      "613738348c3064572d16e38f",
       "66c84fb1444bbf71b05ac0d7",
       "6da55cf29e6e5024311c8a8a",
       "70212be2c4a63d741872ace0",
@@ -1692,6 +1729,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
+      "c8eab601a12e0edc6ea689c7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
       "ce453bfbb1da74c9ff0d3143",
@@ -2541,6 +2579,7 @@
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
+      "243c7d0258c4f3c336b23ef5",
       "2f9953028e4e0e3b934222c8",
       "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
@@ -2549,6 +2588,7 @@
       "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
+      "613738348c3064572d16e38f",
       "66c84fb1444bbf71b05ac0d7",
       "6da55cf29e6e5024311c8a8a",
       "70212be2c4a63d741872ace0",
@@ -2562,6 +2602,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
+      "c8eab601a12e0edc6ea689c7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
       "ce453bfbb1da74c9ff0d3143",
@@ -2586,6 +2627,7 @@
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
+      "243c7d0258c4f3c336b23ef5",
       "2f9953028e4e0e3b934222c8",
       "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
@@ -2593,6 +2635,7 @@
       "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
+      "613738348c3064572d16e38f",
       "66c84fb1444bbf71b05ac0d7",
       "6da55cf29e6e5024311c8a8a",
       "7229499f7f76fe2e28f08e50",
@@ -2605,6 +2648,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
+      "c8eab601a12e0edc6ea689c7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
       "d022b854580fba55dade4302",
@@ -2628,6 +2672,7 @@
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
+      "243c7d0258c4f3c336b23ef5",
       "2f9953028e4e0e3b934222c8",
       "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
@@ -2635,6 +2680,7 @@
       "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
+      "613738348c3064572d16e38f",
       "66c84fb1444bbf71b05ac0d7",
       "6da55cf29e6e5024311c8a8a",
       "7229499f7f76fe2e28f08e50",
@@ -2645,6 +2691,7 @@
       "9e604f17f644449b1f294680",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
+      "c8eab601a12e0edc6ea689c7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
       "d022b854580fba55dade4302",
@@ -2668,6 +2715,7 @@
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
+      "243c7d0258c4f3c336b23ef5",
       "2f9953028e4e0e3b934222c8",
       "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
@@ -2675,6 +2723,7 @@
       "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
+      "613738348c3064572d16e38f",
       "66c84fb1444bbf71b05ac0d7",
       "6da55cf29e6e5024311c8a8a",
       "7229499f7f76fe2e28f08e50",
@@ -2684,6 +2733,7 @@
       "9e604f17f644449b1f294680",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
+      "c8eab601a12e0edc6ea689c7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
       "d022b854580fba55dade4302",
@@ -2707,6 +2757,7 @@
       "172a6e3e7b78c39c328487a6",
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
+      "243c7d0258c4f3c336b23ef5",
       "2f9953028e4e0e3b934222c8",
       "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
@@ -2714,6 +2765,7 @@
       "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
+      "613738348c3064572d16e38f",
       "66c84fb1444bbf71b05ac0d7",
       "6da55cf29e6e5024311c8a8a",
       "7229499f7f76fe2e28f08e50",
@@ -2726,6 +2778,7 @@
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "c55f09d580d098a54f7078e7",
+      "c8eab601a12e0edc6ea689c7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
       "d022b854580fba55dade4302",
@@ -2746,6 +2799,7 @@
       "0e5c75b6132afcfb1f7afb17",
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
+      "243c7d0258c4f3c336b23ef5",
       "2f9953028e4e0e3b934222c8",
       "4e1b2c8ed30de03dbe6a31eb",
       "5a8286fab9ab8fe52bf114fa",
@@ -2976,6 +3030,7 @@
       "142dc76f41fc25448b82c91e",
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
+      "243c7d0258c4f3c336b23ef5",
       "2f9953028e4e0e3b934222c8",
       "39df3bfb1d1f1919bbf17668",
       "3c46ab2b3d315aef47db028e",
@@ -2984,6 +3039,7 @@
       "5a8286fab9ab8fe52bf114fa",
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
+      "613738348c3064572d16e38f",
       "66c84fb1444bbf71b05ac0d7",
       "7229499f7f76fe2e28f08e50",
       "7a45515c829cdcf2bd96f41f",
@@ -2991,6 +3047,7 @@
       "8c41a3326d64abdd0bb9d1a7",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
+      "c8eab601a12e0edc6ea689c7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
       "d11ea194238cf32852af6b74",
@@ -3035,6 +3092,7 @@
       "1cf1fcd769c5ace951188b8c",
       "1e35265ce8678ca96adb8b93",
       "1e619f1b739f1893eae64f28",
+      "243c7d0258c4f3c336b23ef5",
       "2b5f9302fe96c2793d48540e",
       "2c2645700d900a5b3f00a38c",
       "2eb28d7201afb356d747693a",
@@ -3064,6 +3122,7 @@
       "5e49047e7ce2004f7954debb",
       "5e8f619911f39f5434b3167d",
       "5ec8e35ad02131d8ed156970",
+      "613738348c3064572d16e38f",
       "61dad77fe7c2ef7687ce5b21",
       "6584a28300e4e24252061ccc",
       "66c84fb1444bbf71b05ac0d7",
@@ -3112,6 +3171,7 @@
       "c66af551e0b88c81e0533e7c",
       "c7b91f881a121b7e1651e2f2",
       "c82f6c2f7b8ae52a84e4eb29",
+      "c8eab601a12e0edc6ea689c7",
       "c9dee369fd4e64c2389af927",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
@@ -3146,7 +3206,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 131,
+  "paper_count": 134,
   "schema_version": 1,
-  "updated_at": "2026-11-12T00:42:48.649201Z"
+  "updated_at": "2026-11-16T13:04:14.683247Z"
 }

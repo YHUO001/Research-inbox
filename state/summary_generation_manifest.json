@@ -1,29 +1,49 @@
 {
   "abstract_fallback_candidate_ids": [],
   "abstract_fallback_count": 0,
+  "architecture_evidence": {
+    "243c7d0258c4f3c336b23ef5": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    },
+    "613738348c3064572d16e38f": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    },
+    "c8eab601a12e0edc6ea689c7": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    }
+  },
+  "architecture_repairs": 0,
   "automatic_history_pending": false,
   "automatic_queue_candidate_count": 5,
+  "completed_at": "2026-11-16T13:04:14.683247Z",
   "completed_candidate_filtered_count": 0,
-  "daily_digest_pending": false,
-  "digest_date": "2026-11-16",
-  "email_enabled": false,
-  "estimated_cost_cny": 0.0,
-  "execution_mode": "automatic_daily_batch",
-  "failure_count": 3,
-  "failures": [
-    {
-      "candidate_id": "243c7d0258c4f3c336b23ef5",
-      "reason": "http_402"
-    },
-    {
-      "candidate_id": "c8eab601a12e0edc6ea689c7",
-      "reason": "http_402"
-    },
-    {
-      "candidate_id": "613738348c3064572d16e38f",
-      "reason": "http_402"
-    }
+  "completed_candidate_ids": [
+    "243c7d0258c4f3c336b23ef5",
+    "613738348c3064572d16e38f",
+    "c8eab601a12e0edc6ea689c7"
   ],
+  "completion_mode": "automatic_daily_batch_after_local_validation",
+  "daily_digest_pending": true,
+  "digest_date": "2026-11-16",
+  "digest_json_file": "runtime-state/data/digests/2026-11-16.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-11-16.generated.md",
+  "email_enabled": false,
+  "estimated_cost_cny": 0.072297,
+  "execution_mode": "automatic_daily_batch",
+  "failure_count": 0,
+  "failures": [],
   "full_text_method_contexts": {
     "243c7d0258c4f3c336b23ef5": {
       "abstract_available": true,
@@ -31,7 +51,7 @@
       "candidate_id": "243c7d0258c4f3c336b23ef5",
       "character_count": 2291,
       "content_sha256": "ad8af0a6f322bd0b3b65cc574145e216e2310f87d79e08cb72f948004101b021",
-      "elapsed_seconds": 0.342,
+      "elapsed_seconds": 0.577,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
@@ -48,7 +68,7 @@
       "candidate_id": "613738348c3064572d16e38f",
       "character_count": 12000,
       "content_sha256": "5625865f23f6599465c24a7e8c8fa46ffdcf8ae4c5ca8c7c802dcc2d310db308",
-      "elapsed_seconds": 0.45,
+      "elapsed_seconds": 0.753,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
@@ -69,7 +89,7 @@
       "candidate_id": "c8eab601a12e0edc6ea689c7",
       "character_count": 12000,
       "content_sha256": "8221289ae66687c1e017fff1440e471c62c3e6a0fb87941ef8649647a1d55506",
-      "elapsed_seconds": 0.536,
+      "elapsed_seconds": 0.938,
       "error": null,
       "fallback_decision": "use_full_text",
       "media_type": "text/html",
@@ -99,8 +119,9 @@
   "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
   "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
-  "knowledge_base_pending": false,
+  "knowledge_base_pending": true,
   "model": "deepseek-v4-pro",
+  "newly_completed_candidate_count": 3,
   "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
   "numeric_matching": {
     "absolute_tolerance": 0.02,
@@ -121,69 +142,89 @@
   "queue_sha256": "541307f3bac38d30abf827296f7c3ab28003f80110415af98b7e17106ef65d1b",
   "request_count": 3,
   "request_file": "runtime-state/data/summary_requests/2026-11-16.jsonl",
-  "request_sha256": "9f1f4b2587ac4fb9a235077bbb0e416e8f300b4ccd7f18552092b3028557f33a",
+  "request_sha256": "152ae3c12c19675f7a725aa8fdecbb62f6bc0f214f22e5b4aeeab08ccf476e73",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "a0704c6cc66131a2b378881fe15358391638a0e1de30a62cc0b40e353e193d17",
+  "selection_manifest_sha256": "376cf0f2cb9cbd08e78f0fa2bc64fe31604606a0bae101951cdfda9d08287f96",
   "skipped_no_abstract_candidate_ids": [],
   "skipped_no_abstract_count": 0,
   "source_queue_candidate_count": 5,
   "stage_timings": {
-    "full_text_preparation_seconds": 1.334,
+    "full_text_preparation_seconds": 2.277,
     "model_api_calls": [
       {
         "attempt": 1,
         "candidate_id": "243c7d0258c4f3c336b23ef5",
-        "elapsed_seconds": 0.726,
-        "error": "DeepSeekRequestError: http_402",
-        "status": "error"
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "243c7d0258c4f3c336b23ef5",
-        "elapsed_seconds": 0.681,
-        "error": "DeepSeekRequestError: http_402",
-        "status": "error"
+        "elapsed_seconds": 39.091,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 2640,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 1994,
+          "prompt_tokens": 3914,
+          "total_tokens": 6554
+        }
       },
       {
         "attempt": 1,
         "candidate_id": "c8eab601a12e0edc6ea689c7",
-        "elapsed_seconds": 0.781,
-        "error": "DeepSeekRequestError: http_402",
-        "status": "error"
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "c8eab601a12e0edc6ea689c7",
-        "elapsed_seconds": 0.683,
-        "error": "DeepSeekRequestError: http_402",
-        "status": "error"
+        "elapsed_seconds": 24.763,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1633,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 4860,
+          "prompt_tokens": 6780,
+          "total_tokens": 8413
+        }
       },
       {
         "attempt": 1,
         "candidate_id": "613738348c3064572d16e38f",
-        "elapsed_seconds": 0.692,
-        "error": "DeepSeekRequestError: http_402",
-        "status": "error"
-      },
-      {
-        "attempt": 2,
-        "candidate_id": "613738348c3064572d16e38f",
-        "elapsed_seconds": 0.699,
-        "error": "DeepSeekRequestError: http_402",
-        "status": "error"
+        "elapsed_seconds": 32.717,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1976,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 4699,
+          "prompt_tokens": 6619,
+          "total_tokens": 8595
+        }
       }
     ],
-    "model_generation_and_validation_seconds": 4.267
+    "model_generation_and_validation_seconds": 96.597
   },
-  "status": "failed_validation",
-  "summary_count": 0,
+  "status": "completed_automatic",
+  "summary_count": 3,
+  "summary_file": "runtime-state/data/summaries/2026-11-16.jsonl",
   "summary_generation_version": 8,
-  "summary_history_updated": false,
+  "summary_history_updated": true,
   "summary_slot_count": 3,
   "thinking_enabled": false,
   "transport_repairs": {
-    "architecture_evidence": {},
+    "architecture_evidence": {
+      "243c7d0258c4f3c336b23ef5": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": null,
+        "repaired": false,
+        "resolved_type": "unclear"
+      },
+      "613738348c3064572d16e38f": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": null,
+        "repaired": false,
+        "resolved_type": "unclear"
+      },
+      "c8eab601a12e0edc6ea689c7": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": null,
+        "repaired": false,
+        "resolved_type": "unclear"
+      }
+    },
     "architecture_repairs": 0,
     "candidate_id_repair_responses": 0,
     "full_text_method_contexts": {
@@ -193,7 +234,7 @@
         "candidate_id": "243c7d0258c4f3c336b23ef5",
         "character_count": 2291,
         "content_sha256": "ad8af0a6f322bd0b3b65cc574145e216e2310f87d79e08cb72f948004101b021",
-        "elapsed_seconds": 0.342,
+        "elapsed_seconds": 0.577,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
@@ -210,7 +251,7 @@
         "candidate_id": "613738348c3064572d16e38f",
         "character_count": 12000,
         "content_sha256": "5625865f23f6599465c24a7e8c8fa46ffdcf8ae4c5ca8c7c802dcc2d310db308",
-        "elapsed_seconds": 0.45,
+        "elapsed_seconds": 0.753,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
@@ -231,7 +272,7 @@
         "candidate_id": "c8eab601a12e0edc6ea689c7",
         "character_count": 12000,
         "content_sha256": "8221289ae66687c1e017fff1440e471c62c3e6a0fb87941ef8649647a1d55506",
-        "elapsed_seconds": 0.536,
+        "elapsed_seconds": 0.938,
         "error": null,
         "fallback_decision": "use_full_text",
         "media_type": "text/html",
@@ -257,17 +298,46 @@
         "text_persisted": false
       }
     },
-    "generation_metadata_repair_responses": 0,
-    "numeric_grounding_repair_responses": 0,
-    "numeric_grounding_repairs": {},
+    "generation_metadata_repair_responses": 3,
+    "numeric_grounding_repair_responses": 2,
+    "numeric_grounding_repairs": {
+      "613738348c3064572d16e38f": [
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "默认训练配置使用FP16检查点、20000步、常数学习率、有限差分参数1e-3和权重衰减0。",
+          "path": "method_implementation[5]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "20000"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "总查询复杂度未在提供的方法上下文中给出闭合公式，默认配置使用20000训练步。",
+          "path": "zeroth_order_analysis.per_step_vs_total_clarity",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "20000"
+          ]
+        }
+      ],
+      "c8eab601a12e0edc6ea689c7": [
+        {
+          "action": "rewrote_big_o_one",
+          "original_excerpt": "论文强调每步使用两点估计器，需要两次函数评估；批量大小不依赖于目标精度 ϵ，因此总查询复杂度为 O(1) 的可扩展性表述，但总评估数与具体步数的数值未给出。",
+          "path": "zeroth_order_analysis.per_step_vs_total_clarity",
+          "replacement": "论文强调每步使用两点估计器，需要两次函数评估；批量大小不依赖于目标精度 ϵ，因此总查询复杂度为 常数级 的可扩展性表述，但总评估数与具体步数的数值未给出。"
+        }
+      ]
+    },
     "tops_alias_expansions": 70,
-    "unit_format_normalization_responses": 0
+    "unit_format_normalization_responses": 1
   },
   "usage": {
-    "completion_tokens": 0,
-    "prompt_cache_hit_tokens": 0,
-    "prompt_cache_miss_tokens": 0,
-    "prompt_tokens": 0,
-    "total_tokens": 0
+    "completion_tokens": 6249,
+    "prompt_cache_hit_tokens": 5760,
+    "prompt_cache_miss_tokens": 11553,
+    "prompt_tokens": 17313,
+    "total_tokens": 23562
   }
 }
