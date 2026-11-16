@@ -9164,6 +9164,64 @@
       "retrieved_at": "2026-11-01T00:47:13.717796Z",
       "status": "found"
     },
+    "crossref:doi:10.21203/rs.3.rs-11430571/v1": {
+      "expires_at": "2026-12-16T00:47:35.959885Z",
+      "record": {
+        "abstract": "Abstract The development of integrated microscopic imaging requires optical systems to simultaneously possess miniaturization, multi-channel control, and high-quality imaging capabilities, while traditional lens systems still have limitations in terms of structural compactness and functional reuse. This paper presents a polarization-coded multifocal stitching imaging system based on an all-dielectric metalens. By using polarization multiplexing and phase modulation, the designed metalens can achieve selective multifocal modulation of the incident polarization state: it generates 8 focal spots under left-handed circularly polarized light, 4 focal spots under right-handed circularly polarized light, and can simultaneously excite all 12 focal spots under linearly polarized light. The metalens was further used to perform multifocal imaging and stitching reconstruction on a resolution plate, verifying its multi-channel imaging capability. As a proof of principle, based on the experimentally measured multifocal PSF, convolutional coding, demixing, and stitching reconstruction methods were used to perform computational imaging processing on onion epidermal cell images, achieving effective reconstruction of complex biological sample images. This work demonstrates the application potential of polarization-multiplexed metasurfaces in integrated multifocal imaging and computational reconstruction.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jiajing He",
+            "orcid": "https://orcid.org/0000-0002-6477-1061"
+          },
+          {
+            "name": "Xiaojie Sun",
+            "orcid": null
+          },
+          {
+            "name": "xuan yang",
+            "orcid": null
+          },
+          {
+            "name": "Haiyang Song",
+            "orcid": null
+          },
+          {
+            "name": "Haixu Tao",
+            "orcid": null
+          },
+          {
+            "name": "Jingpei Cai",
+            "orcid": null
+          },
+          {
+            "name": "Jiaxuan Zou",
+            "orcid": null
+          },
+          {
+            "name": "Long Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Jun Wang",
+            "orcid": "https://orcid.org/0000-0003-0064-3551"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-11430571/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-11430571/v1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.21203/rs.3.rs-11430571/v1",
+        "publication_date": "2026-11-13",
+        "title": "Polarization-encoded multifocal stitching imaging based on all-dielectric metasurface engineering",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-16T00:47:35.959885Z",
+      "status": "found"
+    },
     "crossref:doi:10.2172/17426798": {
       "expires_at": "2026-12-02T00:43:06.273874Z",
       "record": {
@@ -32577,6 +32635,64 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-23T01:02:38.201239Z",
+      "status": "found"
+    },
+    "openalex:doi:10.21203/rs.3.rs-11430571/v1": {
+      "expires_at": "2026-12-16T00:47:36.291869Z",
+      "record": {
+        "abstract": "Abstract The development of integrated microscopic imaging requires optical systems to simultaneously possess miniaturization, multi-channel control, and high-quality imaging capabilities, while traditional lens systems still have limitations in terms of structural compactness and functional reuse. This paper presents a polarization-coded multifocal stitching imaging system based on an all-dielectric metalens. By using polarization multiplexing and phase modulation, the designed metalens can achieve selective multifocal modulation of the incident polarization state: it generates 8 focal spots under left-handed circularly polarized light, 4 focal spots under right-handed circularly polarized light, and can simultaneously excite all 12 focal spots under linearly polarized light. The metalens was further used to perform multifocal imaging and stitching reconstruction on a resolution plate, verifying its multi-channel imaging capability. As a proof of principle, based on the experimentally measured multifocal PSF, convolutional coding, demixing, and stitching reconstruction methods were used to perform computational imaging processing on onion epidermal cell images, achieving effective reconstruction of complex biological sample images. This work demonstrates the application potential of polarization-multiplexed metasurfaces in integrated multifocal imaging and computational reconstruction.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jiajing He",
+            "orcid": "https://orcid.org/0000-0002-6477-1061"
+          },
+          {
+            "name": "Xiaojie Sun",
+            "orcid": null
+          },
+          {
+            "name": "xuan yang",
+            "orcid": null
+          },
+          {
+            "name": "Haiyang Song",
+            "orcid": null
+          },
+          {
+            "name": "Haixu Tao",
+            "orcid": null
+          },
+          {
+            "name": "蔡京佩",
+            "orcid": null
+          },
+          {
+            "name": "Jiaxuan Zou",
+            "orcid": null
+          },
+          {
+            "name": "Long Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Jun Wang",
+            "orcid": "https://orcid.org/0000-0003-0064-3551"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-11430571/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-11430571/v1",
+        "open_access_url": "https://doi.org/10.21203/rs.3.rs-11430571/v1",
+        "openalex_id": "https://openalex.org/W7226007820",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7226007820",
+        "publication_date": "2026-11-13",
+        "title": "Polarization-encoded multifocal stitching imaging based on all-dielectric metasurface engineering",
+        "venue": "Research Square",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-16T00:47:36.291869Z",
       "status": "found"
     },
     "openalex:doi:10.21595/jve.2026.26644": {
