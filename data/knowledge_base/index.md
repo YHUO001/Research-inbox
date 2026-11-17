@@ -1,10 +1,26 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`134`
-- 更新时间：`2026-11-16T13:04:14.683247Z`
+- 论文数：`137`
+- 更新时间：`2026-11-17T00:43:34.081670Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Noise-robust optical convolutional neural networks with adaptive bit-plane weighted fusion
+
+- DOI/链接：[10.1364/ol.615383](https://doi.org/10.1364/ol.615383)
+- 期刊/年份：Optics Letters，2026
+- 摘要日期：`2026-11-17`
+- 候选 ID：`ff3bd3c093ca85c51723cea8`
+- 标签：application:mnist 手写数字分类, application:噪声鲁棒光学推理, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
+
+### All‐Optical Meta‐Convolutional Neural Networks for Reconfigurable Image Identification
+
+- DOI/链接：[10.1002/lpor.72206](https://doi.org/10.1002/lpor.72206)
+- 期刊/年份：Laser &amp; Photonics Reviews，2026
+- 摘要日期：`2026-11-17`
+- 候选 ID：`b0e6482dfe5e39ae511f80e4`
+- 标签：application:mnist 手写数字识别, application:十类手势识别, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Photonic Analog-to-Digital Conversion (ADC) using Photonic Neural Network-assisted Quantization
 
@@ -735,6 +751,14 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### Decentralized stochastic zeroth-order conjugate gradient algorithm for nonconvex optimization
+
+- DOI/链接：[10.1007/s10589-026-00855-4](https://doi.org/10.1007/s10589-026-00855-4)
+- 期刊/年份：Computational Optimization and Applications，2026
+- 摘要日期：`2026-11-17`
+- 候选 ID：`ecaf6dd689741a7c3c9a1daf`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
 
 ### Zeroth-Order Riemannian Optimization on Fixed-Rank Manifolds for LLM Fine-Tuning
 

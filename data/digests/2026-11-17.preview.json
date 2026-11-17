@@ -1,0 +1,53 @@
+{
+  "built_at": "2026-11-17T00:42:37.596940Z",
+  "digest_date": "2026-11-17",
+  "digest_version": 1,
+  "pending_summary_count": 3,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "ecaf6dd689741a7c3c9a1daf",
+        "landing_page": "https://doi.org/10.1007/s10589-026-00855-4",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Decentralized stochastic zeroth-order conjugate gradient algorithm for nonconvex optimization",
+        "venue": "Computational Optimization and Applications",
+        "year": 2026
+      },
+      {
+        "candidate_id": "b0e6482dfe5e39ae511f80e4",
+        "landing_page": "https://doi.org/10.1002/lpor.72206",
+        "mandatory": false,
+        "score": 0.73,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "All‐Optical Meta‐Convolutional Neural Networks for Reconfigurable Image Identification",
+        "venue": "Laser &amp; Photonics Reviews",
+        "year": 2026
+      },
+      {
+        "candidate_id": "ff3bd3c093ca85c51723cea8",
+        "landing_page": "https://doi.org/10.1364/ol.615383",
+        "mandatory": false,
+        "score": 0.73,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Noise-robust optical convolutional neural networks with adaptive bit-plane weighted fusion",
+        "venue": "Optics Letters",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

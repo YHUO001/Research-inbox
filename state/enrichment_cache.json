@@ -2726,6 +2726,44 @@
       "retrieved_at": "2026-09-07T01:06:51.649949Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/s10589-026-00855-4": {
+      "expires_at": "2026-12-17T00:42:35.196494Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Junyu Lu",
+            "orcid": null
+          },
+          {
+            "name": "Zhongzhou Jin",
+            "orcid": null
+          },
+          {
+            "name": "Shaoliang Shi",
+            "orcid": null
+          },
+          {
+            "name": "Gonglin Yuan",
+            "orcid": "https://orcid.org/0000-0003-2667-5834"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10589-026-00855-4",
+        "landing_page": "https://doi.org/10.1007/s10589-026-00855-4",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s10589-026-00855-4",
+        "publication_date": "2026-11-13",
+        "title": "Decentralized stochastic zeroth-order conjugate gradient algorithm for nonconvex optimization",
+        "venue": "Computational Optimization and Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-17T00:42:35.196494Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/s10773-026-06497-w": {
       "expires_at": "2026-11-08T01:12:22.986882Z",
       "record": {
@@ -9667,9 +9705,9 @@
       "status": "not_found"
     },
     "crossref:doi:10.5281/zenodo.23338144": {
-      "expires_at": "2026-11-14T00:58:15.122908Z",
+      "expires_at": "2026-12-17T00:42:34.672189Z",
       "record": null,
-      "retrieved_at": "2026-10-15T00:58:15.122908Z",
+      "retrieved_at": "2026-11-17T00:42:34.672189Z",
       "status": "not_found"
     },
     "crossref:doi:10.5281/zenodo.23413943": {
@@ -10129,6 +10167,12 @@
       "retrieved_at": "2026-09-25T01:02:48.492971Z",
       "status": "found"
     },
+    "crossref:title:001154b5d40d146cd6b382279e44469fd41d983f34974b2755d1b5340e7df72a": {
+      "expires_at": "2026-11-24T00:42:18.757485Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:18.757485Z",
+      "status": "not_found"
+    },
     "crossref:title:01d0f51375153313f281a6020a49a3d435458500e7e85e732851c8cc8fc7415b": {
       "expires_at": "2026-11-04T00:48:17.006345Z",
       "record": null,
@@ -10230,6 +10274,12 @@
       },
       "retrieved_at": "2026-11-03T00:40:30.290504Z",
       "status": "found"
+    },
+    "crossref:title:05af210730e264f7143a91138e754537a1e099aefcece2fb3b104a6fa2f5d8de": {
+      "expires_at": "2026-11-24T00:42:30.133585Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:30.133585Z",
+      "status": "not_found"
     },
     "crossref:title:06693e531997c12223d3bf4aeefb09d84bfa52f942f5ff9011fda630169008e4": {
       "expires_at": "2026-09-28T01:07:32.848362Z",
@@ -10742,6 +10792,44 @@
       "record": null,
       "retrieved_at": "2026-09-21T01:07:30.619619Z",
       "status": "not_found"
+    },
+    "crossref:title:14cb7475ee1e083c28fa2d851b42b5e6fc9e064440b0a08d48a7c344f7bb0fba": {
+      "expires_at": "2026-11-24T00:42:35.752122Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sai Sriram Gonthina",
+            "orcid": null
+          },
+          {
+            "name": "Sandip Roy",
+            "orcid": null
+          },
+          {
+            "name": "Venkanna U",
+            "orcid": null
+          },
+          {
+            "name": "Sachin Shetty",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/vtc2026-fall68024.2026.11758304",
+        "landing_page": "https://doi.org/10.1109/vtc2026-fall68024.2026.11758304",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/vtc2026-fall68024.2026.11758304",
+        "publication_date": "2026-09",
+        "title": "HideMe: Physically Constrained Attention Guided Laser Attacks on Autonomous Vehicle Perception",
+        "venue": "2026 IEEE 104th Vehicular Technology Conference (VTC2026-Fall)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-17T00:42:35.752122Z",
+      "status": "found"
     },
     "crossref:title:151986a082bf330392728bdeca8017bc62c4ef4c1c80eb8ce67bf36365773eab": {
       "expires_at": "2026-10-04T01:11:34.657223Z",
@@ -11351,6 +11439,12 @@
       "retrieved_at": "2026-10-09T01:12:13.437266Z",
       "status": "not_found"
     },
+    "crossref:title:223310143eecd9b5ce54244c07036ac0ca46d1f29ef755bf178434669e536a8e": {
+      "expires_at": "2026-11-24T00:42:19.975370Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:19.975370Z",
+      "status": "not_found"
+    },
     "crossref:title:228b3b46c10b7220e57f2100055e4141e679d4bbd9d18a67aa288e7230050b53": {
       "expires_at": "2026-08-25T04:25:16.791069Z",
       "record": {
@@ -11427,6 +11521,12 @@
       "expires_at": "2026-10-19T01:18:11.093660Z",
       "record": null,
       "retrieved_at": "2026-10-12T01:18:11.093660Z",
+      "status": "not_found"
+    },
+    "crossref:title:23695255ade8b41a741427286dcb852b82edad63db4977cd6ff6022197972130": {
+      "expires_at": "2026-11-24T00:42:28.838457Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:28.838457Z",
       "status": "not_found"
     },
     "crossref:title:23c125f8574a076488b3ce404f450ae16ce4dfe1130454a942ca4aa22b802ee6": {
@@ -11571,6 +11671,60 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-07T01:06:51.029914Z",
+      "status": "found"
+    },
+    "crossref:title:2a9cab2a467ef218d60eddf5e64f8fcaa66141fa2c4c734e4cc19521e7b252e9": {
+      "expires_at": "2026-11-24T00:42:21.322588Z",
+      "record": {
+        "abstract": "Continuous-space diffusion and flow language models generate text by updating real-valued vectors (such as token embeddings, compressed codes, or sentence vectors) and decoding them into discrete words at readout. We organize this literature by three coupled choices: the continuous state being refined, the transition operator that updates it, and the text interface that converts states into tokens. Because language is discrete while the state space is continuous, adapting image diffusion to text encounters rounding ambiguity and embedding collapse under squared-error regression, uninformative noise schedules, distribution shift between clean-text codecs and learned priors, and mode averaging in few-step sampling. Across published comparisons with autoregressive and discrete-diffusion baselines, continuous models show no general advantage over same-scale autoregressive models on open-ended text; the closest prompt-continuation tie uses different training sequence lengths and separately tuned samplers. RePlaid matches or improves upon masked diffusion in likelihood bounds past compute-optimal budgets, and large-scale blockwise adaptation brings continuous models close to masked baselines on mathematical reasoning and code; however, continuous models still trail autoregressive baselines in held-out likelihood bounds, and scaling fits indicate that matching exact autoregressive negative log-likelihood requires substantially more training compute. Their clearest gains over autoregressive decoding appear in gradient-guided control, plan-level diversity, and task-specific reasoning after targeted fine-tuning. Under few-step budgets, trajectory-consistent distillation and stochastic bridges prevent entropy collapse, yet no standalone continuous generator has shown an end-to-end latency win over optimized autoregressive decoding at matched quality; the reported matched-quality latency gains rely on autoregressive verification of continuous drafts. We close with open problems in likelihood scaling, readout fidelity, few-step serving, representation reuse, and post-training.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Haocheng Mei",
+            "orcid": "https://orcid.org/0009-0002-5387-9242"
+          },
+          {
+            "name": "Yuchuan Tian",
+            "orcid": null
+          },
+          {
+            "name": "Haojun Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Wei He",
+            "orcid": null
+          },
+          {
+            "name": "Ye Yuan",
+            "orcid": null
+          },
+          {
+            "name": "Chao Xu",
+            "orcid": null
+          },
+          {
+            "name": "Yunhe Wang",
+            "orcid": null
+          },
+          {
+            "name": "Allen Chen",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.20944/preprints202611.1395.v1",
+        "landing_page": "https://doi.org/10.20944/preprints202611.1395.v1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.20944/preprints202611.1395.v1",
+        "publication_date": "2026-11-13",
+        "title": "Continuous-Space Diffusion and Flow Language Models: A Survey",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-17T00:42:21.322588Z",
       "status": "found"
     },
     "crossref:title:2b271f45467a357f7a1769a5048457b29f7beee2c0f32848943d06e87bbfc9a1": {
@@ -12503,6 +12657,12 @@
       "expires_at": "2026-10-12T01:13:31.411314Z",
       "record": null,
       "retrieved_at": "2026-10-05T01:13:31.411314Z",
+      "status": "not_found"
+    },
+    "crossref:title:47bf6f6b0a1ef067e5458738525bcc77044ba66dd9108750f22b31b1e873f78b": {
+      "expires_at": "2026-11-24T00:42:26.063156Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:26.063156Z",
       "status": "not_found"
     },
     "crossref:title:4865ecefca8be1ebc9fae963a445022de379579af7813f9c1ee05527e3bb658b": {
@@ -14019,6 +14179,12 @@
       "retrieved_at": "2026-08-10T00:36:45.356180Z",
       "status": "not_found"
     },
+    "crossref:title:87ed8c693505bf66487d081b61d5d5cfc56186a92c6f93c4263abee8d79052de": {
+      "expires_at": "2026-11-24T00:42:34.116880Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:34.116880Z",
+      "status": "not_found"
+    },
     "crossref:title:880d428b9274f4a7678bec64a58d8ea61cdd747d2fca196bb33add130c12cd0b": {
       "expires_at": "2026-11-13T00:41:07.576132Z",
       "record": null,
@@ -14163,6 +14329,12 @@
       "expires_at": "2026-11-12T00:41:15.015518Z",
       "record": null,
       "retrieved_at": "2026-11-05T00:41:15.015518Z",
+      "status": "not_found"
+    },
+    "crossref:title:8fa766e32666dd1313728364014414d0427526e36db7edfc9fe92d5985514c77": {
+      "expires_at": "2026-11-24T00:42:33.337683Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:33.337683Z",
       "status": "not_found"
     },
     "crossref:title:8fb3fe766d0bdee30c78b958390d420ec89a601da9b8a0fdba8ecc8d0d2fbf8c": {
@@ -14543,6 +14715,12 @@
       "expires_at": "2026-10-30T01:02:40.563852Z",
       "record": null,
       "retrieved_at": "2026-10-23T01:02:40.563852Z",
+      "status": "not_found"
+    },
+    "crossref:title:9b05cae0842de5dbbdd25043100a3f9f8a0a80639f54e70aa1b5e2e84f12bbf1": {
+      "expires_at": "2026-11-24T00:42:31.350650Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:31.350650Z",
       "status": "not_found"
     },
     "crossref:title:9b1bad62a611b751ecd903de32038c6c178275fca05efd9e93adafcd091d41cc": {
@@ -15617,6 +15795,12 @@
       "retrieved_at": "2026-08-04T09:38:59.811568Z",
       "status": "not_found"
     },
+    "crossref:title:bc0bd5b02380b3d3ba59d39c9645f6aac591aed87db195257d366324048f3756": {
+      "expires_at": "2026-11-24T00:42:22.478282Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:22.478282Z",
+      "status": "not_found"
+    },
     "crossref:title:bdbc22c60c3a0bcc6d2411059c31d964290b52328fc7032c2aaf056cbd4410b7": {
       "expires_at": "2026-10-16T01:12:23.788231Z",
       "record": null,
@@ -15801,6 +15985,12 @@
       "expires_at": "2026-09-08T01:13:15.230369Z",
       "record": null,
       "retrieved_at": "2026-09-01T01:13:15.230369Z",
+      "status": "not_found"
+    },
+    "crossref:title:c0f67b0864dd841f07fbf81a2af055102694a536d46a43ccbcb9394cec21a88a": {
+      "expires_at": "2026-11-24T00:42:27.512938Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:27.512938Z",
       "status": "not_found"
     },
     "crossref:title:c1002ef4e840f87e91ba6562eccb5f7e36445c225f98f50877149cf14dbf43f8": {
@@ -16486,6 +16676,12 @@
       },
       "retrieved_at": "2026-09-09T01:02:01.909031Z",
       "status": "found"
+    },
+    "crossref:title:cf6b438b2ff07213709b8a0da591f1a1b55b8c24ea4d4d84e306843c2eac2578": {
+      "expires_at": "2026-11-24T00:42:24.058412Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:24.058412Z",
+      "status": "not_found"
     },
     "crossref:title:d06011ead1540195831dcd9ca0a4a88a252f2ddbdce34daacec6dd543b151b49": {
       "expires_at": "2026-10-12T01:13:21.061813Z",
@@ -17303,6 +17499,12 @@
       "expires_at": "2026-09-12T00:59:48.641716Z",
       "record": null,
       "retrieved_at": "2026-09-05T00:59:48.641716Z",
+      "status": "not_found"
+    },
+    "crossref:title:e52a70653a3dd5cc747bd18252e9bafe48f634299db52474a28a6673dab41d86": {
+      "expires_at": "2026-11-24T00:42:32.410383Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:32.410383Z",
       "status": "not_found"
     },
     "crossref:title:e52f743553d7ab85547eee0293aae0315b336cf34824f5091b79b72534897095": {
@@ -21075,6 +21277,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-16T00:57:53.229548Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s10589-026-00855-4": {
+      "expires_at": "2026-12-17T00:42:35.433479Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Junyu Lu",
+            "orcid": "https://orcid.org/0009-0002-4822-2190"
+          },
+          {
+            "name": "Zhongzhou Jin",
+            "orcid": "https://orcid.org/0009-0005-1175-323X"
+          },
+          {
+            "name": "Shaoliang Shi",
+            "orcid": null
+          },
+          {
+            "name": "Gonglin Yuan",
+            "orcid": "https://orcid.org/0000-0003-2667-5834"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s10589-026-00855-4",
+        "landing_page": "https://doi.org/10.1007/s10589-026-00855-4",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7225995678",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225995678",
+        "publication_date": "2026-11-13",
+        "title": "Decentralized stochastic zeroth-order conjugate gradient algorithm for nonconvex optimization",
+        "venue": "Computational Optimization and Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-17T00:42:35.433479Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s10773-026-06497-w": {
@@ -28305,6 +28545,44 @@
       "retrieved_at": "2026-08-18T04:25:09.281070Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/vtc2026-fall68024.2026.11758304": {
+      "expires_at": "2026-12-17T00:42:35.992422Z",
+      "record": {
+        "abstract": "The perception of Autonomous Vehicles (AVs) is prone to physical interference from external light sources. While prior studies have shown that laser beam interference can manipulate neural network based perception models, existing approaches generally depend on greedy or unguided search strategies to optimize laser parameters. Such strategies often converge to local minima and require excessive detector queries, limiting their ability to reliably identify detector-sensitive regions and resulting in inefficient attack optimization. In this paper, we propose HideMe, a physically bound roaside laser projection attack that can effectively hide vehicles from the victim vehicle perception leading to hazardous consequences. The HideMe attack exploits the attention guided optimization approach that takes advantage of the channelwise variance of the detector's feature map to identify the most sensitive areas. The two-stage search approach efficiently optimizes the parameters of the laser beam to reduce the confidence level. We carried out a series of experiments on nighttime driving images to demonstrate that the HideMe attack can attain a high attack success rate while minimizing the number of queries. Specifically, the HideMe attack achieved a high attack success rate of 92.7% with only 52 queries. Moreover, it demonstrates that the HideMe attack can attain up to 15.6 times higher attack efficiency compared to existing light-based attacks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sai Sriram Gonthina",
+            "orcid": "https://orcid.org/0009-0001-6174-8157"
+          },
+          {
+            "name": "Sandip Roy",
+            "orcid": null
+          },
+          {
+            "name": "Venkanna U",
+            "orcid": null
+          },
+          {
+            "name": "Sachin S. Shetty",
+            "orcid": "https://orcid.org/0000-0002-8789-0610"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/vtc2026-fall68024.2026.11758304",
+        "landing_page": "https://doi.org/10.1109/vtc2026-fall68024.2026.11758304",
+        "open_access_url": "https://doi.org/10.1109/vtc2026-fall68024.2026.11758304",
+        "openalex_id": "https://openalex.org/W7225859773",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225859773",
+        "publication_date": "2026-09-01",
+        "title": "HideMe: Physically Constrained Attention Guided Laser Attacks on Autonomous Vehicle Perception",
+        "venue": "IEEE Vehicular Technology Conference",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-17T00:42:35.992422Z",
+      "status": "found"
+    },
     "openalex:doi:10.1117/1.ap.8.5.054001": {
       "expires_at": "2026-10-14T01:07:34.939068Z",
       "record": {
@@ -32203,6 +32481,60 @@
       "retrieved_at": "2026-09-12T00:59:39.904888Z",
       "status": "found"
     },
+    "openalex:doi:10.20944/preprints202611.1395.v1": {
+      "expires_at": "2026-12-17T00:42:21.540199Z",
+      "record": {
+        "abstract": "Continuous-space diffusion and flow language models generate text by updating real-valued vectors (such as token embeddings, compressed codes, or sentence vectors) and decoding them into discrete words at readout. We organize this literature by three coupled choices: the continuous state being refined, the transition operator that updates it, and the text interface that converts states into tokens. Because language is discrete while the state space is continuous, adapting image diffusion to text encounters rounding ambiguity and embedding collapse under squared-error regression, uninformative noise schedules, distribution shift between clean-text codecs and learned priors, and mode averaging in few-step sampling. Across published comparisons with autoregressive and discrete-diffusion baselines, continuous models show no general advantage over same-scale autoregressive models on open-ended text; the closest prompt-continuation tie uses different training sequence lengths and separately tuned samplers. RePlaid matches or improves upon masked diffusion in likelihood bounds past compute-optimal budgets, and large-scale blockwise adaptation brings continuous models close to masked baselines on mathematical reasoning and code; however, continuous models still trail autoregressive baselines in held-out likelihood bounds, and scaling fits indicate that matching exact autoregressive negative log-likelihood requires substantially more training compute. Their clearest gains over autoregressive decoding appear in gradient-guided control, plan-level diversity, and task-specific reasoning after targeted fine-tuning. Under few-step budgets, trajectory-consistent distillation and stochastic bridges prevent entropy collapse, yet no standalone continuous generator has shown an end-to-end latency win over optimized autoregressive decoding at matched quality; the reported matched-quality latency gains rely on autoregressive verification of continuous drafts. We close with open problems in likelihood scaling, readout fidelity, few-step serving, representation reuse, and post-training.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Haocheng Mei",
+            "orcid": "https://orcid.org/0009-0002-5387-9242"
+          },
+          {
+            "name": "Yuchuan Tian",
+            "orcid": null
+          },
+          {
+            "name": "Haojun Jiang",
+            "orcid": null
+          },
+          {
+            "name": "Wei He",
+            "orcid": null
+          },
+          {
+            "name": "Ye Yuan",
+            "orcid": null
+          },
+          {
+            "name": "Chao Xu",
+            "orcid": null
+          },
+          {
+            "name": "Yunhe Wang",
+            "orcid": null
+          },
+          {
+            "name": "Allen Chen",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.20944/preprints202611.1395.v1",
+        "landing_page": "https://doi.org/10.20944/preprints202611.1395.v1",
+        "open_access_url": "https://doi.org/10.20944/preprints202611.1395.v1",
+        "openalex_id": "https://openalex.org/W7226039320",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7226039320",
+        "publication_date": "2026-11-13",
+        "title": "Continuous-Space Diffusion and Flow Language Models: A Survey",
+        "venue": "Preprints.org",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-17T00:42:21.540199Z",
+      "status": "found"
+    },
     "openalex:doi:10.2118/235490-ms": {
       "expires_at": "2026-12-06T00:41:03.357749Z",
       "record": {
@@ -34562,7 +34894,7 @@
       "status": "found"
     },
     "openalex:doi:10.5281/zenodo.23338144": {
-      "expires_at": "2026-11-14T00:58:15.441240Z",
+      "expires_at": "2026-12-17T00:42:34.922817Z",
       "record": {
         "abstract": "Abstract—The relentless exponential scaling of foundation models and transformer architectures has pushed conventional silicon complementary metal-oxide-semiconductor (CMOS) digital accelerators (GPUs, TPUs) toward fundamental thermodynamic and interconnect boundaries. Joule heating, resistance-capacitance (RC) interconnect delay scaling, and the 'memory wall' severely constrain energy efficiency and compute density. Optical Computing and Integrated Silicon Photonics (SiPh) establish an analog non-Von Neumann hardware paradigm that executes fundamental linear algebra operations—specifically General Matrix-Matrix Multiplication (GEMM)—at the speed of light with near-zero runtime energy dissipation. By encoding vector-matrix activations into coherent optical wave fields and modulating light through cascaded Mach-Zehnder Interferometer (MZI) meshes, Micro-Ring Resonator (MRR) banks, and Wavelength-Division Multiplexing (WDM) waveguides, photonic tensor processing units (PTPUs) execute analog matrix multiplications in continuous time with sub-nanosecond propagation latencies. However, translating integrated photonic circuits into production deep learning accelerators introduces profound optoelectronic engineering bottlenecks: analog noise accumulation across deep optical meshes, severe thermal phase drift, limited electro-optic Digital-to-Analog / Analog-to-Digital (DAC/ADC) conversion resolution, non-linear activation implementation hurdles, and wafer-scale optical footprint scaling. This paper delivers an exhaustive, mathematically formal technical investigation and empirical benchmark of integrated photonic computing for deep neural network acceleration. We formalize the Clements and Reck unitary matrix decomposition algorithms over reconfigurable MZI topologies, derive the optical transmission transfer matrix under optical carrier phase error perturbations, and establish energy-per-MAC physical thermodynamic bounds across electro-optic conversion interfaces. Furthermore, we construct an empirical co-simulation and hardware testbed benchmarking silicon photonic meshes against state-of-the-art CMOS accelerators (NVIDIA H100, Google TPU v5p) across vision transformers, large language model attention heads, and resonant graph convolutions. Our empirical findings demonstrate that a 64x64 integrated MZI photonic mesh achieves a 58.4x improvement in energy-delay product (EDP) over 4nm digital CMOS cores, sustaining up to 128 Tera-Operations per Second per Watt (TOPS/W) at 4-bit to 8-bit equivalent precision, while active thermo-optic phase stabilization preserves 98.2% baseline classification accuracy. Finally, we establish open research directions in all-optical non-linear activation functions, co-packaged optical memory architectures, and wafer-scale photonic interconnect scaling. Index Terms—Photonic Computing, Silicon Photonics (SiPh), Mach-Zehnder Interferometer (MZI), Wavelength-Division Multiplexing (WDM), Optical Neural Networks (ONNs), Matrix-Vector Multiplication, Energy-Efficient Accelerators.",
         "arxiv_id": null,
@@ -34596,7 +34928,7 @@
         "venue": "Zenodo (CERN European Organization for Nuclear Research)",
         "year": 2026
       },
-      "retrieved_at": "2026-10-15T00:58:15.441240Z",
+      "retrieved_at": "2026-11-17T00:42:34.922817Z",
       "status": "found"
     },
     "openalex:doi:10.5281/zenodo.23413943": {
@@ -35918,6 +36250,12 @@
       "retrieved_at": "2026-09-25T01:02:48.814527Z",
       "status": "found"
     },
+    "openalex:title:001154b5d40d146cd6b382279e44469fd41d983f34974b2755d1b5340e7df72a": {
+      "expires_at": "2026-11-24T00:42:19.260359Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:19.260359Z",
+      "status": "not_found"
+    },
     "openalex:title:01d0f51375153313f281a6020a49a3d435458500e7e85e732851c8cc8fc7415b": {
       "expires_at": "2026-11-04T00:48:17.812538Z",
       "record": {
@@ -36055,6 +36393,12 @@
       },
       "retrieved_at": "2026-10-15T00:58:14.718412Z",
       "status": "found"
+    },
+    "openalex:title:05af210730e264f7143a91138e754537a1e099aefcece2fb3b104a6fa2f5d8de": {
+      "expires_at": "2026-11-24T00:42:30.635430Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:30.635430Z",
+      "status": "not_found"
     },
     "openalex:title:06c1573614d7cec8aafdeabdbf04c206c9e42daeec19bd7a0690045235f26758": {
       "expires_at": "2026-09-07T01:07:11.006421Z",
@@ -36636,10 +36980,22 @@
       "retrieved_at": "2026-10-09T01:12:13.933615Z",
       "status": "found"
     },
+    "openalex:title:223310143eecd9b5ce54244c07036ac0ca46d1f29ef755bf178434669e536a8e": {
+      "expires_at": "2026-11-24T00:42:20.402974Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:20.402974Z",
+      "status": "not_found"
+    },
     "openalex:title:23685ef8c75101e990829fc1c5afd98931012debf581231a185d1b49dc084bd4": {
       "expires_at": "2026-10-19T01:18:11.479935Z",
       "record": null,
       "retrieved_at": "2026-10-12T01:18:11.479935Z",
+      "status": "not_found"
+    },
+    "openalex:title:23695255ade8b41a741427286dcb852b82edad63db4977cd6ff6022197972130": {
+      "expires_at": "2026-11-24T00:42:29.335587Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:29.335587Z",
       "status": "not_found"
     },
     "openalex:title:249de29380f61cbfa04e045bb6ff4ca3e6b09932fa43c62ead34e26d394beb77": {
@@ -37669,6 +38025,36 @@
       "record": null,
       "retrieved_at": "2026-10-05T01:13:32.030129Z",
       "status": "not_found"
+    },
+    "openalex:title:47bf6f6b0a1ef067e5458738525bcc77044ba66dd9108750f22b31b1e873f78b": {
+      "expires_at": "2026-11-24T00:42:26.478709Z",
+      "record": {
+        "abstract": "We propose a projected subgradient method for solving quasiconvex minimization problems. By employing the Clarke subdifferential, we prove that the sequence generated by the proposed algorithm converges to a solution of the minimization problem when the objective function is locally Lipschitz continuous and strongly quasiconvex in the sense of Polyak, under the same assumptions required for convex functions with the convex subdifferential. Moreover, we derive explicit convergence rate estimates for both the iterates and objective function values. In particular, compared with the corresponding results for nonsmooth, locally Lipschitz, strongly convex optimization, our analysis replaces strong convexity with strong quasiconvexity while preserving the order of the convergence rate, thereby extending the guarantees to a class of possibly nonconvex objective functions. In addition, we investigate a stochastic finite-difference scheme for minimizing a strongly quasiconvex function subject to inequality constraints defined by strongly quasiconvex functions, and establish a convergence rate of order $O(k^{-1/4})$, consistent with known complexity bounds for stochastic zeroth-order methods.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "RAFIK KHACHATRYAN",
+            "orcid": null
+          },
+          {
+            "name": "Felipe Lara",
+            "orcid": "https://orcid.org/0000-0002-9965-0921"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.15144",
+        "landing_page": "https://arxiv.org/abs/2611.15144",
+        "open_access_url": "https://arxiv.org/abs/2611.15144",
+        "openalex_id": "https://openalex.org/W7225984793",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225984793",
+        "publication_date": "2026-11-11",
+        "title": "Subgradient and Stochastic Finite-Difference Methods for Constrained Strongly Quasiconvex Optimization",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-17T00:42:26.478709Z",
+      "status": "found"
     },
     "openalex:title:4865ecefca8be1ebc9fae963a445022de379579af7813f9c1ee05527e3bb658b": {
       "expires_at": "2026-11-13T00:41:06.499672Z",
@@ -39138,6 +39524,12 @@
       "retrieved_at": "2026-08-10T00:36:45.916459Z",
       "status": "not_found"
     },
+    "openalex:title:87ed8c693505bf66487d081b61d5d5cfc56186a92c6f93c4263abee8d79052de": {
+      "expires_at": "2026-11-24T00:42:34.468780Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:34.468780Z",
+      "status": "not_found"
+    },
     "openalex:title:880d428b9274f4a7678bec64a58d8ea61cdd747d2fca196bb33add130c12cd0b": {
       "expires_at": "2026-11-13T00:41:07.835872Z",
       "record": {
@@ -39325,6 +39717,44 @@
       "record": null,
       "retrieved_at": "2026-11-05T00:41:16.132521Z",
       "status": "not_found"
+    },
+    "openalex:title:8fa766e32666dd1313728364014414d0427526e36db7edfc9fe92d5985514c77": {
+      "expires_at": "2026-11-24T00:42:33.786581Z",
+      "record": {
+        "abstract": "In this work we propose BLDS-SIMPLEX, a derivative-free direct search method for the solution of bilevel optimization with polytope constraints at the upper level. The proposed method reformulates the feasible set using barycentric coordinates and explores it using Frank-Wolfe-type directions, relying on a fixed-accuracy black-box oracle for the upper-level objective function. We analyze its convergence properties and complexity in the case of smooth reduced objective; additionally, we analyze a variant for the case of nonsmooth objectives and show its convergence to a specific kind of stationary point that we introduce as a natural generalization to the classic stationarity notions in this setting. Numerical tests on modified instances from BOLIB support the viability of our new approach.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Matteo Pernini",
+            "orcid": null
+          },
+          {
+            "name": "Francesco Rinaldi",
+            "orcid": "https://orcid.org/0000-0001-8978-6027"
+          },
+          {
+            "name": "Gabriele Sanguin",
+            "orcid": null
+          },
+          {
+            "name": "Marco Viola",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.16983",
+        "landing_page": "https://arxiv.org/abs/2611.16983",
+        "open_access_url": "https://arxiv.org/abs/2611.16983",
+        "openalex_id": "https://openalex.org/W7226021705",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7226021705",
+        "publication_date": "2026-11-12",
+        "title": "Direct Search meets Frank-Wolfe: Inexact Derivative-Free Bilevel Optimization over Polytopes",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-17T00:42:33.786581Z",
+      "status": "found"
     },
     "openalex:title:8fe7434eeb2da040cfb7ff6115fba798dced6cafc235e934a0c9d33a029d2317": {
       "expires_at": "2026-10-16T01:12:29.599407Z",
@@ -39673,6 +40103,44 @@
       "record": null,
       "retrieved_at": "2026-10-23T01:02:41.104274Z",
       "status": "not_found"
+    },
+    "openalex:title:9b05cae0842de5dbbdd25043100a3f9f8a0a80639f54e70aa1b5e2e84f12bbf1": {
+      "expires_at": "2026-11-24T00:42:31.885766Z",
+      "record": {
+        "abstract": "Turbulence modeling relies on human choices of closure form, physical inputs, and tunable parameters. Training closures a posteriori is efficient only with gradients through long chaotic rollouts, which few solvers provide. Most a posteriori approaches therefore resort to gradient-free optimization, and nearly all fix the closure form in advance, learning only its parameters. In this work, we introduce a gradient-aware agentic framework that poses closure discovery as a bilevel problem: a multi-agent large language model (LLM) system searches over closure forms, while a GPU-native differentiable computational fluid dynamics (CFD) solver supplies gradients, making differentiable a posteriori learning an action of the autonomous AI agent. For each proposal, the agents construct a differentiable training program by embedding the analytical, neural, or hybrid closure in the solver, implementing a differentiable objective, and validating the gradient path. They then decide whether to evaluate the closure, compute its parameter sensitivities, or train it a posteriori, select the optimization settings, and revise subsequent proposals using the simulation outcomes and returned gradients. Truncated-horizon gradients make this training usable under chaotic dynamics for closures with tens of thousands of parameters. Demonstrations include dissipation-law and subgrid-scale closure discovery in two-dimensional turbulence and wall-model discovery for large-eddy simulation of three-dimensional channel flow. With gradient-based training, the agent recovers reference coefficients that forward evaluation alone does not reach within the same budget, and autonomously discovers and trains analytical and neural closures that improve agreement with the targeted reference statistics. These results demonstrate the feasibility of end-to-end autonomous turbulence model development in time-resolved flows.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yi Liu",
+            "orcid": null
+          },
+          {
+            "name": "Xiantao Fan",
+            "orcid": "https://orcid.org/0000-0002-0977-0330"
+          },
+          {
+            "name": "Mingqi Xu",
+            "orcid": null
+          },
+          {
+            "name": "Jian-Xun Wang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.16082",
+        "landing_page": "https://arxiv.org/abs/2611.16082",
+        "open_access_url": "https://arxiv.org/abs/2611.16082",
+        "openalex_id": "https://openalex.org/W7226032767",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7226032767",
+        "publication_date": "2026-11-11",
+        "title": "Gradient-Aware AI Agents for Autonomous Turbulence Model Discovery via Differentiable CFD",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-17T00:42:31.885766Z",
+      "status": "found"
     },
     "openalex:title:9b1bad62a611b751ecd903de32038c6c178275fca05efd9e93adafcd091d41cc": {
       "expires_at": "2026-10-12T01:13:35.157441Z",
@@ -40834,6 +41302,40 @@
       "retrieved_at": "2026-08-04T09:39:00.349544Z",
       "status": "not_found"
     },
+    "openalex:title:bc0bd5b02380b3d3ba59d39c9645f6aac591aed87db195257d366324048f3756": {
+      "expires_at": "2026-11-24T00:42:22.997187Z",
+      "record": {
+        "abstract": "Advances in 3D nanophotonic additive manufacturing enable increasingly complex, almost free-form devices for manipulating light at sub-wavelength scales. Extending nanophotonic designs into three dimensions introduces additional degrees of freedom. Exploiting this freedom requires inverse-design methods that can efficiently navigate this large design space while accommodating fabrication constraints. Here, we combine gradient-free optimization with the level-set method (LSM) to provide such an approach for 3D additive manufacturing. Representing the 3D geometry as a level set constructed from Gaussian radial basis functions retains substantial geometric freedom with only a few hundred design variables. This compact representation makes gradient-free optimization practical for fully 3D nanophotonic devices, eliminating the need for adjoint calculations. This unlocks the use of any Maxwell solver or auxiliary algorithms that should express fabrication constraints for which the required derivatives are unavailable or impractical to obtain, and enables embarrassingly parallel workflows. Consequently, binary fabrication requirements, such as structural connectivity, can be rigorously enforced, avoiding the differentiable approximations commonly used in gradient-based optimization. Here, we demonstrate the combination of the gradient-free LSM with a connected-component analysis algorithm to enforce the structural integrity of the design. We demonstrate the applicability of the gradient-free LSM by optimizing a Y-splitter while strictly enforcing the structural integrity of the material and the void in the design.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Oliver Kuster",
+            "orcid": "https://orcid.org/0009-0003-2717-7690"
+          },
+          {
+            "name": "Carsten Rockstuhl",
+            "orcid": "https://orcid.org/0000-0002-5868-0526"
+          },
+          {
+            "name": "Thomas Jebb Sturges",
+            "orcid": "https://orcid.org/0000-0003-1320-2843"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.15656",
+        "landing_page": "https://arxiv.org/abs/2611.15656",
+        "open_access_url": "https://arxiv.org/abs/2611.15656",
+        "openalex_id": "https://openalex.org/W7226009698",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7226009698",
+        "publication_date": "2026-11-11",
+        "title": "Gradient-Free Inverse Design of 3D Nanophotonic Devices Using the Level-Set-Method",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-17T00:42:22.997187Z",
+      "status": "found"
+    },
     "openalex:title:bdbc22c60c3a0bcc6d2411059c31d964290b52328fc7032c2aaf056cbd4410b7": {
       "expires_at": "2026-10-16T01:12:24.444326Z",
       "record": {
@@ -41036,6 +41538,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-01T01:13:15.935666Z",
+      "status": "found"
+    },
+    "openalex:title:c0f67b0864dd841f07fbf81a2af055102694a536d46a43ccbcb9394cec21a88a": {
+      "expires_at": "2026-11-24T00:42:27.951640Z",
+      "record": {
+        "abstract": "Photonic neural network accelerators have emerged as a promising solution for reducing the power consumption of deep neural network (DNN) inference by executing matrix multiplication on analog photonic hardware. However, their inference accuracy is limited by low-bit quantization required for photonic processing and by analog photonic noise. This paper proposes an approach for improving inference accuracy by exploiting the high similarity among activation vectors in DNNs. Specifically, our approach constructs a representative vector for each group of similar activation vectors, computes its inner product digitally with high precision, and offloads the residual inner products to the photonic accelerator. Since the activation vectors within each group are highly similar, the residual vectors have much smaller norms, thereby reducing the effects of quantization errors and analog photonic noise. Furthermore, our approach preserves the photonic inner-product computation pipeline, allowing seamless integration into existing and future photonic accelerators without hardware modification. Experimental results on six representative DNN models demonstrate that the proposed approach can improve inference accuracy across diverse network architectures and application domains.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yasuhiro Fujiwara",
+            "orcid": null
+          },
+          {
+            "name": "Tatsuhiro Nakamori",
+            "orcid": null
+          },
+          {
+            "name": "Hideyuki Kawashima",
+            "orcid": "https://orcid.org/0009-0005-7331-4654"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.16561",
+        "landing_page": "https://arxiv.org/abs/2611.16561",
+        "open_access_url": "https://arxiv.org/abs/2611.16561",
+        "openalex_id": "https://openalex.org/W7226002312",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7226002312",
+        "publication_date": "2026-11-12",
+        "title": "SPARC: Accurate Photonic Matrix Multiplication via Representative Vectors",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-17T00:42:27.951640Z",
       "status": "found"
     },
     "openalex:title:c21e4fb2874e216742eab455ab136df92e0037e06147a09d838e150490b63a18": {
@@ -41469,6 +42005,36 @@
       "record": null,
       "retrieved_at": "2026-11-07T00:39:27.903059Z",
       "status": "not_found"
+    },
+    "openalex:title:cf6b438b2ff07213709b8a0da591f1a1b55b8c24ea4d4d84e306843c2eac2578": {
+      "expires_at": "2026-11-24T00:42:24.554638Z",
+      "record": {
+        "abstract": "Training artificial neural networks predominantly relies on offline, gradient-based backpropagation algorithms. In contrast, biological circuits process and retain information through decentralized, continuous-time adaptation. In this work, we explore an online, gradient-free learning methodology by formulating the tuning of synaptic weights as a closed-loop trajectory tracking problem driven by model-free control principles. Rather than performing global optimization across static parameters, decentralized controllers adjust synaptic interactions in real-time using solely local input-output tracking errors. We present an exploratory benchmark neural architecture, whose purpose is to assess the dynamic resilience of the proposed approach, particularly in tracking target outputs and adapting to abrupt non-stationarities and structural perturbations (such as topological changes or dynamic dropout) without requiring offline retraining. This empirical preliminary study provides a proof-of-concept for control-theoretic learning paradigms and outlines the foundation for scalable, dynamically evolving connectome frameworks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Loïc Michel",
+            "orcid": "https://orcid.org/0000-0003-2630-7003"
+          },
+          {
+            "name": "Jean‐Pierre Barbot",
+            "orcid": "https://orcid.org/0000-0002-7723-2534"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": null,
+        "landing_page": "https://hal.science/hal-05864057",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7233690013",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7233690013",
+        "publication_date": "2026-11-13",
+        "title": "Online Neural Network Training via Closed-Loop Model-Free Tracking Control: An Empirical Study",
+        "venue": "HAL",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-17T00:42:24.554638Z",
+      "status": "found"
     },
     "openalex:title:d068de41dd4071869fb7434fcc1d6b5eda3bce6bc40a48cf58351545c9d5cb6c": {
       "expires_at": "2026-11-05T00:48:04.072863Z",
@@ -41934,6 +42500,12 @@
       "expires_at": "2026-09-12T00:59:49.141088Z",
       "record": null,
       "retrieved_at": "2026-09-05T00:59:49.141088Z",
+      "status": "not_found"
+    },
+    "openalex:title:e52a70653a3dd5cc747bd18252e9bafe48f634299db52474a28a6673dab41d86": {
+      "expires_at": "2026-11-24T00:42:32.960583Z",
+      "record": null,
+      "retrieved_at": "2026-11-17T00:42:32.960583Z",
       "status": "not_found"
     },
     "openalex:title:e52f743553d7ab85547eee0293aae0315b336cf34824f5091b79b72534897095": {
