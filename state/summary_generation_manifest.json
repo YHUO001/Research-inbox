@@ -1,294 +1,34 @@
 {
-  "abstract_fallback_candidate_ids": [
-    "ecaf6dd689741a7c3c9a1daf",
-    "b0e6482dfe5e39ae511f80e4"
-  ],
-  "abstract_fallback_count": 2,
-  "architecture_evidence": {
-    "b0e6482dfe5e39ae511f80e4": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
-    },
-    "ecaf6dd689741a7c3c9a1daf": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": null,
-      "resolved_type": "unclear"
-    },
-    "ff3bd3c093ca85c51723cea8": {
-      "changed": false,
-      "free_space_evidence": [],
-      "integrated_evidence": [],
-      "previous_type": "unclear",
-      "resolved_type": "unclear"
-    }
-  },
-  "architecture_repairs": 0,
-  "automatic_history_pending": false,
-  "automatic_queue_candidate_count": 3,
-  "completed_at": "2026-11-17T00:43:34.081670Z",
+  "actual_summary_count": 0,
+  "author_metadata_enriched_count": 0,
+  "author_metadata_fallback_count": 0,
+  "author_metadata_mode": "selected_openalex_work_metadata_with_safe_fallback",
+  "automatic_queue_candidate_count": 0,
+  "built_at": "2026-11-18T00:42:43.893344Z",
   "completed_candidate_filtered_count": 0,
-  "completed_candidate_ids": [
-    "b0e6482dfe5e39ae511f80e4",
-    "ecaf6dd689741a7c3c9a1daf",
-    "ff3bd3c093ca85c51723cea8"
-  ],
-  "completion_mode": "automatic_daily_batch_after_local_validation",
-  "daily_digest_pending": true,
-  "digest_date": "2026-11-17",
-  "digest_json_file": "runtime-state/data/digests/2026-11-17.generated.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-11-17.generated.md",
+  "daily_digest_pending": false,
+  "digest_date": "2026-11-18",
+  "digest_json_file": "runtime-state/data/digests/2026-11-18.preview.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-11-18.preview.md",
   "email_enabled": false,
-  "estimated_cost_cny": 0.0454654,
   "execution_mode": "automatic_daily_batch",
-  "failure_count": 0,
-  "failures": [],
-  "full_text_method_contexts": {
-    "b0e6482dfe5e39ae511f80e4": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "b0e6482dfe5e39ae511f80e4",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 0.694,
-      "error": "https://doi.org/10.1002/lpor.72206: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": null,
-      "section_headings": [],
-      "source_url": "https://doi.org/10.1002/lpor.72206",
-      "status": "not_available",
-      "text_persisted": false
-    },
-    "ecaf6dd689741a7c3c9a1daf": {
-      "abstract_available": true,
-      "attempt_count": 3,
-      "candidate_id": "ecaf6dd689741a7c3c9a1daf",
-      "character_count": 0,
-      "content_sha256": null,
-      "elapsed_seconds": 1.168,
-      "error": "Springer Open Access HTTP 404; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
-      "fallback_decision": "generate_from_abstract",
-      "media_type": "application/xml+jats",
-      "section_headings": [],
-      "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1007%2Fs10589-026-00855-4&p=1",
-      "status": "not_available",
-      "text_persisted": false
-    },
-    "ff3bd3c093ca85c51723cea8": {
-      "abstract_available": true,
-      "attempt_count": 1,
-      "candidate_id": "ff3bd3c093ca85c51723cea8",
-      "character_count": 3189,
-      "content_sha256": "a7d2dc3102abe4d5a1233847c562998db132a7d2d4c644b6317320914eaa1b03",
-      "elapsed_seconds": 1.259,
-      "error": null,
-      "fallback_decision": "use_full_text",
-      "media_type": "text/html",
-      "section_headings": [
-        "Robust training of MZI-based optical neural networks through phase discretization"
-      ],
-      "source_url": "https://opg.optica.org/ol/abstract.cfm?uri=ol-51-22-6359",
-      "status": "used",
-      "text_persisted": false
-    }
-  },
-  "full_text_persisted": false,
-  "full_text_used": true,
+  "full_text_used": false,
   "history_path": "runtime-state/state/summary_history.json",
-  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
-  "knowledge_base_pending": true,
-  "model": "deepseek-v4-pro",
-  "newly_completed_candidate_count": 3,
-  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
-  "numeric_matching": {
-    "absolute_tolerance": 0.02,
-    "approximation_markers_ignored": true,
-    "evidence_sources": [
-      "title",
-      "abstract",
-      "temporary_open_full_text_methods"
-    ],
-    "full_text_unsupported_sentence_action": "deterministic_redaction",
-    "relative_tolerance": 0.02,
-    "unit_format_ignored": true,
-    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
-  },
+  "knowledge_base_pending": false,
+  "llm_enabled": true,
   "output_language": "zh-CN",
-  "prepared_request_count": 3,
-  "provider": "deepseek",
-  "queue_sha256": "ad0885ab52a0249abfea8a4accd76e0dc82cb5c245bc066c7d48e8692e152afb",
-  "request_count": 3,
-  "request_file": "runtime-state/data/summary_requests/2026-11-17.jsonl",
-  "request_sha256": "5343dc58858c6e17b1f956ce0c1c53ac45ad3f0b1d9136abe594a275b9ec6987",
+  "provider": "not_configured",
+  "queue_candidate_count": 0,
+  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "request_count": 0,
+  "request_file": "runtime-state/data/summary_requests/2026-11-18.jsonl",
+  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "b1609fed988515ec346969c5bbc48276e28826a9588d7c2aea12581e284e5b8b",
-  "skipped_no_abstract_candidate_ids": [],
-  "skipped_no_abstract_count": 0,
-  "source_queue_candidate_count": 3,
-  "stage_timings": {
-    "full_text_preparation_seconds": 3.126,
-    "model_api_calls": [
-      {
-        "attempt": 1,
-        "candidate_id": "ecaf6dd689741a7c3c9a1daf",
-        "elapsed_seconds": 15.947,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1542,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1178,
-          "prompt_tokens": 3226,
-          "total_tokens": 4768
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "b0e6482dfe5e39ae511f80e4",
-        "elapsed_seconds": 13.669,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 1360,
-          "prompt_cache_hit_tokens": 2048,
-          "prompt_cache_miss_tokens": 1525,
-          "prompt_tokens": 3573,
-          "total_tokens": 4933
-        }
-      },
-      {
-        "attempt": 1,
-        "candidate_id": "ff3bd3c093ca85c51723cea8",
-        "elapsed_seconds": 20.83,
-        "status": "response_received",
-        "usage": {
-          "completion_tokens": 2125,
-          "prompt_cache_hit_tokens": 1920,
-          "prompt_cache_miss_tokens": 2348,
-          "prompt_tokens": 4268,
-          "total_tokens": 6393
-        }
-      }
-    ],
-    "model_generation_and_validation_seconds": 50.464
-  },
-  "status": "completed_automatic",
-  "summary_count": 3,
-  "summary_file": "runtime-state/data/summaries/2026-11-17.jsonl",
+  "selection_manifest_sha256": "2a4e2f05affa3810d0d633865183bfae26b206c96a93b9899ec822411140085c",
+  "source_queue_candidate_count": 0,
+  "status": "no_candidates",
   "summary_generation_version": 8,
-  "summary_history_updated": true,
-  "summary_slot_count": 3,
-  "thinking_enabled": false,
-  "transport_repairs": {
-    "architecture_evidence": {
-      "b0e6482dfe5e39ae511f80e4": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "free_space",
-        "repaired": true,
-        "resolved_type": "unclear"
-      },
-      "ecaf6dd689741a7c3c9a1daf": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": null,
-        "repaired": false,
-        "resolved_type": "unclear"
-      },
-      "ff3bd3c093ca85c51723cea8": {
-        "free_space_evidence": [],
-        "integrated_evidence": [],
-        "model_value": "free_space",
-        "repaired": true,
-        "resolved_type": "unclear"
-      }
-    },
-    "architecture_repairs": 2,
-    "candidate_id_repair_responses": 1,
-    "full_text_method_contexts": {
-      "b0e6482dfe5e39ae511f80e4": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "b0e6482dfe5e39ae511f80e4",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 0.694,
-        "error": "https://doi.org/10.1002/lpor.72206: HTTPError: HTTP Error 403: Forbidden; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": null,
-        "section_headings": [],
-        "source_url": "https://doi.org/10.1002/lpor.72206",
-        "status": "not_available",
-        "text_persisted": false
-      },
-      "ecaf6dd689741a7c3c9a1daf": {
-        "abstract_available": true,
-        "attempt_count": 3,
-        "candidate_id": "ecaf6dd689741a7c3c9a1daf",
-        "character_count": 0,
-        "content_sha256": null,
-        "elapsed_seconds": 1.168,
-        "error": "Springer Open Access HTTP 404; fell back to abstract; full-text retrieval failed after 3 attempts; fell back to abstract",
-        "fallback_decision": "generate_from_abstract",
-        "media_type": "application/xml+jats",
-        "section_headings": [],
-        "source_url": "https://api.springernature.com/openaccess/jats?q=doi%3A10.1007%2Fs10589-026-00855-4&p=1",
-        "status": "not_available",
-        "text_persisted": false
-      },
-      "ff3bd3c093ca85c51723cea8": {
-        "abstract_available": true,
-        "attempt_count": 1,
-        "candidate_id": "ff3bd3c093ca85c51723cea8",
-        "character_count": 3189,
-        "content_sha256": "a7d2dc3102abe4d5a1233847c562998db132a7d2d4c644b6317320914eaa1b03",
-        "elapsed_seconds": 1.259,
-        "error": null,
-        "fallback_decision": "use_full_text",
-        "media_type": "text/html",
-        "section_headings": [
-          "Robust training of MZI-based optical neural networks through phase discretization"
-        ],
-        "source_url": "https://opg.optica.org/ol/abstract.cfm?uri=ol-51-22-6359",
-        "status": "used",
-        "text_persisted": false
-      }
-    },
-    "generation_metadata_repair_responses": 3,
-    "numeric_grounding_repair_responses": 1,
-    "numeric_grounding_repairs": {
-      "ff3bd3c093ca85c51723cea8": [
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "随后在电子域对这八组响应图进行加权求和，权重为八个可学习的归一化标量，初始值可能基于传统二进制权重（如 1/255、2/255 等）进行初始化。",
-          "path": "method_implementation[1]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "255"
-          ]
-        },
-        {
-          "action": "redacted_unsupported_sentence",
-          "original_excerpt": "实验测得 AWF-ONN 测试准确率为 90.30%，比 TWF-ONN 的 88.69% 高 1.61 个百分点；",
-          "path": "main_contributions[3]",
-          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
-          "tokens": [
-            "1.61"
-          ]
-        }
-      ]
-    },
-    "tops_alias_expansions": 35,
-    "unit_format_normalization_responses": 0
-  },
-  "usage": {
-    "completion_tokens": 5027,
-    "prompt_cache_hit_tokens": 6016,
-    "prompt_cache_miss_tokens": 5051,
-    "prompt_tokens": 11067,
-    "total_tokens": 16094
-  }
+  "summary_history_updated": false,
+  "summary_slot_count": 0
 }

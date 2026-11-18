@@ -700,6 +700,44 @@
       "retrieved_at": "2026-10-20T01:00:39.592814Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/aisy.70649": {
+      "expires_at": "2026-12-18T00:42:41.389251Z",
+      "record": {
+        "abstract": "Extending optical synapses beyond the visible spectral region is crucial for realizing bandwidth‐expanded photonic neuromorphic systems compatible with modern optical communication technologies. In this work, we demonstrate a near‐infrared luminescent synaptic device based on Er 3+ doped Ca 2 SnO 4 . Under ultraviolet excitation, the material exhibits stable near‐infrared emission around 1540 nm, corresponding to the telecommunication wavelength band, with pronounced long‐persistent luminescence originating from defect‐related trap states introduced by Er 3+ incorporation. The near‐infrared luminescence shows clear synaptic functionalities, including stimulus‐dependent modulation, paired‐pulse facilitation, and spike‐number‐ and spike‐frequency‐dependent potentiation. These synaptic responses are systematically controlled by pulse amplitude, duration, number, and frequency, closely resembling short‐term and long‐term plasticity in biological synapses. Furthermore, the experimentally measured potentiation curve was used to construct the neuron activation function in an artificial neural network for handwritten digit recognition, while the transient response characteristics were incorporated into reservoir computing for temporal information processing. This work establishes Er 3+ ‐doped Ca 2 SnO 4 as a viable near‐infrared luminescent synaptic platform and provides a pathway toward spectral coincidence with the low‐loss telecommunication C‐band photonic neuromorphic systems operating in the near‐infrared regime, spectrally coinciding with the low‐loss telecommunication C‐band.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Seonghun Choi",
+            "orcid": "https://orcid.org/0009-0009-6981-1374"
+          },
+          {
+            "name": "Sangwon Wi",
+            "orcid": "https://orcid.org/0000-0001-7258-4525"
+          },
+          {
+            "name": "Yu June Kim",
+            "orcid": "https://orcid.org/0009-0008-2516-1579"
+          },
+          {
+            "name": "Yunsang Lee",
+            "orcid": "https://orcid.org/0000-0001-7025-9809"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/aisy.70649",
+        "landing_page": "https://doi.org/10.1002/aisy.70649",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/aisy.70649",
+        "publication_date": "2026-11-15",
+        "title": "Near‐Infrared Persistent Luminescent Synapses of Er\n                    <sup>3+</sup>\n                    ‐Doped Ca\n                    <sub>2</sub>\n                    SnO\n                    <sub>4</sub>\n                    for Photonic Neuromorphic Computing",
+        "venue": "Advanced Intelligent Systems",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-18T00:42:41.389251Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/cpe.71005": {
       "expires_at": "2026-11-23T00:58:35.987798Z",
       "record": {
@@ -4318,6 +4356,12 @@
       "retrieved_at": "2026-09-18T01:02:25.243593Z",
       "status": "found"
     },
+    "crossref:doi:10.1021/acsaem.6c02754/5470774": {
+      "expires_at": "2026-12-18T00:42:40.445345Z",
+      "record": null,
+      "retrieved_at": "2026-11-18T00:42:40.445345Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.1021/acsami.6c08360": {
       "expires_at": "2026-09-17T04:25:09.324748Z",
       "record": {
@@ -5256,6 +5300,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-10T01:00:34.764376Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1038/s41467-026-79408-6": {
+      "expires_at": "2026-12-18T00:42:41.563012Z",
+      "record": {
+        "abstract": "Abstract Deep learning has advanced computer-generated holography, but learned models remain coupled to fixed wavelengths and distances, limiting generalization. Here we present the structurally guided wavefront neural encoder (SGWN-Encoder), which integrates diffraction physics with neural networks and employs a structural propagation strategy that analytically strips the parameter-sensitive global phase. This reveals a scale-normalized description of diffraction, letting the network learn transferable light-field evolution rules and generalize across propagation distances and visible wavelengths by direct inference. A dataset-free paradigm built on statistically diverse random fields teaches the model the structural mapping from complex amplitude to phase-only holograms instead of external image distributions. Without fine-tuning, a single SGWN-Encoder maintains a distance-averaged RGB PSNR of 31.9 dB and SSIM of 0.91 over the primary 2–200 mm range, retaining reconstruction up to 500 mm. Numerical and optical experiments on full-color 3D scenes establish a physically grounded route toward adaptive holographic displays.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yanan Zhang",
+            "orcid": "https://orcid.org/0009-0004-7519-4126"
+          },
+          {
+            "name": "Xingpeng Yan",
+            "orcid": "https://orcid.org/0000-0002-3732-117X"
+          },
+          {
+            "name": "Jiaqi Li",
+            "orcid": null
+          },
+          {
+            "name": "Zijian Shi",
+            "orcid": null
+          },
+          {
+            "name": "Yang Yu",
+            "orcid": "https://orcid.org/0009-0009-0148-9921"
+          },
+          {
+            "name": "Yang Zhang",
+            "orcid": "https://orcid.org/0009-0008-2594-3554"
+          },
+          {
+            "name": "Tao Jing",
+            "orcid": "https://orcid.org/0000-0002-6120-9989"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41467-026-79408-6",
+        "landing_page": "https://doi.org/10.1038/s41467-026-79408-6",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41467-026-79408-6",
+        "publication_date": "2026-11-16",
+        "title": "Structurally guided wavefront neural encoder for broad-range generalizable 3D holography",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-18T00:42:41.563012Z",
       "status": "found"
     },
     "crossref:doi:10.1038/s41586-026-10891-z": {
@@ -11905,6 +11999,12 @@
       "retrieved_at": "2026-09-05T00:59:50.332909Z",
       "status": "not_found"
     },
+    "crossref:title:33c2feffda4b361ce8a1acf85a1c1d452428fab79d0faca8b4d99a3504606b14": {
+      "expires_at": "2026-11-25T00:42:39.983292Z",
+      "record": null,
+      "retrieved_at": "2026-11-18T00:42:39.983292Z",
+      "status": "not_found"
+    },
     "crossref:title:3427b28c253345231f4892b4e35c59d4aaa4d0b0214207d2466a9690a02aeb94": {
       "expires_at": "2026-10-10T01:04:50.083086Z",
       "record": null,
@@ -12977,6 +13077,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-07T01:06:43.487737Z",
+      "status": "found"
+    },
+    "crossref:title:598235dfbd654b329b431d32dcfa03bab505ab06ffc298ea4915cce27a2878ad": {
+      "expires_at": "2026-11-25T00:42:40.862674Z",
+      "record": {
+        "abstract": "Abstract Moisture electric generators (MEGs) offer a mechanical and thermal-gradient-free route to sustainable electricity. However, they are constrained by low power density, poor durability, and irreversible dehydration. Here, a modular MEG is developed by integrating a nanofluidic ionic conductor (a functionalized kaolinite clay membrane), a replaceable moisture source (a PVA-based hydrogel), and an integrated evaporator (exfoliated V2O5). Raw kaolinite expanded via urea intercalation was functionalized with hygroscopic ZnO nanoparticles and sulfonated PVA (Ek-sPVA-ZnO) to create ion-conducting lamellar nanofluidic membranes. At 80% relative humidity (RH), the Ek-sPVA-ZnO membrane exhibited a conductivity of 4.18 mS cm–1, nearly 6800-fold higher than unmodified Ek-PVA. The optimized device with PVA(Ag)-Gel as the ionic source and V2O5 as the evaporative layer delivered an open-circuit voltage of ∼630 mV, a short-circuit current of ∼45 µA, and a peak power density of 1.2 mW m–2 (at 82% RH). Modular replacement of the desiccated hydrogel restored performance across multiple cycles. Assembly of 84 MEG units scaled voltage and current outputs to 23 V and 76 µA, respectively. Beyond ambient air, the device generated electricity directly from moist solids such as soil, fruit, and skin, demonstrating utility as a self-powered moisture and physiological sensor, including respiration monitoring.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bipasha Saikia",
+            "orcid": null
+          },
+          {
+            "name": "Barsha Rani Bora",
+            "orcid": "https://orcid.org/0000-0002-2570-6953"
+          },
+          {
+            "name": "Kiran Mayawad",
+            "orcid": null
+          },
+          {
+            "name": "Karishma Borah",
+            "orcid": null
+          },
+          {
+            "name": "Kalyan Raidongia",
+            "orcid": "https://orcid.org/0000-0001-7829-7498"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1021/acsaem.6c02754",
+        "landing_page": "https://doi.org/10.1021/acsaem.6c02754",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1021/acsaem.6c02754",
+        "publication_date": "2026-11-14",
+        "title": "Functionalized Clay-Based Ion-Selective Membranes for Modular Moisture-Electric Generation",
+        "venue": "ACS Applied Energy Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-18T00:42:40.862674Z",
       "status": "found"
     },
     "crossref:title:59eeca1af798a437089e0bd870858820e639b8179c07f7f3fdd9ad1ec3b6f7d2": {
@@ -19123,6 +19265,44 @@
       "retrieved_at": "2026-10-20T01:00:39.943495Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/aisy.70649": {
+      "expires_at": "2026-12-18T00:42:41.503462Z",
+      "record": {
+        "abstract": "Extending optical synapses beyond the visible spectral region is crucial for realizing bandwidth‐expanded photonic neuromorphic systems compatible with modern optical communication technologies. In this work, we demonstrate a near‐infrared luminescent synaptic device based on Er 3+ doped Ca 2 SnO 4 . Under ultraviolet excitation, the material exhibits stable near‐infrared emission around 1540 nm, corresponding to the telecommunication wavelength band, with pronounced long‐persistent luminescence originating from defect‐related trap states introduced by Er 3+ incorporation. The near‐infrared luminescence shows clear synaptic functionalities, including stimulus‐dependent modulation, paired‐pulse facilitation, and spike‐number‐ and spike‐frequency‐dependent potentiation. These synaptic responses are systematically controlled by pulse amplitude, duration, number, and frequency, closely resembling short‐term and long‐term plasticity in biological synapses. Furthermore, the experimentally measured potentiation curve was used to construct the neuron activation function in an artificial neural network for handwritten digit recognition, while the transient response characteristics were incorporated into reservoir computing for temporal information processing. This work establishes Er 3+ ‐doped Ca 2 SnO 4 as a viable near‐infrared luminescent synaptic platform and provides a pathway toward spectral coincidence with the low‐loss telecommunication C‐band photonic neuromorphic systems operating in the near‐infrared regime, spectrally coinciding with the low‐loss telecommunication C‐band.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Seonghun Choi",
+            "orcid": "https://orcid.org/0009-0009-6981-1374"
+          },
+          {
+            "name": "S.W. Wi",
+            "orcid": "https://orcid.org/0000-0001-7258-4525"
+          },
+          {
+            "name": "Yu June Kim",
+            "orcid": "https://orcid.org/0009-0008-2516-1579"
+          },
+          {
+            "name": "Y.S. Lee",
+            "orcid": "https://orcid.org/0000-0001-7025-9809"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/aisy.70649",
+        "landing_page": "https://doi.org/10.1002/aisy.70649",
+        "open_access_url": "https://doi.org/10.1002/aisy.70649",
+        "openalex_id": "https://openalex.org/W7233808715",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7233808715",
+        "publication_date": "2026-11-15",
+        "title": "Near‐Infrared Persistent Luminescent Synapses of Er 3+ ‐Doped Ca 2 SnO 4 for Photonic Neuromorphic Computing",
+        "venue": "Advanced Intelligent Systems",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-18T00:42:41.503462Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/cpe.71005": {
       "expires_at": "2026-11-23T00:58:36.334845Z",
       "record": {
@@ -23807,6 +23987,12 @@
       "retrieved_at": "2026-09-18T01:02:25.635741Z",
       "status": "found"
     },
+    "openalex:doi:10.1021/acsaem.6c02754/5470774": {
+      "expires_at": "2026-12-18T00:42:40.536485Z",
+      "record": null,
+      "retrieved_at": "2026-11-18T00:42:40.536485Z",
+      "status": "not_found"
+    },
     "openalex:doi:10.1021/acsami.6c08360": {
       "expires_at": "2026-09-17T04:25:09.622383Z",
       "record": {
@@ -24981,6 +25167,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-23T01:01:06.187251Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s41467-026-79408-6": {
+      "expires_at": "2026-12-18T00:42:41.701306Z",
+      "record": {
+        "abstract": "Abstract Deep learning has advanced computer-generated holography, but learned models remain coupled to fixed wavelengths and distances, limiting generalization. Here we present the structurally guided wavefront neural encoder (SGWN-Encoder), which integrates diffraction physics with neural networks and employs a structural propagation strategy that analytically strips the parameter-sensitive global phase. This reveals a scale-normalized description of diffraction, letting the network learn transferable light-field evolution rules and generalize across propagation distances and visible wavelengths by direct inference. A dataset-free paradigm built on statistically diverse random fields teaches the model the structural mapping from complex amplitude to phase-only holograms instead of external image distributions. Without fine-tuning, a single SGWN-Encoder maintains a distance-averaged RGB PSNR of 31.9 dB and SSIM of 0.91 over the primary 2–200 mm range, retaining reconstruction up to 500 mm. Numerical and optical experiments on full-color 3D scenes establish a physically grounded route toward adaptive holographic displays.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yanan Zhang",
+            "orcid": "https://orcid.org/0009-0004-7519-4126"
+          },
+          {
+            "name": "Xingpeng Yan",
+            "orcid": "https://orcid.org/0000-0002-3732-117X"
+          },
+          {
+            "name": "Jiaqi Li",
+            "orcid": null
+          },
+          {
+            "name": "Zijian Shi",
+            "orcid": null
+          },
+          {
+            "name": "Yang Yu",
+            "orcid": "https://orcid.org/0009-0009-0148-9921"
+          },
+          {
+            "name": "Yang Zhang",
+            "orcid": "https://orcid.org/0009-0008-2594-3554"
+          },
+          {
+            "name": "Tao Jing",
+            "orcid": "https://orcid.org/0000-0002-6120-9989"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41467-026-79408-6",
+        "landing_page": "https://doi.org/10.1038/s41467-026-79408-6",
+        "open_access_url": "https://doi.org/10.1038/s41467-026-79408-6",
+        "openalex_id": "https://openalex.org/W7234124443",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7234124443",
+        "publication_date": "2026-11-16",
+        "title": "Structurally guided wavefront neural encoder for broad-range generalizable 3D holography",
+        "venue": "Nature Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-18T00:42:41.701306Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s41586-026-10891-z": {
@@ -37352,6 +37588,12 @@
       "retrieved_at": "2026-09-05T00:59:51.041429Z",
       "status": "found"
     },
+    "openalex:title:33c2feffda4b361ce8a1acf85a1c1d452428fab79d0faca8b4d99a3504606b14": {
+      "expires_at": "2026-11-25T00:42:40.410120Z",
+      "record": null,
+      "retrieved_at": "2026-11-18T00:42:40.410120Z",
+      "status": "not_found"
+    },
     "openalex:title:3427b28c253345231f4892b4e35c59d4aaa4d0b0214207d2466a9690a02aeb94": {
       "expires_at": "2026-10-10T01:04:50.460549Z",
       "record": {
@@ -38335,6 +38577,48 @@
       "record": null,
       "retrieved_at": "2026-08-09T00:36:12.468945Z",
       "status": "not_found"
+    },
+    "openalex:title:598235dfbd654b329b431d32dcfa03bab505ab06ffc298ea4915cce27a2878ad": {
+      "expires_at": "2026-11-25T00:42:41.279125Z",
+      "record": {
+        "abstract": "Abstract Moisture electric generators (MEGs) offer a mechanical and thermal-gradient-free route to sustainable electricity. However, they are constrained by low power density, poor durability, and irreversible dehydration. Here, a modular MEG is developed by integrating a nanofluidic ionic conductor (a functionalized kaolinite clay membrane), a replaceable moisture source (a PVA-based hydrogel), and an integrated evaporator (exfoliated V2O5). Raw kaolinite expanded via urea intercalation was functionalized with hygroscopic ZnO nanoparticles and sulfonated PVA (Ek-sPVA-ZnO) to create ion-conducting lamellar nanofluidic membranes. At 80% relative humidity (RH), the Ek-sPVA-ZnO membrane exhibited a conductivity of 4.18 mS cm–1, nearly 6800-fold higher than unmodified Ek-PVA. The optimized device with PVA(Ag)-Gel as the ionic source and V2O5 as the evaporative layer delivered an open-circuit voltage of ∼630 mV, a short-circuit current of ∼45 µA, and a peak power density of 1.2 mW m–2 (at 82% RH). Modular replacement of the desiccated hydrogel restored performance across multiple cycles. Assembly of 84 MEG units scaled voltage and current outputs to 23 V and 76 µA, respectively. Beyond ambient air, the device generated electricity directly from moist solids such as soil, fruit, and skin, demonstrating utility as a self-powered moisture and physiological sensor, including respiration monitoring.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bipasha Saikia",
+            "orcid": "https://orcid.org/0009-0009-3658-4232"
+          },
+          {
+            "name": "Barsha Rani Bora",
+            "orcid": "https://orcid.org/0000-0002-2570-6953"
+          },
+          {
+            "name": "Kiran Mayawad",
+            "orcid": "https://orcid.org/0009-0003-0328-1717"
+          },
+          {
+            "name": "Karishma Borah",
+            "orcid": "https://orcid.org/0009-0008-3961-8461"
+          },
+          {
+            "name": "Kalyan Raidongia",
+            "orcid": "https://orcid.org/0000-0001-7829-7498"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1021/acsaem.6c02754",
+        "landing_page": "https://doi.org/10.1021/acsaem.6c02754",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7230506400",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7230506400",
+        "publication_date": "2026-11-14",
+        "title": "Functionalized Clay-Based Ion-Selective Membranes for Modular Moisture-Electric Generation",
+        "venue": "ACS Applied Energy Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-18T00:42:41.279125Z",
+      "status": "found"
     },
     "openalex:title:5a26ce60fcd438a4190c92d5dfc7b2718824ed5ea0276fcfa3f126e499e2d038": {
       "expires_at": "2026-11-13T00:41:01.774124Z",
