@@ -1,16 +1,13 @@
 {
-  "accepted_candidate_ids": [
-    "8a28887ecd647afe0ff75d56",
-    "e29f122a10b158025baaea8a"
-  ],
-  "accepted_count": 2,
-  "built_at": "2026-11-18T00:42:35.481799Z",
+  "accepted_candidate_ids": [],
+  "accepted_count": 0,
+  "built_at": "2026-11-19T00:42:33.500647Z",
   "discovery_version": 1,
-  "duplicate_count": 2,
+  "duplicate_count": 1,
   "duplicate_reasons": {
-    "openalex_work_id": 2
+    "openalex_work_id": 1
   },
-  "filtered_count": 59,
+  "filtered_count": 65,
   "invalid_count": 0,
   "query_error_count": 0,
   "query_summaries": [
@@ -25,20 +22,20 @@
       "raw_results": 10
     },
     {
-      "accepted": 1,
+      "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 9,
+      "filtered": 10,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "photonic-neural-network",
       "raw_results": 10
     },
     {
-      "accepted": 1,
-      "duplicates": 1,
+      "accepted": 0,
+      "duplicates": 0,
       "error": null,
-      "filtered": 8,
+      "filtered": 10,
       "invalid": 0,
       "project_id": "optical-neural-networks",
       "query_id": "diffractive-optical-neural-network",
@@ -78,11 +75,11 @@
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 3,
+      "filtered": 4,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-neural-network",
-      "raw_results": 3
+      "raw_results": 4
     },
     {
       "accepted": 0,
@@ -98,18 +95,18 @@
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 0,
+      "filtered": 2,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
       "query_id": "zeroth-order-optical",
-      "raw_results": 0
+      "raw_results": 2
     }
   ],
-  "raw_result_count": 63,
+  "raw_result_count": 66,
   "registry_candidate_count": 794,
   "registry_sha256": "3395d51c19438a65ae9db7025e612f3f26f69ef87a5f55a2a0d48d75c10765af",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-11-18",
-  "window_start": "2026-11-14"
+  "window_end": "2026-11-19",
+  "window_start": "2026-11-15"
 }
