@@ -1,0 +1,31 @@
+{
+  "built_at": "2026-11-20T00:40:41.066207Z",
+  "digest_date": "2026-11-20",
+  "digest_version": 1,
+  "pending_summary_count": 1,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "a0c6cc02321fd65d282431c7",
+        "landing_page": "https://arxiv.org/abs/2611.18045",
+        "mandatory": false,
+        "score": 0.81,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Optical Representation Neural Networks Enabled by Weakly Supervised Learning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

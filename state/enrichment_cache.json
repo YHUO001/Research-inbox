@@ -10267,6 +10267,12 @@
       "retrieved_at": "2026-11-17T00:42:18.757485Z",
       "status": "not_found"
     },
+    "crossref:title:007c5bf99ccda5ca17e2685c3b4816a4361ec910069afbcb1be13c9b321d2424": {
+      "expires_at": "2026-11-27T00:40:32.616880Z",
+      "record": null,
+      "retrieved_at": "2026-11-20T00:40:32.616880Z",
+      "status": "not_found"
+    },
     "crossref:title:01d0f51375153313f281a6020a49a3d435458500e7e85e732851c8cc8fc7415b": {
       "expires_at": "2026-11-04T00:48:17.006345Z",
       "record": null,
@@ -10375,6 +10381,12 @@
       "retrieved_at": "2026-11-17T00:42:30.133585Z",
       "status": "not_found"
     },
+    "crossref:title:064b6c1cc7b84b7132097de304d8283e9b6b36f1ebb6dc380de53f059fc045f4": {
+      "expires_at": "2026-11-27T00:40:31.358646Z",
+      "record": null,
+      "retrieved_at": "2026-11-20T00:40:31.358646Z",
+      "status": "not_found"
+    },
     "crossref:title:06693e531997c12223d3bf4aeefb09d84bfa52f942f5ff9011fda630169008e4": {
       "expires_at": "2026-09-28T01:07:32.848362Z",
       "record": {
@@ -10429,6 +10441,12 @@
       "expires_at": "2026-09-07T01:07:10.369066Z",
       "record": null,
       "retrieved_at": "2026-08-31T01:07:10.369066Z",
+      "status": "not_found"
+    },
+    "crossref:title:07639f89a3c68c8f34005793ad670700bc0e3a9fc564857cd68f22a390b8fca7": {
+      "expires_at": "2026-11-27T00:40:33.477749Z",
+      "record": null,
+      "retrieved_at": "2026-11-20T00:40:33.477749Z",
       "status": "not_found"
     },
     "crossref:title:07a658f17d330573c0f74fe3ad3c8364a20c22f53dc0ae03a4bc66a3eac32b9f": {
@@ -10619,6 +10637,48 @@
       "retrieved_at": "2026-10-03T01:04:42.077088Z",
       "status": "not_found"
     },
+    "crossref:title:0da27fe91e39161f6dc5d0b562fd2e1aced1c8c82e9a8946914d0ac494067db9": {
+      "expires_at": "2026-11-27T00:40:35.926675Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhuonan Jia",
+            "orcid": "https://orcid.org/0009-0003-4617-9077"
+          },
+          {
+            "name": "Tinghui Ouyang",
+            "orcid": null
+          },
+          {
+            "name": "Haopeng Tao",
+            "orcid": null
+          },
+          {
+            "name": "Guang-Bin Huang",
+            "orcid": null
+          },
+          {
+            "name": "Ting Mei",
+            "orcid": "https://orcid.org/0000-0001-7756-040X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlastec.2026.117076",
+        "landing_page": "https://doi.org/10.1016/j.optlastec.2026.117076",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.optlastec.2026.117076",
+        "publication_date": "2027-01",
+        "title": "Photonic multi-synaptic autoencoder for image reconstruction",
+        "venue": "Optics &amp; Laser Technology",
+        "year": 2027
+      },
+      "retrieved_at": "2026-11-20T00:40:35.926675Z",
+      "status": "found"
+    },
     "crossref:title:0ef2b3c5ff1e9358effb87988e725ac3ef6be54ec31d5928d2de3016c3c25f28": {
       "expires_at": "2026-09-22T01:03:33.133740Z",
       "record": {
@@ -10697,6 +10757,12 @@
       "expires_at": "2026-08-31T00:32:20.567904Z",
       "record": null,
       "retrieved_at": "2026-08-24T00:32:20.567904Z",
+      "status": "not_found"
+    },
+    "crossref:title:101fddc7795b1a691c6df32a7259c917a5e78d2d67883014f22ef687838b221e": {
+      "expires_at": "2026-11-27T00:40:34.274871Z",
+      "record": null,
+      "retrieved_at": "2026-11-20T00:40:34.274871Z",
       "status": "not_found"
     },
     "crossref:title:10c4cd1898d187964946eca726f5dcaad079557a2605596d3ab1c979f0337692": {
@@ -11001,6 +11067,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-23T01:02:39.894658Z",
+      "status": "found"
+    },
+    "crossref:title:180f994ff18b445bea19e70b966dba2f5d554de80c0d98fe3a286a583d65bd79": {
+      "expires_at": "2026-11-27T00:40:28.256984Z",
+      "record": {
+        "abstract": "Abstract Purpose To determine the precision achievable and identify optimal protocols for imaging diffusion using the decay of a spatial modulation of longitudinal magnetization in a spoiled gradient-echo train, for MR microscopy, clinical 3T imaging and low-field systems. Theory and Methods: A modulation of longitudinal magnetization at spatial frequency k decays at a rate Λ = R 1 − ln(cos α)/TR + Dk² during a steady state sequence, and D can be obtained from measuring the rates at two spatial frequencies. We derive the constraints that gradient limitations place on image acquisitions and extend the analysis to encoding modules that write several harmonics simultaneously. We calculate the Cramér–Rao bound on D for realistic experimental measurements on typical systems. Protocols were optimized considering modulation period, flip angle, TR, train length and recovery delay at fixed scan time, and checked with Monte Carlo and Bloch–Torrey simulations. Results Optimal modulation periods were 65–75 µm at 3 T, near 75 µm at 64 mT and 20–25 µm for microscopy, with shallow optima. Predicted precision was 3.8% per voxel in six minutes at 3 T with a single-shot readout, 13.6% at 64 mT and 18.7% in microscopy, or 0.4–1.9% over a region of 100 voxels. A single 1–1 module is optimal when a recall gradient is needed; a 1-3-3-1 module is better when its harmonics can be resolved. Away from boundaries D was mapped to within 0.3%. Conclusion Precise diffusion measurements are feasible with weak gradients on clinical and low-field scanners. The controlling design constraint is that the recall gradient must fit inside TR.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "John Gore",
+            "orcid": null
+          },
+          {
+            "name": "Bibek Dhakal",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-11642008/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-11642008/v1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.21203/rs.3.rs-11642008/v1",
+        "publication_date": "2026-11-09",
+        "title": "Practical design of diffusion MRI based on the decay of spatial modulations in a steady-state",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-20T00:40:28.256984Z",
       "status": "found"
     },
     "crossref:title:1872694db6a490116ab68393535608e9c9142e61f7c65801c6dde166b3e47f57": {
@@ -11953,6 +12049,12 @@
       "expires_at": "2026-10-04T01:11:28.606186Z",
       "record": null,
       "retrieved_at": "2026-09-27T01:11:28.606186Z",
+      "status": "not_found"
+    },
+    "crossref:title:325112bd49b64ee10e9bcfd1111adeed034e63379f9af7fe852a200621c7987d": {
+      "expires_at": "2026-11-27T00:40:36.388473Z",
+      "record": null,
+      "retrieved_at": "2026-11-20T00:40:36.388473Z",
       "status": "not_found"
     },
     "crossref:title:3291b54eca383d1ad6314e398a45a4b1751904daf1fd0eb529522cea339b87d3": {
@@ -13981,6 +14083,54 @@
       "retrieved_at": "2026-08-09T00:36:08.311312Z",
       "status": "found"
     },
+    "crossref:title:7a428928498139c08359aee0a1d1ac89c2aa155800e2ffc2e14a9c22394d6f23": {
+      "expires_at": "2026-11-27T00:40:29.933761Z",
+      "record": null,
+      "retrieved_at": "2026-11-20T00:40:29.933761Z",
+      "status": "not_found"
+    },
+    "crossref:title:7ae0c27d3f7b04c3742a853ba513fd6e34909980b54297d94aaed5a16abcb24e": {
+      "expires_at": "2026-11-27T00:40:30.735065Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hogr Zainaddeen Hassan",
+            "orcid": null
+          },
+          {
+            "name": "Ahmed Aulla Manguri",
+            "orcid": null
+          },
+          {
+            "name": "Najmadeen Mohammed Saeed",
+            "orcid": null
+          },
+          {
+            "name": "Bedar Rauf Hassan",
+            "orcid": null
+          },
+          {
+            "name": "Tarek Metrouni",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.32604/sdhm.2026.087400",
+        "landing_page": "https://doi.org/10.32604/sdhm.2026.087400",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.32604/sdhm.2026.087400",
+        "publication_date": "2026",
+        "title": "A Comprehensive Synthesis of Data-Driven Methods for the Design and Optimization of Truss Structures",
+        "venue": "Structural Durability &amp; Health Monitoring",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-20T00:40:30.735065Z",
+      "status": "found"
+    },
     "crossref:title:7c1a6ab395c6b4e253b48f1554aae723463a1fc5b1449be976fc11625f11cc8f": {
       "expires_at": "2026-09-20T01:07:28.807451Z",
       "record": null,
@@ -14448,6 +14598,12 @@
       },
       "retrieved_at": "2026-09-22T01:02:18.248140Z",
       "status": "found"
+    },
+    "crossref:title:8dba512a1da624b05fd609ac1edd509981b0324b98cd1702b5f4728d36f12610": {
+      "expires_at": "2026-11-27T00:40:38.356537Z",
+      "record": null,
+      "retrieved_at": "2026-11-20T00:40:38.356537Z",
+      "status": "not_found"
     },
     "crossref:title:8dc5eada13fd3742238bb20b85f37eacc8a3b0a5930dda1d7d6cd018a0adf3f9": {
       "expires_at": "2026-10-19T01:18:15.303329Z",
@@ -15383,6 +15539,12 @@
       "retrieved_at": "2026-10-12T01:18:13.445658Z",
       "status": "found"
     },
+    "crossref:title:a7c81955bbeeb017011cb6faebec10f1ce7d5cd57c3ed313e69cb53588dc2098": {
+      "expires_at": "2026-11-27T00:40:37.388419Z",
+      "record": null,
+      "retrieved_at": "2026-11-20T00:40:37.388419Z",
+      "status": "not_found"
+    },
     "crossref:title:a7c92d53b927d831d8e34de5d97460fe06283501581cf9a53ac01b51930e5e71": {
       "expires_at": "2026-09-14T01:06:37.165596Z",
       "record": null,
@@ -15393,6 +15555,12 @@
       "expires_at": "2026-10-23T00:57:49.922397Z",
       "record": null,
       "retrieved_at": "2026-10-16T00:57:49.922397Z",
+      "status": "not_found"
+    },
+    "crossref:title:a888b943a33a968ec0159cf8c73b8b060b909dc7da4f5503317cfa0f2c5a71a6": {
+      "expires_at": "2026-11-27T00:40:35.048332Z",
+      "record": null,
+      "retrieved_at": "2026-11-20T00:40:35.048332Z",
       "status": "not_found"
     },
     "crossref:title:a90ec3fa0dbc4c4cb5be1355e9d1bae0680f63ef36a279df7b9729a2907aff6d": {
@@ -17302,6 +17470,12 @@
       },
       "retrieved_at": "2026-09-09T01:02:03.064819Z",
       "status": "found"
+    },
+    "crossref:title:ddf259cc4bb0f0403463758018fa34dc0bb7b8d066c2e7c0eac07f3a2d348750": {
+      "expires_at": "2026-11-27T00:40:28.806473Z",
+      "record": null,
+      "retrieved_at": "2026-11-20T00:40:28.806473Z",
+      "status": "not_found"
     },
     "crossref:title:df0eabc2272a1efdf8459e03c70cf8de95893159d272a8b78a6b173f6527b36d": {
       "expires_at": "2026-11-22T00:44:09.656942Z",
@@ -23685,6 +23859,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-20T01:00:40.642875Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.optlastec.2026.117076": {
+      "expires_at": "2026-12-20T00:40:36.095941Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhuonan Jia",
+            "orcid": "https://orcid.org/0009-0003-4617-9077"
+          },
+          {
+            "name": "Tinghui Ouyang",
+            "orcid": null
+          },
+          {
+            "name": "Haopeng Tao",
+            "orcid": "https://orcid.org/0009-0006-3282-9448"
+          },
+          {
+            "name": "Guangbin Huang",
+            "orcid": null
+          },
+          {
+            "name": "Ting Mei",
+            "orcid": "https://orcid.org/0000-0001-7756-040X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optlastec.2026.117076",
+        "landing_page": "https://doi.org/10.1016/j.optlastec.2026.117076",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7234441857",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7234441857",
+        "publication_date": "2026-11-17",
+        "title": "Photonic multi-synaptic autoencoder for image reconstruction",
+        "venue": "Optics & Laser Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-20T00:40:36.095941Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.simpat.2026.103359": {
@@ -33263,6 +33479,36 @@
       "retrieved_at": "2026-11-16T00:47:36.291869Z",
       "status": "found"
     },
+    "openalex:doi:10.21203/rs.3.rs-11642008/v1": {
+      "expires_at": "2026-12-20T00:40:28.467164Z",
+      "record": {
+        "abstract": "Abstract Purpose To determine the precision achievable and identify optimal protocols for imaging diffusion using the decay of a spatial modulation of longitudinal magnetization in a spoiled gradient-echo train, for MR microscopy, clinical 3T imaging and low-field systems. Theory and Methods: A modulation of longitudinal magnetization at spatial frequency k decays at a rate Λ = R 1 − ln(cos α)/TR + Dk² during a steady state sequence, and D can be obtained from measuring the rates at two spatial frequencies. We derive the constraints that gradient limitations place on image acquisitions and extend the analysis to encoding modules that write several harmonics simultaneously. We calculate the Cramér–Rao bound on D for realistic experimental measurements on typical systems. Protocols were optimized considering modulation period, flip angle, TR, train length and recovery delay at fixed scan time, and checked with Monte Carlo and Bloch–Torrey simulations. Results Optimal modulation periods were 65–75 µm at 3 T, near 75 µm at 64 mT and 20–25 µm for microscopy, with shallow optima. Predicted precision was 3.8% per voxel in six minutes at 3 T with a single-shot readout, 13.6% at 64 mT and 18.7% in microscopy, or 0.4–1.9% over a region of 100 voxels. A single 1–1 module is optimal when a recall gradient is needed; a 1-3-3-1 module is better when its harmonics can be resolved. Away from boundaries D was mapped to within 0.3%. Conclusion Precise diffusion measurements are feasible with weak gradients on clinical and low-field scanners. The controlling design constraint is that the recall gradient must fit inside TR.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "John gore",
+            "orcid": null
+          },
+          {
+            "name": "Bibek Dhakal",
+            "orcid": "https://orcid.org/0000-0003-3958-5029"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-11642008/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-11642008/v1",
+        "open_access_url": "https://doi.org/10.21203/rs.3.rs-11642008/v1",
+        "openalex_id": "https://openalex.org/W7225638148",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225638148",
+        "publication_date": "2026-11-09",
+        "title": "Practical design of diffusion MRI based on the decay of spatial modulations in a steady-state",
+        "venue": "Research Square",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-20T00:40:28.467164Z",
+      "status": "found"
+    },
     "openalex:doi:10.21595/jve.2026.26644": {
       "expires_at": "2026-10-09T01:02:02.258249Z",
       "record": {
@@ -33567,6 +33813,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-01T01:13:13.394348Z",
+      "status": "found"
+    },
+    "openalex:doi:10.32604/sdhm.2026.087400": {
+      "expires_at": "2026-12-20T00:40:30.971894Z",
+      "record": {
+        "abstract": "Truss systems are essential structural components for efficient load transfer in many engineering applications, such as long-span bridges, space and aerospace structures, industrial roofs, transmission towers, and offshore installations. Traditional deterministic methodologies, such as linear finite element modeling, flexibility and stiffness formulations, and static equilibrium principles, have been superseded by data-centric frameworks that incorporate artificial intelligence and AI technologies into truss design. This article highlights contemporary data-driven approaches for assessing, planning, optimizing, and monitoring truss structural health. The study also examines cutting-edge techniques such as surrogate-assisted optimization, topology and size optimization, digital twin-enabled structural management, and machine learning applications for vibration monitoring and damage diagnosis. This paper examines how recent advances in generative design approaches, graph-based neural networks, reinforcement learning frameworks, and physics-informed learning models have affected structural engineering practices. According to the findings, these techniques can greatly increase computational efficiency and structural performance and enable near-real-time structural issue analysis. Despite these advantages, downsides include difficulty maintaining physical realism in trained models, limited training data, uneven data quality, and limited transferability across structural configurations. Finally, the paper outlines future research objectives, focusing on long-term structural optimization, adaptive self-learning structural systems, and the seamless integration of digital twin technologies into truss lifecycle management.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Hogr Zainaddeen Hassan",
+            "orcid": null
+          },
+          {
+            "name": "Ahmed Aulla Manguri",
+            "orcid": null
+          },
+          {
+            "name": "Najmadeen Mohammed Saeed",
+            "orcid": "https://orcid.org/0000-0001-7074-0256"
+          },
+          {
+            "name": "Bedar Rauf Hassan",
+            "orcid": "https://orcid.org/0000-0002-2421-3604"
+          },
+          {
+            "name": "Tarek Metrouni",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.32604/sdhm.2026.087400",
+        "landing_page": "https://doi.org/10.32604/sdhm.2026.087400",
+        "open_access_url": "https://doi.org/10.32604/sdhm.2026.087400",
+        "openalex_id": "https://openalex.org/W7225848959",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225848959",
+        "publication_date": "2026-01-01",
+        "title": "A Comprehensive Synthesis of Data-Driven Methods for the Design and Optimization of Truss Structures",
+        "venue": "Structural durability & health monitoring",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-20T00:40:30.971894Z",
       "status": "found"
     },
     "openalex:doi:10.3389/fphy.2026.1916847": {
@@ -36492,6 +36780,12 @@
       "retrieved_at": "2026-11-17T00:42:19.260359Z",
       "status": "not_found"
     },
+    "openalex:title:007c5bf99ccda5ca17e2685c3b4816a4361ec910069afbcb1be13c9b321d2424": {
+      "expires_at": "2026-11-27T00:40:33.102635Z",
+      "record": null,
+      "retrieved_at": "2026-11-20T00:40:33.102635Z",
+      "status": "not_found"
+    },
     "openalex:title:01d0f51375153313f281a6020a49a3d435458500e7e85e732851c8cc8fc7415b": {
       "expires_at": "2026-11-04T00:48:17.812538Z",
       "record": {
@@ -36636,6 +36930,32 @@
       "retrieved_at": "2026-11-17T00:42:30.635430Z",
       "status": "not_found"
     },
+    "openalex:title:064b6c1cc7b84b7132097de304d8283e9b6b36f1ebb6dc380de53f059fc045f4": {
+      "expires_at": "2026-11-27T00:40:31.939481Z",
+      "record": {
+        "abstract": "Direct weight editing offers a gradient-free alternative to fine-tuning pretrained detectors, but its generalization and the value of large language model (LLM) guidance remain uncertain. We evaluate five experimental phases using YOLO26 models and MS COCO, comparing deterministic scaling, random perturbations, differential evolution, CMA-ES, structured interventions, real local-LLM proposals, failure-aware guidance, and hybrid LLM-CMA-ES against a matched random-policy control. Optimization uses native Ultralytics mAP50-95 on 1,000 COCO Val2017 images; selected candidates are assessed on a disjoint, previously examined 1,500-image subset, with COCO API AP50-95 reported separately where available. Increasing the CMA-ES budget from 8 to 250 evaluations raised development gains from +0.11 to +0.28 percentage points, while selection changes remained negative (-0.03 to -0.12 points); the 250-evaluation result uses one seed. The hybrid LLM approach showed no statistically established advantage over random-policy guidance (p = 0.612, 0.369, and 0.694 at budgets 8, 25, and 50). Five-seed YOLO26m replication yielded a COCO API AP difference of +0.004 points (95% CI: -0.026 to +0.034). Of 225 archived LLM proposals, 53 satisfy the final strict schema; early tensor-level execution cannot be fully verified. Genuine LLM-mediated weight editing is feasible, but the tested approaches did not demonstrate consistent transfer beyond the development subset or a measurable LLM advantage.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mohamed Abdallah Salem",
+            "orcid": "https://orcid.org/0009-0004-4673-420X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.17789",
+        "landing_page": "https://arxiv.org/abs/2611.17789",
+        "open_access_url": "https://arxiv.org/abs/2611.17789",
+        "openalex_id": "https://openalex.org/W7233803075",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7233803075",
+        "publication_date": "2026-11-13",
+        "title": "Can Large Language Models Optimize Pretrained Neural Network Weights? A Multi-Phase Empirical Evaluation of Gradient-Free Editing in YOLO26 Object Detection",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-20T00:40:31.939481Z",
+      "status": "found"
+    },
     "openalex:title:06c1573614d7cec8aafdeabdbf04c206c9e42daeec19bd7a0690045235f26758": {
       "expires_at": "2026-09-07T01:07:11.006421Z",
       "record": {
@@ -36665,6 +36985,12 @@
       },
       "retrieved_at": "2026-08-31T01:07:11.006421Z",
       "status": "found"
+    },
+    "openalex:title:07639f89a3c68c8f34005793ad670700bc0e3a9fc564857cd68f22a390b8fca7": {
+      "expires_at": "2026-11-27T00:40:33.929789Z",
+      "record": null,
+      "retrieved_at": "2026-11-20T00:40:33.929789Z",
+      "status": "not_found"
     },
     "openalex:title:07a658f17d330573c0f74fe3ad3c8364a20c22f53dc0ae03a4bc66a3eac32b9f": {
       "expires_at": "2026-10-07T01:10:10.635223Z",
@@ -36847,6 +37173,52 @@
       "record": null,
       "retrieved_at": "2026-08-24T00:32:21.079217Z",
       "status": "not_found"
+    },
+    "openalex:title:101fddc7795b1a691c6df32a7259c917a5e78d2d67883014f22ef687838b221e": {
+      "expires_at": "2026-11-27T00:40:34.682858Z",
+      "record": {
+        "abstract": "Urban mobility systems are large-scale networked systems whose performance emerges from hierarchically coupled decisions of public authorities, competing mobility operators, and travelers. Existing approaches to policy design either collapse one of these levels or assume that the authority can model and differentiate through the equilibrium responses of operators and travelers. In this paper, we model policy design as a tri-level game on a multimodal network, in which a municipality sets taxes, licenses, and integration subsidies, a public transport and a taxi operator compete on prices and service supply, and heterogeneous travelers reach a stochastic user equilibrium. We prove that the traveler equilibrium is unique and continuously differentiable in the operator strategies, that the variational inequality characterizing operator equilibria admits a solution for every policy, and that the resulting tri-level game admits a Stackelberg equilibrium. Building on this structure, we design a model-free hierarchical controller in which the municipality and the operators update their decisions from zeroth-order evaluations of observed equilibrium outcomes. On the Zurich multimodal network, operator equilibria computed from different initializations differ by a median of 0.3% in the municipal objective. On a grid of 3,125 policies, only those that subsidize transfers between public transport and taxis benefit both operators, and 24 of them also lower travel costs without degrading the municipal objective. Finally, the controller matches the best policies of three black-box optimizers and terminates at the most consistent policies across runs.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mingjia He",
+            "orcid": "https://orcid.org/0000-0001-7956-6880"
+          },
+          {
+            "name": "Zhiyu He",
+            "orcid": "https://orcid.org/0000-0001-9413-5333"
+          },
+          {
+            "name": "Jan Ghadamian",
+            "orcid": null
+          },
+          {
+            "name": "Florian Dörfler",
+            "orcid": null
+          },
+          {
+            "name": "Emilio Frazzoli",
+            "orcid": null
+          },
+          {
+            "name": "Gioele Zardini",
+            "orcid": "https://orcid.org/0000-0002-6601-2237"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.18313",
+        "landing_page": "https://arxiv.org/abs/2611.18313",
+        "open_access_url": "https://arxiv.org/abs/2611.18313",
+        "openalex_id": "https://openalex.org/W7234424683",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7234424683",
+        "publication_date": "2026-11-13",
+        "title": "Hierarchical Interactions in Mobility Networks: A Model-Free Feedback Approach",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-20T00:40:34.682858Z",
+      "status": "found"
     },
     "openalex:title:10c4cd1898d187964946eca726f5dcaad079557a2605596d3ab1c979f0337692": {
       "expires_at": "2026-08-16T00:36:05.489666Z",
@@ -37520,6 +37892,40 @@
         "year": 2025
       },
       "retrieved_at": "2026-09-27T01:11:29.011596Z",
+      "status": "found"
+    },
+    "openalex:title:325112bd49b64ee10e9bcfd1111adeed034e63379f9af7fe852a200621c7987d": {
+      "expires_at": "2026-11-27T00:40:36.991835Z",
+      "record": {
+        "abstract": "We propose CBO-MPPI, a sampling-based predictive controller that applies consensus-based optimization (CBO) to the free energy underlying model predictive path integral control (MPPI). Under hard constraints, this objective rewards sampling neighborhoods containing feasible, low-cost trajectories under perturbation. Standard MPPI performs a local stochastic search by updating one nominal control sequence from Gaussian perturbations around it. In CBO-MPPI, we estimate the free energy at multiple nominal centers from local rollouts. These estimates define a shared consensus that guides drift and diffusion, and the final selected center supplies an MPPI weighted-mean output. For the associated mean-field model, we establish well-posedness and, under additional assumptions, convergence toward a free-energy minimizer. In simulations of obstacle navigation, pendulum swing-up, and planar-arm manipulation under equal rollout budgets, at high temperatures, CBO-MPPI attains lower free energy than MPPI and multi-start MPPI and maintains greater obstacle clearance than CBO-MPC.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Daisuke Inoue",
+            "orcid": null
+          },
+          {
+            "name": "Yuyang Huang",
+            "orcid": null
+          },
+          {
+            "name": "Dante Kalise",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.18208",
+        "landing_page": "https://arxiv.org/abs/2611.18208",
+        "open_access_url": "https://arxiv.org/abs/2611.18208",
+        "openalex_id": "https://openalex.org/W7233990539",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7233990539",
+        "publication_date": "2026-11-13",
+        "title": "Consensus-Based Optimization of Path-Integral Free Energy for Model Predictive Control",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-20T00:40:36.991835Z",
       "status": "found"
     },
     "openalex:title:33a45e5cd73326adf0ab633eda1af5255e00d2d4b19bcf135911375e505af8e2": {
@@ -39420,6 +39826,44 @@
       "retrieved_at": "2026-10-15T00:58:19.414917Z",
       "status": "not_found"
     },
+    "openalex:title:7a428928498139c08359aee0a1d1ac89c2aa155800e2ffc2e14a9c22394d6f23": {
+      "expires_at": "2026-11-27T00:40:30.366842Z",
+      "record": {
+        "abstract": "End-to-end autoencoder communication has emerged as a promising means of achieving efficient data transmission across various domains. Nevertheless, vulnerabilities have recently been revealed in these systems by adversarial attacks, wherein malevolent entities manipulate the transmitted signals to deceive the autoencoder. This paper leverages the applications of evolutionary algorithms to solve a challenging optimization problem of launching physical attacks against end-to-end autoencoder communication. For white-box scenarios, we introduce PAGA (Physical Attack based on Genetic Algorithm), which combines a genetic algorithm with elite population initialization to craft attack signals that degrade autoencoder performance. To gauge the efficacy of these attack signals, we employ a fitness function that assesses their capacity to induce substantial reconstruction errors and misclassification rates. A Multi-Factorial version of PAGA, referred to as PAMFGA, is proposed to deal with practical scenarios where the attackers have limited knowledge about the receiver, also known as a black-box attack. Our experimental results show that the proposed attacks can substantially degrade the reliability of the considered autoencoder communication systems across the evaluated settings. This study also underscores the critical importance of incorporating security considerations into the design and implementation of end-to-end autoencoder communication systems.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Ho Viet Duc Luong",
+            "orcid": null
+          },
+          {
+            "name": "Lang Hong Nguyet Anh",
+            "orcid": "https://orcid.org/0009-0001-9975-3357"
+          },
+          {
+            "name": "Huynh Thi Thanh Binh",
+            "orcid": null
+          },
+          {
+            "name": "Trinh Van Chien",
+            "orcid": "https://orcid.org/0000-0002-5675-8414"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.17393",
+        "landing_page": "https://arxiv.org/abs/2611.17393",
+        "open_access_url": "https://arxiv.org/abs/2611.17393",
+        "openalex_id": "https://openalex.org/W7234020943",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7234020943",
+        "publication_date": "2026-11-12",
+        "title": "Evolutionary-based Transfer Learning for Physical Attack on End-to-End Autoencoder Communications",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-20T00:40:30.366842Z",
+      "status": "found"
+    },
     "openalex:title:7c1a6ab395c6b4e253b48f1554aae723463a1fc5b1449be976fc11625f11cc8f": {
       "expires_at": "2026-09-20T01:07:29.581460Z",
       "record": null,
@@ -39933,6 +40377,64 @@
       "record": null,
       "retrieved_at": "2026-10-04T01:36:08.123992Z",
       "status": "not_found"
+    },
+    "openalex:title:8dba512a1da624b05fd609ac1edd509981b0324b98cd1702b5f4728d36f12610": {
+      "expires_at": "2026-11-27T00:40:39.028946Z",
+      "record": {
+        "abstract": "2D-to-3D image registration is a key component for several medical imaging purposes such as intraoperative guidance, enabling the alignment between preoperative 3D volumes and real-time 2D images. While conventional optimisation-based methods often struggle with non-convex objectives, sensitivity to initialisation, and high computational demands, deep learning (DL) has emerged as a promising alternative, offering improved alignment robustness and the potential for real-time performance. This review provides a comprehensive analysis of DL frameworks developed to address the challenges inherent in 2D-to-3D registration. We first outline how core concepts of DL are adapted to the registration problem. We then examine recent methodological advancements from multiple perspectives, including pipeline design, architectural innovations, and domain adaptation strategies. Particular attention is given to quantitative metrics, highlighting how performance is defined and measured across studies. Across the 41 included studies, we find that direct regression is the most common pipeline (23 studies, against 18 iterative ones), that hybrid CNN-attention architectures are gaining ground, and that research remains heavily concentrated on X-ray-to-CT registration. We conclude by identifying the absence of per-case uncertainty estimation and the strong neglect of temporal or sequential modelling as the two methodological gaps most consequential for clinical readiness, and discuss state-space models as a way to add temporal memory within intraoperative latency budgets. Further opportunities lie in more principled domain adaptation and in the integration of foundation models for representation learning.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Andrea Borghesi",
+            "orcid": null
+          },
+          {
+            "name": "Julia van Beurden",
+            "orcid": null
+          },
+          {
+            "name": "Maarten van Alphen",
+            "orcid": null
+          },
+          {
+            "name": "Michiel van den Brekel",
+            "orcid": null
+          },
+          {
+            "name": "Luc Karssemakers",
+            "orcid": null
+          },
+          {
+            "name": "Jan-Jakob Sonke",
+            "orcid": null
+          },
+          {
+            "name": "Barış Karakullukçu",
+            "orcid": null
+          },
+          {
+            "name": "Jonas Teuwen",
+            "orcid": null
+          },
+          {
+            "name": "George Yiasemis",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.17468",
+        "landing_page": "https://arxiv.org/abs/2611.17468",
+        "open_access_url": "https://arxiv.org/abs/2611.17468",
+        "openalex_id": "https://openalex.org/W7233919725",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7233919725",
+        "publication_date": "2026-11-12",
+        "title": "A thorough review on Deep Learning approaches to 2D-to-3D Registration in Medical Imaging",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-20T00:40:39.028946Z",
+      "status": "found"
     },
     "openalex:title:8dc5eada13fd3742238bb20b85f37eacc8a3b0a5930dda1d7d6cd018a0adf3f9": {
       "expires_at": "2026-10-19T01:18:15.656012Z",
@@ -40820,6 +41322,12 @@
       "retrieved_at": "2026-10-14T00:59:31.520134Z",
       "status": "found"
     },
+    "openalex:title:a7c81955bbeeb017011cb6faebec10f1ce7d5cd57c3ed313e69cb53588dc2098": {
+      "expires_at": "2026-11-27T00:40:37.997369Z",
+      "record": null,
+      "retrieved_at": "2026-11-20T00:40:37.997369Z",
+      "status": "not_found"
+    },
     "openalex:title:a7c92d53b927d831d8e34de5d97460fe06283501581cf9a53ac01b51930e5e71": {
       "expires_at": "2026-09-14T01:06:37.884651Z",
       "record": {
@@ -40859,6 +41367,88 @@
       "record": null,
       "retrieved_at": "2026-10-16T00:57:50.427389Z",
       "status": "not_found"
+    },
+    "openalex:title:a888b943a33a968ec0159cf8c73b8b060b909dc7da4f5503317cfa0f2c5a71a6": {
+      "expires_at": "2026-11-27T00:40:35.611275Z",
+      "record": {
+        "abstract": "Diffractive optical neural networks (ONNs) show remarkable promise in high-speed and energy-efficient optical computing. However, most existing ONNs are optimized to reproduce predefined output intensity distributions, with the desired optical responses explicitly specified before training. Here, we introduce optical representation neural networks (ORNNs) enabled by coarse-grained weak supervision. Using handwritten Devanagari, Arabic, and English characters as three semantic groups, a modified contrastive objective encourages samples from the same script to cluster into similar optical representations. Remarkably, ORNNs improve the classification accuracy by approximately 9% over conventional supervised ONNs, while requiring only around 18% of the training steps to reach a stable test accuracy of 84.5%. These features can be selectively interpreted using corresponding semantic decoders. Building on this concept, we further realized semantic optical encryption with electronic neural network (ENN) decryption using experimentally acquired representations from a single-layer diffractive network fabricated by two-photon polymerization lithography (TPL). Here, we combine information from different scripts into a mixed optical ciphertext that is then first optically classified before being decrypted with a matched ENN. This work broadens the training paradigm of ONNs by coupling upstream optical representation learning with downstream task-specific decoding, opening new avenues for optical information processing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bochang Wu",
+            "orcid": null
+          },
+          {
+            "name": "Chengfeng Pan",
+            "orcid": "https://orcid.org/0009-0003-5103-7196"
+          },
+          {
+            "name": "Xuhao Luo",
+            "orcid": "https://orcid.org/0009-0002-9054-8389"
+          },
+          {
+            "name": "John You En Chan",
+            "orcid": "https://orcid.org/0000-0001-8054-3360"
+          },
+          {
+            "name": "Shutao Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Zhenchao Liu",
+            "orcid": "https://orcid.org/0000-0003-0351-3226"
+          },
+          {
+            "name": "Hao Wang",
+            "orcid": null
+          },
+          {
+            "name": "Deepshikha Arora",
+            "orcid": null
+          },
+          {
+            "name": "Nur Qalishah Adanan",
+            "orcid": "https://orcid.org/0000-0003-1320-8962"
+          },
+          {
+            "name": "Ho Soon Yee",
+            "orcid": null
+          },
+          {
+            "name": "Lei Chen",
+            "orcid": null
+          },
+          {
+            "name": "Hongtao Wang",
+            "orcid": "https://orcid.org/0000-0002-6050-6113"
+          },
+          {
+            "name": "Wang Zhang",
+            "orcid": "https://orcid.org/0000-0002-8636-2816"
+          },
+          {
+            "name": "Cheng-Wei Qiu",
+            "orcid": "https://orcid.org/0000-0002-6605-500X"
+          },
+          {
+            "name": "Joel K. W. Yang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.18045",
+        "landing_page": "https://arxiv.org/abs/2611.18045",
+        "open_access_url": "https://arxiv.org/abs/2611.18045",
+        "openalex_id": "https://openalex.org/W7233865685",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7233865685",
+        "publication_date": "2026-11-13",
+        "title": "Optical Representation Neural Networks Enabled by Weakly Supervised Learning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-20T00:40:35.611275Z",
+      "status": "found"
     },
     "openalex:title:a90ec3fa0dbc4c4cb5be1355e9d1bae0680f63ef36a279df7b9729a2907aff6d": {
       "expires_at": "2026-11-22T00:44:11.520741Z",
@@ -42653,6 +43243,12 @@
       },
       "retrieved_at": "2026-11-03T00:40:49.804458Z",
       "status": "found"
+    },
+    "openalex:title:ddf259cc4bb0f0403463758018fa34dc0bb7b8d066c2e7c0eac07f3a2d348750": {
+      "expires_at": "2026-11-27T00:40:29.473602Z",
+      "record": null,
+      "retrieved_at": "2026-11-20T00:40:29.473602Z",
+      "status": "not_found"
     },
     "openalex:title:df0eabc2272a1efdf8459e03c70cf8de95893159d272a8b78a6b173f6527b36d": {
       "expires_at": "2026-11-22T00:44:10.198309Z",

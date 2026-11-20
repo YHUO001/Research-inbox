@@ -1,34 +1,268 @@
 {
-  "actual_summary_count": 0,
-  "author_metadata_enriched_count": 0,
-  "author_metadata_fallback_count": 0,
-  "author_metadata_mode": "selected_openalex_work_metadata_with_safe_fallback",
-  "automatic_queue_candidate_count": 0,
-  "built_at": "2026-11-19T00:42:39.168350Z",
+  "abstract_fallback_candidate_ids": [],
+  "abstract_fallback_count": 0,
+  "architecture_evidence": {
+    "a0c6cc02321fd65d282431c7": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    }
+  },
+  "architecture_repairs": 0,
+  "automatic_history_pending": false,
+  "automatic_queue_candidate_count": 1,
+  "completed_at": "2026-11-20T00:41:00.273158Z",
   "completed_candidate_filtered_count": 0,
-  "daily_digest_pending": false,
-  "digest_date": "2026-11-19",
-  "digest_json_file": "runtime-state/data/digests/2026-11-19.preview.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-11-19.preview.md",
+  "completed_candidate_ids": [
+    "a0c6cc02321fd65d282431c7"
+  ],
+  "completion_mode": "automatic_daily_batch_after_local_validation",
+  "daily_digest_pending": true,
+  "digest_date": "2026-11-20",
+  "digest_json_file": "runtime-state/data/digests/2026-11-20.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-11-20.generated.md",
   "email_enabled": false,
+  "estimated_cost_cny": 0.022779,
   "execution_mode": "automatic_daily_batch",
-  "full_text_used": false,
+  "failure_count": 0,
+  "failures": [],
+  "full_text_method_contexts": {
+    "a0c6cc02321fd65d282431c7": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "a0c6cc02321fd65d282431c7",
+      "character_count": 12000,
+      "content_sha256": "04f27e4baca0fcca92590cb5f8ba0b5bd2a30b5c619f07d9d7e7241825fc038c",
+      "elapsed_seconds": 0.905,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "application/pdf",
+      "section_headings": [
+        "responses explicitly specified before training. Here, we introduce optical representation",
+        "only around 18% of the training steps to reach a stable test accuracy of 84.5%. These",
+        "ENN. This work broadens the training paradigm of ONNs by coupling upstream optical",
+        "before training, the organization of the optical output is largely determined by",
+        "specifically refers to the use of script -level semantic labels during optical training,",
+        "diffractive optical neural network architecture. Handwritten Devanagari, Arabic, and",
+        "During training, a modified contrastive objective cause script input from one language",
+        "representation learning for improving training efficiency and encrypting information in",
+        "spatial distributions are not prescribed during training. The central question is whether",
+        "spatial organization during training. To examine this process, the two-dimensional",
+        "be tracked throughout training (Fig. 2a). Driven by the modified contrastive objective,",
+        "dependent structures during training, giving rise to learned script -dependent",
+        "defined over these feature representations. During training, the modified contrastive",
+        "semantic spatial code. Details of the optical propagation model, network architecture,",
+        "vectors. Importantly, these semantic locations are not assigned before training but are",
+        "To quantitatively compare the proposed learning strategy with the conventional training,",
+        "randomly assigned to predefined output locations, using 9 runs per method. Multiple",
+        "script-to-location mappings were evaluated for the supervised ONNs. Both methods",
+        "used the same network architecture, training dataset, batch size, optimizer, and learning",
+        "rate. At the shared training endpoint, the three -layer ORNNs achieved a mean test",
+        "an improvement of approximately 8.7 % (Fig. 2d). ORNNs required 467 ± 85 training",
+        "supervised ONNs (mean ± standard deviation across nine runs per method) ,",
+        "corresponding to approximately 82% fewer training steps (Fig. 2e). Stable attainment",
+        "training steps, without prescribing script-specific output locations. Detailed results for",
+        "the individual runs and the corresponding three -layer and single -layer training",
+        "normalized to form a feature vector. (b) Training framework for weakly supervised optical",
+        "Test accuracy of supervised ONNs and ORNNs at a shared training endpoint, with 9 runs per",
+        "method. Individual points represent individual runs, and half -violin plots show the",
+        "corresponding smooth distributions. (e) Training steps required to reach stable 84.5% test",
+        "step count taken at the first evaluation in this sequence. One training step corresponds to one",
+        "optimizer update using a batch of 66 training samples. Bars and error bars indicate the mean",
+        "physical implementation. We experimentally implemented the proposed framework",
+        "preserved after physical implementation and optical propagation . The experimental",
+        "defined during training. The loss operates on the average optical energy within each",
+        "remain identifiable after fabrication and experimental optical propagation, establishing",
+        "Figure 3. Experimental demonstration of learned optical semantic representations using",
+        "a single-layer diffractive optical neural network. (a) The experimental setup comprising a",
+        "physical implementation, we next examine whether these optical representations can be",
+        "evaluation (Supplementary Notes 18 and 19). The corresponding decoder training and",
+        "performance likely originates from phase discretization, fabrication deviations, optical",
+        "introduces a trade-off: a single diffractive layer simplifies fabrication and alignment but",
+        "continuous semantic spaces, and increasingly optical implementations of representation",
+        "10. Hughes, T. W., Minkov, M., Shi, Y. & Fan, S. Training of photonic neural networks through"
+      ],
+      "source_url": "https://arxiv.org/pdf/2611.18045",
+      "status": "used",
+      "text_persisted": false
+    }
+  },
+  "full_text_persisted": false,
+  "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
-  "knowledge_base_pending": false,
-  "llm_enabled": true,
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+  "knowledge_base_pending": true,
+  "model": "deepseek-v4-pro",
+  "newly_completed_candidate_count": 1,
+  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+  "numeric_matching": {
+    "absolute_tolerance": 0.02,
+    "approximation_markers_ignored": true,
+    "evidence_sources": [
+      "title",
+      "abstract",
+      "temporary_open_full_text_methods"
+    ],
+    "full_text_unsupported_sentence_action": "deterministic_redaction",
+    "relative_tolerance": 0.02,
+    "unit_format_ignored": true,
+    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
+  },
   "output_language": "zh-CN",
-  "provider": "not_configured",
-  "queue_candidate_count": 0,
-  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "request_count": 0,
-  "request_file": "runtime-state/data/summary_requests/2026-11-19.jsonl",
-  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "prepared_request_count": 1,
+  "provider": "deepseek",
+  "queue_sha256": "d84077161442b5b3ff24f1f5e4b06cfeb5972f61f696d4a2c9dc49b8a84046ee",
+  "request_count": 1,
+  "request_file": "runtime-state/data/summary_requests/2026-11-20.jsonl",
+  "request_sha256": "8d08ca3be24469e6e8d8afe97f66f0d0096fc080d65d50e2e6b378f685886d22",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "bf0943241082019633fa581707fed010454a74a6c7e77a08a5443e3971f0261c",
-  "source_queue_candidate_count": 0,
-  "status": "no_candidates",
+  "selection_manifest_sha256": "c2af07aab4ec46f7f635af7d8e414534a24844fd62a104abda76e1a2022c0266",
+  "skipped_no_abstract_candidate_ids": [],
+  "skipped_no_abstract_count": 0,
+  "source_queue_candidate_count": 1,
+  "stage_timings": {
+    "full_text_preparation_seconds": 0.912,
+    "model_api_calls": [
+      {
+        "attempt": 1,
+        "candidate_id": "a0c6cc02321fd65d282431c7",
+        "elapsed_seconds": 15.644,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1627,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 4323,
+          "prompt_tokens": 6243,
+          "total_tokens": 7870
+        }
+      }
+    ],
+    "model_generation_and_validation_seconds": 15.661
+  },
+  "status": "completed_automatic",
+  "summary_count": 1,
+  "summary_file": "runtime-state/data/summaries/2026-11-20.jsonl",
   "summary_generation_version": 8,
-  "summary_history_updated": false,
-  "summary_slot_count": 0
+  "summary_history_updated": true,
+  "summary_slot_count": 1,
+  "thinking_enabled": false,
+  "transport_repairs": {
+    "architecture_evidence": {
+      "a0c6cc02321fd65d282431c7": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "free_space",
+        "repaired": true,
+        "resolved_type": "unclear"
+      }
+    },
+    "architecture_repairs": 1,
+    "candidate_id_repair_responses": 0,
+    "full_text_method_contexts": {
+      "a0c6cc02321fd65d282431c7": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "a0c6cc02321fd65d282431c7",
+        "character_count": 12000,
+        "content_sha256": "04f27e4baca0fcca92590cb5f8ba0b5bd2a30b5c619f07d9d7e7241825fc038c",
+        "elapsed_seconds": 0.905,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "application/pdf",
+        "section_headings": [
+          "responses explicitly specified before training. Here, we introduce optical representation",
+          "only around 18% of the training steps to reach a stable test accuracy of 84.5%. These",
+          "ENN. This work broadens the training paradigm of ONNs by coupling upstream optical",
+          "before training, the organization of the optical output is largely determined by",
+          "specifically refers to the use of script -level semantic labels during optical training,",
+          "diffractive optical neural network architecture. Handwritten Devanagari, Arabic, and",
+          "During training, a modified contrastive objective cause script input from one language",
+          "representation learning for improving training efficiency and encrypting information in",
+          "spatial distributions are not prescribed during training. The central question is whether",
+          "spatial organization during training. To examine this process, the two-dimensional",
+          "be tracked throughout training (Fig. 2a). Driven by the modified contrastive objective,",
+          "dependent structures during training, giving rise to learned script -dependent",
+          "defined over these feature representations. During training, the modified contrastive",
+          "semantic spatial code. Details of the optical propagation model, network architecture,",
+          "vectors. Importantly, these semantic locations are not assigned before training but are",
+          "To quantitatively compare the proposed learning strategy with the conventional training,",
+          "randomly assigned to predefined output locations, using 9 runs per method. Multiple",
+          "script-to-location mappings were evaluated for the supervised ONNs. Both methods",
+          "used the same network architecture, training dataset, batch size, optimizer, and learning",
+          "rate. At the shared training endpoint, the three -layer ORNNs achieved a mean test",
+          "an improvement of approximately 8.7 % (Fig. 2d). ORNNs required 467 ± 85 training",
+          "supervised ONNs (mean ± standard deviation across nine runs per method) ,",
+          "corresponding to approximately 82% fewer training steps (Fig. 2e). Stable attainment",
+          "training steps, without prescribing script-specific output locations. Detailed results for",
+          "the individual runs and the corresponding three -layer and single -layer training",
+          "normalized to form a feature vector. (b) Training framework for weakly supervised optical",
+          "Test accuracy of supervised ONNs and ORNNs at a shared training endpoint, with 9 runs per",
+          "method. Individual points represent individual runs, and half -violin plots show the",
+          "corresponding smooth distributions. (e) Training steps required to reach stable 84.5% test",
+          "step count taken at the first evaluation in this sequence. One training step corresponds to one",
+          "optimizer update using a batch of 66 training samples. Bars and error bars indicate the mean",
+          "physical implementation. We experimentally implemented the proposed framework",
+          "preserved after physical implementation and optical propagation . The experimental",
+          "defined during training. The loss operates on the average optical energy within each",
+          "remain identifiable after fabrication and experimental optical propagation, establishing",
+          "Figure 3. Experimental demonstration of learned optical semantic representations using",
+          "a single-layer diffractive optical neural network. (a) The experimental setup comprising a",
+          "physical implementation, we next examine whether these optical representations can be",
+          "evaluation (Supplementary Notes 18 and 19). The corresponding decoder training and",
+          "performance likely originates from phase discretization, fabrication deviations, optical",
+          "introduces a trade-off: a single diffractive layer simplifies fabrication and alignment but",
+          "continuous semantic spaces, and increasingly optical implementations of representation",
+          "10. Hughes, T. W., Minkov, M., Shi, Y. & Fan, S. Training of photonic neural networks through"
+        ],
+        "source_url": "https://arxiv.org/pdf/2611.18045",
+        "status": "used",
+        "text_persisted": false
+      }
+    },
+    "generation_metadata_repair_responses": 1,
+    "numeric_grounding_repair_responses": 1,
+    "numeric_grounding_repairs": {
+      "a0c6cc02321fd65d282431c7": [
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "达到84.5%稳定测试准确率所需训练步数，ORNN为467±85步，监督ONN需约82%更多步数。",
+          "path": "method_implementation[2]",
+          "replacement": "相关定量细节未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "467"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "ORNN达到稳定84.5%测试准确率所需训练步数约为467±85步，比监督ONN少约82%。",
+          "path": "reported_results[1].claim",
+          "replacement": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "467"
+          ]
+        },
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "实验获得的三个语义类别的平均Dice系数约0.73-0.77，平均绝对皮尔逊相关系数约0.69-0.72。",
+          "path": "reported_results[2].claim",
+          "replacement": "相关定量结果未在标题、摘要或公开正文方法上下文中提供。",
+          "tokens": [
+            "0.77"
+          ]
+        }
+      ]
+    },
+    "tops_alias_expansions": 34,
+    "unit_format_normalization_responses": 1
+  },
+  "usage": {
+    "completion_tokens": 1627,
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 4323,
+    "prompt_tokens": 6243,
+    "total_tokens": 7870
+  }
 }

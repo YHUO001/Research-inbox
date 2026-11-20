@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`137`
-- 更新时间：`2026-11-17T00:43:34.081670Z`
+- 论文数：`138`
+- 更新时间：`2026-11-20T00:41:00.273158Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Optical Representation Neural Networks Enabled by Weakly Supervised Learning
+
+- DOI/链接：[10.48550/arxiv.2611.18045](https://doi.org/10.48550/arxiv.2611.18045)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-11-20`
+- 候选 ID：`a0c6cc02321fd65d282431c7`
+- 标签：application:光学语义表征学习, application:脚本级分类, application:语义光学加密, application:选择性语义解码, architecture:unclear, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Noise-robust optical convolutional neural networks with adaptive bit-plane weighted fusion
 

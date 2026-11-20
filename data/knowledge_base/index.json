@@ -800,6 +800,15 @@
       "summary_record_sha256": "5a20cf1aa089d729ec2036157afc8279ebd1a1d601117cc29e616ad69bdc8426",
       "title": "<i>Prism</i>\n                    : Efficient Zeroth-Order Fine-Tuning for On-Device LLMs"
     },
+    "a0c6cc02321fd65d282431c7": {
+      "digest_date": "2026-11-20",
+      "doi": "10.48550/arxiv.2611.18045",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "ab5a53eab3b7c116d6a9c26687a5bfc2089567299e1d11d1ec6b109465ac003c",
+      "title": "Optical Representation Neural Networks Enabled by Weakly Supervised Learning"
+    },
     "a15033db64285e5d4c8a46c9": {
       "digest_date": "2026-09-21",
       "doi": "10.1364/prj.591330",
@@ -1503,6 +1512,9 @@
       "b0e6482dfe5e39ae511f80e4",
       "ecaf6dd689741a7c3c9a1daf",
       "ff3bd3c093ca85c51723cea8"
+    ],
+    "2026-11-20": [
+      "a0c6cc02321fd65d282431c7"
     ]
   },
   "by_doi": {
@@ -1625,6 +1637,7 @@
     "10.48550/arxiv.2611.10461": "c8eab601a12e0edc6ea689c7",
     "10.48550/arxiv.2611.10792": "613738348c3064572d16e38f",
     "10.48550/arxiv.2611.16317": "243c7d0258c4f3c336b23ef5",
+    "10.48550/arxiv.2611.18045": "a0c6cc02321fd65d282431c7",
     "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
     "10.5281/zenodo.23337932": "c9dee369fd4e64c2389af927",
     "10.5281/zenodo.23422324": "1bbef7ba5398ff216f60580f",
@@ -1706,6 +1719,7 @@
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
       "9e5e9e295864aadeda0674fe",
+      "a0c6cc02321fd65d282431c7",
       "a15033db64285e5d4c8a46c9",
       "a390258440d82a472251969b",
       "a6c0cee36e01933034e775f2",
@@ -1922,6 +1936,9 @@
     ],
     "application:光学神经网络推理": [
       "09e1a0ed403ef22abbd9b189"
+    ],
+    "application:光学语义表征学习": [
+      "a0c6cc02321fd65d282431c7"
     ],
     "application:全光机器视觉与智能光子计算": [
       "9039d2d888f22d7a64bcfc06"
@@ -2247,6 +2264,9 @@
     "application:脑mri图像分类（肿瘤检测）": [
       "0a7a6a25b0c077322aee6b4e"
     ],
+    "application:脚本级分类": [
+      "a0c6cc02321fd65d282431c7"
+    ],
     "application:自主导航": [
       "328b1572ba0e31f8f8a6dac1"
     ],
@@ -2267,6 +2287,9 @@
     ],
     "application:自适应光子计算": [
       "5ec8e35ad02131d8ed156970"
+    ],
+    "application:语义光学加密": [
+      "a0c6cc02321fd65d282431c7"
     ],
     "application:语音识别（fsdd）": [
       "1cf1fcd769c5ace951188b8c"
@@ -2303,6 +2326,9 @@
     ],
     "application:适用于延迟敏感的机器视觉和边缘感知场景": [
       "5228362e834f7a6b9567811b"
+    ],
+    "application:选择性语义解码": [
+      "a0c6cc02321fd65d282431c7"
     ],
     "application:透过散射介质（玻璃扩散器）的多光谱全彩成像": [
       "35ff63ef9d3333099ee28868"
@@ -2423,6 +2449,7 @@
       "93f3ffb1741a00e1480b8ab2",
       "95fe7b58392c34e07c8b2616",
       "9e5e9e295864aadeda0674fe",
+      "a0c6cc02321fd65d282431c7",
       "a390258440d82a472251969b",
       "a6c0cee36e01933034e775f2",
       "a7f4407333af25ddc7630e14",
@@ -2478,6 +2505,7 @@
       "6fb09da00d0f94c49f1e76ff",
       "7edb19b24759fe609707ba01",
       "973790e22c46d30721660799",
+      "a0c6cc02321fd65d282431c7",
       "a15033db64285e5d4c8a46c9",
       "aaf22dbcd3252d085a360afb",
       "b0e6482dfe5e39ae511f80e4",
@@ -2594,6 +2622,7 @@
       "973507e35175bb05fcf25e79",
       "973790e22c46d30721660799",
       "9e5e9e295864aadeda0674fe",
+      "a0c6cc02321fd65d282431c7",
       "a15033db64285e5d4c8a46c9",
       "a390258440d82a472251969b",
       "a6c0cee36e01933034e775f2",
@@ -3107,6 +3136,7 @@
       "7a45515c829cdcf2bd96f41f",
       "7a7954d98c27d7ab9f7f730a",
       "8c41a3326d64abdd0bb9d1a7",
+      "a0c6cc02321fd65d282431c7",
       "b03b6320be57edd77b3ad7e5",
       "b55d3108932c3bfbf5a93ca7",
       "c8eab601a12e0edc6ea689c7",
@@ -3217,6 +3247,7 @@
       "973790e22c46d30721660799",
       "9e5e9e295864aadeda0674fe",
       "9e604f17f644449b1f294680",
+      "a0c6cc02321fd65d282431c7",
       "a15033db64285e5d4c8a46c9",
       "a390258440d82a472251969b",
       "a6c0cee36e01933034e775f2",
@@ -3271,7 +3302,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 137,
+  "paper_count": 138,
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:43:34.081670Z"
+  "updated_at": "2026-11-20T00:41:00.273158Z"
 }
