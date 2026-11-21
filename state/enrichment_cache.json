@@ -9066,6 +9066,52 @@
       "retrieved_at": "2026-08-20T00:32:31.197134Z",
       "status": "found"
     },
+    "crossref:doi:10.1371/journal.pone.0362324": {
+      "expires_at": "2026-12-21T00:41:17.290705Z",
+      "record": {
+        "abstract": "As a canonical application of computational complex networks, the intelligent Internet of Vehicles (IoV) has attracted significant research interest regarding network security. This paper investigates a class of decentralized federated learning algorithms designed to operate without access to exact gradient information and under Byzantine attacks, in which compromised nodes transmit erroneous data, causing client states to deviate from their normal trajectories. To address these challenges, a Byzantine-Resilient Decentralized Bandit Online Federated Learning algorithm is proposed. This algorithm utilizes a One-Point Residual Feedback (OPRF) mechanism to estimate gradients using function evaluations, requiring only one new objective-function query per iteration and thereby reducing the zeroth-order query cost relative to conventional two-point feedback. Furthermore, the integration of a resilient filtering mechanism enables the algorithm to tolerate up to ℬ Byzantine neighbors for each regular client under the adopted ℬ -local adversary model, thereby mitigating deviations in regular-client states caused by malicious behavior. The formal analysis considers time-varying local objective functions over a fixed robust communication graph, while a topology-switching experiment provides an empirical extension to changing communication connectivity. Under the stated assumptions, the theoretical analysis establishes sublinear dynamic regret in the presence of Byzantine clients. Finally, the effectiveness of the proposed algorithm is evaluated through simulation experiments within a federated learning framework.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Guixiang Guo",
+            "orcid": "https://orcid.org/0009-0009-9998-4356"
+          },
+          {
+            "name": "Lin Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Shuai Chen",
+            "orcid": null
+          },
+          {
+            "name": "Fu Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Jihua Fang",
+            "orcid": null
+          },
+          {
+            "name": "Wenhua Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1371/journal.pone.0362324",
+        "landing_page": "https://doi.org/10.1371/journal.pone.0362324",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1371/journal.pone.0362324",
+        "publication_date": "2026-11-18",
+        "title": "Byzantine-resilient decentralized online federated learning with Bandit feedback for IoV networks",
+        "venue": "PLOS One",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-21T00:41:17.290705Z",
+      "status": "found"
+    },
     "crossref:doi:10.14288/1.0455632": {
       "expires_at": "2026-09-29T01:05:15.940425Z",
       "record": null,
@@ -32771,6 +32817,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-21T01:07:33.178617Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1371/journal.pone.0362324": {
+      "expires_at": "2026-12-21T00:41:17.443472Z",
+      "record": {
+        "abstract": "As a canonical application of computational complex networks, the intelligent Internet of Vehicles (IoV) has attracted significant research interest regarding network security. This paper investigates a class of decentralized federated learning algorithms designed to operate without access to exact gradient information and under Byzantine attacks, in which compromised nodes transmit erroneous data, causing client states to deviate from their normal trajectories. To address these challenges, a Byzantine-Resilient Decentralized Bandit Online Federated Learning algorithm is proposed. This algorithm utilizes a One-Point Residual Feedback (OPRF) mechanism to estimate gradients using function evaluations, requiring only one new objective-function query per iteration and thereby reducing the zeroth-order query cost relative to conventional two-point feedback. Furthermore, the integration of a resilient filtering mechanism enables the algorithm to tolerate up to ℬ Byzantine neighbors for each regular client under the adopted ℬ-local adversary model, thereby mitigating deviations in regular-client states caused by malicious behavior. The formal analysis considers time-varying local objective functions over a fixed robust communication graph, while a topology-switching experiment provides an empirical extension to changing communication connectivity. Under the stated assumptions, the theoretical analysis establishes sublinear dynamic regret in the presence of Byzantine clients. Finally, the effectiveness of the proposed algorithm is evaluated through simulation experiments within a federated learning framework.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Guixiang Guo",
+            "orcid": "https://orcid.org/0009-0009-9998-4356"
+          },
+          {
+            "name": "Lin Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Shuai Chen",
+            "orcid": null
+          },
+          {
+            "name": "Fu Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Jihua Fang",
+            "orcid": null
+          },
+          {
+            "name": "Wenhua Zhang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1371/journal.pone.0362324",
+        "landing_page": "https://doi.org/10.1371/journal.pone.0362324",
+        "open_access_url": "https://doi.org/10.1371/journal.pone.0362324",
+        "openalex_id": "https://openalex.org/W7236116088",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7236116088",
+        "publication_date": "2026-11-18",
+        "title": "Byzantine-resilient decentralized online federated learning with Bandit feedback for IoV networks",
+        "venue": "PLoS ONE",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-21T00:41:17.443472Z",
       "status": "found"
     },
     "openalex:doi:10.14288/1.0455632": {
