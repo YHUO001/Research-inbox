@@ -6792,6 +6792,48 @@
       "retrieved_at": "2026-08-04T09:38:55.106251Z",
       "status": "found"
     },
+    "crossref:doi:10.1117/12.3116898": {
+      "expires_at": "2026-12-22T00:44:43.526543Z",
+      "record": {
+        "abstract": "Speckle-based sensing is an interesting route for high-dimensional and low-SWaP optical sensors as multiple environmental perturbations can be encoded and decoded across complex spatial intensity. The challenge, however, resides in the fact that extracting such information conventionally requires camera acquisition, digitization, memory transfer, and electronic post-processing, which introduce latency, bandwidth bottlenecks, and frame-rate limits that hinder real-time operation. These constraints are especially problematic in dynamic sensing scenarios, where the sensing task is often low-dimensional even though the raw optical data are not. To overcome these limitations, we present an all-optical, reconfigurable edge-computing platform that performs task-specific computation directly in the optical domain. Our approach projects the output speckle field onto a digital micromirror device acting as a programmable optical layer, while spatial masks are trained in-situ to route the weighted field to differential photodetectors for direct output signal readout. We demonstrate the concept experimentally by applying it to a multi-point multimode-fiber sensing scenario, where simultaneous perturbations applied at different fiber locations are separated in real time with reduced crosstalk without full-field image reconstruction. For this, the masks may be trained in situ from detector feedback using evolutionary optimization (genetic algorithm), which can be combined with reinforcement learning techniques (gradient-free cross-entropy method for fine-tuning). Results show that the relevant sensing information can be decoded physically at the readout stage, enabling high-speed analog outputs limited by photodetector performance (up to hundreds of kHz) rather than camera hardware (limited to a few hundred frames per second). This establishes a scalable and low energy footprint framework for low-latency optical sensing, with clear relevance to computational imaging, compressive measurement strategies, and next-generation smart sensor architectures.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tomás Lopes",
+            "orcid": null
+          },
+          {
+            "name": "Joana Teixeira",
+            "orcid": null
+          },
+          {
+            "name": "Catarina S. Monteiro",
+            "orcid": "https://orcid.org/0000-0002-0463-9894"
+          },
+          {
+            "name": "Tiago D. Ferreira",
+            "orcid": null
+          },
+          {
+            "name": "Nuno A. Silva",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3116898",
+        "landing_page": "https://doi.org/10.1117/12.3116898",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/12.3116898",
+        "publication_date": "2026-11-13",
+        "title": "Evolutionary and reinforcement learning strategies for all-optical speckle sensing interrogation",
+        "venue": "CI/CS: Computational Imaging, Compressed Sensing, and Sensors",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-22T00:44:43.526543Z",
+      "status": "found"
+    },
     "crossref:doi:10.1117/12.3117698": {
       "expires_at": "2026-11-10T01:15:37.756567Z",
       "record": {
@@ -10483,6 +10525,12 @@
       "retrieved_at": "2026-09-21T01:07:32.848362Z",
       "status": "found"
     },
+    "crossref:title:0675adf80fd21d2932cffe9e583a41704ebea694ca6bb6d572c7bf0aa7579a7b": {
+      "expires_at": "2026-11-29T00:44:47.344311Z",
+      "record": null,
+      "retrieved_at": "2026-11-22T00:44:47.344311Z",
+      "status": "not_found"
+    },
     "crossref:title:06c1573614d7cec8aafdeabdbf04c206c9e42daeec19bd7a0690045235f26758": {
       "expires_at": "2026-09-07T01:07:10.369066Z",
       "record": null,
@@ -11115,6 +11163,12 @@
       "retrieved_at": "2026-10-23T01:02:39.894658Z",
       "status": "found"
     },
+    "crossref:title:171b66c86091b501fd4ee54f1c47c48974dab74b42e41b5a2a53933aecd2587b": {
+      "expires_at": "2026-11-29T00:44:52.030620Z",
+      "record": null,
+      "retrieved_at": "2026-11-22T00:44:52.030620Z",
+      "status": "not_found"
+    },
     "crossref:title:180f994ff18b445bea19e70b966dba2f5d554de80c0d98fe3a286a583d65bd79": {
       "expires_at": "2026-11-27T00:40:28.256984Z",
       "record": {
@@ -11263,6 +11317,12 @@
       "expires_at": "2026-11-21T00:39:33.502456Z",
       "record": null,
       "retrieved_at": "2026-11-14T00:39:33.502456Z",
+      "status": "not_found"
+    },
+    "crossref:title:19355586bf51749bf40358286d9e7f721c2a320674dbfa042636b4399a5599ea": {
+      "expires_at": "2026-11-29T00:44:44.907821Z",
+      "record": null,
+      "retrieved_at": "2026-11-22T00:44:44.907821Z",
       "status": "not_found"
     },
     "crossref:title:194b18c310f1c95fa7b57f32bf8eac8d8d12cca5a8f0adbc26cb774d869457a4": {
@@ -11753,6 +11813,12 @@
       "retrieved_at": "2026-10-15T00:58:16.043897Z",
       "status": "found"
     },
+    "crossref:title:233a4f9a62a95a5dbf081305a1eb86f75dc1ee44d6d40bb6a22db0019cde0801": {
+      "expires_at": "2026-11-29T00:44:40.801196Z",
+      "record": null,
+      "retrieved_at": "2026-11-22T00:44:40.801196Z",
+      "status": "not_found"
+    },
     "crossref:title:23685ef8c75101e990829fc1c5afd98931012debf581231a185d1b49dc084bd4": {
       "expires_at": "2026-10-19T01:18:11.093660Z",
       "record": null,
@@ -12170,6 +12236,48 @@
       "record": null,
       "retrieved_at": "2026-09-21T01:07:20.706813Z",
       "status": "not_found"
+    },
+    "crossref:title:36aa1ede06fbed5322f330fee33e2cf96a1b56d9ac0e66d261a70a226a272ded": {
+      "expires_at": "2026-11-29T00:44:46.577070Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Nontawat Wuttikam",
+            "orcid": "https://orcid.org/0009-0000-2399-3808"
+          },
+          {
+            "name": "Attawith Sudsang",
+            "orcid": "https://orcid.org/0000-0002-1667-7193"
+          },
+          {
+            "name": "Nattee Niparnan",
+            "orcid": null
+          },
+          {
+            "name": "Sukhum Sattaratnamai",
+            "orcid": null
+          },
+          {
+            "name": "Pitchaya Sitthi-Amorn",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/access.2026.3755049",
+        "landing_page": "https://doi.org/10.1109/access.2026.3755049",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/access.2026.3755049",
+        "publication_date": "2026",
+        "title": "Image Signal Processor Optimization for Neural Feature Extraction and Matching Using a Differentiable Proxy",
+        "venue": "IEEE Access",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-22T00:44:46.577070Z",
+      "status": "found"
     },
     "crossref:title:36f01fe28b1011c61988525079aac58e4f03334c80251ad1cbd0ce9c180e4dc5": {
       "expires_at": "2026-10-25T01:05:05.467806Z",
@@ -13028,6 +13136,12 @@
       },
       "retrieved_at": "2026-08-29T00:54:11.976936Z",
       "status": "found"
+    },
+    "crossref:title:4ca899c6b42c89a0f4198be34a86e34e3b8c0a3c2fbfb829ebebc60967e2399f": {
+      "expires_at": "2026-11-29T00:44:43.064413Z",
+      "record": null,
+      "retrieved_at": "2026-11-22T00:44:43.064413Z",
+      "status": "not_found"
     },
     "crossref:title:4eba36834404ad45cb2be85cf224701f9eb40943be33adc7780fcde052de8139": {
       "expires_at": "2026-09-25T01:02:16.510915Z",
@@ -13972,6 +14086,52 @@
       "record": null,
       "retrieved_at": "2026-09-25T01:02:44.054897Z",
       "status": "not_found"
+    },
+    "crossref:title:751078dfdd2df6d536693ec46099ab5e0e245b105f7557bf6ffcfc529d9255bc": {
+      "expires_at": "2026-11-29T00:44:47.848070Z",
+      "record": {
+        "abstract": "The rise of multi-band detection systems has revealed the critical shortcomings of single- or narrow-band camouflage, driving an urgent demand for advanced multispectral camouflage technologies. Micro- and nanophotonics facilitate tremendous breakthroughs in precise spectral control, paving the way for effective multispectral camouflage applications. However, progress in precise spectral engineering has long been impeded by the inherent bottlenecks of intuition-based design approaches. Concurrently, the advent of artificial intelligence (AI) offers powerful and innovative approaches for designing and optimizing photonic structures and metamaterials, heralding a revolution in photonics research. Recently, AI-driven computational inverse design methodologies, which tailor high-performance photonic structures from desired functionalities, have rapidly emerged and been successfully applied to multispectral camouflage. Consequently, the integration of AI with multispectral camouflage technologies represents a promising strategy to surpass conventional configurations and accelerate progress in this domain. This review begins with the elucidation of spectral requirements for multispectral camouflage and methodologies underpinning typical AI algorithms, continues with the optimization of photonic structures in multispectral camouflage via optimization algorithms, proceeds to advances in novel machine learning models for enhancing the efficiency of structural design and optimization, and finally concludes with a forward-looking commentary on challenges and perspectives in this evolving field.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Cunhai Wang",
+            "orcid": "https://orcid.org/0000-0002-7397-4936"
+          },
+          {
+            "name": "Chunyun Cheng",
+            "orcid": null
+          },
+          {
+            "name": "Dong Guo",
+            "orcid": null
+          },
+          {
+            "name": "Hao Chen",
+            "orcid": "https://orcid.org/0000-0003-1645-5459"
+          },
+          {
+            "name": "Yong Li",
+            "orcid": "https://orcid.org/0000-0001-9392-3223"
+          },
+          {
+            "name": "Jingchong Liu",
+            "orcid": "https://orcid.org/0000-0003-3992-6372"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1063/5.0314716",
+        "landing_page": "https://doi.org/10.1063/5.0314716",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1063/5.0314716",
+        "publication_date": "2026-12-01",
+        "title": "Artificial intelligence-driven multispectral camouflage technologies",
+        "venue": "Applied Physics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-22T00:44:47.848070Z",
+      "status": "found"
     },
     "crossref:title:75c58fbd462144a663c4e27b30b9f43676ec7d46ae4d4fc3c352131ff3ad5ca3": {
       "expires_at": "2026-11-19T00:42:19.005876Z",
@@ -16157,6 +16317,12 @@
       "retrieved_at": "2026-11-17T00:42:22.478282Z",
       "status": "not_found"
     },
+    "crossref:title:bc512de3a7e950d8a160a97e7ccf23cc84e0b200afc0edde9d289125d177a999": {
+      "expires_at": "2026-11-29T00:44:42.623668Z",
+      "record": null,
+      "retrieved_at": "2026-11-22T00:44:42.623668Z",
+      "status": "not_found"
+    },
     "crossref:title:bdbc22c60c3a0bcc6d2411059c31d964290b52328fc7032c2aaf056cbd4410b7": {
       "expires_at": "2026-10-16T01:12:23.788231Z",
       "record": null,
@@ -17427,6 +17593,48 @@
       "retrieved_at": "2026-09-12T00:59:38.233910Z",
       "status": "not_found"
     },
+    "crossref:title:dcd1577a53af0a747da242cdf17fb3984639dc595535199bbfc8524c39ebd3f9": {
+      "expires_at": "2026-11-29T00:44:51.740395Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Kuan-Cheng Chen",
+            "orcid": "https://orcid.org/0000-0002-6575-7034"
+          },
+          {
+            "name": "Chen-Yu Liu",
+            "orcid": null
+          },
+          {
+            "name": "Shang Yu",
+            "orcid": null
+          },
+          {
+            "name": "Felix Burt",
+            "orcid": null
+          },
+          {
+            "name": "Kin K. Leung",
+            "orcid": "https://orcid.org/0000-0002-3860-6257"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tqe.2026.3754826",
+        "landing_page": "https://doi.org/10.1109/tqe.2026.3754826",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/tqe.2026.3754826",
+        "publication_date": "2026",
+        "title": "Noise-Resilient Distributed Photonic Quantum Neural Networks for Parameter-Efficient Learning",
+        "venue": "IEEE Transactions on Quantum Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-22T00:44:51.740395Z",
+      "status": "found"
+    },
     "crossref:title:dd8ba64873aff2d0f5cad2bdc6ed346cdacc5b1a1034acc35cad44793e88fdd2": {
       "expires_at": "2026-11-22T00:44:16.796115Z",
       "record": {
@@ -18523,6 +18731,12 @@
       "retrieved_at": "2026-09-07T01:06:42.138745Z",
       "status": "found"
     },
+    "crossref:title:f6578c45b3005269afb4832d6b355eabbd35e741593da3f0dc60084228bb7f2b": {
+      "expires_at": "2026-11-29T00:44:41.165003Z",
+      "record": null,
+      "retrieved_at": "2026-11-22T00:44:41.165003Z",
+      "status": "not_found"
+    },
     "crossref:title:f71476d29fd468d2b975defa6703caa6aee3b19d351d9640c67f4c59cd67e187": {
       "expires_at": "2026-10-10T01:04:47.620744Z",
       "record": null,
@@ -18696,6 +18910,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:24.453947Z",
       "status": "found"
+    },
+    "crossref:title:fa527404fc2ffdb53b24508ad450ab4a6d4d249c0a884a1363faae354a7ac757": {
+      "expires_at": "2026-11-29T00:44:47.011672Z",
+      "record": null,
+      "retrieved_at": "2026-11-22T00:44:47.011672Z",
+      "status": "not_found"
     },
     "crossref:title:fa60f02d09bca15be6c9a356913a55051cb0ebb4425af85d164abb26d908b601": {
       "expires_at": "2026-09-12T00:59:45.758737Z",
@@ -26317,6 +26537,52 @@
       "retrieved_at": "2026-09-13T01:07:30.140524Z",
       "status": "not_found"
     },
+    "openalex:doi:10.1063/5.0314716": {
+      "expires_at": "2026-12-22T00:44:47.935426Z",
+      "record": {
+        "abstract": "The rise of multi-band detection systems has revealed the critical shortcomings of single- or narrow-band camouflage, driving an urgent demand for advanced multispectral camouflage technologies. Micro- and nanophotonics facilitate tremendous breakthroughs in precise spectral control, paving the way for effective multispectral camouflage applications. However, progress in precise spectral engineering has long been impeded by the inherent bottlenecks of intuition-based design approaches. Concurrently, the advent of artificial intelligence (AI) offers powerful and innovative approaches for designing and optimizing photonic structures and metamaterials, heralding a revolution in photonics research. Recently, AI-driven computational inverse design methodologies, which tailor high-performance photonic structures from desired functionalities, have rapidly emerged and been successfully applied to multispectral camouflage. Consequently, the integration of AI with multispectral camouflage technologies represents a promising strategy to surpass conventional configurations and accelerate progress in this domain. This review begins with the elucidation of spectral requirements for multispectral camouflage and methodologies underpinning typical AI algorithms, continues with the optimization of photonic structures in multispectral camouflage via optimization algorithms, proceeds to advances in novel machine learning models for enhancing the efficiency of structural design and optimization, and finally concludes with a forward-looking commentary on challenges and perspectives in this evolving field.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Cun‐Hai Wang",
+            "orcid": "https://orcid.org/0000-0002-7397-4936"
+          },
+          {
+            "name": "Chunyun Cheng",
+            "orcid": null
+          },
+          {
+            "name": "Dong Guo",
+            "orcid": null
+          },
+          {
+            "name": "Hao Chen",
+            "orcid": "https://orcid.org/0000-0003-1645-5459"
+          },
+          {
+            "name": "Yong Li",
+            "orcid": "https://orcid.org/0000-0001-9392-3223"
+          },
+          {
+            "name": "Jingchong Liu",
+            "orcid": "https://orcid.org/0000-0003-3992-6372"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1063/5.0314716",
+        "landing_page": "https://doi.org/10.1063/5.0314716",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7235537439",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7235537439",
+        "publication_date": "2026-11-17",
+        "title": "Artificial intelligence-driven multispectral camouflage technologies",
+        "venue": "Applied Physics Reviews",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-22T00:44:47.935426Z",
+      "status": "found"
+    },
     "openalex:doi:10.1063/5.0339283": {
       "expires_at": "2026-09-03T09:38:22.171450Z",
       "record": {
@@ -27107,6 +27373,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-30T01:10:15.291214Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/access.2026.3755049": {
+      "expires_at": "2026-12-22T00:44:46.651174Z",
+      "record": {
+        "abstract": "Automatic image signal processor (ISP) optimization has increasingly been explored to improve downstream computer vision tasks beyond image enhancement for human perception. Prior work has demonstrated benefits for supervised tasks such as object detection and segmentation by optimizing RAWimage processing parameters for task performance. In this work, we extend automatic ISP optimization to deep local feature extraction and matching in self-supervised settings. We apply differentiable proxy-based ISP optimization to both sparse and dense correspondence pipelines using SuperPoint and DGC-Net. The differentiable proxy approximates Fast-OpenISP, the target software ISP, enabling gradient-based optimization of its parameters. The optimized parameters are then transferred to Fast-OpenISP for final evaluation. Experiments are conducted on a custom HPatches-like RAW dataset. We compare the proposed method with conventional ISP configurations, including the original ISP parameters and Visual-Optimized ISP, as well as a gradient-free CMA-ES optimization baseline that directly searches for task-oriented ISP parameters. This comparison allows us to evaluate the benefits of proxy-based optimization. The results show that both proxy-based optimization and CMA-ES improve downstream performance over conventional ISP configurations, particularly for DGC-Net. The proxy-based method further outperforms CMA-ES in both final performance and optimization stability for DGC-Net. For SuperPoint, improvements are more limited, with consistent gains in localization error but smaller changes in repeatability,mAP, and homography correctness.We further identify a degeneration problem caused by dynamic pseudo-ground-truth generation during SuperPoint optimization and discuss potential approaches to address this limitation.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Nontawat Wuttikam",
+            "orcid": "https://orcid.org/0009-0000-2399-3808"
+          },
+          {
+            "name": "Attawith Sudsang",
+            "orcid": "https://orcid.org/0000-0002-1667-7193"
+          },
+          {
+            "name": "Nattee Niparnan",
+            "orcid": "https://orcid.org/0000-0003-2974-8699"
+          },
+          {
+            "name": "Sukhum Sattaratnamai",
+            "orcid": null
+          },
+          {
+            "name": "Pitchaya Sitthi‐Amorn",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/access.2026.3755049",
+        "landing_page": "https://doi.org/10.1109/access.2026.3755049",
+        "open_access_url": "https://doi.org/10.1109/access.2026.3755049",
+        "openalex_id": "https://openalex.org/W7234792061",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7234792061",
+        "publication_date": "2026-01-01",
+        "title": "Image Signal Processor Optimization for Neural Feature Extraction and Matching Using a Differentiable Proxy",
+        "venue": "IEEE Access",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-22T00:44:46.651174Z",
       "status": "found"
     },
     "openalex:doi:10.1109/codit70676.2026.11631225": {
@@ -28895,6 +29203,48 @@
       "retrieved_at": "2026-11-15T00:44:15.740600Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/tqe.2026.3754826": {
+      "expires_at": "2026-12-22T00:44:51.844137Z",
+      "record": {
+        "abstract": "We introduceDistributed Photonic Quantum Parameterization(DPQP), a hybrid training framework in which networked photonic quantum neural networks (QNNs) act as a weight generator for compact classical models. Each photonic node prepares Fock states on its optical modes, and the resulting collision-free photon-count statistics are tensorized and mapped by a matrix-product-state (MPS) operator to the target weight space. Quantum resources are usedonly during training; inference executes purely on classical hardware. We present a resource and noise analysis together with a simulation-based evaluation under physically motivated photonic noise models. The analysis yields explicit sizing rules for the photonic nodes, the trainable optical phases, and the MPS map. Heralded number-resolving detection renders the training statistics unbiased under photon loss and finite source brightness, which affect only the sampling cost, and the affine structure of the MPS map yields unbiased finite-shot weight estimates. In simulations on MNIST-family benchmarks, DPQP approaches the accuracy of the classical baseline with roughly half as many trainable parameters, and controlled ablations show that the trained photonic statistics supply weight information that the tensor-network map alone cannot generate in the parameter-limited regime. These results support DPQP as a noise-aware, parameter-efficient hybrid photonic–classical learning framework for near-term multi-QPU settings.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Kuan‐Cheng Chen",
+            "orcid": "https://orcid.org/0000-0002-6575-7034"
+          },
+          {
+            "name": "Chen-Yu Liu",
+            "orcid": null
+          },
+          {
+            "name": "Shang Yu",
+            "orcid": "https://orcid.org/0000-0002-6463-952X"
+          },
+          {
+            "name": "Felix Burt",
+            "orcid": "https://orcid.org/0009-0008-2068-1225"
+          },
+          {
+            "name": "Kin K. Leung",
+            "orcid": "https://orcid.org/0000-0002-3860-6257"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tqe.2026.3754826",
+        "landing_page": "https://doi.org/10.1109/tqe.2026.3754826",
+        "open_access_url": "https://doi.org/10.1109/tqe.2026.3754826",
+        "openalex_id": "https://openalex.org/W7235747736",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7235747736",
+        "publication_date": "2026-01-01",
+        "title": "Noise-Resilient Distributed Photonic Quantum Neural Networks for Parameter-Efficient Learning",
+        "venue": "IEEE Transactions on Quantum Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-22T00:44:51.844137Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/tsc.2026.3735318": {
       "expires_at": "2026-10-28T01:11:32.096791Z",
       "record": {
@@ -29559,6 +29909,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:55.436916Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1117/12.3116898": {
+      "expires_at": "2026-12-22T00:44:43.611979Z",
+      "record": {
+        "abstract": "Speckle-based sensing is an interesting route for high-dimensional and low-SWaP optical sensors as multiple environmental perturbations can be encoded and decoded across complex spatial intensity. The challenge, however, resides in the fact that extracting such information conventionally requires camera acquisition, digitization, memory transfer, and electronic post-processing, which introduce latency, bandwidth bottlenecks, and frame-rate limits that hinder real-time operation. These constraints are especially problematic in dynamic sensing scenarios, where the sensing task is often low-dimensional even though the raw optical data are not. To overcome these limitations, we present an all-optical, reconfigurable edge-computing platform that performs task-specific computation directly in the optical domain. Our approach projects the output speckle field onto a digital micromirror device acting as a programmable optical layer, while spatial masks are trained in-situ to route the weighted field to differential photodetectors for direct output signal readout. We demonstrate the concept experimentally by applying it to a multi-point multimode-fiber sensing scenario, where simultaneous perturbations applied at different fiber locations are separated in real time with reduced crosstalk without full-field image reconstruction. For this, the masks may be trained in situ from detector feedback using evolutionary optimization (genetic algorithm), which can be combined with reinforcement learning techniques (gradient-free cross-entropy method for fine-tuning). Results show that the relevant sensing information can be decoded physically at the readout stage, enabling high-speed analog outputs limited by photodetector performance (up to hundreds of kHz) rather than camera hardware (limited to a few hundred frames per second). This establishes a scalable and low energy footprint framework for low-latency optical sensing, with clear relevance to computational imaging, compressive measurement strategies, and next-generation smart sensor architectures.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Tomás J. Moreira Lopes",
+            "orcid": "https://orcid.org/0000-0003-2658-5046"
+          },
+          {
+            "name": "Joana Teixeira",
+            "orcid": "https://orcid.org/0009-0005-4721-385X"
+          },
+          {
+            "name": "C. M. B. Monteiro",
+            "orcid": "https://orcid.org/0000-0002-1912-2804"
+          },
+          {
+            "name": "Tiago D. Ferreira",
+            "orcid": "https://orcid.org/0000-0002-1318-4940"
+          },
+          {
+            "name": "Nuno A. Silva",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/12.3116898",
+        "landing_page": "https://doi.org/10.1117/12.3116898",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7226030511",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7226030511",
+        "publication_date": "2026-11-13",
+        "title": "Evolutionary and reinforcement learning strategies for all-optical speckle sensing interrogation",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-22T00:44:43.611979Z",
       "status": "found"
     },
     "openalex:doi:10.1117/12.3117698": {
@@ -37048,6 +37440,36 @@
       "retrieved_at": "2026-11-20T00:40:31.939481Z",
       "status": "found"
     },
+    "openalex:title:0675adf80fd21d2932cffe9e583a41704ebea694ca6bb6d572c7bf0aa7579a7b": {
+      "expires_at": "2026-11-29T00:44:47.604123Z",
+      "record": {
+        "abstract": "Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evolutionary search can provide a reusable memory when combined with environment detection and failure-driven search. The Evolutionary Neuroplastic Agent (ENA) evolves small neural networks without gradients, archives selected policies by detected dynamic regime, and retrieves them through Bayesian policy reuse. The architecture was evaluated in non-stationary CartPole and HalfCheetah environments. In the 30-replicate CartPole ablation, the complete architecture achieved a mean success rate of 83.2% across the five test environments. Among variants that learned the harder CartPole environments, the complete architecture showed the most consistent retention. A selection ablation also showed that the retrieval rule affected performance. In the evaluated sequences, ENA adapted more slowly than PPO on CartPole and achieved lower returns than SAC on HalfCheetah. The evidence concerns the complete architecture and does not isolate gradient-free optimization as the cause of retention or establish superiority over other continual-learning methods.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Blas Eugenio Vicco Zarate",
+            "orcid": null
+          },
+          {
+            "name": "Miguel Hernán Vicco",
+            "orcid": "https://orcid.org/0000-0002-3455-2351"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.21598",
+        "landing_page": "https://arxiv.org/abs/2611.21598",
+        "open_access_url": "https://arxiv.org/abs/2611.21598",
+        "openalex_id": "https://openalex.org/W7235308298",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7235308298",
+        "publication_date": "2026-11-16",
+        "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-22T00:44:47.604123Z",
+      "status": "found"
+    },
     "openalex:title:06c1573614d7cec8aafdeabdbf04c206c9e42daeec19bd7a0690045235f26758": {
       "expires_at": "2026-09-07T01:07:11.006421Z",
       "record": {
@@ -37342,6 +37764,12 @@
       "retrieved_at": "2026-09-27T01:11:35.174416Z",
       "status": "not_found"
     },
+    "openalex:title:171b66c86091b501fd4ee54f1c47c48974dab74b42e41b5a2a53933aecd2587b": {
+      "expires_at": "2026-11-29T00:44:52.249806Z",
+      "record": null,
+      "retrieved_at": "2026-11-22T00:44:52.249806Z",
+      "status": "not_found"
+    },
     "openalex:title:191215f2e5b226bc45eb8e92b38dad56f76360ff1352fdbc96b7ab8c5dac130b": {
       "expires_at": "2026-10-10T01:04:39.319738Z",
       "record": null,
@@ -37408,6 +37836,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-14T00:39:34.009384Z",
+      "status": "found"
+    },
+    "openalex:title:19355586bf51749bf40358286d9e7f721c2a320674dbfa042636b4399a5599ea": {
+      "expires_at": "2026-11-29T00:44:45.288672Z",
+      "record": {
+        "abstract": "Voltage sags can trigger protection trips in uninterruptible power supply (UPS) systems, abruptly reducing the power that AI data centers draw from the grid. This paper improves the low-voltage ride-through (LVRT) capability of AI data centers equipped with double-conversion UPS systems by tuning their existing converter controls. We formulate a bound-constrained optimization problem to maximize the ride-through area, defined as the integral of ride-through time over a range of retained grid voltages. To solve this problem, we develop a batched projected zeroth-order optimization algorithm with adaptive moment estimation (BPZO-Adam). The algorithm evaluates candidate control settings using only simulated ride-through times, making it suitable for vendor-supplied black-box models. Simulations using the TAMU-ERCOT electromagnetic transient (EMT) AI data center model show that tuning converter control parameters increases the ride-through area by 10.6\\%. In a separate study, tuning the controls yields a larger ride-through area than increasing the DC-link capacitance tenfold.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Haowen Xu",
+            "orcid": null
+          },
+          {
+            "name": "Xin Chen",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.13140/rg.2.2.19931.94244",
+        "landing_page": "https://arxiv.org/abs/2611.19046",
+        "open_access_url": "https://arxiv.org/abs/2611.19046",
+        "openalex_id": "https://openalex.org/W7234388029",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7234388029",
+        "publication_date": "2026-11-14",
+        "title": "Model-Free UPS Control Tuning for Improved Low-Voltage Ride-Through in AI Data Centers",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-22T00:44:45.288672Z",
       "status": "found"
     },
     "openalex:title:194b18c310f1c95fa7b57f32bf8eac8d8d12cca5a8f0adbc26cb774d869457a4": {
@@ -37685,6 +38143,60 @@
       "record": null,
       "retrieved_at": "2026-11-17T00:42:20.402974Z",
       "status": "not_found"
+    },
+    "openalex:title:233a4f9a62a95a5dbf081305a1eb86f75dc1ee44d6d40bb6a22db0019cde0801": {
+      "expires_at": "2026-11-29T00:44:40.976746Z",
+      "record": {
+        "abstract": "Crowdsourcing has emerged as a promising paradigm for constructing AI services by harnessing the collective capabilities of distributed workers. As consumers' demands continually evolve, service models must acquire new knowledge while retaining previously learned information. However, due to the inherited reliance on gradients for backpropagation, existing approaches typically suffer from catastrophic forgetting during continual model updates on heterogeneous data. Recent studies have introduced analytic learning, a gradient-free paradigm that achieves invariance through recursive closed-form solutions. Nevertheless, existing analytic methods are typically constrained by single-layer linear networks, which tend to suffer from underfitting due to their inability to perform deep representation learning. To address this issue, we propose ReCALM, a Residual-enhanced Crowdsourced Analytic Learning Mechanism that achieves deep nonlinear invariance for distributed continual service construction. Inspired by the success of ResNet, we develop gradient-free residual blocks for ReCALM with closed-form solutions. To implement distributed continual training for ReCALM, we further devise a cross-recursive strategy via least squares. Both theoretical and experimental analyses verify ReCALM's dual superiority in heterogeneity invariance and deep representation. With 20 residual layers, ReCALM improves accuracy by 8.85%-9.83% over the single-layer analytic baseline, while reducing computational costs by over 94% compared with gradient-based baselines.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Kejia Fan",
+            "orcid": "https://orcid.org/0000-0002-0236-759X"
+          },
+          {
+            "name": "Yajiang Huang",
+            "orcid": "https://orcid.org/0009-0006-5023-0738"
+          },
+          {
+            "name": "Jianheng Tang",
+            "orcid": null
+          },
+          {
+            "name": "Jinfeng Xu",
+            "orcid": null
+          },
+          {
+            "name": "Huiping Zhuang",
+            "orcid": "https://orcid.org/0000-0002-4612-5445"
+          },
+          {
+            "name": "Anfeng Liu",
+            "orcid": null
+          },
+          {
+            "name": "Houbing Herbert Song",
+            "orcid": null
+          },
+          {
+            "name": "Yunhuai Liu",
+            "orcid": "https://orcid.org/0000-0002-1180-8078"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.19276",
+        "landing_page": "https://arxiv.org/abs/2611.19276",
+        "open_access_url": "https://arxiv.org/abs/2611.19276",
+        "openalex_id": "https://openalex.org/W7235450065",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7235450065",
+        "publication_date": "2026-11-14",
+        "title": "ReCALM: A Residual-enhanced Crowdsourced Analytic Learning Mechanism for Distributed Continual Service Construction",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-22T00:44:40.976746Z",
+      "status": "found"
     },
     "openalex:title:23685ef8c75101e990829fc1c5afd98931012debf581231a185d1b49dc084bd4": {
       "expires_at": "2026-10-19T01:18:11.479935Z",
@@ -38883,6 +39395,48 @@
       "record": null,
       "retrieved_at": "2026-08-23T00:32:32.784526Z",
       "status": "not_found"
+    },
+    "openalex:title:4ca899c6b42c89a0f4198be34a86e34e3b8c0a3c2fbfb829ebebc60967e2399f": {
+      "expires_at": "2026-11-29T00:44:43.259056Z",
+      "record": {
+        "abstract": "Federated fine-tuning enables Large Language Models (LLMs) to collaboratively adapt to distributed private data. However, long-context fine-tuning on resource-constrained devices faces substantial challenges arising from excessive activation memory, heterogeneous token-importance patterns across clients, and communication overhead. To address these challenges, we propose SMELL, a Sparsity-aware and Memory-Efficient federated fine-tuning framework for Long-context LLMs. SMELL integrates three complementary mechanisms: Local Sparse-Forward Adaptation (LSFA), Consensus-Anchored Sparsity Coordination (CASC), and Communication-Efficient Progressive Update Recovery (CPUR). These mechanisms jointly enable memory-efficient local adaptation, heterogeneity-aware sparsity coordination, and lightweight model-update transmission. Experiments on OPT-350M and LLaMA2-7B demonstrate that SMELL reduces peak memory consumption by up to 88.35% compared with conventional fine-tuning and 13.25% compared with forward-only LoRA fine-tuning at a 16K context length. Furthermore, SMELL improves fine-tuning performance under certain non-IID settings and supports compact update transmission with progressive reconstruction, demonstrating its potential for resource-efficient federated long-context LLM adaptation.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yin Xu",
+            "orcid": null
+          },
+          {
+            "name": "Yongbo Yang",
+            "orcid": null
+          },
+          {
+            "name": "He Sun",
+            "orcid": null
+          },
+          {
+            "name": "Miao Sun",
+            "orcid": null
+          },
+          {
+            "name": "Mingjun Xiao",
+            "orcid": "https://orcid.org/0000-0001-7767-7763"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.19349",
+        "landing_page": "https://arxiv.org/abs/2611.19349",
+        "open_access_url": "https://arxiv.org/abs/2611.19349",
+        "openalex_id": "https://openalex.org/W7235785699",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7235785699",
+        "publication_date": "2026-11-14",
+        "title": "SMELL: Sparsity-aware Memory Efficient Federated Fine-tuning for Long-context LLMs",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-22T00:44:43.259056Z",
+      "status": "found"
     },
     "openalex:title:4eba36834404ad45cb2be85cf224701f9eb40943be33adc7780fcde052de8139": {
       "expires_at": "2026-09-25T01:02:18.115513Z",
@@ -42302,6 +42856,12 @@
       "retrieved_at": "2026-11-17T00:42:22.997187Z",
       "status": "found"
     },
+    "openalex:title:bc512de3a7e950d8a160a97e7ccf23cc84e0b200afc0edde9d289125d177a999": {
+      "expires_at": "2026-11-29T00:44:42.849950Z",
+      "record": null,
+      "retrieved_at": "2026-11-22T00:44:42.849950Z",
+      "status": "not_found"
+    },
     "openalex:title:bdbc22c60c3a0bcc6d2411059c31d964290b52328fc7032c2aaf056cbd4410b7": {
       "expires_at": "2026-10-16T01:12:24.444326Z",
       "record": {
@@ -43946,6 +44506,64 @@
       "retrieved_at": "2026-09-13T01:07:35.659687Z",
       "status": "not_found"
     },
+    "openalex:title:f6578c45b3005269afb4832d6b355eabbd35e741593da3f0dc60084228bb7f2b": {
+      "expires_at": "2026-11-29T00:44:41.300280Z",
+      "record": {
+        "abstract": "Reward-based diffusion post-training updates model parameters from task rewards. While existing approaches improve sampling and policy optimization, they still rely largely on isotropic random perturbations in a high-dimensional latent space for exploration. Such variation often spends the perturbation budget on changes with little influence on the target reward, making exploration inefficient. We study where diffusion models should explore and how to learn from that exploration. We introduce Reward-Informed Directional Exploration (RiDEx), which concentrates local exploration in reward-relevant subspaces of the denoising velocity field. Conditional residuals or differentiable reward gradients propose the subspace, and equal-and-opposite perturbations at the same generation state measure its terminal reward response. The reward difference supplies signed local supervision in the explored coordinates, while all generated images contribute to global DiffusionNFT learning. RiDEx thereby couples exploration-space selection with feedback about the changes it produces. On Stable Diffusion 3.5 Medium, RiDEx attains the highest peak rewards among the evaluated methods on four alignment and preference tasks. Its gradient-direction instantiation achieves 15x and 29x target-attainment speedups over DiffusionNFT on HPSv2 and PickScore, measured in H200 GPU hours. Controlled experiments confirm that reward-aligned directions elicit stronger responses at equal perturbation magnitude, and that applying their measured credit improves curve-average reward across all four tasks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Song Yan",
+            "orcid": null
+          },
+          {
+            "name": "Chenfeng Wang",
+            "orcid": null
+          },
+          {
+            "name": "Wei Zhai",
+            "orcid": "https://orcid.org/0000-0001-5695-8291"
+          },
+          {
+            "name": "Xingchen Wang",
+            "orcid": "https://orcid.org/0009-0002-7423-6676"
+          },
+          {
+            "name": "Tao Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yawen Shao",
+            "orcid": "https://orcid.org/0000-0002-9938-669X"
+          },
+          {
+            "name": "Shi Pan",
+            "orcid": null
+          },
+          {
+            "name": "Min Li",
+            "orcid": null
+          },
+          {
+            "name": "Zheng-Jun Zha",
+            "orcid": "https://orcid.org/0000-0003-2510-8993"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.22052",
+        "landing_page": "https://arxiv.org/abs/2611.22052",
+        "open_access_url": "https://arxiv.org/abs/2611.22052",
+        "openalex_id": "https://openalex.org/W7236016257",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7236016257",
+        "publication_date": "2026-11-17",
+        "title": "RiDEx: Reward-Informed Directional Exploration for Diffusion Reinforcement Learning",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-22T00:44:41.300280Z",
+      "status": "found"
+    },
     "openalex:title:f71476d29fd468d2b975defa6703caa6aee3b19d351d9640c67f4c59cd67e187": {
       "expires_at": "2026-10-10T01:04:47.979690Z",
       "record": {
@@ -44055,6 +44673,12 @@
       },
       "retrieved_at": "2026-10-03T01:04:37.728555Z",
       "status": "found"
+    },
+    "openalex:title:fa527404fc2ffdb53b24508ad450ab4a6d4d249c0a884a1363faae354a7ac757": {
+      "expires_at": "2026-11-29T00:44:47.258324Z",
+      "record": null,
+      "retrieved_at": "2026-11-22T00:44:47.258324Z",
+      "status": "not_found"
     },
     "openalex:title:fa60f02d09bca15be6c9a356913a55051cb0ebb4425af85d164abb26d908b601": {
       "expires_at": "2026-09-12T00:59:46.431467Z",
