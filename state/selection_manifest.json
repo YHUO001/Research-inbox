@@ -1,12 +1,12 @@
 {
   "after_scoring_candidate_count": 0,
-  "built_at": "2026-11-22T00:44:53.843181Z",
+  "built_at": "2026-11-23T00:45:29.824408Z",
   "completed_candidate_count": 141,
   "decision_counts": {
     "archive": 75,
     "mandatory": 5,
-    "retain_without_summary": 148,
-    "summarize": 98,
+    "retain_without_summary": 149,
+    "summarize": 97,
     "urgent": 18
   },
   "eligible_candidate_count": 0,
