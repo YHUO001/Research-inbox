@@ -1,0 +1,42 @@
+{
+  "built_at": "2026-11-24T00:39:04.045371Z",
+  "digest_date": "2026-11-24",
+  "digest_version": 1,
+  "pending_summary_count": 2,
+  "safety": {
+    "email_enabled": false,
+    "full_text_used": false,
+    "llm_enabled": false,
+    "summary_history_updated": false
+  },
+  "schema_version": 1,
+  "sections": {
+    "must_read": [
+      {
+        "candidate_id": "3520b216d2d106e9b55c56bc",
+        "landing_page": "https://doi.org/10.1109/pgc72042.2026.11780498",
+        "mandatory": false,
+        "score": 0.76,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Optical Neural Network Equalizer Enabling Error-Free High-Speed Optical Transmission",
+        "venue": "Photonics Global Conference",
+        "year": 2026
+      },
+      {
+        "candidate_id": "66a3dfd38d666af70d0ac4a7",
+        "landing_page": "https://arxiv.org/abs/2611.25400",
+        "mandatory": false,
+        "score": 0.74,
+        "source_type": "google_scholar_email",
+        "status": "pending_model_summary",
+        "title": "Dune: A Zeroth-Order Optimizer with Time-Conditioned Historical Error Regression for VLA Test-Time Adaptation",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      }
+    ],
+    "next_candidates": []
+  },
+  "status": "preview_pending_model",
+  "summary_count": 0
+}

@@ -1,11 +1,11 @@
 {
   "accepted_candidate_ids": [],
   "accepted_count": 0,
-  "built_at": "2026-11-23T00:45:20.644334Z",
+  "built_at": "2026-11-24T00:38:37.232922Z",
   "discovery_version": 1,
   "duplicate_count": 0,
   "duplicate_reasons": {},
-  "filtered_count": 75,
+  "filtered_count": 68,
   "invalid_count": 0,
   "query_error_count": 0,
   "query_summaries": [
@@ -73,38 +73,38 @@
       "accepted": 0,
       "duplicates": 0,
       "error": null,
-      "filtered": 7,
-      "invalid": 0,
-      "project_id": "zeroth-order-optimization",
-      "query_id": "zeroth-order-neural-network",
-      "raw_results": 7
-    },
-    {
-      "accepted": 0,
-      "duplicates": 0,
-      "error": null,
-      "filtered": 5,
-      "invalid": 0,
-      "project_id": "zeroth-order-optimization",
-      "query_id": "zeroth-order-llm",
-      "raw_results": 5
-    },
-    {
-      "accepted": 0,
-      "duplicates": 0,
-      "error": null,
       "filtered": 3,
       "invalid": 0,
       "project_id": "zeroth-order-optimization",
-      "query_id": "zeroth-order-optical",
+      "query_id": "zeroth-order-neural-network",
       "raw_results": 3
+    },
+    {
+      "accepted": 0,
+      "duplicates": 0,
+      "error": null,
+      "filtered": 4,
+      "invalid": 0,
+      "project_id": "zeroth-order-optimization",
+      "query_id": "zeroth-order-llm",
+      "raw_results": 4
+    },
+    {
+      "accepted": 0,
+      "duplicates": 0,
+      "error": null,
+      "filtered": 1,
+      "invalid": 0,
+      "project_id": "zeroth-order-optimization",
+      "query_id": "zeroth-order-optical",
+      "raw_results": 1
     }
   ],
-  "raw_result_count": 75,
-  "registry_candidate_count": 820,
-  "registry_sha256": "850815cf8670100ed529d05940b42ca7986b87aaa9fc4f4f07a66b4fa5e8585a",
+  "raw_result_count": 68,
+  "registry_candidate_count": 840,
+  "registry_sha256": "4a4eedd409d7c97e01b5c1e01cbc5afd1daabd5b12acdd84c5c8a83ff3398d5f",
   "schema_version": 1,
   "status": "completed",
-  "window_end": "2026-11-23",
-  "window_start": "2026-11-19"
+  "window_end": "2026-11-24",
+  "window_start": "2026-11-20"
 }

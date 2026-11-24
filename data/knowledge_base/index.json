@@ -269,6 +269,15 @@
       "summary_record_sha256": "5f1f161699f62499df8d7b588e5def0ed74fbaaa01e663d98ce09b28ec9105c0",
       "title": "Hardware implementation of photonic neuromorphic autonomous navigation"
     },
+    "3520b216d2d106e9b55c56bc": {
+      "digest_date": "2026-11-24",
+      "doi": "10.1109/pgc72042.2026.11780498",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "d22f7b7c558e12089002b3a287c5da81f1853a237ad30066448fef7bd3d11d30",
+      "title": "Optical Neural Network Equalizer Enabling Error-Free High-Speed Optical Transmission"
+    },
     "35ca2b5d96e48aa3071b5073": {
       "digest_date": "2026-11-10",
       "doi": "10.1016/j.optlaseng.2026.110244",
@@ -520,6 +529,15 @@
       ],
       "summary_record_sha256": "32b09d9afcc82deb6ae18c60b58444a6827708166a3d2d6dfc85da4d70871733",
       "title": "Multitask Diffractive Deep Neural Networks Enabled by Joint Distance–Frequency Encoding"
+    },
+    "66a3dfd38d666af70d0ac4a7": {
+      "digest_date": "2026-11-24",
+      "doi": "10.48550/arxiv.2611.25400",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "6cb7e1ce5f2023257e6a2879c55e7512fb3b35a555dc195c399e0f8cd30fd0d3",
+      "title": "Dune: A Zeroth-Order Optimizer with Time-Conditioned Historical Error Regression for VLA Test-Time Adaptation"
     },
     "66c84fb1444bbf71b05ac0d7": {
       "digest_date": "2026-10-08",
@@ -1515,6 +1533,10 @@
     ],
     "2026-11-20": [
       "a0c6cc02321fd65d282431c7"
+    ],
+    "2026-11-24": [
+      "3520b216d2d106e9b55c56bc",
+      "66a3dfd38d666af70d0ac4a7"
     ]
   },
   "by_doi": {
@@ -1562,6 +1584,7 @@
     "10.1109/dcna72004.2026.11733422": "ce453bfbb1da74c9ff0d3143",
     "10.1109/ichci71425.2026.11739849": "6da55cf29e6e5024311c8a8a",
     "10.1109/icocn70692.2026.11656217": "c3474ba19a69c715eb87d391",
+    "10.1109/pgc72042.2026.11780498": "3520b216d2d106e9b55c56bc",
     "10.1109/tac.2026.3750789": "d022b854580fba55dade4302",
     "10.1109/tcad.2026.3738037": "70212be2c4a63d741872ace0",
     "10.1117/1.ap.8.5.054001": "916e8199aaabe1372544d280",
@@ -1638,6 +1661,7 @@
     "10.48550/arxiv.2611.10792": "613738348c3064572d16e38f",
     "10.48550/arxiv.2611.16317": "243c7d0258c4f3c336b23ef5",
     "10.48550/arxiv.2611.18045": "a0c6cc02321fd65d282431c7",
+    "10.48550/arxiv.2611.25400": "66a3dfd38d666af70d0ac4a7",
     "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
     "10.5281/zenodo.23337932": "c9dee369fd4e64c2389af927",
     "10.5281/zenodo.23422324": "1bbef7ba5398ff216f60580f",
@@ -1677,6 +1701,7 @@
       "2c2645700d900a5b3f00a38c",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
+      "3520b216d2d106e9b55c56bc",
       "35ca2b5d96e48aa3071b5073",
       "35ff63ef9d3333099ee28868",
       "37a9533a60e5cdd68ef3c483",
@@ -1767,6 +1792,7 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "613738348c3064572d16e38f",
+      "66a3dfd38d666af70d0ac4a7",
       "66c84fb1444bbf71b05ac0d7",
       "6da55cf29e6e5024311c8a8a",
       "70212be2c4a63d741872ace0",
@@ -1939,6 +1965,9 @@
     ],
     "application:光学语义表征学习": [
       "a0c6cc02321fd65d282431c7"
+    ],
+    "application:光通信信道均衡": [
+      "3520b216d2d106e9b55c56bc"
     ],
     "application:全光机器视觉与智能光子计算": [
       "9039d2d888f22d7a64bcfc06"
@@ -2419,6 +2448,7 @@
       "2c2645700d900a5b3f00a38c",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
+      "3520b216d2d106e9b55c56bc",
       "35ff63ef9d3333099ee28868",
       "39df3bfb1d1f1919bbf17668",
       "44fa3bd6f72c84820ce42dab",
@@ -2525,6 +2555,7 @@
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "1229908a36775c08f23d92f8",
+      "3520b216d2d106e9b55c56bc",
       "380b726618cccff0a9e5514f",
       "541094f286db8902f2fe6077",
       "61dad77fe7c2ef7687ce5b21",
@@ -2580,6 +2611,7 @@
       "2c2645700d900a5b3f00a38c",
       "2eb28d7201afb356d747693a",
       "328b1572ba0e31f8f8a6dac1",
+      "3520b216d2d106e9b55c56bc",
       "35ca2b5d96e48aa3071b5073",
       "35ff63ef9d3333099ee28868",
       "37a9533a60e5cdd68ef3c483",
@@ -2670,6 +2702,7 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "613738348c3064572d16e38f",
+      "66a3dfd38d666af70d0ac4a7",
       "66c84fb1444bbf71b05ac0d7",
       "6da55cf29e6e5024311c8a8a",
       "70212be2c4a63d741872ace0",
@@ -2718,6 +2751,7 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "613738348c3064572d16e38f",
+      "66a3dfd38d666af70d0ac4a7",
       "66c84fb1444bbf71b05ac0d7",
       "6da55cf29e6e5024311c8a8a",
       "7229499f7f76fe2e28f08e50",
@@ -2764,6 +2798,7 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "613738348c3064572d16e38f",
+      "66a3dfd38d666af70d0ac4a7",
       "66c84fb1444bbf71b05ac0d7",
       "6da55cf29e6e5024311c8a8a",
       "7229499f7f76fe2e28f08e50",
@@ -2808,6 +2843,7 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "613738348c3064572d16e38f",
+      "66a3dfd38d666af70d0ac4a7",
       "66c84fb1444bbf71b05ac0d7",
       "6da55cf29e6e5024311c8a8a",
       "7229499f7f76fe2e28f08e50",
@@ -2851,6 +2887,7 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "613738348c3064572d16e38f",
+      "66a3dfd38d666af70d0ac4a7",
       "66c84fb1444bbf71b05ac0d7",
       "6da55cf29e6e5024311c8a8a",
       "7229499f7f76fe2e28f08e50",
@@ -3056,6 +3093,9 @@
       "35ca2b5d96e48aa3071b5073",
       "790fd87bc9a673947dfbaac6"
     ],
+    "Photonics Global Conference": [
+      "3520b216d2d106e9b55c56bc"
+    ],
     "Photonics Research": [
       "a15033db64285e5d4c8a46c9"
     ],
@@ -3131,6 +3171,7 @@
       "5ce553b88d26d1296b379174",
       "5e49047e7ce2004f7954debb",
       "613738348c3064572d16e38f",
+      "66a3dfd38d666af70d0ac4a7",
       "66c84fb1444bbf71b05ac0d7",
       "7229499f7f76fe2e28f08e50",
       "7a45515c829cdcf2bd96f41f",
@@ -3190,6 +3231,7 @@
       "2eb28d7201afb356d747693a",
       "2f9953028e4e0e3b934222c8",
       "328b1572ba0e31f8f8a6dac1",
+      "3520b216d2d106e9b55c56bc",
       "35ff63ef9d3333099ee28868",
       "3632fc0a1f9d56351c9ae7c8",
       "37a9533a60e5cdd68ef3c483",
@@ -3217,6 +3259,7 @@
       "613738348c3064572d16e38f",
       "61dad77fe7c2ef7687ce5b21",
       "6584a28300e4e24252061ccc",
+      "66a3dfd38d666af70d0ac4a7",
       "66c84fb1444bbf71b05ac0d7",
       "6da55cf29e6e5024311c8a8a",
       "6dc0459f08567bbd051cc579",
@@ -3302,7 +3345,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 138,
+  "paper_count": 140,
   "schema_version": 1,
-  "updated_at": "2026-11-20T00:41:00.273158Z"
+  "updated_at": "2026-11-24T00:39:34.083594Z"
 }

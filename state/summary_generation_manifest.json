@@ -1,34 +1,226 @@
 {
-  "actual_summary_count": 0,
-  "author_metadata_enriched_count": 0,
-  "author_metadata_fallback_count": 0,
-  "author_metadata_mode": "selected_openalex_work_metadata_with_safe_fallback",
-  "automatic_queue_candidate_count": 0,
-  "built_at": "2026-11-23T00:45:29.824408Z",
+  "abstract_fallback_candidate_ids": [
+    "3520b216d2d106e9b55c56bc"
+  ],
+  "abstract_fallback_count": 1,
+  "architecture_evidence": {
+    "3520b216d2d106e9b55c56bc": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    },
+    "66a3dfd38d666af70d0ac4a7": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    }
+  },
+  "architecture_repairs": 0,
+  "automatic_history_pending": false,
+  "automatic_queue_candidate_count": 2,
+  "completed_at": "2026-11-24T00:39:34.083594Z",
   "completed_candidate_filtered_count": 0,
-  "daily_digest_pending": false,
-  "digest_date": "2026-11-23",
-  "digest_json_file": "runtime-state/data/digests/2026-11-23.preview.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-11-23.preview.md",
+  "completed_candidate_ids": [
+    "3520b216d2d106e9b55c56bc",
+    "66a3dfd38d666af70d0ac4a7"
+  ],
+  "completion_mode": "automatic_daily_batch_after_local_validation",
+  "daily_digest_pending": true,
+  "digest_date": "2026-11-24",
+  "digest_json_file": "runtime-state/data/digests/2026-11-24.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-11-24.generated.md",
   "email_enabled": false,
+  "estimated_cost_cny": 0.0296102,
   "execution_mode": "automatic_daily_batch",
-  "full_text_used": false,
+  "failure_count": 0,
+  "failures": [],
+  "full_text_method_contexts": {
+    "3520b216d2d106e9b55c56bc": {
+      "abstract_available": true,
+      "attempt_count": 3,
+      "candidate_id": "3520b216d2d106e9b55c56bc",
+      "character_count": 0,
+      "content_sha256": null,
+      "elapsed_seconds": 0.787,
+      "error": "https://ieeexplore.ieee.org/document/11780498/: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+      "fallback_decision": "generate_from_abstract",
+      "media_type": null,
+      "section_headings": [],
+      "source_url": "https://doi.org/10.1109/pgc72042.2026.11780498",
+      "status": "not_available",
+      "text_persisted": false
+    },
+    "66a3dfd38d666af70d0ac4a7": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "66a3dfd38d666af70d0ac4a7",
+      "character_count": 4751,
+      "content_sha256": "14317c92bb991d0223f5989cecc584d6cf740dcabc7fca5c5e118ee3edbfaab0",
+      "elapsed_seconds": 0.19,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        "4 Method"
+      ],
+      "source_url": "https://arxiv.org/html/2611.25400",
+      "status": "used",
+      "text_persisted": false
+    }
+  },
+  "full_text_persisted": false,
+  "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
-  "knowledge_base_pending": false,
-  "llm_enabled": true,
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+  "knowledge_base_pending": true,
+  "model": "deepseek-v4-pro",
+  "newly_completed_candidate_count": 2,
+  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+  "numeric_matching": {
+    "absolute_tolerance": 0.02,
+    "approximation_markers_ignored": true,
+    "evidence_sources": [
+      "title",
+      "abstract",
+      "temporary_open_full_text_methods"
+    ],
+    "full_text_unsupported_sentence_action": "deterministic_redaction",
+    "relative_tolerance": 0.02,
+    "unit_format_ignored": true,
+    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
+  },
   "output_language": "zh-CN",
-  "provider": "not_configured",
-  "queue_candidate_count": 0,
-  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "request_count": 0,
-  "request_file": "runtime-state/data/summary_requests/2026-11-23.jsonl",
-  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "prepared_request_count": 2,
+  "provider": "deepseek",
+  "queue_sha256": "6e72c05af193f90eb0e93e588699e7f4ab243d0169712159addaf17d36c41b3c",
+  "request_count": 2,
+  "request_file": "runtime-state/data/summary_requests/2026-11-24.jsonl",
+  "request_sha256": "2ca300818c82695fa65f04b61e2f1d990f83494d3eb073ff6f2f9e7141bbac4e",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "26c9b1b8da6a4f4f17502d4ad10ded8c1687f8d92ef17dc0f97d9c572364b282",
-  "source_queue_candidate_count": 0,
-  "status": "no_candidates",
+  "selection_manifest_sha256": "f6a3a513cb5046a0d4f02c29f2bc5584a36cefc8a41a033a834c3efca03d4635",
+  "skipped_no_abstract_candidate_ids": [],
+  "skipped_no_abstract_count": 0,
+  "source_queue_candidate_count": 2,
+  "stage_timings": {
+    "full_text_preparation_seconds": 0.982,
+    "model_api_calls": [
+      {
+        "attempt": 1,
+        "candidate_id": "3520b216d2d106e9b55c56bc",
+        "elapsed_seconds": 10.134,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1013,
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 1229,
+          "prompt_tokens": 3277,
+          "total_tokens": 4290
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "66a3dfd38d666af70d0ac4a7",
+        "elapsed_seconds": 16.568,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1972,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 2638,
+          "prompt_tokens": 4558,
+          "total_tokens": 6530
+        }
+      }
+    ],
+    "model_generation_and_validation_seconds": 26.72
+  },
+  "status": "completed_automatic",
+  "summary_count": 2,
+  "summary_file": "runtime-state/data/summaries/2026-11-24.jsonl",
   "summary_generation_version": 8,
-  "summary_history_updated": false,
-  "summary_slot_count": 0
+  "summary_history_updated": true,
+  "summary_slot_count": 2,
+  "thinking_enabled": false,
+  "transport_repairs": {
+    "architecture_evidence": {
+      "3520b216d2d106e9b55c56bc": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "unclear",
+        "repaired": false,
+        "resolved_type": "unclear"
+      },
+      "66a3dfd38d666af70d0ac4a7": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": null,
+        "repaired": false,
+        "resolved_type": "unclear"
+      }
+    },
+    "architecture_repairs": 0,
+    "candidate_id_repair_responses": 0,
+    "full_text_method_contexts": {
+      "3520b216d2d106e9b55c56bc": {
+        "abstract_available": true,
+        "attempt_count": 3,
+        "candidate_id": "3520b216d2d106e9b55c56bc",
+        "character_count": 0,
+        "content_sha256": null,
+        "elapsed_seconds": 0.787,
+        "error": "https://ieeexplore.ieee.org/document/11780498/: no method-oriented HTML section found; full-text retrieval failed after 3 attempts; fell back to abstract",
+        "fallback_decision": "generate_from_abstract",
+        "media_type": null,
+        "section_headings": [],
+        "source_url": "https://doi.org/10.1109/pgc72042.2026.11780498",
+        "status": "not_available",
+        "text_persisted": false
+      },
+      "66a3dfd38d666af70d0ac4a7": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "66a3dfd38d666af70d0ac4a7",
+        "character_count": 4751,
+        "content_sha256": "14317c92bb991d0223f5989cecc584d6cf740dcabc7fca5c5e118ee3edbfaab0",
+        "elapsed_seconds": 0.19,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          "4 Method"
+        ],
+        "source_url": "https://arxiv.org/html/2611.25400",
+        "status": "used",
+        "text_persisted": false
+      }
+    },
+    "generation_metadata_repair_responses": 1,
+    "numeric_grounding_repair_responses": 1,
+    "numeric_grounding_repairs": {
+      "3520b216d2d106e9b55c56bc": [
+        {
+          "action": "redacted_unsupported_sentence",
+          "original_excerpt": "通过蒙特卡洛模拟与外推确认在两公里光纤链路上实现低于1×10^-12的误码率。",
+          "path": "reported_results[0].claim",
+          "replacement": "相关定量结果未在标题或摘要中提供。",
+          "tokens": [
+            "-12"
+          ]
+        }
+      ]
+    },
+    "tops_alias_expansions": 4,
+    "unit_format_normalization_responses": 0
+  },
+  "usage": {
+    "completion_tokens": 2985,
+    "prompt_cache_hit_tokens": 3968,
+    "prompt_cache_miss_tokens": 3867,
+    "prompt_tokens": 7835,
+    "total_tokens": 10820
+  }
 }

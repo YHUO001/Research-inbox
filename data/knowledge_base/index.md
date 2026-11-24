@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`138`
-- 更新时间：`2026-11-20T00:41:00.273158Z`
+- 论文数：`140`
+- 更新时间：`2026-11-24T00:39:34.083594Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Optical Neural Network Equalizer Enabling Error-Free High-Speed Optical Transmission
+
+- DOI/链接：[10.1109/pgc72042.2026.11780498](https://doi.org/10.1109/pgc72042.2026.11780498)
+- 期刊/年份：Photonics Global Conference，2026
+- 摘要日期：`2026-11-24`
+- 候选 ID：`3520b216d2d106e9b55c56bc`
+- 标签：application:光通信信道均衡, architecture:unclear, hardware_validation:simulation_only, project:optical-neural-networks
 
 ### Optical Representation Neural Networks Enabled by Weakly Supervised Learning
 
@@ -759,6 +767,14 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### Dune: A Zeroth-Order Optimizer with Time-Conditioned Historical Error Regression for VLA Test-Time Adaptation
+
+- DOI/链接：[10.48550/arxiv.2611.25400](https://doi.org/10.48550/arxiv.2611.25400)
+- 期刊/年份：arXiv (Cornell University)，2026
+- 摘要日期：`2026-11-24`
+- 候选 ID：`66a3dfd38d666af70d0ac4a7`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
 
 ### Decentralized stochastic zeroth-order conjugate gradient algorithm for nonconvex optimization
 

@@ -9736,6 +9736,12 @@
       "retrieved_at": "2026-08-09T00:36:12.555790Z",
       "status": "not_found"
     },
+    "crossref:doi:10.3788/pi.2026.r18": {
+      "expires_at": "2026-12-24T00:38:59.321250Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:59.321250Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.48550/arxiv.2608.03277": {
       "expires_at": "2026-09-06T01:30:20.389987Z",
       "record": null,
@@ -11433,6 +11439,48 @@
       "retrieved_at": "2026-10-09T01:12:30.006043Z",
       "status": "found"
     },
+    "crossref:title:1b7250fc87bd62047f90461865bf177de0f567222e79431cc70025c8ed1ef19b": {
+      "expires_at": "2026-12-01T00:38:45.315386Z",
+      "record": {
+        "abstract": "Errors in in situ stresses narrow the mud-weight window and compromise wellbore stability and hydraulic fracture containment, yet σH remains the most poorly constrained stress component. Wellbore deformation relative to a known reference configuration can constrain the stresses, but conventional caliper and image logs measure borehole shape rather than the material displacement field required by the inversion; analytical inversion based on the Kirsch solution assumes a circular borehole in a homogeneous elastic medium. Finite element modeling offers a route beyond this restriction, but gradient-free optimizers require thousands of forward solves. We present INSIDE (IN Situ stress Inversion from wellbore DEformation), which couples a GPU-accelerated finite element forward model with L-BFGS-B optimization to recover the far-field stresses σH and σh from wellbore wall deformation. While the problem has only two unknowns and each finite-difference gradient requires only three forward solves, the iterative workflow is deliberately retained as a general nonlinear inversion path for stress-dependent constitutive models. The forward model reproduces the Kirsch solution with wall-displacement errors below 0.24%, while noise-free twin experiments recover both stresses with relative errors below 0.01%. Monte Carlo ensembles of 100 seeds per noise level give mean stress errors of 1.60% (σH) and 2.18% (σh) at 20% noise, converging within 4–6 iterations regardless of initial guess. Young’s modulus is the dominant error channel, with stress errors scaling nearly one-to-one with modulus uncertainty. This study deliberately focuses on a pure-elastic baseline in a circular, homogeneous, and isotropic medium. Extending this framework to non-circular geometries, heterogeneous media, and elastoplastic behavior represents the primary direction for future work.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Di Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yang Li",
+            "orcid": null
+          },
+          {
+            "name": "Kunpeng Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Xi Hu",
+            "orcid": null
+          },
+          {
+            "name": "Jianqiang Sun",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/app162211395",
+        "landing_page": "https://doi.org/10.3390/app162211395",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/app162211395",
+        "publication_date": "2026-11-17",
+        "title": "A Finite-Element Method for Elastic Stress Inversion from Wellbore Deformation",
+        "venue": "Applied Sciences",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:45.315386Z",
+      "status": "found"
+    },
     "crossref:title:1bbaf314885b8ca6b617259a12336777cf145f12d10eb2fd32e192b8dd6c1009": {
       "expires_at": "2026-11-05T00:48:02.129823Z",
       "record": null,
@@ -11937,6 +11985,48 @@
       "retrieved_at": "2026-11-15T00:44:06.330313Z",
       "status": "not_found"
     },
+    "crossref:title:2953384e3ab610c2aa9704ee2b4288bff4de9f828819b5ffe79df6195722d12d": {
+      "expires_at": "2026-12-01T00:38:58.818065Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhenghong Jin",
+            "orcid": null
+          },
+          {
+            "name": "Yanxin Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Jiaxin Cui",
+            "orcid": null
+          },
+          {
+            "name": "Fengjun Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Yingjie Xia",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tsp.2026.3754875",
+        "landing_page": "https://doi.org/10.1109/tsp.2026.3754875",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/tsp.2026.3754875",
+        "publication_date": "2026",
+        "title": "Swarm-Based Distributed Source Seeking with Gradient-Free Estimation",
+        "venue": "IEEE Transactions on Signal Processing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:58.818065Z",
+      "status": "found"
+    },
     "crossref:title:2a5895fd274266d0fe610b653429937a7341ed6e14e03daf0cbe7258acf39847": {
       "expires_at": "2026-09-14T01:06:51.029914Z",
       "record": {
@@ -12285,6 +12375,12 @@
       "retrieved_at": "2026-10-18T01:05:05.467806Z",
       "status": "not_found"
     },
+    "crossref:title:36ff52213b3db852709490b239eb86cf38d077c018bb8dff6fd5e206a2394ce8": {
+      "expires_at": "2026-12-01T00:38:57.986929Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:57.986929Z",
+      "status": "not_found"
+    },
     "crossref:title:396433acbcc3f91784f5268f64740577bf2596dcfa06755340cef71a7f90d310": {
       "expires_at": "2026-08-16T00:35:59.056202Z",
       "record": null,
@@ -12539,6 +12635,12 @@
       "expires_at": "2026-09-30T01:01:09.594547Z",
       "record": null,
       "retrieved_at": "2026-09-23T01:01:09.594547Z",
+      "status": "not_found"
+    },
+    "crossref:title:4098ef7fb06a61ed7d97349d61d734b786c9e232b47d349830c992ec9bc6c382": {
+      "expires_at": "2026-12-01T00:39:01.460856Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:39:01.460856Z",
       "status": "not_found"
     },
     "crossref:title:40e69a62540f8838042f7d88ffe89a8999b9e1fb8db8e3d5c3d79cccb1cac5f3": {
@@ -13143,6 +13245,12 @@
       "retrieved_at": "2026-11-22T00:44:43.064413Z",
       "status": "not_found"
     },
+    "crossref:title:4ea125b66778f6cfc0712c2c77dd6997b201600300e212b15188651289a41b37": {
+      "expires_at": "2026-12-01T00:38:59.892170Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:59.892170Z",
+      "status": "not_found"
+    },
     "crossref:title:4eba36834404ad45cb2be85cf224701f9eb40943be33adc7780fcde052de8139": {
       "expires_at": "2026-09-25T01:02:16.510915Z",
       "record": null,
@@ -13183,6 +13291,12 @@
       "expires_at": "2026-10-11T01:36:05.454383Z",
       "record": null,
       "retrieved_at": "2026-10-04T01:36:05.454383Z",
+      "status": "not_found"
+    },
+    "crossref:title:52d6ee350b5b05037185630ccc4cb43bcaf3c43090556e2b32d361d6fb4e2290": {
+      "expires_at": "2026-12-01T00:38:52.852062Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:52.852062Z",
       "status": "not_found"
     },
     "crossref:title:53d70169af30dc7676fc1e18d73860e5f27e010dc6bbc0bfdcd0f35dd840674d": {
@@ -13641,6 +13755,44 @@
       "retrieved_at": "2026-09-04T01:00:18.125827Z",
       "status": "not_found"
     },
+    "crossref:title:62c0750b3a408f95d27f8707c7b6687e675c53f2a5ee1bd2d13501d6039bfb6f": {
+      "expires_at": "2026-12-01T00:38:53.720472Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Chenmeng Jia",
+            "orcid": null
+          },
+          {
+            "name": "Yuhang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Ang Li",
+            "orcid": null
+          },
+          {
+            "name": "Shilong Pan",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/pgc72042.2026.11780440",
+        "landing_page": "https://doi.org/10.1109/pgc72042.2026.11780440",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/pgc72042.2026.11780440",
+        "publication_date": "2026-10",
+        "title": "Hybrid Photoelectric Neural Video Coding with Optical Motion Analysis",
+        "venue": "2026 Photonics Global Conference (PGC)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:53.720472Z",
+      "status": "found"
+    },
     "crossref:title:62cead5d64694deb1e6b51dfe4a48042b73a6d7a7e22db6c1912f441d25b8225": {
       "expires_at": "2026-09-08T01:13:17.558795Z",
       "record": null,
@@ -13697,6 +13849,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-03T00:40:42.150241Z",
+      "status": "found"
+    },
+    "crossref:title:63a2f3a25a34fd4da8e82d0cc67454b1b94780f0539fa41281fcc42b6c0c954b": {
+      "expires_at": "2026-12-01T00:38:45.912333Z",
+      "record": {
+        "abstract": "Recovering 3D structure from multi-view satellite images is fundamental to urban planning, disaster assessment, and land monitoring. 3D Gaussian splatting (3DGS) offers an explicit geometric representation and real-time rendering, making it a promising alternative to stereo matching and neural radiance fields for satellite photogrammetry. Existing satellite 3DGS methods couple geometric optimization tightly with photometric signals. This coupling often leads to incomplete and overly smooth surfaces in vegetation and weak-texture regions. In this paper, we propose elevation-consistent 3D Gaussian splatting (ECGS), a method that breaks this coupling at the level of primitive creation and removal through three modules. First, we propose a multi-view elevation consistency regularization to establish cross-view geometric anchors, addressing elevation ambiguity without relying on photometric consistency. Second, a decoupled structure-aware densification mechanism is designed with an independent geometric pathway that keeps adding primitives where photometric gradients are unreliable. Finally, we introduce an importance-guided pruning strategy that removes the exposed redundancy through importance-weighted scores, while a geometric safety lock protects structural details. Experiments on the DFC2019 and IARPA 2016 benchmarks show that ECGS achieves better elevation estimates and higher-quality novel views. By jointly exploiting the radiometric appearance of multi-view imagery and the geometric evidence of cross-view correspondences, ECGS demonstrates that fusing these two modalities is an effective path toward intelligent remote sensing interpretation.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Benkui Zhang",
+            "orcid": "https://orcid.org/0009-0007-0729-4995"
+          },
+          {
+            "name": "Yanfeng Hu",
+            "orcid": null
+          },
+          {
+            "name": "Yanan Guo",
+            "orcid": "https://orcid.org/0000-0001-8592-6993"
+          },
+          {
+            "name": "Ying Chang",
+            "orcid": null
+          },
+          {
+            "name": "Xinyu Zhao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/rs18223967",
+        "landing_page": "https://doi.org/10.3390/rs18223967",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/rs18223967",
+        "publication_date": "2026-11-18",
+        "title": "Elevation-Consistent 3D Gaussian Splatting for Few-View Satellite Photogrammetry",
+        "venue": "Remote Sensing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:45.912333Z",
       "status": "found"
     },
     "crossref:title:63d1e903b8fe17c44a4b978982fcd86c4ec67f94fa2739b5c725c788f81e441c": {
@@ -13993,6 +14187,56 @@
       "retrieved_at": "2026-09-30T01:10:13.457501Z",
       "status": "not_found"
     },
+    "crossref:title:712fd78d90734c999f10e4dec4122923865cfbc8f542b88c653ecc3be6bf16f9": {
+      "expires_at": "2026-12-01T00:38:50.769010Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Meng Li",
+            "orcid": "https://orcid.org/0000-0002-5576-9883"
+          },
+          {
+            "name": "Yanna Kan",
+            "orcid": null
+          },
+          {
+            "name": "Kan Wang",
+            "orcid": "https://orcid.org/0000-0003-3500-1073"
+          },
+          {
+            "name": "Qi Li",
+            "orcid": "https://orcid.org/0000-0003-3078-3600"
+          },
+          {
+            "name": "Ruizhe Yang",
+            "orcid": "https://orcid.org/0000-0003-0582-4079"
+          },
+          {
+            "name": "Pengbo Si",
+            "orcid": "https://orcid.org/0000-0002-9160-2298"
+          },
+          {
+            "name": "F. Richard Yu",
+            "orcid": "https://orcid.org/0000-0003-1006-7594"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jiot.2026.3755277",
+        "landing_page": "https://doi.org/10.1109/jiot.2026.3755277",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/jiot.2026.3755277",
+        "publication_date": "2026",
+        "title": "AoI-Aware Two-Stage SFC Orchestration and Deployment for IoT based on Integrated Satellite-Terrestrial Networks",
+        "venue": "IEEE Internet of Things Journal",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:50.769010Z",
+      "status": "found"
+    },
     "crossref:title:7154f416d33e635ec62648b7399bdac5629bab1558b3480c4323821da605e9e8": {
       "expires_at": "2026-08-11T09:38:19.407006Z",
       "record": {
@@ -14029,6 +14273,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:19.407006Z",
+      "status": "found"
+    },
+    "crossref:title:71e7f3b9cb57495aef5e5061e5ab7193c9904ef47037b41f81170f0edc86fd72": {
+      "expires_at": "2026-12-01T00:38:52.229330Z",
+      "record": {
+        "abstract": "Geomagnetic navigation offers geospatial positioning in GNSS-denied environments, using the global geomagnetic reference field as a continuously available reference. Traditional map-free bio-inspired navigation, however, relies on random search, which limits experience accumulation and search efficiency. To overcome this, this paper proposes a hybrid reinforcement learning and greedy descent (RL-GD) method. A state–action value table (Q-table) is trained offline in a simulation environment with randomly sampled start and target points using the 14th generation International Geomagnetic Reference Field (IGRF-14) model. In the online navigation stage, Q-table-based heading suggestions are fused with local trial candidates to form hybrid decisions that minimize normalized geomagnetic costs, while pure greedy descent is automatically activated for untrained states. In 50 paired Monte Carlo trials, RL-GD reduces the mean number of iterations from 3572 (EAS) to 1949 (a 45.4% reduction), lowers the path ratio from 2.15 to 1.16, and decreases the terminal positioning error from 0.078% to 0.037% of the straight-line distance. Ablation tests showed that removing greedy descent reduced success from 100% to 0% across all 50 tasks, while the Q-table prior reduced iterations by 17.3%. Under measurement noise of 2.5–10 nT, RL-GD maintained a 100% success rate, whereas EAS decreased from 100% (≤5 nT) to 28% (10 nT).",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jiaojiao Guo",
+            "orcid": null
+          },
+          {
+            "name": "Binfeng Yang",
+            "orcid": null
+          },
+          {
+            "name": "Xiaolin Ji",
+            "orcid": null
+          },
+          {
+            "name": "Jiazheng Liu",
+            "orcid": null
+          },
+          {
+            "name": "Min Yang",
+            "orcid": null
+          },
+          {
+            "name": "Hanbing Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yukun Li",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/geomatics6060147",
+        "landing_page": "https://doi.org/10.3390/geomatics6060147",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/geomatics6060147",
+        "publication_date": "2026-11-19",
+        "title": "A Bio-Inspired Geomagnetic Navigation Method Based on Hybrid Reinforcement Learning and Greedy Descent",
+        "venue": "Geomatics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:52.229330Z",
       "status": "found"
     },
     "crossref:title:721de79f351b5436ae3c2ad5aa4fa56fc0afca6a1a504d4d87fb7c11c47f5662": {
@@ -14471,6 +14765,12 @@
       "expires_at": "2026-09-14T01:06:49.427171Z",
       "record": null,
       "retrieved_at": "2026-09-07T01:06:49.427171Z",
+      "status": "not_found"
+    },
+    "crossref:title:7d6dcfd4fa48fb41561af99a028246be1affb027fe44a13ff4ae57b80f61c2d1": {
+      "expires_at": "2026-12-01T00:38:46.863573Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:46.863573Z",
       "status": "not_found"
     },
     "crossref:title:7d7be61b34545d9dcc72e8c47e2fd79baba9b6bc3c73cc93e3cd90fb169e7518": {
@@ -15053,6 +15353,12 @@
       "retrieved_at": "2026-08-10T00:36:46.415577Z",
       "status": "not_found"
     },
+    "crossref:title:96ce8012097fc31c719f7a541b6a38ebee41b58984aa8cefc33a733a5a08725f": {
+      "expires_at": "2026-12-01T00:38:55.193357Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:55.193357Z",
+      "status": "not_found"
+    },
     "crossref:title:96e06e51c74cceee73caba3da5785c158c4e264a83dfea4c29c9f1f9f5ec6aaf": {
       "expires_at": "2026-08-27T00:32:26.130047Z",
       "record": null,
@@ -15232,6 +15538,40 @@
       "record": null,
       "retrieved_at": "2026-10-05T01:13:34.611951Z",
       "status": "not_found"
+    },
+    "crossref:title:9b23dd2b307cf96878f6b14a1661fcb18df2586a50ef2602f98e31fc6c9da28f": {
+      "expires_at": "2026-12-01T00:38:48.966058Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Miguel Cuenca",
+            "orcid": null
+          },
+          {
+            "name": "Carlos R. Fernández-Pousa",
+            "orcid": null
+          },
+          {
+            "name": "Hugues Guillet de Chatellus",
+            "orcid": "https://orcid.org/0000-0003-2075-4056"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jlt.2026.3755538",
+        "landing_page": "https://doi.org/10.1109/jlt.2026.3755538",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/jlt.2026.3755538",
+        "publication_date": "2026",
+        "title": "Image classification with a simple photonic perceptron based on time-division multiplexing and heterodyne detection",
+        "venue": "Journal of Lightwave Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:48.966058Z",
+      "status": "found"
     },
     "crossref:title:9bb9e85d348016c6daef038d2376a6bb418a59c6bdf21dbb38b1ad176ac10f61": {
       "expires_at": "2026-10-12T01:13:24.025803Z",
@@ -16117,6 +16457,12 @@
       "expires_at": "2026-09-11T01:00:21.428757Z",
       "record": null,
       "retrieved_at": "2026-09-04T01:00:21.428757Z",
+      "status": "not_found"
+    },
+    "crossref:title:b31dd257b6caa8d1533aa54a79c665a0468e0b71e4263ec0c5a982b1e329ac50": {
+      "expires_at": "2026-12-01T00:38:54.408217Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:54.408217Z",
       "status": "not_found"
     },
     "crossref:title:b5509c9d2891b597e8f1fe98a6d574ceb88b225d99aa4fce30ccc86f4f68b86c": {
@@ -17339,6 +17685,12 @@
       "retrieved_at": "2026-10-18T01:05:04.572882Z",
       "status": "not_found"
     },
+    "crossref:title:d66b8c83b422c078fb4712f9e309cd209694d09da340ff92990508dc5b1cf82e": {
+      "expires_at": "2026-12-01T00:38:51.424809Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:51.424809Z",
+      "status": "not_found"
+    },
     "crossref:title:d707c9725acaf27fbdc1d017b6f5c934059c4411fd5f2cacb335947ee1ae1d6e": {
       "expires_at": "2026-11-10T00:40:37.392710Z",
       "record": null,
@@ -18065,6 +18417,12 @@
       "retrieved_at": "2026-10-12T01:18:08.281635Z",
       "status": "found"
     },
+    "crossref:title:e510bc2da1498b089c5570088fe9163b3b99198e44e6d17e0ac1d5d373b3a61a": {
+      "expires_at": "2026-12-01T00:39:00.784923Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:39:00.784923Z",
+      "status": "not_found"
+    },
     "crossref:title:e52562c68c7743def3c56d139b546749ca9c6a30d4c4fb7fa4d65bebf9940805": {
       "expires_at": "2026-09-12T00:59:48.641716Z",
       "record": null,
@@ -18309,6 +18667,12 @@
       "retrieved_at": "2026-08-18T04:25:06.087066Z",
       "status": "not_found"
     },
+    "crossref:title:ebcc2c73f955303ed0748124a02695474c7eac7bd8160b02e3452b2070a4656c": {
+      "expires_at": "2026-12-01T00:38:57.064581Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:57.064581Z",
+      "status": "not_found"
+    },
     "crossref:title:ecb6ea30f5aaa7cdb55d586527582b0e6958b863b471426385543ac90c990490": {
       "expires_at": "2026-11-19T00:42:20.524371Z",
       "record": null,
@@ -18433,6 +18797,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-14T00:39:42.524658Z",
+      "status": "found"
+    },
+    "crossref:title:ee978e1f04bd8623d44057ffdb2c7b2111e588e1f7fcd0464366617b09036022": {
+      "expires_at": "2026-12-01T00:38:50.202039Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zheng Peng",
+            "orcid": null
+          },
+          {
+            "name": "Liquan Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Zedi Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Zhicheng Wang",
+            "orcid": null
+          },
+          {
+            "name": "Jianyong Chen",
+            "orcid": null
+          },
+          {
+            "name": "Zhang Luo",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/pgc72042.2026.11780498",
+        "landing_page": "https://doi.org/10.1109/pgc72042.2026.11780498",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/pgc72042.2026.11780498",
+        "publication_date": "2026-10",
+        "title": "Optical Neural Network Equalizer Enabling Error-Free High-Speed Optical Transmission",
+        "venue": "2026 Photonics Global Conference (PGC)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:50.202039Z",
       "status": "found"
     },
     "crossref:title:ef63a7f91c3b5ef8a19ee9368e136e4954362b505b62725abd03830c35937e1b": {
@@ -18921,6 +19331,12 @@
       "expires_at": "2026-09-12T00:59:45.758737Z",
       "record": null,
       "retrieved_at": "2026-09-05T00:59:45.758737Z",
+      "status": "not_found"
+    },
+    "crossref:title:fb5567ce928ccb254bd9abbe3d17fef31eacf1eabc807092d8098e7f272a97c9": {
+      "expires_at": "2026-12-01T00:38:49.554718Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:49.554718Z",
       "status": "not_found"
     },
     "crossref:title:fba7af11db7dbaf16cf62b6e49916b6497acd26219d946bdd0c21b5aada6cd91": {
@@ -27933,6 +28349,56 @@
       "retrieved_at": "2026-11-05T00:41:14.803789Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/jiot.2026.3755277": {
+      "expires_at": "2026-12-24T00:38:51.007536Z",
+      "record": {
+        "abstract": "With the rapid escalation of demands for the Internet of Things (IoT), the application scope of integrated satellite-terrestrial networks (ISTNs) has been expanding steadily. However, the dynamic topology, heterogeneous resources and complex management of ISTNs pose significant challenges to efficient service provisioning. To enable flexible service deployment, service function chaining (SFC) supports customized services through ordered virtual network function (VNF) processing. Thus, the orchestration and deployment of SFCs play a critical role in network performance. On the other hand, since many services in the IoT are sensitive to latency, age of information (AoI) is used to characterize information freshness. Therefore, this paper studies the process of VNF placement and scheduling under AoI constraint. A system model as well as the corresponding optimization objective are established to minimize the total system cost, which includes the resource consumption of communication and computation. Considering the formulated optimization problem, the decision-making process is further modeled as a Markov decision process (MDP). Due to high-dimensional and non-convex nature of optimization problem, a two-stage learning framework based on deep Q-network and zeroth-order optimization (DQN-ZO) is proposed. Extensive simulations validate its superiority in terms of system overhead reduction over benchmark methods.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Meng Li",
+            "orcid": "https://orcid.org/0000-0002-5576-9883"
+          },
+          {
+            "name": "Yanna Kan",
+            "orcid": null
+          },
+          {
+            "name": "Kan Wang",
+            "orcid": "https://orcid.org/0000-0003-3500-1073"
+          },
+          {
+            "name": "Qi Li",
+            "orcid": "https://orcid.org/0000-0003-3078-3600"
+          },
+          {
+            "name": "Ruizhe Yang",
+            "orcid": "https://orcid.org/0000-0003-0582-4079"
+          },
+          {
+            "name": "Pengbo Si",
+            "orcid": "https://orcid.org/0000-0002-9160-2298"
+          },
+          {
+            "name": "Fei Richard Yu",
+            "orcid": "https://orcid.org/0000-0003-1006-7594"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jiot.2026.3755277",
+        "landing_page": "https://doi.org/10.1109/jiot.2026.3755277",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7236464336",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7236464336",
+        "publication_date": "2026-01-01",
+        "title": "AoI-Aware Two-Stage SFC Orchestration and Deployment for IoT based on Integrated Satellite-Terrestrial Networks",
+        "venue": "IEEE Internet of Things Journal",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:51.007536Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/jlt.2026.3718277": {
       "expires_at": "2026-09-03T09:38:19.738151Z",
       "record": {
@@ -28299,6 +28765,40 @@
       "retrieved_at": "2026-11-15T00:44:09.086489Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/jlt.2026.3755538": {
+      "expires_at": "2026-12-24T00:38:49.223625Z",
+      "record": {
+        "abstract": "The use of photonic architectures to implement neural networks is a rapidly expanding field, driven both by their immense computational potential and by the fact that their power consumption is theoretically much lower than that of electronic counterparts. In this context, we have developed a simple architecture based on time-division multiplexing (TDM) and a frequency-shifted interferometer to process high-bandwidth, time-encoded datasets. Unlike previously reported approaches, this architecture relies on heterodyne detection, enabling computation of both element-wise operations and dot products on input data. It also allows for image processing and classification tasks. More importantly, the proposed building block can be extended to future multi-heterodyne integrated architectures, which are expected to support ultra-high-speed matrix computations for neural network layers, as well as efficient accelerators for convolutional neural networks.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Miguel Cuenca",
+            "orcid": "https://orcid.org/0000-0001-6748-1759"
+          },
+          {
+            "name": "Carlos R. Fernández‐Pousa",
+            "orcid": "https://orcid.org/0000-0001-5279-9502"
+          },
+          {
+            "name": "Hugues Guillet de Chatellus",
+            "orcid": "https://orcid.org/0000-0003-2075-4056"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jlt.2026.3755538",
+        "landing_page": "https://doi.org/10.1109/jlt.2026.3755538",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7236477855",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7236477855",
+        "publication_date": "2026-01-01",
+        "title": "Image classification with a simple photonic perceptron based on time-division multiplexing and heterodyne detection",
+        "venue": "Journal of Lightwave Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:49.223625Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/jphot.2026.3721155": {
       "expires_at": "2026-09-17T04:25:23.198098Z",
       "record": {
@@ -28535,6 +29035,90 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-04T09:38:41.971283Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/pgc72042.2026.11780440": {
+      "expires_at": "2026-12-24T00:38:53.990519Z",
+      "record": {
+        "abstract": "We investigate a hybrid photoelectric architecture that replaces the front end of recurrent motion analysis with a differentiable optical model while retaining digital flow decoding, warping, and residual coding. Current and reference frames are phase encoded, propagated through a diffractive neural network, and mixed by a silicon-photonic-style module. With a${520}-\\text{n m}$wavelength,${8}$-micrometer sampling pitch, and two${1 2 0. 1}-\\text{mm}$propagation sections, the prototype achieves a best validation reconstruction PSNR of 30.48 dB and a best motion-only prediction PSNR of 21.74 dB. Average P-frame PSNR is 35.03 dB on one rendered seven-frame sequence. These simulations support the feasibility of optical motion analysis in recurrent video coding; bit-rate and hardware evaluation remain future work.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Chenmeng Jia",
+            "orcid": null
+          },
+          {
+            "name": "Yuhang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Ang Li",
+            "orcid": null
+          },
+          {
+            "name": "Shilong Pan",
+            "orcid": "https://orcid.org/0009-0004-6744-0120"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/pgc72042.2026.11780440",
+        "landing_page": "https://doi.org/10.1109/pgc72042.2026.11780440",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7236814846",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7236814846",
+        "publication_date": "2026-10-01",
+        "title": "Hybrid Photoelectric Neural Video Coding with Optical Motion Analysis",
+        "venue": "Photonics Global Conference",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:53.990519Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/pgc72042.2026.11780498": {
+      "expires_at": "2026-12-24T00:38:50.475319Z",
+      "record": {
+        "abstract": "We propose a training-free all-optical neural network equalizer for DSP-free 100 Gbps NRZ transmission over 2 km fiber link. Monte Carlo simulation and extrapolation confirm error-free performance with a BER below 1×10−12.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zheng Peng",
+            "orcid": "https://orcid.org/0000-0002-9589-3256"
+          },
+          {
+            "name": "Liquan Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Zedi Zhang",
+            "orcid": "https://orcid.org/0009-0004-6298-396X"
+          },
+          {
+            "name": "Zhicheng Wang",
+            "orcid": null
+          },
+          {
+            "name": "Jianyong Chen",
+            "orcid": null
+          },
+          {
+            "name": "Zhang Luo",
+            "orcid": "https://orcid.org/0000-0002-2919-123X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/pgc72042.2026.11780498",
+        "landing_page": "https://doi.org/10.1109/pgc72042.2026.11780498",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7236581387",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7236581387",
+        "publication_date": "2026-10-01",
+        "title": "Optical Neural Network Equalizer Enabling Error-Free High-Speed Optical Transmission",
+        "venue": "Photonics Global Conference",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:50.475319Z",
       "status": "found"
     },
     "openalex:doi:10.1109/srse70977.2026.11694407": {
@@ -29361,6 +29945,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-07T00:39:24.524860Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/tsp.2026.3754875": {
+      "expires_at": "2026-12-24T00:38:59.085437Z",
+      "record": {
+        "abstract": "This paper addresses the cooperative source seeking problem for a swarm of unmanned ground vehicles (UGVs) subject to switching communication topologies and velocity constraints. The aim is to steer the average position to the unknown signal source without using gradient estimates or velocity measurements. A novel formation-guided seeking mechanism is proposed, complemented by an auxiliary dynamic system that generates virtual velocity/ position signals, thereby circumventing direct velocity sensing. The algorithm is implemented via distributed consensus filters under time-varying interaction graphs. By employing input-to-state stability and the small-gain theorem, we rigorously prove the convergence of all agents and the robustness of the collective dynamics against topology switching, ensuring the formation centroid asymptotically reaches the source. Experimental results on light-source localization demonstrate the practical effectiveness of the proposed strategy.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Zhenghong Jin",
+            "orcid": "https://orcid.org/0000-0002-0098-712X"
+          },
+          {
+            "name": "Yanxin Zhou",
+            "orcid": null
+          },
+          {
+            "name": "Jiaxin Cui",
+            "orcid": null
+          },
+          {
+            "name": "Fengjun Xiao",
+            "orcid": "https://orcid.org/0000-0002-4114-4209"
+          },
+          {
+            "name": "Yingjie Xia",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/tsp.2026.3754875",
+        "landing_page": "https://doi.org/10.1109/tsp.2026.3754875",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7236006584",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7236006584",
+        "publication_date": "2026-01-01",
+        "title": "Swarm-Based Distributed Source Seeking with Gradient-Free Estimation",
+        "venue": "IEEE Transactions on Signal Processing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:59.085437Z",
       "status": "found"
     },
     "openalex:doi:10.1109/twc.2026.3715594": {
@@ -34489,6 +35115,48 @@
       "retrieved_at": "2026-11-14T00:39:46.404496Z",
       "status": "found"
     },
+    "openalex:doi:10.3390/app162211395": {
+      "expires_at": "2026-12-24T00:38:45.566802Z",
+      "record": {
+        "abstract": "Errors in in situ stresses narrow the mud-weight window and compromise wellbore stability and hydraulic fracture containment, yet σH remains the most poorly constrained stress component. Wellbore deformation relative to a known reference configuration can constrain the stresses, but conventional caliper and image logs measure borehole shape rather than the material displacement field required by the inversion; analytical inversion based on the Kirsch solution assumes a circular borehole in a homogeneous elastic medium. Finite element modeling offers a route beyond this restriction, but gradient-free optimizers require thousands of forward solves. We present INSIDE (IN Situ stress Inversion from wellbore DEformation), which couples a GPU-accelerated finite element forward model with L-BFGS-B optimization to recover the far-field stresses σH and σh from wellbore wall deformation. While the problem has only two unknowns and each finite-difference gradient requires only three forward solves, the iterative workflow is deliberately retained as a general nonlinear inversion path for stress-dependent constitutive models. The forward model reproduces the Kirsch solution with wall-displacement errors below 0.24%, while noise-free twin experiments recover both stresses with relative errors below 0.01%. Monte Carlo ensembles of 100 seeds per noise level give mean stress errors of 1.60% (σH) and 2.18% (σh) at 20% noise, converging within 4–6 iterations regardless of initial guess. Young’s modulus is the dominant error channel, with stress errors scaling nearly one-to-one with modulus uncertainty. This study deliberately focuses on a pure-elastic baseline in a circular, homogeneous, and isotropic medium. Extending this framework to non-circular geometries, heterogeneous media, and elastoplastic behavior represents the primary direction for future work.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Di Wang",
+            "orcid": null
+          },
+          {
+            "name": "Yang Li",
+            "orcid": null
+          },
+          {
+            "name": "Kunpeng Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Xi Hu",
+            "orcid": "https://orcid.org/0009-0002-4810-0468"
+          },
+          {
+            "name": "Jianqiang Sun",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/app162211395",
+        "landing_page": "https://doi.org/10.3390/app162211395",
+        "open_access_url": "https://doi.org/10.3390/app162211395",
+        "openalex_id": "https://openalex.org/W7235133955",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7235133955",
+        "publication_date": "2026-11-17",
+        "title": "A Finite-Element Method for Elastic Stress Inversion from Wellbore Deformation",
+        "venue": "Applied Sciences",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:45.566802Z",
+      "status": "found"
+    },
     "openalex:doi:10.3390/asi9110222": {
       "expires_at": "2026-11-30T00:40:11.055034Z",
       "record": {
@@ -34613,6 +35281,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-28T00:48:21.292193Z",
+      "status": "found"
+    },
+    "openalex:doi:10.3390/geomatics6060147": {
+      "expires_at": "2026-12-24T00:38:52.472834Z",
+      "record": {
+        "abstract": "Geomagnetic navigation offers geospatial positioning in GNSS-denied environments, using the global geomagnetic reference field as a continuously available reference. Traditional map-free bio-inspired navigation, however, relies on random search, which limits experience accumulation and search efficiency. To overcome this, this paper proposes a hybrid reinforcement learning and greedy descent (RL-GD) method. A state–action value table (Q-table) is trained offline in a simulation environment with randomly sampled start and target points using the 14th generation International Geomagnetic Reference Field (IGRF-14) model. In the online navigation stage, Q-table-based heading suggestions are fused with local trial candidates to form hybrid decisions that minimize normalized geomagnetic costs, while pure greedy descent is automatically activated for untrained states. In 50 paired Monte Carlo trials, RL-GD reduces the mean number of iterations from 3572 (EAS) to 1949 (a 45.4% reduction), lowers the path ratio from 2.15 to 1.16, and decreases the terminal positioning error from 0.078% to 0.037% of the straight-line distance. Ablation tests showed that removing greedy descent reduced success from 100% to 0% across all 50 tasks, while the Q-table prior reduced iterations by 17.3%. Under measurement noise of 2.5–10 nT, RL-GD maintained a 100% success rate, whereas EAS decreased from 100% (≤5 nT) to 28% (10 nT).",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jiaojiao Guo",
+            "orcid": "https://orcid.org/0000-0001-5218-5201"
+          },
+          {
+            "name": "Binfeng Yang",
+            "orcid": null
+          },
+          {
+            "name": "Xiaolin Ji",
+            "orcid": null
+          },
+          {
+            "name": "Jiazheng Liu",
+            "orcid": "https://orcid.org/0000-0002-2001-1597"
+          },
+          {
+            "name": "Min Yang",
+            "orcid": "https://orcid.org/0000-0002-2789-0926"
+          },
+          {
+            "name": "Hanbing Wang",
+            "orcid": "https://orcid.org/0009-0006-0848-1867"
+          },
+          {
+            "name": "Yukun Li",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/geomatics6060147",
+        "landing_page": "https://doi.org/10.3390/geomatics6060147",
+        "open_access_url": "https://doi.org/10.3390/geomatics6060147",
+        "openalex_id": "https://openalex.org/W7236693750",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7236693750",
+        "publication_date": "2026-11-19",
+        "title": "A Bio-Inspired Geomagnetic Navigation Method Based on Hybrid Reinforcement Learning and Greedy Descent",
+        "venue": "Geomatics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:52.472834Z",
       "status": "found"
     },
     "openalex:doi:10.3390/jcp6060196": {
@@ -34847,6 +35565,48 @@
       "retrieved_at": "2026-10-22T00:59:20.103487Z",
       "status": "found"
     },
+    "openalex:doi:10.3390/rs18223967": {
+      "expires_at": "2026-12-24T00:38:46.621714Z",
+      "record": {
+        "abstract": "Recovering 3D structure from multi-view satellite images is fundamental to urban planning, disaster assessment, and land monitoring. 3D Gaussian splatting (3DGS) offers an explicit geometric representation and real-time rendering, making it a promising alternative to stereo matching and neural radiance fields for satellite photogrammetry. Existing satellite 3DGS methods couple geometric optimization tightly with photometric signals. This coupling often leads to incomplete and overly smooth surfaces in vegetation and weak-texture regions. In this paper, we propose elevation-consistent 3D Gaussian splatting (ECGS), a method that breaks this coupling at the level of primitive creation and removal through three modules. First, we propose a multi-view elevation consistency regularization to establish cross-view geometric anchors, addressing elevation ambiguity without relying on photometric consistency. Second, a decoupled structure-aware densification mechanism is designed with an independent geometric pathway that keeps adding primitives where photometric gradients are unreliable. Finally, we introduce an importance-guided pruning strategy that removes the exposed redundancy through importance-weighted scores, while a geometric safety lock protects structural details. Experiments on the DFC2019 and IARPA 2016 benchmarks show that ECGS achieves better elevation estimates and higher-quality novel views. By jointly exploiting the radiometric appearance of multi-view imagery and the geometric evidence of cross-view correspondences, ECGS demonstrates that fusing these two modalities is an effective path toward intelligent remote sensing interpretation.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Benkui Zhang",
+            "orcid": "https://orcid.org/0009-0007-0729-4995"
+          },
+          {
+            "name": "Yanfeng Hu",
+            "orcid": null
+          },
+          {
+            "name": "Yanan Guo",
+            "orcid": "https://orcid.org/0000-0001-8592-6993"
+          },
+          {
+            "name": "Ying Chang",
+            "orcid": null
+          },
+          {
+            "name": "Xinyu Zhao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/rs18223967",
+        "landing_page": "https://doi.org/10.3390/rs18223967",
+        "open_access_url": "https://doi.org/10.3390/rs18223967",
+        "openalex_id": "https://openalex.org/W7235865228",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7235865228",
+        "publication_date": "2026-11-18",
+        "title": "Elevation-Consistent 3D Gaussian Splatting for Few-View Satellite Photogrammetry",
+        "venue": "Remote Sensing",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:46.621714Z",
+      "status": "found"
+    },
     "openalex:doi:10.3390/s26216760": {
       "expires_at": "2026-11-30T00:40:10.529076Z",
       "record": {
@@ -34889,6 +35649,12 @@
       "expires_at": "2026-09-08T00:36:12.879300Z",
       "record": null,
       "retrieved_at": "2026-08-09T00:36:12.879300Z",
+      "status": "not_found"
+    },
+    "openalex:doi:10.3788/pi.2026.r18": {
+      "expires_at": "2026-12-24T00:38:59.585035Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:59.585035Z",
       "status": "not_found"
     },
     "openalex:doi:10.3934/math.20261204": {
@@ -38692,6 +39458,12 @@
       "retrieved_at": "2026-10-18T01:05:05.886985Z",
       "status": "found"
     },
+    "openalex:title:36ff52213b3db852709490b239eb86cf38d077c018bb8dff6fd5e206a2394ce8": {
+      "expires_at": "2026-12-01T00:38:58.564629Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:58.564629Z",
+      "status": "not_found"
+    },
     "openalex:title:396433acbcc3f91784f5268f64740577bf2596dcfa06755340cef71a7f90d310": {
       "expires_at": "2026-08-16T00:35:59.656653Z",
       "record": null,
@@ -39021,6 +39793,32 @@
       "record": null,
       "retrieved_at": "2026-09-23T01:01:10.416485Z",
       "status": "not_found"
+    },
+    "openalex:title:4098ef7fb06a61ed7d97349d61d734b786c9e232b47d349830c992ec9bc6c382": {
+      "expires_at": "2026-12-01T00:39:02.026949Z",
+      "record": {
+        "abstract": "Aktuelle Entwicklungen in der Welt des Streamings, die neueste Entwicklungen in der künstliche Intelligenz (KI), der sozialen Medien und anderer Technologien treiben ein exponentielles Wachstum der Nachfrage nach Netzwerkkapazität mit höherer Bandbreite und geringerer Latenz voran. Dies stellt eine Herausforderung für die bestehende Netzwerkinfrastruktur dar. Insbesondere optische Übertragungssysteme, die einen großen Teil des Rückgrats des Internets bilden, stehen vor ständig steigenden Anforderungen hinsichtlich der Kapazitäten und der entsprechenden Energiekosten. Ein Teil dieser Kosten ist auf den Einsatz kohärenter Empfänger mit energieintensiver digitaler Signalverarbeitung (DSP) zurückzuführen. Diese Geräte verursachen zudem hohe Anschaffungs-, Bereitstellungs- und Wartungskosten und werden zunehmend komplexer. Der Einsatz von neuronalen Netzwerken (NN) bietet einen alternativen Ansatz, der dazu beitragen kann, die mit der DSP verbundene Komplexität und den Energieverbrauch zu reduzieren. Zwei verschiedene Anwendungen wurden in dieser Arbeit untersucht. Beide betreffen die Implementierung photonischer neuromorpher Netzwerke für optische Kommunikationssysteme. Die erste Anwendung fällt in den Bereich der intelligenten Überwachung optischer Übertragungsnetze und beschäftigt sich mit Modulationsformaterkennung (MFI). Es wird ein NN vorgestellt, das auf dem Paradigma des Reservoir Computings (RC) basiert und ein photonisches Reservoir mit einem digitalen Readout implementiert. Jeder Entwicklungsschritt dieses NN wird detailliert beschrieben. Nach der Herstellung und dem Packaging des entsprechenden neuromorphen photonisch integrierten Schaltkreises (PIC) wurden umfangreiche experimentelle Demonstrationen durchgeführt, um seine MFI-Fähigkeiten zu evaluieren. Die Ergebnisse dieser Bewertungen, einschließlich Live-Demonstrationen mit kommerzieller Netzwerkausrüstung in einer realen Umgebung, zeigen, dass das NN eine MFI-Genauigkeit von bis zu 100% in einer Vielzahl von Szenarien erreichen kann. Diese Szenarien umfassten Übertragungsstrecken von bis zu 100km, optische Signal-zu-Rausch-Verhältnis-(OSNR-)Werte zwischen 2 und 40 dB, optische Eingangsleistungen zwischen 15 und 23dBm, Polarisationsumschaltgeschwindigkeiten von bis zu 700 kHz, Einzel- und Doppelpolarisation sowie Signale mit Wavelength-Division Multiplexing (WDM). Die in die Bewertungen einbezogenen Modulationsformate waren On-Off Keying (OOK), Pulse Amplitude Modulation (PAM), Binary Phase Shift Keying (BPSK), und Quadrature Amplitude Modulation (QAM). Die Baudrate der Übertragungssignale lag zwischen 32 und 35 GBaud. Die zweite in dieser Arbeit untersuchte Anwendung bezieht sich auf die Entzerrung optischer Übertragungssignale mithilfe eines hybriden neuromorphen PICs. Der Ansatz baut auf der vorherigen Anwendung auf, indem die verwendete Architektur des photonischen Reservoirs um eine vollständig verbundene Schicht mit einem Gitter aus Mach-Zehnder-Interferometern (MZIs) erweitert wird. Die Aktivierungsfunktionen werden mittels optischer Halbleiterverstärker (SOAs) realisiert. Diese Geräte ermöglichen die Signalverarbeitung direkt im optischen Bereich. Das bedeutet, dass das NN die inhärenten Vorteile optischer Übertragungssysteme wie geringe Latenz und hohe Bandbreite nutzt. Das NN hat die Fähigkeit, die Signale zu verarbeiten, während sie sich durch das Netzwerk ausbreiten. Jeder Schritt der Entwicklung wird detailliert beschrieben, einschließlich der Erstellung der Modelle, des Layouts und deren Bewertung. Die neuesten Ergebnisse zeigen, dass der hybride PIC den Q2-Faktor um 1.92 dB verbessern kann, verglichen mit den 16-QAM-Signalen ohne Entzerrung, die bei einer Einspeiseleistung von −10dBm über eine Single-Mode Fiber (SMF) ohne Dispersionskompensation übertragen wurden. Bei Übertragung über eine Dispersion-Shifted Fiber (DSF) betrug die Verbesserung des Q2-Faktors 1.13 dB.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Guillermo von Hünefeld",
+            "orcid": "https://orcid.org/0009-0007-7484-335X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.14279/depositonce-25626",
+        "landing_page": "https://nbn-resolving.org/urn:nbn:de:101:1-2604010207140.103791946801",
+        "open_access_url": "https://doi.org/10.14279/depositonce-25626",
+        "openalex_id": "https://openalex.org/W7141711419",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7141711419",
+        "publication_date": "2026-01-01",
+        "title": "Neuromorphic photonics for modulation format identification and signal equalization in optical communication systems",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:39:02.026949Z",
+      "status": "found"
     },
     "openalex:title:40e69a62540f8838042f7d88ffe89a8999b9e1fb8db8e3d5c3d79cccb1cac5f3": {
       "expires_at": "2026-10-25T01:04:52.907550Z",
@@ -39438,6 +40236,12 @@
       "retrieved_at": "2026-11-22T00:44:43.259056Z",
       "status": "found"
     },
+    "openalex:title:4ea125b66778f6cfc0712c2c77dd6997b201600300e212b15188651289a41b37": {
+      "expires_at": "2026-12-01T00:39:00.470630Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:39:00.470630Z",
+      "status": "not_found"
+    },
     "openalex:title:4eba36834404ad45cb2be85cf224701f9eb40943be33adc7780fcde052de8139": {
       "expires_at": "2026-09-25T01:02:18.115513Z",
       "record": null,
@@ -39578,6 +40382,60 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-04T01:36:06.004981Z",
+      "status": "found"
+    },
+    "openalex:title:52d6ee350b5b05037185630ccc4cb43bcaf3c43090556e2b32d361d6fb4e2290": {
+      "expires_at": "2026-12-01T00:38:53.374237Z",
+      "record": {
+        "abstract": "Vision-language-action (VLA) policies rely on visual feedback throughout manipulation, making them vulnerable to persistent texture attacks. However, optimized patterns can stand out from their surroundings, making an attack easier to notice and its carrier more likely to be inspected or removed. To address this limitation, our key insight is to search the structured image distribution of a diffusion model for natural-looking textures while using closed-loop feedback to identify task-disruptive candidates. Based on this idea, we propose DMT-Attack, a gradient-free gray-box attack that generates textures for ordinary scene objects such as tablecloths. A frozen text-conditioned diffusion model defines the search space, and an eight-expert latent proposal network is initialized from evaluated teacher latents and refined using rollout feedback. We evaluate DMT-Attack against pi_0.5 and OpenVLA-OFT across four LIBERO suites. DMT-Attack achieves a macro clean-conditioned attack success rate (cASR) of 57.9%, compared with 44.7% for UPA-RFAS and 19.7% for random natural textures. It also attains higher scene similarity and a lower clean-calibrated detector flag rate (45% versus 97.5-100% for optimized patch baselines). These results demonstrate that natural-looking textures can disrupt VLA visual feedback and closed-loop decision-making, motivating defenses that jointly assess visual appearance and task behavior.",
+        "arxiv_id": "https://arxiv.org/abs/2611.25695",
+        "authors": [
+          {
+            "name": "Jun Xia",
+            "orcid": null
+          },
+          {
+            "name": "Shangwen Wang",
+            "orcid": null
+          },
+          {
+            "name": "Jun Ma",
+            "orcid": null
+          },
+          {
+            "name": "Ruichao Ren",
+            "orcid": null
+          },
+          {
+            "name": "Zhouyang Jia",
+            "orcid": "https://orcid.org/0000-0002-2533-4547"
+          },
+          {
+            "name": "Xin Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Huijun Liu",
+            "orcid": "https://orcid.org/0000-0003-0252-6973"
+          },
+          {
+            "name": "Jie Yu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.25695",
+        "landing_page": "https://arxiv.org/abs/2611.25695",
+        "open_access_url": "https://arxiv.org/abs/2611.25695",
+        "openalex_id": "https://openalex.org/W7237139856",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7237139856",
+        "publication_date": "2026-11-19",
+        "title": "DMT-Attack: Diffusion-Prior Texture Search for Closed-Loop Vision-Language-Action Policies",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:53.374237Z",
       "status": "found"
     },
     "openalex:title:56a0b1289affcdba3eef08f164503b294ad7d609f0c92288669b209e91cd9217": {
@@ -40564,6 +41422,12 @@
       "retrieved_at": "2026-09-07T01:06:50.214132Z",
       "status": "not_found"
     },
+    "openalex:title:7d6dcfd4fa48fb41561af99a028246be1affb027fe44a13ff4ae57b80f61c2d1": {
+      "expires_at": "2026-12-01T00:38:47.413002Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:47.413002Z",
+      "status": "not_found"
+    },
     "openalex:title:7d7be61b34545d9dcc72e8c47e2fd79baba9b6bc3c73cc93e3cd90fb169e7518": {
       "expires_at": "2026-10-11T01:36:05.073071Z",
       "record": {
@@ -41376,6 +42240,12 @@
       "expires_at": "2026-08-17T00:36:46.851872Z",
       "record": null,
       "retrieved_at": "2026-08-10T00:36:46.851872Z",
+      "status": "not_found"
+    },
+    "openalex:title:96ce8012097fc31c719f7a541b6a38ebee41b58984aa8cefc33a733a5a08725f": {
+      "expires_at": "2026-12-01T00:38:55.570168Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:55.570168Z",
       "status": "not_found"
     },
     "openalex:title:96e06e51c74cceee73caba3da5785c158c4e264a83dfea4c29c9f1f9f5ec6aaf": {
@@ -42574,6 +43444,84 @@
       "retrieved_at": "2026-09-04T01:00:22.102567Z",
       "status": "found"
     },
+    "openalex:title:b31dd257b6caa8d1533aa54a79c665a0468e0b71e4263ec0c5a982b1e329ac50": {
+      "expires_at": "2026-12-01T00:38:54.947743Z",
+      "record": {
+        "abstract": "Test-Time Adaptation (TTA) enables Vision-Language-Action (VLA) models to handle distribution shifts during deployment without source-domain retraining. However, backpropagation-based adaptation incurs heavy memory overhead on resource-constrained robots, whereas zeroth-order (ZO) methods suffer from high estimation variance under limited perturbation budgets. We observe that while ZO estimation enables low-memory adaptation with rapid initial gains, it often stalls or degrades over long-horizon updates due to noisy gradient estimates. To address these limitations, we propose Dune, a zeroth-order optimizer that stabilizes long-horizon adaptation by coupling online historical error prediction with current perturbation observations. Specifically, Dune learns a lightweight, time-conditioned error predictor from past optimization dynamics and fuses its predictions with instantaneous ZO estimates, achieving effective variance reduction without backpropagation or extra forward passes. Additionally, we theoretically characterize how estimation variance restricts convergence in high-dimensional, small-population regimes, motivating the use of historical statistics. Extensive experiments on LIBERO and real-world robots demonstrate that Dune achieves superior success rates under a low memory footprint, with ablations confirming improved closed-loop stability and post-disturbance recovery.",
+        "arxiv_id": "https://arxiv.org/abs/2611.25400",
+        "authors": [
+          {
+            "name": "Chengyang Dong",
+            "orcid": null
+          },
+          {
+            "name": "Ze Chen",
+            "orcid": null
+          },
+          {
+            "name": "Kai Ye",
+            "orcid": null
+          },
+          {
+            "name": "Chutian Wang",
+            "orcid": "https://orcid.org/0000-0002-5941-8028"
+          },
+          {
+            "name": "Heng Xu",
+            "orcid": null
+          },
+          {
+            "name": "Wei Mo",
+            "orcid": null
+          },
+          {
+            "name": "Maomao Li",
+            "orcid": null
+          },
+          {
+            "name": "Jiayan Xu",
+            "orcid": null
+          },
+          {
+            "name": "Jiayuan Wu",
+            "orcid": null
+          },
+          {
+            "name": "Yihao Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Linhua Ye",
+            "orcid": null
+          },
+          {
+            "name": "Zhonghua Peng",
+            "orcid": null
+          },
+          {
+            "name": "Ruize Han",
+            "orcid": "https://orcid.org/0000-0002-6587-8936"
+          },
+          {
+            "name": "Jialong Sun",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.25400",
+        "landing_page": "https://arxiv.org/abs/2611.25400",
+        "open_access_url": "https://arxiv.org/abs/2611.25400",
+        "openalex_id": "https://openalex.org/W7237012937",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7237012937",
+        "publication_date": "2026-11-19",
+        "title": "Dune: A Zeroth-Order Optimizer with Time-Conditioned Historical Error Regression for VLA Test-Time Adaptation",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:54.947743Z",
+      "status": "found"
+    },
     "openalex:title:b5509c9d2891b597e8f1fe98a6d574ceb88b225d99aa4fce30ccc86f4f68b86c": {
       "expires_at": "2026-09-09T01:02:20.542879Z",
       "record": {
@@ -43618,6 +44566,12 @@
       "retrieved_at": "2026-10-18T01:05:05.047848Z",
       "status": "found"
     },
+    "openalex:title:d66b8c83b422c078fb4712f9e309cd209694d09da340ff92990508dc5b1cf82e": {
+      "expires_at": "2026-12-01T00:38:51.852913Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:51.852913Z",
+      "status": "not_found"
+    },
     "openalex:title:d707c9725acaf27fbdc1d017b6f5c934059c4411fd5f2cacb335947ee1ae1d6e": {
       "expires_at": "2026-11-10T00:40:37.656126Z",
       "record": null,
@@ -44028,6 +44982,12 @@
       "retrieved_at": "2026-10-12T01:18:09.545863Z",
       "status": "found"
     },
+    "openalex:title:e510bc2da1498b089c5570088fe9163b3b99198e44e6d17e0ac1d5d373b3a61a": {
+      "expires_at": "2026-12-01T00:39:01.102195Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:39:01.102195Z",
+      "status": "not_found"
+    },
     "openalex:title:e52562c68c7743def3c56d139b546749ca9c6a30d4c4fb7fa4d65bebf9940805": {
       "expires_at": "2026-09-12T00:59:49.141088Z",
       "record": null,
@@ -44187,6 +45147,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:06.522679Z",
       "status": "found"
+    },
+    "openalex:title:ebcc2c73f955303ed0748124a02695474c7eac7bd8160b02e3452b2070a4656c": {
+      "expires_at": "2026-12-01T00:38:57.531370Z",
+      "record": null,
+      "retrieved_at": "2026-11-24T00:38:57.531370Z",
+      "status": "not_found"
     },
     "openalex:title:ecb6ea30f5aaa7cdb55d586527582b0e6958b863b471426385543ac90c990490": {
       "expires_at": "2026-11-19T00:42:20.892639Z",
@@ -44685,6 +45651,52 @@
       "record": null,
       "retrieved_at": "2026-09-05T00:59:46.431467Z",
       "status": "not_found"
+    },
+    "openalex:title:fb5567ce928ccb254bd9abbe3d17fef31eacf1eabc807092d8098e7f272a97c9": {
+      "expires_at": "2026-12-01T00:38:49.885170Z",
+      "record": {
+        "abstract": "Most existing approaches enhance mathematical reasoning in large language models (LLMs) as a monolithic capability, despite the fact that different mathematical problems require different reasoning skills. Recent work has explored a more fine-grained perspective by decomposing mathematical reasoning into atomic skills and developing specialized modules for individual capabilities. However, how to effectively utilize these atomic abilities remains underexplored. To address this challenge, we propose Atomic MathReasoner (AMR), an instance-level framework for composing atomic reasoning skills. AMR first trains a library of capability-specific LoRA experts and performs gradient-free optimization over held-out validation subsets to discover a diverse set of low-loss composition prototypes. It evaluates the preference of each prototype using the token-level negative log-likelihood of reference solutions, filters ambiguous assignments through a confidence margin, and distills the resulting pseudo-labels into a lightweight router. During inference, the router selects an appropriate composition prototype for each problem, enabling problem-specific utilization of atomic skills without costly online optimization. Experiments on the AtomicMath benchmark across general and mathematics-specialized LLMs demonstrate consistent improvements. On Qwen2.5-Math-Instruct-7B, AMR increases average field accuracy from 64.4% to 68.1% at Level 1 and from 59.3% to 63.7% at Level 2, while improving average logical reasoning performance from 39.4% to 46.8%. These results demonstrate that effectively composing specialized atomic skills provides a promising approach to strengthening mathematical reasoning in LLMs.",
+        "arxiv_id": "https://arxiv.org/abs/2611.24846",
+        "authors": [
+          {
+            "name": "Jiashu Li",
+            "orcid": null
+          },
+          {
+            "name": "Tianyu Gao",
+            "orcid": "https://orcid.org/0000-0002-5178-0866"
+          },
+          {
+            "name": "刘庆龙",
+            "orcid": null
+          },
+          {
+            "name": "Jinping Wang",
+            "orcid": null
+          },
+          {
+            "name": "Ye Wei",
+            "orcid": null
+          },
+          {
+            "name": "Zhiqiang Gao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.24846",
+        "landing_page": "https://arxiv.org/abs/2611.24846",
+        "open_access_url": "https://arxiv.org/abs/2611.24846",
+        "openalex_id": "https://openalex.org/W7236829450",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7236829450",
+        "publication_date": "2026-11-18",
+        "title": "Atomic MathReasoner: Instance-Level Composition of Atomic Reasoning Skills for Mathematical LLMs",
+        "venue": "arXiv (Cornell University)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-24T00:38:49.885170Z",
+      "status": "found"
     },
     "openalex:title:fba7af11db7dbaf16cf62b6e49916b6497acd26219d946bdd0c21b5aada6cd91": {
       "expires_at": "2026-10-12T01:13:26.819651Z",
