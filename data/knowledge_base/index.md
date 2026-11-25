@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`140`
-- 更新时间：`2026-11-24T00:39:34.083594Z`
+- 论文数：`141`
+- 更新时间：`2026-11-25T00:44:03.704161Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Breaking the cascade: compact nonlinear optical computing with single-layer encoder–decoder co-localization
+
+- DOI/链接：[10.1038/s41377-026-02560-7](https://doi.org/10.1038/s41377-026-02560-7)
+- 期刊/年份：Light: Science &amp; Applications，2026
+- 摘要日期：`2026-11-25`
+- 候选 ID：`0f1a5e84ef96f969a3a8a8c8`
+- 标签：application:任意实值带限非线性函数逼近, application:复杂值和多变量非线性函数仿真合成, application:常用神经网络激活函数合成, application:空间复用并行多函数计算, architecture:free_space, hardware_validation:physical_experiment, project:optical-neural-networks
 
 ### Optical Neural Network Equalizer Enabling Error-Free High-Speed Optical Transmission
 

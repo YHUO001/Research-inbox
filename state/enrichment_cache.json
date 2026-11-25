@@ -4866,6 +4866,44 @@
       "retrieved_at": "2026-08-23T00:32:33.635208Z",
       "status": "found"
     },
+    "crossref:doi:10.1038/s41377-026-02560-7": {
+      "expires_at": "2026-12-25T00:43:26.336278Z",
+      "record": {
+        "abstract": "Abstract Nonlinear computation is fundamental to information processing, yet optical implementations typically rely on either weak material nonlinearities or cascaded architectures that increase system complexity. Here, we demonstrate that nonlinear computing can be achieved with a single linear diffractive surface under coherent illumination. We introduce a compact encoder–decoder co-localization (E + D) architecture in which an input-dependent dynamic encoder and a static optimized decoder are integrated within the same phase-only diffractive plane. Following free-space propagation, coherent interference between the encoder and decoder fields, combined with intensity detection, generates programmable nonlinear input–output mappings without requiring nonlinear optical materials or multiple diffractive layers. We prove that the proposed E + D optical processor is a universal approximator for arbitrary real-valued band-limited nonlinear functions under coherent illumination and intensity-based readout, and identify the physical factors governing its approximation fidelity, including the decoder degrees of freedom, detector aperture, phase bit depth and axial propagation distance. This framework accurately synthesized diverse nonlinear functions, including commonly used neural activation functions as well as complex-valued and multi-variable nonlinear functions. Furthermore, we experimentally validate the proposed approach using a visible-light optical set-up trained through in situ learning, demonstrating the parallel approximation of 100 distinct nonlinear functions in a single optical forward pass, with highly stable operation over 12 h. By collapsing nonlinear optical computation into a single diffractive surface, the E + D architecture substantially reduces hardware and alignment complexity while preserving powerful function-approximation capabilities, providing a compact and scalable framework for analog information processing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yuntian Wang",
+            "orcid": null
+          },
+          {
+            "name": "Alexander Chen",
+            "orcid": null
+          },
+          {
+            "name": "Md Sadman Sakib Rahman",
+            "orcid": null
+          },
+          {
+            "name": "Aydogan Ozcan",
+            "orcid": "https://orcid.org/0000-0002-0717-683X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41377-026-02560-7",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02560-7",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41377-026-02560-7",
+        "publication_date": "2026-11-23",
+        "title": "Breaking the cascade: compact nonlinear optical computing with single-layer encoder–decoder co-localization",
+        "venue": "Light: Science &amp; Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:26.336278Z",
+      "status": "found"
+    },
     "crossref:doi:10.1038/s41378-026-01424-9": {
       "expires_at": "2026-10-02T01:02:17.928158Z",
       "record": {
@@ -5664,6 +5702,48 @@
       "retrieved_at": "2026-10-01T01:17:26.795127Z",
       "status": "found"
     },
+    "crossref:doi:10.1038/s44287-026-00352-0": {
+      "expires_at": "2026-12-25T00:43:27.841364Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xingchen Dong",
+            "orcid": "https://orcid.org/0000-0001-6734-7568"
+          },
+          {
+            "name": "Ali K. Yetisen",
+            "orcid": "https://orcid.org/0000-0003-0896-267X"
+          },
+          {
+            "name": "Martin Jakobi",
+            "orcid": null
+          },
+          {
+            "name": "Alexander W. Koch",
+            "orcid": null
+          },
+          {
+            "name": "Shiqiang Yang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s44287-026-00352-0",
+        "landing_page": "https://doi.org/10.1038/s44287-026-00352-0",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s44287-026-00352-0",
+        "publication_date": "2026-11-23",
+        "title": "Physically implemented nonlinear activation functions in optical neural networks",
+        "venue": "Nature Reviews Electrical Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:27.841364Z",
+      "status": "found"
+    },
     "crossref:doi:10.1038/s44335-026-00086-0": {
       "expires_at": "2026-09-17T04:25:11.992281Z",
       "record": {
@@ -5812,6 +5892,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-25T01:05:09.380661Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1038/s44387-026-00175-2": {
+      "expires_at": "2026-12-25T00:43:26.783773Z",
+      "record": {
+        "abstract": "Abstract The energy consumption of inference has become critically important with the growing adoption of deep neural networks (DNNs). Analog optical neural networks (ONNs) can reduce the energy of matrix-vector multiplication below that of digital electronics. However, this promise is limited by digital-to-analog (DAC) conversion: even at low bit precision b , encoding the 2 b levels of weights and inputs into the analog domain requires specialized, power-hungry electronics. Quadrature-Amplitude Modulation (QAM), the dominant format in modern telecommunications, encodes information on both the in-phase and quadrature axes of a carrier. A consequence of this two-dimensional signaling is a quadratic O ( N 2 ) → O ( N ) saving in modulation energy over intensity-only modulation. Inspired by this advantage, we introduce QAMNet, an ONN architecture and hardware that fully utilizes the complex amplitude of light with QAM to achieve superior modulation-energy scaling. Using physics-based simulations of conventional telecommunications equipment, we show that QAMNet accelerates complex-valued DNNs with accuracies indistinguishable from digital hardware. Compared to standard ONNs, QAMNet ONNs: (1) attain higher accuracy above moderate total bit precision, (2) are more accurate above low energy budgets, and (3) are optimal when hardware bit precision is limited.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Marc Gong Bacvanski",
+            "orcid": "https://orcid.org/0000-0001-6789-2523"
+          },
+          {
+            "name": "Sri Krishna Vadlamani",
+            "orcid": null
+          },
+          {
+            "name": "Kfir Sulimany",
+            "orcid": null
+          },
+          {
+            "name": "Dirk Robert Englund",
+            "orcid": "https://orcid.org/0000-0002-1043-3489"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s44387-026-00175-2",
+        "landing_page": "https://doi.org/10.1038/s44387-026-00175-2",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s44387-026-00175-2",
+        "publication_date": "2026-11-23",
+        "title": "QAMNet: Co-designing deep learning with complex-valued computing machines",
+        "venue": "npj Artificial Intelligence",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:26.783773Z",
       "status": "found"
     },
     "crossref:doi:10.1039/d6cp02326f/13779554/d6cp02326f": {
@@ -8124,6 +8242,76 @@
       "retrieved_at": "2026-10-05T01:13:28.236353Z",
       "status": "found"
     },
+    "crossref:doi:10.1145/3871040": {
+      "expires_at": "2026-12-25T00:43:25.759358Z",
+      "record": {
+        "abstract": "With the boom of artificial intelligence, multimodal deep learning, especially large language models (LLMs), has advanced remarkably and found wide applications. However, adversarial security issues hamper further development on LLMs. This paper comprehensively reviews adversarial attacks on vision-language multimodal systems (VLMS), covering key aspects such as pretrained models, large language models, adversarial attack methodologies, defense strategies, benchmark datasets, downstream tasks, and evaluation metrics. It first details multimodal deep-learning key technologies and the features of relevant models. Then, it deeply analyzes the adversarial vulnerabilities of VLMS. Next, it systematically reviews various adversarial attack methods and defend strategies in multimodal systems, covering task-specific attacks and attacks on different models, with a detailed analysis of their principles, implementations, and effects. Finally, it looks ahead to the future of multimodal adversarial attacks, suggesting research directions like improving attack universality and compliance considerations. This review offers technical references, promotes research on multimodal adversarial attacks, and helps enhance VLMS security for reliable real-world applications. The latest papers on VLMS adversarial attacks are continuously collected in https://github.com/chilljudaoren/A-Survey-of-Adversarial-Attack.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yaguan Qian",
+            "orcid": "https://orcid.org/0000-0003-4056-9755"
+          },
+          {
+            "name": "Zhihao Chen",
+            "orcid": "https://orcid.org/0009-0008-8797-1059"
+          },
+          {
+            "name": "Qiqi Bao",
+            "orcid": "https://orcid.org/0009-0004-1703-6090"
+          },
+          {
+            "name": "Yan Gan",
+            "orcid": "https://orcid.org/0000-0002-6716-0039"
+          },
+          {
+            "name": "Chenhao Lin",
+            "orcid": "https://orcid.org/0000-0002-1855-1455"
+          },
+          {
+            "name": "Shuo Wang",
+            "orcid": "https://orcid.org/0000-0001-8938-2364"
+          },
+          {
+            "name": "Jiali Yin",
+            "orcid": "https://orcid.org/0000-0002-8087-9769"
+          },
+          {
+            "name": "Hegui Zhu",
+            "orcid": "https://orcid.org/0000-0002-6501-4097"
+          },
+          {
+            "name": "Shouling Ji",
+            "orcid": "https://orcid.org/0000-0003-4268-372X"
+          },
+          {
+            "name": "Wei Wang",
+            "orcid": "https://orcid.org/0000-0002-5974-1589"
+          },
+          {
+            "name": "Bin Wang",
+            "orcid": "https://orcid.org/0000-0002-3790-2708"
+          },
+          {
+            "name": "Zhaoquan Gu",
+            "orcid": "https://orcid.org/0000-0001-7546-852X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3871040",
+        "landing_page": "https://doi.org/10.1145/3871040",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1145/3871040",
+        "publication_date": "2026-11-21",
+        "title": "Adversarial Attacks on Vision-Language Multimodal Systems: A Survey",
+        "venue": "ACM Transactions on Privacy and Security",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:25.759358Z",
+      "status": "found"
+    },
     "crossref:doi:10.1177/01617346261495108": {
       "expires_at": "2026-12-14T00:39:46.616773Z",
       "record": {
@@ -8492,6 +8680,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-29T00:48:01.211759Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1364/ao.613715": {
+      "expires_at": "2026-12-25T00:43:27.279594Z",
+      "record": {
+        "abstract": "Hyperspectral imaging enables spatial classification using spectral information; however, most processing pipelines acquire spatio-spectral information without optimizing the hardware for the high-level task. This work presents a task-oriented diffractive-optics framework for spatial classification in which a diffractive optical element (DOE) and a segmentation network are jointly optimized through a differentiable incoherent intensity-PSF imaging model. Building on prior end-to-end optical co-design, the main contribution is not differentiable optical optimization itself but a spectral separability regularizer for hyperspectral classification, computed from class-wise mean measurement signatures and maximized during training to promote class separability. Experiments on hyperspectral data evaluate multiple numbers of sensor channels and two initialization strategies, quantifying the benefit of the regularized, jointly optimized design relative to a frozen optical baseline whose phase is never updated, and the incremental contribution of the regularizer relative to the same design trained without it. With B =100 sensor channels, in-focus initialization, and the operating point selected by validation accuracy, test accuracy reaches 88.9%, 1.7 percentage points above the frozen in-focus optical baseline and 2.3 percentage points above the same jointly optimized design trained without the regularizer; this benefit is band-dependent and vanishes once the sensor channel count no longer constitutes a spectral bottleneck.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sebastian Ardila",
+            "orcid": "https://orcid.org/0009-0009-4545-1706"
+          },
+          {
+            "name": "Hans Garcia",
+            "orcid": "https://orcid.org/0000-0001-6542-1680"
+          },
+          {
+            "name": "Pablo Gómez",
+            "orcid": "https://orcid.org/0000-0003-2980-3854"
+          },
+          {
+            "name": "Laura Galvis",
+            "orcid": "https://orcid.org/0000-0002-9232-7865"
+          },
+          {
+            "name": "Henry Arguello",
+            "orcid": "https://orcid.org/0000-0002-2202-253X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/ao.613715",
+        "landing_page": "https://doi.org/10.1364/ao.613715",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1364/ao.613715",
+        "publication_date": "2026-12-01",
+        "title": "End-to-end diffractive optics with spectral separability regularization for spatial classification",
+        "venue": "Applied Optics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:27.279594Z",
       "status": "found"
     },
     "crossref:doi:10.1364/oe.605087": {
@@ -9165,6 +9395,48 @@
       "record": null,
       "retrieved_at": "2026-10-22T00:59:18.837423Z",
       "status": "not_found"
+    },
+    "crossref:doi:10.1515/joc-2026-0436": {
+      "expires_at": "2026-12-25T00:43:34.946784Z",
+      "record": {
+        "abstract": "Abstract Free-space optical (FSO) communication provides high-capacity wireless connectivity but is strongly affected by atmospheric turbulence, which causes beam distortion, signal fluctuations, and communication degradation. This paper proposes a deep neural network (DNN)-based atmospheric turbulence compensation technique to improve FSO link performance under varying turbulence conditions. The proposed model learns the nonlinear relationship between turbulence-induced impairments and received signal characteristics to generate improved compensated signals. Performance is evaluated using Q-factor, bit error rate (BER), received signal-to-noise ratio (SNR), and mean squared error (MSE) for different turbulence strengths and transmission distances. The results show that, at the C n 2 = 8 × 10 − 17 m − 2 / 3 ${C}_{n}^{2}=8\\times {10}^{-17}{\\mathrm{m}}^{-2/3}$ turbulence strength, the proposed method achieves a Q-factor of approximately 18.5 dB, compared with 14.5 dB for conventional compensation and 10 dB without compensation. At 10 km, the proposed approach achieves a BER of approximately 3 × 10 −3 , compared with 2.5 × 10 −2 and 1 × 10 −1 for conventional and uncompensated systems, respectively. The MSE is reduced to approximately 0.07 at the highest turbulence level. The model also achieves approximately 99 % training accuracy and 97–98 % validation accuracy. These results demonstrate that the proposed DNN-based compensation effectively mitigates atmospheric turbulence and improves the reliability of long-range FSO communication links.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sharayu Suresh Phatangare",
+            "orcid": null
+          },
+          {
+            "name": "Pankaj Kumar Sharma",
+            "orcid": null
+          },
+          {
+            "name": "Anurag Tewari",
+            "orcid": null
+          },
+          {
+            "name": "Anubhav Bewerwal",
+            "orcid": null
+          },
+          {
+            "name": "Aparna Tiwari",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1515/joc-2026-0436",
+        "landing_page": "https://doi.org/10.1515/joc-2026-0436",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1515/joc-2026-0436",
+        "publication_date": "2026-11-24",
+        "title": "AI-assisted atmospheric turbulence mitigation for reliable free-space optical communication",
+        "venue": "Journal of Optical Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:34.946784Z",
+      "status": "found"
     },
     "crossref:doi:10.15918/j.jbit1004-0579.2025.092": {
       "expires_at": "2026-10-12T00:59:37.327057Z",
@@ -10090,6 +10362,27 @@
       "retrieved_at": "2026-11-06T00:41:01.955679Z",
       "status": "found"
     },
+    "crossref:doi:10.6084/m9.figshare.34949947": {
+      "expires_at": "2026-12-25T00:43:35.517890Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [],
+        "cited_by_count": 0,
+        "doi": "10.6084/m9.figshare.34949947",
+        "landing_page": "https://doi.org/10.6084/m9.figshare.34949947",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.6084/m9.figshare.34949947",
+        "publication_date": null,
+        "title": null,
+        "venue": null,
+        "year": null
+      },
+      "retrieved_at": "2026-11-25T00:43:35.517890Z",
+      "status": "found"
+    },
     "crossref:doi:10.6084/m9.figshare.c.8610155.v1": {
       "expires_at": "2026-10-14T01:07:35.185501Z",
       "record": null,
@@ -10402,6 +10695,40 @@
       "record": null,
       "retrieved_at": "2026-09-18T01:02:21.025212Z",
       "status": "not_found"
+    },
+    "crossref:title:049d701233498e2d8422525294feefdd208a1a246fef8d46c47df840df523312": {
+      "expires_at": "2026-12-02T00:43:34.462736Z",
+      "record": {
+        "abstract": "Variational quantum eigensolver (VQE) optimizer rankings depend on evaluation budgets and energy estimation. We compare ten metaheuristics with Hooke–Jeeves and Nelder–Mead on four-qubit H2 and LiH Hamiltonians, using six fixed ansatz masks and ten paired seeds. Ideal runs use 1000 or 300 evaluations; 256-shot and fixed-rate depolarizing runs use 300. Each method–molecule–regime combination contains 60 paired seed–mask observations. Among the metaheuristics, CMA-ES has the lowest mean block rank in both ideal-at-1000 cases, whereas ACOR leads all six 300-evaluation cases. Hooke–Jeeves outranks every metaheuristic in seven of eight molecule–regime combinations. Relative to the matched ideal control, the Spearman correlations of method mean ranks are 0.57 for H2 and 0.38 for LiH under finite shots, compared with 0.94 and 0.95 under depolarization. Exact noiseless rescoring preserves this rank contrast and identifies 40 successful parameter vectors from the depolarizing runs at the 10−3-Ha error threshold. Nelder–Mead ranks last under finite shots for both molecules. Mean-error and seed-aggregated rankings sometimes identify different leaders. A single job on one IBM Quantum superconducting processor evaluated 24 frozen-parameter circuits after noiseless MATLAB–Qiskit checks; those hardware measurements are descriptive and cannot establish a stable optimizer ordering. The observed rankings are specific to the tested circuits, estimators, and budgets.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sercan Demirci",
+            "orcid": "https://orcid.org/0000-0001-6739-7653"
+          },
+          {
+            "name": "Durmuş Özkan Şahin",
+            "orcid": "https://orcid.org/0000-0002-0831-7825"
+          },
+          {
+            "name": "Gökhan Kayhan",
+            "orcid": "https://orcid.org/0000-0003-3391-0097"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/biomimetics11110847",
+        "landing_page": "https://doi.org/10.3390/biomimetics11110847",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/biomimetics11110847",
+        "publication_date": "2026-11-20",
+        "title": "A Multi-Regime Benchmark of Metaheuristic Optimizers for Molecular Quantum Circuits",
+        "venue": "Biomimetics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:34.462736Z",
+      "status": "found"
     },
     "crossref:title:04ada98c8d6d731d4ac118440a3b7f1869d78265ef881e44592a33b7dc383c9b": {
       "expires_at": "2026-10-02T01:02:49.342934Z",
@@ -12375,6 +12702,12 @@
       "retrieved_at": "2026-10-18T01:05:05.467806Z",
       "status": "not_found"
     },
+    "crossref:title:36fa08988b49f439add4bb9c4fba71fba6b4903eed7a208735eeac4497b73672": {
+      "expires_at": "2026-12-02T00:43:32.700455Z",
+      "record": null,
+      "retrieved_at": "2026-11-25T00:43:32.700455Z",
+      "status": "not_found"
+    },
     "crossref:title:36ff52213b3db852709490b239eb86cf38d077c018bb8dff6fd5e206a2394ce8": {
       "expires_at": "2026-12-01T00:38:57.986929Z",
       "record": null,
@@ -13667,6 +14000,12 @@
       "retrieved_at": "2026-08-18T04:25:17.684612Z",
       "status": "found"
     },
+    "crossref:title:5ccab173cbe0268d6d6f7b6328e14db90a3795624295dd559365454c0672cd59": {
+      "expires_at": "2026-12-02T00:43:29.278195Z",
+      "record": null,
+      "retrieved_at": "2026-11-25T00:43:29.278195Z",
+      "status": "not_found"
+    },
     "crossref:title:5d31563a0cb0f13d3176b86b3777a592451f9621db32e8f594764170ac2cec4a": {
       "expires_at": "2026-10-10T01:04:33.724414Z",
       "record": null,
@@ -14821,6 +15160,12 @@
       "retrieved_at": "2026-10-15T00:58:17.323888Z",
       "status": "not_found"
     },
+    "crossref:title:841e9c24117ebf1f64c75b880121a80d169fd178e16731ba0797a9c480539769": {
+      "expires_at": "2026-12-02T00:43:36.885251Z",
+      "record": null,
+      "retrieved_at": "2026-11-25T00:43:36.885251Z",
+      "status": "not_found"
+    },
     "crossref:title:849250f9042d4d1b1371df2dcf6d39f99be3ebe04fa2724789d7bbcde523a6ea": {
       "expires_at": "2026-09-05T00:54:08.565887Z",
       "record": null,
@@ -15303,6 +15648,32 @@
         "year": 2027
       },
       "retrieved_at": "2026-09-25T01:02:48.104006Z",
+      "status": "found"
+    },
+    "crossref:title:91dbaf219f0358a64660ad3d7d78e548569cfbd1224d11b4024c099ae45e5bec": {
+      "expires_at": "2026-12-02T00:43:25.221082Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Randy Stefan Tanuwijaya",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.14711/thesis-hdl174828",
+        "landing_page": "https://doi.org/10.14711/thesis-hdl174828",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.14711/thesis-hdl174828",
+        "publication_date": null,
+        "title": "Metasurfaces for Optical Computing and Holography: From the Classical to the Quantum Regime",
+        "venue": null,
+        "year": null
+      },
+      "retrieved_at": "2026-11-25T00:43:25.221082Z",
       "status": "found"
     },
     "crossref:title:929f7f41a524e231d5b9648a6d50bf54725da5a7741153f019e519531d57830a": {
@@ -17814,6 +18185,72 @@
       "record": null,
       "retrieved_at": "2026-11-15T00:44:07.817441Z",
       "status": "not_found"
+    },
+    "crossref:title:db814567e03282a67f91c880bc4e3d9fd476697ac9d45e110be5babf19347a14": {
+      "expires_at": "2026-12-02T00:43:30.770694Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yutong Liu",
+            "orcid": null
+          },
+          {
+            "name": "Mingxiang Yang",
+            "orcid": null
+          },
+          {
+            "name": "Yuan Gao",
+            "orcid": null
+          },
+          {
+            "name": "Wujie Fu",
+            "orcid": null
+          },
+          {
+            "name": "Zifeng Yuan",
+            "orcid": null
+          },
+          {
+            "name": "Minghao Shang",
+            "orcid": null
+          },
+          {
+            "name": "Yunjie Yan",
+            "orcid": null
+          },
+          {
+            "name": "Zhenlin Wu",
+            "orcid": null
+          },
+          {
+            "name": "Yiying Gu",
+            "orcid": null
+          },
+          {
+            "name": "Mingshan Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Aaron Danner",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optcom.2026.133995",
+        "landing_page": "https://doi.org/10.1016/j.optcom.2026.133995",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.optcom.2026.133995",
+        "publication_date": "2026-11",
+        "title": "Inverse design of multimode interference couplers for optoelectronic convolutional neural networks",
+        "venue": "Optics Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:30.770694Z",
+      "status": "found"
     },
     "crossref:title:db822be0c4fb9ec39b46cafbc7ddba35220ed79f7b9d4770d9b067f12173c050": {
       "expires_at": "2026-08-17T00:36:44.025497Z",
@@ -24215,6 +24652,72 @@
       "retrieved_at": "2026-11-07T00:39:29.365536Z",
       "status": "found"
     },
+    "openalex:doi:10.1016/j.optcom.2026.133995": {
+      "expires_at": "2026-12-25T00:43:31.034686Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yutong Liu",
+            "orcid": null
+          },
+          {
+            "name": "Mingxiang Yang",
+            "orcid": null
+          },
+          {
+            "name": "Yuan Gao",
+            "orcid": "https://orcid.org/0000-0002-0832-2982"
+          },
+          {
+            "name": "Wujie Fu",
+            "orcid": "https://orcid.org/0000-0003-1208-4259"
+          },
+          {
+            "name": "Zifeng Yuan",
+            "orcid": null
+          },
+          {
+            "name": "Minghao Shang",
+            "orcid": null
+          },
+          {
+            "name": "Yunjie Yan",
+            "orcid": null
+          },
+          {
+            "name": "Zhenlin Wu",
+            "orcid": "https://orcid.org/0000-0003-1999-065X"
+          },
+          {
+            "name": "Yiying Gu",
+            "orcid": null
+          },
+          {
+            "name": "Mingshan Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Aaron Danner",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.optcom.2026.133995",
+        "landing_page": "https://doi.org/10.1016/j.optcom.2026.133995",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7237231544",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7237231544",
+        "publication_date": "2026-11-01",
+        "title": "Inverse design of multimode interference couplers for optoelectronic convolutional neural networks",
+        "venue": "Optics Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:31.034686Z",
+      "status": "found"
+    },
     "openalex:doi:10.1016/j.optlaseng.2026.110178": {
       "expires_at": "2026-11-19T01:00:39.352004Z",
       "record": {
@@ -25523,6 +26026,44 @@
       "retrieved_at": "2026-08-23T00:32:34.031968Z",
       "status": "found"
     },
+    "openalex:doi:10.1038/s41377-026-02560-7": {
+      "expires_at": "2026-12-25T00:43:26.582246Z",
+      "record": {
+        "abstract": "Nonlinear computation is fundamental to information processing, yet optical implementations typically rely on either weak material nonlinearities or cascaded architectures that increase system complexity. Here, we demonstrate that nonlinear computing can be achieved with a single linear diffractive surface under coherent illumination. We introduce a compact encoder–decoder co-localization (E + D) architecture in which an input-dependent dynamic encoder and a static optimized decoder are integrated within the same phase-only diffractive plane. Following free-space propagation, coherent interference between the encoder and decoder fields, combined with intensity detection, generates programmable nonlinear input–output mappings without requiring nonlinear optical materials or multiple diffractive layers. We prove that the proposed E + D optical processor is a universal approximator for arbitrary real-valued band-limited nonlinear functions under coherent illumination and intensity-based readout, and identify the physical factors governing its approximation fidelity, including the decoder degrees of freedom, detector aperture, phase bit depth and axial propagation distance. This framework accurately synthesized diverse nonlinear functions, including commonly used neural activation functions as well as complex-valued and multi-variable nonlinear functions. Furthermore, we experimentally validate the proposed approach using a visible-light optical set-up trained through in situ learning, demonstrating the parallel approximation of 100 distinct nonlinear functions in a single optical forward pass, with highly stable operation over 12 h. By collapsing nonlinear optical computation into a single diffractive surface, the E + D architecture substantially reduces hardware and alignment complexity while preserving powerful function-approximation capabilities, providing a compact and scalable framework for analog information processing.",
+        "arxiv_id": "https://arxiv.org/abs/2606.01032",
+        "authors": [
+          {
+            "name": "Yuntian Wang",
+            "orcid": null
+          },
+          {
+            "name": "Alexander Chen",
+            "orcid": null
+          },
+          {
+            "name": "Md Sadman Sakib Rahman",
+            "orcid": null
+          },
+          {
+            "name": "Aydogan Özcan",
+            "orcid": "https://orcid.org/0000-0002-0717-683X"
+          }
+        ],
+        "cited_by_count": 4,
+        "doi": "10.1038/s41377-026-02560-7",
+        "landing_page": "https://doi.org/10.1038/s41377-026-02560-7",
+        "open_access_url": "https://doi.org/10.1038/s41377-026-02560-7",
+        "openalex_id": "https://openalex.org/W7163171898",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7163171898",
+        "publication_date": "2026-11-23",
+        "title": "Breaking the cascade: compact nonlinear optical computing with single-layer encoder–decoder co-localization",
+        "venue": "Light Science & Applications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:26.582246Z",
+      "status": "found"
+    },
     "openalex:doi:10.1038/s41378-026-01424-9": {
       "expires_at": "2026-10-02T01:02:18.300417Z",
       "record": {
@@ -26667,6 +27208,48 @@
       "retrieved_at": "2026-10-09T01:12:18.583070Z",
       "status": "found"
     },
+    "openalex:doi:10.1038/s44287-026-00352-0": {
+      "expires_at": "2026-12-25T00:43:28.104429Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Xingchen Dong",
+            "orcid": "https://orcid.org/0000-0001-6734-7568"
+          },
+          {
+            "name": "Ali K. Yetisen",
+            "orcid": "https://orcid.org/0000-0003-0896-267X"
+          },
+          {
+            "name": "Martin Jakobi",
+            "orcid": "https://orcid.org/0000-0003-4391-6118"
+          },
+          {
+            "name": "Alexander Walter Koch",
+            "orcid": "https://orcid.org/0000-0003-3970-6951"
+          },
+          {
+            "name": "Shiqiang Yang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s44287-026-00352-0",
+        "landing_page": "https://doi.org/10.1038/s44287-026-00352-0",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7238890812",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7238890812",
+        "publication_date": "2026-11-23",
+        "title": "Physically implemented nonlinear activation functions in optical neural networks",
+        "venue": "Nature Reviews Electrical Engineering",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:28.104429Z",
+      "status": "found"
+    },
     "openalex:doi:10.1038/s44310-026-00146-0": {
       "expires_at": "2026-09-21T00:32:16.045075Z",
       "record": {
@@ -26857,6 +27440,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-25T01:05:09.757617Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1038/s44387-026-00175-2": {
+      "expires_at": "2026-12-25T00:43:27.050114Z",
+      "record": {
+        "abstract": "The energy consumption of inference has become critically important with the growing adoption of deep neural networks (DNNs). Analog optical neural networks (ONNs) can reduce the energy of matrix-vector multiplication below that of digital electronics. However, this promise is limited by digital-to-analog (DAC) conversion: even at low bit precision b , encoding the 2 b levels of weights and inputs into the analog domain requires specialized, power-hungry electronics. Quadrature-Amplitude Modulation (QAM), the dominant format in modern telecommunications, encodes information on both the in-phase and quadrature axes of a carrier. A consequence of this two-dimensional signaling is a quadratic O ( N 2 ) → O ( N ) saving in modulation energy over intensity-only modulation. Inspired by this advantage, we introduce QAMNet, an ONN architecture and hardware that fully utilizes the complex amplitude of light with QAM to achieve superior modulation-energy scaling. Using physics-based simulations of conventional telecommunications equipment, we show that QAMNet accelerates complex-valued DNNs with accuracies indistinguishable from digital hardware. Compared to standard ONNs, QAMNet ONNs: (1) attain higher accuracy above moderate total bit precision, (2) are more accurate above low energy budgets, and (3) are optimal when hardware bit precision is limited.",
+        "arxiv_id": "https://arxiv.org/abs/2409.12305",
+        "authors": [
+          {
+            "name": "Marc Gong Bacvanski",
+            "orcid": null
+          },
+          {
+            "name": "Sri Krishna Vadlamani",
+            "orcid": "https://orcid.org/0000-0003-4602-0771"
+          },
+          {
+            "name": "Kfir Sulimany",
+            "orcid": "https://orcid.org/0000-0003-0594-6236"
+          },
+          {
+            "name": "Dirk Robert Englund",
+            "orcid": "https://orcid.org/0000-0002-1043-3489"
+          }
+        ],
+        "cited_by_count": 3,
+        "doi": "10.1038/s44387-026-00175-2",
+        "landing_page": "https://doi.org/10.1038/s44387-026-00175-2",
+        "open_access_url": "https://doi.org/10.1038/s44387-026-00175-2",
+        "openalex_id": "https://openalex.org/W4403713482",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W4403713482",
+        "publication_date": "2026-11-23",
+        "title": "QAMNet: Co-designing deep learning with complex-valued computing machines",
+        "venue": "npj Artificial Intelligence",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:27.050114Z",
       "status": "found"
     },
     "openalex:doi:10.1038/s44455-026-00039-4": {
@@ -31869,6 +32490,76 @@
       "retrieved_at": "2026-10-05T01:13:28.608457Z",
       "status": "found"
     },
+    "openalex:doi:10.1145/3871040": {
+      "expires_at": "2026-12-25T00:43:26.096212Z",
+      "record": {
+        "abstract": "With the boom of artificial intelligence, multimodal deep learning, especially large language models (LLMs), has advanced remarkably and found wide applications. However, adversarial security issues hamper further development on LLMs. This paper comprehensively reviews adversarial attacks on vision-language multimodal systems (VLMS), covering key aspects such as pretrained models, large language models, adversarial attack methodologies, defense strategies, benchmark datasets, downstream tasks, and evaluation metrics. It first details multimodal deep-learning key technologies and the features of relevant models. Then, it deeply analyzes the adversarial vulnerabilities of VLMS. Next, it systematically reviews various adversarial attack methods and defend strategies in multimodal systems, covering task-specific attacks and attacks on different models, with a detailed analysis of their principles, implementations, and effects. Finally, it looks ahead to the future of multimodal adversarial attacks, suggesting research directions like improving attack universality and compliance considerations. This review offers technical references, promotes research on multimodal adversarial attacks, and helps enhance VLMS security for reliable real-world applications. The latest papers on VLMS adversarial attacks are continuously collected in https://github.com/chilljudaoren/A-Survey-of-Adversarial-Attack.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yaguan Qian",
+            "orcid": "https://orcid.org/0000-0003-4056-9755"
+          },
+          {
+            "name": "Zhihao Chen",
+            "orcid": "https://orcid.org/0009-0008-8797-1059"
+          },
+          {
+            "name": "Qiqi Bao",
+            "orcid": "https://orcid.org/0009-0004-1703-6090"
+          },
+          {
+            "name": "Yan Gan",
+            "orcid": "https://orcid.org/0000-0002-6716-0039"
+          },
+          {
+            "name": "Chenhao Lin",
+            "orcid": "https://orcid.org/0000-0002-6265-7345"
+          },
+          {
+            "name": "Shuo Wang",
+            "orcid": "https://orcid.org/0000-0001-8938-2364"
+          },
+          {
+            "name": "Jia-Li Yin",
+            "orcid": "https://orcid.org/0000-0002-8087-9769"
+          },
+          {
+            "name": "Hegui Zhu",
+            "orcid": "https://orcid.org/0000-0002-6501-4097"
+          },
+          {
+            "name": "Shouling Ji",
+            "orcid": "https://orcid.org/0000-0003-4268-372X"
+          },
+          {
+            "name": "Wei Wang",
+            "orcid": "https://orcid.org/0000-0002-5974-1589"
+          },
+          {
+            "name": "Bin Wang",
+            "orcid": "https://orcid.org/0000-0002-3790-2708"
+          },
+          {
+            "name": "Zhaoquan Gu",
+            "orcid": "https://orcid.org/0000-0001-7546-852X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1145/3871040",
+        "landing_page": "https://doi.org/10.1145/3871040",
+        "open_access_url": "https://doi.org/10.1145/3871040",
+        "openalex_id": "https://openalex.org/W7237366588",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7237366588",
+        "publication_date": "2026-11-21",
+        "title": "Adversarial Attacks on Vision-Language Multimodal Systems: A Survey",
+        "venue": "ACM Transactions on Privacy and Security",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:26.096212Z",
+      "status": "found"
+    },
     "openalex:doi:10.1177/01617346261495108": {
       "expires_at": "2026-12-14T00:39:46.903652Z",
       "record": {
@@ -32363,6 +33054,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-09T01:12:20.033679Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1364/ao.613715": {
+      "expires_at": "2026-12-25T00:43:27.502143Z",
+      "record": {
+        "abstract": "Hyperspectral imaging enables spatial classification using spectral information; however, most processing pipelines acquire spatio-spectral information without optimizing the hardware for the high-level task. This work presents a task-oriented diffractive-optics framework for spatial classification in which a diffractive optical element (DOE) and a segmentation network are jointly optimized through a differentiable incoherent intensity-PSF imaging model. Building on prior end-to-end optical co-design, the main contribution is not differentiable optical optimization itself but a spectral separability regularizer for hyperspectral classification, computed from class-wise mean measurement signatures and maximized during training to promote class separability. Experiments on hyperspectral data evaluate multiple numbers of sensor channels and two initialization strategies, quantifying the benefit of the regularized, jointly optimized design relative to a frozen optical baseline whose phase is never updated, and the incremental contribution of the regularizer relative to the same design trained without it. With B =100 sensor channels, in-focus initialization, and the operating point selected by validation accuracy, test accuracy reaches 88.9%, 1.7 percentage points above the frozen in-focus optical baseline and 2.3 percentage points above the same jointly optimized design trained without the regularizer; this benefit is band-dependent and vanishes once the sensor channel count no longer constitutes a spectral bottleneck.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sebastian Leal",
+            "orcid": "https://orcid.org/0000-0002-7311-1719"
+          },
+          {
+            "name": "Hans García",
+            "orcid": "https://orcid.org/0000-0001-6542-1680"
+          },
+          {
+            "name": "Pablo Gomez",
+            "orcid": "https://orcid.org/0000-0003-2980-3854"
+          },
+          {
+            "name": "Laura Galvis Carreno",
+            "orcid": null
+          },
+          {
+            "name": "Henry Arguello",
+            "orcid": "https://orcid.org/0000-0002-2202-253X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1364/ao.613715",
+        "landing_page": "https://doi.org/10.1364/ao.613715",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7225337427",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225337427",
+        "publication_date": "2026-11-23",
+        "title": "End-to-end diffractive optics with spectral separability regularization for spatial classification",
+        "venue": "Applied Optics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:27.502143Z",
       "status": "found"
     },
     "openalex:doi:10.1364/cleo_at.2026.atu1e.6": {
@@ -33909,6 +34642,32 @@
       "retrieved_at": "2026-08-30T01:05:16.268118Z",
       "status": "found"
     },
+    "openalex:doi:10.14711/thesis-hdl174828": {
+      "expires_at": "2026-12-25T00:43:25.463609Z",
+      "record": {
+        "abstract": "The exponential growth of artificial intelligence demand has rapidly outpaced the available processing and energy capacity of the modern digital computing infrastructure. Optical computing has emerged as a promising platform for information processing, offering inherent advantages in parallelism, power efficiency, and low-latency. Metasurfaces, composed of subwavelength arrays of nanostructures, emerged as a compact and viable platform for this application, capable of sculpting light with tailor-made amplitude, phase, and polarization. In this thesis, I present an exploration of metasurface-based optical computing, advancing from individual meta-atom design toward a multi-functional, errortolerant, and scalable platform for both classical and quantum information processing. This thesis begins by establishing the physical and numerical foundations of metasurface design, including Jones calculus, meta-atom designs, numerical tools, and fabrication techniques. Building upon these foundations, I introduce a metalens array platform for performing complex-valued matrix-vector multiplication (MVM) in the optical domain. A single-layer metalens array is experimentally demonstrated to execute the discrete Fourier transform (DFT) with interferometric phase retrieval and a pixel-level error-mitigation scheme. The same architecture is extended to matrix-matrix multiplication, implementing a two-pass optical JPEG compression algorithm based on the two-dimensional discrete cosine transform. The ability to select different sets of input and output channels is further exploited to simulate quantum algorithms, including Grover’s search and the quantum Fourier transform, with the results validated using both classical and heralded single-photon sources. To address the limitations of forward-design and single-layer designs, specifically interference artifacts and sensitivity to pixel-level alignment, the thesis introduces a multi-layer holographic metasurface design via stochastic gradient descent (SGD) for complex holography. This starts by a simple demonstration of generating complex-valued holograms, a task conventionally constrained by the limited phase-only modulation of single interfaces. Then, the thesis extends this methodology to dual-layer, which effectively suppresses unwanted diffraction and eliminates the vortex-like artifacts encountered in the previous single-layer design, resulting in a more robust platform for complex-valued MVM. Furthermore, the thesis explores the application of metasurfaces in the quantum regime to demonstrate the generation and reconstruction of Bell-state holograms. In the last results chapter, the thesis shifts the interest to optimize and scale the methodology towards a larger scale computation. In this regard, a graph-theoretical optimization framework is then developed to minimize the physical footprint of metalens arrays required for simulating open quantum systems. Finally, the thesis addresses the nonlinearity gap in optical computing by proposing intensity-based projection layers as effective nonlinear activations. This framework enables the construction of complex-valued neural networks capable of image classification, reconstruction, and parameter extraction with accuracy comparable to conventional ones. This approach is also useful to show that the same active linear optical elements can be used to implement deep neural networks. Collectively, this thesis establishes metasurfaces not merely as flat optical components, but as a foundational element for the next generation of hybrid optoelectronic computing. The findings and methodology presented here provide a scalable path toward future photonic processors capable of meeting the computational throughput and efficiency demands of the future.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Randy Stefan Tanuwijaya",
+            "orcid": "https://orcid.org/0000-0002-3542-3199"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.14711/thesis-hdl174828",
+        "landing_page": "https://doi.org/10.14711/thesis-hdl174828",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7213497410",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7213497410",
+        "publication_date": "2026-01-01",
+        "title": "Metasurfaces for Optical Computing and Holography: From the Classical to the Quantum Regime",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:25.463609Z",
+      "status": "found"
+    },
     "openalex:doi:10.15129/03da6800-c038-4038-afc1-ded6006805b7": {
       "expires_at": "2026-11-21T00:59:19.159472Z",
       "record": {
@@ -33933,6 +34692,48 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-22T00:59:19.159472Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1515/joc-2026-0436": {
+      "expires_at": "2026-12-25T00:43:35.301163Z",
+      "record": {
+        "abstract": "Free-space optical (FSO) communication provides high-capacity wireless connectivity but is strongly affected by atmospheric turbulence, which causes beam distortion, signal fluctuations, and communication degradation. This paper proposes a deep neural network (DNN)-based atmospheric turbulence compensation technique to improve FSO link performance under varying turbulence conditions. The proposed model learns the nonlinear relationship between turbulence-induced impairments and received signal characteristics to generate improved compensated signals. Performance is evaluated using Q-factor, bit error rate (BER), received signal-to-noise ratio (SNR), and mean squared error (MSE) for different turbulence strengths and transmission distances. The results show that, at the C n 2 = 8 × 10 − 17 m − 2 / 3 ${C}_{n}^{2}=8\\times {10}^{-17}{\\mathrm{m}}^{-2/3}$ turbulence strength, the proposed method achieves a Q-factor of approximately 18.5 dB, compared with 14.5 dB for conventional compensation and 10 dB without compensation. At 10 km, the proposed approach achieves a BER of approximately 3 × 10 −3 , compared with 2.5 × 10 −2 and 1 × 10 −1 for conventional and uncompensated systems, respectively. The MSE is reduced to approximately 0.07 at the highest turbulence level. The model also achieves approximately 99 % training accuracy and 97–98 % validation accuracy. These results demonstrate that the proposed DNN-based compensation effectively mitigates atmospheric turbulence and improves the reliability of long-range FSO communication links.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sharayu Suresh Phatangare",
+            "orcid": null
+          },
+          {
+            "name": "Pankaj Kumar Sharma",
+            "orcid": "https://orcid.org/0000-0001-5805-0375"
+          },
+          {
+            "name": "Anurag Tewari",
+            "orcid": "https://orcid.org/0000-0002-1456-649X"
+          },
+          {
+            "name": "Anubhav Bewerwal",
+            "orcid": null
+          },
+          {
+            "name": "Aparna Tiwari",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1515/joc-2026-0436",
+        "landing_page": "https://doi.org/10.1515/joc-2026-0436",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7238858957",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7238858957",
+        "publication_date": "2026-11-24",
+        "title": "AI-assisted atmospheric turbulence mitigation for reliable free-space optical communication",
+        "venue": "Journal of Optical Communications",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:35.301163Z",
       "status": "found"
     },
     "openalex:doi:10.1587/nolta.2026nhp0007": {
@@ -35215,6 +36016,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-12T01:18:17.589756Z",
+      "status": "found"
+    },
+    "openalex:doi:10.3390/biomimetics11110847": {
+      "expires_at": "2026-12-25T00:43:34.675347Z",
+      "record": {
+        "abstract": "Variational quantum eigensolver (VQE) optimizer rankings depend on evaluation budgets and energy estimation. We compare ten metaheuristics with Hooke–Jeeves and Nelder–Mead on four-qubit H2 and LiH Hamiltonians, using six fixed ansatz masks and ten paired seeds. Ideal runs use 1000 or 300 evaluations; 256-shot and fixed-rate depolarizing runs use 300. Each method–molecule–regime combination contains 60 paired seed–mask observations. Among the metaheuristics, CMA-ES has the lowest mean block rank in both ideal-at-1000 cases, whereas ACOR leads all six 300-evaluation cases. Hooke–Jeeves outranks every metaheuristic in seven of eight molecule–regime combinations. Relative to the matched ideal control, the Spearman correlations of method mean ranks are 0.57 for H2 and 0.38 for LiH under finite shots, compared with 0.94 and 0.95 under depolarization. Exact noiseless rescoring preserves this rank contrast and identifies 40 successful parameter vectors from the depolarizing runs at the 10−3-Ha error threshold. Nelder–Mead ranks last under finite shots for both molecules. Mean-error and seed-aggregated rankings sometimes identify different leaders. A single job on one IBM Quantum superconducting processor evaluated 24 frozen-parameter circuits after noiseless MATLAB–Qiskit checks; those hardware measurements are descriptive and cannot establish a stable optimizer ordering. The observed rankings are specific to the tested circuits, estimators, and budgets.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Sercan Demіrcі",
+            "orcid": "https://orcid.org/0000-0001-6739-7653"
+          },
+          {
+            "name": "Durmuş Özkan Şahin",
+            "orcid": "https://orcid.org/0000-0002-0831-7825"
+          },
+          {
+            "name": "Gökhan Kayhan",
+            "orcid": "https://orcid.org/0000-0003-3391-0097"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/biomimetics11110847",
+        "landing_page": "https://doi.org/10.3390/biomimetics11110847",
+        "open_access_url": "https://doi.org/10.3390/biomimetics11110847",
+        "openalex_id": "https://openalex.org/W7238888083",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7238888083",
+        "publication_date": "2026-11-20",
+        "title": "A Multi-Regime Benchmark of Metaheuristic Optimizers for Molecular Quantum Circuits",
+        "venue": "Biomimetics",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:34.675347Z",
       "status": "found"
     },
     "openalex:doi:10.3390/electronics15214892": {
@@ -37535,6 +38370,48 @@
       "retrieved_at": "2026-11-06T00:41:02.411810Z",
       "status": "found"
     },
+    "openalex:doi:10.6084/m9.figshare.34949947": {
+      "expires_at": "2026-12-25T00:43:35.879956Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Yunsong Guan",
+            "orcid": null
+          },
+          {
+            "name": "Sikun Li",
+            "orcid": null
+          },
+          {
+            "name": "Bowen Sun",
+            "orcid": null
+          },
+          {
+            "name": "Jibin He",
+            "orcid": null
+          },
+          {
+            "name": "Jian Li",
+            "orcid": "https://orcid.org/0000-0003-3439-7539"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.6084/m9.figshare.34949947",
+        "landing_page": "https://doi.org/10.6084/m9.figshare.34949947",
+        "open_access_url": "https://doi.org/10.6084/m9.figshare.34949947",
+        "openalex_id": "https://openalex.org/W7238804506",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7238804506",
+        "publication_date": "2026-11-23",
+        "title": "Supplementary document for Diffractive optical-digital neural networks for robust EUV mask phase-defect characterization and classification - 8125990.pdf",
+        "venue": "Figshare",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-25T00:43:35.879956Z",
+      "status": "found"
+    },
     "openalex:doi:10.6084/m9.figshare.c.8610155.v1": {
       "expires_at": "2026-10-14T01:07:35.525163Z",
       "record": {
@@ -39458,6 +40335,12 @@
       "retrieved_at": "2026-10-18T01:05:05.886985Z",
       "status": "found"
     },
+    "openalex:title:36fa08988b49f439add4bb9c4fba71fba6b4903eed7a208735eeac4497b73672": {
+      "expires_at": "2026-12-02T00:43:33.114563Z",
+      "record": null,
+      "retrieved_at": "2026-11-25T00:43:33.114563Z",
+      "status": "not_found"
+    },
     "openalex:title:36ff52213b3db852709490b239eb86cf38d077c018bb8dff6fd5e206a2394ce8": {
       "expires_at": "2026-12-01T00:38:58.564629Z",
       "record": null,
@@ -40580,6 +41463,12 @@
       "retrieved_at": "2026-10-18T01:05:00.268442Z",
       "status": "not_found"
     },
+    "openalex:title:5ccab173cbe0268d6d6f7b6328e14db90a3795624295dd559365454c0672cd59": {
+      "expires_at": "2026-12-02T00:43:29.703019Z",
+      "record": null,
+      "retrieved_at": "2026-11-25T00:43:29.703019Z",
+      "status": "not_found"
+    },
     "openalex:title:5d31563a0cb0f13d3176b86b3777a592451f9621db32e8f594764170ac2cec4a": {
       "expires_at": "2026-10-10T01:04:34.187371Z",
       "record": null,
@@ -41635,6 +42524,12 @@
       },
       "retrieved_at": "2026-10-15T00:58:17.880410Z",
       "status": "found"
+    },
+    "openalex:title:841e9c24117ebf1f64c75b880121a80d169fd178e16731ba0797a9c480539769": {
+      "expires_at": "2026-12-02T00:43:37.345699Z",
+      "record": null,
+      "retrieved_at": "2026-11-25T00:43:37.345699Z",
+      "status": "not_found"
     },
     "openalex:title:849250f9042d4d1b1371df2dcf6d39f99be3ebe04fa2724789d7bbcde523a6ea": {
       "expires_at": "2026-09-05T00:54:09.070238Z",

@@ -109,6 +109,15 @@
       "summary_record_sha256": "4d037b8f36d18c9d9067a08faed4c731e27c88c9e258bfa6e058d6767e15f638",
       "title": "THE EL-RAKHAWI FRONTIER QUANTUM INTELLIGENCE FRAMEWORK (EFQIF) A Unified Architecture for Topological Neural Networks, Blind Federated Learning, Photonic Neuromorphics, Quantum Cognition, and Macro-System Generative Design"
     },
+    "0f1a5e84ef96f969a3a8a8c8": {
+      "digest_date": "2026-11-25",
+      "doi": "10.1038/s41377-026-02560-7",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "2774bcc54844b8c405b7cb65d6d5eb1b76aa49efbfdbacc257b5259ce37ab708",
+      "title": "Breaking the cascade: compact nonlinear optical computing with single-layer encoder–decoder co-localization"
+    },
     "1075bd8698bce3acb3ce9376": {
       "digest_date": "2026-09-19",
       "doi": "10.25781/kaust-ip46p",
@@ -1537,6 +1546,9 @@
     "2026-11-24": [
       "3520b216d2d106e9b55c56bc",
       "66a3dfd38d666af70d0ac4a7"
+    ],
+    "2026-11-25": [
+      "0f1a5e84ef96f969a3a8a8c8"
     ]
   },
   "by_doi": {
@@ -1562,6 +1574,7 @@
     "10.1038/s41377-026-02325-2": "1e619f1b739f1893eae64f28",
     "10.1038/s41377-026-02366-7": "04bdf084776bcfe0d6f912cb",
     "10.1038/s41377-026-02419-x": "973507e35175bb05fcf25e79",
+    "10.1038/s41377-026-02560-7": "0f1a5e84ef96f969a3a8a8c8",
     "10.1038/s41427-026-00671-6": "83a830ace13b5158f346c392",
     "10.1038/s41467-026-76714-x": "8ce6ad350a786420a01c4dd8",
     "10.1038/s41467-026-76736-5": "fd6f281418ac4d412744b2ac",
@@ -1691,6 +1704,7 @@
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "0ea189a90da076d72e313576",
+      "0f1a5e84ef96f969a3a8a8c8",
       "1229908a36775c08f23d92f8",
       "15e7193239d6058f661ff180",
       "1bbef7ba5398ff216f60580f",
@@ -1906,6 +1920,9 @@
     "application:从星座图识别11种调制类型": [
       "380b726618cccff0a9e5514f"
     ],
+    "application:任意实值带限非线性函数逼近": [
+      "0f1a5e84ef96f969a3a8a8c8"
+    ],
     "application:传感内成像分类": [
       "9322fad036b3d7fc8e3dd47b"
     ],
@@ -2105,6 +2122,9 @@
     "application:声呐任务分类（准确率97以上）": [
       "2c2645700d900a5b3f00a38c"
     ],
+    "application:复杂值和多变量非线性函数仿真合成": [
+      "0f1a5e84ef96f969a3a8a8c8"
+    ],
     "application:多模光纤模式解复用": [
       "a6c0cee36e01933034e775f2"
     ],
@@ -2140,6 +2160,9 @@
     ],
     "application:工业 5.0": [
       "7bc9d4230ed283852c3248a7"
+    ],
+    "application:常用神经网络激活函数合成": [
+      "0f1a5e84ef96f969a3a8a8c8"
     ],
     "application:强化学习": [
       "d33b2e7c6586f37945facb32"
@@ -2281,6 +2304,9 @@
     "application:空芯光纤图像传输": [
       "56dc775d182273c3cd77748e"
     ],
+    "application:空间复用并行多函数计算": [
+      "0f1a5e84ef96f969a3a8a8c8"
+    ],
     "application:纵向场工程": [
       "1229908a36775c08f23d92f8"
     ],
@@ -2403,6 +2429,7 @@
       "2c2645700d900a5b3f00a38c"
     ],
     "architecture:free_space": [
+      "0f1a5e84ef96f969a3a8a8c8",
       "35ca2b5d96e48aa3071b5073",
       "5017adbd33e6ddd5c320a4c4",
       "61dad77fe7c2ef7687ce5b21",
@@ -2518,6 +2545,7 @@
       "04bdf084776bcfe0d6f912cb",
       "0a7a6a25b0c077322aee6b4e",
       "0aaf9a70d0dd89f86bd1e549",
+      "0f1a5e84ef96f969a3a8a8c8",
       "15e7193239d6058f661ff180",
       "1e619f1b739f1893eae64f28",
       "2c2645700d900a5b3f00a38c",
@@ -2601,6 +2629,7 @@
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "0ea189a90da076d72e313576",
+      "0f1a5e84ef96f969a3a8a8c8",
       "1229908a36775c08f23d92f8",
       "15e7193239d6058f661ff180",
       "1bbef7ba5398ff216f60580f",
@@ -3036,6 +3065,7 @@
     ],
     "Light: Science &amp; Applications": [
       "04bdf084776bcfe0d6f912cb",
+      "0f1a5e84ef96f969a3a8a8c8",
       "1e619f1b739f1893eae64f28",
       "973507e35175bb05fcf25e79"
     ],
@@ -3213,6 +3243,7 @@
       "0cbf41592278a3ad1b89e219",
       "0e5c75b6132afcfb1f7afb17",
       "0ea189a90da076d72e313576",
+      "0f1a5e84ef96f969a3a8a8c8",
       "1075bd8698bce3acb3ce9376",
       "1229908a36775c08f23d92f8",
       "142dc76f41fc25448b82c91e",
@@ -3345,7 +3376,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 140,
+  "paper_count": 141,
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:39:34.083594Z"
+  "updated_at": "2026-11-25T00:44:03.704161Z"
 }
