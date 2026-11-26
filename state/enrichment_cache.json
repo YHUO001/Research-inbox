@@ -344,6 +344,44 @@
       "retrieved_at": "2026-09-25T01:02:45.981817Z",
       "status": "found"
     },
+    "crossref:doi:10.1002/adma.75834": {
+      "expires_at": "2026-12-26T00:42:18.049688Z",
+      "record": {
+        "abstract": "ABSTRACT Neuromorphic vision requires hardware capable of integrating sensing, memory, and computation with bidirectional information processing. Single‐device bidirectional photonic synapses (BPS), which enable positive and negative photoresponses within the same physical element, provide a compact platform for adaptive photonic computing. However, the diverse architectures, regulation strategies, and physical mechanisms reported for BPS have hindered systematic understanding and quantitative comparison. Here, we establish a unified Structure–Regulation–Mechanism–Function (S–R–M–F) framework to organize single‐device BPS from device architecture and polarity regulation to physical mechanisms, synaptic functions, quantitative benchmarks and neuromorphic applications. We further distinguish physical photoresponse polarity from its functional interpretation in synaptic computing and highlight key considerations including energy consumption, reproducibility, variability, and system‐level scaling. Finally, we identify the transition from empirically observed PPC–NPC switching toward predictive, deterministic, programmable and reproducible operation as a key direction for future BPS development, with physics‐informed modeling and closed‐loop control offering promising routes toward adaptive photonic neuromorphic hardware.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Feng Ding",
+            "orcid": "https://orcid.org/0009-0005-8906-2957"
+          },
+          {
+            "name": "Di Xue",
+            "orcid": "https://orcid.org/0009-0007-9123-4441"
+          },
+          {
+            "name": "Lifeng Chi",
+            "orcid": "https://orcid.org/0000-0003-3835-2776"
+          },
+          {
+            "name": "Lizhen Huang",
+            "orcid": "https://orcid.org/0000-0002-5211-921X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adma.75834",
+        "landing_page": "https://doi.org/10.1002/adma.75834",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/adma.75834",
+        "publication_date": "2026-11-24",
+        "title": "Single‐Device Bidirectional Photonic Synapses: From Polarity Switching to Adaptive Neuromorphic Computing",
+        "venue": "Advanced Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-26T00:42:18.049688Z",
+      "status": "found"
+    },
     "crossref:doi:10.1002/adom.71567": {
       "expires_at": "2026-09-17T04:25:31.075985Z",
       "record": {
@@ -1874,6 +1912,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-14T00:39:41.162702Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1002/mrm.70664": {
+      "expires_at": "2026-12-26T00:42:18.502128Z",
+      "record": {
+        "abstract": "ABSTRACT Purpose Oscillating steady‐state imaging (OSSI) is an fMRI acquisition technique that utilizes a novel oscillating steady‐state by combining balanced gradients and quadratic RF phase cycle to achieve a higher SNR compared to spoiled GRE. Despite its SNR advantage, OSSI is sensitive to fluctuations in the field due to respiration and drift, which limits the achievable SNR gains. These fluctuations cause shifts in the resonant frequency, disrupting the magnetic steady‐state and the functional contrasts. This study proposes a robust zeroth‐order prospective correction for multi‐shot OSSI fMRI. Methods FIDNavs were inserted into a 2D OSSI sequence for real‐time processing to track respiration‐ and drift‐induced fluctuations during both low‐resolution (3‐shot) and high‐resolution (6‐shot) acquisitions. These fluctuations were estimated on a per‐shot basis while accounting for shot‐dependent phase variations introduced by eddy currents. The resulting estimates were then used to dynamically adjust the excitation and receiver phase progressions. Results Real‐time tracking and correction led to substantial improvements in functional sensitivity and signal stability under both regular and deep breathing conditions. In the 3‐shot acquisition, tSNR increased by up to 46.8% and activation volume by up to 411.1%, while the 6‐shot acquisition exhibited more modest but consistent gains, with tSNR increases of up to 17.2%. Voxel‐level time series demonstrated marked suppression of respiration‐related oscillations, revealing more stable task‐related modulation. Conclusion This approach is effective in reducing ‐induced signal changes, allowing realization of theoretical SNR gains in complex steady‐state MRI sequences, particularly in cases affected by respiratory motion.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mariama Salifu",
+            "orcid": "https://orcid.org/0009-0004-6991-2160"
+          },
+          {
+            "name": "Kang Wang",
+            "orcid": "https://orcid.org/0009-0001-1461-4789"
+          },
+          {
+            "name": "Sherry Huang",
+            "orcid": "https://orcid.org/0000-0003-0614-6628"
+          },
+          {
+            "name": "Douglas C. Noll",
+            "orcid": "https://orcid.org/0000-0002-0983-3805"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/mrm.70664",
+        "landing_page": "https://doi.org/10.1002/mrm.70664",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1002/mrm.70664",
+        "publication_date": "2026-11-23",
+        "title": "Real‐Time Correction of Respiration‐Induced B0 Changes in Oscillating Steady State Imaging (\n                    <scp>OSSI</scp>\n                    )\n                    <scp>fMRI</scp>",
+        "venue": "Magnetic Resonance in Medicine",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-26T00:42:18.502128Z",
       "status": "found"
     },
     "crossref:doi:10.1002/nap2.70242": {
@@ -3446,6 +3522,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-14T00:39:37.676299Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1007/s40766-026-00085-8": {
+      "expires_at": "2026-12-26T00:42:19.149224Z",
+      "record": {
+        "abstract": "Abstract The rapid scaling of artificial neural networks has exposed fundamental limitations of conventional von Neumann computing architectures. In these systems, the physical separation between memory and processing creates a bottleneck, as computational capabilities outpace the ability of memory and interconnects to supply and retrieve data. In contrast, biological neural systems inherently co-localize computation and memory through distributed, dynamical processes. Neuromorphic computing seeks to emulate this paradigm by leveraging physical substrates whose intrinsic dynamics simultaneously encode and process information. Among emerging platforms, silicon photonics offers a compelling approach due to its high bandwidth, low-loss propagation, and inherent parallelism. This review examines the role of memory in integrated photonic neuromorphic systems, with emphasis on the physical mechanisms that provide volatile and non-volatile memory mechanisms, while distinguishing their retention properties from their temporal behaviour and computational role as state or parameter memory in silicon-on-insulator and hybrid silicon-on-insulator platforms. Drawing inspiration from digital, biological, and photonic memory architectures, we classify existing approaches based on their underlying physical principles. We cover implementations ranging from delay lines and slow-light structures to multistable dynamics and structural memory based on charge trapping and phase-change materials. We then discuss how these mechanisms support photonic neural network architectures, including feed-forward, reservoir computing, spiking and hybrid optoelectronic recurrent systems, and assess their relevance for time-dependent signal-processing tasks, such as channel equalization in telecommunications. This review aims to establish a unified framework for understanding memory and learning in neuromorphic photonics and outlines key challenges and opportunities for scalable, energy-efficient neuromorphic hardware.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Alessandro Foradori",
+            "orcid": "https://orcid.org/0009-0001-3195-8620"
+          },
+          {
+            "name": "Ilya Auslender",
+            "orcid": "https://orcid.org/0009-0000-9519-0879"
+          },
+          {
+            "name": "Stefano Biasi",
+            "orcid": "https://orcid.org/0000-0002-3361-133X"
+          },
+          {
+            "name": "Stefano Gretter",
+            "orcid": "https://orcid.org/0009-0009-4747-1057"
+          },
+          {
+            "name": "Alessio Lugnan",
+            "orcid": "https://orcid.org/0000-0002-6587-2614"
+          },
+          {
+            "name": "Emiliano Staffoli",
+            "orcid": "https://orcid.org/0000-0002-4167-9158"
+          },
+          {
+            "name": "Lorenzo Pavesi",
+            "orcid": "https://orcid.org/0000-0001-7316-6034"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/s40766-026-00085-8",
+        "landing_page": "https://doi.org/10.1007/s40766-026-00085-8",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/s40766-026-00085-8",
+        "publication_date": "2026-11-24",
+        "title": "Memory in integrated photonic neural networks: from physical mechanisms to neuromorphic architectures",
+        "venue": "La Rivista del Nuovo Cimento",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-26T00:42:19.149224Z",
       "status": "found"
     },
     "crossref:doi:10.1007/s41939-026-01271-1": {
@@ -20202,6 +20328,44 @@
       "retrieved_at": "2026-09-25T01:02:46.324200Z",
       "status": "found"
     },
+    "openalex:doi:10.1002/adma.75834": {
+      "expires_at": "2026-12-26T00:42:18.284529Z",
+      "record": {
+        "abstract": "Neuromorphic vision requires hardware capable of integrating sensing, memory, and computation with bidirectional information processing. Single-device bidirectional photonic synapses (BPS), which enable positive and negative photoresponses within the same physical element, provide a compact platform for adaptive photonic computing. However, the diverse architectures, regulation strategies, and physical mechanisms reported for BPS have hindered systematic understanding and quantitative comparison. Here, we establish a unified Structure-Regulation-Mechanism-Function (S-R-M-F) framework to organize single-device BPS from device architecture and polarity regulation to physical mechanisms, synaptic functions, quantitative benchmarks and neuromorphic applications. We further distinguish physical photoresponse polarity from its functional interpretation in synaptic computing and highlight key considerations including energy consumption, reproducibility, variability, and system-level scaling. Finally, we identify the transition from empirically observed PPC-NPC switching toward predictive, deterministic, programmable and reproducible operation as a key direction for future BPS development, with physics-informed modeling and closed-loop control offering promising routes toward adaptive photonic neuromorphic hardware.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Feng Ding",
+            "orcid": "https://orcid.org/0009-0005-8906-2957"
+          },
+          {
+            "name": "Di Xue",
+            "orcid": "https://orcid.org/0009-0007-9123-4441"
+          },
+          {
+            "name": "Lifeng Chi",
+            "orcid": "https://orcid.org/0000-0003-3835-2776"
+          },
+          {
+            "name": "Lizhen Huang",
+            "orcid": "https://orcid.org/0000-0002-5211-921X"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/adma.75834",
+        "landing_page": "https://doi.org/10.1002/adma.75834",
+        "open_access_url": "https://doi.org/10.1002/adma.75834",
+        "openalex_id": "https://openalex.org/W7239348299",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7239348299",
+        "publication_date": "2026-11-24",
+        "title": "Single‐Device Bidirectional Photonic Synapses: From Polarity Switching to Adaptive Neuromorphic Computing",
+        "venue": "Advanced Materials",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-26T00:42:18.284529Z",
+      "status": "found"
+    },
     "openalex:doi:10.1002/adom.71567": {
       "expires_at": "2026-09-17T04:25:31.408910Z",
       "record": {
@@ -21732,6 +21896,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-14T00:39:41.384784Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1002/mrm.70664": {
+      "expires_at": "2026-12-26T00:42:18.730669Z",
+      "record": {
+        "abstract": "PURPOSE: Oscillating steady-state imaging (OSSI) is an fMRI acquisition technique that utilizes a novel oscillating steady-state by combining balanced gradients and quadratic RF phase cycle to achieve a higher SNR compared to spoiled GRE. Despite its SNR advantage, OSSI is sensitive to fluctuations in the B 0 field due to respiration and drift, which limits the achievable SNR gains. These fluctuations cause shifts in the resonant frequency, disrupting the magnetic steady-state and the functional contrasts. This study proposes a robust zeroth-order prospective correction for multi-shot OSSI fMRI. METHODS: FIDNavs were inserted into a 2D OSSI sequence for real-time processing to track respiration- and drift-induced B 0 fluctuations during both low-resolution (3-shot) and high-resolution (6-shot) acquisitions. These fluctuations were estimated on a per-shot basis while accounting for shot-dependent phase variations introduced by eddy currents. The resulting B 0 estimates were then used to dynamically adjust the excitation and receiver phase progressions. RESULTS: Real-time tracking and correction led to substantial improvements in functional sensitivity and signal stability under both regular and deep breathing conditions. In the 3-shot acquisition, tSNR increased by up to 46.8% and activation volume by up to 411.1%, while the 6-shot acquisition exhibited more modest but consistent gains, with tSNR increases of up to 17.2%. Voxel-level time series demonstrated marked suppression of respiration-related oscillations, revealing more stable task-related modulation. CONCLUSION: This approach is effective in reducing B 0 -induced signal changes, allowing realization of theoretical SNR gains in complex steady-state MRI sequences, particularly in cases affected by respiratory motion.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Mariama Salifu",
+            "orcid": null
+          },
+          {
+            "name": "Kang Wang",
+            "orcid": null
+          },
+          {
+            "name": "Sherry Huang",
+            "orcid": "https://orcid.org/0000-0003-0614-6628"
+          },
+          {
+            "name": "Douglas C. Noll",
+            "orcid": "https://orcid.org/0000-0002-0983-3805"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1002/mrm.70664",
+        "landing_page": "https://doi.org/10.1002/mrm.70664",
+        "open_access_url": "https://doi.org/10.1002/mrm.70664",
+        "openalex_id": "https://openalex.org/W7238896724",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7238896724",
+        "publication_date": "2026-11-23",
+        "title": "Real‐Time Correction of Respiration‐Induced B0 Changes in Oscillating Steady State Imaging (OSSI) fMRI",
+        "venue": "Magnetic Resonance in Medicine",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-26T00:42:18.730669Z",
       "status": "found"
     },
     "openalex:doi:10.1002/nap2.70242": {
@@ -23442,6 +23644,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-14T00:39:37.908207Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/s40766-026-00085-8": {
+      "expires_at": "2026-12-26T00:42:19.438384Z",
+      "record": {
+        "abstract": "The rapid scaling of artificial neural networks has exposed fundamental limitations of conventional von Neumann computing architectures. In these systems, the physical separation between memory and processing creates a bottleneck, as computational capabilities outpace the ability of memory and interconnects to supply and retrieve data. In contrast, biological neural systems inherently co-localize computation and memory through distributed, dynamical processes. Neuromorphic computing seeks to emulate this paradigm by leveraging physical substrates whose intrinsic dynamics simultaneously encode and process information. Among emerging platforms, silicon photonics offers a compelling approach due to its high bandwidth, low-loss propagation, and inherent parallelism. This review examines the role of memory in integrated photonic neuromorphic systems, with emphasis on the physical mechanisms that provide volatile and non-volatile memory mechanisms, while distinguishing their retention properties from their temporal behaviour and computational role as state or parameter memory in silicon-on-insulator and hybrid silicon-on-insulator platforms. Drawing inspiration from digital, biological, and photonic memory architectures, we classify existing approaches based on their underlying physical principles. We cover implementations ranging from delay lines and slow-light structures to multistable dynamics and structural memory based on charge trapping and phase-change materials. We then discuss how these mechanisms support photonic neural network architectures, including feed-forward, reservoir computing, spiking and hybrid optoelectronic recurrent systems, and assess their relevance for time-dependent signal-processing tasks, such as channel equalization in telecommunications. This review aims to establish a unified framework for understanding memory and learning in neuromorphic photonics and outlines key challenges and opportunities for scalable, energy-efficient neuromorphic hardware.",
+        "arxiv_id": "https://arxiv.org/abs/2604.22620",
+        "authors": [
+          {
+            "name": "Alessandro Foradori",
+            "orcid": "https://orcid.org/0009-0001-3195-8620"
+          },
+          {
+            "name": "Ilya Auslender",
+            "orcid": "https://orcid.org/0009-0000-9519-0879"
+          },
+          {
+            "name": "Stefano Biasi",
+            "orcid": "https://orcid.org/0000-0002-3361-133X"
+          },
+          {
+            "name": "Stefano Gretter",
+            "orcid": "https://orcid.org/0009-0009-4747-1057"
+          },
+          {
+            "name": "Alessio Lugnan",
+            "orcid": "https://orcid.org/0000-0002-6587-2614"
+          },
+          {
+            "name": "Emiliano Staffoli",
+            "orcid": "https://orcid.org/0000-0002-4167-9158"
+          },
+          {
+            "name": "Lorenzo Pavesi",
+            "orcid": "https://orcid.org/0000-0001-7316-6034"
+          }
+        ],
+        "cited_by_count": 5,
+        "doi": "10.1007/s40766-026-00085-8",
+        "landing_page": "https://doi.org/10.1007/s40766-026-00085-8",
+        "open_access_url": "https://doi.org/10.1007/s40766-026-00085-8",
+        "openalex_id": "https://openalex.org/W7156097512",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7156097512",
+        "publication_date": "2026-11-24",
+        "title": "Memory in integrated photonic neural networks: from physical mechanisms to neuromorphic architectures",
+        "venue": "Rivista Del Nuovo Cimento",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-26T00:42:19.438384Z",
       "status": "found"
     },
     "openalex:doi:10.1007/s41939-026-01271-1": {
