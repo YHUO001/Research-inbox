@@ -2502,6 +2502,36 @@
       "retrieved_at": "2026-10-12T01:18:12.458680Z",
       "status": "found"
     },
+    "crossref:doi:10.1007/978-981-92-8119-0_9": {
+      "expires_at": "2026-12-27T00:42:49.725546Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Chunxian Yu",
+            "orcid": null
+          },
+          {
+            "name": "Jie Wang",
+            "orcid": "https://orcid.org/0000-0002-3249-9219"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-981-92-8119-0_9",
+        "landing_page": "https://doi.org/10.1007/978-981-92-8119-0_9",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1007/978-981-92-8119-0_9",
+        "publication_date": "2027",
+        "title": "CAPA: Curvature-Aware Perturbation Alignment for Federated Zeroth-Order Fine-Tuning",
+        "venue": "Communications in Computer and Information Science",
+        "year": 2027
+      },
+      "retrieved_at": "2026-11-27T00:42:49.725546Z",
+      "status": "found"
+    },
     "crossref:doi:10.1007/978-981-95-9155-8": {
       "expires_at": "2026-12-10T00:40:08.023795Z",
       "record": {
@@ -5744,6 +5774,44 @@
       "retrieved_at": "2026-11-10T00:39:59.727031Z",
       "status": "found"
     },
+    "crossref:doi:10.1038/s41598-026-79455-5": {
+      "expires_at": "2026-12-27T00:43:03.429254Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Punitha Arockiasamy",
+            "orcid": null
+          },
+          {
+            "name": "P. Hema Sree",
+            "orcid": null
+          },
+          {
+            "name": "K. Saranya",
+            "orcid": null
+          },
+          {
+            "name": "Bibhuprasad Sahu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-79455-5",
+        "landing_page": "https://doi.org/10.1038/s41598-026-79455-5",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1038/s41598-026-79455-5",
+        "publication_date": "2026-11-25",
+        "title": "Interpretable federated multi-agent framework for energy-efficient resource management and predictive service optimization in industrial IoT networks",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-27T00:43:03.429254Z",
+      "status": "found"
+    },
     "crossref:doi:10.1038/s42005-026-02823-0": {
       "expires_at": "2026-10-05T00:59:46.615608Z",
       "record": {
@@ -6245,6 +6313,72 @@
       "record": null,
       "retrieved_at": "2026-10-16T00:57:50.832979Z",
       "status": "not_found"
+    },
+    "crossref:doi:10.1088/1402-4896/aebbfa": {
+      "expires_at": "2026-12-27T00:42:58.136320Z",
+      "record": {
+        "abstract": "Abstract We propose a single-hydrophone direction recognition scheme, which integrates asymmetric metasurface physical coding and lightweight deep learning algorithmic decoding to address the limitations of complex structures and slow responses in conventional underwater acoustic direction recognition technologies. By breaking structural symmetry and mapping acoustic signals from different incident angles to acoustic fingerprints, physical encoding of the incident direction is achieved. Accordingly, two modes of underwater acoustic direction recognition are defined: mechanical scanning and ‘physical encoding + intelligent decoding’ (P + I). The P + I mode collects the hydrophone’s acoustic response at only two fixed positions (initial and 180° rotated about its axis), forming a 2D feature vector. A lightweight multilayer perceptron establishes an end-to-end mapping between features and incident angles, enabling direction recognition. This scheme holds broad promise for applications in marine engineering such as underwater detection, navigation, and communication.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Fuguo Wang",
+            "orcid": "https://orcid.org/0009-0002-5656-5214"
+          },
+          {
+            "name": "Yongjing Dang",
+            "orcid": null
+          },
+          {
+            "name": "Shaojian Yang",
+            "orcid": null
+          },
+          {
+            "name": "Yan Wei",
+            "orcid": null
+          },
+          {
+            "name": "Yujin Li",
+            "orcid": null
+          },
+          {
+            "name": "Dongdong Wei",
+            "orcid": null
+          },
+          {
+            "name": "Rongrui Shi",
+            "orcid": "https://orcid.org/0009-0008-7801-146X"
+          },
+          {
+            "name": "Qun Ren",
+            "orcid": null
+          },
+          {
+            "name": "Hang Xu",
+            "orcid": null
+          },
+          {
+            "name": "Fengzhong Qu",
+            "orcid": null
+          },
+          {
+            "name": "Jianquan Yao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1088/1402-4896/aebbfa",
+        "landing_page": "https://doi.org/10.1088/1402-4896/aebbfa",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1088/1402-4896/aebbfa",
+        "publication_date": "2026-11-27",
+        "title": "Underwater acoustic direction recognition based on asymmetric metasurfaces and lightweight deep learning",
+        "venue": "Physica Scripta",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-27T00:42:58.136320Z",
+      "status": "found"
     },
     "crossref:doi:10.1088/2515-7647/aebb7d": {
       "expires_at": "2026-12-01T00:47:10.882481Z",
@@ -6758,6 +6892,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-12T00:42:19.518906Z",
+      "status": "found"
+    },
+    "crossref:doi:10.1117/1.apn.6.1.016015": {
+      "expires_at": "2026-12-27T00:42:58.656738Z",
+      "record": {
+        "abstract": "Structural light significantly enhances the channel capacity of optical communications by introducing spatial dimensions such as orbital angular momentum and polarization for multiplexing. This technology is expected to evolve toward long-distance stable transmission, adaptive atmospheric turbulence compensation, and integration with quantum communication. The detection and recognition of complex high-dimensional structured-light beams are crucial for these applications. In this work, we propose and experimentally demonstrate an all-optical diffractive deep neural network (D2NN) architecture operating in the visible range for the recognition of multiple structured-light modes. Within this architectural framework, we employ a waveguide-like lateral integration strategy to experimentally realize a monolithic five-layer metasurface device with an ultracompact footprint of 1.17 mm×0.23 mm. Experimental results show that the device achieves an overall recognition accuracy of 86.25% on a 16-class dataset, which includes Bessel–Gaussian and Laguerre–Gaussian modes with varying topological charges, as well as nonvortex structured beams.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jing Han",
+            "orcid": null
+          },
+          {
+            "name": "Yao Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Shumin Xiao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/1.apn.6.1.016015",
+        "landing_page": "https://doi.org/10.1117/1.apn.6.1.016015",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/1.apn.6.1.016015",
+        "publication_date": "2026-11-25",
+        "title": "Diffractive deep neural networks based on multilayer metasurfaces for structural light recognition",
+        "venue": "Advanced Photonics Nexus",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-27T00:42:58.656738Z",
       "status": "found"
     },
     "crossref:doi:10.1117/1.oe.65.10.107102": {
@@ -9570,6 +9738,12 @@
       "retrieved_at": "2026-09-12T00:59:37.327057Z",
       "status": "not_found"
     },
+    "crossref:doi:10.16383/j.aas.c260227": {
+      "expires_at": "2026-12-27T00:43:06.327737Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:43:06.327737Z",
+      "status": "not_found"
+    },
     "crossref:doi:10.21203/rs.3.rs-10187577/v1": {
       "expires_at": "2026-09-04T13:20:51.775599Z",
       "record": {
@@ -10804,6 +10978,12 @@
       "retrieved_at": "2026-10-04T01:35:59.344582Z",
       "status": "not_found"
     },
+    "crossref:title:030ae187a56c1773800fd09215cb3eda5798f748203667c0a786fb148ff2c72e": {
+      "expires_at": "2026-12-04T00:42:51.075792Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:42:51.075792Z",
+      "status": "not_found"
+    },
     "crossref:title:03beeea4f2c63951ee8a4701a080fc53c33244e01b47403d7919902ea976253e": {
       "expires_at": "2026-09-22T01:03:30.120395Z",
       "record": null,
@@ -11183,6 +11363,12 @@
       },
       "retrieved_at": "2026-11-14T00:39:44.185796Z",
       "status": "found"
+    },
+    "crossref:title:0c71d91e0797e46fcaab0657e88c34308f63c65343663614d31395ca1e33d309": {
+      "expires_at": "2026-12-04T00:42:56.697421Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:42:56.697421Z",
+      "status": "not_found"
     },
     "crossref:title:0d24315b02bbe41800e70636f1a01b4ba251403960aa474b4d50e4b86d640512": {
       "expires_at": "2026-10-10T01:04:42.077088Z",
@@ -12396,6 +12582,12 @@
       "retrieved_at": "2026-09-07T01:06:38.804642Z",
       "status": "not_found"
     },
+    "crossref:title:26e585e4bac6bd5bd55c6b04a5b77fa0c42ffac0114094fccb5af8bf28ad24b4": {
+      "expires_at": "2026-12-04T00:42:59.148423Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:42:59.148423Z",
+      "status": "not_found"
+    },
     "crossref:title:27e820562a0ac8c59a578198308b2780850a66249ec2045713988240cf7f6179": {
       "expires_at": "2026-08-11T09:38:46.293348Z",
       "record": {
@@ -12571,6 +12763,12 @@
       },
       "retrieved_at": "2026-11-17T00:42:21.322588Z",
       "status": "found"
+    },
+    "crossref:title:2abd8358c5e135ef185b3b78ed3f5475c359d1af107f01f939b67a77f3137e95": {
+      "expires_at": "2026-12-04T00:43:05.761103Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:43:05.761103Z",
+      "status": "not_found"
     },
     "crossref:title:2b271f45467a357f7a1769a5048457b29f7beee2c0f32848943d06e87bbfc9a1": {
       "expires_at": "2026-11-04T00:48:18.014811Z",
@@ -12766,6 +12964,12 @@
       "expires_at": "2026-10-10T01:04:50.083086Z",
       "record": null,
       "retrieved_at": "2026-10-03T01:04:50.083086Z",
+      "status": "not_found"
+    },
+    "crossref:title:349a3b670bbc21d541f0c1d03d8c38e12c5f453e4bbd71d948fed5e04e8ac759": {
+      "expires_at": "2026-12-04T00:42:47.436678Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:42:47.436678Z",
       "status": "not_found"
     },
     "crossref:title:3539b5b39d28489512cfc34c3ec97e258d5782a231319259db15604f81d03b7f": {
@@ -14126,6 +14330,12 @@
       "retrieved_at": "2026-08-18T04:25:17.684612Z",
       "status": "found"
     },
+    "crossref:title:5c88e5487a04b7c917a148cf7dcdefc38e78fe087927e4b9c27320f7f678fc1b": {
+      "expires_at": "2026-12-04T00:43:02.729335Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:43:02.729335Z",
+      "status": "not_found"
+    },
     "crossref:title:5ccab173cbe0268d6d6f7b6328e14db90a3795624295dd559365454c0672cd59": {
       "expires_at": "2026-12-02T00:43:29.278195Z",
       "record": null,
@@ -15268,6 +15478,40 @@
       "retrieved_at": "2026-11-09T00:44:16.377857Z",
       "status": "not_found"
     },
+    "crossref:title:81e55f8e500560c7477345d96fc97d99e08e3e5dbe3262f543e06415914ea7a9": {
+      "expires_at": "2026-12-04T00:42:52.001894Z",
+      "record": {
+        "abstract": "On-device training, driven by distribution shift, personalization, and data governance, updates models after deployment on edge, mobile, and microcontroller hardware. Following PRISMA 2020, we searched arXiv, Crossref, publisher-indexed sources, IEEE Xplore, and the ACM Digital Library, reassessed the original corpus, and included 137 primary studies that update learned parameters on named hardware and measure it there. They form nine families: sparse backpropagation (12), parameter-efficient adaptation (11), backpropagation-free optimization (7), quantized training (10), continual learning (19), runtimes and systems (19), training accelerators (16), federated training (17), and deployed applications (26). First, restricting the update costs up to about 5 percentage points of accuracy under aggressive settings but can outperform full fine-tuning in few-shot regimes. Second, where memory and compute savings share a baseline, memory savings are larger in four of the six studies, consistent with memory as the binding constraint. Third, the evidence is weak: 90 reported ratios (some synthesis-level estimates) span 1.09× to 65,000× against over ten baseline types (medians 3.5× against optimized and 6.6× against unoptimized baselines); only 35% of studies report resource costs together with accuracy, 11% release code, and no result has been independently replicated. We conclude with directions for benchmarking, energy reporting, and training on inference accelerators.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Omar Tareq",
+            "orcid": "https://orcid.org/0009-0001-5937-298X"
+          },
+          {
+            "name": "Shefa A. Dawwd",
+            "orcid": null
+          },
+          {
+            "name": "Ali Al-Saegh",
+            "orcid": "https://orcid.org/0000-0003-1633-6679"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/chips5040043",
+        "landing_page": "https://doi.org/10.3390/chips5040043",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/chips5040043",
+        "publication_date": "2026-11-23",
+        "title": "Training on Edge Devices: Algorithmic Innovations, Hardware Constraints, and Efficiency Trade-Offs—A Systematic Literature Review",
+        "venue": "Chips",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-27T00:42:52.001894Z",
+      "status": "found"
+    },
     "crossref:title:8321bfce8eab0857839c0cf6b470b6020c4a40b8af8d91bcbb3371416187ca8c": {
       "expires_at": "2026-09-02T00:32:39.356861Z",
       "record": null,
@@ -15470,6 +15714,12 @@
       "expires_at": "2026-10-30T01:02:31.457903Z",
       "record": null,
       "retrieved_at": "2026-10-23T01:02:31.457903Z",
+      "status": "not_found"
+    },
+    "crossref:title:8908f20e1f8da28c766f9f95f0305e533ba814913367904d4d277a536fd81a61": {
+      "expires_at": "2026-12-04T00:42:50.338805Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:42:50.338805Z",
       "status": "not_found"
     },
     "crossref:title:893405bcc3b796b7ba1f5ebd6899498ebed2256010561528450195fe104ac044": {
@@ -15806,6 +16056,12 @@
       "expires_at": "2026-09-08T01:13:09.900120Z",
       "record": null,
       "retrieved_at": "2026-09-01T01:13:09.900120Z",
+      "status": "not_found"
+    },
+    "crossref:title:9366420d25332041d7d25ff19de5c880f52576c162f7cf827a7f8c8fa8fee644": {
+      "expires_at": "2026-12-04T00:42:48.363469Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:42:48.363469Z",
       "status": "not_found"
     },
     "crossref:title:93e777466af732e22c4504882d1d9928a0bcb6f6a01f48a093e469c054ff2b40": {
@@ -16912,6 +17168,18 @@
       "retrieved_at": "2026-11-01T00:47:11.438526Z",
       "status": "found"
     },
+    "crossref:title:b0b0e1bf17e499e5071e5f0ccad72eba8581d0e20f353ed19ed27ccce221d6cb": {
+      "expires_at": "2026-12-04T00:42:49.141166Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:42:49.141166Z",
+      "status": "not_found"
+    },
+    "crossref:title:b0e89b18fd639d4bb4bea9bbffda328195b9dbd80cffae683b8ab89d1715ec22": {
+      "expires_at": "2026-12-04T00:42:57.531558Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:42:57.531558Z",
+      "status": "not_found"
+    },
     "crossref:title:b141db545a3db278af89ab8e45b8947046ce1d99ab0c9dc1782e95f3b9d0e5c1": {
       "expires_at": "2026-09-24T01:02:54.723994Z",
       "record": null,
@@ -16980,6 +17248,12 @@
       "retrieved_at": "2026-10-21T01:00:30.848678Z",
       "status": "not_found"
     },
+    "crossref:title:b74c55fe3e48acf68060a76a6a1ecdcb12ff4f7f551473373b4493acdca583f8": {
+      "expires_at": "2026-12-04T00:43:01.096692Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:43:01.096692Z",
+      "status": "not_found"
+    },
     "crossref:title:b7635a06654f99d3f66a00af024e8a9f3bd85d1b547a5fca7ef0ddc2ee490268": {
       "expires_at": "2026-11-21T00:39:43.234193Z",
       "record": null,
@@ -17026,6 +17300,12 @@
       "expires_at": "2026-10-12T01:13:32.579917Z",
       "record": null,
       "retrieved_at": "2026-10-05T01:13:32.579917Z",
+      "status": "not_found"
+    },
+    "crossref:title:b91a8fada930444aca92429f766295f3f12bfc303d1806e2b0f96408248c8a85": {
+      "expires_at": "2026-12-04T00:43:06.866132Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:43:06.866132Z",
       "status": "not_found"
     },
     "crossref:title:b9bd4babb2aa3d346c7159db987388b353f0fc37df0bf3a3fcce37c5bbb2edbd": {
@@ -17824,6 +18104,12 @@
       "retrieved_at": "2026-11-06T00:40:53.548437Z",
       "status": "not_found"
     },
+    "crossref:title:cb15a33920a9b8a76af6763b13726cdc6fd421fb6944e6f37a9e39c752ebe25e": {
+      "expires_at": "2026-12-04T00:43:03.975807Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:43:03.975807Z",
+      "status": "not_found"
+    },
     "crossref:title:cb653e6b154d2113886c90e071760dc4a8fb67fee0e0afa78f418c381e6f8209": {
       "expires_at": "2026-11-04T00:48:20.036844Z",
       "record": null,
@@ -18175,6 +18461,12 @@
       },
       "retrieved_at": "2026-08-18T04:25:13.165141Z",
       "status": "found"
+    },
+    "crossref:title:d6007cc9943da9b2e78a74908a76503e513ed8bb0182bf39a82bb90a0f6aaa7b": {
+      "expires_at": "2026-12-04T00:42:46.617585Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:42:46.617585Z",
+      "status": "not_found"
     },
     "crossref:title:d63daf6695652e997b502087a42fbff4eca6d178c7dc6f79e1b2e7b178c02ea5": {
       "expires_at": "2026-10-25T01:05:04.572882Z",
@@ -22572,6 +22864,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-12T01:18:12.791739Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1007/978-981-92-8119-0_9": {
+      "expires_at": "2026-12-27T00:42:49.941739Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Chunxian Yu",
+            "orcid": null
+          },
+          {
+            "name": "Jie Wang",
+            "orcid": "https://orcid.org/0000-0002-3249-9219"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1007/978-981-92-8119-0_9",
+        "landing_page": "https://doi.org/10.1007/978-981-92-8119-0_9",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7239903758",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7239903758",
+        "publication_date": "2026-11-26",
+        "title": "CAPA: Curvature-Aware Perturbation Alignment for Federated Zeroth-Order Fine-Tuning",
+        "venue": "Communications in computer and information science",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-27T00:42:49.941739Z",
       "status": "found"
     },
     "openalex:doi:10.1007/978-981-95-9155-8": {
@@ -27330,6 +27652,44 @@
       "retrieved_at": "2026-11-10T00:39:59.925506Z",
       "status": "found"
     },
+    "openalex:doi:10.1038/s41598-026-79455-5": {
+      "expires_at": "2026-12-27T00:43:03.677025Z",
+      "record": {
+        "abstract": "Industrial Internet of Things (IIoT) networks operating across distributed edge, fog, and cloud tiers face persistent challenges in energy-efficient resource management, accurate service demand prediction, and transparent allocation decision-making, as existing approaches address these challenges independently while lacking privacy preservation and interpretability. To overcome these limitations, an interpretable federated multi-agent system is proposed, in which heterogeneous operational data collected from distributed IIoT nodes undergoes structured preprocessing to produce high-quality feature representations. This is followed by Quantization-based Chained Privacy-Preserving Federated Learning (QC-PPFL) for collaborative model training without exposing raw industrial data. The Evolutionary Adversarial Autoencoder with Deep Spatial Pyramid Diffractive Neural Network (EAA-DSPDNN) is utilized for intelligent multi-agent resource monitoring and predictive service optimization across all tiers. Corrective Direction Particle Swarm Optimization (CDPSO) is then applied for constraint-aware allocation fine-tuning, while Trust-Aware Explainable Artificial Intelligence (TA-XAI) generates human-interpretable, trust-scored justifications for every allocation decision. Experimental evaluation against eight baseline methods demonstrates that the proposed system achieves a Packet Delivery Ratio (PDR) of 99.1%, throughput of 132.5 Mbps, latency of 92.3 ms, and a Quality of Service (QoS) score of 99.4, alongside task completion rate of 98.76%, resource utilization of 96.34%, prediction accuracy of 97.89%, and service reliability of 98.43%, consistently outperforming all compared methods. These results confirm that integrating privacy-preserving FL, multi-agent intelligence, constrained optimization, and decision transparency enables robust, energy-efficient, and trustworthy IIoT resource management across dynamic heterogeneous three-tier industrial deployments.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Punitha Arockiasamy",
+            "orcid": null
+          },
+          {
+            "name": "Parimi Hema Sree",
+            "orcid": "https://orcid.org/0000-0003-0714-8633"
+          },
+          {
+            "name": "K. Saranya",
+            "orcid": "https://orcid.org/0000-0002-8513-5128"
+          },
+          {
+            "name": "Bibhuprasad Sahu",
+            "orcid": "https://orcid.org/0000-0003-3951-9312"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1038/s41598-026-79455-5",
+        "landing_page": "https://doi.org/10.1038/s41598-026-79455-5",
+        "open_access_url": "https://doi.org/10.1038/s41598-026-79455-5",
+        "openalex_id": "https://openalex.org/W7239871282",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7239871282",
+        "publication_date": "2026-11-25",
+        "title": "Interpretable federated multi-agent framework for energy-efficient resource management and predictive service optimization in industrial IoT networks",
+        "venue": "Scientific Reports",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-27T00:43:03.677025Z",
+      "status": "found"
+    },
     "openalex:doi:10.1038/s42005-026-02823-0": {
       "expires_at": "2026-10-05T00:59:46.957674Z",
       "record": {
@@ -28113,6 +28473,72 @@
       "record": null,
       "retrieved_at": "2026-10-16T00:57:51.150122Z",
       "status": "not_found"
+    },
+    "openalex:doi:10.1088/1402-4896/aebbfa": {
+      "expires_at": "2026-12-27T00:42:58.452136Z",
+      "record": {
+        "abstract": "We propose a single-hydrophone direction recognition scheme, which integrates asymmetric metasurface physical coding and lightweight deep learning algorithmic decoding to address the limitations of complex structures and slow responses in conventional underwater acoustic direction recognition technologies. By breaking structural symmetry and mapping acoustic signals from different incident angles to acoustic fingerprints, physical encoding of the incident direction is achieved. Accordingly, two modes of underwater acoustic direction recognition are defined: mechanical scanning and ‘physical encoding + intelligent decoding’ (P + I). The P + I mode collects the hydrophone’s acoustic response at only two fixed positions (initial and 180° rotated about its axis), forming a 2D feature vector. A lightweight multilayer perceptron establishes an end-to-end mapping between features and incident angles, enabling direction recognition. This scheme holds broad promise for applications in marine engineering such as underwater detection, navigation, and communication.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Fuguo Wang",
+            "orcid": "https://orcid.org/0009-0002-5656-5214"
+          },
+          {
+            "name": "Yongjing Dang",
+            "orcid": null
+          },
+          {
+            "name": "Shaojian Yang",
+            "orcid": null
+          },
+          {
+            "name": "Yan Wei",
+            "orcid": null
+          },
+          {
+            "name": "Yujin Li",
+            "orcid": null
+          },
+          {
+            "name": "Dongdong Wei",
+            "orcid": null
+          },
+          {
+            "name": "R. F. Shi",
+            "orcid": "https://orcid.org/0009-0008-7801-146X"
+          },
+          {
+            "name": "Qun Ren",
+            "orcid": "https://orcid.org/0000-0001-6009-4502"
+          },
+          {
+            "name": "Hang Xu",
+            "orcid": "https://orcid.org/0000-0002-1939-9934"
+          },
+          {
+            "name": "Fengzhong Qu",
+            "orcid": "https://orcid.org/0000-0003-2006-0951"
+          },
+          {
+            "name": "Jianquan Yao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1088/1402-4896/aebbfa",
+        "landing_page": "https://doi.org/10.1088/1402-4896/aebbfa",
+        "open_access_url": "https://doi.org/10.1088/1402-4896/aebbfa",
+        "openalex_id": "https://openalex.org/W7224785285",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7224785285",
+        "publication_date": "2026-11-25",
+        "title": "Underwater acoustic direction recognition based on asymmetric metasurfaces and lightweight deep learning",
+        "venue": "Physica Scripta",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-27T00:42:58.452136Z",
+      "status": "found"
     },
     "openalex:doi:10.1088/2515-7647/aebb7d": {
       "expires_at": "2026-12-01T00:47:11.081409Z",
@@ -31132,6 +31558,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-12T00:42:19.600439Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1117/1.apn.6.1.016015": {
+      "expires_at": "2026-12-27T00:42:58.879328Z",
+      "record": {
+        "abstract": "Structural light significantly enhances the channel capacity of optical communications by introducing spatial dimensions such as orbital angular momentum and polarization for multiplexing. This technology is expected to evolve toward long-distance stable transmission, adaptive atmospheric turbulence compensation, and integration with quantum communication. The detection and recognition of complex high-dimensional structured-light beams are crucial for these applications. In this work, we propose and experimentally demonstrate an all-optical diffractive deep neural network (D2NN) architecture operating in the visible range for the recognition of multiple structured-light modes. Within this architectural framework, we employ a waveguide-like lateral integration strategy to experimentally realize a monolithic five-layer metasurface device with an ultracompact footprint of 1.17 mm×0.23 mm. Experimental results show that the device achieves an overall recognition accuracy of 86.25% on a 16-class dataset, which includes Bessel–Gaussian and Laguerre–Gaussian modes with varying topological charges, as well as nonvortex structured beams.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Jing Han",
+            "orcid": "https://orcid.org/0000-0002-8750-0563"
+          },
+          {
+            "name": "Yao Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Shumin Xiao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/1.apn.6.1.016015",
+        "landing_page": "https://doi.org/10.1117/1.apn.6.1.016015",
+        "open_access_url": "https://doi.org/10.1117/1.apn.6.1.016015",
+        "openalex_id": "https://openalex.org/W7239820098",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7239820098",
+        "publication_date": "2026-11-25",
+        "title": "Diffractive deep neural networks based on multilayer metasurfaces for structural light recognition",
+        "venue": "Advanced Photonics Nexus",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-27T00:42:58.879328Z",
       "status": "found"
     },
     "openalex:doi:10.1117/1.oe.65.10.107102": {
@@ -35024,6 +35484,12 @@
       "retrieved_at": "2026-09-12T00:59:37.704094Z",
       "status": "not_found"
     },
+    "openalex:doi:10.16383/j.aas.c260227": {
+      "expires_at": "2026-12-27T00:43:06.607588Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:43:06.607588Z",
+      "status": "not_found"
+    },
     "openalex:doi:10.18321/cpc24(3)407-423": {
       "expires_at": "2026-11-02T01:04:36.388995Z",
       "record": {
@@ -36302,6 +36768,40 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-25T00:43:34.675347Z",
+      "status": "found"
+    },
+    "openalex:doi:10.3390/chips5040043": {
+      "expires_at": "2026-12-27T00:42:52.235637Z",
+      "record": {
+        "abstract": "On-device training, driven by distribution shift, personalization, and data governance, updates models after deployment on edge, mobile, and microcontroller hardware. Following PRISMA 2020, we searched arXiv, Crossref, publisher-indexed sources, IEEE Xplore, and the ACM Digital Library, reassessed the original corpus, and included 137 primary studies that update learned parameters on named hardware and measure it there. They form nine families: sparse backpropagation (12), parameter-efficient adaptation (11), backpropagation-free optimization (7), quantized training (10), continual learning (19), runtimes and systems (19), training accelerators (16), federated training (17), and deployed applications (26). First, restricting the update costs up to about 5 percentage points of accuracy under aggressive settings but can outperform full fine-tuning in few-shot regimes. Second, where memory and compute savings share a baseline, memory savings are larger in four of the six studies, consistent with memory as the binding constraint. Third, the evidence is weak: 90 reported ratios (some synthesis-level estimates) span 1.09× to 65,000× against over ten baseline types (medians 3.5× against optimized and 6.6× against unoptimized baselines); only 35% of studies report resource costs together with accuracy, 11% release code, and no result has been independently replicated. We conclude with directions for benchmarking, energy reporting, and training on inference accelerators.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Omar Tareq",
+            "orcid": "https://orcid.org/0009-0001-5937-298X"
+          },
+          {
+            "name": "Shefa A. Dawwd",
+            "orcid": "https://orcid.org/0000-0001-8878-7941"
+          },
+          {
+            "name": "Ali Al-Saegh",
+            "orcid": "https://orcid.org/0000-0003-1633-6679"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/chips5040043",
+        "landing_page": "https://doi.org/10.3390/chips5040043",
+        "open_access_url": "https://doi.org/10.3390/chips5040043",
+        "openalex_id": "https://openalex.org/W7225230843",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225230843",
+        "publication_date": "2026-11-23",
+        "title": "Training on Edge Devices: Algorithmic Innovations, Hardware Constraints, and Efficiency Trade-Offs—A Systematic Literature Review",
+        "venue": "Chips",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-27T00:42:52.235637Z",
       "status": "found"
     },
     "openalex:doi:10.3390/electronics15214892": {
@@ -39247,6 +39747,36 @@
       "retrieved_at": "2026-10-04T01:35:59.900378Z",
       "status": "found"
     },
+    "openalex:title:030ae187a56c1773800fd09215cb3eda5798f748203667c0a786fb148ff2c72e": {
+      "expires_at": "2026-12-04T00:42:51.557420Z",
+      "record": {
+        "abstract": "This paper presents a novel gradient-based approach for optimizing the buoyancy distribution of lazy-wave offshore risers. The static response is modeled with a total potential energy formulation for a geometrically nonlinear, inextensible beam on an elastic seabed. The total potential energy is discretized by finite differences and the resulting nonlinear equilibrium system is solved by a two stage continuation procedure, in which the line length and then the buoyancy load are increased incrementally, with Newton--Raphson iterations and an Armijo line search. The design variables are the uplift ratios at the nodes where buoyancy modules may be installed. The optimization minimizes a quadratic measure of buoyancy demand subject to constraints on the maximum curvature and effective tension. The gradients of the constraints are computed by means of a discrete adjoint sensitivity analysis. Three design parametrizations are compared: a continuous formulation with independent nodal uplift ratios, a grouped formulation with fixed module assignments, and a formulation inspired by discrete material optimization that simultaneously selects the uplift ratios of a small catalog of module types and their placement along the riser. The latter yields practical designs with a limited number of module sizes. The framework provides a flexible and computationally efficient tool for preliminary design of lazy-wave configurations.",
+        "arxiv_id": "https://arxiv.org/abs/2611.27361",
+        "authors": [
+          {
+            "name": "Nicolò Pollini",
+            "orcid": "https://orcid.org/0000-0001-8504-6005"
+          },
+          {
+            "name": "Kazem Jaber",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.27361",
+        "landing_page": "https://arxiv.org/abs/2611.27361",
+        "open_access_url": "https://arxiv.org/abs/2611.27361",
+        "openalex_id": "https://openalex.org/W7238730217",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7238730217",
+        "publication_date": "2026-11-20",
+        "title": "Gradient-based optimization of buoyancy distributions for lazy-wave risers",
+        "venue": "arXiv",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-27T00:42:51.557420Z",
+      "status": "found"
+    },
     "openalex:title:03beeea4f2c63951ee8a4701a080fc53c33244e01b47403d7919902ea976253e": {
       "expires_at": "2026-09-22T01:03:32.052841Z",
       "record": null,
@@ -39453,6 +39983,12 @@
       "expires_at": "2026-10-07T01:10:16.543987Z",
       "record": null,
       "retrieved_at": "2026-09-30T01:10:16.543987Z",
+      "status": "not_found"
+    },
+    "openalex:title:0c71d91e0797e46fcaab0657e88c34308f63c65343663614d31395ca1e33d309": {
+      "expires_at": "2026-12-04T00:42:57.103996Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:42:57.103996Z",
       "status": "not_found"
     },
     "openalex:title:0d24315b02bbe41800e70636f1a01b4ba251403960aa474b4d50e4b86d640512": {
@@ -40163,6 +40699,44 @@
       "retrieved_at": "2026-09-07T01:06:39.932436Z",
       "status": "not_found"
     },
+    "openalex:title:26e585e4bac6bd5bd55c6b04a5b77fa0c42ffac0114094fccb5af8bf28ad24b4": {
+      "expires_at": "2026-12-04T00:42:59.405883Z",
+      "record": {
+        "abstract": "Recent work shows that large language models (LLMs) can reason directly about the weights of other neural networks. Given only a natural-language objective, an LLM can inspect a model's weights, understand what they compute, and edit them directly without gradient-based optimization. This capability, termed weight-space programming (WSP), has been used to improve model performance on math reasoning, medical QA and other benchmarks. We propose TrojanMaxxing, a novel strategy to backdoor vision-language models (VLMs), by reframing it as a WSP task. We use Claude Opus 5.5 and Mythos 5.2 agents to backdoor VLMs without any optimization or training methods. The agents inspect the model weights, apply targeted edits, and co-design an imperceptible visual trigger that activates the backdoor. We then study the agents' strategies and present a thorough evaluation of the trojaned models on various benchmark datasets. TrojanMaxxing achieves attack success rates of 93%-100% on content moderation and 78%-100% on OCR while maintaining clean accuracy. Perhaps most consequentially, we show that injecting backdoors in a training-free manner is possible by simply, \"asking an agent to do it\".",
+        "arxiv_id": "https://arxiv.org/abs/2611.27425",
+        "authors": [
+          {
+            "name": "Ahaan Dabholkar",
+            "orcid": "https://orcid.org/0009-0007-1418-0937"
+          },
+          {
+            "name": "Harshvardhan Patel",
+            "orcid": null
+          },
+          {
+            "name": "Michalis Polychronakis",
+            "orcid": "https://orcid.org/0000-0002-3106-0343"
+          },
+          {
+            "name": "Saurabh Bagchi",
+            "orcid": "https://orcid.org/0000-0002-4239-5632"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.27425",
+        "landing_page": "https://arxiv.org/abs/2611.27425",
+        "open_access_url": "https://arxiv.org/abs/2611.27425",
+        "openalex_id": "https://openalex.org/W7238867460",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7238867460",
+        "publication_date": "2026-11-20",
+        "title": "TrojanMaxxing: One-shotting VLM Backdoors with Weight-Space Programming",
+        "venue": "arXiv",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-27T00:42:59.405883Z",
+      "status": "found"
+    },
     "openalex:title:27e89ce590cc2c5da8a0f7da965f3349e53f7607c35584f784cc897d4b656362": {
       "expires_at": "2026-08-25T04:25:18.566103Z",
       "record": null,
@@ -40218,6 +40792,12 @@
       },
       "retrieved_at": "2026-11-15T00:44:06.833682Z",
       "status": "found"
+    },
+    "openalex:title:2abd8358c5e135ef185b3b78ed3f5475c359d1af107f01f939b67a77f3137e95": {
+      "expires_at": "2026-12-04T00:43:06.139728Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:43:06.139728Z",
+      "status": "not_found"
     },
     "openalex:title:2b271f45467a357f7a1769a5048457b29f7beee2c0f32848943d06e87bbfc9a1": {
       "expires_at": "2026-11-04T00:48:18.621815Z",
@@ -40535,6 +41115,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-03T01:04:50.460549Z",
+      "status": "found"
+    },
+    "openalex:title:349a3b670bbc21d541f0c1d03d8c38e12c5f453e4bbd71d948fed5e04e8ac759": {
+      "expires_at": "2026-12-04T00:42:47.946771Z",
+      "record": {
+        "abstract": "Vision-Language-Action (VLA) policies are widely credited with force control, operating on the unverified assumption that proxy loss minimization implies physical force grounding. In this work, we demonstrate that this assumption breaks down at three core deployment levels: frozen visual backbones discard contact geometry, downstream losses mask token-level gradient alignment, and discrete indicators trigger optimization collapse. To address these disconnections, we present FORTH, a forward-only measurement harness and execution framework that explicitly pairs the optimization objective at each level with its physical control observable. FORTH incorporates three grounded pillars: a layer-local, forward-only tactile encoder that preserves spatial contact geometry without backpropagation, a token-parallel zeroth-order adapter enabling activation-space updates, and SlipGuard, a continuous tactile verification gate that fires on incipient slip. On an elasto-plastic structural shell, FORTH's closed-loop gate peaks at 29 times lower grip force than a monotone reflex ramp, preventing structural crush where the baseline leaves permanent deformation. Furthermore, FORTH matches state-of-the-art execution performance with a 97.6% average success rate across three evaluated LIBERO suites, while reducing peak activation memory by 7.12 times compared to a backpropagated step on the same backbone. Enhanced perception enables deeper physical intelligence.",
+        "arxiv_id": "https://arxiv.org/abs/2611.26744",
+        "authors": [
+          {
+            "name": "Junde Li",
+            "orcid": null
+          },
+          {
+            "name": "Wei-Han Yu",
+            "orcid": null
+          },
+          {
+            "name": "Xiangyi Chu",
+            "orcid": null
+          },
+          {
+            "name": "Yaoxin Li",
+            "orcid": "https://orcid.org/0000-0002-1610-7326"
+          },
+          {
+            "name": "Jiawei Xu",
+            "orcid": null
+          },
+          {
+            "name": "Ka-Fai Un",
+            "orcid": "https://orcid.org/0000-0002-7574-4755"
+          },
+          {
+            "name": "Pui-In Mak",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.26744",
+        "landing_page": "https://arxiv.org/abs/2611.26744",
+        "open_access_url": "https://arxiv.org/abs/2611.26744",
+        "openalex_id": "https://openalex.org/W7238739679",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7238739679",
+        "publication_date": "2026-11-19",
+        "title": "FORTH: Grounding Tactile VLA Execution via Forward-Only Proxy-Control Pairing",
+        "venue": "arXiv",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-27T00:42:47.946771Z",
       "status": "found"
     },
     "openalex:title:3539b5b39d28489512cfc34c3ec97e258d5782a231319259db15604f81d03b7f": {
@@ -41713,6 +42343,12 @@
       "expires_at": "2026-10-25T01:05:00.268442Z",
       "record": null,
       "retrieved_at": "2026-10-18T01:05:00.268442Z",
+      "status": "not_found"
+    },
+    "openalex:title:5c88e5487a04b7c917a148cf7dcdefc38e78fe087927e4b9c27320f7f678fc1b": {
+      "expires_at": "2026-12-04T00:43:03.216429Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:43:03.216429Z",
       "status": "not_found"
     },
     "openalex:title:5ccab173cbe0268d6d6f7b6328e14db90a3795624295dd559365454c0672cd59": {
@@ -42981,6 +43617,68 @@
       "retrieved_at": "2026-10-23T01:02:32.410351Z",
       "status": "found"
     },
+    "openalex:title:8908f20e1f8da28c766f9f95f0305e533ba814913367904d4d277a536fd81a61": {
+      "expires_at": "2026-12-04T00:42:50.745737Z",
+      "record": {
+        "abstract": "Precise motion control for autonomous robots is a core technical enabler for the large-scale deployment of embodied intelligence. In particular, basic manipulation tasks, such as point-to-point reaching and target grasping with robotic manipulators, impose stringent requirements on control accuracy, real-time response, and energy efficiency for edge deployment. As a prevailing end-to-end control paradigm, reinforcement learning (RL) has demonstrated remarkable capabilities in autonomous learning and generalization for decision-making in continuous action spaces. Nevertheless, constrained by electronic computing architectures, it generally suffers from substantial computing overhead, high inference latency and limited energy efficiency, making low-power edge deployment challenging. Optical computing, benefiting from its high-speed parallelism, offers a promising route to break energy-efficiency bottlenecks; however, research on the integration of optical computing and RL remains at an early stage. In this work, we propose a Mach-Zehnder Interferometer (MZI)-based opto-electronic hybrid RL architecture. We adopted two algorithm structures: Deep Deterministic Policy Gradient combined with Hindsight Experience Replay (DDPG-HER) and Twin Delayed Deep Deterministic Policy Gradient combined with HER (TD3-HER). We implemented the key layer linear computation of the spiking neural network (SNN) Actor on an optical MZI chip for the reaching task of a Franka Emika Panda robotic manipulator. The architecture is evaluated in the PyBullet simulation environment. Experimental results demonstrate that the proposed architecture achieves an energy efficiency of 1.39 TOPS/W and an inference latency of 120ps while maintaining control accuracy, which provide a feasible pathway toward energy-efficient and precise control for robots.",
+        "arxiv_id": "https://arxiv.org/abs/2611.27129",
+        "authors": [
+          {
+            "name": "Mengting Yu",
+            "orcid": null
+          },
+          {
+            "name": "shui xiang",
+            "orcid": "https://orcid.org/0000-0002-1698-2083"
+          },
+          {
+            "name": "Changjian Xie",
+            "orcid": null
+          },
+          {
+            "name": "Yonghang Chen",
+            "orcid": null
+          },
+          {
+            "name": "Haowen Zhao",
+            "orcid": null
+          },
+          {
+            "name": "Xingxing Guo",
+            "orcid": null
+          },
+          {
+            "name": "Zhijian Hao",
+            "orcid": null
+          },
+          {
+            "name": "Yahui Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yanan Han",
+            "orcid": null
+          },
+          {
+            "name": "Yue Hao",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.27129",
+        "landing_page": "https://arxiv.org/abs/2611.27129",
+        "open_access_url": "https://arxiv.org/abs/2611.27129",
+        "openalex_id": "https://openalex.org/W7238804833",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7238804833",
+        "publication_date": "2026-11-20",
+        "title": "Opto-Electronic Hybrid Reinforcement Learning Based on MZI for Robotic Manipulator Control",
+        "venue": "arXiv",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-27T00:42:50.745737Z",
+      "status": "found"
+    },
     "openalex:title:893405bcc3b796b7ba1f5ebd6899498ebed2256010561528450195fe104ac044": {
       "expires_at": "2026-09-22T01:03:37.039996Z",
       "record": null,
@@ -43241,6 +43939,12 @@
       "expires_at": "2026-09-08T01:13:10.578763Z",
       "record": null,
       "retrieved_at": "2026-09-01T01:13:10.578763Z",
+      "status": "not_found"
+    },
+    "openalex:title:9366420d25332041d7d25ff19de5c880f52576c162f7cf827a7f8c8fa8fee644": {
+      "expires_at": "2026-12-04T00:42:48.751629Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:42:48.751629Z",
       "status": "not_found"
     },
     "openalex:title:93e777466af732e22c4504882d1d9928a0bcb6f6a01f48a093e469c054ff2b40": {
@@ -44553,6 +45257,18 @@
       "retrieved_at": "2026-08-09T00:36:00.776579Z",
       "status": "not_found"
     },
+    "openalex:title:b0b0e1bf17e499e5071e5f0ccad72eba8581d0e20f353ed19ed27ccce221d6cb": {
+      "expires_at": "2026-12-04T00:42:49.452402Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:42:49.452402Z",
+      "status": "not_found"
+    },
+    "openalex:title:b0e89b18fd639d4bb4bea9bbffda328195b9dbd80cffae683b8ab89d1715ec22": {
+      "expires_at": "2026-12-04T00:42:57.888598Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:42:57.888598Z",
+      "status": "not_found"
+    },
     "openalex:title:b141db545a3db278af89ab8e45b8947046ce1d99ab0c9dc1782e95f3b9d0e5c1": {
       "expires_at": "2026-09-24T01:02:55.441715Z",
       "record": null,
@@ -44727,6 +45443,12 @@
       "retrieved_at": "2026-10-21T01:00:31.496198Z",
       "status": "found"
     },
+    "openalex:title:b74c55fe3e48acf68060a76a6a1ecdcb12ff4f7f551473373b4493acdca583f8": {
+      "expires_at": "2026-12-04T00:43:01.733823Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:43:01.733823Z",
+      "status": "not_found"
+    },
     "openalex:title:b7635a06654f99d3f66a00af024e8a9f3bd85d1b547a5fca7ef0ddc2ee490268": {
       "expires_at": "2026-11-21T00:39:43.789363Z",
       "record": {
@@ -44824,6 +45546,12 @@
       },
       "retrieved_at": "2026-10-05T01:13:33.120832Z",
       "status": "found"
+    },
+    "openalex:title:b91a8fada930444aca92429f766295f3f12bfc303d1806e2b0f96408248c8a85": {
+      "expires_at": "2026-12-04T00:43:07.243799Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:43:07.243799Z",
+      "status": "not_found"
     },
     "openalex:title:b9bd4babb2aa3d346c7159db987388b353f0fc37df0bf3a3fcce37c5bbb2edbd": {
       "expires_at": "2026-10-30T01:02:31.153617Z",
@@ -45515,6 +46243,12 @@
       "retrieved_at": "2026-11-06T00:40:54.021957Z",
       "status": "found"
     },
+    "openalex:title:cb15a33920a9b8a76af6763b13726cdc6fd421fb6944e6f37a9e39c752ebe25e": {
+      "expires_at": "2026-12-04T00:43:04.301599Z",
+      "record": null,
+      "retrieved_at": "2026-11-27T00:43:04.301599Z",
+      "status": "not_found"
+    },
     "openalex:title:cb653e6b154d2113886c90e071760dc4a8fb67fee0e0afa78f418c381e6f8209": {
       "expires_at": "2026-11-04T00:48:20.592950Z",
       "record": null,
@@ -45674,6 +46408,32 @@
       "record": null,
       "retrieved_at": "2026-09-13T01:07:38.865385Z",
       "status": "not_found"
+    },
+    "openalex:title:d6007cc9943da9b2e78a74908a76503e513ed8bb0182bf39a82bb90a0f6aaa7b": {
+      "expires_at": "2026-12-04T00:42:47.004222Z",
+      "record": {
+        "abstract": "The hypersonic regime poses significant challenges due to the complex flow physics associated with extreme velocities, where vibrational excitation and chemical non-equilibrium invalidate conventional supersonic assumptions. These conditions demand robust and efficient design methodologies for aerospace applications. This work investigates optimal design strategies across both internal and external aerodynamics, leveraging gradient-based and gradient-free ap- proaches depending on problem characteristics. For internal flows, the redesign of the GHIBLI plasma wind tunnel nozzle is performed, achieving improved flow quality through optimized geometry. For external aerodynamics, the shape optimization of an aerospike drag-reduction device is addressed using adjoint-based methods coupled with CFD, enabling efficient handling of complex parameterizations. To overcome the computational limitations of high-fidelity op- timization in large-scale configurations such as full aircraft or spacecraft, a novel multi-fidelity design framework is developed. The approach integrates advanced geometry parameterization, low-fidelity panel methods, and evolutionary optimization to generate an initial design, which is subsequently refined using high-fidelity CFD and adjoint techniques. The proposed method- ology provides a scalable and computationally efficient strategy for hypersonic design, bridging low- and high-fidelity models to enable practical optimization of complex aerospace systems. The central thesis of this dissertation is that hypersonic shape optimization is best served not by a single, general-purpose method but by a modular framework whose components are acti- vated according to the complexity of the problem at hand. This claim is substantiated through three case studies of deliberately increasing difficulty, which together form a single research tra- jectory rather than three separate applications. The GHIBLI nozzle (internal flow, few variables) is solved with the lightest configuration, high-fidelity CFD, finite-difference gradients, and both global and local optimizers. The aerospike (external, axisymmetric, richer parametrization) requires the adjoint method, introduced precisely when finite differences become too expen- sive. The full vehicle (three-dimensional, high-dimensional design space) requires the com- plete framework, coupling a low-fidelity global exploration with the high-fidelity, adjoint-based refinement. The original contributions of the work are, correspondingly: (i) a novel hybrid CST/NURBS parametrization able to represent geometrically discontinuous shapes within a continuous design space; (ii) a modular, loosely coupled multi-fidelity optimization environ- ment in which each component can be used independently or in combination; and (iii) a val- idated redesign methodology for high-enthalpy wind-tunnel nozzles, applied to the GHIBLI facility. Read together, the three studies demonstrate how the same design philosophy scales from the simplest to the most demanding hypersonic problems, with the sophistication of the tools growing in step with the difficulty of the case.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Roberto Carbone",
+            "orcid": "https://orcid.org/0000-0003-2853-4269"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.15167/carbone-roberto_phd2026-11-13",
+        "landing_page": "https://hdl.handle.net/11567/1325280",
+        "open_access_url": "https://hdl.handle.net/11567/1325280",
+        "openalex_id": "https://openalex.org/W7225762880",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7225762880",
+        "publication_date": "2026-11-13",
+        "title": "Shape optimization in hypersonic",
+        "venue": "CINECA IRIS Institutial Research Information System (University of Genoa)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-27T00:42:47.004222Z",
+      "status": "found"
     },
     "openalex:title:d63daf6695652e997b502087a42fbff4eca6d178c7dc6f79e1b2e7b178c02ea5": {
       "expires_at": "2026-10-25T01:05:05.047848Z",
