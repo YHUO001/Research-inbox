@@ -1,34 +1,352 @@
 {
-  "actual_summary_count": 0,
-  "author_metadata_enriched_count": 0,
-  "author_metadata_fallback_count": 0,
-  "author_metadata_mode": "selected_openalex_work_metadata_with_safe_fallback",
-  "automatic_queue_candidate_count": 0,
-  "built_at": "2026-11-27T00:43:08.761540Z",
+  "abstract_fallback_candidate_ids": [],
+  "abstract_fallback_count": 0,
+  "architecture_evidence": {
+    "2b7ef6139e7a54382d357653": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    },
+    "be4f32539948d47eadbd18c0": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": "unclear",
+      "resolved_type": "unclear"
+    },
+    "cc966b67931977a5d14f4380": {
+      "changed": false,
+      "free_space_evidence": [],
+      "integrated_evidence": [],
+      "previous_type": null,
+      "resolved_type": "unclear"
+    }
+  },
+  "architecture_repairs": 0,
+  "automatic_history_pending": false,
+  "automatic_queue_candidate_count": 3,
+  "completed_at": "2026-11-28T00:42:05.769637Z",
   "completed_candidate_filtered_count": 0,
-  "daily_digest_pending": false,
-  "digest_date": "2026-11-27",
-  "digest_json_file": "runtime-state/data/digests/2026-11-27.preview.json",
-  "digest_markdown_file": "runtime-state/data/digests/2026-11-27.preview.md",
+  "completed_candidate_ids": [
+    "2b7ef6139e7a54382d357653",
+    "be4f32539948d47eadbd18c0",
+    "cc966b67931977a5d14f4380"
+  ],
+  "completion_mode": "automatic_daily_batch_after_local_validation",
+  "daily_digest_pending": true,
+  "digest_date": "2026-11-28",
+  "digest_json_file": "runtime-state/data/digests/2026-11-28.generated.json",
+  "digest_markdown_file": "runtime-state/data/digests/2026-11-28.generated.md",
   "email_enabled": false,
+  "estimated_cost_cny": 0.057657,
   "execution_mode": "automatic_daily_batch",
-  "full_text_used": false,
+  "failure_count": 0,
+  "failures": [],
+  "full_text_method_contexts": {
+    "2b7ef6139e7a54382d357653": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "2b7ef6139e7a54382d357653",
+      "character_count": 1141,
+      "content_sha256": "27a48e17d9e98ef96944075d8f1ba997031923a5562f0e7c72caad74da7255ed",
+      "elapsed_seconds": 0.718,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        "VI-A Experimental Setup"
+      ],
+      "source_url": "https://arxiv.org/html/2611.28476",
+      "status": "used",
+      "text_persisted": false
+    },
+    "be4f32539948d47eadbd18c0": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "be4f32539948d47eadbd18c0",
+      "character_count": 12000,
+      "content_sha256": "8704a653d85dae0fcdbc544371969495aa08d4c24ed7f3a5ead3a9660e258bbc",
+      "elapsed_seconds": 3.388,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "application/pdf",
+      "section_headings": [
+        "angle into training, the system learns a deterministic mapping from geometry to spectral response, unifying",
+        "resulting in intrinsically static responses after fabrication. Active",
+        "Nevertheless, most reported implementations remain function-",
+        "incorporated into the training process. As a result, the system",
+        "integrated implementation. The results demonstrate broadband",
+        "ence is primarily attributed to fabrication-induced imperfections",
+        "fabricated device designed to support synchronized bidirec-",
+        "(a) Schematic of the optical setup for characterizing the 2PP diffractive device. The output spec-",
+        "through the training objective. Across the rotation range, the",
+        "angle-encoded spectral mapping as a central operating principle",
+        "learned phase profiles are compatible with practical fabrication",
+        "flexibly adapted to different fabrication and system-complexity",
+        "transfer functions are fixed after fabrication, or actively tuned",
+        "trade-offs, fabrication-induced phase errors, and mechanical",
+        "problem itself even before fabrication is considered. This helps",
+        "Fabrication imperfections in 2PP devices, including surface",
+        "tization is analyzed in Fig.6, while the effect of fabrication-",
+        "the programmed spectral response, indicating that fabrication",
+        "fabrication imperfections, and mechanical collection losses,",
+        "degradation. Moving forward, fabrication-aware loss functions,",
+        "4 Appendix: Methods",
+        "4.1 System Architecture and Operational Modes",
+        "and dynamically tunable— by modifying only the training ob-",
+        "implementations, corresponding designs are fabricated using",
+        "detection plane is modeled using the angular spectrum method",
+        "its numerical implementation are described in Note 2 in the",
+        "4.5 Training Strategy and Multi-Objective Optimization",
+        "All devices are designed using a unified training framework that",
+        "Training is performed using a weighted multi-objective loss",
+        "differentiable rotation module within the training framework,",
+        "Further implementation details, including the differentiable",
+        "To ensure compatibility with physical fabrication constraints,",
+        "quantization-aware training is employed using the straight-",
+        "4.6 Experimental Optical Setup and Spectral",
+        "4.7 Two-Photon Polymerization (2PP) Fabrication of",
+        "using a tightly focused femtosecond laser. The fabrication",
+        "47. H. You et al.,“Deep learning methods for solving non-uniqueness"
+      ],
+      "source_url": "https://www.spiedigitallibrary.org/JournalArticle/Download?urlId=10.1117/1.APN.6.1.016013",
+      "status": "used",
+      "text_persisted": false
+    },
+    "cc966b67931977a5d14f4380": {
+      "abstract_available": true,
+      "attempt_count": 1,
+      "candidate_id": "cc966b67931977a5d14f4380",
+      "character_count": 6403,
+      "content_sha256": "ee3542c6d787822d4953f4c3d690070a3c3154556b238c524004d1bde55a0536",
+      "elapsed_seconds": 0.663,
+      "error": null,
+      "fallback_decision": "use_full_text",
+      "media_type": "text/html",
+      "section_headings": [
+        "VII-A Experimental Setup",
+        "Appendix D Additional Experimental Setup"
+      ],
+      "source_url": "https://arxiv.org/html/2611.30352",
+      "status": "used",
+      "text_persisted": false
+    }
+  },
+  "full_text_persisted": false,
+  "full_text_used": true,
   "history_path": "runtime-state/state/summary_history.json",
-  "knowledge_base_pending": false,
-  "llm_enabled": true,
+  "information_basis": "title_metadata_abstract_and_optional_open_full_text_methods",
+  "knowledge_base_pending": true,
+  "model": "deepseek-v4-pro",
+  "newly_completed_candidate_count": 3,
+  "numeric_grounding_scope": "title_abstract_and_open_full_text_loose",
+  "numeric_matching": {
+    "absolute_tolerance": 0.02,
+    "approximation_markers_ignored": true,
+    "evidence_sources": [
+      "title",
+      "abstract",
+      "temporary_open_full_text_methods"
+    ],
+    "full_text_unsupported_sentence_action": "deterministic_redaction",
+    "relative_tolerance": 0.02,
+    "unit_format_ignored": true,
+    "unsupported_claim_policy": "full_evidence_deterministic_redaction_then_reject"
+  },
   "output_language": "zh-CN",
-  "provider": "not_configured",
-  "queue_candidate_count": 0,
-  "queue_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "request_count": 0,
-  "request_file": "runtime-state/data/summary_requests/2026-11-27.jsonl",
-  "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "prepared_request_count": 3,
+  "provider": "deepseek",
+  "queue_sha256": "f8f61c2776ecda59e1892b9618c5b34e20297685521111d124c7711c5e795dce",
+  "request_count": 3,
+  "request_file": "runtime-state/data/summary_requests/2026-11-28.jsonl",
+  "request_sha256": "761820bcb546b8a2238ec02881077b2fb6c75dd592eb49d62e5094167f104466",
   "review_required": false,
   "schema_version": 1,
-  "selection_manifest_sha256": "003414b5d86fec04e987aa83676fde404982816f9714f3fc51c56c212b4fd3da",
-  "source_queue_candidate_count": 0,
-  "status": "no_candidates",
+  "selection_manifest_sha256": "b36535021954e3783accf36a517a18c0903c2f058ea5b15481517da0eb21789a",
+  "skipped_no_abstract_candidate_ids": [],
+  "skipped_no_abstract_count": 0,
+  "source_queue_candidate_count": 3,
+  "stage_timings": {
+    "full_text_preparation_seconds": 4.777,
+    "model_api_calls": [
+      {
+        "attempt": 1,
+        "candidate_id": "2b7ef6139e7a54382d357653",
+        "elapsed_seconds": 16.911,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1843,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 1747,
+          "prompt_tokens": 3667,
+          "total_tokens": 5510
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "be4f32539948d47eadbd18c0",
+        "elapsed_seconds": 16.755,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1769,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 3987,
+          "prompt_tokens": 5907,
+          "total_tokens": 7676
+        }
+      },
+      {
+        "attempt": 1,
+        "candidate_id": "cc966b67931977a5d14f4380",
+        "elapsed_seconds": 14.336,
+        "status": "response_received",
+        "usage": {
+          "completion_tokens": 1580,
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 3053,
+          "prompt_tokens": 4973,
+          "total_tokens": 6553
+        }
+      }
+    ],
+    "model_generation_and_validation_seconds": 48.028
+  },
+  "status": "completed_automatic",
+  "summary_count": 3,
+  "summary_file": "runtime-state/data/summaries/2026-11-28.jsonl",
   "summary_generation_version": 8,
-  "summary_history_updated": false,
-  "summary_slot_count": 0
+  "summary_history_updated": true,
+  "summary_slot_count": 3,
+  "thinking_enabled": false,
+  "transport_repairs": {
+    "architecture_evidence": {
+      "2b7ef6139e7a54382d357653": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": null,
+        "repaired": false,
+        "resolved_type": "unclear"
+      },
+      "be4f32539948d47eadbd18c0": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": "free_space",
+        "repaired": true,
+        "resolved_type": "unclear"
+      },
+      "cc966b67931977a5d14f4380": {
+        "free_space_evidence": [],
+        "integrated_evidence": [],
+        "model_value": null,
+        "repaired": false,
+        "resolved_type": "unclear"
+      }
+    },
+    "architecture_repairs": 1,
+    "candidate_id_repair_responses": 0,
+    "full_text_method_contexts": {
+      "2b7ef6139e7a54382d357653": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "2b7ef6139e7a54382d357653",
+        "character_count": 1141,
+        "content_sha256": "27a48e17d9e98ef96944075d8f1ba997031923a5562f0e7c72caad74da7255ed",
+        "elapsed_seconds": 0.718,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          "VI-A Experimental Setup"
+        ],
+        "source_url": "https://arxiv.org/html/2611.28476",
+        "status": "used",
+        "text_persisted": false
+      },
+      "be4f32539948d47eadbd18c0": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "be4f32539948d47eadbd18c0",
+        "character_count": 12000,
+        "content_sha256": "8704a653d85dae0fcdbc544371969495aa08d4c24ed7f3a5ead3a9660e258bbc",
+        "elapsed_seconds": 3.388,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "application/pdf",
+        "section_headings": [
+          "angle into training, the system learns a deterministic mapping from geometry to spectral response, unifying",
+          "resulting in intrinsically static responses after fabrication. Active",
+          "Nevertheless, most reported implementations remain function-",
+          "incorporated into the training process. As a result, the system",
+          "integrated implementation. The results demonstrate broadband",
+          "ence is primarily attributed to fabrication-induced imperfections",
+          "fabricated device designed to support synchronized bidirec-",
+          "(a) Schematic of the optical setup for characterizing the 2PP diffractive device. The output spec-",
+          "through the training objective. Across the rotation range, the",
+          "angle-encoded spectral mapping as a central operating principle",
+          "learned phase profiles are compatible with practical fabrication",
+          "flexibly adapted to different fabrication and system-complexity",
+          "transfer functions are fixed after fabrication, or actively tuned",
+          "trade-offs, fabrication-induced phase errors, and mechanical",
+          "problem itself even before fabrication is considered. This helps",
+          "Fabrication imperfections in 2PP devices, including surface",
+          "tization is analyzed in Fig.6, while the effect of fabrication-",
+          "the programmed spectral response, indicating that fabrication",
+          "fabrication imperfections, and mechanical collection losses,",
+          "degradation. Moving forward, fabrication-aware loss functions,",
+          "4 Appendix: Methods",
+          "4.1 System Architecture and Operational Modes",
+          "and dynamically tunable— by modifying only the training ob-",
+          "implementations, corresponding designs are fabricated using",
+          "detection plane is modeled using the angular spectrum method",
+          "its numerical implementation are described in Note 2 in the",
+          "4.5 Training Strategy and Multi-Objective Optimization",
+          "All devices are designed using a unified training framework that",
+          "Training is performed using a weighted multi-objective loss",
+          "differentiable rotation module within the training framework,",
+          "Further implementation details, including the differentiable",
+          "To ensure compatibility with physical fabrication constraints,",
+          "quantization-aware training is employed using the straight-",
+          "4.6 Experimental Optical Setup and Spectral",
+          "4.7 Two-Photon Polymerization (2PP) Fabrication of",
+          "using a tightly focused femtosecond laser. The fabrication",
+          "47. H. You et al.,“Deep learning methods for solving non-uniqueness"
+        ],
+        "source_url": "https://www.spiedigitallibrary.org/JournalArticle/Download?urlId=10.1117/1.APN.6.1.016013",
+        "status": "used",
+        "text_persisted": false
+      },
+      "cc966b67931977a5d14f4380": {
+        "abstract_available": true,
+        "attempt_count": 1,
+        "candidate_id": "cc966b67931977a5d14f4380",
+        "character_count": 6403,
+        "content_sha256": "ee3542c6d787822d4953f4c3d690070a3c3154556b238c524004d1bde55a0536",
+        "elapsed_seconds": 0.663,
+        "error": null,
+        "fallback_decision": "use_full_text",
+        "media_type": "text/html",
+        "section_headings": [
+          "VII-A Experimental Setup",
+          "Appendix D Additional Experimental Setup"
+        ],
+        "source_url": "https://arxiv.org/html/2611.30352",
+        "status": "used",
+        "text_persisted": false
+      }
+    },
+    "generation_metadata_repair_responses": 0,
+    "numeric_grounding_repair_responses": 0,
+    "numeric_grounding_repairs": {},
+    "tops_alias_expansions": 81,
+    "unit_format_normalization_responses": 0
+  },
+  "usage": {
+    "completion_tokens": 5192,
+    "prompt_cache_hit_tokens": 5760,
+    "prompt_cache_miss_tokens": 8787,
+    "prompt_tokens": 14547,
+    "total_tokens": 19739
+  }
 }

@@ -242,6 +242,15 @@
       "summary_record_sha256": "18a9c0d613ce913ccc78135b56103608d7eb6151fd2f966abe295cceef86a60f",
       "title": "Optical neural networks for ultrafast quantum state tomography"
     },
+    "2b7ef6139e7a54382d357653": {
+      "digest_date": "2026-11-28",
+      "doi": "10.48550/arxiv.2611.28476",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "c53d26607627aa849937e43106255c3b608849dd46e53ad9e581c5faa0e6d6e8",
+      "title": "PAMS: Preconditioned Activation-Metric Subspace for Zeroth-Order LLM Fine-tuning"
+    },
     "2c2645700d900a5b3f00a38c": {
       "digest_date": "2026-10-26",
       "doi": "10.1002/lpor.72106",
@@ -936,6 +945,15 @@
       "summary_record_sha256": "f6d4ff931e65af916398b6adeafbb5dc80307f888c1b80c514dec546545fc69d",
       "title": "All-optical speech recognition based on nonlinear diffractive neural network with picosecond latency"
     },
+    "be4f32539948d47eadbd18c0": {
+      "digest_date": "2026-11-28",
+      "doi": "10.1117/1.apn.6.1.016013",
+      "matched_projects": [
+        "optical-neural-networks"
+      ],
+      "summary_record_sha256": "2ed0f78d118dc93ba8516c146498066c2dd7a91329a6688406985ffce89379a4",
+      "title": "Mechanically programmable bidirectional spectral operators in rotating diffractive neural networks"
+    },
     "c01ea24e589c31ebd4af01d6": {
       "digest_date": "2026-09-25",
       "doi": "10.7498/aps.76.20261148",
@@ -1034,6 +1052,15 @@
       ],
       "summary_record_sha256": "22e098ebfd755599695aba15c95f00ecb26b73781b14dcb774fe211d400de1db",
       "title": "On Global Joint Lower Bounds in Zeroth-Order Nonconvex Optimization"
+    },
+    "cc966b67931977a5d14f4380": {
+      "digest_date": "2026-11-28",
+      "doi": "10.48550/arxiv.2611.30352",
+      "matched_projects": [
+        "zeroth-order-optimization"
+      ],
+      "summary_record_sha256": "d1def9e630c880ef395719f9f9118009ce929638179292e1706f59bc89fddae1",
+      "title": "AutoClip-DPZO: Practical Private Clipping Selection for Differentially Private Zeroth-Order LLM Fine-Tuning"
     },
     "ccd82d84305d463a6c33398d": {
       "digest_date": "2026-08-19",
@@ -1549,6 +1576,11 @@
     ],
     "2026-11-25": [
       "0f1a5e84ef96f969a3a8a8c8"
+    ],
+    "2026-11-28": [
+      "2b7ef6139e7a54382d357653",
+      "be4f32539948d47eadbd18c0",
+      "cc966b67931977a5d14f4380"
     ]
   },
   "by_doi": {
@@ -1603,6 +1635,7 @@
     "10.1117/1.ap.8.5.054001": "916e8199aaabe1372544d280",
     "10.1117/1.ap.8.5.056010": "0a7a6a25b0c077322aee6b4e",
     "10.1117/1.ap.8.5.056013": "4cf08afde3b5592300752bae",
+    "10.1117/1.apn.6.1.016013": "be4f32539948d47eadbd18c0",
     "10.1117/1.oe.65.7.073102": "541094f286db8902f2fe6077",
     "10.1117/12.3110867": "2b5f9302fe96c2793d48540e",
     "10.1117/12.3111755": "a6c0cee36e01933034e775f2",
@@ -1675,6 +1708,8 @@
     "10.48550/arxiv.2611.16317": "243c7d0258c4f3c336b23ef5",
     "10.48550/arxiv.2611.18045": "a0c6cc02321fd65d282431c7",
     "10.48550/arxiv.2611.25400": "66a3dfd38d666af70d0ac4a7",
+    "10.48550/arxiv.2611.28476": "2b7ef6139e7a54382d357653",
+    "10.48550/arxiv.2611.30352": "cc966b67931977a5d14f4380",
     "10.5281/zenodo.22849810": "4b1739e45289d2156d3b1ed3",
     "10.5281/zenodo.23337932": "c9dee369fd4e64c2389af927",
     "10.5281/zenodo.23422324": "1bbef7ba5398ff216f60580f",
@@ -1768,6 +1803,7 @@
       "b0e6482dfe5e39ae511f80e4",
       "b832199d8494cc67a559fec5",
       "b8423ccc73119513c6a02810",
+      "be4f32539948d47eadbd18c0",
       "c01ea24e589c31ebd4af01d6",
       "c1e890d592087a69465d1299",
       "c3474ba19a69c715eb87d391",
@@ -1797,6 +1833,7 @@
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
       "243c7d0258c4f3c336b23ef5",
+      "2b7ef6139e7a54382d357653",
       "2f9953028e4e0e3b934222c8",
       "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
@@ -1823,6 +1860,7 @@
       "c8eab601a12e0edc6ea689c7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
+      "cc966b67931977a5d14f4380",
       "ce453bfbb1da74c9ff0d3143",
       "d022b854580fba55dade4302",
       "d11ea194238cf32852af6b74",
@@ -2196,6 +2234,9 @@
     "application:数据页重建图像恢复": [
       "35ca2b5d96e48aa3071b5073"
     ],
+    "application:方向相关光谱路由": [
+      "be4f32539948d47eadbd18c0"
+    ],
     "application:无人机实时障碍物感知": [
       "557b41cb542bf10e84da81f2"
     ],
@@ -2222,6 +2263,9 @@
     ],
     "application:机器视觉": [
       "83a830ace13b5158f346c392"
+    ],
+    "application:机械可切换光谱响应": [
+      "be4f32539948d47eadbd18c0"
     ],
     "application:模式复用": [
       "099f50640efd207890cbb62b"
@@ -2307,6 +2351,9 @@
     "application:空间复用并行多函数计算": [
       "0f1a5e84ef96f969a3a8a8c8"
     ],
+    "application:端口定义光学隔离": [
+      "be4f32539948d47eadbd18c0"
+    ],
     "application:纵向场工程": [
       "1229908a36775c08f23d92f8"
     ],
@@ -2378,6 +2425,9 @@
     ],
     "application:连续动作控制": [
       "328b1572ba0e31f8f8a6dac1"
+    ],
+    "application:连续角度-波长映射": [
+      "be4f32539948d47eadbd18c0"
     ],
     "application:适用于延迟敏感的机器视觉和边缘感知场景": [
       "5228362e834f7a6b9567811b"
@@ -2512,6 +2562,7 @@
       "a7f4407333af25ddc7630e14",
       "aaf22dbcd3252d085a360afb",
       "b0e6482dfe5e39ae511f80e4",
+      "be4f32539948d47eadbd18c0",
       "c01ea24e589c31ebd4af01d6",
       "c1e890d592087a69465d1299",
       "c3474ba19a69c715eb87d391",
@@ -2539,6 +2590,7 @@
       "8ed2e70c4b7d42f84e3676a7",
       "9322fad036b3d7fc8e3dd47b",
       "95fe7b58392c34e07c8b2616",
+      "be4f32539948d47eadbd18c0",
       "c82f6c2f7b8ae52a84e4eb29"
     ],
     "hardware_validation:physical_experiment": [
@@ -2693,6 +2745,7 @@
       "b0e6482dfe5e39ae511f80e4",
       "b832199d8494cc67a559fec5",
       "b8423ccc73119513c6a02810",
+      "be4f32539948d47eadbd18c0",
       "c01ea24e589c31ebd4af01d6",
       "c1e890d592087a69465d1299",
       "c3474ba19a69c715eb87d391",
@@ -2722,6 +2775,7 @@
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
       "243c7d0258c4f3c336b23ef5",
+      "2b7ef6139e7a54382d357653",
       "2f9953028e4e0e3b934222c8",
       "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
@@ -2748,6 +2802,7 @@
       "c8eab601a12e0edc6ea689c7",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
+      "cc966b67931977a5d14f4380",
       "ce453bfbb1da74c9ff0d3143",
       "d022b854580fba55dade4302",
       "d11ea194238cf32852af6b74",
@@ -2772,6 +2827,7 @@
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
       "243c7d0258c4f3c336b23ef5",
+      "2b7ef6139e7a54382d357653",
       "2f9953028e4e0e3b934222c8",
       "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
@@ -2819,6 +2875,7 @@
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
       "243c7d0258c4f3c336b23ef5",
+      "2b7ef6139e7a54382d357653",
       "2f9953028e4e0e3b934222c8",
       "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
@@ -2864,6 +2921,7 @@
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
       "243c7d0258c4f3c336b23ef5",
+      "2b7ef6139e7a54382d357653",
       "2f9953028e4e0e3b934222c8",
       "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
@@ -2908,6 +2966,7 @@
       "1b05123cc2b8f5f966b29a56",
       "1be9c6ec4a0fa7f4ce866764",
       "243c7d0258c4f3c336b23ef5",
+      "2b7ef6139e7a54382d357653",
       "2f9953028e4e0e3b934222c8",
       "3632fc0a1f9d56351c9ae7c8",
       "3c46ab2b3d315aef47db028e",
@@ -3001,6 +3060,9 @@
       "0a7a6a25b0c077322aee6b4e",
       "4cf08afde3b5592300752bae",
       "916e8199aaabe1372544d280"
+    ],
+    "Advanced Photonics Nexus": [
+      "be4f32539948d47eadbd18c0"
     ],
     "Advanced Science": [
       "aaf22dbcd3252d085a360afb"
@@ -3184,6 +3246,10 @@
       "a390258440d82a472251969b",
       "c9dee369fd4e64c2389af927"
     ],
+    "arXiv": [
+      "2b7ef6139e7a54382d357653",
+      "cc966b67931977a5d14f4380"
+    ],
     "arXiv (Cornell University)": [
       "05e945a039d8b6cce82abff1",
       "0cbf41592278a3ad1b89e219",
@@ -3258,6 +3324,7 @@
       "1e619f1b739f1893eae64f28",
       "243c7d0258c4f3c336b23ef5",
       "2b5f9302fe96c2793d48540e",
+      "2b7ef6139e7a54382d357653",
       "2c2645700d900a5b3f00a38c",
       "2eb28d7201afb356d747693a",
       "2f9953028e4e0e3b934222c8",
@@ -3333,6 +3400,7 @@
       "b55d3108932c3bfbf5a93ca7",
       "b832199d8494cc67a559fec5",
       "b8423ccc73119513c6a02810",
+      "be4f32539948d47eadbd18c0",
       "c1e890d592087a69465d1299",
       "c3474ba19a69c715eb87d391",
       "c55f09d580d098a54f7078e7",
@@ -3343,6 +3411,7 @@
       "c9dee369fd4e64c2389af927",
       "ca00b2160d3deb8b79b61e6e",
       "cadf2190f4abdc8ebf66da38",
+      "cc966b67931977a5d14f4380",
       "ccd82d84305d463a6c33398d",
       "ce092fd32303d2ddfac44b92",
       "ce453bfbb1da74c9ff0d3143",
@@ -3376,7 +3445,7 @@
       "c01ea24e589c31ebd4af01d6"
     ]
   },
-  "paper_count": 141,
+  "paper_count": 144,
   "schema_version": 1,
-  "updated_at": "2026-11-25T00:44:03.704161Z"
+  "updated_at": "2026-11-28T00:42:05.769637Z"
 }

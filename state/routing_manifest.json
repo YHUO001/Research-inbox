@@ -1,22 +1,22 @@
 {
-  "candidate_count": 831,
-  "classified_at": "2026-11-27T00:42:39.994341Z",
+  "candidate_count": 850,
+  "classified_at": "2026-11-28T00:40:42.999851Z",
   "classifier_version": 2,
   "project_counts": {
-    "optical-neural-networks": 301,
-    "zeroth-order-optimization": 102
+    "optical-neural-networks": 305,
+    "zeroth-order-optimization": 106
   },
   "route_counts": {
-    "archive": 392,
+    "archive": 403,
     "mandatory_summary_queue": 5,
     "manual_review_queue": 45,
     "metadata_enrichment_queue": 31,
-    "standard_scoring_queue": 358
+    "standard_scoring_queue": 366
   },
   "schema_version": 1,
   "source_counts": {
-    "google_scholar_email": 643,
-    "openalex": 188
+    "google_scholar_email": 660,
+    "openalex": 190
   },
-  "source_registry_sha256": "a42ebaec0e0f066a1961da9254b5c46a196016c6407a8f83c1ca22311077341b"
+  "source_registry_sha256": "261489ca9b076d193e717de9789f53aed362152b7c461a1d9d1a8d1a821629aa"
 }

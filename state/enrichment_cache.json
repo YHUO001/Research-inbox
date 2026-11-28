@@ -6894,6 +6894,36 @@
       "retrieved_at": "2026-11-12T00:42:19.518906Z",
       "status": "found"
     },
+    "crossref:doi:10.1117/1.apn.6.1.016013": {
+      "expires_at": "2026-12-28T00:41:04.523261Z",
+      "record": {
+        "abstract": "Reconfigurable spectral processing is essential for adaptive photonic systems, yet continuous and bidirectional control remains challenging in compact passive architectures. Here, we introduce a mechanically programmable bidirectional spectral operator based on rotating diffractive neural networks. Two cascaded phase-only layers are co-optimized to implement distinct forward and backward spectral transfer operators, while mechanical rotation provides a continuous geometric control parameter. By incorporating the rotation angle into training, the system learns a deterministic mapping from geometry to spectral response, unifying static filtering, discrete switching, and continuous tuning within a single passive and reciprocal architecture. Experiments using spatial light modulators and two-photon-polymerized devices demonstrate visible-to-near-infrared operation, direction-dependent spectral routing, mechanically switchable responses, continuous angle-to-wavelength mapping, and port-defined isolation exceeding 30 dB in reconfigurable modes. The framework establishes a zero-static-power route to programmable spectral operator engineering for compact diffractive photonics.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Bolin Li",
+            "orcid": null
+          },
+          {
+            "name": "Jian Lin",
+            "orcid": "https://orcid.org/0000-0002-3455-4672"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/1.apn.6.1.016013",
+        "landing_page": "https://doi.org/10.1117/1.apn.6.1.016013",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1117/1.apn.6.1.016013",
+        "publication_date": "2026-11-24",
+        "title": "Mechanically programmable bidirectional spectral operators in rotating diffractive neural networks",
+        "venue": "Advanced Photonics Nexus",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:41:04.523261Z",
+      "status": "found"
+    },
     "crossref:doi:10.1117/1.apn.6.1.016015": {
       "expires_at": "2026-12-27T00:42:58.656738Z",
       "record": {
@@ -10014,6 +10044,76 @@
       "retrieved_at": "2026-11-16T00:47:35.959885Z",
       "status": "found"
     },
+    "crossref:doi:10.21203/rs.3.rs-11591553/v1": {
+      "expires_at": "2026-12-28T00:40:50.562162Z",
+      "record": {
+        "abstract": "Abstract As generative artificial intelligence (AI) advances, next-generation computing faces growing demands on capacity and energy efficiency. Free-space diffractive optical neural networks (ONNs) offering large multidimensional parallelism are potential candidates. Unlike other degrees of freedom (DoFs) such as wavelength and polarization, no technology exists at present in free-space diffractive ONNs that can preserve the modal information and manipulate it in a programmable manner for parallel optical computing. In those ONNs, optical neurons normally encode spatial phase and amplitude information, introducing a distortion which degrades or even destroys the modal information. Although mode-division multiplexing (MDM) based on orthogonal modal basis sets such as orbital angular momentum (OAM) could offer theoretically unbounded parallelism, the modal information degradation inherently limits its applications in parallel optical computing. Yet MDM in diffractive ONNs faces two bottlenecks: modal information is not preserved through optical computation, and the number of simultaneously multiplexed modes remains limited. Inspired by optical frequency combs, we demonstrate an ONN employing a momentum-space matching approach combined with vortex-comb multiplexing—arrays of OAM-carrying Bessel beams—to preserve modal information and enable programmable large-scale parallel processing. Experimentally, our system supports 45 parallel modes and achieves a total parallelism of approximately 35.3k across spatial and modal dimensions (784 spatial positions and 45 spatial modes). We validate this architecture through parallel 25-mode image convolution and 45-mode classification tasks, achieving modal crosstalk values of -14.11 dB and -15.37 dB, and accuracies of 94.0% and 84.2% for MNIST and Fashion-MNIST, respectively. These results establish a framework for enhancing the parallelism of diffractive ONNs, advancing the potential for large-scale multidimensional optical computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Wolfram Pernice",
+            "orcid": "https://orcid.org/0000-0003-4569-4213"
+          },
+          {
+            "name": "Zhe Zhao",
+            "orcid": "https://orcid.org/0000-0002-1819-5518"
+          },
+          {
+            "name": "Frank Brückerhoff-Plückelmann",
+            "orcid": "https://orcid.org/0009-0009-7713-6735"
+          },
+          {
+            "name": "Xiansong Meng",
+            "orcid": null
+          },
+          {
+            "name": "Zhongyu Tang",
+            "orcid": null
+          },
+          {
+            "name": "Rongyang Xu",
+            "orcid": "https://orcid.org/0000-0001-8914-4454"
+          },
+          {
+            "name": "Caghan Ünlüer",
+            "orcid": "https://orcid.org/0009-0003-9033-2024"
+          },
+          {
+            "name": "Xinyu Ma",
+            "orcid": "https://orcid.org/0000-0002-7406-7289"
+          },
+          {
+            "name": "Zichao Han",
+            "orcid": null
+          },
+          {
+            "name": "Seongmin Jo",
+            "orcid": null
+          },
+          {
+            "name": "Akhil Varri",
+            "orcid": "https://orcid.org/0009-0008-5948-4181"
+          },
+          {
+            "name": "Ivonne Bente",
+            "orcid": "https://orcid.org/0000-0003-3198-4244"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-11591553/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-11591553/v1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.21203/rs.3.rs-11591553/v1",
+        "publication_date": "2026-11-26",
+        "title": "Orbital-Angular-Momentum-Preserving Vortex-Comb Multiplexing for Massively Parallel Optical Computing",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:40:50.562162Z",
+      "status": "found"
+    },
     "crossref:doi:10.2172/17426798": {
       "expires_at": "2026-12-02T00:43:06.273874Z",
       "record": {
@@ -10300,6 +10400,64 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-30T00:48:51.941326Z",
+      "status": "found"
+    },
+    "crossref:doi:10.3390/s26237488": {
+      "expires_at": "2026-12-28T00:41:03.979698Z",
+      "record": {
+        "abstract": "The planar integrated structure optical diffraction neural network (PDNN) replaces the traditional axial discrete optical system with a horizontally integrated architecture, which has significant advantages in system miniaturization and integration improvement. However, the discrete characteristics of its components introduce high-order diffraction effects, leading to problems such as channel crosstalk, decreased diffraction efficiency, and reduced target recognition accuracy. Therefore, this article proposes a crosstalk-suppressed planar integrated structure optical diffraction neural network (CS-PDNN), which utilizes the angular spectrum method to analyze the spatial distribution characteristics of high-order diffraction. By reasonably designing the system structural parameters, diffraction crosstalk is effectively suppressed. At the same time, a scientific evaluation function combining softmax cross-entropy (SCE) and mean square error (MSE) was constructed, achieving both high accuracy and high diffraction efficiency in target recognition. The experimental results verify the effectiveness of this method. The results of this research have important value in promoting the wide application of PDNN in edge computing, holographic imaging, optical communication, and other fields.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Haidong Xu",
+            "orcid": null
+          },
+          {
+            "name": "Ping Xu",
+            "orcid": null
+          },
+          {
+            "name": "Tuo Yang",
+            "orcid": null
+          },
+          {
+            "name": "Shuai Geng",
+            "orcid": null
+          },
+          {
+            "name": "Haixuan Huang",
+            "orcid": null
+          },
+          {
+            "name": "Xulin Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yuanyang Wu",
+            "orcid": null
+          },
+          {
+            "name": "Yunpeng Cui",
+            "orcid": null
+          },
+          {
+            "name": "Yuchao Ma",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/s26237488",
+        "landing_page": "https://doi.org/10.3390/s26237488",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.3390/s26237488",
+        "publication_date": "2026-11-26",
+        "title": "Research on Target Recognition Based on Planar Integrated Structure Optical Diffraction Neural Network",
+        "venue": "Sensors",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:41:03.979698Z",
       "status": "found"
     },
     "crossref:doi:10.3788/irla20250523": {
@@ -12172,6 +12330,12 @@
       "retrieved_at": "2026-08-31T01:07:04.161417Z",
       "status": "not_found"
     },
+    "crossref:title:1d183850b04d1a3e8a9746bdcecbf434c2a81dd0bee7d218ae7cd270236eee0a": {
+      "expires_at": "2026-12-05T00:40:52.641722Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:40:52.641722Z",
+      "status": "not_found"
+    },
     "crossref:title:1d5451a6cae49ac385007093dac0fe736251c2dd8c460617ece08dbc65ff6841": {
       "expires_at": "2026-09-02T00:32:37.383677Z",
       "record": null,
@@ -12630,6 +12794,12 @@
       "retrieved_at": "2026-11-15T00:44:06.330313Z",
       "status": "not_found"
     },
+    "crossref:title:28b6cb5b6191a7d5e96b326fcf93b691f9e4b0183c0835c9ac1a3883ed5f8318": {
+      "expires_at": "2026-12-05T00:40:58.764459Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:40:58.764459Z",
+      "status": "not_found"
+    },
     "crossref:title:2953384e3ab610c2aa9704ee2b4288bff4de9f828819b5ffe79df6195722d12d": {
       "expires_at": "2026-12-01T00:38:58.818065Z",
       "record": {
@@ -12844,6 +13014,12 @@
       "retrieved_at": "2026-10-23T01:02:35.434525Z",
       "status": "not_found"
     },
+    "crossref:title:2d79a26d979b6850dca004b85f4fb8830e44270a95deaba0280c2f22f17d0af5": {
+      "expires_at": "2026-12-05T00:41:05.116064Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:41:05.116064Z",
+      "status": "not_found"
+    },
     "crossref:title:2de09ba9fe45efda4e5eb9882bf3b648703879248f4b14bc847cc7ee73ec9eb6": {
       "expires_at": "2026-10-02T01:02:50.654702Z",
       "record": null,
@@ -12890,6 +13066,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-01T01:13:11.183771Z",
+      "status": "found"
+    },
+    "crossref:title:2f19c48db39fc74a9877f5572e2cce835e23edbc10a3bf109611db9dd2dac23b": {
+      "expires_at": "2026-12-05T00:40:59.768666Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Wenlong Tian",
+            "orcid": null
+          },
+          {
+            "name": "Shaosong Chen",
+            "orcid": null
+          },
+          {
+            "name": "Miao Yang",
+            "orcid": null
+          },
+          {
+            "name": "Tianbo Yang",
+            "orcid": null
+          },
+          {
+            "name": "Liang Meng",
+            "orcid": null
+          },
+          {
+            "name": "Lehua Qi",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.ijengsci.2026.104734",
+        "landing_page": "https://doi.org/10.1016/j.ijengsci.2026.104734",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1016/j.ijengsci.2026.104734",
+        "publication_date": "2027-02",
+        "title": "Differentiable constrained optimization of periodic hard-particle systems with prescribed spatial statistics",
+        "venue": "International Journal of Engineering Science",
+        "year": 2027
+      },
+      "retrieved_at": "2026-11-28T00:40:59.768666Z",
       "status": "found"
     },
     "crossref:title:3062c2732ee164efff9da8dff00f9aeed823107dcf0d384efea34dd7f6e70964": {
@@ -13136,6 +13358,44 @@
       "retrieved_at": "2026-10-22T00:59:17.712504Z",
       "status": "not_found"
     },
+    "crossref:title:3c5c5bd9dae966e98323879cebfd72152873c9acba73f1c62e53d4a9ec5d0eed": {
+      "expires_at": "2026-12-05T00:41:07.090154Z",
+      "record": {
+        "abstract": "Abstract This paper presents RUBEZH, a 4-bit coherent photonic digital-to-analog converter (PDAC) designed for silicon-photonic neural-network accelerators. The architecture integrates a 1×4 asymmetric multimode-interference (MMI) splitter, four single-bus microring modulators (MRMs), and a 4×1 MMI combiner on a 270 nm silicon rib-waveguide platform. Single-wavelength coherent field superposition generates 16 linearly spaced power levels while remaining compatible with downstream π-phase encoding for signed optical weights. To eliminate dedicated active phase tuners, this paper introduces an amplitude-phase-aware voltage lookup algorithm that exploits the intrinsic voltage-dependent amplitude and phase responses of the MRMs to determine optimized per-ring drive states. A three-level voltage set of 0 V, 1.24 V, and 2 V achieves 4-bit linearity with a root mean square error (RMSE) of 0.088 LSB and INL within ±0.25 LSB. Non-dominated sorting genetic algorithm II optimization of the MRM doping profile achieves Vπ·L = 0.39 V·cm. Full-system Lumerical INTERCONNECT simulations demonstrate 30 GHz modulation bandwidth, −2.2 dB insertion loss, approximately 39.42 mW total electrical power, and a compact ∼4,600 μm² photonic footprint.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Benjamin Hayden",
+            "orcid": null
+          },
+          {
+            "name": "Hsin-Yuan Lin",
+            "orcid": null
+          },
+          {
+            "name": "Abdolah Amirany",
+            "orcid": null
+          },
+          {
+            "name": "Hamed Dalir",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-11653411/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-11653411/v1",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.21203/rs.3.rs-11653411/v1",
+        "publication_date": "2026-11-23",
+        "title": "RUBEZH: Ring-Based  Unified Binary Encoding Zero-Tuner Highly Linear Coherent Photonic Digital-to-Analog Converter",
+        "venue": null,
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:41:07.090154Z",
+      "status": "found"
+    },
     "crossref:title:3ccacb8dd677ba5b4456491e97033dec11b91c1a66522c5587dd72b1b5a24238": {
       "expires_at": "2026-10-11T01:36:00.991251Z",
       "record": null,
@@ -13316,6 +13576,74 @@
       "expires_at": "2026-09-02T00:32:42.903232Z",
       "record": null,
       "retrieved_at": "2026-08-26T00:32:42.903232Z",
+      "status": "not_found"
+    },
+    "crossref:title:412ac90b755aacb4429094a7135c7e15372d003a599d3261bed0a376f8fb317a": {
+      "expires_at": "2026-12-05T00:40:49.964381Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Li Yang",
+            "orcid": null
+          },
+          {
+            "name": "Lidan Lu",
+            "orcid": null
+          },
+          {
+            "name": "Bofei Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Zhibo Zhang",
+            "orcid": null
+          },
+          {
+            "name": "Yingjie Xu",
+            "orcid": null
+          },
+          {
+            "name": "Guang Chen",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoping Lou",
+            "orcid": null
+          },
+          {
+            "name": "Guanghui Ren",
+            "orcid": null
+          },
+          {
+            "name": "Zheng You",
+            "orcid": null
+          },
+          {
+            "name": "Lianqing Zhu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jlt.2026.3756661",
+        "landing_page": "https://doi.org/10.1109/jlt.2026.3756661",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/jlt.2026.3756661",
+        "publication_date": "2026",
+        "title": "Multilevel Optical Modulation in Ge₂Sb₂Se₄Te₁-Integrated Silicon Racetrack Micro-Ring Resonators for Photonic Computing Applications",
+        "venue": "Journal of Lightwave Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:40:49.964381Z",
+      "status": "found"
+    },
+    "crossref:title:416fa31157aeb32b19efdb947181578c4b79a471fb0cd751d49e29f3f3e0c266": {
+      "expires_at": "2026-12-05T00:40:51.764118Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:40:51.764118Z",
       "status": "not_found"
     },
     "crossref:title:41bcc0fb915a6f50fac62d4684a0c8fb9589ca40350e704731093e2c4861c233": {
@@ -14040,6 +14368,12 @@
       "expires_at": "2026-10-25T01:05:06.924536Z",
       "record": null,
       "retrieved_at": "2026-10-18T01:05:06.924536Z",
+      "status": "not_found"
+    },
+    "crossref:title:57cc8fe919572e62767da59b7cdfbaaf74e1084084850ab1a672cac5fe6537ba": {
+      "expires_at": "2026-12-05T00:40:55.854385Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:40:55.854385Z",
       "status": "not_found"
     },
     "crossref:title:58a4e8946f478ec97ae906eac840dcbedd335e53d76cd06cbd7c9cc445297568": {
@@ -16692,6 +17026,12 @@
       "retrieved_at": "2026-08-04T09:38:23.793147Z",
       "status": "found"
     },
+    "crossref:title:a34bc2ef1a6900650f773c20b9dc56aa33f094ad2cc6c269060748f13c618cfb": {
+      "expires_at": "2026-12-05T00:40:51.083657Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:40:51.083657Z",
+      "status": "not_found"
+    },
     "crossref:title:a396ec686a1d85e6de9546031f46da169be28fcd81379476dff7aaaf238ceeff": {
       "expires_at": "2026-11-08T00:47:12.990369Z",
       "record": null,
@@ -16780,6 +17120,12 @@
       "retrieved_at": "2026-10-25T01:05:18.514222Z",
       "status": "not_found"
     },
+    "crossref:title:a6a0169d83460a6845764ed58d7866303c5ed8eab18c7104999391f74b750d67": {
+      "expires_at": "2026-12-05T00:41:03.283957Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:41:03.283957Z",
+      "status": "not_found"
+    },
     "crossref:title:a6c3f371dc2cf9bcbbc7c639b864b43aefb6dcd8524e1276f6846d6b8008d619": {
       "expires_at": "2026-09-14T01:06:44.729386Z",
       "record": null,
@@ -16860,6 +17206,12 @@
       "expires_at": "2026-11-27T00:40:35.048332Z",
       "record": null,
       "retrieved_at": "2026-11-20T00:40:35.048332Z",
+      "status": "not_found"
+    },
+    "crossref:title:a8beb8be2b2a160270f39fdcb34593c6dc3896d669f85d5f9e59fad512a51726": {
+      "expires_at": "2026-12-05T00:41:06.266657Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:41:06.266657Z",
       "status": "not_found"
     },
     "crossref:title:a90ec3fa0dbc4c4cb5be1355e9d1bae0680f63ef36a279df7b9729a2907aff6d": {
@@ -17246,6 +17598,12 @@
       "expires_at": "2026-10-28T01:00:30.848678Z",
       "record": null,
       "retrieved_at": "2026-10-21T01:00:30.848678Z",
+      "status": "not_found"
+    },
+    "crossref:title:b70c968f4cf4be133a459e6160ce3b8757d909a2d393181689572d426fb82d31": {
+      "expires_at": "2026-12-05T00:40:53.752899Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:40:53.752899Z",
       "status": "not_found"
     },
     "crossref:title:b74c55fe3e48acf68060a76a6a1ecdcb12ff4f7f551473373b4493acdca583f8": {
@@ -18298,6 +18656,12 @@
       "retrieved_at": "2026-11-07T00:39:27.496173Z",
       "status": "not_found"
     },
+    "crossref:title:cf3892dacb2e5cba8bf21ac1aa3d2b000665dafa3cd9c28d71559b5a9b6b951b": {
+      "expires_at": "2026-12-05T00:40:56.697292Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:40:56.697292Z",
+      "status": "not_found"
+    },
     "crossref:title:cf60d9526b6a712182eab4e7921d86b4273e914482f2010b75e8c126259c24f7": {
       "expires_at": "2026-09-16T01:02:01.909031Z",
       "record": {
@@ -18410,6 +18774,56 @@
         "year": 2026
       },
       "retrieved_at": "2026-08-10T00:36:49.160804Z",
+      "status": "found"
+    },
+    "crossref:title:d09c089358da3d5baa552ba36e9f17e614916dacc874d24f9c76a613dcb645dd": {
+      "expires_at": "2026-12-05T00:41:07.714381Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "M. Brown",
+            "orcid": null
+          },
+          {
+            "name": "J. H. Yoon",
+            "orcid": null
+          },
+          {
+            "name": "P. Fontana",
+            "orcid": null
+          },
+          {
+            "name": "H. Singh",
+            "orcid": null
+          },
+          {
+            "name": "W. Sales",
+            "orcid": null
+          },
+          {
+            "name": "T. Gupte",
+            "orcid": null
+          },
+          {
+            "name": "F. Colon",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/iros61738.2026.11776675",
+        "landing_page": "https://doi.org/10.1109/iros61738.2026.11776675",
+        "open_access_url": null,
+        "openalex_id": null,
+        "provider": "crossref",
+        "provider_id": "10.1109/iros61738.2026.11776675",
+        "publication_date": "2026-09",
+        "title": "Homeostatic Learning: Gradient-Free Adaptation via Degeneracy in Sensor-Motor Mappings",
+        "venue": "2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:41:07.714381Z",
       "status": "found"
     },
     "crossref:title:d1b1ab28f3935e5f42207c5a9aec29a9d35877821e8d2473fe6b9c7f7623c7d0": {
@@ -18936,6 +19350,12 @@
       "expires_at": "2026-11-27T00:40:28.806473Z",
       "record": null,
       "retrieved_at": "2026-11-20T00:40:28.806473Z",
+      "status": "not_found"
+    },
+    "crossref:title:ddffb3ee8de214cc7d41787f71de92f1923b0268f83b4e7a1d03f839085434a2": {
+      "expires_at": "2026-12-05T00:41:02.078621Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:41:02.078621Z",
       "status": "not_found"
     },
     "crossref:title:df0eabc2272a1efdf8459e03c70cf8de95893159d272a8b78a6b173f6527b36d": {
@@ -20186,6 +20606,12 @@
       "expires_at": "2026-09-12T00:59:45.758737Z",
       "record": null,
       "retrieved_at": "2026-09-05T00:59:45.758737Z",
+      "status": "not_found"
+    },
+    "crossref:title:fb340d40c31aef19cd32e2a782bdc6d277b51df718403568682586ec0e9a55db": {
+      "expires_at": "2026-12-05T00:40:54.778061Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:40:54.778061Z",
       "status": "not_found"
     },
     "crossref:title:fb5567ce928ccb254bd9abbe3d17fef31eacf1eabc807092d8098e7f272a97c9": {
@@ -24908,6 +25334,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-09-01T01:13:11.503801Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1016/j.ijengsci.2026.104734": {
+      "expires_at": "2026-12-28T00:40:59.980460Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Wenlong Tian",
+            "orcid": "https://orcid.org/0000-0002-3155-4933"
+          },
+          {
+            "name": "Shaosong Chen",
+            "orcid": null
+          },
+          {
+            "name": "Miao Yang",
+            "orcid": null
+          },
+          {
+            "name": "Tianbo Yang",
+            "orcid": null
+          },
+          {
+            "name": "Liang Meng",
+            "orcid": "https://orcid.org/0000-0001-7261-5918"
+          },
+          {
+            "name": "Lehua Qi",
+            "orcid": "https://orcid.org/0000-0001-5657-3658"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1016/j.ijengsci.2026.104734",
+        "landing_page": "https://doi.org/10.1016/j.ijengsci.2026.104734",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7239388044",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7239388044",
+        "publication_date": "2026-11-24",
+        "title": "Differentiable constrained optimization of periodic hard-particle systems with prescribed spatial statistics",
+        "venue": "International Journal of Engineering Science",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:40:59.980460Z",
       "status": "found"
     },
     "openalex:doi:10.1016/j.ijggc.2026.104756": {
@@ -29648,6 +30120,56 @@
       "retrieved_at": "2026-11-05T00:41:14.803789Z",
       "status": "found"
     },
+    "openalex:doi:10.1109/iros61738.2026.11776675": {
+      "expires_at": "2026-12-28T00:41:07.919497Z",
+      "record": {
+        "abstract": "Most robot learning methods rely on gradient-based optimization, requiring differentiable architectures, loss functions, and extensive training data. We introduce homeostatic learning, a fundamentally different approach inspired by Ashby’s ultrastability [8]: a recurrent network with bidirectional connections integrates constraint signals through fast inner dynamics, while an outer sensorimotor loop determines whether current weights produce valid behavior. When neural activations exceed a homeostatic bound, incoming weights are randomly resampled. No gradients are computed, no loss function is optimized, and no pre-collected training data is required.This mechanism works because sensor-motor mappings exhibit degeneracy: many structurally different weight configurations produce equivalent behavior. We provide the first empirical characterization of degeneracy in a robotic control system: five independent trials converged to nearly orthogonal weights (cosine similarity 0.176) yet achieved equivalent performance (coefficient of variation, CV <10%).Validated on visual servoing with a 6-DOF manipulator, homeostatic learning achieves 0.14±0.02° stationary precision, matching a tuned proportional controller (0.15°), while achieving 2.3× lower error with moving targets (3.54° vs 8.04°). The system converges from random weights in ∼9s (n=10) and recovers immediately from complete destruction of all 3,121 network weights. Unlike conventional approaches that separate training from execution, homeostatic learning draws no such distinction—the system adapts continuously during operation, correcting through the sensorimotor loop rather than in a separate training phase.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "M. Brown",
+            "orcid": null
+          },
+          {
+            "name": "J. H. Yoon",
+            "orcid": null
+          },
+          {
+            "name": "P. Fontana",
+            "orcid": null
+          },
+          {
+            "name": "H. Singh",
+            "orcid": null
+          },
+          {
+            "name": "W. Sales",
+            "orcid": null
+          },
+          {
+            "name": "T. Gupte",
+            "orcid": null
+          },
+          {
+            "name": "F. Colon",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/iros61738.2026.11776675",
+        "landing_page": "https://doi.org/10.1109/iros61738.2026.11776675",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7238849741",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7238849741",
+        "publication_date": "2026-09-01",
+        "title": "Homeostatic Learning: Gradient-Free Adaptation via Degeneracy in Sensor-Motor Mappings",
+        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:41:07.919497Z",
+      "status": "found"
+    },
     "openalex:doi:10.1109/jiot.2026.3755277": {
       "expires_at": "2026-12-24T00:38:51.007536Z",
       "record": {
@@ -30096,6 +30618,68 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-24T00:38:49.223625Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1109/jlt.2026.3756661": {
+      "expires_at": "2026-12-28T00:40:50.167942Z",
+      "record": {
+        "abstract": null,
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Li Yang",
+            "orcid": null
+          },
+          {
+            "name": "鹿利单 Lu Lidan",
+            "orcid": null
+          },
+          {
+            "name": "Bofei Zhu",
+            "orcid": null
+          },
+          {
+            "name": "Zhibo Zhang",
+            "orcid": "https://orcid.org/0000-0003-1432-5386"
+          },
+          {
+            "name": "Yingjie Xu",
+            "orcid": "https://orcid.org/0000-0002-8557-7196"
+          },
+          {
+            "name": "Guang Chen",
+            "orcid": null
+          },
+          {
+            "name": "Xiaoping Lou",
+            "orcid": "https://orcid.org/0000-0003-4395-4106"
+          },
+          {
+            "name": "Guanghui Ren",
+            "orcid": "https://orcid.org/0000-0002-9867-8279"
+          },
+          {
+            "name": "Zheng You",
+            "orcid": "https://orcid.org/0000-0002-3941-1371"
+          },
+          {
+            "name": "Lianqing Zhu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1109/jlt.2026.3756661",
+        "landing_page": "https://doi.org/10.1109/jlt.2026.3756661",
+        "open_access_url": null,
+        "openalex_id": "https://openalex.org/W7238779983",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7238779983",
+        "publication_date": "2026-01-01",
+        "title": "Multilevel Optical Modulation in Ge₂Sb₂Se₄Te₁-Integrated Silicon Racetrack Micro-Ring Resonators for Photonic Computing Applications",
+        "venue": "Journal of Lightwave Technology",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:40:50.167942Z",
       "status": "found"
     },
     "openalex:doi:10.1109/jphot.2026.3721155": {
@@ -31558,6 +32142,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-12T00:42:19.600439Z",
+      "status": "found"
+    },
+    "openalex:doi:10.1117/1.apn.6.1.016013": {
+      "expires_at": "2026-12-28T00:41:04.727138Z",
+      "record": {
+        "abstract": "Reconfigurable spectral processing is essential for adaptive photonic systems, yet continuous and bidirectional control remains challenging in compact passive architectures. Here, we introduce a mechanically programmable bidirectional spectral operator based on rotating diffractive neural networks. Two cascaded phase-only layers are co-optimized to implement distinct forward and backward spectral transfer operators, while mechanical rotation provides a continuous geometric control parameter. By incorporating the rotation angle into training, the system learns a deterministic mapping from geometry to spectral response, unifying static filtering, discrete switching, and continuous tuning within a single passive and reciprocal architecture. Experiments using spatial light modulators and two-photon-polymerized devices demonstrate visible-to-near-infrared operation, direction-dependent spectral routing, mechanically switchable responses, continuous angle-to-wavelength mapping, and port-defined isolation exceeding 30 dB in reconfigurable modes. The framework establishes a zero-static-power route to programmable spectral operator engineering for compact diffractive photonics.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "B Li",
+            "orcid": null
+          },
+          {
+            "name": "Jian Lin",
+            "orcid": "https://orcid.org/0000-0002-3455-4672"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.1117/1.apn.6.1.016013",
+        "landing_page": "https://doi.org/10.1117/1.apn.6.1.016013",
+        "open_access_url": "https://doi.org/10.1117/1.apn.6.1.016013",
+        "openalex_id": "https://openalex.org/W7239361565",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7239361565",
+        "publication_date": "2026-11-24",
+        "title": "Mechanically programmable bidirectional spectral operators in rotating diffractive neural networks",
+        "venue": "Advanced Photonics Nexus",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:41:04.727138Z",
       "status": "found"
     },
     "openalex:doi:10.1117/1.apn.6.1.016015": {
@@ -36108,6 +36722,76 @@
       "retrieved_at": "2026-11-16T00:47:36.291869Z",
       "status": "found"
     },
+    "openalex:doi:10.21203/rs.3.rs-11591553/v1": {
+      "expires_at": "2026-12-28T00:40:50.766752Z",
+      "record": {
+        "abstract": "As generative artificial intelligence (AI) advances, next-generation computing faces growing demands on capacity and energy efficiency. Free-space diffractive optical neural networks (ONNs) offering large multidimensional parallelism are potential candidates. Unlike other degrees of freedom (DoFs) such as wavelength and polarization, no technology exists at present in free-space diffractive ONNs that can preserve the modal information and manipulate it in a programmable manner for parallel optical computing. In those ONNs, optical neurons normally encode spatial phase and amplitude information, introducing a distortion which degrades or even destroys the modal information. Although mode-division multiplexing (MDM) based on orthogonal modal basis sets such as orbital angular momentum (OAM) could offer theoretically unbounded parallelism, the modal information degradation inherently limits its applications in parallel optical computing. Yet MDM in diffractive ONNs faces two bottlenecks: modal information is not preserved through optical computation, and the number of simultaneously multiplexed modes remains limited. Inspired by optical frequency combs, we demonstrate an ONN employing a momentum-space matching approach combined with vortex-comb multiplexing—arrays of OAM-carrying Bessel beams—to preserve modal information and enable programmable large-scale parallel processing. Experimentally, our system supports 45 parallel modes and achieves a total parallelism of approximately 35.3k across spatial and modal dimensions (784 spatial positions and 45 spatial modes). We validate this architecture through parallel 25-mode image convolution and 45-mode classification tasks, achieving modal crosstalk values of -14.11 dB and -15.37 dB, and accuracies of 94.0% and 84.2% for MNIST and Fashion-MNIST, respectively. These results establish a framework for enhancing the parallelism of diffractive ONNs, advancing the potential for large-scale multidimensional optical computing.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Wolfram H. P. Pernice",
+            "orcid": "https://orcid.org/0000-0003-4569-4213"
+          },
+          {
+            "name": "Zhe Zhao",
+            "orcid": "https://orcid.org/0000-0002-1819-5518"
+          },
+          {
+            "name": "Frank Brückerhoff‐Plückelmann",
+            "orcid": "https://orcid.org/0009-0009-7713-6735"
+          },
+          {
+            "name": "Xiansong Meng",
+            "orcid": "https://orcid.org/0009-0009-8951-1248"
+          },
+          {
+            "name": "Zhongyu Tang",
+            "orcid": null
+          },
+          {
+            "name": "Rongyang Xu",
+            "orcid": "https://orcid.org/0000-0001-8914-4454"
+          },
+          {
+            "name": "Caghan Ünlüer",
+            "orcid": null
+          },
+          {
+            "name": "Xinyu Ma",
+            "orcid": "https://orcid.org/0000-0002-7406-7289"
+          },
+          {
+            "name": "Zichao Han",
+            "orcid": null
+          },
+          {
+            "name": "Seongmin Jo",
+            "orcid": null
+          },
+          {
+            "name": "Akhil Varri",
+            "orcid": "https://orcid.org/0009-0008-5948-4181"
+          },
+          {
+            "name": "Ivonne Bente",
+            "orcid": "https://orcid.org/0000-0003-3198-4244"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-11591553/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-11591553/v1",
+        "open_access_url": "https://doi.org/10.21203/rs.3.rs-11591553/v1",
+        "openalex_id": "https://openalex.org/W7240088091",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7240088091",
+        "publication_date": "2026-11-26",
+        "title": "Orbital-Angular-Momentum-Preserving Vortex-Comb Multiplexing for Massively Parallel Optical Computing",
+        "venue": "Research Square",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:40:50.766752Z",
+      "status": "found"
+    },
     "openalex:doi:10.21203/rs.3.rs-11642008/v1": {
       "expires_at": "2026-12-20T00:40:28.467164Z",
       "record": {
@@ -36136,6 +36820,44 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-20T00:40:28.467164Z",
+      "status": "found"
+    },
+    "openalex:doi:10.21203/rs.3.rs-11653411/v1": {
+      "expires_at": "2026-12-28T00:41:07.315044Z",
+      "record": {
+        "abstract": "This paper presents RUBEZH, a 4-bit coherent photonic digital-to-analog converter (PDAC) designed for silicon-photonic neural-network accelerators. The architecture integrates a 1×4 asymmetric multimode-interference (MMI) splitter, four single-bus microring modulators (MRMs), and a 4×1 MMI combiner on a 270 nm silicon rib-waveguide platform. Single-wavelength coherent field superposition generates 16 linearly spaced power levels while remaining compatible with downstream π-phase encoding for signed optical weights. To eliminate dedicated active phase tuners, this paper introduces an amplitude-phase-aware voltage lookup algorithm that exploits the intrinsic voltage-dependent amplitude and phase responses of the MRMs to determine optimized per-ring drive states. A three-level voltage set of 0 V, 1.24 V, and 2 V achieves 4-bit linearity with a root mean square error (RMSE) of 0.088 LSB and INL within ±0.25 LSB. Non-dominated sorting genetic algorithm II optimization of the MRM doping profile achieves Vπ·L = 0.39 V·cm. Full-system Lumerical INTERCONNECT simulations demonstrate 30 GHz modulation bandwidth, −2.2 dB insertion loss, approximately 39.42 mW total electrical power, and a compact ∼4,600 μm² photonic footprint.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Benjamin Hayden",
+            "orcid": null
+          },
+          {
+            "name": "Hsin-Yuan Lin",
+            "orcid": null
+          },
+          {
+            "name": "Abdolah Amirany",
+            "orcid": "https://orcid.org/0000-0003-0298-6945"
+          },
+          {
+            "name": "Hamed Dalir",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.21203/rs.3.rs-11653411/v1",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-11653411/v1",
+        "open_access_url": "https://doi.org/10.21203/rs.3.rs-11653411/v1",
+        "openalex_id": "https://openalex.org/W7238860578",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7238860578",
+        "publication_date": "2026-11-23",
+        "title": "RUBEZH: Ring-Based Unified Binary Encoding Zero-Tuner Highly Linear Coherent Photonic Digital-to-Analog Converter",
+        "venue": "Research Square",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:41:07.315044Z",
       "status": "found"
     },
     "openalex:doi:10.21595/jve.2026.26644": {
@@ -37230,6 +37952,64 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-31T00:40:10.529076Z",
+      "status": "found"
+    },
+    "openalex:doi:10.3390/s26237488": {
+      "expires_at": "2026-12-28T00:41:04.281916Z",
+      "record": {
+        "abstract": "The planar integrated structure optical diffraction neural network (PDNN) replaces the traditional axial discrete optical system with a horizontally integrated architecture, which has significant advantages in system miniaturization and integration improvement. However, the discrete characteristics of its components introduce high-order diffraction effects, leading to problems such as channel crosstalk, decreased diffraction efficiency, and reduced target recognition accuracy. Therefore, this article proposes a crosstalk-suppressed planar integrated structure optical diffraction neural network (CS-PDNN), which utilizes the angular spectrum method to analyze the spatial distribution characteristics of high-order diffraction. By reasonably designing the system structural parameters, diffraction crosstalk is effectively suppressed. At the same time, a scientific evaluation function combining softmax cross-entropy (SCE) and mean square error (MSE) was constructed, achieving both high accuracy and high diffraction efficiency in target recognition. The experimental results verify the effectiveness of this method. The results of this research have important value in promoting the wide application of PDNN in edge computing, holographic imaging, optical communication, and other fields.",
+        "arxiv_id": null,
+        "authors": [
+          {
+            "name": "Haidong Xu",
+            "orcid": "https://orcid.org/0009-0001-5442-8710"
+          },
+          {
+            "name": "Ping Xu",
+            "orcid": "https://orcid.org/0000-0002-6978-6182"
+          },
+          {
+            "name": "Tuo Yang",
+            "orcid": "https://orcid.org/0000-0002-5661-5157"
+          },
+          {
+            "name": "Shuai Geng",
+            "orcid": null
+          },
+          {
+            "name": "黄海漩 Huang Haixuan",
+            "orcid": null
+          },
+          {
+            "name": "张旭琳 Zhang Xulin",
+            "orcid": null
+          },
+          {
+            "name": "Yuanyang Wu",
+            "orcid": null
+          },
+          {
+            "name": "Yunpeng Cui",
+            "orcid": null
+          },
+          {
+            "name": "Yuchao Ma",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.3390/s26237488",
+        "landing_page": "https://doi.org/10.3390/s26237488",
+        "open_access_url": "https://doi.org/10.3390/s26237488",
+        "openalex_id": "https://openalex.org/W7240082165",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7240082165",
+        "publication_date": "2026-11-26",
+        "title": "Research on Target Recognition Based on Planar Integrated Structure Optical Diffraction Neural Network",
+        "venue": "Sensors",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:41:04.281916Z",
       "status": "found"
     },
     "openalex:doi:10.3788/irla20250523": {
@@ -40429,6 +41209,44 @@
       "retrieved_at": "2026-08-31T01:07:04.854075Z",
       "status": "not_found"
     },
+    "openalex:title:1d183850b04d1a3e8a9746bdcecbf434c2a81dd0bee7d218ae7cd270236eee0a": {
+      "expires_at": "2026-12-05T00:40:53.251433Z",
+      "record": {
+        "abstract": "Hybrid physics-neural simulators embed neural networks in partial differential equation (PDE) solvers to model unresolved subgrid dynamics while preserving resolved physics and conservation laws. Because closure outputs feed back across time steps, single-step offline regression does not directly minimize multi-step rollout error, motivating online trajectory optimization. Solver backpropagation through time (BPTT) is the standard online solution when solver derivatives are available, yet many operational Fortran and C/C++ simulators expose only non-differentiable, forward-only interfaces. We introduce FORGE (Forward-Only Response and Gauss-Newton Estimation), an online framework that trains embedded networks from forward runs alone by decoupling exact network derivatives from black-box simulator dynamics. Stage I warms up the rollout via a low-dimensional Gauss-Newton step along output-orthonormal weight directions, canceling multi-layer feature drift via a final-layer correction. Stage II perturbs spatial output fields to fit a gain-bounded causal linear response operator across rollout steps, solves for regularized target outputs, and updates all weights via network backpropagation. Across five 2D and 3D benchmarks spanning phase separation, reaction-diffusion, fluid and MHD turbulence, and ocean circulation, FORGE outperforms gradient-free, reinforcement-learning, and emulator-based baselines, cutting coarse-solver test mean squared error (MSE) by 50%-96% in 2D and 70% in 3D, outperforming the strongest forward-only baseline by 16%-69%, and recovering 88%-98% of Solver BPTT's gains. Code is available at https://github.com/ChiyodaMomo01/FORGE.",
+        "arxiv_id": "https://arxiv.org/abs/2611.31964",
+        "authors": [
+          {
+            "name": "Ruiqi Shu",
+            "orcid": "https://orcid.org/0009-0007-3665-8882"
+          },
+          {
+            "name": "Tianrun Gao",
+            "orcid": "https://orcid.org/0009-0002-6063-1034"
+          },
+          {
+            "name": "Haomin Wen",
+            "orcid": "https://orcid.org/0000-0001-6130-126X"
+          },
+          {
+            "name": "Xiaomeng Huang",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.31964",
+        "landing_page": "https://arxiv.org/abs/2611.31964",
+        "open_access_url": "https://arxiv.org/abs/2611.31964",
+        "openalex_id": "https://openalex.org/W7239807700",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7239807700",
+        "publication_date": "2026-11-24",
+        "title": "Sounding the Black Box: Online Training of Embedded Neural Networks in Forward-Only Physical Simulators",
+        "venue": "arXiv",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:40:53.251433Z",
+      "status": "found"
+    },
     "openalex:title:1d5451a6cae49ac385007093dac0fe736251c2dd8c460617ece08dbc65ff6841": {
       "expires_at": "2026-09-02T00:32:38.251477Z",
       "record": null,
@@ -40793,6 +41611,12 @@
       "retrieved_at": "2026-11-15T00:44:06.833682Z",
       "status": "found"
     },
+    "openalex:title:28b6cb5b6191a7d5e96b326fcf93b691f9e4b0183c0835c9ac1a3883ed5f8318": {
+      "expires_at": "2026-12-05T00:40:59.306691Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:40:59.306691Z",
+      "status": "not_found"
+    },
     "openalex:title:2abd8358c5e135ef185b3b78ed3f5475c359d1af107f01f939b67a77f3137e95": {
       "expires_at": "2026-12-04T00:43:06.139728Z",
       "record": null,
@@ -40885,6 +41709,52 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-23T01:02:36.046039Z",
+      "status": "found"
+    },
+    "openalex:title:2d79a26d979b6850dca004b85f4fb8830e44270a95deaba0280c2f22f17d0af5": {
+      "expires_at": "2026-12-05T00:41:05.746129Z",
+      "record": {
+        "abstract": "Differentially private zeroth-order optimization (DPZO) is a promising approach for privacy-preserving LLM fine-tuning, offering exceptional memory efficiency. However, its utility is highly sensitive to the clipping threshold $C$, a key DP-specific hyperparameter that controls the trade-off between noise injection and clipping bias. Existing DPZO methods typically tune $C$ by repeatedly evaluating candidate values and reporting the best result, which is computationally expensive and incurs additional privacy cost that must be accounted for under DP. Designing a practical DP procedure for selecting $C$ in DPZO is challenging because no fixed choice performs well across settings, straightforward search-based strategies suffer from poor utility and efficiency, and existing clipping-selection methods for DPSGD do not transfer well to DPZO due to its fundamentally different error regime. In this paper, we propose AutoClip-DPZO, a practical DP method that automatically and efficiently selects $C$ for DPZO. Our key idea is to avoid fine-tuning-based search by reducing clipping selection to a private quantile estimation problem, where the target quantile depends only on public privacy and training parameters. To derive this selection rule, we develop a novel characterization of DPZO error as a function of $C$ that captures both noise variance and clipping bias while remaining accurate and easy to optimize. Experiments show that AutoClip-DPZO achieves utility comparable to that obtained with the optimal $C$, while avoiding repeated fine-tuning-based search and incurring negligible additional overhead. Moreover, AutoClip-DPZO does not rely on sensitive hyperparameters.",
+        "arxiv_id": "https://arxiv.org/abs/2611.30352",
+        "authors": [
+          {
+            "name": "Xinghe Chen",
+            "orcid": null
+          },
+          {
+            "name": "Haichao Sha",
+            "orcid": "https://orcid.org/0009-0000-9449-6382"
+          },
+          {
+            "name": "Zihao Wang",
+            "orcid": null
+          },
+          {
+            "name": "Xiaokui Xiao",
+            "orcid": null
+          },
+          {
+            "name": "Xiaofeng Wang",
+            "orcid": null
+          },
+          {
+            "name": "Wei Dong",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.30352",
+        "landing_page": "https://arxiv.org/abs/2611.30352",
+        "open_access_url": "https://arxiv.org/abs/2611.30352",
+        "openalex_id": "https://openalex.org/W7239404875",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7239404875",
+        "publication_date": "2026-11-23",
+        "title": "AutoClip-DPZO: Practical Private Clipping Selection for Differentially Private Zeroth-Order LLM Fine-Tuning",
+        "venue": "arXiv",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:41:05.746129Z",
       "status": "found"
     },
     "openalex:title:2de09ba9fe45efda4e5eb9882bf3b648703879248f4b14bc847cc7ee73ec9eb6": {
@@ -41625,6 +42495,12 @@
       "retrieved_at": "2026-08-26T00:32:43.679530Z",
       "status": "not_found"
     },
+    "openalex:title:416fa31157aeb32b19efdb947181578c4b79a471fb0cd751d49e29f3f3e0c266": {
+      "expires_at": "2026-12-05T00:40:52.203843Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:40:52.203843Z",
+      "status": "not_found"
+    },
     "openalex:title:41bcc0fb915a6f50fac62d4684a0c8fb9589ca40350e704731093e2c4861c233": {
       "expires_at": "2026-11-04T00:48:13.321742Z",
       "record": null,
@@ -42246,6 +43122,12 @@
       },
       "retrieved_at": "2026-10-18T01:05:07.357524Z",
       "status": "found"
+    },
+    "openalex:title:57cc8fe919572e62767da59b7cdfbaaf74e1084084850ab1a672cac5fe6537ba": {
+      "expires_at": "2026-12-05T00:40:56.279976Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:40:56.279976Z",
+      "status": "not_found"
     },
     "openalex:title:58a4e8946f478ec97ae906eac840dcbedd335e53d76cd06cbd7c9cc445297568": {
       "expires_at": "2026-08-16T00:36:12.468945Z",
@@ -44515,6 +45397,40 @@
       "retrieved_at": "2026-10-25T01:05:10.651081Z",
       "status": "found"
     },
+    "openalex:title:a34bc2ef1a6900650f773c20b9dc56aa33f094ad2cc6c269060748f13c618cfb": {
+      "expires_at": "2026-12-05T00:40:51.467166Z",
+      "record": {
+        "abstract": "Zeroth-order (ZO) optimization provides a computationally efficient approach to fine-tuning large language models (LLMs), but conventional methods typically rely on isotropic perturbations that ignore the anisotropic structure of neural-network parameter spaces. We introduce Preconditioned Activation-Metric Subspace (PAMS), a ZO optimization framework that uses forward-pass activation statistics to construct structured, layer-wise perturbation geometries without computing gradients or forming dense curvature matrices. PAMS tracks a low-rank approximation of the dominant activation subspace and its associated spectrum online, and uses the spectrum to softly reweight perturbation variance while preserving exploration in directions outside the retained subspace. A trace normalization separates the perturbation geometry from its overall scale, enabling consistent perturbation magnitudes across layers. We show theoretically that the resulting perturbation covariance induces right-side preconditioning of the gradient of the corresponding Gaussian-smoothed objective. We further characterize the estimator's smoothing bias and second moment and derive a nonconvex convergence guarantee that captures the effects of the perturbation geometry and smoothing radius. The proposed low-rank tracking procedure requires $\\mathcal{O}(n_l r)$ persistent memory for a layer with input dimension nl and retained rank r, avoiding the $\\mathcal{O}(n_l^2)$ memory required by a dense activation covariance. Experiments on transformer-based language-model fine-tuning tasks across GLUE and SuperGLUE demonstrate that PAMS improves the effectiveness and stability of zeroth-order optimization while retaining its gradient-free and objective-evaluation-based advantages.",
+        "arxiv_id": "https://arxiv.org/abs/2611.28476",
+        "authors": [
+          {
+            "name": "Pradeep Kumar Ragu Chanthar",
+            "orcid": null
+          },
+          {
+            "name": "Saksham Sahai Srivastava",
+            "orcid": "https://orcid.org/0000-0001-7628-9849"
+          },
+          {
+            "name": "Jaewoo Lee",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.28476",
+        "landing_page": "https://arxiv.org/abs/2611.28476",
+        "open_access_url": "https://arxiv.org/abs/2611.28476",
+        "openalex_id": "https://openalex.org/W7239344571",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7239344571",
+        "publication_date": "2026-11-21",
+        "title": "PAMS: Preconditioned Activation-Metric Subspace for Zeroth-Order LLM Fine-tuning",
+        "venue": "arXiv",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:40:51.467166Z",
+      "status": "found"
+    },
     "openalex:title:a396ec686a1d85e6de9546031f46da169be28fcd81379476dff7aaaf238ceeff": {
       "expires_at": "2026-11-08T00:47:13.549429Z",
       "record": null,
@@ -44651,6 +45567,32 @@
         "year": 2026
       },
       "retrieved_at": "2026-10-25T01:05:19.056281Z",
+      "status": "found"
+    },
+    "openalex:title:a6a0169d83460a6845764ed58d7866303c5ed8eab18c7104999391f74b750d67": {
+      "expires_at": "2026-12-05T00:41:03.730361Z",
+      "record": {
+        "abstract": "This paper presents a federated optimization framework for dynamic consensus in homogeneous multi-agent systems. The underlying problem is challenged by the communication graph's spectral properties, which induce spatial heterogeneity and complicate decentralized control even when the dynamics of the agents are completely known. The problem is addressed in this paper by bridging distributed control theory with federated policy gradients. Accordingly, a comprehensive optimization landscape for dynamic consensus is established through a modal decomposition formulation. Specifically, a parameterized suboptimality bound is characterized that explicitly decouples the true aggregate policy gradient from the network covariance mismatch. Building on this formulation, sufficient conditions based on the graph's Laplacian spectrum are derived to recover exact gradient dominance, which guarantees convergence to the global consensus policy and establishes a lower bound on the achievable dominance coefficient. Furthermore, a Federated model-free consensus algorithm is proposed that utilizes zeroth-order exploration alongside a bisection-based discount factor annealing mechanism, successfully eliminating the need for an initial stabilizing policy. This approach achieves linear global convergence for policy optimization subroutines while maintaining strictly bounded outer iterations until dynamic consensus is achieved. Through extensive simulation studies and comparative feasibility analyses across diverse network topologies, it is demonstrated that the proposed federated approach consistently outperforms existing model-based and data-driven separation-based techniques.",
+        "arxiv_id": "https://arxiv.org/abs/2611.31804",
+        "authors": [
+          {
+            "name": "Maryam Babazadeh",
+            "orcid": "https://orcid.org/0000-0002-4749-8745"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.31804",
+        "landing_page": "https://arxiv.org/abs/2611.31804",
+        "open_access_url": "https://arxiv.org/abs/2611.31804",
+        "openalex_id": "https://openalex.org/W7239837211",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7239837211",
+        "publication_date": "2026-11-24",
+        "title": "Federated Policy Gradient for Dynamic Consensus: Gradient Dominance and Topological Bounds",
+        "venue": "arXiv",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:41:03.730361Z",
       "status": "found"
     },
     "openalex:title:a6c3f371dc2cf9bcbbc7c639b864b43aefb6dcd8524e1276f6846d6b8008d619": {
@@ -44815,6 +45757,36 @@
         "year": 2026
       },
       "retrieved_at": "2026-11-20T00:40:35.611275Z",
+      "status": "found"
+    },
+    "openalex:title:a8beb8be2b2a160270f39fdcb34593c6dc3896d669f85d5f9e59fad512a51726": {
+      "expires_at": "2026-12-05T00:41:06.773264Z",
+      "record": {
+        "abstract": "Derivative-free optimization (DFO) methods are popular for solving stochastic optimization problems, with model-based methods being a practically successful class of DFO algorithm. In most existing works, sufficiently accurate objective estimates (used for model construction and to test for sufficient decrease) are constructed by taking a sample mean of several noisy evaluations. In this work, we demonstrate that using robust estimators (specifically the median, trimmed mean, and median-of-means) can improve the sample complexity of model-based DFO methods. Our numerical results demonstrate that robust estimators are also a practical choice for algorithm implementations.",
+        "arxiv_id": "https://arxiv.org/abs/2611.31853",
+        "authors": [
+          {
+            "name": "Fangyu Liu",
+            "orcid": null
+          },
+          {
+            "name": "Lindon Roberts",
+            "orcid": "https://orcid.org/0000-0001-6438-9703"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.31853",
+        "landing_page": "https://arxiv.org/abs/2611.31853",
+        "open_access_url": "https://arxiv.org/abs/2611.31853",
+        "openalex_id": "https://openalex.org/W7239894008",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7239894008",
+        "publication_date": "2026-11-24",
+        "title": "Robust Estimators for Stochastic Model-Based Derivative-Free Optimization",
+        "venue": "arXiv",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:41:06.773264Z",
       "status": "found"
     },
     "openalex:title:a90ec3fa0dbc4c4cb5be1355e9d1bae0680f63ef36a279df7b9729a2907aff6d": {
@@ -45441,6 +46413,56 @@
         "year": null
       },
       "retrieved_at": "2026-10-21T01:00:31.496198Z",
+      "status": "found"
+    },
+    "openalex:title:b70c968f4cf4be133a459e6160ce3b8757d909a2d393181689572d426fb82d31": {
+      "expires_at": "2026-12-05T00:40:54.339217Z",
+      "record": {
+        "abstract": "Converting pretrained softmax Transformers to efficient attention often causes substantial performance degradation, while recovery typically requires costly fine-tuning. We propose ET (Efficient Transfer), a framework for high-fidelity attention conversion with minimal optimization cost. ET combines exact local and shared-key softmax attention with a mean-anchored, scan-free global linear correction and adaptive gating, achieving linear complexity in sequence length. To preserve pretrained knowledge, ET freezes pretrained weights and calibrates only newly introduced parameters through alternating least squares on a small set of unlabeled samples, without gradient updates. On ImageNet-1K, ET achieves 79.64% and 81.55% top-1 accuracy on DeiT-S and DeiT-B, respectively, within 0.25 percentage points of their softmax teachers. At $768\\times768$, ET outperforms T$^5$ by 3.59 percentage points at comparable inference FLOPs, without gradient-based fine-tuning. On DiT-XL/2, ET achieves an FID-50K of 2.59 with only 250 LoRA updates. On Stable Diffusion 3.5 Medium, ET matches the teacher's GenEval score at 1K resolution with just 0.73 A100 GPU-hours of gradient-free conversion and a 1.39$\\times$ inference speedup.",
+        "arxiv_id": "https://arxiv.org/abs/2611.31770",
+        "authors": [
+          {
+            "name": "G.F. Guo",
+            "orcid": "https://orcid.org/0009-0005-1270-3736"
+          },
+          {
+            "name": "Xiaoqian Lu",
+            "orcid": null
+          },
+          {
+            "name": "Linsey Xiaolin Pang",
+            "orcid": "https://orcid.org/0000-0002-4784-9795"
+          },
+          {
+            "name": "Weiran Yao",
+            "orcid": "https://orcid.org/0000-0002-6570-3888"
+          },
+          {
+            "name": "Haolin Chen",
+            "orcid": null
+          },
+          {
+            "name": "Long Cheng",
+            "orcid": null
+          },
+          {
+            "name": "Kunpeng Liu",
+            "orcid": null
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.31770",
+        "landing_page": "https://arxiv.org/abs/2611.31770",
+        "open_access_url": "https://arxiv.org/abs/2611.31770",
+        "openalex_id": "https://openalex.org/W7239723976",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7239723976",
+        "publication_date": "2026-11-24",
+        "title": "ET: Efficient Transfer from Softmax to Hybrid Attention",
+        "venue": "arXiv",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:40:54.339217Z",
       "status": "found"
     },
     "openalex:title:b74c55fe3e48acf68060a76a6a1ecdcb12ff4f7f551473373b4493acdca583f8": {
@@ -46361,6 +47383,12 @@
       "retrieved_at": "2026-11-07T00:39:27.903059Z",
       "status": "not_found"
     },
+    "openalex:title:cf3892dacb2e5cba8bf21ac1aa3d2b000665dafa3cd9c28d71559b5a9b6b951b": {
+      "expires_at": "2026-12-05T00:40:57.031060Z",
+      "record": null,
+      "retrieved_at": "2026-11-28T00:40:57.031060Z",
+      "status": "not_found"
+    },
     "openalex:title:cf6b438b2ff07213709b8a0da591f1a1b55b8c24ea4d4d84e306843c2eac2578": {
       "expires_at": "2026-11-24T00:42:24.554638Z",
       "record": {
@@ -46762,6 +47790,44 @@
       "record": null,
       "retrieved_at": "2026-11-20T00:40:29.473602Z",
       "status": "not_found"
+    },
+    "openalex:title:ddffb3ee8de214cc7d41787f71de92f1923b0268f83b4e7a1d03f839085434a2": {
+      "expires_at": "2026-12-05T00:41:02.506564Z",
+      "record": {
+        "abstract": "First-order reinforcement learning, such as Group Relative Policy Optimization (GRPO), is widely used to post-train Vision-Language Models (VLMs) for multimodal reasoning. However, it incurs heavy memory and system overhead from backpropagation, optimizer states, and a reference model. Forward-only zeroth-order (ZO) methods, such as Evolution Strategies (ES) and its top-k variant Augmented Random Search (ARS), avoid these overheads via reward-guided weight perturbations, yet remain unexplored for VLM reasoning. We find that directly applying standard ES or vanilla ARS to VLMs suffers from two fundamental failure modes: (i) patch-grid overfitting, fitting fragile grid-specific visual token artifacts while ignoring spatial invariants, and (ii) catastrophic forgetting, degrading general perception and out-of-distribution (OOD) tasks due to unbounded high-rank parameter and policy drift. We propose ARS-VLM, a visually aligned Augmented Random Search framework for forward-only VLM post-training. First, ARS-VLM extracts a contrastive visual basis from bilinearly paired cross-grid views, concentrating perturbations on shared visual signals while suppressing patch-shift artifacts. Second, ARS-VLM anchors shallow visual-fusion layers with a soft subspace prior while freeing deep reasoning layers, restraining policy drift without a reference model. Third, ARS-VLM scores perturbations on paired views to discard view-fragile directions during top-k selection. We evaluate ARS-VLM on Qwen3-VL-4B and Qwen3-VL-8B on multimodal reasoning tasks. On 8B, ARS-VLM reaches 61.0% validation accuracy in 20 steps versus 150 for GRPO (7.5x fewer optimization steps) and avoids the late OOD collapse of vanilla ARS and ES. Moreover, ARS-VLM achieves 75.41% single-view micro accuracy across seven OOD vision reasoning benchmarks, compared with 75.31% for full-parameter GRPO, using forward-only post-training.",
+        "arxiv_id": "https://arxiv.org/abs/2611.32147",
+        "authors": [
+          {
+            "name": "Xiangwei Wang",
+            "orcid": null
+          },
+          {
+            "name": "Jianyuan Lin",
+            "orcid": null
+          },
+          {
+            "name": "Peng Wang",
+            "orcid": null
+          },
+          {
+            "name": "Saman Kumara Halgamuge",
+            "orcid": "https://orcid.org/0000-0002-2536-4930"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.32147",
+        "landing_page": "https://arxiv.org/abs/2611.32147",
+        "open_access_url": "https://arxiv.org/abs/2611.32147",
+        "openalex_id": "https://openalex.org/W7239719831",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7239719831",
+        "publication_date": "2026-11-24",
+        "title": "ARS-VLM: Visually Aligned Augmented Random Search for Vision-Language Models",
+        "venue": "arXiv",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:41:02.506564Z",
+      "status": "found"
     },
     "openalex:title:df0eabc2272a1efdf8459e03c70cf8de95893159d272a8b78a6b173f6527b36d": {
       "expires_at": "2026-11-22T00:44:10.198309Z",
@@ -47558,6 +48624,44 @@
       "record": null,
       "retrieved_at": "2026-09-05T00:59:46.431467Z",
       "status": "not_found"
+    },
+    "openalex:title:fb340d40c31aef19cd32e2a782bdc6d277b51df718403568682586ec0e9a55db": {
+      "expires_at": "2026-12-05T00:40:55.400178Z",
+      "record": {
+        "abstract": "Network topology optimization (NTO) can reduce redispatch cost by rerouting power flows in transmission systems. To approach NTO, a complex combinatorial problem, gradient-free optimization algorithms that leverage diversity have shown promising results. These algorithms rely on frequent evaluations of candidate topologies by fitness functions. Recent work has shown that fast DC power flow-based fitness functions can serve this purpose. However, DC power flow fitness functions can misjudge the cost and feasibility of topologies, potentially leading to wrong operational decisions. Understanding the impact of fitness function accuracy on optimization performance is therefore crucial. This study compares the optimization performance of four fitness functions based on DC and AC power flow and on DC and AC optimal power flow. Furthermore, we propose a ranking-based metric to estimate the optimization performance of a fitness function on a curated dataset. Case studies cover the IEEE 118-bus case with 50 congested operating points and a 793-bus case for validation. Results show that optimal power flow-based fitness functions perform better in the optimization loop than power flow-based ones. Additionally, the results indicate that the metric can predict the optimization performance order of the fitness functions, but only if the distribution shift between the curated dataset and the search path of the optimization is small.",
+        "arxiv_id": "https://arxiv.org/abs/2611.28915",
+        "authors": [
+          {
+            "name": "Paul Bannmüller",
+            "orcid": null
+          },
+          {
+            "name": "Olayiwola Arowolo",
+            "orcid": "https://orcid.org/0000-0002-9948-1013"
+          },
+          {
+            "name": "Jochen Stiasny",
+            "orcid": "https://orcid.org/0000-0001-9151-8363"
+          },
+          {
+            "name": "Jochen  Lorenz Cremer",
+            "orcid": "https://orcid.org/0000-0001-9284-5083"
+          }
+        ],
+        "cited_by_count": 0,
+        "doi": "10.48550/arxiv.2611.28915",
+        "landing_page": "https://arxiv.org/abs/2611.28915",
+        "open_access_url": "https://arxiv.org/abs/2611.28915",
+        "openalex_id": "https://openalex.org/W7239371251",
+        "provider": "openalex",
+        "provider_id": "https://openalex.org/W7239371251",
+        "publication_date": "2026-11-21",
+        "title": "Which Model Belongs in the Loop? Evaluating Fitness Functions for Network Topology Optimization with a Quality-Diversity Algorithm",
+        "venue": "arXiv",
+        "year": 2026
+      },
+      "retrieved_at": "2026-11-28T00:40:55.400178Z",
+      "status": "found"
     },
     "openalex:title:fb5567ce928ccb254bd9abbe3d17fef31eacf1eabc807092d8098e7f272a97c9": {
       "expires_at": "2026-12-01T00:38:49.885170Z",

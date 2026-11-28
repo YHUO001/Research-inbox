@@ -1,10 +1,18 @@
 # Research Inbox 长期知识库索引
 
-- 论文数：`141`
-- 更新时间：`2026-11-25T00:44:03.704161Z`
+- 论文数：`144`
+- 更新时间：`2026-11-28T00:42:05.769637Z`
 - 正文原文：`不保存`
 
 ## optical-neural-networks
+
+### Mechanically programmable bidirectional spectral operators in rotating diffractive neural networks
+
+- DOI/链接：[10.1117/1.apn.6.1.016013](https://doi.org/10.1117/1.apn.6.1.016013)
+- 期刊/年份：Advanced Photonics Nexus，2026
+- 摘要日期：`2026-11-28`
+- 候选 ID：`be4f32539948d47eadbd18c0`
+- 标签：application:方向相关光谱路由, application:机械可切换光谱响应, application:端口定义光学隔离, application:连续角度-波长映射, architecture:unclear, hardware_validation:mixed, project:optical-neural-networks
 
 ### Breaking the cascade: compact nonlinear optical computing with single-layer encoder–decoder co-localization
 
@@ -775,6 +783,22 @@ Perception
 - 标签：未提供
 
 ## zeroth-order-optimization
+
+### PAMS: Preconditioned Activation-Metric Subspace for Zeroth-Order LLM Fine-tuning
+
+- DOI/链接：[10.48550/arxiv.2611.28476](https://doi.org/10.48550/arxiv.2611.28476)
+- 期刊/年份：arXiv，2026
+- 摘要日期：`2026-11-28`
+- 候选 ID：`2b7ef6139e7a54382d357653`
+- 标签：project:zeroth-order-optimization, zo:forward_only, zo:low_rank_or_subspace, zo:query_reuse, zo:structured_perturbation
+
+### AutoClip-DPZO: Practical Private Clipping Selection for Differentially Private Zeroth-Order LLM Fine-Tuning
+
+- DOI/链接：[10.48550/arxiv.2611.30352](https://doi.org/10.48550/arxiv.2611.30352)
+- 期刊/年份：arXiv，2026
+- 摘要日期：`2026-11-28`
+- 候选 ID：`cc966b67931977a5d14f4380`
+- 标签：project:zeroth-order-optimization
 
 ### Dune: A Zeroth-Order Optimizer with Time-Conditioned Historical Error Regression for VLA Test-Time Adaptation
 
